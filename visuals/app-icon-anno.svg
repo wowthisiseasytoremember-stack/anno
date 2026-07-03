@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Anno app icon concept</title>
+  <desc id="desc">A single illuminated gold capital A on a warm near-black background.</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#211b13"/>
+      <stop offset="72%" stop-color="#13110E"/>
+      <stop offset="100%" stop-color="#0f0d0b"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="20%" y1="8%" x2="78%" y2="94%">
+      <stop offset="0%" stop-color="#F0D989"/>
+      <stop offset="24%" stop-color="#C9A84C"/>
+      <stop offset="52%" stop-color="#8B7030"/>
+      <stop offset="76%" stop-color="#D9C06E"/>
+      <stop offset="100%" stop-color="#A9822F"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#000000" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#D9C06E" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bgGlow)"/>
+  <rect x="66" y="66" width="892" height="892" rx="180" fill="none" stroke="#2E2A24" stroke-width="3"/>
+  <path d="M514 185
+           C538 261 575 367 620 495
+           C665 623 711 740 757 847
+           L641 847
+           C629 810 616 773 604 735
+           L419 735
+           C406 773 393 810 381 847
+           L267 847
+           C315 738 362 620 407 494
+           C452 368 488 265 514 185Z
+           M449 644
+           L575 644
+           C553 578 532 514 512 451
+           C491 516 470 580 449 644Z"
+        fill="url(#gold)" filter="url(#softShadow)"/>
+  <path d="M389 363 C322 333 303 276 331 233 C354 198 404 198 441 229
+           C385 237 367 274 384 309 C397 336 429 350 473 350"
+        fill="none" stroke="#D9C06E" stroke-width="15" stroke-linecap="round"/>
+  <path d="M643 373 C718 352 756 388 753 438 C750 488 701 520 634 493
+           C691 487 714 454 699 426 C688 405 665 394 629 396"
+        fill="none" stroke="#D9C06E" stroke-width="13" stroke-linecap="round"/>
+  <path d="M515 259 C493 315 473 374 456 434 M513 259 C535 317 556 378 575 439"
+        fill="none" stroke="#F4DF9E" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="512" cy="706" r="9" fill="#F0D989" opacity="0.85"/>
+</svg>
+

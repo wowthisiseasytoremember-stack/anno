@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="932" viewBox="0 0 430 932" role="img" aria-labelledby="title desc">
+  <title id="title">Anno pilgrimage map concept</title>
+  <desc id="desc">Dark mode pilgrimage map with gold route pins and a Rome route sheet.</desc>
+  <defs>
+    <radialGradient id="sea" cx="42%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#203247"/>
+      <stop offset="55%" stop-color="#111716"/>
+      <stop offset="100%" stop-color="#0B0A08"/>
+    </radialGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#433B2B"/>
+      <stop offset="100%" stop-color="#17140F"/>
+    </linearGradient>
+    <filter id="glow">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#C9A84C" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="430" height="932" rx="48" fill="#050505"/>
+  <rect x="13" y="14" width="404" height="904" rx="42" fill="url(#sea)"/>
+  <path d="M-20 320 C70 240 130 240 190 288 C270 350 330 318 462 255 L462 0 L-20 0Z" fill="url(#land)" opacity="0.85"/>
+  <path d="M-10 620 C75 548 143 552 205 618 C286 704 337 661 457 604 L457 932 L-10 932Z" fill="url(#land)" opacity="0.78"/>
+  <path d="M80 414 C146 360 192 364 240 432 C275 483 314 488 366 452" fill="none" stroke="#D9C06E" stroke-width="2" stroke-dasharray="5 8" opacity="0.75"/>
+  <path d="M136 562 C174 504 221 479 274 492 C324 504 348 544 370 592" fill="none" stroke="#D9C06E" stroke-width="2" stroke-dasharray="5 8" opacity="0.55"/>
+  <text x="214" y="96" fill="#C9A84C" font-family="Georgia, serif" font-size="30" text-anchor="middle" letter-spacing="6">ANNO</text>
+  <text x="214" y="120" fill="#9B9085" font-family="SF Pro, -apple-system, sans-serif" font-size="11" text-anchor="middle" letter-spacing="2">PILGRIMAGE MAP</text>
+
+  <g fill="#C9A84C" stroke="#1F1B16" stroke-width="4" filter="url(#glow)">
+    <circle cx="118" cy="412" r="13"/>
+    <circle cx="203" cy="377" r="13"/>
+    <circle cx="273" cy="492" r="13"/>
+    <circle cx="337" cy="546" r="13"/>
+    <circle cx="152" cy="604" r="13"/>
+  </g>
+  <g fill="#EDE7DA" font-family="SF Pro, -apple-system, sans-serif" font-size="14">
+    <text x="91" y="442">Rome</text>
+    <text x="173" y="407">Assisi</text>
+    <text x="244" y="522">Jerusalem</text>
+    <text x="312" y="578">Nazareth</text>
+    <text x="124" y="636">Santiago</text>
+  </g>
+
+  <g transform="translate(34 652)">
+    <rect width="362" height="222" rx="28" fill="#1F1B16" stroke="#2E2A24"/>
+    <rect x="26" y="28" width="88" height="88" rx="18" fill="#2E2A24"/>
+    <path d="M48 94 C61 50 82 46 94 72 C102 92 88 106 65 106" fill="none" stroke="#C9A84C" stroke-width="5" opacity="0.9"/>
+    <text x="136" y="56" fill="#EDE7DA" font-family="Georgia, serif" font-size="30">Rome in</text>
+    <text x="136" y="90" fill="#EDE7DA" font-family="Georgia, serif" font-size="30">Three Days</text>
+    <text x="136" y="120" fill="#9B9085" font-family="SF Pro, -apple-system, sans-serif" font-size="13">12 sites • 7 basilicas • offline route</text>
+    <rect x="26" y="146" width="142" height="42" rx="21" fill="#C9A84C"/>
+    <text x="97" y="172" fill="#13110E" font-family="SF Pro, -apple-system, sans-serif" font-size="14" text-anchor="middle" font-weight="700">Open route</text>
+    <rect x="182" y="146" width="154" height="42" rx="21" fill="none" stroke="#C9A84C"/>
+    <text x="259" y="172" fill="#C9A84C" font-family="SF Pro, -apple-system, sans-serif" font-size="14" text-anchor="middle">Preview free</text>
+  </g>
+</svg>
+
