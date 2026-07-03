@@ -9,7 +9,12 @@
     "localization/vi/Localizable.strings",
     "docs/VIETNAMESE_LOCALIZATION_GUIDE.md",
     "docs/research/VERIFIED_SAMPLE_DATA_NOTES.md",
-    "tools/validate_mock_content.py"
+    "docs/ANNO_CONTENT_SCHEMA.md",
+    "docs/AGENT_HANDOFF_MOCK_APP_PROMPTS.md",
+    "docs/PRIVACY_MONETIZATION_TRUST_SPEC.md",
+    "ios-fixtures/AnnoMockData.swift",
+    "tools/validate_mock_content.py",
+    "tools/export_swift_fixture.py"
   ],
   "coverage": {
     "entries": 14,
@@ -18,7 +23,9 @@
     "entries_with_calendar_conversions": 14,
     "entries_with_two_or_more_sources": 14,
     "entries_with_place_candidates": 12,
-    "entries_without_fixed_place": ["anno-2026-07-05-ordinary-time-14"]
+    "entries_without_fixed_place": ["anno-2026-07-05-ordinary-time-14"],
+    "swift_fixture_entries": 14,
+    "agent_handoff_prompts": 4
   },
   "known_limits": [
     "Artwork URLs are provenance candidates, not bundled licensed assets.",

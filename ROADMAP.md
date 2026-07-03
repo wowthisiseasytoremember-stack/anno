@@ -14,6 +14,7 @@ Updated: 2026-07-03
 - [ ] Add MapKit sacred-place view shell
 - [ ] Add Xcode String Catalogs for English and Vietnamese UI strings
 - [ ] Add local content/cache model with localized fields
+- [x] Add Swift fixture export from verified mock JSON
 
 ## Phase 2: Engine A — Calendar Engine
 - [x] Calendar conversion script for 10+ systems exists in infrastructure bundle
@@ -27,12 +28,14 @@ Updated: 2026-07-03
 - [ ] Optional Sacred Context pipeline only where genuine
 - [ ] JSON output schema
 - [ ] Source/confidence validator
+- [x] Add mock content schema for first native fixture slice
 
 ## Phase 4: Layer C — User-Facing Content
 - [ ] Content prompt engineering
 - [ ] 10 flagship entries from `docs/FLAGSHIP_CONTENT_SLATE.md`
 - [ ] Vietnamese translation pass for 10 flagship entries
 - [ ] Sample audio script generation
+- [x] Add bilingual July 3-16 fixture copy for native mock app
 
 ## Phase 5: UI/UX and Monetization
 - [x] Expandable calendars — collapsible extra calendar systems
@@ -48,6 +51,7 @@ Updated: 2026-07-03
 - [ ] Translate mockup patterns into native SwiftUI components
 - [ ] Premium archive paywall
 - [ ] Pilgrim route pack teaser
+- [x] Add privacy-safe monetization trust spec
 
 ## Changelog
 
