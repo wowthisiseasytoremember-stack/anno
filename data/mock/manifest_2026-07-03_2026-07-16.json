@@ -13,6 +13,9 @@
     "docs/AGENT_HANDOFF_MOCK_APP_PROMPTS.md",
     "docs/PRIVACY_MONETIZATION_TRUST_SPEC.md",
     "ios-fixtures/AnnoMockData.swift",
+    "data/assets/artwork_clearance_queue_2026-07-03_2026-07-16.json",
+    "docs/ARTWORK_CLEARANCE_PLAYBOOK.md",
+    "docs/NATIVE_IOS_BUILD_TASKS.md",
     "visuals/anno-real-week-mock.html",
     "visuals/previews/anno-real-week-mock.png",
     "visuals/previews/anno-real-week-mock-vi.png",
@@ -30,7 +33,10 @@
     "swift_fixture_entries": 14,
     "agent_handoff_prompts": 4,
     "interactive_real_data_mocks": 1,
-    "real_data_mock_previews": 2
+    "real_data_mock_previews": 2,
+    "artwork_clearance_items": 14,
+    "artwork_placeholder_only_items": 4,
+    "native_ios_agent_tasks": 9
   },
   "known_limits": [
     "Artwork URLs are provenance candidates, not bundled licensed assets.",

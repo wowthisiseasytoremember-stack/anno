@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FORTNIGHT = ROOT / "data/mock/anno_fortnight_2026-07-03_2026-07-16.json"
 WEEK = ROOT / "data/mock/anno_week_2026-07-03_2026-07-09.json"
+CLEARANCE = ROOT / "data/assets/artwork_clearance_queue_2026-07-03_2026-07-16.json"
 
 
 def fail(message: str) -> None:
@@ -52,7 +53,18 @@ def main() -> None:
     missing = [eid for eid in week_ids if eid not in ids]
     require(not missing, f"week file references missing ids: {missing}")
 
-    print("OK: 14 fortnight entries, 7 week entries, bilingual copy, calendars, and source coverage validated.")
+    if CLEARANCE.exists():
+        clearance = json.loads(CLEARANCE.read_text())
+        clearance_items = clearance.get("items", [])
+        clearance_ids = {item.get("entry_id") for item in clearance_items}
+        require(len(clearance_items) == len(entries), "clearance queue must have one item per entry")
+        require(clearance_ids == ids, "clearance queue entry ids must match fixture ids")
+        require(
+            clearance.get("summary", {}).get("total_items") == len(entries),
+            "clearance summary total_items must match fixture entry count",
+        )
+
+    print("OK: 14 fortnight entries, 7 week entries, bilingual copy, calendars, sources, and clearance coverage validated.")
 
 
 if __name__ == "__main__":
