@@ -4,10 +4,19 @@ Updated: 2026-07-03
 Open this first:
 
 - `anno-visual-board.html`
+- `anno-real-week-mock.html` — interactive real-data July 3-9 mock loaded from `data/mock/`
+
+Useful direct states:
+
+- `anno-real-week-mock.html?lang=vi`
+- `anno-real-week-mock.html?date=2026-07-09`
+- `anno-real-week-mock.html?lang=vi&date=2026-07-06`
 
 Generated preview:
 
 - `previews/anno-visual-board.png`
+- `previews/anno-real-week-mock.png`
+- `previews/anno-real-week-mock-vi.png`
 
 Individual SVG assets:
 
@@ -23,4 +32,3 @@ Direction:
 - New York/SF native typography.
 - One accent per screen.
 - The art is the ornament.
-

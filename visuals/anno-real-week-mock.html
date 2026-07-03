@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anno Real Week Mock</title>
+  <style>
+    :root {
+      --narthex:#13110E;
+      --choir:#1F1B16;
+      --choir-2:#28231C;
+      --gold:#C9A84C;
+      --gilt:#D9C06E;
+      --vellum:#EDE7DA;
+      --incense:#9B9085;
+      --ash:#2E2A24;
+      --red:#8C2F3B;
+      --green:#3B6B52;
+      --white:#F5F0E8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--narthex);
+      color: var(--vellum);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      min-height: 100vh;
+    }
+    button, a { font: inherit; }
+    button { color: inherit; }
+    .app {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 18px 48px;
+      display: grid;
+      grid-template-columns: minmax(320px, 430px) 1fr;
+      gap: 22px;
+    }
+    .phone {
+      min-height: 820px;
+      border: 1px solid var(--ash);
+      border-radius: 34px;
+      background: linear-gradient(180deg, #17130f 0%, var(--narthex) 100%);
+      box-shadow: 0 32px 100px rgba(0,0,0,.42);
+      overflow: hidden;
+      position: sticky;
+      top: 18px;
+    }
+    .chrome {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 20px 12px;
+      border-bottom: 1px solid rgba(46,42,36,.7);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+    .mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      border: 1px solid rgba(201,168,76,.38);
+      display: grid;
+      place-items: center;
+      color: var(--gold);
+      font-family: Georgia, "New York", serif;
+      font-size: 24px;
+      background: #0f0d0a;
+    }
+    .segmented {
+      display: flex;
+      border: 1px solid var(--ash);
+      border-radius: 999px;
+      padding: 3px;
+      background: #0f0d0a;
+    }
+    .segmented button {
+      border: 0;
+      background: transparent;
+      border-radius: 999px;
+      padding: 6px 9px;
+      color: var(--incense);
+      cursor: pointer;
+      min-width: 40px;
+    }
+    .segmented button[aria-pressed="true"] {
+      background: var(--gold);
+      color: #17130f;
+      font-weight: 700;
+    }
+    .today {
+      padding: 22px 20px 92px;
+    }
+    .date {
+      color: var(--incense);
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-family: Georgia, "New York", serif;
+      font-size: 34px;
+      line-height: 1.05;
+      margin: 0 0 12px;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+    .hero-line {
+      color: var(--incense);
+      line-height: 1.48;
+      margin: 0 0 18px;
+    }
+    .liturgical {
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      padding: 12px;
+      border: 1px solid var(--ash);
+      border-radius: 14px;
+      background: rgba(31,27,22,.82);
+      margin-bottom: 14px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--gold);
+      margin-top: 4px;
+      flex: 0 0 auto;
+    }
+    .dot.red { background: var(--red); }
+    .dot.green { background: var(--green); }
+    .dot.white { background: var(--white); }
+    .rank { color: var(--gilt); font-size: 12px; text-transform: uppercase; letter-spacing: .1em; }
+    .subtle { color: var(--incense); }
+    .art {
+      aspect-ratio: 4 / 3;
+      border-radius: 18px;
+      border: 1px solid rgba(201,168,76,.25);
+      background:
+        linear-gradient(135deg, rgba(201,168,76,.2), transparent 34%),
+        radial-gradient(circle at 50% 32%, rgba(237,231,218,.12), transparent 32%),
+        #0d0b09;
+      display: grid;
+      place-items: center;
+      margin: 16px 0 10px;
+      overflow: hidden;
+    }
+    .art span {
+      font-family: Georgia, "New York", serif;
+      color: rgba(237,231,218,.78);
+      font-size: 26px;
+      text-align: center;
+      padding: 18px;
+    }
+    .caption {
+      color: var(--incense);
+      font-size: 12px;
+      line-height: 1.45;
+      margin-bottom: 16px;
+    }
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 16px 0;
+    }
+    .pill {
+      border: 1px solid rgba(201,168,76,.32);
+      background: rgba(201,168,76,.09);
+      color: var(--gilt);
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .pill.neutral {
+      color: var(--incense);
+      border-color: var(--ash);
+      background: rgba(31,27,22,.78);
+      font-weight: 500;
+    }
+    .place {
+      border: 1px solid var(--ash);
+      background: var(--choir);
+      border-radius: 14px;
+      padding: 13px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      margin: 16px 0;
+    }
+    .place-icon { color: var(--gold); }
+    .section-title {
+      margin: 22px 0 8px;
+      color: var(--gilt);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-weight: 800;
+    }
+    .body-copy {
+      line-height: 1.56;
+      color: var(--vellum);
+      margin: 0;
+    }
+    .tabbar {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: rgba(19,17,14,.96);
+      border-top: 1px solid var(--ash);
+      padding: 9px 12px 16px;
+      backdrop-filter: blur(16px);
+    }
+    .tabbar button {
+      border: 0;
+      background: transparent;
+      color: var(--incense);
+      display: grid;
+      gap: 4px;
+      place-items: center;
+      padding: 6px 0;
+      cursor: pointer;
+      font-size: 11px;
+    }
+    .tabbar button.active { color: var(--gold); }
+    .workspace {
+      display: grid;
+      gap: 18px;
+    }
+    .panel {
+      border: 1px solid var(--ash);
+      background: rgba(31,27,22,.72);
+      border-radius: 18px;
+      padding: 18px;
+    }
+    .panel h2 {
+      margin: 0 0 4px;
+      font-family: Georgia, "New York", serif;
+      font-size: 26px;
+      font-weight: 500;
+    }
+    .panel p { color: var(--incense); line-height: 1.5; margin: 0; }
+    .days {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(92px, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .day-button {
+      text-align: left;
+      min-height: 116px;
+      border: 1px solid var(--ash);
+      border-radius: 14px;
+      background: #17130f;
+      padding: 11px;
+      cursor: pointer;
+    }
+    .day-button[aria-current="true"] {
+      border-color: rgba(201,168,76,.75);
+      box-shadow: inset 0 0 0 1px rgba(201,168,76,.38);
+    }
+    .day-num { color: var(--gilt); font-weight: 800; margin-bottom: 8px; }
+    .day-title {
+      font-family: Georgia, "New York", serif;
+      font-size: 15px;
+      line-height: 1.15;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(220px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .meta-card {
+      border: 1px solid var(--ash);
+      border-radius: 14px;
+      padding: 12px;
+      background: #17130f;
+    }
+    .meta-card strong { display: block; color: var(--vellum); margin-bottom: 4px; }
+    .meta-card span { color: var(--incense); font-size: 13px; line-height: 1.4; }
+    .source-list, .map-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .source, .map-row {
+      border: 1px solid var(--ash);
+      border-radius: 14px;
+      padding: 12px;
+      background: #17130f;
+    }
+    .source a {
+      color: var(--gilt);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+    .source small, .map-row small {
+      color: var(--incense);
+      display: block;
+      margin-top: 5px;
+    }
+    .error {
+      color: #f1c1c7;
+      background: rgba(140,47,59,.2);
+      border: 1px solid rgba(140,47,59,.5);
+      border-radius: 14px;
+      padding: 14px;
+    }
+    @media (max-width: 900px) {
+      .app { grid-template-columns: 1fr; }
+      .phone { position: static; min-height: auto; }
+      .today { padding-bottom: 104px; }
+      .days { grid-template-columns: repeat(2, minmax(120px, 1fr)); }
+      .meta-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="phone" aria-label="Anno app mock">
+      <header class="chrome">
+        <div class="brand"><div class="mark">A</div><span>Anno</span></div>
+        <div class="segmented" aria-label="Language">
+          <button id="lang-en" type="button" aria-pressed="true">EN</button>
+          <button id="lang-vi" type="button" aria-pressed="false">VI</button>
+        </div>
+      </header>
+      <div id="today" class="today">
+        <div class="error">Loading verified week fixture...</div>
+      </div>
+      <nav class="tabbar" aria-label="Mock tabs">
+        <button class="active" type="button"><span>✦</span><span>Today</span></button>
+        <button type="button"><span>▦</span><span>Calendar</span></button>
+        <button type="button"><span>⌖</span><span>Map</span></button>
+        <button type="button"><span>☰</span><span>Sources</span></button>
+      </nav>
+    </section>
+
+    <section class="workspace">
+      <article class="panel">
+        <h2>Real Week Fixture</h2>
+        <p>This mock loads the verified July 3-9 content from <code>data/mock/anno_fortnight_2026-07-03_2026-07-16.json</code>, then renders the same bilingual fields a SwiftUI shell would consume.</p>
+        <div id="days" class="days" aria-label="Mock week date picker"></div>
+      </article>
+
+      <article class="panel">
+        <h2>Calendar Conversions</h2>
+        <p>Engine A conversions are visible product material, not backend trivia.</p>
+        <div id="calendars" class="meta-grid"></div>
+      </article>
+
+      <article class="panel">
+        <h2>Map-Ready Sacred Sites</h2>
+        <p>The first week has pins only where a fixed or useful contextual place exists. Sunday remains intentionally place-free.</p>
+        <div id="map-list" class="map-list"></div>
+      </article>
+
+      <article class="panel">
+        <h2>Source Sheet</h2>
+        <p>Every entry preserves source transparency and confidence notes. This is the trust moat.</p>
+        <div id="sources" class="source-list"></div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const FORTNIGHT_URL = "../data/mock/anno_fortnight_2026-07-03_2026-07-16.json";
+    const WEEK_URL = "../data/mock/anno_week_2026-07-03_2026-07-09.json";
+    const params = new URLSearchParams(window.location.search);
+    const initialLang = params.get("lang") === "vi" ? "vi" : "en";
+    const initialDate = params.get("date");
+    const initialId = params.get("id");
+    const state = { entries: [], weekIds: [], selected: 0, lang: initialLang };
+
+    const labels = {
+      en: {
+        today: "Today",
+        prayer: "Prayer Prompt",
+        confidence: "Confidence",
+        place: "Pilgrimage Site",
+        noPlace: "No fixed pilgrimage site verified for this entry.",
+        sourceConfidence: "Source Confidence",
+        artwork: "Artwork Candidate"
+      },
+      vi: {
+        today: "Hôm nay",
+        prayer: "Gợi ý cầu nguyện",
+        confidence: "Độ tin cậy",
+        place: "Địa điểm hành hương",
+        noPlace: "Chưa xác minh địa điểm hành hương cố định cho mục này.",
+        sourceConfidence: "Độ tin cậy của nguồn",
+        artwork: "Ứng viên tác phẩm"
+      }
+    };
+
+    function t(key) {
+      return labels[state.lang][key] || labels.en[key] || key;
+    }
+
+    function localized(obj, key) {
+      return obj[`${key}_${state.lang}`] || obj[`${key}En`] || obj[`${key}_en`] || "";
+    }
+
+    function prettyDate(date) {
+      const parsed = new Date(`${date}T12:00:00`);
+      if (state.lang === "vi") {
+        return new Intl.DateTimeFormat("vi-VN", { weekday: "long", day: "numeric", month: "long" }).format(parsed);
+      }
+      return new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(parsed);
+    }
+
+    function colorClass(color) {
+      return ["red", "green", "white"].includes(color) ? color : "";
+    }
+
+    function selectedEntry() {
+      return state.entries[state.selected];
+    }
+
+    function render() {
+      const entry = selectedEntry();
+      if (!entry) return;
+      renderToday(entry);
+      renderDays();
+      renderCalendars(entry);
+      renderMap();
+      renderSources(entry);
+      document.documentElement.lang = state.lang;
+      document.getElementById("lang-en").setAttribute("aria-pressed", String(state.lang === "en"));
+      document.getElementById("lang-vi").setAttribute("aria-pressed", String(state.lang === "vi"));
+    }
+
+    function renderToday(entry) {
+      const primaryTitle = localized(entry.primary, "title");
+      const summary = localized(entry.primary, "summary");
+      const hero = localized(entry.app_hooks, "hero_line");
+      const prayer = localized(entry.app_hooks, "prayer_prompt");
+      const liturgicalTitle = localized(entry.liturgical, "title");
+      const confidenceNote = localized(entry.primary, "confidence_note");
+      const place = entry.place;
+      document.getElementById("today").innerHTML = `
+        <div class="date">${prettyDate(entry.date)}</div>
+        <h1>${primaryTitle}</h1>
+        <p class="hero-line">${hero}</p>
+        <div class="liturgical">
+          <span class="dot ${colorClass(entry.liturgical.color)}"></span>
+          <div>
+            <div class="rank">${entry.liturgical.rank}</div>
+            <div>${liturgicalTitle}</div>
+          </div>
+        </div>
+        <div class="art"><span>${entry.artwork.title}</span></div>
+        <div class="caption">${t("artwork")}: ${entry.artwork.maker} · ${entry.artwork.date_label} · ${entry.artwork.status}</div>
+        <div class="pill-row">
+          <span class="pill">${t("confidence")}: ${entry.primary.confidence}</span>
+          <span class="pill neutral">${entry.primary.type.replaceAll("_", " ")}</span>
+        </div>
+        <p class="body-copy">${summary}</p>
+        <div class="section-title">${t("place")}</div>
+        ${place ? `
+          <div class="place">
+            <div class="place-icon">⌖</div>
+            <div>
+              <strong>${place.name}</strong><br>
+              <span class="subtle">${place.latitude.toFixed(4)}, ${place.longitude.toFixed(4)} · ${place.confidence}</span>
+            </div>
+          </div>` : `<div class="place"><div class="place-icon">–</div><div>${t("noPlace")}</div></div>`}
+        <div class="section-title">${t("prayer")}</div>
+        <p class="body-copy">${prayer}</p>
+        <div class="section-title">${t("sourceConfidence")}</div>
+        <p class="hero-line">${confidenceNote}</p>
+      `;
+    }
+
+    function renderDays() {
+      document.getElementById("days").innerHTML = state.entries.map((entry, index) => `
+        <button class="day-button" type="button" aria-current="${index === state.selected}" data-index="${index}">
+          <div class="day-num">${entry.date.slice(5)}</div>
+          <div class="day-title">${localized(entry.primary, "title")}</div>
+        </button>
+      `).join("");
+      document.querySelectorAll(".day-button").forEach(button => {
+        button.addEventListener("click", () => {
+          state.selected = Number(button.dataset.index);
+          render();
+        });
+      });
+    }
+
+    function renderCalendars(entry) {
+      const labels = {
+        julian: "Julian",
+        hebrew: "Hebrew",
+        islamic_umm_al_qura: "Umm al-Qura",
+        coptic: "Coptic",
+        ethiopian: "Ethiopian"
+      };
+      document.getElementById("calendars").innerHTML = Object.entries(labels).map(([key, label]) => `
+        <div class="meta-card"><strong>${label}</strong><span>${entry.calendars[key]}</span></div>
+      `).join("");
+    }
+
+    function renderMap() {
+      const rows = state.entries.filter(entry => entry.place).map(entry => `
+        <div class="map-row">
+          <strong>${entry.place.name}</strong>
+          <small>${localized(entry.primary, "title")} · ${entry.place.latitude.toFixed(4)}, ${entry.place.longitude.toFixed(4)} · ${entry.place.confidence}</small>
+        </div>
+      `);
+      document.getElementById("map-list").innerHTML = rows.join("");
+    }
+
+    function renderSources(entry) {
+      document.getElementById("sources").innerHTML = entry.sources.map(source => `
+        <div class="source">
+          <a href="${source.url}" target="_blank" rel="noopener noreferrer">${source.label}</a>
+          <small>${source.type}</small>
+        </div>
+      `).join("");
+    }
+
+    async function boot() {
+      try {
+        const [fixture, week] = await Promise.all([
+          fetch(FORTNIGHT_URL).then(response => {
+            if (!response.ok) throw new Error(`Fixture HTTP ${response.status}`);
+            return response.json();
+          }),
+          fetch(WEEK_URL).then(response => {
+            if (!response.ok) throw new Error(`Week HTTP ${response.status}`);
+            return response.json();
+          })
+        ]);
+        state.weekIds = week.entry_ids;
+        const byId = new Map(fixture.entries.map(entry => [entry.id, entry]));
+        state.entries = state.weekIds.map(id => byId.get(id)).filter(Boolean);
+        if (state.entries.length !== 7) throw new Error(`Expected 7 week entries, found ${state.entries.length}`);
+        const requestedIndex = state.entries.findIndex(entry => (
+          (initialId && entry.id === initialId) || (initialDate && entry.date === initialDate)
+        ));
+        if (requestedIndex >= 0) state.selected = requestedIndex;
+        render();
+      } catch (error) {
+        document.getElementById("today").innerHTML = `<div class="error">${error.message}</div>`;
+      }
+    }
+
+    document.getElementById("lang-en").addEventListener("click", () => { state.lang = "en"; render(); });
+    document.getElementById("lang-vi").addEventListener("click", () => { state.lang = "vi"; render(); });
+    boot();
+  </script>
+</body>
+</html>

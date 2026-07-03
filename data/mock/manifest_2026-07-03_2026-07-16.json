@@ -13,6 +13,9 @@
     "docs/AGENT_HANDOFF_MOCK_APP_PROMPTS.md",
     "docs/PRIVACY_MONETIZATION_TRUST_SPEC.md",
     "ios-fixtures/AnnoMockData.swift",
+    "visuals/anno-real-week-mock.html",
+    "visuals/previews/anno-real-week-mock.png",
+    "visuals/previews/anno-real-week-mock-vi.png",
     "tools/validate_mock_content.py",
     "tools/export_swift_fixture.py"
   ],
@@ -25,7 +28,9 @@
     "entries_with_place_candidates": 12,
     "entries_without_fixed_place": ["anno-2026-07-05-ordinary-time-14"],
     "swift_fixture_entries": 14,
-    "agent_handoff_prompts": 4
+    "agent_handoff_prompts": 4,
+    "interactive_real_data_mocks": 1,
+    "real_data_mock_previews": 2
   },
   "known_limits": [
     "Artwork URLs are provenance candidates, not bundled licensed assets.",

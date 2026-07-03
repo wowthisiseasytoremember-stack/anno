@@ -15,3 +15,6 @@ last_active: 2026-07-03
 - `ios-fixtures/AnnoMockData.swift` can be regenerated from JSON with `tools/export_swift_fixture.py`.
 - `tools/validate_mock_content.py` validates bilingual copy, calendar conversions, and source coverage.
 - Trust-safe monetization guardrails live in `docs/PRIVACY_MONETIZATION_TRUST_SPEC.md`.
+- Real-data interactive mock: `visuals/anno-real-week-mock.html`.
+- Tailscale preview URL while local server is running: `http://100.122.158.123:8877/visuals/anno-real-week-mock.html`.
+- Useful direct review state: `http://100.122.158.123:8877/visuals/anno-real-week-mock.html?lang=vi&date=2026-07-06`.
