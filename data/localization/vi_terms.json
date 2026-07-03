@@ -1,0 +1,55 @@
+{
+  "locale": "vi",
+  "language": "Vietnamese",
+  "app": {
+    "name": "Anno",
+    "subtitle": "Ngày này trong lịch sử Công giáo",
+    "tagline": "Anno Domini — Năm của Chúa"
+  },
+  "formatting": {
+    "date_example": "16 tháng 7 • Thứ Năm",
+    "calendar_week_starts_on": "monday",
+    "text_expansion_note": "Expect 30-50% expansion versus English. Avoid fixed-height text containers."
+  },
+  "terms": {
+    "saint": "Thánh",
+    "blessed": "Chân phước",
+    "apostle": "Tông đồ",
+    "martyr": "Tử đạo",
+    "virgin_mary": "Đức Mẹ",
+    "feast_day": "Lễ kính",
+    "memorial": "Lễ nhớ",
+    "optional_memorial": "Lễ nhớ tùy chọn",
+    "ordinary_time": "Mùa Thường Niên",
+    "pilgrimage": "Hành hương",
+    "sacred_site": "Địa điểm thánh",
+    "confirmed": "Đã xác nhận",
+    "traditional": "Theo truyền thống",
+    "disputed": "Còn tranh luận",
+    "sources": "Nguồn",
+    "artwork": "Tác phẩm thánh",
+    "prayer": "Lời nguyện",
+    "saved": "Đã lưu",
+    "streak": "Chuỗi ngày liên tục",
+    "level": "Cấp độ",
+    "premium": "Cao cấp",
+    "offline": "Ngoại tuyến"
+  },
+  "ui_strings": {
+    "today": "Hôm nay",
+    "calendar": "Lịch",
+    "map": "Bản đồ",
+    "saved": "Đã lưu",
+    "me": "Tôi",
+    "read_sources": "Xem nguồn",
+    "view_on_map": "Xem trên bản đồ",
+    "listen_reflection": "Nghe suy niệm",
+    "read_full_prayer": "Đọc trọn lời nguyện",
+    "show_less": "Thu gọn",
+    "unlock_plus": "Mở khóa Anno Plus",
+    "source_confidence": "Độ tin cậy của nguồn",
+    "historical_note": "Ghi chú lịch sử",
+    "tradition_note": "Ghi chú truyền thống",
+    "no_fixed_site": "Không có địa điểm cố định đã xác minh"
+  }
+}

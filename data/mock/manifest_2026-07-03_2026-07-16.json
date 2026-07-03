@@ -1,0 +1,28 @@
+{
+  "artifact": "Anno Catholic-first verified mock content",
+  "date_window": "2026-07-03..2026-07-16",
+  "created": "2026-07-03",
+  "files": [
+    "data/mock/anno_fortnight_2026-07-03_2026-07-16.json",
+    "data/mock/anno_week_2026-07-03_2026-07-09.json",
+    "data/localization/vi_terms.json",
+    "localization/vi/Localizable.strings",
+    "docs/VIETNAMESE_LOCALIZATION_GUIDE.md",
+    "docs/research/VERIFIED_SAMPLE_DATA_NOTES.md",
+    "tools/validate_mock_content.py"
+  ],
+  "coverage": {
+    "entries": 14,
+    "mock_ready_week_entries": 7,
+    "entries_with_vietnamese_copy": 14,
+    "entries_with_calendar_conversions": 14,
+    "entries_with_two_or_more_sources": 14,
+    "entries_with_place_candidates": 12,
+    "entries_without_fixed_place": ["anno-2026-07-05-ordinary-time-14"]
+  },
+  "known_limits": [
+    "Artwork URLs are provenance candidates, not bundled licensed assets.",
+    "Some coordinates are contextual or traditional; preserve confidence labels in UI.",
+    "Vietnamese copy is launch-structure draft and should receive native Catholic editorial review before App Store release."
+  ]
+}
