@@ -1,5 +1,5 @@
 # Interfaith Devotional Engine — ROADMAP.md
-Updated: 2026-07-03
+Updated: 2026-07-04
 
 ## Phase 0: Canonical Truth Reconciliation
 - [x] Create `ARCHITECTURE.md`
@@ -55,4 +55,5 @@ Updated: 2026-07-03
 
 ## Changelog
 
+- 2026-07-04: Sprint 1 localization complete — asset boards A/B/C, pseudo-localize tool, component rules, design brief updates. Sprint 2.1 complete — LocalizationManager (Swift), unit tests, strings validator, English .strings reference.
 - 2026-07-03: Reframed roadmap around native SwiftUI, Catholic-first launch, Vietnamese localization, and artifact reconciliation.
