@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anno Vietnamese Typography Stress Test — Asset Board B</title>
+<style>
+  :root {
+    --bg: #13110E;
+    --card-bg: #1F1B16;
+    --accent: #C9A84C;
+    --text: #EDE7DA;
+    --secondary: #9B9085;
+    --border: #2E2A24;
+    --radius: 12px;
+    --card-pad: 24px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, 'SF Pro', 'SF Pro Text', 'SF UI Text', system-ui, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 40px 24px;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* ── Title ── */
+  .main-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    color: var(--secondary);
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+
+  .subtitle span {
+    display: inline-block;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2px 10px;
+    margin-right: 4px;
+  }
+
+  /* ── Section ── */
+  .section {
+    margin-bottom: 48px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  .section-count {
+    font-size: 12px;
+    color: var(--secondary);
+    font-weight: 400;
+  }
+
+  /* ── Card Grid ── */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--card-pad);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .card-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--secondary);
+    margin-bottom: 2px;
+  }
+
+  .card-chars {
+    font-size: 11px;
+    color: var(--secondary);
+    margin-bottom: 10px;
+  }
+
+  /* ── Sizes ── */
+  .size-12 { font-size: 12px; }
+  .size-15 { font-size: 15px; }
+  .size-20 { font-size: 20px; }
+
+  .size-header {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--secondary);
+    margin-top: 2px;
+    margin-bottom: 1px;
+  }
+  .size-header:first-of-type { margin-top: 0; }
+
+  /* ── String Row ── */
+  .string-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 3px 0;
+  }
+  .string-row .string-value {
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .string-row .char-count {
+    font-size: 10px;
+    color: var(--secondary);
+    flex-shrink: 0;
+    min-width: 22px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── Component Styles ── */
+
+  /* Button style */
+  .style-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  .style-button.size-12 { padding: 6px 12px; border-radius: 8px; }
+  .style-button.size-15 { padding: 8px 16px; border-radius: 9px; }
+  .style-button.size-20 { padding: 11px 22px; border-radius: 11px; }
+
+  /* Chip style */
+  .style-chip {
+    display: inline-block;
+    padding: 6px 14px;
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-weight: 500;
+  }
+  .style-chip.size-12 { padding: 4px 10px; }
+  .style-chip.size-15 { padding: 5px 12px; }
+  .style-chip.size-20 { padding: 7px 16px; }
+
+  /* Badge style */
+  .style-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+    background: rgba(201, 168, 76, 0.12);
+    color: var(--accent);
+    border: 1px solid rgba(201, 168, 76, 0.25);
+    border-radius: 6px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  .style-badge::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+  .style-badge.size-12 { padding: 3px 8px; gap: 4px; }
+  .style-badge.size-12::before { width: 5px; height: 5px; }
+  .style-badge.size-15 { padding: 4px 9px; }
+  .style-badge.size-20 { padding: 5px 12px; gap: 6px; }
+  .style-badge.size-20::before { width: 7px; height: 7px; }
+
+  /* Tab label style */
+  .style-tab {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    color: var(--secondary);
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  .style-tab .tab-icon {
+    width: 22px; height: 22px;
+    border-radius: 6px;
+    background: var(--border);
+    flex-shrink: 0;
+  }
+  .style-tab.size-12 .tab-icon { width: 16px; height: 16px; }
+  .style-tab.size-15 .tab-icon { width: 20px; height: 20px; margin-bottom: 1px; }
+  .style-tab.size-20 .tab-icon { width: 24px; height: 24px; }
+
+  /* Action/alert phrase (label style) */
+  .style-action {
+    display: inline-block;
+    padding: 4px 0;
+    color: var(--text);
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  /* Devotional label */
+  .style-devotional {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--secondary);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+  .style-devotional .dev-icon {
+    width: 18px; height: 18px;
+    border-radius: 4px;
+    background: var(--border);
+    flex-shrink: 0;
+  }
+  .style-devotional.size-12 .dev-icon { width: 14px; height: 14px; }
+  .style-devotional.size-15 .dev-icon { width: 17px; height: 17px; }
+  .style-devotional.size-20 .dev-icon { width: 20px; height: 20px; }
+
+  /* Large date */
+  .style-date {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  /* ── Helper layout for inline sample rows ── */
+  .sample-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 4px 0;
+  }
+
+  /* ── Date hero card ── */
+  .date-hero {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 32px 24px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 60px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--secondary);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ══════ TITLE ══════ -->
+  <h1 class="main-title">Anno Vietnamese Typography Stress Test</h1>
+  <p class="subtitle">
+    <span>Asset Board B</span>
+    All Vietnamese localization strings rendered at <strong>12px</strong>, <strong>15px</strong>, and <strong>20px</strong> in the Anno design system.
+    Dark theme · SF Pro UI · Georgia titles.
+  </p>
+
+  <!-- ══════ LARGE DATE ══════ -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Large Date Display</h2>
+      <span class="section-count">serif · hero layout</span>
+    </div>
+    <div class="date-hero">
+      <div class="size-header">12px</div>
+      <div class="style-date size-12" style="margin-bottom:12px">Ngày 3 tháng 7 năm 2026</div>
+      <div class="size-header">15px</div>
+      <div class="style-date size-15" style="margin-bottom:12px">Ngày 3 tháng 7 năm 2026</div>
+      <div class="size-header">20px</div>
+      <div class="style-date size-20">Ngày 3 tháng 7 năm 2026</div>
+      <div style="margin-top:16px;font-size:11px;color:var(--secondary)">23 characters (including spaces)</div>
+    </div>
+  </div>
+
+  <!-- ══════ BUTTONS ══════ -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Buttons</h2>
+      <span class="section-count">6 strings · accent fill style</span>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-label">Bắt đầu khám phá</div>
+        <div class="card-chars">17 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-button size-12">Bắt đầu khám phá</div>
+        <div class="size-header">15px</div>
+        <div class="style-button size-15">Bắt đầu khám phá</div>
+        <div class="size-header">20px</div>
+        <div class="style-button size-20">Bắt đầu khám phá</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Nghe</div>
+        <div class="card-chars">4 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-button size-12">Nghe</div>
+        <div class="size-header">15px</div>
+        <div class="style-button size-15">Nghe</div>
+        <div class="size-header">20px</div>
+        <div class="style-button size-20">Nghe</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Nguồn</div>
+        <div class="card-chars">5 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-button size-12">Nguồn</div>
+        <div class="size-header">15px</div>
+        <div class="style-button size-15">Nguồn</div>
+        <div class="size-header">20px</div>
+        <div class="style-button size-20">Nguồn</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Lưu</div>
+        <div class="card-chars">3 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-button size-12">Lưu</div>
+        <div class="size-header">15px</div>
+        <div class="style-button size-15">Lưu</div>
+        <div class="size-header">20px</div>
+        <div class="style-button size-20">Lưu</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Chia sẻ</div>
+        <div class="card-chars">7 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-button size-12">Chia sẻ</div>
+        <div class="size-header">15px</div>
+        <div class="style-button size-15">Chia sẻ</div>
+        <div class="size-header">20px</div>
+        <div class="style-button size-20">Chia sẻ</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Khôi phục</div>
+        <div class="card-chars">9 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-button size-12">Khôi phục</div>
+        <div class="size-header">15px</div>
+        <div class="style-button size-15">Khôi phục</div>
+        <div class="size-header">20px</div>
+        <div class="style-button size-20">Khôi phục</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════ FILTER CHIPS ══════ -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Filter Chips</h2>
+      <span class="section-count">5 strings · outlined pill style</span>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-label">Tất cả</div>
+        <div class="card-chars">6 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-chip size-12">Tất cả</div>
+        <div class="size-header">15px</div>
+        <div class="style-chip size-15">Tất cả</div>
+        <div class="size-header">20px</div>
+        <div class="style-chip size-20">Tất cả</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Kitô giáo</div>
+        <div class="card-chars">9 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-chip size-12">Kitô giáo</div>
+        <div class="size-header">15px</div>
+        <div class="style-chip size-15">Kitô giáo</div>
+        <div class="size-header">20px</div>
+        <div class="style-chip size-20">Kitô giáo</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Do Thái</div>
+        <div class="card-chars">7 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-chip size-12">Do Thái</div>
+        <div class="size-header">15px</div>
+        <div class="style-chip size-15">Do Thái</div>
+        <div class="size-header">20px</div>
+        <div class="style-chip size-20">Do Thái</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Hồi giáo</div>
+        <div class="card-chars">8 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-chip size-12">Hồi giáo</div>
+        <div class="size-header">15px</div>
+        <div class="style-chip size-15">Hồi giáo</div>
+        <div class="size-header">20px</div>
+        <div class="style-chip size-20">Hồi giáo</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Liên tôn</div>
+        <div class="card-chars">7 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-chip size-12">Liên tôn</div>
+        <div class="size-header">15px</div>
+        <div class="style-chip size-15">Liên tôn</div>
+        <div class="size-header">20px</div>
+        <div class="style-chip size-20">Liên tôn</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════ CONFIDENCE BADGES ══════ -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Confidence Badges</h2>
+      <span class="section-count">3 strings · accent dot style</span>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-label">Đã xác nhận</div>
+        <div class="card-chars">11 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-badge size-12">Đã xác nhận</div>
+        <div class="size-header">15px</div>
+        <div class="style-badge size-15">Đã xác nhận</div>
+        <div class="size-header">20px</div>
+        <div class="style-badge size-20">Đã xác nhận</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Truyền thống</div>
+        <div class="card-chars">12 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-badge size-12">Truyền thống</div>
+        <div class="size-header">15px</div>
+        <div class="style-badge size-15">Truyền thống</div>
+        <div class="size-header">20px</div>
+        <div class="style-badge size-20">Truyền thống</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Tranh luận</div>
+        <div class="card-chars">10 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-badge size-12">Tranh luận</div>
+        <div class="size-header">15px</div>
+        <div class="style-badge size-15">Tranh luận</div>
+        <div class="size-header">20px</div>
+        <div class="style-badge size-20">Tranh luận</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════ TAB BAR LABELS ══════ -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Tab Bar Labels</h2>
+      <span class="section-count">4 strings · icon + label layout</span>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-label">Hôm nay</div>
+        <div class="card-chars">7 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-tab size-12"><span class="tab-icon"></span>Hôm nay</div>
+        <div class="size-header">15px</div>
+        <div class="style-tab size-15"><span class="tab-icon"></span>Hôm nay</div>
+        <div class="size-header">20px</div>
+        <div class="style-tab size-20"><span class="tab-icon"></span>Hôm nay</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Lịch</div>
+        <div class="card-chars">4 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-tab size-12"><span class="tab-icon"></span>Lịch</div>
+        <div class="size-header">15px</div>
+        <div class="style-tab size-15"><span class="tab-icon"></span>Lịch</div>
+        <div class="size-header">20px</div>
+        <div class="style-tab size-20"><span class="tab-icon"></span>Lịch</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Bản đồ</div>
+        <div class="card-chars">6 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-tab size-12"><span class="tab-icon"></span>Bản đồ</div>
+        <div class="size-header">15px</div>
+        <div class="style-tab size-15"><span class="tab-icon"></span>Bản đồ</div>
+        <div class="size-header">20px</div>
+        <div class="style-tab size-20"><span class="tab-icon"></span>Bản đồ</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Đã lưu</div>
+        <div class="card-chars">7 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-tab size-12"><span class="tab-icon"></span>Đã lưu</div>
+        <div class="size-header">15px</div>
+        <div class="style-tab size-15"><span class="tab-icon"></span>Đã lưu</div>
+        <div class="size-header">20px</div>
+        <div class="style-tab size-20"><span class="tab-icon"></span>Đã lưu</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════ ACTION / ALERT PHRASES ══════ -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Action / Alert Phrases</h2>
+      <span class="section-count">5 strings · label / action-sheet style</span>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-label">Thêm vào bộ sưu tập</div>
+        <div class="card-chars">20 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-action size-12">Thêm vào bộ sưu tập</div>
+        <div class="size-header">15px</div>
+        <div class="style-action size-15">Thêm vào bộ sưu tập</div>
+        <div class="size-header">20px</div>
+        <div class="style-action size-20">Thêm vào bộ sưu tập</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Xác nhận hành động</div>
+        <div class="card-chars">18 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-action size-12">Xác nhận hành động</div>
+        <div class="size-header">15px</div>
+        <div class="style-action size-15">Xác nhận hành động</div>
+        <div class="size-header">20px</div>
+        <div class="style-action size-20">Xác nhận hành động</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Cài đặt thông báo</div>
+        <div class="card-chars">18 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-action size-12">Cài đặt thông báo</div>
+        <div class="size-header">15px</div>
+        <div class="style-action size-15">Cài đặt thông báo</div>
+        <div class="size-header">20px</div>
+        <div class="style-action size-20">Cài đặt thông báo</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Tiến độ</div>
+        <div class="card-chars">7 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-action size-12">Tiến độ</div>
+        <div class="size-header">15px</div>
+        <div class="style-action size-15">Tiến độ</div>
+        <div class="size-header">20px</div>
+        <div class="style-action size-20">Tiến độ</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Hoàn thành</div>
+        <div class="card-chars">10 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-action size-12">Hoàn thành</div>
+        <div class="size-header">15px</div>
+        <div class="style-action size-15">Hoàn thành</div>
+        <div class="size-header">20px</div>
+        <div class="style-action size-20">Hoàn thành</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════ DEVOTIONAL LABELS ══════ -->
+  <div class="section">
+    <div class="section-header">
+      <h2 class="section-title">Devotional Labels</h2>
+      <span class="section-count">3 strings · icon + label</span>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-label">Bài đọc</div>
+        <div class="card-chars">7 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-devotional size-12"><span class="dev-icon"></span>Bài đọc</div>
+        <div class="size-header">15px</div>
+        <div class="style-devotional size-15"><span class="dev-icon"></span>Bài đọc</div>
+        <div class="size-header">20px</div>
+        <div class="style-devotional size-20"><span class="dev-icon"></span>Bài đọc</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Lời nhắn</div>
+        <div class="card-chars">8 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-devotional size-12"><span class="dev-icon"></span>Lời nhắn</div>
+        <div class="size-header">15px</div>
+        <div class="style-devotional size-15"><span class="dev-icon"></span>Lời nhắn</div>
+        <div class="size-header">20px</div>
+        <div class="style-devotional size-20"><span class="dev-icon"></span>Lời nhắn</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Thời gian</div>
+        <div class="card-chars">9 chars</div>
+        <div class="size-header">12px</div>
+        <div class="style-devotional size-12"><span class="dev-icon"></span>Thời gian</div>
+        <div class="size-header">15px</div>
+        <div class="style-devotional size-15"><span class="dev-icon"></span>Thời gian</div>
+        <div class="size-header">20px</div>
+        <div class="style-devotional size-20"><span class="dev-icon"></span>Thời gian</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════ FOOTER ══════ -->
+  <div class="footer">
+    Anno Design System · Vietnamese Typography Stress Test · Asset Board B<br>
+    <span style="font-size:11px;color:var(--border)">SF Pro UI · Georgia serif · 2026</span>
+  </div>
+
+</div>
+</body>
+</html>
