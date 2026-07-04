@@ -1,0 +1,770 @@
+{
+  "schema_version": "anno.mock.v1",
+  "generated_on": "2026-07-03",
+  "source_window": {
+    "start": "2026-07-03",
+    "end": "2026-07-16",
+    "timezone_assumption": "America/Los_Angeles for Engine A calendar conversions"
+  },
+  "editorial_policy": {
+    "launch_scope": "Catholic-first",
+    "localization": ["en", "vi"],
+    "confidence_levels": ["confirmed", "traditional", "disputed"],
+    "rights_note": "Artwork entries are provenance candidates. Clear image rights before bundling raster assets."
+  },
+  "entries": [
+    {
+      "id": "anno-2026-07-03-thomas",
+      "date": "2026-07-03",
+      "weekday": "Friday",
+      "mock_priority": "week_real_data",
+      "liturgical": {
+        "rank": "Feast",
+        "color": "red",
+        "title_en": "Saint Thomas, Apostle",
+        "title_vi": "Thánh Tôma, Tông đồ"
+      },
+      "calendars": {
+        "julian": "2026-06-20",
+        "hebrew": "18 Tamuz 5786",
+        "islamic_umm_al_qura": "18 Muharram 1448 AH",
+        "coptic": "26 Paoni 1742",
+        "ethiopian": "26 Sene 1750"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Thomas the Apostle",
+        "title_vi": "Thánh Tôma Tông đồ",
+        "summary_en": "The feast centers the apostle who moves from wounded doubt to one of the Church's strongest confessions of Christ.",
+        "summary_vi": "Lễ kính đặt trọng tâm nơi vị tông đồ đi từ nghi ngờ trước các vết thương đến lời tuyên xưng mạnh mẽ về Đức Kitô.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The feast is confirmed. The Chennai martyrdom and tomb traditions should be labeled traditional.",
+        "confidence_note_vi": "Lễ kính đã được xác nhận. Truyền thống tử đạo và mộ tại Chennai nên được ghi là theo truyền thống."
+      },
+      "place": {
+        "name": "St. Thomas Mount National Shrine, Chennai",
+        "latitude": 13.0078,
+        "longitude": 80.1925,
+        "confidence": "traditional",
+        "source_url": "https://stthomasmountbasilica.com/"
+      },
+      "artwork": {
+        "title": "The Incredulity of Saint Thomas",
+        "maker": "Caravaggio",
+        "date_label": "c. 1601-1602",
+        "source_url": "https://en.wikipedia.org/wiki/The_Incredulity_of_Saint_Thomas_(Caravaggio)",
+        "status": "provenance_candidate"
+      },
+      "sources": [
+        {"label": "USCCB daily readings", "url": "https://bible.usccb.org/bible/readings/070326.cfm", "type": "liturgical"},
+        {"label": "Vatican News saint profile", "url": "https://www.vaticannews.va/en/saints/07/03/st--thomas--apostle.html", "type": "church_biography"},
+        {"label": "CatholicCulture calendar", "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-03", "type": "liturgical_calendar"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "This day remembers the apostle who asked to see the wounds.",
+        "hero_line_vi": "Ngày này tưởng nhớ vị tông đồ xin được thấy các vết thương.",
+        "prayer_prompt_en": "Ask for faith that can tell the truth about doubt.",
+        "prayer_prompt_vi": "Xin đức tin biết nói thật về sự nghi ngờ."
+      }
+    },
+    {
+      "id": "anno-2026-07-04-elizabeth-portugal",
+      "date": "2026-07-04",
+      "weekday": "Saturday",
+      "mock_priority": "week_real_data",
+      "liturgical": {
+        "rank": "Weekday / civil observance in US",
+        "color": "green",
+        "title_en": "Saturday of the Thirteenth Week in Ordinary Time",
+        "title_vi": "Thứ Bảy tuần XIII Mùa Thường Niên"
+      },
+      "calendars": {
+        "julian": "2026-06-21",
+        "hebrew": "19 Tamuz 5786",
+        "islamic_umm_al_qura": "19 Muharram 1448 AH",
+        "coptic": "27 Paoni 1742",
+        "ethiopian": "27 Sene 1750"
+      },
+      "primary": {
+        "type": "saint_of_date",
+        "title_en": "Saint Elizabeth of Portugal",
+        "title_vi": "Thánh Isabel Bồ Đào Nha",
+        "summary_en": "A queen remembered for peacemaking, charity, and a sanctity exercised inside political life.",
+        "summary_vi": "Một hoàng hậu được nhớ đến vì hòa giải, bác ái và đời thánh thiện ngay trong đời sống chính trị.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The saint and feast date are confirmed; US liturgical handling should note Independence Day context.",
+        "confidence_note_vi": "Vị thánh và ngày kính đã được xác nhận; bản lịch Hoa Kỳ cần ghi bối cảnh Ngày Độc lập."
+      },
+      "place": {
+        "name": "Monastery of Santa Clara-a-Nova, Coimbra",
+        "latitude": 40.2026,
+        "longitude": -8.4349,
+        "confidence": "confirmed",
+        "source_url": "https://www.centerofportugal.com/poi/convent-of-santa-clara-a-nova"
+      },
+      "artwork": {
+        "title": "Saint Elisabeth of Portugal",
+        "maker": "Francisco de Zurbaran",
+        "date_label": "c. 1635",
+        "source_url": "https://www.museodelprado.es/en/the-collection/art-work/saint-elisabeth-of-portugal/70f72f87-85dd-4923-8d05-e4d7940f8c0b",
+        "status": "museum_candidate"
+      },
+      "sources": [
+        {"label": "USCCB daily readings", "url": "https://bible.usccb.org/bible/readings/070426.cfm", "type": "liturgical"},
+        {"label": "Vatican News saint profile", "url": "https://www.vaticannews.va/en/saints/07/04/st--elisabeth--isabel--of-portugal.html", "type": "church_biography"},
+        {"label": "Prado artwork record", "url": "https://www.museodelprado.es/en/the-collection/art-work/saint-elisabeth-of-portugal/70f72f87-85dd-4923-8d05-e4d7940f8c0b", "type": "artwork"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "Holiness can work through treaties, households, and stubborn mercy.",
+        "hero_line_vi": "Sự thánh thiện có thể đi qua hiệp ước, gia đình và lòng thương xót bền bỉ.",
+        "prayer_prompt_en": "Pray for peace where you have real influence.",
+        "prayer_prompt_vi": "Cầu nguyện cho hòa bình nơi bạn thật sự có ảnh hưởng."
+      }
+    },
+    {
+      "id": "anno-2026-07-05-ordinary-time-14",
+      "date": "2026-07-05",
+      "weekday": "Sunday",
+      "mock_priority": "week_real_data",
+      "liturgical": {
+        "rank": "Sunday",
+        "color": "green",
+        "title_en": "Fourteenth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật XIV Mùa Thường Niên"
+      },
+      "calendars": {
+        "julian": "2026-06-22",
+        "hebrew": "20 Tamuz 5786",
+        "islamic_umm_al_qura": "20 Muharram 1448 AH",
+        "coptic": "28 Paoni 1742",
+        "ethiopian": "28 Sene 1750"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Fourteenth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật XIV Mùa Thường Niên",
+        "summary_en": "Sunday takes precedence over date saints. This entry should behave as a liturgical anchor, with Saint Anthony Mary Zaccaria only as a sidebar if used.",
+        "summary_vi": "Chúa Nhật được ưu tiên hơn các thánh theo ngày. Mục này nên là điểm neo phụng vụ; Thánh Antôn Maria Zaccaria chỉ nên là phụ mục nếu dùng.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed Sunday observance for the US calendar.",
+        "confidence_note_vi": "Đã xác nhận là Chúa Nhật trong lịch Hoa Kỳ."
+      },
+      "place": null,
+      "artwork": {
+        "title": "Saint Anthony Mary Zaccaria statue",
+        "maker": "Cesare Aureli",
+        "date_label": "1909",
+        "source_url": "https://stpetersbasilica.info/Statues/Founders/AnthonyMZaccaria/Anthony%20Zaccaria.htm",
+        "status": "sidebar_candidate"
+      },
+      "sources": [
+        {"label": "USCCB daily readings", "url": "https://bible.usccb.org/bible/readings/070526.cfm", "type": "liturgical"},
+        {"label": "CatholicCulture July 2026 overview", "url": "https://www.catholicculture.org/culture/library/view.cfm?recnum=12555", "type": "liturgical_calendar"},
+        {"label": "Barnabite Fathers biography", "url": "https://www.barnabites.com/life/", "type": "order_biography"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "The calendar pauses for Sunday before it returns to the saints of the date.",
+        "hero_line_vi": "Lịch dừng lại vì Chúa Nhật trước khi trở về với các thánh theo ngày.",
+        "prayer_prompt_en": "Let the ordinary rhythm do its work.",
+        "prayer_prompt_vi": "Hãy để nhịp thường niên làm công việc của nó."
+      }
+    },
+    {
+      "id": "anno-2026-07-06-maria-goretti",
+      "date": "2026-07-06",
+      "weekday": "Monday",
+      "mock_priority": "week_real_data",
+      "liturgical": {
+        "rank": "Optional Memorial",
+        "color": "red",
+        "title_en": "Saint Maria Goretti, Virgin and Martyr",
+        "title_vi": "Thánh Maria Goretti, trinh nữ tử đạo"
+      },
+      "calendars": {
+        "julian": "2026-06-23",
+        "hebrew": "21 Tamuz 5786",
+        "islamic_umm_al_qura": "21 Muharram 1448 AH",
+        "coptic": "29 Paoni 1742",
+        "ethiopian": "29 Sene 1750"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Maria Goretti",
+        "title_vi": "Thánh Maria Goretti",
+        "summary_en": "A young martyr of modern Italy whose story requires sober, non-sensational handling.",
+        "summary_vi": "Một thiếu nữ tử đạo của nước Ý hiện đại; câu chuyện cần được trình bày nghiêm trang, không giật gân.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed optional memorial and biography. Avoid exploitative framing.",
+        "confidence_note_vi": "Đã xác nhận lễ nhớ tùy chọn và tiểu sử. Tránh cách trình bày khai thác bi kịch."
+      },
+      "place": {
+        "name": "Sanctuary of Our Lady of Graces and Saint Maria Goretti, Nettuno",
+        "latitude": 41.4568,
+        "longitude": 12.6679,
+        "confidence": "confirmed",
+        "source_url": "https://thecatholictravelguide.com/destinations/italy/nettuno-italy-saint-maria-goretti-shrine/"
+      },
+      "artwork": {
+        "title": "Saint Maria Goretti",
+        "maker": "Riccardo Sanna",
+        "date_label": "modern",
+        "source_url": "https://www.vaticannews.va/en/saints/07/06/st--maria-goretti--virgin-and-martyr.html",
+        "status": "reference_only_rights_unclear"
+      },
+      "sources": [
+        {"label": "USCCB memorial readings", "url": "https://bible.usccb.org/bible/readings/0706-memorial-maria-goretti.cfm", "type": "liturgical"},
+        {"label": "Vatican News saint profile", "url": "https://www.vaticannews.va/en/saints/07/06/st--maria-goretti--virgin-and-martyr.html", "type": "church_biography"},
+        {"label": "CatholicCulture calendar", "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-06", "type": "liturgical_calendar"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "Modern sanctity can demand a quieter, more careful voice.",
+        "hero_line_vi": "Sự thánh thiện thời hiện đại đôi khi đòi một giọng nói lặng hơn và cẩn trọng hơn.",
+        "prayer_prompt_en": "Pray for children, victims, and all who need protection.",
+        "prayer_prompt_vi": "Cầu nguyện cho trẻ em, các nạn nhân và mọi người cần được bảo vệ."
+      }
+    },
+    {
+      "id": "anno-2026-07-07-benedict-xi",
+      "date": "2026-07-07",
+      "weekday": "Tuesday",
+      "mock_priority": "week_real_data",
+      "liturgical": {
+        "rank": "Weekday",
+        "color": "green",
+        "title_en": "Tuesday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Ba tuần XIV Mùa Thường Niên"
+      },
+      "calendars": {
+        "julian": "2026-06-24",
+        "hebrew": "22 Tamuz 5786",
+        "islamic_umm_al_qura": "22 Muharram 1448 AH",
+        "coptic": "30 Paoni 1742",
+        "ethiopian": "30 Sene 1750"
+      },
+      "primary": {
+        "type": "historical_on_this_date",
+        "title_en": "Blessed Pope Benedict XI",
+        "title_vi": "Chân phước Giáo hoàng Biển Đức XI",
+        "summary_en": "A historical date entry: Benedict XI died on July 7, 1304, and is commemorated in narrower calendars rather than the US general calendar.",
+        "summary_vi": "Một mục lịch sử theo ngày: Đức Biển Đức XI qua đời ngày 7 tháng 7 năm 1304 và được kính trong các lịch hẹp hơn, không phải lịch chung Hoa Kỳ.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed as historical/date content, not a US General Calendar memorial.",
+        "confidence_note_vi": "Đã xác nhận là nội dung lịch sử theo ngày, không phải lễ nhớ trong lịch chung Hoa Kỳ."
+      },
+      "place": {
+        "name": "Basilica of San Domenico, Perugia",
+        "latitude": 43.1075,
+        "longitude": 12.3906,
+        "confidence": "confirmed",
+        "source_url": "https://www.keytoumbria.com/Perugia/S_Domenico__Monument.html"
+      },
+      "artwork": {
+        "title": "Tomb effigy of Benedict XI",
+        "maker": "unknown Italian master",
+        "date_label": "early 14th century",
+        "source_url": "https://www.wga.hu/html_m/m/master/xunk_it/xunk_it6/08benedi.html",
+        "status": "art_history_candidate"
+      },
+      "sources": [
+        {"label": "USCCB daily readings", "url": "https://bible.usccb.org/bible/readings/070726.cfm", "type": "liturgical"},
+        {"label": "CatholicCulture month calendar", "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/month.cfm?m=7&y=2026", "type": "calendar_context"},
+        {"label": "New Advent Catholic Encyclopedia", "url": "https://www.newadvent.org/cathen/02429c.htm", "type": "encyclopedia"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "Some days are not memorials. They are still doors into history.",
+        "hero_line_vi": "Có những ngày không phải lễ nhớ, nhưng vẫn là cánh cửa đi vào lịch sử.",
+        "prayer_prompt_en": "Pray for leaders asked to serve in a short and difficult hour.",
+        "prayer_prompt_vi": "Cầu nguyện cho những người lãnh đạo phải phục vụ trong thời khắc ngắn ngủi và khó khăn."
+      }
+    },
+    {
+      "id": "anno-2026-07-08-aquila-priscilla",
+      "date": "2026-07-08",
+      "weekday": "Wednesday",
+      "mock_priority": "week_real_data",
+      "liturgical": {
+        "rank": "Weekday",
+        "color": "green",
+        "title_en": "Wednesday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Tư tuần XIV Mùa Thường Niên"
+      },
+      "calendars": {
+        "julian": "2026-06-25",
+        "hebrew": "23 Tamuz 5786",
+        "islamic_umm_al_qura": "23 Muharram 1448 AH",
+        "coptic": "1 Epip 1742",
+        "ethiopian": "1 Hamle 1750"
+      },
+      "primary": {
+        "type": "saints_of_date",
+        "title_en": "Saints Aquila and Priscilla",
+        "title_vi": "Thánh Aquila và Thánh Priscilla",
+        "summary_en": "A married pair remembered as collaborators of Saint Paul and witnesses to the domestic shape of early Christian mission.",
+        "summary_vi": "Một đôi vợ chồng được nhớ đến như cộng sự của Thánh Phaolô và chứng nhân cho hình thức truyền giáo trong gia đình của Kitô giáo sơ khai.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed biblical-historical commemoration; not a US General Calendar memorial.",
+        "confidence_note_vi": "Đã xác nhận là tưởng niệm Kinh Thánh-lịch sử; không phải lễ nhớ trong lịch chung Hoa Kỳ."
+      },
+      "place": {
+        "name": "Ancient Corinth",
+        "latitude": 37.906,
+        "longitude": 22.879,
+        "confidence": "confirmed",
+        "source_url": "https://www.newadvent.org/cathen/01661b.htm"
+      },
+      "artwork": {
+        "title": "St. Aquila and St. Priscilla, His Wife",
+        "maker": "Jacques Callot",
+        "date_label": "1636",
+        "source_url": "https://www.metmuseum.org/art/collection/search/419813",
+        "status": "public_domain_candidate"
+      },
+      "sources": [
+        {"label": "USCCB 2026 calendar", "url": "https://www.usccb.org/resources/2026cal.pdf", "type": "official_calendar"},
+        {"label": "CatholicCulture day page", "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-08", "type": "liturgical_calendar"},
+        {"label": "New Advent Catholic Encyclopedia", "url": "https://www.newadvent.org/cathen/01661b.htm", "type": "encyclopedia"},
+        {"label": "Met Museum artwork record", "url": "https://www.metmuseum.org/art/collection/search/419813", "type": "artwork"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "The early Church also moved through households, workshops, and married fidelity.",
+        "hero_line_vi": "Hội Thánh sơ khai cũng đi qua các gia đình, xưởng nghề và lòng trung tín hôn nhân.",
+        "prayer_prompt_en": "Pray for the hidden labor that keeps a mission alive.",
+        "prayer_prompt_vi": "Cầu nguyện cho những lao nhọc âm thầm giữ cho sứ mạng sống động."
+      }
+    },
+    {
+      "id": "anno-2026-07-09-chinese-martyrs",
+      "date": "2026-07-09",
+      "weekday": "Thursday",
+      "mock_priority": "week_real_data",
+      "liturgical": {
+        "rank": "Optional Memorial",
+        "color": "red",
+        "title_en": "Saint Augustine Zhao Rong and Companions, Martyrs",
+        "title_vi": "Thánh Augustinô Zhao Rong và các bạn tử đạo"
+      },
+      "calendars": {
+        "julian": "2026-06-26",
+        "hebrew": "24 Tamuz 5786",
+        "islamic_umm_al_qura": "24 Muharram 1448 AH",
+        "coptic": "2 Epip 1742",
+        "ethiopian": "2 Hamle 1750"
+      },
+      "primary": {
+        "type": "saints",
+        "title_en": "Saint Augustine Zhao Rong and the Chinese Martyrs",
+        "title_vi": "Thánh Augustinô Zhao Rong và các thánh tử đạo Trung Hoa",
+        "summary_en": "A memorial for 120 martyrs whose lives span laypeople, clergy, missionaries, families, and long periods of persecution in China.",
+        "summary_vi": "Một lễ nhớ dành cho 120 vị tử đạo, gồm giáo dân, giáo sĩ, nhà truyền giáo, gia đình và nhiều thời kỳ bách hại tại Trung Hoa.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed optional memorial and Vatican canonization biography.",
+        "confidence_note_vi": "Đã xác nhận lễ nhớ tùy chọn và tiểu sử phong thánh của Vatican."
+      },
+      "place": {
+        "name": "Cathedral of the Immaculate Conception, Chengdu",
+        "latitude": 30.6664,
+        "longitude": 104.0594,
+        "confidence": "contextual",
+        "source_url": "https://www.wikidata.org/wiki/Q10281190"
+      },
+      "artwork": {
+        "title": "Saint Augustine Zhao Rong and Companions",
+        "maker": "Vatican News image",
+        "date_label": "modern",
+        "source_url": "https://www.vaticannews.va/en/saints/07/09/sts--augustine-zhao-rong--priest-and-companions--chinese-martyrs.html",
+        "status": "reference_only_rights_unclear"
+      },
+      "sources": [
+        {"label": "USCCB 2026 calendar", "url": "https://www.usccb.org/resources/2026cal.pdf", "type": "official_calendar"},
+        {"label": "Vatican News saint profile", "url": "https://www.vaticannews.va/en/saints/07/09/sts--augustine-zhao-rong--priest-and-companions--chinese-martyrs.html", "type": "church_biography"},
+        {"label": "Vatican canonization biography", "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20001001_zhao-rong-compagni_en.html", "type": "church_biography"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "The Church remembers Chinese martyrs by name, family, vocation, and witness.",
+        "hero_line_vi": "Hội Thánh tưởng nhớ các vị tử đạo Trung Hoa theo tên gọi, gia đình, ơn gọi và chứng tá.",
+        "prayer_prompt_en": "Pray for Christians whose witness must remain costly.",
+        "prayer_prompt_vi": "Cầu nguyện cho các Kitô hữu mà chứng tá vẫn phải trả giá."
+      }
+    },
+    {
+      "id": "anno-2026-07-10-canute",
+      "date": "2026-07-10",
+      "weekday": "Friday",
+      "mock_priority": "fortnight_extension",
+      "liturgical": {
+        "rank": "Weekday",
+        "color": "green",
+        "title_en": "Friday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Sáu tuần XIV Mùa Thường Niên"
+      },
+      "calendars": {
+        "julian": "2026-06-27",
+        "hebrew": "25 Tamuz 5786",
+        "islamic_umm_al_qura": "25 Muharram 1448 AH",
+        "coptic": "3 Epip 1742",
+        "ethiopian": "3 Hamle 1750"
+      },
+      "primary": {
+        "type": "saint_of_date",
+        "title_en": "Saint Canute IV of Denmark",
+        "title_vi": "Thánh Canute IV Đan Mạch",
+        "summary_en": "A king and martyr linked to Denmark's Catholic memory and to Odense, where his relic tradition is centered.",
+        "summary_vi": "Một vị vua tử đạo gắn với ký ức Công giáo của Đan Mạch và với Odense, nơi truyền thống thánh tích của ngài được đặt trọng tâm.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed historical saint and Roman Martyrology context; not a US General Calendar memorial.",
+        "confidence_note_vi": "Đã xác nhận là vị thánh lịch sử và trong bối cảnh Tử đạo thư Rôma; không phải lễ nhớ trong lịch chung Hoa Kỳ."
+      },
+      "place": {
+        "name": "Saint Canute's Cathedral, Odense",
+        "latitude": 55.3953,
+        "longitude": 10.3889,
+        "confidence": "confirmed",
+        "source_url": "https://www.wikidata.org/wiki/Q492584"
+      },
+      "artwork": {
+        "title": "Saint Canute's Cathedral imagery",
+        "maker": "site photography candidate",
+        "date_label": "site asset needed",
+        "source_url": "https://www.newadvent.org/cathen/03307a.htm",
+        "status": "needs_asset_research"
+      },
+      "sources": [
+        {"label": "USCCB 2026 calendar", "url": "https://www.usccb.org/resources/2026cal.pdf", "type": "official_calendar"},
+        {"label": "CatholicCulture day page", "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-10", "type": "liturgical_calendar"},
+        {"label": "New Advent Catholic Encyclopedia", "url": "https://www.newadvent.org/cathen/03307a.htm", "type": "encyclopedia"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "Northern Europe enters the calendar through a king, a martyr, and a cathedral.",
+        "hero_line_vi": "Bắc Âu bước vào lịch qua một vị vua, một vị tử đạo và một nhà thờ chính tòa.",
+        "prayer_prompt_en": "Pray for power converted into service.",
+        "prayer_prompt_vi": "Cầu nguyện để quyền lực được biến đổi thành phục vụ."
+      }
+    },
+    {
+      "id": "anno-2026-07-11-benedict",
+      "date": "2026-07-11",
+      "weekday": "Saturday",
+      "mock_priority": "fortnight_extension",
+      "liturgical": {
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saint Benedict, Abbot",
+        "title_vi": "Thánh Biển Đức, viện phụ"
+      },
+      "calendars": {
+        "julian": "2026-06-28",
+        "hebrew": "26 Tamuz 5786",
+        "islamic_umm_al_qura": "26 Muharram 1448 AH",
+        "coptic": "4 Epip 1742",
+        "ethiopian": "4 Hamle 1750"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Benedict of Nursia",
+        "title_vi": "Thánh Biển Đức thành Nursia",
+        "summary_en": "The father of Western monasticism gives Anno a natural premium path into rule, rhythm, place, and daily discipline.",
+        "summary_vi": "Tổ phụ đời đan tu Tây phương mở cho Anno một lối đi tự nhiên vào quy luật, nhịp sống, địa điểm và kỷ luật hằng ngày.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed memorial.",
+        "confidence_note_vi": "Đã xác nhận lễ nhớ."
+      },
+      "place": {
+        "name": "Abbey of Monte Cassino",
+        "latitude": 41.49,
+        "longitude": 13.8139,
+        "confidence": "confirmed",
+        "source_url": "https://www.wikidata.org/wiki/Q334051"
+      },
+      "artwork": {
+        "title": "Saint Benedict",
+        "maker": "Francisco de Zurbaran",
+        "date_label": "c. 1640-1645",
+        "source_url": "https://www.metmuseum.org/art/collection/search/437970",
+        "status": "public_domain_candidate"
+      },
+      "sources": [
+        {"label": "USCCB 2026 calendar", "url": "https://www.usccb.org/resources/2026cal.pdf", "type": "official_calendar"},
+        {"label": "CatholicCulture day page", "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-11", "type": "liturgical_calendar"},
+        {"label": "New Advent Catholic Encyclopedia", "url": "https://www.newadvent.org/cathen/02467b.htm", "type": "encyclopedia"},
+        {"label": "Met Museum artwork record", "url": "https://www.metmuseum.org/art/collection/search/437970", "type": "artwork"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "A rule of life becomes a map through the centuries.",
+        "hero_line_vi": "Một quy luật sống trở thành bản đồ đi qua nhiều thế kỷ.",
+        "prayer_prompt_en": "Pray for stability, attention, and work done before God.",
+        "prayer_prompt_vi": "Cầu nguyện cho sự bền vững, chăm chú và lao động trước mặt Chúa."
+      }
+    },
+    {
+      "id": "anno-2026-07-12-ordinary-time-15",
+      "date": "2026-07-12",
+      "weekday": "Sunday",
+      "mock_priority": "fortnight_extension",
+      "liturgical": {
+        "rank": "Sunday",
+        "color": "green",
+        "title_en": "Fifteenth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật XV Mùa Thường Niên"
+      },
+      "calendars": {
+        "julian": "2026-06-29",
+        "hebrew": "27 Tamuz 5786",
+        "islamic_umm_al_qura": "27 Muharram 1448 AH",
+        "coptic": "5 Epip 1742",
+        "ethiopian": "5 Hamle 1750"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Fifteenth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật XV Mùa Thường Niên",
+        "summary_en": "The Sunday readings center the sower and the strange patience of seed, soil, and time.",
+        "summary_vi": "Các bài đọc Chúa Nhật đặt trọng tâm nơi người gieo giống và sự kiên nhẫn lạ lùng của hạt giống, đất và thời gian.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed Sunday observance and Year A readings in the 2026 USCCB calendar.",
+        "confidence_note_vi": "Đã xác nhận Chúa Nhật và các bài đọc Năm A trong lịch USCCB 2026."
+      },
+      "place": {
+        "name": "Capernaum / Sea of Galilee region",
+        "latitude": 32.881,
+        "longitude": 35.5752,
+        "confidence": "traditional",
+        "source_url": "https://www.seetheholyland.net/capernaum/"
+      },
+      "artwork": {
+        "title": "The Sower (after Millet)",
+        "maker": "Vincent van Gogh",
+        "date_label": "1890",
+        "source_url": "https://krollermuller.nl/en/vincent-van-gogh-the-sower-after-millet",
+        "status": "museum_candidate"
+      },
+      "sources": [
+        {"label": "USCCB 2026 calendar", "url": "https://www.usccb.org/resources/2026cal.pdf", "type": "official_calendar"},
+        {"label": "CatholicCulture day page", "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-12", "type": "liturgical_calendar"},
+        {"label": "Kroller-Muller Museum artwork", "url": "https://krollermuller.nl/en/vincent-van-gogh-the-sower-after-millet", "type": "artwork"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "Sunday turns time itself into soil.",
+        "hero_line_vi": "Chúa Nhật biến chính thời gian thành mảnh đất.",
+        "prayer_prompt_en": "Pray for the patience to receive what grows slowly.",
+        "prayer_prompt_vi": "Cầu nguyện cho lòng kiên nhẫn đón nhận điều lớn lên chậm rãi."
+      }
+    },
+    {
+      "id": "anno-2026-07-13-henry",
+      "date": "2026-07-13",
+      "weekday": "Monday",
+      "mock_priority": "fortnight_extension",
+      "liturgical": {
+        "rank": "Optional Memorial",
+        "color": "white",
+        "title_en": "Saint Henry",
+        "title_vi": "Thánh Henry"
+      },
+      "calendars": {
+        "julian": "2026-06-30",
+        "hebrew": "28 Tamuz 5786",
+        "islamic_umm_al_qura": "28 Muharram 1448 AH",
+        "coptic": "6 Epip 1742",
+        "ethiopian": "6 Hamle 1750"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Henry II",
+        "title_vi": "Thánh Henry II",
+        "summary_en": "An emperor remembered through Bamberg, patronage, reform, and the uneasy holiness of public power.",
+        "summary_vi": "Một hoàng đế được nhớ đến qua Bamberg, việc bảo trợ, cải tổ và sự thánh thiện không dễ dàng của quyền lực công.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed optional memorial; miracle material should be marked traditional.",
+        "confidence_note_vi": "Đã xác nhận lễ nhớ tùy chọn; các chuyện phép lạ nên ghi là theo truyền thống."
+      },
+      "place": {
+        "name": "Bamberg Cathedral",
+        "latitude": 49.890774,
+        "longitude": 10.882515,
+        "confidence": "confirmed",
+        "source_url": "https://www.latlong.net/place/bamberg-cathedral-bamberg-germany-21796.html"
+      },
+      "artwork": {
+        "title": "Tomb of Emperor Henry II and Empress Cunigunde",
+        "maker": "Tilman Riemenschneider",
+        "date_label": "c. 1499-1513",
+        "source_url": "https://www.wga.hu/html_m/r/riemensc/6tomb.html",
+        "status": "art_history_candidate"
+      },
+      "sources": [
+        {"label": "USCCB 2026 calendar", "url": "https://www.usccb.org/resources/2026cal.pdf", "type": "official_calendar"},
+        {"label": "USCCB daily readings", "url": "https://bible.usccb.org/bible/readings/071326.cfm", "type": "liturgical"},
+        {"label": "CatholicCulture day page", "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2024-07-13", "type": "liturgical_calendar"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "Bamberg keeps the memory of a ruler judged by more than rule.",
+        "hero_line_vi": "Bamberg giữ ký ức về một người cai trị được xét bằng điều lớn hơn quyền cai trị.",
+        "prayer_prompt_en": "Pray for public authority to remember judgment and mercy.",
+        "prayer_prompt_vi": "Cầu nguyện để quyền bính công nhớ đến phán xét và lòng thương xót."
+      }
+    },
+    {
+      "id": "anno-2026-07-14-kateri",
+      "date": "2026-07-14",
+      "weekday": "Tuesday",
+      "mock_priority": "fortnight_extension",
+      "liturgical": {
+        "rank": "Memorial in the United States",
+        "color": "white",
+        "title_en": "Saint Kateri Tekakwitha, Virgin",
+        "title_vi": "Thánh Kateri Tekakwitha, trinh nữ"
+      },
+      "calendars": {
+        "julian": "2026-07-01",
+        "hebrew": "29 Tamuz 5786",
+        "islamic_umm_al_qura": "29 Muharram 1448 AH",
+        "coptic": "7 Epip 1742",
+        "ethiopian": "7 Hamle 1750"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Kateri Tekakwitha",
+        "title_vi": "Thánh Kateri Tekakwitha",
+        "summary_en": "The first Native North American saint canonized by the Catholic Church, requiring careful, sourced, non-generic representation.",
+        "summary_vi": "Vị thánh bản địa Bắc Mỹ đầu tiên được Giáo hội Công giáo tuyên thánh; cần được trình bày cẩn trọng, có nguồn và không chung chung.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed memorial in the United States.",
+        "confidence_note_vi": "Đã xác nhận lễ nhớ tại Hoa Kỳ."
+      },
+      "place": {
+        "name": "Saint Kateri Tekakwitha National Shrine, Fonda",
+        "latitude": 42.950804,
+        "longitude": -74.393282,
+        "confidence": "confirmed",
+        "source_url": "https://www.katerishrine.org/"
+      },
+      "artwork": {
+        "title": "Portrait tradition of Kateri Tekakwitha",
+        "maker": "Claude Chauchetiere tradition / later portraits",
+        "date_label": "late 17th century onward",
+        "source_url": "https://www.americanindianmagazine.org/story/complexity-ecstasy-life-and-sainthood-st-kateri-tekakwitha",
+        "status": "representation_review_required"
+      },
+      "sources": [
+        {"label": "USCCB daily readings", "url": "https://bible.usccb.org/bible/readings/071426.cfm", "type": "liturgical"},
+        {"label": "Saint Kateri National Shrine", "url": "https://www.katerishrine.org/", "type": "shrine"},
+        {"label": "Dictionary of Canadian Biography", "url": "https://www.biographi.ca/en/bio/tekakwitha_1E.html", "type": "biography"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "A North American saint demands specificity, not decoration.",
+        "hero_line_vi": "Một vị thánh Bắc Mỹ đòi sự cụ thể, không phải trang trí.",
+        "prayer_prompt_en": "Pray with reverence for place, people, and memory.",
+        "prayer_prompt_vi": "Cầu nguyện với lòng kính trọng dành cho nơi chốn, con người và ký ức."
+      }
+    },
+    {
+      "id": "anno-2026-07-15-bonaventure",
+      "date": "2026-07-15",
+      "weekday": "Wednesday",
+      "mock_priority": "fortnight_extension",
+      "liturgical": {
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saint Bonaventure, Bishop and Doctor of the Church",
+        "title_vi": "Thánh Bonaventura, giám mục và tiến sĩ Hội Thánh"
+      },
+      "calendars": {
+        "julian": "2026-07-02",
+        "hebrew": "1 Av 5786",
+        "islamic_umm_al_qura": "1 Safar 1448 AH",
+        "coptic": "8 Epip 1742",
+        "ethiopian": "8 Hamle 1750"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Bonaventure",
+        "title_vi": "Thánh Bonaventura",
+        "summary_en": "Franciscan theologian, cardinal bishop, and Doctor of the Church: an ideal bridge between devotion and serious intellectual history.",
+        "summary_vi": "Nhà thần học Phan Sinh, hồng y giám mục và tiến sĩ Hội Thánh: một nhịp cầu lý tưởng giữa lòng đạo và lịch sử tư tưởng nghiêm túc.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed memorial.",
+        "confidence_note_vi": "Đã xác nhận lễ nhớ."
+      },
+      "place": {
+        "name": "Co-Cathedral of Saints Nicholas, Donatus, and Bonaventure, Bagnoregio",
+        "latitude": 42.626611,
+        "longitude": 12.095033,
+        "confidence": "confirmed",
+        "source_url": "https://it.wikipedia.org/wiki/Concattedrale_dei_Santi_Nicola,_Donato_e_Bonaventura"
+      },
+      "artwork": {
+        "title": "Saint Bonaventure Receiving the Habit from Saint Francis",
+        "maker": "Francisco de Zurbaran",
+        "date_label": "17th century",
+        "source_url": "https://www.museodelprado.es/en/the-collection/art-work/saint-bonaventure-receiving-the-habit-from-saint/ca182669-0463-4267-9692-b481615aaa5e",
+        "status": "museum_candidate"
+      },
+      "sources": [
+        {"label": "USCCB daily readings", "url": "https://bible.usccb.org/bible/readings/071526.cfm", "type": "liturgical"},
+        {"label": "Franciscan Media saint profile", "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-bonaventure/", "type": "biography"},
+        {"label": "Franciscan Friars feast note", "url": "https://franciscanfriars.org/2024/07/15/st-bonaventure-feast-day-july-15/", "type": "order_context"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "The calendar can hold both mysticism and scholarship.",
+        "hero_line_vi": "Lịch có thể chứa cả huyền nhiệm lẫn học thuật.",
+        "prayer_prompt_en": "Pray for knowledge that becomes love.",
+        "prayer_prompt_vi": "Cầu nguyện cho tri thức trở thành tình yêu."
+      }
+    },
+    {
+      "id": "anno-2026-07-16-mount-carmel",
+      "date": "2026-07-16",
+      "weekday": "Thursday",
+      "mock_priority": "fortnight_extension",
+      "liturgical": {
+        "rank": "Optional Memorial",
+        "color": "white",
+        "title_en": "Our Lady of Mount Carmel",
+        "title_vi": "Đức Mẹ Núi Cát Minh"
+      },
+      "calendars": {
+        "julian": "2026-07-03",
+        "hebrew": "2 Av 5786",
+        "islamic_umm_al_qura": "2 Safar 1448 AH",
+        "coptic": "9 Epip 1742",
+        "ethiopian": "9 Hamle 1750"
+      },
+      "primary": {
+        "type": "marian_memorial",
+        "title_en": "Our Lady of Mount Carmel",
+        "title_vi": "Đức Mẹ Núi Cát Minh",
+        "summary_en": "A Marian memorial grounded in Mount Carmel, Carmelite identity, and the scapular tradition.",
+        "summary_vi": "Một lễ nhớ về Đức Mẹ đặt nền nơi Núi Cát Minh, căn tính Cát Minh và truyền thống áo Đức Bà.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Confirmed optional memorial. The 1251 Simon Stock apparition should be labeled traditional.",
+        "confidence_note_vi": "Đã xác nhận lễ nhớ tùy chọn. Trình thuật hiện ra với Thánh Simon Stock năm 1251 nên ghi là theo truyền thống."
+      },
+      "place": {
+        "name": "Stella Maris Monastery, Mount Carmel, Haifa",
+        "latitude": 32.82746,
+        "longitude": 34.96955,
+        "confidence": "confirmed",
+        "source_url": "https://www.carmelholylanddco.org/"
+      },
+      "artwork": {
+        "title": "Our Lady of Mount Carmel",
+        "maker": "Pietro Novelli",
+        "date_label": "1641",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pietro_Novelli_-_Our_Lady_of_Mount_Carmel_-_WGA16596.jpg",
+        "status": "public_domain_candidate"
+      },
+      "sources": [
+        {"label": "USCCB daily readings", "url": "https://bible.usccb.org/bible/readings/071626.cfm", "type": "liturgical"},
+        {"label": "USCCB memorial readings", "url": "https://bible.usccb.org/bible/readings/0716-memorial-our-lady-mount-carmel.cfm", "type": "liturgical"},
+        {"label": "Vatican News memorial summary", "url": "https://www.vaticannews.va/en/liturgical-holidays/memorial-of-our-lady-of-mount-carmel.html", "type": "church_biography"},
+        {"label": "Carmelite Holy Land site", "url": "https://www.carmelholylanddco.org/", "type": "site_context"}
+      ],
+      "app_hooks": {
+        "hero_line_en": "A mountain, an order, and a Marian sign gather into one summer memorial.",
+        "hero_line_vi": "Một ngọn núi, một dòng tu và một dấu chỉ Đức Mẹ tụ lại trong một lễ nhớ mùa hè.",
+        "prayer_prompt_en": "Pray for hidden fidelity under Mary's mantle.",
+        "prayer_prompt_vi": "Cầu nguyện cho lòng trung tín âm thầm dưới áo choàng của Đức Mẹ."
+      }
+    }
+  ]
+}
