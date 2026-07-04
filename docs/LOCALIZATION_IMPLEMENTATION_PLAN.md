@@ -146,7 +146,7 @@ Mở ngày này
 
 ## Sprint 2: Implementation
 
-### 2.1 Build LocalizationManager
+|### ✅ 2.1 Build LocalizationManager
 
 **Action:** Instead of full iOS Bundle swapping (heavy, triggers cached-UI issues), build a lightweight `LocalizationManager`:
 
