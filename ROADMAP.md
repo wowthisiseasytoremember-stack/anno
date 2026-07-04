@@ -1,5 +1,5 @@
 # Interfaith Devotional Engine — ROADMAP.md
-Updated: 2026-07-04
+**Last updated:** 2026-07-04
 
 ## Phase 0: Canonical Truth Reconciliation
 - [x] Create `ARCHITECTURE.md`
