@@ -1,0 +1,27 @@
+# Sacred Atlas — DECISIONS.md
+## Design Decisions & Open Questions
+
+Rolled from analysis of 4 implementation options (extracted from product plan dump)
+and reconciled with the existing Anno architecture (ARCHITECTURE.md, FEATURES.md, ROADMAP.md).
+
+**Location:** `~/01_Infrastructure/Anno/docs/SACRED_ATLAS_DECISIONS.md`
+
+### Coverage
+- 16 decision items identified across 4 impl options
+- 10 resolved with code-level source stakes
+- 6 remaining ⚠ open questions tagged
+- All code divergences catalogued with build-order plan
+
+### Key Discrepancy Resolutions
+
+The most significant finding: **Option 4 (Production Multi-File, 130KB)** is the correct foundation, but is missing 3 views (PilgrimModeView, PilgrimPassportView, RoutePacks) that exist only in Option 3 (Monolithic V2, 114KB). The proximity detection that everyone thinks lives in Option 3 is actually most complete in Option 4 (30 refs vs 9). Full diff in the decisions doc.
+
+### Next
+Build order is:
+1. Extract Opt4's 9 files into plan's §5.2 folder structure
+2. Add `@Attribute(.unique)` to SwiftData models
+3. Import ProgressRing, SafariView, PreviewHarness from Opt3
+4. Add stamp sigil generation
+5. Extract & adapt missing views from Opt3
+6. Wire localization keys
+7. Verify with PreviewHarness

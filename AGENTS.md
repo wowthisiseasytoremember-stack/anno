@@ -1,5 +1,5 @@
 # Interfaith Devotional Engine — AGENTS.md
-Updated: 2026-07-03
+**Last updated:** 2026-07-04
 
 ## Quick Start (Read This First)
 
@@ -20,7 +20,7 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 ## Root
 `~/Projects/interfaith-devotional/`
 
-## Status
+## Setup Context
 - PRD landed at `PRD.md`
 - Required architecture doc exists at `ARCHITECTURE.md`
 - Product bible and handoff docs live in `docs/`
