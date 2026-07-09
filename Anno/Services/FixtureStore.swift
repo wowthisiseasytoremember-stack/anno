@@ -39,12 +39,12 @@ final class FixtureStore: ObservableObject {
 
     static func loadBundled(bundle: Bundle = .main) throws -> FixtureStore {
         let fixture: AnnoFixture = try decodeResource(
-            "anno_fortnight_2026-07-03_2026-07-16",
+            "anno_full_2026_2029",
             extension: "json",
             bundle: bundle
         )
         let week: WeekFixture = try decodeResource(
-            "anno_week_2026-07-03_2026-07-09",
+            "anno_week_current",
             extension: "json",
             bundle: bundle
         )

@@ -130,13 +130,13 @@ def compute_hebrew(gregorian_date, sundown_str):
     dow_code = {0: '7', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6'}.get(rh_dow, '?')
     year_len = len(year_obj)
     leap_marker = 'H' if year_obj.leap else 'K'
-    # Normalize year length shorthand: 353/383 = g, 354/384 = s, 355/385 = g
+    # Normalize year length shorthand: 353/383 = g, 354/384 = s, 355/385 = sh
     if year_len in (353, 383):
         len_code = 'g'
     elif year_len in (354, 384):
         len_code = 's'
     else:
-        len_code = 'g'  # 355/385
+        len_code = 'sh'  # 355/385
     keviah = f"{dow_code}{len_code}{leap_marker}"
 
     month_name = HEBREW_MONTHS.get(h.month, f'Month_{h.month}')
@@ -244,9 +244,9 @@ def gregorian_to_ethiopian(gregorian_date):
     c = coptic.from_gregorian(gregorian_date.year, gregorian_date.month, gregorian_date.day)
     coptic_year, coptic_month, coptic_day = c
     # Ethiopian New Year (Enkutatash) = 1 Meskerem (11/12 September Gregorian).
-    # If Coptic month is < Meskerem (month 1), the Ethiopian year = Coptic year + 7
-    # If Coptic month >= Meskerem, Ethiopian year = Coptic year + 8
-    ethiopian_year = coptic_year + 7 if coptic_month < 1 else coptic_year + 8
+    # The Ethiopian year is precisely 276 years ahead of the Coptic year.
+    # 1 Thout (Coptic) = 1 Meskerem (Ethiopian).
+    ethiopian_year = coptic_year + 276
     return {
         'date': f"{coptic_day} {ETHIOPIAN_MONTHS.get(coptic_month, f'Month_{coptic_month}')} {ethiopian_year}",
         'new_year_alignment_note': None,
@@ -269,10 +269,12 @@ def gregorian_to_byzantine(gregorian_date):
 
 
 def gregorian_to_armenian(gregorian_date):
-    # Armenian era began July 552 AD (Julian).
-    # Armenian year = Gregorian - 551 for post-July dates; pre-July = Gregorian - 552
-    # Simplified: Armenian year ~ Gregorian - 550
-    armenian_year = gregorian_date.year - 550
+    # Armenian era began July 11, 552 AD (Julian).
+    # Armenian year = Gregorian - 551 for Jan 1 - Jul 10 dates; Jul 11 - Dec = Gregorian - 550
+    if gregorian_date.month < 7 or (gregorian_date.month == 7 and gregorian_date.day <= 10):
+        armenian_year = gregorian_date.year - 551
+    else:
+        armenian_year = gregorian_date.year - 550
     julian_dt, _ = gregorian_to_julian_dt(gregorian_date)
     return {
         'date': f"{julian_dt.day} {julian_dt.strftime('%B')} {armenian_year}",
