@@ -3,6 +3,7 @@ Updated: 2026-07-03
 
 Open this first:
 
+- `visual-design.md` — detailed design spec sheet with individual extracted screen & UI assets
 - `anno-visual-board.html`
 - `anno-real-week-mock.html` — interactive real-data July 3-9 mock loaded from `data/mock/`
 
