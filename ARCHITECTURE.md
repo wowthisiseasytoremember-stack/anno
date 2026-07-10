@@ -155,8 +155,45 @@ Pilgrim:
 - Route packs and offline travel utility.
 
 No monetized feature may imply paid spiritual superiority.
-No v1 monetized feature may depend on ads, rewarded ads, data resale/share, paid streak repair, Grace Tokens, XP multipliers, or guilt-based religious pressure.
-Premium may be commercially sharp only when it sells real product value: archive, art, audio, source depth, reviewed localization, maps, and routes.
+| No v1 monetized feature may depend on ads, rewarded ads, data resale/share, paid streak repair, Grace Tokens, XP multipliers, or guilt-based religious pressure.
+| Premium may be commercially sharp only when it sells real product value: archive, art, audio, source depth, reviewed localization, maps, and routes.
+
+## Layer D: Devotional Engine (Cloned from KJV Women's App)
+
+Files in `Anno/Services/` and `Anno/Components/` were lifted from the KJV women's devotional app (DailyDevotionKJVForWomen, built by Rork). See `CLONE_FROM_KJV.md` for the full migration plan and per-file adaptation notes.
+
+### D1 — Engine: Deterministic Rotation
+
+`AnnoDevotionalLoader.swift` + `DevotionalProvider.swift` — matches a calendar date to a devotional entry via hash-based array indexing. Same date → same content every year. Content pool loaded from `annodevotionals.json` bundle resource.
+
+### D2 — Data: Bookmark + Search
+
+`Models/Bookmark.swift` + `Services/BookmarkActions.swift` — SwiftData model with unique verse reference, per-verse bookmark toggle, and existence check. Same schema as KJV app, canon-agnostic.
+
+### D3 — UI: Card + Action Components
+
+| File | Source | Adaptation Needed |
+|---|---|---|
+| `Components/GlassCard.swift` | KJV app GlassCard | Optional — Anno has AnnoCard modifier |
+| `Components/VerseActionBar.swift` | KJV app | Swap Palette.rose → AnnoTheme.goldLeaf |
+| `Components/ShareCard.swift` | KJV app | Swap Palette colors → AnnoTheme |
+| `Components/ShareableImage.swift` | KJV app | None (Transferable wrapper) |
+
+### D4 — Services
+
+| File | Notes |
+|---|---|
+| `Services/Haptics.swift` | Same haptic wrappers |
+| `Services/SearchHistory.swift` | UserDefaults-backed recent searches |
+| `Services/NotificationService.swift` | Local notification scheduling |
+
+### D5 — Audio Pipeline (Cartesia Strategy)
+
+See `CLONE_FROM_KJV.md` and the KJV app's monetization research prompt for the full Cartesia + public-domain Gregorian chant strategy. Adaptation cost is lower than KJV: chant recordings are broadly public domain and universally understood across English/Vietnamese users.
+
+### D6 — Content Pipeline
+
+Devotional content schema (themed blocks, essays, prayers, sleep/comfort) is documented in `CLONE_FROM_KJV.md` and the Catholic research prompt. The engine is content-agnostic — produce Catholic + Vietnamese JSON, and the existing rotation logic loads it unchanged.
 
 ## Canonical Planning Docs
 

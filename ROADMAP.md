@@ -37,6 +37,17 @@
 - [ ] Sample audio script generation
 - [x] Add bilingual July 3-16 fixture copy for native mock app
 
+## Phase 4.5: Layer D — Devotional Engine (Cloned from KJV App)
+- [x] Import AnnoDevotionalLoader.swift — deterministic date rotation
+- [x] Import DevotionalProvider.swift — pool management
+- [x] Import Bookmark.swift + BookmarkActions.swift — SwiftData persistence
+- [x] Import GlassCard, ShareCard, ShareableImage, VerseActionBar — UI components
+- [x] Import Haptics, SearchHistory, NotificationService — service wrappers
+- [ ] Wire devotional engine into app (RootView / TodayView integration)
+- [ ] Adapt VerseActionBar palette to AnnoTheme
+- [ ] Produce Catholic devotional JSON (see `CLONE_FROM_KJV.md` + research prompt)
+- [ ] Vietnamese translation pass for 365-entry devotional pool
+
 ## Phase 5: UI/UX and Monetization
 - [x] Expandable calendars — collapsible extra calendar systems
 - [x] Skeleton loaders — shimmer animation for loading state

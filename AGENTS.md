@@ -18,7 +18,7 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 - **Layer C** (LLM): devotional content generation from Engine B structured data
 
 ## Root
-`~/Projects/interfaith-devotional/`
+`~/Projects/Anno/`
 
 ## Setup Context
 - PRD landed at `PRD.md`
