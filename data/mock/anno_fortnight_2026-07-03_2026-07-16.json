@@ -1,0 +1,711 @@
+{
+  "schema_version": "anno.mock.v1",
+  "generated_on": "2026-07-10",
+  "source_window": {
+    "start": "2026-07-03",
+    "end": "2026-07-16"
+  },
+  "editorial_policy": {},
+  "entries": [
+    {
+      "id": "anno-2026-07-03",
+      "date": "2026-07-03",
+      "weekday": "Friday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "verdigris",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+      },
+      "calendars": {
+        "julian": "2026-06-20",
+        "hebrew": "18 Tamuz 5786",
+        "islamic_umm_al_qura": "18 Muharram 1448 AH",
+        "coptic": "26 Paoni 1742",
+        "ethiopian": "26 Sene 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Feria in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-04",
+      "date": "2026-07-04",
+      "weekday": "Saturday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "verdigris",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+      },
+      "calendars": {
+        "julian": "2026-06-21",
+        "hebrew": "19 Tamuz 5786",
+        "islamic_umm_al_qura": "19 Muharram 1448 AH",
+        "coptic": "27 Paoni 1742",
+        "ethiopian": "27 Sene 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Feria in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-05",
+      "date": "2026-07-05",
+      "weekday": "Sunday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Sunday",
+        "color": "verdigris",
+        "title_en": "Sunday in Ordinary Time",
+        "title_vi": "Ch\u00faa Nh\u1eadt Th\u01b0\u1eddng Ni\u00ean"
+      },
+      "calendars": {
+        "julian": "2026-06-22",
+        "hebrew": "20 Tamuz 5786",
+        "islamic_umm_al_qura": "20 Muharram 1448 AH",
+        "coptic": "28 Paoni 1742",
+        "ethiopian": "28 Sene 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Sunday in Ordinary Time",
+        "title_vi": "Ch\u00faa Nh\u1eadt Th\u01b0\u1eddng Ni\u00ean",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Sunday in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-06",
+      "date": "2026-07-06",
+      "weekday": "Monday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "verdigris",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+      },
+      "calendars": {
+        "julian": "2026-06-23",
+        "hebrew": "21 Tamuz 5786",
+        "islamic_umm_al_qura": "21 Muharram 1448 AH",
+        "coptic": "29 Paoni 1742",
+        "ethiopian": "29 Sene 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Feria in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-07",
+      "date": "2026-07-07",
+      "weekday": "Tuesday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "verdigris",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+      },
+      "calendars": {
+        "julian": "2026-06-24",
+        "hebrew": "22 Tamuz 5786",
+        "islamic_umm_al_qura": "22 Muharram 1448 AH",
+        "coptic": "30 Paoni 1742",
+        "ethiopian": "30 Sene 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Feria in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-08",
+      "date": "2026-07-08",
+      "weekday": "Wednesday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "verdigris",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+      },
+      "calendars": {
+        "julian": "2026-06-25",
+        "hebrew": "23 Tamuz 5786",
+        "islamic_umm_al_qura": "23 Muharram 1448 AH",
+        "coptic": "1 Epip 1742",
+        "ethiopian": "1 Hamle 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Feria in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-09",
+      "date": "2026-07-09",
+      "weekday": "Thursday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feast",
+        "color": "white",
+        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu"
+      },
+      "calendars": {
+        "julian": "2026-06-26",
+        "hebrew": "24 Tamuz 5786",
+        "islamic_umm_al_qura": "24 Muharram 1448 AH",
+        "coptic": "2 Epip 1742",
+        "ethiopian": "2 Hamle 2018"
+      },
+      "primary": {
+        "type": "festival",
+        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu",
+        "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
+        "summary_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Christ Cathedral, Garden Grove",
+        "latitude": 33.7878,
+        "longitude": -117.8986,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
+        "hero_line_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-10",
+      "date": "2026-07-10",
+      "weekday": "Friday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feast",
+        "color": "white",
+        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu"
+      },
+      "calendars": {
+        "julian": "2026-06-27",
+        "hebrew": "25 Tamuz 5786",
+        "islamic_umm_al_qura": "25 Muharram 1448 AH",
+        "coptic": "3 Epip 1742",
+        "ethiopian": "3 Hamle 2018"
+      },
+      "primary": {
+        "type": "festival",
+        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu",
+        "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
+        "summary_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Christ Cathedral, Garden Grove",
+        "latitude": 33.7878,
+        "longitude": -117.8986,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
+        "hero_line_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-11",
+      "date": "2026-07-11",
+      "weekday": "Saturday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feast",
+        "color": "white",
+        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu"
+      },
+      "calendars": {
+        "julian": "2026-06-28",
+        "hebrew": "26 Tamuz 5786",
+        "islamic_umm_al_qura": "26 Muharram 1448 AH",
+        "coptic": "4 Epip 1742",
+        "ethiopian": "4 Hamle 2018"
+      },
+      "primary": {
+        "type": "festival",
+        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu",
+        "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
+        "summary_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Christ Cathedral, Garden Grove",
+        "latitude": 33.7878,
+        "longitude": -117.8986,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
+        "hero_line_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-12",
+      "date": "2026-07-12",
+      "weekday": "Sunday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Sunday",
+        "color": "verdigris",
+        "title_en": "Sunday in Ordinary Time",
+        "title_vi": "Ch\u00faa Nh\u1eadt Th\u01b0\u1eddng Ni\u00ean"
+      },
+      "calendars": {
+        "julian": "2026-06-29",
+        "hebrew": "27 Tamuz 5786",
+        "islamic_umm_al_qura": "27 Muharram 1448 AH",
+        "coptic": "5 Epip 1742",
+        "ethiopian": "5 Hamle 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Sunday in Ordinary Time",
+        "title_vi": "Ch\u00faa Nh\u1eadt Th\u01b0\u1eddng Ni\u00ean",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Sunday in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-13",
+      "date": "2026-07-13",
+      "weekday": "Monday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "verdigris",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+      },
+      "calendars": {
+        "julian": "2026-06-30",
+        "hebrew": "28 Tamuz 5786",
+        "islamic_umm_al_qura": "28 Muharram 1448 AH",
+        "coptic": "6 Epip 1742",
+        "ethiopian": "6 Hamle 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Feria in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-14",
+      "date": "2026-07-14",
+      "weekday": "Tuesday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "verdigris",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+      },
+      "calendars": {
+        "julian": "2026-07-01",
+        "hebrew": "29 Tamuz 5786",
+        "islamic_umm_al_qura": "29 Muharram 1448 AH",
+        "coptic": "7 Epip 1742",
+        "ethiopian": "7 Hamle 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Feria in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-15",
+      "date": "2026-07-15",
+      "weekday": "Wednesday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "verdigris",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+      },
+      "calendars": {
+        "julian": "2026-07-02",
+        "hebrew": "1 Av 5786",
+        "islamic_umm_al_qura": "1 Safar 1448 AH",
+        "coptic": "8 Epip 1742",
+        "ethiopian": "8 Hamle 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Feria in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    },
+    {
+      "id": "anno-2026-07-16",
+      "date": "2026-07-16",
+      "weekday": "Thursday",
+      "mock_priority": "real_data",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "verdigris",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+      },
+      "calendars": {
+        "julian": "2026-07-03",
+        "hebrew": "2 Av 5786",
+        "islamic_umm_al_qura": "2 Safar 1448 AH",
+        "coptic": "9 Epip 1742",
+        "ethiopian": "9 Hamle 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Feria in Ordinary Time",
+        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "summary_en": "A day of ordinary time to grow in daily faith.",
+        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Liturgical calendar verified.",
+        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+      },
+      "place": {
+        "name": "Universal Church",
+        "latitude": 41.9029,
+        "longitude": 12.4534,
+        "confidence": "confirmed",
+        "source_url": "https://example.com"
+      },
+      "artwork": {
+        "title": "Depiction for Feria in Ordinary Time",
+        "maker": "Various Artists",
+        "date_label": "Historic",
+        "source_url": "https://example.com/placeholder.jpg",
+        "status": "cleared"
+      },
+      "sources": [],
+      "app_hooks": {
+        "hero_line_en": "A day of ordinary time to grow in daily faith.",
+        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "prayer_prompt_en": "Reflect on this day's grace.",
+        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+      }
+    }
+  ]
+}

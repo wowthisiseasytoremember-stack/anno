@@ -5,7 +5,7 @@
 - [x] Create `ARCHITECTURE.md`
 - [x] Create Catholic-first native iOS product bible
 - [x] Create asset prompts, rubric, monetization system, and flagship content slate
-- [ ] Import `/home/ichabod/01_Infrastructure/interfaith/` artifacts into canonical project structure
+- [x] Import Engine A artifacts from infrastructure bundle into project (reconciled; 3 bug fixes applied to infra copy)
 - [x] Set working project name: Anno
 
 ## Phase 1: Native iOS Scaffold
@@ -19,8 +19,8 @@
 ## Phase 2: Engine A — Calendar Engine
 - [x] Calendar conversion script for 10+ systems exists in infrastructure bundle
 - [x] 4-year JSONL generation exists in infrastructure bundle
-- [ ] Import Engine A artifacts into canonical project
-- [ ] Spot-check validation against known dates and local sundown cases
+- [x] Import Engine A artifacts into canonical project — reconciled (bugs fixed in both copies)
+- [ ] Spot-check validation against known dates and local sundown cases (carry to Sprint D)
 
 ## Phase 3: Engine B — Catholic-First Research Agent
 - [ ] Daily research prompt
@@ -31,10 +31,11 @@
 - [x] Add mock content schema for first native fixture slice
 
 ## Phase 4: Layer C — User-Facing Content
-- [ ] Content prompt engineering
+- [x] Engine B research prompt written (at `docs/research/anno-research-prompt-main.md`)
+- [x] Source validation gate script written (`tools/validate_engine_b_output.py`)
+- [x] July 17-30 batch ready to fire (`docs/research/anno-research-batch-july17-30.md`)
 - [ ] 10 flagship entries from `docs/FLAGSHIP_CONTENT_SLATE.md`
 - [ ] Vietnamese translation pass for 10 flagship entries
-- [ ] Sample audio script generation
 - [x] Add bilingual July 3-16 fixture copy for native mock app
 
 ## Phase 4.5: Layer D — Devotional Engine (Cloned from KJV App)
@@ -58,13 +59,17 @@
 - [x] Bookmark micro-feedback — gold fill + toast
 - [x] Reduced motion guard — global prefers-reduced-motion
 - [x] Focus-visible states — gold outline on all interactive
-- [ ] Confidence badges — confirmed/traditional/disputed pills
+- [ ] Confidence badges — confirmed/traditional/disputed pills (Sprint D)
 - [ ] Translate mockup patterns into native SwiftUI components
 - [ ] Premium archive paywall
 - [ ] Pilgrim route pack teaser
 - [x] Add privacy-safe monetization trust spec
+- [x] PrivacyInfo.xcprivacy created
+- [x] Privacy policy written
+- [x] App Store metadata template written
 
 ## Changelog
 
+- 2026-07-10: Engine A fully reconciled. Privacy compliance files created. Source validation gate written. Research prompts for Engine B written. MMR-ingested execution plan written. Week fixture fixed. Stale infra path fixed in AGENTS.md.
 - 2026-07-04: Sprint 1 localization complete — asset boards A/B/C, pseudo-localize tool, component rules, design brief updates. Sprint 2.1 complete — LocalizationManager (Swift), unit tests, strings validator, English .strings reference.
 - 2026-07-03: Reframed roadmap around native SwiftUI, Catholic-first launch, Vietnamese localization, and artifact reconciliation.

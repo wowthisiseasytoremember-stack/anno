@@ -7,7 +7,7 @@
 |------|-------|
 | **Architecture & invariants** | `ARCHITECTURE.md` |
 | **Delivery roadmap (phases)** | `ROADMAP.md` |
-| **Current context** | Direction changed to native SwiftUI iOS, Catholic-first launch, Vietnamese-ready. Engine A/render artifacts exist in `/home/ichabod/01_Infrastructure/interfaith/` and need reconciliation into this project root before implementation. |
+| **Current context** | Direction changed to native SwiftUI iOS, Catholic-first launch, Vietnamese-ready. Engine A reconciled (bugs in infra copy fixed). Week fixture fixed. Privacy compliance files created. Source validation gate written. MMR-ingested execution plan at `docs/research/anno-site-survey-plan.md`. Next: Xcode project scaffold (macOS required). |
 
 ## Project
 Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversion + sourced historical research + Catholic-first content layer + later Sacred Context/interfaith expansion. Working name: Anno.
@@ -24,8 +24,8 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 - PRD landed at `PRD.md`
 - Required architecture doc exists at `ARCHITECTURE.md`
 - Product bible and handoff docs live in `docs/`
-- Original render/source bundle lives at `/home/ichabod/01_Infrastructure/interfaith/`
-- Engine A and 4-year JSONL exist in the infrastructure bundle and need canonical import
+- Original render/source bundle lives at `/home/ichabod/01_Infrastructure/Anno/`
+- Engine A and 4-year JSONL exist in the infrastructure bundle and infrastructure bundle — reconciled and bugs fixed on both project copies (root + tools/)
 - Working project name: Anno
 
 ## Conventions
@@ -38,4 +38,4 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 
 ## Changelog
 
-- 2026-07-03: Added Quick Start and updated status for native SwiftUI/Catholic-first/Vietnamese-ready direction.
+- 2026-07-10: Engine A fully reconciled. Week fixture fixed. PrivacyInfo.xcprivacy + privacy policy created. App Store metadata template written. Source validation gate script written (tools/validate_engine_b_output.py). Research prompts for Engine B written (docs/research/). MMR-ingested execution plan written. Stale infra path fixed.
