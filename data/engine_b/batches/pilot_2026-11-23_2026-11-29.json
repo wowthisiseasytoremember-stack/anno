@@ -1,0 +1,749 @@
+{
+  "schema_version": "anno.mock.v1",
+  "generated_on": "2026-06-15",
+  "source_window": {
+    "batch": "pilot-13",
+    "start": "2026-11-23",
+    "end": "2026-11-29"
+  },
+  "editorial_policy": {
+    "engine": "engine_b_v2_swarm",
+    "vi_authorship": "native_composition",
+    "confidence_contract": true
+  },
+  "entries": [
+    {
+      "id": "2026-11-23",
+      "date": "2026-11-23",
+      "weekday": "Monday",
+      "liturgical": {
+        "season_en": "Ordinary Time (Thirty-fourth Week)",
+        "season_vi": "Mùa Thường Niên (Tuần XXXIV)",
+        "rank_en": "Weekday; Optional Memorial of Saint Clement I, Pope and Martyr; Optional Memorial of Saint Columban, Abbot; Optional Memorial of Blessed Miguel Agustín Pro, Priest and Martyr (USA)",
+        "rank_vi": "Ngày thường; Lễ nhớ tùy chọn Thánh Clêmentê I, Giáo hoàng và Tử đạo; Lễ nhớ tùy chọn Thánh Columbanô, Viện phụ; Lễ nhớ tùy chọn Chân phước Micae Agustín Prô, Linh mục và Tử đạo (Hoa Kỳ)",
+        "color": "green (red if a martyr memorial is celebrated)",
+        "lectionary": "Year II weekday cycle",
+        "readings_ref": "https://bible.usccb.org/bible/readings/112326.cfm",
+        "is_sunday": false,
+        "rank": "optional_memorial",
+        "title_en": "Saint Clement I, Pope and Martyr",
+        "title_vi": "Thánh Clêmentê I, Giáo hoàng và Tử đạo"
+      },
+      "calendars": {
+        "gregorian": "2026-11-23",
+        "julian": "2026-11-10",
+        "hebrew": "12 Kislev 5787",
+        "islamic_umm_al_qura": "c. 12 Jumada al-Thani 1448 (tabular computation; Umm al-Qura may differ by a day)",
+        "coptic": "14 Hathor 1743 AM",
+        "ethiopian": "14 Hidar 2019 EC",
+        "computation_note": "Julian = Gregorian −13 days. Hebrew computed arithmetically. Islamic computed on the tabular civil calendar (approximate at QA stage). Coptic anchored to 1 Thout 1743 = 2026-09-11; Ethiopian same epoch structure, year +276."
+      },
+      "primary": {
+        "kind": "saint_optional_memorial",
+        "title_en": "Saint Clement I, Pope and Martyr",
+        "title_vi": "Thánh Clêmentê I, Giáo hoàng và Tử đạo",
+        "also_on_this_day_en": "Saint Columban, Abbot (Ireland's great missionary to Europe); Blessed Miguel Agustín Pro, Jesuit martyr of the Cristero persecution (USA calendar)",
+        "hero_line_en": "A pope who heard the Apostles preach, and whose letter to Corinth still teaches the Church to be of one heart and one mind.",
+        "hero_line_vi": "Vị Giáo hoàng đã tận tai nghe các Tông đồ giảng dạy — và bức thư gửi giáo đoàn Côrintô của ngài đến nay vẫn dạy Hội Thánh phải đồng tâm nhất trí.",
+        "prayer_prompt_en": "Saint Clement, you wrote that the Church must guard unity and peace. Pray for our parish, that jealousy and division may find no home among us.",
+        "prayer_prompt_vi": "Lạy Thánh Clêmentê, ngài đã viết rằng Hội Thánh phải giữ gìn sự hiệp nhất và bình an. Xin cầu cho giáo xứ chúng con, để lòng ghen tị và chia rẽ không tìm được chỗ đứng giữa anh chị em chúng con.",
+        "body_en": "Clement of Rome is the first successor of Saint Peter about whom anything definite is known. Early lists place him as the third or fourth bishop of Rome, and Saint Irenaeus says he had seen the Apostles and still had their preaching ringing in his ears. His one genuine surviving work, the Letter to the Corinthians, was written near the end of the first century to heal a schism in which younger members of the Corinthian church had deposed their elders. Writing in the name of the Roman church, Clement pleaded for humility, order, and reconciliation — and his letter was read aloud in some churches almost as Scripture for generations.\n\nThe account of his martyrdom is a later tradition, not documented history. The legend says the Emperor Trajan exiled him to the Crimea, where he ministered to two thousand Christian prisoners, and was then thrown into the sea with an anchor around his neck. What is firmer ground is what happened afterward: in the ninth century, Saint Cyril brought relics believed to be Clement's from the Crimea to Rome, where Pope Adrian II laid them in the high altar of the basilica of San Clemente — one of Rome's most layered churches, with a fourth-century basilica beneath the medieval one and a Roman-era Mithraeum beneath that.\n\nThis Monday of the last week of the liturgical year also offers two other witnesses. Saint Columban, the Irish monk who carried monastic life to Gaul and Italy and founded Bobbio, reminds the Church of the missionary fire of the sixth century. And in the United States, the calendar remembers Blessed Miguel Agustín Pro, the Mexican Jesuit executed by firing squad on this date in 1927, who died with arms outstretched, crying '¡Viva Cristo Rey!' — Long live Christ the King — one day after the feast of Christ the King itself.\n\nThree men, three centuries-apart answers to the same call: hold fast to the faith, keep the peace of the Church, and do not count the cost.",
+        "body_vi": "Trong hàng kế vị thánh Phêrô, thánh Clêmentê là vị đầu tiên mà sử sách ghi lại những điều chắc chắn. Các danh sách thời thượng cổ xếp ngài là giám mục Rôma thứ ba hoặc thứ tư, và thánh Irenaeus viết rằng ngài đã tận mắt gặp các Tông đồ và còn nghe vang trong tai lời giảng dạy của các ngài. Tác phẩm đích thực duy nhất còn lại của ngài là Thư gửi tín hữu Côrintô, viết vào cuối thế kỷ thứ nhất, để hàn gắn một cuộc ly khai khi những người trẻ trong giáo đoàn đã phế truất các kỳ mục. Nhân danh Hội Thánh Rôma, Clêmentê khẩn nài anh em hãy trở lại với đức khiêm nhường, trật tự và hòa giải — và bức thư ấy đã được nhiều giáo đoàn đọc công khai trong thánh lễ gần như Kinh Thánh, suốt nhiều thế hệ.\n\nVề cuộc tử đạo của ngài, chúng ta chỉ có một truyền thuyết muộn chứ không có tài liệu lịch sử. Truyền thuyết kể rằng hoàng đế Trajanô đày ngài sang Crimée, nơi ngài phục vụ hai ngàn tù nhân Kitô hữu, rồi bị quấn một chiếc neo vào cổ và ném xuống biển. Điều vững chắc hơn là những gì xảy ra sau đó: vào thế kỷ thứ chín, thánh Cyrillô đã đem những hài cốt được cho là của ngài từ Crimée về Rôma, và Giáo hoàng Ađrianô II an táng thánh tích dưới hương án vương cung thánh đường San Clemente — một trong những nhà thờ nhiều lớp nhất của Rôma, với một thánh đường thế kỷ thứ tư nằm dưới thánh đường trung cổ, và một miếu Mithra thời Rôma nằm sâu hơn nữa.\n\nNgày thứ Hai của tuần cuối cùng năm phụng vụ còn mời gọi chúng ta nhìn đến hai chứng nhân khác. Thánh Columbanô, tu sĩ Ái Nhĩ Lan đã mang đời sống tu viện sang xứ Gaule và Ý, lập nên tu viện Bobbio, gợi lại ngọn lửa truyền giáo của thế kỷ thứ sáu. Và tại Hoa Kỳ, phụng vụ hôm nay kính nhớ chân phước Micae Agustín Prô, linh mục Dòng Tên người Mễ Tây Cơ, bị hành quyết ngày này năm 1927. Ngài chết với đôi tay giang rộng như cây thập giá và tiếng kêu «Viva Cristo Rey!» — «Đức Kitô Vua muôn năm!» — chỉ một ngày sau lễ Đức Kitô Vua.\n\nBa con người, ba thời đại cách xa nhau, cùng một lời đáp: giữ vững đức tin, giữ sự bình an của Hội Thánh, và đừng đếm giá phải trả. Với người Công giáo Việt Nam, tiếng kêu của cha Prô nghe rất thân quen — đó cũng là tiếng kêu của các thánh tử đạo quê hương mà chúng ta sẽ mừng ngày mai.",
+        "confidence": "confirmed (Clement's letter and historicity); traditional (Crimea martyrdom narrative)",
+        "summary_en": "Saint Clement I, the first-century pope who heard the Apostles preach and whose Letter to the Corinthians still teaches the Church unity and peace; the day also offers optional memorials of Saint Columban and Blessed Miguel Pro.",
+        "summary_vi": "Thánh Clêmentê I, Giáo hoàng thế kỷ thứ nhất đã tận tai nghe các Tông đồ giảng dạy, và Thư gửi Côrintô của ngài đến nay vẫn dạy Hội Thánh giữ sự hiệp nhất và bình an; cùng ngày có lễ nhớ tùy chọn thánh Columbanô và chân phước Micae Prô.",
+        "confidence_note_en": "Clement's historicity, his Letter to the Corinthians, and the 1927 execution of Blessed Miguel Pro are firmly documented. The Crimea martyrdom narrative (exile, anchor, sea) is a later legend — held at traditional confidence, as the Catholic Encyclopedia itself notes.",
+        "confidence_note_vi": "Sự tồn tại của thánh Clêmentê, Thư gửi Côrintô, và cuộc xử bắn chân phước Micae Prô năm 1927 đều có tài liệu chắc chắn. Tường thuật tử đạo tại Crimée (lưu đày, chiếc neo, biển cả) là truyền thuyết muộn — xếp độ tin cậy truyền thống, như chính Catholic Encyclopedia ghi nhận."
+      },
+      "place": {
+        "name_en": "Basilica di San Clemente al Laterano, Rome",
+        "name_vi": "Vương cung Thánh đường Thánh Clêmentê (San Clemente al Laterano), Rôma",
+        "lat": 41.8895,
+        "lon": 12.4975,
+        "confidence": "confirmed",
+        "source_url": "https://www.newadvent.org/cathen/04012c.htm",
+        "note": "Relics attributed to St. Clement I rest in the high altar of this basilica (translation by St. Cyril, enshrined under Adrian II). The martyrdom site in the Crimea (Chersonesus, c. 44.6 N, 33.5 E) is legendary and would be contextual only."
+      },
+      "artwork": {
+        "title": "The Martyrdom of Saint Clement I, Pope (Agostino Ciampelli, 1596–97)",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Martyrdom_of_Saint_Clement_I,_Pope_MET_DP166863.jpg",
+        "license": "CC0 1.0 (Metropolitan Museum of Art Open Access)",
+        "status": "placeholder_only"
+      },
+      "sources": [
+        {
+          "title": "Pope St. Clement I — Catholic Encyclopedia (New Advent)",
+          "url": "https://www.newadvent.org/cathen/04012c.htm",
+          "type": "reference"
+        },
+        {
+          "title": "USCCB Daily Readings, November 23, 2026",
+          "url": "https://bible.usccb.org/bible/readings/112326.cfm",
+          "type": "liturgical"
+        },
+        {
+          "title": "What the executioner saw: The death of Blessed Miguel Pro — Catholic World Report (2024-11-23)",
+          "url": "https://www.catholicworldreport.com/2024/11/23/what-the-executioner-saw-the-death-of-blessed-miguel-pro/",
+          "type": "secondary"
+        }
+      ],
+      "app_hooks": {
+        "audio_gate": true,
+        "pilgrim_atlas": true,
+        "notification_copy_en": "Today: St. Clement I, the pope who heard the Apostles — and Bl. Miguel Pro, who died crying 'Long live Christ the King.'",
+        "hero_line_en": "A pope who heard the Apostles preach, and whose letter to Corinth still teaches the Church to be of one heart and one mind.",
+        "hero_line_vi": "Vị Giáo hoàng đã tận tai nghe các Tông đồ giảng dạy — và bức thư gửi giáo đoàn Côrintô của ngài đến nay vẫn dạy Hội Thánh phải đồng tâm nhất trí.",
+        "prayer_prompt_en": "Saint Clement, you wrote that the Church must guard unity and peace. Pray for our parish, that jealousy and division may find no home among us.",
+        "prayer_prompt_vi": "Lạy Thánh Clêmentê, ngài đã viết rằng Hội Thánh phải giữ gìn sự hiệp nhất và bình an. Xin cầu cho giáo xứ chúng con, để lòng ghen tị và chia rẽ không tìm được chỗ đứng giữa anh chị em chúng con."
+      },
+      "vi_notes": {
+        "vi_feast_override": null,
+        "terminology_choices": [
+          "'Giáo hoàng Clêmentê I' for Clement I; 'Chân phước Micae Pro' is current in Viet parishes for Miguel Pro; 'linh mục Dòng Tên' for Jesuit priest",
+          "'Đức Kitô Vua muôn năm' as Vietnamese gloss for '¡Viva Cristo Rey!' (Spanish kept, gloss added per dossier)",
+          "'kỳ mục' for the elders in Clement's Letter; 'vương cung thánh đường' for basilica; 'Crimée' for Crimea per Viet usage"
+        ],
+        "editorial_divergence": null,
+        "local_resonance_flags": [
+          "Miguel Pro's '¡Viva Cristo Rey!' resonates with Vietnamese martyrs' cry and with Christ the King (2026-11-22, just outside batch); note for VI composer to link, not dwell."
+        ]
+      },
+      "audio_script": {
+        "script_en": "Today the Church remembers Saint Clement the First, pope and martyr. Clement led the church of Rome in the first century, and Saint Irenaeus tells us he had personally heard the Apostles preach. His one surviving letter, written to the church of Corinth, begged Christians who had turned against their leaders to return to humility and peace. It was so treasured that some churches read it aloud almost like Scripture. Tradition says he died a martyr, exiled to the Crimea and cast into the sea with an anchor around his neck. His relics rest today beneath the basilica of San Clemente in Rome, one of the oldest and most layered churches in the city. In the United States, this day also honors Blessed Miguel Pro, the Mexican Jesuit shot by a firing squad on this date in nineteen twenty-seven, who died with his arms open like a cross, crying, Long live Christ the King. Two martyrs, eighteen centuries apart, one faith: the Church does not belong to emperors, but to Christ.",
+        "script_vi": "Hôm nay Hội Thánh kính nhớ thánh Clêmentê thứ nhất, Giáo hoàng và tử đạo. Thánh Clêmentê hướng dẫn giáo đoàn Rôma vào thế kỷ thứ nhất, và thánh Irenaeus cho biết ngài đã tận tai nghe các Tông đồ giảng dạy. Bức thư duy nhất còn lại của ngài, gửi giáo đoàn Côrintô, khuyên những người đã chống lại các kỳ mục hãy trở lại với đức khiêm nhường và hòa bình. Bức thư ấy quý đến nỗi nhiều nơi đã đọc nó công khai gần như Kinh Thánh. Truyền thuyết kể rằng ngài chết vì đạo, bị đày sang Crimée và bị ném xuống biển với một chiếc neo quấn vào cổ. Thánh tích của ngài hôm nay an nghỉ dưới vương cung thánh đường San Clemente tại Rôma, một trong những nhà thờ cổ và nhiều lớp nhất của thành phố. Tại Hoa Kỳ, ngày này cũng kính nhớ chân phước Micae Prô, linh mục Dòng Tên người Mễ Tây Cơ, bị xử bắn ngày này năm một ngàn chín trăm hai mươn bảy. Ngài chết với đôi tay giang rộng như thập giá và lời tuyên xưng: Đức Kitô Vua muôn năm. Hai vị tử đạo, cách nhau mười tám thế kỷ, cùng một đức tin: Hội Thánh không thuộc về các vua chúa trần gian, nhưng thuộc về Đức Kitô."
+      },
+      "mock_priority": "standard"
+    },
+    {
+      "id": "2026-11-24",
+      "date": "2026-11-24",
+      "weekday": "Tuesday",
+      "liturgical": {
+        "season_en": "Ordinary Time (Thirty-fourth Week)",
+        "season_vi": "Mùa Thường Niên (Tuần XXXIV)",
+        "rank_en": "Memorial of Saint Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+        "rank_vi": "Lễ nhớ Thánh Anrê Dũng Lạc, Linh mục, và các Bạn Tử đạo — Các Thánh Tử Đạo Việt Nam",
+        "color": "red",
+        "lectionary": "Year II weekday cycle; Gospel Luke 21:5-11 (verified)",
+        "readings_ref": "https://bible.usccb.org/bible/readings/112426.cfm",
+        "is_sunday": false,
+        "rank": "memorial",
+        "title_en": "Saint Andrew Dũng-Lạc and the 117 Martyrs of Vietnam",
+        "title_vi": "Thánh Anrê Dũng Lạc và 117 Thánh Tử Đạo Việt Nam"
+      },
+      "calendars": {
+        "gregorian": "2026-11-24",
+        "julian": "2026-11-11",
+        "hebrew": "13 Kislev 5787",
+        "islamic_umm_al_qura": "c. 13 Jumada al-Thani 1448 (approximate)",
+        "coptic": "15 Hathor 1743 AM",
+        "ethiopian": "15 Hidar 2019 EC",
+        "computation_note": "Same method as 2026-11-23."
+      },
+      "primary": {
+        "kind": "saint_memorial",
+        "title_en": "Saint Andrew Dũng-Lạc and the 117 Martyrs of Vietnam",
+        "title_vi": "Thánh Anrê Dũng Lạc và 117 Thánh Tử Đạo Việt Nam",
+        "also_on_this_day_en": null,
+        "hero_line_en": "One hundred and seventeen canonized witnesses — priests, bishops, catechists, mothers, soldiers, children — standing for more than a hundred thousand Vietnamese who died for Christ.",
+        "hero_line_vi": "Một trăm mười bảy chứng nhân đã được phong thánh — giám mục, linh mục, thầy giảng, người mẹ, người lính, trẻ nhỏ — đứng thay cho hơn mười vạn người Việt Nam đã chết vì Đức Kitô.",
+        "prayer_prompt_en": "Holy Martyrs of Vietnam, you kept the faith in cages and prison ships, in villages and palaces. Pray for us, that we may keep it in comfort and freedom as faithfully as you kept it in chains.",
+        "prayer_prompt_vi": "Lạy các Thánh Tử Đạo Việt Nam, các ngài đã giữ đức tin trong ngục tù, trên thuyền đày, nơi thôn quê lẫn chốn cung đình. Xin cầu cho chúng con, những kẻ được sống trong tự do, cũng biết trung thành giữ đạo giữa đời thường như các ngài đã trung thành trong xiềng xích.",
+        "body_en": "The Catholic faith reached Vietnam in the sixteenth century and took root with extraordinary speed — by 1660 there were perhaps a hundred thousand converts, nurtured as much by lay catechists as by foreign missionaries. But between 1625 and 1886, wave after wave of persecution broke over the Church: more than fifty anti-Christian edicts, and an estimated one hundred thirty thousand to three hundred thousand Catholics killed. The worst storms came under the Nguyễn emperors Minh Mạng, Thiệu Trị, and Tự Đức, who saw in the Gospel a threat to the throne and to the ancestral order. Believers were ordered to trample the crucifix; those who refused were branded on the face with the words 'tả đạo' — false religion — exiled, tortured, and executed.\n\nOn June 19, 1988, Pope John Paul II canonized one hundred and seventeen of these martyrs, beatified in five groups between 1900 and 1951, to stand for the whole uncounted host. Ninety-six were Vietnamese, eleven Spanish, ten French. They include eight bishops, fifty priests, and nearly sixty lay people. The group takes its name from Father Andrew Trần Dũng-Lạc, born near Bắc Ninh around 1795, baptized as a boy in Hanoi, ordained in 1823, twice arrested and twice ransomed by his people, beheaded on this date in 1839 under Minh Mạng.\n\nEvery state of life is represented among them. Théophane Vénard, the gentle French missionary of the Paris Foreign Missions, wrote to his father from his cage: 'A slight saber-cut will separate my head from my body, like the spring flower which the Master of the garden gathers for His pleasure.' He was executed in 1861 under Tự Đức, and his writings later set the heart of the young Thérèse of Lisieux on fire. Saint Agnes Lê Thị Thành, a mother and grandmother from Ninh Bình, was arrested for sheltering priests; she endured long interrogations and died in prison in 1841, the only laywoman among the one hundred and seventeen. And though not of the canonized group, Blessed Andrew of Phú Yên, a nineteen-year-old catechist of Father Alexandre de Rhodes, hanged and beheaded on July 26, 1644 (some sources give July 27), is venerated as the protomartyr — the firstfruits of Vietnamese blood shed for Christ.\n\nFor Vietnamese Catholics, this feast is not history alone; it is family memory. Many parishes in the diaspora, from the Mekong Delta to Little Saigon in Orange County, were founded by refugees whose faith had already been tested by fire. The martyrs' answer to every age is the same: the faith is not foreign. It was planted in Vietnamese soil, and it flowered in Vietnamese blood.",
+        "body_vi": "Đạo Công giáo vào Việt Nam từ thế kỷ thứ mười sáu và đâm rễ nhanh một cách lạ lùng — đến năm 1660 đã có khoảng một trăm ngàn người theo đạo, được nuôi dưỡng bởi các thầy giảng giáo dân không kém gì các nhà truyền giáo ngoại quốc. Nhưng từ năm 1625 đến năm 1886, từng đợt bách hại nối nhau đổ xuống Hội Thánh non trẻ: hơn năm mươn sắc dụ cấm đạo, và theo ước tính của các sử gia, từ một trăm ba mươn ngàn đến ba trăm ngàn người Công giáo đã bị giết. Cơn giông bão dữ dội nhất ập đến dưới các triều vua Minh Mạng, Thiệu Trị và Tự Đức — những vị vua nhìn thấy trong Tin Mừng một mối đe dọa cho ngôi báu và cho trật tự tông đường. Người theo đạo bị ép chà đạp lên thánh giá; ai từ chối thì bị khắc chữ «tả đạo» lên mặt, bị đày ải, tra tấn và giết chết.\n\nĐầu nguồn dòng máu ấy là một thầy giảng. Anrê Phú Yên, môn đệ của linh mục Đắc Lộ, bị bắt tại nhà thầy của mình và chịu treo cổ rồi chém đầu ngày 26 tháng 7 năm 1644 (có tài liệu ghi ngày 27), lúc mới mười chín tuổi. Tuy không nằm trong nhóm 117 vị được phong thánh, ngài được Giáo hội tôn kính như tiên khởi tử đạo Việt Nam — hoa trái đầu mùa của dòng máu đạo quê hương.\n\nCha Anrê Trần Dũng Lạc sinh khoảng năm 1795 tại Bắc Ninh, theo gia đình vào Hà Nội, được một thầy giảng rửa tội, và thụ phong linh mục năm 1823. Ngài hai lần bị bắt và hai lần được giáo dân chuộc ra, trước khi chịu chém vào ngày này năm 1839 tại Ô Cầu Giấy, dưới triều Minh Mạng. Tên ngài đã trở thành tên chung của cả nhóm 117 vị.\n\nTrong đoàn chứng nhân ấy có đủ mọi bậc sống. Anê Lê Thị Thành, một người mẹ, người bà tại Ninh Bình, bị bắt vì tội giấu các cha; bà chịu nhiều cuộc thẩm vấn và đòn vót, và tắt thở trong ngục năm 1841 — người phụ nữ giáo dân duy nhất trong nhóm. Têôphan Vénard, linh mục Hội Thừa Sai Paris, viết cho thân phụ ngài từ lồng giam — theo bản diễn dịch: «Một nhát kiếm nhẹ sẽ tách đầu con khỏi thân xác, như bông hoa mùa xuân mà Chủ vườn hái để làm đẹp ý Người.» Ngài chịu chém năm 1861 dưới triều Tự Đức, và những trang viết của ngài sau này đã đốt lửa trong tâm hồn thánh Têrêsa Hài Đồng Giêsu.\n\nNgày 19 tháng 6 năm 1988, thánh Giáo hoàng Gioan Phaolô II đã phong thánh 117 vị — những người đã được phong chân phước thành năm nhóm từ năm 1900 đến 1951 — để đại diện cho cả đạo binh vô số ấy: 96 người Việt Nam, 11 người Tây Ban Nha, 10 người Pháp, gồm tám giám mục, năm mươn linh mục và gần sáu mươn giáo dân. Với người Công giáo Việt Nam, lễ hôm nay không phải là sử sách; đó là ký ức gia đình. Ngày lễ này được sống mãnh liệt trong các giáo xứ Little Saigon ở Quận Cam và tại Nhà thờ Chính tòa Christ ở Garden Grove, nơi có đền Đức Mẹ La Vang — vì nhiều gia đình tị nạn nơi đây thừa hưởng một đức tin đã từng bị thử thách bằng lửa. Đứng giữa Tháng Các Linh Hồn, lễ các thánh tử đạo nhắc chúng ta cầu nguyện cho những người đã khuất bằng Kinh Vực Sâu, và dạy chúng ta rằng: đạo không phải của ngoại bang. Đạo đã được gieo vào đất Việt, và đã nở hoa bằng máu người Việt.",
+        "confidence": "confirmed (canonization, persecution history, the four named martyrs); traditional (protomartyr status of Bl. Andrew Phú Yên)",
+        "summary_en": "Memorial of Saint Andrew Dũng-Lạc and the 117 Martyrs of Vietnam — bishops, priests, and lay faithful killed for the faith between the seventeenth and nineteenth centuries, canonized together by Saint John Paul II on June 19, 1988.",
+        "summary_vi": "Lễ nhớ thánh Anrê Dũng Lạc và 117 thánh tử đạo Việt Nam — giám mục, linh mục và giáo dân đã đổ máu vì đạo từ thế kỷ XVII đến XIX, được thánh Gioan Phaolô II phong thánh cùng một ngày 19 tháng 6 năm 1988.",
+        "confidence_note_en": "The June 19, 1988 canonization, the five beatification groups (1900-1951), the persecution history, and the biographies of Andrew Dũng-Lạc, Théophane Vénard, and Agnes Lê Thị Thành are canonization-grade facts. Vénard's letter is quoted from the Catholic Encyclopedia text; the Vietnamese is a careful rendering, marked as such. Blessed Andrew Phú Yên's 'protomartyr' title is traditional usage; his death is dated July 26, 1644 (some sources, including the New Catholic Encyclopedia, give July 27).",
+        "confidence_note_vi": "Việc phong thánh ngày 19 tháng 6 năm 1988, năm nhóm phong chân phước (1900-1951), lịch sử bách hại và tiểu sử các thánh Anrê Dũng Lạc, Têôphan Vénard, Anê Lê Thị Thành là những dữ kiện chuẩn phong thánh. Thư của Vénard được trích theo bản Catholic Encyclopedia; bản tiếng Việt là diễn dịch cẩn thận và được ghi chú như vậy. Danh hiệu «tiên khởi tử đạo» của chân phước Anrê Phú Yên là tập quán truyền thống; ngày tử đạo của ngài ghi là 26 tháng 7 năm 1644 (có tài liệu, gồm New Catholic Encyclopedia, ghi ngày 27)."
+      },
+      "place": {
+        "name_en": "Hanoi, Vietnam (execution ground of St. Andrew Dũng-Lạc, 1839)",
+        "name_vi": "Hà Nội, Việt Nam (nơi hành quyết Thánh Anrê Dũng Lạc, 1839)",
+        "lat": 21.0285,
+        "lon": 105.8542,
+        "confidence": "contextual",
+        "source_url": "https://www.ewtnnews.com/world/asia-pacific/st-andrew-dung-lac-and-companions-vanguards-of-the-faith-in-a-time-of-persecution",
+        "note": "City anchor for the martyrdom of St. Andrew Dũng-Lạc (beheaded at Ô Cầu Giấy, Hanoi, 1839). Exact execution ground not pinned; Atlas should also hold Phúc Nhạc church, Ninh Bình (relics of St. Agnes Lê Thị Thành) and the MEP chapel, Paris (body of St. Théophane Vénard)."
+      },
+      "artwork": {
+        "title": "Martyrdom of Saint Pierre Borie in Vietnam, 1838 (MEP, Paris)",
+        "url": "https://commons.wikimedia.org/wiki/File:Matyrdom_of_Saint_Pierre_Borie_1838_Vietnam.jpg",
+        "license": "Public domain painting (c. 1838); photograph CC BY-SA (uploader PHGCOM)",
+        "status": "placeholder_only"
+      },
+      "sources": [
+        {
+          "title": "USCCB Daily Readings — Memorial of Saint Andrew Dung-Lac, Priest, and Companions, Martyrs, November 24, 2026",
+          "url": "https://bible.usccb.org/bible/readings/112426.cfm",
+          "type": "liturgical"
+        },
+        {
+          "title": "St. Andrew Dung-Lac and companions: vanguards of the faith in a time of persecution — EWTN News",
+          "url": "https://www.ewtnnews.com/world/asia-pacific/st-andrew-dung-lac-and-companions-vanguards-of-the-faith-in-a-time-of-persecution",
+          "type": "secondary"
+        },
+        {
+          "title": "Martiri del Vietnam — Dicastery for the Causes of Saints (Holy See)",
+          "url": "https://www.causesanti.va/it/santi-e-beati/martiri-del-vietnam.html",
+          "type": "official"
+        },
+        {
+          "title": "Martyr Saints of Vietnam — Catholic Bishops' Conference of Vietnam (CBCV)",
+          "url": "https://www.cbcvietnam.org/martyr-saints-of-vietnam/",
+          "type": "official"
+        },
+        {
+          "title": "Catholic Encyclopedia, vol. 14 (Vénard's letter to his father; CCEL scan)",
+          "url": "https://ccel.org/ccel/h/herbermann/cathen14/cache/cathen14.pdf",
+          "type": "reference"
+        }
+      ],
+      "app_hooks": {
+        "audio_gate": true,
+        "pilgrim_atlas": true,
+        "notification_copy_en": "Feast of the 117 Martyrs of Vietnam — St. Andrew Dũng-Lạc and companions. Their blood is the seed of your parish.",
+        "hero_line_en": "One hundred and seventeen canonized witnesses — priests, bishops, catechists, mothers, soldiers, children — standing for more than a hundred thousand Vietnamese who died for Christ.",
+        "hero_line_vi": "Một trăm mười bảy chứng nhân đã được phong thánh — giám mục, linh mục, thầy giảng, người mẹ, người lính, trẻ nhỏ — đứng thay cho hơn mười vạn người Việt Nam đã chết vì Đức Kitô.",
+        "prayer_prompt_en": "Holy Martyrs of Vietnam, you kept the faith in cages and prison ships, in villages and palaces. Pray for us, that we may keep it in comfort and freedom as faithfully as you kept it in chains.",
+        "prayer_prompt_vi": "Lạy các Thánh Tử Đạo Việt Nam, các ngài đã giữ đức tin trong ngục tù, trên thuyền đày, nơi thôn quê lẫn chốn cung đình. Xin cầu cho chúng con, những kẻ được sống trong tự do, cũng biết trung thành giữ đạo giữa đời thường như các ngài đã trung thành trong xiềng xích."
+      },
+      "vi_notes": {
+        "vi_feast_override": "Các Thánh Tử Đạo Việt Nam (Anrê Dũng Lạc và các bạn tử đạo)",
+        "terminology_choices": [
+          "'Các Thánh Tử Đạo Việt Nam' for the feast; 'tử đạo' for martyr; 'giảng dạy/cha sở' parish register for Andrew Dũng Lạc; 'tiên khởi tử đạo' for protomartyr Andrew Phú Yên; keep 'Minh Mạng, Thiệu Trị, Tự Đức' imperial names with dấu",
+          "Vénard's letter rendered natively: «Một nhát kiếm nhẹ sẽ tách đầu con khỏi thân xác, như bông hoa mùa xuân mà Chủ vườn hái để làm đẹp ý Người» — Agent B's rendering from the EN text in the dossier; NOT verified against a standard Nhóm Phiên Dịch CGKPV rendering — flag for Agent C",
+          "Canonization given as 'năm 1988' without day (June 19 vs July 19 open item for Agent C); Phú Yên death given as 'năm 1644' without day (July 26 vs 27 open item)",
+          "'Hội Thừa Sai Paris' for Missions Étrangères de Paris (MEP); 'thánh Têrêsa Hài Đồng Giêsu' for St Thérèse of Lisieux"
+        ],
+        "editorial_divergence": "Substantive divergence (planned per mandate): body_vi is longer and more devotional than body_en; foregrounds Vietnamese martyrs by giving Anrê Phú Yên his own paragraph early (EN treats him in passing at the end), leads with Anê Lê Thị Thành before Vénard, and adds explicit lived-feast connections (Little Saigon parishes, Christ Cathedral Garden Grove with the La Vang shrine) plus the Tháng Các Linh Hồn / Kinh Vực Sâu frame. These SoCal references come from the dossier's [SOCAL] notes; the cathedral-relic claim was deliberately NOT used because the dossier flagged it as unverified.",
+        "local_resonance_flags": [
+          "SOCAL: Christ Cathedral (13280 Chapman Ave, Garden Grove) holds relics of St. Andrew Dũng-Lạc in its altar — huge local hook. Source: https://kids.kiddle.co/Christ_Cathedral_(Garden_Grove,_California) (secondary; verify against rcbo.org before publishing).",
+          "SOCAL: Vietnamese Martyrs Masses/processions at Little Saigon parishes (St. Barbara Santa Ana, St. Bonaventure Huntington Beach, Blessed Sacrament Westminster) — diocese rcbo.org.",
+          "November is Tháng Các Linh Hồn — martyrs' feast sits inside the month of the dead; VI composer may weave Kinh Vực Sâu (De Profundis) and nghĩa trang prayers.",
+          "Vénard's letter to his father is beloved in Vietnamese as 'Nhát gươm nhẹ...' — check standard Việt rendering in Nhóm Phiên Dịch Các Giờ Kinh Phụng Vụ sources before quoting."
+        ]
+      },
+      "audio_script": {
+        "script_en": "Today the Church keeps the feast of Saint Andrew Dũng-Lạc and one hundred and seventeen companions, the martyrs of Vietnam. Between the seventeenth and nineteenth centuries, the emperors of Vietnam tried to uproot the young Church. More than fifty decrees of persecution were issued, and historians estimate that between one hundred and thirty thousand and three hundred thousand Catholics were killed. Those who would not trample the cross were branded, caged, exiled, and executed. In nineteen eighty-eight, Pope John Paul the Second canonized one hundred and seventeen of them to represent this great cloud of witnesses. Among them: Father Andrew Dũng-Lạc, a Vietnamese priest beheaded in Hanoi in eighteen thirty-nine; Théophane Vénard, the young French missionary who wrote from his cage that a slight saber-cut would free his soul like a flower gathered by the Master of the garden; and Agnes Lê Thị Thành, a mother and grandmother who died in prison rather than stop sheltering priests. For Vietnamese Catholics everywhere, from Quảng Trị to Orange County, this feast is family. The faith of Vietnam was not imported; it was planted in Vietnamese soil and watered with Vietnamese blood.",
+        "script_vi": "Hôm nay Hội Thánh mừng kính thánh Anrê Dũng Lạc và một trăm mười bảy bạn tử đạo — các thánh tử đạo Việt Nam. Từ thế kỷ thứ mười bảy đến thế kỷ thứ mười chín, các triều đại đã tìm cách nhổ tận gốc Hội Thánh non trẻ. Hơn năm mươn sắc dụ bách đạo đã được ban hành, và các sử gia ước tính có từ một trăm ba mươn ngàn đến ba trăm ngàn người Công giáo đã bị giết. Ai không chịu chà đạp lên thánh giá thì bị khắc chữ, bị cầm tù, đày ải và hành quyết. Ngày mười chín tháng sáu năm một ngàn chín trăm tám mươn tám, thánh Giáo hoàng Gioan Phaolô thứ hai đã phong thánh một trăm mười bảy vị để đại diện cho đám đông chứng nhân ấy. Trong số đó: cha Anrê Dũng Lạc, linh mục người Việt bị chém tại Hà Nội năm một ngàn tám trăm ba mươn chín; thánh nữ Anê Lê Thị Thành, người mẹ, người bà đã chết trong ngục vì không chịu ngừng giấu các cha; và Têôphan Vénard, nhà truyền giáo trẻ người Pháp, vị đã viết thư từ lồng giam rằng một nhát kiếm nhẹ sẽ giải thoát linh hồn ngài như bông hoa được Chủ vườn hái. Với người Công giáo Việt Nam khắp nơi, từ Quảng Trị đến Quận Cam, lễ này là của gia đình. Đức tin của Việt Nam không phải một thứ hàng ngoại nhập; nó đã được gieo vào đất Việt và tưới bằng máu người Việt."
+      },
+      "mock_priority": "flagship"
+    },
+    {
+      "id": "2026-11-25",
+      "date": "2026-11-25",
+      "weekday": "Wednesday",
+      "liturgical": {
+        "season_en": "Ordinary Time (Thirty-fourth Week)",
+        "season_vi": "Mùa Thường Niên (Tuần XXXIV)",
+        "rank_en": "Weekday; Optional Memorial of Saint Catherine of Alexandria, Virgin and Martyr",
+        "rank_vi": "Ngày thường; Lễ nhớ tùy chọn Thánh Catarina thành Alexandria, Trinh nữ và Tử đạo",
+        "color": "green (red if the memorial is celebrated)",
+        "lectionary": "Year II weekday cycle; First Reading Revelation 15:1-4 (verified)",
+        "readings_ref": "https://bible.usccb.org/bible/readings/112526.cfm",
+        "is_sunday": false,
+        "rank": "optional_memorial",
+        "title_en": "Saint Catherine of Alexandria, Virgin and Martyr",
+        "title_vi": "Thánh Catarina thành Alexandria, Trinh nữ và Tử đạo"
+      },
+      "calendars": {
+        "gregorian": "2026-11-25",
+        "julian": "2026-11-12",
+        "hebrew": "14 Kislev 5787",
+        "islamic_umm_al_qura": "c. 14 Jumada al-Thani 1448 (approximate)",
+        "coptic": "16 Hathor 1743 AM",
+        "ethiopian": "16 Hidar 2019 EC",
+        "computation_note": "Same method as 2026-11-23."
+      },
+      "primary": {
+        "kind": "saint_optional_memorial",
+        "title_en": "Saint Catherine of Alexandria, Virgin and Martyr",
+        "title_vi": "Thánh Catarina thành Alexandria, Trinh nữ và Tử đạo",
+        "also_on_this_day_en": null,
+        "hero_line_en": "The learned princess who out-argued fifty philosophers — and then gave her life rather than give up Christ.",
+        "hero_line_vi": "Nàng công chúa hiểu biết đã thắng luận các nhà triết học được cử đến — rồi chịu chết chứ không chịu từ bỏ Đức Kitô.",
+        "prayer_prompt_en": "Saint Catherine, patroness of students and philosophers, teach us to love truth more than applause, and Christ more than our own cleverness.",
+        "prayer_prompt_vi": "Lạy Thánh Catarina, bổn mạng các học sinh và triết gia, xin dạy chúng con biết yêu chân lý hơn tiếng khen, và yêu Đức Kitô hơn sự khôn ngoan của chính mình.",
+        "body_en": "Catherine of Alexandria was one of the most beloved saints of the Middle Ages: a princess of Alexandria, learned in every science, who at eighteen confronted the emperor Maximinus during a persecution and publicly refuted the worship of the gods. The emperor summoned his finest scholars to convert her; she converted several of them instead, and they were executed for it. Beaten, imprisoned, and sentenced to death on a spiked wheel — which broke at her touch — she was finally beheaded. Tradition held that angels carried her body to Mount Sinai, where the great monastery bearing her name still stands.\n\nHonesty about the record matters here. The Catholic Encyclopedia notes that her Acts survive only in embroidered, legendary form, and the details — the debate with fifty philosophers, the miraculous wheel — cannot be verified as history; her cult was suppressed in the Roman calendar in 1969 and restored as an optional memorial in 2002. Yet scholars do not therefore deny her existence, and the Church continues to honor her as a virgin martyr of the early centuries, patroness of philosophers, theologians, students, wheelwrights, and unmarried women — one of the Fourteen Holy Helpers, and one of the voices Saint Joan of Arc heard.\n\nHer enduring gift is the image itself: faith that is not afraid of learning. Catherine stands for every Catholic student told that intelligence and belief cannot live in the same person. She answers with a palm in one hand and a book in the other.",
+        "body_vi": "Thánh Catarina thành Alexandria là một trong những vị thánh được yêu mến nhất của thời Trung cổ. Truyền thuyết kể rằng nàng là một công chúa thành Alexandria, thông hiểu mọi ngành học, đến năm mười tám tuổi đã đứng ra trước hoàng đế Maximinô giữa lúc bách đạo và công khai bác bỏ việc thờ các thần tượng. Vua triệu những học giả giỏi nhất đến khuyên nàng từ bỏ đạo; nàng lại khiến nhiều người trong họ tin theo Đức Kitô, và những người ấy bị giết vì điều đó. Bị đánh đòn, cầm tù và kết án chết trên bánh xe gai — bánh xe đã vỡ tan khi chạm vào nàng — cuối cùng nàng chịu chém đầu. Truyền thuyết còn kể rằng các thiên thần đã đem thi hài nàng về núi Sinai, nơi ngôi đại tu viện mang tên nàng vẫn đứng đến ngày nay.\n\nChúng ta cần nói thành thực về sử liệu ở đây. Các Bản Ghi Chép về cuộc đời nàng chỉ còn lại dưới dạng được tô vẽ, huyền thoại hóa, và những chi tiết — cuộc tranh luận với các triết gia, bánh xe thần kỳ — không thể kiểm chứng như lịch sử; tục kính nàng đã bị gỡ khỏi lịch phụng vụ Rôma năm 1969 rồi được phục hồi như lễ nhớ tùy chọn năm 2002. Nhưng giới học thuật không vì thế mà phủ nhận sự tồn tại của nàng, và Hội Thánh vẫn tôn kính nàng như một trinh nữ tử đạo của những thế kỷ đầu, bổn mạng các triết gia, thần học gia, học sinh sinh viên, thợ làm bánh xe và các thiếu nữ — một trong mười bốn thánh phù hộ, và một trong những tiếng nói mà thánh Gioan Xứ Đà đã nghe.\n\nQuà tặng lâu bền của nàng chính là hình ảnh ấy: một đức tin không sợ tri thức. Catarina đứng thay cho mọi học sinh Công giáo bị bảo rằng trí tuệ và đức tin không thể sống chung trong một con người. Nàng trả lời bằng một tay cầm nhành cọ và một tay cầm sách. Với cộng đồng Việt Nam, nơi bao nhiêu bạn trẻ mang tên thánh Catarina, hôm nay là dịp cầu nguyện cho các em đang đi học: xin cho các em yêu chân lý hơn tiếng khen tặng.",
+        "confidence": "traditional (legendary Acts; historical existence probable but details unverifiable)",
+        "summary_en": "Optional memorial of Saint Catherine of Alexandria, the learned virgin martyr of ancient legend, patroness of students, philosophers, and all who love truth.",
+        "summary_vi": "Lễ nhớ tùy chọn thánh Catarina thành Alexandria, trinh nữ tử đạo hiểu biết của truyền thuyết thượng cổ, bổn mạng học sinh, các triết gia và mọi ngưởi yêu chân lý.",
+        "confidence_note_en": "Her Acts survive only in embellished, legendary form; the Church honors her cult without certifying the details (suppressed 1969, restored as optional memorial 2002). Presented throughout at traditional confidence.",
+        "confidence_note_vi": "Các Bản Ghi Chép về thánh Catarina chỉ còn ở dạng huyền thoại tô vẽ; Hội Thánh tôn kính tục thờ nàng mà không xác nhận các chi tiết (gỡ khỏi lịch Rôma năm 1969, phục hồi như lễ nhớ tùy chọn năm 2002). Toàn bộ nội dung trình bày ở độ tin cậy truyền thống."
+      },
+      "place": {
+        "name_en": "Saint Catherine's Monastery, Mount Sinai, Egypt",
+        "name_vi": "Đại tu viện Thánh Catarina, Núi Sinai, Ai Cập",
+        "lat": 28.5558,
+        "lon": 33.9761,
+        "confidence": "contextual",
+        "source_url": "https://www.newadvent.org/cathen/03445a.htm",
+        "note": "The monastery at the foot of Mount Sinai has borne her name since the early Middle Ages; the translation of her relics there is traditional, not documented."
+      },
+      "artwork": {
+        "title": "Saint Catherine of Alexandria (Caravaggio, c. 1598, Thyssen-Bornemisza, Madrid)",
+        "url": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_Saint_Catherine_of_Alexandria_-_Google_Art_Project.jpg",
+        "license": "Public domain (artist died 1610); Google Arts & Culture reproduction",
+        "status": "placeholder_only"
+      },
+      "sources": [
+        {
+          "title": "St. Catherine of Alexandria — Catholic Encyclopedia (New Advent)",
+          "url": "https://www.newadvent.org/cathen/03445a.htm",
+          "type": "reference"
+        },
+        {
+          "title": "USCCB Daily Readings, November 25, 2026 (with optional memorial of St. Catherine of Alexandria)",
+          "url": "https://bible.usccb.org/bible/readings/112526.cfm",
+          "type": "liturgical"
+        },
+        {
+          "title": "Saint Catherine of Alexandria — Museo Nacional Thyssen-Bornemisza collection page",
+          "url": "https://www.museothyssen.org/en/collection/artists/caravaggio-michelangelo-merisi/saint-catherine-alexandria",
+          "type": "museum"
+        }
+      ],
+      "app_hooks": {
+        "audio_gate": true,
+        "pilgrim_atlas": true,
+        "notification_copy_en": "St. Catherine of Alexandria — the scholar-saint with a palm in one hand and a book in the other.",
+        "hero_line_en": "The learned princess who out-argued fifty philosophers — and then gave her life rather than give up Christ.",
+        "hero_line_vi": "Nàng công chúa hiểu biết đã thắng luận các nhà triết học được cử đến — rồi chịu chết chứ không chịu từ bỏ Đức Kitô.",
+        "prayer_prompt_en": "Saint Catherine, patroness of students and philosophers, teach us to love truth more than applause, and Christ more than our own cleverness.",
+        "prayer_prompt_vi": "Lạy Thánh Catarina, bổn mạng các học sinh và triết gia, xin dạy chúng con biết yêu chân lý hơn tiếng khen, và yêu Đức Kitô hơn sự khôn ngoan của chính mình."
+      },
+      "vi_notes": {
+        "vi_feast_override": null,
+        "terminology_choices": [
+          "'Thánh Catarina thành Alexandria' common in Viet usage; 'trinh nữ tử đạo' for virgin and martyr",
+          "'Bản Ghi Chép' glossed for the Acts (Acta); 'mười bốn thánh phù hộ' for the Fourteen Holy Helpers; 'thánh Gioan Xứ Đà' for St Joan of Arc",
+          "Legend honesty kept in VI via 'truyền thuyết kể rằng...' framing per dossier guidance"
+        ],
+        "editorial_divergence": null,
+        "local_resonance_flags": [
+          "Viet parishes have many Catarina/Catherine namesakes (Catarina is a common Viet Catholic baptismal name, especially for students)."
+        ]
+      },
+      "audio_script": {
+        "script_en": "Today the Church may honor Saint Catherine of Alexandria, virgin and martyr. The story told for fifteen centuries is this: Catherine, a brilliant young princess of Alexandria, stood before a pagan emperor and defended the Christian faith so powerfully that the scholars sent to argue with her ended up believing. Condemned to a spiked wheel, she was spared when the wheel shattered — and she was then beheaded, receiving the crown of martyrdom. Her story comes to us wrapped in legend, and the Church is honest about that. But the devotion is real, and so is what it means. Catherine is the patroness of students, philosophers, and all who love truth. She teaches that faith and reason are not enemies. The mind that seeks God honestly is already on the road to Him. Today, ask Saint Catherine to pray for the students in your family — that they may love truth more than applause, and Christ more than their own cleverness.",
+        "script_vi": "Hôm nay Hội Thánh có thể kính nhớ thánh Catarina thành Alexandria, trinh nữ và tử đạo. Câu chuyện được kể lại suốt mười lăm thế kỷ như thế này: Catarina, một công chúa trẻ thông minh của Alexandria, đã đứng trước một vị vua ngoại đạo và bênh vực đức tin Kitô giáo mạnh mẽ đến nỗi các học giả được cử đến tranh luận với nàng cuối cùng lại tin theo. Bị kết án chết trên bánh xe gai, nàng được cứu khi bánh xe vỡ tan — và sau đó nàng chịu chém đầu, lãnh nhận vương miện tử đạo. Câu chuyện đến với chúng ta được bọc trong huyền thoại, và Hội Thánh thành thực về điều đó. Nhưng lòng sùng kính là thật, và ý nghĩa của nó cũng là thật. Catarina là bổn mạng của học sinh, sinh viên, các triết gia và mọi người yêu chân lý. Nàng dạy rằng đức tin và lý trí không phải là kẻ thù. Tâm trí thành thực tìm kiếm Thiên Chúa đã đi trên đường đến với Người. Hôm nay, hãy xin thánh Catarina cầu cho các con em đang đi học trong gia đình bạn — để chúng yêu chân lý hơn tiếng khen, và yêu Đức Kitô hơn sự khôn ngoan của chính mình."
+      },
+      "mock_priority": "standard"
+    },
+    {
+      "id": "2026-11-26",
+      "date": "2026-11-26",
+      "weekday": "Thursday",
+      "liturgical": {
+        "season_en": "Ordinary Time (Thirty-fourth Week)",
+        "season_vi": "Mùa Thường Niên (Tuần XXXIV)",
+        "rank_en": "Weekday; Thanksgiving Day (USA, proper Mass and readings)",
+        "rank_vi": "Ngày thường; Ngày Lễ Tạ Ơn quốc gia (Thanksgiving, Hoa Kỳ) — Thánh lễ và bài đọc riêng",
+        "color": "white (Thanksgiving) / green (weekday)",
+        "lectionary": "Thanksgiving Day proper: Sirach 50:22-24; Psalm 145; 1 Corinthians 1:3-9 (verified); Luke 17:11-19",
+        "readings_ref": "https://bible.usccb.org/bible/readings/112626-Thanksgiving",
+        "is_sunday": false,
+        "rank": "weekday_civic_observance",
+        "title_en": "Thanksgiving Day (United States)",
+        "title_vi": "Ngày Lễ Tạ Ơn quốc gia (Thanksgiving, Hoa Kỳ)"
+      },
+      "calendars": {
+        "gregorian": "2026-11-26",
+        "julian": "2026-11-13",
+        "hebrew": "15 Kislev 5787",
+        "islamic_umm_al_qura": "c. 15 Jumada al-Thani 1448 (approximate)",
+        "coptic": "17 Hathor 1743 AM",
+        "ethiopian": "17 Hidar 2019 EC",
+        "computation_note": "Same method as 2026-11-23."
+      },
+      "primary": {
+        "kind": "civic_liturgical_observance",
+        "title_en": "Thanksgiving Day (United States)",
+        "title_vi": "Ngày Lễ Tạ Ơn quốc gia (Thanksgiving, Hoa Kỳ)",
+        "also_on_this_day_en": "Weekday of the Thirty-fourth Week in Ordinary Time",
+        "hero_line_en": "One leper out of ten came back to say thank you. Thanksgiving is the discipline of coming back.",
+        "hero_line_vi": "Mười người cùi được chữa lành, chỉ một người quay lại tạ ơn. Lễ Tạ Ơn là bài học của người biết trở lại ấy.",
+        "prayer_prompt_en": "Lord Jesus, like the Samaritan leper, let me return. Before the turkey, before the table — let me fall at Your feet and give thanks.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho con biết trở lại như người cùi Samaria. Trước bàn tiệc, trước gà tây, xin cho con biết phủ phục dưới chân Chúa mà tạ ơn.",
+        "body_en": "Thanksgiving as a national observance descends from the harvest celebration held at Plymouth in the autumn of 1621, when the surviving English colonists of the Mayflower — half of whom had died the previous winter — feasted for three days with Massasoit and about ninety Wampanoag men who had taught them to plant corn and saved them from starvation. The familiar paintings romanticize it; the historical record is thinner and stranger, a fragile truce meal between two peoples whose stories would soon diverge painfully. But the instinct was ancient and sound: when the harvest is in, give thanks to God before you enjoy it.\n\nThe American bishops supply proper readings for this day, and they are perfectly chosen. In the Gospel, Jesus heals ten lepers; only one — a Samaritan, a foreigner — returns to fall at His feet and thank Him. 'Were not ten made clean? Where are the other nine?' Thanksgiving Day is, at its core, the discipline of the tenth leper: not the receiving of gifts, which all ten received, but the turning back. Gratitude is not a mood; it is a movement — back toward the Giver.\n\nFor immigrant Catholic families, the day carries a second layer. Many Vietnamese American households in Orange County will begin this morning not with football but with Mass — thanking God for refuge, for fifty years of life rebuilt after 1975, for parishes that did not exist a generation ago. Gratitude that has known loss is the deepest kind.\n\nSirach puts the prayer on our lips (Sir 50:22-24, adapted): 'Bless the God of all, who has done wondrous things on earth; who fosters growth from the womb, dealing with us in mercy.'",
+        "body_vi": "Ngày lễ Tạ Ơn quốc gia của Hoa Kỳ bắt nguồn từ bữa tiệc mùa gặt tại Plymouth vào mùa thu năm 1621, khi những người Anh còn sống sót của chiếc Mayflower — một nửa đoàn người đã chết trong mùa đông đầu tiên — ngồi ăn ba ngày với thủ lĩnh Massasoit và khoảng chín mươn người Wampanoag, những người bản xứ đã dạy họ trồng ngô và cứu họ khỏi cảnh chết đói. Những bức tranh quen thuộc vẽ cảnh ấy một cách lãng mạn hóa; hồ sơ lịch sử thì mỏng hơn và lạ lùng hơn — một bữa ăn đình chiến mong manh giữa hai dân tộc mà câu chuyện của họ sẽ sớm rẽ sang những hướng đau thương. Nhưng bản năng ấy là cổ xưa và lành mạnh: khi mùa gặt đã vào kho, hãy tạ ơn Thiên Chúa trước khi hưởng dùng.\n\nCác Giám mục Hoa Kỳ cung cấp bài đọc riêng cho ngày này, và sự chọn lựa thật hoàn hảo. Trong Tin Mừng, Chúa Giêsu chữa lành mười người cùi; chỉ một người — một người Samaria, một người ngoại — trở lại phủ phục dưới chân Người mà tạ ơn. «Không phải cả mười người đã được sạch sao? Chín người kia đâu?» Lễ Tạ Ơn, về cốt lõi, là bài học kỷ luật của người cùi thứ mười: không phải việc nhận quà — cả mười đều đã nhận — mà là việc quay trở lại. Lòng biết ơn không phải một tâm trạng; đó là một cử động — quay về phía Đấng ban quà.\n\nVới các gia đình Công giáo nhập cư, ngày này còn mang một lớp nghĩa thứ hai — và với người Việt tại Quận Cam, lớp nghĩa ấy nằm ngay ở trung tâm. Nhiều gia đình Việt Nam sẽ bắt đầu buổi sáng hôm nay không phải bằng bóng bầu dục mà bằng Thánh lễ — tạ ơn Chúa vì ơn đất khách, vì tự do thờ phượng, vì năm mươn năm dựng lại cuộc đời sau 1975, vì những giáo xứ mà một thế hệ trước chưa từng tồn tại. Lòng biết ơn đã từng nếm mất mát là thứ biết ơn sâu nhất.\n\nSách Tiến sĩ đặt lời kinh trên môi chúng ta: «Hãy chúc tụng Thiên Chúa của cả vũ trụ, Đấng làm nên những kỳ công khắp mặt đất; Người nuôi dưỡng chúng ta từ lòng mẹ và đối xử với chúng ta bằng lòng từ bi.»",
+        "confidence": "confirmed (1621 Plymouth harvest celebration; USCCB proper readings); contextual (immigrant-family framing)",
+        "summary_en": "Thanksgiving Day in the United States: from the 1621 Plymouth harvest meal to the Gospel of the ten lepers — gratitude as the discipline of returning to the Giver.",
+        "summary_vi": "Ngày Lễ Tạ Ơn quốc gia Hoa Kỳ: từ bữa tiệc mùa gặt Plymouth năm 1621 đến Tin Mừng mười ngưởi cùi — lòng biết ơn là kỷ luật của ngưởi biết trở lại với Đấng ban quà.",
+        "confidence_note_en": "The 1621 Plymouth celebration and the USCCB proper readings (Sir 50:22-24; Ps 145; 1 Cor 1:3-9; Lk 17:11-19) are documented. The Sirach citation in the body is an adapted rendering, not a verbatim official translation, and is marked as such. The immigrant-family application is editorial and contextual.",
+        "confidence_note_vi": "Bữa tiệc Plymouth năm 1621 và các bài đọc riêng của USCCB (Xn 50,22-24; Tv 145; 1 Cr 1,3-9; Lc 17,11-19) đều có tài liệu. Câu trích sách Tiến sĩ trong bài là bản diễn ý, không phải bản dịch chính thức nguyên văn, và được ghi chú như vậy. Phần áp dụng cho gia đình nhập cư mang tính biên tập, bối cảnh."
+      },
+      "place": {
+        "name_en": "Plymouth, Massachusetts (Plimoth Patuxet Museums)",
+        "name_vi": "Plymouth, Massachusetts (Bảo tàng Plimoth Patuxet)",
+        "lat": 41.9584,
+        "lon": -70.6673,
+        "confidence": "confirmed",
+        "source_url": "https://plimoth.org/",
+        "note": "Site of the 1621 harvest celebration shared by the Mayflower colonists and the Wampanoag. Plimoth Patuxet is the living-history museum on the ground."
+      },
+      "artwork": {
+        "title": "The First Thanksgiving, 1621 (Jean Leon Gerome Ferris, c. 1912–1915, Library of Congress)",
+        "url": "https://commons.wikimedia.org/wiki/File:The_First_Thanksgiving_cph.3g04961.jpg",
+        "license": "Public domain (published 1932, copyright not renewed); note: image is a romanticized, historically inaccurate depiction — caption should say so",
+        "status": "placeholder_only"
+      },
+      "sources": [
+        {
+          "title": "USCCB Daily Readings — Thanksgiving Day, November 26, 2026",
+          "url": "https://bible.usccb.org/bible/readings/112626-Thanksgiving",
+          "type": "liturgical"
+        },
+        {
+          "title": "Plimoth Patuxet Museums (official site)",
+          "url": "https://plimoth.org/",
+          "type": "official"
+        },
+        {
+          "title": "Library of Congress Prints & Photographs — The First Thanksgiving reproduction record (via Wikimedia Commons file page)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_First_Thanksgiving_cph.3g04961.jpg",
+          "type": "reference"
+        }
+      ],
+      "app_hooks": {
+        "audio_gate": true,
+        "pilgrim_atlas": false,
+        "notification_copy_en": "Thanksgiving: ten lepers were healed; one came back. Be the one who comes back.",
+        "hero_line_en": "One leper out of ten came back to say thank you. Thanksgiving is the discipline of coming back.",
+        "hero_line_vi": "Mười người cùi được chữa lành, chỉ một người quay lại tạ ơn. Lễ Tạ Ơn là bài học của người biết trở lại ấy.",
+        "prayer_prompt_en": "Lord Jesus, like the Samaritan leper, let me return. Before the turkey, before the table — let me fall at Your feet and give thanks.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho con biết trở lại như người cùi Samaria. Trước bàn tiệc, trước gà tây, xin cho con biết phủ phục dưới chân Chúa mà tạ ơn."
+      },
+      "vi_notes": {
+        "vi_feast_override": null,
+        "terminology_choices": [
+          "'Lễ Tạ Ơn' for Thanksgiving Day (same phrase as Eucharist = Thánh lễ Tạ Ơn — VI composer should disambiguate carefully, e.g., 'Ngày lễ Tạ Ơn (Thanksgiving)'",
+          "Disambiguation applied: 'Ngày Lễ Tạ Ơn quốc gia (Thanksgiving, Hoa Kỳ)' throughout, reserving 'Thánh lễ Tạ Ơn' for the Eucharist",
+          "Sirach (Xán) 50 quote paraphrased from the dossier's English, not from a verified CGKPV rendering — flag for Agent C; 'người Samaria' kept per Kinh Thánh usage; 'ơn đất khách' for the gift of refuge"
+        ],
+        "editorial_divergence": "VI makes the refugee-gratitude register central (per dossier [SOCAL] note): the immigrant paragraph is framed as the heart of the day for the Quận Cam audience ('lớp nghĩa ấy nằm ngay ở trung tâm'), with explicit 1975/fifty-years and freedom-of-worship references; EN treats the same content as 'a second layer.'",
+        "local_resonance_flags": [
+          "SOCAL: Thanksgiving morning Mass is a strong custom in Little Saigon parishes; many parishes do Lễ Tạ Ơn với bánh trái/hoa quả offerings.",
+          "Note for VI: avoid translating the Ferris painting caption literally without noting its romanticized depiction of the Wampanoag."
+        ]
+      },
+      "audio_script": {
+        "script_en": "Today is Thanksgiving Day in the United States, and the Church gives this day its own Mass and its own Gospel: the story of the ten lepers. Jesus healed all ten, but only one — a Samaritan, a foreigner — came back, fell at His feet, and gave thanks. Where are the other nine, Jesus asks. Thanksgiving is the discipline of the tenth leper. All ten received the gift; only one returned to the Giver. The first Thanksgiving at Plymouth in sixteen twenty-one was exactly that movement: survivors of a deadly winter, turning to God before turning to the feast. For so many Catholic families, including the refugee families of Little Saigon who will fill the churches this morning, gratitude is not a mood. It is a memory of loss, and a decision to come back and say thank you anyway. Before the table, before the game, before anything else today: come back to Jesus, and fall at His feet. Happy Thanksgiving.",
+        "script_vi": "Hôm nay là ngày lễ Tạ Ơn tại Hoa Kỳ, và Hội Thánh dành cho ngày này một Thánh lễ riêng với Tin Mừng riêng: dụ ngôn mười người cùi. Chúa Giêsu đã chữa lành cả mười, nhưng chỉ một người — một người Samaria, một người ngoại — quay trở lại, phủ phục dưới chân Người và tạ ơn. Chín người kia đâu, Chúa hỏi. Lễ Tạ Ơn là bài học kỷ luật của người cùi thứ mười. Cả mười đều nhận được quà; chỉ một người trở lại với Đấng ban quà. Bữa Tạ Ơn đầu tiên tại Plymouth năm một ngàn sáu trăm hai mươn mốt cũng là cử động ấy: những người sống sót sau một mùa đông chết chóc, quay về với Thiên Chúa trước khi quay về với bàn tiệc. Với bao gia đình Công giáo — kể cả những gia đình tị nạn của Little Saigon sẽ đông đúc trong các nhà thờ sáng nay — lòng biết ơn không phải một tâm trạng. Đó là một ký ức về mất mát, và một quyết định: dù sao cũng trở lại mà nói lời cảm tạ. Trước bàn tiệc, trước trận bóng, trước mọi điều hôm nay: hãy trở lại với Chúa Giêsu, và phủ phục dưới chân Người. Chúc bạn một ngày lễ Tạ Ơn an lành."
+      },
+      "mock_priority": "high"
+    },
+    {
+      "id": "2026-11-27",
+      "date": "2026-11-27",
+      "weekday": "Friday",
+      "liturgical": {
+        "season_en": "Ordinary Time (Thirty-fourth Week)",
+        "season_vi": "Mùa Thường Niên (Tuần XXXIV)",
+        "rank_en": "Weekday (devotional observance: Our Lady of the Miraculous Medal)",
+        "rank_vi": "Ngày thường (kỷ niệm lòng sùng kính: Đức Mẹ Ban Huy Hiệu Thánh)",
+        "color": "green",
+        "lectionary": "Year II weekday cycle; First Reading Revelation 20:1–21:2 (verified)",
+        "readings_ref": "https://bible.usccb.org/bible/readings/112726.cfm",
+        "is_sunday": false,
+        "rank": "weekday_devotional",
+        "title_en": "Our Lady of the Miraculous Medal (devotional anniversary)",
+        "title_vi": "Đức Mẹ Ban Huy Hiệu Thánh (kỷ niệm lòng sùng kính)"
+      },
+      "calendars": {
+        "gregorian": "2026-11-27",
+        "julian": "2026-11-14",
+        "hebrew": "16 Kislev 5787",
+        "islamic_umm_al_qura": "c. 16 Jumada al-Thani 1448 (approximate)",
+        "coptic": "18 Hathor 1743 AM",
+        "ethiopian": "18 Hidar 2019 EC",
+        "computation_note": "Same method as 2026-11-23."
+      },
+      "primary": {
+        "kind": "devotional_observance",
+        "title_en": "Our Lady of the Miraculous Medal (devotional anniversary)",
+        "title_vi": "Đức Mẹ Ban Huy Hiệu Thánh (kỷ niệm lòng sùng kính)",
+        "also_on_this_day_en": "Friday of the Thirty-fourth Week in Ordinary Time; Saint Catherine Labouré's feast (November 28) in Vincentian calendars follows tomorrow",
+        "hero_line_en": "O Mary, conceived without sin, pray for us who have recourse to thee.",
+        "hero_line_vi": "Lạy Đức Mẹ vô nhiễm nguyên tội, cầu cho chúng con hết sức chạy đến cùng Mẹ.",
+        "prayer_prompt_en": "Mother of the Miraculous Medal, your hands pour down graces like rays of light. Open my hands to receive what you so freely give.",
+        "prayer_prompt_vi": "Lạy Mẹ Huy Hiệu Thánh, đôi bàn tay Mẹ rải ơn như những tia sáng. Xin mở rộng đôi bàn tay con để đón lấy những ân sủng Mẹ rộng ban.",
+        "body_en": "On the night of November 27, 1830 — the eve of the first Sunday of Advent that year — the Blessed Virgin appeared to Saint Catherine Labouré, a twenty-four-year-old Daughter of Charity, in the motherhouse chapel on the rue du Bac in Paris. Catherine saw Mary standing on a globe, rings of light streaming from her hands, and heard the words that became the medal's prayer: 'O Mary, conceived without sin, pray for us who have recourse to thee.' A frame formed around the vision bearing the letter M beneath a cross, the Sacred Heart crowned with thorns, and the Immaculate Heart pierced by a sword. Have a medal struck after this model, the Virgin said; all who wear it will receive great graces.\n\nThe first medals were struck in 1832, and the spread was astonishing — millions within a few years, carrying with it stories of conversions so numerous that people simply called it 'the miraculous medal.' The apparition's theology was quietly prophetic: 'conceived without sin' — twenty-four years before the dogma of the Immaculate Conception was defined in 1854. Saint Catherine told no one but her confessor who she was, and remained anonymous as 'the sister of the apparition' until near her death in 1876; she was canonized in 1947, and her body rests, remarkably intact, beneath the chapel on the rue du Bac.\n\nNote the liturgical honesty here: November 27 is a devotional anniversary, not a feast of the universal calendar. The USCCB calendar for this Friday keeps the weekday of the thirty-fourth week. But devotions live where the people live — and few devotions have lived so deeply in Catholic homes, Vietnamese ones included, as the little blue-silver medal and its twelve-word prayer.\n\nAs Advent opens this weekend, the timing is fitting: the medal is, in the end, an Advent object — the Immaculate Conception holding out her hands, saying: the Light is coming; get ready.",
+        "body_vi": "Đêm ngày 27 tháng 11 năm 1830 — đêm trước Chúa Nhật thứ nhất Mùa Vọng năm ấy — Đức Mẹ đã hiện ra với thánh Catarina Labouré, một nữ tu Dòng Bác Ái hai mươn tư tuổi, trong nguyện đường của nhà mẫu tại đường du Bac, Paris. Catarina thấy Đức Mẹ đứng trên quả địa cầu, những vòng sáng tuôn ra từ đôi tay Mẹ, và nghe những lời đã trở thành kinh nguyện của huy hiệu: «Lạy Đức Mẹ vô nhiễm nguyên tội, cầu cho chúng con hết sức chạy đến cùng Mẹ.» Một khung hình thành quanh thị kiến mang chữ M dưới cây thập giá, Thánh Tâm đội mão gai và Trái Tim Vô Nhiễm đâm thâu bởi lưỡi gươm. Hãy cho đúc một huy hiệu theo mẫu này, Đức Mẹ phán; ai mang nó sẽ nhận được những ân sủng lớn lao.\n\nNhững huy hiệu đầu tiên được đúc năm 1832, và sự lan tỏa thật kinh ngạc — hàng triệu chiếc chỉ trong vài năm, kéo theo bao câu chuyện hoán cải đến nỗi người ta chỉ gọi đơn giản là «huy hiệu phép lạ» — Huy Hiệu Thánh. Thần học của cuộc hiện ra âm thầm mang tính tiên tri: lời «vô nhiễm nguyên tội» vang lên hai mươn bốn năm trước khi tín điều Đức Mẹ Vô Nhiễm Nguyên Tội được long trọng xác định năm 1854. Thánh Catarina không hé lộ với ai ngoài cha giải tội của mình về thân phận của bà, và vẫn vô danh như «người chị của cuộc hiện ra» cho đến gần lúc qua đời năm 1876; bà được phong thánh năm 1947, và thi hài bà, vẫn nguyên vẹn một cách lạ thường, an nghỉ dưới nguyện đường đường du Bac.\n\nCần thành thực về phụng vụ ở đây: ngày 27 tháng 11 là một kỷ niệm lòng sùng kính, không phải một ngày lễ trong lịch chung của Hội Thánh. Lịch phụng vụ Hoa Kỳ cho thứ Sáu này vẫn giữ ngày thường của tuần thứ ba mươn bốn Mùa Thường Niên. Nhưng lòng sùng kính sống ở nơi dân Chúa sống — và ít có tập tục đạo đức nào sống sâu trong các gia đình Công giáo, kể cả gia đình Việt Nam, bằng chiếc huy hiệu nhỏ màu xanh bạc ấy cùng lời kinh của nó. Bao áo ngực Công giáo Việt Nam đeo chiếc huy hiệu này bên cạnh áo dòng Thánh Tâm.\n\nVào ngưỡng cửa Mùa Vọng cuối tuần này, sự trùng hợp thật đẹp: cuộc hiện ra năm 1830 xảy ra đúng đêm trước Mùa Vọng, và đêm mai lại một lần nữa là đêm trước Mùa Vọng. Huy Hiệu Thánh, xét cho cùng, là một món quà Mùa Vọng — Đức Mẹ Vô Nhiễm giang tay ra, như muốn nói: Ánh Sáng đang đến; hãy sẵn sàng.",
+        "confidence": "traditional (apparition narrative, though the devotion is Church-approved and the chapel, medal, and saint are fully documented)",
+        "summary_en": "Devotional anniversary of the Miraculous Medal: Our Lady's apparition to Saint Catherine Labouré on the rue du Bac in 1830, on the eve of Advent — not a feast of the universal calendar.",
+        "summary_vi": "Kỷ niệm lòng sùng kính Đức Mẹ Ban Huy Hiệu Thánh: cuộc hiện ra năm 1830 với thánh Catarina Labouré tại đường du Bac, đúng đêm trước Mùa Vọng — không phải ngày lễ trong lịch chung của Hội Thánh.",
+        "confidence_note_en": "The chapel, the medal's diffusion from 1832, and Saint Catherine Labouré's life are fully documented; the apparition narrative follows the Church-approved devotional account and is held at traditional confidence. Explicitly noted as a devotional anniversary, not a calendrical feast.",
+        "confidence_note_vi": "Nguyện đường, sự lan tỏa của huy hiệu từ năm 1832, và cuộc đời thánh Catarina Labouré đều có tài liệu đầy đủ; tường thuật cuộc hiện ra theo truyền thống lòng sùng kính được Hội Thánh chấp thuận — độ tin cậy truyền thống. Bài ghi rõ đây là kỷ niệm lòng sùng kính, không phải ngày lễ trong lịch."
+      },
+      "place": {
+        "name_en": "Chapel of Our Lady of the Miraculous Medal, 140 rue du Bac, Paris",
+        "name_vi": "Nguyện đường Đức Mẹ Huy Hiệu Thánh, số 140 đường du Bac, Paris",
+        "lat": 48.8509,
+        "lon": 2.3234,
+        "confidence": "confirmed",
+        "source_url": "https://www.chapellenotredamedelamedaillemiraculeuse.com/en/",
+        "note": "Site of the 1830 apparitions to St. Catherine Labouré; her body is enshrined in the chapel."
+      },
+      "artwork": {
+        "title": "Miraculous Medal (obverse and reverse, photograph by Xhienne)",
+        "url": "https://commons.wikimedia.org/wiki/File:Miraculous_medal.jpg",
+        "license": "CC BY-SA 3.0 (photo of a devotional object; the medal design itself is 19th century)",
+        "status": "placeholder_only"
+      },
+      "sources": [
+        {
+          "title": "Chapelle Notre-Dame de la Médaille Miraculeuse (official chapel site, 140 rue du Bac, Paris)",
+          "url": "https://www.chapellenotredamedelamedaillemiraculeuse.com/en/",
+          "type": "official"
+        },
+        {
+          "title": "USCCB Daily Readings, November 27, 2026",
+          "url": "https://bible.usccb.org/bible/readings/112726.cfm",
+          "type": "liturgical"
+        },
+        {
+          "title": "Wikimedia Commons — File:Miraculous medal.jpg (object description and history)",
+          "url": "https://commons.wikimedia.org/wiki/File:Miraculous_medal.jpg",
+          "type": "reference"
+        }
+      ],
+      "app_hooks": {
+        "audio_gate": true,
+        "pilgrim_atlas": true,
+        "notification_copy_en": "Nov 27, 1830: Mary appeared on the rue du Bac and gave the world a twelve-word prayer.",
+        "hero_line_en": "O Mary, conceived without sin, pray for us who have recourse to thee.",
+        "hero_line_vi": "Lạy Đức Mẹ vô nhiễm nguyên tội, cầu cho chúng con hết sức chạy đến cùng Mẹ.",
+        "prayer_prompt_en": "Mother of the Miraculous Medal, your hands pour down graces like rays of light. Open my hands to receive what you so freely give.",
+        "prayer_prompt_vi": "Lạy Mẹ Huy Hiệu Thánh, đôi bàn tay Mẹ rải ơn như những tia sáng. Xin mở rộng đôi bàn tay con để đón lấy những ân sủng Mẹ rộng ban."
+      },
+      "vi_notes": {
+        "vi_feast_override": null,
+        "terminology_choices": [
+          "'Đức Mẹ Ban Ơn / Huy hiệu Phép Lạ' — 'Huy Hiệu Thánh' is the common Viet term for the Miraculous Medal; prayer rendered 'Lạy Đức Mẹ vô nhiễm nguyên tội, cầu cho chúng con hết sức chạy đến cùng Mẹ.'",
+          "'Dòng Bác Ái' for Daughters of Charity; 'nhà mẫu' for motherhouse; 'địa cầu' for the globe",
+          "Medal prayer text used per dossier but not re-verified against current parish booklets — flag for Agent C"
+        ],
+        "editorial_divergence": null,
+        "local_resonance_flags": [
+          "The Miraculous Medal is extremely widespread among Vietnamese Catholics (huy hiệu worn with the scapular); VI body can assume familiarity.",
+          "The apparition happened on the eve of Advent I 1830 — and 2026-11-28 is again the eve of Advent I. Nice symmetry for VI opening.",
+          "Catherine Labouré = Thánh Catarina Labouré."
+        ]
+      },
+      "audio_script": {
+        "script_en": "On this night in eighteen thirty, in a chapel on the rue du Bac in Paris, the Blessed Virgin Mary appeared to a young novice, Catherine Labouré. Mary stood upon a globe, with rays of light streaming from her open hands, and spoke the words now known around the world: O Mary, conceived without sin, pray for us who have recourse to thee. She asked that a medal be struck. Within a few years, millions were wearing it, and so many graces were reported that people simply called it the miraculous medal. Catherine never sought credit. She remained the anonymous sister of the apparition for forty-six years, until just before her death. She was canonized in nineteen forty-seven, and her body rests in that same chapel today. This is a devotion, not a feast of the universal calendar — but some devotions carry a whole theology in miniature. Conceived without sin, twenty-four years before the Church defined that dogma. And tomorrow night, Advent begins. The Immaculate Mother opens her hands, full of light, and says to us: the Lord is coming. Get ready.",
+        "script_vi": "Đêm nay, năm một ngàn tám trăm ba mươn, trong một nguyện đường tại đường du Bac ở Paris, Đức Trinh Nữ Maria đã hiện ra với một nữ tu trẻ, Catarina Labouré. Đức Mẹ đứng trên quả địa cầu, những tia sáng tuôn ra từ đôi bàn tay mở rộng, và phán những lời nay đã được cả thế giới biết đến: Lạy Đức Mẹ vô nhiễm nguyên tội, cầu cho chúng con hết sức chạy đến cùng Mẹ. Đức Mẹ xin cho đúc một huy hiệu. Chỉ trong vài năm, hàng triệu người đeo nó, và nhiều ơn lành được thuật lại đến nỗi người ta gọi nó đơn giản là Huy Hiệu Thánh. Catarina không bao giờ tìm danh tiếng. Bà vẫn là người chị vô danh của cuộc hiện ra suốt bốn mươn sáu năm, cho đến sát ngày qua đời. Bà được phong thánh năm một ngàn chín trăm bốn mươn bảy, và thi hài bà an nghỉ trong chính nguyện đường ấy hôm nay. Đây là một lòng sùng kính, không phải ngày lễ trong lịch chung của Hội Thánh — nhưng có những lòng sùng kính chứa cả một nền thần học thu nhỏ. Vô nhiễm nguyên tội — hai mươn bốn năm trước khi Hội Thánh xác định tín điều ấy. Và đêm mai, Mùa Vọng bắt đầu. Đức Mẹ Vô Nhiễm mở rộng đôi tay đầy ánh sáng và nói với chúng ta: Chúa đang đến. Hãy sẵn sàng."
+      },
+      "mock_priority": "standard"
+    },
+    {
+      "id": "2026-11-28",
+      "date": "2026-11-28",
+      "weekday": "Saturday",
+      "liturgical": {
+        "season_en": "Ordinary Time (Thirty-fourth Week); Advent begins at First Vespers this evening",
+        "season_vi": "Mùa Thường Niên (Tuần XXXIV); Mùa Vọng bắt đầu từ Kinh Chiều tối nay",
+        "rank_en": "Weekday (in Franciscan calendars: Optional Memorial of Saint James of the Marches, Priest)",
+        "rank_vi": "Ngày thường (trong lịch Dòng Phanxicô: Lễ nhớ tùy chọn Thánh Giacôbê vùng Marche, Linh mục)",
+        "color": "green (violet from evening)",
+        "lectionary": "Year II weekday cycle; First Reading Revelation 22:1-7 (verified): 'Behold, I am coming soon'",
+        "readings_ref": "https://bible.usccb.org/bible/readings/112826.cfm",
+        "is_sunday": false,
+        "rank": "weekday",
+        "title_en": "The Last Day of Ordinary Time — and Saint James of the Marches",
+        "title_vi": "Ngày cuối cùng của Mùa Thường Niên — và Thánh Giacôbê vùng Marche"
+      },
+      "calendars": {
+        "gregorian": "2026-11-28",
+        "julian": "2026-11-15",
+        "hebrew": "17 Kislev 5787",
+        "islamic_umm_al_qura": "c. 17 Jumada al-Thani 1448 (approximate)",
+        "coptic": "19 Hathor 1743 AM",
+        "ethiopian": "19 Hidar 2019 EC",
+        "computation_note": "Same method as 2026-11-23."
+      },
+      "primary": {
+        "kind": "weekday_threshold",
+        "title_en": "The Last Day of Ordinary Time — and Saint James of the Marches",
+        "title_vi": "Ngày cuối cùng của Mùa Thường Niên — và Thánh Giacôbê vùng Marche",
+        "also_on_this_day_en": "Saint James of the Marches, Franciscan priest (d. 1476) — memorial in Franciscan calendars; Saint Catherine Labouré (d. 1876) commemorated in Vincentian tradition",
+        "hero_line_en": "The Church's year ends the way the Bible ends: 'Behold, I am coming soon.'",
+        "hero_line_vi": "Năm phụng vụ khép lại đúng nơi Kinh Thánh khép lại: «Này, Ta sắp đến.»",
+        "prayer_prompt_en": "Maranatha — Come, Lord Jesus. As this year closes, give me a watchful heart, not a weary one.",
+        "prayer_prompt_vi": "Maranatha — Lạy Chúa Giêsu, xin ngài đến. Khi năm cũ khép lại, xin ban cho con một tâm hồn tỉnh thức, chứ không phải một tâm hồn mệt mỏi.",
+        "body_en": "The last Saturday of the liturgical year reads the last page of the Bible. The final Mass readings of Ordinary Time take the Church to the end of the Book of Revelation: the river of life-giving water, the tree of life whose leaves are medicine for the nations, and the promise spoken three times in the last chapter — 'Behold, I am coming soon.' Ordinary Time does not fade out; it tilts forward. By tonight's First Vespers, the violet of Advent will already be on the altar, and the whole posture of the Church will have changed from walking to watching.\n\nOn this threshold day, Franciscan calendars remember Saint James of the Marches, who died in Naples on November 28, 1476. A disciple of Saint Bernardine of Siena, James preached across Italy and central Europe for decades — tireless, austere, and often in trouble for his zeal — working to reform religious life and to found the montes pietatis, charitable lending houses that offered the poor an alternative to ruinous debt. He was canonized in 1726. His is a fitting saint for the year's end: a man who finished the race still working.\n\nThere is a quiet symmetry in the date. Saint Catherine Labouré, whose vision of the Miraculous Medal the Church recalled yesterday, also died on a November 28 — in 1876, fifty years to the month after her apparition. The last day of the year gathers its own communion: the seer of rue du Bac and the wandering friar of the Marches, both pointing the same direction the liturgy now points — toward the One who is coming.",
+        "body_vi": "Ngày thứ Bảy cuối cùng của năm phụng vụ đọc trang cuối cùng của Kinh Thánh. Những bài đọc cuối cùng của Mùa Thường Niên đưa Hội Thánh đến phần kết của sách Khải Huyền: dòng sông nước trường sinh, cây trường sinh có lá làm thuốc chữa muôn dân, và lời hứa vang ba lần trong chương cuối — «Này, Ta sắp đến.» Mùa Thường Niên không lịm dần đi; nó nghiêng hẳn về phía trước. Đến Kinh Chiều tối nay, màu tím Mùa Vọng đã khoác lên bàn thờ, và tư thế của cả Hội Thánh đã đổi: từ bước đi sang canh chừng. Nhiều giáo xứ Việt Nam sẽ lành vòng hoa Mùa Vọng trong các Thánh lễ tối nay.\n\nTrên ngưỡng cửa năm cũ này, lịch Dòng Phanxicô kính nhớ thánh Giacôbê vùng Marche, vị đã qua đời tại Napoli ngày 28 tháng 11 năm 1476. Là môn đệ của thánh Bernardinô thành Siena, Giacôbê rao giảng khắp nước Ý và Trung Âu suốt nhiều chục năm — không biết mệt, khắc khổ, và thường gặp rắc rối vì lòng nhiệt thành của mình — làm việc để canh tân đời sống tu sĩ và lập nên các quỹ tín dụng từ thiện, giúp người nghèo có lối thoát khỏi nạn nợ nần nặng lãi. Việc ấy gợi người Công giáo Việt Nam nhớ đến truyền thống tương trợ của mình — những hụi, những quỹ họ đạo giúp nhau trong lúc khó khăn. Ngài được phong thánh năm 1726. Thật thích hợp cho ngày cuối năm: một con người đã về đích mà vẫn đang làm việc.\n\nCó một sự tương xứng lặng lẽ trong ngày. Thánh Catarina Labouré, người có thị kiến về Huy Hiệu Thánh mà chúng ta vừa nhớ đến hôm qua, cũng qua đời vào một ngày 28 tháng 11 — năm 1876. Ngày cuối năm quy tụ những chứng nhân của nó: người nữ tu của đường du Bac và vị tu sĩ lang thang vùng Marche, cả hai cùng chỉ về một hướng mà phụng vụ giờ đây đang chỉ — về Đấng đang đến.",
+        "confidence": "confirmed (readings, date of death of St. James of the Marches, canonization 1726); traditional (Catherine Labouré death-date pairing is devotional symmetry, not a calendrical fact of the US calendar)",
+        "summary_en": "The last day of Ordinary Time: the lectionary closes with Revelation's promise 'Behold, I am coming soon,' alongside the Franciscan memorial of Saint James of the Marches.",
+        "summary_vi": "Ngày cuối cùng của Mùa Thường Niên: sách bài đọc khép lại với lời hứa «Này, Ta sắp đến» của sách Khải Huyền, cùng lễ nhớ của Dòng Phanxicô dành cho thánh Giacôbê vùng Marche.",
+        "confidence_note_en": "The final weekday readings (Rv 22:1-7), Saint James's death on November 28, 1476, and his 1726 canonization are documented; his memorial belongs to the Franciscan calendar, not the US calendar, and the entry says so. The Catherine Labouré death-date pairing is devotional symmetry, marked as such.",
+        "confidence_note_vi": "Các bài đọc ngày thường cuối cùng (Kh 22,1-7), ngày qua đời của thánh Giacôbê (28-11-1476) và việc phong thánh năm 1726 đều có tài liệu; lễ nhớ ngài thuộc lịch Dòng Phanxicô chứ không phải lịch Hoa Kỳ — bài đã ghi rõ. Sự tương xứng với ngày mất của thánh Catarina Labouré là tương xứng lòng sùng kính, được ghi chú như vậy."
+      },
+      "place": {
+        "name_en": "Santa Maria la Nova, Naples (tomb of St. James of the Marches)",
+        "name_vi": "Nhà thờ Santa Maria la Nova, Napoli (mộ Thánh Giacôbê vùng Marche)",
+        "lat": 40.8471,
+        "lon": 14.2525,
+        "confidence": "contextual",
+        "source_url": "https://www.vaticanstate.va/en/state-and-government/general-informations/saint-of-the-day/3116-november-28-saint-james-of-the-marches-franciscan.html",
+        "note": "He died in Naples in 1476 and was buried at Santa Maria la Nova; his body was later translated to Monteprandone (Ascoli Piceno), where it rests in the Franciscan church."
+      },
+      "artwork": {
+        "title": "Saint James of the Marches with Two Kneeling Donors (Carlo Crivelli, 1477, Louvre)",
+        "url": "https://commons.wikimedia.org/wiki/File:Carlo_Crivelli_St_James_of_the_Marches_1477.jpg",
+        "license": "Public domain (1477 panel painting)",
+        "status": "placeholder_only"
+      },
+      "sources": [
+        {
+          "title": "USCCB Daily Readings, November 28, 2026",
+          "url": "https://bible.usccb.org/bible/readings/112826.cfm",
+          "type": "liturgical"
+        },
+        {
+          "title": "November 28: Saint James of the Marches, Franciscan — Vatican State (Holy See)",
+          "url": "https://www.vaticanstate.va/en/state-and-government/general-informations/saint-of-the-day/3116-november-28-saint-james-of-the-marches-franciscan.html",
+          "type": "official"
+        },
+        {
+          "title": "Saint James of the Marche — Franciscan Media",
+          "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-james-of-the-marche/",
+          "type": "secondary"
+        }
+      ],
+      "app_hooks": {
+        "audio_gate": true,
+        "pilgrim_atlas": true,
+        "notification_copy_en": "The last page of the Church's year: 'Behold, I am coming soon.' Advent begins tonight.",
+        "hero_line_en": "The Church's year ends the way the Bible ends: 'Behold, I am coming soon.'",
+        "hero_line_vi": "Năm phụng vụ khép lại đúng nơi Kinh Thánh khép lại: «Này, Ta sắp đến.»",
+        "prayer_prompt_en": "Maranatha — Come, Lord Jesus. As this year closes, give me a watchful heart, not a weary one.",
+        "prayer_prompt_vi": "Maranatha — Lạy Chúa Giêsu, xin ngài đến. Khi năm cũ khép lại, xin ban cho con một tâm hồn tỉnh thức, chứ không phải một tâm hồn mệt mỏi."
+      },
+      "vi_notes": {
+        "vi_feast_override": null,
+        "terminology_choices": [
+          "'Thánh Giacôbê vùng Marche' (keep Latin-ish name + Viet gloss per glossary rule for saints without established Viet names); 'Maranatha — Lạy Chúa Giêsu, xin ngài đến' for the acclamation",
+          "'quỹ tín dụng từ thiện' for montes pietatis, with hụi/họ đạo mutual-aid echo per dossier; 'Kinh Chiều' for (First) Vespers; 'sách Khải Huyền' for Revelation"
+        ],
+        "editorial_divergence": null,
+        "local_resonance_flags": [
+          "Advent = Mùa Vọng; first candle (violet, hope = hy vọng) lit this evening. Vietnamese parishes often begin Mùa Vọng with vòng hoa Vọng (Advent wreath) blessing at vigil Mass.",
+          "Montes pietatis connection: Vietnamese Catholic communities have strong tín dụng/hụi mutual-aid traditions — optional pastoral angle for VI."
+        ]
+      },
+      "audio_script": {
+        "script_en": "Today is the last day of the Church's year, and the Mass readings end exactly where the Bible ends: the river of life flowing from the throne of God, the tree of life whose leaves are medicine for the nations, and the promise, Behold, I am coming soon. Ordinary Time does not drift to a close; it tilts forward. Tonight, at first vespers, the violet of Advent goes on the altar, and the Church shifts from walking to watching. On this threshold day, the Franciscan family remembers Saint James of the Marches, who died on this date in fourteen seventy-six — a fiery, tireless preacher who spent decades calling Italy back to the Gospel, and who founded charitable lending houses to rescue the poor from crushing debt. He finished the race still working. And there is a quiet symmetry: Saint Catherine Labouré, whose vision we recalled yesterday, also died on a November twenty-eighth. The last day of the year gathers its saints and turns its face toward Bethlehem. Maranatha. Come, Lord Jesus.",
+        "script_vi": "Hôm nay là ngày cuối cùng của năm phụng vụ, và các bài đọc Thánh lễ kết thúc đúng nơi Kinh Thánh kết thúc: dòng sông nước trường sinh chảy ra từ ngai Thiên Chúa, cây trường sinh có lá làm thuốc chữa muôn dân, và lời hứa, Này, Ta sắp đến. Mùa Thường Niên không trôi dần đến hồi kết; nó nghiêng về phía trước. Tối nay, trong Kinh Chiều, màu tím Mùa Vọng sẽ khoác lên bàn thờ, và Hội Thánh chuyển từ bước đi sang canh chừng. Trên ngưỡng cửa này, gia đình Phanxicô kính nhớ thánh Giacôbê vùng Marche, qua đời ngày này năm một ngàn bốn trăm bảy mươn sáu — một nhà giảng thuyết nhiệt thành, không biết mệt, đã dành nhiều chục năm kêu gọi nước Ý trở về với Tin Mừng, và đã lập các quỹ tín dụng từ thiện để cứu người nghèo khỏi nợ nần nặng nề. Ngài về đích mà vẫn đang làm việc. Và có một sự tương xứng lặng lẽ: thánh Catarina Labouré, người có thị kiến chúng ta vừa nhớ hôm qua, cũng qua đời vào một ngày hai mươn tám tháng mười một. Ngày cuối năm quy tụ các thánh của nó và hướng mặt về Bethlehem. Maranatha. Lạy Chúa Giêsu, xin ngài đến."
+      },
+      "mock_priority": "standard"
+    },
+    {
+      "id": "2026-11-29",
+      "date": "2026-11-29",
+      "weekday": "Sunday",
+      "liturgical": {
+        "season_en": "Advent (First Week)",
+        "season_vi": "Mùa Vọng (Tuần I)",
+        "rank_en": "First Sunday of Advent (Sunday solemnity of the season — liturgical theme is primary; new Lectionary Year A begins)",
+        "rank_vi": "Chúa Nhật thứ nhất Mùa Vọng (năm phụng vụ mới bắt đầu — chu kỳ đọc Kinh Thánh năm A)",
+        "color": "violet",
+        "lectionary": "Year A begins: Isaiah 2:1-5; Psalm 122; Romans 13:11-14; Matthew 24:37-44",
+        "readings_ref": "https://bible.usccb.org/bible/readings/112926.cfm",
+        "is_sunday": true,
+        "rank": "sunday",
+        "title_en": "First Sunday of Advent — Stay Awake",
+        "title_vi": "Chúa Nhật I Mùa Vọng — Hãy Tỉnh Thức"
+      },
+      "calendars": {
+        "gregorian": "2026-11-29",
+        "julian": "2026-11-16",
+        "hebrew": "18 Kislev 5787",
+        "islamic_umm_al_qura": "c. 18 Jumada al-Thani 1448 (approximate)",
+        "coptic": "20 Hathor 1743 AM",
+        "ethiopian": "20 Hidar 2019 EC",
+        "computation_note": "Same method as 2026-11-23."
+      },
+      "primary": {
+        "kind": "liturgical_sunday",
+        "title_en": "First Sunday of Advent — Stay Awake",
+        "title_vi": "Chúa Nhật I Mùa Vọng — Hãy Tỉnh Thức",
+        "also_on_this_day_en": null,
+        "hero_line_en": "The Church's new year begins not with a celebration but with a summons: stay awake, for you do not know the day.",
+        "hero_line_vi": "Năm phụng vụ mới không mở đầu bằng một cuộc vui, mà bằng một tiếng gọi: Hãy tỉnh thức, vì anh em không biết ngày nào.",
+        "prayer_prompt_en": "Come, Lord Jesus. As the first candle is lit, wake in me whatever has gone to sleep — hope, watchfulness, desire for You.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin ngài đến. Khi ngọn nến đầu tiên được thắp lên, xin đánh thức trong con những gì đang ngủ quên — hy vọng, lòng tỉnh thức, và niềm khát khao Chúa.",
+        "body_en": "A new liturgical year begins today. Advent — from adventus, 'arrival' — is the Church's four-week season of expectant preparation, and it holds three comings of Christ in a single frame: His first coming in the flesh at Bethlehem, His final coming in glory at the end of time, and His daily coming into the soul that keeps watch. The first Sunday always looks at the last of these horizons first. Before the Church lets us near the crib, it points us at the judgment seat — not to frighten us, but because the only way to greet the Child rightly is with a heart that is awake.\n\nThe readings are a summons. Isaiah sees the mountain of the Lord's house raised above the hills and all nations streaming toward it: 'Come, let us walk in the light of the Lord.' Paul tells the Romans that night is far gone and the day is near — time to throw off the works of darkness and put on the Lord Jesus Christ. And in the Gospel, Jesus reaches for the flood of Noah: in those days people were eating and drinking, marrying and giving in marriage, right up to the day the waters came. Two men in a field, two women grinding at the mill — one taken, one left. 'Therefore, stay awake! For you do not know on which day your Lord will come.'\n\nThe season's color is violet, the color of dawn before sunrise: penitential, but not gloomy. Advent is not Lent. Its fasting is the fasting of the watchman, its silence the silence of someone listening at a door. The first candle of the wreath is lit today — the prophet's candle, the candle of hope — one small flame against the longest nights of the year.\n\nFor families, the practice is beautifully simple: the wreath on the table, one candle tonight, the prayer before dinner. Vietnamese parishes add their own warmth — vòng hoa Mùa Vọng blessed at the vigil, Advent hymns sung in two languages, and the growing crescendo toward the novena of Simbang Gabi and Christmas. The Church year turns today. Turn with it: watch, hope, and walk in the light of the Lord.",
+        "body_vi": "Đêm qua, ở nhiều giáo xứ, vòng hoa Mùa Vọng đã được làm phép và ngọn nến đầu tiên đã cháy lên — một ngọn lửa nhỏ giữa những đêm dài nhất của năm. Không khí Mùa Vọng đã đến với các nhà thờ của chúng ta: những bài hát Mùa Vọng quen thuộc, màu tím trên bàn thờ, và trong lòng mỗi người, một niềm mong đợi thầm lặng. Một năm phụng vụ mới bắt đầu hôm nay.\n\nMùa Vọng — từ chữ Latinh adventus, «sự đến» — là bốn tuần Hội Thánh chuẩn bị chờ đợi, ôm trong một khung hình ba lần Chúa đến: Người đến lần thứ nhất trong thân xác tại Bethlehem, Người sẽ đến lần cuối trong vinh quang vào tận thế, và Người đến mỗi ngày vào tâm hồn biết tỉnh thức. Chúa Nhật thứ nhất luôn nhìn về chân trời cuối cùng trước tiên. Trước khi cho chúng ta đến gần máng cỏ, Hội Thánh chỉ cho chúng ta ngôi phán xét — không phải để dọa nạt, mà vì chỉ có một cách đón tiếp Hài Nhi cho đúng: bằng một tâm hồn đang thức.\n\nCác bài đọc là một tiếng gọi. Ngôn sứ Isaia thấy núi nhà Đức Chúa trổi cao trên mọi đồi và muôn dân đổ về: «Nào, chúng ta hãy bước đi trong ánh sáng của Đức Chúa.» Thánh Phaolô viết cho giáo đoàn Rôma rằng đêm đã khuya và ngày đã gần — đã đến lúc cởi bỏ những việc của bóng tối và mặc lấy Đức Giêsu Kitô. Và trong Tin Mừng, Chúa Giêsu với đến trận lụt thời Noe: những ngày ấy người ta vẫn ăn uống, cưới gả, cho đến tận ngày nước ập đến. Hai người đàn ông ở ngoài đồng, hai người đàn bà xay cối — người được đem đi, kẻ bị bỏ lại. «Vậy, hãy tỉnh thức! Vì anh em không biết ngày nào Chúa của anh em sẽ đến.»\n\nMàu phụng vụ của mùa là màu tím, màu của trời trước lúc rạng đông: sám hối, nhưng không u ám. Mùa Vọng không phải Mùa Chay. Sự chay tịnh của nó là chay tịnh của người lính canh, sự thinh lặng của nó là thinh lặng của người lắng tai bên cánh cửa. Ngọn nến thứ nhất trên vòng hoa được thắp hôm nay — nến của các ngôn sứ, nến hy vọng.\n\nViệc thực hành trong gia đình thật đơn sơ đẹp đẽ: vòng hoa trên bàn ăn, một ngọn nến tối nay, lời kinh trước bữa cơm. Năm Hội Thánh quay bước hôm nay. Hãy quay cùng nó: tỉnh thức, hy vọng, và bước đi trong ánh sáng của Đức Chúa.",
+        "confidence": "confirmed",
+        "summary_en": "First Sunday of Advent, Lectionary Year A: a new liturgical year opens with the summons to stay awake — Isaiah 2:1-5; Romans 13:11-14; Matthew 24:37-44.",
+        "summary_vi": "Chúa Nhật I Mùa Vọng, Năm A: năm phụng vụ mới mở đầu bằng tiếng gọi tỉnh thức — Isaia 2,1-5; Rôma 13,11-14; Matthêu 24,37-44.",
+        "confidence_note_en": "First Sunday of Advent Year A citations (Is 2:1-5; Rom 13:11-14; Mt 24:37-44) verified against USCCB same-cycle pages (2022 and 2025). All liturgical facts confirmed.",
+        "confidence_note_vi": "Trích dẫn bài đọc Chúa Nhật I Mùa Vọng Năm A (Is 2,1-5; Rm 13,11-14; Mt 24,37-44) đã đối chiếu với các trang USCCB cùng chu kỳ (2022 và 2025). Mọi dữ kiện phụng vụ đều xác nhận."
+      },
+      "place": {
+        "name_en": "Church of the Nativity, Bethlehem",
+        "name_vi": "Vương cung Thánh đường Chúa Giáng Sinh, Bethlehem",
+        "lat": 31.7044,
+        "lon": 35.2078,
+        "confidence": "contextual",
+        "source_url": "https://whc.unesco.org/en/list/1433",
+        "note": "Advent points toward Bethlehem; the basilica over the grotto venerated as the birthplace of Christ since at least the 2nd century (UNESCO World Heritage listing)."
+      },
+      "artwork": {
+        "title": "Advent wreath (photograph by Clemens Pfeiffer, Vienna, 1995)",
+        "url": "https://commons.wikimedia.org/wiki/File:Advent_wreath.jpg",
+        "license": "Creative Commons Attribution (Clemens PFEIFFER, Vienna)",
+        "status": "placeholder_only"
+      },
+      "sources": [
+        {
+          "title": "USCCB Daily Readings — First Sunday of Advent, November 29, 2026",
+          "url": "https://bible.usccb.org/bible/readings/112926.cfm",
+          "type": "liturgical"
+        },
+        {
+          "title": "First Sunday of Advent Year A readings (Is 2:1-5; Rom 13:11-14; Mt 24:37-44) — USCCB, 2022-11-27 (same cycle)",
+          "url": "https://bible.usccb.org/bible/readings/112722.cfm",
+          "type": "liturgical"
+        },
+        {
+          "title": "UNESCO World Heritage — Birthplace of Jesus: Church of the Nativity and the Pilgrimage Route, Bethlehem",
+          "url": "https://whc.unesco.org/en/list/1433",
+          "type": "official"
+        }
+      ],
+      "app_hooks": {
+        "audio_gate": true,
+        "pilgrim_atlas": true,
+        "notification_copy_en": "A new Church year begins: First Sunday of Advent. Stay awake — the Lord is coming.",
+        "hero_line_en": "The Church's new year begins not with a celebration but with a summons: stay awake, for you do not know the day.",
+        "hero_line_vi": "Năm phụng vụ mới không mở đầu bằng một cuộc vui, mà bằng một tiếng gọi: Hãy tỉnh thức, vì anh em không biết ngày nào.",
+        "prayer_prompt_en": "Come, Lord Jesus. As the first candle is lit, wake in me whatever has gone to sleep — hope, watchfulness, desire for You.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin ngài đến. Khi ngọn nến đầu tiên được thắp lên, xin đánh thức trong con những gì đang ngủ quên — hy vọng, lòng tỉnh thức, và niềm khát khao Chúa."
+      },
+      "vi_notes": {
+        "vi_feast_override": null,
+        "terminology_choices": [
+          "'Chúa Nhật I Mùa Vọng' for First Sunday of Advent; 'vòng hoa Mùa Vọng' for Advent wreath; 'nến tuần I — nến hy vọng' for the first candle; 'Tỉnh thức!' as the theme-word",
+          "'nến của các ngôn sứ' gloss added for the prophet's candle; 'Hài Nhi' for the Child; 'máng cỏ' for the crib",
+          "Mt 24 and Is 2 quote fragments rendered from dossier sense, not from a verified CGKPV lectionary text — flag for Agent C"
+        ],
+        "editorial_divergence": "VI opens warm with the parish Mùa Vọng experience (vòng hoa Mùa Vọng, Advent hymns, violet) before moving to the eschatological Gospel, per the dossier's note on Vietnamese devotional instinct; EN opens directly with the summons. Content is equivalent; ordering and warmth differ. The one-line La Vang/hope link suggested in the dossier was deliberately omitted to avoid forcing it.",
+        "local_resonance_flags": [
+          "Simbang Gabi / Misa de Gallo novena begins Dec 16 — flag for later batches, not this one.",
+          "SOCAL: Christ Cathedral and Viet parishes hold Advent wreath blessings at all Masses this weekend; Advent penance services follow in weeks 2–3.",
+          "The first candle is hope (hy vọng) — links naturally to Đức Mẹ La Vang as Our Lady of hope for the Viet community (do not force; one line max)."
+        ]
+      },
+      "audio_script": {
+        "script_en": "Today the Church's new year begins: the First Sunday of Advent. Advent means arrival, and the season holds three comings of Christ at once — His coming at Bethlehem, His coming at the end of time, and His coming into the heart that keeps watch. The Church begins with the last horizon first. In the Gospel, Jesus points to the days of Noah: people eating and drinking, marrying and working, right up to the day the flood came. Stay awake, He says, for you do not know the day your Lord is coming. Isaiah answers with hope: Come, let us walk in the light of the Lord. And Paul says, the night is far gone, the day is near. The color of the season is violet — the color of the sky just before dawn. Tonight the first candle of the Advent wreath is lit, the candle of hope, one small flame against the longest nights of the year. The practice is simple: light it at the dinner table, say the prayer, and let the flame do its slow work in you. Watch. Hope. The Lord is near.",
+        "script_vi": "Hôm nay năm phụng vụ mới của Hội Thánh bắt đầu: Chúa Nhật thứ nhất Mùa Vọng. Mùa Vọng nghĩa là sự đến, và mùa này ôm trong cùng một lúc ba lần Chúa đến — Người đến tại Bethlehem, Người đến vào tận thế, và Người đến vào tâm hồn biết canh chừng. Hội Thánh mở đầu bằng chân trời cuối cùng trước. Trong Tin Mừng, Chúa Giêsu chỉ về những ngày của Noe: người ta ăn uống, cưới gả, làm lụng, cho đến tận ngày trận lụt ập đến. Hãy tỉnh thức, Người phán, vì các ngươi không biết ngày nào Chúa của các ngươi sẽ đến. Ngôn sứ Isaia trả lời bằng hy vọng: Nào, chúng ta hãy bước đi trong ánh sáng của Đức Chúa. Và thánh Phaolô nói: đêm đã khuya, ngày đã gần. Màu của mùa là màu tím — màu của bầu trời ngay trước rạng đông. Tối qua ngọn nến đầu tiên của vòng hoa Mùa Vọng đã được thắp, ngọn nến hy vọng, một ngọn lửa nhỏ giữa những đêm dài nhất của năm. Việc thực hành rất đơn giản: thắp nến tại bàn ăn, đọc lời kinh, và để ngọn lửa làm việc chậm rãi của nó trong bạn. Tỉnh thức. Hy vọng. Chúa đã gần."
+      },
+      "mock_priority": "high"
+    }
+  ]
+}
