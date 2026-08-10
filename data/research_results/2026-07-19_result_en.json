@@ -1,0 +1,61 @@
+{
+  "id": "2026-07-19",
+  "date": "2026-07-19",
+  "weekday": "Sunday",
+  "mock_priority": 1,
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "Green",
+    "title_en": "Sixteenth Sunday in Ordinary Time"
+  },
+  "calendars": {
+    "julian": "2026-07-06",
+    "hebrew": "5 Av 5786",
+    "islamic_umm_al_qura": "5 Safar 1448 AH",
+    "coptic": "12 Epip 1742",
+    "ethiopian": "12 Hamle 2018"
+  },
+  "primary": {
+    "type": "Sunday",
+    "title_en": "Sixteenth Sunday in Ordinary Time",
+    "summary_en": "The liturgy presents Jesus as the Good Shepherd who cares for his flock, drawing on the imagery of Psalm 23 and the prophecy of Jeremiah.",
+    "body_en": "On this Sixteenth Sunday in Ordinary Time, the Church invites us to reflect on Christ as the Good Shepherd. The first reading from Jeremiah (23:1-6) condemns bad shepherds and promises a righteous shoot from David's line. The responsorial psalm is Psalm 23, the classic declaration of trust in the Lord as shepherd. The second reading from Ephesians (2:13-18) speaks of Christ reconciling all through the cross. In the Gospel (Mark 6:30-34), Jesus sees the crowd as sheep without a shepherd and begins to teach them. This Sunday emphasizes God's pastoral care for his people, fulfilled in Jesus who gathers, guides, and protects his flock.",
+    "confidence": 0.95,
+    "confidence_note_en": "Based on the General Roman Calendar and the Revised Common Lectionary for Year B."
+  },
+  "place": {
+    "name": "Vatican City",
+    "latitude": 41.9029,
+    "longitude": 12.4534,
+    "confidence": 0.9,
+    "source_url": "https://www.vatican.va"
+  },
+  "artwork": {
+    "title": "The Good Shepherd",
+    "maker": "Early Christian artist (Catacombs of Rome)",
+    "date_label": "3rd century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Good_Shepherd_Catacombs.jpg",
+    "status": "public_domain"
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_19690321_calendarium-romanum_en.html",
+      "type": "official"
+    },
+    {
+      "label": "Vatican.va - Liturgical Year",
+      "url": "https://www.vatican.va/liturgical_year/",
+      "type": "official"
+    },
+    {
+      "label": "Universalis - 16th Sunday in Ordinary Time",
+      "url": "https://universalis.com/mass.htm",
+      "type": "liturgical_resource"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "The Lord is my shepherd; I shall not want.",
+    "prayer_prompt_en": "Lord Jesus, Good Shepherd, lead us to the pastures of eternal life. Help us to hear your voice and follow you faithfully."
+  }
+}

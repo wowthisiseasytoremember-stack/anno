@@ -1,0 +1,61 @@
+{
+  "id": "2026-07-23-st-bridget-sweden",
+  "date": "2026-07-23",
+  "weekday": "Thursday",
+  "mock_priority": 4,
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "White",
+    "title_en": "St. Bridget of Sweden"
+  },
+  "calendars": {
+    "julian": "2026-07-10",
+    "hebrew": "9 Av 5786",
+    "islamic_umm_al_qura": "9 Safar 1448 AH",
+    "coptic": "16 Epip 1742",
+    "ethiopian": "16 Hamle 2018"
+  },
+  "primary": {
+    "type": "Optional Memorial",
+    "title_en": "St. Bridget of Sweden",
+    "summary_en": "Swedish mystic, founder of the Bridgettine Order, and patroness of Europe, known for her revelations and work for Church reform.",
+    "body_en": "St. Bridget of Sweden (1303–1373) was a noblewoman, mother of eight, and visionary who founded the Order of the Most Holy Savior (Bridgettines). After her husband's death, she devoted herself to prayer, penance, and charitable works. She received numerous mystical revelations, recorded in her 'Revelationes', which emphasized Christ's Passion and the need for ecclesiastical reform. She traveled to Rome in 1349, where she advocated for the return of the papacy from Avignon and the moral renewal of the clergy. Canonized in 1391, she was declared co-patroness of Europe by Pope John Paul II in 1999. Her feast is celebrated as an optional memorial on July 23.",
+    "confidence": 0.95,
+    "confidence_note_en": "Well-documented historical figure with extensive primary sources including her own writings and contemporary accounts."
+  },
+  "place": {
+    "name": "Rome, Italy",
+    "latitude": 41.9028,
+    "longitude": 12.4964,
+    "confidence": 0.9,
+    "source_url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20011001_brigida_en.html"
+  },
+  "artwork": {
+    "title": "Statue of St. Bridget of Sweden",
+    "maker": "Tommaso Righi",
+    "date_label": "c. 1770",
+    "source_url": "https://www.museivaticani.va/en/collezioni/museo-pio-clementino/sala-delle-muse/statua-di-santa-brigida.html",
+    "status": "Public domain"
+  },
+  "sources": [
+    [
+      "Vatican - St. Bridget of Sweden",
+      "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20011001_brigida_en.html",
+      "official"
+    ],
+    [
+      "Catholic Encyclopedia - St. Bridget of Sweden",
+      "https://www.newadvent.org/cathen/02772a.htm",
+      "reference"
+    ],
+    [
+      "Franciscan Archive - Bridgettines",
+      "https://www.franciscan-archive.org/brigittines/",
+      "academic"
+    ]
+  ],
+  "app_hooks": {
+    "hero_line_en": "Mystic, reformer, and mother of eight who founded the Bridgettine Order.",
+    "prayer_prompt_en": "St. Bridget, teach us to listen for God's voice in the silence of our hearts and to act with courage for the renewal of the Church."
+  }
+}

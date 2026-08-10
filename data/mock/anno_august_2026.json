@@ -1,0 +1,1800 @@
+[
+  {
+    "id": "anno-2026-08-01",
+    "date": "2026-08-01",
+    "weekday": "Saturday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Optional Memorial",
+      "color": "white",
+      "title_en": "Saint Alphonsus Liguori, Bishop and Doctor of the Church",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-19",
+      "hebrew": "18 Av 5786",
+      "islamic_umm_al_qura": "18 Safar 1448 AH",
+      "coptic": "25 Epip 1742",
+      "ethiopian": "25 Hamle 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Alphonsus Liguori",
+      "title_vi": "",
+      "summary_en": "Saint Alphonsus Liguori was an Italian bishop, a profoundly influential moral theologian, and the founder of the Congregation of the Most Holy Redeemer, commonly known as the Redemptorists.",
+      "summary_vi": "",
+      "body_en": "Saint Alphonsus Liguori (1696–1787) was an Italian bishop, spiritual writer, and founder of the Redemptorists. His seminal work, *Theologia Moralis*, revolutionized Catholic moral theology by championing pastoral compassion and avoiding the extremes of rigorism and laxity. He retired to Pagani, where his treatises, including *The Glories of Mary*, remain highly influential.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Universal Roman Calendar maintains his optional memorial on August 1, corresponding to the date of his death in Pagani in 1787.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of Sant'Alfonso, Pagani, Italy",
+      "latitude": 40.74236,
+      "longitude": 14.61096,
+      "confidence": "confirmed",
+      "source_url": "https://www.alamy.com/the-urn-containing-the-remains-of-santalfonso-maria-de-liguori-image368108368.html"
+    },
+    "artwork": {
+      "title": "Scultura bronzea di Sant'Alfonso Maria de Liguori",
+      "maker": "IgnazioWiki",
+      "date_label": "2018",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Scultura_bronzea_di_Sant%27Alfonso_Maria_de_Liguori.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Daily Readings",
+        "url": "https://bible.usccb.org/bible/readings/080126",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Patron of moral theologians and confessors",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for ethical clarity and compassion in your decisions today.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-02",
+    "date": "2026-08-02",
+    "weekday": "Sunday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Sunday",
+      "color": "green",
+      "title_en": "18th Sunday in Ordinary Time",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-20",
+      "hebrew": "19 Av 5786",
+      "islamic_umm_al_qura": "19 Safar 1448 AH",
+      "coptic": "26 Epip 1742",
+      "ethiopian": "26 Hamle 2018"
+    },
+    "primary": {
+      "type": "liturgical_day",
+      "title_en": "18th Sunday in Ordinary Time (Year B)",
+      "title_vi": "",
+      "summary_en": "The Eighteenth Sunday in Ordinary Time begins the historical five-week sequential focus on Jesus' profound Bread of Life Discourse in the Gospel of John.",
+      "summary_vi": "",
+      "body_en": "In the Gospel of John, the discourse on the Bread of Life begins after the miraculous multiplication of the loaves. The crowd follows Jesus to Capernaum, prompting Him to warn them not to work for food that perishes, but for the food that endures to eternal life. When the people ask for a sign like the manna in the desert, Jesus declares: \"I am the bread of life; whoever comes to me will never hunger, and whoever believes in me will never thirst.\" This Sunday invites the faithful to shift their focus from temporary earthly anxieties to the spiritual sustenance provided by Christ through His Word and the Sacrament of the Holy Eucharist.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Lectionary for Mass confirms the Year B readings on the Eighteenth Sunday in Ordinary Time.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": null,
+      "latitude": null,
+      "longitude": null,
+      "confidence": "confirmed",
+      "source_url": null
+    },
+    "artwork": {
+      "title": "The Feeding of the Five Thousand",
+      "maker": "Albert Bouts",
+      "date_label": "15th Century",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Albert_Bouts_-_The_Feeding_of_the_Five_Thousand.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB 18th Sunday Readings",
+        "url": "https://bible.usccb.org/bible/readings/080226.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "\"I am the bread of life; whoever comes to me will never hunger.\"",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Ask Christ to satisfy your deep spiritual hunger with His enduring presence.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-03",
+    "date": "2026-08-03",
+    "weekday": "Monday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Feria",
+      "color": "green",
+      "title_en": "Monday of the 18th Week in Ordinary Time",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-21",
+      "hebrew": "20 Av 5786",
+      "islamic_umm_al_qura": "20 Safar 1448 AH",
+      "coptic": "27 Epip 1742",
+      "ethiopian": "27 Hamle 2018"
+    },
+    "primary": {
+      "type": "liturgical_day",
+      "title_en": "Monday of the 18th Week in Ordinary Time",
+      "title_vi": "",
+      "summary_en": "A plain weekday in Ordinary Time, inviting quiet reflection on the scriptures and the integration of Sunday's eucharistic theology into daily labors.",
+      "summary_vi": "",
+      "body_en": "Today's feria in Ordinary Time allows the liturgical assembly to enter into the quiet, steady rhythm of daily discipleship. The weekday readings highlight the unfolding mystery of Christ's teaching. The faithful are encouraged to carry Sunday's Eucharistic theme into their ordinary duties.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The liturgical cycle allocates Monday of the 18th Week as a plain feria with no overriding universal feast.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": null,
+      "latitude": null,
+      "longitude": null,
+      "confidence": "confirmed",
+      "source_url": null
+    },
+    "artwork": {
+      "title": null,
+      "maker": null,
+      "date_label": null,
+      "source_url": null,
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Daily Readings",
+        "url": "https://bible.usccb.org/bible/readings/080326.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Quiet growth in daily discipleship",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Offer your daily labor as a silent prayer of thanksgiving to God.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-04",
+    "date": "2026-08-04",
+    "weekday": "Tuesday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "white",
+      "title_en": "Saint John Vianney, Priest",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-22",
+      "hebrew": "21 Av 5786",
+      "islamic_umm_al_qura": "21 Safar 1448 AH",
+      "coptic": "28 Epip 1742",
+      "ethiopian": "28 Hamle 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint John Vianney",
+      "title_vi": "",
+      "summary_en": "Saint John Vianney, widely known as the Curé of Ars, is the universal patron of parish priests, celebrated for his extraordinary pastoral care, spiritual insight, and long hours in the confessional.",
+      "summary_vi": "",
+      "body_en": "Saint Jean-Baptiste-Marie Vianney (1786–1859), known as the Curé of Ars, was a French parish priest who transformed the spiritually stagnant village of Ars into a major pilgrimage site. He is celebrated for his deep humility, extreme penances, and intense prayer life, spending up to sixteen hours a day in the confessional reconciling souls. His life serves as an enduring model of self-sacrificing priestly charity and pastoral care.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The Roman Martyrology lists his obligatory memorial on August 4, the date of his death in Ars in 1859.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Shrine of St. John Vianney, Ars-sur-Formans, France",
+      "latitude": 45.993205,
+      "longitude": 4.822826,
+      "confidence": "confirmed",
+      "source_url": "https://thecatholictravelguide.com/destinations/france/france-ars-sur-formans-shrine-st-john-vianney/"
+    },
+    "artwork": {
+      "title": "Saint Jean-Marie Vianney, curé d'Ars",
+      "maker": "Emile Cabane",
+      "date_label": "19th Century",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Marie_Vianney.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Sanctuary of Ars",
+        "url": "https://www.ain-tourisme.com/en/offers/town-of-ars-sur-formans-sanctuary-town-ars-sur-formans-en-6285232/",
+        "type": "academic"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The holy parish priest of Ars",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for your parish priest and the grace of reconciliation today.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-05",
+    "date": "2026-08-05",
+    "weekday": "Wednesday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Optional Memorial",
+      "color": "white",
+      "title_en": "Dedication of the Basilica of Saint Mary Major",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-23",
+      "hebrew": "22 Av 5786",
+      "islamic_umm_al_qura": "22 Safar 1448 AH",
+      "coptic": "29 Epip 1742",
+      "ethiopian": "29 Hamle 2018"
+    },
+    "primary": {
+      "type": "feast",
+      "title_en": "Dedication of Saint Mary Major",
+      "title_vi": "",
+      "summary_en": "This day commemorates the dedication of the oldest Marian basilica in the West, rebuilt by Pope Sixtus III in Rome following the dogmatic declaration of Mary as Mother of God at Ephesus.",
+      "summary_vi": "",
+      "body_en": "The Dedication of Saint Mary Major commemorates the consecration of the great Roman basilica by Pope Sixtus III in 432, following the Council of Ephesus which declared Mary as the Mother of God. According to pious tradition, the location on the Esquiline Hill was marked by a miraculous snowfall on August 5 in the mid-fourth century during the reign of Pope Liberius.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Historical liturgical books of Rome record August 5 as the dedication anniversary of this major papal basilica.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica di Santa Maria Maggiore, Rome, Italy",
+      "latitude": 41.8975,
+      "longitude": 12.4986,
+      "confidence": "confirmed",
+      "source_url": "https://www.turismoroma.it/en/places/basilica-santa-maria-maggiore"
+    },
+    "artwork": {
+      "title": "Miracle of the Snow",
+      "maker": "Masolino da Panicale",
+      "date_label": "15th Century",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Masolino,_miracolo_della_neve_01.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Vatican Basilica Website",
+        "url": "https://www.basilicasantamariamaggiore.va/it/basilica.html",
+        "type": "vatican"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Revering Mary, the Mother of God",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Seek Mary's maternal protection and praise her divine motherhood today.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-06",
+    "date": "2026-08-06",
+    "weekday": "Thursday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Feast",
+      "color": "white",
+      "title_en": "The Transfiguration of the Lord",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-24",
+      "hebrew": "23 Av 5786",
+      "islamic_umm_al_qura": "23 Safar 1448 AH",
+      "coptic": "30 Epip 1742",
+      "ethiopian": "30 Hamle 2018"
+    },
+    "primary": {
+      "type": "feast",
+      "title_en": "The Transfiguration of the Lord",
+      "title_vi": "",
+      "summary_en": "The Transfiguration celebrates the manifestation of Jesus' divine glory on Mount Tabor to Peter, James, and John, offering a prefiguration of His resurrection.",
+      "summary_vi": "",
+      "body_en": "The Feast of the Transfiguration commemorates the revelation of Jesus' divine identity to His apostles Peter, James, and John on Mount Tabor. On the summit, His appearance is radically transfigured; His clothes become dazzling white, and He is seen conversing with Moses and Elijah, representing the Law and the Prophets. A voice from a bright cloud declares: \"This is my beloved Son, with whom I am well pleased; listen to him!\" This event prefigures the Resurrection, providing the apostles with a vision of hope to sustain them through the darkness of the Crucifixion, showing that the path of the Cross leads to glory.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The universal calendar designates August 6 as the Feast of the Transfiguration, a standard feast of the Lord in both Eastern and Western liturgies.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of the Transfiguration, Mount Tabor, Israel",
+      "latitude": 32.6862,
+      "longitude": 35.3929,
+      "confidence": "traditional",
+      "source_url": "https://kenisrael.com/mount-tabor/"
+    },
+    "artwork": {
+      "title": "The Transfiguration",
+      "maker": "Raphael",
+      "date_label": "1520",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Transfiguration_Raphael.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Vatican Homily on the Transfiguration",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2002/august/documents/hf_jp-ii_spe_20020806_trasfigurazione.html",
+        "type": "vatican"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "\"This is my beloved Son... listen to him!\"",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Listen closely to the voice of Christ in the silence of your heart today.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-07",
+    "date": "2026-08-07",
+    "weekday": "Friday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Optional Memorial",
+      "color": "red",
+      "title_en": "Saint Sixtus II, Pope, and Companions, Martyrs, or Saint Cajetan, Priest",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-25",
+      "hebrew": "24 Av 5786",
+      "islamic_umm_al_qura": "24 Safar 1448 AH",
+      "coptic": "1 Mesori 1742",
+      "ethiopian": "1 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Sixtus II and Companions, Martyrs, & Saint Cajetan",
+      "title_vi": "",
+      "summary_en": "On this day, the Church honors Pope Saint Sixtus II and his deacons, martyred in Rome, as well as Saint Cajetan, an Italian priest who founded the Theatines to reform the clergy.",
+      "summary_vi": "",
+      "body_en": "Pope Saint Sixtus II was arrested and martyred with his deacons in the Catacomb of Callixtus in 258, during the Valerian persecutions. On the same day, the Church honors Saint Cajetan (1480–1547), an Italian reformer who sought to revitalize the clergy by founding the Theatines. He lived a life of rigorous poverty and deep trust in divine providence, inspiring priests to return to the simplicity of the apostolic life.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Liturgical calendars universally list Saint Sixtus II and Saint Cajetan as concurrent optional memorials on August 7.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of San Paolo Maggiore, Naples, Italy",
+      "latitude": 40.85144,
+      "longitude": 14.25683,
+      "confidence": "traditional",
+      "source_url": "https://en.wikipedia.org/wiki/San_Paolo_Maggiore,_Naples"
+    },
+    "artwork": {
+      "title": "San Gaetano Thiene",
+      "maker": "Palma il Giovane",
+      "date_label": "17th Century",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Palma_il_Giovane_-_San_Gaetano.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Culture - Feast Day Details",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-07",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Martyrs of Rome and a priest of Divine Providence",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for priests to be simple, holy, and faithful, even in adversity.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-08",
+    "date": "2026-08-08",
+    "weekday": "Saturday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "white",
+      "title_en": "Saint Dominic, Priest",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-26",
+      "hebrew": "25 Av 5786",
+      "islamic_umm_al_qura": "25 Safar 1448 AH",
+      "coptic": "2 Mesori 1742",
+      "ethiopian": "2 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Dominic",
+      "title_vi": "",
+      "summary_en": "Saint Dominic de Guzmán was a Spanish priest who founded the Order of Preachers, commonly called the Dominicans, dedicating his life to intellectual vigor and preaching.",
+      "summary_vi": "",
+      "body_en": "Saint Dominic (1170–1221) was a Spanish priest who established the Order of Preachers (Dominicans) to counter widespread heresies in southern France through intellectual preparation and poverty. Famous for speaking \"only to God or of God,\" Dominic combined intense prayer with a active apostolic mission. He promoted the Holy Rosary as a powerful tool of popular devotion. His spiritual family continues to shape Catholic theology and education globally.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The Roman calendar sets the memorial of Saint Dominic on August 8, the universal day of his liturgical veneration.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of San Domenico, Bologna, Italy",
+      "latitude": 44.4896,
+      "longitude": 11.3434,
+      "confidence": "traditional",
+      "source_url": "https://en.wikipedia.org/wiki/Basilica_of_San_Domenico"
+    },
+    "artwork": {
+      "title": "Saint Dominic in Prayer",
+      "maker": "El Greco",
+      "date_label": "1605",
+      "source_url": "https://commons.wikimedia.org/wiki/File:El_Greco_-_Saint_Dominic_in_Prayer_-_WGA10427.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Memorial of Saint Dominic",
+        "url": "https://bible.usccb.org/bible/readings/memorial-saint-dominic-priest",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Founder of the Order of Preachers",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Ask for the grace to speak only to God or about God in your daily life.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-09",
+    "date": "2026-08-09",
+    "weekday": "Sunday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Sunday",
+      "color": "green",
+      "title_en": "19th Sunday in Ordinary Time",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-27",
+      "hebrew": "26 Av 5786",
+      "islamic_umm_al_qura": "26 Safar 1448 AH",
+      "coptic": "3 Mesori 1742",
+      "ethiopian": "3 Nehase 2018"
+    },
+    "primary": {
+      "type": "liturgical_day",
+      "title_en": "19th Sunday in Ordinary Time (Year B)",
+      "title_vi": "",
+      "summary_en": "The Nineteenth Sunday in Ordinary Time continues the exploration of the Bread of Life Discourse, emphasizing Christ as the bread descending from heaven to give life to the world.",
+      "summary_vi": "",
+      "body_en": "In the Gospel of John, the crowd grumbles because Jesus asserts His divine origin: \"I am the bread that came down from heaven.\" They know His earthly family and struggle to accept His divine identity. Jesus responds by emphasizing the necessity of faith, stating that no one can come to Him unless drawn by the Father. He contrasts the temporary manna eaten by their ancestors in the desert with the true, life-giving bread of His own flesh, which He offers for the life of the world. This Sunday challenges the faithful to overcome spiritual blindness and trust in Jesus' words, recognizing that true life is found in active communion with Him.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Lectionary confirms the Year B readings on the Nineteenth Sunday in Ordinary Time.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": null,
+      "latitude": null,
+      "longitude": null,
+      "confidence": "confirmed",
+      "source_url": null
+    },
+    "artwork": {
+      "title": "Elijah in the Wilderness",
+      "maker": "Lord Frederic Leighton",
+      "date_label": "1878",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Frederic_Leighton_-_Elijah_in_the_Wilderness_-_Google_Art_Project.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB 19th Sunday Readings",
+        "url": "https://bible.usccb.org/bible/readings/080926.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "\"I am the living bread that came down from heaven.\"",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Seek the divine strength of the living bread to sustain your weekly journey.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-10",
+    "date": "2026-08-10",
+    "weekday": "Monday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Feast",
+      "color": "red",
+      "title_en": "Saint Lawrence, Deacon and Martyr",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-28",
+      "hebrew": "27 Av 5786",
+      "islamic_umm_al_qura": "27 Safar 1448 AH",
+      "coptic": "4 Mesori 1742",
+      "ethiopian": "4 Nehase 2018"
+    },
+    "primary": {
+      "type": "feast",
+      "title_en": "Saint Lawrence, Deacon and Martyr",
+      "title_vi": "",
+      "summary_en": "Saint Lawrence was one of the seven deacons of Rome, celebrated for declaring the poor to be the true treasures of the Church and suffering a brutal martyrdom by fire.",
+      "summary_vi": "",
+      "body_en": "Saint Lawrence (d. 258) served as the archdeacon of Rome under Pope Saint Sixtus II, with responsibility for managing the Church's goods and assisting the poor. When ordered by the Roman prefect to hand over the Church's treasures, Lawrence presented the poor, the sick, and the marginalized, declaring: \"These are the treasures of the Church.\" He was sentenced to be roasted alive on a gridiron, maintaining his joy and famously telling his executioners: \"Turn me over, I am done on this side.\" His courageous witness made him one of Rome's most beloved patron saints.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Roman Martyrology and universal consensus confirm his martyrdom and feast on August 10, dating back to the fourth century Depositio Martyrum.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of San Lorenzo fuori le Mura, Rome, Italy",
+      "latitude": 41.9022,
+      "longitude": 12.5207,
+      "confidence": "traditional",
+      "source_url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2008/documents/hf_ben-xvi_hom_20081130_san-lorenzo.html"
+    },
+    "artwork": {
+      "title": "The Martyrdom of Saint Lawrence",
+      "maker": "Titian",
+      "date_label": "1558",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Titian_-_The_Martyrdom_of_St_Lawrence_-_WGA22822.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Feast of Saint Lawrence",
+        "url": "https://bible.usccb.org/bible/readings/081026.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "\"These are the treasures of the Church!\"",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for the poor and sick, recognizing them as the Church's real treasures.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-11",
+    "date": "2026-08-11",
+    "weekday": "Tuesday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "white",
+      "title_en": "Saint Clare, Virgin",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-29",
+      "hebrew": "28 Av 5786",
+      "islamic_umm_al_qura": "28 Safar 1448 AH",
+      "coptic": "5 Mesori 1742",
+      "ethiopian": "5 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Clare of Assisi",
+      "title_vi": "",
+      "summary_en": "Saint Clare was the first female follower of Saint Francis, establishing the Poor Clares and successfully defending her monastery through her intense eucharistic devotion.",
+      "summary_vi": "",
+      "body_en": "Saint Clare (1194–1253) abandoned her noble family in Assisi to follow Saint Francis, founding the Order of Poor Ladies (Poor Clares). She was the first woman to write a monastic rule, fighting to secure the \"privilege of highest poverty.\" Her profound faith was demonstrated when she defended her convent from an invading army by raising the Blessed Sacrament, causing the soldiers to flee in terror. Her body rests in the Basilica of Santa Chiara.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The Universal Roman Calendar recognizes her memorial on August 11, the day of her passing in Assisi in 1253.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of Santa Chiara, Assisi, Italy",
+      "latitude": 43.0688,
+      "longitude": 12.6173,
+      "confidence": "traditional",
+      "source_url": "https://en.wikipedia.org/wiki/Basilica_of_Santa_Chiara"
+    },
+    "artwork": {
+      "title": "Saint Clare of Assisi",
+      "maker": "Simone Martini",
+      "date_label": "1317",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Simone_Martini_058.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia Clare of Assisi",
+        "url": "https://www.newadvent.org/cathen/04004a.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Mother of the Poor Clares",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for monastic vocations and the grace to seek spiritual simplicity.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-12",
+    "date": "2026-08-12",
+    "weekday": "Wednesday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Optional Memorial",
+      "color": "white",
+      "title_en": "Saint Jane Frances de Chantal, Religious",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-30",
+      "hebrew": "29 Av 5786",
+      "islamic_umm_al_qura": "29 Safar 1448 AH",
+      "coptic": "6 Mesori 1742",
+      "ethiopian": "6 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Jane Frances de Chantal",
+      "title_vi": "",
+      "summary_en": "Saint Jane Frances de Chantal was a French noblewoman who, after becoming a widow, co-founded the Visitation Order under the guidance of Saint Francis de Sales.",
+      "summary_vi": "",
+      "body_en": "Saint Jane Frances de Chantal (1572–1641) lived a exemplary life in multiple vocations. As a widow and mother, she managed her household with great charity until, under the direction of Saint Francis de Sales, she co-founded the Visitation Order. The congregation welcomed women who were too fragile for other severe orders. Her remains rest in the Basilica of the Visitation in Annecy, France.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The liturgical calendar places her optional memorial on August 12.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of the Visitation, Annecy, France",
+      "latitude": 45.892377,
+      "longitude": 6.127732,
+      "confidence": "traditional",
+      "source_url": "https://thecatholictravelguide.com/destinations/france/france-annecy-basilica-visitation-relics/"
+    },
+    "artwork": {
+      "title": "Saint Jane Frances de Chantal",
+      "maker": "Jean-Baptiste-Joseph Wicar",
+      "date_label": "19th Century",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wicar_-_Sainte_Jeanne_de_Chantal.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia Jane Frances de Chantal",
+        "url": "https://www.newadvent.org/cathen/08282c.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Foundress of the Visitation Order",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for those dealing with loss and the separation of family members today.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-13",
+    "date": "2026-08-13",
+    "weekday": "Thursday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "red",
+      "title_en": "Saints Pontian, Pope, and Hippolytus, Priest, Martyrs",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-07-31",
+      "hebrew": "30 Av 5786",
+      "islamic_umm_al_qura": "30 Safar 1448 AH",
+      "coptic": "7 Mesori 1742",
+      "ethiopian": "7 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saints Pontian and Hippolytus",
+      "title_vi": "",
+      "summary_en": "Pope Saint Pontian and the brilliant theologian Saint Hippolytus were third-century martyrs who, despite prior division, reconciled during their brutal exile in the mines of Sardinia.",
+      "summary_vi": "",
+      "body_en": "Pope Saint Pontian and the priest Saint Hippolytus were third-century Roman leaders exiled to the brutal mines of Sardinia during imperial persecutions. Despite prior theological disputes and divisions, they reconciled in exile. Pontian resigned his papal office to ensure church unity, and both died as martyrs of charity, representing the triumph of ecclesiastical peace over discord.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Consensus calendar date of August 13 aligns with their translation to Rome in the fourth century.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Catacomb of Callixtus, Rome, Italy",
+      "latitude": 41.8611,
+      "longitude": 12.5083,
+      "confidence": "traditional",
+      "source_url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-13"
+    },
+    "artwork": {
+      "title": null,
+      "maker": null,
+      "date_label": null,
+      "source_url": null,
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Culture Liturgical Entry",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-13",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Martyrs of reconciliation and unity",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Seek the courage to forgive and reconcile with those from whom you are divided.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-14",
+    "date": "2026-08-14",
+    "weekday": "Friday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "red",
+      "title_en": "Saint Maximilian Mary Kolbe, Priest and Martyr",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-01",
+      "hebrew": "1 Elul 5786",
+      "islamic_umm_al_qura": "1 Rabi' al-Awwal 1448 AH",
+      "coptic": "8 Mesori 1742",
+      "ethiopian": "8 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Maximilian Mary Kolbe",
+      "title_vi": "",
+      "summary_en": "Saint Maximilian Mary Kolbe was a Polish Franciscan priest who offered his life in place of a fellow prisoner at the Auschwitz concentration camp in 1941.",
+      "summary_vi": "",
+      "body_en": "Saint Maximilian Kolbe (1894–1941) was a Polish Conventual Franciscan priest who offered his life in place of a stranger at the Auschwitz concentration camp. In the starvation bunker, Kolbe led the dying men in prayers and hymns, transforming a place of horror into a chapel of hope. He was executed by carbolic acid injection on August 14. His life represents the ultimate witness of Christian charity in the face of absolute evil.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Universal martyrology lists his death on August 14, 1941, celebrated globally as his feast day.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Auschwitz-Birkenau, Oświęcim, Poland",
+      "latitude": 50.0274,
+      "longitude": 19.202,
+      "confidence": "confirmed",
+      "source_url": "https://www.newadvent.org/cathen/16124a.htm"
+    },
+    "artwork": {
+      "title": "Maximilian Kolbe Portrait",
+      "maker": null,
+      "date_label": "20th Century",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Maximilian_Kolbe.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia Maximilian Kolbe",
+        "url": "https://www.newadvent.org/cathen/16124a.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The martyr of charity of Auschwitz",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Ask for the courage of selfless love to sacrifice your own comfort for others.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-15",
+    "date": "2026-08-15",
+    "weekday": "Saturday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Solemnity",
+      "color": "white",
+      "title_en": "The Assumption of the Blessed Virgin Mary",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-02",
+      "hebrew": "2 Elul 5786",
+      "islamic_umm_al_qura": "2 Rabi' al-Awwal 1448 AH",
+      "coptic": "9 Mesori 1742",
+      "ethiopian": "9 Nehase 2018"
+    },
+    "primary": {
+      "type": "solemnity",
+      "title_en": "Solemnity of the Assumption of the Blessed Virgin Mary",
+      "title_vi": "",
+      "summary_en": "The Solemnity of the Assumption celebrates the dogmatic truth that Mary, the Mother of Jesus, was assumed body and soul into heavenly glory at the end of her earthly life.",
+      "summary_vi": "",
+      "body_en": "The dogma of the Assumption of the Blessed Virgin Mary was solemnly defined by Pope Pius XII in his 1950 apostolic constitution *Munificentissimus Deus*, declaring that the Immaculate Mother of God, having completed the course of her earthly life, was assumed body and soul into heavenly glory. This feast represents the ancient, unbroken tradition of both the Eastern and Western Churches, celebrating Mary's unique participation in the Resurrection of her Son. Pope Francis has noted that Mary's Assumption shows us that heaven is within reach when we follow her path of deep humility and generous service. The liturgy features the Magnificat from the Gospel of Luke, a canticle of profound hope that prophesies the triumph of God's mercy and the exaltation of the lowly. Mary's assumed body stands as a radiant icon of hope and comfort for the pilgrim People of God, prefiguring the final resurrection of all the faithful.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Pius XII's ex cathedra declaration in 1950 solidified the August 15 date of the Assumption as a solemnity of the highest class.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Tomb of the Virgin Mary, Jerusalem, Israel",
+      "latitude": 31.7801,
+      "longitude": 35.2396,
+      "confidence": "traditional",
+      "source_url": "https://www.vatican.va/content/francesco/en/angelus/2024/documents/20240815-angelus.html"
+    },
+    "artwork": {
+      "title": "Assumption of the Virgin",
+      "maker": "Titian",
+      "date_label": "1516-1518",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tiziani,_assunta_05.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Mass Readings for the Assumption",
+        "url": "https://bible.usccb.org/bible/readings/081526.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The heavenly coronation of the Mother of God",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Look up to Mary assumed into heaven as a sure sign of hope for your future resurrection.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-16",
+    "date": "2026-08-16",
+    "weekday": "Sunday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Sunday",
+      "color": "green",
+      "title_en": "20th Sunday in Ordinary Time",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-03",
+      "hebrew": "3 Elul 5786",
+      "islamic_umm_al_qura": "3 Rabi' al-Awwal 1448 AH",
+      "coptic": "10 Mesori 1742",
+      "ethiopian": "10 Nehase 2018"
+    },
+    "primary": {
+      "type": "liturgical_day",
+      "title_en": "20th Sunday in Ordinary Time (Year B)",
+      "title_vi": "",
+      "summary_en": "The Twentieth Sunday in Ordinary Time marks the peak of the theological Bread of Life Discourse, stressing the literal eating of His flesh and drinking of His blood.",
+      "summary_vi": "",
+      "body_en": "In the Gospel of John, the discourse on the Bread of Life reaches its theological climax as Jesus declares: \"Unless you eat the flesh of the Son of Man and drink his blood, you do not have life within you.\" Rather than softening His language in the face of shock, Jesus reiterates the necessity of eating His flesh and drinking His blood, promising that whoever does so will receive eternal life. This Sunday invites the faithful to enter into the profound mystery of the Eucharist with deep faith, recognizing the Holy Mass as a real participation in Christ's saving sacrifice. Stephen of Hungary's optional memorial is omitted due to Sunday.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The Sunday of Ordinary Time takes priority over and overrides the feast of Saint Stephen of Hungary according to general norms.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": null,
+      "latitude": null,
+      "longitude": null,
+      "confidence": "confirmed",
+      "source_url": null
+    },
+    "artwork": {
+      "title": "The Canaanite Woman",
+      "maker": "Jean Germain Drouais",
+      "date_label": "1784",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Germain_Drouais_-_The_Woman_of_Canaan_at_the_Feet_of_Christ_-_WGA06716.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB 20th Sunday Readings",
+        "url": "https://bible.usccb.org/bible/readings/081626.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "\"My flesh is true food, and my blood is true drink.\"",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Offer your doubts to Jesus and receive Him with deeper faith in communion.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-17",
+    "date": "2026-08-17",
+    "weekday": "Monday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Feria",
+      "color": "green",
+      "title_en": "Monday of the 20th Week in Ordinary Time",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-04",
+      "hebrew": "4 Elul 5786",
+      "islamic_umm_al_qura": "4 Rabi' al-Awwal 1448 AH",
+      "coptic": "11 Mesori 1742",
+      "ethiopian": "11 Nehase 2018"
+    },
+    "primary": {
+      "type": "liturgical_day",
+      "title_en": "Monday of the 20th Week in Ordinary Time",
+      "title_vi": "",
+      "summary_en": "A standard weekday in Ordinary Time, calling the faithful to reflect on how to integrate the Eucharist into the routine of weekly work.",
+      "summary_vi": "",
+      "body_en": "Today's feria in Ordinary Time invites us to digest the profound Eucharistic teachings of the preceding Sunday. As we carry Christ's presence within us, we are called to be signs of His love and compassion to everyone we meet, transforming our daily work into a continuous prayer of charity.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The liturgical cycle places August 17 as a normal weekday in Ordinary Time.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": null,
+      "latitude": null,
+      "longitude": null,
+      "confidence": "confirmed",
+      "source_url": null
+    },
+    "artwork": {
+      "title": null,
+      "maker": null,
+      "date_label": null,
+      "source_url": null,
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Daily Readings",
+        "url": "https://bible.usccb.org/bible/readings/081726.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Living the Eucharistic reality",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Invite Christ to guide your conversations and actions throughout this workday.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-18",
+    "date": "2026-08-18",
+    "weekday": "Tuesday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Feria",
+      "color": "green",
+      "title_en": "Tuesday of the 20th Week in Ordinary Time",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-05",
+      "hebrew": "5 Elul 5786",
+      "islamic_umm_al_qura": "5 Rabi' al-Awwal 1448 AH",
+      "coptic": "12 Mesori 1742",
+      "ethiopian": "12 Nehase 2018"
+    },
+    "primary": {
+      "type": "liturgical_day",
+      "title_en": "Tuesday of the 20th Week in Ordinary Time",
+      "title_vi": "",
+      "summary_en": "This weekday focuses on spiritual growth, encouraging the steady cultivation of faith through silent devotion and simple responsibilities.",
+      "summary_vi": "",
+      "body_en": "Today's weekday liturgy continues to build our relationship with God through silent, daily faithfulness. The liturgy highlights the steady growth of the seeds of faith in the soil of our ordinary lives, reminding us that every day is an opportunity to witness to Christ's peace.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "No obligatory feast occurs, confirming this day as a standard feria in the 20th week.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": null,
+      "latitude": null,
+      "longitude": null,
+      "confidence": "confirmed",
+      "source_url": null
+    },
+    "artwork": {
+      "title": null,
+      "maker": null,
+      "date_label": null,
+      "source_url": null,
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Daily Readings",
+        "url": "https://bible.usccb.org/bible/readings/081826.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Silent growing of the seeds of faith",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Reflect on how silent moments can help you listen more carefully to God.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-19",
+    "date": "2026-08-19",
+    "weekday": "Wednesday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Optional Memorial",
+      "color": "white",
+      "title_en": "Saint John Eudes, Priest",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-06",
+      "hebrew": "6 Elul 5786",
+      "islamic_umm_al_qura": "6 Rabi' al-Awwal 1448 AH",
+      "coptic": "13 Mesori 1742",
+      "ethiopian": "13 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint John Eudes",
+      "title_vi": "",
+      "summary_en": "Saint John Eudes was a French missionary and promoter of the liturgical devotion to the Sacred Hearts of Jesus and Mary, establishing the Eudists to improve clerical training.",
+      "summary_vi": "",
+      "body_en": "Saint John Eudes (1601–1680) was a French priest who founded the Congregation of Jesus and Mary (Eudists) for seminary formation, and the Order of Our Lady of Charity. He preached over a hundred missions and was a pioneer in promoting the liturgical devotion to the Sacred Hearts of Jesus and Mary.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Liturgical books set his Optional Memorial on August 19, the date of his death in Caen in 1680.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Notre-Dame-de-la-Gloriette, Caen, France",
+      "latitude": 49.181389,
+      "longitude": -0.363611,
+      "confidence": "traditional",
+      "source_url": "https://eudistes.org/doctorate.html"
+    },
+    "artwork": {
+      "title": "Saint Jean Eudes",
+      "maker": null,
+      "date_label": "17th Century",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Eudes.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Tekton Ministries - St. John Eudes Profile",
+        "url": "https://www.tektonministries.org/saint-john-eudes/",
+        "type": "academic"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Apostle of the Sacred Hearts",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for seminarians and the spiritual renewal of the clergy today.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-20",
+    "date": "2026-08-20",
+    "weekday": "Thursday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "white",
+      "title_en": "Saint Bernard, Abbot and Doctor of the Church",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-07",
+      "hebrew": "7 Elul 5786",
+      "islamic_umm_al_qura": "7 Rabi' al-Awwal 1448 AH",
+      "coptic": "14 Mesori 1742",
+      "ethiopian": "14 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Bernard of Clairvaux",
+      "title_vi": "",
+      "summary_en": "Saint Bernard of Clairvaux was a major Cistercian reformer, abbot, and powerful peacemaker whose theological writings and love for Mary earned him the title 'Mellifluous Doctor'.",
+      "summary_vi": "",
+      "body_en": "Saint Bernard of Clairvaux (1090–1153) was a charismatic French noble who revitalized the Cistercian reform, establishing hundreds of monasteries across Europe. Known as the \"Mellifluous Doctor\" for his sweet eloquence, his writings combined deep theology with spiritual passion. He acted as a powerful peacemaker and promoted intense devotion to the Blessed Virgin Mary.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The Roman Martyrology designates his memorial on August 20, marking his death at Clairvaux in 1153.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Clairvaux Abbey, Ville-sous-la-Ferté, France",
+      "latitude": 48.1472,
+      "longitude": 4.6401,
+      "confidence": "traditional",
+      "source_url": "https://en.wikipedia.org/wiki/Clairvaux_Abbey"
+    },
+    "artwork": {
+      "title": "Saint Bernard of Clairvaux",
+      "maker": "Jusepe de Ribera",
+      "date_label": "17th Century",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ribera_-_Saint_Bernard.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia Bernard of Clairvaux",
+        "url": "https://www.newadvent.org/cathen/02498d.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The Mellifluous Doctor of Clairvaux",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Praise Mary as the 'living fountain-head of hope' with Saint Bernard.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-21",
+    "date": "2026-08-21",
+    "weekday": "Friday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "white",
+      "title_en": "Saint Pius X, Pope",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-08",
+      "hebrew": "8 Elul 5786",
+      "islamic_umm_al_qura": "8 Rabi' al-Awwal 1448 AH",
+      "coptic": "15 Mesori 1742",
+      "ethiopian": "15 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Pius X",
+      "title_vi": "",
+      "summary_en": "Pope Saint Pius X is celebrated for his efforts to 'restore all things in Christ', including reforming the Roman liturgy, defending doctrine, and promoting early, frequent reception of Communion.",
+      "summary_vi": "",
+      "body_en": "Pope Saint Pius X (1835–1914) ruled with the motto \"To Restore All Things in Christ.\" He launched significant reforms, including the reorganization of the Roman Curia and the codification of Canon Law. Deeply pastoral, he lowered the age for First Communion, encouraging frequent reception of the Eucharist.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Roman Martyrology establishes August 21 as his liturgical memorial, the day after his death in 1914.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "St. Peter's Basilica, Vatican City",
+      "latitude": 41.9029,
+      "longitude": 12.4534,
+      "confidence": "traditional",
+      "source_url": "https://en.wikipedia.org/wiki/Pope_Pius_X"
+    },
+    "artwork": {
+      "title": "Portrait of Pope Pius X",
+      "maker": null,
+      "date_label": "1903",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pius_X_portrait.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia Pope Pius X",
+        "url": "https://www.newadvent.org/cathen/12137a.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "\"To Restore All Things in Christ\"",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for a deeper appreciation and frequent reception of the Holy Eucharist.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-22",
+    "date": "2026-08-22",
+    "weekday": "Saturday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "white",
+      "title_en": "Queenship of the Blessed Virgin Mary",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-09",
+      "hebrew": "9 Elul 5786",
+      "islamic_umm_al_qura": "9 Rabi' al-Awwal 1448 AH",
+      "coptic": "16 Mesori 1742",
+      "ethiopian": "16 Nehase 2018"
+    },
+    "primary": {
+      "type": "feast",
+      "title_en": "Queenship of the Blessed Virgin Mary",
+      "title_vi": "",
+      "summary_en": "The Queenship of Mary is celebrated on the octave day of the Assumption, emphasizing Mary's royal dignity as Mother of the King of Kings and her role as our maternal intercessor.",
+      "summary_vi": "",
+      "body_en": "Established by Pope Pius XII in 1954, the Queenship of Mary is celebrated on the octave day of the Assumption, highlighting the link between her bodily glorification and her royal dignity. As Mother of the Messiah, Mary is the Queen Mother who intercedes before her Son with maternal love, humility, and service.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Liturgical reform aligned the Queenship of Mary to August 22, completing the octave day of the Assumption.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica di Santa Maria Maggiore, Rome, Italy",
+      "latitude": 41.8975,
+      "longitude": 12.4986,
+      "confidence": "traditional",
+      "source_url": "https://www.turismoroma.it/en/places/basilica-santa-maria-maggiore"
+    },
+    "artwork": {
+      "title": "The Coronation of the Virgin",
+      "maker": "Diego Velázquez",
+      "date_label": "1635",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vel%C3%A1zquez_-_Coronaci%C3%B3n_de_la_Virgen_(Museo_del_Prado,_1635-36).jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Mass Readings for the Queenship",
+        "url": "https://bible.usccb.org/bible/readings/082226.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Mary, Queen of Heaven and Earth",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Entrust your worries to Mary, our Queen Mother and gentle advocate.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-23",
+    "date": "2026-08-23",
+    "weekday": "Sunday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Sunday",
+      "color": "green",
+      "title_en": "21st Sunday in Ordinary Time",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-10",
+      "hebrew": "10 Elul 5786",
+      "islamic_umm_al_qura": "10 Rabi' al-Awwal 1448 AH",
+      "coptic": "17 Mesori 1742",
+      "ethiopian": "17 Nehase 2018"
+    },
+    "primary": {
+      "type": "liturgical_day",
+      "title_en": "21st Sunday in Ordinary Time (Year B)",
+      "title_vi": "",
+      "summary_en": "The Twenty-First Sunday in Ordinary Time brings a close to the Bread of Life Discourse, presenting the critical crisis of faith and Peter's confession of trust.",
+      "summary_vi": "",
+      "body_en": "In the Gospel of John, the challenging nature of Jesus' Eucharistic teaching leads many disciples to abandon Him. When Jesus asks the Twelve Apostles if they also wish to leave, Simon Peter answers with words of absolute trust: \"Master, to whom shall we go? You have the words of eternal life.\" This Sunday challenges us to choose faith even when it demands sacrifice. Note that the optional memorial of Saint Rose of Lima is omitted this year due to Sunday.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The Sunday of Ordinary Time takes priority over the optional memorial of Saint Rose of Lima.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": null,
+      "latitude": null,
+      "longitude": null,
+      "confidence": "confirmed",
+      "source_url": null
+    },
+    "artwork": {
+      "title": "Christ Giving the Keys to St. Peter",
+      "maker": "Pietro Perugino",
+      "date_label": "1481-1482",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Delivery_of_the_Keys_by_Perugino.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB 21st Sunday Readings",
+        "url": "https://bible.usccb.org/bible/readings/082326.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "\"Master, to whom shall we go? You have the words of eternal life.\"",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Renew your commitment to follow Jesus, even when His teachings challenge you.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-24",
+    "date": "2026-08-24",
+    "weekday": "Monday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Feast",
+      "color": "red",
+      "title_en": "Saint Bartholomew, Apostle",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-11",
+      "hebrew": "11 Elul 5786",
+      "islamic_umm_al_qura": "11 Rabi' al-Awwal 1448 AH",
+      "coptic": "18 Mesori 1742",
+      "ethiopian": "18 Nehase 2018"
+    },
+    "primary": {
+      "type": "feast",
+      "title_en": "Saint Bartholomew, Apostle",
+      "title_vi": "",
+      "summary_en": "Saint Bartholomew, traditionally identified as Nathanael, was one of the Twelve Apostles, praised by Jesus for his lack of duplicity and later martyred by flaying.",
+      "summary_vi": "",
+      "body_en": "Saint Bartholomew is traditionally identified with Nathanael of Cana, who was introduced to Jesus by the Apostle Philip. Moved by Jesus' intimate knowledge of him under the fig tree, Nathanael declared: \"Rabbi, you are the Son of God; you are the King of Israel.\" He preached the Gospel in India and Armenia, where he was martyred by being flayed alive. In Michelangelo's *The Last Judgment*, he is depicted holding his flayed skin. His relics are venerated in the Basilica of San Bartolomeo all'Isola in Rome, preserving his apostolic legacy.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The liturgical calendar designates August 24 as the Feast of Saint Bartholomew, a standard, highly ancient feast in the Roman Church.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of San Bartolomeo all'Isola, Rome, Italy",
+      "latitude": 41.8901,
+      "longitude": 12.4797,
+      "confidence": "traditional",
+      "source_url": "https://en.wikipedia.org/wiki/San_Bartolomeo_all%27Isola"
+    },
+    "artwork": {
+      "title": "The Last Judgment (detail of Saint Bartholomew)",
+      "maker": "Michelangelo",
+      "date_label": "1541",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Michelangelo,_Giudizio_Universale_31.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Feast of Saint Bartholomew",
+        "url": "https://bible.usccb.org/bible/readings/feast-saint-bartholomew-apostle",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The apostle of honesty and ultimate fidelity",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Ask for the grace of absolute sincerity and truthfulness in your relationships.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-25",
+    "date": "2026-08-25",
+    "weekday": "Tuesday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Optional Memorial",
+      "color": "white",
+      "title_en": "Saint Louis of France, or Saint Joseph Calasanz, Priest",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-12",
+      "hebrew": "12 Elul 5786",
+      "islamic_umm_al_qura": "12 Rabi' al-Awwal 1448 AH",
+      "coptic": "19 Mesori 1742",
+      "ethiopian": "19 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Louis of France & Saint Joseph Calasanz",
+      "title_vi": "",
+      "summary_en": "This day presents optional memorials for Saint Louis IX, the holy and just king of France, and Saint Joseph Calasanz, a Spanish priest who founded the first free public schools for poor children.",
+      "summary_vi": "",
+      "body_en": "King Saint Louis IX of France ruled with immense justice, personal piety, and devotion to the poor, constructing the Sainte-Chapelle to house Christ's Crown of Thorns. On this day, the Church also honors Saint Joseph Calasanz (1557–1648), a Spanish priest who founded the Piarists to provide free education to poor children.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Liturgical calendars universally offer concurrent optional memorials for Saint Louis and Saint Joseph Calasanz on August 25.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of Saint-Denis, Saint-Denis, France",
+      "latitude": 48.935406,
+      "longitude": 2.359899,
+      "confidence": "traditional",
+      "source_url": "https://www.travelfranceonline.com/saint-denis-basilique-royal-necropolis/"
+    },
+    "artwork": {
+      "title": "Saint Louis IX of France",
+      "maker": "El Greco",
+      "date_label": "1592",
+      "source_url": "https://commons.wikimedia.org/wiki/File:El_Greco_-_Saint_Louis,_King_of_France_-_WGA10471.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Culture August 25 Details",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-25",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "A holy king and a pioneer of education",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for political leaders to act with justice and educators to guide with love.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-26",
+    "date": "2026-08-26",
+    "weekday": "Wednesday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Feria",
+      "color": "green",
+      "title_en": "Wednesday of the 21st Week in Ordinary Time",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-13",
+      "hebrew": "13 Elul 5786",
+      "islamic_umm_al_qura": "13 Rabi' al-Awwal 1448 AH",
+      "coptic": "20 Mesori 1742",
+      "ethiopian": "20 Nehase 2018"
+    },
+    "primary": {
+      "type": "liturgical_day",
+      "title_en": "Wednesday of the 21st Week in Ordinary Time",
+      "title_vi": "",
+      "summary_en": "A weekday in Ordinary Time, offering a serene space to deepen our prayer life and carry out simple acts of service in our communities.",
+      "summary_vi": "",
+      "body_en": "Today's feria in Ordinary Time provides a peaceful interlude, drawing the faithful to reflect on their baptismal calling. The liturgy focuses on the daily application of the Gospel message, encouraging us to seek Christ in quiet prayer and simple acts of service.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "August 26 is designated as a standard weekday feria with no universal saints' feasts assigned.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": null,
+      "latitude": null,
+      "longitude": null,
+      "confidence": "confirmed",
+      "source_url": null
+    },
+    "artwork": {
+      "title": null,
+      "maker": null,
+      "date_label": null,
+      "source_url": null,
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB Daily Readings",
+        "url": "https://bible.usccb.org/bible/readings/082626.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Faithful in the ordinary moments",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Seek to serve Christ quietly in your family and work obligations today.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-27",
+    "date": "2026-08-27",
+    "weekday": "Thursday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "white",
+      "title_en": "Saint Monica, Married Woman",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-14",
+      "hebrew": "14 Elul 5786",
+      "islamic_umm_al_qura": "14 Rabi' al-Awwal 1448 AH",
+      "coptic": "21 Mesori 1742",
+      "ethiopian": "21 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Monica",
+      "title_vi": "",
+      "summary_en": "Saint Monica was a Christian mother in North Africa celebrated for her persistent prayers and tears that eventually won the conversion of her brilliant son, Saint Augustine.",
+      "summary_vi": "",
+      "body_en": "Saint Monica (c. 331–387) was a Christian mother in North Africa who married a pagan official with a violent temper. Through her gentle patience, she eventually won his conversion. Her greatest challenge was her brilliant but rebellious son, Augustine, for whose conversion she prayed with tears for over seventeen years.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Monica's memorial on August 27 is structurally coupled with the memorial of her son, Saint Augustine, on August 28.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of Sant'Agostino, Rome, Italy",
+      "latitude": 41.9004,
+      "longitude": 12.4744,
+      "confidence": "traditional",
+      "source_url": "https://en.wikipedia.org/wiki/Basilica_of_Sant%27Agostino"
+    },
+    "artwork": {
+      "title": "Saint Augustine and Saint Monica",
+      "maker": "Ary Scheffer",
+      "date_label": "1854",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ary_Scheffer_-_St_Augustine_and_St_Monica_-_WGA21016.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia Saint Monica",
+        "url": "https://www.newadvent.org/cathen/10482a.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The weeping mother whose prayers saved a Doctor",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray with patient persistence for family members who have lost their way.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-28",
+    "date": "2026-08-28",
+    "weekday": "Friday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "white",
+      "title_en": "Saint Augustine, Bishop and Doctor of the Church",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-15",
+      "hebrew": "15 Elul 5786",
+      "islamic_umm_al_qura": "15 Rabi' al-Awwal 1448 AH",
+      "coptic": "22 Mesori 1742",
+      "ethiopian": "22 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Augustine of Hippo",
+      "title_vi": "",
+      "summary_en": "Saint Augustine was a brilliant North African philosopher and bishop who became one of the most prolific and influential theological writers in Western Christian history.",
+      "summary_vi": "",
+      "body_en": "Saint Augustine of Hippo (354–430) was a brilliant philosopher who experienced a dramatic conversion under the preaching of Saint Ambrose. As Bishop of Hippo, he became one of the most prolific and influential writers in Christian history, shaping Western theology. He is celebrated as the \"Doctor of Grace.\"",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The liturgical calendar recognizes Saint Augustine's memorial on August 28, the date of his death in Hippo in 430.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of San Pietro in Ciel d'Oro, Pavia, Italy",
+      "latitude": 45.1912,
+      "longitude": 9.1594,
+      "confidence": "traditional",
+      "source_url": "https://en.wikipedia.org/wiki/San_Pietro_in_Ciel_d%27Oro"
+    },
+    "artwork": {
+      "title": "Saint Augustine of Hippo",
+      "maker": "Sandro Botticelli",
+      "date_label": "1480",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_St_Augustine_in_His_Study_-_WGA2733.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia Saint Augustine",
+        "url": "https://www.newadvent.org/cathen/02084a.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The Doctor of Grace whose heart found rest in God",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "\"Late have I loved you, O Beauty ever ancient, ever new!\" Reflect on his words.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-29",
+    "date": "2026-08-29",
+    "weekday": "Saturday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "red",
+      "title_en": "The Passion of Saint John the Baptist, Martyr",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-16",
+      "hebrew": "16 Elul 5786",
+      "islamic_umm_al_qura": "16 Rabi' al-Awwal 1448 AH",
+      "coptic": "23 Mesori 1742",
+      "ethiopian": "23 Nehase 2018"
+    },
+    "primary": {
+      "type": "feast",
+      "title_en": "The Passion of Saint John the Baptist",
+      "title_vi": "",
+      "summary_en": "This memorial commemorates the martyrological beheading of John the Baptist, who was executed by Herod Antipas for fearlessly defending the integrity of the moral law.",
+      "summary_vi": "",
+      "body_en": "The Passion of Saint John the Baptist commemorates the martyrdom of the Precursor of Christ, who was beheaded by Herod Antipas for defending the moral law. John's death represents the ultimate fidelity to truth, showing that the prophet of the Wilderness prepared the way for Christ in his heroic death.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "The ancient Roman calendar records the dedication of the church in Sebaste over John's tomb on August 29.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Basilica of San Silvestro in Capite, Rome, Italy",
+      "latitude": 41.9029,
+      "longitude": 12.4811,
+      "confidence": "traditional",
+      "source_url": "https://en.wikipedia.org/wiki/San_Silvestro_in_Capite"
+    },
+    "artwork": {
+      "title": "The Beheading of Saint John the Baptist",
+      "maker": "Caravaggio",
+      "date_label": "1608",
+      "source_url": "https://commons.wikimedia.org/wiki/File:The_Beheading_of_Saint_John_the_Baptist_by_Caravaggio.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia John the Baptist Beheading",
+        "url": "https://www.newadvent.org/cathen/08486b.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The ultimate witness of the Precursor of Christ",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for the courage to stand firm in moral truth, even when it is unpopular.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-30",
+    "date": "2026-08-30",
+    "weekday": "Sunday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Sunday",
+      "color": "green",
+      "title_en": "22nd Sunday in Ordinary Time",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-17",
+      "hebrew": "17 Elul 5786",
+      "islamic_umm_al_qura": "17 Rabi' al-Awwal 1448 AH",
+      "coptic": "24 Mesori 1742",
+      "ethiopian": "24 Nehase 2018"
+    },
+    "primary": {
+      "type": "liturgical_day",
+      "title_en": "22nd Sunday in Ordinary Time (Year B)",
+      "title_vi": "",
+      "summary_en": "The Twenty-Second Sunday in Ordinary Time marks the return to the Gospel of Mark, emphasizing internal conversion over superficial ritual cleanliness.",
+      "summary_vi": "",
+      "body_en": "In the Gospel of Mark, the Pharisees criticize Jesus' disciples for eating with unwashed hands, violating external traditions. Jesus responds by teaching that nothing entering a person from the outside can defile them; rather, it is what comes out of a person's heart that truly defiles them. This Sunday invites us to examine our internal motivations, seeking a pure heart rather than superficial rituals.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Lectionary confirms the transition back to the Gospel of Mark (Year B) on the 22nd Sunday.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": null,
+      "latitude": null,
+      "longitude": null,
+      "confidence": "confirmed",
+      "source_url": null
+    },
+    "artwork": {
+      "title": "Christ and the Pharisees",
+      "maker": "James Tissot",
+      "date_label": "1886-1894",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_The_Pharisees_and_the_Scribes_from_Jerusalem_(Les_pharisiens_et_les_scribes_de_J%C3%A9rusalem)_-_James_Tissot.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "USCCB 22nd Sunday Readings",
+        "url": "https://bible.usccb.org/bible/readings/083026.cfm",
+        "type": "liturgical_calendar"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "\"Nothing from the outside can defile... it is what comes from the heart.\"",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Ask God to purify your heart of pride, envy, and selfishness today.",
+      "prayer_prompt_vi": ""
+    }
+  },
+  {
+    "id": "anno-2026-08-31",
+    "date": "2026-08-31",
+    "weekday": "Monday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Optional Memorial",
+      "color": "white",
+      "title_en": "Saint Raymond Nonnatus, Religious",
+      "title_vi": ""
+    },
+    "calendars": {
+      "julian": "2026-08-18",
+      "hebrew": "18 Elul 5786",
+      "islamic_umm_al_qura": "18 Rabi' al-Awwal 1448 AH",
+      "coptic": "25 Mesori 1742",
+      "ethiopian": "25 Nehase 2018"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Raymond Nonnatus",
+      "title_vi": "",
+      "summary_en": "Saint Raymond was a Spanish Mercedarian priest who offered himself as a hostage to ransom Christian captives in North Africa and is celebrated as the patron of expectant mothers and the unborn.",
+      "summary_vi": "",
+      "body_en": "Saint Raymond Nonnatus was a thirteenth-century Spanish Mercedarian priest who dedicated his life to ransoming Christian captives in North Africa, offering himself as a hostage. He is celebrated as the patron saint of expectant mothers, midwives, and the unborn because of his own miraculous delivery.",
+      "body_vi": "",
+      "confidence": "confirmed",
+      "confidence_note_en": "Mercedarian records and Spanish liturgical calendars confirm his feast on August 31, marking his death in 1240.",
+      "confidence_note_vi": ""
+    },
+    "place": {
+      "name": "Convent of Sant Ramon de Portell, Lleida, Catalonia, Spain",
+      "latitude": 41.7275,
+      "longitude": 1.3628,
+      "confidence": "traditional",
+      "source_url": "https://www.monestirs.cat/monst/segar/esa17port.htm"
+    },
+    "artwork": {
+      "title": "Saint Raymond Nonnatus",
+      "maker": "Unknown",
+      "date_label": "18th Century",
+      "source_url": "https://commons.wikimedia.org/wiki/File:San_Ram%C3%B3n_Nonato_-_An%C3%B3nimo.jpg",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Monestirs de Catalunya - Sant Ramon",
+        "url": "https://www.monestirs.cat/monst/segar/esa17port.htm",
+        "type": "academic"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The patron of expectant mothers and the unborn",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray for expectant mothers, safe deliveries, and the protection of the unborn.",
+      "prayer_prompt_vi": ""
+    }
+  }
+]

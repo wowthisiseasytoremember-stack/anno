@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-07-17",
+  "date": "2026-07-17",
+  "weekday": "Friday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of the 15th Week in Ordinary Time",
+    "title_vi": "Thứ Sáu, tuần 15 của Thời gian Thường Niên"
+  },
+  "calendars": {
+    "julian": "2026-07-04",
+    "hebrew": "3 Av 5786",
+    "islamic_umm_al_qura": "3 Safar 1448 AH",
+    "coptic": "10 Epip 1742",
+    "ethiopian": "10 Hamle 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the 15th Week in Ordinary Time",
+    "title_vi": "Thứ Sáu, tuần 15 của Thời gian Thường Niên",
+    "summary_en": "This Friday falls within Ordinary Time, a period of the liturgical year dedicated to the mystery of Christ in its fullness as lived by the Church. The liturgical color green symbolizes hope and growth in faith. On this day, the faithful are invited to reflect on the teachings of Jesus as presented in the daily Mass readings.",
+    "summary_vi": "Thứ Sáu này nằm trong Thời gian Thường Niên, thời kỳ của năm liturgí được consagrated để tôn vinh bí mật của Kitô trong sự sống của Giáo hội. Màu xanh lá tượng trưng cho hy vọng và sự phát triển trong đức tin. Ngày hôm nay, người hữu enseñanza được mời suy niệm về lời dạy của Đức Kitô qua các bài đọc của lễ misa hàng ngày.",
+    "body_en": "Ordinary Time is the portion of the liturgical year that lies outside the major seasons of Advent, Christmas, Lent, and Easter. It focuses on the life and teachings of Christ, allowing the faithful to journey through the Gospel mysteries in a sustained way. The year is divided into two periods: after the Baptism of the Lord until Ash Wednesday, and after Pentecost until the start of Advent.\n\nIn the weekday cycle, the Church follows a two-year lectionary: Year I for odd-numbered years and Year II for even-numbered years. Since 2026 is an even year, the Mass readings for weekdays are taken from Year II, offering a semi-continuous reading of the Gospels and epistles that complements the Sunday cycle.\n\nThe vestment color for Ordinary Time is green, a hue traditionally associated with life, renewal, and hope. Green reminds the faithful that, even in the 'ordinary' weeks, the Church is called to continual growth in holiness and to bear fruit in love and good works.\n\nOn this particular Friday, the liturgy invites reflection on the day's scripture passages, which often highlight Jesus' teachings on discipleship, mercy, and the Kingdom of God. The faithful may also unite their prayers with the Liturgy of the Hours, sanctifying the day through morning, midday, evening, and night prayer.",
+    "body_vi": "Thời gian Thường Niên là phần của năm liturgí nằm ngoài các mùa chính như Giáng sinh, Phục sinh, Vô cùng và Giáng sinh. Nó tập trung vào đời sống và lời dạy của Kitô, cho phép người hữu enseñanza hành trình qua các bí mật của Gospel theo cách bền vững. Năm được chia thành hai giai đoạn: sau Lễ Rửa tội Chúa tới trước Ngày灰, và sau Lễ Phục sinh tới trước đầu Giáng sinh.\n\nTrong vòng tuần lễ, Giáo hội tuân theo một lịch đọc hai năm: Năm I cho năm lẻ và Năm II cho năm chẵn. Vì 2026 là năm chẵn, các bài đọc Thứ trong tuần được lấy từ Năm II, cung cấp một đọc liên tục bán liên tục của các Gospel và thư phó, bổ sung cho chu kỳ Chủ Nhật.\n\nMàu áo lễ cho Thời gian Thường Niên là xanh lá, một màu truyền thống được liên hệ với sự sống, sự làm mới và hy vọng. Xanh lá nhắc nhở người hữu rằng, ngay cả trong các tuần 'thường', Giáo hội được gọi để phát triển liên tục trong聖德 và mang trái trong tình yêu và các việc tốt.\n\nVào Thứ Sáu này,礼仪邀请人们反思当天的经文段落，这些段落常常突出耶稣关于门徒、仁慈和天国的教导。信友也可以将他们的祈祷与圣时祈祷结合起来，通过晨祷、午祷、晚祷和夜祷使一天成圣。",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on the General Roman Calendar and the liturgical year for 2026, which assigns green vestments to weekdays in Ordinary Time.",
+    "confidence_note_vi": "Dựa trên Lịch Tổng quát của Giáo hội Roma và năm liturgí 2026, který xác định màu xanh lá cho các ngày thường trong Thời gian Thường Niên."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM"
+  },
+  "artwork": {
+    "title": "Green Vestments",
+    "maker": null,
+    "date_label": "20th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Green_chasuble.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2026",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "General Norms for the Liturgical Year and Calendar (Vatican)",
+      "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Friday of the 15th Week in Ordinary Time – Grow in Hope",
+    "hero_line_vi": "Thứ Sáu, tuần 15 Thường Niên – Phát triển trong hy vọng",
+    "prayer_prompt_en": "Ask God to help you grow in faith and love as you reflect on Christ's teachings today.",
+    "prayer_prompt_vi": "Xin Chúa giúp bạn phát triển đức tin và tình yêu khi suy niệm về lời dạy của Kitô hôm nay."
+  }
+}

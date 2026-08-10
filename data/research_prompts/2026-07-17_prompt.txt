@@ -1,0 +1,78 @@
+You are Engine B of the Anno project — a Catholic liturgical research engine.
+
+Produce a single JSON entry for the following date following the anno.mock.v1 schema exactly.
+
+Date: 2026-07-17
+Weekday: Friday
+
+Calendar conversions (verified, include these exactly):
+- Julian: 2026-07-04
+- Hebrew: 3 Av 5786
+- Islamic (Umm al-Qura): 3 Safar 1448 AH
+- Coptic: 10 Epip 1742
+- Ethiopian: 10 Hamle 2018
+
+RULES:
+1. Use snake_case keys exactly as shown in the schema below.
+2. Do NOT make up sources. Every factual claim must link to a verifiable source.
+3. Confidence must be honest: confirmed/traditional/disputed/contextual.
+4. Vietnamese fields: provide real Vietnamese Catholic terminology.
+5. Sunday entries are liturgical anchors — primary content is the Sunday theme.
+6. Minimum 2 sources, prefer 3+.
+7. All URLs must be real (newadvent.org, catholicculture.org, vatican.va, USCCB, etc.).
+
+Output ONLY valid JSON with this exact structure:
+{
+  "id": "anno-2026-07-17",
+  "date": "2026-07-17",
+  "weekday": "Friday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity | Feast | Memorial | Optional Memorial | Feria | Sunday",
+    "color": "white | red | green | purple | rose | gold | verdigris",
+    "title_en": "Liturgical title in English",
+    "title_vi": "Tên phụng vụ bằng tiếng Việt"
+  },
+  "calendars": {
+    "julian": "2026-07-04",
+    "hebrew": "3 Av 5786",
+    "islamic_umm_al_qura": "3 Safar 1448 AH",
+    "coptic": "10 Epip 1742",
+    "ethiopian": "10 Hamle 2018"
+  },
+  "primary": {
+    "type": "saint | liturgical_day | historical_event | feast | solemnity",
+    "title_en": "Primary title",
+    "title_vi": "Tiêu đề chính",
+    "summary_en": "2-4 sentence summary",
+    "summary_vi": "Tóm tắt 2-4 câu",
+    "body_en": "3-5 paragraph researched article",
+    "body_vi": "Same content in Vietnamese",
+    "confidence": "confirmed | traditional | disputed | contextual",
+    "confidence_note_en": "Brief explanation",
+    "confidence_note_vi": "Giải thích ngắn"
+  },
+  "place": {
+    "name": "Specific location or null",
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed | traditional | disputed | contextual",
+    "source_url": "URL"
+  },
+  "artwork": {
+    "title": "Title of public domain artwork",
+    "maker": "Artist name",
+    "date_label": "Century or year",
+    "source_url": "Wikimedia Commons or museum URL",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {"label": "Source label", "url": "https://actual-url", "type": "liturgical_calendar | vatican | encyclopedia | academic | news | devotional"}
+  ],
+  "app_hooks": {
+    "hero_line_en": "One compelling card header line",
+    "hero_line_vi": "Một dòng hấp dẫn cho tiêu đề thẻ",
+    "prayer_prompt_en": "Short prayer or reflection prompt",
+    "prayer_prompt_vi": "Một lời cầu nguyện ngắn"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "anno-2026-07-22",
+  "date": "2026-07-22",
+  "weekday": "Wednesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "White",
+    "title_en": "Feast of St. Mary Magdalene",
+    "title_vi": "Lễ Thánh Maria Magdalene"
+  },
+  "calendars": {
+    "julian": "2026-07-09",
+    "hebrew": "8 Av 5786",
+    "islamic_umm_al_qura": "8 Safar 1448 AH",
+    "coptic": "15 Epip 1742",
+    "ethiopian": "15 Hamle 2018"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Feast of St. Mary Magdalene",
+    "title_vi": "Lễ Thánh Maria Magdalene",
+    "summary_en": "St. Mary Magdalene, known as the Apostle to the Apostles, was the first witness to the Resurrection of Christ. Her feast day is celebrated on July 22 in the Catholic Church, honoring her devotion and testimony. The liturgy reflects her role as a model of repentance and faith.",
+    "summary_vi": "Thánh Maria Magdalene, được biết đến là Tông Phụ của các Tông Phụ, là người chứng kiến sự Phục sinh của Chúa. Lễ ngày 22 tháng 7 trong Giáo hội Công giáo tôn vinh sự tận tụy và tấm gương của cô. Lễ kỷ niệm phản ánh vai trò của cô như một tấm gương của sự tội lỗi và đức tin.",
+    "body_en": "St. Mary Magdalene is one of the most celebrated women in the New Testament. She is described as a woman who had been healed of seven demons and became a devoted follower of Jesus, attending the crucifixion and witnessing the empty tomb. In the Catholic liturgical calendar, her feast day on July 22 is a celebration of her unwavering faith, her role as a witness to the Resurrection, and her example of repentance and devotion. The Mass for her feast includes readings that highlight her testimony and prayers that ask for her intercession in our own journeys of conversion and steadfast faith.",
+    "body_vi": "Thánh Maria Magdalene là một trong những phụ nữ được ca ngợi nhất trong Kinh Thánh Mới. Cô được mô tả là người đã được Chúa chữa lành khỏi bảy con quỷ và trở thành một tín đồ trung thành, tham dự sự đóng đinh và chứng kiến ngôi mộ trống rỗng. Trong lịch liturgi Công giáo, ngày lễ của cô vào ngày 22 tháng 7 là một lễ kỷ niệm về đức tin kiên cường, vai trò của cô như một người chứng nhân Phục sinh và tấm gương của sự tội lỗi và tận tụy. Lễ Mừng của cô bao gồm những đoạn đọc nhấn mạnh tấm gương của cô và những lời cầu nguyện xin sự can thiệp của cô trong hành trình chuyển mình và đức tin kiên định của chúng ta.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This feast is recognized in the General Roman Calendar.",
+    "confidence_note_vi": "Lễ này được công nhận trong Lịch Kế Thời Tổng Thống."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed/traditional",
+    "source_url": "https://www.catholic-hierarchy.org/diocese/dxxxx.html"
+  },
+  "artwork": {
+    "title": "St. Mary Magdalene (Pietà)",
+    "maker": "Carlo Crivelli",
+    "date_label": "c. 1470",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Crivelli_Mary_Magdalene.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "Catholic Encyclopedia: St. Mary Magdalene",
+      "url": "https://www.newadvent.org/cathen/09407a.htm",
+      "type": "liturgical_calendar/encyclopedia/vatican/academic"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Celebrate the Apostle to the Apostles",
+    "hero_line_vi": "Kỷ niệm Tông Phụ của các Tông Phụ",
+    "prayer_prompt_en": "Ask St. Mary Magdalene to intercede for your conversion and steadfast faith.",
+    "prayer_prompt_vi": "Kêu gọi Thánh Maria Magdalene cầu nguyện cho sự chuyển mình và đức tin kiên định của bạn."
+  }
+}

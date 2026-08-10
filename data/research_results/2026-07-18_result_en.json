@@ -1,0 +1,56 @@
+{
+  "id": "2026-07-18-bvm-saturday",
+  "date": "2026-07-18",
+  "weekday": "Saturday",
+  "mock_priority": 3,
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "White",
+    "title_en": "Optional Memorial of the Blessed Virgin Mary"
+  },
+  "calendars": {
+    "julian": "2026-07-05",
+    "hebrew": "4 Av 5786",
+    "islamic_umm_al_qura": "4 Safar 1448 AH",
+    "coptic": "11 Epip 1742",
+    "ethiopian": "11 Hamle 2018"
+  },
+  "primary": {
+    "type": "Optional Memorial",
+    "title_en": "Optional Memorial of the Blessed Virgin Mary",
+    "summary_en": "Saturday in Ordinary Time dedicated to the Blessed Virgin Mary as an optional memorial.",
+    "body_en": "In the Roman Rite, Saturdays in Ordinary Time when no other obligatory memorial occurs may be observed as an optional memorial of the Blessed Virgin Mary. This tradition honors Mary's faithful vigil on Holy Saturday and her role as Mother of the Church. The faithful may choose to celebrate this memorial with proper Marian prayers and readings.",
+    "confidence": 0.95,
+    "confidence_note_en": "Based on General Roman Calendar norms for Saturdays in Ordinary Time."
+  },
+  "place": {
+    "name": "Vatican City",
+    "latitude": 41.9029,
+    "longitude": 12.4534,
+    "confidence": 0.9,
+    "source_url": "https://www.vatican.va"
+  },
+  "artwork": {
+    "title": "The Virgin Mary in Prayer",
+    "maker": "Sassoferrato (Giovanni Battista Salvi)",
+    "date_label": "c. 1640–1650",
+    "source_url": "https://www.metmuseum.org/art/collection/search/437344",
+    "status": "Public Domain"
+  },
+  "sources": [
+    [
+      "General Roman Calendar",
+      "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_19880328_calendarium-romanum_en.html",
+      "official"
+    ],
+    [
+      "Universal Norms on the Liturgical Year and the Calendar",
+      "https://www.liturgyoffice.org.uk/Calendar/Info/UNLYC.pdf",
+      "magisterial"
+    ]
+  ],
+  "app_hooks": {
+    "hero_line_en": "Mary kept all these things, reflecting on them in her heart. (Luke 2:19)",
+    "prayer_prompt_en": "Pray the Angelus or a Marian antiphon, entrusting your Saturday to Our Lady's intercession."
+  }
+}

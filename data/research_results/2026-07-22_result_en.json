@@ -1,0 +1,56 @@
+{
+  "id": "2026-07-22-st-mary-magdalene",
+  "date": "2026-07-22",
+  "weekday": "Wednesday",
+  "mock_priority": 1,
+  "liturgical": {
+    "rank": "Feast",
+    "color": "White",
+    "title_en": "Feast of St. Mary Magdalene, Apostle to the Apostles"
+  },
+  "calendars": {
+    "julian": "2026-07-09",
+    "hebrew": "8 Av 5786",
+    "islamic_umm_al_qura": "8 Safar 1448 AH",
+    "coptic": "15 Epip 1742",
+    "ethiopian": "15 Hamle 2018"
+  },
+  "primary": {
+    "type": "Feast",
+    "title_en": "St. Mary Magdalene",
+    "summary_en": "Celebrating St. Mary Magdalene, known as the Apostle to the Apostles for her role in announcing the Resurrection.",
+    "body_en": "St. Mary Magdalene, a devoted follower of Jesus, witnessed the Crucifixion and was the first to encounter the Risen Lord. She announced the Resurrection to the disciples, earning the title 'Apostle to the Apostles.' Her feast day honors her witness and evangelizing mission.",
+    "confidence": 0.95,
+    "confidence_note_en": "Based on the General Roman Calendar and universal liturgical tradition."
+  },
+  "place": {
+    "name": "Magdala, Israel",
+    "latitude": 32.8244,
+    "longitude": 35.5139,
+    "confidence": 0.8,
+    "source_url": "https://en.wikipedia.org/wiki/Magdala"
+  },
+  "artwork": {
+    "title": "St. Mary Magdalene",
+    "maker": "Caravaggio",
+    "date_label": "1606",
+    "source_url": "https://www.wga.hu/html_m/c/caravagg/",
+    "status": "Public Domain"
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_19690321_calendarium-romanum_en.html",
+      "type": "official"
+    },
+    {
+      "label": "Wikipedia: Mary Magdalene",
+      "url": "https://en.wikipedia.org/wiki/Mary_Magdalene",
+      "type": "reference"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "She ran to tell the disciples: 'I have seen the Lord!'",
+    "prayer_prompt_en": "St. Mary Magdalene, pray for us that we may proclaim the Risen Christ with courage."
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "schema_version": "anno.filler.v1",
+  "generated_on": "2026-07-15",
+  "description": "Pre-generated Ordinary Time filler entries. Use when real content is unavailable.",
+  "entries": [
+    {
+      "id": "anno-ordinary-1",
+      "date": "FILLER",
+      "weekday": "Sunday",
+      "mock_priority": "filler",
+      "liturgical": {
+        "rank": "Sunday in Ordinary Time",
+        "color": "green",
+        "title_en": "Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật Thường Niên"
+      },
+      "calendars": {
+        "julian": "N/A",
+        "hebrew": "N/A",
+        "islamic_umm_al_qura": "N/A",
+        "coptic": "N/A",
+        "ethiopian": "N/A"
+      },
+      "primary": {
+        "type": "feria",
+        "title_en": "Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật Thường Niên",
+        "summary_en": "The liturgical season of Ordinary Time invites us to grow in holiness through the rhythms of daily life. Sundays celebrate the Resurrection — the foundation of our faith. In the Eucharist, we encounter the Risen Christ and are sent forth to carry His love into the world.",
+        "summary_vi": "Mùa Thường Niên mời gọi chúng ta thánh hóa qua nhịp sống hàng ngày. Chúa Nhật kính Phục Sinh — nền tảng đức tin. Trong Thánh Thể, chúng ta gặp Đức Kitô Phục Sinh và được sai đi mang tình yêu Ngài vào thế giới.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard Roman liturgical calendar.",
+        "confidence_note_vi": "Lịch phụng vụ Rôma thông lệ."
+      },
+      "place": null,
+      "artwork": {
+        "title": "The Resurrection of Christ",
+        "maker": "Raphael",
+        "date_label": "c. 1499-1502",
+        "source_url": "https://en.wikipedia.org/wiki/The_Resurrection_of_Christ_(Raphael)",
+        "status": "Public Domain"
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar",
+          "type": "liturgical"
+        }
+      ],
+      "appHooks": {
+        "hero_line_en": "Today we celebrate the Risen Christ — present in every Eucharist, every act of love, every moment of mercy.",
+        "hero_line_vi": "Hôm nay chúng ta kính nhớ Đức Kitô Phục Sinh — hiện diện trong mỗi Thánh thể, mỗi hành động yêu thương, mỗi giây phút thương xót.",
+        "prayer_prompt_en": "Lord, help me to see Your presence in the ordinary moments of this day.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những giây phút thường ngày."
+      }
+    },
+    {
+      "id": "anno-ordinary-2",
+      "date": "FILLER",
+      "weekday": "Monday",
+      "mock_priority": "filler",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Monday in Ordinary Time",
+        "title_vi": "Thứ Hai Thường Niên"
+      },
+      "calendars": {
+        "julian": "N/A",
+        "hebrew": "N/A",
+        "islamic_umm_al_qura": "N/A",
+        "coptic": "N/A",
+        "ethiopian": "N/A"
+      },
+      "primary": {
+        "type": "feria",
+        "title_en": "Monday in Ordinary Time",
+        "title_vi": "Thứ Hai Thường Niên",
+        "summary_en": "Mondays begin the work week with fresh intention. St. Josemaría Escrivá taught that ordinary work — sweeping floors, answering emails, cooking meals — becomes prayer when offered to God. Today, offer your labor as a gift.",
+        "summary_vi": "Thứ Hai mở đầu tuần làm việc với ý hướng mới. Thánh Josemaría Escrivá dạy rằng công việc thường nhật — quét nhà, trả lời email, nấu cơ meal — trở thành cầu nguyện khi dâng lên Chúa. Hôm nay, hãy dâng lên Chúa công việc của bạn.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard liturgical calendar.",
+        "confidence_note_vi": "Lịch phụng vụ thông lệ."
+      },
+      "place": null,
+      "artwork": {
+        "title": "The Angelus",
+        "maker": "Jean-François Millet",
+        "date_label": "1857-1859",
+        "source_url": "https://en.wikipedia.org/wiki/The_Angelus_(painting)",
+        "status": "Public Domain"
+      },
+      "sources": [
+        {
+          "label": "USCCB Daily Readings",
+          "url": "https://bible.usccb.org/bible/readings",
+          "type": "liturgical"
+        }
+      ],
+      "appHooks": {
+        "hero_line_en": "Work is not merely a means to an end. It is a form of prayer.",
+        "hero_line_vi": "Công việc không chỉ là phương tiện. Đó là một hình thức cầu nguyện.",
+        "prayer_prompt_en": "God of work and rest, bless the labor of my hands today.",
+        "prayer_prompt_vi": "Thiên Chúa của lao động và nghỉ ngơi, xin chúc lành cho công việc của con hôm nay."
+      }
+    },
+    {
+      "id": "anno-ordinary-3",
+      "date": "FILLER",
+      "weekday": "Tuesday",
+      "mock_priority": "filler",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Tuesday in Ordinary Time",
+        "title_vi": "Thứ Ba Thường Niên"
+      },
+      "calendars": {
+        "julian": "N/A",
+        "hebrew": "N/A",
+        "islamic_umm_al_qura": "N/A",
+        "coptic": "N/A",
+        "ethiopian": "N/A"
+      },
+      "primary": {
+        "type": "feria",
+        "title_en": "Tuesday in Ordinary Time",
+        "title_vi": "Thứ Ba Thường Niên",
+        "summary_en": "The Psalms teach us to pray in all seasons. Psalm 63 opens: 'O God, you are my God, for you I long; for you my soul is thirsting.' Let this ancient prayer shape your Tuesday — thirsting not for success, but for the living God.",
+        "summary_vi": "Thánh Vịnh dạy chúng ta cầu nguyện trong mọi mùa. Thánh Vịnh 63 mở đầu: 'Lạy Chúa là Chúa của con, con khát Chúa, linh hồn con khao khát Chúa.' Để lời cầu nguyện cổ xưa định hình Thứ Ba của bạn — khao khát không phải thành công, nhưng là Chúa Hằng Sống.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Psalm 63:2 (NABRE).",
+        "confidence_note_vi": "Thánh Vịnh 63:2."
+      },
+      "place": null,
+      "artwork": {
+        "title": "King David Playing the Harp",
+        "maker": "Rembrandt",
+        "date_label": "c. 1629-1630",
+        "source_url": "https://en.wikipedia.org/wiki/King_David_Playing_the_Harp_(Rembrandt)",
+        "status": "Public Domain"
+      },
+      "sources": [
+        {
+          "label": "Psalm 63:2 (NABRE)",
+          "url": "https://bible.usccb.org/bible/psalms/063.cfm",
+          "type": "liturgical"
+        }
+      ],
+      "appHooks": {
+        "hero_line_en": "My soul is thirsting for You, O Lord, more than the dawn for daylight.",
+        "hero_line_vi": "Linh hồn con khao khát Chúa, lạy Chúa, hơn người khát nước chờ rạng đông.",
+        "prayer_prompt_en": "Lord, quench my deepest thirst with Your presence.",
+        "prayer_prompt_vi": "Lạy Chúa, xin thỏa cơn khát sâu thẳm nhất của con bằng sự hiện diện của Chúa."
+      }
+    },
+    {
+      "id": "anno-ordinary-4",
+      "date": "FILLER",
+      "weekday": "Wednesday",
+      "mock_priority": "filler",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Wednesday in Ordinary Time",
+        "title_vi": "Thứ Tư Thường Niên"
+      },
+      "calendars": {
+        "julian": "N/A",
+        "hebrew": "N/A",
+        "islamic_umm_al_qura": "N/A",
+        "coptic": "N/A",
+        "ethiopian": "N/A"
+      },
+      "primary": {
+        "type": "feria",
+        "title_en": "Wednesday in Ordinary Time",
+        "title_vi": "Thứ Tư Thường Niên",
+        "summary_en": "St. Teresa of Ávila wrote: 'Christ has no body now but yours. No hands, no feet on earth but yours.' Midweek is when we need this reminder most — that our hands, our feet, our words are Christ's instruments in the world.",
+        "summary_vi": "Thánh Teresa Ávila viết: 'Kitô giờ đây không có thân mình nào khác ngoài thân mình của bạn. Không có bàn tay, bàn chân nào trên trái đất ngoài bàn tay, bàn chân của bạn.' Giữa tuần là lúc chúng ta cần nhắc nhở này nhất — rằng bàn tay, bàn chân, lời nói của chúng ta là dụng cụ của Kitô trên thế giới.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Attributed to St. Teresa of Ávila, widely cited in Catholic tradition.",
+        "confidence_note_vi": "Được gán cho Thánh Teresa Ávila, trích dẫn rộng rãi trong truyền thống Công giáo."
+      },
+      "place": null,
+      "artwork": {
+        "title": "Saint Teresa of Ávila",
+        "maker": "Francisco de Zurbarán",
+        "date_label": "c. 1630-1632",
+        "source_url": "https://en.wikipedia.org/wiki/Saint_Teresa_of_%C3%81vila_(Zurbar%C3%A1n)",
+        "status": "Public Domain"
+      },
+      "sources": [
+        {
+          "label": "St. Teresa of Ávila, Interior Castle",
+          "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/",
+          "type": "biographical"
+        }
+      ],
+      "appHooks": {
+        "hero_line_en": "Christ has no body now but yours.",
+        "hero_line_vi": "Kitô giờ đây không có thân mình nào khác ngoài thân mình của bạn.",
+        "prayer_prompt_en": "Lord, let me be Your hands in the world today.",
+        "prayer_prompt_vi": "Lạy Chúa, xin để con là bàn tay của Chúa trên thế giới hôm nay."
+      }
+    },
+    {
+      "id": "anno-ordinary-5",
+      "date": "FILLER",
+      "weekday": "Thursday",
+      "mock_priority": "filler",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Thursday in Ordinary Time",
+        "title_vi": "Thứ Năm Thường Niên"
+      },
+      "calendars": {
+        "julian": "N/A",
+        "hebrew": "N/A",
+        "islamic_umm_al_qura": "N/A",
+        "coptic": "N/A",
+        "ethiopian": "N/A"
+      },
+      "primary": {
+        "type": "feria",
+        "title_en": "Thursday in Ordinary Time",
+        "title_vi": "Thứ Năm Thường Niên",
+        "summary_en": "Thursdays are traditional days of Eucharistic devotion — a reminder that Christ instituted the Eucharist on a Thursday evening. Visit a church for adoration, or simply pause at noon to remember: He is truly present in the tabernacle.",
+        "summary_vi": "Thứ Năm là ngày truyền thống thờ phượng Thánh Thể — nhắc nhở rằng Đức Kitô đã thiết lập Thánh Thể vào tối Thứ Năm. Đến nhà thờ chầu, hoặc đơn giản dừng lại lúc 12 giờ để nhớ: Ngài thực sự hiện diện trong nhà tạm.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Traditional Eucharistic devotion day in the Roman Rite.",
+        "confidence_note_vi": "Ngày thờ phượng Thánh Thể truyền thống trong nghi thức Rôma."
+      },
+      "place": null,
+      "artwork": {
+        "title": "The Last Supper",
+        "maker": "Leonardo da Vinci",
+        "date_label": "1495-1498",
+        "source_url": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo_da_Vinci)",
+        "status": "Public Domain"
+      },
+      "sources": [
+        {
+          "label": "USCCB — The Mass: The Eucharist",
+          "url": "https://www.usccb.org/prayer-and-worship/the-mass",
+          "type": "liturgical"
+        }
+      ],
+      "appHooks": {
+        "hero_line_en": "He took bread, said the blessing, broke it, and gave it to them.",
+        "hero_line_vi": "Ngài cầm bánh, đọc lời chúc tụng, bẻ ra và trao cho các ông.",
+        "prayer_prompt_en": "Jesus, thank You for the gift of Your Body and Blood. Help me to receive You worthily.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, cảm tạ Chúa vì hồng ân Mình và Máu. Xin giúp con rước Chúa cách xứng đáng."
+      }
+    },
+    {
+      "id": "anno-ordinary-6",
+      "date": "FILLER",
+      "weekday": "Friday",
+      "mock_priority": "filler",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Friday in Ordinary Time",
+        "title_vi": "Thứ Sáu Thường Niên"
+      },
+      "calendars": {
+        "julian": "N/A",
+        "hebrew": "N/A",
+        "islamic_umm_al_qura": "N/A",
+        "coptic": "N/A",
+        "ethiopian": "N/A"
+      },
+      "primary": {
+        "type": "feria",
+        "title_en": "Friday in Ordinary Time",
+        "title_vi": "Thứ Sáu Thường Niên",
+        "summary_en": "Fridays remind us of the Cross. The Church asks the faithful to practice penance on Fridays — not as punishment, but as a participation in Christ's sacrifice. A small act of denial today (fasting, almsgiving, patience) unites you to the Cross.",
+        "summary_vi": "Thứ Sáu nhắc nhở chúng ta về Thánh Giá. Hội Thánh yêu cầu tín hữu thực hành đền tội vào ngày Thứ Sáu — không phải hình phạt, mà là tham gia vào cuộc tế lễ của Chúa Kitô. Một hành động từ chối nhỏ hôm nay (ăn chay, bố thí, kiên nhẫn) kết nối bạn với Thánh Giá.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Code of Canon Law, Canon 1249.",
+        "confidence_note_vi": "Bộ luật Giáo luật, Điều 1249."
+      },
+      "place": null,
+      "artwork": {
+        "title": "Christ Carrying the Cross",
+        "maker": "Caravaggio",
+        "date_label": "1605",
+        "source_url": "https://en.wikipedia.org/wiki/Christ_Carrying_the_Cross_(Caravaggio)",
+        "status": "Public Domain"
+      },
+      "sources": [
+        {
+          "label": "Code of Canon Law, Canon 1249",
+          "url": "http://www.vatican.va/archive/ENG1104/__P3Z.HTM",
+          "type": "liturgical"
+        }
+      ],
+      "appHooks": {
+        "hero_line_en": "Take up your cross. Not tomorrow. Today.",
+        "hero_line_vi": "Hãy vác thập giá. Không phải ngày mai. Hôm nay.",
+        "prayer_prompt_en": "Lord, unite my small sacrifices to Your great sacrifice on the Cross.",
+        "prayer_prompt_vi": "Lạy Chúa, xin kết nối những hy sinh nhỏ của con với cuộc tế lễ lớn lao của Chúa trên Thánh Giá."
+      }
+    },
+    {
+      "id": "anno-ordinary-7",
+      "date": "FILLER",
+      "weekday": "Saturday",
+      "mock_priority": "filler",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Saturday in Ordinary Time",
+        "title_vi": "Thứ Bảy Thường Niên"
+      },
+      "calendars": {
+        "julian": "N/A",
+        "hebrew": "N/A",
+        "islamic_umm_al_qura": "N/A",
+        "coptic": "N/A",
+        "ethiopian": "N/A"
+      },
+      "primary": {
+        "type": "feria",
+        "title_en": "Saturday in Ordinary Time",
+        "title_vi": "Thứ Bảy Thường Niên",
+        "summary_en": "Saturday is Our Lady's day — the Church rests on Saturday as Mary rested between the Crucifixion and Resurrection. Entrust your week to her intercession. She who held Christ in her arms holds you in her heart.",
+        "summary_vi": "Thứ Bảy là ngày của Đức Mẹ — Hội Thánh nghỉ ngơi vào Thứ Bảy như Đức Maria đã nghỉ giữa cuộc Crucifixion và Phục Sinh. Dâng tuần của bạn qua sự chuyển cầu của Ngài. Đấng đã ẵm Chúa trong tay đang ẵm bạn trong trái tim.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Traditional Marian devotion day.",
+        "confidence_note_vi": "Ngày sùng kính Đức Maria truyền thống."
+      },
+      "place": null,
+      "artwork": {
+        "title": "The Madonna of the Rosary",
+        "maker": "Caravaggio",
+        "date_label": "c. 1607",
+        "source_url": "https://en.wikipedia.org/wiki/Madonna_of_the_Rosary_(Caravaggio)",
+        "status": "Public Domain"
+      },
+      "sources": [
+        {
+          "label": "Catholic Culture — Saturday Devotion to Mary",
+          "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/",
+          "type": "liturgical"
+        }
+      ],
+      "appHooks": {
+        "hero_line_en": "Mary held Christ in her arms. She holds you in her heart.",
+        "hero_line_vi": "Đức Maria đã ẵm Chúa trong tay. Ngài đang ẵm bạn trong trái tim.",
+        "prayer_prompt_en": "Mary, Mother of the Church, intercede for me this day and always.",
+        "prayer_prompt_vi": "Lạy Đức Maria, Mẹ Hội Thánh, xin chuyển cầu cho con ngày hôm nay và mãi mãi."
+      }
+    }
+  ]
+}

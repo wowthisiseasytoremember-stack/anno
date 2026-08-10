@@ -1,0 +1,51 @@
+{
+  "id": "anno-2026-07-18",
+  "date": "2026-07-18",
+  "weekday": "Saturday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of the Eighth Week in Ordinary Time",
+    "title_vi": "Thứ Bảy của tuần thứ tám trong Thường Niên"
+  },
+  "calendars": {
+    "julian": "2026-07-05",
+    "hebrew": "4 Av 5786",
+    "islamic_umm_al_qura": "4 Safar 1448 AH",
+    "coptic": "11 Epip 1742",
+    "ethiopian": "11 Hamle 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Eighth Week in Ordinary Time",
+    "title_vi": "Thứ Bảy của tuần thứ tám trong Thường Niên",
+    "summary_en": "This day is a weekday (feria) within the liturgical season of Ordinary Time. No specific saint or feast is celebrated, allowing the faithful to focus on the ongoing mystery of Christ's life and teachings. The liturgical color green symbolizes hope and growth in the spiritual life.",
+    "summary_vi": "Ngày này là một ngày ferial trong mùa Thường Niên. Không có lễ hội hay lễ kỷ niệm bất kỳ聖人 nào, cho phép tín tập tập trung vào bí mật không ngừng của cuộc đời và sự dạy dỗ của Kitô. Màu xanh lá biểu tượng của hy vọng và sự tăng trưởng trong cuộc sống linh hồn.",
+    "body_en": "Ordinary Time, which comprises the weeks outside the major seasons of Advent, Christmas, Lent, and Easter, occupies the majority of the liturgical year. Its green vestments reflect the Church's focus on the growth of the Kingdom of God in the everyday lives of believers. The readings for Saturdays in Ordinary Time typically follow a semicontinuous pattern through the Gospels, allowing the faithful to hear the teachings of Jesus in sequence.\n\nThe structure of Ordinary Time was refined after the Second Vatican Council, which sought to emphasize the paschal mystery throughout the year rather than concentrating it solely in the strong seasons. The weeks are numbered sequentially from the Monday after Pentecost, with each week beginning on Sunday. Thus, July 18, 2026 falls within the Eighth Week, specifically on its Saturday.\n\nWhile no particular saint is commemorated on this date, the day invites reflection on the universal call to holiness. The faithful are encouraged to attend Mass, engage in personal prayer, and live out the Gospel values in their families and workplaces, letting the green of the vestments remind them of the hope that springs from faith in the Risen Christ.",
+    "body_vi": "Thường Niên là những tuần nằm ngoài các mùa chính như Giáng Sinh, Phục Vụ, Cứu Chuộc và Lễ Phục Sinh, chiếm phần lớn trong năm lễ nghi. Áo lễ nghi màu xanh lá thể hiện sự tập trung của Giáo hội vào sự tăng trưởng của Thiên Vương Chúa trong đời thường của tín hữu. Các bài đọc vào các Thứ Bảy trong Thường Niên thường theo một liên tục bán liên tục qua các福音, cho phép tín hữu nghe thấy sự dạy dỗ của Jesus theo trình tự.\n\nCấu trúc Thường Niên được chỉnh sửa sau Hội Đồng Vatican II, khi mục tiêu là nhấn mạnh bí mật paschal quanh năm thay vì chỉ tập trung vào các mùa mạnh. Các tuần được tính liên tục từ Thứ Hai sau lễ Phục Sinh, mỗi tuần bắt đầu từ Chủ Nhật. Vì vậy, ngày 18/7/2026 nằm trong Tuần thứ tám, cụ thể là Thứ Bảy của tuần này.\n\nMặc dù không có lễ kỷ niệm bất kỳ聖人 nào trong ngày này, ngày này mời gọi sự suy ngẫm về lời kêu gọi đến圣洁 chung chung. Các tín hữu được khuyến khích tham dự lễ Mis, tham gia cầu nguyện cá nhân, và sống出 giá trị福音 trong gia đình và nơi làm việc, để màu xanh lá của áo lễ nghi nhắc nhở họ về niềm hy vọng phát sinh từ đức tin vào Kitô Phục Sinh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls within Ordinary Time based on the liturgical calendar; the week number is calculable from the date of Pentecost 2026.",
+    "confidence_note_vi": "Ngày này thuộc Thường Niên dựa trên lịch lễ nghi; số tuần có thể tính được từ ngày lễ Phục Sinh năm 2026."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed",
+    "source_url": ""
+  },
+  "artwork": {
+    "title": "Liturgical Green Vestment",
+    "maker": null,
+    "date_label": "20th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_green_vestment.jpg",
+    "status": "placeholder_only"
+  },
+  "app_hooks": {
+    "hero_line_en": "Saturday of the Eighth Week in Ordinary Time – growing in hope",
+    "hero_line_vi": "Thứ Bảy của tuần thứ tám trong Thường Niên – phát triển trong hy vọng",
+    "prayer_prompt_en": "Ask God to help you grow in faith and love as you walk through the ordinary days of life.",
+    "prayer_prompt_vi": "Xin Chúa giúp bạn tăng trưởng trong đức tin và tình yêu khi bước qua những ngày thường của cuộc sống."
+  }
+}

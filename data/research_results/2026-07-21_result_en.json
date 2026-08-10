@@ -1,0 +1,61 @@
+{
+  "id": "2026-07-21",
+  "date": "2026-07-21",
+  "weekday": "Tuesday",
+  "mock_priority": 3,
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "White",
+    "title_en": "St. Lawrence of Brindisi, Doctor of the Church"
+  },
+  "calendars": {
+    "julian": "2026-07-08",
+    "hebrew": "7 Av 5786",
+    "islamic_umm_al_qura": "7 Safar 1448 AH",
+    "coptic": "14 Epip 1742",
+    "ethiopian": "14 Hamle 2018"
+  },
+  "primary": {
+    "type": "Optional Memorial",
+    "title_en": "St. Lawrence of Brindisi, Doctor of the Church",
+    "summary_en": "Optional Memorial of St. Lawrence of Brindisi (1559–1619), Capuchin friar, theologian, and Doctor of the Church, known for his preaching, diplomatic missions, and Marian devotion.",
+    "body_en": "St. Lawrence of Brindisi, born Giulio Cesare Russo in Brindisi, Italy, joined the Capuchin Order and became a renowned preacher and scholar. He served as definitor general of the order, undertook diplomatic missions for the papacy, and led Christian forces at the Battle of Székesfehérvár. His writings include extensive biblical commentaries and Mariological works. He was canonized in 1881 and declared a Doctor of the Church in 1959 by Pope John XXIII.",
+    "confidence": 0.97,
+    "confidence_note_en": "Based on the General Roman Calendar and historical records."
+  },
+  "place": {
+    "name": "Brindisi, Italy",
+    "latitude": 40.6389,
+    "longitude": 17.9461,
+    "confidence": 0.95,
+    "source_url": "https://en.wikipedia.org/wiki/Brindisi"
+  },
+  "artwork": {
+    "title": "Statue of St. Lawrence of Brindisi",
+    "maker": "Unknown sculptor",
+    "date_label": "20th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_Saint_Lawrence_of_Brindisi.jpg",
+    "status": "public_domain"
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20200101_calendario-romano_en.html",
+      "type": "official"
+    },
+    {
+      "label": "Wikipedia: Lawrence of Brindisi",
+      "url": "https://en.wikipedia.org/wiki/Lawrence_of_Brindisi",
+      "type": "reference"
+    },
+    {
+      "label": "Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/09085a.htm",
+      "type": "reference"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Proclaim the Word with courage and love, following the example of St. Lawrence of Brindisi.",
+    "prayer_prompt_en": "Ask St. Lawrence to intercede for a deeper understanding of Scripture and a zeal for sharing the Gospel."
+  }
+}
