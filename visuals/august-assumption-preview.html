@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Anno — TodayView Preview</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, 'New York', 'Georgia', 'Times New Roman', serif;
+    background: #1a1610;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  .phone-frame {
+    width: 100%;
+    max-width: 393px;
+    min-height: 100vh;
+    background: #1a1610;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* Background atmosphere — RadialGradient matching AnnoTheme.narthex */
+  .bg-atmosphere {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 300px;
+    background: radial-gradient(ellipse at 50% 0%, rgba(218,165,32,0.08) 0%, transparent 70%),
+                #1a1610;
+    z-index: 0;
+  }
+
+  .scroll-content {
+    position: relative;
+    z-index: 1;
+    padding: 16px 20px 48px;
+  }
+
+  /* ─── TODAY label ─── */
+  .today-label {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: -apple-system, 'Inter', sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #8b8170;
+    padding-top: 24px;
+    margin-bottom: 8px;
+  }
+
+  .date-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'New York', 'Georgia', serif;
+    color: #f5f0e6;
+    margin-bottom: 12px;
+  }
+
+  /* ─── Calendar Pills ─── */
+  .pills-scroll {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 4px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .pills-scroll::-webkit-scrollbar { display: none; }
+
+  .pill {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: -apple-system, 'Inter', sans-serif;
+    color: #8b8170;
+    padding: 5px 10px;
+    border-radius: 100px;
+    border: 1px solid #3a3530;
+    white-space: nowrap;
+  }
+
+  /* ─── Header Section ─── */
+  .header-section {
+    margin-bottom: 24px;
+  }
+  .header-title {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'New York', 'Georgia', serif;
+    color: #f5f0e6;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .header-hero {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'New York', 'Georgia', serif;
+    color: #d4b873;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .rank-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 100px;
+    background: #25211c;
+    border: 1px solid #3a3530;
+  }
+  .rank-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  .rank-dot.white { background: #f5f0e6; border: 1px solid rgba(255,255,255,0.3); }
+  .rank-dot.red { background: #c0392b; }
+  .rank-dot.green { background: #27ae60; }
+  .rank-dot.purple { background: #7d3c98; }
+  .rank-text {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: -apple-system, 'Inter', sans-serif;
+    color: #f5f0e6;
+    text-transform: capitalize;
+  }
+
+  /* ─── Artwork Card ─── */
+  .artwork-card {
+    margin-bottom: 20px;
+  }
+  .artwork-image {
+    width: 100%;
+    aspect-ratio: 1.35;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #2a2520 0%, #201c18 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #8b8170;
+    margin-bottom: 12px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  }
+  .artwork-image .placeholder-icon {
+    font-size: 48px;
+    margin-bottom: 8px;
+    opacity: 0.3;
+  }
+  .artwork-image .placeholder-label {
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'New York', 'Georgia', serif;
+    text-align: center;
+    padding: 0 24px;
+    line-height: 1.5;
+    opacity: 0.6;
+  }
+  .artwork-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .artwork-title {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'New York', 'Georgia', serif;
+    color: #f5f0e6;
+    line-height: 1.2;
+    flex: 1;
+  }
+  .artwork-badge {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: -apple-system, 'Inter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #25211c;
+    background: #d4b873;
+    padding: 3px 8px;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  .artwork-maker {
+    font-size: 12px;
+    font-family: -apple-system, 'Inter', sans-serif;
+    color: #8b8170;
+    margin-top: 4px;
+  }
+
+  /* ─── Quick Actions Bar ─── */
+  .actions-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .sources-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 100px;
+    background: #25211c;
+    border: 1px solid #3a3530;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system, 'Inter', sans-serif;
+    color: #f5f0e6;
+    cursor: default;
+  }
+  .sources-btn svg { width: 16px; height: 16px; fill: #f5f0e6; }
+  .spacer { flex: 1; }
+  .confidence-badge {
+    padding: 4px 10px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: -apple-system, 'Inter', sans-serif;
+  }
+  .confidence-badge.confirmed { background: #1a3a1a; color: #6bbf6b; }
+  .bookmark-btn {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: #25211c;
+    border: 1px solid #3a3530;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8b8170;
+    cursor: default;
+  }
+  .bookmark-btn svg { width: 16px; height: 16px; fill: #8b8170; }
+
+  /* ─── Card ─── */
+  .card {
+    background: #25211c;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+
+  .card .card-text {
+    font-size: 16px;
+    font-family: 'New York', 'Georgia', serif;
+    line-height: 1.65;
+    color: #f5f0e6;
+  }
+
+  /* ─── Sacred Place Card ─── */
+  .place-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+  .place-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'New York', 'Georgia', serif;
+    color: #f5f0e6;
+  }
+  .place-name svg { width: 18px; height: 18px; fill: #d4b873; }
+  .place-coords {
+    font-size: 12px;
+    font-family: -apple-system, 'Inter', sans-serif;
+    color: #8b8170;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+  }
+  .maps-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #d4b873;
+    text-decoration: none;
+  }
+  .maps-link svg { width: 12px; height: 12px; fill: #d4b873; }
+
+  /* ─── Prayer Card ─── */
+  .prayer-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .prayer-header svg { width: 18px; height: 18px; fill: #d4b873; }
+  .prayer-header span {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'New York', 'Georgia', serif;
+    color: #d4b873;
+  }
+  .prayer-body {
+    font-size: 16px;
+    font-family: 'New York', 'Georgia', serif;
+    line-height: 1.65;
+    color: #f5f0e6;
+  }
+
+  /* ─── Source Confidence Card ─── */
+  .confidence-note {
+    font-size: 14px;
+    font-family: 'New York', 'Georgia', serif;
+    line-height: 1.5;
+    color: #8b8170;
+    margin-bottom: 12px;
+  }
+  .read-sources {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, 'Inter', sans-serif;
+    color: #d4b873;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .read-sources svg { width: 12px; height: 12px; fill: #d4b873; }
+
+  /* ─── Data badge (header) ─── */
+  .data-badge {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  .data-badge span {
+    font-size: 11px;
+    font-family: -apple-system, 'Inter', sans-serif;
+    color: #5a5550;
+    background: #201c18;
+    padding: 4px 12px;
+    border-radius: 100px;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #2a2520;
+    margin: 20px 0;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 600;
+    font-family: -apple-system, 'Inter', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #5a5550;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  /* ─── Mini alternative: St. Lawrence ─── */
+  .mini-entry {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: #25211c;
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+  .mini-entry .mini-day {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    flex-shrink: 0;
+  }
+  .mini-entry .mini-info { flex: 1; }
+  .mini-entry .mini-info .mini-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f5f0e6;
+    font-family: 'New York', 'Georgia', serif;
+  }
+  .mini-entry .mini-info .mini-sub {
+    font-size: 11px;
+    color: #8b8170;
+    margin-top: 2px;
+  }
+  .mini-entry .mini-rank {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+<div class="phone-frame">
+  <div class="bg-atmosphere"></div>
+  <div class="scroll-content">
+
+    <!-- TODAY label -->
+    <div class="today-label">Today</div>
+    <div class="date-title">August 15, 2026 · Saturday</div>
+
+    <!-- Calendar pills -->
+    <div class="pills-scroll">
+      <span class="pill">Julian: 2026-08-02</span>
+      <span class="pill">Hebrew: 2 Elul 5786</span>
+      <span class="pill">Islamic: 2 Rabi' al-Awwal 1448 AH</span>
+      <span class="pill">Coptic: 9 Mesori 1742</span>
+      <span class="pill">Ethiopian: 9 Nehase 2018</span>
+    </div>
+
+    <!-- Header Section -->
+    <div class="header-section">
+      <div class="header-title">Assumption of the Blessed Virgin Mary</div>
+      <div class="header-hero">"The heavenly coronation of the Mother of God"</div>
+      <div class="rank-tag">
+        <span class="rank-dot white"></span>
+        <span class="rank-text">Solemnity · white</span>
+      </div>
+    </div>
+
+    <!-- Artwork Card -->
+    <div class="artwork-card">
+      <div class="artwork-image">
+        <div class="placeholder-icon">🖼️</div>
+        <div class="placeholder-label">Assumption of the Virgin<br>— Titian, 1516–1518</div>
+      </div>
+      <div class="artwork-caption">
+        <div>
+          <div class="artwork-title">Assumption of the Virgin</div>
+          <div class="artwork-maker">Titian · 1516–1518</div>
+        </div>
+        <div class="artwork-badge">Placeholder</div>
+      </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="actions-bar">
+      <div class="sources-btn">
+        <svg viewBox="0 0 24 24"><path d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h10v2H4v-2z"/></svg>
+        Sources (1)
+      </div>
+      <div class="spacer"></div>
+      <div class="confidence-badge confirmed">Confirmed</div>
+      <div class="bookmark-btn">
+        <svg viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
+      </div>
+    </div>
+
+    <!-- Summary Card (shows summary_en in TodayView) -->
+    <div class="card">
+      <div class="card-text">
+        The Solemnity of the Assumption celebrates the dogmatic truth that Mary, the Mother of Jesus, was assumed body and soul into heavenly glory at the end of her earthly life.
+      </div>
+    </div>
+
+    <!-- Body content (scrollable article) — TodayView doesn't show this, but app has it -->
+    <div class="card" style="border-left: 2px solid #d4b873;">
+      <div class="card-text" style="font-size:15px; line-height:1.7;">
+        The dogma of the Assumption of the Blessed Virgin Mary was solemnly defined by Pope Pius XII in his 1950 apostolic constitution <em>Munificentissimus Deus</em>, declaring that the Immaculate Mother of God, having completed the course of her earthly life, was assumed body and soul into heavenly glory. This feast represents the ancient, unbroken tradition of both the Eastern and Western Churches, celebrating Mary's unique participation in the Resurrection of her Son.
+      </div>
+      <div style="margin-top:12px;font-size:11px;color:#5a5550;font-style:italic;">
+        Body content · would expand in article view
+      </div>
+    </div>
+
+    <!-- Sacred Place Card -->
+    <div class="card">
+      <div class="place-header">
+        <div class="place-name">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          Tomb of the Virgin Mary, Jerusalem, Israel
+        </div>
+        <div class="confidence-badge confirmed" style="font-size:10px;">Traditional</div>
+      </div>
+      <div class="place-coords">31.7801, 35.2396</div>
+      <a class="maps-link" href="#">
+        Open in Maps
+        <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+      </a>
+    </div>
+
+    <!-- Prayer Prompt Card -->
+    <div class="card">
+      <div class="prayer-header">
+        <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+        <span>Prayer prompt</span>
+      </div>
+      <div class="prayer-body">
+        "Look up to Mary assumed into heaven as a sure sign of hope for your future resurrection."
+      </div>
+    </div>
+
+    <!-- Source Confidence Card -->
+    <div class="card">
+      <div class="confidence-note">
+        Pius XII's ex cathedra declaration in 1950 solidified the August 15 date of the Assumption as a solemnity of the highest class.
+      </div>
+      <div class="read-sources">
+        Read sources
+        <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+      </div>
+    </div>
+
+    <!-- Data Badge -->
+    <div class="data-badge">
+      <span>Engine B · Catholic Research · August 15, 2026</span>
+    </div>
+
+    <hr>
+
+    <!-- Week area: other days in the same visual language -->
+    <div class="section-label">Other days this week</div>
+
+    <div class="mini-entry">
+      <div class="mini-day" style="background:#c0392b;">10</div>
+      <div class="mini-info">
+        <div class="mini-title">St. Lawrence, Deacon and Martyr</div>
+        <div class="mini-sub">"These are the treasures of the Church!"</div>
+      </div>
+      <div class="mini-rank" style="color:#c0392b;">Feast</div>
+    </div>
+
+    <div class="mini-entry">
+      <div class="mini-day" style="background:transparent;border:2px solid #3a3530;color:#f5f0e6;">11</div>
+      <div class="mini-info">
+        <div class="mini-title">St. Clare of Assisi</div>
+        <div class="mini-sub">First female Franciscan, defender of the Eucharist</div>
+      </div>
+      <div class="mini-rank" style="color:#f5f0e6;">Memorial</div>
+    </div>
+
+    <div class="mini-entry">
+      <div class="mini-day" style="background:#27ae60;">16</div>
+      <div class="mini-info">
+        <div class="mini-title">20th Sunday in Ordinary Time</div>
+        <div class="mini-sub">John 6:51–58 — The Bread of Life</div>
+      </div>
+      <div class="mini-rank" style="color:#27ae60;">Sunday</div>
+    </div>
+
+    <div style="height:60px;"></div>
+  </div>
+</div>
+</body>
+</html>
