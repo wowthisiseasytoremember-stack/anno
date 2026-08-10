@@ -1,7 +1,7 @@
 ---
 title: STATE
 state: active
-last_active: 2026-07-10
+last_active: 2026-08-10
 ---
 # interfaith-devotional — Project State
 
@@ -32,12 +32,12 @@ last_active: 2026-07-10
 - `docs/research/anno-research-prompt-main.md` — self-contained per-date Engine B prompt
 - `docs/research/anno-research-batch-july17-30.md` — 14 dates ready to fire
 - `docs/research/anno-source-validation-gate.md` — verification rubric
-- `docs/research/anno-site-survey-plan.md` — MMR-ingested 6-sprint execution plan
+- MVP_PLAN_FINAL.md — MMR-ingested active MVP execution plan (stale site survey plan archived to docs/archive/anno-site-survey-plan.md)
 - AGENTS.md stale infra path fixed
 - ROADMAP.md up to date with checkmarks
 
 ## Next Tasks
 
-- **Sprint A (macOS required):** Xcode project scaffold, wire data models, widget target stub
-- **Sprint C (Linux):** Fire Engine B research prompts for July 17-30 or full year
-- **Engine B research pipeline:** Start with 14-day pilot, then scale to 365-day Catholic liturgical year
+- **Sprint 1 (macOS required):** Create Xcode project, import kept SwiftUI views/models, delete out-of-scope Map/Paywall folders, and fix/compile Bookmarks.
+- **Sprint 2 (Linux/Server):** Resolve the missing Vietnamese translations in the August mock batch (`data/mock/anno_august_2026.json`) and run the validation scripts.
+- **Content Generation:** Continue content generation for the remainder of the 365-day liturgical year.
