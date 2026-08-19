@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-07-21",
+  "date": "2026-07-21",
+  "weekday": "Tuesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of the 16th Week in Ordinary Time",
+    "title_vi": "Thứ Ba, Tuần 16 Thường Niên"
+  },
+  "calendars": {
+    "julian": "2026-07-08",
+    "hebrew": "7 Av 5786",
+    "islamic_umm_al_qura": "7 Safar 1448 AH",
+    "coptic": "14 Epip 1742",
+    "ethiopian": "14 Hamle 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the 16th Week in Ordinary Time",
+    "title_vi": "Thứ Ba, Tuần 16 Thường Niên",
+    "summary_en": "This Tuesday falls within Ordinary Time, the liturgical season that focuses on the public life and teachings of Jesus Christ. The vestment color green symbolizes hope and growth in the faith. No specific saint or feast is celebrated, allowing the faithful to reflect on the ongoing mystery of Christ's mission.",
+    "summary_vi": "Thứ Ba này rơi vào Thời Thường Niên, thời kỳ liturgi tập trung vào đời sống công khai và lời dạy của Chúa Jesus. Màu xanh của váy lễ tượng trưng cho hy vọng và sự phát triển trong đức tin. Không có lễ kỉ niệm hay lễ nào cụ thể, cho phép người tin tưởng suy niệm về bí mật không ngừng của sứ mệnh của Đấng Christ.",
+    "body_en": "Ordinary Time comprises the weeks of the liturgical year that are not dedicated to a particular season such as Advent, Christmas, Lent, or Easter. During this period, the Church reads through the Gospels in a semi-continuous fashion, allowing the faithful to walk with Jesus through his ministry, miracles, and teachings. The green vestments worn by priests signify the hope and spiritual growth that comes from meditating on Christ's word.\n\nThe 16th Week of Ordinary Time in 2026 begins with the Sunday of July 19, which is the 16th Sunday of Ordinary Time. The Tuesday of that week, July 21, continues the cycle of readings that typically include passages from the Gospel of Matthew, focusing on Jesus' parables and teachings about the Kingdom of God. This structure encourages a steady, reflective engagement with the Scriptures outside of the intense focus of the major seasons.\n\nHistorically, the development of Ordinary Time as a distinct season emerged from the liturgical reforms of the Second Vatican Council, which sought to restore a balanced distribution of the celebration of the mysteries of Christ throughout the year. The green color, used since the early medieval period, was formally reaffirmed in the post‑conciliar liturgical books as the color of hope and life in the Spirit.",
+    "body_vi": "Thời Thường Niên bao gồm các tuần của năm liturgi không dành cho một mùa cụ thể như Giáng sinh, Đón Đón, Vô Cùng, hoặc Phục Sinh. Trong thời kỳ này, Giáo hội đọc các福音 theo cách liên tục bán liên tục, cho phép người tin tưởng đi cùng Jesus qua sự công việc, các phép lạ và lời dạy của ông. Váy lễ màu xanh mà linh mục đeo tượng trưng cho hy vọng và sự tăng trưởng tinh thần từ việc suy niệm lời của Đấng Christ.\n\nTuần 16 Thường Niên năm 2026 bắt đầu với Chủ Nhật ngày 19 tháng 7, là Chủ Nhật thứ 16 Thường Niên. Thứ Ba của tuần đó, ngày 21 tháng 7, tiếp tục chuỗi đọc thường bao gồm các đoạn từ福音 theo Matthieu, tập trung vào các câu chuyện và lời dạy của Jesus về Vương quốc Đức Chúa Trời. Cấu trúc này khuyến khích một sự tham gia suy ngẫm ổn định với Kinh Thánh bên ngoài sự tập trung mạnh mẽ của các mùa lớn.\n\nLịch sử cho thấy, sự phát triển của Thời Thường Niên như một mùa riêng biệt xuất hiện từ các cải cách liturgi của Hội Đồng Vatican II, nhằm phục hồi một phân phối cân bằng về slavení các mystère của Christ quanh năm. Màu xanh, được sử dụng từ thời trung đại đầu, được xác nhận lại trong sách liturgi sau Hội đồng là màu của hy vọng và sự sống trong Thánh Linh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This date falls within Ordinary Time as per the General Roman Calendar; no proper feast or memorial is assigned.",
+    "confidence_note_vi": "Ngày này rơi vào Thường Niên theo Lịch Tổng quát La Mã; không có lễ kỉ niệm nào được chỉ định."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar/2026"
+  },
+  "artwork": {
+    "title": "Christ Teaching the People",
+    "maker": "Carl Heinrich Bloch",
+    "date_label": "19th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Christ_Teaching_the_People_by_Carl_Heinrich_Bloch.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2026",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar/2026",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Liturgical Year Calendar 2026",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar.cfm?year=2026",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Tuesday of the 16th Week in Ordinary Time – Walking with Christ in the Green Season",
+    "hero_line_vi": "Thứ Ba, Tuần 16 Thường Niên – Đi cùng Chúa trong Mùa Xanh",
+    "prayer_prompt_en": "Reflect on how Jesus’ teachings in the Gospels can guide your daily actions this week.",
+    "prayer_prompt_vi": "Suy niệm về cách lời dạy của Jesus trong các福音 có thể hướng dẫn hành động hàng ngày của bạn trong tuần này."
+  }
+}

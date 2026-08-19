@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-07-29",
+  "date": "2026-07-29",
+  "weekday": "Wednesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Memorial of Saints Martha, Mary, and Lazarus",
+    "title_vi": "Lễ Nhớ các Thánh Martha, Maria và La-xa-rô"
+  },
+  "calendars": {
+    "julian": "2026-07-16",
+    "hebrew": "15 Av 5786",
+    "islamic_umm_al_qura": "15 Safar 1448 AH",
+    "coptic": "22 Epip 1742",
+    "ethiopian": "22 Hamle 2018"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saints Martha, Mary, and Lazarus",
+    "title_vi": "Các Thánh Martha, Maria và La-xa-rô",
+    "summary_en": "Saints Martha, Mary, and Lazarus were siblings living in Bethany, known for their close friendship with Jesus. Martha is remembered for her active service, Mary for her contemplative prayer, and Lazarus for being raised from the dead by Jesus. Their memorial celebrates the virtues of hospitality, faith, and hope in the resurrection.",
+    "summary_vi": "Các Thánh Martha, Maria và La-xa-rô là ba anh chị em sống tại Bêtania, nổi tiếng vì tình bạn thân thiết với Đức Giêsu. Martha được nhớ vì sự phục vụ tích cực, Maria vì sự chiêm niệm cầu nguyện, và La-xa-rô vì đã được Đức Giêsu làm cho sống lại từ cõi chết. Lễ nhớ của các ngài ca ngợi các nhân đức hiếu khách, đức tin và niềm hy vọng vào sự phục sinh.",
+    "body_en": "The biblical accounts of Martha, Mary, and Lazarus appear primarily in the Gospel of John (chapter 11) and the Gospel of Luke (chapter 10). In John, Jesus raises Lazarus from the dead after four days, demonstrating His power over death and prompting faith among many witnesses. In Luke, Jesus visits the home of Martha and Mary; Martha busily serves while Mary sits at Jesus' feet to listen to His teaching, prompting Jesus to affirm that Mary has chosen the better part.\n\nVeneration of the three siblings dates back to early Christianity. Their tomb in Bethany became a pilgrimage site, and various liturgical traditions celebrated them on different days. The General Roman Calendar did not originally include a joint memorial; instead, Martha was celebrated on July 29, Mary of Magdala on July 22, and Lazarus on December 17.\n\nOn February 2, 2021, Pope Francis issued a decree inserting the memorial of Saints Martha, Mary, and Lazarus into the General Roman Calendar, to be observed on July 29. This decision highlighted their collective witness to Jesus' friendship, the balance of action and contemplation, and the hope of resurrection. The memorial is now celebrated worldwide with Mass readings that reflect their scriptural stories.\n\nToday, the memorial invites the faithful to imitate Martha's generous hospitality, Mary's attentive listening to Christ, and Lazarus' trust in Jesus' life-giving power. It serves as a reminder that Christian life integrates both works of mercy and contemplative prayer, grounded in the confidence that Christ conquers death.",
+    "body_vi": "Các câu chuyện Kinh Thánh về Martha, Maria và La-xa-rô xuất hiện chủ yếu trong Tin Mừng theo thánh Gioan (chương 11) và Tin Mừng theo thánh Luca (chương 10). Trong Gioan, Đức Giêsu làm cho La-xa-rô sống lại sau bốn ngày, tỏ quyền năng trên sự chết và khiến nhiều nhân chứng thêm vững tin. Trong Luca, Đức Giêsu viếng nhà Martha và Maria; Martha bận rộn lo việc phục vụ, còn Maria ngồi dưới chân Chúa để lắng nghe lời dạy, và Chúa xác nhận rằng Maria đã chọn phần tốt hơn.\n\nSự tôn kính ba anh chị em này bắt đầu từ thuở đầu của Kitô giáo. Mộ của các ngài tại Bêtania trở thành địa điểm hành hương, và nhiều truyền thống phụng vụ đã mừng các ngài vào những ngày khác nhau. Lịch Roma Tổng Quát ban đầu không ghi lễ nhớ chung; thay vào đó, Martha được mừng ngày 29 tháng 7, Maria Ma-đa-lê-na ngày 22 tháng 7, và La-xa-rô ngày 17 tháng 12.\n\nNgày 2 tháng 2 năm 2021, Đức Giáo hoàng Phanxicô đã ban sắc lệnh đưa lễ nhớ các Thánh Martha, Maria và La-xa-rô vào Lịch Roma Tổng Quát, để được cử hành vào ngày 29 tháng 7. Quyết định này nhấn mạnh chứng nhân chung của các ngài về tình bạn với Đức Giêsu, sự cân bằng giữa hoạt động và chiêm niệm, và niềm hy vọng vào sự phục sinh. Lễ nhớ này hiện được cử hành trên toàn thế giới với các bài đọc trong Thánh Lễ phản ánh các câu chuyện Thánh Kinh về các ngài.\n\nHôm nay, lễ nhớ mời gọi các tín hữu noi gương Martha trong lòng hiếu khách quảng đại, noi gương Maria trong sự lắng nghe Đức Kitô, và noi gương La-xa-rô trong niềm tin vào quyền năng ban sự sống của Chúa. Đây là lời nhắc nhở rằng đời sống Kitô hữu kết hợp cả việc làm từ thiện lẫn chiêm niệm cầu nguyện, đặt nền trên niềm tín thác rằng Đức Kitô đã chiến thắng sự chết.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The memorial was instituted by Pope Francis in 2021 and is listed in the General Roman Calendar.",
+    "confidence_note_vi": "Lễ nhớ này được Đức Giáo hoàng Phanxicô thiết lập năm 2021 và được ghi trong Lịch Roma Tổng Quát."
+  },
+  "place": {
+    "name": "Bethany (Al-Eizariya), West Bank",
+    "latitude": 31.78,
+    "longitude": 35.23,
+    "confidence": "confirmed",
+    "source_url": "https://en.wikipedia.org/wiki/Bethany,_West_Bank"
+  },
+  "artwork": {
+    "title": "Christ in the House of Martha and Mary",
+    "maker": "Diego Velázquez",
+    "date_label": "1618",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_-_Christ_in_the_House_of_Martha_and_Mary_-_Google_Art_Project.jpg",
+    "status": "placeholder_only"
+  },
+  "app_hooks": {
+    "hero_line_en": "Honoring the siblings who welcomed Jesus into their home and heart.",
+    "hero_line_vi": "Tôn vinh ba anh chị em đã đón Đức Giêsu vào nhà và vào lòng.",
+    "prayer_prompt_en": "Lord, teach us to balance service and contemplation as Martha and Mary did, and to trust in Your power over death like Lazarus.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy chúng con biết cân bằng giữa phục vụ và chiêm niệm như Martha và Maria, và tin tưởng vào quyền năng trên sự chết của Chúa như La-xa-rô."
+  },
+  "sources": [
+    {
+      "label": "Vatican News – Pope Francis adds memorial",
+      "url": "https://www.vaticannews.va/en/church/2021/02/pope-francis-martha-mary-lazarus-memorial.html",
+      "type": "vatican"
+    },
+    {
+      "label": "New Advent – Saints Martha, Mary, and Lazarus",
+      "url": "https://www.newadvent.org/cathen/09728a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture – Liturgical calendar entry",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-29",
+      "type": "liturgical_calendar"
+    }
+  ]
+}

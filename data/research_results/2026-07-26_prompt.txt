@@ -1,0 +1,71 @@
+Research the following Catholic liturgical date and produce a JSON entry.
+
+Date: 2026-07-26
+Weekday: Sunday
+
+Calendar conversions (verified, include these exactly):
+- Julian: 2026-07-13
+- Hebrew: 12 Av 5786
+- Islamic (Umm al-Qura): 12 Safar 1448 AH
+- Coptic: 19 Epip 1742
+- Ethiopian: 19 Hamle 2018
+
+Context: Seventeenth Sunday in Ordinary Time — liturgical anchor.
+IMPORTANT: Sunday is a liturgical anchor — the primary content is the Sunday theme, not the saint of the day.
+
+Schema (output ONLY this JSON, no other text):
+
+{
+  "id": "anno-2026-07-26",
+  "date": "2026-07-26",
+  "weekday": "Sunday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity | Feast | Memorial | Optional Memorial | Feria | Sunday",
+    "color": "white | red | green | purple | rose | gold | verdigris",
+    "title_en": "Liturgical title in English",
+    "title_vi": "Tên phụng vụ bằng tiếng Việt"
+  },
+  "calendars": {
+    "julian": "2026-07-13",
+    "hebrew": "12 Av 5786",
+    "islamic_umm_al_qura": "12 Safar 1448 AH",
+    "coptic": "19 Epip 1742",
+    "ethiopian": "19 Hamle 2018"
+  },
+  "primary": {
+    "type": "saint | liturgical_day | feast | solemnity",
+    "title_en": "Primary title",
+    "title_vi": "Tiêu đề chính",
+    "summary_en": "2-4 sentence summary of the day's significance",
+    "summary_vi": "Tóm tắt 2-4 câu về ý nghĩa của ngày này",
+    "body_en": "3-5 paragraph researched article with historical context",
+    "body_vi": "Same content in Vietnamese Catholic terminology",
+    "confidence": "confirmed | traditional | disputed | contextual",
+    "confidence_note_en": "Brief confidence explanation",
+    "confidence_note_vi": "Giải thích ngắn về mức độ tin cậy"
+  },
+  "place": {
+    "name": "Specific location or null",
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed | traditional | disputed | contextual",
+    "source_url": "URL for location claim"
+  },
+  "artwork": {
+    "title": "Title of public domain artwork",
+    "maker": "Artist name or null",
+    "date_label": "Century or year",
+    "source_url": "Wikimedia Commons or museum URL",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {"label": "Short label", "url": "https://actual-verifiable-url", "type": "liturgical_calendar | vatican | encyclopedia | academic | devotional"}
+  ],
+  "app_hooks": {
+    "hero_line_en": "One compelling card header line",
+    "hero_line_vi": "Một dòng hấp dẫn cho tiêu đề thẻ",
+    "prayer_prompt_en": "Short prayer or reflection prompt",
+    "prayer_prompt_vi": "Một lời cầu nguyện ngắn hoặc gợi ý suy niệm"
+  }
+}

@@ -264,7 +264,16 @@ def main() -> None:
     with open(fixture_path) as f:
         fixture = json.load(f)
 
-    entries = fixture.get("entries", [])
+    # Engine B result files are a single entry dict, OR a {"entries": [...]} batch.
+    if isinstance(fixture, dict) and "entries" in fixture:
+        entries = fixture["entries"]
+    elif isinstance(fixture, list):
+        entries = fixture
+    elif isinstance(fixture, dict) and "id" in fixture:
+        # Single-entry result file (one date).
+        entries = [fixture]
+    else:
+        entries = []
     if not entries:
         print("ERROR: Fixture has no entries")
         raise SystemExit(1)

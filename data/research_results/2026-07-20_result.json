@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-07-20",
+  "date": "2026-07-20",
+  "weekday": "Monday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of the 16th Week in Ordinary Time",
+    "title_vi": "Thứ Hai, tuần thứ 16 của Thường Niên"
+  },
+  "calendars": {
+    "julian": "2026-07-07",
+    "hebrew": "6 Av 5786",
+    "islamic_umm_al_qura": "6 Safar 1448 AH",
+    "coptic": "13 Epip 1742",
+    "ethiopian": "13 Hamle 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the 16th Week in Ordinary Time",
+    "title_vi": "Thứ Hai, tuần thứ 16 của Thường Niên",
+    "summary_en": "This day is a ferial weekday within the liturgical season of Ordinary Time. The Church uses green vestments to symbolize hope and growth in the Christian life. No specific saint or feast is celebrated, allowing the faithful to focus on the ongoing teachings of Jesus during his public ministry.",
+    "summary_vi": "Ngày này là một ngày ferial trong thời kỳ Thường Niên của lịch liturgiqú. Gereja dùng váy xanh để tượng trưng cho hy vọng và sự phát triển trong đời sốngKitô giáo. Không có lễ nào của thánh hoặc lễ hội cụ thể, cho phép người tin tập trung vào những bài học không ngừng của Đấng Christ trong cuộc đời công khai của Ngài.",
+    "body_en": "Ordinary Time is the longest season of the liturgical year, encompassing the weeks outside of the major seasons of Advent, Christmas, Lent, and Easter. During this period, the Church meditates on the mystery of Christ in his everyday life and teachings, allowing the faithful to grow in discipleship. The liturgical color green reflects this theme of growth and hope.\n\nOn ferial weekdays such as Monday of the 16th Week in Ordinary Time, there is no proper feast or memorial. The Mass follows the weekday Lectionary (Year A for the 2025‑2026 liturgical year), offering readings that invite reflection on the Gospel message. The prayers and readings emphasize living out the Gospel in the ordinary circumstances of daily life.\n\nThus, this day serves as a reminder that holiness is found not only in extraordinary celebrations but also in the faithful performance of daily duties. By participating in the Mass and praying the Liturgy of the Hours, Christians are called to let the Word of God shape their thoughts, words, and actions throughout the week.",
+    "body_vi": "Thường Niên là mùa dài nhất trong năm liturgiqú, bao gồm các tuần nằm ngoài các mùa lớn như Giáng sinh, Đón Đón, Cứu nạn và Phục sinh. Trong thời gian này, Giáo Chúng suy niệm về bí mật của Đấng Christ trong cuộc sống hàng ngày và lời dạy của Ngài, giúp người tin tăng trưởng trong sự môn đồ. Màu xanh của váy liturgiqú tượng trưng cho chủ đề sự phát triển và hy vọng.\n\nVào những ngày ferial như Thứ Hai, tuần thứ 16 của Thường Niên, không có lễ kỉ niệm hoặc lễ hội cụ thể. Lễ Thứ trong ngày tuân theo Lectionary ngày trong tuần (Năm A cho năm liturgiqú 2025‑2026), cung cấp các bài đọc mời gọi người tin suy ngẫm về tin Mừng Lời Đạo. Các cầu nguyện và bài đọc nhấn mạnh việc sống出 Lời Đạo trong các hoàn cảnh thường ngày của cuộc sống.\n\nVì vậy, ngày này nhắc nhở chúng ta rằng sự thánh thiện không chỉ tìm thấy trong các lễ hội außer thường mà còn trong việc thực hiện trung thành các công việc hàng ngày. Tham dự Lễ Thứ và cầu nguyện Giờ Thánh, người Kitô được gọi để để Lời Đức Chúa Trời hình thành suy nghĩ, lời nói và hành động của họ suốt cả tuần.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The classification as a ferial weekday in Ordinary Time is standard in the General Roman Calendar and confirmed by liturgical sources.",
+    "confidence_note_vi": "Phân loại là ngày ferial trong Thường Niên là chuẩn trong Lịch Tổng thể La Mã và được xác nhận bởi các nguồn liturgiqú."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://www.usccb.org/resources/liturgical-calendar-2026"
+  },
+  "artwork": {
+    "title": "Liturgical Colors - Green",
+    "maker": null,
+    "date_label": "20th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_Colors_Green.svg",
+    "status": "placeholder_only"
+  },
+  "app_hooks": {
+    "hero_line_en": "Monday of the 16th Week in Ordinary Time – Green vestments, growing in faith.",
+    "hero_line_vi": "Thứ Hai, tuần thứ 16 Thường Niên – Áo xanh, phát triển đức tin.",
+    "prayer_prompt_en": "Ask God to help you hear His voice in the ordinary moments of your day.",
+    "prayer_prompt_vi": "Xin Chúa giúp bạn nghe thấy tiếng Đức Chúa Trời trong các khoảnh khắc bình thường của ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2026",
+      "url": "https://www.usccb.org/resources/liturgical-calendar-2026",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture – Ordinary Time",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/times.cfm?id=867",
+      "type": "encyclopedia"
+    }
+  ]
+}

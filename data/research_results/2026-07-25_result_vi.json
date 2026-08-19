@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-07-25",
+  "date": "2026-07-25",
+  "weekday": "Saturday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "Feast of Saint James the Apostle",
+    "title_vi": "Lễ kính Thánh Giacôbê Tông đồ"
+  },
+  "calendars": {
+    "julian": "2026-07-12",
+    "hebrew": "11 Av 5786",
+    "islamic_umm_al_qura": "11 Safar 1448 AH",
+    "coptic": "18 Epip 1742",
+    "ethiopian": "18 Hamle 2018"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Saint James the Apostle",
+    "title_vi": "Thánh Giacôbê Tông đồ",
+    "summary_en": "Saint James the Greater, son of Zebedee and brother of John, was one of the Twelve Apostles and the first to be martyred for his faith. Tradition holds that he preached in Spain and his remains were brought to Santiago de Compostela, making him the patron of pilgrims. His feast is celebrated on July 25 in the General Roman Calendar.",
+    "summary_vi": "Thánh Giacôbê Tông đồ, con của Zebedee và anh của Gioan, là một trong mười hai Tông đồ và là người đầu tiên bị tử đạo vì đức tin. Theo truyền thuyết, ông đã giảng giải ở Tây Ban Nha và di sản của ông được đưa tới Santiago de Compostela, khiến ông trở thành bảo vệ của các hành者 trên đường朝圣. Lễ kính của ông được slaven vào ngày 25/7 trong Lịch Tổng Thường.",
+    "body_en": "Saint James the Greater (Greek: Iakobos) was a fisherman on the Sea of Galilee before being called by Jesus to become an Apostle. Along with his brother John and Peter, he formed the inner circle of witnesses to the Transfiguration and the Agony in the Garden. After the resurrection and ascension of Christ, James remained in Jerusalem as a leader of the early Christian community.\n\nAccording to ancient tradition, James later traveled to the Iberian Peninsula to spread the Gospel. Though historical evidence of this mission is sparse, the tradition became deeply rooted in Spanish spirituality. After his martyrdom by beheading under King Herod Agrippa I (Acts 12:1-2), his disciples allegedly carried his body by sea to Galicia, where it was buried at what is now Santiago de Compostela.\n\nThe discovery of his relics in the ninth century sparked the development of the Way of St. James (Camino de Santiago), one of the most important pilgrimage routes in medieval Europe. Pilgrims from across Christendom journeyed to his shrine, seeking spiritual renewal and indulgences. Today, the Camino continues to draw hundreds of thousands of walkers each year, and Saint James remains a symbol of courageous faith and perseverance.\n\nIn the liturgical calendar, the feast of Saint James the Apostle is ranked as a Feast, celebrated with the color red to recall his martyrdom. The Mass includes readings that highlight his witness and the call to follow Christ even unto death. The faithful are invited to ask his intercession for strength in their own journeys of faith.",
+    "body_vi": "Thánh Giacôbê Tông đồ (Hy Lạp: Iakobos) là một người đánh cá trên Biển Galile trước khi được Đức Jesus gọi để làm Tông đồ. Cùng với anh trai Gioan và Petrus, ông là thành viên trong vòng tròng nội bộ làm chứng cho sự Biến hình và sự Khó khăn trong Vườn Getsemani.\n\nSau khi Chúa Kitô phục sinh và lên trời, James vẫnอยู่ ở Jerusalem làm một trong những người dẫn đầu cộng đồng Cơ督教 đầu tiên.\n\nTheo truyền thuyết cổ đại, James sau đó đã đi đến bán đảo Iberia để truyền giáo. Mặc dù bằng chứng lịch sử vềภารกิจ này là hạn chế, truyền thống này đã trở thành một phần profond của linh hình Tây Ban Nha. Sau khi bị chặt đầu dưới vua Herod Agrippa I (Công vụ 12:1-2), các môn đồ của ông được cho là đã đưa thi thể ông qua biển tới Galicia, nơi nó được chôn cất tại nơi hôm nay là Santiago de Compostela.\n\nSự phát hiện của di sản Thánh Giacôbê vào thế kỷ IX đã dẫn tới sự phát triển của Con đường St. James (Camino de Santiago), một trong những con đường朝圣 quan trọng nhất của châu Âu thời Trung cổ. Các hành者 từ khắp nơi trong świat Christendom đã đến shrine của ông để tìm kiếm sự làm mới tinh thần và các ân điếu. Ngày nay, Con đường Camino vẫn thu hút hàng trăm nghìn người đi bộ mỗi năm, và Thánh Giacôbê vẫn là biểu tượng của đức tin can kiên và kiên cường.\n\nTrong Lịch Thánh, lễ kính Thánh Giacôbê Tông đồ được xếp hạng là Lễ, slaven với màu đỏ để nhớ tới sự tử đạo của ông. Bài lễ bao gồm các đọc đoạn nhấn mạnh sự chứng martyria của ông và lời kêu gọi theo theo Chúa Kitô cho tới chết. Các tín hữu được mời cầu xin trung gian của ông để được sức mạnh trong hành trình đức tin của chính mình.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Universal feast in the General Roman Calendar, celebrated on July 25 with rank of Feast and color red.",
+    "confidence_note_vi": "Lễ kính này là lễ chung trong Lịch Tổng Thường của Giáo hội Công giáo, được slaven vào ngày 25/7 với hạng Lễ và màu đỏ."
+  },
+  "place": {
+    "name": "Santiago de Compostela, Spain",
+    "latitude": 42.8806,
+    "longitude": -8.5457,
+    "confidence": "confirmed",
+    "source_url": "https://en.wikipedia.org/wiki/Santiago_de_Compostela"
+  },
+  "artwork": {
+    "title": "Saint James the Greater",
+    "maker": "Francisco de Zurbarán",
+    "date_label": "c. 1630–1634",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zurbar%C3%A1n_-_Saint_James_the_Greater_-_Google_Art_Project.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "New Advent – St. James the Greater",
+      "url": "https://www.newadvent.org/catholic/08328a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture – Liturgical Calendar for July 25",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar.cfm?date=2026-07-25",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Celebrating the Apostle who walked the Way of St. James",
+    "hero_line_vi": "Đánh giá Tông đồ đã đi đường Saint James",
+    "prayer_prompt_en": "Ask St. James to guide your journey of faith and courage.",
+    "prayer_prompt_vi": "Yêu cầu Thánh Giacôbê dẫn dắt hành trình đức tin và can đảm của bạn."
+  }
+}

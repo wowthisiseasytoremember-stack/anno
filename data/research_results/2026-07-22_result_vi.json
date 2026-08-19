@@ -1,0 +1,63 @@
+{
+  "id": "2026-07-22-st-mary-magdalene",
+  "date": "2026-07-22",
+  "weekday": "Wednesday",
+  "mock_priority": 1,
+  "liturgical": {
+    "rank": "Feast",
+    "color": "White",
+    "title_en": "Feast of St. Mary Magdalene, Apostle to the Apostles",
+    "title_vi": "Lễ Kính Thánh Maria Mađalêna, Tông đồ của các Tông đồ"
+  },
+  "calendars": {
+    "julian": "2026-07-09",
+    "hebrew": "8 Av 5786",
+    "islamic_umm_al_qura": "8 Safar 1448 AH",
+    "coptic": "15 Epip 1742",
+    "ethiopian": "15 Hamle 2018"
+  },
+  "primary": {
+    "type": "Feast",
+    "title_en": "St. Mary Magdalene",
+    "title_vi": "Thánh Maria Mađalêna",
+    "summary_en": "Celebrating St. Mary Magdalene, known as the Apostle to the Apostles for her role in announcing the Resurrection.",
+    "summary_vi": "Mừng kính Thánh Maria Mađalêna, được gọi là Tông đồ của các Tông đồ vì vai trò loan báo sự Phục Sinh của Chúa.",
+    "body_en": "St. Mary Magdalene, a devoted follower of Jesus, witnessed the Crucifixion and was the first to encounter the Risen Lord. She announced the Resurrection to the disciples, earning the title 'Apostle to the Apostles.' Her feast day honors her witness and evangelizing mission.",
+    "body_vi": "Thánh Maria Mađalêna, một người môn đệ sùng kính của Đức Giêsu, đã chứng kiến cuộc Thương Khó và là người đầu tiên gặp được Đức Kitô Phục Sinh. Mẹ đã loan báo sự Phục Sinh cho các môn đệ, và nhờ đó được tôn vinh với danh hiệu 'Tông đồ của các Tông đồ'. Ngày lễ kính của Mẹ tôn vinh chứng nhân và sứ vụ rao giảng Tin Mừng của Mẹ.",
+    "confidence": 0.95,
+    "confidence_note_en": "Based on the General Roman Calendar and universal liturgical tradition.",
+    "confidence_note_vi": "Dựa trên Lịch Phụng Vụ Tổng Quát Rôma và truyền thống phụng vụ phổ quát."
+  },
+  "place": {
+    "name": "Magdala, Israel",
+    "latitude": 32.8244,
+    "longitude": 35.5139,
+    "confidence": 0.8,
+    "source_url": "https://en.wikipedia.org/wiki/Magdala"
+  },
+  "artwork": {
+    "title": "St. Mary Magdalene",
+    "maker": "Caravaggio",
+    "date_label": "1606",
+    "source_url": "https://www.wga.hu/html_m/c/caravagg/",
+    "status": "Public Domain"
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_19690321_calendarium-romanum_en.html",
+      "type": "official"
+    },
+    {
+      "label": "Wikipedia: Mary Magdalene",
+      "url": "https://en.wikipedia.org/wiki/Mary_Magdalene",
+      "type": "reference"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "She ran to tell the disciples: 'I have seen the Lord!'",
+    "hero_line_vi": "Mẹ đã chạy đi báo tin cho các môn đệ: 'Tôi đã thấy Chúa!'",
+    "prayer_prompt_en": "St. Mary Magdalene, pray for us that we may proclaim the Risen Christ with courage.",
+    "prayer_prompt_vi": "Xin Thánh Maria Mađalêna cầu cho chúng ta biết rao giảng Đức Kitô Phục Sinh với lòng can đảm."
+  }
+}

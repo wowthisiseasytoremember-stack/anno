@@ -1,0 +1,68 @@
+{
+  "id": "2026-07-20-st-apollinaris",
+  "date": "2026-07-20",
+  "weekday": "Monday",
+  "mock_priority": 3,
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "Red",
+    "title_en": "St. Apollinaris, Bishop and Martyr",
+    "title_vi": "Thánh Apollinaris, Giám mục và Tử đạo"
+  },
+  "calendars": {
+    "julian": "2026-07-07",
+    "hebrew": "6 Av 5786",
+    "islamic_umm_al_qura": "6 Safar 1448 AH",
+    "coptic": "13 Epip 1742",
+    "ethiopian": "13 Hamle 2018"
+  },
+  "primary": {
+    "type": "optional_memorial",
+    "title_en": "St. Apollinaris, Bishop and Martyr",
+    "title_vi": "Thánh Apollinaris, Giám mục và Tử đạo",
+    "summary_en": "First bishop of Ravenna, martyred under Emperor Vespasian or Nero. Known for his steadfast faith and miracles.",
+    "summary_vi": "Giám mục đầu tiên của thành Ravenna, chịu tử đạo dưới thời Hoàng đế Vespasian hoặc Nêrô. Người được biết đến vì lòng tin kiên vững và các phép lạ.",
+    "body_en": "St. Apollinaris was a disciple of St. Peter and became the first bishop of Ravenna in Italy. He endured multiple exiles and tortures for his faith, performing miracles and converting many. Tradition holds he was martyred by being beaten with clubs and then beheaded. His relics are venerated in the Basilica of Sant'Apollinare in Classe near Ravenna.",
+    "body_vi": "Thánh Apollinaris là một môn đệ của Thánh Phêrô và trở thành giám mục đầu tiên của thành Ravenna ở Ý. Ngài đã chịu nhiều lần lưu đày và tra tấn vì đức tin, đồng thời làm nhiều phép lạ và đưa nhiều người trở lại đạo. Theo truyền thống, ngài chịu tử đạo bằng cách bị đánh bằng gậy rồi bị chém đầu. Thánh tích của ngài được tôn kính tại Vương cung Thánh đường Sant'Apollinare in Classe gần Ravenna.",
+    "confidence": 0.85,
+    "confidence_note_en": "Historical details blend tradition and legend; core facts of his episcopacy and martyrdom are well-attested.",
+    "confidence_note_vi": "Các chi tiết lịch sử đan xen giữa truyền thống và truyền thuyết; các sự kiện cốt lõi về giám mục vụ và cuộc tử đạo của ngài được ghi nhận rõ ràng."
+  },
+  "place": {
+    "name": "Ravenna, Italy",
+    "latitude": 44.4184,
+    "longitude": 12.2036,
+    "confidence": 0.9,
+    "source_url": "https://en.wikipedia.org/wiki/Ravenna"
+  },
+  "artwork": {
+    "title": "Martyrdom of St. Apollinaris",
+    "maker": "Guido Reni",
+    "date_label": "c. 1625",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Guido_Reni_-_Martyrdom_of_Saint_Apollinaris.jpg",
+    "status": "public_domain"
+  },
+  "sources": [
+    {
+      "label": "Roman Martyrology",
+      "url": "https://www.vatican.va/archive/ENG0839/__P9.HTM",
+      "type": "official"
+    },
+    {
+      "label": "Catholic Encyclopedia: St. Apollinaris",
+      "url": "https://www.newadvent.org/cathen/01635a.htm",
+      "type": "reference"
+    },
+    {
+      "label": "Franciscan Archive: St. Apollinaris",
+      "url": "https://www.franciscan-archive.org/saints/apollinaris.html",
+      "type": "reference"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "First bishop of Ravenna, faithful unto death.",
+    "hero_line_vi": "Giám mục đầu tiên của Ravenna, trung tín cho đến chết.",
+    "prayer_prompt_en": "Lord, grant us the courage of St. Apollinaris to witness to your truth amid trials.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự can đảm của Thánh Apollinaris để làm chứng cho chân lý của Chúa giữa những thử thách."
+  }
+}

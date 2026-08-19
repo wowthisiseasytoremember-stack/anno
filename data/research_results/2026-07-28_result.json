@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-07-28",
+  "date": "2026-07-28",
+  "weekday": "Tuesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of the Seventeenth Week in Ordinary Time",
+    "title_vi": "Thứ Ba, Tuổi Thường tuần thứ mười bảy"
+  },
+  "calendars": {
+    "julian": "2026-07-15",
+    "hebrew": "14 Av 5786",
+    "islamic_umm_al_qura": "14 Safar 1448 AH",
+    "coptic": "21 Epip 1742",
+    "ethiopian": "21 Hamle 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Seventeenth Week in Ordinary Time",
+    "title_vi": "Thứ Ba, Tuổi Thường tuần thứ mười bảy",
+    "summary_en": "This Tuesday falls within Ordinary Time, a period of the liturgical year focused on the life and teachings of Christ outside the major seasons. The liturgical color green symbolizes hope and growth in faith. No specific saint or feast is celebrated, allowing the faithful to reflect on the weekly Gospel readings.",
+    "summary_vi": "Thứ Ba này nằm trong Thời Khép Thường, thời kỳ của năm liturgico tập trung vào đời sống và lời dạy của Kitô bên ngoài các mùa chính. Màu xanh lá tượng trưng cho hy vọng và sự tăng trưởng trong đức tin. Không có lễ hội hoặc lễ kính thánh nào được slaven, cho phép người tin tưởng suy niệm về các đọc经文 Gospel hàng tuần.",
+    "body_en": "Ordinary Time comprises two periods: the weeks after the Baptism of the Lord until Lent, and the weeks after Pentecost until Advent. During these weeks, the Church reads through the Gospels in a semi-continuous fashion, allowing the faithful to encounter the fullness of Christ’s message. The liturgical color green is used for vestments and altar cloths, representing life, hope, and the ongoing growth of the Church.\n\nOn a Tuesday of the Seventeenth Week in Ordinary Time, the Mass readings typically include a passage from the Gospel of Matthew or Mark, depending on the year’s cycle, accompanied by a reading from the Old Testament and a Psalm. The prayers of the faithful focus on the sanctification of daily life and the call to live out the Gospel in ordinary circumstances.\n\nAlthough no particular saint is commemorated on this date, the day invites reflection on how the holiness of Christ permeates everyday activities. The faithful are encouraged to see their work, family life, and community service as opportunities to grow in virtue and to bear witness to the love of Christ in the world.",
+    "body_vi": "Thời Khép Thường bao gồm hai giai đoạn: các tuần sau Lễ Rửa tội Chúa đến trước Mùa Vọng, và các tuần sau Lễ Phúc Sinh đến trước Mùa Đón Lễ. Trong những tuần này, Giáo hội đọc qua các福音 theo cách liên tục ngắn, cho phép người tin tưởng gặp gỡ đầy đủ thông điệp của Kitô. Màu xanh lá được dùng cho váy lễ và băng tựa, biểu tượng cho sự sống, hy vọng và sự phát triển liên tục của Giáo hội.\n\nVào Thứ Ba của Tuổi Thường Thứ Mười Bảy, các đọc經文 trong Thánh Lễ thường bao gồm một đoạn từ福音 theo Matthew hoặc Mark tùy thuộc vào chu kỳ năm, kèm theo một đọc từ Tân Ước và một篇 Thánh Thi. Các lời cầu nguyện của đoàn thể tập trung vào việc thành圣 trong cuộc sống hàng ngày và lời gọi để sống出福音 trong hoàn cảnh thường ngày.\n\nMặc dù ngày này không kỷ念任何圣人, nhưng nó mời gọi người tin tưởng suy niệm về cách sự thánh của Kitô lan tỏa vào các hoạt động hàng ngày. Người tin tưởng được khuyến khích nhìn thấy công việc, cuộc sống gia đình và dịch vụ cộng đồng như những cơ hội để tăng trưởng trong đức tính và làm chứng cho tình yêu của Kitô trong thế giới.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This day is a regular weekday in Ordinary Time according to the General Roman Calendar.",
+    "confidence_note_vi": "Ngày này là ngày thường trong Thời Khép Thường theo Lịch Tổng Thường Giáo."
+  },
+  "place": {
+    "name": null,
+    "longitude": null,
+    "latitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://www.usccb.org/prayer-and-worship/liturgical-year/ordinary-time"
+  },
+  "artwork": {
+    "title": "Green Vestments",
+    "maker": null,
+    "date_label": "20th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Green_vestments.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2026",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar/2026",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture – Ordinary Time",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/times.cfm?id=862",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Celebrate the green of Ordinary Time on this Tuesday",
+    "hero_line_vi": "Chúc mừng màu xanh lá của Thời Khép Thường trong ngày Thứ Ba",
+    "prayer_prompt_en": "Ask God to help you grow in faith during the ordinary weeks of the year.",
+    "prayer_prompt_vi": "Xin Chúa giúp bạn tăng trưởng trong đức tin trong các tuần thường của năm."
+  }
+}

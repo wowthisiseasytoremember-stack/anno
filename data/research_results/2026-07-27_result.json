@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-07-27",
+  "date": "2026-07-27",
+  "weekday": "Monday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of the 17th Week in Ordinary Time",
+    "title_vi": "Thứ Hai, tuần thứ 17 của Thường Niên"
+  },
+  "calendars": {
+    "julian": "2026-07-14",
+    "hebrew": "13 Av 5786",
+    "islamic_umm_al_qura": "13 Safar 1448 AH",
+    "coptic": "20 Epip 1742",
+    "ethiopian": "20 Hamle 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the 17th Week in Ordinary Time",
+    "title_vi": "Thứ Hai, tuần thứ 17 của Thường Niên",
+    "summary_en": "This day falls within Ordinary Time, a period of the liturgical year focused on the life and teachings of Jesus Christ outside the major seasons of Advent, Christmas, Lent, and Easter. As a feria, it has no specific saint or feast assigned, allowing the faithful to reflect on the ongoing mystery of Christ's public ministry. The readings for the day invite meditation on discipleship and the Kingdom of God. Green vestments signify hope and growth in the spiritual life.",
+    "summary_vi": "Ngày này thuộc Thường Niên, thời kỳ của năm liturgi tập trung vào đời sống và lời dạy của Đức Chúa Jesus bên ngoài các mùa lớn như Giáng sinh, Phục sinh, Vọng và Tuần Thánh. Là ngày feria, không có thánh nhân hoặc lễ nào được chỉ định cụ thể, cho phép người tin tưởng suy niệm về bí mật không ngừng của công khai Chúa. Các đọc của ngày kutsư mục về môn đồ và Vương quốc Chúa. Áo xanh biểu tượng cho hy vọng và sự phát triển trong cuộc sống linh hồn.",
+    "body_en": "Ordinary Time comprises two periods of the liturgical year: the weeks after the Baptism of the Lord until Lent, and the weeks after Pentecost until Advent. The green color used during this time symbolizes hope, life, and spiritual growth. The weeks are numbered continuously, and the 17th week of Ordinary Time in 2026 begins on Monday, July 22 and ends on Sunday, July 28. On this Monday, the Church offers the ferial Mass with the weekday readings from the Lectionary. The Gospel reading for the day (depending on the year's cycle) often presents a teaching of Jesus about the Kingdom of God, inviting the faithful to consider how they live out the Gospel in daily life. Because there is no obligatory memorial or feast, the celebrant may choose a votive Mass or simply celebrate the ferial Mass, allowing flexibility for personal or communal devotion. The liturgical focus remains on the ongoing mission of Christ and the call to holiness in the midst of ordinary circumstances.",
+    "body_vi": "Thường Niên bao gồm hai giai đoạn của năm liturgi: các tuần sau Lễ Rửa tội Chúa đến trước Vọng, và các tuần sau Phục sinh đến trước Giáng sinh. Màu xanh được sử dụng trong thời gian này tượng trưng cho hy vọng, cuộc sống và sự phát triển linh hồn. Các tuần được đánh số liên tục, và tuần thứ 17 của Thường Niên năm 2026 bắt đầu vào Thứ Hai, ngày 22 tháng 7 và kết thúc vào Chủ Nhật, ngày 28 tháng 7. Trong ngày Thứ Hai này, Giáo hội cung cấp lễ feria với các đọc trong ngày từ Lectionary. Đọc经文 của ngày (tùy thuộc vào chu kỳ năm) thường trình bày một bài học của Đức Chúa Jesus về Vương quốc Chúa, mời gọi người tin tưởng suy nghĩ về cách họ sống出 Gospel trong cuộc sống hàng ngày. Vì không có lễ kỷ niệm hoặc lễ bắt buộc, celebrant có thể chọn một lễ nguyện hoặc đơn giản là lễ feria, tạo điều kiện linh hoạt cho sự tôn giáo cá nhân hoặc cộng đồng. Tập trung liturgi vẫn còn về sứ mệnh không ngừng của Chúa và lời kêu gọi đến sự thánh thiện trong okolicznhường thường ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on the General Roman Calendar and the liturgical year 2026 as published by the USCCB and Universalis.",
+    "confidence_note_vi": "Dựa trên Lịch Tổng quát La Mã và năm liturgi 2026 như được công bố bởi USCCB và Universalis."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar"
+  },
+  "artwork": {
+    "title": "Green Vestment",
+    "maker": null,
+    "date_label": "20th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Green_vestment.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2026",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Universalis Daily Reading for 2026-07-27",
+      "url": "https://www.universalis.com/20260727/mass.htm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Reflect on the Green Hope of Ordinary Time",
+    "hero_line_vi": "Suy niệm về niềm xanh hy vọng của Thường Niên",
+    "prayer_prompt_en": "Ask God to help you grow in faith and love during this season of Ordinary Time.",
+    "prayer_prompt_vi": "Xin Chúa giúp bạn phát triển đức tin và tình yêu trong mùa Thường Niên."
+  }
+}

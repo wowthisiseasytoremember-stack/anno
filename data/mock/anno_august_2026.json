@@ -8,7 +8,7 @@
       "rank": "Optional Memorial",
       "color": "white",
       "title_en": "Saint Alphonsus Liguori, Bishop and Doctor of the Church",
-      "title_vi": ""
+      "title_vi": "Thánh Anphongsô Liguori, Giám mục và Tiến sĩ Hội Thánh"
     },
     "calendars": {
       "julian": "2026-07-19",
@@ -20,14 +20,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Alphonsus Liguori",
-      "title_vi": "",
+      "title_vi": "Thánh Anphongsô Liguori",
       "summary_en": "Saint Alphonsus Liguori was an Italian bishop, a profoundly influential moral theologian, and the founder of the Congregation of the Most Holy Redeemer, commonly known as the Redemptorists.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Anphongsô Liguori là một giám mục người Ý, một nhà thần học luân lý vô cùng có ảnh hưởng, và là người sáng lập Hội Cứu Chuộc (Redemptorists).",
       "body_en": "Saint Alphonsus Liguori (1696–1787) was an Italian bishop, spiritual writer, and founder of the Redemptorists. His seminal work, *Theologia Moralis*, revolutionized Catholic moral theology by championing pastoral compassion and avoiding the extremes of rigorism and laxity. He retired to Pagani, where his treatises, including *The Glories of Mary*, remain highly influential.",
-      "body_vi": "",
+      "body_vi": "Thánh Anphongsô Liguori (1696–1787) là một giám mục người Ý, nhà văn thiêng liêng, và người sáng lập Hội Cứu Chuộc. Tác phẩm để đời *Theologia Moralis* của ngài đã cách mạng hóa thần học luân lý Công giáo bằng cách đề cao lòng thương xót mục vụ và tránh hai thái cực quá nghiêm khắc hoặc quá dễ dãi. Ngài về hưu tại Pagani, nơi các luận thuyết của ngài, gồm *Sự Vinh Quang của Đức Maria*, vẫn có ảnh hưởng sâu rộng.",
       "confidence": "confirmed",
       "confidence_note_en": "Universal Roman Calendar maintains his optional memorial on August 1, corresponding to the date of his death in Pagani in 1787.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Lịch Roma phổ quát duy trì kỷ niệm tùy chọn của ngài vào ngày 1 tháng 8, tương ứng với ngày ngài qua đời tại Pagani năm 1787."
     },
     "place": {
       "name": "Basilica of Sant'Alfonso, Pagani, Italy",
@@ -52,9 +52,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Patron of moral theologians and confessors",
-      "hero_line_vi": "",
+      "hero_line_vi": "Bổn mạng các nhà thần học luân lý và linh mục giải tội",
       "prayer_prompt_en": "Pray for ethical clarity and compassion in your decisions today.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu xin sự sáng suốt đạo đức và lòng thương xót trong các quyết định của bạn hôm nay."
     }
   },
   {
@@ -66,7 +66,7 @@
       "rank": "Sunday",
       "color": "green",
       "title_en": "18th Sunday in Ordinary Time",
-      "title_vi": ""
+      "title_vi": "Chúa Nhật thứ 18 Mùa Thường Niên"
     },
     "calendars": {
       "julian": "2026-07-20",
@@ -78,14 +78,14 @@
     "primary": {
       "type": "liturgical_day",
       "title_en": "18th Sunday in Ordinary Time (Year B)",
-      "title_vi": "",
+      "title_vi": "Chúa Nhật thứ 18 Mùa Thường Niên (Năm B)",
       "summary_en": "The Eighteenth Sunday in Ordinary Time begins the historical five-week sequential focus on Jesus' profound Bread of Life Discourse in the Gospel of John.",
-      "summary_vi": "",
+      "summary_vi": "Chúa Nhật thứ Mười Tám Mùa Thường Niên mở đầu chuỗi năm tuần tập trung vào diễn từ sâu sắc về Bánh Hằng Sống của Chúa Giêsu trong Tin Mừng Gioan.",
       "body_en": "In the Gospel of John, the discourse on the Bread of Life begins after the miraculous multiplication of the loaves. The crowd follows Jesus to Capernaum, prompting Him to warn them not to work for food that perishes, but for the food that endures to eternal life. When the people ask for a sign like the manna in the desert, Jesus declares: \"I am the bread of life; whoever comes to me will never hunger, and whoever believes in me will never thirst.\" This Sunday invites the faithful to shift their focus from temporary earthly anxieties to the spiritual sustenance provided by Christ through His Word and the Sacrament of the Holy Eucharist.",
-      "body_vi": "",
+      "body_vi": "Trong Tin Mừng Gioan, diễn từ về Bánh Hằng Sống bắt đầu sau phép lạ hóa bánh ra nhiều. Đám đông theo Chúa Giêsu đến Capharnaum, thúc đẩy Ngài cảnh giác họ đừng tìm kiếm lương thực hay hư nát, nhưng là lương thực trường tồn đến sự sống đời đời. Khi dân chúng xin một dấu lạ như manna trong sa mạc, Chúa Giêsu tuyên bố: \"Ta là bánh hằng sống; ai đến với Ta sẽ không bao giờ đói, và ai tin vào Ta sẽ không bao giờ khát.\" Chúa Nhật này mời gọi các tín hữu chuyển hướng chú ý từ những lo lắng trần thế tạm thời sang sự nuôi dưỡng thiêng liêng mà Đức Kitô ban qua Lời Ngài và Bí tích Thánh Thể.",
       "confidence": "confirmed",
       "confidence_note_en": "Lectionary for Mass confirms the Year B readings on the Eighteenth Sunday in Ordinary Time.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Sách Bài Đọc cho Thánh Lễ xác nhận các bài đọc Năm B vào Chúa Nhật thứ Mười Tám Mùa Thường Niên."
     },
     "place": {
       "name": null,
@@ -110,9 +110,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "\"I am the bread of life; whoever comes to me will never hunger.\"",
-      "hero_line_vi": "",
+      "hero_line_vi": "\"Ta là bánh hằng sống; ai đến với Ta sẽ không đói.\"",
       "prayer_prompt_en": "Ask Christ to satisfy your deep spiritual hunger with His enduring presence.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Xin Đức Kitô thỏa mãn cơn khát thiêng liêng sâu thẳm của bạn bằng sự hiện diện vĩnh cửu của Ngài."
     }
   },
   {
@@ -124,7 +124,7 @@
       "rank": "Feria",
       "color": "green",
       "title_en": "Monday of the 18th Week in Ordinary Time",
-      "title_vi": ""
+      "title_vi": "Thứ Hai Tuần 18 Mùa Thường Niên"
     },
     "calendars": {
       "julian": "2026-07-21",
@@ -136,14 +136,14 @@
     "primary": {
       "type": "liturgical_day",
       "title_en": "Monday of the 18th Week in Ordinary Time",
-      "title_vi": "",
+      "title_vi": "Thứ Hai Tuần 18 Mùa Thường Niên",
       "summary_en": "A plain weekday in Ordinary Time, inviting quiet reflection on the scriptures and the integration of Sunday's eucharistic theology into daily labors.",
-      "summary_vi": "",
+      "summary_vi": "Một ngày thường trong Mùa Thường Niên, mời gọi chiêm niệm âm thầm về Lời Chúa và việc đan kết thần họa Thánh Thể của Chúa Nhật vào các công việc hằng ngày.",
       "body_en": "Today's feria in Ordinary Time allows the liturgical assembly to enter into the quiet, steady rhythm of daily discipleship. The weekday readings highlight the unfolding mystery of Christ's teaching. The faithful are encouraged to carry Sunday's Eucharistic theme into their ordinary duties.",
-      "body_vi": "",
+      "body_vi": "Ngày thường (feria) Mùa Thường Niên hôm nay cho phép cộng đoàn phụng vụ bước vào nhịp điệu âm thầm và đều đặn của đời sống môn đệ hằng ngày. Các bài đọc ngày thường nêu bật mầu nhiệm đang dần mở ra của giáo huấn Đức Kitô. Các tín hữu được khuyến khích mang chủ đề Thánh Thể của Chúa Nhật vào các bổn phận thường nhật.",
       "confidence": "confirmed",
       "confidence_note_en": "The liturgical cycle allocates Monday of the 18th Week as a plain feria with no overriding universal feast.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Chu kỳ phụng vụ xếp Thứ Hai Tuần 18 là một ngày thường không có lễ phổ quát nào ưu tiên hơn."
     },
     "place": {
       "name": null,
@@ -168,9 +168,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Quiet growth in daily discipleship",
-      "hero_line_vi": "",
+      "hero_line_vi": "Lớn lên âm thầm trong đời sống môn đệ hằng ngày",
       "prayer_prompt_en": "Offer your daily labor as a silent prayer of thanksgiving to God.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Dâng lao động hằng ngày của bạn như một lời cầu nguyện âm thầm tạ ơn Thiên Chúa."
     }
   },
   {
@@ -182,7 +182,7 @@
       "rank": "Memorial",
       "color": "white",
       "title_en": "Saint John Vianney, Priest",
-      "title_vi": ""
+      "title_vi": "Thánh Gioan Vianney, Linh mục"
     },
     "calendars": {
       "julian": "2026-07-22",
@@ -194,14 +194,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint John Vianney",
-      "title_vi": "",
+      "title_vi": "Thánh Gioan Vianney",
       "summary_en": "Saint John Vianney, widely known as the Curé of Ars, is the universal patron of parish priests, celebrated for his extraordinary pastoral care, spiritual insight, and long hours in the confessional.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Gioan Vianney, được biết đến rộng rãi với tên Cha Sở Ars, là bổn mạng phổ quát của các linh mục giáo xứ, được tôn vinh vì sự chăm sóc mục vụ phi thường, hiểu biết thiêng liêng và những giờ dài trong tòa giải tội.",
       "body_en": "Saint Jean-Baptiste-Marie Vianney (1786–1859), known as the Curé of Ars, was a French parish priest who transformed the spiritually stagnant village of Ars into a major pilgrimage site. He is celebrated for his deep humility, extreme penances, and intense prayer life, spending up to sixteen hours a day in the confessional reconciling souls. His life serves as an enduring model of self-sacrificing priestly charity and pastoral care.",
-      "body_vi": "",
+      "body_vi": "Thánh Gioan-Baptiste-Marie Vianney (1786–1859), được gọi là Cha Sở Ars, là một linh mục giáo xứ người Pháp đã biến đổi làng Ars — vốn trầm lặng về thiêng liêng — thành một địa điểm hành hương quan trọng. Ngài được ca ngợi vì sự khiêm tốn sâu sắc, những hình phạt thân xác khắc khổ và đời sống cầu nguyện mãnh liệt, dành đến mười sáu tiếng mỗi ngày trong toà giải tội để hoà giải các linh hồn. Cuộc đời ngài là mẫu mực trường tồn của lòng bác ái linh mục và sự tận tụy mục vụ.",
       "confidence": "confirmed",
       "confidence_note_en": "The Roman Martyrology lists his obligatory memorial on August 4, the date of his death in Ars in 1859.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Sách Tử Đạo Học Roma ghi lễ nhớ bắt buộc của ngài vào ngày 4 tháng 8, ngày ngài qua đời tại Ars năm 1859."
     },
     "place": {
       "name": "Shrine of St. John Vianney, Ars-sur-Formans, France",
@@ -226,9 +226,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "The holy parish priest of Ars",
-      "hero_line_vi": "",
+      "hero_line_vi": "Cha sở thánh thiện của Ars",
       "prayer_prompt_en": "Pray for your parish priest and the grace of reconciliation today.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện cho cha sở giáo xứ bạn và xin ơn hoà giải hôm nay."
     }
   },
   {
@@ -240,7 +240,7 @@
       "rank": "Optional Memorial",
       "color": "white",
       "title_en": "Dedication of the Basilica of Saint Mary Major",
-      "title_vi": ""
+      "title_vi": "Cung Hiến Vương Cung Thánh Đường Đức Bà Lớn"
     },
     "calendars": {
       "julian": "2026-07-23",
@@ -252,14 +252,14 @@
     "primary": {
       "type": "feast",
       "title_en": "Dedication of Saint Mary Major",
-      "title_vi": "",
+      "title_vi": "Cung Hiến Vương Cung Thánh Đường Đức Bà Lớn",
       "summary_en": "This day commemorates the dedication of the oldest Marian basilica in the West, rebuilt by Pope Sixtus III in Rome following the dogmatic declaration of Mary as Mother of God at Ephesus.",
-      "summary_vi": "",
+      "summary_vi": "Hôm nay kính nhớ lễ cung hiến vương cung thánh đường Marian cổ nhất tại phương Tây, được Giáo hoàng Sixtô III xây dựng lại tại Roma sau khi Công đồng Ephêsô long trọng tuyên bố Maria là Mẹ Thiên Chúa.",
       "body_en": "The Dedication of Saint Mary Major commemorates the consecration of the great Roman basilica by Pope Sixtus III in 432, following the Council of Ephesus which declared Mary as the Mother of God. According to pious tradition, the location on the Esquiline Hill was marked by a miraculous snowfall on August 5 in the mid-fourth century during the reign of Pope Liberius.",
-      "body_vi": "",
+      "body_vi": "Lễ Cung Hiến Vương Cung Thánh Đường Đức Bà Lớn kính nhớ việc thánh hiến vương cung thánh đường Roma trọng đại bởi Giáo hoàng Sixtô III vào năm 432, sau Công đồng Ephêsô long trọng tuyên bố Maria là Mẹ Thiên Chúa. Theo truyền thống đức tin, vị trí trên đồi Esquilin được đánh dấu bằng một trận tuyết rơi lạ lùng vào ngày 5 tháng 8 giữa thế kỷ thứ tư, dưới triều Giáo hoàng Liberiô.",
       "confidence": "confirmed",
       "confidence_note_en": "Historical liturgical books of Rome record August 5 as the dedication anniversary of this major papal basilica.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Các sách phụng vụ lịch sử của Roma ghi ngày 5 tháng 8 là kỷ niệm cung hiến vương cung thánh đường giáo hoàng trọng đại này."
     },
     "place": {
       "name": "Basilica di Santa Maria Maggiore, Rome, Italy",
@@ -284,9 +284,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Revering Mary, the Mother of God",
-      "hero_line_vi": "",
+      "hero_line_vi": "Tôn kính Maria, Mẹ Thiên Chúa",
       "prayer_prompt_en": "Seek Mary's maternal protection and praise her divine motherhood today.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Tìm đến sự che chở mẫu tử của Mẹ Maria và tôn vinh chức mẫu thần linh của Mẹ hôm nay."
     }
   },
   {
@@ -298,7 +298,7 @@
       "rank": "Feast",
       "color": "white",
       "title_en": "The Transfiguration of the Lord",
-      "title_vi": ""
+      "title_vi": "Lễ Hiển Dung Chúa"
     },
     "calendars": {
       "julian": "2026-07-24",
@@ -310,14 +310,14 @@
     "primary": {
       "type": "feast",
       "title_en": "The Transfiguration of the Lord",
-      "title_vi": "",
+      "title_vi": "Lễ Hiển Dung Chúa",
       "summary_en": "The Transfiguration celebrates the manifestation of Jesus' divine glory on Mount Tabor to Peter, James, and John, offering a prefiguration of His resurrection.",
-      "summary_vi": "",
+      "summary_vi": "Lễ Hiển Dung kính mừng sự tỏ hiện vinh quang thần linh của Chúa Giêsu trên núi Tabor cho Phêrô, Giacôbê và Gioan, như tiên báo về sự phục sinh của Ngài.",
       "body_en": "The Feast of the Transfiguration commemorates the revelation of Jesus' divine identity to His apostles Peter, James, and John on Mount Tabor. On the summit, His appearance is radically transfigured; His clothes become dazzling white, and He is seen conversing with Moses and Elijah, representing the Law and the Prophets. A voice from a bright cloud declares: \"This is my beloved Son, with whom I am well pleased; listen to him!\" This event prefigures the Resurrection, providing the apostles with a vision of hope to sustain them through the darkness of the Crucifixion, showing that the path of the Cross leads to glory.",
-      "body_vi": "",
+      "body_vi": "Lễ Hiển Dung kính nhớ việc Đức Kitô tỏ hiện thân phận thần linh của Ngài cho các tông đồ Phêrô, Giacôbê và Gioan trên núi Tabor. Trên đỉnh núi, dung mạo Ngài biến đổi cách lạ lùng; áo Ngài trở nên trắng chói lọi, và Ngài được thấy đối thoại với Môsê và Êlia, đại diện cho Lề Luật và các Ngôn Sứ. Một tiếng từ đám mây sáng chói phán: \"Này là Con Ta yêu dấu, Ta hài lòng về Người; hãy nghe Người!\" Biến cố này tiên báo sự Phục Sinh, cung cấp cho các tông đồ một thị kiến hy vọng để vượt qua bóng tối của cuộc Thương Khó, cho thấy con đường thập giá dẫn đến vinh quang.",
       "confidence": "confirmed",
       "confidence_note_en": "The universal calendar designates August 6 as the Feast of the Transfiguration, a standard feast of the Lord in both Eastern and Western liturgies.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Lịch phổ quát chỉ định ngày 6 tháng 8 là Lễ Hiển Dung, một lễ kính tiêu biểu của Chúa trong cả phụng vụ Đông và Tây phương."
     },
     "place": {
       "name": "Basilica of the Transfiguration, Mount Tabor, Israel",
@@ -342,9 +342,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "\"This is my beloved Son... listen to him!\"",
-      "hero_line_vi": "",
+      "hero_line_vi": "\"Đây là Con Ta yêu dấu... hãy nghe Người!\"",
       "prayer_prompt_en": "Listen closely to the voice of Christ in the silence of your heart today.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Hãy lắng nghe thật kỹ tiếng Chúa Kitô trong sự thinh lặng của tâm hồn bạn hôm nay."
     }
   },
   {
@@ -356,7 +356,7 @@
       "rank": "Optional Memorial",
       "color": "red",
       "title_en": "Saint Sixtus II, Pope, and Companions, Martyrs, or Saint Cajetan, Priest",
-      "title_vi": ""
+      "title_vi": "Thánh Sixtô II, Giáo hoàng, và các bạn, Tử đạo, hoặc Thánh Caietanô, Linh mục"
     },
     "calendars": {
       "julian": "2026-07-25",
@@ -368,14 +368,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Sixtus II and Companions, Martyrs, & Saint Cajetan",
-      "title_vi": "",
+      "title_vi": "Thánh Sixtô II và các bạn, Tử đạo, & Thánh Caietanô",
       "summary_en": "On this day, the Church honors Pope Saint Sixtus II and his deacons, martyred in Rome, as well as Saint Cajetan, an Italian priest who founded the Theatines to reform the clergy.",
-      "summary_vi": "",
+      "summary_vi": "Hôm nay, Giáo Hội tôn kính Thánh Giáo hoàng Sixtô II và các phó tế bị tử đạo tại Roma, cũng như Thánh Caietanô, một linh mục người Ý đã sáng lập Dòng Thátinhê để cải cách hàng giáo sĩ.",
       "body_en": "Pope Saint Sixtus II was arrested and martyred with his deacons in the Catacomb of Callixtus in 258, during the Valerian persecutions. On the same day, the Church honors Saint Cajetan (1480–1547), an Italian reformer who sought to revitalize the clergy by founding the Theatines. He lived a life of rigorous poverty and deep trust in divine providence, inspiring priests to return to the simplicity of the apostolic life.",
-      "body_vi": "",
+      "body_vi": "Thánh Giáo hoàng Sixtô II bị bắt và tử đạo cùng các phó tế trong hang đá Callixtus vào năm 258, trong cuộc bách hại của hoàng đế Valerian. Cũng trong ngày này, Giáo Hội tôn kính Thánh Caietanô (1480–1547), một nhà cải cách người Ý đã tìm cách hồi sinh hàng giáo sĩ bằng việc sáng lập Dòng Thátinhê. Ngài sống một cuộc đời khó nghèo nghiêm khắc và tin tưởng sâu sắc vào sự quan phòng thần linh, truyền cảm hứng cho các linh mục trở về với sự giản dị của đời sống tông đồ.",
       "confidence": "confirmed",
       "confidence_note_en": "Liturgical calendars universally list Saint Sixtus II and Saint Cajetan as concurrent optional memorials on August 7.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Các lịch phụng vụ phổ quát ghi Thánh Sixtô II và Thánh Caietanô là những lễ nhớ tùy chọn đồng thời vào ngày 7 tháng 8."
     },
     "place": {
       "name": "Basilica of San Paolo Maggiore, Naples, Italy",
@@ -400,9 +400,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Martyrs of Rome and a priest of Divine Providence",
-      "hero_line_vi": "",
+      "hero_line_vi": "Các vị tử đạo Roma và một linh mục của Thần Quan Phòng",
       "prayer_prompt_en": "Pray for priests to be simple, holy, and faithful, even in adversity.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện cho các linh mục được giản dị, thánh thiện và trung tín, ngay cả trong gian nan."
     }
   },
   {
@@ -414,7 +414,7 @@
       "rank": "Memorial",
       "color": "white",
       "title_en": "Saint Dominic, Priest",
-      "title_vi": ""
+      "title_vi": "Thánh Đa Minh, Linh mục"
     },
     "calendars": {
       "julian": "2026-07-26",
@@ -426,14 +426,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Dominic",
-      "title_vi": "",
+      "title_vi": "Thánh Đa Minh",
       "summary_en": "Saint Dominic de Guzmán was a Spanish priest who founded the Order of Preachers, commonly called the Dominicans, dedicating his life to intellectual vigor and preaching.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Đa Minh de Guzmán là một linh mục người Tây Ban Nha đã sáng lập Dòng Giảng Thuyết (Dòng Đa Minh), cống hiến trọn đời cho sức mạnh trí tuệ và việc rao giảng.",
       "body_en": "Saint Dominic (1170–1221) was a Spanish priest who established the Order of Preachers (Dominicans) to counter widespread heresies in southern France through intellectual preparation and poverty. Famous for speaking \"only to God or of God,\" Dominic combined intense prayer with a active apostolic mission. He promoted the Holy Rosary as a powerful tool of popular devotion. His spiritual family continues to shape Catholic theology and education globally.",
-      "body_vi": "",
+      "body_vi": "Thánh Đa Minh (1170–1221) là một linh mục người Tây Ban Nha đã thành lập Dòng Giảng Thuyết (Dòng Đa Minh) để chống lại các lạc giáo lan rộng ở miền nam nước Pháp bằng sự chuẩn bị trí tuệ và đời sống khó nghèo. Nổi tiếng vì chỉ \"nói với Chúa hoặc nói về Chúa\", Đa Minh kết hợp đời cầu nguyện mãnh liệt với sứ vụ tông đồ tích cực. Ngài cổ vũ việc đọc Kinh Mân Côi như một công cụ quyền năng của lòng đạo đức bình dân. Gia đình thiêng liêng của ngài vẫn tiếp tục định hình thần học và giáo dục Công giáo trên toàn cầu.",
       "confidence": "confirmed",
       "confidence_note_en": "The Roman calendar sets the memorial of Saint Dominic on August 8, the universal day of his liturgical veneration.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Lịch Roma ấn định lễ nhớ Thánh Đa Minh vào ngày 8 tháng 8, ngày phụng vụ tôn vinh ngài trên toàn cầu."
     },
     "place": {
       "name": "Basilica of San Domenico, Bologna, Italy",
@@ -458,9 +458,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Founder of the Order of Preachers",
-      "hero_line_vi": "",
+      "hero_line_vi": "Người sáng lập Dòng Giảng Thuyết",
       "prayer_prompt_en": "Ask for the grace to speak only to God or about God in your daily life.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Xin ơn chỉ nói với Chúa hoặc nói về Chúa trong đời sống hằng ngày của bạn."
     }
   },
   {
@@ -472,7 +472,7 @@
       "rank": "Sunday",
       "color": "green",
       "title_en": "19th Sunday in Ordinary Time",
-      "title_vi": ""
+      "title_vi": "Chúa Nhật thứ 19 Mùa Thường Niên"
     },
     "calendars": {
       "julian": "2026-07-27",
@@ -484,14 +484,14 @@
     "primary": {
       "type": "liturgical_day",
       "title_en": "19th Sunday in Ordinary Time (Year B)",
-      "title_vi": "",
+      "title_vi": "Chúa Nhật thứ 19 Mùa Thường Niên (Năm B)",
       "summary_en": "The Nineteenth Sunday in Ordinary Time continues the exploration of the Bread of Life Discourse, emphasizing Christ as the bread descending from heaven to give life to the world.",
-      "summary_vi": "",
+      "summary_vi": "Chúa Nhật thứ Mười Chín Mùa Thường Niên tiếp tục khám phá diễn từ về Bánh Hằng Sống, nhấn mạnh Đức Kitô là bánh từ trời xuống để ban sự sống cho thế gian.",
       "body_en": "In the Gospel of John, the crowd grumbles because Jesus asserts His divine origin: \"I am the bread that came down from heaven.\" They know His earthly family and struggle to accept His divine identity. Jesus responds by emphasizing the necessity of faith, stating that no one can come to Him unless drawn by the Father. He contrasts the temporary manna eaten by their ancestors in the desert with the true, life-giving bread of His own flesh, which He offers for the life of the world. This Sunday challenges the faithful to overcome spiritual blindness and trust in Jesus' words, recognizing that true life is found in active communion with Him.",
-      "body_vi": "",
+      "body_vi": "Trong Tin Mừng Gioan, đám đông xầm xì vì Chúa Giêsu khẳng định nguồn gốc thần linh của Ngài: \"Ta là bánh từ trời xuống.\" Họ biết gia đình trần thế của Ngài và gặp khó khăn khi chấp nhận thân phận thần linh của Ngài. Chúa Giêsu đáp rằng sự cần thiết của đức tin, và tuyên bố không ai có thể đến với Ngài nếu không được Chúa Cha kéo lên. Ngài đối chiếu manna tạm thời mà tổ tiên họ đã ăn trong sa mạc với bánh thật, ban sự sống là chính thịt Ngài, để Ngài dâng cho sự sống của thế giới. Chúa Nhật này thách thức các tín hữu vượt qua sự mù quáng thiêng liêng và tin tưởng vào lời Chúa Giêsu, nhận ra rằng sự sống thật được tìm thấy trong sự hiệp thông tích cực với Ngài.",
       "confidence": "confirmed",
       "confidence_note_en": "Lectionary confirms the Year B readings on the Nineteenth Sunday in Ordinary Time.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Sách Bài Đọc xác nhận các bài đọc Năm B cho Chúa Nhật thứ Mười Chín Mùa Thường Niên."
     },
     "place": {
       "name": null,
@@ -516,9 +516,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "\"I am the living bread that came down from heaven.\"",
-      "hero_line_vi": "",
+      "hero_line_vi": "\"Ta là bánh hằng sống từ trời xuống.\"",
       "prayer_prompt_en": "Seek the divine strength of the living bread to sustain your weekly journey.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Tìm kiếm sức mạnh thần linh của Bánh Hằng Sống để nâng đỡ hành trình tuần này của bạn."
     }
   },
   {
@@ -530,7 +530,7 @@
       "rank": "Feast",
       "color": "red",
       "title_en": "Saint Lawrence, Deacon and Martyr",
-      "title_vi": ""
+      "title_vi": "Thánh Laurensô, Phó tế và Tử đạo"
     },
     "calendars": {
       "julian": "2026-07-28",
@@ -542,14 +542,14 @@
     "primary": {
       "type": "feast",
       "title_en": "Saint Lawrence, Deacon and Martyr",
-      "title_vi": "",
+      "title_vi": "Thánh Laurensô, Phó tế và Tử đạo",
       "summary_en": "Saint Lawrence was one of the seven deacons of Rome, celebrated for declaring the poor to be the true treasures of the Church and suffering a brutal martyrdom by fire.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Laurensô là một trong bảy phó tế của Roma, được tôn vinh vì đã tuyên bố người nghèo là kho tàng thật của Giáo Hội và chịu chết tử đạo bằng lửa cách tàn bạo.",
       "body_en": "Saint Lawrence (d. 258) served as the archdeacon of Rome under Pope Saint Sixtus II, with responsibility for managing the Church's goods and assisting the poor. When ordered by the Roman prefect to hand over the Church's treasures, Lawrence presented the poor, the sick, and the marginalized, declaring: \"These are the treasures of the Church.\" He was sentenced to be roasted alive on a gridiron, maintaining his joy and famously telling his executioners: \"Turn me over, I am done on this side.\" His courageous witness made him one of Rome's most beloved patron saints.",
-      "body_vi": "",
+      "body_vi": "Thánh Laurensô (mất năm 258) phục vụ như tổng phó tế của Roma dưới thời Thánh Giáo hoàng Sixtô II, với trách nhiệm quản lý tài sản của Giáo Hội và trợ giúp người nghèo. Khi bị quan tổng trấn Roma ra lệnh phải giao nộp kho tàng của Giáo Hội, Laurensô dẫn đến những người nghèo, người đau yếu và những người bị gạt ra ngoài lề xã hội, tuyên bố: \"Đây là kho tàng của Giáo Hội.\" Ngài bị kết án thiêu sống trên một vỉ sắt nóng, vẫn giữ vững niềm vui và nói với đao phủ nổi tiếng rằng: \"Hãy lật tôi sang mặt bên kia, mặt này đã chín rồi.\" Chứng tá can trường của ngài khiến ngài trở thành một trong những thánh bổn mạng được yêu mến nhất của Roma.",
       "confidence": "confirmed",
       "confidence_note_en": "Roman Martyrology and universal consensus confirm his martyrdom and feast on August 10, dating back to the fourth century Depositio Martyrum.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Sách Tử Đạo Học Roma và sự đồng thuận phổ quát xác nhận cuộc tử đạo và lễ kính ngài vào ngày 10 tháng 8, có từ Depositio Martyrum thế kỷ thứ tư."
     },
     "place": {
       "name": "Basilica of San Lorenzo fuori le Mura, Rome, Italy",
@@ -574,9 +574,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "\"These are the treasures of the Church!\"",
-      "hero_line_vi": "",
+      "hero_line_vi": "\"Đây là kho tàng của Giáo Hội!\"",
       "prayer_prompt_en": "Pray for the poor and sick, recognizing them as the Church's real treasures.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện cho người nghèo và người đau yếu, nhận ra họ là kho tàng thật của Giáo Hội."
     }
   },
   {
@@ -588,7 +588,7 @@
       "rank": "Memorial",
       "color": "white",
       "title_en": "Saint Clare, Virgin",
-      "title_vi": ""
+      "title_vi": "Thánh Clare, Đồng trinh"
     },
     "calendars": {
       "julian": "2026-07-29",
@@ -600,14 +600,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Clare of Assisi",
-      "title_vi": "",
+      "title_vi": "Thánh Clare thành Assisi",
       "summary_en": "Saint Clare was the first female follower of Saint Francis, establishing the Poor Clares and successfully defending her monastery through her intense eucharistic devotion.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Clare là nữ tín hữu đầu tiên đi theo Thánh Phanxicô, đã sáng lập Dòng Nữ Tu Nghèo Khó và bảo vệ thành công tu viện của mình nhờ lòng sùng kính Thánh Thể mãnh liệt.",
       "body_en": "Saint Clare (1194–1253) abandoned her noble family in Assisi to follow Saint Francis, founding the Order of Poor Ladies (Poor Clares). She was the first woman to write a monastic rule, fighting to secure the \"privilege of highest poverty.\" Her profound faith was demonstrated when she defended her convent from an invading army by raising the Blessed Sacrament, causing the soldiers to flee in terror. Her body rests in the Basilica of Santa Chiara.",
-      "body_vi": "",
+      "body_vi": "Thánh Clare (1194–1253) đã rời bỏ gia đình quý tộc tại Assisi để theo Thánh Phanxicô, sáng lập Dòng Nữ Tu Nghèo Khó (Dòng Nữ Tu Clare). Bà là người phụ nữ đầu tiên viết một nội quy tu trì, chiến đấu để bảo đảm \"đặc quyền của sự khó nghèo cao nhất.\" Đức tin sâu sắc của bà được thể hiện khi bà bảo vệ tu viện khỏi quân đội xâm lược bằng cách giơ cao Mình Thánh Chúa, khiến lính tráng hoảng sợ bỏ chạy. Thân xác bà hiện an nghỉ tại Vương Cung Thánh Đường Santa Chiara.",
       "confidence": "confirmed",
       "confidence_note_en": "The Universal Roman Calendar recognizes her memorial on August 11, the day of her passing in Assisi in 1253.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Lịch Roma Phổ Quát công nhận lễ nhớ của bà vào ngày 11 tháng 8, ngày bà qua đời tại Assisi năm 1253."
     },
     "place": {
       "name": "Basilica of Santa Chiara, Assisi, Italy",
@@ -632,9 +632,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Mother of the Poor Clares",
-      "hero_line_vi": "",
+      "hero_line_vi": "Mẹ của Dòng Nữ Tu Nghèo Khó",
       "prayer_prompt_en": "Pray for monastic vocations and the grace to seek spiritual simplicity.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện cho các ơn gọi tu trì và xin ơn tìm kiếm sự giản dị thiêng liêng."
     }
   },
   {
@@ -646,7 +646,7 @@
       "rank": "Optional Memorial",
       "color": "white",
       "title_en": "Saint Jane Frances de Chantal, Religious",
-      "title_vi": ""
+      "title_vi": "Thánh Jeanne Françoise de Chantal, Nữ tu"
     },
     "calendars": {
       "julian": "2026-07-30",
@@ -658,14 +658,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Jane Frances de Chantal",
-      "title_vi": "",
+      "title_vi": "Thánh Jeanne Françoise de Chantal",
       "summary_en": "Saint Jane Frances de Chantal was a French noblewoman who, after becoming a widow, co-founded the Visitation Order under the guidance of Saint Francis de Sales.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Jeanne Françoise de Chantal là một quý tộc người Pháp, sau khi trở thành goá phụ, đã đồng sáng lập Dòng Thăm Viếng dưới sự hướng dẫn của Thánh Phanxicô de Sales.",
       "body_en": "Saint Jane Frances de Chantal (1572–1641) lived a exemplary life in multiple vocations. As a widow and mother, she managed her household with great charity until, under the direction of Saint Francis de Sales, she co-founded the Visitation Order. The congregation welcomed women who were too fragile for other severe orders. Her remains rest in the Basilica of the Visitation in Annecy, France.",
-      "body_vi": "",
+      "body_vi": "Thánh Jeanne Françoise de Chantal (1572–1641) đã sống một cuộc đời gương mẫu qua nhiều ơn gọi. Với tư cách là một goá phụ và người mẹ, bà quản lý gia đình với lòng bác ái lớn lao cho đến khi, dư�i sự hướng dẫn của Thánh Phanxicô de Sales, bà đồng sáng lập Dòng Thăm Viếng. Hội dòng chào đón những phụ nữ quá yếu đuối để vào các dòng khắc khổ khác. Di hài của bà hiện an nghỉ tại Vương cung thánh đường Thăm Viếng ở Annecy, Pháp.",
       "confidence": "confirmed",
       "confidence_note_en": "The liturgical calendar places her optional memorial on August 12.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Phụng vụ xếp lễ kỷ niệm tùy chọn của ngài vào ngày 12 tháng 8."
     },
     "place": {
       "name": "Basilica of the Visitation, Annecy, France",
@@ -690,9 +690,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Foundress of the Visitation Order",
-      "hero_line_vi": "",
+      "hero_line_vi": "Nữ sáng lập Dòng Thăm Viếng",
       "prayer_prompt_en": "Pray for those dealing with loss and the separation of family members today.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện cho những ai đang chịu đau khổ vì mất mát và chia ly với người thân hôm nay."
     }
   },
   {
@@ -704,7 +704,7 @@
       "rank": "Memorial",
       "color": "red",
       "title_en": "Saints Pontian, Pope, and Hippolytus, Priest, Martyrs",
-      "title_vi": ""
+      "title_vi": "Các Thánh Pontiano, Giáo hoàng, và Hippolytus, Linh mục, Tử đạo"
     },
     "calendars": {
       "julian": "2026-07-31",
@@ -716,14 +716,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saints Pontian and Hippolytus",
-      "title_vi": "",
+      "title_vi": "Các Thánh Pontiano và Hippolytus",
       "summary_en": "Pope Saint Pontian and the brilliant theologian Saint Hippolytus were third-century martyrs who, despite prior division, reconciled during their brutal exile in the mines of Sardinia.",
-      "summary_vi": "",
+      "summary_vi": "Giáo hoàng Thánh Pontiano và nhà thần học lỗi lạc Thánh Hippolytus là những vị tử đạo thế kỷ thứ ba, bất chấp những bất đồng trước đó, đã hoà giải với nhau trong cuộc lưu đày khắc nghiệt tại các mỏ Sardinia.",
       "body_en": "Pope Saint Pontian and the priest Saint Hippolytus were third-century Roman leaders exiled to the brutal mines of Sardinia during imperial persecutions. Despite prior theological disputes and divisions, they reconciled in exile. Pontian resigned his papal office to ensure church unity, and both died as martyrs of charity, representing the triumph of ecclesiastical peace over discord.",
-      "body_vi": "",
+      "body_vi": "Giáo hoàng Thánh Pontiano và linh mục Thánh Hippolytus là những lãnh đạo người Rôma thế k� thứ ba, bị lưu đày đến các mỏ khắc nghiệt của Sardinia trong các cuộc bách hại của đế quốc. Bất chấp những tranh luận thần học và chia rẽ trước đó, hai ngài đã hoà giải trong cảnh lưu đày. Pontiano từ chức giáo hoàng để bảo đảm sự hiệp nhất của Giáo hội, và cả hai qua đời như những vị tử đạo của lòng mến, biểu trưng cho chiến thắng của hoà bình Giáo hội trên sự bất hoà.",
       "confidence": "confirmed",
       "confidence_note_en": "Consensus calendar date of August 13 aligns with their translation to Rome in the fourth century.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Ngày 13 tháng 8 trong lịch phụng vụ thống nhất với ngày di cốt của các ngài được đưa về Rôma vào thế kỷ thứ tư."
     },
     "place": {
       "name": "Catacomb of Callixtus, Rome, Italy",
@@ -748,9 +748,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Martyrs of reconciliation and unity",
-      "hero_line_vi": "",
+      "hero_line_vi": "Các vị tử đạo của hoà giải và hiệp nhất",
       "prayer_prompt_en": "Seek the courage to forgive and reconcile with those from whom you are divided.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Xin được can đảm tha thứ và hoà giải với những ai mà bạn đang chia rẽ."
     }
   },
   {
@@ -762,7 +762,7 @@
       "rank": "Memorial",
       "color": "red",
       "title_en": "Saint Maximilian Mary Kolbe, Priest and Martyr",
-      "title_vi": ""
+      "title_vi": "Thánh Maximilianô Maria Kolbe, Linh mục và Tử đạo"
     },
     "calendars": {
       "julian": "2026-08-01",
@@ -774,14 +774,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Maximilian Mary Kolbe",
-      "title_vi": "",
+      "title_vi": "Thánh Maximilianô Maria Kolbe",
       "summary_en": "Saint Maximilian Mary Kolbe was a Polish Franciscan priest who offered his life in place of a fellow prisoner at the Auschwitz concentration camp in 1941.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Maximilianô Maria Kolbe là một linh mục Phanxicô người Ba Lan đã dâng mạng sống mình để thay cho một tù nhân đồng ngục tại trại tập trung Auschwitz vào năm 1941.",
       "body_en": "Saint Maximilian Kolbe (1894–1941) was a Polish Conventual Franciscan priest who offered his life in place of a stranger at the Auschwitz concentration camp. In the starvation bunker, Kolbe led the dying men in prayers and hymns, transforming a place of horror into a chapel of hope. He was executed by carbolic acid injection on August 14. His life represents the ultimate witness of Christian charity in the face of absolute evil.",
-      "body_vi": "",
+      "body_vi": "Thánh Maximilianô Kolbe (1894–1941) là một linh mục Phanxicô Conventual người Ba Lan đã dâng mạng sống để thế cho một người lạ tại trại tập trung Auschwitz. Trong hầm bỏ đói, Kolbe đã hướng dẫn những người sắp chết cầu nguyện và hát thánh ca, biến nơi kinh hoàng thành một nhà nguyện hy vọng. Ngài bị hành quyết bằng cách tiêm axít carbolic vào ngày 14 tháng 8. Cuộc đời ngài là chứng nhân tối thượng của đức bác ái Kitô giáo đối diện với cái ác tuyệt đối.",
       "confidence": "confirmed",
       "confidence_note_en": "Universal martyrology lists his death on August 14, 1941, celebrated globally as his feast day.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Sách tử đạo chung liệt kê ngày mất của ngài là 14 tháng 8 năm 1941, được mừng kính toàn cầu như lễ kính ngài."
     },
     "place": {
       "name": "Auschwitz-Birkenau, Oświęcim, Poland",
@@ -806,9 +806,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "The martyr of charity of Auschwitz",
-      "hero_line_vi": "",
+      "hero_line_vi": "Vị tử đạo của lòng bác ái tại Auschwitz",
       "prayer_prompt_en": "Ask for the courage of selfless love to sacrifice your own comfort for others.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Xin được can đảm của tình yêu vị tha để hy sinh sự thoải mái của chính mình vì người khác."
     }
   },
   {
@@ -820,7 +820,7 @@
       "rank": "Solemnity",
       "color": "white",
       "title_en": "The Assumption of the Blessed Virgin Mary",
-      "title_vi": ""
+      "title_vi": "Đức Maria Hồn Xác Lên Trời"
     },
     "calendars": {
       "julian": "2026-08-02",
@@ -832,14 +832,14 @@
     "primary": {
       "type": "solemnity",
       "title_en": "Solemnity of the Assumption of the Blessed Virgin Mary",
-      "title_vi": "",
+      "title_vi": "Lễ Trọng Đức Maria Hồn Xác Lên Trời",
       "summary_en": "The Solemnity of the Assumption celebrates the dogmatic truth that Mary, the Mother of Jesus, was assumed body and soul into heavenly glory at the end of her earthly life.",
-      "summary_vi": "",
+      "summary_vi": "Lễ Trọng Mông Triệu mừng chân lý tín điều rằng Mẹ Maria, Mẹ của Đức Giêsu, đã được đưa lên trong vinh quang thiên quốc cả hồn lẫn xác khi kết thúc cuộc đời trần thế.",
       "body_en": "The dogma of the Assumption of the Blessed Virgin Mary was solemnly defined by Pope Pius XII in his 1950 apostolic constitution *Munificentissimus Deus*, declaring that the Immaculate Mother of God, having completed the course of her earthly life, was assumed body and soul into heavenly glory. This feast represents the ancient, unbroken tradition of both the Eastern and Western Churches, celebrating Mary's unique participation in the Resurrection of her Son. Pope Francis has noted that Mary's Assumption shows us that heaven is within reach when we follow her path of deep humility and generous service. The liturgy features the Magnificat from the Gospel of Luke, a canticle of profound hope that prophesies the triumph of God's mercy and the exaltation of the lowly. Mary's assumed body stands as a radiant icon of hope and comfort for the pilgrim People of God, prefiguring the final resurrection of all the faithful.",
-      "body_vi": "",
+      "body_vi": "Tín điều Mông Triệu Đức Trinh Nữ Maria được long trọng công bố bởi Giáo hoàng Piô XII qua tông hiến năm 1950 *Munificentissimus Deus*, tuyên bố rằng Mẹ Thiên Chúa Vô Nhiễm, sau khi hoàn tất hành trình trần thế, đã được đưa lên trong vinh quang thiên quốc cả hồn lẫn xác. Lễ này đại diện cho truyền thống c� xưa liên tục của cả Giáo hội Đông và Tây, mừng sự tham dự độc đáo của M� Maria vào sự Phục Sinh của Con Ngài. Giáo hoàng Phanxicô đã ghi nhận rằng Mông Triệu của M� Maria cho chúng ta thấy thiên đang ở trong tầm tay khi chúng ta bước đi theo con đường khiêm tốn sâu xa và phục vụ quảng đại của Mẹ. Phụng vụ trình bày kinh Magnificat từ Tin Mừng Luca, một bài ca ngợi chứa đựng niềm hy vọng sâu thẳm loan báo chiến thắng của lòng thương xót Chúa và sự nâng cao những kẻ khiêm nhường. Thân xác được Mông Triệu của Mẹ Maria là hình ảnh rạng ngời của niềm hy vọng và an ủi cho Dân Chúa lữ hành, hình bóng tiên trưng cho sự phục sinh cuối cùng của tất cả các tín hữu.",
       "confidence": "confirmed",
       "confidence_note_en": "Pius XII's ex cathedra declaration in 1950 solidified the August 15 date of the Assumption as a solemnity of the highest class.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Tuyên bố ex cathedra của Piô XII năm 1950 đã củng cố ngày 15 tháng 8 cho lễ Mông Triệu như lễ trọng thuộc hạng cao nhất."
     },
     "place": {
       "name": "Tomb of the Virgin Mary, Jerusalem, Israel",
@@ -864,9 +864,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "The heavenly coronation of the Mother of God",
-      "hero_line_vi": "",
+      "hero_line_vi": "Sự tôn vinh trên trời của Mẹ Thiên Chúa",
       "prayer_prompt_en": "Look up to Mary assumed into heaven as a sure sign of hope for your future resurrection.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Ngước nhìn Mẹ Maria đã được Mông Triệu lên trời như dấu chắc chắn của niềm hy vọng cho sự phục sinh mai sau của bạn."
     }
   },
   {
@@ -878,7 +878,7 @@
       "rank": "Sunday",
       "color": "green",
       "title_en": "20th Sunday in Ordinary Time",
-      "title_vi": ""
+      "title_vi": "Chúa Nhật thứ XX Mùa Thường Niên"
     },
     "calendars": {
       "julian": "2026-08-03",
@@ -890,14 +890,14 @@
     "primary": {
       "type": "liturgical_day",
       "title_en": "20th Sunday in Ordinary Time (Year B)",
-      "title_vi": "",
+      "title_vi": "Chúa Nhật thứ XX Mùa Thường Niên (Năm B)",
       "summary_en": "The Twentieth Sunday in Ordinary Time marks the peak of the theological Bread of Life Discourse, stressing the literal eating of His flesh and drinking of His blood.",
-      "summary_vi": "",
+      "summary_vi": "Chúa Nhật thứ XX Mùa Thường Niên đánh dấu đ�nh cao thần học của Bài Giảng về Bánh Hằng Sống, nhấn mạnh việc ăn thịt và uống máu Đức Kitô theo nghĩa đen.",
       "body_en": "In the Gospel of John, the discourse on the Bread of Life reaches its theological climax as Jesus declares: \"Unless you eat the flesh of the Son of Man and drink his blood, you do not have life within you.\" Rather than softening His language in the face of shock, Jesus reiterates the necessity of eating His flesh and drinking His blood, promising that whoever does so will receive eternal life. This Sunday invites the faithful to enter into the profound mystery of the Eucharist with deep faith, recognizing the Holy Mass as a real participation in Christ's saving sacrifice. Stephen of Hungary's optional memorial is omitted due to Sunday.",
-      "body_vi": "",
+      "body_vi": "Trong Tin Mừng Gioan, bài giảng về Bánh Hằng Sống đạt đến đỉnh cao thần học khi Đức Giêsu tuyên bố: \"Nếu anh em không ăn thịt Con Người và uống máu Người, anh em sẽ không có sự sống trong anh em.\" Thay vì dịu giọng đi trước sự kinh ngạc, Đức Giêsu lặp lại sự cần thiết phải ăn thịt Người và uống máu Người, hứa rằng ai làm điều đó sẽ nhận được sự sống đời đời. Chúa Nhật này mời gọi các tín hữu bước vào mầu nhiệm sâu thẳm của Thánh Thể với đức tin sâu xa, nhìn nhận Thánh Lễ là sự tham dự thực sự vào hy tế cứu độ của Đức Kitô. Lễ k� niệm tùy chọn của Thánh Stephen của Hungary được bỏ qua vì ngày Chúa Nhật.",
       "confidence": "confirmed",
       "confidence_note_en": "The Sunday of Ordinary Time takes priority over and overrides the feast of Saint Stephen of Hungary according to general norms.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Chúa Nhật Mùa Thường Niên được ưu tiên và thay thế lễ kính Thánh Stephen của Hungary theo các quy tắc chung."
     },
     "place": {
       "name": null,
@@ -922,9 +922,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "\"My flesh is true food, and my blood is true drink.\"",
-      "hero_line_vi": "",
+      "hero_line_vi": "\"Thịt Ta thật là của ăn, và máu Ta thật là của uống.\"",
       "prayer_prompt_en": "Offer your doubts to Jesus and receive Him with deeper faith in communion.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Dâng những nghi ngờ của bạn cho Đức Giêsu và đón nhận Ngài với đức tin sâu hơn trong Bí tích Thánh Thể."
     }
   },
   {
@@ -936,7 +936,7 @@
       "rank": "Feria",
       "color": "green",
       "title_en": "Monday of the 20th Week in Ordinary Time",
-      "title_vi": ""
+      "title_vi": "Thứ Hai Tuần XX Mùa Thường Niên"
     },
     "calendars": {
       "julian": "2026-08-04",
@@ -948,14 +948,14 @@
     "primary": {
       "type": "liturgical_day",
       "title_en": "Monday of the 20th Week in Ordinary Time",
-      "title_vi": "",
+      "title_vi": "Thứ Hai Tuần XX Mùa Thường Niên",
       "summary_en": "A standard weekday in Ordinary Time, calling the faithful to reflect on how to integrate the Eucharist into the routine of weekly work.",
-      "summary_vi": "",
+      "summary_vi": "Một ngày trong tuần tiêu chuẩn của Mùa Thường Niên, mời gọi các tín hữu suy ngẫm về cách đưa Thánh Thể vào nhịp sống làm việc hằng tuần.",
       "body_en": "Today's feria in Ordinary Time invites us to digest the profound Eucharistic teachings of the preceding Sunday. As we carry Christ's presence within us, we are called to be signs of His love and compassion to everyone we meet, transforming our daily work into a continuous prayer of charity.",
-      "body_vi": "",
+      "body_vi": "Ngày lễ trong tuần của Mùa Thường Niên hôm nay mời gọi chúng ta chiêm nghiệm những giáo huấn Thánh Thể sâu sắc từ Chúa Nhật vừa qua. Khi mang sự hiện diện của Đức Kitô bên trong, chúng ta được mời gọi tr� nên dấu chỉ tình yêu và lòng thương xót của Ngài cho mọi người chúng ta gặp, biến công việc hằng ngày thành lời cầu nguyện bác ái liên lỉ.",
       "confidence": "confirmed",
       "confidence_note_en": "The liturgical cycle places August 17 as a normal weekday in Ordinary Time.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Chu kỳ phụng vụ xếp ngày 17 tháng 8 là ngày trong tuần tiêu chuẩn của Mùa Thường Niên."
     },
     "place": {
       "name": null,
@@ -980,9 +980,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Living the Eucharistic reality",
-      "hero_line_vi": "",
+      "hero_line_vi": "Sống thực tại Thánh Thể",
       "prayer_prompt_en": "Invite Christ to guide your conversations and actions throughout this workday.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Mời Đức Kitý hướng dẫn các cuộc trò chuyện và hành động của bạn suốt ngày làm việc này."
     }
   },
   {
@@ -994,7 +994,7 @@
       "rank": "Feria",
       "color": "green",
       "title_en": "Tuesday of the 20th Week in Ordinary Time",
-      "title_vi": ""
+      "title_vi": "Thứ Ba Tuần XX Mùa Thường Niên"
     },
     "calendars": {
       "julian": "2026-08-05",
@@ -1006,14 +1006,14 @@
     "primary": {
       "type": "liturgical_day",
       "title_en": "Tuesday of the 20th Week in Ordinary Time",
-      "title_vi": "",
+      "title_vi": "Thứ Ba Tuần XX Mùa Thường Niên",
       "summary_en": "This weekday focuses on spiritual growth, encouraging the steady cultivation of faith through silent devotion and simple responsibilities.",
-      "summary_vi": "",
+      "summary_vi": "Ngày trong tuần này tập trung vào sự tăng trưởng thiêng liêng, khuyến khích vun trồng đức tin đều đặn qua sự thờ phượng âm thầm và các trách nhiệm đơn giản.",
       "body_en": "Today's weekday liturgy continues to build our relationship with God through silent, daily faithfulness. The liturgy highlights the steady growth of the seeds of faith in the soil of our ordinary lives, reminding us that every day is an opportunity to witness to Christ's peace.",
-      "body_vi": "",
+      "body_vi": "Phụng vụ ngày trong tuần hôm nay tiếp tục xây dựng mối tương quan của chúng ta với Thiên Chúa qua sự trung tín âm thầm hằng ngày. Phụng vụ làm nổi bật sự tăng trư�ng đều đặn của hạt giống đức tin trong đất của cuộc sống thường ngày, nhắc nh� chúng ta rằng mỗi ngày là cơ hội để làm chứng nhân cho bình an của Đức Kitô.",
       "confidence": "confirmed",
       "confidence_note_en": "No obligatory feast occurs, confirming this day as a standard feria in the 20th week.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Không có lễ buộc nào xảy ra, xác nhận ngày này là ngày trong tuần tiêu chuẩn của tuần thứ XX."
     },
     "place": {
       "name": null,
@@ -1038,9 +1038,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Silent growing of the seeds of faith",
-      "hero_line_vi": "",
+      "hero_line_vi": "Lặng lẽ vun trồng hạt giống đức tin",
       "prayer_prompt_en": "Reflect on how silent moments can help you listen more carefully to God.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Suy ngẫm về cách những khoảnh khắc im lặng có thể giúp bạn lắng nghe Thiên Chúa cẩn thận hơn."
     }
   },
   {
@@ -1052,7 +1052,7 @@
       "rank": "Optional Memorial",
       "color": "white",
       "title_en": "Saint John Eudes, Priest",
-      "title_vi": ""
+      "title_vi": "Thánh Gioan Eudes, Linh mục"
     },
     "calendars": {
       "julian": "2026-08-06",
@@ -1064,14 +1064,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint John Eudes",
-      "title_vi": "",
+      "title_vi": "Thánh Gioan Eudes",
       "summary_en": "Saint John Eudes was a French missionary and promoter of the liturgical devotion to the Sacred Hearts of Jesus and Mary, establishing the Eudists to improve clerical training.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Gioan Eudes là một nhà truyền giáo người Pháp và người thúc đẩy lòng sùng kính phụng vụ đối với Thánh Tâm Chúa Giêsu và Đức Maria, đã sáng lập Dòng Eudistes để nâng cao việc đào tạo giáo sĩ.",
       "body_en": "Saint John Eudes (1601–1680) was a French priest who founded the Congregation of Jesus and Mary (Eudists) for seminary formation, and the Order of Our Lady of Charity. He preached over a hundred missions and was a pioneer in promoting the liturgical devotion to the Sacred Hearts of Jesus and Mary.",
-      "body_vi": "",
+      "body_vi": "Thánh Gioan Eudes (1601–1680) là một linh mục người Pháp đã sáng lập Hội dòng Chúa Giêsu và Đức Maria (Eudistes) cho việc đào tạo chủng viện, và Dòng Đức Maria Hồn Xác Lên Trời. Ngài đã giảng hơn một trăm cuộc truyền giáo và là người tiên phong trong việc thúc đẩy lòng sùng kính phụng vụ đối với Thánh Tâm Chúa Giêsu và Đức Maria.",
       "confidence": "confirmed",
       "confidence_note_en": "Liturgical books set his Optional Memorial on August 19, the date of his death in Caen in 1680.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Sách phụng vụ đặt lễ Kỷ niệm Tùy chọn của ngài vào ngày 19 tháng 8, ngày ngài qua đời tại Caen năm 1680."
     },
     "place": {
       "name": "Notre-Dame-de-la-Gloriette, Caen, France",
@@ -1096,9 +1096,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Apostle of the Sacred Hearts",
-      "hero_line_vi": "",
+      "hero_line_vi": "Sứ giả của các Thánh Tâm",
       "prayer_prompt_en": "Pray for seminarians and the spiritual renewal of the clergy today.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện cho các chủng sinh và sự đổi mới thiêng liêng của giáo sĩ hôm nay."
     }
   },
   {
@@ -1110,7 +1110,7 @@
       "rank": "Memorial",
       "color": "white",
       "title_en": "Saint Bernard, Abbot and Doctor of the Church",
-      "title_vi": ""
+      "title_vi": "Thánh Bernard, Viện phụ và Tiến sĩ Hội Thánh"
     },
     "calendars": {
       "julian": "2026-08-07",
@@ -1122,14 +1122,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Bernard of Clairvaux",
-      "title_vi": "",
+      "title_vi": "Thánh Bernard thành Clairvaux",
       "summary_en": "Saint Bernard of Clairvaux was a major Cistercian reformer, abbot, and powerful peacemaker whose theological writings and love for Mary earned him the title 'Mellifluous Doctor'.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Bernard thành Clairvaux là nhà cải cách Xitô quan trọng, viện phụ, và người hòa giải quyền lực, các tác phẩm thần học và tình yêu dành cho Đức Maria đã mang lại cho ngài danh hiệu 'Tiến sĩ Mật Ong'.",
       "body_en": "Saint Bernard of Clairvaux (1090–1153) was a charismatic French noble who revitalized the Cistercian reform, establishing hundreds of monasteries across Europe. Known as the \"Mellifluous Doctor\" for his sweet eloquence, his writings combined deep theology with spiritual passion. He acted as a powerful peacemaker and promoted intense devotion to the Blessed Virgin Mary.",
-      "body_vi": "",
+      "body_vi": "Thánh Bernard thành Clairvaux (1090–1153) là một quý tộc Pháp đầy sức hút đã hồi sinh cải cách Xitô, thiết lập hàng trăm đan viện khắp châu Âu. Được biết đến với danh hiệu \"Tiến sĩ Mật Ong\" vì tài hùng biện ngọt ngào của mình, các tác phẩm của ngài kết hợp thần học sâu sắc với nhiệt tâm thiêng liêng. Ngài đóng vai trò là người hòa giải quyền lực và thúc đẩy lòng sùng kính nồng nàn đối với Đức Trinh Nữ Maria.",
       "confidence": "confirmed",
       "confidence_note_en": "The Roman Martyrology designates his memorial on August 20, marking his death at Clairvaux in 1153.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Sách Tử đạo La Mã chỉ định lễ kính của ngài vào ngày 20 tháng 8, đánh dấu ngày ngài qua đời tại Clairvaux năm 1153."
     },
     "place": {
       "name": "Clairvaux Abbey, Ville-sous-la-Ferté, France",
@@ -1154,9 +1154,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "The Mellifluous Doctor of Clairvaux",
-      "hero_line_vi": "",
+      "hero_line_vi": "Tiến sĩ Mật Ong của Clairvaux",
       "prayer_prompt_en": "Praise Mary as the 'living fountain-head of hope' with Saint Bernard.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Ca ngợi Đức Maria là 'suối nguồn sống động của hy vọng' cùng Thánh Bernard."
     }
   },
   {
@@ -1168,7 +1168,7 @@
       "rank": "Memorial",
       "color": "white",
       "title_en": "Saint Pius X, Pope",
-      "title_vi": ""
+      "title_vi": "Thánh Piô X, Giáo hoàng"
     },
     "calendars": {
       "julian": "2026-08-08",
@@ -1180,14 +1180,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Pius X",
-      "title_vi": "",
+      "title_vi": "Thánh Piô X",
       "summary_en": "Pope Saint Pius X is celebrated for his efforts to 'restore all things in Christ', including reforming the Roman liturgy, defending doctrine, and promoting early, frequent reception of Communion.",
-      "summary_vi": "",
+      "summary_vi": "Giáo hoàng Thánh Piô X được mừng kính vì những nỗ lực 'khôi phục mọi sự trong Đức Kitô', bao gồm cải cách phụng vụ Rôma, bảo vệ tín lý, và thúc đẩy việc rước lễ sớm và thường xuyên.",
       "body_en": "Pope Saint Pius X (1835–1914) ruled with the motto \"To Restore All Things in Christ.\" He launched significant reforms, including the reorganization of the Roman Curia and the codification of Canon Law. Deeply pastoral, he lowered the age for First Communion, encouraging frequent reception of the Eucharist.",
-      "body_vi": "",
+      "body_vi": "Giáo hoàng Thánh Piô X (1835–1914) cai trị với phương châm \"Khôi Phục Mọi Sự Trong Đức Kitô.\" Ngài đã khởi xướng những cải cách quan trọng, bao gồm tái tổ chức Toà Thánh và hệ thống hoá Luật Hội Thánh. Với tâm hồn mục vụ sâu sắc, ngài hạ tuổi Rước Lễ Lần Đầu, khuyến khích việc rư�c Thánh Thể thường xuyên.",
       "confidence": "confirmed",
       "confidence_note_en": "Roman Martyrology establishes August 21 as his liturgical memorial, the day after his death in 1914.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Sách Tử đạo La Mã thiết lập ngày 21 tháng 8 là lễ kính phụng vụ của ngài, ngày sau khi ngài qua đời năm 1914."
     },
     "place": {
       "name": "St. Peter's Basilica, Vatican City",
@@ -1212,9 +1212,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "\"To Restore All Things in Christ\"",
-      "hero_line_vi": "",
+      "hero_line_vi": "\"Khôi Phục Mọi Sự Trong Đức Kitô\"",
       "prayer_prompt_en": "Pray for a deeper appreciation and frequent reception of the Holy Eucharist.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện để biết yêu mến sâu sắc hơn và thường xuyên rước Thánh Thể."
     }
   },
   {
@@ -1226,7 +1226,7 @@
       "rank": "Memorial",
       "color": "white",
       "title_en": "Queenship of the Blessed Virgin Mary",
-      "title_vi": ""
+      "title_vi": "Đức Trinh Nữ Maria Lên Ngôi Nữ Vương"
     },
     "calendars": {
       "julian": "2026-08-09",
@@ -1238,14 +1238,14 @@
     "primary": {
       "type": "feast",
       "title_en": "Queenship of the Blessed Virgin Mary",
-      "title_vi": "",
+      "title_vi": "Đức Trinh Nữ Maria Lên Ngôi Nữ Vương",
       "summary_en": "The Queenship of Mary is celebrated on the octave day of the Assumption, emphasizing Mary's royal dignity as Mother of the King of Kings and her role as our maternal intercessor.",
-      "summary_vi": "",
+      "summary_vi": "Lễ Kính Maria Nữ Vương được cử hành vào ngày thứ tám trong tuần Bát Nhật sau lễ Đức Mẹ Lên Trời, nhấn mạnh phẩm giới hoàng gia của Mẹ Maria là Mẹ của Vua các Vua và vai trò Đấng chuyển cầu thân mẫu của chúng ta.",
       "body_en": "Established by Pope Pius XII in 1954, the Queenship of Mary is celebrated on the octave day of the Assumption, highlighting the link between her bodily glorification and her royal dignity. As Mother of the Messiah, Mary is the Queen Mother who intercedes before her Son with maternal love, humility, and service.",
-      "body_vi": "",
+      "body_vi": "Được Đức Giáo hoàng Piô XII thiết lập năm 1954, lễ Đức Maria Nữ Vương được cử hành vào ngày thứ tám trong tuần Bát Nhật sau lễ Đức Mẹ Lên Trời, nêu bật mối liên hệ giữa sự vinh quang thân xác của Mẹ và phẩm giới hoàng gia của Mẹ. Là Mẹ Đấng Messia, Maria là Hoàng Hậu Thánh Mẫu, chuyển cầu trước Con của Mẹ bằng tình yêu thân mẫu, sự khiêm nhường và phục vụ.",
       "confidence": "confirmed",
       "confidence_note_en": "Liturgical reform aligned the Queenship of Mary to August 22, completing the octave day of the Assumption.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Cải cách Phụng Vụ đã ấn định lễ Đức Maria Nữ Vương vào ngày 22 tháng 8, hoàn tất ngày thứ tám trong tuần Bát Nhật sau lễ Đức Mẹ Lên Trời."
     },
     "place": {
       "name": "Basilica di Santa Maria Maggiore, Rome, Italy",
@@ -1270,9 +1270,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Mary, Queen of Heaven and Earth",
-      "hero_line_vi": "",
+      "hero_line_vi": "Maria, Nữ Vương Trời Đất",
       "prayer_prompt_en": "Entrust your worries to Mary, our Queen Mother and gentle advocate.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Hãy phó thác những lo âu của bạn cho Maria, Nữ Vương Thánh Mẫu và Đấng bảo trợ nhân từ của chúng ta."
     }
   },
   {
@@ -1284,7 +1284,7 @@
       "rank": "Sunday",
       "color": "green",
       "title_en": "21st Sunday in Ordinary Time",
-      "title_vi": ""
+      "title_vi": "Chúa Nhật 21 Thường Niên"
     },
     "calendars": {
       "julian": "2026-08-10",
@@ -1296,14 +1296,14 @@
     "primary": {
       "type": "liturgical_day",
       "title_en": "21st Sunday in Ordinary Time (Year B)",
-      "title_vi": "",
+      "title_vi": "Chúa Nhật 21 Thường Niên (Năm B)",
       "summary_en": "The Twenty-First Sunday in Ordinary Time brings a close to the Bread of Life Discourse, presenting the critical crisis of faith and Peter's confession of trust.",
-      "summary_vi": "",
+      "summary_vi": "Chúa Nhật 21 Thường Niên kết thúc bài giảng về Bánh Hằng Sống, trình bày cuộc khủng hoảng đức tin nghiêm trọng và lời tuyên xưng tin tưởng của Thánh Phêrô.",
       "body_en": "In the Gospel of John, the challenging nature of Jesus' Eucharistic teaching leads many disciples to abandon Him. When Jesus asks the Twelve Apostles if they also wish to leave, Simon Peter answers with words of absolute trust: \"Master, to whom shall we go? You have the words of eternal life.\" This Sunday challenges us to choose faith even when it demands sacrifice. Note that the optional memorial of Saint Rose of Lima is omitted this year due to Sunday.",
-      "body_vi": "",
+      "body_vi": "Trong Phúc Âm Thánh Gioan, tính chất thách thức của giáo huấn Thánh Thể của Chúa Giêsu khiến nhiều môn đệ bỏ Ngài. Khi Chúa Giêsu hỏi nhóm Mười Hai Tông Đồ rằng họ cũng muốn bỏ đi không, ông Simon Phêrô đã trả lời bằng lời tuyên xưng tin tưởng tuyệt đối: \"Thưa Thầy, bỏ Thầy thì chúng con đi theo ai? Thầy mới có những lời đem lại sự sống đời đời.\" Chúa Nhật này thách thức chúng ta chọn đức tin ngay cả khi đòi hỏi sự hy sinh. Xin lưu ý rằng kỷ niệm tùy chọn của Thánh Rôsa Lima được bỏ qua trong năm nay vì trùng vào ngày Chúa Nhật.",
       "confidence": "confirmed",
       "confidence_note_en": "The Sunday of Ordinary Time takes priority over the optional memorial of Saint Rose of Lima.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Chúa Nhật Thường Niên được ưu tiên hơn kỷ niệm tùy chọn của Thánh Rôsa Lima."
     },
     "place": {
       "name": null,
@@ -1328,9 +1328,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "\"Master, to whom shall we go? You have the words of eternal life.\"",
-      "hero_line_vi": "",
+      "hero_line_vi": "\"Thưa Thầy, bỏ Thầy thì chúng con đi theo ai?\"",
       "prayer_prompt_en": "Renew your commitment to follow Jesus, even when His teachings challenge you.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Canh tân quyết tâm theo Chúa Giêsu, ngay cả khi giáo huấn của Ngài thách thức bạn."
     }
   },
   {
@@ -1342,7 +1342,7 @@
       "rank": "Feast",
       "color": "red",
       "title_en": "Saint Bartholomew, Apostle",
-      "title_vi": ""
+      "title_vi": "Thánh Bartôlômê, Tông Đồ"
     },
     "calendars": {
       "julian": "2026-08-11",
@@ -1354,14 +1354,14 @@
     "primary": {
       "type": "feast",
       "title_en": "Saint Bartholomew, Apostle",
-      "title_vi": "",
+      "title_vi": "Thánh Bartôlômê, Tông Đồ",
       "summary_en": "Saint Bartholomew, traditionally identified as Nathanael, was one of the Twelve Apostles, praised by Jesus for his lack of duplicity and later martyred by flaying.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Bartôlômê, theo truyền thống được xác định là Nathanael, là một trong nhóm Mười Hai Tông Đồ, được Chúa Giêsu khen ngợi vì sự thẳng thắn không mưu mô và sau đó chịu tử đạo bằng cách bị lột da.",
       "body_en": "Saint Bartholomew is traditionally identified with Nathanael of Cana, who was introduced to Jesus by the Apostle Philip. Moved by Jesus' intimate knowledge of him under the fig tree, Nathanael declared: \"Rabbi, you are the Son of God; you are the King of Israel.\" He preached the Gospel in India and Armenia, where he was martyred by being flayed alive. In Michelangelo's *The Last Judgment*, he is depicted holding his flayed skin. His relics are venerated in the Basilica of San Bartolomeo all'Isola in Rome, preserving his apostolic legacy.",
-      "body_vi": "",
+      "body_vi": "Thánh Bartôlômê theo truyền thống được xác định với Nathanael quê ở Cana, người đã được Tông Đồ Philip giới thiệu với Chúa Giêsu. Xúc động trước sự hiểu biết thâm sâu của Chúa Giêsu về ông dưới gốc cây vả, Nathanael đã tuyên bố: \"Thưa Rabbi, Thầy là Con Thiên Chúa, Thầy là Vua Israel.\" Ngài đã rao giảng Tin Mừng tại Ấn Độ và Armenia, nơi ngài chịu tử đạo bằng cách bị lột da sống. Trong tác phẩm *Phán Xét Chung* của Michelangelo, ngài được miêu tả đang cầm tấm da bị lột của mình. Thánh tích của ngài được tôn kính tại Vương Cung Thánh Đường San Bartolomeo all'Isola ở Roma, gìn giữ di sản tông đồ của ngài.",
       "confidence": "confirmed",
       "confidence_note_en": "The liturgical calendar designates August 24 as the Feast of Saint Bartholomew, a standard, highly ancient feast in the Roman Church.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Lịch phụng vụ chỉ định ngày 24 tháng 8 là Lễ Kính Thánh Bartôlômê, một lễ kính tiêu chuẩn và rất cổ xưa trong Giáo Hội Rôma."
     },
     "place": {
       "name": "Basilica of San Bartolomeo all'Isola, Rome, Italy",
@@ -1386,9 +1386,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "The apostle of honesty and ultimate fidelity",
-      "hero_line_vi": "",
+      "hero_line_vi": "Vị tông đồ của sự thẳng thắn và trung tín tuyệt đối",
       "prayer_prompt_en": "Ask for the grace of absolute sincerity and truthfulness in your relationships.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Xin ơn sống thành thật và chân thành tuyệt đối trong các mối quan hệ của bạn."
     }
   },
   {
@@ -1400,7 +1400,7 @@
       "rank": "Optional Memorial",
       "color": "white",
       "title_en": "Saint Louis of France, or Saint Joseph Calasanz, Priest",
-      "title_vi": ""
+      "title_vi": "Thánh Louis Nước Pháp, hoặc Thánh Giuse Calasanz, Linh Mục"
     },
     "calendars": {
       "julian": "2026-08-12",
@@ -1412,14 +1412,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Louis of France & Saint Joseph Calasanz",
-      "title_vi": "",
+      "title_vi": "Thánh Louis Nước Pháp và Thánh Giuse Calasanz",
       "summary_en": "This day presents optional memorials for Saint Louis IX, the holy and just king of France, and Saint Joseph Calasanz, a Spanish priest who founded the first free public schools for poor children.",
-      "summary_vi": "",
+      "summary_vi": "Ngày này cử hành kỷ niệm tùy chọn cho Thánh Louis IX, vị vua công chính và thánh thiện của nước Pháp, và Thánh Giuse Calasanz, một linh mục người Tây Ban Nha đã sáng lập các trường công lập miễn phí đầu tiên cho trẻ em nghèo.",
       "body_en": "King Saint Louis IX of France ruled with immense justice, personal piety, and devotion to the poor, constructing the Sainte-Chapelle to house Christ's Crown of Thorns. On this day, the Church also honors Saint Joseph Calasanz (1557–1648), a Spanish priest who founded the Piarists to provide free education to poor children.",
-      "body_vi": "",
+      "body_vi": "Vua Thánh Louis IX nước Pháp cai trị với sự công chính to lớn, lòng đạo đức cá nhân và sự tận tâm với người nghèo, đã cho xây dựng Nhà Nguyện Thánh (Sainte-Chapelle) để đặt Vòng Gai Thánh của Chúa. Trong ngày này, Giáo Hội cũng tôn vinh Thánh Giuse Calasanz (1557–1648), một linh mục người Tây Ban Nha đã sáng lập Dòng Piô để cung cấp nền giáo dục miễn phí cho trẻ em nghèo.",
       "confidence": "confirmed",
       "confidence_note_en": "Liturgical calendars universally offer concurrent optional memorials for Saint Louis and Saint Joseph Calasanz on August 25.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Các lịch phụng vụ trên toàn thế giới đều cung cấp các kỷ niệm tùy chọn đồng thời cho Thánh Louis và Thánh Giuse Calasanz vào ngày 25 tháng 8."
     },
     "place": {
       "name": "Basilica of Saint-Denis, Saint-Denis, France",
@@ -1444,9 +1444,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "A holy king and a pioneer of education",
-      "hero_line_vi": "",
+      "hero_line_vi": "Một vị vua thánh thiện và người tiên phong giáo dục",
       "prayer_prompt_en": "Pray for political leaders to act with justice and educators to guide with love.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện cho các nhà lãnh đạo chính trị hành động công chính và các nhà giáo dục hướng dẫn bằng tình yêu thương."
     }
   },
   {
@@ -1458,7 +1458,7 @@
       "rank": "Feria",
       "color": "green",
       "title_en": "Wednesday of the 21st Week in Ordinary Time",
-      "title_vi": ""
+      "title_vi": "Thứ Tư Tuần 21 Thường Niên"
     },
     "calendars": {
       "julian": "2026-08-13",
@@ -1470,14 +1470,14 @@
     "primary": {
       "type": "liturgical_day",
       "title_en": "Wednesday of the 21st Week in Ordinary Time",
-      "title_vi": "",
+      "title_vi": "Thứ Tư Tuần 21 Thường Niên",
       "summary_en": "A weekday in Ordinary Time, offering a serene space to deepen our prayer life and carry out simple acts of service in our communities.",
-      "summary_vi": "",
+      "summary_vi": "Một ngày trong tuần Thường Niên, mang đến không gian thanh thản để làm sâu sắc thêm đời sống cầu nguyện và thực hiện những việc phục vụ đơn giản trong cộng đoàn của chúng ta.",
       "body_en": "Today's feria in Ordinary Time provides a peaceful interlude, drawing the faithful to reflect on their baptismal calling. The liturgy focuses on the daily application of the Gospel message, encouraging us to seek Christ in quiet prayer and simple acts of service.",
-      "body_vi": "",
+      "body_vi": "Ngày lễ thường trong Thường Niên hôm nay mang đến một khoảng lặng bình an, mời gọi các tín hữu suy tư về ơn gọi bí tích Rửa Tội của mình. Phụng vụ tập trung vào việc áp dụng thông điệp Tin Mừng trong cuộc sống hằng ngày, khuyến khích chúng ta tìm kiếm Chúa Kitô trong lời cầu nguyện thinh lặng và những việc phục vụ giản dị.",
       "confidence": "confirmed",
       "confidence_note_en": "August 26 is designated as a standard weekday feria with no universal saints' feasts assigned.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Ngày 26 tháng 8 được chỉ định là ngày lễ thường trong tuần tiêu chuẩn, không có lễ kính thánh nào trên phạm vi toàn Giáo Hội."
     },
     "place": {
       "name": null,
@@ -1502,9 +1502,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "Faithful in the ordinary moments",
-      "hero_line_vi": "",
+      "hero_line_vi": "Trung tín trong những khoảnh khắc thường ngày",
       "prayer_prompt_en": "Seek to serve Christ quietly in your family and work obligations today.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Hãy âm thầm phục vụ Chúa Kitô trong gia đình và các bổn phận công việc của bạn hôm nay."
     }
   },
   {
@@ -1516,7 +1516,7 @@
       "rank": "Memorial",
       "color": "white",
       "title_en": "Saint Monica, Married Woman",
-      "title_vi": ""
+      "title_vi": "Thánh Mônica, Người Đã Kết Hôn"
     },
     "calendars": {
       "julian": "2026-08-14",
@@ -1528,14 +1528,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Monica",
-      "title_vi": "",
+      "title_vi": "Thánh Mônica",
       "summary_en": "Saint Monica was a Christian mother in North Africa celebrated for her persistent prayers and tears that eventually won the conversion of her brilliant son, Saint Augustine.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Mônica là người mẹ Kitô hữu tại Bắc Phi, được tôn kính vì những lời cầu nguyện và nước mắt kiên trì của mẹ, cuối cùng đã mang lại sự trở lại cho người con trai xuất chúng, Thánh Augustinô.",
       "body_en": "Saint Monica (c. 331–387) was a Christian mother in North Africa who married a pagan official with a violent temper. Through her gentle patience, she eventually won his conversion. Her greatest challenge was her brilliant but rebellious son, Augustine, for whose conversion she prayed with tears for over seventeen years.",
-      "body_vi": "",
+      "body_vi": "Thánh Mônica (khoảng 331–387) là người mẹ Kitô hữu tại Bắc Phi, đã kết hôn với một viên chức ngoại giáo có tính khí hung bạo. Qua sự kiên nhẫn dịu dàng của mình, mẹ cuối cùng đã mang lại sự trở lại cho chồng. Thử thách lớn nhất của mẹ là cậu con trai xuất chúng nhưng ngang bướng, Augustinô, người mà mẹ đã cầu nguyện với nước mắt suốt hơn mười bảy năm để xin cho anh được trở lại.",
       "confidence": "confirmed",
       "confidence_note_en": "Monica's memorial on August 27 is structurally coupled with the memorial of her son, Saint Augustine, on August 28.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Lễ kỷ niệm Thánh Mônica vào ngày 27 tháng 8 được gắn kết về mặt cấu trúc với lễ kỷ niệm người con trai của mẹ, Thánh Augustinô, vào ngày 28 tháng 8."
     },
     "place": {
       "name": "Basilica of Sant'Agostino, Rome, Italy",
@@ -1560,9 +1560,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "The weeping mother whose prayers saved a Doctor",
-      "hero_line_vi": "",
+      "hero_line_vi": "Người mẹ khóc thương mà lời cầu nguyện đã cứu một vị Tiến Sĩ Hội Thánh",
       "prayer_prompt_en": "Pray with patient persistence for family members who have lost their way.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Hãy kiên nhẫn cầu nguyện cho các thành viên trong gia đình đang lạc xa đường lối Chúa."
     }
   },
   {
@@ -1574,7 +1574,7 @@
       "rank": "Memorial",
       "color": "white",
       "title_en": "Saint Augustine, Bishop and Doctor of the Church",
-      "title_vi": ""
+      "title_vi": "Thánh Augustinô, Giám Mục và Tiến Sĩ Hội Thánh"
     },
     "calendars": {
       "julian": "2026-08-15",
@@ -1586,14 +1586,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Augustine of Hippo",
-      "title_vi": "",
+      "title_vi": "Thánh Augustinô thành Hippo",
       "summary_en": "Saint Augustine was a brilliant North African philosopher and bishop who became one of the most prolific and influential theological writers in Western Christian history.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Augustinô là một triết gia và giám mục người Bắc Phi xuất sắc, người đã trở thành một trong những tác giả thần học có sức ảnh hưởng và sung mãn nhất trong lịch sử Kitô giáo phương Tây.",
       "body_en": "Saint Augustine of Hippo (354–430) was a brilliant philosopher who experienced a dramatic conversion under the preaching of Saint Ambrose. As Bishop of Hippo, he became one of the most prolific and influential writers in Christian history, shaping Western theology. He is celebrated as the \"Doctor of Grace.\"",
-      "body_vi": "",
+      "body_vi": "Thánh Augustinô thành Hippo (354–430) là một triết gia xuất sắc đã trải qua cuộc trở lại ngoạn mục dưới lời rao giảng của Thánh Ambrôsiô. Với tư cách là Giám Mục thành Hippo, ngài đã trở thành một trong những tác giả sung mãn và có sức ảnh hưởng nhất trong lịch sử Kitô giáo, định hình thần học phương Tây. Ngài được tôn vinh là \"Tiến Sĩ Ân Sủng.\"",
       "confidence": "confirmed",
       "confidence_note_en": "The liturgical calendar recognizes Saint Augustine's memorial on August 28, the date of his death in Hippo in 430.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Lịch phụng vụ công nhận lễ kỷ niệm Thánh Augustinô vào ngày 28 tháng 8, ngày ngài qua đời tại Hippo năm 430."
     },
     "place": {
       "name": "Basilica of San Pietro in Ciel d'Oro, Pavia, Italy",
@@ -1618,9 +1618,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "The Doctor of Grace whose heart found rest in God",
-      "hero_line_vi": "",
+      "hero_line_vi": "Tiến Sĩ Ân Sủng, người đã tìm thấy sự an nghỉ nơi Thiên Chúa",
       "prayer_prompt_en": "\"Late have I loved you, O Beauty ever ancient, ever new!\" Reflect on his words.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "\"Muộn màng biết mấy, con đã yêu Ngài, hỡi Vẻ Đẹp đời đời cũ mới!\" Hãy chiêm niệm lời của ngài."
     }
   },
   {
@@ -1632,7 +1632,7 @@
       "rank": "Memorial",
       "color": "red",
       "title_en": "The Passion of Saint John the Baptist, Martyr",
-      "title_vi": ""
+      "title_vi": "Thương Khó và Các Việc Tử Đạo của Thánh Gioan Tẩy Giả"
     },
     "calendars": {
       "julian": "2026-08-16",
@@ -1644,14 +1644,14 @@
     "primary": {
       "type": "feast",
       "title_en": "The Passion of Saint John the Baptist",
-      "title_vi": "",
+      "title_vi": "Thương Khó của Thánh Gioan Tẩy Giả",
       "summary_en": "This memorial commemorates the martyrological beheading of John the Baptist, who was executed by Herod Antipas for fearlessly defending the integrity of the moral law.",
-      "summary_vi": "",
+      "summary_vi": "Lễ kỷ niệm này tưởng niệm việc chặt đầu tử đạo của Thánh Gioan Tẩy Giả, người đã bị Hêrôđê Antipas xử tử vì dám bảo vệ sự toàn vẹn của luật đạo đức.",
       "body_en": "The Passion of Saint John the Baptist commemorates the martyrdom of the Precursor of Christ, who was beheaded by Herod Antipas for defending the moral law. John's death represents the ultimate fidelity to truth, showing that the prophet of the Wilderness prepared the way for Christ in his heroic death.",
-      "body_vi": "",
+      "body_vi": "Thương Khó của Thánh Gioan Tẩy Giả tưởng niệm sự tử đạo của Tiền Hô Đức Kitô, người đã bị Hêrôđê Antipas chặt đầu vì bảo vệ luật đạo đức. Cái chết của Thánh Gioan đại diện cho sự trung tín tối hậu với chân lý, cho thấy vị ngôn sứ sa mạc đã chuẩn bị đường cho Đức Kitô qua chính cái chết anh dũng của mình.",
       "confidence": "confirmed",
       "confidence_note_en": "The ancient Roman calendar records the dedication of the church in Sebaste over John's tomb on August 29.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Lịch Rôma cổ xưa ghi nhận việc cung hiến nhà thờ tại Sebaste trên mộ của Thánh Gioan vào ngày 29 tháng 8."
     },
     "place": {
       "name": "Basilica of San Silvestro in Capite, Rome, Italy",
@@ -1676,9 +1676,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "The ultimate witness of the Precursor of Christ",
-      "hero_line_vi": "",
+      "hero_line_vi": "Chứng nhân tối hậu của Tiền Hô Đức Kitô",
       "prayer_prompt_en": "Pray for the courage to stand firm in moral truth, even when it is unpopular.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện để có can đảm đứng vững trong chân lý luân lý, ngay cả khi điều đó không được ưa chuộng."
     }
   },
   {
@@ -1690,7 +1690,7 @@
       "rank": "Sunday",
       "color": "green",
       "title_en": "22nd Sunday in Ordinary Time",
-      "title_vi": ""
+      "title_vi": "Chúa Nhật 22 Thường Niên"
     },
     "calendars": {
       "julian": "2026-08-17",
@@ -1702,14 +1702,14 @@
     "primary": {
       "type": "liturgical_day",
       "title_en": "22nd Sunday in Ordinary Time (Year B)",
-      "title_vi": "",
+      "title_vi": "Chúa Nhật 22 Thường Niên (Năm B)",
       "summary_en": "The Twenty-Second Sunday in Ordinary Time marks the return to the Gospel of Mark, emphasizing internal conversion over superficial ritual cleanliness.",
-      "summary_vi": "",
+      "summary_vi": "Chúa Nhật 22 Thường Niên đánh dấu sự trở lại với Phúc Âm Thánh Maccô, nhấn mạnh sự hoán cải nội tâm hơn là sự thanh tẩy nghi thức bề ngoài.",
       "body_en": "In the Gospel of Mark, the Pharisees criticize Jesus' disciples for eating with unwashed hands, violating external traditions. Jesus responds by teaching that nothing entering a person from the outside can defile them; rather, it is what comes out of a person's heart that truly defiles them. This Sunday invites us to examine our internal motivations, seeking a pure heart rather than superficial rituals.",
-      "body_vi": "",
+      "body_vi": "Trong Phúc Âm Thánh Maccô, những người Pha-ri-sê chỉ trích các môn đệ của Chúa Giêsu vì ăn mà không rửa tay, vi phạm các tục lệ bề ngoài. Chúa Giêsu đáp lại bằng việc dạy rằng không có gì từ bên ngoài vào trong con người có thể làm cho họ ô uế; nhưng chính những gì từ trong lòng con người đi ra mới thực sự làm cho họ ô uế. Chúa Nhật này mời gọi chúng ta xem xét các động cơ nội tâm của mình, tìm kiếm một trái tim trong sạch hơn là những nghi thức hời hợt bề ngoài.",
       "confidence": "confirmed",
       "confidence_note_en": "Lectionary confirms the transition back to the Gospel of Mark (Year B) on the 22nd Sunday.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Bài đọc xác nhận sự chuyển tiếp trở lại Phúc Âm Thánh Maccô (Năm B) vào Chúa Nhật thứ 22."
     },
     "place": {
       "name": null,
@@ -1734,9 +1734,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "\"Nothing from the outside can defile... it is what comes from the heart.\"",
-      "hero_line_vi": "",
+      "hero_line_vi": "\"Không gì từ bên ngoài có thể làm ô uế... mà chính từ lòng mà ra.\"",
       "prayer_prompt_en": "Ask God to purify your heart of pride, envy, and selfishness today.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Xin Thiên Chúa thanh tẩy tâm hồn bạn khỏi sự kiêu ngạo, ghen tị và ích kỷ hôm nay."
     }
   },
   {
@@ -1748,7 +1748,7 @@
       "rank": "Optional Memorial",
       "color": "white",
       "title_en": "Saint Raymond Nonnatus, Religious",
-      "title_vi": ""
+      "title_vi": "Thánh Raymundô Nonnatô, Tu Sĩ"
     },
     "calendars": {
       "julian": "2026-08-18",
@@ -1760,14 +1760,14 @@
     "primary": {
       "type": "saint",
       "title_en": "Saint Raymond Nonnatus",
-      "title_vi": "",
+      "title_vi": "Thánh Raymundô Nonnatô",
       "summary_en": "Saint Raymond was a Spanish Mercedarian priest who offered himself as a hostage to ransom Christian captives in North Africa and is celebrated as the patron of expectant mothers and the unborn.",
-      "summary_vi": "",
+      "summary_vi": "Thánh Raymundô là linh mục Dòng Cứu Chốn (Mercedarians) người Tây Ban Nha, đã tình nguyện làm con tin để chuộc những Kitô hữu bị bắt làm tù binh ở Bắc Phi và được tôn kính làm quan thầy của các bà mẹ mang thai và các thai nhi.",
       "body_en": "Saint Raymond Nonnatus was a thirteenth-century Spanish Mercedarian priest who dedicated his life to ransoming Christian captives in North Africa, offering himself as a hostage. He is celebrated as the patron saint of expectant mothers, midwives, and the unborn because of his own miraculous delivery.",
-      "body_vi": "",
+      "body_vi": "Thánh Raymundô Nonnatô là một linh mục Dòng Cứu Chốn người Tây Ban Nha thế kỷ 13, đã cống hiến cả đời mình để chuộc những Kitô hữu bị bắt làm tù binh ở Bắc Phi, tự nguyện làm con tin. Ngài được tôn kính là quan thầy của các bà mẹ mang thai, các bà đỡ đẻ và các thai nhi vì chính cuộc sinh nở kỳ diệu của ngài.",
       "confidence": "confirmed",
       "confidence_note_en": "Mercedarian records and Spanish liturgical calendars confirm his feast on August 31, marking his death in 1240.",
-      "confidence_note_vi": ""
+      "confidence_note_vi": "Các hồ sơ của Dòng Cứu Chốn và lịch phụng vụ Tây Ban Nha xác nhận lễ kính của ngài vào ngày 31 tháng 8, đánh dấu ngày ngài qua đời năm 1240."
     },
     "place": {
       "name": "Convent of Sant Ramon de Portell, Lleida, Catalonia, Spain",
@@ -1792,9 +1792,9 @@
     ],
     "app_hooks": {
       "hero_line_en": "The patron of expectant mothers and the unborn",
-      "hero_line_vi": "",
+      "hero_line_vi": "Quan thầy của các bà mẹ mang thai và các thai nhi",
       "prayer_prompt_en": "Pray for expectant mothers, safe deliveries, and the protection of the unborn.",
-      "prayer_prompt_vi": ""
+      "prayer_prompt_vi": "Cầu nguyện cho các bà mẹ mang thai, cho các cuộc sinh nở an toàn và cho sự bảo vệ các thai nhi."
     }
   }
 ]

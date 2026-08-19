@@ -8,8 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "data/mock/anno_fortnight_2026-07-03_2026-07-16.json"
-WEEK = ROOT / "data/mock/anno_week_2026-07-03_2026-07-09.json"
+SOURCE = ROOT / "Anno/Resources/anno_unified_2026.json"
 OUTPUT = ROOT / "ios-fixtures/AnnoMockData.swift"
 
 
@@ -59,6 +58,8 @@ struct PrimaryContent: Codable {
     let titleVi: String
     let summaryEn: String
     let summaryVi: String
+    let bodyEn: String
+    let bodyVi: String
     let confidence: String
     let confidenceNoteEn: String
     let confidenceNoteVi: String
@@ -100,7 +101,6 @@ enum AnnoMockData {
 
 def main() -> None:
     fixture = json.loads(SOURCE.read_text())
-    week = json.loads(WEEK.read_text())
 
     # Keep the emitted JSON compact enough to paste into a Swift playground or app target.
     json_payload = json.dumps(
@@ -112,7 +112,7 @@ def main() -> None:
         ensure_ascii=False,
         indent=2,
     )
-    week_ids = json.dumps(week["entry_ids"], ensure_ascii=False, indent=2)
+    week_ids = json.dumps([e["id"] for e in fixture["entries"][:7]], ensure_ascii=False, indent=2)
 
     swift = (
         SWIFT_HEADER

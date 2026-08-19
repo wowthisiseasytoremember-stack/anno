@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-07-26",
+  "date": "2026-07-26",
+  "weekday": "Sunday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Seventeenth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật Thứ Mười Bảy Mùa Thường Niên"
+  },
+  "calendars": {
+    "julian": "2026-07-13",
+    "hebrew": "12 Av 5786",
+    "islamic_umm_al_qura": "12 Safar 1448 AH",
+    "coptic": "19 Epip 1742",
+    "ethiopian": "19 Hamle 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Seventeenth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật Thứ Mười Bảy Mùa Thường Niên",
+    "summary_en": "This Sunday focuses on the Kingdom of Heaven as presented in the Gospel of Matthew 13:44-52 (Year A). The parables of the hidden treasure, the pearl of great price, and the net teach that the Kingdom surpasses all earthly value and requires wise discernment. Liturgically, Ordinary Time invites the faithful to grow in discipleship through the steady proclamation of Christ's teachings.",
+    "summary_vi": "Chúa Nhật này tập trung vào Nước Trời qua các dụ ngôn trong Tin Mừng Matthêu 13,44-52 (Năm A). Các dụ ngôn về kho tàng chôn giấu, viên ngọc quý và chiếc lưới thả biển dạy rằng Nước Trời vượt trội mọi giá trị trần thế và đòi hỏi sự phân định khôn ngoan. Về mặt phụng vụ, Mùa Thường Niên mời gọi người tín hữu tăng trưởng trong ơn làm môn đệ qua việc công bố liên lỉ các lời dạy của Đức Kitô.",
+    "body_en": "The Seventeenth Sunday in Ordinary Time falls within the liturgical season of Ordinary Time, which runs after the feast of the Baptism of the Lord and before Lent. During this period, the Church focuses on the public ministry of Jesus, and the Gospel readings follow a semi-continuous pattern. In Year A, the Gospel of Matthew is proclaimed, and this week's passage presents three short parables about the Kingdom of Heaven: the hidden treasure, the pearl of great price, and the net cast into the sea.\n\nThese parables emphasize the incomparable worth of the Kingdom and the response it demands. The hidden treasure and the pearl illustrate that discovering the Kingdom is worth sacrificing everything else, while the net reminds believers that the Kingdom includes both good and bad, with final separation reserved for God's judgment. The readings encourage believers to examine their priorities and to seek the Kingdom above all.\n\nHistorically, the green vestments worn on Ordinary Time Sundays symbolize hope and growth in the spiritual life. The liturgical prayers and prefaces for this Sunday highlight themes of wisdom, discernment, and the transformative power of God's word. The faithful are invited to live out the Gospel by valuing the Kingdom's values in daily life, fostering justice, charity, and a deep trust in God's providence.",
+    "body_vi": "Chúa Nhật Thứ Mười Bảy Mùa Thường Niên nằm trong mùa phụng vụ Thường Niên, bắt đầu sau lễ Chúa Giêsu chịu phép Rửa và kết thúc trước Mùa Chay. Trong thời gian này, Giáo hội tập trung vào sứ vụ công khai của Chúa Giêsu, và các bài Tin Mừng được đọc theo trình tự bán liên tục. Trong Năm A, Tin Mừng theo thánh Matthêu được công bố, và đoạn Tin Mừng tuần này trình bày ba dụ ngôn ngắn về Nước Trời: kho tàng chôn giấu, viên ngọc quý và chiếc lưới thả xuống biển.\n\nCác dụ ngôn này nhấn mạnh giá trị không thể so sánh của Nước Trời và sự đáp trả mà nó đòi hỏi. Kho tàng chôn giấu và viên ngọc minh họa rằng việc khám phá Nước Trời xứng đáng để hy sinh mọi sự khác, trong khi chiếc lưới nhắc nhở các tín hữu rằng Nước Trời bao gồm cả điều tốt lẫn điều xấu, còn sự phân chia cuối cùng thuộc về phán xét của Thiên Chúa. Các bài đọc khuyến khích tín hữu xét lại các ưu tiên của mình và tìm kiếm Nước Trời trên hết mọi sự.\n\nTheo truyền thống, các phẩm phục màu xanh được mặc vào các Chúa Nhật Mùa Thường Niên tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống thiêng liêng. Các lời nguyện và lời mở đầu phụng vụ cho Chúa Nhật này nêu bật các chủ đề về khôn ngoan, sự phân định và quyền năng biến đổi của Lời Chúa. Các tín hữu được mời gọi sống Tin Mừng bằng cách đặt giá trị của Nước Trời vào đời sống hằng ngày, vun trồng công lý, bác ái và tin tưởng sâu sắc vào sự quan phòng của Thiên Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The liturgical rank, readings, and color are fixed by the General Roman Calendar and the Lectionary for Year A, which are authoritative sources.",
+    "confidence_note_vi": "Hạng phụng vụ, các bài đọc và màu sắc được ấn định bởi Niên Lịch Rôma Tổng quát và Sách Bài Đọc Năm A, vốn là các nguồn có thẩm quyền."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
+  },
+  "artwork": {
+    "title": "The Pearl of Great Price",
+    "maker": "James Tissot",
+    "date_label": "1886-1894",
+    "source_url": "https://commons.wikimedia.org/wiki/File:James_Tissot_-_The_Pearl_of_Great_Value_-_Google_Art_Project.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar for 2026",
+      "url": "https://www.usccb.org/prayer-worship/liturgical-year/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent: Ordinary Time",
+      "url": "https://www.newadvent.org/cathen/11268a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican.va: Lectionary for Year A",
+      "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Discover the priceless treasure of God's Kingdom.",
+    "hero_line_vi": "Hãy khám phá kho tàng vô giá của Nước Thiên Chúa.",
+    "prayer_prompt_en": "Lord, help me to recognize the true value of your Kingdom and to surrender all that hinders me from following you.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra giá trị thật của Nước của Ngài và từ bỏ mọi điều ngăn cản con bước theo Ngài."
+  }
+}

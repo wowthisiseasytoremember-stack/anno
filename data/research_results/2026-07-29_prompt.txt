@@ -1,0 +1,70 @@
+Research the following Catholic liturgical date and produce a JSON entry.
+
+Date: 2026-07-29
+Weekday: Wednesday
+
+Calendar conversions (verified, include these exactly):
+- Julian: 2026-07-16
+- Hebrew: 15 Av 5786
+- Islamic (Umm al-Qura): 15 Safar 1448 AH
+- Coptic: 22 Epip 1742
+- Ethiopian: 22 Hamle 2018
+
+Context: Memorial of Sts. Martha, Mary, and Lazarus — friends of Jesus in Bethany.
+
+Schema (output ONLY this JSON, no other text):
+
+{
+  "id": "anno-2026-07-29",
+  "date": "2026-07-29",
+  "weekday": "Wednesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity | Feast | Memorial | Optional Memorial | Feria | Sunday",
+    "color": "white | red | green | purple | rose | gold | verdigris",
+    "title_en": "Liturgical title in English",
+    "title_vi": "Tên phụng vụ bằng tiếng Việt"
+  },
+  "calendars": {
+    "julian": "2026-07-16",
+    "hebrew": "15 Av 5786",
+    "islamic_umm_al_qura": "15 Safar 1448 AH",
+    "coptic": "22 Epip 1742",
+    "ethiopian": "22 Hamle 2018"
+  },
+  "primary": {
+    "type": "saint | liturgical_day | feast | solemnity",
+    "title_en": "Primary title",
+    "title_vi": "Tiêu đề chính",
+    "summary_en": "2-4 sentence summary of the day's significance",
+    "summary_vi": "Tóm tắt 2-4 câu về ý nghĩa của ngày này",
+    "body_en": "3-5 paragraph researched article with historical context",
+    "body_vi": "Same content in Vietnamese Catholic terminology",
+    "confidence": "confirmed | traditional | disputed | contextual",
+    "confidence_note_en": "Brief confidence explanation",
+    "confidence_note_vi": "Giải thích ngắn về mức độ tin cậy"
+  },
+  "place": {
+    "name": "Specific location or null",
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed | traditional | disputed | contextual",
+    "source_url": "URL for location claim"
+  },
+  "artwork": {
+    "title": "Title of public domain artwork",
+    "maker": "Artist name or null",
+    "date_label": "Century or year",
+    "source_url": "Wikimedia Commons or museum URL",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {"label": "Short label", "url": "https://actual-verifiable-url", "type": "liturgical_calendar | vatican | encyclopedia | academic | devotional"}
+  ],
+  "app_hooks": {
+    "hero_line_en": "One compelling card header line",
+    "hero_line_vi": "Một dòng hấp dẫn cho tiêu đề thẻ",
+    "prayer_prompt_en": "Short prayer or reflection prompt",
+    "prayer_prompt_vi": "Một lời cầu nguyện ngắn hoặc gợi ý suy niệm"
+  }
+}

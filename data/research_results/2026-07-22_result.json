@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-07-22",
+  "date": "2026-07-22",
+  "weekday": "Wednesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "Feast of Saint Mary Magdalene",
+    "title_vi": "Lễ Thánh Maria Magdalena"
+  },
+  "calendars": {
+    "julian": "2026-07-09",
+    "hebrew": "8 Av 5786",
+    "islamic_umm_al_qura": "8 Safar 1448 AH",
+    "coptic": "15 Epip 1742",
+    "ethiopian": "15 Hamle 2018"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Saint Mary Magdalene",
+    "title_vi": "Thánh Maria Magdalena",
+    "summary_en": "Saint Mary Magdalene is honored as a faithful disciple of Jesus, the first witness to His resurrection, and the 'Apostle to the Apostles.' Her feast celebrates her pivotal role in proclaiming the risen Lord to the disciples. The day invites the faithful to emulate her devotion and courage in bearing witness to Christ.",
+    "summary_vi": "Thánh Maria Magdalena được vinh danh là một môn đồ trung thành của Chúa Jesus, người đầu tiên làm chứng sự phục sinh, và là '使徒 của các使徒'. Lễ kính cô tôn vinh vai trò then chốt trong việc preach sự sống lại của Chúa đến các môn đồ. Ngày này kêu gọi các tín đồ học hỏi sự tận tâm và can đảm của cô trong việc làm chứng về Christ.",
+    "body_en": "Mary Magdalene appears prominently in the Gospels as one of Jesus’ closest followers. She is recorded as having been healed of seven demons (Luke 8:2) and as standing at the foot of the Cross (John 19:25). After the crucifixion, she went to Jesus’ tomb early on the first day of the week and found it empty; the risen Christ appeared to her first, commissioning her to tell the disciples, 'I have seen the Lord' (John 20:11-18).\n\nBecause of this unique encounter, early Christian tradition honored her as the 'Apostle to the Apostles.' Her feast was celebrated locally in various regions before being inserted into the General Roman Calendar. In 2016, Pope Francis elevated her memorial to a feast, underscoring her importance as a model of evangelization and faith.\n\nThe liturgical celebration of St. Mary Magdalene highlights themes of repentance, faithful love, and the proclamation of the Resurrection. Mass readings often include the Gospel account of her encounter with the risen Christ, and the prayers ask for her intercession that we, too, may recognize the Lord in our lives and bear witness to His victory over death.",
+    "body_vi": "Maria Magdalena xuất hiện rõ ràng trong các福音 sách như một người theo đuổi Chúa Jesus một cách gần gũi. Cô được ghi nhận là đã được chữa lành khỏi sieben quỷ (Lu 8:2) và đứng dưới thập giá (Gio 19:25). Sau khi Chúa được đóng đinh, cô đi đến mộ của Chúa vào ngày đầu tiên của tuần và phát hiện mộ trống; Chúa Christ đã sống lại xuất hiện trước cô đầu tiên,委托 cô báo cho các môn đồ: 'Tôi đã thấy Chúa' (Gio 20:11-18).\n\nVì cuộc gặp gỡ đặc biệt này, truyền thống Kitô giáo đầu tiên đã tôn vinh cô là '使徒 của các使徒'. Lễ kính cô từng được slavení địa phương ở nhiều vùng trước khi được đưa vào Lịch Tổng quát La Mã. Năm 2016, Giáo hoàng Francis đã nâng cấp kỷ niệm cô thành một lễ, nhấn tầm quan trọng của cô như một mô hình về truyền giáo và đức tin.\n\nLễ kính Thánh Maria Magdalena nhấn mạnh các chủ đề về sự ăn năn, tình yêu trung thành và việc preach sự phục sinh. Các đọc trong lễ thường bao gồm đoạn Gospel về cuộc gặp gỡ của cô với Chúa Christ đã sống lại, và các lời cầu nguyện xin cầu nguyện của cô để chúng ta cũng có thể nhận biết Chúa trong cuộc sống và làm chứng về thắng lợi của Ngài qua cái chết.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The feast of St. Mary Magdalene is universally celebrated in the General Roman Calendar as a feast, with clear scriptural and traditional basis.",
+    "confidence_note_vi": "Lễ kính Thánh Maria Magdalena được slenciones toàn cầu trong Lịch Tổng quát La Mã như một lễ, có cơ sở Kinh Thánh và truyền thống rõ ràng."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://en.wikipedia.org/wiki/Mary_Magdalene"
+  },
+  "artwork": {
+    "title": "The Penitent Magdalene",
+    "maker": "Georges de La Tour",
+    "date_label": "c. 1640",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_-_The_Penitent_Magdalene_-_WGA04227.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "Vatican News – Feast of St. Mary Magdalene",
+      "url": "https://www.vaticannews.va/en/church/2021/07/feast-saint-mary-magdalene.html",
+      "type": "vatican"
+    },
+    {
+      "label": "New Advent – St. Mary Magdalene",
+      "url": "https://www.newadvent.org/catholic/09556a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture – Liturgical Calendar for 2026-07-22",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-22",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Witness to the Resurrection: St. Mary Magdalene",
+    "hero_line_vi": "Lời chứng của sự phục sinh: Thánh Maria Magdalena",
+    "prayer_prompt_en": "Ask St. Mary Magdalene to help you recognize the risen Christ in your daily life.",
+    "prayer_prompt_vi": "Xin Thánh Maria Magdalena giúp bạn nhận biết Đấng Christ đã sống lại trong cuộc sống hàng ngày."
+  }
+}

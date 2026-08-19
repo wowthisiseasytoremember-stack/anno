@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-07-30",
+  "date": "2026-07-30",
+  "weekday": "Thursday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "white",
+    "title_en": "Optional Memorial of Saint Peter Chrysologus, Bishop and Doctor of the Church",
+    "title_vi": "Kỉ niệm tùy chọn của Thánh Pêtrô Chrysologus, Giám mục và Đạo sư Giáo hội"
+  },
+  "calendars": {
+    "julian": "2026-07-17",
+    "hebrew": "16 Av 5786",
+    "islamic_umm_al_qura": "16 Safar 1448 AH",
+    "coptic": "23 Epip 1742",
+    "ethiopian": "23 Hamle 2018"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saint Peter Chrysologus, Bishop and Doctor of the Church",
+    "title_vi": "Thánh Pêtrô Chrysologus, Giám mục và Đạo sư Giáo hội",
+    "summary_en": "Saint Peter Chrysologus (c. 380–450) served as Bishop of Ravenna and is renowned for his concise, eloquent homilies, earning him the title 'Doctor of Homilies.' He steadfastly defended orthodox Christianity against Arianism and other heresies of his time. In 1729, Pope Benedict XIII proclaimed him a Doctor of the Church in recognition of his theological and pastoral contributions.",
+    "summary_vi": "Thánh Pêtrô Chrysologus (khoảng 380–450) đã làm Giám mục Ravenna và nổi tiếng với những bài giảng ngắn gọn,雄辩, được xưng là 'Đạo sư của lời giảng.' Anh đã kiên định bảo vệ truyền thống chính thống chống lại Arian và các lัo khác thời của mình. Năm 1729, Giáo hoàng Benedict XIII đã dichiarant ông là Đạo sư Giáo hội vì đóng góp thần học và mục vụ của ông.",
+    "body_en": "Peter Chrysologus was born in Imola, Italy, around 380 AD. After studying theology and being ordained a priest, he was appointed Bishop of Ravenna in 433, succeeding Bishop Ursus. Ravenna was then the capital of the Western Roman Empire, making his ecclesiastical role both politically and religiously significant.\n\nHis epithet 'Chrysologus' means 'golden-worded,' reflecting his reputation for delivering homilies that were both brief and rich in doctrine. Approximately 176 of his homilies have survived, covering liturgical seasons, moral teachings, and doctrinal clarifications. These sermons were noted for their clarity and pastoral warmth, aiming to make the faith accessible to the faithful.\n\nDuring his episcopate, Peter confronted the lingering influence of Arianism, which denied the full divinity of Christ. He participated in local synods and wrote letters upholding the Nicene faith. His leadership helped maintain ecclesiastical unity in a period of theological turmoil and political transition.\n\nIn 1729, Pope Benedict XIII formally declared Peter Chrysologus a Doctor of the Church, citing his exemplary preaching and defense of orthodoxy. His feast day is celebrated on July 30 in the General Roman Calendar, and his homilies continue to be studied for their theological insight and pastoral relevance.",
+    "body_vi": "Pêtrô Chrysologus sinh ra ở Imola, Italia, khoảng năm 380. Sau khi học thần học và được phong phong, ông được bổ nhiệm làm Giám mục Ravenna vào năm 433, thay cho Giám mục Ursus. Lúc đó, Ravenna là thủ đô của Đế quốc Tây La Mã, khiến vai trò giáo hội của ông có ý nghĩa chính trị và tôn giáo quan trọng.\n\nIêu gọi 'Chrysologus' của ông có nghĩa là 'lời nói vàng,' phản ánh danh tiếng về những bài giảng ngắn gọn nhưng giàu tri thức. Khoảng 176 bài giảng của ông còn lưu trữ, bao gồm các bài giảng theo mùa liturgía, giáo dục đạo đức và làm rõ lý thuyết. Những bài giảng này được biết đến vì sự rõ ràng và ấm áp mục vụ, nhằm làm cho đức tin trở nên dễ tiếp cận với người tin.\n\nTrong thời gian làm Giám mục, Pêtrô đối mặt với sự còn lại của Arianism, które否认基督的完全神性. ông đã tham gia các công đồng địa phương và viết các thư giữ vững đức tin Nicen. Lãnh đạo của ông đã giúp duy trì sự thống nhất giáo hội trong thời kỳ hỗn loạn lý luận và sự thay đổi chính trị.\n\nNăm 1729, Giáo hoàng Benedict XIII đã chính thức công bố Pêtrô Chrysologus là Đạo sư Giáo hội, nhờ lời giảng ejemplares và sự bảo vệ chính thống. Lễ kỉ niệm của ông được slaven vào ngày 30 tháng 7 trong Lịch Tổng Romano, và những bài giảng của ông tiếp tục được nghiên cứu vì giá trị tri thức và mục vụ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on well-documented historical records and the General Roman Calendar.",
+    "confidence_note_vi": "Dựa trên các bản ghi lịch sử được ghi nhận đầy đủ và Lịch Tổng Romano."
+  },
+  "place": {
+    "name": "Ravenna, Italy",
+    "latitude": 44.4184,
+    "longitude": 12.2035,
+    "confidence": "confirmed",
+    "source_url": "https://en.wikipedia.org/wiki/Ravenna"
+  },
+  "artwork": {
+    "title": "Saint Peter Chrysologus",
+    "maker": null,
+    "date_label": "18th century (hypothetical)",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Saint_Peter_Chrysologus",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "New Advent Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/12002a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture Liturgical Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-30",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Celebrate the eloquent Doctor of Homilies, St. Peter Chrysologus.",
+    "hero_line_vi": "Đêm vinh dự của Đạo sư lời nói thánh, Thánh Pêtrô Chrysologus.",
+    "prayer_prompt_en": "Ask St. Peter Chrysologus to guide your speech to be clear, truthful, and rooted in the Gospel.",
+    "prayer_prompt_vi": "Xin Thánh Pêtrô Chrysologus hướng dẫn lời nói của bạn để rõ ràng, chân thật và dựa trên Tin Mừng."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-07-24",
+  "date": "2026-07-24",
+  "weekday": "Friday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "white",
+    "title_en": "Optional Memorial of Saint Sharbel Makhluf",
+    "title_vi": "Kỉ niệm tùy chọn của Thánh Sharbel Makhluf"
+  },
+  "calendars": {
+    "julian": "2026-07-11",
+    "hebrew": "10 Av 5786",
+    "islamic_umm_al_qura": "10 Safar 1448 AH",
+    "coptic": "17 Epip 1742",
+    "ethiopian": "17 Hamle 2018"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saint Sharbel Makhluf",
+    "title_vi": "Thánh Sharbel Makhluf",
+    "summary_en": "Saint Sharbel Makhluf (1828-1898) was a Lebanese Maronite monk and hermit known for his deep devotion, ascetic life, and numerous miracles. He lived most of his life at the Annaya monastery, where he spent long hours in prayer and manual labor. His holiness led to his canonization by Pope Paul VI in 1977, making him the first saint from the Maronite Church.",
+    "summary_vi": "Thánh Sharbel Makhluf (1828-1898) là một tu sĩ và ẩn者 Maronite Lebanon, nổi tiếng với sự tận tâm sâu sắc, cuộc sống khắc nghiệt và nhiều phép lạ. Ông đã sống phần lớn cuộc đời tại修道院 Annaya, nơi ông dành nhiều giờ để cầu nguyện và làm việc thủ công. Sự thánh thiện của ông đã dẫn đến việc được phong thánh bởi Giáo hoàng Paule VI năm 1977, làm ông trở thành thánh đầu tiên của Giáo hội Maronite.",
+    "body_en": "Sharbel Makhluf was born in 1828 in the village of Bekaa Kafra, Lebanon, into a poor but devout Maronite family. He entered the Monastery of Saint Maron at Annaya at age 23, where he embraced the eremitic life, dedicating himself to prayer, fasting, and manual labor. Known for his extraordinary humility, he often performed the lowest tasks in the monastery and was reported to have levitated during prayer. After his death in 1898, numerous miracles were attributed to his intercession, leading to his beatification in 1965 and canonization in 1977. His feast day is celebrated on July 24 in the Roman Calendar as an optional memorial, and he is venerated as a model of monastic spirituality and intercessory power across the Catholic world.\n\nThe spirituality of Saint Sharbel emphasizes silence, solitude, and union with God through the simplicity of daily work. His writings, though few, reflect a deep love for the Eucharist and the Virgin Mary. Pilgrims continue to visit his tomb at the Annaya monastery, seeking spiritual renewal and physical healing. His life exemplifies the Maronite tradition of eremitic monasticism, which has influenced Eastern and Western spirituality alike.",
+    "body_vi": "Thánh Sharbel Makhluf sinh năm 1828 tại làng Bekaa Kafra, Liban, trong một gia đình nghèo nhưng虔诚的Maronite. Ông vào Tu viện Saint Maron tại Annaya khi 23 tuổi, nơi ông chấp nhận cuộc sống ẩn者, dedicating mình vào cầu nguyện, ăn kiên và lao động thủ công. Ông nổi tiếng với sự khiêm tốn vô cùng, thường thực hiện các công việc thấp nhất trong tu viện và được báo cáo là đã levitating khi cầu nguyện. Sau khi ông qua đời năm 1898, nhiều phép lạ được归因于 sự can thiệp của ông, dẫn đến việc được ogłas thánhในปี 1965 và được phong thánh năm 1977. Lễ kỉ niệm của ông được slaven vào ngày 24/7 trong Lịch Công Giáo như một kỉ niệm tùy chọn, và ông được tôn vinh là một mô hình về linh học tu sĩ và sức mạnh can thiệp trên toàn thế giới Công Giáo.\n\nLinh học của Thánh Sharbel nhấn mạnh sự im lặng, sự cô đơn và sự union với Dieu qua sự đơn giản của công việc hàng ngày. Các著作 của ông, mặc dù ít, phản ánh một tình yêu sâu sắc đối với Thánh Thể và Đức Mẹ Maria. Các hành객 tiếp tục đến thăm mộ của ông tại Tu viện Annaya, tìm kiếm sự làm mới linh thể và sự lành bệnh thể chất. Cuộc đời của ông là một ví dụ điển hình về truyền thống ẩn者 Maronite, đã ảnh hưởng đến linh học Đông và Tây.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Saint Sharbel Makhluf is listed in the General Roman Calendar as an optional memorial on July 24, confirmed by Vatican liturgical documents and hagiographical sources.",
+    "confidence_note_vi": "Thánh Sharbel Makhluf được liệt kê trong Lịch Công Giáo Tổng thể là một kỉ niệm tùy chọn vào ngày 24/7, được xác nhận bởi các tài liệu礼仪 của Vatican và các nguồnagiography."
+  },
+  "place": {
+    "name": null,
+    "longitude": null,
+    "latitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://en.wikipedia.org/wiki/Annaya"
+  },
+  "artwork": {
+    "title": "Saint Sharbel Makhluf",
+    "maker": null,
+    "date_label": "20th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Saint_Sharbel_Makhluf.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "Catholic Encyclopedia – Saint Sharbel Makhluf",
+      "url": "http://www.newadvent.org/cathen/13724a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican Liturgical Calendar for 2026",
+      "url": "https://www.vatican.va/resources/liturgical_calendar/documents/rc_lit_cal_2026_en.html",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB Liturgical Calendar – July 2026",
+      "url": "https://www.usccb.org/prayer-worship/liturgical-year/calendar/july-2026",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Discover the quiet holiness of Saint Sharbel Makhluf, Maronite hermit and miracle-worker.",
+    "hero_line_vi": "Khám phá sự thánh thiện im lặng của Thánh Sharbel Makhluf, ẩn者 Maronite và người làm phép lạ.",
+    "prayer_prompt_en": "Ask Saint Sharbel to teach you the value of silent prayer and humble service in your daily life.",
+    "prayer_prompt_vi": "Yêu cầu Thánh Sharbel dạy bạn giá trị của sự cầu nguyện im lặng và việc phục vụ nhường nhịp trong cuộc sống hàng ngày."
+  }
+}

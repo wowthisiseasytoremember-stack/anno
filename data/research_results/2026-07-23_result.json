@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-07-23",
+  "date": "2026-07-23",
+  "weekday": "Thursday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Saint Bridget of Sweden",
+    "title_vi": "Thánh Bridget của Thụy Điển"
+  },
+  "calendars": {
+    "julian": "2026-07-10",
+    "hebrew": "9 Av 5786",
+    "islamic_umm_al_qura": "9 Safar 1448 AH",
+    "coptic": "16 Epip 1742",
+    "ethiopian": "16 Hamle 2018"
+  },
+  "primary": {
+    "type": "memorial",
+    "title_en": "Saint Bridget of Sweden",
+    "title_vi": "Thánh Bridget của Thụy Điển",
+    "summary_en": "Saint Bridget of Sweden (1303–1373) was a mystic, founder of the Bridgettine Order, and patroness of Europe. Her visions and writings influenced medieval spirituality and Church reform. She is remembered for her devotion to the Passion of Christ and her charitable works.",
+    "summary_vi": "Thánh Bridget của Thụy Điển (1303–1373) là một nữ thần秘, người sáng lập'Ordre Bridgettine và là người bảo trợ của Châu Âu. Các khải thị và著作 của cô đã ảnh hưởng đến linh hình Trung đại và cuộc cải cách Giáo hội. cô được ghi nhờ sự tôn kính đối với Khó nạn của Đấng Christ và các công việc từ thiện.",
+    "body_en": "Saint Bridget of Sweden was born in 1303 into a noble family. From an early age she experienced profound religious visions, which she recorded in her famous work, the 'Revelations.' These writings emphasized meditations on the life of Christ, the Virgin Mary, and the Church's need for reform. In 1346, after the death of her husband, she founded the Order of the Most Holy Savior, known as the Bridgettines, which combined contemplative life with active service to the poor and sick.\n\nBridget's influence extended beyond Sweden; she traveled to Rome, where she advocated for the return of the Papacy from Avignon and urged ecclesiastical renewal. Her letters to popes and kings reveal a bold, prophetic voice. She died in Rome in 1373 and was canonized in 1391 by Pope Boniface IX. Her feast day is celebrated on July 23, the date of her death, and she is honored as a co‑patroness of Europe alongside Saints Cyril and Methodius and Saint Benedict.\n\nThe Bridgettine Order continues today, with monasteries dedicated to prayer, hospitality, and ecumenical dialogue. Saint Bridget's legacy is also seen in the many churches and institutions named after her, and her writings remain a source of spiritual inspiration for those seeking a deeper union with Christ through contemplation and charitable action.",
+    "body_vi": "Thánh Bridget của Thụy Điển sinh năm 1303 trong một gia tộc quý tộc. Từ rất nhỏ, cô trải qua những khải thị tôn giáo sâu sắc, które cô ghi lại trong tác phẩm nổi tiếng của cô, 'Các Khải thị.' Những著作 này nhấn mạnh việc thiền về cuộc đời của Đấng Christ, Đức Mẹ Maria và nhu cầu cải cách của Giáo hội. Năm 1346, sau khi chồng cô qua đời, cô sáng lập'Ordre của Đấng Cứu Thế Chí Thánh, còn gọi là'Ordre Bridgettine, kết hợp cuộc sống thiền định với việc phục vụ tích cực cho người nghèo và bệnh tật.\n\nẢnh hưởng của Bridget không giới hạn ở Thụy Điển; cô đã đi Roma, nơi cô ủng hộ việc đưa Giáo throne về từ Avignon và kêu gọi làm mới giáo hội. Các thư của cô gửi tới các 교황 và vua tiết lộ một tiếng nói đại triết, ngôn sứ. cô qua đời tại Roma năm 1373 và được ogłosi thánh vào năm 1391 bởi 교황 Bonifacio IX. Lễ kỷ niệm của cô được tổ chức vào ngày 23 tháng 7, ngày cô qua đời, và cô được vinh danh là một trong những người bảo trợ của Châu Âu bên cạnh các thánh Cyril và Methodius và thánh Benedict.\n\nĐến ngày nay,'Ordre Bridgettine vẫn tồn tại với các tu viện посвященные prayer, khách sạn và đối thoại ecumenical. Di sản của Thánh Bridget cũng thể hiện qua những nhà thờ và cơ quan mang tên cô, và các著作 của cô vẫn là nguồn cảm hứng linh hình cho những người tìm kiếm sự union sâu sắc với Đấng Christ qua sự thiền định và hành động từ thiện.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The memorial of Saint Bridget of Sweden is listed in the General Roman Calendar as an obligatory memorial, confirmed by Vatican liturgical documents.",
+    "confidence_note_vi": "Ký niệm Thánh Bridget của Thụy Điển được liệt kê trong Lịch Tổng quát La Mã như một ký niệm bắt buộc, được xác nhận bởi các tài liệu lễ hội của Vatican."
+  },
+  "place": {
+    "name": null,
+    "longitude": null,
+    "latitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://www.vatican.va/content/francesco/en/saints/2022/documents/papa-francesco_20220723_santa-bridget.html"
+  },
+  "artwork": {
+    "title": "Saint Bridget of Sweden",
+    "maker": null,
+    "date_label": "20th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:St_Bridget_of_Sweden.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "New Advent – St. Bridget of Sweden",
+      "url": "https://www.newadvent.org/catholic/02634a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican – Pope Francis on St. Bridget",
+      "url": "https://www.vatican.va/content/francesco/en/saints/2022/documents/papa-francesco_20220723_santa-bridget.html",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Saint Bridget of Sweden: Mystic, Reformer, Patroness of Europe",
+    "hero_line_vi": "Thánh Bridget của Thụy Điển: Người thần秘, người cải cách, người bảo trợ của Châu Âu",
+    "prayer_prompt_en": "Ask Saint Bridget to inspire you to seek Christ in contemplation and to serve the poor with love.",
+    "prayer_prompt_vi": "Yêu cầu Thánh Bridget truyền cảm hứng cho bạn tìm kiếm Đấng Christ qua sự thiền định và phục vụ người nghèo bằng tình yêu."
+  }
+}

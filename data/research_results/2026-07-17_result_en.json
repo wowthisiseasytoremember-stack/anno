@@ -1,0 +1,56 @@
+{
+  "id": "anno-2026-07-17",
+  "date": "2026-07-17",
+  "weekday": "Friday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of the 15th Week in Ordinary Time"
+  },
+  "calendars": {
+    "julian": "2026-07-04",
+    "hebrew": "3 Av 5786",
+    "islamic_umm_al_qura": "3 Safar 1448 AH",
+    "coptic": "10 Epip 1742",
+    "ethiopian": "10 Hamle 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the 15th Week in Ordinary Time",
+    "summary_en": "This Friday falls within Ordinary Time, a period of the liturgical year dedicated to the mystery of Christ in its fullness as lived by the Church. The liturgical color green symbolizes hope and growth in faith. On this day, the faithful are invited to reflect on the teachings of Jesus as presented in the daily Mass readings.",
+    "body_en": "Ordinary Time is the portion of the liturgical year that lies outside the major seasons of Advent, Christmas, Lent, and Easter. It focuses on the life and teachings of Christ, allowing the faithful to journey through the Gospel mysteries in a sustained way. The year is divided into two periods: after the Baptism of the Lord until Ash Wednesday, and after Pentecost until the start of Advent.\n\nIn the weekday cycle, the Church follows a two-year lectionary: Year I for odd-numbered years and Year II for even-numbered years. Since 2026 is an even year, the Mass readings for weekdays are taken from Year II, offering a semi-continuous reading of the Gospels and epistles that complements the Sunday cycle.\n\nThe vestment color for Ordinary Time is green, a hue traditionally associated with life, renewal, and hope. Green reminds the faithful that, even in the 'ordinary' weeks, the Church is called to continual growth in holiness and to bear fruit in love and good works.\n\nOn this particular Friday, the liturgy invites reflection on the day's scripture passages, which often highlight Jesus' teachings on discipleship, mercy, and the Kingdom of God. The faithful may also unite their prayers with the Liturgy of the Hours, sanctifying the day through morning, midday, evening, and night prayer.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on the General Roman Calendar and the liturgical year for 2026, which assigns green vestments to weekdays in Ordinary Time."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM"
+  },
+  "artwork": {
+    "title": "Green Vestments",
+    "maker": null,
+    "date_label": "20th century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Green_chasuble.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2026",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "General Norms for the Liturgical Year and Calendar (Vatican)",
+      "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Friday of the 15th Week in Ordinary Time – Grow in Hope",
+    "prayer_prompt_en": "Ask God to help you grow in faith and love as you reflect on Christ's teachings today."
+  }
+}

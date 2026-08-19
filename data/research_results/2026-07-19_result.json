@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-07-19",
+  "date": "2026-07-19",
+  "weekday": "Sunday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sixteenth Sunday in Ordinary Time",
+    "title_vi": "Chủ Nhật thứ mười sáu trong Thời gian thường niên"
+  },
+  "calendars": {
+    "julian": "2026-07-06",
+    "hebrew": "5 Av 5786",
+    "islamic_umm_al_qura": "5 Safar 1448 AH",
+    "coptic": "12 Epip 1742",
+    "ethiopian": "12 Hamle 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Sixteenth Sunday in Ordinary Time",
+    "title_vi": "Chủ Nhật thứ mười sáu trong Thời gian thường niên",
+    "summary_en": "The Sixteenth Sunday in Ordinary Time presents the Gospel parable of the weeds among the wheat (Matthew 13:24-30), teaching about God's patience, the coexistence of good and evil, and the final judgment. The accompanying readings from Wisdom and Romans highlight divine mercy and the Spirit's help in our weakness. This Sunday invites the faithful to trust in God's merciful timing and to cultivate patience in their own lives.",
+    "summary_vi": "Chủ Nhật thứ mười sáu trong Thời gian thường niên trình bày bài dụ về cám dại giữa lúa mì (Ma 13:24-30), dạy về sự kiên nhẫn của Đức Chúa Trời, sự共存 của thiện và ác, và cuộc xét xử cuối cùng. Các đọc từ Sáchheit và Rô-ma nhấn bày lòng thương xót của Thiên Chúa và sự trợ giúp của Thánh Linh trong sự yếu đuối của chúng ta. Chủ Nhật này kêu gọi người tin tưởng vào thời gian thương xót của Đức Chúa Trời và kiên nhẫn trong cuộc sống.",
+    "body_en": "Ordinary Time is the liturgical season that focuses on the public ministry of Jesus, His teachings, miracles, and the growth of the Church. The green vestments symbolize hope and life as the faithful walk through the mysteries of Christ’s life outside the major seasons of Advent, Christmas, Lent, and Easter. The Sixteenth Sunday falls within the second part of Ordinary Time, after the feast of Corpus Christi, and continues the catechesis on the Kingdom of God.\n\nThe Gospel reading for Year A (Matthew 13:24-30) presents the parable of the weeds sown among the wheat. Jesus explains that the field is the world, the good seed are the children of the Kingdom, and the weeds are the children of the evil one. The harvest at the end of time will separate the righteous from the wicked. This parable underscores God’s patience: He allows both good and evil to grow together until the final judgment, when He will execute justice.\n\nThe first reading from Wisdom 12:13,16-19 praises God’s leniency and might, noting that He governs with clemency and gives room for repentance. The second reading, Romans 8:26-27, reminds believers that the Spirit intercedes for us in our weakness, aligning our prayers with God’s will. Together, these readings encourage a trusting reliance on divine mercy and a call to persevere in holiness, knowing that God will ultimately bring about the triumph of good.",
+    "body_vi": "Thời gian thường niên là mùa lễ tập trung vào sự công khai truyền giáo của Chúa Jêsus, các bài dạy, các phép lạ và sự tăng trưởng của Hội Thánh. Áo lễ màu xanh tượng trưng cho hy vọng và sự sống khi người tin tưởng bước qua các bí mật đời sống của Đấng Christ bên ngoài các mùa chính như Giáng sinh, Giáng sinh, Vô thường và Phục sinh. Chủ Nhật thứ mười sáu nằm trong phần thứ hai của Thời gian thường niên, sau lễ Thánh Thể, và tiếp tục sự giáo lý về Vương quốc Đức Chúa Trời.\n\nĐọc經 Gospel cho năm A (Ma 13:24-30) trình bày bài dụ về cám dại được trồng giữa lúa mì. Đức Chúa Jêsus giải thích rằng ruộng là thế giới, hạt tốt là con cái của Vương quốc, và cám dại là con cái của lực lượng恶. Mùaเก็บเกเก็บ ở cuối thời gian sẽ tách riêng người công chính khỏi người ác. Bài dụ này nhấn mạnh sự kiên nhẫn của Đức Chúa Trời: Ngài cho phép thiện và ác cùng phát triển cho đến khi xét xử cuối cùng, khi Ngài sẽ thi hành công lý.\n\nĐọc經 đầu tiên từ Sáchheit 12:13,16-19 khen ngợi sự lượng tolerant và sức mạnh của Đức Chúa Trời, chỉ ra rằng Ngài cai trị với sự tha thứ và tạo điều kiện để người ta ăn năn. Đọc經 thứ hai, Rô-ma 8:26-27, nhắc nhở người tin rằng Thánh Linh cầu thay cho chúng ta trong sự yếu đuối của chúng ta, khiến lời cầu nguyện phù hợp với ý muốn của Thiên Chúa. Cumulatively, các đọc này khuyến khích sự tin tưởng vào lòng thương xót của Thiên Chúa và kiên nhẫn trong cuộc sống tin tưởng, biết rằng Đức Chúa Trời sẽ cuối cùng khiến thiện thắng lợi.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on the General Roman Calendar and the Lectionary for Year A, which are definitive sources for the liturgical rank and readings.",
+    "confidence_note_vi": "Dựa trên Lịch Tổng Thông Chung và Lectionary năm A, là nguồn gốc chính thức cho hạng lễ và các đọc經."
+  },
+  "place": {
+    "name": null,
+    "latitude": null,
+    "longitude": null,
+    "confidence": "confirmed",
+    "source_url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
+  },
+  "artwork": {
+    "title": "The Sower",
+    "maker": "Jean-François Millet",
+    "date_label": "1850",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Francois_Millet_-_The_Sower_-_Google_Art_Project.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2026",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar/2026",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent: Ordinary Time",
+      "url": "https://www.newadvent.org/cathen/11268a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture: Liturgical Calendar for 2026-07-19",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-19",
+      "type": "devotional"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "God’s patience lets good and evil grow together until the final harvest.",
+    "hero_line_vi": "Sự kiên nhẫn của Đức Chúa Trời cho phép thiện và ác cùng phát triển cho đến mùaเก็บเกเก็บ cuối cùng.",
+    "prayer_prompt_en": "Lord, grant me the patience to trust in Your timing and the courage to nurture goodness in my life.",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho tôi sự kiên nhẫn để tin tưởng vào thời gian của Ngài và can đảm để nuôi dưỡng sự thiện trong cuộc sống tôi."
+  }
+}
