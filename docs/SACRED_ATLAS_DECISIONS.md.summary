@@ -4,7 +4,7 @@
 Rolled from analysis of 4 implementation options (extracted from product plan dump)
 and reconciled with the existing Anno architecture (ARCHITECTURE.md, FEATURES.md, ROADMAP.md).
 
-**Location:** `~/01_Infrastructure/Anno/docs/SACRED_ATLAS_DECISIONS.md`
+**Location:** `~/Projects/Anno/docs/SACRED_ATLAS_DECISIONS.md` (original infra copy archived)
 
 ### Coverage
 - 16 decision items identified across 4 impl options

@@ -64,8 +64,8 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 - PRD landed at `PRD.md`
 - Required architecture doc exists at `ARCHITECTURE.md`
 - Product bible and handoff docs live in `docs/`
-- Original render/source bundle lives at `/home/ichabod/01_Infrastructure/Anno/`
-- Engine A and 4-year JSONL exist in the infrastructure bundle — reconciled and bugs fixed on both project copies (root + tools/)
+- Original render/source bundle was at `/home/ichabod/01_Infrastructure/Anno/` (now archived to `/home/ichabod/07_Backups/Anno_infrastructure_archive_2026-08-19/Anno/`); key artifacts reconciled into this project root
+- Engine A and 4-year JSONL exist in this project root (reconciled from archived infra bundle)
 - Working project name: Anno
 
 ## Conventions
@@ -78,7 +78,7 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 
 ## Ecosystem & Relationships
 - **Content Factory:** Standalone app. Independent monetization app; does not consume or produce content-factory pipelines.
-- **Engine A Shared Primitive:** Consumes `calendar_engine.py` (mirrored in `/home/ichabod/01_Infrastructure/Anno/`).
+- **Engine A Shared Primitive:** Consumes `calendar_engine.py` (in this project root; infra copy archived).
 
 ## Changelog
 

@@ -1,0 +1,142 @@
+{
+  "schema_version": "anno.mock.v1",
+  "generated_on": "2026-07-10",
+  "entries": [
+    {
+      "id": "anno-2026-07-17",
+      "date": "2026-07-17",
+      "weekday": "Friday",
+      "mock_priority": "engine_b_v1",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Friday of the 15th Week in Ordinary Time",
+        "title_vi": "Thứ Sáu Tuần 15 Thường Niên"
+      },
+      "calendars": {
+        "julian": "2026-07-04",
+        "hebrew": "2 Tammuz 5786",
+        "islamic_umm_al_qura": "2 Muharram 1448 AH",
+        "coptic": "10 Abib 1742",
+        "ethiopian": "10 Hamle 2018"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Friday of the 15th Week in Ordinary Time",
+        "title_vi": "Thứ Sáu Tuần 15 Thường Niên",
+        "summary_en": "This Friday in Ordinary Time invites the faithful to reflect on the cost of discipleship. The readings emphasize God's mercy toward those who turn to Him.",
+        "summary_vi": "Thứ Sáu trong Thường Niên mời gọi tín hữu suy niệm về giá giá của việc làm môn đệ. Các bài đọc nhấn mạnh lòng thương xót của Thiên Chúa đối với những ai quay lại Ngài.",
+        "body_en": "The Gospel for this Friday presents Jesus sending out the Twelve with authority over unclean spirits and the power to heal. He instructs them to take nothing for the journey — no bread, no bag, no money — trusting entirely in divine providence. This radical dependence mirrors the call of every Christian to place God first.\n\nThe first reading from Isaiah speaks of the futility of idols and the unique sovereignty of the Lord, who alone saves.\n\nIn the context of the 15th week of Ordinary Time, these readings form a cohesive lesson on authentic discipleship: it demands detachment, trust, and proclamation of the Kingdom. The liturgy thus shapes the faithful to recognize that mission flows from intimacy with Christ, not from human resources.",
+        "body_vi": "Tin Mừng cho Thứ Sáu này trình bày Chúa Giêsu sai ra Mười Hai Tông Đồ với quyền thánh trừ quỷ và chữa lành. Ngài dạy họ không mang theo gì cho chuyến đi — không bánh mì, không bao, không tiền — hoàn toàn tin cậy vào Chúa Cha. Sự phụ thuộc triệt để này gương mẫu cho lời gọi của mỗi Kitô hữu đặt Thiên Chúa lên trên hết.\n\nBài đọc I từ Isaia nói về sự vô hiệu của các thần tượng và quyền lực duy nhất của Chúa, là Đấng Cứu Thế.\n\nTrong bối cảnh Tuần 15 Thường Niên, các bài đọc tạo thành một bài học liên tục về môn đệ chân chính: đòi hỏi sự tách ly, lòng tin, và传扬 Nước Thiên Chúa. Phụng vụ do đó hình thành tín hữu nhận ra rằng sứ vụ trôi từ sự thân tình với Kitô, không phải từ nguồn lực con người.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Based on the Roman Missal and USCCB daily readings for the 15th Week in Ordinary Time, Year B.",
+        "confidence_note_vi": "Dựa trên sách Thánh Lễ La Mã và các bài đọc hàng ngày của USCCB cho Tuần 15 Thường Niên, Năm B."
+      },
+      "place": {
+        "name": null,
+        "latitude": null,
+        "longitude": null,
+        "confidence": "confirmed",
+        "source_url": null
+      },
+      "artwork": {
+        "title": "The Sending of the Twelve",
+        "maker": "Unknown",
+        "date_label": "19th century",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sending_of_the_Twelve.jpg",
+        "status": "placeholder_only"
+      },
+      "sources": [
+        {
+          "label": "CatholicCulture.org - July 17, 2026",
+          "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-17",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican.va - Ordinary Time",
+          "url": "https://www.vatican.va",
+          "type": "vatican"
+        },
+        {
+          "label": "CatholicCulture.org - Friday 15th Week",
+          "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-17",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "app_hooks": {
+        "hero_line_en": "Sent with nothing — yet bearing everything.",
+        "hero_line_vi": "Đi với tay trắng — mà mang trọn mọi ơn phúc.",
+        "prayer_prompt_en": "Lord, teach me to trust You completely as I go where You send me.",
+        "prayer_prompt_vi": "Lạy Chúa, xin dạy con tin cậy hoàn toàn vào Chúa khi con đi nơi Chúa sai."
+      }
+    },
+    {
+      "id": "anno-2026-07-18",
+      "date": "2026-07-18",
+      "weekday": "Saturday",
+      "mock_priority": "engine_b_v1",
+      "liturgical": {
+        "rank": "Optional Memorial",
+        "color": "white",
+        "title_en": "Optional Memorial of St. Camillus de Lellis",
+        "title_vi": "Lễ Kính Thánh Camilo de Lellis (Tùy Chọn)"
+      },
+      "calendars": {
+        "julian": "2026-07-05",
+        "hebrew": "3 Tammuz 5786",
+        "islamic_umm_al_qura": "3 Muharram 1448 AH",
+        "coptic": "11 Abib 1742",
+        "ethiopian": "11 Hamle 2018"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Camillus de Lellis",
+        "title_vi": "Thánh Camilo de Lellis",
+        "summary_en": "Saint Camillus de Lellis, a former soldier and gambler, turned his life around to become the patron saint of nurses and the sick. He founded the Camillians, an order dedicated to caring for the ill.",
+        "summary_vi": "Thánh Camilo de Lellis, cựu binh lính và cờ bạc, đã hồi tâm để trở thành vị thánh bảo hộ của y tá và người bệnh. Ngài sáng lập hội Camillians, một hội tu dâng hiến chăm sóc người ốm đau.",
+        "body_en": "Camillus de Lellis was born in 1550 in Bucchianico, Italy. After a turbulent youth as a mercenary soldier and compulsive gambler, he experienced a profound conversion while working at a Capuchin friary.\n\nHe devoted himself to caring for the sick, founding the Order of Clerks Regular, Ministers to the Sick (Camillians) in 1582. The order introduced innovative hospital practices including proper nutrition, clean linens, and separation of contagious patients.\n\nCamillus himself suffered from a chronic leg wound, which he called his \"mercy\" — it kept him humble and close to those he served. He died in Rome in 1614 and was canonized in 1746. In 1886, Pope Leo XIII declared him patron of the sick and hospitals; in 1930, Pope Pius XI named him patron of nurses. His feast day celebrates the transformation of a broken man into a instrument of divine mercy.",
+        "body_vi": "Camilo de Lellis sinh năm 1550 tại Bucchianico, Ý. Sau tuổi trẻ bấp bênh làm lính đánh thuê và nghiện cờ bạc, ngài trải qua sự hồi tâm sâu sắc khi làm việc tại một tu viện Capuchin.\n\nNgài dâng hiến mình chăm sóc người bệnh, sáng lập Hội Hành Trang Chính Quy, Các Tế Lễ Phục Vụ Người Ốm (Camillians) năm 1582. Hội này đưa vào bệnh viện những cải tiến mới: dinh dưỡng đúng cách, chăn ga sạch, và cách ly bệnh truyền nhiễm.\n\nCamillus bản thân chịu đựng một vết thương chân mãn tính, mà ngài gọi là \"lòng thương xót\" — nó giữ cho ngài khiêm nhún và gần gũi với những người ngài phục vụ. Ngài qua đời tại Roma năm 1614 và được phong thánh năm 1746. Năm 1886, Đức Giáo Tông Leo XIII phong ngài làm vị thánh bảo hộ của người bệnh và bệnh viện; năm 1930, Đức Giáo Tông Piô XI phong ngài làm vị thánh bảo hộ của y tá. Ngày lễ của ngài kỷ niệm sự biến đổi của một người tan vỡ thành công cụ của lòng thương xót Chúa.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Canonization record, papal declarations of patronage, and the Camillian order's own historical archives confirm the major facts.",
+        "confidence_note_vi": "Hồ sơ phong thánh, các tuyên bố bảo hộ của Đức Giáo Tông, và lưu trữ lịch sử của hội Camillians xác nhận các sự kiện chính."
+      },
+      "place": {
+        "name": "Bucchianico, Chieti, Italy",
+        "latitude": 42.2833,
+        "longitude": 14.1667,
+        "confidence": "confirmed",
+        "source_url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-18"
+      },
+      "artwork": {
+        "title": "Saint Camillus de Lellis",
+        "maker": "Pierre Subleyras",
+        "date_label": "1746",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Saint_Camillus_de_Lellis.jpg",
+        "status": "placeholder_only"
+      },
+      "sources": [
+        {
+          "label": "CatholicCulture.org - July 18, 2026",
+          "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-18",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican.va - Saints",
+          "url": "https://www.vatican.va",
+          "type": "vatican"
+        },
+        {
+          "label": "CatholicCulture.org - St. Camillus",
+          "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-18",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "app_hooks": {
+        "hero_line_en": "From soldier to saint — the gambler who found mercy in the sick.",
+        "hero_line_vi": "Từ lính sĩ đến thánh — kẻ cờ bạc tìm thấy lòng thương xót trong người bệnh.",
+        "prayer_prompt_en": "Saint Camillus, teach me to see Christ in every suffering person I meet.",
+        "prayer_prompt_vi": "Thánh Camilo, xin dạy con nhìn thấy Chúa Kitô trong mọi người đau khổ mà con gặp."
+      }
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Interfaith — Design Direction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#F8F6F2;
+  --card:#FFFFFF;
+  --text:#1A1816;
+  --text-secondary:#8B8278;
+  --text-tertiary:#B5ADA3;
+  --christian:#7A3B1E;
+  --jewish:#2D6A4F;
+  --islamic:#1B4965;
+  --shared:#4A1942;
+  --gold:#BF9B3E;
+  --rule:#EAE5DE;
+  --shadow:0 1px 3px rgba(26,24,22,.06),0 4px 12px rgba(26,24,22,.04);
+  --shadow-lg:0 2px 8px rgba(26,24,22,.08),0 16px 48px rgba(26,24,22,.06);
+  --radius:12px;
+  --radius-lg:20px;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter','-apple-system',sans-serif;
+  font-size:15px;
+  line-height:1.6;
+  color:var(--text);
+  background:var(--bg);
+  padding:0;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+.serif{font-family:'DM Serif Display',Georgia,serif}
+.cap{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--text-secondary)}
+
+/* ─── Hero ─── */
+.hero{
+  position:relative;
+  padding:80px 24px 60px;
+  text-align:center;
+  background:linear-gradient(180deg,var(--bg) 0%,#F0ECE6 100%);
+  overflow:hidden;
+}
+.hero::before{
+  content:'';
+  position:absolute;inset:0;
+  background:radial-gradient(ellipse 60% 50% at 50% 0%,rgba(191,155,62,.08) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:4px 12px;
+  border-radius:100px;
+  background:rgba(191,155,62,.12);
+  color:var(--gold);
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.04em;
+  margin-bottom:20px;
+}
+.hero h1{
+  font-family:'DM Serif Display',Georgia,serif;
+  font-size:clamp(32px,5vw,48px);
+  font-weight:400;
+  line-height:1.15;
+  color:var(--text);
+  margin-bottom:12px;
+}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero p{
+  font-size:clamp(14px,2vw,16px);
+  color:var(--text-secondary);
+  max-width:440px;
+  margin:0 auto 8px;
+  line-height:1.7;
+}
+.hero-meta{
+  display:flex;
+  justify-content:center;
+  gap:24px;
+  margin-top:24px;
+  font-size:12px;
+  color:var(--text-tertiary);
+}
+
+/* ─── Section ─── */
+section{padding:48px 24px}
+.section-inner{max-width:1000px;margin:0 auto}
+.section-header{margin-bottom:32px}
+.section-header h2{font-size:24px;font-weight:600;margin-bottom:6px}
+.section-header p{font-size:14px;color:var(--text-secondary);max-width:480px}
+
+/* ─── Image Gallery ─── */
+.gallery{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+.gallery-item{
+  position:relative;
+  border-radius:var(--radius-lg);
+  overflow:hidden;
+  background:var(--card);
+  box-shadow:var(--shadow);
+  transition:box-shadow .3s;
+}
+.gallery-item:hover{box-shadow:var(--shadow-lg)}
+.gallery-item.full{grid-column:1/-1}
+.gallery-item img{
+  width:100%;height:auto;display:block;
+}
+.gallery-label{
+  padding:14px 18px;
+}
+.gallery-label strong{
+  display:block;
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:2px;
+}
+.gallery-label span{
+  font-size:12px;
+  color:var(--text-secondary);
+}
+
+/* ─── Phone Frame ─── */
+.phone-wrapper{
+  display:flex;
+  justify-content:center;
+  padding:40px 16px;
+  background:linear-gradient(180deg,#F0ECE6 0%,var(--bg) 40%);
+}
+.phone{
+  width:360px;
+  max-width:100%;
+  background:var(--card);
+  border-radius:44px;
+  padding:20px 16px;
+  box-shadow:
+    0 0 0 1px rgba(26,24,22,.06),
+    0 20px 60px rgba(26,24,22,.1),
+    0 60px 120px rgba(26,24,22,.06);
+  position:relative;
+}
+.phone-notch{
+  width:120px;height:5px;
+  background:#E0DAD0;
+  border-radius:100px;
+  margin:0 auto 12px;
+}
+.phone-status{
+  display:flex;
+  justify-content:space-between;
+  font-size:13px;
+  font-weight:600;
+  padding:0 4px 8px;
+}
+.phone-bookmark{
+  position:absolute;
+  top:24px;right:20px;
+  cursor:pointer;
+  color:var(--text-tertiary);
+  transition:color .2s;
+}
+.phone-bookmark:hover{color:var(--gold)}
+
+/* ─── Daily Card ─── */
+.day-header{padding:4px 4px 14px;border-bottom:1px solid var(--rule);margin-bottom:14px}
+.day-main{font-family:'DM Serif Display',Georgia,serif;font-size:30px;font-weight:400;line-height:1.1}
+.day-main .gold{color:var(--gold)}
+.day-cal{display:flex;flex-direction:column;gap:1px;margin-top:6px}
+.day-cal-item{font-size:12px;color:var(--text-secondary);display:flex;align-items:center;gap:6px}
+.dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.dot-c{background:var(--christian)}.dot-j{background:var(--jewish)}.dot-i{background:var(--islamic)}.dot-s{background:var(--shared)}
+
+.e-card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:16px;
+  margin-bottom:10px;
+  box-shadow:var(--shadow);
+}
+.e-badge{font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:5px}
+.e-badge.c{color:var(--christian)}.e-badge.s{color:var(--shared)}.e-badge.j{color:var(--jewish)}.e-badge.i{color:var(--islamic)}
+.e-title{font-size:17px;font-weight:600;line-height:1.3;margin-bottom:6px}
+.e-body{font-size:14px;line-height:1.7;color:var(--text);margin-bottom:8px}
+.e-prayer{font-style:italic;font-size:14px;color:var(--text-secondary);border-left:2px solid var(--gold);padding-left:10px;margin-bottom:8px}
+.e-map{
+  display:flex;align-items:center;gap:8px;
+  padding:10px 12px;background:var(--bg);border-radius:8px;
+  font-size:12px;color:var(--text-secondary);margin-bottom:8px;cursor:pointer;
+}
+.e-map:hover{background:#EEEBE6}
+.e-map .pin{font-size:16px}
+.e-map .coords{font-size:11px;opacity:.6;font-family:'SF Mono',monospace}
+.e-tag{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:10px;color:var(--text-secondary);background:var(--bg);
+  padding:2px 8px;border-radius:4px;
+}
+
+.tab-bar{
+  display:flex;justify-content:space-around;
+  padding:12px 0 4px;border-top:1px solid var(--rule);margin-top:14px;
+}
+.tab{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10px;color:var(--text-tertiary);cursor:pointer;opacity:.5;transition:opacity .2s}
+.tab.active{opacity:1;color:var(--christian)}
+.tab svg{width:22px;height:22px}
+
+/* ─── MMR Grid ─── */
+.mmr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.mmr-card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:18px;
+  box-shadow:var(--shadow);
+  transition:box-shadow .2s;
+}
+.mmr-card:hover{box-shadow:var(--shadow-lg)}
+.mmr-card h4{font-size:13px;font-weight:600;margin-bottom:4px;display:flex;align-items:center;gap:6px}
+.mmr-card p{font-size:12px;color:var(--text-secondary);line-height:1.6}
+.mmr-badge{display:inline-block;font-size:9px;font-weight:700;padding:2px 6px;border-radius:4px;letter-spacing:.02em}
+.mmr-badge.crit{background:#FEF2F2;color:#991B1B}
+.mmr-badge.warn{background:#FFFBEB;color:#92400E}
+.mmr-badge.ok{background:#ECFDF5;color:#065F46}
+
+/* ─── Palette ─── */
+.palette{display:flex;gap:2px;border-radius:var(--radius);overflow:hidden;margin-bottom:24px;box-shadow:var(--shadow)}
+.palette-swatch{flex:1;height:60px;display:flex;align-items:flex-end;padding:6px;font-size:9px;font-weight:600;color:rgba(255,255,255,.85);justify-content:center}
+.palette-details{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;margin-bottom:24px}
+.palette-item{display:flex;align-items:center;gap:10px;padding:10px;background:var(--card);border-radius:8px;box-shadow:var(--shadow)}
+.palette-swat{width:28px;height:28px;border-radius:6px;flex-shrink:0}
+.palette-info{font-size:12px;font-weight:500}
+.palette-info span{display:block;font-size:10px;color:var(--text-secondary);font-weight:400;font-family:'SF Mono',monospace}
+
+/* ─── Variants ─── */
+.v-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.v-card{
+  background:var(--card);border-radius:var(--radius);padding:20px;
+  box-shadow:var(--shadow);transition:box-shadow .2s;
+}
+.v-card:hover{box-shadow:var(--shadow-lg)}
+.v-card .icon{font-size:28px;margin-bottom:8px;display:block}
+.v-card h4{font-size:14px;font-weight:600;margin-bottom:4px}
+.v-card p{font-size:12px;color:var(--text-secondary);line-height:1.6}
+
+/* ─── Icons ─── */
+.icons{display:flex;gap:12px;flex-wrap:wrap}
+.icon-box{
+  width:72px;height:72px;
+  border-radius:18px;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  font-size:12px;font-weight:600;box-shadow:var(--shadow);
+  gap:2px;transition:transform .2s,box-shadow .2s;
+}
+.icon-box:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.icon-box .sym{font-size:22px}
+
+/* ─── Footer ─── */
+.footer{
+  text-align:center;
+  padding:48px 24px;
+  font-size:12px;
+  color:var(--text-tertiary);
+  border-top:1px solid var(--rule);
+  margin-top:24px;
+}
+.footer a{color:var(--text-secondary);text-decoration:none}
+.footer a:hover{color:var(--text)}
+
+/* ─── Responsive ─── */
+@media(max-width:640px){
+  .gallery{grid-template-columns:1fr}
+  .hero{padding:60px 20px 40px}
+  .mmr-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- ─── Hero ─── -->
+<div class="hero">
+  <div class="hero-badge">✝ ☪ ✡  Design Direction · July 2026</div>
+  <h1>Every day in history<br>is <em>loaded</em>.</h1>
+  <p>A daily kaleidoscope of saints, calendars, art, and GPS pins across the Abrahamic traditions — for the historically curious, not the devotional.</p>
+  <div class="hero-meta">
+    <span>Engine A · ✅ Done</span>
+    <span>MMR · 4/5 Models</span>
+    <span>Verdict · 🟢 Build</span>
+  </div>
+</div>
+
+<!-- ─── Images ─── -->
+<section>
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="cap">Concept Art</span>
+      <h2>Three AI-Generated Directions</h2>
+      <p>Generated via OpenAI gpt-image-2-medium. Each explores a different visual register for the app.</p>
+    </div>
+    <div class="gallery">
+      <div class="gallery-item full">
+        <img src="icon-concept.png" alt="App icon concept">
+        <div class="gallery-label">
+          <strong>App Icon</strong>
+          <span>Gold compass rose on parchment. Cross, crescent, and Star of David embedded in the points. Minimalist, premium, no text.</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="daily-card-ui.png" alt="Daily card UI">
+        <div class="gallery-label">
+          <strong>Daily Card</strong>
+          <span>Date cascade header with tradition-colored dots. Saint story, art thumbnail, map pin, prayer. Warm, contemplative, intimate.</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="map-tab.png" alt="Map tab">
+        <div class="gallery-label">
+          <strong>Map Tab</strong>
+          <span>World map centered on the Holy Land. Pins color-coded by tradition. Bottom card with full pilgrimage site details.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Phone Mockup ─── -->
+<div class="phone-wrapper">
+  <div class="phone">
+    <div class="phone-notch"></div>
+    <div class="phone-status">
+      <span>12:00</span>
+      <span>🔋 100%</span>
+    </div>
+
+    <div class="phone-bookmark">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+      </svg>
+    </div>
+
+    <div class="day-header">
+      <div class="day-main"><span class="gold">3</span> July 2026</div>
+      <div class="day-cal">
+        <div class="day-cal-item"><span class="dot dot-j"></span> 17 Tamuz 5786</div>
+        <div class="day-cal-item"><span class="dot dot-i"></span> 17 Dhu al-Hijjah 1448 AH</div>
+        <div class="day-cal-item"><span class="dot dot-c"></span> 19 June 7534 (Byzantine)</div>
+        <div class="day-cal-item" style="color:var(--gold);font-size:11px;cursor:pointer">+ 6 more calendars …</div>
+      </div>
+    </div>
+
+    <div class="e-card">
+      <div class="e-badge c">✝  Saint of the Day</div>
+      <div class="e-title">Sts. Processus &amp; Martinian</div>
+      <div class="e-body">Roman soldiers charged with guarding St. Peter in the Mamertine Prison. Converted, baptized by Peter in the prison's spring, beheaded under Nero.</div>
+      <div class="e-prayer">Lord, soften the hearts of guards as you did for Processus and Martinian. Make witnesses of those who watch.</div>
+      <div class="e-map">
+        <span class="pin">📍</span>
+        <div>
+          <div>Mamertine Prison, Rome</div>
+          <div class="coords">41.8936° N, 12.4853° E · Open daily 9:00–17:00</div>
+        </div>
+      </div>
+      <div class="e-tag">📜 Traditional (Roman Martyrology)</div>
+    </div>
+
+    <div class="e-card">
+      <div class="e-badge s">☪️✝️✡️  Shared Story</div>
+      <div class="e-title">Abraham on Three Altars</div>
+      <div class="e-body">Muslims returning from Hajj carry the memory of Arafat — the plain where Abraham stood ready to sacrifice. Jews read Genesis 22. Christians see Isaac as a type of Christ. Three altars. One voice: <em>Here I am.</em></div>
+      <div class="e-prayer">God of Abraham, bind us where we are scattered. Make our obedience worthy of the promise.</div>
+      <div class="e-tag">✅ Confirmed (Quran 2:196-203 · Genesis 22 · Hebrews 11:17-19)</div>
+    </div>
+
+    <div class="e-card">
+      <div class="e-badge j">✡️  Season</div>
+      <div class="e-title">The Three Weeks (Bein ha-Metzarim)</div>
+      <div class="e-body">Yesterday was 17 Tammuz — the walls of Jerusalem were breached. The Three Weeks have begun, counting down to Tisha B'Av.</div>
+      <div class="e-prayer">For Jerusalem. For peace. For the day when no one weeps at her gates.</div>
+      <div class="e-tag">📜 Traditional (Talmud Bavli, Ta'anit 26b)</div>
+    </div>
+
+    <div style="font-size:10px;color:var(--text-tertiary);padding:8px 4px 4px;border-top:1px solid var(--rule);margin-top:4px">
+      Sources: Roman Martyrology · Talmud Bavli Ta'anit · Quran 2:196-203 · Josephus, Jewish War
+    </div>
+
+    <div class="tab-bar">
+      <div class="tab active">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+        <span>Today</span>
+      </div>
+      <div class="tab">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        <span>Calendar</span>
+      </div>
+      <div class="tab">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Map</span>
+      </div>
+      <div class="tab">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        <span>Saved</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── MMR Findings ─── -->
+<section>
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="cap">MMR Review · 4/5 Models</span>
+      <h2>Consensus Findings</h2>
+      <p>Multi-Model Review (goal-first mode) across openrouter/free, NVIDIA Nemotron, and GLM-4.5-flash. DeepSeek-V4-flash rate-limited. All findings folded into the plan.</p>
+    </div>
+    <div class="mmr-grid">
+      <div class="mmr-card">
+        <h4>🔴 Sundown Anchor <span class="mmr-badge crit">Critical</span></h4>
+        <p>Garden Grove hardcode gives wrong Hebrew/Islamic dates for ~50% of users. Use device timezone + GPS + SunCalc library. No manual toggle — auto is correct.</p>
+      </div>
+      <div class="mmr-card">
+        <h4>🟡 Map Free Tier</h4>
+        <p>Show "This week's pilgrimage sites" (7-day window), not just today's pin. Premium unlocks full archive + routes. Map tab shouldn't feel empty.</p>
+      </div>
+      <div class="mmr-card">
+        <h4>🟡 Pin Accessibility</h4>
+        <p>Add icon overlays (cross, Star of David, crescent, interlocking circles) alongside tradition colors. 8% of male users are colorblind.</p>
+      </div>
+      <div class="mmr-card">
+        <h4>🟡 Paywall Timing</h4>
+        <p>Value-based gate (after 3 archive views / 5 saves), not session-count. "Unlock the Archive" CTA converts faster than "7 days free."</p>
+      </div>
+      <div class="mmr-card">
+        <h4>🟢 Cascade Animation</h4>
+        <p>150ms stagger (not 300ms). Respect prefers-reduced-motion. Long-press to replay. Triggers on first daily open, not every session.</p>
+      </div>
+      <div class="mmr-card">
+        <h4>🟢 Shared Story Tone</h4>
+        <p>Narrative vignette — "three witnesses saw the same light" — not comparative theology. Single voice, place-linked, no homework feel.</p>
+      </div>
+      <div class="mmr-card">
+        <h4>🟢 Audio for v1</h4>
+        <p>ElevenLabs TTS on daily card (~$0.01/day). Free = synthetic voice. Premium = human-narrated. Hallow/Glorify all lead with audio.</p>
+      </div>
+      <div class="mmr-card">
+        <h4>🟢 Empty Days</h4>
+        <p>"Thematic day across traditions" fallback (e.g. "A Day of Fasting") preserves the interfaith promise. All 5 sections always render.</p>
+      </div>
+      <div class="mmr-card">
+        <h4>🟢 Content QA</h4>
+        <p>Automated Wikidata SPARQL fact-check + human spot-review 10%. Error report → hotfix in &lt;4h. Confidence badges on every event card.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Color Palette ─── -->
+<section>
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="cap">Visual Identity</span>
+      <h2>Color Palette</h2>
+      <p>Warm, earthy, reverent. Each tradition gets a distinct hue that carries semantic weight without feeling like a brand color.</p>
+    </div>
+    <div class="palette">
+      <div class="palette-swatch" style="background:#F8F6F2;color:#1A1816">BG</div>
+      <div class="palette-swatch" style="background:#7A3B1E">C</div>
+      <div class="palette-swatch" style="background:#2D6A4F">J</div>
+      <div class="palette-swatch" style="background:#1B4965">I</div>
+      <div class="palette-swatch" style="background:#4A1942">S</div>
+      <div class="palette-swatch" style="background:#BF9B3E">★</div>
+    </div>
+    <div class="palette-details">
+      <div class="palette-item"><div class="palette-swat" style="background:#F8F6F2;border:1px solid #EAE5DE"></div><div class="palette-info">Background<span>#F8F6F2 — Warm stone</span></div></div>
+      <div class="palette-item"><div class="palette-swat" style="background:#FFFFFF;border:1px solid #EAE5DE"></div><div class="palette-info">Card<span>#FFFFFF — Pure white</span></div></div>
+      <div class="palette-item"><div class="palette-swat" style="background:#7A3B1E"></div><div class="palette-info">Christian<span>#7A3B1E — Burnished earth</span></div></div>
+      <div class="palette-item"><div class="palette-swat" style="background:#2D6A4F"></div><div class="palette-info">Jewish<span>#2D6A4F — Olive grove</span></div></div>
+      <div class="palette-item"><div class="palette-swat" style="background:#1B4965"></div><div class="palette-info">Islamic<span>#1B4965 — Midnight tile</span></div></div>
+      <div class="palette-item"><div class="palette-swat" style="background:#4A1942"></div><div class="palette-info">Shared<span>#4A1942 — Threshold violet</span></div></div>
+      <div class="palette-item"><div class="palette-swat" style="background:#BF9B3E"></div><div class="palette-info">Gold<span>#BF9B3E — Illuminated</span></div></div>
+      <div class="palette-item"><div class="palette-swat" style="background:#1A1816"></div><div class="palette-info">Text<span>#1A1816 — Warm black</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Design Variants ─── -->
+<section>
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="cap">Direction</span>
+      <h2>Three Design Registers</h2>
+      <p>Same content, different visual languages. Each shifts the emotional center of gravity.</p>
+    </div>
+    <div class="v-grid">
+      <div class="v-card">
+        <span class="icon">📜</span>
+        <h4>Scroll</h4>
+        <p>Parchment textures, sepia tones, manuscript-style headers. The app feels like an ancient codex. Warmest option, most familiar to Catholic users who grew up with missals and breviaries.</p>
+      </div>
+      <div class="v-card">
+        <span class="icon">🕌</span>
+        <h4>Geometry</h4>
+        <p>Clean geometric grids, tile-inspired patterns in backgrounds. Islamic geometric influence in dividers and card borders. Most modern option. Best for interfaith positioning.</p>
+      </div>
+      <div class="v-card">
+        <span class="icon">🕯</span>
+        <h4>Threshold</h4>
+        <p>High contrast, dark mode default, spotlight-on-content. Each card feels illuminated from within, like a Caravaggio. Dramatic. Best for art-heavy content.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Icon Directions ─── -->
+<section>
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="cap">App Icon</span>
+      <h2>Sketches</h2>
+      <p>Four quick directions. The compass rose concept (top of page) is the most developed — these are rough alternatives.</p>
+    </div>
+    <div class="icons">
+      <div class="icon-box" style="background:#F8F6F2;border:2px solid #BF9B3E;color:#7A3B1E"><span class="sym">☥</span>Ankh</div>
+      <div class="icon-box" style="background:linear-gradient(135deg,#7A3B1E,#4A1942);color:#fff"><span class="sym">✝☪✡</span>Three</div>
+      <div class="icon-box" style="background:#1A1816;color:#BF9B3E"><span class="sym">I</span>Mono</div>
+      <div class="icon-box" style="background:#BF9B3E;color:#F8F6F2"><span class="sym">☤</span>Caduceus</div>
+      <div class="icon-box" style="background:#F8F6F2;border:2px solid #2D6A4F;color:#2D6A4F"><span class="sym">🕊</span>Dove</div>
+      <div class="icon-box" style="background:#1B4965;color:#F8F6F2"><span class="sym">🌙</span>Crescent</div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Files ─── -->
+<div class="footer">
+  <div style="margin-bottom:8px;display:flex;justify-content:center;gap:16px;flex-wrap:wrap;font-size:13px">
+    <a href="UX-UI-Brief.md">UX/UI Brief</a>
+    <a href="Conversion-Design.md">Conversion Design</a>
+    <a href="Interfaith.md">Plan</a>
+    <a href="calendar_engine.py">Engine A</a>
+    <a href="calendar_2026_2029.jsonl">4‑Year Table</a>
+  </div>
+  <p>Interfaith · 2026 · Design Direction · All visuals AI-generated for concept exploration</p>
+</div>
+
+</body>
+</html>

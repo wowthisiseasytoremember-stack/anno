@@ -1,10 +1,10 @@
 # Original Render Assets
 Updated: 2026-07-03
 
-Source copied from:
+Originally copied from the infrastructure bundle (now archived):
 
 ```text
-/home/ichabod/01_Infrastructure/interfaith/
+/home/ichabod/07_Backups/Anno_infrastructure_archive_2026-08-19/Anno/interfaith/
 ```
 
 Files:

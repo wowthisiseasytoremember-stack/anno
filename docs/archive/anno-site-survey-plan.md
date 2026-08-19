@@ -103,7 +103,7 @@
 
 | # | Task | Detail | Verifies |
 |---|------|--------|----------|
-| D1 | Engine A reconciliation | Import calendar_engine.py + JSONL from `/home/ichabod/01_Infrastructure/interfaith/`. Diff against existing project copies. Schema version check. | Engine produces same output as original. |
+| D1 | Engine A reconciliation | Import calendar_engine.py + JSONL from archived infrastructure bundle (`/home/ichabod/07_Backups/Anno_infrastructure_archive_2026-08-19/Anno/interfaith/`). Diff against existing project copies. Schema version check. | Engine produces same output as original. |
 | D2 | Calendar conversion wire | Wire Engine A output into TodayView calendar conversion grid. Show Julian, Hebrew, Islamic, Coptic, Ethiopian conversions for each date. | Jul 3 shows correct conversions. |
 | D3 | Confidence badges | Implement confirmed/traditional/disputed pills in TodayView. Distinct visual styling per confidence level. Tooltip showing confidence_note. | Each confidence level visually distinct. |
 | D4 | Map view refinement | Verify MapKit integration. Pins only where `place != null`. List fallback for simulator. | Week has 6 pins (Jul 5 excluded as no fixed place). |

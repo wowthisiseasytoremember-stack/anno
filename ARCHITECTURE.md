@@ -38,12 +38,12 @@ Outputs:
 - Calendar conversion rows, one per Gregorian date.
 - Calendar metadata and certainty notes.
 
-Current artifact evidence:
+Current artifact evidence (archived from original infrastructure bundle):
 
-- `/home/ichabod/01_Infrastructure/interfaith/calendar_engine.py`
-- `/home/ichabod/01_Infrastructure/interfaith/calendar_2026_2029.jsonl`
+- `/home/ichabod/07_Backups/Anno_infrastructure_archive_2026-08-19/Anno/interfaith/calendar_engine.py`
+- `/home/ichabod/07_Backups/Anno_infrastructure_archive_2026-08-19/Anno/interfaith/calendar_2026_2029.jsonl`
 
-The project root may not yet contain those files; reconcile before implementation.
+These artifacts have been reconciled into the project root (`~/Projects/Anno/calendar_engine.py` and related fixtures). The archived infrastructure bundle is preserved for reference.
 
 ### Engine B: Research
 

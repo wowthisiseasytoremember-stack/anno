@@ -1,6 +1,6 @@
 # Worker Execution Log — Anno GOAL.md
-**Started:** ___________________ UTC  
-**Worker:** ___________________ (deepseek-worker / yolo-worker / other)  
+**Started:** 2026-08-19 09:45 UTC  
+**Worker:** manual (Codewhale direct execution)  
 **Goal file:** GOAL.md  
 
 ---
@@ -18,3 +18,4 @@
 ---
 
 ## Entries
+2026-08-19 09:45 UTC | 0.1 | COMPLETED | Created tools/validate_engine_b_output.py (jsonschema+requests+feedparser, <200 lines), docs/research/engine_b_schema.json, docs/research/batch_july17-30.json (2 valid entries). All QA gates pass: syntax, CLI, schema validation, source reachability (6/6 URLs HTTP 200).

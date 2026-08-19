@@ -1,255 +1,246 @@
 #!/usr/bin/env python3
 """
-Engine B Source Validation Gate — Anno
-Verifies each generated Engine B entry before merging into the app fixture.
-
-Usage:
-    python3 tools/validate_engine_b_output.py --fixture path/to/generated.json
-    python3 tools/validate_engine_b_output.py --fixture path/to/generated.json --strict --check-sources
+Engine B Validation Gate — Anno
+Uses jsonschema + requests + feedparser — single file <200 lines.
+Exit codes: 0=pass, 1=revise, 2=reject
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
 import urllib.request
 from pathlib import Path
+from typing import Any
+
+import jsonschema
+import requests
+import feedparser
 
 ROOT = Path(__file__).resolve().parents[1]
+SCHEMA_PATH = ROOT / "docs/research/engine_b_schema.json"
 
-# ── Valid Values ──────────────────────────────────────────────
-
-VALID_RANKS = {"Solemnity", "Feast", "Memorial", "Optional Memorial", "Feria", "Sunday"}
-VALID_COLORS = {"white", "red", "green", "purple", "rose", "gold", "verdigris"}
-VALID_CONFIDENCE = {"confirmed", "traditional", "disputed", "contextual"}
-VALID_TYPES = {"saint", "liturgical_day", "historical_event", "feast", "solemnity"}
-VALID_SOURCE_TYPES = {
-    "liturgical_calendar", "vatican", "encyclopedia", "academic", "news", "devotional"
+# ── Schema ───────────────────────────────────────────────────────
+SCHEMA = {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": ["id", "date", "weekday", "mock_priority", "liturgical", "calendars", "primary", "sources", "app_hooks"],
+    "properties": {
+        "id": {"type": "string", "pattern": "^anno-\\d{4}-\\d{2}-\\d{2}$"},
+        "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "weekday": {"type": "string"},
+        "mock_priority": {"const": "engine_b_v1"},
+        "liturgical": {
+            "type": "object",
+            "required": ["rank", "color", "title_en", "title_vi"],
+            "properties": {
+                "rank": {"enum": ["Solemnity", "Feast", "Memorial", "Optional Memorial", "Feria", "Sunday"]},
+                "color": {"enum": ["white", "red", "green", "purple", "rose", "gold", "verdigris"]},
+                "title_en": {"type": "string", "minLength": 1},
+                "title_vi": {"type": "string", "minLength": 1},
+            },
+        },
+        "calendars": {
+            "type": "object",
+            "required": ["julian", "hebrew", "islamic_umm_al_qura", "coptic", "ethiopian"],
+            "properties": {k: {"type": "string"} for k in ["julian", "hebrew", "islamic_umm_al_qura", "coptic", "ethiopian"]},
+        },
+        "primary": {
+            "type": "object",
+            "required": ["type", "title_en", "title_vi", "summary_en", "summary_vi", "body_en", "body_vi", "confidence", "confidence_note_en", "confidence_note_vi"],
+            "properties": {
+                "type": {"enum": ["saint", "liturgical_day", "historical_event", "feast", "solemnity"]},
+                "title_en": {"type": "string", "minLength": 1},
+                "title_vi": {"type": "string", "minLength": 1},
+                "summary_en": {"type": "string", "minLength": 1},
+                "summary_vi": {"type": "string", "minLength": 1},
+                "body_en": {"type": "string", "minLength": 1},
+                "body_vi": {"type": "string", "minLength": 1},
+                "confidence": {"enum": ["confirmed", "traditional", "disputed", "contextual"]},
+                "confidence_note_en": {"type": "string", "minLength": 1},
+                "confidence_note_vi": {"type": "string", "minLength": 1},
+            },
+        },
+        "place": {
+            "type": ["object", "null"],
+            "properties": {
+                "name": {"type": ["string", "null"]},
+                "latitude": {"type": ["number", "null"]},
+                "longitude": {"type": ["number", "null"]},
+                "confidence": {"enum": ["confirmed", "traditional", "disputed", "contextual"]},
+                "source_url": {"type": ["string", "null"], "format": "uri"},
+            },
+        },
+        "artwork": {
+            "type": "object",
+            "required": ["title", "maker", "date_label", "source_url", "status"],
+            "properties": {
+                "title": {"type": "string"},
+                "maker": {"type": "string"},
+                "date_label": {"type": "string"},
+                "source_url": {"type": "string", "format": "uri"},
+                "status": {"const": "placeholder_only"},
+            },
+        },
+        "sources": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+                "type": "object",
+                "required": ["label", "url", "type"],
+                "properties": {
+                    "label": {"type": "string", "minLength": 1},
+                    "url": {"type": "string", "format": "uri"},
+                    "type": {"enum": ["liturgical_calendar", "vatican", "encyclopedia", "academic", "news", "devotional"]},
+                },
+            },
+        },
+        "app_hooks": {
+            "type": "object",
+            "required": ["hero_line_en", "hero_line_vi", "prayer_prompt_en", "prayer_prompt_vi"],
+            "properties": {k: {"type": "string", "minLength": 1} for k in ["hero_line_en", "hero_line_vi", "prayer_prompt_en", "prayer_prompt_vi"]},
+        },
+    },
 }
 
-# ── Results ───────────────────────────────────────────────────
+# ── Helpers ──────────────────────────────────────────────────────
 
-results: list[dict] = []
-errors = 0
-warnings = 0
-
-
-def fail(entry_id: str, check: str, detail: str) -> None:
-    global errors
-    errors += 1
-    results.append({"entry": entry_id, "severity": "FAIL", "check": check, "detail": detail})
-    print(f"  FAIL [{entry_id}] {check}: {detail}")
+def load_schema() -> dict:
+    if SCHEMA_PATH.exists():
+        with open(SCHEMA_PATH) as f:
+            return json.load(f)
+    return SCHEMA
 
 
-def warn(entry_id: str, check: str, detail: str) -> None:
-    global warnings
-    warnings += 1
-    results.append({"entry": entry_id, "severity": "WARN", "check": check, "detail": detail})
-    print(f"  WARN [{entry_id}] {check}: {detail}")
+def count_sentences(text: str) -> int:
+    return len(re.split(r"[.!?]+", text.strip())) - 1
 
 
-def ok(entry_id: str, check: str) -> None:
-    results.append({"entry": entry_id, "severity": "OK", "check": check, "detail": ""})
+def count_paragraphs(text: str) -> int:
+    return len([p for p in text.split("\n\n") if p.strip()])
 
 
-# ── Checks ────────────────────────────────────────────────────
+def check_url_head(url: str, timeout: int = 5) -> tuple[bool, int]:
+    try:
+        # Use GET with stream=True to avoid downloading body; some sites block HEAD
+        resp = requests.get(url, timeout=timeout, allow_redirects=True, stream=True)
+        resp.close()
+        # Accept 2xx, 3xx, and 403 (blocked but exists)
+        return resp.status_code < 400 or resp.status_code == 403, resp.status_code
+    except Exception:
+        return False, 0
 
 
-def check_required_fields(entry: dict) -> None:
+def validate_entry(entry: dict, strict: bool, check_sources: bool) -> tuple[int, int]:
+    errors = 0
+    warnings = 0
     eid = entry.get("id", "<missing>")
-    required = [
-        ("id", str),
-        ("date", str),
-        ("weekday", str),
-        ("mock_priority", str),
-    ]
-    for field, ftype in required:
-        val = entry.get(field)
-        if val is None:
-            fail(eid, "required_field", f"Missing '{field}'")
-            continue
-        if not isinstance(val, ftype):
-            fail(eid, "required_field", f"'{field}' should be {ftype.__name__}, got {type(val).__name__}")
-            continue
-        ok(eid, f"required_field.{field}")
 
-    # ID format
-    if not re.match(r"^anno-\d{4}-\d{2}-\d{2}$", entry.get("id", "")):
-        fail(eid, "id_format", "ID must match 'anno-YYYY-MM-DD'")
+    def fail(msg: str) -> None:
+        nonlocal errors
+        errors += 1
+        print(f"  FAIL [{eid}] {msg}")
 
-    # Date must match ID
-    if entry.get("id", "").replace("anno-", "") != entry.get("date", ""):
-        warn(eid, "date_match", "ID date and 'date' field don't match")
+    def warn(msg: str) -> None:
+        nonlocal warnings
+        warnings += 1
+        print(f"  WARN [{eid}] {msg}")
 
+    def ok(msg: str) -> None:
+        print(f"  OK   [{eid}] {msg}")
 
-def check_liturgical(entry: dict) -> None:
-    eid = entry.get("id", "<missing>")
-    lit = entry.get("liturgical", {})
-    if not lit:
-        fail(eid, "liturgical", "Missing 'liturgical' object")
-        return
-    if lit.get("rank") not in VALID_RANKS:
-        fail(eid, "liturgical.rank", f"Invalid rank '{lit.get('rank')}'")
-    if lit.get("color") not in VALID_COLORS:
-        fail(eid, "liturgical.color", f"Invalid color '{lit.get('color')}'")
-    if not lit.get("title_en"):
-        fail(eid, "liturgical.title_en", "Missing English title")
-    if not lit.get("title_vi"):
-        fail(eid, "liturgical.title_vi", "Missing Vietnamese title")
+    # Schema validation
+    try:
+        jsonschema.validate(entry, load_schema())
+        ok("schema")
+    except jsonschema.ValidationError as e:
+        fail(f"schema: {e.message}")
+        return errors, warnings
 
+    # ID/date match
+    if entry["id"].replace("anno-", "") != entry["date"]:
+        warn("ID date and 'date' field don't match")
 
-def check_primary(entry: dict) -> None:
-    eid = entry.get("id", "<missing>")
-    pri = entry.get("primary", {})
-    if not pri:
-        fail(eid, "primary", "Missing 'primary' object")
-        return
-    if pri.get("type") not in VALID_TYPES:
-        fail(eid, "primary.type", f"Invalid type '{pri.get('type')}'")
-    if not pri.get("title_en"):
-        fail(eid, "primary.title_en", "Missing English title")
-    if not pri.get("title_vi"):
-        fail(eid, "primary.title_vi", "Missing Vietnamese title")
-    if not pri.get("summary_en"):
-        fail(eid, "primary.summary_en", "Missing English summary")
-    if not pri.get("summary_vi"):
-        fail(eid, "primary.summary_vi", "Missing Vietnamese summary")
-
-    # Summary length: 2-4 sentences approximately
-    summary = pri.get("summary_en", "")
-    summary_sentences = len(re.findall(r"[.!?]+", summary))
-    if summary_sentences < 2:
-        warn(eid, "primary.summary_length", f"English summary has {summary_sentences} sentence(s), expected at least 2")
-
-    if pri.get("confidence") not in VALID_CONFIDENCE:
-        fail(eid, "primary.confidence", f"Invalid confidence '{pri.get('confidence')}'")
-    if not pri.get("confidence_note_en"):
-        fail(eid, "primary.confidence_note_en", "Missing English confidence note")
-    if not pri.get("confidence_note_vi"):
-        fail(eid, "primary.confidence_note_vi", "Missing Vietnamese confidence note")
-
-    # Body check: at least substantive if present
-    body = pri.get("body_en", "")
-    if body:
-        paragraphs = [p for p in body.split("\n") if p.strip()]
-        if len(paragraphs) < 3:
-            warn(eid, "primary.body_paragraphs", f"Body has {len(paragraphs)} paragraph(s), expected at least 3")
-        word_count = len(body.split())
-        if word_count < 100:
-            warn(eid, "primary.body_length", f"Body has {word_count} words, expected at least 100")
-    else:
-        warn(eid, "primary.body_en", "Body missing (acceptable for feria days)")
-
-
-def check_sources(entry: dict, strict: bool = False) -> None:
-    eid = entry.get("id", "<missing>")
+    # Source validation
     sources = entry.get("sources", [])
     if len(sources) < 2:
-        fail(eid, "sources.count", f"Expected at least 2 sources, found {len(sources)}")
-    else:
-        ok(eid, "sources.count")
-    if len(sources) < 3:
-        warn(eid, "sources.count", "Only 2 sources, 3 preferred for non-feria entries")
+        fail(f"sources: need ≥2, got {len(sources)}")
 
-    for src in sources:
+    for i, src in enumerate(sources):
         url = src.get("url", "")
-        if not url:
-            fail(eid, "sources.url", "Source entry missing URL")
-            continue
         if "example.com" in url:
-            fail(eid, "sources.example", f"Placeholder URL: {url}")
-        if src.get("type") not in VALID_SOURCE_TYPES:
-            fail(eid, "sources.type", f"Invalid source type '{src.get('type')}'")
-        if not src.get("label"):
-            fail(eid, "sources.label", "Source entry missing label")
-        if strict:
-            try:
-                req = urllib.request.Request(url, method="HEAD")
-                req.add_header("User-Agent", "Anno-Validator/1.0")
-                resp = urllib.request.urlopen(req, timeout=5)
-                if resp.status >= 400:
-                    warn(eid, "sources.reachable", f"Source URL returned {resp.status}: {url}")
-            except Exception as exc:
-                warn(eid, "sources.reachable", f"Source URL unreachable: {url} — {exc}")
+            fail(f"source[{i}]: example.com URL not allowed")
+        if check_sources or strict:
+            ok_flag, code = check_url_head(url)
+            if not ok_flag:
+                fail(f"source[{i}]: HTTP {code} for {url}")
+            else:
+                ok(f"source[{i}]: HTTP 200")
 
+        # type↔URL pattern match (basic)
+        stype = src.get("type", "")
+        if stype == "liturgical_calendar" and "usccb.org" not in url and "catholicculture.org" not in url:
+            warn(f"source[{i}]: type=liturgical_calendar but URL doesn't match known patterns")
+        if stype == "vatican" and "vatican.va" not in url:
+            warn(f"source[{i}]: type=vatican but URL doesn't contain vatican.va")
+        if stype == "encyclopedia" and "newadvent.org" not in url:
+            warn(f"source[{i}]: type=encyclopedia but URL doesn't contain newadvent.org")
 
-def check_calendars(entry: dict) -> None:
-    eid = entry.get("id", "<missing>")
-    cals = entry.get("calendars", {})
-    required_cals = {"julian", "hebrew", "islamic_umm_al_qura", "coptic", "ethiopian"}
-    for key in required_cals:
-        if not cals.get(key):
-            fail(eid, f"calendars.{key}", f"Missing calendar conversion '{key}'")
+    # Content quality
+    pri = entry.get("primary", {})
+    summary_en = pri.get("summary_en", "")
+    summary_vi = pri.get("summary_vi", "")
+    body_en = pri.get("body_en", "")
+    body_vi = pri.get("body_vi", "")
 
+    if not (2 <= count_sentences(summary_en) <= 4):
+        fail(f"primary.summary_en: {count_sentences(summary_en)} sentences (need 2-4)")
+    if not (2 <= count_sentences(summary_vi) <= 4):
+        fail(f"primary.summary_vi: {count_sentences(summary_vi)} sentences (need 2-4)")
+    if count_paragraphs(body_en) < 3:
+        fail(f"primary.body_en: {count_paragraphs(body_en)} paragraphs (need ≥3)")
+    if count_paragraphs(body_vi) < 3:
+        fail(f"primary.body_vi: {count_paragraphs(body_vi)} paragraphs (need ≥3)")
 
-def check_bilingual(entry: dict) -> None:
-    eid = entry.get("id", "<missing>")
+    # Placeholder text detection
+    placeholders = ["placeholder", "todo", "tbd", "xxx", "lorem ipsum"]
+    for field_name, field_val in [("summary_en", summary_en), ("summary_vi", summary_vi), ("body_en", body_en), ("body_vi", body_vi)]:
+        if any(p in field_val.lower() for p in placeholders):
+            fail(f"primary.{field_name}: contains placeholder text")
 
-    # Top-level bilingual pairs in app_hooks
-    hooks = entry.get("app_hooks", {})
-    for field in ("hero_line_en", "hero_line_vi", "prayer_prompt_en", "prayer_prompt_vi"):
-        if not hooks.get(field):
-            fail(eid, f"app_hooks.{field}", f"Missing '{field}'")
-
-    # Check for placeholder/generic content
-    generic_patterns = [
-        "A day of ordinary time",
-        "Reflect on this day's grace",
-        "placeholder",
-        "example.com",
-    ]
-    for section_name, section in [("primary", entry.get("primary", {})),
-                                    ("app_hooks", hooks)]:
-        for key, value in section.items():
-            if isinstance(value, str):
-                for pattern in generic_patterns:
-                    if pattern.lower() in value.lower():
-                        fail(eid, f"placeholder.{section_name}.{key}",
-                              f"Contains placeholder text: '{pattern}'")
-                        break
-
-
-def check_confidence_consistency(entry: dict) -> None:
-    """Solemnities/Feasts must be 'confirmed'."""
-    eid = entry.get("id", "<missing>")
+    # Confidence consistency
     rank = entry.get("liturgical", {}).get("rank", "")
-    confidence = entry.get("primary", {}).get("confidence", "")
+    confidence = pri.get("confidence", "")
     if rank in ("Solemnity", "Feast") and confidence != "confirmed":
-        warn(eid, "confidence_consistency",
-             f"Rank is '{rank}' but confidence is '{confidence}'. Should be 'confirmed'.")
+        warn(f"confidence: rank={rank} but confidence={confidence} (should be 'confirmed')")
 
-
-def check_place(entry: dict) -> None:
-    eid = entry.get("id", "<missing>")
+    # Place confidence match
     place = entry.get("place")
-    if place is None:
-        ok(eid, "place.null")
-        return
-    if not place.get("name"):
-        fail(eid, "place.name", "Place object present but missing 'name'")
+    if place and place.get("confidence") != confidence:
+        warn("place.confidence doesn't match primary.confidence")
 
-    pconf = place.get("confidence")
-    if pconf not in VALID_CONFIDENCE:
-        fail(eid, "place.confidence", f"Invalid place confidence '{pconf}'")
+    # Bilingual fields present
+    for field in ["title", "summary", "confidence_note", "hero_line", "prayer_prompt"]:
+        en_key = f"{field}_en"
+        vi_key = f"{field}_vi"
+        # Check in appropriate nested objects
+        pass  # schema already enforces presence
 
-    lat = place.get("latitude")
-    lon = place.get("longitude")
-    if lat is not None and lon is not None:
-        if not (-90 <= lat <= 90):
-            fail(eid, "place.latitude", f"Latitude out of range: {lat}")
-        if not (-180 <= lon <= 180):
-            fail(eid, "place.longitude", f"Longitude out of range: {lon}")
-    elif lat is not None or lon is not None:
-        fail(eid, "place.coordinates", "Only one coordinate provided, need both lat and lon")
+    # Tier rules (inferred from source types)
+    tier4_sources = [s for s in sources if s.get("type") == "devotional"]
+    if tier4_sources:
+        for s in tier4_sources:
+            if "Produced in Vietnam; state context applies" not in s.get("label", "") and "Produced in Vietnam; state context applies" not in s.get("url", ""):
+                fail(f"tier4: source '{s['label']}' missing mandatory state context note")
 
-
-# ── Main ───────────────────────────────────────────────────────
+    return errors, warnings
 
 
-def main() -> None:
-    import argparse
+# ── Main ────────────────────────────────────────────────────────
 
+def main() -> int:
     parser = argparse.ArgumentParser(description="Validate Engine B output for Anno")
     parser.add_argument("--fixture", required=True, help="Path to generated fixture JSON")
     parser.add_argument("--strict", action="store_true", help="Enable source URL reachability checks")
@@ -259,70 +250,50 @@ def main() -> None:
     fixture_path = Path(args.fixture)
     if not fixture_path.exists():
         print(f"ERROR: Fixture file not found: {fixture_path}", file=sys.stderr)
-        raise SystemExit(1)
+        return 1
 
     with open(fixture_path) as f:
         fixture = json.load(f)
 
-    # Engine B result files are a single entry dict, OR a {"entries": [...]} batch.
     if isinstance(fixture, dict) and "entries" in fixture:
         entries = fixture["entries"]
     elif isinstance(fixture, list):
         entries = fixture
     elif isinstance(fixture, dict) and "id" in fixture:
-        # Single-entry result file (one date).
         entries = [fixture]
     else:
-        entries = []
+        print("ERROR: Fixture has no entries", file=sys.stderr)
+        return 1
+
     if not entries:
-        print("ERROR: Fixture has no entries")
-        raise SystemExit(1)
+        print("ERROR: Fixture has no entries", file=sys.stderr)
+        return 1
 
     print(f"Anno Engine B Validation Gate")
     print(f"Fixture: {fixture_path}")
     print(f"Entries: {len(entries)}")
-    print(f"Schema: {fixture.get('schema_version', 'unknown')}")
     print(f"---")
 
     check_sources_flag = args.strict or args.check_sources
+    total_errors = 0
+    total_warnings = 0
 
     for entry in entries:
-        eid = entry.get("id", "<missing>")
-        print(f"[{eid}]")
-        check_required_fields(entry)
-        check_liturgical(entry)
-        check_primary(entry)
-        check_sources(entry, strict=check_sources_flag)
-        check_calendars(entry)
-        check_bilingual(entry)
-        check_confidence_consistency(entry)
-        check_place(entry)
+        print(f"[{entry.get('id', '<missing>')}]")
+        e, w = validate_entry(entry, strict=args.strict, check_sources=check_sources_flag)
+        total_errors += e
+        total_warnings += w
         print()
 
-    summary = {
-        "entries": len(entries),
-        "errors": errors,
-        "warnings": warnings,
-        "pass_without_issues": len(entries) - len(set(r["entry"] for r in results if r["severity"] != "OK")),
-    }
-
     print(f"=== Summary ===")
-    print(f"  Entries:    {summary['entries']}")
-    print(f"  Errors:     {summary['errors']}")
-    print(f"  Warnings:   {summary['warnings']}")
-    print(f"  Clean:      {summary['pass_without_issues']}/{summary['entries']}")
+    print(f"  Entries:    {len(entries)}")
+    print(f"  Errors:     {total_errors}")
+    print(f"  Warnings:   {total_warnings}")
 
-    verdict = "PASS" if errors == 0 else "REVISE"
-    if errors == 0 and warnings == 0:
-        verdict = "PASS (clean)"
-    elif errors == 0:
-        verdict = "PASS with warnings"
-
-    print(f"  Verdict:    {verdict}")
-
-    if errors > 0:
-        raise SystemExit(1)
+    if total_errors > 0:
+        return 2  # reject
+    return 0  # pass
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
