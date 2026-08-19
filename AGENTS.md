@@ -10,8 +10,8 @@ what: >-
   structural from v1.
 goal: >-
   Scaffold the Xcode project (requires macOS), complete/validate the bilingual
-  content pipeline, and resolve the missing Vietnamese translations in the
-  August mock data batch.
+  content pipeline, and keep the three content tracks normalized into the
+  Swift fixture schema.  Content for Jul 3–Aug 31 2026 is bilingual (EN/VI).
 status: active
 stack: [swift, swiftui, python]
 entrypoints:
@@ -26,17 +26,20 @@ modules:
   - name: Swift fixture export
     path: tools/export_swift_fixture.py
     does: Exports calendar engine output as fixtures for the iOS target.
+  - name: Content normalizer
+    path: tools/normalize_fixture.py
+    does: Concats fortnight / Engine B / August tracks into Anno/Resources/anno_unified_2026.json, aligns schema, guarantees *_vi leaves.
   - name: Localization
     path: ios/LocalizationManager.swift
     does: Swift localization manager backing the Vietnamese-ready content shape.
   - name: iOS Client Application
     path: Anno/
     does: SwiftUI mobile app implementing Today, Calendar, Map, and Saved views.
-updated: 2026-08-10 05:06 UTC
+updated: 2026-08-19 05:40 UTC
 ---
 
 # Interfaith Devotional Engine — AGENTS.md
-**Last updated:** 2026-08-10 05:06 UTC
+**Last updated:** 2026-08-19 05:40 UTC
 
 ## Quick Start (Read This First)
 
