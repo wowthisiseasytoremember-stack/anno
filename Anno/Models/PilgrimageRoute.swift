@@ -1,6 +1,77 @@
 import CoreLocation
 import Foundation
 
+// MARK: - Spiritual Calling Categories
+
+public enum SpiritualCalling: String, CaseIterable, Identifiable {
+    case all = "all"
+    case marian = "marian"
+    case apostolic = "apostolic"
+    case martyrs = "martyrs"
+    case eucharisticPassion = "eucharistic_passion"
+    case monasticDesert = "monastic_desert"
+
+    public var id: String { rawValue }
+
+    public func title(for language: LanguageMode) -> String {
+        switch self {
+        case .all:
+            return language == .vietnamese ? "Tất cả con đường" : "All Corridors"
+        case .marian:
+            return language == .vietnamese ? "Linh Địa Thánh Mẫu" : "Marian Apparitions"
+        case .apostolic:
+            return language == .vietnamese ? "Bước Chân Tông Đồ" : "Apostolic Journeys"
+        case .martyrs:
+            return language == .vietnamese ? "Đường Tử Đạo Anh Hùng" : "Way of the Martyrs"
+        case .eucharisticPassion:
+            return language == .vietnamese ? "Thánh Thể & Thương Khó" : "Eucharist & Passion"
+        case .monasticDesert:
+            return language == .vietnamese ? "Đan Tu & Tĩnh Lặng" : "Monastic & Desert"
+        }
+    }
+
+    public var icon: String {
+        switch self {
+        case .all: return "sparkles"
+        case .marian: return "heart.fill"
+        case .apostolic: return "cross.fill"
+        case .martyrs: return "flame.fill"
+        case .eucharisticPassion: return "sun.max.fill"
+        case .monasticDesert: return "mountain.2.fill"
+        }
+    }
+}
+
+// MARK: - Geographic Regions
+
+public enum PilgrimageRegion: String, CaseIterable, Identifiable {
+    case all = "all"
+    case socalAmericas = "socal_americas"
+    case vietnamAsia = "vietnam_asia"
+    case romeItaly = "rome_italy"
+    case holyLand = "holy_land"
+    case iberiaEurope = "iberia_europe"
+
+    public var id: String { rawValue }
+
+    public func title(for language: LanguageMode) -> String {
+        switch self {
+        case .all:
+            return language == .vietnamese ? "Mọi Vùng Miền" : "Global"
+        case .socalAmericas:
+            return language == .vietnamese ? "Miền Nam California & Châu Mỹ" : "SoCal & Americas"
+        case .vietnamAsia:
+            return language == .vietnamese ? "Việt Nam & Đông Nam Á" : "Vietnam & Asia"
+        case .romeItaly:
+            return language == .vietnamese ? "Rôma & Nước Ý" : "Rome & Italy"
+        case .holyLand:
+            return language == .vietnamese ? "Đất Thánh & Levant" : "Holy Land"
+        case .iberiaEurope:
+            return language == .vietnamese ? "Tây Ban Nha & Châu Âu" : "Iberia & Europe"
+        }
+    }
+}
+
 // MARK: - Pilgrimage Route Model
 
 public struct PilgrimageRoute: Identifiable, Codable, Hashable {
@@ -47,6 +118,63 @@ public struct PilgrimageRoute: Identifiable, Codable, Hashable {
 
     public var coordinates: [CLLocationCoordinate2D] {
         waypoints.map(\.coordinate)
+    }
+
+    public var calling: SpiritualCalling {
+        let lowerId = routeId.lowercased()
+        if lowerId.contains("marian") || lowerId.contains("la_vang") || lowerId.contains("guadalupe") || lowerId.contains("lauretana") {
+            return .marian
+        } else if lowerId.contains("paul") || lowerId.contains("santiago") || lowerId.contains("norte") || lowerId.contains("plata") || lowerId.contains("rome") || lowerId.contains("francigena") {
+            return .apostolic
+        } else if lowerId.contains("martyr") || lowerId.contains("vietnam") || lowerId.contains("asian") {
+            return .martyrs
+        } else if lowerId.contains("eucharist") || lowerId.contains("passion") || lowerId.contains("holy_land") {
+            return .eucharisticPassion
+        } else if lowerId.contains("desert") || lowerId.contains("monastic") || lowerId.contains("ignaciano") || lowerId.contains("olav") || lowerId.contains("cuthbert") {
+            return .monasticDesert
+        }
+        return .apostolic
+    }
+
+    public var regionCategory: PilgrimageRegion {
+        let lowerId = routeId.lowercased()
+        if lowerId.contains("socal") || lowerId.contains("americas") {
+            return .socalAmericas
+        } else if lowerId.contains("vietnam") || lowerId.contains("asian") || lowerId.contains("martyrs_path") {
+            return .vietnamAsia
+        } else if lowerId.contains("rome") || lowerId.contains("francigena") || lowerId.contains("lauretana") {
+            return .romeItaly
+        } else if lowerId.contains("holy_land") {
+            return .holyLand
+        } else {
+            return .iberiaEurope
+        }
+    }
+
+    public func isLiturgicallyConnected(to entry: AnnoEntry) -> Bool {
+        let text = "\(entry.liturgical.titleEn) \(entry.liturgical.titleVi) \(entry.primary.titleEn) \(entry.primary.titleVi) \(entry.place?.name ?? "")".lowercased()
+        let rText = "\(titleEn) \(titleVi) \(spiritualThemeEn)".lowercased()
+
+        // Marian matches
+        if (text.contains("mary") || text.contains("mẹ") || text.contains("assumption") || text.contains("marian")) && calling == .marian {
+            return true
+        }
+        // Martyrs matches
+        if (text.contains("martyr") || text.contains("tử đạo") || text.contains("witness")) && calling == .martyrs {
+            return true
+        }
+        // Passion & Cross matches
+        if (text.contains("cross") || text.contains("passion") || text.contains("thánh giá") || text.contains("thánh thể")) && calling == .eucharisticPassion {
+            return true
+        }
+        // Apostle specific
+        if text.contains("paul") && rText.contains("paul") { return true }
+        if text.contains("james") && rText.contains("santiago") { return true }
+        if text.contains("ignatius") && rText.contains("ignaciano") { return true }
+        if text.contains("thomas") && (rText.contains("asian") || rText.contains("india")) { return true }
+        if text.contains("la vang") && (rText.contains("la vang") || rText.contains("socal")) { return true }
+
+        return false
     }
 
     public var difficultyDisplay: String {

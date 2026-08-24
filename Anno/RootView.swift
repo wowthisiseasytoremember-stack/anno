@@ -55,7 +55,11 @@ struct RootView: View {
             .tag(AppTab.calendar)
 
             NavigationStack {
-                SacredSiteMapView(entries: store.weekEntries, language: language)
+                SacredSiteMapView(
+                    entries: store.weekEntries,
+                    currentEntry: store.selectedEntry,
+                    language: language
+                )
             }
             .tabItem { Label("Map", systemImage: "map") }
             .tag(AppTab.map)

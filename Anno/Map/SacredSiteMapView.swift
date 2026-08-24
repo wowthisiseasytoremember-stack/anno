@@ -2,39 +2,43 @@ import MapKit
 import SwiftUI
 
 public enum MapExplorationMode: String, CaseIterable, Identifiable {
-    case feastSites = "Feast Sites"
     case pilgrimages = "Pilgrimages"
     case sanctuaries = "Sanctuaries"
+    case feastSites = "Feast Sites"
 
     public var id: String { rawValue }
 
     public func title(for language: LanguageMode) -> String {
         switch self {
-        case .feastSites:
-            return language == .vietnamese ? "Địa điểm Lễ" : "Feast Sites"
         case .pilgrimages:
             return language == .vietnamese ? "Đại Lộ Hành Hương" : "Pilgrimage Routes"
         case .sanctuaries:
-            return language == .vietnamese ? "72 Thánh Địa Hoàn Vũ" : "72 Sanctuaries"
+            return language == .vietnamese ? "72 Thánh Địa" : "72 Sanctuaries"
+        case .feastSites:
+            return language == .vietnamese ? "Địa Điểm Lễ" : "Feast Sites"
         }
     }
 }
 
 public struct SacredSiteMapView: View {
     public let entries: [AnnoEntry]
+    public let currentEntry: AnnoEntry?
     public let language: LanguageMode
 
     @StateObject private var geoLoader = SacredGeographyLoader.shared
     @StateObject private var audioPlayer = AudioDevotionalPlayer.shared
 
     @State private var mode: MapExplorationMode = .pilgrimages
+    @State private var selectedCalling: SpiritualCalling = .all
+    @State private var selectedRegion: PilgrimageRegion = .all
     @State private var sheetExpanded: Bool = false
     @State private var selectedWaypoint: PilgrimageWaypoint?
     @State private var selectedSanctuary: Sanctuary?
     @State private var position: MapCameraPosition = .automatic
 
-    public init(entries: [AnnoEntry], language: LanguageMode) {
+    public init(entries: [AnnoEntry], currentEntry: AnnoEntry? = nil, language: LanguageMode) {
         self.entries = entries
+        self.currentEntry = currentEntry ?? entries.first
         self.language = language
     }
 
@@ -42,18 +46,34 @@ public struct SacredSiteMapView: View {
         entries.filter { $0.place != nil }
     }
 
+    private var filteredRoutes: [PilgrimageRoute] {
+        geoLoader.routes.filter { route in
+            let callingMatch = (selectedCalling == .all || route.calling == selectedCalling)
+            let regionMatch = (selectedRegion == .all || route.regionCategory == selectedRegion)
+            return callingMatch && regionMatch
+        }
+    }
+
+    private var connectedRoutesToToday: [PilgrimageRoute] {
+        guard let today = currentEntry else { return [] }
+        return geoLoader.routes.filter { $0.isLiturgicallyConnected(to: today) }
+    }
+
     public var body: some View {
         ZStack(alignment: .top) {
             mapLayer
 
-            // Atmospheric gradient & Top Controls
+            // Atmospheric gradient & Inquiry Controls
             VStack(spacing: 8) {
                 atmosphereOverlay
+
+                inquiryHeaderView
 
                 modePickerBar
                     .padding(.horizontal, 16)
 
                 if mode == .pilgrimages {
+                    callingFilterCarousel
                     routeSelectionCarousel
                 } else if mode == .sanctuaries {
                     sanctuaryCategoryFilter
@@ -80,6 +100,35 @@ public struct SacredSiteMapView: View {
         }
     }
 
+    // MARK: - Spiritual Inquiry Header
+
+    private var inquiryHeaderView: some View {
+        VStack(spacing: 2) {
+            Text(language == .vietnamese
+                 ? "Hôm nay bạn muốn bước theo con đường của ai?"
+                 : "Whose path will you walk today?")
+                .font(.subheadline.weight(.semibold))
+                .fontDesign(.serif)
+                .foregroundStyle(AnnoTheme.goldLeaf)
+                .shadow(color: .black.opacity(0.8), radius: 4, y: 1)
+
+            if let today = currentEntry, !connectedRoutesToToday.isEmpty {
+                HStack(spacing: 4) {
+                    Image(systemName: "sparkles")
+                        .font(.caption2)
+                        .foregroundStyle(AnnoTheme.goldLeaf)
+                    Text(language == .vietnamese
+                         ? "Gắn liền với lễ: \(today.liturgical.titleVi)"
+                         : "In season with: \(today.liturgical.titleEn)")
+                        .font(.caption2)
+                        .foregroundStyle(AnnoTheme.vellum.opacity(0.9))
+                }
+            }
+        }
+        .padding(.horizontal, 16)
+        .padding(.top, 4)
+    }
+
     // MARK: - Map Layer
 
     private var mapLayer: some View {
@@ -103,18 +152,18 @@ public struct SacredSiteMapView: View {
 
             case .pilgrimages:
                 if let route = geoLoader.selectedRoute {
-                    // Draw the sacred pilgrimage line
+                    // Glowing gold pilgrimage path
                     MapPolyline(coordinates: route.coordinates)
                         .stroke(
                             LinearGradient(
-                                colors: [AnnoTheme.goldLeaf, AnnoTheme.goldLeaf.opacity(0.8)],
+                                colors: [AnnoTheme.goldLeaf, AnnoTheme.goldLeaf.opacity(0.85)],
                                 startPoint: .leading,
                                 endPoint: .trailing
                             ),
-                            style: StrokeStyle(lineWidth: 4, lineCap: .round, lineJoin: .round)
+                            style: StrokeStyle(lineWidth: 4.5, lineCap: .round, lineJoin: .round)
                         )
 
-                    // Draw waypoint annotations
+                    // Numbered Waypoints
                     ForEach(route.waypoints) { wp in
                         Annotation(
                             wp.name(for: language),
@@ -182,7 +231,7 @@ public struct SacredSiteMapView: View {
                                     .shadow(color: AnnoTheme.goldLeaf.opacity(0.4), radius: 6, y: 2)
                             } else {
                                 Capsule()
-                                    .fill(AnnoTheme.narthex.opacity(0.8))
+                                    .fill(AnnoTheme.narthex.opacity(0.85))
                                     .overlay(Capsule().stroke(AnnoTheme.ash, lineWidth: 1))
                             }
                         }
@@ -198,13 +247,54 @@ public struct SacredSiteMapView: View {
         )
     }
 
+    // MARK: - Spiritual Calling Filter
+
+    private var callingFilterCarousel: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 6) {
+                ForEach(SpiritualCalling.allCases) { calling in
+                    let isSelected = selectedCalling == calling
+                    Button {
+                        withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
+                            selectedCalling = calling
+                            if let firstMatch = filteredRoutes.first {
+                                geoLoader.selectedRoute = firstMatch
+                                selectedWaypoint = firstMatch.waypoints.first
+                            }
+                        }
+                    } label: {
+                        HStack(spacing: 4) {
+                            Image(systemName: calling.icon)
+                                .font(.caption2)
+                            Text(calling.title(for: language))
+                                .font(.caption2.weight(isSelected ? .bold : .regular))
+                                .fontDesign(.serif)
+                        }
+                        .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.vellum)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 5)
+                        .background(
+                            Capsule()
+                                .fill(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.narthex.opacity(0.8))
+                                .overlay(Capsule().stroke(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.ash, lineWidth: 1))
+                        )
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .padding(.horizontal, 16)
+        }
+    }
+
     // MARK: - Route Selection Carousel
 
     private var routeSelectionCarousel: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
-                ForEach(geoLoader.routes) { route in
+                ForEach(filteredRoutes) { route in
                     let isSelected = geoLoader.selectedRoute?.id == route.id
+                    let isConnected = currentEntry != nil && route.isLiturgicallyConnected(to: currentEntry!)
+
                     Button {
                         withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
                             geoLoader.selectedRoute = route
@@ -212,9 +302,15 @@ public struct SacredSiteMapView: View {
                         }
                     } label: {
                         HStack(spacing: 6) {
-                            Image(systemName: "figure.walk")
-                                .font(.caption2)
-                                .foregroundStyle(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.incense)
+                            if isConnected {
+                                Image(systemName: "sparkles")
+                                    .font(.caption2)
+                                    .foregroundStyle(AnnoTheme.goldLeaf)
+                            } else {
+                                Image(systemName: "figure.walk")
+                                    .font(.caption2)
+                                    .foregroundStyle(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.incense)
+                            }
 
                             Text(route.title(for: language))
                                 .font(.caption.weight(isSelected ? .semibold : .regular))
@@ -224,16 +320,16 @@ public struct SacredSiteMapView: View {
 
                             Text("(\(route.waypoints.count))")
                                 .font(.caption2.monospacedDigit())
-                                .foregroundStyle(AnnoTheme.goldLeaf.opacity(0.8))
+                                .foregroundStyle(AnnoTheme.goldLeaf.opacity(0.85))
                         }
                         .padding(.horizontal, 10)
                         .padding(.vertical, 6)
                         .background(
                             RoundedRectangle(cornerRadius: 8)
-                                .fill(isSelected ? AnnoTheme.goldLeaf.opacity(0.15) : AnnoTheme.narthex.opacity(0.75))
+                                .fill(isSelected ? AnnoTheme.goldLeaf.opacity(0.18) : AnnoTheme.narthex.opacity(0.8))
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 8)
-                                        .stroke(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.ash, lineWidth: 1)
+                                        .stroke(isSelected ? AnnoTheme.goldLeaf : (isConnected ? AnnoTheme.goldLeaf.opacity(0.5) : AnnoTheme.ash), lineWidth: isSelected ? 1.5 : 1)
                                 )
                         )
                     }
@@ -254,10 +350,10 @@ public struct SacredSiteMapView: View {
                 } label: {
                     Text(language == .vietnamese ? "Tất cả (72)" : "All (72)")
                         .font(.caption2.weight(geoLoader.selectedCategory == nil ? .bold : .regular))
-                        .foregroundStyle(geoLoader.selectedCategory == nil ? AnnoTheme.goldLeaf : AnnoTheme.incense)
-                        .padding(.horizontal, 8)
-                        .padding(.vertical, 4)
-                        .background(Capsule().stroke(geoLoader.selectedCategory == nil ? AnnoTheme.goldLeaf : AnnoTheme.ash, lineWidth: 1))
+                        .foregroundStyle(geoLoader.selectedCategory == nil ? AnnoTheme.narthex : AnnoTheme.vellum)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 5)
+                        .background(Capsule().fill(geoLoader.selectedCategory == nil ? AnnoTheme.goldLeaf : AnnoTheme.narthex.opacity(0.8)).overlay(Capsule().stroke(AnnoTheme.ash, lineWidth: 1)))
                 }
                 .buttonStyle(.plain)
 
@@ -268,10 +364,10 @@ public struct SacredSiteMapView: View {
                     } label: {
                         Text(cat.replacingOccurrences(of: "_", with: " ").capitalized)
                             .font(.caption2.weight(isSelected ? .bold : .regular))
-                            .foregroundStyle(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.incense)
-                            .padding(.horizontal, 8)
-                            .padding(.vertical, 4)
-                            .background(Capsule().stroke(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.ash, lineWidth: 1))
+                            .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.vellum)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 5)
+                            .background(Capsule().fill(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.narthex.opacity(0.8)).overlay(Capsule().stroke(AnnoTheme.ash, lineWidth: 1)))
                     }
                     .buttonStyle(.plain)
                 }
@@ -355,14 +451,14 @@ public struct SacredSiteMapView: View {
     private var atmosphereOverlay: some View {
         RadialGradient(
             gradient: Gradient(colors: [
-                AnnoTheme.narthex.opacity(0.85),
+                AnnoTheme.narthex.opacity(0.9),
                 AnnoTheme.narthex.opacity(0.0)
             ]),
             center: .top,
             startRadius: 0,
             endRadius: 180
         )
-        .frame(height: 120)
+        .frame(height: 140)
         .allowsHitTesting(false)
         .ignoresSafeArea(edges: .top)
     }
@@ -440,7 +536,7 @@ public struct SacredSiteMapView: View {
             if let s = selectedSanctuary {
                 return s.name(for: language)
             }
-            return language == .vietnamese ? "72 Thánh địa Công giáo" : "72 Global Sanctuaries"
+            return language == .vietnamese ? "72 Thánh địa Hoàn Vũ" : "72 Global Sanctuaries"
         }
     }
 
@@ -480,6 +576,17 @@ public struct SacredSiteMapView: View {
                 Label(route.difficultyDisplay, systemImage: "figure.walk")
                 if route.distanceKm > 0 {
                     Label(String(format: "%.0f km", route.distanceKm), systemImage: "ruler")
+                }
+                if let today = currentEntry, route.isLiturgicallyConnected(to: today) {
+                    HStack(spacing: 3) {
+                        Image(systemName: "sparkles")
+                        Text(language == .vietnamese ? "Hôm nay" : "Today")
+                    }
+                    .font(.caption2.weight(.bold))
+                    .foregroundStyle(AnnoTheme.narthex)
+                    .padding(.horizontal, 6)
+                    .padding(.vertical, 2)
+                    .background(Capsule().fill(AnnoTheme.goldLeaf))
                 }
             }
             .font(.caption2)
