@@ -17,6 +17,14 @@
 - **Sacred Art Dossiers Catalog:** Curated 65 verified public-domain masterpieces in `Anno/Resources/ArtDossiers/art_dossiers_catalog.json` with bilingual theological commentary and verified HTTP reachability via `tools/verify_artwork_links.py`.
 - **Localization Expansion:** Expanded `localization/en/Localizable.strings` and `localization/vi/Localizable.strings` to 63 keys with 100.0% coverage verified by `tools/validate_localization.py`.
 
+### Verification & 2027-2028 Handoff Preparation (2026-08-24)
+- **Verification pass (PASS):** Engine A `test_calendar_engine.py` 10/10 on ichabod (covers 2026-2030); Engine B gate `validate_engine_b_output.py` confirmed working. 8 corrupted Vietnamese (U+FFFD) leaves in Aug-2026 entries repaired at source and regenerated into `anno_unified_2026.json` (182 entries, 0 U+FFFD) and `AnnoMockData.swift`.
+- **New validators:** Added `tools/validate_vietnamese_integrity.py` (flags U+FFFD / empty `_vi`) and an `artwork.source_url` `example.com` rejection in `validate_engine_b_output.py`.
+- **2027-2028 seed catalog:** `data/seed/anno_seed_2027_2028.json` — 731 days (2027-01-01→2028-12-31) with liturgical rank/color/title + 5 calendar conversions, via `multi_proper_calendar_resolver` + `computus_engine`.
+- **Self-contained third-party handoff:** `docs/research/HANDOFF_BRIEF.md` (no FS access required) + 24 monthly packets `docs/research/handoff/2027-01.md…2028-12.md` + `docs/research/handoff_manifest.yaml` tracker.
+- **Ingestion pipeline:** `tools/ingest_2027_2028.py` merges seed + returned research into `anno_unified_2027_2028.json` (guarantees 100% `_vi`); end-to-end dry-run passed the gate (exit 0) and ingested cleanly.
+- Branch `work/verify-2027-2028`; full detail in `VERIFICATION_REPORT.md`.
+
 ## [Unreleased] - 2026-08-10
 
 ### Documentation & Repository Health
