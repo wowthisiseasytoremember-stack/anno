@@ -1,10 +1,9 @@
 //  AnnoDevotionalLoader.swift
 //  Anno
 //
-//  Adapted from DailyDevotionKJVForWomen's DailyDevotionalLoader.
-//  Cloned from DailyDevotionKJVForWomen via KJV→Anno migration plan.
-//  Deterministic date-rotation engine — same date → same devotional.
-//  Supports Catholic/Vietnamese content by loading from named bundle resources.
+//  Deterministic date-rotation engine for Catholic 365-day devotional pool.
+//  Matches a calendar date to a devotional entry via day-of-year indexing.
+//  Fully supports bilingual English and Vietnamese content.
 
 import Foundation
 
@@ -12,20 +11,27 @@ import Foundation
 nonisolated enum AnnoDevotionalLoader {
     /// Loads the devotional pool from the given bundle (defaults to main).
     static func pool(bundle: Bundle = .main) -> [Devotional] {
-        guard let url = bundle.url(forResource: "annodevotionals", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let decoded = try? JSONDecoder().decode([Devotional].self, from: data) else {
+        guard let url = bundle.url(forResource: "anno_devotional_pool_365", withExtension: "json") ??
+                        bundle.url(forResource: "annodevotionals", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else {
             return []
         }
-        return decoded
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        if let fixture = try? decoder.decode(DevotionalPoolFixture.self, from: data) {
+            return fixture.devotionals
+        } else if let array = try? decoder.decode([Devotional].self, from: data) {
+            return array
+        }
+        return []
     }
 
-    /// Resolves the devotional for a date using a deterministic scheme.
+    /// Resolves the devotional for a date using a deterministic day-of-year index.
     static func devotional(for date: Date = .now, bundle: Bundle = .main) -> Devotional? {
         let all = pool(bundle: bundle)
         guard !all.isEmpty else { return nil }
         let dayOfYear = Calendar.current.ordinality(of: .day, in: .year, for: date) ?? 1
-        let seed = (dayOfYear &* 2654435761) & 0x7fffffff
-        return all[seed % all.count]
+        let index = max(0, min(dayOfYear - 1, all.count - 1))
+        return all[index]
     }
 }
