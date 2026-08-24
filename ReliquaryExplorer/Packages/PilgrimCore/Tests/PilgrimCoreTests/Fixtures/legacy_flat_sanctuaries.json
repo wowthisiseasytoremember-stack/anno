@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sanctuary_legacy_santiago",
+    "name": "Cathedral of Santiago de Compostela (legacy flat config)",
+    "latitude": 42.880599,
+    "longitude": -8.544606,
+    "radiusMeters": 50.0,
+    "audioFileName": "hagiography_st_james",
+    "transcript": "You are approaching the resting place of Saint James the Greater.",
+    "associatedReliquaryId": "reliquary_silver_casket"
+  },
+  {
+    "id": "sanctuary_legacy_torino",
+    "name": "Royal Chapel of the Holy Shroud (legacy flat config)",
+    "latitude": 45.070861,
+    "longitude": 7.685889,
+    "radiusMeters": 40.0,
+    "audioFileName": "hagiography_holy_shroud",
+    "transcript": "Entering the perimeter of the Guarini Chapel.",
+    "associatedReliquaryId": "reliquary_passion_textile"
+  }
+]

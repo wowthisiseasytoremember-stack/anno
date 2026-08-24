@@ -1,0 +1,113 @@
+name: ReliquaryExplorer
+options:
+  bundleIdPrefix: org.pilgrimage
+  createIntermediateGroups: true
+  deploymentTarget:
+    iOS: "26.0"
+    visionOS: "26.0"
+
+packages:
+  PilgrimCore:
+    path: Packages/PilgrimCore
+
+settings:
+  base:
+    SWIFT_VERSION: "5.10"
+    CODE_SIGN_STYLE: Automatic
+    GENERATE_INFOPLIST_FILE: false
+    ENABLE_USER_SCRIPT_SANDBOXING: true
+    DEVELOPMENT_TEAM: "" # set your team, or let Xcode prompt
+
+targets:
+  # ─────────────────────────── iPhone / iPad ───────────────────────────
+  ReliquaryExplorer:
+    type: application
+    platform: iOS
+    sources:
+      - path: Apps/iOS/Sources
+    dependencies:
+      - package: PilgrimCore
+    info:
+      path: Apps/iOS/Info.plist
+      properties:
+        CFBundleDisplayName: Reliquary Explorer
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        # Background modes — both are load-bearing for the pilgrim guide:
+        #   location → system may launch/wake us for geofence transitions
+        #               over an all-day walk (Guideline 2.5.4 justification
+        #               lives in README + App Store review notes).
+        #   audio    → narration continues when the pilgrim pockets the
+        #               phone / locks the screen mid-hagiography.
+        UIBackgroundModes:
+          - location
+          - audio
+        NSCameraUsageDescription: >-
+          The camera is used by ARKit to detect surfaces so you can place
+          3-D reliquaries and Passion textiles in your physical space.
+          No images leave your device.
+        NSLocationWhenInUseUsageDescription: >-
+          Your location shows sanctuaries on the map and calibrates
+          distances while the app is open.
+        NSLocationAlwaysAndWhenInUseUsageDescription: >-
+          The Pilgrim Guide monitors sanctuary geofences in the background
+          so narration begins automatically as you approach each sacred
+          site on the pilgrimage route — no continuous GPS, no map open.
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: org.pilgrimage.ReliquaryExplorer
+
+  # ───────────────────────────── visionOS ─────────────────────────────
+  ReliquaryExplorerVision:
+    type: application
+    platform: visionOS
+    sources:
+      - path: Apps/visionOS/Sources
+    dependencies:
+      - package: PilgrimCore
+    info:
+      path: Apps/visionOS/Info.plist
+      properties:
+        CFBundleDisplayName: Reliquary Explorer
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: true
+        # World sensing powers plane detection + scene reconstruction for
+        # reliquary placement. (No camera string needed: visionOS camera
+        # access is enterprise-only and unused here. No background modes:
+        # the geofencing subsystem is intentionally stubbed on visionOS.)
+        NSWorldSensingUsageDescription: >-
+          World sensing lets the app detect tables and floors so sacred
+          reliquaries can be placed precisely on surfaces in your space.
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.pilgrimage.ReliquaryExplorerVision
+
+schemes:
+  ReliquaryExplorer:
+    build:
+      targets:
+        ReliquaryExplorer: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - PilgrimCoreTests
+  ReliquaryExplorerVision:
+    build:
+      targets:
+        ReliquaryExplorerVision: all
+    run:
+      config: Debug

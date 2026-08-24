@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Grand tour — the App Review artifact. One playback crosses all four
+  sanctuary geofences in the bundled SanctuariesConfig.json, in order:
+  Santiago de Compostela → Assisi → Torino → Christ Cathedral (Garden
+  Grove). Each site gets an approach point outside the geofence, the
+  site itself (entry event), and a dwell point; five-minute gaps between
+  sites make the jumps obvious in logs. Load via Xcode ▸ Debug ▸ Location
+  ▸ Custom GPX… Narration should start at each entry; see the Guide ▸
+  Demo & QA event log.
+
+  Note: Xcode replays waypoints by their relative timestamps and loops.
+  Gaps between distant sites represent "teleport" travel — only the four
+  configured sanctuary regions trigger.
+-->
+<gpx version="1.1" creator="ReliquaryExplorer" xmlns="http://www.topografix.com/GPX/1/1">
+    <!-- 1. Cathedral of Santiago de Compostela (42.880599, -8.544606, r=60) -->
+    <wpt lat="42.88127" lon="-8.54620"><time>2026-08-23T10:00:00Z</time></wpt>
+    <wpt lat="42.88060" lon="-8.54461"><time>2026-08-23T10:02:00Z</time></wpt>
+    <wpt lat="42.88060" lon="-8.54437"><time>2026-08-23T10:03:00Z</time></wpt>
+
+    <!-- 2. Basilica of San Francesco d'Assisi (43.070617, 12.388873, r=70) -->
+    <wpt lat="43.06927" lon="12.38887"><time>2026-08-23T10:08:00Z</time></wpt>
+    <wpt lat="43.07062" lon="12.38887"><time>2026-08-23T10:10:00Z</time></wpt>
+    <wpt lat="43.07090" lon="12.38887"><time>2026-08-23T10:11:00Z</time></wpt>
+
+    <!-- 3. Royal Chapel of the Holy Shroud, Torino (45.070861, 7.685889, r=50) -->
+    <wpt lat="45.07194" lon="7.68589"><time>2026-08-23T10:16:00Z</time></wpt>
+    <wpt lat="45.07086" lon="7.68589"><time>2026-08-23T10:18:00Z</time></wpt>
+    <wpt lat="45.07060" lon="7.68589"><time>2026-08-23T10:19:00Z</time></wpt>
+
+    <!-- 4. Christ Cathedral, Garden Grove (33.783823, -117.889417, r=90) -->
+    <wpt lat="33.78382" lon="-117.89158"><time>2026-08-23T10:24:00Z</time></wpt>
+    <wpt lat="33.78382" lon="-117.88942"><time>2026-08-23T10:26:00Z</time></wpt>
+    <wpt lat="33.78382" lon="-117.88910"><time>2026-08-23T10:27:00Z</time></wpt>
+</gpx>

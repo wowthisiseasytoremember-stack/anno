@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Santiago de Compostela approach — pilgrim walking ~335 m from Praza do
+  Obradoiro's northwest approach into the cathedral geofence (60 m radius)
+  over ~4 minutes. Use in the simulator: Xcode ▸ Debug ▸ Location ▸
+  Custom GPX…, then select this file. Region entry fires near the final
+  waypoints and narration should begin (background or foreground).
+-->
+<gpx version="1.1" creator="ReliquaryExplorer" xmlns="http://www.topografix.com/GPX/1/1">
+    <wpt lat="42.88195" lon="-8.54829"><time>2026-08-23T09:00:00Z</time></wpt>
+    <wpt lat="42.88178" lon="-8.54783"><time>2026-08-23T09:00:30Z</time></wpt>
+    <wpt lat="42.88161" lon="-8.54737"><time>2026-08-23T09:01:00Z</time></wpt>
+    <wpt lat="42.88145" lon="-8.54691"><time>2026-08-23T09:01:30Z</time></wpt>
+    <wpt lat="42.88128" lon="-8.54645"><time>2026-08-23T09:02:00Z</time></wpt>
+    <wpt lat="42.88111" lon="-8.54599"><time>2026-08-23T09:02:30Z</time></wpt>
+    <wpt lat="42.88094" lon="-8.54553"><time>2026-08-23T09:03:00Z</time></wpt>
+    <wpt lat="42.88077" lon="-8.54507"><time>2026-08-23T09:03:30Z</time></wpt>
+    <wpt lat="42.88060" lon="-8.54461"><time>2026-08-23T09:04:00Z</time></wpt>
+</gpx>

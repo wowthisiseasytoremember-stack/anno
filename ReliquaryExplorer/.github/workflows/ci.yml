@@ -1,0 +1,74 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-test:
+    # Needs Xcode 26 (iOS 26 / visionOS 26 SDKs). The macos-26 runner
+    # image ships Xcode 26 by default; if you pin a different image,
+    # select the toolchain with DEVELOPER_DIR or xcode-select.
+    runs-on: macos-26
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate project
+        run: xcodegen generate
+
+      - name: iOS — build (iPhone + iPad)
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project ReliquaryExplorer.xcodeproj \
+            -scheme ReliquaryExplorer \
+            -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
+            -configuration Debug \
+            CODE_SIGNING_ALLOWED=NO \
+            COMPILER_INDEX_STORE_ENABLE=NO \
+            | tail -n 40
+
+      - name: iOS — unit tests (PilgrimCore, incl. seam fakes)
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project ReliquaryExplorer.xcodeproj \
+            -scheme ReliquaryExplorer \
+            -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
+            -configuration Debug \
+            CODE_SIGNING_ALLOWED=NO \
+            | tail -n 60
+
+      - name: visionOS — build (compile check)
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project ReliquaryExplorer.xcodeproj \
+            -scheme ReliquaryExplorerVision \
+            -destination 'generic/platform=visionOS Simulator' \
+            -configuration Debug \
+            CODE_SIGNING_ALLOWED=NO \
+            COMPILER_INDEX_STORE_ENABLE=NO \
+            | tail -n 40
+
+      # Optional: run the same unit tests on the visionOS runtime to catch
+      # RealityKit behavioral differences. Uncomment once the runner image
+      # reliably includes the visionOS simulator runtime.
+      # - name: visionOS — unit tests
+      #   run: |
+      #     xcodebuild test \
+      #       -project ReliquaryExplorer.xcodeproj \
+      #       -scheme ReliquaryExplorer \
+      #       -destination 'platform=visionOS Simulator,name=Apple Vision Pro' \
+      #       CODE_SIGNING_ALLOWED=NO

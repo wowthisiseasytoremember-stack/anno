@@ -1,0 +1,70 @@
+[
+  {
+    "id": "sanctuary_santiago_cathedral",
+    "name": "Cathedral of Santiago de Compostela",
+    "latitude": 42.880599,
+    "longitude": -8.544606,
+    "radiusMeters": 60.0,
+    "associatedReliquaryId": "reliquary_silver_casket",
+    "narrations": {
+      "en": {
+        "audioFileName": "hagiography_st_james_en",
+        "transcript": "You are approaching the resting place of Saint James the Greater. The Romanesque crypt beneath the high altar houses the silver reliquary casket containing apostolic relics."
+      },
+      "es": {
+        "audioFileName": "hagiography_st_james_es",
+        "transcript": "Te acercas al lugar de descanso de Santiago el Mayor. La cripta románica bajo el altar mayor guarda la arqueta de plata con reliquias apostólicas."
+      }
+    }
+  },
+  {
+    "id": "sanctuary_torino_shroud",
+    "name": "Royal Chapel of the Holy Shroud",
+    "latitude": 45.070861,
+    "longitude": 7.685889,
+    "radiusMeters": 50.0,
+    "associatedReliquaryId": "reliquary_passion_textile",
+    "narrations": {
+      "en": {
+        "audioFileName": "hagiography_holy_shroud_en",
+        "transcript": "Entering the perimeter of the Guarini Chapel. The preservation reliquary contains the historic linen textile associated with the Passion narrative."
+      },
+      "it": {
+        "audioFileName": "hagiography_holy_shroud_it",
+        "transcript": "Stai entrando nel perimetro della Cappella della Sindone. Il reliquiario di conservazione custodisce il tessuto di lino legato alla narrazione della Passione."
+      }
+    }
+  },
+  {
+    "id": "sanctuary_christ_cathedral_garden_grove",
+    "name": "Christ Cathedral, Garden Grove",
+    "latitude": 33.783823,
+    "longitude": -117.889417,
+    "radiusMeters": 90.0,
+    "associatedReliquaryId": "reliquary_passion_cross",
+    "narrations": {
+      "en": {
+        "audioFileName": "hagiography_christ_cathedral_en",
+        "transcript": "You are entering the campus of Christ Cathedral. The glass-paneled sanctuary houses the diocesan reliquary collection and the Hazel Wright organ."
+      }
+    }
+  },
+  {
+    "id": "sanctuary_assisi_basilica",
+    "name": "Basilica of San Francesco d'Assisi",
+    "latitude": 43.070617,
+    "longitude": 12.388873,
+    "radiusMeters": 70.0,
+    "associatedReliquaryId": "reliquary_silver_casket",
+    "narrations": {
+      "en": {
+        "audioFileName": "hagiography_assisi_en",
+        "transcript": "You are approaching the burial church of Saint Francis of Assisi. The stone crypt beneath the lower basilica contains the saint's sarcophagus reliquary."
+      },
+      "it": {
+        "audioFileName": "hagiography_assisi_it",
+        "transcript": "Ti stai avvicinando alla chiesa sepolcrale di San Francesco d'Assisi. La cripta in pietra della basilica inferiore custodisce il sarcofago reliquiario del santo."
+      }
+    }
+  }
+]
