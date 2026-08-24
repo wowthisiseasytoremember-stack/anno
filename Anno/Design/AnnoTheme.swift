@@ -2,7 +2,7 @@ import SwiftUI
 
 enum AnnoTheme {
 
-    // MARK: - Colors
+    // MARK: - Core Ecclesial Colors
 
     static let narthex = Color(hex: 0x13110E)
     static let choir = Color(hex: 0x1F1B16)
@@ -16,6 +16,10 @@ enum AnnoTheme {
     static let verdigris = Color(hex: 0x3B6B52)
     static let advent = Color(hex: 0x5C3D6E)
     static let easter = Color(hex: 0xF5F0E8)
+    static let rose = Color(hex: 0xC96E7E)
+    static let candleGlow = Color(hex: 0xEDB84C)
+
+    // MARK: - Confidence Colors
 
     static func confidenceColor(_ confidence: ConfidenceLevel) -> Color {
         switch confidence {
@@ -28,6 +32,24 @@ enum AnnoTheme {
         case .contextual:
             return incense
         }
+    }
+
+    // MARK: - Liturgical Color Resolvers
+
+    static func liturgicalColor(_ type: LiturgicalColorType) -> Color {
+        type.primaryTint
+    }
+
+    static func liturgicalColor(named name: String) -> Color {
+        LiturgicalColorType.from(rawName: name).primaryTint
+    }
+
+    static func liturgicalAccent(named name: String) -> Color {
+        LiturgicalColorType.from(rawName: name).secondaryAccent
+    }
+
+    static func liturgicalGlow(named name: String) -> Color {
+        LiturgicalColorType.from(rawName: name).ambientGlowColor
     }
 
     // MARK: - Typography
@@ -82,6 +104,9 @@ enum AnnoTheme {
 
     /// Smooth spring used for card reveals and interactive transitions.
     static let cardSpring = Animation.spring(response: 0.4, dampingFraction: 0.75)
+
+    /// Tactile spring for pinch-zoom recovery and double tap toggles.
+    static let canvasSpring = Animation.spring(response: 0.35, dampingFraction: 0.8)
 }
 
 // MARK: - Color Hex Initializer
@@ -101,20 +126,22 @@ extension Color {
 // MARK: - AnnoCard View Modifier
 
 struct AnnoCard: ViewModifier {
+    var cornerRadius: CGFloat = 8
+
     func body(content: Content) -> some View {
         content
             .padding(16)
             .background(AnnoTheme.choir)
             .overlay(
-                RoundedRectangle(cornerRadius: 8)
+                RoundedRectangle(cornerRadius: cornerRadius)
                     .stroke(AnnoTheme.ash, lineWidth: 1)
             )
-            .clipShape(RoundedRectangle(cornerRadius: 8))
+            .clipShape(RoundedRectangle(cornerRadius: cornerRadius))
     }
 }
 
 extension View {
-    func annoCard() -> some View {
-        modifier(AnnoCard())
+    func annoCard(cornerRadius: CGFloat = 8) -> some View {
+        modifier(AnnoCard(cornerRadius: cornerRadius))
     }
 }

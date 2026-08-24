@@ -1,0 +1,520 @@
+{
+  "schema_version": "anno.audio_narration.v1",
+  "curated_on": "2026-08-24",
+  "description_en": "Curated high-fidelity bilingual audio narrations and sacred chants for key Catholic solemnities, feasts, and daily meditations.",
+  "description_vi": "Bộ sưu tập các bài diễn đọc âm thanh chất lượng cao song ngữ và thánh ca phụng vụ cho các đại lễ, lễ kính và suy niệm hằng ngày.",
+  "total_tracks": 12,
+  "tracks": [
+    {
+      "audio_id": "audio-2026-07-03-thomas-apostle",
+      "date": "2026-07-03",
+      "liturgical_day": "Feast of Saint Thomas, Apostle",
+      "feast_rank": "Feast",
+      "title_en": "Saint Thomas the Apostle: From Wounded Doubt to Unwavering Confession",
+      "title_vi": "Thánh Tôma Tông Đồ: Từ Nghi Ngờ Vết Thương Đến Lời Tuyên Xưng Sắt Son",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/2026-07-03-thomas.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/2026-07-03-thomas.m4a",
+      "duration_seconds": 384,
+      "narrator_name": "Rev. Benedict Marie, O.P.",
+      "narrator_name_vi": "Lm. Giuse Maria Nguyễn Văn Bình",
+      "sacred_music_background": "Gregorian Chant (Mode IV - Salve Regina & Ubi Caritas)",
+      "music_license_info": "Public Domain Liturgical Chant / Abbaye Saint-Pierre de Solesmes",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 9216000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Caravaggio_-_The_Incredulity_of_Saint_Thomas.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "Introduction & Gospel Contemplation",
+          "title_vi": "Dẫn nhập & Chiêm niệm Tin Mừng"
+        },
+        {
+          "time_seconds": 95,
+          "title_en": "The Touch of the Sacred Wounds",
+          "title_vi": "Chạm vào Thánh Tích Thương Khó"
+        },
+        {
+          "time_seconds": 210,
+          "title_en": "The Indian Mission & Martyrdom in Chennai",
+          "title_vi": "Sứ vụ tại Ấn Độ & Tử đạo tại Chennai"
+        },
+        {
+          "time_seconds": 320,
+          "title_en": "Closing Prayer for Honest Faith",
+          "title_vi": "Lời nguyện kết cho đức tin chân thật"
+        }
+      ],
+      "transcript_en": "In the Name of the Father, and of the Son, and of the Holy Spirit. Amen. Today the Church celebrates Saint Thomas, the Apostle of India, who dared to bring his wounded doubt into the presence of the Risen Christ. When the other disciples rejoiced in the upper room, Thomas demanded to touch the print of the nails and place his hand into the pierced side. Christ did not rebuke his longing for truth; rather, He offered His wounds as the very gateway to belief. In placing his fingers upon the Sacred Heart, Thomas uttered the crowning confession of the Gospels: 'My Lord and my God.' Tradition preserves that Thomas carried this unwavering light across Persia to the Malabar coast of India, founding apostolic communities before receiving the martyr's crown at Mylapore in Chennai. Let us pray: O Lord, when darkness clouds our path, grant us the courage of Saint Thomas to seek Your wounds, where alone our faith finds healing. Amen.",
+      "transcript_vi": "Nhân danh Cha và Con và Thánh Thần. Amen. Hôm nay Hội Thánh cử hành lễ kính Thánh Tôma, Vị Tông Đồ của Ấn Độ, người đã can đảm mang sự nghi ngờ trước những vết thương đến diện kiến Đức Kitô Phục Sinh. Khi các môn đệ khác hân hoan trong phòng tiệc ly, Tôma đã khao khát được xỏ ngón tay vào lỗ đinh và đặt bàn tay vào cạnh sườn Người. Đức Kitô không hề quở trách khát khao chân lý ấy, nhưng chính Người đã mở ra những vết thương thánh như cánh cửa bước vào niềm tin. Khi chạm vào Thánh Tâm Chúa, Tôma đã thốt lên lời tuyên xưng cao trọng nhất trong các sách Tin Mừng: 'Lạy Chúa của con, lạy Thiên Chúa của con.' Theo truyền thống, Thánh Tôma đã mang ánh sáng đức tin qua Ba Tư đến tận bờ biển Malabar của Ấn Độ, gầy dựng các cộng đoàn tông truyền trước khi lãnh nhận triều thiên tử đạo tại Mylapore, Chennai. Chúng ta cùng cầu nguyện: Lạy Chúa, khi bóng tối nghi ngờ vây bủa, xin ban cho chúng con lòng can đảm của Thánh Tôma để luôn tìm kiếm những vết thương Chúa, nơi duy nhất đức tin chúng con tìm thấy sự chữa lành. Amen."
+    },
+    {
+      "audio_id": "audio-2026-08-06-transfiguration",
+      "date": "2026-08-06",
+      "liturgical_day": "Feast of the Transfiguration of the Lord",
+      "feast_rank": "Feast",
+      "title_en": "The Transfiguration: The Uncreated Light of Mount Tabor",
+      "title_vi": "Lễ Chúa Hiển Dung: Ánh Sáng Thần Linh Trên Núi Tabor",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/2026-08-06-transfiguration.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/2026-08-06-transfiguration.m4a",
+      "duration_seconds": 412,
+      "narrator_name": "Sr. Catherine Agnes, O.C.D.",
+      "narrator_name_vi": "Nữ tu Maria Têrêsa Phạm Thị Lan",
+      "sacred_music_background": "Byzantine Choral Hymn (Phos Hilaron / O Gladsome Light)",
+      "music_license_info": "Public Domain Eastern Patristic Chant",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 9888000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Transfiguration_by_fra_Angelico_%28San_Marco_Cell_6%29.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "Ascending Mount Tabor",
+          "title_vi": "Lên Núi Tabor Cùng Chúa"
+        },
+        {
+          "time_seconds": 110,
+          "title_en": "Moses, Elijah, and the Voice of the Father",
+          "title_vi": "Môsê, Êlia và Tiếng Phán của Chúa Cha"
+        },
+        {
+          "time_seconds": 240,
+          "title_en": "The Cross Foretold in Glory",
+          "title_vi": "Thánh Giá Được Báo Trước Trong Vinh Quang"
+        },
+        {
+          "time_seconds": 340,
+          "title_en": "Devotional Meditation & Collect",
+          "title_vi": "Lời nguyện suy niệm & Hiệp thông"
+        }
+      ],
+      "transcript_en": "On Mount Tabor, the veil of Christ's mortal flesh became radiant with the glory of His divinity. Before the eyes of Peter, James, and John, His face shone like the sun and His garments became white as light. Standing between Moses, representing the Law, and Elijah, representing the Prophets, Jesus revealed that all of salvation history converges upon His coming Paschal sacrifice in Jerusalem. The luminous cloud of the Holy Spirit overshadowed them, and the voice of the Father proclaimed: 'This is my beloved Son, in whom I am well pleased; listen to Him.' In this sacred mystery, we are given a foretaste of the world to come and the glorious destiny prepared for redeemed humanity. Lord Jesus, unveil our eyes to see Your divine beauty amid the shadows of daily trial.",
+      "transcript_vi": "Trên đỉnh núi Tabor, bức màn phàm nhân của Đức Kitô bừng sáng với vinh quang của thần tính Người. Trước mắt Phêrô, Giacôbê và Gioan, dung nhan Người chói lọi như mặt trời và y phục Người trắng tinh như ánh sáng. Hiện diện giữa Môsê đại diện cho Lề Luật và Êlia đại diện cho các Ngôn Sứ, Chúa Giêsu mạc khải rằng toàn bộ lịch sử cứu độ đều quy tụ về cuộc hiến tế Vượt Qua tại Giêrusalem. Đám mây rực rỡ của Chúa Thánh Thần bao phủ các ông, và tiếng Chúa Cha phán: 'Đây là Con yêu dấu của Ta, Ta hài lòng về Người; hãy vâng nghe lời Người.' Trong mầu nhiệm thánh thiện này, chúng ta được nếm cảm trước thế giới mai sau và cùng đích vinh hiển dành cho nhân loại được cứu chuộc. Lạy Chúa Giêsu, xin mở mắt tâm hồn chúng con để nhận ra vẻ đẹp thần linh của Chúa giữa những thử thách hằng ngày."
+    },
+    {
+      "audio_id": "audio-2026-08-15-assumption",
+      "date": "2026-08-15",
+      "liturgical_day": "Solemnity of the Assumption of the Blessed Virgin Mary",
+      "feast_rank": "Solemnity",
+      "title_en": "Solemnity of the Assumption: The Ark of the New Covenant in Heaven",
+      "title_vi": "Đại Lễ Đức Mẹ Hồn Xác Lên Trời: Hòm Bia Giao Ước Mới Trên Thiên Quốc",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/2026-08-15-assumption.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/2026-08-15-assumption.m4a",
+      "duration_seconds": 450,
+      "narrator_name": "Rev. Benedict Marie, O.P.",
+      "narrator_name_vi": "Lm. Giuse Maria Nguyễn Văn Bình",
+      "sacred_music_background": "Renaissance Polyphony - Tomás Luis de Victoria (Assumpta est Maria)",
+      "music_license_info": "Public Domain Sacred Polyphony",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 10800000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Titian_-_Assumption_of_the_Virgin_%28Santa_Maria_Gloriosa_dei_Frari%2C_Venice%29.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "The Dogma of Munificentissimus Deus",
+          "title_vi": "Tín điều Thông điệp Munificentissimus Deus"
+        },
+        {
+          "time_seconds": 130,
+          "title_en": "Mary, the True Ark of the Covenant",
+          "title_vi": "Mẹ Maria - Hòm Bia Đích Thực của Giao Ước"
+        },
+        {
+          "time_seconds": 260,
+          "title_en": "Sign of Sure Hope and Solace",
+          "title_vi": "Dấu Chỉ Hy Vọng Chắc Chắn và Ủi An"
+        },
+        {
+          "time_seconds": 380,
+          "title_en": "Magnificat & Marian Consecration",
+          "title_vi": "Kinh Linh Hồn Tôi (Magnificat) & Dâng Mình Cho Mẹ"
+        }
+      ],
+      "transcript_en": "Today the Church throughout the world lifts her gaze to the heavens, rejoicing in the bodily Assumption of the Blessed Virgin Mary into eternal glory. Having preserved her body immune from all corruption of sin as the Immaculate Mother of God, Christ would not suffer the flesh that gave Him flesh to undergo decay in the tomb. In Mary's Assumption, the promises of Christ's Resurrection reach their first full blooming in a human creature. She stands as the sign of sure hope and comfort to the pilgrim People of God on earth. As Saint John beheld the Ark of the Covenant in heaven surrounded by stars, so we look to our Queen and Mother, asking her intercession for our own passage from earthly exile to heavenly homeland. O Mary, conceived without sin, assumed into heaven, pray for us who have recourse to thee.",
+      "transcript_vi": "Hôm nay toàn thể Hội Thánh hướng lòng lên thiên quốc, hân hoan mừng kính mầu nhiệm Đức Trinh Nữ Maria được cất nhắc cả hồn lẫn xác vào vinh quang vĩnh cửu. Vì đã gìn giữ cung lòng Mẹ vẹn toàn khỏi mọi vết nhơ tội lỗi để trở thành Mẹ Thiên Chúa, Đức Kitô đã không để cung lòng đã cưu mang Người phải chịu sự hư nát nơi phần mộ. Nơi biến cố Đức Mẹ Lên Trời, lời hứa Phục Sinh của Đức Kitô đã trổ sinh hoa trái trọn vẹn đầu tiên nơi một thụ tạo nhân loại. Mẹ tỏa sáng như dấu chỉ hy vọng vững chắc và niềm an ủi cho dân Chúa đang lữ hành nơi trần thế. Như Thánh Gioan đã chiêm ngắm Hòm Bia Giao Ước trên trời rực rỡ giữa muôn vì sao, chúng ta ngước nhìn lên Nữ Vương và là Mẹ chúng ta, xin Mẹ cầu bầu cho chúng ta trên đường vượt qua chốn khách đày về quê trời vinh phúc. Lạy Mẹ Maria vô nhiễm nguyên tội, hồn xác lên trời, xin cầu cho chúng con là kẻ chạy đến cùng Mẹ."
+    },
+    {
+      "audio_id": "audio-2026-08-22-queenship-mary",
+      "date": "2026-08-22",
+      "liturgical_day": "Memorial of the Queenship of the Blessed Virgin Mary",
+      "feast_rank": "Memorial",
+      "title_en": "Queenship of Mary: The Mother of the King of Kings",
+      "title_vi": "Lễ Đức Maria Trinh Nữ Vương: Mẹ của Vua Muôn Vua",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/2026-08-22-queenship-mary.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/2026-08-22-queenship-mary.m4a",
+      "duration_seconds": 360,
+      "narrator_name": "Sr. Catherine Agnes, O.C.D.",
+      "narrator_name_vi": "Nữ tu Maria Têrêsa Phạm Thị Lan",
+      "sacred_music_background": "Gregorian Chant (Ave Regina Caelorum / Solemn Tone)",
+      "music_license_info": "Public Domain Marian Antiphon",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 8640000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gentile_da_Fabriano_-_Coronation_of_the_Virgin.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "The Queen Mother in Davidic Tradition",
+          "title_vi": "Đức Thái Hậu trong truyền thống David"
+        },
+        {
+          "time_seconds": 120,
+          "title_en": "Ad Caeli Reginam and Mary's Royal Dignity",
+          "title_vi": "Thông điệp Ad Caeli Reginam và Tước Vị Vương Quyền"
+        },
+        {
+          "time_seconds": 240,
+          "title_en": "Prayer of Filial Entrustment",
+          "title_vi": "Kinh dâng hiến tâm tình thảo hiếu"
+        }
+      ],
+      "transcript_en": "Eight days after celebrating her Assumption, the Church honors the Blessed Virgin Mary under her title of Queen of Heaven and Earth. In the ancient Davidic kingdom, the queen was not the king's wife, but the *Gebirah*—the Queen Mother—who sat at the king's right hand to intercede for the people. Mary's queenship does not rival Christ's kingship; it flows entirely from it. Crowned with twelve stars, she exercises a royal power made entirely of maternal love, distributing the graces won by her Son on Calvary. We take refuge under her royal mantle, confident that no child of hers is ever abandoned.",
+      "transcript_vi": "Tám ngày sau khi mừng lễ Mẹ Lên Trời, Hội Thánh tôn kính Đức Trinh Nữ Maria dưới tước hiệu Nữ Vương Thiên Đàng và Trái Đất. Trong vương triều David cổ xưa, vị hoàng hậu quyền uy không phải là vợ vua, mà là *Gebirah*—Đức Thái Hậu—ngồi bên hữu nhà vua để lắng nghe và chuyển cầu nguyện vọng của muôn dân. Tước vị Vương Quyền của Mẹ Maria không hề cạnh tranh với Vương Quyền Chúa Kitô, nhưng hoàn toàn phát xuất từ chính Người. Được đội triều thiên mười hai ngôi sao, Mẹ thực thi quyền năng mẫu tử tràn đầy yêu thương để trao ban muôn ơn lành mà Con Mẹ đã lập trên đồi Canvê. Chúng ta hãy ẩn mình dưới tà áo chở che của Nữ Vương Mẹ, tin tưởng vững chắc rằng không người con nào của Mẹ bị bỏ rơi."
+    },
+    {
+      "audio_id": "audio-2026-09-29-archangels",
+      "date": "2026-09-29",
+      "liturgical_day": "Feast of Saints Michael, Gabriel, and Raphael, Archangels",
+      "feast_rank": "Feast",
+      "title_en": "The Holy Archangels: Defenders, Messengers, and Healers of God",
+      "title_vi": "Các Tổng Lãnh Thiên Thần: Đấng Bảo Vệ, Sứ Giả và Lương Y Của Thiên Chúa",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/2026-09-29-archangels.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/2026-09-29-archangels.m4a",
+      "duration_seconds": 395,
+      "narrator_name": "Rev. Benedict Marie, O.P.",
+      "narrator_name_vi": "Lm. Giuse Maria Nguyễn Văn Bình",
+      "sacred_music_background": "Choral Hymn - Tibi Christe Splendor Patris (Gregorian Chant)",
+      "music_license_info": "Public Domain Archangel Liturgical Chant",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 9480000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Guido_Reni_-_Saint_Michael.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "The Angelic Hierarchy & Divine Providence",
+          "title_vi": "Phẩm trật Thiên Thần & Sự Quan Phòng Thần Linh"
+        },
+        {
+          "time_seconds": 90,
+          "title_en": "Saint Michael: Who is Like God?",
+          "title_vi": "Thánh Micae: Ai Bằng Thiên Chúa?"
+        },
+        {
+          "time_seconds": 180,
+          "title_en": "Saint Gabriel & Saint Raphael: Grace and Healing",
+          "title_vi": "Thánh Gabriel & Raphael: Ân Sủng và Sự Chữa Lành"
+        },
+        {
+          "time_seconds": 295,
+          "title_en": "Saint Michael Prayer & Invocation",
+          "title_vi": "Kinh Cầu Tổng Lãnh Thiên Thần Micae"
+        }
+      ],
+      "transcript_en": "Today we honor the three great Archangels named in Sacred Scripture: Michael, Gabriel, and Raphael. Michael, whose name resounds as a battle cry of humility—'Who is like God?'—casts down the ancient dragon and protects the Church in spiritual combat. Gabriel, the strength of God, bore the supreme announcement of the Incarnation to Nazareth. Raphael, the medicine of God, guided Tobias on his dangerous pilgrimage and restored sight to the blind. In these heavenly ministers, God surrounds our frail lives with celestial guardians who worship before His throne and hasten to our assistance. Saint Michael the Archangel, defend us in battle; be our protection against the wickedness and snares of the devil.",
+      "transcript_vi": "Hôm nay chúng ta tôn kính ba vị Tổng Lãnh Thiên Thần được xướng danh trong Kinh Thánh: Micae, Gabriel và Raphael. Micae, với danh xưng vang dội như lời hiệu triệu của sự khiêm nhường—'Ai bằng Thiên Chúa?'—đã đạp tan mưu chước con rồng cổ xưa và bảo vệ Hội Thánh trong các trận chiến thiêng liêng. Gabriel, sức mạnh của Thiên Chúa, là sứ giả mang Tin Mừng trọng đại về mầu nhiệm Nhập Thể đến làng Nazareth. Raphael, lương y của Thiên Chúa, đã dẫn đường cho Tobia trong hành trình gian khó và đem lại ánh sáng cho người mù lòa. Qua các thiên sứ thiên quốc này, Thiên Chúa luôn bao bọc cuộc đời yếu đuối của chúng ta bằng những đấng gìn giữ trung kiên, những đấng không ngừng tôn thờ trước ngai tòa Chúa và mau mắn đến nâng đỡ chúng ta. Lạy Tổng Lãnh Thiên Thần Micae, xin bảo vệ chúng con trong cơn giao chiến."
+    },
+    {
+      "audio_id": "audio-2026-11-01-all-saints",
+      "date": "2026-11-01",
+      "liturgical_day": "Solemnity of All Saints",
+      "feast_rank": "Solemnity",
+      "title_en": "Solemnity of All Saints: The Countless Multitude in White Robes",
+      "title_vi": "Đại Lễ Các Thánh Nam Nữ: Đoàn Người Đông Đảo Mặc Áo Trắng Tinh",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/2026-11-01-all-saints.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/2026-11-01-all-saints.m4a",
+      "duration_seconds": 435,
+      "narrator_name": "Rev. Benedict Marie, O.P.",
+      "narrator_name_vi": "Lm. Giuse Maria Nguyễn Văn Bình",
+      "sacred_music_background": "Sacred Polyphony - William Byrd (Justorum Animae)",
+      "music_license_info": "Public Domain Renaissance Polyphony",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 10440000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Fra_Angelico_-_The_Court_of_Heaven_-_National_Gallery.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "The Heavenly Liturgy in the Apocalypse",
+          "title_vi": "Phụng Vụ Thiên Quốc trong sách Khải Huyền"
+        },
+        {
+          "time_seconds": 120,
+          "title_en": "The Beatitudes as the Map to Sanctity",
+          "title_vi": "Tám Mối Phúc Thật - Bản Đồ Dẫn Đến Sự Thánh Thiện"
+        },
+        {
+          "time_seconds": 250,
+          "title_en": "The Universal Call to Holiness",
+          "title_vi": "Lời Kêu Gọi Toàn Dân Nên Thánh"
+        },
+        {
+          "time_seconds": 350,
+          "title_en": "Litany of the Saints & Blessing",
+          "title_vi": "Kinh Cầu Các Thánh & Phép Lành"
+        }
+      ],
+      "transcript_en": "On this glorious solemnity, Holy Mother Church invites us to look beyond the veil of time toward the heavenly Jerusalem. Saint John saw a great multitude which no man could number, from every nation, race, people, and tongue, standing before the Throne of the Lamb clad in white robes and holding palm branches. Today we honor not only the canonized saints whose names adorn the Roman Martyrology, but the hidden multitudes—our grandmothers, faithful laborers, silent martyrs, and humble souls who fought the good fight and washed their robes in the Blood of the Lamb. Sanctity is not the privilege of a chosen few, but the universal vocation of every baptized Christian. Let us lift our hearts and resolve anew to walk the path of the Beatitudes.",
+      "transcript_vi": "Trong đại lễ chan hòa ánh sáng hôm nay, Mẹ Hội Thánh mời gọi chúng ta hướng nhìn vượt qua bức màn thời gian về Giêrusalem thiên quốc. Thánh Gioan đã chiêm ngắm một đoàn người đông đảo không ai đếm xuể, thuộc mọi quốc gia, sắc tộc, dân tộc và ngôn ngữ, đứng trước Ngai Tòa Con Chiên trong y phục trắng tinh và tay cầm nhành lá vạn tuế. Hôm nay chúng ta tôn vinh không chỉ những vị thánh được ghi danh trong Sổ Tử Đạo Rôma, mà còn cả muôn vàn vị thánh âm thầm—những người bà, người mẹ hiền hậu, những người lao động trung kiên, những vị tử đạo thầm lặng đã chiến đấu kiên cường và giặt trắng áo mình trong Máu Con Chiên. Sự thánh thiện không phải là đặc ân của một số ít người, mà là ơn gọi phổ quát của mọi tín hữu đã lãnh nhận bí tích Rửa Tội. Chúng ta hãy nâng tâm hồn lên và quyết tâm dấn bước theo con đường Tám Mối Phúc Thật."
+    },
+    {
+      "audio_id": "audio-2026-11-24-vietnamese-martyrs",
+      "date": "2026-11-24",
+      "liturgical_day": "Memorial of Saint Andrew Dũng-Lạc and Companions, Martyrs",
+      "feast_rank": "Memorial",
+      "title_en": "Saint Andrew Dũng-Lạc & the 117 Vietnamese Martyrs: Blood of Faith on Red Soil",
+      "title_vi": "Các Thánh Tử Đạo Việt Nam: Máu Đức Tin Thấm Nhuần Đất Mẹ",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/2026-11-24-vietnamese-martyrs.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/2026-11-24-vietnamese-martyrs.m4a",
+      "duration_seconds": 465,
+      "narrator_name": "Rev. Benedict Marie, O.P.",
+      "narrator_name_vi": "Lm. Giuse Maria Nguyễn Văn Bình",
+      "sacred_music_background": "Vietnamese Sacred Hymn & Gregorian Choral Blend (Kinh Các Thánh Tử Đạo)",
+      "music_license_info": "Archdiocese of Saigon / Public Domain Liturgical Hymnal",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 11160000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Vietnamese_Martyrs_Icon.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "The Great Waves of Persecution (17th–19th Century)",
+          "title_vi": "Những Làn Sóng Bắt Đạo Gian Khổ (Thế kỷ 17–19)"
+        },
+        {
+          "time_seconds": 135,
+          "title_en": "Saint Andrew Dũng-Lạc: Priest and Prisoner of Christ",
+          "title_vi": "Thánh Anrê Dũng-Lạc: Linh Mục và Tù Nhân của Đức Kitô"
+        },
+        {
+          "time_seconds": 270,
+          "title_en": "Laity, Bishops, and Mothers of Faith",
+          "title_vi": "Giáo Dân, Giám Mục và Những Người Mẹ Đức Tin"
+        },
+        {
+          "time_seconds": 380,
+          "title_en": "Solemn Supplication for the Church in Vietnam",
+          "title_vi": "Lời Nguyện Trọng Thể Cho Giáo Hội Việt Nam"
+        }
+      ],
+      "transcript_en": "Between the seventeenth and nineteenth centuries, over one hundred and thirty thousand Vietnamese Christians gave their lives for the Faith under the Trịnh, Nguyễn, Tây Sơn, and Nguyễn dynasties. Pope Saint John Paul II canonized 117 representative martyrs on June 19, 1988—including 96 Vietnamese (priests, soldiers, catechists, farmers, and a mother of six), 11 Spanish Dominicans, and 10 French missionaries from Paris Foreign Missions. Father Andrew Dũng-Lạc, when imprisoned, wrote: 'The prison is my palace; here I learn the science of the Cross.' They refused to step on the Crucifix, choosing death rather than betray the Master who loved them to the end. The blood of these holy martyrs remains the rich seed of the Church across Vietnam and the global diaspora.",
+      "transcript_vi": "Từ thế kỷ 17 đến thế kỷ 19, hơn một trăm ba mươi ngàn Kitô hữu Việt Nam đã anh dũng hy sinh mạng sống vì Đức Tin dưới các triều đại Trịnh, Nguyễn, Tây Sơn và nhà Nguyễn. Thánh Giáo hoàng Gioan Phaolô II đã tuyên hiển thánh cho 117 vị tử đạo đại diện vào ngày 19 tháng 6 năm 1988—bao gồm 96 vị người Việt (các linh mục, binh lính, thầy giảng, nông dân và một người mẹ sáu con), cùng 11 vị thừa sai Đa Minh Tây Ban Nha và 10 vị thừa sai Hội Thừa Sai Paris. Khi bị giam cầm, Cha Anrê Dũng-Lạc đã viết: 'Nhà tù là cung điện của tôi; nơi đây tôi học biết sự khôn ngoan của Thánh Giá.' Các ngài kiên quyết không bước qua Thánh Giá, thà chịu chết chứ không phản bội Thầy Chí Thánh đã yêu thương các ngài cho đến cùng. Máu của các Thánh Tử Đạo chính là hạt giống trổ sinh muôn hoa trái đức tin rạng ngời cho Giáo Hội tại quê hương Việt Nam và khắp nơi trên thế giới."
+    },
+    {
+      "audio_id": "audio-2026-12-08-immaculate-conception",
+      "date": "2026-12-08",
+      "liturgical_day": "Solemnity of the Immaculate Conception of the Blessed Virgin Mary",
+      "feast_rank": "Solemnity",
+      "title_en": "Immaculate Conception: Preserved by Grace from the First Dawn",
+      "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội: Rực Rỡ Ân Sủng Từ Giây Phút Đầu Tiên",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/2026-12-08-immaculate-conception.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/2026-12-08-immaculate-conception.m4a",
+      "duration_seconds": 420,
+      "narrator_name": "Sr. Catherine Agnes, O.C.D.",
+      "narrator_name_vi": "Nữ tu Maria Têrêsa Phạm Thị Lan",
+      "sacred_music_background": "Sacred Choral - Giovanni Pierluigi da Palestrina (Tota Pulchra Es)",
+      "music_license_info": "Public Domain Renaissance Polyphony",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 10080000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Bartolom%C3%A9_Esteban_Murillo_-_The_Immaculate_Conception_of_Los_Venerables_-_Prado.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "The Dogma of Ineffabilis Deus",
+          "title_vi": "Tín Điều Sắc Lệnh Ineffabilis Deus"
+        },
+        {
+          "time_seconds": 115,
+          "title_en": "Tota Pulchra Es: All Beautiful Art Thou",
+          "title_vi": "Tota Pulchra Es: Mẹ Hoàn Toàn Xinh Đẹp"
+        },
+        {
+          "time_seconds": 230,
+          "title_en": "The Anticipated Merits of Christ's Cross",
+          "title_vi": "Công Nghiệp Đoán Trước Của Thánh Giá Đức Kitô"
+        },
+        {
+          "time_seconds": 335,
+          "title_en": "Prayer for Purity of Heart",
+          "title_vi": "Lời Nguyện Xin Tâm Hồn Trong Sạch"
+        }
+      ],
+      "transcript_en": "By a singular grace and privilege of Almighty God, and in view of the anticipated merits of Jesus Christ the Savior of the human race, the Blessed Virgin Mary was preserved free from all stain of original sin from the first instant of her conception. Pope Blessed Pius IX proclaimed this solemn dogma in 1854, affirming what the Church had contemplated for centuries: that the dwelling place of the Living God must be wholly immaculate. As the Archangel Gabriel greeted her, 'Hail, full of grace, the Lord is with thee,' Mary stands before the human family as the dawn before the Sun of Justice. Through her prayers, may our souls be cleansed and prepared for the coming of Christ our Lord.",
+      "transcript_vi": "Nhờ một ân sủng và đặc ân duy nhất của Thiên Chúa Toàn Năng, và nhìn trước công nghiệp cứu chuộc của Đức Giêsu Kitô Đấng Cứu Độ nhân loại, Đức Trinh Nữ Maria đã được gìn giữ tinh tuyền khỏi mọi vết nhơ của tội nguyên tổ ngay từ giây phút đầu tiên thụ thai. Đức Chân phước Giáo hoàng Piô IX đã long trọng công bố tín điều này vào năm 1854, xác quyết điều mà Hội Thánh đã chiêm ngắm qua muôn thế kỷ: nơi cư ngụ của Thiên Chúa Hằng Sống phải hoàn toàn thánh thiện tinh tuyền. Như Sứ thần Gabriel đã chào Mẹ: 'Kính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà,' Mẹ Maria đứng trước nhân loại như ánh rạng đông báo trước Mặt Trời Công Chính. Nhờ lời cầu bầu của Mẹ, xin cho tâm hồn chúng con được thanh tẩy và dọn sẵn để đón rước Chúa Kitô đến viếng thăm."
+    },
+    {
+      "audio_id": "audio-2026-12-25-nativity",
+      "date": "2026-12-25",
+      "liturgical_day": "Solemnity of the Nativity of the Lord (Christmas)",
+      "feast_rank": "Solemnity",
+      "title_en": "The Nativity of the Lord: The Word Made Flesh in Bethlehem",
+      "title_vi": "Đại Lễ Giáng Sinh: Ngôi Lời Đã Hóa Thành Nhục Thể Tại Bêlem",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/2026-12-25-nativity.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/2026-12-25-nativity.m4a",
+      "duration_seconds": 480,
+      "narrator_name": "Rev. Benedict Marie, O.P.",
+      "narrator_name_vi": "Lm. Giuse Maria Nguyễn Văn Bình",
+      "sacred_music_background": "Gregorian Chant & Polyphony - Puer Natus Est Nobis & Victoria O Magnum Mysterium",
+      "music_license_info": "Public Domain Christmas Sacred Polyphony",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 11520000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Correggio_-_Adoration_of_the_Shepherds_%28Holy_Night%29_-_Google_Art_Project.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "Proclamation of the Roman Martyrology (Kalenda)",
+          "title_vi": "Công Bố Sách Tử Đạo Rôma (Kalenda Giáng Sinh)"
+        },
+        {
+          "time_seconds": 150,
+          "title_en": "The Manger in the House of Bread",
+          "title_vi": "Máng Cỏ Nơi Ngôi Nhà Bánh (Bêlem)"
+        },
+        {
+          "time_seconds": 290,
+          "title_en": "O Magnum Mysterium: The Mystery of Divine Humility",
+          "title_vi": "O Magnum Mysterium: Mầu Nhiệm Khiêm Hạ Thần Linh"
+        },
+        {
+          "time_seconds": 400,
+          "title_en": "Gloria in Excelsis Deo & Christmas Blessing",
+          "title_vi": "Kinh Vinh Danh & Phép Lành Đêm Thánh"
+        }
+      ],
+      "transcript_en": "Today the eternal silence of the ages is broken by the gentle cry of a newborn Child in Bethlehem. The Word who spoke the galaxies into being has taken a human body, nestled in the arms of the Virgin Mary and laid in a feeding trough for beasts. Bethlehem, meaning 'House of Bread,' receives the true Bread come down from heaven. In this sacred exchange—the *Admirabile Commercium*—God assumes our human fragility so that we might become partakers of His divine nature. Let the heavens rejoice and let the earth be glad, for the Savior of the world is born unto us today. Glory to God in the highest, and on earth peace to people of good will.",
+      "transcript_vi": "Hôm nay, sự thinh lặng ngàn đời đã vỡ òa bởi tiếng khóc êm dịu của Hài Nhi mới sinh tại Bêlem. Ngôi Lời, Đấng đã phán một lời để dựng nên muôn vàn tinh tú, nay đã mặc lấy thân xác loài người, nép mình trong vòng tay Đức Mẹ và nằm trong máng cỏ của súc vật. Bêlem, có nghĩa là 'Nhà Bánh', đã đón nhận chính Tấm Bánh Hằng Sống đích thực từ trời xuống. Trong sự trao đổi kỳ diệu này—*Admirabile Commercium*—Thiên Chúa đã đảm nhận sự yếu hèn của phận người chúng ta để nâng chúng ta lên đồng dự phần vào bản tính thần linh của Người. Trời hãy reo mừng và đất hãy nhảy múa, vì Đấng Cứu Độ muôn dân đã sinh ra cho chúng ta hôm nay. Vinh danh Thiên Chúa trên trời, bình an dưới thế cho người thiện tâm."
+    },
+    {
+      "audio_id": "audio-easter-resurrection",
+      "date": null,
+      "liturgical_day": "Solemnity of the Resurrection of the Lord (Easter Sunday)",
+      "feast_rank": "Solemnity of Solemnities",
+      "title_en": "Easter Sunday: Christ is Risen, Death is Swallowed in Victory",
+      "title_vi": "Đại Lễ Phục Sinh: Đức Kitô Đã Sống Lại, Sự Chết Bị Đập Tan Trong Chiến Thắng",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/easter-resurrection.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/easter-resurrection.m4a",
+      "duration_seconds": 510,
+      "narrator_name": "Rev. Benedict Marie, O.P.",
+      "narrator_name_vi": "Lm. Giuse Maria Nguyễn Văn Bình",
+      "sacred_music_background": "Victimae Paschali Laudes & Gregorian Alleluia (Pascha Nostrum)",
+      "music_license_info": "Public Domain Easter Sequence & Chant",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 12240000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Piero_della_Francesca_046.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "Victimae Paschali Laudes: The Sequence of Easter",
+          "title_vi": "Ca Tiếp Liên Phục Sinh (Victimae Paschali Laudes)"
+        },
+        {
+          "time_seconds": 160,
+          "title_en": "The Empty Tomb and the Angelic Announcement",
+          "title_vi": "Ngôi Mộ Trống và Sứ Điệp Thiên Thần"
+        },
+        {
+          "time_seconds": 310,
+          "title_en": "Victory Over Death and Cosmic Renewal",
+          "title_vi": "Chiến Thắng Sự Chết và Canh Tân Vũ Trụ"
+        },
+        {
+          "time_seconds": 430,
+          "title_en": "The Triple Alleluia and Easter Collect",
+          "title_vi": "Ba Lần Halleluia và Lời Nguyện Phục Sinh"
+        }
+      ],
+      "transcript_en": "Alleluia! Christ is risen! He is truly risen, Alleluia! This is the day the Lord has made; let us rejoice and be glad in it. The tomb is empty; the stone has been rolled away; the shroud and napkin lie in silent witness that death could not hold the Lord of Life. In His glorious Resurrection, Christ has shattered the gates of hell, healed the ancient wound of Adam, and opened wide the doors of paradise. Death has no more dominion over Him, and because He lives, we too shall live. Let every tear be wiped away, for light has conquered darkness, love has conquered hatred, and eternal life has conquered the grave. Surrexit Christus, spes mea!",
+      "transcript_vi": "Halleluia! Đức Kitô đã sống lại! Người thực sự đã sống lại, Halleluia! Đây là ngày Chúa đã dựng nên; chúng ta hãy vui mừng và hân hoan trong ngày đó. Ngôi mộ đã trống; tảng đá đã được lăn ra; khăn liệm và khăn che đầu nằm đó làm chứng nhân thinh lặng rằng sự chết không thể giam giữ được Chúa Tể Sự Sống. Trong sự Phục Sinh vinh hiển của Người, Đức Kitô đã phá tan xiềng xích hỏa ngục, chữa lành vết thương cổ xưa của Adam và mở rộng cánh cửa thiên đàng. Sự chết không còn quyền lực gì trên Người nữa, và vì Người hằng sống, chúng ta cũng sẽ được sống. Hãy lau khô mọi giọt lệ, vì ánh sáng đã toàn thắng bóng đêm, tình yêu đã toàn thắng hận thù, và sự sống đời đời đã chiến thắng nấm mồ. Surrexit Christus, spes mea!"
+    },
+    {
+      "audio_id": "audio-annunciation-march-25",
+      "date": null,
+      "liturgical_day": "Solemnity of the Annunciation of the Lord (March 25)",
+      "feast_rank": "Solemnity",
+      "title_en": "The Annunciation: The Fiat that Changed Human History",
+      "title_vi": "Đại Lễ Truyền Tin: Lời Xin Vâng (Fiat) Làm Biến Đổi Lịch Sử Nhân Loại",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/annunciation.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/annunciation.m4a",
+      "duration_seconds": 375,
+      "narrator_name": "Sr. Catherine Agnes, O.C.D.",
+      "narrator_name_vi": "Nữ tu Maria Têrêsa Phạm Thị Lan",
+      "sacred_music_background": "Gregorian Chant - Angelus Domini & Missa de Angelis",
+      "music_license_info": "Public Domain Annunciation Liturgy",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 9000000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Angelico_-_Annunciation_-_San_Marco_north_corridor.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "The Encounter in Nazareth",
+          "title_vi": "Cuộc Gặp Gỡ Tại Làng Nazareth"
+        },
+        {
+          "time_seconds": 120,
+          "title_en": "The Fiat of the Blessed Virgin",
+          "title_vi": "Lời Xin Vâng (Fiat) Của Đức Trinh Nữ"
+        },
+        {
+          "time_seconds": 240,
+          "title_en": "The Incarnation: Verbum Caro Factum Est",
+          "title_vi": "Mầu Nhiệm Nhập Thể: Verbum Caro Factum Est"
+        },
+        {
+          "time_seconds": 320,
+          "title_en": "The Angelus Prayer",
+          "title_vi": "Kinh Truyền Tin (Angelus)"
+        }
+      ],
+      "transcript_en": "In the humble cottage of Nazareth, the hinge of human history turned upon the free consent of a young Jewish maiden. Archangel Gabriel bowed before Mary with the words: 'Hail, full of grace, the Lord is with thee.' All heaven and earth held their breath awaiting her response. With absolute trust and unshakeable humility, Mary answered: 'Ecce ancilla Domini; fiat mihi secundum verbum tuum'—'Behold the handmaid of the Lord; be it done unto me according to thy word.' At that singular moment, the Holy Spirit overshadowed her, and the Word became Flesh in her immaculate womb. Through Mary's obedience, the knot of Eve's disobedience was loosed. Let us honor this profound mystery with the prayer of the Angelus.",
+      "transcript_vi": "Trong ngôi nhà đơn sơ tại làng Nazareth, bản lề của lịch sử nhân loại đã xoay chuyển nhờ lời ưng thuận tự do của một thiếu nữ Do Thái khiêm nhu. Tổng Lãnh Thiên Thần Gabriel cung kính chào Mẹ Maria: 'Kính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà.' Cả trời đất như nín thở chờ đợi lời đáp từ của Mẹ. Với niềm phó thác tuyệt đối và sự khiêm nhường sắt son, Mẹ Maria thưa: 'Này tôi là tôi tớ Chúa, tôi xin vâng như lời Sứ thần truyền.' Ngay trong giây phút thánh thiện ấy, Chúa Thánh Thần đã rợp bóng trên Mẹ, và Ngôi Lời đã hóa thành Nhục Thể trong cung lòng vô nhiễm của Mẹ. Nhờ sự vâng phục của Mẹ Maria, nút thắt bất phục tùng của bà Eva xưa đã được cởi mở. Chúng ta cùng sốt sắng đọc Kinh Truyền Tin để tôn kính mầu nhiệm cao trọng này."
+    },
+    {
+      "audio_id": "audio-sacred-heart-jesus",
+      "date": null,
+      "liturgical_day": "Solemnity of the Most Sacred Heart of Jesus",
+      "feast_rank": "Solemnity",
+      "title_en": "The Most Sacred Heart: The Ocean of Infinite Divine Love",
+      "title_vi": "Đại Lễ Thánh Tâm Chúa Giêsu: Đại Dương Tình Yêu Vô Tận Của Thiên Chúa",
+      "audio_url_en": "https://cdn.annoapp.com/audio/en/sacred-heart.m4a",
+      "audio_url_vi": "https://cdn.annoapp.com/audio/vi/sacred-heart.m4a",
+      "duration_seconds": 440,
+      "narrator_name": "Rev. Benedict Marie, O.P.",
+      "narrator_name_vi": "Lm. Giuse Maria Nguyễn Văn Bình",
+      "sacred_music_background": "Sacred Choral - Cor Meum & Gregorian Chant (Cogitationes Cordis Eius)",
+      "music_license_info": "Public Domain Sacred Heart Liturgy",
+      "audio_format": "audio/mp4; codecs=mp4a.40.2",
+      "bitrate_kbps": 192,
+      "file_size_bytes": 10560000,
+      "artwork_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Sacred_Heart_Batoni.jpg",
+      "cue_points": [
+        {
+          "time_seconds": 0,
+          "title_en": "The Pierced Heart on Calvary",
+          "title_vi": "Trái Tim Bị Đâm Thâu Trên Đồi Canvê"
+        },
+        {
+          "time_seconds": 140,
+          "title_en": "Apparitions to Saint Margaret Mary Alacoque",
+          "title_vi": "Các Cuộc Hiện Ra Với Thánh Nữ Margarita Maria Alacoque"
+        },
+        {
+          "time_seconds": 270,
+          "title_en": "Reparation and the Burning Furnace of Charity",
+          "title_vi": "Sự Đền Tạ và Lò Lửa Bừng Cháy Tình Yêu"
+        },
+        {
+          "time_seconds": 370,
+          "title_en": "Act of Consecration to the Sacred Heart",
+          "title_vi": "Kinh Dâng Mình Cho Thánh Tâm Chúa"
+        }
+      ],
+      "transcript_en": "When the soldier's lance pierced the side of the crucified Lord, blood and water poured forth—the birth of the Church from the wounded Heart of Christ. In the seventeenth century at Paray-le-Monial, Jesus revealed His burning Heart crowned with thorns and aflame with charity to Saint Margaret Mary Alacoque, lamenting: 'Behold the Heart that has so loved men, and is so little loved in return.' The devotion to the Sacred Heart is not a sentimental exercise, but the very core of the Gospel: God is love. In this wounded Heart, all who are burdened and weary find their everlasting rest. Most Sacred Heart of Jesus, have mercy on us; make our hearts like unto Thine.",
+      "transcript_vi": "Khi ngọn giáo của người lính đâm thâu cạnh sườn Chúa trên thập giá, máu cùng nước đã tuôn trào—khởi nguồn khai sinh Hội Thánh từ Trái Tim bị đâm thâu của Đức Kitô. Vào thế kỷ 17 tại Paray-le-Monial, Chúa Giêsu đã mạc khải Trái Tim Người rực cháy lửa mến và đội vòng gai cho Thánh nữ Margarita Maria Alacoque, với lời tha thiết: 'Hãy nhìn xem Trái Tim đã yêu thương loài người dường ấy, mà chỉ nhận lại sự thờ ơ và bội bạc.' Lòng sùng kính Thánh Tâm Chúa không phải là một cảm xúc hời hợt, nhưng là chính cốt lõi của Tin Mừng: Thiên Chúa là Tình Yêu. Nơi Trái Tim bị thương tổn này, tất cả những ai đang vất vả và mang gánh nặng nề đều tìm thấy sự nâng đỡ và nghỉ ngơi muôn đời. Lạy Thánh Tâm Chúa Giêsu, xin thương xót chúng con; xin uốn nắn lòng chúng con nên giống Thánh Tâm Chúa."
+    }
+  ]
+}

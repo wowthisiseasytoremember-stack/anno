@@ -1,0 +1,2215 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-24T03:40:35.750434Z",
+  "supported_propers": {
+    "general_roman": {
+      "code": "general_roman",
+      "name_en": "General Roman Calendar (Ordinary Form)",
+      "name_vi": "Lịch Chung Rôma (Nghi Thức Thông Thường)",
+      "governing_body": "Dicastery for Divine Worship and the Discipline of the Sacraments",
+      "moveable_feasts_transfers": "None (Thursday Ascension, Thursday Corpus Christi)"
+    },
+    "usccb": {
+      "code": "usccb",
+      "name_en": "United States Conference of Catholic Bishops (US Proper)",
+      "name_vi": "Lịch Phụng Vụ Hội Đồng Giám Mục Hoa Kỳ",
+      "governing_body": "USCCB Secretariat of Divine Worship",
+      "moveable_feasts_transfers": "Ascension & Corpus Christi transferred to Sunday in most dioceses"
+    },
+    "hdgmvn": {
+      "code": "hdgmvn",
+      "name_en": "Catholic Bishops' Conference of Vietnam (HDGMVN Proper)",
+      "name_vi": "Lịch Phụng Vụ Hội Đồng Giám Mục Việt Nam",
+      "governing_body": "Ủy Ban Phụng Tự — Hội Đồng Giám Mục Việt Nam",
+      "moveable_feasts_transfers": "Ascension & Corpus Christi transferred to Sunday; Solemnity of Vietnamese Martyrs on Nov 24"
+    },
+    "extraordinary_1962": {
+      "code": "extraordinary_1962",
+      "name_en": "1962 Missale Romanum (Extraordinary Form / Traditional Latin Mass)",
+      "name_vi": "Lịch Phụng Vụ 1962 (Nghi Thức Ngoại Thường / Thánh Lễ La Tinh Truyền Thống)",
+      "governing_body": "Missale Romanum 1962 / Ecclesia Dei Norms",
+      "seasons": [
+        "Time after Epiphany",
+        "Septuagesima",
+        "Lent",
+        "Passiontide",
+        "Paschaltide",
+        "Octave of Pentecost",
+        "Time after Pentecost",
+        "Advent"
+      ],
+      "ranks": [
+        "1st Class",
+        "2nd Class",
+        "3rd Class",
+        "4th Class",
+        "Commemoration"
+      ]
+    }
+  },
+  "divergence_categories": [
+    {
+      "category": "moveable_feast_transfers",
+      "description": "Differences in transferring Holy Days of Obligation (Ascension, Epiphany, Corpus Christi) to Sunday."
+    },
+    {
+      "category": "national_patronal_elevation",
+      "description": "Elevation of national martyrs and patronal feasts (e.g. Vietnamese Martyrs Nov 24 to Solemnity; Cabrini Nov 13 to Memorial)."
+    },
+    {
+      "category": "calendar_reforms_1962_vs_1969",
+      "description": "Structural calendar differences between Missale Romanum 1962 (Pre-Lenten Septuagesima, Passiontide veiling, Octave of Pentecost, Christ the King in October) and 1969 Paul VI Missal."
+    }
+  ],
+  "fixed_propers": {
+    "general_roman": {
+      "01-01": {
+        "title_en": "Solemnity of Mary, the Holy Mother of God",
+        "title_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa",
+        "rank": "Solemnity",
+        "color": "White"
+      },
+      "01-02": {
+        "title_en": "Sts. Basil the Great and Gregory Nazianzen, Bishops and Doctors",
+        "title_vi": "Thánh Basiliô Cả và Thánh Grêgôriô Nazianzênô, Giám mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "01-06": {
+        "title_en": "The Epiphany of the Lord (Universal Date)",
+        "title_vi": "Lễ Hiển Linh (Ngày Chung)",
+        "rank": "Solemnity",
+        "color": "White"
+      },
+      "01-17": {
+        "title_en": "St. Anthony, Abbot",
+        "title_vi": "Thánh Antôn, Viện phụ",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "01-21": {
+        "title_en": "St. Agnes, Virgin and Martyr",
+        "title_vi": "Thánh Anê, Trinh nữ, Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "01-24": {
+        "title_en": "St. Francis de Sales, Bishop and Doctor",
+        "title_vi": "Thánh Phanxicô Salêsiô, Giám mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "01-25": {
+        "title_en": "The Conversion of St. Paul the Apostle",
+        "title_vi": "Thánh Phaolô Tông Đồ Trở Lại",
+        "rank": "Feast",
+        "color": "White"
+      },
+      "01-28": {
+        "title_en": "St. Thomas Aquinas, Priest and Doctor",
+        "title_vi": "Thánh Tôma Aquinô, Linh mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "02-02": {
+        "title_en": "The Presentation of the Lord",
+        "title_vi": "Lễ Dâng Chúa Giêsu trong Đền Thánh",
+        "rank": "Feast",
+        "color": "White"
+      },
+      "02-22": {
+        "title_en": "The Chair of St. Peter the Apostle",
+        "title_vi": "Lễ Lập Tông Tòa Thánh Phêrô",
+        "rank": "Feast",
+        "color": "White"
+      },
+      "03-19": {
+        "title_en": "Solemnity of St. Joseph, Spouse of the Blessed Virgin Mary",
+        "title_vi": "Đại Lễ Thánh Giuse, Bạn Trăm Năm Đức Maria",
+        "rank": "Solemnity",
+        "color": "White"
+      },
+      "03-25": {
+        "title_en": "Solemnity of the Annunciation of the Lord",
+        "title_vi": "Đại Lễ Truyền Tin",
+        "rank": "Solemnity",
+        "color": "White"
+      },
+      "04-25": {
+        "title_en": "St. Mark the Evangelist",
+        "title_vi": "Thánh Marcô, Tác giả Sách Tin Mừng",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "04-29": {
+        "title_en": "St. Catherine of Siena, Virgin and Doctor",
+        "title_vi": "Thánh Catarina thành Siena, Trinh nữ, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "05-02": {
+        "title_en": "St. Athanasius, Bishop and Doctor",
+        "title_vi": "Thánh Athanasiô, Giám mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "05-03": {
+        "title_en": "Sts. Philip and James, Apostles",
+        "title_vi": "Thánh Philípphê và Thánh Giacôbê, Tông đồ",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "05-14": {
+        "title_en": "St. Matthias the Apostle",
+        "title_vi": "Thánh Mátthêu Tông đồ",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "05-26": {
+        "title_en": "St. Philip Neri, Priest",
+        "title_vi": "Thánh Philípphê Nêri, Linh mục",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "06-01": {
+        "title_en": "St. Justin, Martyr",
+        "title_vi": "Thánh Justinô, Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "06-05": {
+        "title_en": "St. Boniface, Bishop and Martyr",
+        "title_vi": "Thánh Bonifaciô, Giám mục, Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "06-11": {
+        "title_en": "St. Barnabas the Apostle",
+        "title_vi": "Thánh Barnaba, Tông đồ",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "06-24": {
+        "title_en": "The Nativity of St. John the Baptist",
+        "title_vi": "Đại Lễ Sinh Nhật Thánh Gioan Tẩy Giả",
+        "rank": "Solemnity",
+        "color": "White"
+      },
+      "06-28": {
+        "title_en": "St. Irenaeus, Bishop and Martyr, Doctor",
+        "title_vi": "Thánh Irênê, Giám mục, Tử đạo, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "06-29": {
+        "title_en": "Sts. Peter and Paul, Apostles",
+        "title_vi": "Đại Lễ Thánh Phêrô và Thánh Phaolô, Tông đồ",
+        "rank": "Solemnity",
+        "color": "Red"
+      },
+      "07-03": {
+        "title_en": "St. Thomas the Apostle",
+        "title_vi": "Thánh Tôma, Tông đồ",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "07-11": {
+        "title_en": "St. Benedict, Abbot",
+        "title_vi": "Thánh Biển Đức, Viện phụ",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "07-14": {
+        "title_en": "St. Camillus de Lellis, Priest (Universal)",
+        "title_vi": "Thánh Camillô Lellê, Linh mục",
+        "rank": "Optional Memorial",
+        "color": "White"
+      },
+      "07-22": {
+        "title_en": "St. Mary Magdalene",
+        "title_vi": "Thánh Maria Mađalêna",
+        "rank": "Feast",
+        "color": "White"
+      },
+      "07-25": {
+        "title_en": "St. James the Apostle",
+        "title_vi": "Thánh Giacôbê, Tông đồ",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "07-26": {
+        "title_en": "Sts. Joachim and Anne, Parents of the Blessed Virgin Mary",
+        "title_vi": "Thánh Gioakim và Thánh Anna, Thân Phụ Mẫu Đức Mẹ",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "07-31": {
+        "title_en": "St. Ignatius of Loyola, Priest",
+        "title_vi": "Thánh Inhaxiô thành Loyola, Linh mục",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-01": {
+        "title_en": "St. Alphonsus Liguori, Bishop and Doctor",
+        "title_vi": "Thánh Anphongsô Liguori, Giám mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-04": {
+        "title_en": "St. John Vianney, Priest",
+        "title_vi": "Thánh Gioan Maria Vianney, Linh mục",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-06": {
+        "title_en": "The Transfiguration of the Lord",
+        "title_vi": "Lễ Chúa Biến Hình",
+        "rank": "Feast",
+        "color": "White"
+      },
+      "08-08": {
+        "title_en": "St. Dominic, Priest",
+        "title_vi": "Thánh Đaminh, Linh mục",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-10": {
+        "title_en": "St. Lawrence, Deacon and Martyr",
+        "title_vi": "Thánh Laurensô, Phó tế, Tử đạo",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "08-11": {
+        "title_en": "St. Clare, Virgin",
+        "title_vi": "Thánh Clara, Trinh nữ",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-14": {
+        "title_en": "St. Maximilian Mary Kolbe, Priest and Martyr",
+        "title_vi": "Thánh Mácximilianô Maria Kolbe, Linh mục, Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "08-15": {
+        "title_en": "The Assumption of the Blessed Virgin Mary",
+        "title_vi": "Đại Lễ Đức Mẹ Hồn Xác Lên Trời",
+        "rank": "Solemnity",
+        "color": "White"
+      },
+      "08-20": {
+        "title_en": "St. Bernard, Abbot and Doctor",
+        "title_vi": "Thánh Bênađô, Viện phụ, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-21": {
+        "title_en": "St. Pius X, Pope",
+        "title_vi": "Thánh Piô X, Giáo hoàng",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-22": {
+        "title_en": "The Queenship of the Blessed Virgin Mary",
+        "title_vi": "Lễ Đức Maria Nữ Vương",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-24": {
+        "title_en": "St. Bartholomew the Apostle",
+        "title_vi": "Thánh Bartôlômêô, Tông đồ",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "08-27": {
+        "title_en": "St. Monica",
+        "title_vi": "Thánh Mônica",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-28": {
+        "title_en": "St. Augustine, Bishop and Doctor",
+        "title_vi": "Thánh Augustinô, Giám mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "08-29": {
+        "title_en": "The Passion of St. John the Baptist",
+        "title_vi": "Lễ Thánh Gioan Tẩy Giả Bị Trảm Quyết",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "09-03": {
+        "title_en": "St. Gregory the Great, Pope and Doctor",
+        "title_vi": "Thánh Grêgôriô Cả, Giáo hoàng, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "09-08": {
+        "title_en": "The Nativity of the Blessed Virgin Mary",
+        "title_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria",
+        "rank": "Feast",
+        "color": "White"
+      },
+      "09-09": {
+        "title_en": "St. Peter Claver, Priest (Universal Optional)",
+        "title_vi": "Thánh Phêrô Claver, Linh mục",
+        "rank": "Optional Memorial",
+        "color": "White"
+      },
+      "09-13": {
+        "title_en": "St. John Chrysostom, Bishop and Doctor",
+        "title_vi": "Thánh Gioan Kim Khẩu, Giám mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "09-14": {
+        "title_en": "The Exaltation of the Holy Cross",
+        "title_vi": "Lễ Suy Tôn Thánh Giá",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "09-15": {
+        "title_en": "Our Lady of Sorrows",
+        "title_vi": "Lễ Đức Mẹ Sầu Bi",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "09-16": {
+        "title_en": "Sts. Cornelius, Pope, and Cyprian, Bishop, Martyrs",
+        "title_vi": "Thánh Cornêliô và Thánh Síprianô, Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "09-21": {
+        "title_en": "St. Matthew, Apostle and Evangelist",
+        "title_vi": "Thánh Mátthêu, Tông đồ, Tác giả Sách Tin Mừng",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "09-23": {
+        "title_en": "St. Pius of Pietrelcina (Padre Pio), Priest",
+        "title_vi": "Thánh Piô Năm Dấu (Padre Pio), Linh mục",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "09-29": {
+        "title_en": "Sts. Michael, Gabriel, and Raphael, Archangels",
+        "title_vi": "Lễ Các Tổng Lãnh Thiên Thần Micae, Gabrie và Raphae",
+        "rank": "Feast",
+        "color": "White"
+      },
+      "09-30": {
+        "title_en": "St. Jerome, Priest and Doctor",
+        "title_vi": "Thánh Giêrônimô, Linh mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "10-01": {
+        "title_en": "St. Thérèse of the Child Jesus, Virgin and Doctor",
+        "title_vi": "Thánh Têrêsa Hài Đồng Giêsu, Trinh nữ, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "10-02": {
+        "title_en": "The Holy Guardian Angels",
+        "title_vi": "Lễ Các Thiên Thần Hộ Thủ",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "10-04": {
+        "title_en": "St. Francis of Assisi",
+        "title_vi": "Thánh Phanxicô thành Assisi",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "10-07": {
+        "title_en": "Our Lady of the Rosary",
+        "title_vi": "Lễ Đức Mẹ Mân Côi",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "10-15": {
+        "title_en": "St. Teresa of Jesus, Virgin and Doctor",
+        "title_vi": "Thánh Têrêsa thành Avila, Trinh nữ, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "10-17": {
+        "title_en": "St. Ignatius of Antioch, Bishop and Martyr",
+        "title_vi": "Thánh Inhaxiô thành Antiôkia, Giám mục, Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "10-18": {
+        "title_en": "St. Luke the Evangelist",
+        "title_vi": "Thánh Luca, Tác giả Sách Tin Mừng",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "10-19": {
+        "title_en": "Sts. John de Brébeuf and Isaac Jogues (Universal Optional)",
+        "title_vi": "Thánh Gioan de Brébeuf và Isaác Jogues",
+        "rank": "Optional Memorial",
+        "color": "Red"
+      },
+      "10-28": {
+        "title_en": "Sts. Simon and Jude, Apostles",
+        "title_vi": "Thánh Simon và Thánh Giuđa, Tông đồ",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "11-01": {
+        "title_en": "All Saints",
+        "title_vi": "Đại Lễ Các Thánh Nam Nữ",
+        "rank": "Solemnity",
+        "color": "White"
+      },
+      "11-02": {
+        "title_en": "The Commemoration of All the Faithful Departed (All Souls)",
+        "title_vi": "Lễ Các Đẳng Linh Hồn (Lễ Cầu Cho Các Tín Hữu Đã Qua Đời)",
+        "rank": "Feast/Special",
+        "color": "Violet/Black"
+      },
+      "11-04": {
+        "title_en": "St. Charles Borromeo, Bishop",
+        "title_vi": "Thánh Carôlô Borrômêô, Giám mục",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "11-09": {
+        "title_en": "The Dedication of the Lateran Basilica",
+        "title_vi": "Lễ Cung Hiến Vương Cung Thánh Đường Latêranô",
+        "rank": "Feast",
+        "color": "White"
+      },
+      "11-10": {
+        "title_en": "St. Leo the Great, Pope and Doctor",
+        "title_vi": "Thánh Lêô Cả, Giáo hoàng, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "11-11": {
+        "title_en": "St. Martin of Tours, Bishop",
+        "title_vi": "Thánh Martinô thành Tours, Giám mục",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "11-12": {
+        "title_en": "St. Josaphat, Bishop and Martyr",
+        "title_vi": "Thánh Giôxaphát, Giám mục, Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "11-17": {
+        "title_en": "St. Elizabeth of Hungary, Religious",
+        "title_vi": "Thánh Elizabeth nước Hungari",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "11-21": {
+        "title_en": "The Presentation of the Blessed Virgin Mary",
+        "title_vi": "Lễ Đức Maria Dâng Mình trong Đền Thờ",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "11-22": {
+        "title_en": "St. Cecilia, Virgin and Martyr",
+        "title_vi": "Thánh Cêcilia, Trinh nữ, Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "11-24": {
+        "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+        "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "11-30": {
+        "title_en": "St. Andrew the Apostle",
+        "title_vi": "Thánh Anrê, Tông đồ",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "12-03": {
+        "title_en": "St. Francis Xavier, Priest",
+        "title_vi": "Thánh Phanxicô Xaviê, Linh mục",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "12-07": {
+        "title_en": "St. Ambrose, Bishop and Doctor",
+        "title_vi": "Thánh Ambrôsiô, Giám mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "12-08": {
+        "title_en": "The Immaculate Conception of the Blessed Virgin Mary",
+        "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội",
+        "rank": "Solemnity",
+        "color": "White"
+      },
+      "12-12": {
+        "title_en": "Our Lady of Guadalupe (Universal Optional)",
+        "title_vi": "Đức Mẹ Guadalupe",
+        "rank": "Optional Memorial",
+        "color": "White"
+      },
+      "12-13": {
+        "title_en": "St. Lucy, Virgin and Martyr",
+        "title_vi": "Thánh Lucia, Trinh nữ, Tử đạo",
+        "rank": "Memorial",
+        "color": "Red"
+      },
+      "12-14": {
+        "title_en": "St. John of the Cross, Priest and Doctor",
+        "title_vi": "Thánh Gioan Thánh Giá, Linh mục, Tiến sĩ HT",
+        "rank": "Memorial",
+        "color": "White"
+      },
+      "12-25": {
+        "title_en": "The Nativity of the Lord (Christmas)",
+        "title_vi": "Đại Lễ Chúa Giáng Sinh",
+        "rank": "Solemnity",
+        "color": "White"
+      },
+      "12-26": {
+        "title_en": "St. Stephen, the First Martyr",
+        "title_vi": "Thánh Stêphanô, Tử đạo Tiên khởi",
+        "rank": "Feast",
+        "color": "Red"
+      },
+      "12-27": {
+        "title_en": "St. John, Apostle and Evangelist",
+        "title_vi": "Thánh Gioan, Tông đồ, Tác giả Sách Tin Mừng",
+        "rank": "Feast",
+        "color": "White"
+      },
+      "12-28": {
+        "title_en": "The Holy Innocents, Martyrs",
+        "title_vi": "Lễ Các Thánh Anh Hài, Tử đạo",
+        "rank": "Feast",
+        "color": "Red"
+      }
+    },
+    "usccb_overrides": {
+      "01-04": {
+        "title_en": "St. Elizabeth Ann Seton, Religious",
+        "title_vi": "Thánh Elizabeth Ann Seton, Nữ tu (Bổn Mạng Hoa Kỳ)",
+        "rank": "Memorial",
+        "color": "White",
+        "proper_note": "First native-born US citizen canonized; Obligatory Memorial in USA"
+      },
+      "01-05": {
+        "title_en": "St. John Neumann, Bishop",
+        "title_vi": "Thánh Gioan Neumann, Giám mục",
+        "rank": "Memorial",
+        "color": "White",
+        "proper_note": "Bishop of Philadelphia, Pioneer of Parochial Catholic Schools; Obligatory Memorial in USA"
+      },
+      "01-06": {
+        "title_en": "St. André Bessette, Religious",
+        "title_vi": "Thánh Anrê Bessette, Nữ tu/Tu huynh",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Apostle of St. Joseph Oratory, Montreal"
+      },
+      "01-22": {
+        "title_en": "Day of Prayer for the Legal Protection of Unborn Children",
+        "title_vi": "Ngày Toàn Quốc Cầu Nguyện Cho Sự Sống của Thai Nhi",
+        "rank": "Special Liturgical Day",
+        "color": "Violet/White",
+        "proper_note": "USCCB National Day of Prayer and Penance"
+      },
+      "01-23": {
+        "title_en": "St. Marianne Cope, Virgin",
+        "title_vi": "Thánh Marianne Cope, Trinh nữ",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Mother Marianne of Molokai; served alongside St. Damien"
+      },
+      "03-03": {
+        "title_en": "St. Katharine Drexel, Virgin",
+        "title_vi": "Thánh Katharine Drexel, Trinh nữ",
+        "rank": "Memorial",
+        "color": "White",
+        "proper_note": "Foundress of Sisters of the Blessed Sacrament for Native and African Americans"
+      },
+      "05-10": {
+        "title_en": "St. Damien de Veuster, Priest",
+        "title_vi": "Thánh Đamiênô Veuster, Linh mục",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Father Damien of Molokai, Apostle of Lepers"
+      },
+      "05-15": {
+        "title_en": "St. Isidore the Farmer",
+        "title_vi": "Thánh Isiđôrô Nông Dân",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Patron of Farmers and Rural Communities in USA"
+      },
+      "07-01": {
+        "title_en": "St. Junípero Serra, Priest",
+        "title_vi": "Thánh Junipero Serra, Linh mục",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Founding father of the 21 California Missions"
+      },
+      "07-04": {
+        "title_en": "Independence Day",
+        "title_vi": "Lễ Quốc Khánh Hoa Kỳ (Thánh Lễ Tạ Ơn)",
+        "rank": "Proper Mass",
+        "color": "White",
+        "proper_note": "Proper Mass for the Nation"
+      },
+      "07-14": {
+        "title_en": "St. Kateri Tekakwitha, Virgin",
+        "title_vi": "Thánh Kateri Tekakwitha, Trinh nữ (Bông Hoa Dòng Mohawk)",
+        "rank": "Memorial",
+        "color": "White",
+        "proper_note": "Lily of the Mohawks, First Native American Saint; moves St. Camillus to July 18"
+      },
+      "07-18": {
+        "title_en": "St. Camillus de Lellis, Priest",
+        "title_vi": "Thánh Camillô Lellê, Linh mục",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Transferred in US dioceses because July 14 is St. Kateri"
+      },
+      "09-09": {
+        "title_en": "St. Peter Claver, Priest",
+        "title_vi": "Thánh Phêrô Claver, Linh mục",
+        "rank": "Memorial",
+        "color": "White",
+        "proper_note": "Obligatory Memorial in USA; Apostle to Enslaved Africans"
+      },
+      "10-05": {
+        "title_en": "Blessed Francis Xavier Seelos, Priest",
+        "title_vi": "Chân Phước Phanxicô Xaviê Seelos, Linh mục",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Redemptorist Missionary in Pittsburgh, Baltimore, and New Orleans"
+      },
+      "10-06": {
+        "title_en": "Blessed Marie-Rose Durocher, Virgin",
+        "title_vi": "Chân Phước Marie-Rose Durocher, Trinh nữ",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Foundress of the Sisters of the Holy Names of Jesus and Mary"
+      },
+      "10-19": {
+        "title_en": "Sts. John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs (North American Martyrs)",
+        "title_vi": "Thánh Gioan de Brébeuf, Isaác Jogues và các Bạn Tử Đạo Bắc Mỹ",
+        "rank": "Memorial",
+        "color": "Red",
+        "proper_note": "Obligatory Memorial in USA; moves St. Paul of the Cross to Oct 20"
+      },
+      "10-20": {
+        "title_en": "St. Paul of the Cross, Priest",
+        "title_vi": "Thánh Phaolô Thánh Giá, Linh mục",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Transferred in US dioceses because Oct 19 is North American Martyrs"
+      },
+      "11-13": {
+        "title_en": "St. Frances Xavier Cabrini, Virgin",
+        "title_vi": "Thánh Phanxicô Cabrini (Mẹ Cabrini), Trinh nữ",
+        "rank": "Memorial",
+        "color": "White",
+        "proper_note": "First naturalized US citizen saint; Patroness of Immigrants"
+      },
+      "11-18": {
+        "title_en": "St. Rose Philippine Duchesne, Virgin",
+        "title_vi": "Thánh Rose Philippine Duchesne, Trinh nữ",
+        "rank": "Optional Memorial",
+        "color": "White",
+        "proper_note": "Missionary to Missouri & Native American Potawatomi tribe"
+      },
+      "11-23": {
+        "title_en": "Blessed Miguel Agustín Pro, Priest and Martyr",
+        "title_vi": "Chân Phước Micae Augustinô Pro, Linh mục, Tử đạo",
+        "rank": "Optional Memorial",
+        "color": "Red",
+        "proper_note": "Cristero martyr of Mexico, honored across American dioceses"
+      },
+      "12-08": {
+        "title_en": "Solemnity of the Immaculate Conception (Patronal Feast of the USA)",
+        "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội (Bổn Mạng Hoa Kỳ)",
+        "rank": "Solemnity",
+        "color": "White",
+        "proper_note": "Principal Patroness of the United States of America"
+      },
+      "12-12": {
+        "title_en": "Feast of Our Lady of Guadalupe, Patroness of the Americas",
+        "title_vi": "Lễ Đức Mẹ Guadalupe, Bổn Mạng Toàn Châu Mỹ",
+        "rank": "Feast",
+        "color": "White",
+        "proper_note": "Feast across North, Central, and South America"
+      }
+    },
+    "hdgmvn_overrides": {
+      "07-26": {
+        "title_en": "Memorial of Sts. Joachim and Anne & Blessed Andrew of Phú Yên, Martyr",
+        "title_vi": "Lễ Thánh Gioakim và Thánh Anna & Kính Chân Phước Anrê Phú Yên, Thầy Giảng Tử Đạo Tiên Khởi",
+        "rank": "Feast/Memorial",
+        "color": "Red/White",
+        "proper_note": "Chân phước Anrê Phú Yên tử đạo tại Tuy Hòa / Phước Kiều (1644), Bổn mạng Huynh Trưởng & Giáo lý viên Việt Nam"
+      },
+      "08-15": {
+        "title_en": "Solemnity of the Assumption of the Blessed Virgin Mary & Our Lady of La Vang",
+        "title_vi": "Đại Lễ Đức Mẹ Hồn Xác Lên Trời & Đại Lễ Đức Mẹ La Vang (Trung Tâm Thánh Mẫu Toàn Quốc)",
+        "rank": "Solemnity",
+        "color": "White",
+        "proper_note": "Trung Tâm Hành Hương Thánh Mẫu Toàn Quốc La Vang (Quảng Trị), kỷ niệm Đức Mẹ hiện ra năm 1798"
+      },
+      "11-06": {
+        "title_en": "Feast of the Holy Martyrs of Hải Phòng",
+        "title_vi": "Lễ Các Thánh Tử Đạo Hải Phòng (Giêrônimô Liêm, Valentin Vinh, Phêrô Bình, Giuse Khang)",
+        "rank": "Feast",
+        "color": "Red",
+        "proper_note": "Lễ Kính Đặc Biệt Giáo Phận Hải Phòng và Giáo Tỉnh Hà Nội (Tử đạo tại Năm Mẫu năm 1861)"
+      },
+      "11-24": {
+        "title_en": "Solemnity of the Holy Martyrs of Vietnam (St. Andrew Dũng-Lạc & Companions)",
+        "title_vi": "Đại Lễ Các Thánh Tử Đạo Việt Nam (Thánh Anrê Dũng-Lạc và 116 Bạn Tử Đạo) — Bổn Mạng Giáo Hội Việt Nam",
+        "rank": "Solemnity",
+        "color": "Red",
+        "proper_note": "Đại Lễ Trọng Bổn Mạng Giáo Hội Công Giáo Việt Nam (HĐGMVN). Trong Lịch Chung là Lễ Nhớ, tại Việt Nam là Lễ Trọng Bậc I"
+      }
+    },
+    "tlm_1962_fixed": {
+      "01-01": {
+        "title_en": "The Octave Day of the Nativity of the Lord (Circumcision)",
+        "title_vi": "Lễ Cắt Bì Của Đức Chúa Giêsu (Ngày Bát Nhật Giáng Sinh)",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "01-06": {
+        "title_en": "The Epiphany of Our Lord Jesus Christ",
+        "title_vi": "Đại Lễ Hiển Linh Của Đức Chúa Giêsu",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "01-18": {
+        "title_en": "Chair of St. Peter at Rome",
+        "title_vi": "Lễ Lập Tòa Thánh Phêrô tại Rôma",
+        "rank": "Commemoration",
+        "color": "White"
+      },
+      "02-02": {
+        "title_en": "Purification of the Blessed Virgin Mary (Candlemas)",
+        "title_vi": "Lễ Thanh Tẩy Đức Mẹ (Lễ Dâng Chúa Trong Đền Thánh / Lễ Nến)",
+        "rank": "2nd Class",
+        "color": "White"
+      },
+      "02-22": {
+        "title_en": "Chair of St. Peter at Antioch",
+        "title_vi": "Lễ Lập Tòa Thánh Phêrô tại Antiôkia",
+        "rank": "2nd Class",
+        "color": "White"
+      },
+      "03-19": {
+        "title_en": "St. Joseph, Spouse of the Blessed Virgin Mary, Confessor and Patron of the Universal Church",
+        "title_vi": "Thánh Giuse Bạn Trăm Năm Đức Maria, Quan Thầy Hội Thánh Toàn Cầu",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "03-25": {
+        "title_en": "The Annunciation of the Blessed Virgin Mary",
+        "title_vi": "Lễ Truyền Tin Cho Đức Trinh Nữ Maria",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "05-01": {
+        "title_en": "St. Joseph the Worker, Spouse of the B.V.M., Confessor",
+        "title_vi": "Thánh Giuse Thợ, Bạn Đức Trinh Nữ Maria",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "06-24": {
+        "title_en": "The Nativity of St. John the Baptist",
+        "title_vi": "Lễ Sinh Nhật Thánh Gioan Tiền Hô",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "06-29": {
+        "title_en": "Sts. Peter and Paul, Apostles",
+        "title_vi": "Thánh Phêrô và Phaolô, Tông Đồ",
+        "rank": "1st Class",
+        "color": "Red"
+      },
+      "07-01": {
+        "title_en": "The Most Precious Blood of Our Lord Jesus Christ",
+        "title_vi": "Lễ Cực Thánh Máu Chúa Giêsu Kitô",
+        "rank": "1st Class",
+        "color": "Red"
+      },
+      "07-26": {
+        "title_en": "St. Anne, Mother of the Blessed Virgin Mary",
+        "title_vi": "Thánh Anna, Thân Mẫu Đức Trinh Nữ Maria",
+        "rank": "2nd Class",
+        "color": "White"
+      },
+      "08-15": {
+        "title_en": "The Assumption of the Blessed Virgin Mary",
+        "title_vi": "Lễ Đức Mẹ Hồn Xác Lên Trời",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "09-08": {
+        "title_en": "The Nativity of the Blessed Virgin Mary",
+        "title_vi": "Lễ Sinh Nhật Đức Maria",
+        "rank": "2nd Class",
+        "color": "White"
+      },
+      "09-14": {
+        "title_en": "The Exaltation of the Holy Cross",
+        "title_vi": "Lễ Suy Tôn Thánh Giá",
+        "rank": "2nd Class",
+        "color": "Red"
+      },
+      "09-29": {
+        "title_en": "The Dedication of St. Michael the Archangel",
+        "title_vi": "Lễ Cung Hiến Thánh Điện Tổng Lãnh Thiên Thần Micae",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "11-01": {
+        "title_en": "All Saints",
+        "title_vi": "Đại Lễ Các Thánh Nam Nữ",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "11-02": {
+        "title_en": "The Commemoration of All the Faithful Departed (All Souls)",
+        "title_vi": "Lễ Cầu Cho Các Đẳng Linh Hồn",
+        "rank": "1st Class",
+        "color": "Black"
+      },
+      "11-24": {
+        "title_en": "St. John of the Cross, Confessor and Doctor & St. Chrysogonus, Martyr",
+        "title_vi": "Thánh Gioan Thánh Giá, Tiến sĩ HT & Thánh Chrysôgônô, Tử đạo",
+        "rank": "3rd Class",
+        "color": "White/Red"
+      },
+      "12-08": {
+        "title_en": "The Immaculate Conception of the Blessed Virgin Mary",
+        "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội",
+        "rank": "1st Class",
+        "color": "White"
+      },
+      "12-25": {
+        "title_en": "The Nativity of Our Lord Jesus Christ (Christmas)",
+        "title_vi": "Đại Lễ Chúa Giáng Sinh",
+        "rank": "1st Class",
+        "color": "White"
+      }
+    }
+  },
+  "sample_benchmark_resolutions_2026_2030": [
+    {
+      "date": "2026-01-04",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "USCCB celebrates Memorial of St. Elizabeth Ann Seton (first native-born US saint)."
+      ],
+      "propers": {
+        "general_roman": {
+          "date": "2026-01-04",
+          "proper": "general_roman",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "usccb": {
+          "title_en": "St. Elizabeth Ann Seton, Religious",
+          "title_vi": "Thánh Elizabeth Ann Seton, Nữ tu (Bổn Mạng Hoa Kỳ)",
+          "rank": "Memorial",
+          "color": "White",
+          "proper_note": "First native-born US citizen canonized; Obligatory Memorial in USA",
+          "date": "2026-01-04",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "date": "2026-01-04",
+          "proper": "hdgmvn",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "extraordinary_1962": {
+          "date": "2026-01-04",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Christmastide",
+          "title_vi": "Ngày trong Mùa Giáng Sinh",
+          "rank": "4th Class (Feria)",
+          "color": "White",
+          "season": "Christmastide"
+        }
+      }
+    },
+    {
+      "date": "2026-02-01",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [],
+      "propers": {
+        "general_roman": {
+          "date": "2026-02-01",
+          "proper": "general_roman",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "usccb": {
+          "date": "2026-02-01",
+          "proper": "usccb",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "hdgmvn": {
+          "date": "2026-02-01",
+          "proper": "hdgmvn",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "extraordinary_1962": {
+          "date": "2026-02-01",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Septuagesima Season (Pre-Lent)",
+          "title_vi": "Ngày trong Mùa Xót Thương (Tiền Mùa Chay - Septuagesima)",
+          "rank": "4th Class (Feria)",
+          "color": "Violet",
+          "season": "Septuagesima Season (Pre-Lent)"
+        }
+      }
+    },
+    {
+      "date": "2026-02-18",
+      "weekday": "Wednesday",
+      "has_divergence": true,
+      "divergence_notes": [],
+      "propers": {
+        "general_roman": {
+          "title_en": "Ash Wednesday",
+          "title_vi": "Thứ Tư Lễ Tro (Khai Mạc Mùa Chay)",
+          "rank": "Special / Fast Day",
+          "color": "Violet",
+          "moveable": true,
+          "date": "2026-02-18",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Ash Wednesday",
+          "title_vi": "Thứ Tư Lễ Tro (Khai Mạc Mùa Chay)",
+          "rank": "Special / Fast Day",
+          "color": "Violet",
+          "moveable": true,
+          "date": "2026-02-18",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Ash Wednesday",
+          "title_vi": "Thứ Tư Lễ Tro (Khai Mạc Mùa Chay)",
+          "rank": "Special / Fast Day",
+          "color": "Violet",
+          "moveable": true,
+          "date": "2026-02-18",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "Ash Wednesday",
+          "title_vi": "Thứ Tư Lễ Tro (Khai Mạc Mùa Chay)",
+          "rank": "1st Class",
+          "color": "Violet",
+          "moveable": true,
+          "date": "2026-02-18",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2026-03-22",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [],
+      "propers": {
+        "general_roman": {
+          "date": "2026-03-22",
+          "proper": "general_roman",
+          "title_en": "Lenten Weekday",
+          "title_vi": "Ngày trong Mùa Chay Thánh",
+          "rank": "Lenten Weekday",
+          "color": "Violet"
+        },
+        "usccb": {
+          "date": "2026-03-22",
+          "proper": "usccb",
+          "title_en": "Lenten Weekday",
+          "title_vi": "Ngày trong Mùa Chay Thánh",
+          "rank": "Lenten Weekday",
+          "color": "Violet"
+        },
+        "hdgmvn": {
+          "date": "2026-03-22",
+          "proper": "hdgmvn",
+          "title_en": "Lenten Weekday",
+          "title_vi": "Ngày trong Mùa Chay Thánh",
+          "rank": "Lenten Weekday",
+          "color": "Violet"
+        },
+        "extraordinary_1962": {
+          "date": "2026-03-22",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Passiontide (Statues and Crosses Veiled)",
+          "title_vi": "Ngày trong Mùa Khổ Nạn (Tượng Thánh Che Khăn Tím)",
+          "rank": "4th Class (Feria)",
+          "color": "Violet",
+          "season": "Passiontide (Statues and Crosses Veiled)"
+        }
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [],
+      "propers": {
+        "general_roman": {
+          "title_en": "Easter Sunday of the Resurrection of the Lord",
+          "title_vi": "Đại Lễ Phục Sinh (Mầu Nhiệm Phục Sinh Của Đức Kitô)",
+          "rank": "Solemnity of Solemnities",
+          "color": "White/Gold",
+          "moveable": true,
+          "date": "2026-04-05",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Easter Sunday of the Resurrection of the Lord",
+          "title_vi": "Đại Lễ Phục Sinh (Mầu Nhiệm Phục Sinh Của Đức Kitô)",
+          "rank": "Solemnity of Solemnities",
+          "color": "White/Gold",
+          "moveable": true,
+          "date": "2026-04-05",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Easter Sunday of the Resurrection of the Lord",
+          "title_vi": "Đại Lễ Phục Sinh (Mầu Nhiệm Phục Sinh Của Đức Kitô)",
+          "rank": "Solemnity of Solemnities",
+          "color": "White/Gold",
+          "moveable": true,
+          "date": "2026-04-05",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "Easter Sunday of the Resurrection of the Lord",
+          "title_vi": "Đại Lễ Phục Sinh (Mầu Nhiệm Phục Sinh Của Đức Kitô)",
+          "rank": "1st Class with Octave",
+          "color": "White/Gold",
+          "moveable": true,
+          "date": "2026-04-05",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "weekday": "Thursday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "Ascension Thursday vs. Sunday Transference divergence between Universal/1962 and USCCB/HDGMVN."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2026-05-14",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2026-05-14",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2026-05-14",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "1st Class",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2026-05-14",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "Ascension Thursday vs. Sunday Transference divergence between Universal/1962 and USCCB/HDGMVN."
+      ],
+      "propers": {
+        "general_roman": {
+          "date": "2026-05-17",
+          "proper": "general_roman",
+          "title_en": "Easter Weekday",
+          "title_vi": "Ngày trong Mùa Phục Sinh",
+          "rank": "Easter Weekday",
+          "color": "White"
+        },
+        "usccb": {
+          "title_en": "The Ascension of the Lord (Transferred to Seventh Sunday of Easter)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Cử Hành Chúa Nhật VII Phục Sinh)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2026-05-17",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "The Ascension of the Lord (Transferred to Seventh Sunday of Easter)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Cử Hành Chúa Nhật VII Phục Sinh)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2026-05-17",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "date": "2026-05-17",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Paschaltide",
+          "title_vi": "Ngày trong Mùa Phục Sinh",
+          "rank": "4th Class (Feria)",
+          "color": "White",
+          "season": "Paschaltide"
+        }
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [],
+      "propers": {
+        "general_roman": {
+          "title_en": "Pentecost Sunday",
+          "title_vi": "Đại Lễ Chúa Thánh Thần Hiện Xuống",
+          "rank": "Solemnity",
+          "color": "Red",
+          "moveable": true,
+          "date": "2026-05-24",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Pentecost Sunday",
+          "title_vi": "Đại Lễ Chúa Thánh Thần Hiện Xuống",
+          "rank": "Solemnity",
+          "color": "Red",
+          "moveable": true,
+          "date": "2026-05-24",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Pentecost Sunday",
+          "title_vi": "Đại Lễ Chúa Thánh Thần Hiện Xuống",
+          "rank": "Solemnity",
+          "color": "Red",
+          "moveable": true,
+          "date": "2026-05-24",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "Pentecost Sunday",
+          "title_vi": "Đại Lễ Chúa Thánh Thần Hiện Xuống",
+          "rank": "1st Class with Octave",
+          "color": "Red",
+          "moveable": true,
+          "date": "2026-05-24",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "weekday": "Thursday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "Corpus Christi Thursday vs. Sunday Transference divergence."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "The Most Holy Body and Blood of Christ (Corpus Christi - Thursday)",
+          "title_vi": "Đại Lễ Mình và Máu Thánh Chúa Kitô (Thứ Năm)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2026-06-04",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Thursday of the Tenth Week in Ordinary Time (Corpus Christi transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần X Thường Niên (Lễ Mình Máu Thánh Chúa dời sang Chúa Nhật)",
+          "rank": "Weekday in Ordinary Time",
+          "color": "Green",
+          "moveable": true,
+          "transferred": true,
+          "date": "2026-06-04",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Thursday of the Tenth Week in Ordinary Time (Corpus Christi transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần X Thường Niên (Lễ Mình Máu Thánh Chúa dời sang Chúa Nhật)",
+          "rank": "Weekday in Ordinary Time",
+          "color": "Green",
+          "moveable": true,
+          "transferred": true,
+          "date": "2026-06-04",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "The Most Holy Body and Blood of Christ (Corpus Christi - Thursday)",
+          "title_vi": "Đại Lễ Mình và Máu Thánh Chúa Kitô (Thứ Năm)",
+          "rank": "1st Class",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2026-06-04",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "Corpus Christi Thursday vs. Sunday Transference divergence."
+      ],
+      "propers": {
+        "general_roman": {
+          "date": "2026-06-07",
+          "proper": "general_roman",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "usccb": {
+          "title_en": "The Most Holy Body and Blood of Christ (Corpus Christi - Transferred to Sunday)",
+          "title_vi": "Đại Lễ Mình và Máu Thánh Chúa Kitô (Cử Hành Chúa Nhật Sau Lễ Chúa Ba Ngôi)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2026-06-07",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "The Most Holy Body and Blood of Christ (Corpus Christi - Transferred to Sunday)",
+          "title_vi": "Đại Lễ Mình và Máu Thánh Chúa Kitô (Cử Hành Chúa Nhật Sau Lễ Chúa Ba Ngôi)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2026-06-07",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "date": "2026-06-07",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Time after Pentecost",
+          "title_vi": "Ngày trong Thời Gian Sau Lễ Hiện Xuống",
+          "rank": "4th Class (Feria)",
+          "color": "Green",
+          "season": "Time after Pentecost"
+        }
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "weekday": "Tuesday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "USCCB celebrates St. Kateri Tekakwitha (Memorial), transferring St. Camillus to July 18."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "St. Camillus de Lellis, Priest (Universal)",
+          "title_vi": "Thánh Camillô Lellê, Linh mục",
+          "rank": "Optional Memorial",
+          "color": "White",
+          "date": "2026-07-14",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "St. Kateri Tekakwitha, Virgin",
+          "title_vi": "Thánh Kateri Tekakwitha, Trinh nữ (Bông Hoa Dòng Mohawk)",
+          "rank": "Memorial",
+          "color": "White",
+          "proper_note": "Lily of the Mohawks, First Native American Saint; moves St. Camillus to July 18",
+          "date": "2026-07-14",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "St. Camillus de Lellis, Priest (Universal)",
+          "title_vi": "Thánh Camillô Lellê, Linh mục",
+          "rank": "Optional Memorial",
+          "color": "White",
+          "date": "2026-07-14",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "date": "2026-07-14",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Time after Pentecost",
+          "title_vi": "Ngày trong Thời Gian Sau Lễ Hiện Xuống",
+          "rank": "4th Class (Feria)",
+          "color": "Green",
+          "season": "Time after Pentecost"
+        }
+      }
+    },
+    {
+      "date": "2026-07-26",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "HDGMVN pairs Sts. Joachim and Anne with Blessed Andrew of Phú Yên (Protomartyr of Vietnam)."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "Sts. Joachim and Anne, Parents of the Blessed Virgin Mary",
+          "title_vi": "Thánh Gioakim và Thánh Anna, Thân Phụ Mẫu Đức Mẹ",
+          "rank": "Memorial",
+          "color": "White",
+          "date": "2026-07-26",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Sts. Joachim and Anne, Parents of the Blessed Virgin Mary",
+          "title_vi": "Thánh Gioakim và Thánh Anna, Thân Phụ Mẫu Đức Mẹ",
+          "rank": "Memorial",
+          "color": "White",
+          "date": "2026-07-26",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Memorial of Sts. Joachim and Anne & Blessed Andrew of Phú Yên, Martyr",
+          "title_vi": "Lễ Thánh Gioakim và Thánh Anna & Kính Chân Phước Anrê Phú Yên, Thầy Giảng Tử Đạo Tiên Khởi",
+          "rank": "Feast/Memorial",
+          "color": "Red/White",
+          "proper_note": "Chân phước Anrê Phú Yên tử đạo tại Tuy Hòa / Phước Kiều (1644), Bổn mạng Huynh Trưởng & Giáo lý viên Việt Nam",
+          "date": "2026-07-26",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "St. Anne, Mother of the Blessed Virgin Mary",
+          "title_vi": "Thánh Anna, Thân Mẫu Đức Trinh Nữ Maria",
+          "rank": "2nd Class",
+          "color": "White",
+          "date": "2026-07-26",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "weekday": "Saturday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "HDGMVN co-celebrates Assumption with the National Marian Shrine of Our Lady of La Vang with national solemnity."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "The Assumption of the Blessed Virgin Mary",
+          "title_vi": "Đại Lễ Đức Mẹ Hồn Xác Lên Trời",
+          "rank": "Solemnity",
+          "color": "White",
+          "date": "2026-08-15",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "The Assumption of the Blessed Virgin Mary",
+          "title_vi": "Đại Lễ Đức Mẹ Hồn Xác Lên Trời",
+          "rank": "Solemnity",
+          "color": "White",
+          "date": "2026-08-15",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Solemnity of the Assumption of the Blessed Virgin Mary & Our Lady of La Vang",
+          "title_vi": "Đại Lễ Đức Mẹ Hồn Xác Lên Trời & Đại Lễ Đức Mẹ La Vang (Trung Tâm Thánh Mẫu Toàn Quốc)",
+          "rank": "Solemnity",
+          "color": "White",
+          "proper_note": "Trung Tâm Hành Hương Thánh Mẫu Toàn Quốc La Vang (Quảng Trị), kỷ niệm Đức Mẹ hiện ra năm 1798",
+          "date": "2026-08-15",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "The Assumption of the Blessed Virgin Mary",
+          "title_vi": "Lễ Đức Mẹ Hồn Xác Lên Trời",
+          "rank": "1st Class",
+          "color": "White",
+          "date": "2026-08-15",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [],
+      "propers": {
+        "general_roman": {
+          "date": "2026-10-25",
+          "proper": "general_roman",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "usccb": {
+          "date": "2026-10-25",
+          "proper": "usccb",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "hdgmvn": {
+          "date": "2026-10-25",
+          "proper": "hdgmvn",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "extraordinary_1962": {
+          "title_en": "Feast of Our Lord Jesus Christ the King (Traditional Latin Mass)",
+          "title_vi": "Đại Lễ Đức Kitô Vua (Theo Lịch Phụng Vụ 1962 — Chúa Nhật Cuối Tháng 10)",
+          "rank": "1st Class",
+          "color": "White",
+          "moveable": true,
+          "date": "2026-10-25",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "weekday": "Friday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "HDGMVN Northern Dioceses / Hanoi Province celebrates Martyrs of Hải Phòng (Feast)."
+      ],
+      "propers": {
+        "general_roman": {
+          "date": "2026-11-06",
+          "proper": "general_roman",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "usccb": {
+          "date": "2026-11-06",
+          "proper": "usccb",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "hdgmvn": {
+          "title_en": "Feast of the Holy Martyrs of Hải Phòng",
+          "title_vi": "Lễ Các Thánh Tử Đạo Hải Phòng (Giêrônimô Liêm, Valentin Vinh, Phêrô Bình, Giuse Khang)",
+          "rank": "Feast",
+          "color": "Red",
+          "proper_note": "Lễ Kính Đặc Biệt Giáo Phận Hải Phòng và Giáo Tỉnh Hà Nội (Tử đạo tại Năm Mẫu năm 1861)",
+          "date": "2026-11-06",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "date": "2026-11-06",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Time after Pentecost",
+          "title_vi": "Ngày trong Thời Gian Sau Lễ Hiện Xuống",
+          "rank": "4th Class (Feria)",
+          "color": "Green",
+          "season": "Time after Pentecost"
+        }
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "weekday": "Friday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "USCCB celebrates Memorial of St. Frances Xavier Cabrini (first American citizen saint), not present on Universal calendar."
+      ],
+      "propers": {
+        "general_roman": {
+          "date": "2026-11-13",
+          "proper": "general_roman",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "usccb": {
+          "title_en": "St. Frances Xavier Cabrini, Virgin",
+          "title_vi": "Thánh Phanxicô Cabrini (Mẹ Cabrini), Trinh nữ",
+          "rank": "Memorial",
+          "color": "White",
+          "proper_note": "First naturalized US citizen saint; Patroness of Immigrants",
+          "date": "2026-11-13",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "date": "2026-11-13",
+          "proper": "hdgmvn",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "extraordinary_1962": {
+          "date": "2026-11-13",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Time after Pentecost",
+          "title_vi": "Ngày trong Thời Gian Sau Lễ Hiện Xuống",
+          "rank": "4th Class (Feria)",
+          "color": "Green",
+          "season": "Time after Pentecost"
+        }
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [],
+      "propers": {
+        "general_roman": {
+          "title_en": "Solemnity of Our Lord Jesus Christ, King of the Universe",
+          "title_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ (Chúa Nhật XXXIV Thường Niên)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "date": "2026-11-22",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Solemnity of Our Lord Jesus Christ, King of the Universe",
+          "title_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ (Chúa Nhật XXXIV Thường Niên)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "date": "2026-11-22",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Solemnity of Our Lord Jesus Christ, King of the Universe",
+          "title_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ (Chúa Nhật XXXIV Thường Niên)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "date": "2026-11-22",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "date": "2026-11-22",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Time after Pentecost",
+          "title_vi": "Ngày trong Thời Gian Sau Lễ Hiện Xuống",
+          "rank": "4th Class (Feria)",
+          "color": "Green",
+          "season": "Time after Pentecost"
+        }
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "Tuesday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "HDGMVN elevates Vietnamese Martyrs (Andrew Dũng-Lạc & Companions) to Solemnity (Lễ Trọng, Red), whereas General Roman celebrates it as a Memorial, and 1962 TLM celebrates St. John of the Cross (3rd Class)."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+          "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+          "rank": "Memorial",
+          "color": "Red",
+          "date": "2026-11-24",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+          "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+          "rank": "Memorial",
+          "color": "Red",
+          "date": "2026-11-24",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Solemnity of the Holy Martyrs of Vietnam (St. Andrew Dũng-Lạc & Companions)",
+          "title_vi": "Đại Lễ Các Thánh Tử Đạo Việt Nam (Thánh Anrê Dũng-Lạc và 116 Bạn Tử Đạo) — Bổn Mạng Giáo Hội Việt Nam",
+          "rank": "Solemnity",
+          "color": "Red",
+          "proper_note": "Đại Lễ Trọng Bổn Mạng Giáo Hội Công Giáo Việt Nam (HĐGMVN). Trong Lịch Chung là Lễ Nhớ, tại Việt Nam là Lễ Trọng Bậc I",
+          "date": "2026-11-24",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "St. John of the Cross, Confessor and Doctor & St. Chrysogonus, Martyr",
+          "title_vi": "Thánh Gioan Thánh Giá, Tiến sĩ HT & Thánh Chrysôgônô, Tử đạo",
+          "rank": "3rd Class",
+          "color": "White/Red",
+          "date": "2026-11-24",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "Thursday",
+      "has_divergence": true,
+      "divergence_notes": [],
+      "propers": {
+        "general_roman": {
+          "date": "2026-11-26",
+          "proper": "general_roman",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "usccb": {
+          "title_en": "Thanksgiving Day (USCCB Proper Mass)",
+          "title_vi": "Lễ Tạ Ơn (Thánh Lễ Tạ Ơn Đất Nước — USCCB)",
+          "rank": "Proper Mass / Special",
+          "color": "White",
+          "moveable": true,
+          "date": "2026-11-26",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "date": "2026-11-26",
+          "proper": "hdgmvn",
+          "title_en": "Weekday in Ordinary Time",
+          "title_vi": "Ngày trong Mùa Thường Niên",
+          "rank": "Ferial / Weekday",
+          "color": "Green"
+        },
+        "extraordinary_1962": {
+          "date": "2026-11-26",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Time after Pentecost",
+          "title_vi": "Ngày trong Thời Gian Sau Lễ Hiện Xuống",
+          "rank": "4th Class (Feria)",
+          "color": "Green",
+          "season": "Time after Pentecost"
+        }
+      }
+    },
+    {
+      "date": "2026-12-08",
+      "weekday": "Tuesday",
+      "has_divergence": true,
+      "divergence_notes": [],
+      "propers": {
+        "general_roman": {
+          "title_en": "The Immaculate Conception of the Blessed Virgin Mary",
+          "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội",
+          "rank": "Solemnity",
+          "color": "White",
+          "date": "2026-12-08",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Solemnity of the Immaculate Conception (Patronal Feast of the USA)",
+          "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội (Bổn Mạng Hoa Kỳ)",
+          "rank": "Solemnity",
+          "color": "White",
+          "proper_note": "Principal Patroness of the United States of America",
+          "date": "2026-12-08",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "The Immaculate Conception of the Blessed Virgin Mary",
+          "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội",
+          "rank": "Solemnity",
+          "color": "White",
+          "date": "2026-12-08",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "The Immaculate Conception of the Blessed Virgin Mary",
+          "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội",
+          "rank": "1st Class",
+          "color": "White",
+          "date": "2026-12-08",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2027-05-06",
+      "weekday": "Thursday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "Ascension Thursday vs. Sunday Transference divergence between Universal/1962 and USCCB/HDGMVN."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2027-05-06",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2027-05-06",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2027-05-06",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "1st Class",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2027-05-06",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2027-05-09",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "Ascension Thursday vs. Sunday Transference divergence between Universal/1962 and USCCB/HDGMVN."
+      ],
+      "propers": {
+        "general_roman": {
+          "date": "2027-05-09",
+          "proper": "general_roman",
+          "title_en": "Easter Weekday",
+          "title_vi": "Ngày trong Mùa Phục Sinh",
+          "rank": "Easter Weekday",
+          "color": "White"
+        },
+        "usccb": {
+          "title_en": "The Ascension of the Lord (Transferred to Seventh Sunday of Easter)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Cử Hành Chúa Nhật VII Phục Sinh)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2027-05-09",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "The Ascension of the Lord (Transferred to Seventh Sunday of Easter)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Cử Hành Chúa Nhật VII Phục Sinh)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2027-05-09",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "date": "2027-05-09",
+          "proper": "extraordinary_1962",
+          "title_en": "Feria in Paschaltide",
+          "title_vi": "Ngày trong Mùa Phục Sinh",
+          "rank": "4th Class (Feria)",
+          "color": "White",
+          "season": "Paschaltide"
+        }
+      }
+    },
+    {
+      "date": "2027-11-24",
+      "weekday": "Wednesday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "HDGMVN elevates Vietnamese Martyrs (Andrew Dũng-Lạc & Companions) to Solemnity (Lễ Trọng, Red), whereas General Roman celebrates it as a Memorial, and 1962 TLM celebrates St. John of the Cross (3rd Class)."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+          "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+          "rank": "Memorial",
+          "color": "Red",
+          "date": "2027-11-24",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+          "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+          "rank": "Memorial",
+          "color": "Red",
+          "date": "2027-11-24",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Solemnity of the Holy Martyrs of Vietnam (St. Andrew Dũng-Lạc & Companions)",
+          "title_vi": "Đại Lễ Các Thánh Tử Đạo Việt Nam (Thánh Anrê Dũng-Lạc và 116 Bạn Tử Đạo) — Bổn Mạng Giáo Hội Việt Nam",
+          "rank": "Solemnity",
+          "color": "Red",
+          "proper_note": "Đại Lễ Trọng Bổn Mạng Giáo Hội Công Giáo Việt Nam (HĐGMVN). Trong Lịch Chung là Lễ Nhớ, tại Việt Nam là Lễ Trọng Bậc I",
+          "date": "2027-11-24",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "St. John of the Cross, Confessor and Doctor & St. Chrysogonus, Martyr",
+          "title_vi": "Thánh Gioan Thánh Giá, Tiến sĩ HT & Thánh Chrysôgônô, Tử đạo",
+          "rank": "3rd Class",
+          "color": "White/Red",
+          "date": "2027-11-24",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2028-05-25",
+      "weekday": "Thursday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "Ascension Thursday vs. Sunday Transference divergence between Universal/1962 and USCCB/HDGMVN."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2028-05-25",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2028-05-25",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2028-05-25",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "1st Class",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2028-05-25",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2028-11-24",
+      "weekday": "Friday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "HDGMVN elevates Vietnamese Martyrs (Andrew Dũng-Lạc & Companions) to Solemnity (Lễ Trọng, Red), whereas General Roman celebrates it as a Memorial, and 1962 TLM celebrates St. John of the Cross (3rd Class)."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+          "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+          "rank": "Memorial",
+          "color": "Red",
+          "date": "2028-11-24",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+          "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+          "rank": "Memorial",
+          "color": "Red",
+          "date": "2028-11-24",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Solemnity of the Holy Martyrs of Vietnam (St. Andrew Dũng-Lạc & Companions)",
+          "title_vi": "Đại Lễ Các Thánh Tử Đạo Việt Nam (Thánh Anrê Dũng-Lạc và 116 Bạn Tử Đạo) — Bổn Mạng Giáo Hội Việt Nam",
+          "rank": "Solemnity",
+          "color": "Red",
+          "proper_note": "Đại Lễ Trọng Bổn Mạng Giáo Hội Công Giáo Việt Nam (HĐGMVN). Trong Lịch Chung là Lễ Nhớ, tại Việt Nam là Lễ Trọng Bậc I",
+          "date": "2028-11-24",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "St. John of the Cross, Confessor and Doctor & St. Chrysogonus, Martyr",
+          "title_vi": "Thánh Gioan Thánh Giá, Tiến sĩ HT & Thánh Chrysôgônô, Tử đạo",
+          "rank": "3rd Class",
+          "color": "White/Red",
+          "date": "2028-11-24",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2029-05-10",
+      "weekday": "Thursday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "Ascension Thursday vs. Sunday Transference divergence between Universal/1962 and USCCB/HDGMVN."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2029-05-10",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2029-05-10",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2029-05-10",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "1st Class",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2029-05-10",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2029-11-24",
+      "weekday": "Saturday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "HDGMVN elevates Vietnamese Martyrs (Andrew Dũng-Lạc & Companions) to Solemnity (Lễ Trọng, Red), whereas General Roman celebrates it as a Memorial, and 1962 TLM celebrates St. John of the Cross (3rd Class)."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+          "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+          "rank": "Memorial",
+          "color": "Red",
+          "date": "2029-11-24",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+          "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+          "rank": "Memorial",
+          "color": "Red",
+          "date": "2029-11-24",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Solemnity of the Holy Martyrs of Vietnam (St. Andrew Dũng-Lạc & Companions)",
+          "title_vi": "Đại Lễ Các Thánh Tử Đạo Việt Nam (Thánh Anrê Dũng-Lạc và 116 Bạn Tử Đạo) — Bổn Mạng Giáo Hội Việt Nam",
+          "rank": "Solemnity",
+          "color": "Red",
+          "proper_note": "Đại Lễ Trọng Bổn Mạng Giáo Hội Công Giáo Việt Nam (HĐGMVN). Trong Lịch Chung là Lễ Nhớ, tại Việt Nam là Lễ Trọng Bậc I",
+          "date": "2029-11-24",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "St. John of the Cross, Confessor and Doctor & St. Chrysogonus, Martyr",
+          "title_vi": "Thánh Gioan Thánh Giá, Tiến sĩ HT & Thánh Chrysôgônô, Tử đạo",
+          "rank": "3rd Class",
+          "color": "White/Red",
+          "date": "2029-11-24",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2030-05-30",
+      "weekday": "Thursday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "Ascension Thursday vs. Sunday Transference divergence between Universal/1962 and USCCB/HDGMVN."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2030-05-30",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2030-05-30",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Thursday of the Sixth Week of Easter (Ascension transferred to Sunday)",
+          "title_vi": "Thứ Năm Tuần VI Phục Sinh (Lễ Chúa Lên Trời dời sang Chúa Nhật)",
+          "rank": "Easter Weekday",
+          "color": "White",
+          "moveable": true,
+          "transferred": true,
+          "date": "2030-05-30",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "The Ascension of the Lord (Traditional Thursday)",
+          "title_vi": "Đại Lễ Chúa Lên Trời (Thứ Năm Truyền Thống)",
+          "rank": "1st Class",
+          "color": "White",
+          "moveable": true,
+          "transferred": false,
+          "date": "2030-05-30",
+          "proper": "extraordinary_1962"
+        }
+      }
+    },
+    {
+      "date": "2030-11-24",
+      "weekday": "Sunday",
+      "has_divergence": true,
+      "divergence_notes": [
+        "HDGMVN elevates Vietnamese Martyrs (Andrew Dũng-Lạc & Companions) to Solemnity (Lễ Trọng, Red), whereas General Roman celebrates it as a Memorial, and 1962 TLM celebrates St. John of the Cross (3rd Class)."
+      ],
+      "propers": {
+        "general_roman": {
+          "title_en": "Solemnity of Our Lord Jesus Christ, King of the Universe",
+          "title_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ (Chúa Nhật XXXIV Thường Niên)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "date": "2030-11-24",
+          "proper": "general_roman"
+        },
+        "usccb": {
+          "title_en": "Solemnity of Our Lord Jesus Christ, King of the Universe",
+          "title_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ (Chúa Nhật XXXIV Thường Niên)",
+          "rank": "Solemnity",
+          "color": "White",
+          "moveable": true,
+          "date": "2030-11-24",
+          "proper": "usccb"
+        },
+        "hdgmvn": {
+          "title_en": "Solemnity of Christ the King (Coinciding with Solemnity of Vietnamese Martyrs)",
+          "title_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ & Đại Lễ Các Thánh Tử Đạo Việt Nam (Trùng Ngày / Chuyển Cử Hành)",
+          "rank": "Solemnity",
+          "color": "White/Red",
+          "moveable": true,
+          "proper_note": "Khi Lễ Đức Kitô Vua trùng ngày 24/11, Lễ Các Thánh Tử Đạo VN được chuyển cử hành vào 25/11 theo quy chế Phụng vụ.",
+          "date": "2030-11-24",
+          "proper": "hdgmvn"
+        },
+        "extraordinary_1962": {
+          "title_en": "St. John of the Cross, Confessor and Doctor & St. Chrysogonus, Martyr",
+          "title_vi": "Thánh Gioan Thánh Giá, Tiến sĩ HT & Thánh Chrysôgônô, Tử đạo",
+          "rank": "3rd Class",
+          "color": "White/Red",
+          "date": "2030-11-24",
+          "proper": "extraordinary_1962"
+        }
+      }
+    }
+  ]
+}

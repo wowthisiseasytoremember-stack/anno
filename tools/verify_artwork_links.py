@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Validate and verify sacred art dossiers catalog for Anno.
 
-Sprint B.2: High-Resolution Sacred Art Dossiers & License Clearance.
+Sprint C.3: Museum API 4K Sacred Art Ingestion Pipeline & 100+ Art Dossiers.
 Validates:
 1. JSON structure & required schema fields for each artwork dossier.
-2. Count >= 60 curated artworks.
+2. Count >= 100 curated artworks.
 3. License strings (Public Domain / CC0 / Life+70).
 4. Bilingual theological descriptions (EN & VI with accurate diacritics).
 5. HTTP URL reachability for all highres and thumbnail images.
@@ -62,8 +62,8 @@ def validate_schema_and_fields(catalog: Dict[str, Any]) -> Tuple[List[str], List
         errors.append("Catalog must contain an 'artworks' array.")
         return errors, []
 
-    if len(artworks) < 60:
-        errors.append(f"Catalog contains {len(artworks)} artworks; required minimum is 60.")
+    if len(artworks) < 100:
+        errors.append(f"Catalog contains {len(artworks)} artworks; required minimum is 100.")
 
     seen_ids = set()
 

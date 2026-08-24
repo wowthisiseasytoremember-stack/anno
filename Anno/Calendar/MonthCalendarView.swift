@@ -8,8 +8,16 @@ struct MonthCalendarView: View {
     let language: LanguageMode
     let onSelectEntry: (AnnoEntry) -> Void
 
+    enum CalendarPresentationMode: String, CaseIterable, Identifiable {
+        case monthGrid = "Grid"
+        case tactileWheel = "Wheel"
+
+        var id: String { rawValue }
+    }
+
     @State private var displayedMonth: Date
     @State private var selectedDate: Date
+    @State private var presentationMode: CalendarPresentationMode = .monthGrid
 
     // MARK: Init
 
@@ -110,13 +118,23 @@ struct MonthCalendarView: View {
 
     var body: some View {
         ZStack {
-            AnnoTheme.narthex.ignoresSafeArea()
-
             ScrollView {
                 VStack(spacing: 16) {
-                    monthHeader
-                    weekdayHeader
-                    calendarGrid
+                    if presentationMode == .monthGrid {
+                        monthHeader
+                        weekdayHeader
+                        calendarGrid
+                    } else {
+                        TactileDateWheel(
+                            selectedDate: $selectedDate,
+                            entries: entries,
+                            language: language,
+                            onSelectDate: { date in
+                                displayedMonth = date
+                            }
+                        )
+                    }
+
                     detailPanel
                 }
                 .padding(.horizontal, 16)
@@ -125,11 +143,24 @@ struct MonthCalendarView: View {
             .scrollContentBackground(.hidden)
             .scrollIndicators(.hidden)
         }
+        .liturgicalAtmosphere(named: selectedDayEntries.first?.liturgical.color ?? "Gold", intensity: 0.65)
         .navigationTitle(navigationTitle)
         .navigationBarTitleDisplayMode(.inline)
         .toolbarColorScheme(.dark, for: .navigationBar)
         .toolbarBackground(AnnoTheme.narthex, for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Picker("Mode", selection: $presentationMode) {
+                    Image(systemName: "square.grid.3x3.fill")
+                        .tag(CalendarPresentationMode.monthGrid)
+                    Image(systemName: "slider.horizontal.3")
+                        .tag(CalendarPresentationMode.tactileWheel)
+                }
+                .pickerStyle(.segmented)
+                .frame(width: 88)
+            }
+        }
     }
 
     // MARK: - Month Header

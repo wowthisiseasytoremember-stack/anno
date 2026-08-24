@@ -127,7 +127,7 @@ def compute_hebrew(gregorian_date, sundown_str):
     year_obj = hebrewcal.Year(h.year)
     rh = dates.HebrewDate(h.year, 7, 1)
     rh_dow = rh.weekday()
-    dow_code = {0: '7', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6'}.get(rh_dow, '?')
+    dow_code = str(rh_dow) if 1 <= rh_dow <= 7 else '?'
     year_len = len(year_obj)
     leap_marker = 'H' if year_obj.leap else 'K'
     # Normalize year length shorthand: 353/383 = g, 354/384 = s, 355/385 = sh

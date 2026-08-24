@@ -7,6 +7,7 @@ struct TodayView: View {
 
     @State private var isBookmarked: Bool = false
     @State private var bookmarkScale: CGFloat = 1.0
+    @State private var isShowingArtCanvas: Bool = false
 
     private var localizedText: LocalizedEntryText {
         LocalizedEntryText(entry: entry, language: language)
@@ -42,34 +43,18 @@ struct TodayView: View {
             .padding(.top, 16)
             .padding(.bottom, 48)
         }
-        .background {
-            backgroundAtmosphere
-        }
+        .liturgicalAtmosphere(named: entry.liturgical.color)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 languagePicker
             }
         }
-    }
-
-    // MARK: - 1. Background Atmosphere
-
-    private var backgroundAtmosphere: some View {
-        ZStack(alignment: .top) {
-            AnnoTheme.narthex
-                .ignoresSafeArea()
-
-            RadialGradient(
-                gradient: Gradient(colors: [
-                    Color(red: 0x1A / 255.0, green: 0x16 / 255.0, blue: 0x10 / 255.0),
-                    AnnoTheme.narthex.opacity(0.0)
-                ]),
-                center: .top,
-                startRadius: 0,
-                endRadius: 300
+        .fullScreenCover(isPresented: $isShowingArtCanvas) {
+            SacredArtCanvas(
+                entry: entry,
+                language: $language,
+                onDismiss: { isShowingArtCanvas = false }
             )
-            .frame(height: 300)
-            .ignoresSafeArea(edges: .top)
         }
     }
 
@@ -185,57 +170,80 @@ struct TodayView: View {
     // MARK: - 4. Hero Artwork Card
 
     private var artworkCard: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            AsyncImage(url: URL(string: entry.artwork.sourceUrl)) { phase in
-                switch phase {
-                case .empty:
-                    ShimmerPlaceholder()
-                case .success(let image):
-                    image
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                case .failure:
-                    ZStack {
-                        AnnoTheme.choir
-                        Image(systemName: "photo.on.rectangle.angled")
-                            .font(.largeTitle)
-                            .foregroundColor(AnnoTheme.incense.opacity(0.4))
-                    }
-                @unknown default:
-                    ShimmerPlaceholder()
-                }
-            }
-            .aspectRatio(1.35, contentMode: .fit)
-            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-            .shadow(color: .black.opacity(0.4), radius: 20, y: 10)
-            .accessibilityLabel(entry.artwork.title)
-
-            VStack(alignment: .leading, spacing: 6) {
-                HStack(alignment: .top, spacing: 8) {
-                    Text(entry.artwork.title)
-                        .font(.headline)
-                        .fontDesign(.serif)
-                        .foregroundColor(AnnoTheme.vellum)
-                        .lineLimit(2)
-
-                    Spacer(minLength: 0)
-
-                    Text(entry.artwork.status)
-                        .font(.caption2.weight(.bold))
-                        .foregroundColor(AnnoTheme.choir)
-                        .padding(.horizontal, 8)
-                        .padding(.vertical, 3)
-                        .background {
-                            Capsule()
-                                .fill(AnnoTheme.goldLeaf)
+        Button(action: {
+            Haptics.light()
+            isShowingArtCanvas = true
+        }) {
+            VStack(alignment: .leading, spacing: 14) {
+                ZStack(alignment: .bottomTrailing) {
+                    AsyncImage(url: URL(string: entry.artwork.sourceUrl)) { phase in
+                        switch phase {
+                        case .empty:
+                            ShimmerPlaceholder()
+                        case .success(let image):
+                            image
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                        case .failure:
+                            ZStack {
+                                AnnoTheme.choir
+                                Image(systemName: "photo.on.rectangle.angled")
+                                    .font(.largeTitle)
+                                    .foregroundColor(AnnoTheme.incense.opacity(0.4))
+                            }
+                        @unknown default:
+                            ShimmerPlaceholder()
                         }
-                }
+                    }
+                    .aspectRatio(1.35, contentMode: .fit)
+                    .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .shadow(color: .black.opacity(0.4), radius: 20, y: 10)
 
-                Text("\(entry.artwork.maker) · \(entry.artwork.dateLabel)")
-                    .font(.caption)
-                    .foregroundColor(AnnoTheme.incense)
+                    // Zoom indicator badge
+                    HStack(spacing: 4) {
+                        Image(systemName: "arrow.up.left.and.arrow.down.right")
+                            .font(.system(size: 10, weight: .bold))
+                        Text(language == .vietnamese ? "Phóng to 4K" : "Zoom 4K")
+                            .font(.system(size: 10, weight: .semibold))
+                    }
+                    .foregroundColor(AnnoTheme.goldLeaf)
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 4)
+                    .background(AnnoTheme.narthex.opacity(0.85))
+                    .clipShape(Capsule())
+                    .overlay(Capsule().stroke(AnnoTheme.goldLeaf.opacity(0.5), lineWidth: 0.8))
+                    .padding(10)
+                }
+                .accessibilityLabel(entry.artwork.title)
+
+                VStack(alignment: .leading, spacing: 6) {
+                    HStack(alignment: .top, spacing: 8) {
+                        Text(entry.artwork.title)
+                            .font(.headline)
+                            .fontDesign(.serif)
+                            .foregroundColor(AnnoTheme.vellum)
+                            .lineLimit(2)
+
+                        Spacer(minLength: 0)
+
+                        Text(entry.artwork.status)
+                            .font(.caption2.weight(.bold))
+                            .foregroundColor(AnnoTheme.choir)
+                            .padding(.horizontal, 8)
+                            .padding(.vertical, 3)
+                            .background {
+                                Capsule()
+                                    .fill(AnnoTheme.goldLeaf)
+                            }
+                    }
+
+                    Text("\(entry.artwork.maker) · \(entry.artwork.dateLabel)")
+                        .font(.caption)
+                        .foregroundColor(AnnoTheme.incense)
+                }
             }
         }
+        .buttonStyle(.plain)
     }
 
     // MARK: - 5. Quick-Actions Bar
