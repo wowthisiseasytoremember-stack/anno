@@ -100,7 +100,7 @@ enum AnnoMockData {
 
 
 def main() -> None:
-    fixture = json.loads(SOURCE.read_text())
+    fixture = json.loads(SOURCE.read_text(encoding="utf-8"))
 
     # Keep the emitted JSON compact enough to paste into a Swift playground or app target.
     json_payload = json.dumps(
@@ -137,7 +137,7 @@ def main() -> None:
     )
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(swift)
+    OUTPUT.write_text(swift, encoding="utf-8")
     print(f"Wrote {OUTPUT.relative_to(ROOT)}")
 
 
