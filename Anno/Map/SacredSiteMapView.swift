@@ -293,7 +293,7 @@ public struct SacredSiteMapView: View {
             HStack(spacing: 8) {
                 ForEach(filteredRoutes) { route in
                     let isSelected = geoLoader.selectedRoute?.id == route.id
-                    let isConnected = currentEntry != nil && route.isLiturgicallyConnected(to: currentEntry!)
+                    let isConnected = currentEntry.map { route.isLiturgicallyConnected(to: $0) } ?? false
 
                     Button {
                         withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {

@@ -338,7 +338,12 @@ struct TactileDateWheel: View {
     }
 
     private func triggerHapticFeedback(for date: Date) {
-        if lastHapticDate == nil || !calendar.isDate(date, inSameDayAs: lastHapticDate!) {
+        if let last = lastHapticDate {
+            if !calendar.isDate(date, inSameDayAs: last) {
+                Haptics.light()
+                lastHapticDate = date
+            }
+        } else {
             Haptics.light()
             lastHapticDate = date
         }

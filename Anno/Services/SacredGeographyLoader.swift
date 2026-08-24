@@ -2,6 +2,7 @@ import Foundation
 import Combine
 import CoreLocation
 
+@MainActor
 public final class SacredGeographyLoader: ObservableObject {
     public static let shared = SacredGeographyLoader()
 
