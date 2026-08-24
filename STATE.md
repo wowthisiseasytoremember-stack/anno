@@ -5,7 +5,7 @@ last_active: 2026-08-24
 ---
 # interfaith-devotional — Project State
 
-**Last active:** 2026-08-19
+**Last active:** 2026-08-24
 
 ## Current Frontier Artifacts
 
@@ -36,3 +36,13 @@ last_active: 2026-08-24
 
 - **Server (doable now):** Add sources to fortnight/August fixtures (or relax `validate_mock_content.py` source requirement). Run a human VN diacritic review. Generate content for Sep 2026 →.
 - **Mac (fenced):** Execute `docs/NATIVE_BUILD_RUNBOOK.md` Sprint 1-6 on a macOS machine.
+
+## 2026-08-24 Verify + 2027-2028 Prep (branch `work/verify-2027-2028`)
+**Status:** verification complete; 2027-2028 handoff scaffolding built, content not yet researched.
+
+- **Verification (PASS):** Engine A `test_calendar_engine.py` 10/10 on ichabod (covers 2026-2030). Engine B gate works. 8 corrupted VI leaves in Aug-2026 repaired (unified + Swift fixture now 0 U+FFFD). Added `tools/validate_vietnamese_integrity.py` and `artwork.source_url` example.com guard.
+- **2027-2028 seed:** `data/seed/anno_seed_2027_2028.json` (731 days, liturgical + 5 calendar conversions) via `multi_proper_calendar_resolver` + `computus_engine`.
+- **Handoff packets:** `docs/research/HANDOFF_BRIEF.md` (self-contained) + 24 monthly packets `docs/research/handoff/2027-01.md…2028-12.md` + `docs/research/handoff_manifest.yaml` (tracker, 24 chunks `todo`).
+- **Ingestion:** `tools/ingest_2027_2028.py` merges seed + returned research → `anno_unified_2027_2028.json` (guarantees 100% `_vi`). Dry-run sample passed gate (exit 0) and ingested (0 missing `_vi`).
+- **Open:** `Docs/` vs `docs/` case-collision (pre-existing, unresolved — blocks committing handoff docs cleanly). 23/24 chunks await third-party research returns. Placeholder artwork URLs in 2026 mock (polish).
+- See `VERIFICATION_REPORT.md` for full detail.
