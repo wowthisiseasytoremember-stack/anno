@@ -3,10 +3,12 @@
 **Ethos:** Sacred Multi-Calendar Date Conversion, Catholic-First Sacred History, Bilingual (EN/VI) & Sourced Research  
 **Canonical Master Plans:**
 - Master Consolidated Plan: [`docs/plans/CONSOLIDATED_AUDIT_AND_EXPANSION_PLAN.md`](docs/plans/CONSOLIDATED_AUDIT_AND_EXPANSION_PLAN.md)
+- Product Craft & Ingestion Plan: [`docs/plans/PRODUCT_CRAFT_AND_CONTINUOUS_INGESTION_PLAN.md`](docs/plans/PRODUCT_CRAFT_AND_CONTINUOUS_INGESTION_PLAN.md)
+- Liturgical Solar Compass Design: [`docs/LITURGICAL_SOLAR_COMPASS_DESIGN.md`](docs/LITURGICAL_SOLAR_COMPASS_DESIGN.md)
 - Phase A (Content Pipeline): [`docs/plans/PHASE_A_CONTENT_EXPANSION_SPRINT.md`](docs/plans/PHASE_A_CONTENT_EXPANSION_SPRINT.md)
 - Phase B (Monetization Assets): [`docs/plans/PHASE_B_MONETIZATION_ASSETS_SPRINT.md`](docs/plans/PHASE_B_MONETIZATION_ASSETS_SPRINT.md)
 - Architecture & Continuity: [`MVP_PLAN_FINAL.md`](MVP_PLAN_FINAL.md) / [`ARCHITECTURE.md`](ARCHITECTURE.md) / [`Conversion-Design.md`](Conversion-Design.md)  
-**Current Phase:** Phase A & Phase B (100% Complete & Verified on Linux) $\rightarrow$ Phase C/D (macOS Client Scaffolding)
+**Current Phase:** Phase A, B & C (Linux Server & Engine 100% Verified) $\rightarrow$ Phase D/E (macOS Client Scaffolding & Xcode Assembly)
 
 ---
 
@@ -14,14 +16,15 @@
 
 | Metric / Dimension | Current Level (Snapshot) | Real Product Target (KPI) | Status & Active Gap |
 |---|---|---|---|
-| **Deterministic Calendar Engine** | `calendar_engine.py` (Gregorian, Hebrew, Hijri) | **100% deterministic multi-calendar conversion** | ✅ **DONE:** Reconciled & passing Python engine tests. |
+| **Deterministic Calendar Engine** | `calendar_engine.py` (5-year 2026–2030 dataset, 1,826 days) | **100% deterministic multi-calendar conversion** | ✅ **DONE:** Reconciled & 10/10 passing Python engine tests. |
+| **Computus & Moveable Feasts** | `tools/computus_engine.py` + `tools/multi_proper_calendar_resolver.py` | **Easter Computus 1900–2100 & multi-proper divergence** | ✅ **DONE (2026-08-24):** Computus anchors & USCCB/HDGMVN/1962 rules generated. |
 | **Bilingual Localization (EN/VI)** | Structural Swift manager + 182-day continuous dataset + 63-key string catalog | **100% bilingual EN & VI text for all feast days & saints** | ✅ **DONE (2026-08-24):** 182 days (1,274 VI fields, 0 empty); 63/63 Localizable.strings keys (100% parity). |
-| **Engine B Source Gate & Citations** | `validate_mock_content.py` + `validate_engine_b_output.py` | **100% strict LLM citation validation before use** | ✅ **DONE:** All 182 entries pass with $\ge 2$ verified primary/academic sources. |
-| **Swift Fixture Exporter** | `export_swift_fixture.py` script | **Automated 4-year calendar JSONL -> Swift export** | ✅ **DONE:** 182-day Swift mock dataset compiled into `AnnoMockData.swift`. |
-| **Monetization & StoreKit 2** | `AnnoProducts.storekit` + `EntitlementService.swift` | **Full 4-tier funnel with Day Pass & Pilgrimage Subscriptions** | ✅ **DONE:** StoreKit config, paywall triggers, and entitlement service built. |
-| **Sacred Geography & Routes** | `PilgrimageRoutes/` (14 routes, 69 waypoints) + `SacredSanctuaries/` (72 dossiers) | **Curated GPS pilgrimage route packs & global sacred geography master** | ✅ **DONE (2026-08-24):** 72 standalone sanctuary dossiers + 14 linear routes (69 waypoints) + master catalog `sacred_geography_master.json`. |
-| **Sacred Art Iconography** | `ArtDossiers/` (65 masterpieces) | **High-res zoomable sacred art dossiers** | ✅ **DONE:** 65 public domain works with active HTTP URLs and bilingual notes. |
-| **Rotating Devotional Pool** | `anno_devotional_pool_365.json` | **365-day bilingual Catholic devotional rotation** | ✅ **DONE:** 365 days across 12 spiritual cycles with Swift loader. |
+| **Global Sacred Relics Registry** | `Anno/Resources/sacred_relics_registry.json` (83 relics across 27 countries) | **Curated WGS84 GPS Catholic relics & tombs directory** | ✅ **DONE (2026-08-24):** 83 relics with exact GPS coordinates and primary sources. |
+| **Sacred Geography & Routes** | `PilgrimageRoutes/` (7 route packs, 36 waypoints) | **Curated GPS pilgrimage route packs** | ✅ **DONE (2026-08-24):** Camino, Via Francigena, East Asia, Rome 7 Churches, Holy Land, Marian, Vietnam. |
+| **Sacred Art Iconography** | `ArtDossiers/` (110 masterpieces, 220 active URLs) | **High-res zoomable sacred art dossiers** | ✅ **DONE:** 110 public domain works with 220 verified reachable HTTP URLs. |
+| **SwiftUI Native Craft & Haptics** | `SacredArtCanvas.swift`, `TactileDateWheel.swift`, `LiturgicalThemeModifier.swift` | **Luxury Swiss-grade tactile date scrubbing & art canvas** | ✅ **DONE:** Pinch-to-zoom 6x, physical haptics, dynamic atmospheric glows. |
+| **Audio Narration Stream** | `AudioDevotionalPlayer.swift` + 12-track catalog | **Background AVFoundation streaming & lock-screen controls** | ✅ **DONE:** Audio player service and bilingual narration catalog complete. |
+| **Liturgical Solar Compass** | Design spec in `docs/LITURGICAL_SOLAR_COMPASS_DESIGN.md` | **24-hr Astrolabe dial with Hebrew/Islamic sundown ring** | 🟡 **SPEC READY:** Implementation scheduled for macOS client assembly. |
 | **Xcode Project Scaffolding** | Source files in `Anno/` & `ios/` | **Full `.xcodeproj` bundle compiling in Xcode** | 🟡 **Fenced:** Scaffold Xcode project on macOS device per `docs/NATIVE_BUILD_RUNBOOK.md`. |
 
 ---
@@ -36,15 +39,23 @@
 - [x] **Sprint A.5:** 365-Day bilingual devotional rotation pool (`Anno/Resources/anno_devotional_pool_365.json`, `Anno/Models/Devotional.swift`, `tools/validate_devotional_pool.py`).
 
 ### Phase B: Monetization Data Schemas & Route Assets (Linux)
-- [x] **Sprint B.1:** Global Sacred Geography & Pilgrimage Catalog in `Anno/Resources/SacredSanctuaries/` (72 sanctuaries) and `Anno/Resources/PilgrimageRoutes/` (14 route packs, 69 waypoints) with `tools/validate_sanctuaries.py`, `tools/validate_route_coordinates.py`, and compiled master `Anno/Resources/sacred_geography_master.json`.
-- [x] **Sprint B.2:** 65 High-resolution sacred art dossiers in `Anno/Resources/ArtDossiers/art_dossiers_catalog.json` with `tools/verify_artwork_links.py`.
+- [x] **Sprint B.1:** 7 Pilgrimage route packs in `Anno/Resources/PilgrimageRoutes/` (36 total waypoints) with `tools/validate_route_coordinates.py`.
+- [x] **Sprint B.2:** 110 High-resolution sacred art dossiers in `Anno/Resources/ArtDossiers/art_dossiers_catalog.json` with `tools/verify_artwork_links.py`.
 - [x] **Sprint B.3:** StoreKit 2 configuration (`Anno/Configuration/AnnoProducts.storekit`) and bilingual product metadata (`Anno/Resources/product_metadata.json`).
 - [x] **Sprint B.4:** Client paywall trigger rules (`Anno/Resources/paywall_triggers.json`), `Anno/Services/EntitlementService.swift`, and 63-key string catalog expansion (`localization/en` and `localization/vi`).
 
+### Phase C: Product Craft & Continuous Ingestion Pipeline (Linux)
+- [x] **Sprint C.1:** Easter Computus Engine 1900–2100 (`tools/computus_engine.py`), Multi-Proper Calendar Resolver (`tools/multi_proper_calendar_resolver.py`), and 5-Year Dataset `data/calendar_2026_2030.jsonl` (1,826 days).
+- [x] **Sprint C.2:** Butler's Lives Decomposition (`data/assets/butlers_lives_catalog.json`), Catholic Encyclopedia Entity Linker (`data/assets/catholic_encyclopedia_index.json`), and Sacred Relics Registry (`Anno/Resources/sacred_relics_registry.json`).
+- [x] **Sprint C.3:** Open Access Museum Connectors (`tools/ingest_museum_art.py`) and 110-work Art Catalog expansion.
+- [x] **Sprint C.5:** SwiftUI Craft Components (`SacredArtCanvas.swift`, `TactileDateWheel.swift`, `LiturgicalThemeModifier.swift`, `ArtDossier.swift`).
+- [x] **Sprint C.6:** Audio Narration Schema (`docs/AUDIO_NARRATION_SCHEMA.md`), Audio Player Service (`Anno/Services/AudioDevotionalPlayer.swift`), and 12-track bilingual catalog.
+
 ---
 
-## 3. Active Execution Tasks (macOS Environment)
+## 3. Active Execution Tasks (macOS Environment & Craft Polish)
 
-- [ ] **Task C.1:** Xcode project scaffolding on macOS host per [`docs/NATIVE_BUILD_RUNBOOK.md`](docs/NATIVE_BUILD_RUNBOOK.md).
-- [ ] **Task C.2:** MapKit pilgrimage route polyline overlay renderer in `Anno/Map/SacredSiteMapView.swift`.
-- [ ] **Task D.1:** StoreKit 2 sandbox testing and TestFlight build submission.
+- [ ] **Task D.1:** Xcode project scaffolding on macOS host per [`docs/NATIVE_BUILD_RUNBOOK.md`](docs/NATIVE_BUILD_RUNBOOK.md).
+- [ ] **Task D.2:** Implement Liturgical Solar Compass & Sundown Ring in `TodayView.swift` per [`docs/LITURGICAL_SOLAR_COMPASS_DESIGN.md`](docs/LITURGICAL_SOLAR_COMPASS_DESIGN.md).
+- [ ] **Task D.3:** MapKit pilgrimage route polyline overlay renderer in `Anno/Map/SacredSiteMapView.swift`.
+- [ ] **Task E.1:** StoreKit 2 sandbox testing and TestFlight build submission.
