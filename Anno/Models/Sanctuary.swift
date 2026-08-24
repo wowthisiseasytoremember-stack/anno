@@ -65,6 +65,17 @@ public struct Sanctuary: Identifiable, Codable, Hashable {
         default: return category.replacingOccurrences(of: "_", with: " ").capitalized
         }
     }
+
+    public var associated3DReliquaryId: String? {
+        if sanctuaryId.contains("shroud") || sanctuaryId.contains("tunic") || sanctuaryId.contains("sudarium") {
+            return "reliquary_passion_textile"
+        } else if sanctuaryId.contains("cross") || sanctuaryId.contains("christ_cathedral") {
+            return "reliquary_passion_cross"
+        } else if sanctuaryId.contains("santiago") || sanctuaryId.contains("peter") || sanctuaryId.contains("francis") {
+            return "reliquary_silver_casket"
+        }
+        return nil
+    }
 }
 
 public struct SanctuaryLocation: Codable, Hashable {

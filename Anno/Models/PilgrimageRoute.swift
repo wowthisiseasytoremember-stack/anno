@@ -240,6 +240,17 @@ public struct PilgrimageWaypoint: Identifiable, Codable, Hashable {
     public func suggestedPrayer(for language: LanguageMode) -> String {
         language == .vietnamese ? suggestedPrayerVi : suggestedPrayerEn
     }
+
+    public var associated3DReliquaryId: String? {
+        if waypointId.contains("shroud") || waypointId.contains("textile") {
+            return "reliquary_passion_textile"
+        } else if waypointId.contains("cross") || waypointId.contains("relic") || waypointId.contains("cathedral") {
+            return "reliquary_passion_cross"
+        } else if waypointId.contains("santiago") || waypointId.contains("casket") || waypointId.contains("tomb") {
+            return "reliquary_silver_casket"
+        }
+        return nil
+    }
 }
 
 // MARK: - Master Geography Catalog Root

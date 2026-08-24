@@ -724,6 +724,56 @@ public struct SacredSiteMapView: View {
                         )
                     }
 
+                    // Multimedia & AR Action Buttons
+                    HStack(spacing: 8) {
+                        Button {
+                            Haptics.light()
+                            SacredSpatialAudioEngine.shared.playStationNarration(waypoint: wp, language: language)
+                        } label: {
+                            HStack(spacing: 6) {
+                                Image(systemName: "speaker.wave.2.fill")
+                                Text(language == .vietnamese ? "Nghe Lời Nguyện" : "Listen to Prayer")
+                            }
+                            .font(.caption2.weight(.semibold))
+                            .foregroundStyle(AnnoTheme.narthex)
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 8)
+                            .background(
+                                Capsule()
+                                    .fill(
+                                        LinearGradient(
+                                            colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
+                                            startPoint: .topLeading,
+                                            endPoint: .bottomTrailing
+                                        )
+                                    )
+                            )
+                        }
+                        .buttonStyle(.plain)
+
+                        if let _ = wp.associated3DReliquaryId {
+                            Button {
+                                Haptics.selection()
+                            } label: {
+                                HStack(spacing: 6) {
+                                    Image(systemName: "arkit")
+                                    Text(language == .vietnamese ? "Chiêm Ngắm 3D" : "View in AR")
+                                }
+                                .font(.caption2.weight(.semibold))
+                                .foregroundStyle(AnnoTheme.goldLeaf)
+                                .padding(.horizontal, 12)
+                                .padding(.vertical, 8)
+                                .background(
+                                    Capsule()
+                                        .fill(AnnoTheme.choir.opacity(0.8))
+                                        .overlay(Capsule().stroke(AnnoTheme.goldLeaf.opacity(0.6), lineWidth: 1))
+                                )
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                    .padding(.top, 2)
+
                     // Stepper Navigation
                     HStack {
                         let currentIndex = route.waypoints.firstIndex(where: { $0.id == wp.id }) ?? 0
@@ -839,6 +889,62 @@ public struct SacredSiteMapView: View {
                 .padding(12)
                 .background(RoundedRectangle(cornerRadius: 10).fill(AnnoTheme.narthex).overlay(RoundedRectangle(cornerRadius: 10).stroke(AnnoTheme.goldLeaf.opacity(0.35), lineWidth: 1)))
             }
+
+            // Multimedia & AR Action Buttons
+            HStack(spacing: 8) {
+                Button {
+                    Haptics.light()
+                    AudioDevotionalPlayer.shared.play(
+                        trackId: sanctuary.id,
+                        title: sanctuary.name(for: language),
+                        saint: sanctuary.categoryDisplay,
+                        audioUrl: "bundle://hagiography_\(sanctuary.id)",
+                        duration: 180
+                    )
+                } label: {
+                    HStack(spacing: 6) {
+                        Image(systemName: "speaker.wave.2.fill")
+                        Text(language == .vietnamese ? "Nghe Lời Nguyện" : "Listen to Prayer")
+                    }
+                    .font(.caption2.weight(.semibold))
+                    .foregroundStyle(AnnoTheme.narthex)
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 8)
+                    .background(
+                        Capsule()
+                            .fill(
+                                LinearGradient(
+                                    colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
+                                    startPoint: .topLeading,
+                                    endPoint: .bottomTrailing
+                                )
+                            )
+                    )
+                }
+                .buttonStyle(.plain)
+
+                if let _ = sanctuary.associated3DReliquaryId {
+                    Button {
+                        Haptics.selection()
+                    } label: {
+                        HStack(spacing: 6) {
+                            Image(systemName: "arkit")
+                            Text(language == .vietnamese ? "Chiêm Ngắm 3D" : "View in AR")
+                        }
+                        .font(.caption2.weight(.semibold))
+                        .foregroundStyle(AnnoTheme.goldLeaf)
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 8)
+                        .background(
+                            Capsule()
+                                .fill(AnnoTheme.choir.opacity(0.8))
+                                .overlay(Capsule().stroke(AnnoTheme.goldLeaf.opacity(0.6), lineWidth: 1))
+                        )
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .padding(.top, 2)
         }
     }
 
