@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "notre_dame_de_paris",
+  "category": "passion_relic",
+  "name_en": "Cathedral of Notre-Dame de Paris (The Crown of Thorns)",
+  "name_vi": "Nhà Thờ Chính Tòa Đức Bà Paris (Mão Gai Thánh)",
+  "feast_day_association": "Solemnity of the Assumption (August 15) / Good Friday (Veneration of Crown of Thorns)",
+  "location": {
+    "shrine_or_basilica": "Cathédrale Notre-Dame de Paris",
+    "city": "Paris",
+    "region_or_state": "Île-de-France",
+    "country": "France",
+    "latitude": 48.853,
+    "longitude": 2.3499,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1182-05-19",
+    "approving_authority": "Bishop Maurice de Sully / Pope Alexander III / Saint Louis IX (1239)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Crown of Thorns acquired from Baldwin II of Constantinople by King Saint Louis IX in 1238; historically verified and venerated across eight centuries; heroically rescued by Father Jean-Marc Fournier during the April 15, 2019 fire.",
+    "confidence_note_vi": "Mão Gai Thánh do Vua Thánh Louis IX chuộc từ Hoàng đế Baldwin II thành Constantinople năm 1238; được phụng thờ liên tục suốt 8 thế kỷ; được Cha Tuyên úy Jean-Marc Fournier dũng cảm xông vào biển lửa giải cứu trong trận hỏa hoạn ngày 15 tháng 4 năm 2019."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sacred Crown of Thorns of Jesus Christ (Sainte Couronne d'Épines)",
+      "relic_name_vi": "Mão Gai Cực Thánh của Chúa Giêsu Kitô (Sainte Couronne)",
+      "relic_type": "passion_relic",
+      "reliquary_location": "Cathedral Treasury and Reliquary of Saint Louis IX inside Notre-Dame de Paris"
+    }
+  ],
+  "historical_summary_en": "The Cathedral of Notre-Dame de Paris, begun in 1163 under Bishop Maurice de Sully on the Île de la Cité, is the architectural masterpiece of French High Gothic art and the spiritual sanctuary preserving the foremost relic of the Passion: the Holy Crown of Thorns (*La Sainte Couronne d'Épines*).\n\nIn 1238, King Saint Louis IX purchased the Crown of Thorns from Baldwin II, the Latin Emperor of Constantinople. On August 19, 1239, King Louis, walking barefoot dressed in a simple tunic alongside his brother Robert, carried the sacred relic into Paris. Saint Louis built the sublime Sainte-Chapelle to enshrine the relic, which was later transferred to Notre-Dame de Paris following the French Revolution.\n\nThe relic consists of a circular ring of rushes (*Juncus balticus*) woven together, upon which seventy spikes of thorn branches (*Ziziphus spina-christi*) were originally tied. On April 15, 2019, when a catastrophic fire consumed the cathedral's wooden roof and collapsed its spire, the chaplain of the Paris Fire Brigade, Father Jean-Marc Fournier, formed a human chain with firefighters to penetrate the burning structure and rescue the Crown of Thorns and the Blessed Sacrament completely intact.",
+  "historical_summary_vi": "Nhà Thờ Chính Tòa Đức Bà Paris, được khởi công xây dựng năm 1163 bởi Giám mục Maurice de Sully trên đảo Île de la Cité, là kiệt tác nghệ thuật Gothic đỉnh cao của nước Pháp và là nơi lưu giữ thánh tích Cuộc Khổ Nạn vô giá: Mão Gai Cực Thánh của Chúa Giêsu (*La Sainte Couronne d'Épines*).\n\nNăm 1238, Vua Thánh Louis IX đã chuộc lại Mão Gai Thánh từ Hoàng đế Baldwin II thành Constantinople. Ngày 19 tháng 8 năm 1239, Vua Louis IX đã đi chân trần mặc áo vải thô khiêm nhường rước Mão Gai Thánh tiến vào Paris. Ngài đã xây dựng kiệt tác nhà nguyện Sainte-Chapelle để cung nghinh Mão Gai, trước khi thánh tích được chuyển về Nhà thờ Đức Bà Paris sau Cách mạng Pháp.\n\nThánh tích gồm một vòng bện bằng thân cây cói (*Juncus balticus*) từng được gắn 70 nhánh gai nhọn (*Ziziphus spina-christi*). Ngày 15 tháng 4 năm 2019, khi trận đại hỏa hoạn thiêu rụi mái gỗ và làm sụp đổ tháp nhọn nhà thờ, Cha Tuyên úy Đội cứu hỏa Paris Jean-Marc Fournier đã cùng các chiến sĩ dũng cảm xông vào biển lửa giải cứu Mão Gai Thánh và Mình Thánh Chúa an toàn nguyên vẹn.",
+  "scripture_reading": "John 19:2-3",
+  "suggested_prayer_en": "Lord Jesus Christ, who wore the Crown of Thorns and suffered mockery and pain for our salvation, heal the wounds of pride and selfishness in our minds. Grant that we may honor You as King of our hearts and remain faithful witnesses to Your redeeming love. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Kitô, Đấng đã đội Mão Gai đau đớn và chịu mọi sự sỉ nhục để cứu chuộc chúng con, xin chữa lành những vết thương của lòng kiêu ngạo và ích kỷ trong tâm trí chúng con. Xin cho chúng con luôn tôn nhận Chúa là Vua của lòng chúng con và trung kiên làm chứng cho tình yêu cứu độ của Chúa trọn đời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Cathédrale Notre-Dame de Paris Official Historical and Restoration Documentation",
+      "url": "https://www.notredamedeparis.fr/en/",
+      "type": "academic"
+    },
+    {
+      "label": "Archdiocese of Paris - The Holy Crown of Thorns and Relics of the Passion",
+      "url": "https://dioceseparis.fr/",
+      "type": "academic"
+    }
+  ]
+}

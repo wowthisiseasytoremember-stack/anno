@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "national_shrine_immaculate_conception_dc",
+  "category": "marian_apparition",
+  "name_en": "Basilica of the National Shrine of the Immaculate Conception (Washington, D.C.)",
+  "name_vi": "Đại Vương Cung Thánh Đường Quốc Gia Đức Mẹ Vô Nhiễm (Washington, D.C.)",
+  "feast_day_association": "Solemnity of the Immaculate Conception, Patroness of the United States (December 8)",
+  "location": {
+    "shrine_or_basilica": "Basilica of the National Shrine of the Immaculate Conception",
+    "city": "Washington",
+    "region_or_state": "District of Columbia",
+    "country": "United States",
+    "latitude": 38.9331,
+    "longitude": -77.0003,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1959-11-20",
+    "approving_authority": "Pope Pius XI (Blessing of Foundation 1913) / Pope John Paul II (Minor Basilica 1990)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Dedicated as the National Sanctuary of the Catholic Church in the United States; designated a Minor Basilica by Pope John Paul II in 1990; visited by Popes John Paul II, Benedict XVI, and Francis.",
+    "confidence_note_vi": "Được cung hiến làm Đền Thánh Quốc Gia của Giáo hội Công giáo Hoa Kỳ; được Đức Gioan Phaolô II nâng lên hàng Tiểu Vương Cung Thánh Đường năm 1990; đã đón tiếp các Đức Giáo hoàng Gioan Phaolô II, Biển Đức XVI và Phanxicô."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Papal Coronation Tiara of Pope Saint Paul VI and Over 80 National Marian Chapels",
+      "relic_name_vi": "Triều Thiên Ba Tầng Giáo Hoàng của Thánh Giáo Hoàng Phaolô VI và Hơn 80 Nguyện Đường Thánh Mẫu",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Crypt Church and Great Upper Church of the National Shrine in Washington, D.C."
+    }
+  ],
+  "historical_summary_en": "The Basilica of the National Shrine of the Immaculate Conception in Washington, D.C., is the largest Roman Catholic church in North America and one of the ten largest churches in the world. Designated by the American bishops in 1846 under the patronage of Our Lady of the Immaculate Conception, the foundation stone was blessed by Cardinal James Gibbons in 1920 with the personal support of Pope Pius XI.\n\nConstructed without steel framework entirely out of solid masonry stone and brick in the Byzantine-Romanesque style, the basilica was dedicated in November 1959 and completed with the dedication of the monumental *Trinity Dome* mosaic in 2017. The interior houses over eighty chapels honoring Our Lady under various global titles reflecting the immigrant diversity of American Catholicism, including Our Lady of La Vang (Vietnam), Our Lady of Guadalupe (Mexico), Our Lady of Czestochowa (Poland), and Our Lady of Knock (Ireland).\n\nIn 1964, Pope Paul VI donated his Papal Tiara to the National Shrine as a permanent gift to the American faithful in support of the poor. The National Shrine stands as the spiritual heart of Catholicism in the United States.",
+  "historical_summary_vi": "Đại Vương Cung Thánh Đường Quốc Gia Đức Mẹ Vô Nhiễm Nguyên Tội tại Washington, D.C., là thánh đường Công giáo lớn nhất Bắc Mỹ và là một trong 10 ngôi thánh đường lớn nhất thế giới. Được các giám mục Hoa Kỳ chọn làm Đền Thánh Quan Thầy Quốc Gia từ năm 1846, viên đá đầu tiên được Đức Hồng y James Gibbons làm phép năm 1920 dưới sự bảo trợ của Đức Giáo hoàng Piô XI.\n\nĐược xây dựng hoàn toàn bằng kết cấu đá và gạch vững chắc theo phong cách Byzantine-Romanesque mà không cần khung thép chịu lực, ngôi thánh đường được thánh hiến năm 1959 và hoàn thiện kiệt tác khảm vàng vòm *Trinity Dome* năm 2017. Đền thánh có hơn 80 nguyện đường tôn kính Đức Mẹ dưới các tước hiệu của các cộng đoàn di dân, nổi bật như Nguyện Đường Đức Mẹ La Vang (Việt Nam), Đức Mẹ Guadalupe (Mexico), Đức Mẹ Czestochowa (Ba Lan) và Đức Mẹ Knock (Ireland).\n\nNăm 1964, Thánh Giáo hoàng Phaolô VI đã dâng tặng chiếc Triều Thiên Ba Tầng Giáo Hoàng của ngài cho Đền Thánh Quốc Gia làm quà tặng cho giáo dân Mỹ để ủng hộ người nghèo. Nơi đây là trái tim tâm linh rực rỡ của người Công giáo Hoa Kỳ.",
+  "scripture_reading": "Revelation 12:1-2",
+  "suggested_prayer_en": "O Mary, Immaculate Virgin, Patroness of the United States, we entrust our families, our leaders, and our nation to your maternal intercession. Protect our freedom to worship, guard the sanctity of human life, and lead all people into the peace and truth of your Son, Jesus Christ. Amen.",
+  "suggested_prayer_vi": "Lạy Mẹ Maria Vô Nhiễm Nguyên Tội, Đấng Bảo Trợ Nước Mỹ, chúng con xin phó thác gia đình, các nhà lãnh đạo và quê hương đất nước chúng con cho sự cầu bầu từ mẫu của Mẹ. Xin bảo vệ tự do tôn giáo, bảo vệ sự thánh thiêng của sự sống con người và dẫn đưa muôn dân vào trong chân lý và bình an của Chúa Giêsu Kitô, Con Mẹ. Amen.",
+  "primary_sources": [
+    {
+      "label": "Basilica of the National Shrine of the Immaculate Conception Official Archives",
+      "url": "https://www.nationalshrine.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Francis - Homily for the Canonization of Junípero Serra at the National Shrine (September 23, 2015)",
+      "url": "https://www.vatican.va/content/francesco/en/homilies/2015/documents/papa-francesco_20150923_usa-omelia-serra.html",
+      "type": "vatican"
+    }
+  ]
+}

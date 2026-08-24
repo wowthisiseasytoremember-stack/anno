@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_nicholas_basilica_bari",
+  "category": "apostolic_tomb",
+  "name_en": "Pontifical Basilica of Saint Nicholas (Bari)",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Nicôla (Bari)",
+  "feast_day_association": "Feast of Saint Nicholas of Myra (December 6) / Translation to Bari (May 9)",
+  "location": {
+    "shrine_or_basilica": "Pontificia Basilica Minore di San Nicola",
+    "city": "Bari",
+    "region_or_state": "Apulia",
+    "country": "Italy",
+    "latitude": 41.1303,
+    "longitude": 16.8703,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1089-10-01",
+    "approving_authority": "Pope Urban II (Consecration of Crypt and Translation of Relics)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Relics translated from Myra (Lycia) to Bari in 1087 by 62 Bari sailors; crypt consecrated by Pope Urban II in 1089; miraculous 'Manna of Saint Nicholas' collected annually on May 9.",
+    "confidence_note_vi": "Hài cốt được 62 thủy thủ Bari rước từ Myra về Bari năm 1087; hầm mộ do Đức Giáo hoàng Urbanô II thánh hiến năm 1089; chất dầu thơm phép lạ 'Manna của Thánh Nicôla' được thu nhận hằng năm vào ngày 9 tháng 5."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sacred Bones and Miraculous Manna of Saint Nicholas of Myra",
+      "relic_name_vi": "Hài Cốt và Dầu Thơm Phép Lạ Manna của Thánh Nicôla thành Myra",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Underground Crypt beneath the High Altar of the Basilica of San Nicola in Bari"
+    }
+  ],
+  "historical_summary_en": "Saint Nicholas of Myra (c. 270–343), Bishop of Myra in Lycia (modern Demre, Turkey), is one of the most beloved saints in all of Christendom, celebrated for his defense of orthodox Trinitarian faith at the Council of Nicaea (325 AD), his heroic secret charity to poor maidens, and his miraculous protection of sailors and children.\n\nIn 1087, when Lycia fell under Seljuk Turkish control, sixty-two intrepid sailors from Bari sailed to Myra, broke open the saint's marble sarcophagus in the crypt, and translated his sacred relics across the Adriatic to Bari. The majestic Romanesque Basilica of San Nicola was constructed to enshrine his body, and its crypt was consecrated by Pope Urban II in 1089.\n\nFor nearly a millennium, a clear, sweet-scented liquid known as the 'Manna of Saint Nicholas' (*Santa Manna*) has flowed perpetually from the Apostle of Charity's bones, collected annually by the Dominican fathers on May 9. The basilica stands as an extraordinary ecumenical bridge between the Catholic and Eastern Orthodox worlds.",
+  "historical_summary_vi": "Thánh Nicôla thành Myra (khoảng 270–343), Giám mục xứ Myra vùng Lycia, là một trong những vị thánh được yêu mến nhất của Kitô giáo hoàn vũ, nổi tiếng với sự bảo vệ tín điều Chúa Ba Ngôi tại Công đồng Nicaea (325), những việc bác ái âm thầm giúp đỡ người nghèo khó và ơn bảo vệ các thủy thủ, trẻ nhỏ.\n\nNăm 1087, khi vùng Lycia bị quân Seljuk chiếm đóng, 62 thủy thủ thành Bari đã vượt biển đến Myra đưa thánh cốt của ngài về Bari an toàn. Đại Vương Cung Thánh Đường Romanesque tráng lệ San Nicola được xây dựng để lưu giữ di hài ngài và được chính Đức Giáo hoàng Urbanô II thánh hiến hầm mộ năm 1089.\n\nSuốt gần một thiên niên kỷ qua, chất dầu thơm trong suốt ngát hương gọi là 'Manna của Thánh Nicôla' (*Santa Manna*) vẫn liên tục rỉ ra từ hài cốt ngài và được các cha dòng Đaminh thu nhận vào ngày 9 tháng 5 hằng năm. Ngôi đại thánh đường là nhịp cầu đại kết linh thiêng gắn kết hai thế giới Công giáo và Chính Thống giáo.",
+  "scripture_reading": "Matthew 25:34-40",
+  "suggested_prayer_en": "O Holy Bishop Saint Nicholas, tireless protector of the poor, the shipwrecked, and the innocent, pour out upon our cold hearts the sweet manna of divine charity. Teach us to give secretly and generously to the needy, and bring peace and unity to all Christian churches. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Giám Mục Nicôla, Đấng bảo trợ người nghèo khó, kẻ đi biển và các trẻ thơ vô tội, xin tuôn đổ dầu thơm bác ái của Chúa trên tâm hồn nguội lạnh chúng con. Xin dạy chúng con biết rộng lòng quảng đại giúp đỡ tha nhân trong âm thầm và ban bình an hiệp nhất cho Hội Thánh Chúa khắp hoàn cầu. Amen.",
+  "primary_sources": [
+    {
+      "label": "Basilica Pontificia di San Nicola di Bari Official Archival Records",
+      "url": "https://www.basilicasannicola.it/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Francis - Address to the Ecumenical Meeting of Bishops at the Basilica of Saint Nicholas in Bari (July 7, 2018)",
+      "url": "https://www.vatican.va/content/francesco/en/speeches/2018/july/documents/papa-francesco_20180707_bari.html",
+      "type": "vatican"
+    }
+  ]
+}

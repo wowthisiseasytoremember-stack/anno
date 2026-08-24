@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "basilica_of_bom_jesus_goa",
+  "category": "apostolic_tomb",
+  "name_en": "Basilica of Bom Jesus (Tomb of Saint Francis Xavier)",
+  "name_vi": "Đại Vương Cung Thánh Đường Bom Jesus (Lăng Mộ Thánh Phanxicô Xaviê)",
+  "feast_day_association": "Feast of Saint Francis Xavier, Patron of Missions (December 3)",
+  "location": {
+    "shrine_or_basilica": "Basilica of Bom Jesus (Basílica do Bom Jesus)",
+    "city": "Old Goa (Velha Goa)",
+    "region_or_state": "Goa",
+    "country": "India",
+    "latitude": 15.5008,
+    "longitude": 73.9117,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1605-05-15",
+    "approving_authority": "Archbishop Aleixo de Menezes / Pope Gregory XV (Canonization 1622) / Pope Pius XII (Minor Basilica 1946)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Canonized by Pope Gregory XV in 1622; incorrupt body translated to Goa in 1554 and enshrined in the silver mausoleum crafted by Florentine sculptor Giovanni Battista Foggini; UNESCO World Heritage Site.",
+    "confidence_note_vi": "Được Đức Giáo hoàng Grêgôriô XV tuyên thánh năm 1622; thi hài nguyên vẹn được rước về Goa năm 1554 an vị trong hòm bạc cẩm thạch do danh họa Florence Giovanni Battista Foggini chế tác; Di sản Thế giới UNESCO."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Incorrupt Body and Sacred Relics of Saint Francis Xavier, Apostle of the Indies and Japan",
+      "relic_name_vi": "Thi Hài Nguyên Vẹn Không Hư Nát của Thánh Phanxicô Xaviê, Tông Đồ Xứ Ấn và Nhật Bản",
+      "relic_type": "incorrupt_body",
+      "reliquary_location": "Silver Casket in the Chapel of Saint Francis Xavier inside the Basilica of Bom Jesus"
+    }
+  ],
+  "historical_summary_en": "Saint Francis Xavier (1506–1552), co-founder of the Society of Jesus (Jesuits) with Saint Ignatius of Loyola, is hailed as the greatest Catholic missionary since Saint Paul. Sent to Asia in 1541 as Apostolic Nuncio, Francis embarked on an epic decade-long missionary journey covering tens of thousands of nautical miles across India, Malacca, the Moluccas, and Japan, baptizing hundreds of thousands of souls with his own hands until his right arm grew exhausted.\n\nOn December 3, 1552, at the age of forty-six, Francis died of fever on the barren island of Shangchuan (*Sancian*) off the coast of mainland China while awaiting a boat to enter the closed Middle Kingdom. Buried in quicklime so his bones could later be transported, his body was exhumed months later and found completely fresh, supple, and incorrupt, exuding a sweet fragrance.\n\nIn 1554, Xavier's uncorrupted body was translated in triumph to Old Goa and placed within the magnificent Jesuit Basilica of Bom Jesus. Enshrined in a silver casket atop a three-tiered Florentine marble mausoleum gifted by Cosimo III de' Medici, Saint Francis Xavier remains the beloved 'Goencho Saib' (Lord of Goa) and Universal Patron of Catholic Missions.",
+  "historical_summary_vi": "Thánh Phanxicô Xaviê (1506–1552), đồng sáng lập Dòng Tên (Dòng Chúa Giêsu) cùng Thánh Inhaxiô Loyola, được tôn vinh là nhà truyền giáo vĩ đại nhất của Giáo hội kể từ thời Thánh Phaolô Tông Đồ. Được cử sang Châu Á năm 1541 với tư cách Khâm Sứ Tòa Thánh, ngài đã thực hiện chuyến hải trình truyền giáo phi thường kéo dài một thập kỷ qua Ấn Độ, Malacca, quần đảo Maluku và Nhật Bản, đích thân rửa tội cho hàng trăm ngàn tín hữu đến mức cánh tay phải mỏi nhừ.\n\nNgày 3 tháng 12 năm 1552, ở tuổi 46, ngài qua đời vì sốt rét trên đảo hoang Thượng Xuyên ngoài khơi bờ biển Trung Hoa khi đang ngóng đợi thuyền đưa ngài vào đại lục. Thi hài ngài được chôn với vôi sống để sau này tiện cải táng, nhưng khi quật mộ nhiều tháng sau, thi thể ngài vẫn hoàn toàn mềm mại, tươi hồng nguyên vẹn và tỏa hương thơm ngào ngạt.\n\nNăm 1554, thi hài Thánh Phanxicô Xaviê được rước về Goa và an vị trong Vương Cung Thánh Đường Bom Jesus. Nằm trong hòm bạc tráng lệ trên bệ cẩm thạch Florence do Đại công tước Cosimo III de' Medici trao tặng, Thánh Phanxicô Xaviê là Đấng Bảo Trợ Toàn Cầu của Các Xứ Truyền Giáo.",
+  "scripture_reading": "1 Corinthians 9:16-19",
+  "suggested_prayer_en": "O Great Apostle of the Indies and Japan, Saint Francis Xavier, you burned with an unquenchable fire to bring the light of Christ to all nations. Inflame our hearts with your missionary zeal; teach us to seek the salvation of souls above all worldly comforts, and bring the Gospel to the ends of the earth. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Phanxicô Xaviê, Tông Đồ Vĩ Đại của Xứ Ấn và Nhật Bản, ngài đã bừng cháy ngọn lửa không bao giờ tắt để đem ánh sáng Chúa Kitô đến cho muôn dân nước. Xin thắp lên trong lòng chúng con ngọn lửa nhiệt thành truyền giáo; dạy chúng con biết đặt phần rỗi các linh hồn lên trên mọi tiện nghi danh lợi trần thế và hăng say loan báo Tin Mừng cho đến tận cùng trái đất. Amen.",
+  "primary_sources": [
+    {
+      "label": "Archdiocese of Goa and Daman - Official Historical Dossier of Bom Jesus Basilica",
+      "url": "https://archgoadaman.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Pius XI - Apostolic Letter Gravem Sane Declaring St. Francis Xavier Patron of Missions (1927)",
+      "url": "https://www.vatican.va/content/pius-xi/la/apost_letters/documents/hf_p-xi_apl_19271214_gravem-sane.html",
+      "type": "vatican"
+    }
+  ]
+}

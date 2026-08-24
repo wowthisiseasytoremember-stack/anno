@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_anthony_of_padua",
+  "category": "doctor_of_church",
+  "name_en": "Pontifical Basilica of Saint Anthony of Padua (Il Santo)",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Antôn Pađôva",
+  "feast_day_association": "Feast of Saint Anthony of Padua, Doctor of the Church (June 13)",
+  "location": {
+    "shrine_or_basilica": "Pontificia Basilica Minore di Sant'Antonio di Padova",
+    "city": "Padua",
+    "region_or_state": "Veneto",
+    "country": "Italy",
+    "latitude": 45.4014,
+    "longitude": 11.8797,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1232-05-30",
+    "approving_authority": "Pope Gregory IX (Canonization in Spoleto)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Canonized by Pope Gregory IX on May 30, 1232, merely 352 days after his death (the second fastest canonization in Church history); declared Evangelical Doctor of the Church (*Doctor Evangelicus*) by Pope Pius XII in 1946.",
+    "confidence_note_vi": "Được Đức Giáo hoàng Grêgôriô IX tuyên thánh ngày 30 tháng 5 năm 1232, chỉ 352 ngày sau khi qua đời (vụ tuyên thánh nhanh thứ hai trong lịch sử Giáo hội); được Đức Piô XII tuyên phong là Tiến Sĩ Hội Thánh (*Doctor Evangelicus*) năm 1946."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Incorrupt Tongue, Vocal Cords, and Sarcophagus of Saint Anthony",
+      "relic_name_vi": "Lưỡi và Dây Thanh Âm Không Hư Nát cùng Quan Tài Thánh Antôn",
+      "relic_type": "incorrupt_body",
+      "reliquary_location": "Chapel of the Relics (Treasury) and Ark of Saint Anthony Altar"
+    }
+  ],
+  "historical_summary_en": "Saint Anthony of Padua (Fernando Martins de Bulhões, 1195–1231), born in Lisbon, Portugal, was an Augustinian canon who joined the newly founded Franciscan Friars Minor after seeing the relics of the first Franciscan martyrs of Morocco. Endowed with profound biblical erudition and burning eloquence, Anthony became known as the 'Hammer of Heretics' (*Malleus Haereticorum*) and 'Ark of the Testament' (*Arca Testamenti*).\n\nHis preaching throughout northern Italy and southern France was confirmed by numerous miracles, including the fish of Rimini gathering at the shoreline to hear the word of God when heretics refused to listen, and a starved donkey kneeling before the Blessed Sacrament to confound a skeptic.\n\nAnthony died at the Franciscan hermitage of Arcella near Padua on June 13, 1231, at age 35. When his tomb was opened thirty years later by Saint Bonaventure in 1263, Anthony's body had decomposed, but his tongue remained completely incorrupt, fresh, and red—a divine confirmation of the preaching that converted tens of thousands. The massive Byzantine-Gothic Basilica (*Il Santo*) receives millions of pilgrims seeking his powerful intercession.",
+  "historical_summary_vi": "Thánh Antôn Pađôva (Fernando Martins de Bulhões, 1195–1231), sinh trưởng tại Lisbon, Bồ Đào Nha, là một kinh sĩ dòng Thánh Augustinô đã gia nhập Dòng Anh Em Hèn Mọn Phanxicô sau khi chứng kiến thi hài các vị tử đạo Phanxicô đầu tiên tại Maroc. Với sự uyên bác Kinh Thánh phi thường và tài hùng biện bốc lửa, ngài được mệnh danh là 'Búa Đập Dị Giáo' (*Malleus Haereticorum*) và 'Hòm Bia Giao Ước' (*Arca Testamenti*).\n\nSứ vụ giảng thuyết của ngài tại miền bắc nước Ý và miền nam nước Pháp được Thiên Chúa chuẩn nhận qua vô số phép lạ, như đàn cá ở Rimini nổi lên bờ nghe ngài giảng đạo khi những kẻ dị giáo bỏ đi, hay con lừa nhịn đói đã quỳ gối phục lạy trước Mình Thánh Chúa làm sáng tỏ đức tin cho kẻ hoài nghi.\n\nThánh Antôn qua đời tại tu viện Arcella gần Pađôva ngày 13 tháng 6 năm 1231 ở tuổi 35. Ba mươi năm sau, khi Thánh Bonaventura mở mộ ngài năm 1263, toàn bộ thi thể đã tan biến thành tro bụi ngoại trừ chiếc Lưỡi Thánh vẫn hoàn toàn tươi hồng nguyên vẹn—dấu chỉ Thiên Chúa chúc phúc cho chiếc lưỡi đã không mệt mỏi rao giảng Lời Chúa. Đại Vương Cung Thánh Đường (*Il Santo*) đón hàng triệu khách hành hương đến khẩn cầu ơn phù trợ mỗi năm.",
+  "scripture_reading": "Luke 4:18-19",
+  "suggested_prayer_en": "O Wonder-Working Saint Anthony of Padua, Evangelical Doctor and Helper in All Needs, you possessed an ardent love for the Infant Jesus and an unwearied zeal for the lost. Intercede for us in our temporal and spiritual trials, help us recover what is lost in our lives, and draw our hearts to the eternal treasures of Heaven. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Antôn Pađôva hay làm phép lạ, Tiến Sĩ Phúc Âm và là Đấng Bầu Cử trong mọi cơn gian nan, ngài đã hết lòng yêu mến Chúa Hài Đồng Giêsu và luôn thao thức tìm kiếm những con chiên lạc. Xin ngài cầu bầu cho chúng con trong những cơn thử thách phần hồn phần xác, giúp chúng con tìm lại những gì đã mất và hướng lòng chúng con về kho tàng vĩnh cửu trên Quê Trời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Basilica del Santo Official Historical and Relic Documentation",
+      "url": "https://www.santantonio.org/en",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Pius XII - Apostolic Letter Antoniana Solemnia Declaring Saint Anthony a Doctor of the Church (1946)",
+      "url": "https://www.vatican.va/content/pius-xii/la/apost_letters/documents/hf_p-xii_apl_19460116_antoniana-solemnia.html",
+      "type": "vatican"
+    }
+  ]
+}

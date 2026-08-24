@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "sanctuary_of_st_michael_gargano",
+  "category": "monastic_sanctuary",
+  "name_en": "Sanctuary of Saint Michael the Archangel (Monte Sant'Angelo)",
+  "name_vi": "Đền Thánh Tổng Lãnh Thiên Thần Micae (Monte Sant'Angelo, Gargano)",
+  "feast_day_association": "Feast of Saints Michael, Gabriel, and Raphael, Archangels (September 29) / May 8",
+  "location": {
+    "shrine_or_basilica": "Santuario di San Michele Arcangelo (Celeste Basilica)",
+    "city": "Monte Sant'Angelo",
+    "region_or_state": "Foggia, Apulia",
+    "country": "Italy",
+    "latitude": 41.7078,
+    "longitude": 15.955,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "0493-09-29",
+    "approving_authority": "Bishop Saint Lawrence of Siponto / Pope Gelasius I / UNESCO World Heritage Site",
+    "confidence": "confirmed",
+    "confidence_note_en": "Apparitions to Bishop Lorenzo Maiorano in 490-493 AD; designated the 'Celestial Basilica' because Saint Michael declared he had consecrated the cave himself; visited by dozens of popes and Saint Francis of Assisi.",
+    "confidence_note_vi": "Hiện ra với Giám mục Lorenzo Maiorano năm 490-493; được gọi là 'Thánh Đường Thiên Quốc' vì Tổng Lãnh Thiên Thần Micae tuyên bố chính ngài đã thánh hiến hang đá; được vô số Đức Giáo hoàng và Thánh Phanxicô Assisi hành hương."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Celestial Grotto of Saint Michael and Stone Imprint of the Archangel's Footstep",
+      "relic_name_vi": "Hang Đá Thiên Quốc Tổng Lãnh Thiên Thần Micae và Dấu Chân Thánh Khắc Trên Đá",
+      "relic_type": "apparition_site",
+      "reliquary_location": "Natural Cave Sanctuary (Sacra Grotta) inside Monte Sant'Angelo"
+    }
+  ],
+  "historical_summary_en": "The Sanctuary of Monte Sant'Angelo on the Gargano promontory in Apulia is the oldest and most celebrated shrine dedicated to Saint Michael the Archangel in Western Europe. Between 490 and 493 AD, the Archangel Michael appeared four times to Bishop Saint Lawrence Maiorano of Siponto.\n\nWhen the bishop hesitated to enter the dark, forbidding mountain cave, Saint Michael announced: *'I am the Archangel Michael, who always stands in the presence of God. I have chosen this cavern to be my sanctuary on earth... There will be no need to consecrate this church, for I have already consecrated it myself.'* Upon entering, the bishop found a rock altar draped in a purple cloth and a small rock retaining the imprint of a child-sized footstep.\n\nKnown as the 'Celestial Basilica' (*Basilica Celeste*), this is the only Catholic church in the world never consecrated by human hands. Pilgrims throughout history—including Saint Francis of Assisi (who deemed himself unworthy to enter, kneeling at the threshold to carve the sign 'Tau' into the stone), Saint Thomas Aquinas, Saint Padre Pio, and Pope Saint John Paul II—have sought Michael's spiritual protection here.",
+  "historical_summary_vi": "Đền Thánh Monte Sant'Angelo trên mỏm núi Gargano xứ Apulia là đền thánh cổ nhất và nổi tiếng nhất kính Tổng Lãnh Thiên Thần Micae tại Tây Âu. Từ năm 490 đến 493, Tổng Lãnh Thiên Thần Micae đã hiện ra 4 lần với Giám mục Lorenzo Maiorano thành Siponto.\n\nKhi vị giám mục còn ngần ngại trước hang đá tối tăm hiểm trở trên núi, Tổng Lãnh Thiên Thần Micae đã phán: *'Ta là Tổng Lãnh Thiên Thần Micae, Đấng hằng chầu chực trước nhan Thiên Chúa. Ta đã chọn hang đá này làm đền thánh của Ta nơi trần thế... Các ngươi không cần phải thánh hiến nhà thờ này, vì chính Ta đã tự mình thánh hiến.'* Khi bước vào hang, vị giám mục thấy một bàn thờ đá phủ khăn tím và một phiến đá in dấu chân thiên thần.\n\nĐược tôn xưng là 'Thánh Đường Thiên Quốc' (*Basilica Celeste*), đây là ngôi thánh đường duy nhất trên thế giới không do bàn tay con người thánh hiến. Vô số vị thánh như Thánh Phanxicô Assisi, Thánh Tôma Aquinô, Cha Thánh Piô và Đức Gioan Phaolô II đều đã đến quỳ gối khẩn cầu sự bảo vệ của Thánh Micae tại nơi đây.",
+  "scripture_reading": "Revelation 12:7-9",
+  "suggested_prayer_en": "Saint Michael the Archangel, defend us in battle; be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray; and do thou, O Prince of the Heavenly Host, by the power of God, cast into hell Satan and all the evil spirits who prowl about the world seeking the ruin of souls. Amen.",
+  "suggested_prayer_vi": "Lạy Tổng Lãnh Thiên Thần Micae, xin bảo vệ chúng con trong cơn giao chiến; xin che chở chúng con khỏi sự độc ác và mưu chước ma quỷ. Chúng con tha thiết khẩn cầu xin Thiên Chúa trừ diệt nó; và xin ngài, lạy Vị Thủ Lãnh các Thiên Binh Thiên Quốc, dùng quyền năng Thiên Chúa tống xéo Satan cùng bè lũ quỷ dữ đang rảo khắp thế gian làm hư hại các linh hồn xuống đáy hỏa ngục. Amen.",
+  "primary_sources": [
+    {
+      "label": "Santuario di San Michele Arcangelo Official Archival History",
+      "url": "https://www.santuariosanmichele.it/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Saint John Paul II - Address at the Sanctuary of Monte Sant'Angelo (May 24, 1987)",
+      "url": "https://www.vatican.va/content/john-paul-ii/it/speeches/1987/may/documents/hf_jp-ii_spe_19870524_monte-sant-angelo.html",
+      "type": "vatican"
+    }
+  ]
+}

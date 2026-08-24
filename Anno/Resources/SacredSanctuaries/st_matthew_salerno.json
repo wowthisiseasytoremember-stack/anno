@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_matthew_salerno",
+  "category": "apostolic_tomb",
+  "name_en": "Salerno Cathedral Crypt (Tomb of Saint Matthew the Apostle)",
+  "name_vi": "Hầm Mộ Nhà Thờ Chính Tòa Salerno (Lăng Mộ Thánh Mátthêu Tông Đồ)",
+  "feast_day_association": "Feast of Saint Matthew, Apostle and Evangelist (September 21)",
+  "location": {
+    "shrine_or_basilica": "Cattedrale Primaziale di Santa Maria degli Angeli e San Matteo",
+    "city": "Salerno",
+    "region_or_state": "Campania",
+    "country": "Italy",
+    "latitude": 40.6797,
+    "longitude": 14.7656,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1085-05-25",
+    "approving_authority": "Pope Gregory VII (Consecration) / Bishop John of Salerno (Translation 954 AD)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Relics translated to Salerno in 954 AD; Cathedral crypt consecrated by Pope Saint Gregory VII in 1085, where the Pope himself is also buried; continuous veneration of the Apostle's tomb.",
+    "confidence_note_vi": "Hài cốt được rước về Salerno năm 954; Hầm mộ được chính Thánh Giáo hoàng Grêgôriô VII thánh hiến năm 1085 (nơi Đức Giáo hoàng cũng được an táng); truyền thống sùng kính liên tục qua hơn một thiên niên kỷ."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sacred Bones of Saint Matthew the Apostle and Evangelist",
+      "relic_name_vi": "Hài Cốt Thánh Mátthêu Tông Đồ và Tác Giả Sách Phúc Âm",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Under the Central Baroque Altar in the Crypt of Salerno Cathedral"
+    }
+  ],
+  "historical_summary_en": "Saint Matthew (Levi), the tax collector of Capernaum who left his toll booth to follow Jesus (*Matthew 9:9*), authored the First Canonical Gospel directed primarily to Jewish Christians, demonstrating the fulfillment of Old Testament prophecies in Jesus Christ. Following Pentecost, Matthew preached the Gospel in Judea, Ethiopia, and Parthia before suffering martyrdom while offering the Holy Sacrifice of the Mass.\n\nIn the 5th century, the Apostle's body was discovered in Lucania (Paestum) and later hidden during barbarian invasions. In AD 954, Duke Gisulf I of Salerno orchestrated the solemn translation of Matthew's sacred remains to the coastal city of Salerno. In 1085, Norman conqueror Robert Guiscard completed the majestic Romanesque cathedral, which was consecrated by Pope Saint Gregory VII.\n\nThe cathedral crypt is a masterpiece of Baroque polychrome marble and frescoes executed by Belisario Corenzio. Matthew's tomb beneath the altar has been venerated by kings, pontiffs, and pilgrims for over a millennium as the resting place of the tax collector turned evangelist.",
+  "historical_summary_vi": "Thánh Mátthêu (Lêvi), người thu thuế tại Capernaum đã dứt khoát đứng lên rời bỏ bàn thu thuế để theo Chúa Giêsu (*Mátthêu 9:9*), là tác giả của sách Phúc Âm Thứ Nhất dành cho người Do Thái, làm chứng Chúa Giêsu là Đấng Cứu Thế hoàn tất mọi lời tiên tri Cựu Ước. Sau Lễ Hiện Xuống, ngài đi rao giảng Tin Mừng tại Judea, Ethiopia và Parthia trước khi chịu tử đạo ngay bên bàn thờ khi đang cử hành Thánh Lễ.\n\nVào thế kỷ thứ 5, thi hài Thánh Tông đồ được tìm thấy tại vùng Lucania và được bảo tồn qua các cuộc xâm lăng của man tộc. Năm 954, Công tước Gisulf I xứ Salerno đã long trọng rước thánh tích về Salerno. Năm 1085, tướng Norman Robert Guiscard đã hoàn thành ngôi nhà thờ chính tòa tráng lệ và được chính Thánh Giáo hoàng Grêgôriô VII thánh hiến.\n\nGian hầm mộ của nhà thờ là một kiệt tác cẩm thạch đa sắc thời Baroque với các bức bích họa tuyệt mỹ của danh họa Belisario Corenzio. Lăng mộ Thánh Mátthêu dưới bàn thờ chính đã đón nhận vô số vị vua chúa, giáo hoàng và khách hành hương suốt một ngàn năm qua để kính viếng người thu thuế trở thành thánh sử Tin Mừng.",
+  "scripture_reading": "Matthew 9:9-13",
+  "suggested_prayer_en": "O Holy Apostle and Evangelist Saint Matthew, who promptly abandoned worldly riches at the call of the Master, inspire us with a spirit of complete detachment. Help us to hear the voice of Jesus calling us to repentance, and write the holy words of the Gospel upon the tablets of our hearts. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Mátthêu Tông Đồ và Thánh Sử vinh hiển, ngài đã mau mắn từ bỏ tiền tài của cải thế gian khi nghe tiếng Chúa gọi, xin truyền cho chúng con tinh thần thanh thoát từ bỏ. Xin giúp chúng con luôn nhạy bén lắng nghe tiếng Chúa Giêsu mời gọi hoán cải, và khắc ghi những lời thánh thiện của Tin Mừng vào sâu thẳm tâm hồn chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Arcidiocesi di Salerno-Campagna-Acerno Official Cathedral Chronicles",
+      "url": "https://www.diocesisalerno.it/",
+      "type": "academic"
+    },
+    {
+      "label": "Catholic Encyclopedia - Saint Matthew the Apostle and Salerno Relics",
+      "url": "https://www.newadvent.org/cathen/10056b.htm",
+      "type": "encyclopedia"
+    }
+  ]
+}

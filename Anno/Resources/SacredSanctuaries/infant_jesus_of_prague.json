@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "infant_jesus_of_prague",
+  "category": "passion_relic",
+  "name_en": "Church of Our Lady Victorious (The Infant Jesus of Prague)",
+  "name_vi": "Nhà Thờ Đức Mẹ Chiến Thắng (Chúa Hài Đồng Praha)",
+  "feast_day_association": "Feast of the Holy Name of Jesus (January 3) / First Sunday of June",
+  "location": {
+    "shrine_or_basilica": "Kostel Panny Marie Vítězné a svatého Antonína Paduánského",
+    "city": "Prague (Malá Strana)",
+    "region_or_state": "Bohemia",
+    "country": "Czech Republic",
+    "latitude": 50.0858,
+    "longitude": 14.4036,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1655-04-04",
+    "approving_authority": "Bishop of Prague Cardinal Ernst Adalbert von Harrach / Pope Benedict XVI (Golden Crown 2009)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Statue gifted by Princess Polyxena of Lobkowicz to Discalced Carmelites in 1628; crowned with papal golden crown by Pope Benedict XVI during his papal visit in September 2009.",
+    "confidence_note_vi": "Tượng do Công chúa Polyxena xứ Lobkowicz dâng tặng dòng Cát Minh Kín năm 1628; được Đức Giáo hoàng Biển Đức XVI đích thân đội triều thiên vàng trong chuyến tông du năm 2009."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous 16th-Century Wax-Coated Wooden Statue of the Infant Jesus of Prague (Il Bambino di Praga)",
+      "relic_name_vi": "Tượng Gỗ Bọc Sáp Phép Lạ Thế Kỷ 16 Chúa Hài Đồng Giêsu Praha",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Marble and Silver Rococo Shrine on the Right Transept Altar in Church of Our Lady Victorious"
+    }
+  ],
+  "historical_summary_en": "The Infant Jesus of Prague (*Pražské Jezulátko*) is a renowned 47-centimeter 16th-century wax-coated wooden statuette of the Child Jesus, depicting Him holding a golden globus cruciger in His left hand while His right hand is raised in blessing. Originating in Spain (traditionally associated with Saint Teresa of Ávila), the image was brought to Bohemia by Duchess María Manrique de Lara and gifted in 1628 by Princess Polyxena of Lobkowicz to the Discalced Carmelite friary of Our Lady Victorious in Prague.\n\nDuring the Thirty Years' War in 1631, Saxon troops sacked the friary, throwing the statue into the debris behind the high altar where its hands were broken off. In 1637, Father Cyril of the Mother of God returned and heard the statue speak: *'Have mercy on me, and I will have mercy on you. Give me my hands, and I will give you peace. The more you honor me, the more I will bless you!'*\n\nAfter the hands were restored, prosperity returned to Prague. Millions of pilgrims worldwide revere the Infant King, celebrated for countless miraculous healings, protection of families, and answers to heartfelt prayer. Pope Benedict XVI crowned the statue with a pure golden crown on September 26, 2009.",
+  "historical_summary_vi": "Chúa Hài Đồng Giêsu Praha (*Pražské Jezulátko*) là pho tượng gỗ bọc sáp cao 47cm nổi tiếng thế giới tạc hình Chúa Giêsu Hài Đồng: tay trái cầm quả địa cầu mang thánh giá và tay phải giơ lên chúc lành. Xuất xứ từ Tây Ban Nha (gắn liền với truyền thống Thánh Nữ Têrêsa Ávila), pho tượng được Công chúa Polyxena xứ Lobkowicz dâng tặng cho đan viện Cát Minh Kín Đức Mẹ Chiến Thắng tại Praha năm 1628.\n\nTrong cuộc Chiến tranh 30 Năm (1631), quân xâm lược Saxon cướp phá tu viện và vứt bức tượng vào đống rác sau bàn thờ làm gãy cụt hai bàn tay. Năm 1637, Cha Cyril trở lại và bỗng nghe thấy tiếng Chúa phán ra từ pho tượng: *'Hãy xót thương Ta, Ta sẽ xót thương con. Hãy gắn lại đôi tay cho Ta, Ta sẽ ban bình an cho con. Càng tôn kính Ta bao nhiêu, Ta sẽ chúc phúc cho con bấy nhiêu!'*\n\nSau khi đôi tay tượng được phục hồi, bình an và ơn phúc đã tràn ngập thành Praha. Hàng triệu tín hữu trên toàn thế giới tôn sùng Chúa Hài Đồng Praha như nguồn cậy trông chở che các gia đình. Đức Giáo hoàng Biển Đức XVI đã đích thân trao vương miện vàng ròng cho pho tượng ngày 26 tháng 9 năm 2009.",
+  "scripture_reading": "Isaiah 9:6",
+  "suggested_prayer_en": "O Infant Jesus, I have recourse to You by Your Holy Mother, asking You to assist me in my necessity, for I firmly believe that Your Divinity can protect me. Deliver me from all distress and grant me the grace to possess You eternally with Mary and Joseph. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Hài Đồng Giêsu, con chạy đến cùng Chúa nhờ lời chuyển cầu của Mẹ Thánh Chúa, xin Chúa cứu giúp con trong cơn gian nan khốn khó này, vì con tin vững vàng rằng Thiên Tính của Chúa có quyền năng che chở con. Xin giải thoát con khỏi mọi âu lo và ban cho con mai sau được hưởng nhan Chúa muôn đời cùng Đức Mẹ và Thánh Cả Giuse. Amen.",
+  "primary_sources": [
+    {
+      "label": "Church of Our Lady Victorious - Infant Jesus of Prague Official Archives",
+      "url": "https://www.pragjesu.cz/en/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Benedict XVI - Address at the Church of the Infant Jesus of Prague (September 26, 2009)",
+      "url": "https://www.vatican.va/content/benedict-xvi/en/speeches/2009/september/documents/hf_ben-xvi_spe_20090926_bambin-gesu-praga.html",
+      "type": "vatican"
+    }
+  ]
+}

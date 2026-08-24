@@ -1,0 +1,60 @@
+{
+  "route_id": "way_of_st_cuthbert",
+  "title_en": "The Way of Saint Cuthbert & Holy Island",
+  "title_vi": "Con Đường Thánh Cuthbert và Đảo Thánh Lindisfarne",
+  "region": "Scottish Borders and Northumberland, England",
+  "duration_days": 6,
+  "distance_km": 100.0,
+  "difficulty": "moderate",
+  "overview_en": "The Way of Saint Cuthbert links the sacred Celtic monastic sites of the Anglo-Scottish border, beginning at the ruins of Melrose Abbey in the Scottish Borders where Saint Cuthbert entered religious life in 651 AD, crossing the Cheviot hills and tidal sands of the Pilgrim's Way to Holy Island (Lindisfarne), and extending to his final resting place inside the majestic Romanesque Cathedral of Durham.",
+  "overview_vi": "Con Đường Thánh Cuthbert kết nối các tu viện Celtic thánh thiện vùng biên giới Scotland và Anh, khởi đầu từ tu viện Melrose nơi ngài tu trì năm 651, băng qua rặng đồi Cheviot và bãi cát thủy triều Con Đường Hành Hương ra Đảo Thánh Lindisfarne, hướng về lăng mộ ngài trong Đại Thánh Đường Romanesque Durham.",
+  "spiritual_theme_en": "Celtic monastic solitude and rhythmic contemplation: living attuned to creation, tidal rhythms, and burning apostolic charity.",
+  "spiritual_theme_vi": "Sự chiêm niệm đan tu Celtic và hòa nhịp cùng thiên nhiên: sống hòa hợp với tạo thành, nhịp triều lên xuống và lòng mến Chúa tha thiết.",
+  "waypoints": [
+    {
+      "waypoint_id": "melrose_abbey_scotland",
+      "name_en": "Melrose Abbey (Scottish Borders)",
+      "name_vi": "Tu Viện Cổ Melrose (Biên Giới Scotland)",
+      "latitude": 55.5986,
+      "longitude": -2.7181,
+      "order": 1,
+      "historical_summary_en": "Founded in 650 AD as Old Melrose where young Cuthbert was inspired by a vision of Saint Aidan's soul ascending to heaven, this abbey became one of Scotland's greatest Cistercian monasteries.",
+      "historical_summary_vi": "Thành lập năm 650 nơi Cuthbert thời trẻ nhìn thấy thị kiến linh hồn Thánh Aidan bay lên trời, tu viện trở thành một trong những đan viện Xitô vĩ đại nhất Scotland.",
+      "sacred_relic_en": "The Heart of King Robert the Bruce and 12th-century Abbey Ruins.",
+      "sacred_relic_vi": "Trái tim Vua Robert the Bruce và Phế tích Tu viện thế kỷ 12.",
+      "scripture_reading": "Matthew 11:28-30",
+      "suggested_prayer_en": "Lord Jesus, gentle and humble of heart, take away our weariness and teach us to rest in your peaceful presence. Amen.",
+      "suggested_prayer_vi": "Lạy Chúa Giêsu khiêm nhường và hiền hậu, xin cất đi gánh nặng của chúng con và dạy chúng con được nghỉ yên trong bình an của Chúa. Amen."
+    },
+    {
+      "waypoint_id": "lindisfarne_holy_island_priory",
+      "name_en": "Lindisfarne Priory and Holy Island",
+      "name_vi": "Tu Viện Lindisfarne và Đảo Thánh (Holy Island)",
+      "latitude": 55.6694,
+      "longitude": -1.8014,
+      "order": 2,
+      "historical_summary_en": "The spiritual cradle of Christianity in northern England founded by Saint Aidan in 635 AD; Cuthbert governed as bishop here and retreated to Inner Farne Island for solitary prayer.",
+      "historical_summary_vi": "Cái nôi đức tin của miền bắc nước Anh do Thánh Aidan lập năm 635; Thánh Cuthbert từng làm giám mục tại đây và ẩn tu trên đảo Inner Farne.",
+      "sacred_relic_en": "The Priory Ruins of Saint Aidan and the Ancient Pilgrim Tidal Crossing.",
+      "sacred_relic_vi": "Phế tích tu viện Thánh Aidan và Con đường thủy triều cổ dẫn sang Đảo Thánh.",
+      "scripture_reading": "Psalm 95:4-7",
+      "suggested_prayer_en": "O God of the tides and sea, as the waters wash over the sands of Lindisfarne, cleanse our hearts from all worldly defilement. Amen.",
+      "suggested_prayer_vi": "Lạy Thiên Chúa của đại dương và sóng triều, khi làn nước tràn qua bãi cát Lindisfarne, xin thanh tẩy tâm hồn chúng con khỏi mọi vết nhơ thế trần. Amen."
+    },
+    {
+      "waypoint_id": "durham_cathedral_tomb_saint_cuthbert",
+      "name_en": "Durham Cathedral (Shrine of Saint Cuthbert and the Venerable Bede)",
+      "name_vi": "Đại Thánh Đường Durham (Lăng Mộ Thánh Cuthbert và Thánh Bêđa Khả Kính)",
+      "latitude": 54.7736,
+      "longitude": -1.5764,
+      "order": 3,
+      "historical_summary_en": "Constructed in 1093 on a dramatic rocky bluff above the River Wear, Durham Cathedral is a peerless masterpiece of Norman Romanesque architecture sheltering the incorrupt body of Saint Cuthbert and the tomb of the Venerable Bede.",
+      "historical_summary_vi": "Xây dựng năm 1093 trên vách đá hùng vĩ nhìn xuống sông Wear, Đại Thánh Đường Durham là kiệt tác kiến trúc Norman Romanesque bảo tồn thi hài nguyên vẹn của Thánh Cuthbert và mộ Thánh Bêđa Khả Kính.",
+      "sacred_relic_en": "The Feretory Tomb of Saint Cuthbert and the Galilee Chapel Tomb of Saint Bede the Venerable.",
+      "sacred_relic_vi": "Lăng mộ Thánh Cuthbert và Mộ Thánh Bêđa Khả Kính trong Nguyện đường Galilee.",
+      "scripture_reading": "2 Thessalonians 2:15-17",
+      "suggested_prayer_en": "Almighty God, who made Saint Cuthbert a gentle shepherd and pastor of souls, grant that we may follow his example of holy contemplation and loving service. Amen.",
+      "suggested_prayer_vi": "Lạy Thiên Chúa Toàn Năng, Đấng đã biến đổi Thánh Cuthbert thành vị mục tử nhân lành chăm sóc các linh hồn, xin cho chúng con biết noi gương ngài sống đời chiêm niệm và phục vụ yêu thương. Amen."
+    }
+  ]
+}

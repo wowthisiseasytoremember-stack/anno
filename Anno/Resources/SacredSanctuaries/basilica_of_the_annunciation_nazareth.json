@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "basilica_of_the_annunciation_nazareth",
+  "category": "marian_apparition",
+  "name_en": "Basilica of the Annunciation (Nazareth)",
+  "name_vi": "Đại Vương Cung Thánh Đường Truyền Tin (Nazareth)",
+  "feast_day_association": "Solemnity of the Annunciation of the Lord (March 25)",
+  "location": {
+    "shrine_or_basilica": "Basilica of the Annunciation (Grotto of the Annunciation)",
+    "city": "Nazareth",
+    "region_or_state": "Northern District (Galilee)",
+    "country": "Israel",
+    "latitude": 32.7022,
+    "longitude": 35.2978,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1969-03-25",
+    "approving_authority": "Pope Paul VI (Consecration and Visit 1964) / Custody of the Holy Land",
+    "confidence": "confirmed",
+    "confidence_note_en": "Excavated by Franciscan archaeologist Fr. Bellarmino Bagatti (1955), uncovering 1st-century Judeo-Christian graffiti 'XE MAPIA' ('Hail Mary') and confirming the biblical rock-hewn home of Mary; current modern basilica consecrated in 1969.",
+    "confidence_note_vi": "Được nhà khảo cổ Phanxicô Cha Bellarmino Bagatti khai quật năm 1955, tìm thấy ký tự khắc thế kỷ thứ nhất 'XE MAPIA' ('Kính Mừng Maria') xác thực ngôi nhà hang đá nguyên thủy của Đức Mẹ; đại thánh đường hiện đại được thánh hiến năm 1969."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Grotto of the Annunciation (Verbum Caro Factum Est)",
+      "relic_name_vi": "Hang Đá Truyền Tin Nơi Ngôi Lời Đã Nhập Thể Làm Người",
+      "relic_type": "apparition_site",
+      "reliquary_location": "Lower Level Crypt of the Basilica of the Annunciation, Nazareth"
+    }
+  ],
+  "historical_summary_en": "The Basilica of the Annunciation in Nazareth is built over the rock grotto identified by Christian tradition as the dwelling place of the Virgin Mary where the Archangel Gabriel appeared to announce the Incarnation of Jesus Christ (*Luke 1:26-38*), and where Mary uttered her world-redeeming *Fiat*.\n\nArchaeological excavations directed by Franciscan archaeologist Bellarmino Bagatti in 1955 prior to the construction of the present basilica revealed a 1st-century Jewish residential complex with cisterns, grain silos, and a Judeo-Christian synagogue-church (*synagoga-ecclesia*) covered in ancient Christian graffiti, including the Greek monogram *XE MAPIA* (*Chaire Maria*, 'Hail Mary') carved into a column base.\n\nThe modern monumental two-level basilica, designed by Giovanni Muzio and consecrated in 1969, features a soaring cupola shaped like an inverted lily. The lower church centers upon the sunken Grotto with its altar inscribed *'Verbum Caro Hic Factum Est'* ('Here the Word Became Flesh'), while the courtyard and upper basilica display magnificent Marian mosaic artworks donated by nations from around the world.",
+  "historical_summary_vi": "Đại Vương Cung Thánh Đường Truyền Tin tại Nazareth tọa lạc trên hang đá nơi Đức Trinh Nữ Maria sinh sống khi Sứ Thần Gabriel hiện đến truyền tin Nhập Thể của Chúa Giêsu Kitô (*Luca 1:26-38*), và là nơi Đức Mẹ đã thốt lên lời xin vâng *Fiat* cứu độ trần gian.\n\nCác cuộc khai quật khảo cổ học của linh mục Phanxicô Bellarmino Bagatti năm 1955 đã làm phát lộ quần thể nhà ở Do Thái thế kỷ thứ nhất gồm bể nước, kho thóc và nhà hội Kitô giáo sơ khai với nhiều ký tự cổ khắc trên đá, nổi bật là dòng chữ Hy Lạp *XE MAPIA* (*Chaire Maria*, 'Kính Mừng Maria').\n\nĐại thánh đường hai tầng hiện đại do kiến trúc sư Giovanni Muzio thiết kế khánh thành năm 1969 có mái vòm hình hoa loa kèn ngược vươn cao. Tầng dưới ôm trọn Hang Đá Truyền Tin với bàn thờ khắc dòng chữ: *'Verbum Caro Hic Factum Est'* ('Tại đây Ngôi Lời đã Nhập Thể làm Người'), xung quanh trưng bày các bức tranh khảm Đức Mẹ do các quốc gia khắp năm châu dâng tặng.",
+  "scripture_reading": "Luke 1:38",
+  "suggested_prayer_en": "O Blessed Virgin Mary, who at the Annunciation accepted the Divine Word with a humble and obedient heart, teach us to say 'Yes' to God's will in all circumstances. May Christ find a welcoming dwelling within our souls. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Trinh Nữ Maria, Mẹ đã đón nhận Ngôi Lời Thiên Chúa với tâm hồn khiêm hạ và vâng phục nơi biến cố Truyền Tin, xin dạy chúng con biết thưa 'Xin Vâng' trước thánh ý Chúa trong mọi hoàn cảnh cuộc đời. Xin cho Chúa Kitô luôn tìm được mái ấm ngự trị trong tâm hồn chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Custodia Terrae Sanctae - Holy Grotto of the Annunciation Historical Dossier",
+      "url": "https://www.custodia.org/en/sanctuaries/nazareth",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Paul VI - Address during Pilgrimage to the Basilica of the Annunciation in Nazareth (January 5, 1964)",
+      "url": "https://www.vatican.va/content/paul-vi/en/speeches/1964/documents/hf_p-vi_spe_19640105_nazareth.html",
+      "type": "vatican"
+    }
+  ]
+}

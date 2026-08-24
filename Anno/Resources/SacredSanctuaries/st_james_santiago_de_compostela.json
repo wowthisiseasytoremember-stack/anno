@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_james_santiago_de_compostela",
+  "category": "apostolic_tomb",
+  "name_en": "Cathedral of Santiago de Compostela",
+  "name_vi": "Đại Vương Cung Thánh Đường Santiago de Compostela",
+  "feast_day_association": "Feast of Saint James the Greater, Apostle (July 25)",
+  "location": {
+    "shrine_or_basilica": "Catedral Basílica de Santiago de Compostela",
+    "city": "Santiago de Compostela",
+    "region_or_state": "Galicia",
+    "country": "Spain",
+    "latitude": 42.8806,
+    "longitude": -8.5446,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1884-11-01",
+    "approving_authority": "Pope Leo XIII (Papal Bull Deus Omnipotens) / Bishop Theodemir of Iria Flavia (814 AD)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Rediscovered in 814 AD by the hermit Pelagius guided by heavenly stars (*Campus Stellae*); definitively confirmed by Pope Leo XIII in the Papal Bull *Deus Omnipotens* (1884) following archaeological excavations by Archbishop Payá y Rico.",
+    "confidence_note_vi": "Được ẩn sĩ Pelagius tái khám phá năm 814 dưới sự dẫn lối của các vì sao trên trời (*Campus Stellae*); được Đức Giáo hoàng Lêô XIII chính thức xác nhận qua Tông sắc *Deus Omnipotens* năm 1884 sau cuộc khai quật khảo cổ của Tổng Giám mục Payá y Rico."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Relics of Saint James the Greater and his Disciples Theodore and Athanasius",
+      "relic_name_vi": "Hài Cốt Thánh Giacôbê Tiền Tông Đồ cùng Hai Môn Đệ Theodorus và Athanasius",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Silver Casket in the Crypt beneath the High Altar"
+    }
+  ],
+  "historical_summary_en": "Saint James the Greater, son of Zebedee and brother of Saint John the Evangelist, was among the inner circle of Christ's apostles who witnessed the Transfiguration and the Agony in Gethsemane. After evangelizing the Iberian Peninsula, James returned to Judea, where in AD 44 he became the first apostle to suffer martyrdom, beheaded by order of King Herod Agrippa I (*Acts 12:1-2*).\n\nAccording to early medieval accounts, his faithful disciples Theodore and Athanasius transported his body by sea to the coast of Galicia, interring him in a Roman mausoleum. In approximately 814 AD, a hermit named Pelagius followed a miraculous shower of lights above the forest to discover the long-forgotten Roman crypt (*Campus Stellae*, 'Field of Stars' / Compostela). Bishop Theodemir verified the apostolic tomb, prompting King Alfonso II of Asturias to construct the first sanctuary.\n\nThroughout the Middle Ages, the *Camino de Santiago* became the artery of European unity, drawing millions of pilgrims wearing the scallop shell badge across France and Spain. The Cathedral of Santiago de Compostela remains one of Christianity's supreme pilgrimage goals.",
+  "historical_summary_vi": "Thánh Giacôbê Tiền, con ông Giêbêđê và là anh của Thánh Sử Gioan, thuộc nhóm ba môn đệ thân tín nhất của Chúa Giêsu từng chứng kiến biến cố Biến Hình trên núi Tabor và sự Thống Khổ nơi vườn Cây Dầu. Sau khi rao giảng Tin Mừng tại bán đảo Iberia, ngài trở về Judea và vào năm 44 sau Công Nguyên, ngài trở thành vị Tông Đồ đầu tiên chịu tử đạo, bị chém đầu theo lệnh vua Herod Agrippa I (*Công vụ 12:1-2*).\n\nTheo truyền tích Trung Cổ, hai môn đệ trung thành là Theodorus và Athanasius đã đưa thi hài ngài vượt biển về lại bờ biển xứ Galicia và an táng trong một ngôi mộ La Mã cổ. Khoảng năm 814, một ẩn sĩ tên là Pelagius nhìn thấy những luồng ánh sao kỳ lạ dẫn đường đến ngôi mộ cổ trong rừng (*Campus Stellae*, 'Cánh Đồng Sao' / Compostela). Đức Giám mục Theodemir đã xác thực lăng mộ và Vua Alfonso II xứ Asturias đã cho xây dựng ngôi thánh đường đầu tiên.\n\nSuốt thời Trung Cổ, Con Đường Hành Hương *Camino de Santiago* đã trở thành huyết mạch kết nối toàn cõi Châu Âu, đưa hàng triệu người mang biểu tượng vỏ sò hành hương từ khắp nơi về kính viếng mộ ngài. Đại Vương Cung Thánh Đường Santiago de Compostela ngày nay vẫn là đích đến tâm linh thiêng liêng rực rỡ bậc nhất.",
+  "scripture_reading": "Acts 12:1-2",
+  "suggested_prayer_en": "O Holy Apostle Saint James, Patron of Pilgrims and First Martyr among the Apostles, you walked the arduous roads to proclaim Christ to the ends of the earth. Guide our earthly pilgrimage; grant us endurance in trials, protect all travelers on the way, and bring us safely to the eternal homeland of Heaven. Through Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Giacôbê Tông Đồ vinh hiển, Đấng Bảo Trợ các khách hành hương và là Vị Tử Đạo tiên khởi trong hàng Tông Đồ, ngài đã băng qua vạn dặm đường dài để rao giảng Tin Mừng cho muôn dân. Xin đồng hành cùng cuộc hành hương trần thế của chúng con; ban ơn kiên trì nâng đỡ những người lữ hành trên mọi nẻo đường và dẫn đưa chúng con về bến bờ quê hương Vĩnh Cửu. Nhờ Đức Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope Leo XIII - Papal Bull Deus Omnipotens (November 1, 1884)",
+      "url": "https://www.vatican.va/content/leo-xiii/la/apost_constitutions/documents/hf_l-xiii_apc_18841101_deus-omnipotens.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Archdiocese of Santiago de Compostela Official Cathedral Archives",
+      "url": "https://catedraldesantiago.es/en/",
+      "type": "academic"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_the_pillar",
+  "category": "marian_apparition",
+  "name_en": "Cathedral-Basilica of Our Lady of the Pillar",
+  "name_vi": "Đại Vương Cung Thánh Đường Đức Mẹ Trụ Cột",
+  "feast_day_association": "Solemnity of Our Lady of the Pillar (October 12)",
+  "location": {
+    "shrine_or_basilica": "Catedral-Basílica de Nuestra Señora del Pilar",
+    "city": "Zaragoza",
+    "region_or_state": "Aragon",
+    "country": "Spain",
+    "latitude": 41.6567,
+    "longitude": -0.8783,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "0040-01-02",
+    "approving_authority": "Apostolic Tradition / Papal Bull of Pope Innocent XIII (1723)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Celebrated in church tradition as the first Marian apparition in Christian history (a bilocation occurring before the Assumption of the Virgin); formally recognized by papal bulls since Callixtus III (1456) and confirmed by the Sacred Congregation of Rites in 1723.",
+    "confidence_note_vi": "Được tôn kính là cuộc hiện ra đầu tiên của Đức Mẹ trong lịch sử Kitô giáo (dưới hình thức song vị trí khi Đức Mẹ còn đang sống trước biến cố Mông Triệu); được các Đức Giáo hoàng chuẩn nhận từ thời Callixtus III (1456) và Bộ Phụng Tự xác nhận năm 1723."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sacred Jasper Column and Wooden Image of Our Lady",
+      "relic_name_vi": "Trụ Đá Ngọc Thạch Thánh và Tượng Gỗ Cổ Kính của Đức Mẹ",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Holy Chapel (Santa Capilla) inside the Basilica of the Pillar"
+    }
+  ],
+  "historical_summary_en": "According to ancient Iberian tradition documented in the 13th-century *Moralia in Job*, Saint James the Greater (*Santiago*) was preaching the Gospel along the banks of the Ebro River in Caesaraugusta (modern Zaragoza) in the year AD 40. Discouraged by the hardness of the pagan population's hearts and facing fierce resistance, the Apostle knelt in nocturnal prayer with eight disciples.\n\nThe Blessed Virgin Mary—who was at that time still living in Jerusalem or Ephesus—miraculously appeared to James in bilocation, accompanied by choirs of angels. She presented him with a column of green jasper stone and a small wooden statue of herself, instructing him to build a chapel on the site and promising that the faith of Spain would remain as enduring and unshakable as the pillar itself until the end of time.\n\nSaint James constructed a primitive adobe chapel around the pillar, which survived centuries of Roman persecutions, Visigothic conflicts, and Muslim rule intact. The monumental Baroque basilica that now encloses the Holy Pillar stands as the bedrock of Hispanic faith, attracting millions of pilgrims celebrating the patroness of all Hispanic peoples.",
+  "historical_summary_vi": "Theo truyền thống cổ xưa của xứ Hispania được ghi chép trong tác phẩm *Moralia in Job* thế kỷ 13, Thánh Giacôbê Tiền tông đồ đang miệt mài rao giảng Tin Mừng bên bờ sông Ebro tại Caesaraugusta (nay là Zaragoza) vào năm 40 sau Công Nguyên. Giữa sự nản lòng vì dân ngoại cứng lòng và sự bách hại khắc nghiệt, Thánh Tông đồ đã quỳ gối cầu nguyện trong đêm cùng 8 môn đệ.\n\nĐức Trinh Nữ Maria—khi đó vẫn còn đang sinh sống tại Jerusalem hoặc Ephesus—đã hiện ra với Thánh Giacôbê dưới hình thức hiện diện song vị trí kỳ diệu, giữa các thiên thần hầu cận. Đức Mẹ trao cho ngài một trụ đá ngọc thạch jasper xanh cùng một pho tượng gỗ nhỏ tạc hình Mẹ, truyền xây một nhà nguyện tại nơi đây và hứa rằng đức tin của xứ sở này sẽ vững bền như chính trụ đá cho đến tận thế.\n\nThánh Giacôbê đã dựng ngôi nhà nguyện đầu tiên quanh trụ đá, và nơi đây đã kỳ diệu đứng vững qua các cuộc bách hại thời La Mã, thời Visigoth và thời Hồi giáo chiếm đóng. Vương Cung Thánh Đường nguy nga ngày nay là nền tảng đức tin vững chắc của toàn thể thế giới nói tiếng Tây Ban Nha.",
+  "scripture_reading": "1 Corinthians 3:11",
+  "suggested_prayer_en": "O Sovereign Queen of the Pillar, Mother of Mercy and Strength of Apostles, you gave courage to Saint James upon the banks of the Ebro and promised an unshakeable foundation of faith. Grant that our hearts may be anchored upon Christ the solid Rock, steadfast amid all worldly tempests and faithful unto eternal life. Through Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ Trụ Cột, Mẹ Lòng Thương Xót và là Sức Mạnh của các Tông Đồ, Mẹ đã ban ơn can đảm cho Thánh Giacôbê bên dòng sông Ebro và hứa ban nền tảng đức tin vững chắc như trụ đá. Xin cho tâm hồn chúng con luôn bám rễ sâu nơi Chúa Kitô là Tảng Đá Cứu Độ, kiên vững giữa mọi giông tố cuộc đời và trung thành cho đến ngày hưởng phúc trường sinh. Nhờ Đức Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Cathedral-Basilica of the Pillar Archival History (Cabildo Metropolitano de Zaragoza)",
+      "url": "https://catedraldezaragoza.es/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Saint John Paul II - Address at the Basilica of Our Lady of the Pillar (October 10, 1984)",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/speeches/1984/october/documents/hf_jp-ii_spe_19841010_virgen-pilar.html",
+      "type": "vatican"
+    }
+  ]
+}

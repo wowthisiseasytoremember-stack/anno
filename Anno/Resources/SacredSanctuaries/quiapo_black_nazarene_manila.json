@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "quiapo_black_nazarene_manila",
+  "category": "passion_relic",
+  "name_en": "Minor Basilica of the Black Nazarene (Quiapo Church)",
+  "name_vi": "Vương Cung Thánh Đường Chúa Nazareno Đen (Nhà Thờ Quiapo, Manila)",
+  "feast_day_association": "Feast of the Black Nazarene / Traslación (January 9) / Good Friday",
+  "location": {
+    "shrine_or_basilica": "Minor Basilica of the Black Nazarene (Saint John the Baptist Parish)",
+    "city": "Quiapo, Manila",
+    "region_or_state": "Metro Manila (NCR)",
+    "country": "Philippines",
+    "latitude": 14.5986,
+    "longitude": 120.9847,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1987-12-11",
+    "approving_authority": "Pope Innocent X (Papal Bull 1650) / Pope John Paul II (Minor Basilica 1987)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Arrived in Manila in 1606 brought by Augustinian Recollect missionaries from Mexico; papal confraternity established by Pope Innocent X in 1650; elevated to Minor Basilica by Pope John Paul II in 1987.",
+    "confidence_note_vi": "Được các thừa sai Dòng Augustinô Recoleto rước từ Mexico đến Manila năm 1606; Huynh đoàn Giáo hoàng được Đức Innôcentê X chuẩn nhận năm 1650; được Đức Gioan Phaolô II nâng lên hàng Tiểu Vương Cung Thánh Đường năm 1987."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous 17th-Century Dark Mesquite-Wood Statue of the Nazarene Carrying the Cross",
+      "relic_name_vi": "Tượng Gỗ Mun Phép Lạ Thế Kỷ 17 Tạc Chúa Giêsu Nazareno Vác Thánh Giá",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Main Retablo of the Minor Basilica of the Black Nazarene, Quiapo"
+    }
+  ],
+  "historical_summary_en": "The Black Nazarene (*Nuestro Padre Jesús Nazareno*) is a life-sized dark wooden statue of Jesus Christ carrying the heavy Cross on His way to Mount Calvary, carved by an anonymous indigenous Mexican artisan in the 16th century out of dark mesquite wood. On May 31, 1606, Augustinian Recollect missionaries brought the sacred statue aboard a Manila galleon to the Philippines.\n\nThroughout four centuries, the statue miraculously survived multiple devastating catastrophic fires (1791 and 1929), powerful earthquakes (1645 and 1863), and the massive artillery bombardment during the Battle of Manila in 1945 that destroyed surrounding neighborhoods, emerging entirely unscathed. In 1787, Archbishop Basilio Sancho de Santas Justa y Rufina ordered the solemn translation (*Traslación*) of the image to the Saint John the Baptist parish in Quiapo.\n\nThe annual *Traslación* on January 9 is the largest religious gathering in Asia, drawing over six million barefoot devotees (*namamasan*) who accompany the carriage in massive waves of prayer, thanksgiving, and penance, seeking to touch the ropes or the sacred statue of Christ who bears their daily struggles.",
+  "historical_summary_vi": "Chúa Nazareno Đen (*Nuestro Padre Jesús Nazareno*) là bức tượng gỗ kích thước người thật tạc hình ảnh Chúa Giêsu Kitô gục ngã dưới sức nặng của Thập Giá trên đường lên Núi Sọ, do một nghệ nhân bản địa Mexico tạc vào thế kỷ 16 từ loại gỗ sẫm màu mesquite. Ngày 31 tháng 5 năm 1606, các linh mục Dòng Augustinô Recoleto đã đưa pho tượng thánh vượt Thái Bình Dương trên tàu buồm galleon về Manila.\n\nTrải qua hơn 4 thế kỷ, bức tượng đã sống sót kỳ diệu qua nhiều trận hỏa hoạn kinh hoàng (1791 và 1929), các trận động đất dữ dội (1645 và 1863) và trận ném bom tàn phá khốc liệt trong Trận chiến Manila năm 1945. Năm 1787, Tổng Giám mục Manila đã cho rước tượng (*Traslación*) về tôn kính tại Nhà thờ Thánh Gioan Baotixita ở Quiapo.\n\nLễ rước *Traslación* hằng năm vào ngày 9 tháng 1 là sự kiện tôn giáo quy mô lớn nhất Châu Á, quy tụ hơn 6 triệu tín hữu đi chân trần (*namamasan*) chen chúc hộ tống cỗ kiệu trong biển người cầu nguyện, tạ ơn và đền tội, với niềm khao khát được chạm tay vào dây kéo kiệu hay vào tà áo Chúa Giêsu Đấng gánh vác mọi đau khổ cuộc đời.",
+  "scripture_reading": "Isaiah 53:4-5",
+  "suggested_prayer_en": "Lord Jesus of Nazareth, who carried the crushing weight of the Cross for our salvation, look upon the burdens and suffering of our lives. Grant strength to the weary, heal our afflictions of body and soul, and teach us to follow in your footsteps with patient and persevering love. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Nazareno, Đấng đã vác lấy sức nặng đè nát của Thập Giá để cứu chuộc chúng con, xin đoái nhìn đến những gánh nặng và đau khổ trong cuộc đời chúng con. Xin ban sức mạnh cho những tâm hồn mệt mỏi, chữa lành các tật nguyền thể xác và linh hồn, và dạy chúng con biết kiên vững bước theo chân Chúa trong tình yêu mến sắt son. Amen.",
+  "primary_sources": [
+    {
+      "label": "Minor Basilica of the Black Nazarene Official Archival Documentation",
+      "url": "https://quiapochurch.com.ph/",
+      "type": "academic"
+    },
+    {
+      "label": "CBCP (Catholic Bishops' Conference of the Philippines) - Historical Dossier on the Traslacion of Quiapo",
+      "url": "https://cbcpnews.net/",
+      "type": "academic"
+    }
+  ]
+}

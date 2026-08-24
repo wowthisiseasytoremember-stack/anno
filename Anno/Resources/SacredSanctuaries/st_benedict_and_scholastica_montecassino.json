@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_benedict_and_scholastica_montecassino",
+  "category": "doctor_of_church",
+  "name_en": "Abbey of Montecassino (Tomb of Saint Benedict and Saint Scholastica)",
+  "name_vi": "Đại Đan Viện Montecassino (Lăng Mộ Thánh Biển Đức và Thánh Nữ Scholastica)",
+  "feast_day_association": "Feast of Saint Benedict, Patron of Europe (July 11) / Saint Scholastica (February 10)",
+  "location": {
+    "shrine_or_basilica": "Abbazia Territoriale di Montecassino",
+    "city": "Cassino",
+    "region_or_state": "Frosinone, Lazio",
+    "country": "Italy",
+    "latitude": 41.49,
+    "longitude": 13.8142,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1071-10-01",
+    "approving_authority": "Pope Alexander II / Pope Paul VI (Proclaimed Patron of Europe 1964)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Continuous monastic possession since Saint Benedict founded the abbey in 529 AD; tomb beneath the High Altar verified by archaeological surveys following WWII reconstruction (1950-1955); proclaimed Principal Patron of Europe by Pope Paul VI in 1964.",
+    "confidence_note_vi": "Được đan viện bảo tồn liên tục từ khi Thánh Biển Đức lập tu viện năm 529; ngôi mộ dưới bàn thờ chính được kiểm chứng khảo cổ khi tái thiết sau Thế chiến II (1950-1955); được Đức Phaolô VI tuyên phong là Thánh Quan Thầy Toàn Châu Âu năm 1964."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sarcophagus and Sacred Bones of Saint Benedict of Nursia and his Twin Sister Saint Scholastica",
+      "relic_name_vi": "Quan Tài Hài Cốt Thánh Biển Đức Núrsia và Em Gái Song Sinh Thánh Nữ Scholastica",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Beneath the High Altar of the Basilica of Montecassino"
+    }
+  ],
+  "historical_summary_en": "Saint Benedict of Nursia (c. 480–547), the 'Father of Western Monasticism' and Patron of Europe, withdrew from decadent Rome to live as a solitary hermit in the cave of Subiaco (*Sacro Speco*). In 529 AD, he climbed the mountain of Montecassino, demolished an ancient pagan temple to Apollo, and founded the cradle of Western monastic life. There he penned the immortal *Rule of Saint Benedict* (*Regula Benedicti*), harmonizing prayer and work under the motto *Ora et Labora*.\n\nHis twin sister, Saint Scholastica (c. 480–547), consecrated herself to God and founded a nearby monastery of nuns at Plumbariola. In a famous episode recorded by Pope Saint Gregory the Great in his *Dialogues*, when Benedict refused to prolong their final spiritual conversation past nightfall, Scholastica prayed with tears, prompting a violent thunderstorm that forced Benedict to stay, demonstrating that *'she was able to do more because she loved more.'*\n\nWhen Scholastica died days later, Benedict saw her soul ascend to Heaven in the likeness of a white dove; he laid her body in the tomb he had prepared for himself. Upon Benedict's death in 547, he was buried beside his sister in the same sepulcher beneath the high altar.",
+  "historical_summary_vi": "Thánh Biển Đức thành Núrsia (khoảng 480–547), 'Tổ Phụ Đan Tu Tây Phương' và Quan Thầy Châu Âu, đã rời bỏ chốn phồn hoa trụy lạc của thành Rome để sống ẩn tu trong hang đá Subiaco (*Sacro Speco*). Năm 529, ngài lên đỉnh núi Montecassino, phá bỏ đền thờ tà thần Apollo để sáng lập cái nôi của đời sống đan tu Tây Phương. Tại đây ngài đã viết bản *Tu Luật Thánh Biển Đức* (*Regula Benedicti*) bất hủ, kết hợp hài hòa cầu nguyện và lao động qua châm ngôn *Ora et Labora* (Cầu nguyện và Lao động).\n\nNgười em gái song sinh của ngài là Thánh Nữ Scholastica (khoảng 480–547) cũng dâng mình cho Chúa và lập tu viện nữ tại Plumbariola gần đó. Trong biến cố nổi tiếng được Thánh Giáo hoàng Grêgôriô Cả ghi lại trong *Đối Thoại*, khi Thánh Biển Đức từ chối ở lại đàm đạo linh thiêng qua đêm, Thánh Nữ Scholastica đã khóc lóc cầu nguyện khiến trời nổi giông bão dữ dội buộc anh mình phải ở lại, minh chứng rằng *'người làm được nhiều hơn vì người đã yêu mến nhiều hơn.'*\n\nKhi Thánh Scholastica qua đời ít ngày sau đó, Thánh Biển Đức nhìn thấy linh hồn em gái bay lên trời dưới hình chim bồ câu trắng; ngài đã an táng em trong ngôi mộ ngài chuẩn bị cho mình. Khi Thánh Biển Đức qua đời năm 547, ngài được chôn cất chung một huyệt mộ với em gái dưới bàn thờ chính.",
+  "scripture_reading": "Colossians 3:1-3",
+  "suggested_prayer_en": "O Holy Patriarch Saint Benedict and Seraphic Virgin Saint Scholastica, you laid the spiritual foundations of Christian civilization through prayer, labor, and fraternal charity. Teach us to prefer nothing whatever to Christ (*'Christo omnino nihil praeponere'*), preserve peace in our monasteries and families, and guide our world back to God. Amen.",
+  "suggested_prayer_vi": "Lạy Tổ Phụ Thánh Biển Đức và Thánh Nữ Đồng Trinh Scholastica, hai thánh đã đặt nền móng tâm linh vững chắc cho nền văn minh Kitô giáo qua đời sống cầu nguyện, lao động và đức ái huynh đệ. Xin dạy chúng con đừng chuộng sự gì hơn Chúa Kitô (*'Christo omnino nihil praeponere'*), gìn giữ bình an trong các gia đình, tu viện và dẫn đưa thế giới trở về cùng Thiên Chúa. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope Saint Gregory the Great - Life and Miracles of Saint Benedict (Dialogues, Book II)",
+      "url": "https://www.osb.org/our-roots/the-life-of-saint-benedict-by-st-gregory-the-great/",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Pope Paul VI - Apostolic Letter Pacis Nuntius Proclaiming St. Benedict Patron of Europe (1964)",
+      "url": "https://www.vatican.va/content/paul-vi/la/apost_letters/documents/hf_p-vi_apl_19641024_pacis-nuntius.html",
+      "type": "vatican"
+    }
+  ]
+}

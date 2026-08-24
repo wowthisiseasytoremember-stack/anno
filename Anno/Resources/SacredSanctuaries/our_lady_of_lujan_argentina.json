@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_lujan_argentina",
+  "category": "marian_apparition",
+  "name_en": "Basilica of Our Lady of Luján (Patroness of Argentina)",
+  "name_vi": "Đại Vương Cung Thánh Đường Đức Mẹ Luján (Quan Thầy Nước Argentina)",
+  "feast_day_association": "Feast of Our Lady of Luján (May 8)",
+  "location": {
+    "shrine_or_basilica": "Basílica Nacional de Nuestra Señora de Luján",
+    "city": "Luján",
+    "region_or_state": "Buenos Aires Province",
+    "country": "Argentina",
+    "latitude": -34.5647,
+    "longitude": -59.1217,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1887-05-08",
+    "approving_authority": "Pope Leo XIII (Papal Coronation) / Pope Pius XI (Patroness of Argentina, Uruguay, and Paraguay 1930)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Statue brought in 1630; crowned with papal crown by Pope Leo XIII on May 8, 1887; declared Principal Patroness of Argentina, Uruguay, and Paraguay by Pope Pius XI in 1930; spiritual cradle of Cardinal Jorge Mario Bergoglio (Pope Francis).",
+    "confidence_note_vi": "Tượng Đức Mẹ được rước đến năm 1630; Đức Giáo hoàng Lêô XIII ban triều thiên vàng ngày 8 tháng 5 năm 1887; Đức Piô XI tuyên phong là Đấng Bảo Trợ Argentina, Uruguay và Paraguay năm 1930; là ngôi nhà tâm linh của Đức Giáo hoàng Phanxicô."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous 1630 Terracotta Statue of the Immaculate Conception and Tomb of Negro Manuel",
+      "relic_name_vi": "Tượng Đất Nung Phép Lạ Năm 1630 của Đức Mẹ Vô Nhiễm và Mộ Người Nô Lệ Manuel",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Main Chamber of the High Altar Retablo in the Basilica of Luján"
+    }
+  ],
+  "historical_summary_en": "In May 1630, a Portuguese merchant named Antonio Sáenz de Saavedra requested a small terracotta image of the Immaculate Conception from Brazil for his estate in Sumampa. The image was transported in a wooden box aboard an oxcart convoy. When the caravan reached the banks of the Luján River (forty miles west of Buenos Aires), the oxen pulling one specific cart suddenly stopped and refused to move, despite the drovers' repeated whipping and unloading of extra cargo.\n\nWhen the drovers lifted out the small crate containing the terracotta statue of the Virgin Mary, the oxen effortlessly moved forward. Realizing that heaven had designated the site for her sanctuary, the local inhabitants received the image with tears of joy. An enslaved Afro-descendant young man named Manuel Costa dos Santos (*Negro Manuel*) consecrated his entire life to serving the Virgin, faithfully maintaining the chapel for fifty-six years until his death.\n\nThe monumental French Neo-Gothic Basilica of Luján, constructed between 1890 and 1935, is the national shrine of Argentina, hosting millions of pilgrims annually. Cardinal Jorge Mario Bergoglio (Pope Francis) was a frequent pilgrim to Luján, spending long hours in the confessional and entrusting his Petrine ministry to Our Lady of Luján.",
+  "historical_summary_vi": "Vào tháng 5 năm 1630, một thương gia người Bồ Đào Nha tên Antonio Sáenz de Saavedra đã đặt mua một bức tượng nhỏ bằng đất nung tạc Đức Mẹ Vô Nhiễm từ Brazil để mang về trang trại ở Sumampa. Bức tượng được cất trong một chiếc hộp gỗ chở trên đoàn xe bò. Khi đoàn xe đến bờ sông Luján (cách Buenos Aires 60 cây số về phía tây), những con bò kéo cỗ xe chở tượng bỗng dừng khựng lại và kiên quyết không chịu bước tiếp dù bị quất roi và dỡ bớt đồ đạc.\n\nChỉ khi người ta nhấc chiếc thùng gỗ đựng tượng Đức Mẹ xuống đất thì đàn bò mới chịu kéo xe đi tiếp dễ dàng. Nhận ra thánh ý thiên đàng muốn Mẹ ngự lại nơi đây, dân làng đã vui mừng đón nhận linh tượng. Một người thanh niên nô lệ da đen tên Manuel (*Negro Manuel*) đã tự nguyện tận hiến trọn đời để phụng sự Đức Mẹ, trung thành chăm sóc nguyện đường suốt 56 năm cho đến ngày qua đời.\n\nĐại Vương Cung Thánh Đường Tân Gothic lộng lẫy tại Luján xây dựng từ năm 1890 đến 1935 là trung tâm đền thánh quốc gia của Argentina. Đức Thánh Cha Phanxicô khi còn là Tổng Giám mục Buenos Aires đã thường xuyên hành hương bộ về Luján ngồi tòa giải tội và dâng trọn triều đại giáo hoàng của ngài cho Đức Mẹ Luján.",
+  "scripture_reading": "Luke 1:46-49",
+  "suggested_prayer_en": "O Blessed Virgin Mary of Luján, Mother of Hope and Patroness of Argentina, you chose to remain among the humble people on the banks of the river. Protect our nations from division and despair, accompany our journey with your maternal care, and guide all peoples to the peace of your Divine Son. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ Luján, Mẹ của Niềm Hy Vọng và Quan Thầy Nước Argentina, Mẹ đã chọn ở lại giữa những người khiêm hạ bên bờ sông Luján. Xin bảo vệ các quốc gia chúng con khỏi sự chia rẽ và tuyệt vọng, đồng hành với cuộc lữ hành trần thế của chúng con bằng tình mẫu tử dịu hiền và dẫn đưa muôn dân về trong bình an của Con Chí Thánh Mẹ. Amen.",
+  "primary_sources": [
+    {
+      "label": "Basílica Nacional de Nuestra Señora de Luján Official Archival History",
+      "url": "https://santuariodelujan.org.ar/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Francis - Message to Pilgrims of the National Shrine of Our Lady of Luján (May 2021)",
+      "url": "https://www.vatican.va/content/francesco/es/messages/pont-messages/2021/documents/papa-francesco_20210508_videomessaggio-madonna-lujan.html",
+      "type": "vatican"
+    }
+  ]
+}

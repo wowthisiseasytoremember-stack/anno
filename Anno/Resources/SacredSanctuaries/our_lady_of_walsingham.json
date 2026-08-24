@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_walsingham",
+  "category": "marian_apparition",
+  "name_en": "Catholic National Shrine of Our Lady of Walsingham",
+  "name_vi": "Đền Thánh Quốc Gia Đức Mẹ Walsingham",
+  "feast_day_association": "Feast of Our Lady of Walsingham (September 24)",
+  "location": {
+    "shrine_or_basilica": "Basilica of Our Lady of Walsingham (Slipper Chapel)",
+    "city": "Walsingham",
+    "region_or_state": "Norfolk",
+    "country": "United Kingdom",
+    "latitude": 52.8943,
+    "longitude": 0.8741,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1061-01-01",
+    "approving_authority": "Papal Bull of Pope Urban VI / Rescript of Pope Leo XIII (1897)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Venerated since the vision of Richeldis de Faverches in 1061; restored as England's National Catholic Shrine under Pope Leo XIII in 1897 and elevated to Minor Basilica by Pope Francis in 2015.",
+    "confidence_note_vi": "Được tôn kính từ thị kiến của bà Richeldis de Faverches năm 1061; được Đức Giáo hoàng Lêô XIII phục hồi thành Đền thánh Quốc gia Công giáo Anh năm 1897 và Đức Giáo hoàng Phanxicô nâng lên hàng Tiểu Vương Cung Thánh Đường năm 2015."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The 14th-Century Slipper Chapel and Restored Holy House",
+      "relic_name_vi": "Nguyện Đường Chiếc Hài Thế Kỷ 14 và Nhà Thánh Nazareth Phục Hồi",
+      "relic_type": "apparition_site",
+      "reliquary_location": "Slipper Chapel Sanctuary, Houghton St Giles, Walsingham"
+    }
+  ],
+  "historical_summary_en": "In the year 1061, a Saxon noblewoman named Richeldis de Faverches experienced three mystical visions in which the Blessed Virgin Mary took her in spirit to Nazareth to show her the house where the Annunciation occurred. Our Lady instructed Richeldis to build an exact replica of the Holy House in Walsingham, Norfolk, so that all who visited could experience the joy of Mary's *Fiat* and the mystery of the Incarnation.\n\nWalsingham swiftly grew into one of medieval Christendom's four greatest pilgrimage destinations alongside Jerusalem, Rome, and Santiago de Compostela, earning England the title 'Our Lady's Dowry' (*Dos Mariae*). Every monarch from Henry III to Henry VIII made pilgrimages on foot to the shrine, famously removing their shoes at the Slipper Chapel (one mile away) to complete the journey barefoot.\n\nIn 1538, during the English Reformation under King Henry VIII, the shrine and priory were dissolved and the miraculous statue was brought to London to be publicly burned. In 1897, Pope Leo XIII authorized the restoration of the shrine at the surviving 14th-century Slipper Chapel, re-establishing Walsingham as a vital beacon of reconciliation, prayer, and Catholic renewal in Britain.",
+  "historical_summary_vi": "Vào năm 1061, một nữ quý tộc Saxon tên là Richeldis de Faverches đã nhận ba thị kiến thần bí trong đó Đức Mẹ đưa tâm hồn bà đến Nazareth để chiêm ngắm ngôi nhà nơi diễn ra biến cố Truyền Tin. Đức Mẹ truyền dạy bà xây dựng một bản sao Nhà Thánh Nazareth tại Walsingham, hạt Norfolk, để mọi người đến kính viếng có thể cảm nhận niềm hân hoan của lời xin vâng *Fiat* và mầu nhiệm Nhập Thể.\n\nWalsingham nhanh chóng trở thành một trong bốn trung tâm hành hương vĩ đại nhất của Kitô giáo thời Trung Cổ cùng với Jerusalem, Roma và Santiago de Compostela, đem lại cho nước Anh danh hiệu cao quý 'Của Hồi Môn của Đức Mẹ' (*Dos Mariae*). Mọi vị vua Anh từ Henry III đến Henry VIII đều đi chân trần hành hương đến đền thánh, cởi hài tại Nguyện đường Chiếc Hài (cách đó một dặm) để tiến vào nơi thánh.\n\nNăm 1538, trong cuộc Cải cách dưới thời Henry VIII, tu viện bị triệt phá và tượng Đức Mẹ bị đưa về London thiêu hủy. Đến năm 1897, Đức Giáo hoàng Lêô XIII đã phê chuẩn việc tái lập đền thánh tại Nguyện đường Chiếc Hài thế kỷ 14 còn nguyên vẹn, đưa Walsingham trở lại thành biểu tượng hiệp nhất, cầu nguyện và hồi sinh đức tin Công giáo tại Vương quốc Anh.",
+  "scripture_reading": "Luke 1:38",
+  "suggested_prayer_en": "All holy and ever-living God, who in the Annunciation of the Blessed Virgin Mary willed that your Word should take flesh in human weakness, grant that through the intercession of Our Lady of Walsingham, England and all nations may rediscover the joy of the Gospel and walk in peace and fraternal charity. Through Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Thiên Chúa Hằng Sống Toàn Năng, Đấng đã muốn Ngôi Lời Nhập Thể trong thân phận yếu đuối của con người nơi biến cố Truyền Tin cho Đức Trinh Nữ Maria, xin nhờ lời chuyển cầu của Đức Mẹ Walsingham, giúp các dân tộc tái khám phá niềm vui của Tin Mừng và bước đi trong bình an, bác ái huynh đệ. Nhờ Đức Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Catholic National Shrine of Our Lady of Walsingham Official Archives",
+      "url": "https://www.walsingham.org.uk/history/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Francis - Decree of Minor Basilica for Walsingham Slipper Chapel (2015)",
+      "url": "https://www.cbcew.org.uk/walsingham-shrine-granted-minor-basilica-status/",
+      "type": "vatican"
+    }
+  ]
+}

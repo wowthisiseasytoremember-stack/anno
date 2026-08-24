@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_andrew_apostle_amalfi",
+  "category": "apostolic_tomb",
+  "name_en": "Cathedral of Saint Andrew the Apostle (Amalfi)",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Anrê Tông Đồ (Amalfi)",
+  "feast_day_association": "Feast of Saint Andrew the Apostle (November 30)",
+  "location": {
+    "shrine_or_basilica": "Cattedrale di Sant'Andrea Apostolo (Duomo di Amalfi)",
+    "city": "Amalfi",
+    "region_or_state": "Salerno, Campania",
+    "country": "Italy",
+    "latitude": 40.6342,
+    "longitude": 14.6028,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1208-05-08",
+    "approving_authority": "Cardinal Pietro Capuano / Pope Innocent III",
+    "confidence": "confirmed",
+    "confidence_note_en": "Relics translated from Constantinople to Amalfi in 1208 by Cardinal Pietro Capuano following the Fourth Crusade; celebrated continuously with the verified miraculous liquefaction of the 'Manna of Saint Andrew'.",
+    "confidence_note_vi": "Hài cốt được Đức Hồng y Pietro Capuano chuyển từ Constantinople về Amalfi năm 1208 sau cuộc Thập Tự Chinh thứ tư; được Giáo hội tôn kính với hiện tượng tiết ra chất dầu thơm phép lạ 'Manna của Thánh Anrê'."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Major Relics and Skull of Saint Andrew the First-Called Apostle",
+      "relic_name_vi": "Xương Thánh và Hộp Sọ của Thánh Anrê Tông Đồ, Đấng Được Kêu Gọi Đầu Tiên",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Crypt of Saint Andrew beneath the High Altar of Amalfi Cathedral"
+    }
+  ],
+  "historical_summary_en": "Saint Andrew the Apostle, brother of Saint Simon Peter and the *Protokletos* ('First-Called') by Christ, preached the Gospel across Greece, Thrace, and the Black Sea region before suffering martyrdom in Patras, Achaea, around AD 60. Bound to a decussate (X-shaped) cross, Andrew preached the faith continuously to the crowd for two days from the cross before breathing his last.\n\nIn AD 357, his relics were solemnly translated to the Church of the Holy Apostles in Constantinople by order of Emperor Constantius II. In 1208, following the Fourth Crusade, Cardinal Pietro Capuano brought the sacred body of the Apostle to his native maritime republic of Amalfi, enshrining the relics inside the magnificent crypt of the cathedral.\n\nFor over eight centuries, a fragrant, crystal-clear liquid known as the 'Manna of Saint Andrew' (*La Manna di Sant'Andrea*) has periodically issued from the tomb in the crypt during major liturgical feasts, collected in glass vials by the clergy before the faithful as a tangible sign of apostolic blessing.",
+  "historical_summary_vi": "Thánh Anrê Tông Đồ, anh trai của Thánh Phêrô và là *Protokletos* ('Đấng Được Kêu Gọi Đầu Tiên') bởi Chúa Giêsu, đã rao giảng Tin Mừng khắp Hy Lạp, Thrace và vùng Biển Đen trước khi chịu tử đạo tại Patras, Achaea vào khoảng năm 60 sau Công Nguyên. Bị trói vào cây thập giá hình chữ X, Thánh Anrê vẫn kiên cường rao giảng đức tin liên tục suốt hai ngày cho đám đông trước khi trút hơi thở cuối cùng.\n\nNăm 357, hài cốt ngài được Hoàng đế Constantius II rước về an vị tại Đại thánh đường Các Thánh Tông Đồ ở Constantinople. Đến năm 1208, sau cuộc Thập Tự Chinh thứ tư, Đức Hồng y Pietro Capuano đã rước thi hài Thánh Tông đồ về quê hương Amalfi và cung hiến trong gian hầm mộ lộng lẫy dưới bàn thờ chính nhà thờ chính tòa.\n\nSuốt hơn tám thế kỷ qua, một chất lỏng trong suốt ngát hương thơm gọi là 'Manna của Thánh Anrê' (*La Manna di Sant'Andrea*) vẫn kỳ diệu rỉ ra từ ngôi mộ trong hầm vào các ngày lễ trọng, được các giáo sĩ thu nhận vào bình thủy tinh trước sự chứng kiến của giáo dân như dấu chỉ phúc lành tông truyền.",
+  "scripture_reading": "John 1:40-42",
+  "suggested_prayer_en": "O Holy Apostle Saint Andrew, First-Called Disciple and Lover of the Cross, you joyfully recognized Jesus as the Messiah and led your brother Peter to Him. Teach us to embrace our daily crosses with holy joy, make us zealous heralds of Christ, and draw all separated brethren into the full unity of the Church. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Anrê Tông Đồ vinh hiển, Đấng Được Kêu Gọi Đầu Tiên và là Người Mến Yêu Thập Giá, ngài đã hân hoan nhận ra Chúa Giêsu là Đấng Cứu Thế và dẫn đưa người em Phêrô đến cùng Người. Xin dạy chúng con biết vui lòng vác thánh giá hằng ngày, ban cho chúng con lòng nhiệt thành loan báo Tin Mừng và dẫn đưa mọi người về trong sự hiệp nhất hoàn hảo của Hội Thánh. Amen.",
+  "primary_sources": [
+    {
+      "label": "Arcidiocesi di Amalfi-Cava de' Tirreni Official Historical Records",
+      "url": "https://www.diocesiaic.it/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Paul VI - Apostolic Letter on the Return of Saint Andrew's Relic to Patras (1964)",
+      "url": "https://www.vatican.va/content/paul-vi/la/apost_letters/documents/hf_p-vi_apl_19640922_in-patrensi.html",
+      "type": "vatican"
+    }
+  ]
+}

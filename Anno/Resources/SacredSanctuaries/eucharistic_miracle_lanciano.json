@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "eucharistic_miracle_lanciano",
+  "category": "eucharistic_miracle",
+  "name_en": "Sanctuary of the Eucharistic Miracle of Lanciano",
+  "name_vi": "Đền Thánh Phép Lạ Thánh Thể Lanciano",
+  "feast_day_association": "Solemnity of the Most Holy Body and Blood of Christ (Corpus Christi)",
+  "location": {
+    "shrine_or_basilica": "Santuario del Miracolo Eucaristico (Chiesa di San Francesco)",
+    "city": "Lanciano",
+    "region_or_state": "Chieti, Abruzzo",
+    "country": "Italy",
+    "latitude": 42.2289,
+    "longitude": 14.3908,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1574-01-01",
+    "approving_authority": "Archbishop Gaspare Rodriguez (1574) / Holy See / Odoardo Linoli Scientific Verification (1970-1971)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Continuous ecclesiastical veneration since the 8th century; subjected to rigorous modern forensic examination by Prof. Odoardo Linoli (1970-1971) and confirmed by the World Health Organization (WHO) medical commission in 1973.",
+    "confidence_note_vi": "Được Giáo hội tôn kính liên tục từ thế kỷ thứ 8; được Giáo sư Odoardo Linoli giám định pháp y khoa học nghiêm ngặt (1970-1971) và Hội đồng Y khoa Liên Hợp Quốc / WHO tái xác nhận năm 1973."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous Flesh (Myocardium) and Five Coagulated Blood Globules of Christ",
+      "relic_name_vi": "Thịt Thánh (Cơ Tim) và Năm Cục Máu Thánh Kỳ Diệu của Chúa Kitô",
+      "relic_type": "1st_class_blood",
+      "reliquary_location": "Silver Ostensorium and Crystal Goblet above the High Altar"
+    }
+  ],
+  "historical_summary_en": "In approximately 750 AD, at the Church of Saints Legontian and Domitian in Lanciano (ancient Anxanum), a Basilian monk-priest experienced severe temptations regarding the Real Presence of Jesus Christ in the Holy Eucharist. During the celebration of the Holy Sacrifice of the Mass, as he pronounced the sacred words of Consecration, the unleavened Host was visibly transformed before his eyes into living human Flesh, and the consecrated Wine into genuine human Blood, which subsequently coagulated into five distinct globules.\n\nIn 1970–1971, the relics were subjected to thorough histological and biochemical investigation led by Dr. Odoardo Linoli, Professor of Anatomy, Pathological Histology, Chemistry, and Clinical Microscopy at the University of Siena, assisted by Dr. Ruggero Bertelli. The scientific findings published in 1971 proved conclusively: (1) The Flesh is authentic striated muscular tissue of the human heart (*myocardium*), specifically the left ventricle, showing endocardium and vagus nerve fibers; (2) The Flesh and Blood belong to the human species; (3) Both Flesh and Blood possess the identical human blood type AB (the same blood type identified on the Shroud of Turin); (4) The proteins in the serum are normally fractionated in ratios typical of fresh blood, containing no trace of chemical preservatives.\n\nIn 1973, an independent medical commission appointed by the World Health Organization (WHO) and the United Nations conducted 500 examinations over 15 months, confirming Professor Linoli's conclusions and stating that science cannot explain the physical preservation of living tissue across twelve centuries without mummification.",
+  "historical_summary_vi": "Vào khoảng năm 750 sau Công Nguyên, tại nhà thờ Thánh Legontian và Domitian ở Lanciano, một linh mục đan sĩ dòng Thánh Basiliô đã rơi vào sự cám dỗ nghi ngờ sâu sắc về sự Hiện Diện Đích Thực của Chúa Giêsu trong Bí Tích Thánh Thể. Trong lúc cử hành Thánh Lễ, khi ngài vừa đọc xong Lời Truyền Phép, Bánh Thánh đã biến đổi nhãn tiền thành một miếng Thịt người còn sống và Rượu Thánh hóa thành Máu người thật, sau đó đông lại thành năm cục máu riêng biệt.\n\nVào năm 1970–1971, các thánh tích đã được Giáo sư Odoardo Linoli (Trưởng khoa Giải phẫu, Mô bệnh học, Hóa sinh và Hiển vi lâm sàng thuộc Đại học Siena) cùng Giáo sư Ruggero Bertelli tiến hành giám định pháp y toàn diện. Báo cáo khoa học chính thức xác nhận: (1) Mẫu Thịt là mô cơ tim vân thật của con người (*myocardium*), thuộc tâm thất trái, với đầy đủ màng trong tim và các sợi thần kinh phế vị; (2) Cả Thịt và Máu đều thuộc loài người; (3) Cả hai đều thuộc nhóm máu người AB (hoàn toàn trùng khớp với nhóm máu trên Khăn Liệm Thành Turin); (4) Tỷ lệ protein trong huyết thanh phân bổ hoàn toàn bình thường như máu tươi mới, tuyệt đối không có chất ướp xác hay hóa chất bảo quản.\n\nNăm 1973, một hội đồng y khoa độc lập của Tổ chức Y tế Thế giới (WHO) và Liên Hợp Quốc đã thực hiện hơn 500 cuộc xét nghiệm trong 15 tháng và tái xác nhận toàn bộ kết luận của Giáo sư Linoli, tuyên bố rằng khoa học thực nghiệm không thể giải thích được sự bảo tồn mô cơ sống suốt 12 thế kỷ mà không hề bị phân hủy.",
+  "scripture_reading": "John 6:54-56",
+  "suggested_prayer_en": "Lord Jesus Christ, truly present in the Most Blessed Sacrament of the Altar, you manifested your living Heart in Lanciano to heal human doubt and inflame our love. Forgive our lack of faith; make our hearts beat in unison with your Eucharistic Heart, and grant that by receiving your Body and Blood we may abide in you forever. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Kitô, Đấng đang hiện diện thực sự trong Bí Tích Cực Thánh Nơi Bàn Thờ, Chúa đã tỏ lộ Trái Tim hằng sống của Chúa tại Lanciano để chữa lành sự ngờ vực và thắp lên lòng mến yêu trong tâm hồn chúng con. Xin tha thứ cho những yếu đuối đức tin của chúng con; xin biến đổi trái tim chúng con nên giống Trái Tim Thánh Thể Chúa và cho chúng con khi rước Mình Máu Thánh Chúa được ở lại trong Chúa muôn đời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Professor Odoardo Linoli - Histological, Immunological and Biochemical Studies on the Flesh and Blood of the Eucharistic Miracle of Lanciano (Quaderni Sclavo di Diagnostica, 1971)",
+      "url": "https://www.miracoloeucaristico.eu/en/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope John Paul II - Address on the Eucharistic Miracle of Lanciano during Pastoral Visit (1974)",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ]
+}

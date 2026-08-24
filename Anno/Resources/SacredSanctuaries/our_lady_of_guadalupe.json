@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_guadalupe",
+  "category": "marian_apparition",
+  "name_en": "Basilica of Our Lady of Guadalupe",
+  "name_vi": "Vương Cung Thánh Đường Đức Mẹ Guadalupe",
+  "feast_day_association": "Feast of Our Lady of Guadalupe (December 12)",
+  "location": {
+    "shrine_or_basilica": "Insigne y Nacional Basílica de Santa María de Guadalupe",
+    "city": "Mexico City",
+    "region_or_state": "Federal District",
+    "country": "Mexico",
+    "latitude": 19.4847,
+    "longitude": -99.1175,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1531-12-12",
+    "approving_authority": "Bishop Juan de Zumárraga / Pope Benedict XIV (Papal Bull 1754)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Formally confirmed by Archbishop Juan de Zumárraga following the miraculous preservation of the Tilma in 1531; declared Patroness of the Americas by Pope Pius XII and confirmed by Pope John Paul II in 1999.",
+    "confidence_note_vi": "Được Đức Giám mục Juan de Zumárraga chính thức công nhận sau khi phép lạ in hình trên áo Tilma xảy ra năm 1531; Đức Giáo hoàng Piô XII tuyên phong là Quan Thầy Toàn Châu Mỹ và Đức Gioan Phaolô II tái khẳng định năm 1999."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous Tilma of Saint Juan Diego",
+      "relic_name_vi": "Áo Choàng Tilma Phép Lạ của Thánh Juan Diego",
+      "relic_type": "miraculous_textile",
+      "reliquary_location": "Suspended above the High Altar in the New Basilica"
+    }
+  ],
+  "historical_summary_en": "In December 1531, on Tepeyac Hill north of Mexico City, the Blessed Virgin Mary appeared four times to Saint Juan Diego Cuauhtlatoatzin, a Chichimeca convert to Christianity. Speaking in his native Nahuatl tongue, Our Lady identified herself as the Mother of the True God and requested that a temple be erected on the site. When Juan Diego sought the bishop's authorization, Bishop Juan de Zumárraga asked for an indisputable sign of heaven.\n\nOn December 12, 1531, the Virgin instructed Juan Diego to climb the arid, frozen summit of Tepeyac to gather blooming Castilian roses—flowers completely unseasonal to winter Mexico. Juan Diego gathered them into his agave-fiber mantle (*tilma*). When he opened the cloak before Bishop Zumárraga, the roses cascaded to the floor, revealing the full-length celestial portrait of the Virgin Mary miraculously imprinted upon the coarse fabric.\n\nScientific examinations in the 20th and 21st centuries have verified that the cactus-fiber fabric, which normally disintegrates within two decades, remains completely intact after five centuries without paint sizing, brushstrokes, or protective varnish. The image spurred the rapid conversion of over nine million indigenous Americans to the Catholic faith within a single decade, forever bridging the indigenous and European worlds.",
+  "historical_summary_vi": "Vào tháng 12 năm 1531, trên đồi Tepeyac phía bắc Thành phố Mexico, Đức Trinh Nữ Maria đã hiện ra bốn lần với Thánh Juan Diego Cuauhtlatoatzin, một người bản địa Chichimeca tân tòng. Bằng ngôn ngữ Nahuatl thổ dân, Đức Mẹ xưng mình là Mẹ của Thiên Chúa Thật và nguyện ước một nguyện đường được xây dựng tại nơi đây. Khi Juan Diego đến trình Đức Giám mục Juan de Zumárraga, ngài đã xin một dấu chỉ siêu nhiên để xác thực.\n\nNgày 12 tháng 12 năm 1531, Đức Mẹ chỉ dẫn Juan Diego leo lên đỉnh đồi Tepeyac băng giá để hái những bông hồng xứ Castille đang nở rộ giữa mùa đông khô cằn. Juan Diego bọc hoa trong chiếc áo choàng bằng sợi xương rồng (*tilma*). Khi mở áo choàng trước mặt Đức Giám mục, những đóa hoa rơi xuống sàn, để lộ hình ảnh Đức Mẹ tuyệt mỹ in đậm trên từng thớ vải thô ráp.\n\nCác cuộc kiểm định khoa học hiện đại xác nhận rằng sợi vải dệt từ cây thùa tự nhiên—vốn sẽ mục nát sau 20 năm—vẫn nguyên vẹn tuyệt hảo suốt 5 thế kỷ mà không hề có dấu vết nét cọ, lớp sơn lót hay hóa chất bảo quản. Phép lạ này đã đưa hơn chín triệu người bản địa gia nhập Giáo hội Công giáo chỉ trong một thập niên, trở thành biểu tượng hiệp nhất đức tin vĩ đại của Châu Mỹ.",
+  "scripture_reading": "Revelation 12:1",
+  "suggested_prayer_en": "O Holy Virgin of Guadalupe, Mother of the Americas and Star of the New Evangelization, look with maternal tenderness upon our families and nations. As you left your immaculate image upon the humble tilma of Juan Diego, imprint upon our souls the virtues of faith, humility, and steadfast charity. Lead us always to your Divine Son, Jesus Christ, who lives and reigns forever and ever. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ Guadalupe, Quan Thầy Toàn Châu Mỹ và Ngôi Sao của công cuộc Tân Phúc Âm Hóa, xin thương đoái nhìn đến các gia đình và quốc gia chúng con. Như Mẹ đã in dấu thánh nhan Mẹ trên tà áo khiêm nhường của Thánh Juan Diego, xin cũng khắc ghi vào tâm hồn chúng con lòng tin kính sâu xa, đức khiêm nhường và lòng bác ái vững bền. Xin dẫn đưa chúng con đến cùng Con Chí Thánh của Mẹ là Chúa Giêsu Kitô, Đấng hằng sống và hiển trị muôn đời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Nican Mopohua (16th Century Nahuatl Narrative by Antonio Valeriano)",
+      "url": "https://www.vatican.va/roman_curia/congregations/csaints/documents/rc_con_csaints_doc_20020731_juan-diego_en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Pontifical Academy of the Immaculate Conception - Tilma Technical Documentation",
+      "url": "https://www.catholicnewsagency.com/resource/55416/our-lady-of-guadalupe",
+      "type": "academic"
+    }
+  ]
+}

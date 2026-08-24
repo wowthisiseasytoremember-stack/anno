@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "phat_diem_cathedral_ninh_binh",
+  "category": "martyr_shrine",
+  "name_en": "Phát Diệm Stone Cathedral Complex",
+  "name_vi": "Quần Thể Nhà Thờ Đá Phát Diệm",
+  "feast_day_association": "Feast of the Holy Vietnamese Martyrs (November 24) / Our Lady of the Rosary (October 7)",
+  "location": {
+    "shrine_or_basilica": "Nhà thờ Chính tòa Phát Diệm (Quần thể Nhà thờ Đá)",
+    "city": "Kim Sơn",
+    "region_or_state": "Ninh Bình",
+    "country": "Vietnam",
+    "latitude": 20.0928,
+    "longitude": 106.0797,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1899-12-01",
+    "approving_authority": "Father Peter Trần Lục (Cụ Sáu) / Bishop Alexandre Marcou / Diocese of Phát Diệm",
+    "confidence": "confirmed",
+    "confidence_note_en": "Constructed between 1875 and 1899 by the legendary priest Fr. Peter Trần Lục (Cụ Sáu); hailed as a peerless architectural synthesis of Vietnamese pagoda temple architecture and Catholic basilica cosmology.",
+    "confidence_note_vi": "Được Cha Phêrô Trần Lục (Cụ Sáu) chủ trì xây dựng từ năm 1875 đến 1899; được tôn vinh là kiệt tác kiến trúc độc nhất vô nhị kết hợp hài hòa văn hóa đình chùa Á Đông và thần học Công giáo."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Whole Monolithic Stone Chapel of the Immaculate Heart of Mary and Tomb of Father Trần Lục",
+      "relic_name_vi": "Nguyện Đường Đá Trái Tim Đức Mẹ Nguyên Khối và Lăng Mộ Cụ Sáu Trần Lục",
+      "relic_type": "1st_class_tomb",
+      "reliquary_location": "Stone Chapel (Nhà Thờ Trái Tim Đức Mẹ) and Forecourt of Phương Đình"
+    }
+  ],
+  "historical_summary_en": "The Phát Diệm Cathedral complex in Kim Sơn, Ninh Bình, constructed between 1875 and 1899 under the leadership of Father Peter Trần Lục (popularly known as *Cụ Sáu*), stands as one of the most culturally profound Christian monuments in Asia. Built entirely of natural ironwood (*gỗ sắt*), massive stone blocks, and terracotta tiles, the complex synthesizes traditional Vietnamese imperial palace and pagoda architecture with Catholic liturgical theology.\n\nThe complex includes the grand cathedral (*Nhà Thờ Lớn*), five distinct chapels, three artificial grottoes, a bell tower pavilion (*Phương Đình*), and a monumental pond featuring a central statue of Christ the King. The most extraordinary building is the Chapel of the Immaculate Heart of Mary (*Nhà Thờ Đá*), sculpted entirely out of monolithic white limestone blocks from the pillars, walls, and altar to the window grates.\n\nPhát Diệm emerged as the spiritual fortress of Catholicism in North Vietnam, producing hundreds of martyrs and serving as a testament to the inculturation of Christian faith in Vietnamese soil.",
+  "historical_summary_vi": "Quần thể Nhà thờ Chính tòa Phát Diệm tại huyện Kim Sơn, tỉnh Ninh Bình, được Cha Phêrô Trần Lục (Cụ Sáu) chủ trì xây dựng từ năm 1875 đến 1899, là một trong những công trình kiến trúc Kitô giáo độc đáo bậc nhất Châu Á. Được dựng hoàn toàn bằng gỗ lim nguyên khối, đá xanh tự nhiên và ngói mũi hài, công trình là sự kết hợp tuyệt mỹ giữa kiến trúc cung đình đình chùa truyền thống Việt Nam và thần học phụng vụ Công giáo.\n\nQuần thể gồm Nhà Thờ Lớn nguy nga, 5 nhà nguyện độc lập, 3 hang đá nhân tạo, tháp chuông Phương Đình bề thế và hồ nước trung tâm có tượng Chúa Kitô Vua. Nổi bật nhất là Nhà Thờ Trái Tim Đức Mẹ (thường gọi là Nhà Thờ Đá) được tạc hoàn toàn bằng đá xanh nguyên khối từ cột, kèo, tường, bàn thờ cho đến chấn song cửa sổ.\n\nPhát Diệm từng là cái nôi đức tin vững chắc của miền Bắc, nơi sản sinh nhiều vị anh hùng tử đạo và là biểu tượng vĩ đại của sự hội nhập văn hóa Công giáo vào lòng dân tộc Việt Nam.",
+  "scripture_reading": "1 Peter 2:4-5",
+  "suggested_prayer_en": "O Almighty God, who inspired Father Peter Trần Lục and the faithful of Phát Diệm to build a house of prayer in living stone and native craft, strengthen the Church in Vietnam. Grant that our hearts may be living stones built into a spiritual temple of faith, charity, and steadfast witness. Amen.",
+  "suggested_prayer_vi": "Lạy Thiên Chúa Toàn Năng, Đấng đã soi sáng cho Cha Cụ Sáu và các tiền nhân xây dựng Đền Thánh Phát Diệm bằng đá vững bền và tinh hoa văn hóa dân tộc, xin nâng đỡ Giáo hội Việt Nam. Xin biến đổi tâm hồn chúng con thành những viên đá sống động xây nên ngôi đền thờ thiêng liêng của đức tin, lòng bác ái và sự trung kiên làm chứng cho Chúa muôn đời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Diocese of Phát Diệm Official Historical and Architectural Archives",
+      "url": "https://phatdiem.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Missions Étrangères de Paris (MEP) - Historical Dossier on Father Trần Lục and Phát Diệm",
+      "url": "https://irfa.paris/en/",
+      "type": "academic"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "sainte_anne_de_beaupre_quebec",
+  "category": "marian_apparition",
+  "name_en": "Basilica of Sainte-Anne-de-Beaupré (Quebec)",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Anna Beaupré (Quebec)",
+  "feast_day_association": "Feast of Saints Joachim and Anne, Parents of the Blessed Virgin Mary (July 26)",
+  "location": {
+    "shrine_or_basilica": "Basilique Sainte-Anne-de-Beaupré",
+    "city": "Sainte-Anne-de-Beaupré",
+    "region_or_state": "Quebec",
+    "country": "Canada",
+    "latitude": 47.0236,
+    "longitude": -70.9281,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1876-05-07",
+    "approving_authority": "Pope Leo XIII (Minor Basilica 1887) / Pope Francis (Papal Mass 2022)",
+    "confidence": "confirmed",
+    "confidence_note_en": "First miraculous healing recorded in 1658 (Louis Guimont cured of crippling scoliosis); elevated to Minor Basilica by Pope Leo XIII in 1887; celebrated as the premier healing shrine in North America.",
+    "confidence_note_vi": "Phép lạ chữa lành đầu tiên được ghi nhận năm 1658 (Louis Guimont được khỏi tật gù lưng bại liệt); được Đức Giáo hoàng Lêô XIII nâng lên hàng Tiểu Vương Cung Thánh Đường năm 1887; đền thánh chữa lành lớn nhất Bắc Mỹ."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Major Relic of the Forearm Bone of Saint Anne and the Miraculous Statue",
+      "relic_name_vi": "Xương Cẳng Tay Thánh Nữ Anna (Bà Ngoại Chúa Giêsu) và Tượng Phép Lạ",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Gold and Enamel Reliquary Chapel inside the Basilica of Sainte-Anne-de-Beaupré"
+    }
+  ],
+  "historical_summary_en": "The Basilica of Sainte-Anne-de-Beaupré, situated along the Saint Lawrence River twenty miles northeast of Quebec City, is the oldest pilgrimage site in North America. In 1658, French Breton sailors caught in a ferocious storm on the Saint Lawrence vowed to build a chapel to Good Saint Anne (*Bonne Sainte-Anne*), the patroness of seafarers, if they survived. Upon landing safely at Beaupré, they fulfilled their promise.\n\nDuring construction in 1658, a local laborer named Louis Guimont, suffering from crippling rheumatism and lumbar deformity, placed three foundation stones in devotion to Saint Anne and was instantly and completely cured before multiple witnesses. Countless physical healings followed, evidenced by the vast pillars covered in discarded crutches, canes, and prostheses flanking the entrance.\n\nIn 1892, Cardinal Elzéar-Alexandre Taschereau obtained a major relic of Saint Anne's forearm from Saint Paul Outside the Walls in Rome. Over a million pilgrims, including indigenous First Nations peoples who hold Saint Anne in supreme veneration, journey annually to the majestic Neo-Romanesque basilica.",
+  "historical_summary_vi": "Đại Vương Cung Thánh Đường Thánh Anna Beaupré, tọa lạc bên bờ sông Saint Lawrence cách thành phố Quebec 30 cây số về phía đông bắc, là trung tâm hành hương cổ kính nhất Bắc Mỹ. Năm 1658, các thủy thủ người Breton nước Pháp gặp phải cơn giông bão dữ dội trên sông đã khấn hứa xây một nhà nguyện kính Thánh Anna (*Bonne Sainte-Anne*)—quan thầy các thủy thủ—nếu được bình an thoát nạn. Khi cập bến Beaupré an toàn, họ đã giữ trọn lời thề.\n\nTrong lúc đặt móng nhà nguyện năm 1658, một người thợ địa phương tên Louis Guimont bị bệnh gù lưng và bại liệt cột sống nặng đã thành kính đặt ba viên đá nền và được chữa lành hoàn toàn tức thì trước sự chứng kiến của nhiều người. Vô số phép lạ chữa lành đã tiếp nối, minh chứng qua những hàng cột chất đầy nạng gỗ và gậy chống của các bệnh nhân được chữa lành nơi lối vào.\n\nNăm 1892, Đức Hồng y Taschereau đã rước thánh tích xương cẳng tay Thánh Anna từ Đền thờ Thánh Phaolô Ngoại Thành ở Roma về đền thánh. Mỗi năm có hơn một triệu khách hành hương, đặc biệt là các thổ dân bản địa Canada vốn hết lòng sùng kính Bà Ngoại Thánh Anna, đổ về kính viếng đại thánh đường.",
+  "scripture_reading": "Proverbs 31:25-30",
+  "suggested_prayer_en": "Good Saint Anne, Mother of the Virgin Mary and Grandmother of Jesus, you welcomed thousands of suffering souls to your shrine in Beaupré. Look upon our physical and spiritual afflictions; obtain for us health of body and soul, and teach our families to walk in holiness and mutual love. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Nữ Anna Nhân Lành, Thân Mẫu của Đức Trinh Nữ Maria và là Bà Ngoại của Chúa Giêsu, ngài đã mở rộng vòng tay đón nhận hàng triệu tâm hồn đau khổ tại đền thánh Beaupré. Xin đoái nhìn đến những tật nguyền đau yếu của thân xác và tâm hồn chúng con; xin chữa lành và ban ơn nâng đỡ cho gia đình chúng con luôn bước đi trong thánh thiện và yêu thương. Amen.",
+  "primary_sources": [
+    {
+      "label": "Sanctuaire Sainte-Anne-de-Beaupré Official Archival Records",
+      "url": "https://sainte-anne-de-beaupre.com/en",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Francis - Homily at the National Shrine of Sainte-Anne-de-Beaupré (July 28, 2022)",
+      "url": "https://www.vatican.va/content/francesco/en/homilies/2022/documents/20220728-omelia-quebec.html",
+      "type": "vatican"
+    }
+  ]
+}

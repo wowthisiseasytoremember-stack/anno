@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_knock",
+  "category": "marian_apparition",
+  "name_en": "Sanctuary of Our Lady of Knock",
+  "name_vi": "Đền Thánh Đức Mẹ Knock",
+  "feast_day_association": "Feast of Our Lady of Knock (August 17)",
+  "location": {
+    "shrine_or_basilica": "Knock Shrine (Basilica of Our Lady, Queen of Ireland)",
+    "city": "Knock",
+    "region_or_state": "County Mayo",
+    "country": "Ireland",
+    "latitude": 53.7915,
+    "longitude": -8.9174,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1879-10-08",
+    "approving_authority": "Archbishop John MacHale / Pope John Paul II (Golden Rose 1979) / Pope Francis (International Sanctuary 2021)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Formally examined by the Diocesan Commission of Inquiry in 1879 and 1936, confirming fifteen eyewitness testimonies; designated an International Eucharistic and Marian Sanctuary by Pope Francis in 2021.",
+    "confidence_note_vi": "Được Hội đồng Điều tra Giáo phận thẩm định năm 1879 và 1936, xác nhận lời chứng của 15 nhân chứng tận mắt; được Đức Giáo hoàng Phanxicô nâng lên hàng Đền thánh Quốc tế Thánh Thể và Thánh Mẫu năm 2021."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Apparition Gable Wall of Saint John the Baptist Church",
+      "relic_name_vi": "Bức Tường Đầu Hồi Nơi Đức Mẹ Hiện Ra tại Nhà Thờ Thánh Gioan Baotixita",
+      "relic_type": "apparition_site",
+      "reliquary_location": "Enclosed within the Apparition Chapel at Knock Shrine"
+    }
+  ],
+  "historical_summary_en": "On the torrential evening of August 21, 1879, a silent, celestial apparition took place at the southern gable of Saint John the Baptist Church in the small village of Knock, County Mayo. Fifteen witnesses aged between 5 and 74 gazed for two hours in pouring rain at a radiant manifestation: the Blessed Virgin Mary clothed in white robes and a golden crown, Saint Joseph bowing reverently toward her, Saint John the Evangelist vested as a bishop holding a book of Gospels, and to their left, a plain altar upon which stood a young Lamb surrounded by angels and an upright Cross.\n\nRemarkably, unlike other Marian apparitions, no spoken words were uttered by the heavenly figures, and the ground directly beneath the gable wall remained completely dry throughout the heavy downpour. The apparition occurred during a period of immense national trauma in Ireland, marked by the Great Famine's aftermath, the Land Wars, and mass emigration.\n\nThe silent, Eucharistic-centered apparition conveyed a profound message of solidarity and hope: the Lamb of God sacrificed upon the altar remains the eternal source of consolation. Knock has received visits from Pope John Paul II (1979), Mother Teresa of Calcutta (1993), and Pope Francis (2018).",
+  "historical_summary_vi": "Vào buổi chiều tối mưa bão ngày 21 tháng 8 năm 1879, một biến cố hiện ra trong thinh lặng thánh thiện đã xảy ra tại bức tường đầu hồi phía nam nhà thờ Thánh Gioan Baotixita ở ngôi làng nhỏ Knock, Quận Mayo. Mười lăm nhân chứng tuổi từ 5 đến 74 đã chiêm ngắm suốt hai tiếng đồng hồ dưới cơn mưa như trút nước một cảnh tượng rực rỡ: Đức Trinh Nữ Maria mặc áo trắng đội triều thiên vàng, Thánh Giuse cúi mình cung kính về phía Mẹ, Thánh Sử Gioan trong phẩm phục giám mục tay cầm sách Phúc Âm, và bên cạnh là một bàn thờ có Chiên Con đứng trước Thánh Giá uy nghi giữa các thiên thần bay lượn.\n\nKhác biệt với các cuộc hiện ra khác, các đấng thánh hoàn toàn thinh lặng không thốt nên lời, và nền đất dưới chân tường đầu hồi hoàn toàn khô ráo mặc cho mưa bão xung quanh. Biến cố diễn ra đúng vào thời kỳ dân tộc Ireland gánh chịu hậu quả nặng nề của nạn đói, khủng hoảng ruộng đất và làn sóng di cư ồ ạt.\n\nSứ điệp thinh lặng đặt trung tâm vào Hy tế Thánh Thể đã mang lại niềm hy vọng và an ủi vô biên: Chiên Thiên Chúa hiến tế trên bàn thờ là nguồn ơn cứu chuộc bất diệt. Đền thánh đã vinh dự đón tiếp Thánh Giáo hoàng Gioan Phaolô II (1979), Mẹ Thánh Teresa Calcutta (1993) và Đức Giáo hoàng Phanxicô (2018).",
+  "scripture_reading": "John 1:29",
+  "suggested_prayer_en": "O Lady of Knock, Queen of Ireland and Comfort of the Afflicted, you stood in silent prayer at the foot of the Lamb of God. In the storms and silent trials of our lives, teach us to contemplate the sacred mystery of the Eucharist with profound adoration and unwavering faith. Guide our hearts into the peace of Christ. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ Knock, Nữ Vương nước Ireland và là Nguồn An Ủi kẻ âu lo, Mẹ đã đứng trong sự thinh lặng cầu nguyện dưới chân Chiên Thiên Chúa. Giữa những giông bão và thử thách âm thầm của cuộc đời, xin dạy chúng con biết chiêm ngắm mầu nhiệm Thánh Thể với lòng cung kính sâu xa và đức tin kiên vững. Xin dẫn dắt tâm hồn chúng con vào bình an của Chúa Kitô. Amen.",
+  "primary_sources": [
+    {
+      "label": "Knock Shrine Official Commission of Inquiry Records (1879 & 1936)",
+      "url": "https://www.knockshrine.ie/history/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Francis - Message on Elevation of Knock to International Sanctuary (March 19, 2021)",
+      "url": "https://www.vatican.va/content/francesco/en/messages/pont-messages/2021/documents/papa-francesco_20210319_messaggio-santuario-knock.html",
+      "type": "vatican"
+    }
+  ]
+}

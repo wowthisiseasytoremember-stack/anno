@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "senor_de_los_milagros_lima",
+  "category": "passion_relic",
+  "name_en": "Sanctuary of Las Nazarenas (Señor de los Milagros)",
+  "name_vi": "Đền Thánh Các Nữ Tu Nazarenas (Chúa Các Phép Lạ, Lima)",
+  "feast_day_association": "Feast of Señor de los Milagros / Purple Month (October 18 & 28)",
+  "location": {
+    "shrine_or_basilica": "Santuario y Monasterio de Las Nazarenas",
+    "city": "Lima",
+    "region_or_state": "Lima Province",
+    "country": "Peru",
+    "latitude": -12.0447,
+    "longitude": -77.0353,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1771-01-20",
+    "approving_authority": "Viceroy Manuel de Amat / Pope Benedict XVI (Papal Blessing 2005)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Mural painted in 1651 by an enslaved Angolan African (*Benito*); survived catastrophic earthquakes of 1655, 1687, and 1746 that leveled Lima; recognized by the Holy See as the Patron of Lima and all Peruvians worldwide.",
+    "confidence_note_vi": "Bức bích họa do một nô lệ người Angola (*Benito*) vẽ năm 1651 trên tường đất; sống sót kỳ diệu qua các trận siêu động đất năm 1655, 1687 và 1746 san phẳng thủ đô Lima; được Tòa Thánh tôn vinh là Quan Thầy thành phố Lima."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous 1651 Adobe Wall Mural of the Crucified Christ (Cristo Moreno)",
+      "relic_name_vi": "Bức Bích Họa Phép Lạ Trên Tường Đất Năm 1651 Tạc Chúa Chịu Đóng Đinh (Chúa Da Ngăm)",
+      "relic_type": "holy_icon",
+      "reliquary_location": "High Altar Retablo of the Church of Las Nazarenas, Lima"
+    }
+  ],
+  "historical_summary_en": "In approximately 1651, in the impoverished Pachacamilla neighborhood of Lima, Peru, an enslaved Angolan African named Benito (or Pedro Dalcón) painted a poignant mural of the Crucified Christ with the Holy Spirit and God the Father upon a rough adobe mud-brick wall. On November 13, 1655, a catastrophic 7.8 magnitude earthquake struck Lima and Callao, flattening nearly the entire city; miraculously, the fragile adobe wall bearing the fresco remained completely standing without a single crack.\n\nIn 1671, civil authorities attempted to erase the mural due to unruly crowds, but every artisan sent to destroy it experienced trembling, fainting, or witnessed the image glow with divine light. In 1687 and again in the apocalyptic earthquake of 1746, the city was flattened, yet the adobe mural stood undisturbed.\n\nA monastery of Discalced Nazarene Carmelite nuns was erected around the wall to protect it perpetually. Every October during *Mes Morado* ('The Purple Month'), hundreds of thousands of faithful wearing purple tunics accompany the two-ton silver litter carrying a replica of the *Cristo Moreno* through Lima in what is recognized as one of the world's largest annual religious processions.",
+  "historical_summary_vi": "Vào khoảng năm 1651, tại khu phố nghèo Pachacamilla ở thủ đô Lima, Peru, một người nô lệ da đen gốc Angola tên Benito đã vẽ một bức bích họa đơn sơ cảm động tạc hình Chúa Giêsu chịu đóng đinh cùng Chúa Cha và Chúa Thánh Thần trên một bức tường đất bùn mộc mạc. Ngày 13 tháng 11 năm 1655, một trận siêu động đất kinh hoàng 7,8 độ richter đã san phẳng gần như toàn bộ thành phố Lima; kỳ lạ thay, bức tường đất mỏng manh mang bức bích họa vẫn đứng vững nguyên vẹn không một vết nứt.\n\nNăm 1671, chính quyền địa phương cử thợ đến đập bỏ bức tường vì sợ đám đông tụ tập, nhưng những người thợ được cử đến đều bị run rẩy, ngất xỉu hoặc nhìn thấy bức tranh tỏa hào quang chói lọi. Trong các trận động đất năm 1687 và 1746 phá hủy cả thành phố, bức tường tranh vẫn sừng sững uy nghiêm.\n\nMột đan viện các nữ tu Dòng Kín Nazarenas đã được xây dựng bao quanh bức tường để chăm sóc bảo tồn. Hằng năm vào tháng 10 (*Tháng Màu Tím - Mes Morado*), hàng triệu tín hữu mặc áo thụng tím tham gia cuộc rước kiệu bạc khổng lồ nặng hai tấn cung nghinh Linh Ảnh Chúa Các Phép Lạ qua khắp các đường phố Lima, tạo nên một trong những lễ hội tôn giáo lớn nhất thế giới.",
+  "scripture_reading": "Colossians 1:19-20",
+  "suggested_prayer_en": "Lord of Miracles, Cristo Moreno, who stood unshaken through the violent earthquakes of history, be the solid anchor of our lives. Protect our families from spiritual and temporal disasters, heal our infirmities, and unite our hearts in fraternal solidarity and unfailing charity. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Các Phép Lạ (*Señor de los Milagros*), Đấng đã đứng vững vàng kiên cố qua bao trận siêu động đất của lịch sử, xin làm tảng đá neo đậu vững chắc cho cuộc đời chúng con. Xin bảo vệ gia đình chúng con khỏi mọi hiểm họa tâm linh và thể xác, chữa lành những đau yếu bệnh tật và liên kết tâm hồn chúng con trong tình bác ái huynh đệ bền vững. Amen.",
+  "primary_sources": [
+    {
+      "label": "Archdiocese of Lima - Official History and Chronicles of Señor de los Milagros",
+      "url": "https://arzobispadodelima.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Francis - Message for the Festivity of the Lord of Miracles (October 2020)",
+      "url": "https://www.vatican.va/content/francesco/es/messages/pont-messages/2020/documents/papa-francesco_20201018_messaggio-senordelosmilagros.html",
+      "type": "vatican"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "ba_giong_martyrs_shrine",
+  "category": "martyr_shrine",
+  "name_en": "National Shrine of the Vietnamese Martyrs at Ba Giồng",
+  "name_vi": "Trung Tâm Hành Hương Các Thánh Tử Đạo Ba Giồng",
+  "feast_day_association": "Feast of Saint Peter Nguyễn Văn Lựu and the Ba Giồng Martyrs (April 7 / November 24)",
+  "location": {
+    "shrine_or_basilica": "Trung tâm Hành hương Ba Giồng",
+    "city": "Chợ Gạo",
+    "region_or_state": "Tiền Giang",
+    "country": "Vietnam",
+    "latitude": 10.4206,
+    "longitude": 106.3986,
+    "precision": "tomb"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "2004-06-01",
+    "approving_authority": "Bishop Paul Bùi Văn Đọc / Diocese of Mỹ Tho",
+    "confidence": "confirmed",
+    "confidence_note_en": "Site of execution of Saint Peter Nguyễn Văn Lựu and thousands of Catholic martyrs between 1859 and 1862 under Emperor Tự Đức; designated Diocesan Pilgrimage Center for the Vietnamese Martyrs by Bishop Paul Bùi Văn Đọc in 2004.",
+    "confidence_note_vi": "Nơi pháp trường xử trảm Thánh Linh mục Phêrô Nguyễn Văn Lựu và hàng ngàn giáo dân tử đạo thời vua Tự Đức (1859-1862); được Đức Giám mục Phaolô Bùi Văn Đọc thiết lập thành Trung Tâm Hành Hương Các Thánh Tử Đạo năm 2004."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Bone Relics of Saint Peter Nguyễn Văn Lựu and the Martyred Faithful of Ba Giồng",
+      "relic_name_vi": "Hài Cốt Thánh Phêrô Nguyễn Văn Lựu và Hài Cốt Hàng Ngàn Đấng Tử Đạo Ba Giồng",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Martyrs' Ossuary and Altar at Ba Giồng Pilgrimage Center"
+    }
+  ],
+  "historical_summary_en": "Ba Giồng, located in Chợ Gạo district, Tiền Giang province, is one of the most venerated sites of martyrdom in southern Vietnam. Established as a Christian settlement in 1702, Ba Giồng became the epicenter of intense anti-Catholic persecution during the reign of Emperor Tự Đức under the *Phân Sáp* (Dispersion) Edicts between 1859 and 1862.\n\nOn April 7, 1861, Father Peter Nguyễn Văn Lựu, pastor of Ba Giồng, was beheaded at the local execution ground after refusing to trample upon the crucifix, uttering his immortal confession: *'I will not step on the Cross; I prefer to die for the Lord.'* Canonized by Pope John Paul II in 1988, Saint Peter Lựu was martyred alongside dozens of local catechists.\n\nDuring the brutal enforcement of the Dispersion Edict in 1862, several thousand Catholic men, women, and children from surrounding villages were rounded up, tied together, and buried alive or burned in large pits across Ba Giồng. In 2004, Bishop Paul Bùi Văn Đọc established the modern pilgrimage center and ossuary memorial, honoring the steadfast fidelity of these southern Vietnamese witnesses of the faith.",
+  "historical_summary_vi": "Ba Giồng, tọa lạc tại huyện Chợ Gạo, tỉnh Tiền Giang, là một trong những thánh địa tử đạo linh thiêng bậc nhất miền Nam Việt Nam. Được hình thành từ năm 1702, giáo xứ Ba Giồng đã trở thành tâm điểm của những cuộc bách hại đạo tàn khốc dưới thời vua Tự Đức qua các sắc lệnh Phân Sáp (1859–1862).\n\nNgày 7 tháng 4 năm 1861, Cha sở Phêrô Nguyễn Văn Lựu đã anh dũng chịu trảm quyết tại pháp trường Ba Giồng sau khi kiên quyết từ chối đạp lên Thánh Giá, để lại lời tuyên xưng bất hủ: *'Đạo đã thấm nhập trong xương tủy tôi, làm sao tôi bỏ được. Thà tôi chịu chết chứ không bao giờ khóa quá.'* Ngài được Thánh Giáo hoàng Gioan Phaolô II tuyên thánh năm 1988.\n\nTrong đợt thi hành lệnh Phân Sáp năm 1862, hàng ngàn giáo dân Ba Giồng gồm cả người già, phụ nữ và trẻ em đã bị trói chùm vùi sống hoặc thiêu sống dưới các hố chôn tập thể vì kiên trung giữ đạo. Năm 2004, Đức Giám mục Phaolô Bùi Văn Đọc đã khánh thành Trung tâm Hành hương và nhà hài cốt lưu giữ di cốt các đấng tử đạo anh hùng.",
+  "scripture_reading": "Matthew 10:32-33",
+  "suggested_prayer_en": "O Holy Vietnamese Martyrs of Ba Giồng, especially Saint Peter Nguyễn Văn Lựu, who shed your blood on this soil rather than deny the Cross of Christ, pray for our families. Grant us an unshakeable faith, courageous charity, and the grace to remain faithful disciples of Jesus until our last breath. Amen.",
+  "suggested_prayer_vi": "Lạy Các Thánh Tử Đạo Việt Nam tại Ba Giồng, đặc biệt là Thánh Linh mục Phêrô Nguyễn Văn Lựu, các ngài đã đổ máu đào trên mảnh đất này thà chịu chết chứ không chối bỏ Thánh Giá Chúa Kitô, xin cầu bầu cho gia đình chúng con. Xin ban cho chúng con một đức tin kiên trung, lòng mến sắt son và ơn bền đỗ theo chân Chúa Giêsu đến hơi thở cuối cùng. Amen.",
+  "primary_sources": [
+    {
+      "label": "Diocese of Mỹ Tho - Official Historical Dossier of Ba Giồng Martyrs Sanctuary",
+      "url": "https://giaophanmytho.net/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope John Paul II - Apostolic Constitution Canonizing 117 Vietnamese Martyrs (June 19, 1988)",
+      "url": "https://www.vatican.va/content/john-paul-ii/la/apost_constitutions/documents/hf_jp-ii_apc_19880619_vietnam.html",
+      "type": "vatican"
+    }
+  ]
+}

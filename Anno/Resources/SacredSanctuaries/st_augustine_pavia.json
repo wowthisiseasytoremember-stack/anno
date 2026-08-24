@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_augustine_pavia",
+  "category": "doctor_of_church",
+  "name_en": "Basilica of San Pietro in Ciel d'Oro (Tomb of Saint Augustine)",
+  "name_vi": "Đại Vương Cung Thánh Đường San Pietro in Ciel d'Oro (Lăng Mộ Thánh Augustinô)",
+  "feast_day_association": "Feast of Saint Augustine of Hippo, Doctor of the Church (August 28)",
+  "location": {
+    "shrine_or_basilica": "Basilica di San Pietro in Ciel d'Oro",
+    "city": "Pavia",
+    "region_or_state": "Lombardy",
+    "country": "Italy",
+    "latitude": 45.1894,
+    "longitude": 9.1558,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "0725-01-01",
+    "approving_authority": "King Liutprand of the Lombards / Pope Leo XIII / Pope Benedict XVI (Visit 2007)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Relics translated from Sardinia to Pavia c. 725 AD by Lombard King Liutprand to protect them from Saracen raids; enclosed in the 14th-century Gothic marble masterpiece *Arca di Sant'Agostino*; confirmed by archaeological excavations in 1695 and papal visit of Benedict XVI in 2007.",
+    "confidence_note_vi": "Hài cốt được Vua Lombard Liutprand rước từ Sardinia về Pavia khoảng năm 725 để bảo vệ khỏi quân Saracen; được an vị trong kiệt tác cẩm thạch Gothic thế kỷ 14 *Arca di Sant'Agostino*; được kiểm nghiệm khảo cổ năm 1695 và Đức Biển Đức XVI viếng thăm năm 2007."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sacred Bones of Saint Augustine, Bishop of Hippo and Doctor of Grace",
+      "relic_name_vi": "Hài Cốt Thánh Augustinô, Giám Mục Hippo và Tiến Sĩ Ân Sủng",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Arca di Sant'Agostino at the High Altar of San Pietro in Ciel d'Oro"
+    }
+  ],
+  "historical_summary_en": "Saint Augustine of Hippo (354–430), the 'Doctor of Grace' (*Doctor Gratiae*), stands as the intellectual colossus of Western Christianity. Born in Thagaste (modern Algeria) to Saint Monica, Augustine wandered through the errors of Manichaeism and moral dissipation before experiencing his dramatic conversion in Milan under Saint Ambrose in 386, crying out: *'Late have I loved you, O Beauty ever ancient, ever new!'*\n\nAs Bishop of Hippo Regius, Augustine defended Catholic orthodoxy against Donatism, Pelagianism, and Arianism, authoring over five million words including the immortal spiritual autobiography *Confessions* and the monumental theology of history *The City of God* (*De Civitate Dei*).\n\nAugustine died on August 28, 430, as the Vandals besieged Hippo. When North Africa fell to Islamic conquest in the 8th century, King Liutprand of the Lombards purchased the sacred body for a great sum to rescue it from desecration, translating it to Pavia around 725 AD. Today, the Apostle of Grace rests within the *Arca di Sant'Agostino*, an exquisite 14th-century Gothic shrine adorned with ninety-five marble statues depicting his life.",
+  "historical_summary_vi": "Thánh Augustinô thành Hippo (354–430), 'Tiến Sĩ Ân Sủng' (*Doctor Gratiae*), là một trong những cột trụ tư tưởng vĩ đại nhất của Kitô giáo Tây Phương. Sinh tại Thagaste (nay thuộc Algeria) là con của Thánh Nữ Monica, ngài từng lạc lối trong tà thuyết Manikê và lối sống đam mê nhục dục trước khi trải qua cuộc trở lại đạo kỳ diệu tại Milan năm 386 nhờ sự hướng dẫn của Thánh Ambrose, thốt lên lời nguyện bất hủ: *'Lạy Vẻ Đẹp cổ kính mà luôn tươi mới, con đã yêu Chúa quá muộn màng!'*\n\nTrên cương vị Giám mục Hippo Regius, ngài bảo vệ giáo lý chính truyền chống lại các bè rối Donatô, Pelagiô và Ariô, để lại gia sản hơn năm triệu từ ngữ thần học, nổi bật là tập tự thuật *Tự Thuật* (*Confessiones*) và kiệt tác *Thành Đô Thiên Chúa* (*De Civitate Dei*).\n\nThánh Augustinô qua đời ngày 28 tháng 8 năm 430 khi quân Vandal đang vây hãm thành Hippo. Vào thế kỷ thứ 8 khi Bắc Phi bị Hồi giáo chiếm đóng, Vua Liutprand nước Lombard đã dùng một số tiền lớn chuộc lại thánh tích ngài và rước về Pavia vào khoảng năm 725. Ngày nay, vị Tiến sĩ Ân Sủng an nghỉ trong kiệt tác cẩm thạch *Arca di Sant'Agostino* thế kỷ 14 chạm khắc 95 pho tượng tuyệt mỹ.",
+  "scripture_reading": "Romans 13:13-14",
+  "suggested_prayer_en": "O Great Doctor of Grace Saint Augustine, you sought Truth restlessly until your heart found its rest in God (*'Inquietum est cor nostrum donec requiescat in Te'*). Convert the hearts of all who wander in spiritual darkness; inflame our souls with a burning love for the Divine Beauty, and grant us perseverance in grace. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Augustinô Tiến Sĩ Ân Sủng, tâm hồn ngài từng khắc khoải không yên cho đến khi được nghỉ yên trong Chúa (*'Inquietum est cor nostrum donec requiescat in Te'*). Xin hoán cải tâm hồn những ai đang lạc lối trong bóng tối sai lầm; thắp lên trong lòng chúng con tình yêu nồng nàn dành cho Vẻ Đẹp Chân Lý Tuyệt Đối và ban cho chúng con ơn bền đỗ trong ân sủng đến cùng. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope Benedict XVI - Homily at the Basilica of San Pietro in Ciel d'Oro, Pavia (April 22, 2007)",
+      "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2007/documents/hf_ben-xvi_hom_20070422_pavia.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Diocesi di Pavia - Official Arca di Sant'Agostino Archival Records",
+      "url": "https://www.diocesi.pavia.it/",
+      "type": "academic"
+    }
+  ]
+}

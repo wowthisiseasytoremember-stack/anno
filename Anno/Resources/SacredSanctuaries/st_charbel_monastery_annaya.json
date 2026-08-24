@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_charbel_monastery_annaya",
+  "category": "monastic_sanctuary",
+  "name_en": "Monastery of Saint Maron - Sanctuary of Saint Charbel (Annaya)",
+  "name_vi": "Đan Viện Thánh Maron - Đền Thánh Cha Thánh Charbel (Annaya, Liban)",
+  "feast_day_association": "Feast of Saint Charbel Makhlouf (Third Sunday of July / December 24)",
+  "location": {
+    "shrine_or_basilica": "Monastery of Saint Maron - Annaya (Santuario di San Charbel)",
+    "city": "Annaya (Byblos District)",
+    "region_or_state": "Mount Lebanon Governorate",
+    "country": "Lebanon",
+    "latitude": 34.1481,
+    "longitude": 35.8153,
+    "precision": "tomb"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1977-10-09",
+    "approving_authority": "Pope Paul VI (Canonization in Rome) / Maronite Patriarchate of Antioch",
+    "confidence": "confirmed",
+    "confidence_note_en": "Canonized by Pope Paul VI in 1977; body remained completely flexible and exuded miraculous fluid continuously from 1898 to 1965; over 29,000 documented miraculous healings recorded in the shrine registers.",
+    "confidence_note_vi": "Được Đức Giáo hoàng Phaolô VI tuyên thánh năm 1977; thi hài hoàn toàn mềm mại và liên tục tiết ra chất dịch phép lạ từ năm 1898 đến 1965; hơn 29.000 phép lạ chữa lành được ghi nhận trong sổ lưu niệm đền thánh."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Incorrupt Body, Bone Relics, and Miraculous Oil of Saint Charbel Makhlouf",
+      "relic_name_vi": "Thi Hài và Dầu Thánh Phép Lạ của Cha Thánh Charbel Makhlouf",
+      "relic_type": "incorrupt_body",
+      "reliquary_location": "Marble Tomb inside the Church of Saint Maron and the Hermitage of Saints Peter and Paul, Annaya"
+    }
+  ],
+  "historical_summary_en": "Saint Charbel Makhlouf (Youssef Antoun Makhlouf, 1828–1898) was a Maronite Catholic monk and solitary hermit of the Lebanese Maronite Order who lived at the Hermitage of Saints Peter and Paul above the Monastery of Saint Maron in Annaya on Mount Lebanon. Living a life of extreme fasting, continuous Eucharistic adoration, and manual labor, Charbel spoke only in prayer and lived in complete union with God.\n\nOn December 16, 1898, while celebrating the Maronite Divine Liturgy, Charbel suffered a stroke at the moment of the elevation of the Sacred Host, whispering the liturgical prayer: *'Father of Truth, behold Your Son, a sacrifice pleasing to You.'* He died on Christmas Eve 1898.\n\nImmediately after his burial in the muddy monastery cemetery, dazzling beams of celestial light shone from his grave for forty-five consecutive nights. When exhumed, his body was found floating in muddy water but completely incorrupt, lifelike, and bleeding fresh blood and sweat. For sixty-seven years (1898–1965), his flexible body exuded a fragrant reddish perspiration that filled bottles and worked thousands of medically validated cures across Christians and Muslims alike.",
+  "historical_summary_vi": "Thánh Charbel Makhlouf (Youssef Antoun Makhlouf, 1828–1898) là một đan sĩ và ẩn sĩ Công giáo nghi lễ Maronite thuộc Dòng Maronite Liban, ẩn tu tại Ẩn viện Thánh Phêrô và Phaolô trên đỉnh núi Annaya, Liban. Sống đời chay tịnh khắc khổ, chầu Thánh Thể liên lỉ thâu đêm và lao động chân tay, ngài chỉ mở miệng khi cầu nguyện và kết hợp mật thiết với Chúa.\n\nNgày 16 tháng 12 năm 1898, khi đang cử hành Thánh Lễ nghi lễ Maronite, Cha Charbel bị đột quỵ ngay lúc nâng cao Bánh Thánh, thì thào lời nguyện phụng vụ: *'Lạy Cha của Chân Lý, này Con Cha là hy lễ đẹp lòng Cha.'* Ngài qua đời vào Đêm Vọng Giáng Sinh năm 1898.\n\nNgay sau khi an táng nơi nghĩa trang đan viện lầy lội, những luồng ánh sáng chói lọi kỳ diệu đã phát ra từ ngôi mộ suốt 45 đêm liên tiếp. Khi quật mộ, thi thể ngài vẫn mềm mại hồng hào như người đang ngủ, không hề hư nát và rỉ ra chất dịch thơm ngát. Suốt 67 năm (1898–1965), thi hài ngài liên tục tiết ra chất dịch mồ hôi và máu chữa lành hàng chục ngàn ca bệnh nan y cho cả người Kitô giáo và Hồi giáo.",
+  "scripture_reading": "Psalm 92:12-14",
+  "suggested_prayer_en": "Lord God, who called Saint Charbel to solitary holiness on the heights of Mount Lebanon and glorified him with extraordinary miracles of healing, look upon our suffering. Through his intercession, grant health to the sick, peace to the Middle East, and salvation to all souls. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa là Thiên Chúa chúng con, Đấng đã gọi Cha Thánh Charbel lên đỉnh núi Liban để sống đời ẩn tu thánh thiện và tôn vinh ngài bằng muôn vàn phép lạ chữa lành kỳ diệu, xin đoái nhìn đến những nỗi đau khổ của chúng con. Nhờ lời chuyển cầu của ngài, xin chữa lành người bệnh tật, ban bình an cho vùng Trung Đông và ban ơn cứu độ cho muôn linh hồn. Amen.",
+  "primary_sources": [
+    {
+      "label": "Monastery of Saint Maron Annaya Official Sanctuary & Medical Miracle Records",
+      "url": "https://saintcharbel.com/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Paul VI - Homily for the Canonization of Saint Charbel Makhlouf (October 9, 1977)",
+      "url": "https://www.vatican.va/content/paul-vi/en/homilies/1977/documents/hf_p-vi_hom_19771009_charbel.html",
+      "type": "vatican"
+    }
+  ]
+}

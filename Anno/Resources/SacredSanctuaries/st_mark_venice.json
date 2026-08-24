@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_mark_venice",
+  "category": "apostolic_tomb",
+  "name_en": "Patriarchal Cathedral Basilica of Saint Mark (Venice)",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Máccô (Venice)",
+  "feast_day_association": "Feast of Saint Mark the Evangelist (April 25)",
+  "location": {
+    "shrine_or_basilica": "Basilica Cattedrale Patriarcale di San Marco",
+    "city": "Venice",
+    "region_or_state": "Veneto",
+    "country": "Italy",
+    "latitude": 45.4345,
+    "longitude": 12.3397,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1094-10-08",
+    "approving_authority": "Doge Vitale Falier / Patriarch of Venice / Pope Urban II",
+    "confidence": "confirmed",
+    "confidence_note_en": "Relics translated from Alexandria to Venice in 828 AD by Venetian merchants Rustico da Torcello and Buono da Malamocco; miraculous rediscovery (*Inventio*) during church consecration in 1094.",
+    "confidence_note_vi": "Hài cốt được rước từ Alexandria về Venice năm 828 bởi hai thương gia Rustico da Torcello và Buono da Malamocco; biến cố tái khám phá hài cốt kỳ diệu (*Inventio*) diễn ra khi thánh hiến đền thờ năm 1094."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sacred Relics of Saint Mark the Evangelist, Disciple of Peter",
+      "relic_name_vi": "Hài Cốt Thánh Máccô Tác Giả Phúc Âm, Môn Đệ Thánh Phêrô",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Marble Sarcophagus beneath the High Altar and the Pala d'Oro"
+    }
+  ],
+  "historical_summary_en": "Saint Mark the Evangelist, companion of Saint Paul and disciple-interpreter of Saint Peter in Rome (*1 Peter 5:13*), authored the Second Gospel capturing Peter's direct apostolic testimony. Following his mission in Rome, Mark journeyed to Egypt, where he founded the Church of Alexandria, becoming its first bishop and suffering martyrdom around AD 68 when pagans dragged him through the streets.\n\nIn AD 828, two Venetian merchants, Buono di Malamocco and Rustico di Torcello, smuggled the Apostle's body out of Muslim-occupied Alexandria beneath layers of pork and cabbage to evade customs. Arriving in Venice, Doge Giustiniano Participazio hailed the arrival as the fulfillment of an ancient prophecy in which an angel greeted Mark in the Venetian lagoon: *'Pax tibi Marce, evangelista meus'* ('Peace be to you, Mark, my evangelist').\n\nThe Venetian Republic adopted the Winged Lion of Saint Mark as its eternal crest and constructed the breathtaking Byzantine-Gothic Basilica of Saint Mark. Adorned with over 8,000 square meters of shimmering gold glass mosaics and the famed *Pala d'Oro*, Saint Mark's tomb stands at the crossroads of Eastern and Western Christian culture.",
+  "historical_summary_vi": "Thánh Máccô Thánh Sử, người bạn đồng hành của Thánh Phaolô và là người môn đệ ghi chép lời chứng trực tiếp của Thánh Phêrô tại Roma (*1 Phêrô 5:13*), là tác giả của sách Phúc Âm Thứ Hai. Sau sứ vụ tại Roma, ngài đến Ai Cập thành lập Tòa Thượng Phụ Alexandria, trở thành vị giám mục đầu tiên và chịu tử đạo vào khoảng năm 68 sau Công Nguyên khi bị dân ngoại kéo lê qua các đường phố.\n\nNăm 828, hai thương gia thành Venice là Buono di Malamocco và Rustico di Torcello đã bí mật rước thi hài Thánh Sử vượt biển thoát khỏi sự kiểm soát của quân Hồi giáo tại Alexandria về Venice. Tổng trấn Venice đã hân hoan đón nhận, xem đây là sự ứng nghiệm lời thiên thần từng báo trước cho Thánh Máccô bên đầm phá Venice: *'Pax tibi Marce, evangelista meus'* ('Bình an cho con, Máccô, thánh sử của Ta').\n\nCộng hòa Venice đã chọn biểu tượng Sư Tử Có Cánh của Thánh Máccô làm quốc huy và xây dựng Đại Vương Cung Thánh Đường San Marco nguy nga lộng lẫy theo phong cách Byzantine. Với hơn 8.000 mét vuông tranh ghép kính mạ vàng ròng cùng bức trướng *Pala d'Oro* vô giá, lăng mộ Thánh Máccô là biểu tượng đức tin kết nối hai nền văn minh Kitô giáo Đông - Tây.",
+  "scripture_reading": "Mark 1:1-3",
+  "suggested_prayer_en": "O Glorious Evangelist Saint Mark, faithful interpreter of Saint Peter, you proclaimed with urgency the Good News of the Kingdom of God. Strengthen our resolve to live the Gospel boldly, protect the unity of the Church, and grant that like the Winged Lion, we may fearlessly profess Christ as the Son of the Living God. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Máccô Thánh Sử vinh hiển, môn đệ trung thành của Thánh Phêrô, ngài đã hăng say loan báo Tin Mừng Nước Thiên Chúa cho muôn dân. Xin củng cố lòng can đảm của chúng con để sống trọn vẹn tinh thần Phúc Âm, gìn giữ sự hiệp nhất của Giáo hội và ban cho chúng con lòng dũng cảm như Sư Tử Có Cánh tuyên xưng Chúa Kitô là Con Thiên Chúa Hằng Sống. Amen.",
+  "primary_sources": [
+    {
+      "label": "Procuratoria di San Marco - Historical and Archaeological Archive of the Basilica",
+      "url": "http://www.basilicasanmarco.it/basilica/storia/?lang=en",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Benedict XVI - Address during Pastoral Visit to Saint Mark's Basilica (May 8, 2011)",
+      "url": "https://www.vatican.va/content/benedict-xvi/en/speeches/2011/may/documents/hf_ben-xvi_spe_20110508_san-marco.html",
+      "type": "vatican"
+    }
+  ]
+}

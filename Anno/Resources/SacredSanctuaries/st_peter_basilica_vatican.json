@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_peter_basilica_vatican",
+  "category": "apostolic_tomb",
+  "name_en": "Papal Basilica of Saint Peter in the Vatican",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Phêrô tại Vatican",
+  "feast_day_association": "Solemnity of Saints Peter and Paul, Apostles (June 29) / Chair of Saint Peter (February 22)",
+  "location": {
+    "shrine_or_basilica": "Basilica Papale di San Pietro in Vaticano",
+    "city": "Vatican City",
+    "region_or_state": "Rome",
+    "country": "Vatican City State",
+    "latitude": 41.9022,
+    "longitude": 12.4539,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1626-11-18",
+    "approving_authority": "Pope Urban VIII / Pope Paul VI (Announcement of Relics 1968)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Archaeological excavations (1939-1949) directed by Msgr. Ludwig Kaas and epigraphist Margherita Guarducci identified the 2nd-century Aedicula, the Red Wall, and the Greek graffiti 'PETROS ENI' ('Peter is within'), confirming the tomb and bones of Saint Peter beneath Bernini's Baldacchino.",
+    "confidence_note_vi": "Các cuộc khai quật khảo cổ (1939-1949) do Đức ông Ludwig Kaas và nhà văn bia Margherita Guarducci thực hiện đã xác định Nhà Tạm thế kỷ thứ 2, Bức Tường Đỏ và ký tự Hy Lạp 'PETROS ENI' ('Phêrô ở đây'), chứng minh thi hài và lăng mộ Thánh Phêrô bên dưới Tán Che Bernini."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Bones of Saint Peter the Apostle, Prince of the Apostles",
+      "relic_name_vi": "Hài Cốt Thánh Phêrô Tông Đồ, Thủ Lãnh Các Tông Đồ",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Vatican Necropolis beneath the Papal Altar of the Confessio"
+    }
+  ],
+  "historical_summary_en": "Saint Peter the Apostle, chosen by Jesus Christ as the Rock upon which He built His Church (*Matthew 16:18*), was martyred by inverted crucifixion in approximately AD 64-67 in the Circus of Caligula and Nero at the foot of the Vatican Hill. Christian believers secretly buried his body in an adjacent pagan necropolis along the Via Cornelia.\n\nIn the 4th century, Emperor Constantine the Great leveled the steep necropolis slope to construct the first monumental basilica directly over Peter's tomb, aligning the high altar with the Apostle's burial spot. During the Renaissance and Baroque eras, architects including Bramante, Michelangelo, and Bernini erected the current magnificent basilica, crowned by Michelangelo's soaring dome.\n\nBeneath Bernini's bronze Baldacchino lies the Confessio and the Vatican Necropolis. Rigorous modern excavations confirmed that the bone fragments discovered in a marble niche wrapped in purple cloth dyed with gold thread belong to a robust male of the first century, verifying two millennia of uninterrupted Christian tradition.",
+  "historical_summary_vi": "Thánh Phêrô Tông Đồ, người được Chúa Giêsu Kitô tuyển chọn làm Tảng Đá xây dựng Hội Thánh (*Mátthêu 16:18*), đã chịu tử đạo bằng cách đóng đinh ngược đầu vào khoảng năm 64-67 sau Công Nguyên tại Đấu trường Caligula và Nero dưới chân đồi Vatican. Các tín hữu tiên khởi đã bí mật an táng thi hài ngài tại nghĩa trang liền kề dọc theo đường Via Cornelia.\n\nVào thế kỷ thứ 4, Hoàng đế Constantine Đại Đế đã san phẳng sườn đồi để xây dựng Vương cung Thánh đường đầu tiên đặt bàn thờ chính thẳng đứng trên ngôi mộ Thánh Tông đồ. Đến thời Phục Hưng và Baroque, các bậc thầy kiến trúc như Bramante, Michelangelo và Bernini đã xây dựng nên kiệt tác đền thờ ngày nay với mái vòm kỳ vĩ.\n\nBên dưới Tán Che bằng đồng của Bernini là Bàn Thờ Tuyên Xưng và Khu Nghĩa Trang Cổ Vatican. Các cuộc khai quật khảo cổ học thế kỷ 20 đã chứng minh những mẩu hài cốt tìm thấy trong hốc đá cẩm thạch bọc vải màu tím dệt chỉ vàng chính là xương của một người đàn ông thế kỷ thứ nhất, xác thực trọn vẹn truyền thống hai ngàn năm của Hội Thánh.",
+  "scripture_reading": "Matthew 16:18-19",
+  "suggested_prayer_en": "O Glorious Apostle Saint Peter, Prince of the Apostles and Rock of the Church, you shed your blood in Rome in ultimate testimony to the Risen Lord. Pray for the Holy Father, preserve the Church in spotless fidelity to the Gospel, and obtain for us the courage to profess our faith in Christ without fear. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Phêrô Tông Đồ vinh hiển, Thủ Lãnh các Tông Đồ và là Tảng Đá của Hội Thánh, ngài đã đổ máu đào tại Roma để làm chứng cho Chúa Kitô Phục Sinh. Xin ngài cầu bầu cho Đức Thánh Cha, gìn giữ Giáo hội luôn trung kiên với Tin Mừng và ban cho chúng con lòng can đảm tuyên xưng đức tin kiên vững trọn đời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope Paul VI - General Audience Announcing the Identification of Saint Peter's Relics (June 26, 1968)",
+      "url": "https://www.vatican.va/content/paul-vi/it/audiences/1968/documents/hf_p-vi_aud_19680626.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Fabbrica di San Pietro - Official Archaeological Necropolis Reports",
+      "url": "https://www.basilicasanpietro.va/en/tomb-of-saint-peter",
+      "type": "academic"
+    }
+  ]
+}

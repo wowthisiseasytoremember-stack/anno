@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "eucharistic_miracle_orvieto_bolsena",
+  "category": "eucharistic_miracle",
+  "name_en": "Cathedral of Orvieto (Eucharistic Miracle of Bolsena and the Holy Corporal)",
+  "name_vi": "Đại Vương Cung Thánh Đường Orvieto (Phép Lạ Thánh Thể Bolsena và Khăn Thánh)",
+  "feast_day_association": "Solemnity of the Most Holy Body and Blood of Christ (Corpus Christi)",
+  "location": {
+    "shrine_or_basilica": "Duomo di Orvieto (Cattedrale di Santa Maria Assunta)",
+    "city": "Orvieto",
+    "region_or_state": "Terni, Umbria",
+    "country": "Italy",
+    "latitude": 42.7172,
+    "longitude": 12.1133,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1264-08-11",
+    "approving_authority": "Pope Urban IV (Papal Bull Transiturus de Hoc Mundo)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Personally investigated by Pope Urban IV and Saint Thomas Aquinas in 1263-1264; prompted the universal institution of the Solemnity of Corpus Christi through the Papal Bull *Transiturus de Hoc Mundo* on August 11, 1264.",
+    "confidence_note_vi": "Được chính Đức Giáo hoàng Urbanô IV và Thánh Tôma Aquinô đích thân thẩm tra năm 1263-1264; khơi nguồn cho việc thiết lập Đại Lễ Mình Máu Thánh Chúa (Corpus Christi) trên toàn thế giới qua Tông sắc *Transiturus de Hoc Mundo* ngày 11 tháng 8 năm 1264."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous Blood-Stained Corporal of Bolsena and Altar Stone",
+      "relic_name_vi": "Khăn Thánh Thấm Máu Phép Lạ Bolsena và Phiến Đá Bàn Thờ",
+      "relic_type": "1st_class_blood",
+      "reliquary_location": "Chapel of the Corporal inside Orvieto Cathedral / Basilica of Santa Cristina, Bolsena"
+    }
+  ],
+  "historical_summary_en": "In the summer of 1263, a Bohemian priest named Father Peter of Prague stopped to celebrate Holy Mass at the tomb of Saint Christina in Bolsena while making a pilgrimage to Rome. Distressed by intellectual doubts concerning Transubstantiation, the priest prayed earnestly for a confirmation of faith. Immediately after reciting the words of Consecration, the sacred Host began to bleed profusely, dripping red blood onto his hands, the altar cloth, and the linen corporal (*corporale*).\n\nTerrified, Father Peter wrapped the bleeding Host in the corporal and sought Pope Urban IV, who was residing at nearby Orvieto with Saint Thomas Aquinas and Saint Bonaventure. The Pope dispatched the Bishop of Orvieto to inspect the evidence. Upon receiving the miraculous Host and blood-stained corporal in solemn procession at the bridge of Rio Chiaro, Pope Urban IV knelt in adoration and proclaimed the authenticity of the miracle.\n\nOn August 11, 1264, Pope Urban IV issued the landmark Papal Bull *Transiturus de Hoc Mundo*, instituting the Solemnity of Corpus Christi for the Universal Church and commissioning Saint Thomas Aquinas to compose the immortal Mass and Divine Office of the feast (*Pange Lingua*, *Lauda Sion*, *Adoro Te Devote*). The breathtaking polychrome facade of Orvieto Cathedral was erected to house the Holy Corporal.",
+  "historical_summary_vi": "Vào mùa hè năm 1263, một linh mục người Bohemia tên là Cha Phêrô thành Praha trên đường hành hương về Roma đã dừng chân dâng Thánh Lễ tại lăng mộ Thánh Nữ Cristina ở Bolsena. Đang khi bị giằng xé bởi những hoài nghi về Mầu Nhiệm Biến Bản (Bánh Rượu trở thành Mình Máu Thánh Chúa), vị linh mục đã tha thiết cầu xin một dấu chỉ đức tin. Ngay khi vừa đọc xong Lời Truyền Phép, Bánh Thánh bỗng rỉ máu tuôn trào, nhỏ từng giọt máu tươi đỏ thắm ướt đẫm đôi tay ngài, khăn bàn thờ và tấm Khăn Thánh (*corporale*).\n\nHoảng sợ và xúc động, Cha Phêrô vội bọc Bánh Thánh đang chảy máu vào Khăn Thánh và lập tức đến Orvieto trình báo Đức Giáo hoàng Urbanô IV—khi đó đang ngự tại đây cùng Thánh Tôma Aquinô và Thánh Bonaventura. Đức Giáo hoàng cử Giám mục Orvieto đi thẩm tra và đích thân quỳ gối phục lạy khi đoàn rước Khăn Thánh về đến cổng thành.\n\nNgày 11 tháng 8 năm 1264, Đức Giáo hoàng Urbanô IV đã ban hành Tông sắc lịch sử *Transiturus de Hoc Mundo*, thiết lập Đại Lễ Mình Máu Thánh Chúa (Corpus Christi) cho toàn thể Hội Thánh Hoàn Vũ và giao cho Thánh Tôma Aquinô soạn thảo các bản thánh ca phụng vụ bất hủ (*Pange Lingua*, *Lauda Sion*, *Adoro Te Devote*). Mặt tiền cẩm thạch tráng lệ của Nhà Thờ Chính Tòa Orvieto được xây dựng để lưu giữ tấm Khăn Thánh vô giá này.",
+  "scripture_reading": "1 Corinthians 11:23-26",
+  "suggested_prayer_en": "O God, who in this wonderful Sacrament have left us a memorial of your Passion, grant us, we pray, so to revere the sacred mysteries of your Body and Blood that we may always experience in ourselves the fruits of your redemption. You who live and reign forever and ever. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu, Chúa đã trối lại cho chúng con Bí Tích Mình và Máu Thánh Chúa để nhắc nhớ Cuộc Khổ Nạn đau thương của Chúa. Xin cho chúng con biết tôn sùng mầu nhiệm thánh thiện này với đức tin sâu sắc, để luôn được cảm nghiệm hoa trái cứu chuộc dồi dào trong tâm hồn. Chúa là Đấng hằng sống và hiển trị muôn đời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope Urban IV - Papal Bull Transiturus de Hoc Mundo Instituting Corpus Christi (August 11, 1264)",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Opera del Duomo di Orvieto Official Historical Archive of the Holy Corporal",
+      "url": "https://www.opsm.it/en/",
+      "type": "academic"
+    }
+  ]
+}

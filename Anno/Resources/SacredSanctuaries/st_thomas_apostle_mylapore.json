@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_thomas_apostle_mylapore",
+  "category": "apostolic_tomb",
+  "name_en": "San Thome Cathedral Basilica (Tomb of Saint Thomas)",
+  "name_vi": "Đại Vương Cung Thánh Đường San Thome (Lăng Mộ Thánh Tôma Tông Đồ)",
+  "feast_day_association": "Feast of Saint Thomas the Apostle (July 3)",
+  "location": {
+    "shrine_or_basilica": "National Shrine of Saint Thomas Cathedral Basilica",
+    "city": "Mylapore, Chennai",
+    "region_or_state": "Tamil Nadu",
+    "country": "India",
+    "latitude": 13.0336,
+    "longitude": 80.2783,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1896-01-01",
+    "approving_authority": "Pope Leo XIII / Pope Benedict XVI (National Shrine 2006)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Continuous historical tradition of the Saint Thomas Christians (Nasranis) attested by Saint Ephrem the Syrian (4th c.) and Marco Polo (1292); archaeological surveys confirm ancient apostolic tomb beneath the high altar.",
+    "confidence_note_vi": "Truyền thống lịch sử liên tục của cộng đoàn Kitô hữu Thánh Tôma (Nasrani) được Thánh Ephrem xứ Syria (thế kỷ 4) và Marco Polo (1292) ghi nhận; khảo cổ học xác thực lăng mộ tông đồ cổ xưa dưới bàn thờ chính."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Bone Relics of Saint Thomas the Apostle and the Miraculous Bleeding Cross",
+      "relic_name_vi": "Xương Thánh Tôma Tông Đồ và Cây Thập Tự Chảy Máu Phép Lạ",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Underground Tomb Chapel beneath the High Altar of San Thome Basilica"
+    }
+  ],
+  "historical_summary_en": "Saint Thomas the Apostle, famed for his confession of faith *'My Lord and my God!'* (*John 20:28*), traveled beyond the eastern frontiers of the Roman Empire, evangelizing Mesopotamia, Persia, and reaching the Malabar Coast of India (Muziris / Cranganore) in AD 52. He established seven flourishing Christian communities (*Ezharappallikal*) along the coast of Kerala before journeying east to the Coromandel Coast.\n\nIn AD 72, while praying at St. Thomas Mount near Mylapore (modern Chennai), Saint Thomas was pierced by a lance and martyred for the Christian faith. His disciples interred his body at Mylapore on the shores of the Bay of Bengal, where his tomb became a beacon of prayer for Indian Christians across two millennia.\n\nPatristic writers from Saint Ephrem in Edessa to Saint Gregory of Tours chronicled the Indian pilgrimage to Saint Thomas' tomb. Portuguese explorers rebuilt the sanctuary in the 16th century, and the current majestic Neo-Gothic basilica, built in 1896, enshrines the tomb in its subterranean crypt alongside the sacred relic of the lance tip that pierced the Apostle.",
+  "historical_summary_vi": "Thánh Tôma Tông Đồ, vị tông đồ nổi tiếng với lời tuyên xưng đức tin bất hủ *'Lạy Chúa của con, lạy Thiên Chúa của con!'* (*Gioan 20:28*), đã vượt qua biên giới phía đông của Đế chế La Mã, rao giảng Tin Mừng qua Lưỡng Hà, Ba Tư và cập bến bờ biển Malabar của Ấn Độ vào năm 52 sau Công Nguyên. Ngài lập nên 7 cộng đoàn Kitô hữu đầu tiên (*Ezharappallikal*) tại Kerala trước khi tiến sang bờ biển Coromandel.\n\nNăm 72 sau Công Nguyên, khi đang cầu nguyện trên đỉnh đồi Thánh Tôma gần Mylapore (nay là Chennai), ngài đã bị những kẻ thù ghét đạo đâm ngọn giáo xuyên qua tim tử đạo. Các môn đệ đã an táng thi hài ngài tại bờ biển Mylapore, nơi ngôi mộ trở thành cội nguồn đức tin của các Kitô hữu Ấn Độ suốt hai ngàn năm.\n\nCác giáo phụ cổ đại như Thánh Ephrem và sử gia phương Tây Marco Polo đều ghi chép về các đoàn hành hương đến mộ Thánh Tôma. Ngôi đại vương cung thánh đường phong cách Tân Gothic xây dựng năm 1896 ngày nay bảo tồn lăng mộ tông đồ nguyên thủy dưới hầm mộ cùng mũi giáo thánh đã đâm xuyên trái tim vị tông đồ.",
+  "scripture_reading": "John 20:26-29",
+  "suggested_prayer_en": "O Apostle Saint Thomas, who touched the sacred wounds of the Risen Lord and cried out in adoration, 'My Lord and my God!', strengthen our faith in moments of doubt. Protect the Church in India and throughout Asia, and grant that we may surrender our lives wholly to Christ in unwavering faith. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Tôma Tông Đồ vinh hiển, ngài đã được chạm vào các vết thương thánh của Chúa Phục Sinh và sấp mình tuyên xưng 'Lạy Chúa của con, lạy Thiên Chúa của con!', xin củng cố đức tin cho chúng con trong những lúc nghi nan thử thách. Xin bảo vệ Giáo hội tại Ấn Độ và khắp Châu Á, và ban cho chúng con lòng tận hiến trọn vẹn cho Chúa Kitô đến muôn đời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Catholic Bishops' Conference of India (CBCI) - San Thome National Shrine Records",
+      "url": "https://www.cbci.in/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope John Paul II - Address at the Tomb of the Apostle Saint Thomas, Madras (February 5, 1986)",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1986/february/documents/hf_jp-ii_spe_19860205_madras-san-tome.html",
+      "type": "vatican"
+    }
+  ]
+}

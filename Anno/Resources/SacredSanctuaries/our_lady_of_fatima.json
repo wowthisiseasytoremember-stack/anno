@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_fatima",
+  "category": "marian_apparition",
+  "name_en": "Sanctuary of Our Lady of Fátima",
+  "name_vi": "Đền Thánh Đức Mẹ Fátima",
+  "feast_day_association": "Feast of Our Lady of Fátima (May 13)",
+  "location": {
+    "shrine_or_basilica": "Santuário de Nossa Senhora do Rosário de Fátima (Cova da Iria)",
+    "city": "Fátima",
+    "region_or_state": "Santarém",
+    "country": "Portugal",
+    "latitude": 39.6321,
+    "longitude": -8.6738,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1930-10-13",
+    "approving_authority": "Bishop José Alves Correia da Silva / Pope Pius XI",
+    "confidence": "confirmed",
+    "confidence_note_en": "Officially approved by Bishop da Silva of Leiria on October 13, 1930; elevated to Papal status by subsequent pontiffs; canonization of visionary shepherds Francisco and Jacinta Marto by Pope Francis in 2017.",
+    "confidence_note_vi": "Được Đức Giám mục José Alves Correia da Silva giáo phận Leiria phê chuẩn chính thức ngày 13 tháng 10 năm 1930; Đức Giáo hoàng Phanxicô đã tuyên thánh cho hai thị nhân Francisco và Jacinta Marto vào năm 2017."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "Tombs of Saints Francisco and Jacinta Marto and Servant of God Sister Lúcia dos Santos",
+      "relic_name_vi": "Lăng Mộ Hai Thánh Trẻ Francisco, Jacinta Marto và Đấng Đáng Kính Nữ Tu Lúcia",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Inside the Basilica of Our Lady of the Rosary of Fátima"
+    }
+  ],
+  "historical_summary_en": "From May 13 to October 13, 1917, against the backdrop of the First World War and the impending Bolshevik Revolution, the Blessed Virgin Mary appeared six times to three young shepherd children—Lúcia dos Santos (age 10) and her cousins Francisco (age 9) and Jacinta Marto (age 7)—at the Cova da Iria near Fátima, Portugal. Our Lady requested daily recitation of the Holy Rosary for world peace, devotion to her Immaculate Heart, and reparation for sins.\n\nDuring her final apparition on October 13, 1917, the 'Miracle of the Sun' (*O Milagre do Sol*) occurred before a crowd of over 70,000 witnesses, including secular journalists, freethinkers, and scientists. Following torrential rains, the sun emerged as an opaque rotating disc in the sky, cast multicoloured shafts of light across the landscape, and plunged precipitously toward the earth before returning to its normal orbit, instantly drying the drenched ground and clothes of the crowd.\n\nThe message of Fátima included prophetic revelations concerning the end of World War I, the rise of totalitarian communism in Russia, the persecution of the Church, and the assassination attempt against Pope John Paul II on May 13, 1981, which the Pope attributed entirely to the maternal hand of Our Lady of Fátima.",
+  "historical_summary_vi": "Từ ngày 13 tháng 5 đến ngày 13 tháng 10 năm 1917, giữa bối cảnh Thế chiến thứ nhất tàn khốc, Đức Trinh Nữ Maria đã hiện ra 6 lần với ba trẻ chăn chiên—Lúcia dos Santos (10 tuổi) cùng hai em họ Francisco (9 tuổi) và Jacinta Marto (7 tuổi)—tại đồi Cova da Iria, Fátima, Bồ Đào Nha. Đức Mẹ tha thiết kêu gọi lần chuỗi Mân Côi mỗi ngày để cầu nguyện cho hòa bình thế giới, tôn sùng Trái Tim Vô Nhiễm Mẹ và làm việc đền tạ tội lỗi.\n\nTrong lần hiện ra cuối cùng ngày 13 tháng 10 năm 1917, 'Phép lạ Mặt Trời Nhảy Múa' đã diễn ra trước sự chứng kiến của hơn 70.000 người thuộc mọi thành phần xã hội, gồm cả các ký giả vô thần và các nhà khoa học. Sau cơn mưa tầm tã, mặt trời xoay tròn như một bánh xe lửa, tỏa muôn luồng ánh sáng rực rỡ và lao thẳng xuống đất trước khi trở lại quỹ đạo bình thường, làm khô ráo hoàn toàn y phục và mặt đất lầy lội trong chớp mắt.\n\nSứ điệp Fátima chứa đựng các mạc khải tiên tri về sự kết thúc Thế chiến I, sự bành trướng của chủ nghĩa cộng sản vô thần tại Nga, các cuộc bách hại Giáo hội, và biến cố Đức Giáo hoàng Gioan Phaolô II bị ám sát ngày 13 tháng 5 năm 1981, điều mà Đức Giáo hoàng luôn xác quyết rằng chính bàn tay Đức Mẹ Fátima đã cứu sống ngài.",
+  "scripture_reading": "Luke 1:46-55",
+  "suggested_prayer_en": "O Most Holy Virgin Mary, Queen of the Holy Rosary and Refuge of Sinners, you revealed at Fátima the path of conversion, reparation, and peace for a troubled world. Grant us the grace to consecrate our hearts entirely to your Immaculate Heart, to pray your Rosary with devotion, and to offer our daily trials for the salvation of souls. Through Jesus Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Mẹ Maria, Nữ Vương Rất Thánh Mân Côi và là Nơi Trú Ẩn của các tội nhân, Mẹ đã mạc khải tại Fátima con đường hoán cải, đền tạ và hòa bình cho toàn nhân loại. Xin ban ơn giúp chúng con biết tận hiến trọn vẹn cho Trái Tim Vô Nhiễm Mẹ, siêng năng lần chuỗi Mân Côi và hiến dâng những hy sinh hằng ngày để mưu ích cho phần rỗi các linh hồn. Nhờ Đức Giêsu Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Congregation for the Doctrine of the Faith - The Message of Fatima (Cardinal Joseph Ratzinger)",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20000626_message-fatima_en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Official Shrine of Fatima Historical Archives (Santuário de Fátima)",
+      "url": "https://www.fatima.pt/en",
+      "type": "academic"
+    }
+  ]
+}

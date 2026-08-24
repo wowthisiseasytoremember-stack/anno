@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_francis_and_clare_assisi",
+  "category": "doctor_of_church",
+  "name_en": "Papal Basilica of Saint Francis and Basilica of Saint Clare (Assisi)",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Phanxicô và Thánh Clara (Assisi)",
+  "feast_day_association": "Feast of Saint Francis (October 4) / Feast of Saint Clare (August 11)",
+  "location": {
+    "shrine_or_basilica": "Basilica Papale di San Francesco d'Assisi",
+    "city": "Assisi",
+    "region_or_state": "Perugia, Umbria",
+    "country": "Italy",
+    "latitude": 43.0748,
+    "longitude": 12.6056,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1253-05-25",
+    "approving_authority": "Pope Gregory IX (Papal Bull 1228) / Pope Innocent IV (Consecration 1253)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Saint Francis canonized in 1228 by Pope Gregory IX, who laid the foundation stone of the Basilica; Saint Clare canonized in 1255 by Pope Alexander IV; tombs verified and perpetually venerated in their respective crypts.",
+    "confidence_note_vi": "Thánh Phanxicô được Đức Giáo hoàng Grêgôriô IX tuyên thánh năm 1228 và đặt viên đá đầu tiên xây dựng Vương cung thánh đường; Thánh Clara được Đức Alêxandrô IV tuyên thánh năm 1255; thi hài hai thánh được bảo tồn nguyên vẹn tại các hầm mộ ở Assisi."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Stone Tomb of Saint Francis of Assisi and the Incorrupt Body of Saint Clare",
+      "relic_name_vi": "Lăng Mộ Đá Thánh Phanxicô Assisi và Thi Hài Thánh Nữ Clara",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Rock Crypt beneath the Lower Basilica of San Francesco / Crypt of Basilica di Santa Chiara"
+    }
+  ],
+  "historical_summary_en": "Saint Francis of Assisi (1181–1226), the 'Poverello,' abandoned his inheritance as a wealthy cloth merchant's son to embrace radical evangelical poverty, hearing Christ's command from the San Damiano crucifix: *'Francis, go and repair My house, which is falling into ruins.'* He founded the Order of Friars Minor and, in 1224 on Mount La Verna, became the first documented saint to receive the Sacred Stigmata—the physical wounds of the Crucified Christ.\n\nSaint Clare of Assisi (1194–1253), inspired by Francis' preaching, consecrated her virginity on Palm Sunday 1212 and established the Order of Poor Clares at San Damiano, heroically turning away invading Saracen mercenaries by elevating the Blessed Sacrament before the monastery gates.\n\nThe Papal Basilica of San Francesco, perched upon the *Colle del Paradiso*, contains two levels adorned with sublime fresco cycles by Giotto, Cimabue, and Simone Martini, sheltering the stone pillar crypt containing Francis' tomb. Nearby, the Basilica of Santa Chiara protects Clare's body and the original 12th-century San Damiano Crucifix.",
+  "historical_summary_vi": "Thánh Phanxicô Assisi (1181–1226), 'Người Nghèo Thành Assisi', đã từ bỏ gia tài nhung lụa của gia đình quý tộc để sống đời khó nghèo trọn hảo theo Tin Mừng, sau khi nghe tiếng Chúa phán từ cây Thánh Giá San Damiano: *'Phanxicô, hãy đi sửa lại ngôi nhà của Ta đang sụp đổ.'* Ngài sáng lập Dòng Anh Em Hèn Mọn (Dòng Phanxicô) và vào năm 1224 trên núi La Verna, ngài là vị thánh đầu tiên trong lịch sử được in Năm Dấu Thánh Chúa Giêsu trên thân xác.\n\nThánh Nữ Clara thành Assisi (1194–1253), được đánh động bởi gương sáng của Phanxicô, đã dâng hiến cuộc đời vào đêm Chúa Nhật Lễ Lá năm 1212, sáng lập Dòng Nữ Tu Nghèo Khó (Dòng Clara) tại San Damiano, và từng can đảm giơ cao Mình Thánh Chúa đẩy lùi đạo quân lính đánh thuê Saracen xâm lăng tu viện.\n\nĐại Vương Cung Thánh Đường Thánh Phanxicô tọa lạc trên đồi *Colle del Paradiso* gồm hai tầng lộng lẫy với các kiệt tác bích họa của Giotto và Cimabue, che chở hầm mộ đá của Thánh Phanxicô. Gần đó, Đền Thờ Thánh Clara bảo tồn thi hài Thánh Nữ và Cây Thánh Giá San Damiano nguyên bản từ thế kỷ 12.",
+  "scripture_reading": "Galatians 6:14",
+  "suggested_prayer_en": "Lord, make us instruments of your peace: where there is hatred, let us sow love; where there is injury, pardon; where there is doubt, faith; where there is despair, hope; where there is darkness, light; and where there is sadness, joy. Through the prayers of Saints Francis and Clare, grant us pure humility of heart. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa, xin làm cho con nên khí cụ bình an của Chúa: để nơi nào có oán thù, con đem lại yêu thương; nơi nào có lăng nhục, con đem lại thứ tha; nơi nào có hoài nghi, con đem lại đức tin; nơi nào có thất vọng, con đem lại hy vọng; nơi nào có tối tăm, con đem lại ánh sáng; nơi nào có ưu sầu, con đem lại niềm vui. Nhờ lời chuyển cầu của Thánh Phanxicô và Thánh Clara, xin ban cho chúng con tâm hồn khiêm nhường khó nghèo. Amen.",
+  "primary_sources": [
+    {
+      "label": "Sacro Convento di San Francesco in Assisi Official Historical Archives",
+      "url": "https://www.sanfrancescopatronoditalia.it/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Francis - Encyclical Fratelli Tutti signed at the Tomb of Saint Francis (2020)",
+      "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
+      "type": "vatican"
+    }
+  ]
+}

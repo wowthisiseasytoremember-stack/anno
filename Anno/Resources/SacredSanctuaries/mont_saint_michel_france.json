@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "mont_saint_michel_france",
+  "category": "monastic_sanctuary",
+  "name_en": "Abbey of Mont-Saint-Michel (Normandy)",
+  "name_vi": "Đại Đan Viện Mont-Saint-Michel (Normandy, Pháp)",
+  "feast_day_association": "Feast of the Apparition of Saint Michael (October 16 / September 29)",
+  "location": {
+    "shrine_or_basilica": "Abbaye du Mont-Saint-Michel",
+    "city": "Le Mont-Saint-Michel",
+    "region_or_state": "Normandy (Manche)",
+    "country": "France",
+    "latitude": 48.6361,
+    "longitude": -1.5115,
+    "precision": "monastery_complex"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "0709-10-16",
+    "approving_authority": "Bishop Saint Aubert of Avranches / Benedictine Order / UNESCO World Heritage Site",
+    "confidence": "confirmed",
+    "confidence_note_en": "Founded in 708 AD following three apparitions of Saint Michael to Bishop Aubert of Avranches; celebrated as the 'Wonder of the Western World' (*La Merveille*).",
+    "confidence_note_vi": "Thành lập năm 708 sau 3 lần Thánh Micae hiện ra với Giám mục Aubert xứ Avranches; được xưng tụng là 'Kỳ Quan Phương Tây' (*La Merveille*)."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Skull Relic of Saint Aubert showing the Archangel's Finger Mark and the Abbey Mount",
+      "relic_name_vi": "Hộp Sọ Thánh Aubert Mang Vết Chạm Tay Của Tổng Lãnh Thiên Thần Micae",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Saint-Gervais Basilica, Avranches and the Abbey Church of Mont-Saint-Michel"
+    }
+  ],
+  "historical_summary_en": "Rising dramatically from the tidal bay between Normandy and Brittany, Mont-Saint-Michel is one of the most stunning Gothic monastic fortresses on earth. In 708 AD, Saint Michael the Archangel appeared three times in dreams to Bishop Saint Aubert of Avranches, instructing him to build an oratory upon the tidal granite islet of *Mont-Tombe*.\n\nWhen Aubert hesitated, the Archangel appeared a third time and pressed his finger against the bishop's forehead, leaving a round perforation in his skull that remains visible in Aubert's reliquary skull preserved in Avranches. The first stone oratory was dedicated on October 16, 709 AD.\n\nIn 966, Richard I, Duke of Normandy, established a community of Benedictine monks on the mount. Over the centuries, master builders constructed the breathtaking three-tiered Gothic monastic complex known as *La Merveille* ('The Wonder'), crowned by a golden statue of Saint Michael wielding his sword at the pinnacle of the spire.",
+  "historical_summary_vi": "Vươn mình kiêu hãnh giữa vịnh biển thủy triều giữa Normandy và Brittany, Mont-Saint-Michel là một trong những kiệt tác đan viện pháo đài Gothic kỳ vĩ nhất thế giới. Năm 708, Tổng Lãnh Thiên Thần Micae hiện ra ba lần trong giấc mộng với Giám mục Aubert xứ Avranches, truyền lệnh xây dựng một nguyện đường trên hòn đảo đá granite *Mont-Tombe*.\n\nKhi Giám mục Aubert ngần ngại, Thánh Micae hiện ra lần thứ ba và lấy ngón tay ấn vào trán ngài, để lại một vết lõm tròn trên hộp sọ mà ngày nay vẫn còn nhìn thấy rõ nơi thánh tích bảo tồn tại Avranches. Nguyện đường đầu tiên được thánh hiến ngày 16 tháng 10 năm 709.\n\nNăm 966, Công tước Normandy Richard I đã thiết lập đan viện Biển Đức tại đây. Qua các thế kỷ, các bậc thầy kiến trúc đã dựng nên quần thể đan viện 3 tầng tráng lệ mệnh danh là 'Kỳ Quan Phương Tây' (*La Merveille*), với bức tượng vàng Thánh Micae tuốt gươm ngự trị trên đỉnh tháp nhọn cao vút.",
+  "scripture_reading": "Daniel 12:1",
+  "suggested_prayer_en": "O Glorious Archangel Saint Michael, Captain of the Heavenly Host, guard the Church against all darkness. As your sanctuary stands firm amid the raging tides of the ocean, make our faith unshakeable amid the shifting tides of the world. Amen.",
+  "suggested_prayer_vi": "Lạy Tổng Lãnh Thiên Thần Micae vinh hiển, Vị Tướng Lãnh Đạo Binh Thiên Quốc, xin bảo vệ Hội Thánh khỏi mọi bóng tối gian tà. Như đền thánh của ngài sừng sững đứng vững giữa sóng triều đại dương, xin cho đức tin chúng con kiên cố vững vàng giữa mọi thăng trầm của trần gian. Amen.",
+  "primary_sources": [
+    {
+      "label": "Abbaye du Mont-Saint-Michel Official Historical Records (Centre des Monuments Nationaux)",
+      "url": "https://www.abbaye-mont-saint-michel.fr/en",
+      "type": "academic"
+    },
+    {
+      "label": "Diocese of Coutances and Avranches - Saint Aubert and Mont-Saint-Michel",
+      "url": "https://www.diocese50.fr/",
+      "type": "academic"
+    }
+  ]
+}

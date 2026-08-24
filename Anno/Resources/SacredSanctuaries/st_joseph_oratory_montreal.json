@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_joseph_oratory_montreal",
+  "category": "monastic_sanctuary",
+  "name_en": "Saint Joseph's Oratory of Mount Royal (Montreal)",
+  "name_vi": "Đền Thánh Cả Giuse Trên Núi Hoàng Gia (Montreal, Canada)",
+  "feast_day_association": "Solemnity of Saint Joseph, Spouse of the Virgin Mary (March 19) / Saint André Bessette (January 6)",
+  "location": {
+    "shrine_or_basilica": "L'Oratoire Saint-Joseph du Mont-Royal",
+    "city": "Montreal",
+    "region_or_state": "Quebec",
+    "country": "Canada",
+    "latitude": 45.4925,
+    "longitude": -73.6178,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1955-03-19",
+    "approving_authority": "Pope Pius XII (Minor Basilica 1955) / Pope Benedict XVI (Canonization of Saint André 2010)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Founded in 1904 by humble Holy Cross brother Saint André Bessette; world's largest shrine dedicated to Saint Joseph; Saint André canonized by Pope Benedict XVI on October 17, 2010.",
+    "confidence_note_vi": "Được Thầy Dòng Thánh Giá khiêm nhường Thánh André Bessette thành lập năm 1904; đền thánh kính Thánh Cả Giuse lớn nhất thế giới; Thầy André được Đức Biển Đức XVI tuyên thánh ngày 17 tháng 10 năm 2010."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Heart Relic and Tomb of Saint André Bessette (Brother André)",
+      "relic_name_vi": "Trái Tim Thánh Tích và Lăng Mộ của Thánh André Bessette (Thầy André)",
+      "relic_type": "1st_class_tomb",
+      "reliquary_location": "Heart Reliquary Museum and Black Marble Tomb in the Votive Chapel of the Oratory"
+    }
+  ],
+  "historical_summary_en": "Saint Joseph's Oratory of Mount Royal in Montreal, Canada, crowned by a massive Renaissance dome that is the third-largest of its kind in the world, is the global epicenter of devotion to Saint Joseph. The monumental basilica owes its origin to the faith of a humble, unlettered Holy Cross religious brother, Saint André Bessette (1845–1937), who served for forty years as the simple doorkeeper of Collège Notre-Dame.\n\nEndowed with profound devotion to Saint Joseph, Brother André greeted thousands of sick and suffering visitors, rubbing them with oil from a lamp burning before the statue of Saint Joseph. Tens of thousands of spontaneous, scientifically documented physical cures occurred, prompting crowds to christen him the 'Miracle Man of Montreal.' Brother André consistently deflected praise, insisting: *'I am nothing; it is Saint Joseph who heals.'*\n\nIn 1904, Brother André constructed a tiny wooden chapel on Mount Royal. Over decades, spontaneous donations from grateful pilgrims funded the construction of the present colossal basilica, which welcomes over two million pilgrims annually. When Brother André died in 1937 at age ninety-one, over a million people braved bitter winter snows to file past his casket.",
+  "historical_summary_vi": "Đền Thánh Cả Giuse Trên Núi Hoàng Gia tại Montreal, Canada, nổi bật với mái vòm thời Phục Hưng khổng lồ lớn thứ ba thế giới, là trung tâm tôn sùng Thánh Cả Giuse lớn nhất hành tinh. Ngôi đại vương cung thánh đường kỳ vĩ này bắt nguồn từ đức tin sắt đá của một thầy dòng khiêm nhường không biết chữ thuộc Dòng Thánh Giá là Thánh André Bessette (1845–1937), người đã làm người gác cổng trường Notre-Dame suốt 40 năm.\n\nVới lòng yêu mến Thánh Cả Giuse tha thiết, Thầy André đã đón tiếp hàng ngàn người bệnh tật đau khổ, lấy dầu từ ngọn đèn chầu trước tượng Thánh Giuse xức cho họ. Hàng chục ngàn người bại liệt, mù lòa, ung thư đã được chữa lành tức thì khiến dân chúng xưng tụng thầy là 'Người Làm Phép Lạ Thành Montreal'. Thầy luôn khiêm tốn nói: *'Tôi chẳng là gì cả, chính Thánh Giuse đã chữa lành.'*\n\nNăm 1904, Thầy André dựng một ngôi nhà nguyện gỗ nhỏ trên sườn núi. Nhờ sự đóng góp của các bệnh nhân được chữa lành, ngôi đại thánh đường nguy nga ngày nay đã được xây dựng, đón tiếp hơn 2 triệu khách hành hương mỗi năm. Khi Thầy André qua đời năm 1937 ở tuổi 91, hơn một triệu người đã đội tuyết lạnh giá xếp hàng đến kính viếng thi hài ngài.",
+  "scripture_reading": "Matthew 1:20-24",
+  "suggested_prayer_en": "O Saint Joseph, Foster Father of Jesus and Protector of the Universal Church, look upon our families and physical infirmities. Through the prayers of humble Saint André Bessette, grant healing to the sick, strength to fathers, and protect our homes under your righteous care. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Cả Giuse, Cha Nuôi Chúa Giêsu và Đấng Bảo Trợ Hội Thánh Hoàn Vũ, xin đoái nhìn đến gia đình và những yếu đuối tật nguyền nơi thân xác chúng con. Nhờ lời chuyển cầu của Thầy Thánh André khiêm nhường, xin ban ơn chữa lành cho các bệnh nhân, ban sức mạnh cho các người cha và che chở gia đình chúng con trong sự công chính của ngài. Amen.",
+  "primary_sources": [
+    {
+      "label": "Saint Joseph's Oratory of Mount Royal Official Historical Archive",
+      "url": "https://www.saint-joseph.org/en/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Benedict XVI - Homily for the Canonization of Saint André Bessette (October 17, 2010)",
+      "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2010/documents/hf_ben-xvi_hom_20101017_canonizzazioni.html",
+      "type": "vatican"
+    }
+  ]
+}

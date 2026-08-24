@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "holy_shroud_of_turin",
+  "category": "passion_relic",
+  "name_en": "Cathedral of Saint John the Baptist (The Holy Shroud of Turin)",
+  "name_vi": "Đại Vương Cung Thánh Đường Torino (Khăn Liệm Thánh Thành Turin)",
+  "feast_day_association": "Feast of the Holy Shroud of Turin (May 4) / Good Friday",
+  "location": {
+    "shrine_or_basilica": "Cattedrale di San Giovanni Battista (Duomo di Torino)",
+    "city": "Turin",
+    "region_or_state": "Piedmont",
+    "country": "Italy",
+    "latitude": 45.0733,
+    "longitude": 7.6853,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1506-05-04",
+    "approving_authority": "Pope Julius II (Papal Bull establishing Mass and Feast of Holy Shroud) / Pope John Paul II (1998)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Solemn feast and mass established by Pope Julius II in 1506; investigated by the Shroud of Turin Research Project (STURP) in 1978; described by Pope John Paul II as a 'mirror of the Gospel' and by Pope Benedict XVI as an 'icon written in blood.'",
+    "confidence_note_vi": "Thánh Lễ và ngày lễ kính được Đức Giáo hoàng Giuliô II thiết lập năm 1506; được Dự án Nghiên cứu Khăn Liệm Turin (STURP) thẩm định khoa học năm 1978; Đức Gioan Phaolô II gọi là 'tấm gương soi của Phúc Âm' và Đức Biển Đức XVI gọi là 'linh ảnh viết bằng máu'."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sacred Burial Shroud of Jesus Christ (Sindone di Torino)",
+      "relic_name_vi": "Tấm Khăn Liệm Thánh An Táng Chúa Giêsu Kitô",
+      "relic_type": "miraculous_textile",
+      "reliquary_location": "Guarini Royal Chapel and Climate-Controlled Argon Chamber in Turin Cathedral"
+    }
+  ],
+  "historical_summary_en": "The Holy Shroud of Turin (*Santa Sindone*) is a 4.4 x 1.1 meter herringbone-weave linen cloth bearing the faint, full-length double photographic negative image (frontal and dorsal) of a crucified man matching every single detail of the Passion of Jesus Christ recorded in the four Gospels. First photographically analyzed in 1898 by Secondo Pia, the negative exposure revealed a lifelike, anatomically perfect positive portrait of majestic serenity.\n\nIn 1978, the Shroud of Turin Research Project (STURP)—a team of 33 international scientists equipped with aerospace instrumentation—spent 120 continuous hours analyzing the cloth. STURP confirmed: (1) The image is not a painting, drawing, scorch, or photograph; no pigments, dyes, or binder materials exist; (2) The yellowing is confined to the extreme outermost micro-fibers (0.2 microns thick) caused by oxidation and dehydration of the cellulose; (3) The image possesses unique three-dimensional spatial encoded data (VP-8 Image Analyzer); (4) The bloodstains are real human blood of type AB with elevated bilirubin and ferritin indicating extreme polytrauma and agony, deposited on the cloth *before* the image was formed.\n\nThe textile bears over 120 scourge marks corresponding to the Roman *flagrum taxillatum*, puncture wounds around the scalp from a cap of thorns, severe shoulder abrasion from the crossbeam (*patibulum*), punctured wrists and feet, and a post-mortem chest wound matching a Roman *lancea* with separation of blood and pericardial fluid.",
+  "historical_summary_vi": "Khăn Liệm Thánh Thành Turin (*Santa Sindone*) là một tấm vải lanh dệt theo kiểu xương cá kích thước 4,4 x 1,1 mét mang hình ảnh phim âm bản toàn thân (mặt trước và mặt sau) của một người đàn ông chịu đóng đinh trùng khớp chính xác từng chi tiết với Cuộc Khổ Nạn của Chúa Giêsu Kitô trong bốn sách Phúc Âm. Năm 1898, luật sư Secondo Pia lần đầu tiên chụp ảnh Khăn Liệm và tấm phim âm bản đã để lộ ra chân dung dương bản sống động, giải phẫu hoàn hảo với vẻ uy nghiêm thánh thiện phi thường.\n\nNăm 1978, Dự án Nghiên cứu Khăn Liệm Turin (STURP) gồm 33 nhà khoa học quốc tế trang bị thiết bị hàng không vũ trụ hiện đại đã kiểm nghiệm Khăn Liệm suốt 120 giờ liên tục. STURP kết luận: (1) Hình ảnh không phải là tranh vẽ, in ấn hay vết cháy; không hề có sắc tố màu hay chất kết dính; (2) Màu vàng nhạt chỉ nằm trên lớp vi sợi ngoài cùng (dày 0,2 micron) do sự oxy hóa cellulose; (3) Hình ảnh chứa dữ liệu không gian 3 chiều độc nhất vô nhị (thiết bị phân tích VP-8); (4) Các vết máu là máu người thật thuộc nhóm máu AB với hàm lượng bilirubin cực cao do chịu cực hình đau đớn dữ dội, ngấm vào vải *trước* khi hình ảnh được tạo thành.\n\nTấm vải ghi lại hơn 120 vết roi da La Mã (*flagrum*), các vết gai nhọn đâm quanh đầu, vết thương vai do vác xà ngang thập giá, vết đinh đóng qua cổ tay và bàn chân, cùng vết đâm cạnh sườn sau khi chết phù hợp với ngọn giáo La Mã làm chảy ra máu và nước.",
+  "scripture_reading": "John 20:5-7",
+  "suggested_prayer_en": "Lord Jesus Christ, who left upon your Holy Shroud the sacred marks of your bitter Passion and glorious Resurrection, gaze upon us with your merciful countenance. Teach us to contemplate the infinite price of our redemption, wash away our sins in your Precious Blood, and transform our lives into living reflections of your divine love. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Kitô, Đấng đã để lại trên Khăn Liệm Thánh những dấu tích thánh thiện của Cuộc Khổ Nạn đau thương và sự Phục Sinh vinh hiển, xin đoái nhìn chúng con bằng ánh mắt xót thương của Chúa. Xin dạy chúng con biết chiêm ngắm giá máu vô biên Chúa đã trả để cứu chuộc chúng con, tẩy sạch tội lỗi chúng con trong Máu Thánh Chúa và biến đổi đời sống chúng con thành tấm gương phản chiếu tình yêu Chúa. Amen.",
+  "primary_sources": [
+    {
+      "label": "STURP (Shroud of Turin Research Project) Final Scientific Summary Reports (1981)",
+      "url": "https://www.shroud.com/78sci.htm",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Saint John Paul II - Address at the Cathedral of Turin on the Holy Shroud (May 24, 1998)",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1998/may/documents/hf_jp-ii_spe_19980524_torino-sudario.html",
+      "type": "vatican"
+    }
+  ]
+}

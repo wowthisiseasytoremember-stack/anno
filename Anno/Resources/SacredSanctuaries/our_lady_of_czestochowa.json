@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_czestochowa",
+  "category": "marian_apparition",
+  "name_en": "Jasna Góra Monastery - Our Lady of Częstochowa",
+  "name_vi": "Tu Viện Jasna Góra - Đức Mẹ Częstochowa",
+  "feast_day_association": "Feast of Our Lady of Częstochowa (August 26)",
+  "location": {
+    "shrine_or_basilica": "Sanktuarium Matki Bożej Częstochowskiej na Jasnej Górze",
+    "city": "Częstochowa",
+    "region_or_state": "Silesian Voivodeship",
+    "country": "Poland",
+    "latitude": 50.8126,
+    "longitude": 19.0971,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1717-09-08",
+    "approving_authority": "Pope Clement XI (Papal Coronation) / Paulite Order",
+    "confidence": "confirmed",
+    "confidence_note_en": "Coronated with papal crowns by Pope Clement XI in 1717; declared Queen and Protector of Poland by King John Casimir in the Lwów Oath (1656); deeply venerated by Pope Saint John Paul II.",
+    "confidence_note_vi": "Được Đức Giáo hoàng Clêmentê XI đội triều thiên vàng năm 1717; Vua John Casimir đã tuyên thệ tôn phong Đức Mẹ là Nữ Vương và Đấng Bảo Trợ Ba Lan tại Lwów năm 1656; là trung tâm linh đạo sùng kính của Thánh Giáo hoàng Gioan Phaolô II."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous Icon of the Black Madonna of Częstochowa",
+      "relic_name_vi": "Linh Ảnh Phép Lạ Đức Mẹ Đen Częstochowa",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Chapel of the Miraculous Image at Jasna Góra Monastery"
+    }
+  ],
+  "historical_summary_en": "The Holy Icon of Our Lady of Częstochowa, traditionally attributed to Saint Luke the Evangelist painting upon a cypress wood table top from the Holy Family's home in Nazareth, was brought to the Jasna Góra ('Luminous Mount') Paulite monastery in 1382 by Prince Władysław of Opole. The icon depicts the Hodegetria ('She who shows the Way'), with the Virgin directing the faithful's gaze to the Christ Child held in her left arm.\n\nIn 1430, Hussite iconoclasts raided the sanctuary, striking the Madonna's cheek twice with a saber; miraculous traditions record that blood welled from the wood before the blade broke, leaving permanent scars that successive restorations intentionally preserved. During the Swedish Deluge of 1655, a small garrison of 70 Paulite monks and 160 soldiers successfully defended Jasna Góra against a siege of over 4,000 Swedish invaders, an event that transformed the shrine into the spiritual citadel of Polish national sovereignty.\n\nUnder Soviet communist occupation, the Black Madonna became the banner of non-violent spiritual resistance led by Cardinal Stefan Wyszyński and Cardinal Karol Wojtyła (Pope John Paul II), culminating in the Solidarity movement and the spiritual revival of Eastern Europe.",
+  "historical_summary_vi": "Linh ảnh Thánh Đức Mẹ Częstochowa, theo truyền thống được chính Thánh Sử Luca vẽ trên mặt bàn gỗ trắc bá tại tư gia Thánh Gia ở Nazareth, đã được Hoàng tử Władysław vùng Opole rước về tu viện các cha dòng Thánh Phaolô Ẩn Tu tại Jasna Góra ('Núi Sáng') vào năm 1382. Bức linh ảnh thuộc thể loại Hodegetria ('Đấng Chỉ Đường'), trong đó Đức Mẹ ẵm Chúa Hài Đồng bên tay trái và hướng mọi ánh nhìn về Người.\n\nNăm 1430, nhóm cướp Hussite đã xông vào đền thánh và dùng gươm chém hai nhát sâu vào gò má Đức Mẹ; truyền tụng ghi lại máu đã rỉ ra từ vết chém khiến lưỡi gươm gãy vụn, để lại hai vết sẹo không thể xóa nhòa qua các lần phục chế. Năm 1655, trong cuộc xâm lược của quân Thụy Điển, 70 tu sĩ dòng Phaolô cùng 160 binh lính đã kiên cường bảo vệ đền thánh đẩy lùi hơn 4.000 quân xâm lược, đưa Jasna Góra trở thành thành lũy tâm linh bảo vệ nền độc lập của Ba Lan.\n\nTrong thời kỳ bách hại đức tin dưới chế độ độc tài thế kỷ 20, Linh ảnh Đức Mẹ Đen là ngọn cờ quy tụ sức mạnh phản kháng bất bạo động dưới sự lãnh đạo của Đức Hồng y Stefan Wyszyński và Đức Hồng y Karol Wojtyła (sau là Thánh Giáo hoàng Gioan Phaolô II), khơi nguồn cho phong trào Công đoàn Đoàn kết và sự hồi sinh đức tin tại Đông Âu.",
+  "scripture_reading": "John 19:26-27",
+  "suggested_prayer_en": "O Queen of Poland and Mother of the Church, Black Madonna of Jasna Góra, you bear upon your countenance the scars of suffering yet radiate the unconquerable light of Christ. Guard our families, sustain nations facing oppression, and teach us to remain steadfast in fidelity to the Cross and the Gospel. Through Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Nữ Vương Ba Lan và là Mẹ Hội Thánh, Đức Mẹ Đen Jasna Góra, Mẹ mang trên khuôn mặt thánh thiện những vết thương đau khổ nhưng vẫn tỏa rạng ánh sáng khải hoàn của Chúa Kitô. Xin bảo vệ các gia đình chúng con, nâng đỡ các dân tộc đang chịu thử thách bách hại và dạy chúng con luôn kiên trung theo Chúa đến cùng dưới bóng Thánh Giá. Nhờ Đức Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Jasna Góra Paulite Monastery Official Historical Archive",
+      "url": "https://jasnagora.pl/en/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope John Paul II - Homily at Jasna Góra Shrine (June 4, 1979)",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/1979/documents/hf_jp-ii_hom_19790604_polonia-jasna-gora.html",
+      "type": "vatican"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "phu_nhai_basilica_nam_dinh",
+  "category": "marian_apparition",
+  "name_en": "Minor Basilica of Our Lady of the Immaculate Conception (Phú Nhai)",
+  "name_vi": "Vương Cung Thánh Đường Đức Mẹ Vô Nhiễm Nguyên Tội Phú Nhai",
+  "feast_day_association": "Solemnity of the Immaculate Conception (December 8)",
+  "location": {
+    "shrine_or_basilica": "Vương Cung Thánh Đường Đức Mẹ Phú Nhai",
+    "city": "Xuân Trường",
+    "region_or_state": "Nam Định",
+    "country": "Vietnam",
+    "latitude": 20.3017,
+    "longitude": 106.335,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "2008-12-23",
+    "approving_authority": "Pope Benedict XVI (Decree of Minor Basilica) / Bishop Joseph Hoàng Văn Tiệm",
+    "confidence": "confirmed",
+    "confidence_note_en": "First church built in 1866; present monumental French Gothic basilica completed in 1933; elevated to Minor Basilica by Pope Benedict XVI on December 23, 2008.",
+    "confidence_note_vi": "Ngôi thánh đường đầu tiên dựng năm 1866; thánh đường Gothic Pháp nguy nga hiện nay hoàn tất năm 1933; được Đức Giáo hoàng Biển Đức XVI nâng lên hàng Tiểu Vương Cung Thánh Đường ngày 23 tháng 12 năm 2008."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Relics of the Dominican Martyrs of Tonkin and the Miraculous Statue of the Immaculate Conception",
+      "relic_name_vi": "Hài Cốt Các Thánh Tử Đạo Dòng Đaminh Xứ Bắc và Tượng Đức Mẹ Vô Nhiễm Phép Lạ",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Side Altar of the Holy Martyrs and Central Retablo of Phú Nhai Basilica"
+    }
+  ],
+  "historical_summary_en": "The Minor Basilica of Our Lady of the Immaculate Conception at Phú Nhai, located in Xuân Trường district, Nam Định province, is one of the largest and most majestic Gothic Catholic churches in Southeast Asia. The Catholic roots of Phú Nhai trace back to the early Dominican evangelization of Tonkin in the 18th century, enduring severe persecutions under Kings Minh Mạng and Tự Đức.\n\nIn 1866, immediately after the cessation of religious persecution, Spanish Dominican Bishop Emmanuel Riaño constructed a parish church dedicated to the Immaculate Conception. The present monumental French Gothic basilica, featuring twin bell towers rising forty-four meters and a nave spanning eighty meters in length, was constructed by Spanish friars and completed in 1933.\n\nOn December 23, 2008, Pope Benedict XVI signed the papal decree elevating the sanctuary of Phú Nhai to the status of a Minor Basilica. It stands as the pilgrimage epicenter of the Diocese of Bùi Chu, enshrining the heroic memory of thousands of local martyrs who laid down their lives for Christ.",
+  "historical_summary_vi": "Vương Cung Thánh Đường Đức Mẹ Vô Nhiễm Nguyên Tội Phú Nhai, tọa lạc tại huyện Xuân Trường, tỉnh Nam Định, là một trong những thánh đường phong cách Gothic lớn và tráng lệ nhất Đông Nam Á. Cội nguồn đức tin của Phú Nhai gắn liền với công cuộc truyền giáo của các thừa sai Dòng Đaminh Tây Ban Nha từ thế kỷ 18, từng trải qua những cơn bách hại khốc liệt dưới triều vua Minh Mạng và Tự Đức.\n\nNăm 1866, sau khi sắc chỉ tự do tôn giáo được ban hành, Đức Giám mục Emmanuel Riaño đã cho khởi công xây dựng ngôi thánh đường kính Đức Mẹ Vô Nhiễm. Công trình đại thánh đường Gothic hiện nay với hai tháp chuông cao 44 mét và lòng nhà thờ dài 80 mét được hoàn thành năm 1933.\n\nNgày 23 tháng 12 năm 2008, Đức Thánh Cha Biển Đức XVI đã ban Tông sắc nâng Đền Thánh Phú Nhai lên hàng Tiểu Vương Cung Thánh Đường. Nơi đây là trung tâm hành hương lớn của Giáo phận Bùi Chu, ghi dấu muôn vàn tấm gương tử đạo anh dũng của các bậc tiền nhân.",
+  "scripture_reading": "Luke 1:28",
+  "suggested_prayer_en": "O Queen of Phú Nhai, Mother Conceived Without Original Sin, you accompanied our ancestors through the storms of persecution and martyrdom. Preserve the Catholic faith in our land, protect all Christian families in unity and holiness, and lead us safely to the eternal joy of Heaven. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ Phú Nhai, Mẹ Vô Nhiễm Nguyên Tội, Mẹ đã đồng hành cùng tổ tiên chúng con qua bao giông bão của các cuộc bách hại tử đạo. Xin Mẹ gìn giữ đức tin Công giáo trên quê hương đất nước, bảo vệ các gia đình trong sự hiệp nhất thánh thiện và dẫn đưa chúng con về hưởng niềm vui vĩnh cửu trên Quê Trời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Diocese of Bùi Chu - Official History and Papal Decree of Phú Nhai Basilica",
+      "url": "https://gpbuichu.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Vatican Congregation for Divine Worship - Decree of Minor Basilica for Phú Nhai (2008)",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ]
+}

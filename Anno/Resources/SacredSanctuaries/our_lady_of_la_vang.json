@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_la_vang",
+  "category": "marian_apparition",
+  "name_en": "National Shrine of Our Lady of La Vang",
+  "name_vi": "Trung Tâm Hành Hương Toàn Quốc Đức Mẹ La Vang",
+  "feast_day_association": "Solemnity of the Assumption (August 15)",
+  "location": {
+    "shrine_or_basilica": "Trung tâm Hành hương Đức Mẹ La Vang",
+    "city": "Hải Lăng",
+    "region_or_state": "Quảng Trị",
+    "country": "Vietnam",
+    "latitude": 16.7118,
+    "longitude": 107.2144,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1901-08-08",
+    "approving_authority": "Bishop Louis Caspar / Pope John XXIII (Minor Basilica 1961) / Pope John Paul II (Message 1998)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Formally blessed by Bishop Caspar in 1901; elevated to Minor Basilica by Pope John XXIII in 1961; recognized by Pope John Paul II in 1998 as the National Marian Shrine of Vietnam on the bicentennial of the apparitions.",
+    "confidence_note_vi": "Được Đức Cha Louis Caspar làm phép đền thánh năm 1901; Đức Giáo hoàng Gioan XXIII nâng lên hàng Tiểu Vương Cung Thánh Đường năm 1961; Đức Thánh Cha Gioan Phaolô II long trọng gửi sứ điệp công nhận là Trung tâm Hành hương Thánh Mẫu Toàn quốc dịp kỷ niệm 200 năm Đức Mẹ hiện ra (1998)."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Ancient Banyan Tree Apparition Grounds and Bell Tower Relic",
+      "relic_name_vi": "Linh Địa Cây Đa Nơi Đức Mẹ Hiện Ra và Di Tích Tháp Cổ",
+      "relic_type": "apparition_site",
+      "reliquary_location": "The Ancient Sanctuary Memorial Plaza at La Vang"
+    }
+  ],
+  "historical_summary_en": "In the year 1798, during the fierce anti-Catholic persecution under King Cảnh Thịnh of the Tây Sơn dynasty, numerous Vietnamese Catholics from Quảng Trị fled into the remote, malaria-ridden jungle of La Vang (near Dinh Cát). Stricken by tropical fever, starvation, and fear of wild beasts, the faithful gathered each evening beneath a large banyan tree to pray the Holy Rosary.\n\nOne evening in 1798, a radiant Lady wearing traditional Vietnamese royal attire (*áo dài*) and holding the Infant Jesus in her arms appeared near the tree, accompanied by two angels. She comforted the suffering Christians in sweet Vietnamese words: *'Children, what you have asked for, I have granted. From now on, whoever comes to pray to me in this place will have their prayers heard.'* She taught them to boil the leaves of the wild *vằng* bush to heal their fevers and promised continuous maternal protection.\n\nDespite successive waves of severe persecution, the faithful built a thatch chapel that grew into the spiritual haven of Vietnamese Catholicism. Today, La Vang stands as the supreme national pilgrimage sanctuary for millions of Vietnamese Catholics at home and across the worldwide diaspora.",
+  "historical_summary_vi": "Vào năm 1798, dưới triều đại vua Cảnh Thịnh triều Tây Sơn, một sắc chỉ cấm đạo ngặt nghèo được ban hành khiến nhiều giáo dân vùng Quảng Trị phải trốn vào rừng sâu nước độc La Vang (gần Dinh Cát). Giữa cảnh ốm đau vì sốt rét rừng, đói khát và sợ thú dữ, các tín hữu đêm đêm quây quần dưới gốc cây đa cổ thụ để cùng nhau sốt sắng lần chuỗi Mân Côi.\n\nMột đêm nọ năm 1798, Đức Mẹ rực rỡ trong trang phục áo dài truyền thống bế Chúa Hài Đồng cùng hai thiên thần đã hiện ra bên gốc cây đa. Đức Mẹ âu yếm phán bảo: *'Các con hãy tin tưởng, cam lòng chịu khổ, Mẹ đã nhận lời các con kêu xin. Từ nay về sau, hễ ai chạy đến cầu khẩn Mẹ tại chốn này, Mẹ sẽ ban ơn phù hộ.'* Đức Mẹ còn dạy họ hái lá vằng đun nước uống để chữa lành bệnh tật và hứa ban ơn che chở liên lỉ.\n\nVượt qua bao thăng trầm và các cuộc bách hại khốc liệt, ngôi nguyện đường tranh lá thô sơ xưa kia đã trở thành linh địa thiêng liêng bậc nhất của người Công giáo Việt Nam. Ngày nay, La Vang là trung tâm hành hương quy tụ hàng triệu lượt tín hữu trong nước và hải ngoại về bên Mẹ mỗi năm.",
+  "scripture_reading": "Luke 1:48-49",
+  "suggested_prayer_en": "O Lady of La Vang, Loving Mother of Vietnam and Queen of Martyrs, you comforted our ancestors in the deep jungles during their hours of bitter persecution. Bless our nation, protect our families, preserve the Catholic faith in our hearts, and grant that we may remain loyal witnesses to the Gospel of Christ in all circumstances. Through Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ La Vang, Mẹ Dịu Hiền của dân tộc Việt Nam và là Nữ Vương các Thánh Tử Đạo, Mẹ đã đến an ủi tổ tiên chúng con nơi rừng sâu nước độc trong cơn bách hại đau thương. Xin Mẹ chúc lành cho quê hương đất nước, gìn giữ các gia đình, bảo tồn đức tin son sắt nơi tâm hồn chúng con và ban cho chúng con lòng can đảm làm chứng nhân cho Tin Mừng của Chúa trong mọi hoàn cảnh. Nhờ Đức Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope John Paul II - Message to the Church in Vietnam for the Bicentennial of the Apparitions of Our Lady of La Vang (July 16, 1998)",
+      "url": "https://www.vatican.va/content/john-paul-ii/vi/messages/pont-messages/1998/documents/hf_jp-ii_mes_19980716_la-vang.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Archdiocese of Huế - Historical Records and Chronicles of La Vang Sanctuary",
+      "url": "https://tonggiaophanhue.org/",
+      "type": "academic"
+    }
+  ]
+}

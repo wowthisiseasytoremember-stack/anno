@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_padre_pio_san_giovanni_rotondo",
+  "category": "monastic_sanctuary",
+  "name_en": "Sanctuary of Saint Pio of Pietrelcina (San Giovanni Rotondo)",
+  "name_vi": "Đền Thánh Cha Thánh Piô Năm Dấu Thánh (San Giovanni Rotondo)",
+  "feast_day_association": "Feast of Saint Pio of Pietrelcina (September 23)",
+  "location": {
+    "shrine_or_basilica": "Santuario di San Pio da Pietrelcina (Santa Maria delle Grazie)",
+    "city": "San Giovanni Rotondo",
+    "region_or_state": "Foggia, Apulia",
+    "country": "Italy",
+    "latitude": 41.7067,
+    "longitude": 15.7042,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "2002-06-16",
+    "approving_authority": "Pope John Paul II (Canonization in Rome)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Canonized by Pope Saint John Paul II before 300,000 pilgrims in Saint Peter's Square on June 16, 2002; body exhumed in 2008 and found remarkably intact, venerated in the golden crypt designed by Renzo Piano.",
+    "confidence_note_vi": "Được Thánh Giáo hoàng Gioan Phaolô II tuyên thánh ngày 16 tháng 6 năm 2002 trước 300.000 tín hữu; thi hài được khai quật năm 2008 và được bảo tồn nguyên vẹn trong hầm mộ dát vàng do kiến trúc sư Renzo Piano thiết kế."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Incorrupt Body, Stigmatized Gloves, and Blood Relics of Saint Padre Pio",
+      "relic_name_vi": "Thi Hài Nguyên Vẹn, Găng Tay và Máu Thánh của Cha Thánh Piô Năm Dấu",
+      "relic_type": "incorrupt_body",
+      "reliquary_location": "Crystal Reliquary Crypt inside the Sanctuary Church of Saint Pio"
+    }
+  ],
+  "historical_summary_en": "Saint Pio of Pietrelcina (Francesco Forgione, 1887–1968), known throughout the world as Padre Pio, was an Italian Capuchin Franciscan priest who lived at the friary of Our Lady of Grace in San Giovanni Rotondo on the Gargano peninsula. On September 20, 1918, while praying in thanksgiving after Mass in the choir loft, he received the visible Stigmata—the five bleeding wounds of Jesus Christ—which he bore continuously for exactly fifty years until their miraculous disappearance just before his death in 1968.\n\nPadre Pio was endowed with extraordinary charisms, including bilocation, reading of souls in confession, prophetic discernment, physical healing, and the odor of sanctity (a fragrant scent of roses and violets emanating from his wounds). He spent up to sixteen hours a day hearing confessions, reconciling tens of thousands of souls to God.\n\nIn addition to his immense spiritual ministry, Padre Pio founded the *Casa Sollievo della Sofferenza* ('Home for the Relief of Suffering'), one of Europe's premier research hospitals, as a living monument to Christian charity. The sanctuary attracts over six million pilgrims annually to contemplate the mystery of redemptive suffering.",
+  "historical_summary_vi": "Cha Thánh Piô Năm Dấu (Francesco Forgione, 1887–1968), sinh tại Pietrelcina, là linh mục Dòng Anh Em Hèn Mọn Capuchin tại tu viện Đức Mẹ Ban Ơn ở San Giovanni Rotondo trên bán đảo Gargano. Ngày 20 tháng 9 năm 1918, khi đang cầu nguyện tạ ơn sau Thánh Lễ trên gác đàn, ngài đã được in Năm Dấu Thánh rỉ máu của Chúa Giêsu trên thân thể—và mang các vết thương đau đớn này liên tục suốt đúng 50 năm cho đến khi chúng tự động biến mất không dấu vết ngay trước khi ngài qua đời năm 1968.\n\nCha Thánh Piô được Chúa ban cho những đặc sủng phi thường như hiện diện hai nơi cùng lúc (song vị trí), đọc thấu tâm hồn các hối nhân trong tòa giải tội, tiên tri, chữa lành bệnh tật và tỏa hương thơm hoa hồng từ các vết thương. Ngài ngồi tòa giải tội tới 16 tiếng mỗi ngày, đưa hàng chục vạn tâm hồn trở về hòa giải với Thiên Chúa.\n\nBên cạnh sứ vụ thiêng liêng vĩ đại, ngài còn sáng lập bệnh viện hiện đại *Casa Sollievo della Sofferenza* ('Ngôi Nhà Xoa Dịu Đau Khổ') để chăm sóc người bệnh nghèo. Đền thánh San Giovanni Rotondo đón nhận hơn 6 triệu khách hành hương mỗi năm đến chiêm ngắm mầu nhiệm đau khổ cứu độ của Chúa Kitô.",
+  "scripture_reading": "Galatians 2:20",
+  "suggested_prayer_en": "O Saint Padre Pio of Pietrelcina, faithful minister of the Cross and tireless shepherd of souls, you bore upon your body the marks of Christ's Passion. Stay with us in our moments of suffering (*'Resta con me, Signore'*); teach us to pray with deep faith, and bring us the peace of the Risen Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Cha Thánh Piô Năm Dấu Thánh, người tôi tớ trung kiên của Thập Giá và là vị mục tử không biết mệt mỏi nơi tòa giải tội, ngài đã mang trên thân xác dấu tích Cuộc Khổ Nạn của Chúa Kitô. Xin ở lại với chúng con trong những giờ phút đau khổ thử thách; dạy chúng con biết cầu nguyện với lòng cậy trông vững vàng và ban cho chúng con bình an của Chúa Kitô Phục Sinh. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope John Paul II - Homily for the Canonization of Padre Pio of Pietrelcina (June 16, 2002)",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2002/documents/hf_jp-ii_hom_20020616_padre-pio.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Convento Santuario Padre Pio Official Archival Documentation",
+      "url": "https://www.padrepio.it/en/",
+      "type": "academic"
+    }
+  ]
+}

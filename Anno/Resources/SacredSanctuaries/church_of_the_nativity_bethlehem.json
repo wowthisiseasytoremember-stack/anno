@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "church_of_the_nativity_bethlehem",
+  "category": "passion_relic",
+  "name_en": "Church of the Nativity (Bethlehem)",
+  "name_vi": "Vương Cung Thánh Đường Giáng Sinh (Bêlem)",
+  "feast_day_association": "Solemnity of the Nativity of the Lord (Christmas, December 25)",
+  "location": {
+    "shrine_or_basilica": "Church of the Nativity (Grotto of the Nativity)",
+    "city": "Bethlehem",
+    "region_or_state": "West Bank",
+    "country": "Palestine",
+    "latitude": 31.7043,
+    "longitude": 35.2076,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "0339-05-31",
+    "approving_authority": "Empress Saint Helena / Emperor Justinian I / UNESCO World Heritage Site",
+    "confidence": "confirmed",
+    "confidence_note_en": "Venerated since Saint Justin Martyr (c. 160 AD) and Origen; first basilica dedicated in 339 AD by Empress Helena; Justinian reconstruction intact since the 6th century.",
+    "confidence_note_vi": "Được tôn kính từ thời Thánh Justinô Tử Đạo (khoảng năm 160) và Origen; thánh đường đầu tiên do Thánh Nữ Helena xây dựng năm 339; công trình thời Hoàng đế Justinian thế kỷ thứ 6 còn nguyên vẹn cho đến nay."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Fourteen-Pointed Silver Star Marking the Exact Birthplace of Jesus Christ and the Holy Manger",
+      "relic_name_vi": "Ngôi Sao Bạc 14 Cánh Đánh Dấu Nơi Chúa Giêsu Sinh Ra và Máng Cỏ Thánh",
+      "relic_type": "apparition_site",
+      "reliquary_location": "Grotto of the Nativity beneath the Main Altar of the Basilica of the Nativity"
+    }
+  ],
+  "historical_summary_en": "The Church of the Nativity in Bethlehem is the oldest major Christian basilica still in daily liturgical use. Built over the subterranean limestone cave where the Blessed Virgin Mary gave birth to Jesus Christ and laid Him in a manger (*Luke 2:1-20*), the site has been continuously identified and venerated since the apostolic era.\n\nSaint Justin Martyr in AD 160 confirmed that Jesus was born in a cave near Bethlehem. In 327 AD, Empress Saint Helena and Constantine began construction of the first octagonal basilica, completed in 339 AD. Rebuilt and fortified by Emperor Justinian I in the 6th century, the structure survived the Persian invasion of 614 AD because the invaders recognized the Three Magi depicted on the mosaic facade wearing Persian robes.\n\nInside the Grotto of the Nativity, beneath the high altar, a fourteen-pointed silver star embedded in the marble floor bears the Latin inscription: *'Hic de Virgine Maria Jesus Christus Natus Est'* ('Here Jesus Christ was born of the Virgin Mary').",
+  "historical_summary_vi": "Vương Cung Thánh Đường Giáng Sinh tại Bêlem là thánh đường Kitô giáo cổ nhất thế giới còn cử hành phụng vụ hằng ngày. Tọa lạc ngay trên hang đá vôi nơi Đức Trinh Nữ Maria đã sinh hạ Chúa Giêsu và đặt Người nằm trong máng cỏ (*Luca 2:1-20*), địa danh này đã được phụng thờ liên tục từ thời các tông đồ.\n\nNăm 160, Thánh Justinô Tử Đạo xác nhận Chúa Giêsu sinh ra trong hang đá gần Bêlem. Năm 327, Thánh Nữ Hoàng hậu Helena và Hoàng đế Constantine đã cho xây dựng ngôi thánh đường đầu tiên. Được Hoàng đế Justinian I tái thiết vào thế kỷ thứ 6, ngôi đền đã sống sót qua cuộc xâm lăng của quân Ba Tư năm 614 vì quân xâm lược nhận ra hình Ba Vua Ba Tư vẽ trên tranh khảm mặt tiền.\n\nBên trong Hang Đá Giáng Sinh dưới bàn thờ chính, một ngôi sao bạc 14 cánh khảm trên nền cẩm thạch mang dòng chữ Latinh thiêng liêng: *'Hic de Virgine Maria Jesus Christus Natus Est'* ('Tại đây Chúa Giêsu Kitô đã sinh ra bởi Đức Trinh Nữ Maria').",
+  "scripture_reading": "Luke 2:6-7",
+  "suggested_prayer_en": "O Holy Child of Bethlehem, Son of God and Prince of Peace, who in immense humility chose to be born in a lowly stable for our salvation, make our hearts your dwelling place. Fill our families with your peace and teach us the beauty of humble simplicity. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Hài Đồng Bêlem, Con Thiên Chúa và là Vua Bình An, Đấng vì lòng khiêm nhường vô biên đã chọn sinh ra trong máng cỏ nghèo hèn để cứu chuộc chúng con, xin ngự vào tâm hồn chúng con. Xin đổ tràn bình an của Chúa trên gia đình chúng con và dạy chúng con vẻ đẹp của sự khiêm nhường thánh thiện. Amen.",
+  "primary_sources": [
+    {
+      "label": "Custody of the Holy Land - Official Bethlehem Nativity Archival Records",
+      "url": "https://www.custodia.org/en/sanctuaries/bethlehem",
+      "type": "academic"
+    },
+    {
+      "label": "UNESCO World Heritage Centre - Birthplace of Jesus: Church of the Nativity and the Pilgrimage Route",
+      "url": "https://whc.unesco.org/en/list/1433",
+      "type": "academic"
+    }
+  ]
+}

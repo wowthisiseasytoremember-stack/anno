@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_ignatius_church_rome",
+  "category": "monastic_sanctuary",
+  "name_en": "Church of Saint Ignatius of Loyola (Sant'Ignazio, Rome)",
+  "name_vi": "Đại Thánh Đường Thánh Inhaxiô Loyola (Roma)",
+  "feast_day_association": "Feast of Saint Ignatius of Loyola (July 31) / Saint Aloysius Gonzaga (June 21)",
+  "location": {
+    "shrine_or_basilica": "Chiesa di Sant'Ignazio di Loyola in Campo Marzio",
+    "city": "Rome",
+    "region_or_state": "Lazio",
+    "country": "Italy",
+    "latitude": 41.8992,
+    "longitude": 12.4797,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1722-01-01",
+    "approving_authority": "Cardinal Ludovico Ludovisi / Pope Gregory XV / Jesuit Curia",
+    "confidence": "confirmed",
+    "confidence_note_en": "Built in 1626 honoring the canonization of Saint Ignatius; houses the monumental illusory Baroque ceiling frescoes and trompe-l'œil dome by Jesuit Brother Andrea Pozzo; enshrines the tombs of Jesuit saints Aloysius Gonzaga, John Berchmans, and Robert Bellarmine.",
+    "confidence_note_vi": "Xây dựng năm 1626 kỷ niệm biến cố phong thánh cho Thánh Inhaxiô; kiệt tác bích họa trần thời Baroque và mái vòm ảo ảnh thị giác của Tu sĩ Dòng Tên Andrea Pozzo; bảo tồn thi hài các Thánh Dòng Tên Aloisiô Gonzaga, Gioan Berchmans và Roberto Bellarmino."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Lapis Lazuli Altar Sarcophagus of Saint Aloysius Gonzaga and Tomb of Saint Robert Bellarmine",
+      "relic_name_vi": "Lăng Mộ Ngọc Lưu Ly Của Thánh Aloisiô Gonzaga và Mộ Thánh Roberto Bellarmino",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Chapel of Saint Aloysius Gonzaga and High Altar of Sant'Ignazio"
+    }
+  ],
+  "historical_summary_en": "The Church of Saint Ignatius of Loyola at the Collegio Romano in Rome is a triumph of Counter-Reformation Baroque architecture and Jesuit missionary cosmology. Commissioned in 1626 by Cardinal Ludovico Ludovisi, the sanctuary celebrates the apostolic worldwide expansion of the Society of Jesus under Saint Ignatius.\n\nThe church's ceiling is world-famous for the breathtaking illusory fresco painted by Jesuit lay brother Andrea Pozzo between 1685 and 1694: *The Apotheosis of Saint Ignatius*. In this masterpiece of *quadratura*, rays of light stream from the pierced Heart of Christ to Saint Ignatius, which then reflect out to the four corners of the earth represented by allegories of the four known continents (Europe, Asia, Africa, America).\n\nSant'Ignazio serves as the resting place of major Jesuit saints: Saint Aloysius Gonzaga (1568–1591, patron of youth), Saint John Berchmans, and Saint Robert Bellarmine (Doctor of the Church), whose sacred remains are enshrined in sumptuous lapis lazuli, silver, and gilded bronze altars.",
+  "historical_summary_vi": "Đại Thánh Đường Thánh Inhaxiô Loyola tại Trường Cao Đẳng Roma là đỉnh cao của kiến trúc Baroque thời Phản Cải Cách và thần học truyền giáo Dòng Tên. Được Đức Hồng y Ludovico Ludovisi khởi dựng năm 1626, đền thánh tôn vinh công cuộc loan báo Tin Mừng khắp năm châu của Dòng Tên dưới sự dẫn dắt của Thánh Inhaxiô.\n\nTrần nhà thờ nổi tiếng khắp thế giới với bức bích họa ảo ảnh thị giác ngoạn mục do Tu sĩ Dòng Tên Andrea Pozzo thực hiện (1685–1694): *Vinh Quang Thiên Quốc của Thánh Inhaxiô*. Trong kiệt tác này, những luồng ánh sáng từ Thánh Tâm Chúa Kitô chiếu rọi vào ngực Thánh Inhaxiô rồi phản chiếu rực rỡ đến 4 phương trời đại diện cho 4 lục địa (Châu Âu, Châu Á, Châu Phi và Châu Mỹ).\n\nĐền thờ là nơi an nghỉ của các vị thánh Dòng Tên lẫy lừng: Thánh Aloisiô Gonzaga (1568–1591, quan thầy giới trẻ), Thánh Gioan Berchmans và Thánh Roberto Bellarmino (Tiến Sĩ Hội Thánh), được an vị trong các bàn thờ đá ngọc lưu ly, bạc và đồng mạ vàng tuyệt mỹ.",
+  "scripture_reading": "Luke 12:49",
+  "suggested_prayer_en": "Lord Jesus Christ, who came to cast fire upon the earth and willed that it be ignited, ignite in our souls the holy fire of apostolic zeal. May all our thoughts, words, and actions be directed solely to your greater glory (*Ad Maiorem Dei Gloriam*). Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Kitô, Đấng đã đến ném lửa vào trần gian và ước mong ngọn lửa ấy bùng cháy lên, xin thắp sáng trong tâm hồn chúng con ngọn lửa nhiệt thành tông đồ. Xin cho mọi tư tưởng, lời nói và việc làm của chúng con luôn quy hướng về vinh quang lớn hơn của Chúa (*Ad Maiorem Dei Gloriam*). Amen.",
+  "primary_sources": [
+    {
+      "label": "Chiesa di Sant'Ignazio di Loyola Official Historical Dossier",
+      "url": "https://santignazio.gesuiti.it/",
+      "type": "academic"
+    },
+    {
+      "label": "Jesuit Historical Institute (ARSI) - Andrea Pozzo and the Frescoes of Sant'Ignazio",
+      "url": "https://www.jesuitonline.org/",
+      "type": "academic"
+    }
+  ]
+}

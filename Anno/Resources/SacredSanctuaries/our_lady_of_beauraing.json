@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_beauraing",
+  "category": "marian_apparition",
+  "name_en": "Sanctuary of Our Lady of Beauraing (The Virgin with the Golden Heart)",
+  "name_vi": "Đền Thánh Đức Mẹ Beauraing (Đức Mẹ Trái Tim Vàng)",
+  "feast_day_association": "Feast of Our Lady of Beauraing (November 29)",
+  "location": {
+    "shrine_or_basilica": "Sanctuaire de Notre-Dame de Beauraing",
+    "city": "Beauraing",
+    "region_or_state": "Namur",
+    "country": "Belgium",
+    "latitude": 50.1111,
+    "longitude": 4.9575,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1949-07-02",
+    "approving_authority": "Bishop André-Marie Charue / Sacred Congregation of the Holy Office",
+    "confidence": "confirmed",
+    "confidence_note_en": "Approved by Bishop André-Marie Charue of Namur on July 2, 1949, with a decree confirming the supernatural character of the thirty-three apparitions.",
+    "confidence_note_vi": "Được Đức Giám mục André-Marie Charue giáo phận Namur công nhận ngày 2 tháng 7 năm 1949 qua sắc lệnh xác thực tính chất siêu nhiên của 33 lần hiện ra."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Hawthorn Tree Apparition Ground",
+      "relic_name_vi": "Cội Cây Sơn Tra Nơi Đức Mẹ Hiện Ra",
+      "relic_type": "apparition_site",
+      "reliquary_location": "The Hawthorn Garden at the Beauraing Sanctuary"
+    }
+  ],
+  "historical_summary_en": "Between November 29, 1932, and January 3, 1933, the Blessed Virgin Mary appeared thirty-three times to five children—Fernande, Gilberte, and Albert Voisin, along with Andrée and Gilberte Degeimbre—near a hawthorn tree by the convent of the Sisters of Christian Doctrine in Beauraing, Belgium. The children saw a radiant Lady in a cloudless light, wearing a flowing white dress and holding her hands joined in prayer.\n\nIn the final apparitions, as she opened her arms in blessing, the Lady revealed within her chest a radiant Heart of pure gold surrounded by luminous rays (*Le Cœur d'Or*). She announced: *'I am the Immaculate Virgin... I will convert sinners... Do you love my Son? Do you love me? Then sacrifice yourselves for me.'*\n\nThe apparitions were witnessed during their culmination by crowds of over thirty thousand people who observed the ecstatic state of the children under medical supervision. The sanctuary stands as an enduring monument to Mary's Immaculate, Golden Heart and her maternal call for personal conversion and sacrifice for the redemption of sinners.",
+  "historical_summary_vi": "Từ ngày 29 tháng 11 năm 1932 đến ngày 3 tháng 1 năm 1933, Đức Trinh Nữ Maria đã hiện ra 33 lần với 5 trẻ nhỏ—Fernande, Gilberte, Albert Voisin cùng hai chị em Andrée và Gilberte Degeimbre—bên cội cây sơn tra gần tu viện các Nữ tu Giáo lý Kitô giáo tại Beauraing, nước Bỉ. Các em nhìn thấy một Bà Đẹp rực rỡ trong ánh sáng thanh khiết, mặc áo trắng dài và chắp tay cầu nguyện.\n\nTrong những lần hiện ra cuối cùng, khi dang rộng đôi tay chúc lành, Đức Mẹ đã để lộ nơi lồng ngực một Trái Tim bằng vàng ròng sáng chói tỏa ra muôn ngàn tia sáng (*Le Cœur d'Or*). Đức Mẹ phán: *'Ta là Trinh Nữ Vô Nhiễm... Ta sẽ hoán cải các tội nhân... Các con có yêu mến Con Ta không? Các con có yêu mến Mẹ không? Vậy hãy hi sinh vì Mẹ.'*\n\nNhững lần hiện ra cuối cùng đã diễn ra trước sự chứng kiến của hơn ba mươi ngàn người và được các bác sĩ kiểm nghiệm trạng thái xuất thần của các em. Đền thánh Beauraing là biểu tượng bất diệt tôn vinh Trái Tim Vàng Vô Nhiễm của Mẹ và lời mời gọi tha thiết hoán cải, hi sinh để cầu cho các tội nhân được ơn cứu độ.",
+  "scripture_reading": "Proverbs 4:23",
+  "suggested_prayer_en": "O Immaculate Virgin of the Golden Heart, Mother of Beauraing, you manifested the burning charity of your maternal heart for all people. Ignite in our souls a true love for your Divine Son Jesus; help us to offer our daily sacrifices with joy, and obtain the grace of conversion for hardened sinners. Through Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Trinh Nữ Vô Nhiễm Trái Tim Vàng tại Beauraing, Mẹ đã tỏ bày tình yêu thương bừng cháy của trái tim từ mẫu dành cho nhân loại. Xin thắp lên trong tâm hồn chúng con lòng mến yêu tha thiết Con Chí Thánh của Mẹ là Chúa Giêsu; giúp chúng con biết vui lòng dâng những hy sinh hằng ngày và cầu xin ơn hoán cải cho các tội nhân cứng lòng. Nhờ Đức Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Sanctuaire de Beauraing Official Historical Archives",
+      "url": "https://beauraing-sanctuaire.be/en/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope John Paul II - Homily at the Sanctuary of Beauraing (May 18, 1985)",
+      "url": "https://www.vatican.va/content/john-paul-ii/fr/homilies/1985/documents/hf_jp-ii_hom_19850518_beauraing.html",
+      "type": "vatican"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "saint_stephen_basilica_budapest",
+  "category": "martyr_shrine",
+  "name_en": "Saint Stephen's Basilica (The Holy Right Hand, Budapest)",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Stêphanô (Bàn Tay Phải Thánh, Budapest)",
+  "feast_day_association": "Feast of Saint Stephen of Hungary (August 20)",
+  "location": {
+    "shrine_or_basilica": "Szent István-bazilika",
+    "city": "Budapest",
+    "region_or_state": "Central Hungary",
+    "country": "Hungary",
+    "latitude": 47.5009,
+    "longitude": 19.0539,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1905-11-09",
+    "approving_authority": "Pope Gregory VII (Canonization 1083) / Pope Pius XI (Minor Basilica 1931)",
+    "confidence": "confirmed",
+    "confidence_note_en": "King Saint Stephen canonized in 1083 by Pope Gregory VII; incorrupt Holy Right Hand (*Szent Jobb*) verified since the 11th century; enshrined in the co-cathedral basilica of the Archdiocese of Esztergom-Budapest.",
+    "confidence_note_vi": "Vua Thánh Stêphanô được Đức Giáo hoàng Grêgôriô VII tuyên thánh năm 1083; Bàn Tay Phải Thánh (*Szent Jobb*) không hư nát được kiểm chứng từ thế kỷ 11; bảo tồn trong thánh đường chính tòa Tổng Giáo phận Esztergom-Budapest."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Incorrupt Holy Right Hand of King Saint Stephen of Hungary (Szent Jobb)",
+      "relic_name_vi": "Bàn Tay Phải Thánh Không Hư Nát của Vua Thánh Stêphanô Nước Hungary (Szent Jobb)",
+      "relic_type": "incorrupt_body",
+      "reliquary_location": "Holy Right Chapel (Szent Jobb Kápolna) inside Saint Stephen's Basilica, Budapest"
+    }
+  ],
+  "historical_summary_en": "Saint Stephen's Basilica (*Szent István-bazilika*) in Budapest is the co-cathedral of the Archdiocese of Esztergom-Budapest and Hungary's premier sacred sanctuary, dedicated to King Saint Stephen I (975–1038), who unified the Hungarian tribes and established the Christian Kingdom of Hungary, receiving the Holy Crown from Pope Sylvester II in the year 1000 AD.\n\nOn his deathbed on August 15, 1038 (Feast of the Assumption), King Stephen lifted his crown and solemnly consecrated the Hungarian nation to the Virgin Mary (*Patrona Hungariae*). When his tomb was opened during his canonization in 1083 by King Saint Ladislaus I, his body had decomposed, but his right hand—the hand that had held the royal scepter, signed charters of Christian law, and distributed alms to the destitute—was found completely incorrupt and naturally mummified.\n\nPreserved today within an exquisite Neo-Gothic gilded silver reliquary inside the Holy Right Chapel, the *Szent Jobb* has been carried through the streets of Budapest every August 20 for centuries as the sacred symbol of Hungarian Catholic identity and perseverance.",
+  "historical_summary_vi": "Đại Vương Cung Thánh Đường Thánh Stêphanô tại Budapest là đồng nhà thờ chính tòa của Tổng Giáo phận Esztergom-Budapest và là đền thánh lớn nhất nước Hungary, tôn kính Vua Thánh Stêphanô I (975–1038), người đã thống nhất các bộ tộc Magyar và thành lập Vương quốc Kitô giáo Hungary, đón nhận Vương Miện Thánh từ Đức Giáo hoàng Sylvester II năm 1000.\n\nTrên giường bệnh ngày 15 tháng 8 năm 1038 (Lễ Đức Mẹ Hồn Xác Lên Trời), Vua Stêphanô đã dâng triều thiên và tận hiến toàn thể dân tộc Hungary cho Đức Trinh Nữ Maria (*Patrona Hungariae*). Khi mở mộ ngài trong lễ phong thánh năm 1083, toàn thân thể đã tan rã ngoại trừ Bàn Tay Phải Thánh (*Szent Jobb*)—bàn tay từng cầm quyền trượng, ban hành luật pháp Kitô giáo và phát của bố thí cho người nghèo—vẫn hoàn toàn nguyên vẹn không hư nát.\n\nĐược bảo tồn trong hòm bạc mạ vàng Tân Gothic lộng lẫy trong Nguyện đường Bàn Tay Thánh, *Szent Jobb* được rước long trọng qua các đường phố Budapest vào ngày 20 tháng 8 hằng năm như biểu tượng đức tin bất diệt của người Công giáo Hungary.",
+  "scripture_reading": "Psalm 89:20-24",
+  "suggested_prayer_en": "Almighty God, who through King Saint Stephen established a Christian kingdom founded upon faith, justice, and charity, bless our nations. Grant that our leaders may govern with wisdom, defend the dignity of the poor, and lead their people in the peace of Christ. Amen.",
+  "suggested_prayer_vi": "Lạy Thiên Chúa Toàn Năng, Đấng đã dùng Vua Thánh Stêphanô thiết lập một vương quốc Kitô giáo đặt nền tảng trên đức tin, công lý và bác ái, xin chúc lành cho các dân tộc chúng con. Xin ban cho các nhà lãnh đạo sự khôn ngoan công chính, biết bảo vệ người nghèo khổ và dẫn dắt muôn dân trong bình an của Chúa Kitô. Amen.",
+  "primary_sources": [
+    {
+      "label": "Szent István Bazilika Budapest Official Archival Dossier",
+      "url": "https://www.bazilika.biz/en",
+      "type": "academic"
+    },
+    {
+      "label": "Pope John Paul II - Address at Saint Stephen's Basilica, Budapest (August 20, 1991)",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1991/august/documents/hf_jp-ii_spe_19910820_basilica-budapest.html",
+      "type": "vatican"
+    }
+  ]
+}

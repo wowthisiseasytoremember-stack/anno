@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "chapel_of_miraculous_medal",
+  "category": "marian_apparition",
+  "name_en": "Chapel of Our Lady of the Miraculous Medal (Rue du Bac)",
+  "name_vi": "Nguyện Đường Đức Mẹ Ban Ơn (Rue du Bac)",
+  "feast_day_association": "Feast of Our Lady of the Miraculous Medal (November 27)",
+  "location": {
+    "shrine_or_basilica": "Chapelle Notre-Dame de la Médaille Miraculeuse",
+    "city": "Paris",
+    "region_or_state": "Île-de-France",
+    "country": "France",
+    "latitude": 48.8509,
+    "longitude": 2.3236,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1836-02-16",
+    "approving_authority": "Archbishop Hyacinthe-Louis de Quélen / Pope Leo XIII",
+    "confidence": "confirmed",
+    "confidence_note_en": "Canonical investigation led by Archbishop de Quélen of Paris in 1836 confirmed the authenticity of the visions and the miraculous conversions wrought through the Medal; Saint Catherine Labouré canonized by Pope Pius XII in 1947.",
+    "confidence_note_vi": "Được Đức Tổng Giám mục Hyacinthe-Louis de Quélen giáo phận Paris chuẩn nhận năm 1836; Thánh Catherine Labouré được Đức Giáo hoàng Piô XII tuyên thánh năm 1947."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Incorrupt Body of Saint Catherine Labouré and the Armchair of Our Lady",
+      "relic_name_vi": "Thi Hài Toàn Vẹn Không Hư Nát của Thánh Nữ Catherine Labouré và Ghế Đức Mẹ",
+      "relic_type": "incorrupt_body",
+      "reliquary_location": "Glass reliquary under the side altar of the Virgin at Rue du Bac"
+    }
+  ],
+  "historical_summary_en": "In 1830, in the chapel of the Daughters of Charity at 140 Rue du Bac in Paris, the Blessed Virgin Mary appeared three times to a humble novice, Saint Catherine Labouré. In the nocturnal hours of July 18, Catherine was led by her guardian angel to the sanctuary, where she knelt beside Our Lady seated in the director's armchair, resting her hands upon the Virgin's knees for over two hours in intimate conversation.\n\nOn November 27, 1830, Our Lady appeared standing atop a globe, crushing the serpent's head underfoot, with radiant beams of light streaming from rings on her fingers onto the earth. An oval frame formed around the vision containing the golden inscription: *'O Mary, conceived without sin, pray for us who have recourse to thee.'* The image turned, revealing the letter 'M' surmounted by a cross, the Sacred Heart of Jesus encircled with thorns, and the Immaculate Heart of Mary pierced by a sword.\n\nThe Virgin instructed Catherine to have a medal struck after this model, promising abundant graces to all who wore it with faith around their neck. Millions of medals were struck, prompting such an outpouring of documented physical cures and sudden spiritual conversions (including the famous conversion of Alphonse Ratisbonne in 1842) that the faithful spontaneously christened it 'The Miraculous Medal.'",
+  "historical_summary_vi": "Vào năm 1830, tại nhà nguyện Tu hội Nữ Tử Bác Ái Vinh Sơn số 140 phố Rue du Bac ở Paris, Đức Trinh Nữ Maria đã hiện ra 3 lần với nữ tập sinh khiêm nhường là Thánh Catherine Labouré. Đêm ngày 18 tháng 7, được thiên thần bản mệnh dẫn đường vào nhà nguyện, Catherine đã quỳ bên Đức Mẹ ngồi trên chiếc ghế bành của cha giám đốc, đặt hai tay lên đầu gối Mẹ và tâm sự sốt sắng suốt hai giờ đồng hồ.\n\nNgày 27 tháng 11 năm 1830, Đức Mẹ lại hiện ra đứng trên quả địa cầu, gót chân đạp nát đầu con rắn, từ các ngón tay Mẹ tỏa ra muôn vàn luồng ánh sáng rực rỡ chiếu xuống mặt đất. Một khung hình bầu dục hiện ra bao quanh với dòng chữ vàng: *'Lạy Mẹ Maria vô nhiễm nguyên tội, xin cầu cho chúng con là kẻ chạy đến cùng Mẹ.'* Khi khung hình quay lại, xuất hiện chữ 'M' mang thánh giá bên trên, cùng Thánh Tâm Chúa Giêsu đội mão gai và Trái Tim Vô Nhiễm Mẹ bị lưỡi gươm đâm thấu.\n\nĐức Mẹ truyền cho Catherine cho đúc mẫu Ảnh theo hình ảnh này và hứa ban muôn ơn lành cho những ai đeo Ảnh với lòng tin cậy. Hàng triệu mẫu Ảnh đã được phân phát khắp nơi, tạo nên vô số phép lạ chữa lành và các cuộc hoán cải đức tin kinh ngạc (như cuộc trở lại đạo nổi tiếng của luật sư Do Thái Alphonse Ratisbonne năm 1842), khiến các tín hữu gọi đây là 'Ảnh Đức Mẹ Ban Ơn Phép Lạ'.",
+  "scripture_reading": "Genesis 3:15",
+  "suggested_prayer_en": "O Mary, conceived without sin, pray for us who have recourse to thee! You offered your Miraculous Medal as a sign of heavenly protection and abundant grace. Pour out the radiant rays of Christ's mercy upon our families, heal our spiritual blindness, and draw all hearts to the Sacred Heart of your Divine Son. Amen.",
+  "suggested_prayer_vi": "Lạy Mẹ Maria vô nhiễm nguyên tội, xin cầu cho chúng con là kẻ chạy đến cùng Mẹ! Mẹ đã ban Mẫu Ảnh Phép Lạ làm dấu chỉ che chở của thiên đàng và tuôn đổ muôn ơn lành. Xin chiếu tỏa những luồng ánh sáng xót thương của Chúa Kitô trên gia đình chúng con, chữa lành sự mù lòa tâm linh và dẫn đưa muôn tâm hồn về cùng Thánh Tâm Con Cực Thánh của Mẹ. Amen.",
+  "primary_sources": [
+    {
+      "label": "Chapelle Notre-Dame de la Médaille Miraculeuse Official Archives",
+      "url": "https://www.medaille-miraculeuse.fr/en/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Pius XII - Bull of Canonization of Saint Catherine Labouré (1947)",
+      "url": "https://www.vatican.va/content/pius-xii/fr/apost_constitutions/documents/hf_p-xii_apc_19470727_doctor-virtutum.html",
+      "type": "vatican"
+    }
+  ]
+}

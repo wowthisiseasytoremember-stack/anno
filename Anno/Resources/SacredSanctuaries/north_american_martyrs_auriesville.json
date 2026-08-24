@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "north_american_martyrs_auriesville",
+  "category": "martyr_shrine",
+  "name_en": "National Shrine of Our Lady of Martyrs (Auriesville)",
+  "name_vi": "Đền Thánh Quốc Gia Các Thánh Tử Đạo Bắc Mỹ (Auriesville)",
+  "feast_day_association": "Feast of the North American Martyrs / Saints Isaac Jogues and Companions (October 19)",
+  "location": {
+    "shrine_or_basilica": "National Shrine of Our Lady of Martyrs (The Coliseum)",
+    "city": "Auriesville",
+    "region_or_state": "New York",
+    "country": "United States",
+    "latitude": 42.9292,
+    "longitude": -74.3167,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1930-06-29",
+    "approving_authority": "Pope Pius XI (Canonization of North American Martyrs) / USCCB National Shrine",
+    "confidence": "confirmed",
+    "confidence_note_en": "Site of the 17th-century Mohawk village of Ossernenon, where Saints Isaac Jogues, René Goupil, and John de Lalande were martyred (1642-1646); birthplace of Saint Kateri Tekakwitha (1656); canonized by Pope Pius XI in 1930.",
+    "confidence_note_vi": "Địa điểm ngôi làng Ossernenon của bộ tộc Mohawk thế kỷ 17, nơi các Thánh Isaac Jogues, René Goupil và John de Lalande chịu tử đạo (1642-1646); nơi sinh của Thánh Nữ Kateri Tekakwitha (1656); được Đức Piô XI tuyên thánh năm 1930."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Holy Ground of Ossernenon and Relics of Saints Isaac Jogues, René Goupil, and Jean de Lalande",
+      "relic_name_vi": "Đất Thánh Pháp Trường Ossernenon và Hài Cốt Các Thánh Tử Đạo Dòng Tên Bắc Mỹ",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "The Great Coliseum Basilica and The Ravine of the Martyrs at Auriesville"
+    }
+  ],
+  "historical_summary_en": "The National Shrine of Our Lady of Martyrs in Auriesville, New York, sits atop the historic site of Ossernenon, a 17th-century fortified Mohawk village overlooking the Mohawk River. It is sanctified by the martyrdom of three French Jesuit missionaries—Saint René Goupil (martyred 1642, the first canonized martyr in North America), Saint Isaac Jogues (martyred 1646), and Saint Jean de Lalande (martyred 1646)—and is the birthplace of Saint Kateri Tekakwitha (1656–1680), the 'Lily of the Mohawks.'\n\nFather Isaac Jogues and surgeon René Goupil were captured in 1642, enduring brutal torture including the chewing and slicing off of their fingers. When Goupil made the Sign of the Cross over a Mohawk child's forehead, he was killed with a tomahawk blow. Jogues escaped to France, where Pope Urban VIII granted him a special dispensation to celebrate Mass with his mutilated hands, saying: *'It would be shameful if a martyr of Christ could not drink the Blood of Christ.'*\n\nDriven by love for souls, Father Jogues returned to Ossernenon in 1646 as a peace envoy and was martyred by a tomahawk strike on October 18, 1646. The massive circular Coliseum at Auriesville, seating 10,000 pilgrims, stands as a monument to apostolic heroism.",
+  "historical_summary_vi": "Đền Thánh Quốc Gia Đức Mẹ Các Vị Tử Đạo tại Auriesville, New York, tọa lạc trên vị trí pháo đài cổ Ossernenon của người da đỏ Mohawk thế kỷ 17 bên bờ sông Mohawk. Nơi đây được thánh hóa bởi máu tử đạo của ba thừa sai Dòng Tên người Pháp—Thánh René Goupil (tử đạo 1642, vị thánh tử đạo đầu tiên tại Bắc Mỹ), Thánh Isaac Jogues (tử đạo 1646) và Thánh Jean de Lalande (tử đạo 1646)—đồng thời là quê hương của Thánh Nữ Kateri Tekakwitha (1656–1680), 'Bông Hoa Huệ của Người Mohawk'.\n\nCha Isaac Jogues và y sĩ René Goupil bị bắt năm 1642 và phải chịu những đòn tra tấn dã man như bị chặt đứt các ngón tay. Khi Goupil làm Dấu Thánh Giá trên trán một em bé Mohawk, ngài đã bị chém rìu vào đầu tử đạo. Cha Jogues trốn thoát về Pháp và được Đức Giáo hoàng Urbanô VIII đặc cách cho phép dâng Lễ bằng đôi bàn tay cụt ngón, với lời ca ngợi: *'Thật bất xứng nếu một vị tử đạo của Chúa Kitô lại không được uống Máu Chúa Kitô.'*\n\nVì tình yêu cứu rỗi các linh hồn, Cha Jogues đã dũng cảm trở lại làng Ossernenon năm 1646 và chịu tử đạo ngày 18 tháng 10 năm 1646. Đền thờ Đại Đấu Trường (The Coliseum) hình tròn khổng lồ chứa 10.000 người là tượng đài bất khuất của lòng quả cảm truyền giáo.",
+  "scripture_reading": "2 Corinthians 4:8-10",
+  "suggested_prayer_en": "O Holy North American Martyrs, Saints Isaac Jogues, René Goupil, and companions, you sowed the seeds of faith in this continent through your suffering and martyrdom. Grant us an apostolic courage that does not shrink before hostility, and inspire a new springtime of vocations and vibrant faith throughout the Americas. Amen.",
+  "suggested_prayer_vi": "Lạy Các Thánh Tử Đạo Bắc Mỹ, Thánh Isaac Jogues, Thánh René Goupil và các bạn, các ngài đã gieo hạt giống đức tin trên lục địa này bằng máu đào và sự hy sinh anh dũng. Xin ban cho chúng con lòng can đảm truyền giáo không sờn lòng trước nghịch cảnh, và làm trổ sinh một mùa xuân mới dồi dào ơn gọi và đức tin sống động trên khắp Châu Mỹ. Amen.",
+  "primary_sources": [
+    {
+      "label": "National Shrine of Our Lady of Martyrs Official Historical Archive",
+      "url": "https://www.ourladyofmartyrs.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Pius XI - Apostolic Constitution for the Canonization of the North American Martyrs (1930)",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ]
+}

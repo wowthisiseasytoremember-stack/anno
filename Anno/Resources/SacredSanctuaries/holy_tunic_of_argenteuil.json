@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "holy_tunic_of_argenteuil",
+  "category": "passion_relic",
+  "name_en": "Basilica of Saint Denys (The Seamless Holy Tunic of Argenteuil)",
+  "name_vi": "Vương Cung Thánh Đường Thánh Denys (Áo Choàng Không Đường Khâu Argenteuil)",
+  "feast_day_association": "Fifth Sunday of Lent (Passion Sunday) / Good Friday",
+  "location": {
+    "shrine_or_basilica": "Basilique Saint-Denys d'Argenteuil",
+    "city": "Argenteuil",
+    "region_or_state": "Val-d'Oise, Île-de-France",
+    "country": "France",
+    "latitude": 48.9417,
+    "longitude": 2.2472,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1156-01-01",
+    "approving_authority": "Archbishop Hugh of Rouen / King Louis VII / Bishop Stanislas Lalanne (2016)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Gifted by Empress Irene of Constantinople to Emperor Charlemagne c. 800 AD; rediscovered and authenticated in 1156 in the presence of King Louis VII; modern genetic and palynological studies (2004-2016) confirm human blood type AB and 1st-century Judean pollens.",
+    "confidence_note_vi": "Do Nữ hoàng Irene thành Constantinople dâng tặng Hoàng đế Charlemagne khoảng năm 800; được tái khám phá và xác thực năm 1156 trước sự hiện diện của Vua Louis VII; các phân tích di truyền học và phấn hoa hiện đại xác nhận máu người nhóm AB và phấn hoa Judea thế kỷ thứ nhất."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Seamless Woven Tunic of Christ (Sainte Tunique d'Argenteuil)",
+      "relic_name_vi": "Chiếc Áo Choàng Không Đường Khâu của Chúa Kitô (Sainte Tunique)",
+      "relic_type": "miraculous_textile",
+      "reliquary_location": "Gilded Reliquary Shrine inside the Basilica of Saint-Denys, Argenteuil"
+    }
+  ],
+  "historical_summary_en": "The Holy Tunic of Argenteuil (*La Sainte Tunique d'Argenteuil*) is the seamless woolen tunic (*chiton*) worn by Jesus Christ during His earthly ministry and on the Way of the Cross to Mount Calvary, for which the Roman executioners cast lots rather than tear it (*John 19:23-24*). According to historical tradition, the tunic was woven by the Virgin Mary for Jesus in His youth and grew miraculously with Him.\n\nAround 800 AD, Byzantine Empress Irene presented the sacred tunic as an imperial gift to Charlemagne on the occasion of his coronation as Holy Roman Emperor. Charlemagne entrusted the relic to his daughter Theodrada, Abbess of the Benedictine convent of Saint-Marie in Argenteuil. In 1156, following Norman invasions during which the tunic had been walled up in a monastery vault, it was rediscovered and solemnly authenticated by Archbishop Hugh of Rouen and King Louis VII.\n\nModern biochemical and DNA studies directed by Dr. Gérard Lucotte and Dr. André Marion demonstrated that the tunic is woven from fine Z-spun sheep's wool without seams; the bloodstains match human blood group AB; the heavy blood patterns on the back and shoulders correspond to carrying a heavy wooden beam (*patibulum*); and palynological tests identified fossilized pollen grains belonging to plants endemic exclusively to Jerusalem and the Judean hills.",
+  "historical_summary_vi": "Chiếc Áo Dài Argenteuil (*La Sainte Tunique d'Argenteuil*) là chiếc áo liền mảnh dệt bằng len (*chiton*) mà Chúa Giêsu Kitô đã mặc trong suốt sứ vụ trần thế và trên Con Đường Khổ Nạn tiến lên đỉnh Đồi Sọ, chiếc áo mà quân lính La Mã đã bắt thăm để không xé rách (*Gioan 19:23-24*). Theo truyền thống, chiếc áo do chính tay Đức Mẹ dệt cho Chúa Giêsu từ thời niên thiếu.\n\nKhoảng năm 800 sau Công Nguyên, Nữ hoàng Byzantine Irene đã dâng tặng chiếc áo thánh này làm quà tặng hoàng gia cho Hoàng đế Charlemagne dịp ngài đăng quang. Charlemagne đã trao thánh tích cho con gái là Viện mẫu Theodrada thuộc đan viện Nữ tu Argenteuil gìn giữ. Năm 1156, sau khi được giấu trong tường tu viện tránh quân Viking xâm lăng, chiếc áo đã được tìm thấy lại và được Vua Louis VII cùng Tổng Giám mục Rouen chứng thực long trọng.\n\nCác nghiên cứu sinh hóa và DNA hiện đại do Tiến sĩ Gérard Lucotte thực hiện xác nhận: áo được dệt bằng sợi len cừu mịn không có đường may nối; các vết máu thuộc nhóm máu người AB; các vết máu bầm tụ tập trung ở vùng vai và lưng hoàn toàn tương ứng với áp lực vác thanh xà gỗ thập giá nặng nề; và phân tích phấn hoa tìm thấy các hạt phấn hoa cổ xưa chỉ sinh trưởng ở vùng đồi núi Judea và Jerusalem.",
+  "scripture_reading": "John 19:23-24",
+  "suggested_prayer_en": "Lord Jesus Christ, who was stripped of your garments and suffered the shame of the Cross to clothe us in the robes of grace, have mercy on our weaknesses. Grant that we may preserve unbroken the seamless garment of unity in your Church, and remain clothed in faith, hope, and charity all the days of our lives. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Kitô, Đấng đã chịu lột áo và chịu sự sỉ nhục trên Thập Giá để mặc cho chúng con chiếc áo ân sủng tinh tuyền, xin thương xót những yếu đuối của chúng con. Xin gìn giữ chiếc áo liền mảnh hiệp nhất của Hội Thánh Chúa không bao giờ bị chia cắt, và cho chúng con luôn được mặc lấy đức tin, đức cậy và đức mến trọn đời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Diocese of Pontoise - Official Scientific and Historical Dossier of the Sainte Tunique (2016)",
+      "url": "https://www.catholique95.fr/",
+      "type": "academic"
+    },
+    {
+      "label": "Dr. Gérard Lucotte - Genetic and Palynological Analysis of the Argenteuil Holy Tunic (2004)",
+      "url": "https://saintetunique.com/",
+      "type": "academic"
+    }
+  ]
+}

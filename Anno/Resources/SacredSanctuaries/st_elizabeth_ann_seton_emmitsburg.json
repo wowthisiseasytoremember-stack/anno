@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_elizabeth_ann_seton_emmitsburg",
+  "category": "doctor_of_church",
+  "name_en": "National Shrine of Saint Elizabeth Ann Seton (Emmitsburg)",
+  "name_vi": "Đền Thánh Quốc Gia Thánh Nữ Elizabeth Ann Seton (Emmitsburg)",
+  "feast_day_association": "Feast of Saint Elizabeth Ann Seton (January 4)",
+  "location": {
+    "shrine_or_basilica": "National Shrine of Saint Elizabeth Ann Seton (Basilica of Saint Elizabeth Ann Seton)",
+    "city": "Emmitsburg",
+    "region_or_state": "Maryland",
+    "country": "United States",
+    "latitude": 39.6978,
+    "longitude": -77.3228,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1975-09-14",
+    "approving_authority": "Pope Paul VI (First Native-Born US Saint Canonization)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Canonized by Pope Paul VI on September 14, 1975 as the first native-born citizen of the United States to be raised to sainthood; foundress of the Sisters of Charity of Saint Joseph and pioneer of the American Catholic parochial school system.",
+    "confidence_note_vi": "Được Đức Giáo hoàng Phaolô VI tuyên thánh ngày 14 tháng 9 năm 1975 là vị thánh tiên khởi sinh ra trên đất nước Hoa Kỳ; đấng sáng lập Dòng Nữ Tử Bác Ái Thánh Giuse và đặt nền móng cho hệ thống trường học Công giáo Hoa Kỳ."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sacred Bones and Tomb of Saint Elizabeth Ann Seton (Mother Seton)",
+      "relic_name_vi": "Hài Cốt và Lăng Mộ Thánh Nữ Elizabeth Ann Seton (Mẹ Seton)",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Altar of Relics inside the Basilica of the National Shrine of Saint Elizabeth Ann Seton"
+    }
+  ],
+  "historical_summary_en": "Saint Elizabeth Ann Bayley Seton (1774–1821), born in New York City into an aristocratic Episcopalian family, was a devoted wife, mother of five children, and social philanthropist. Following the early death of her husband William Magee Seton in Livorno, Italy, in 1803, Elizabeth was deeply moved by the living faith and Eucharistic devotion of Italian Catholic friends, leading to her reception into the Catholic Church at Saint Peter's Church in New York in 1805, facing total ostracism from family and society.\n\nIn 1809, invited by Bishop John Carroll of Baltimore, Mother Seton relocated to Emmitsburg, Maryland, where she founded the Sisters of Charity of Saint Joseph—the first congregation of religious sisters established in the United States. She opened Saint Joseph's Free Academy, pioneering the parochial Catholic school system in America.\n\nMother Seton lived a life centered upon the Real Presence of Jesus in the Blessed Sacrament and filial devotion to Our Lady. Dying of tuberculosis on January 4, 1821, at the age of forty-six, she left a flourishing spiritual legacy. On September 14, 1975, Pope Paul VI canonized her before a crowd of 100,000 pilgrims in Saint Peter's Square.",
+  "historical_summary_vi": "Thánh Nữ Elizabeth Ann Bayley Seton (1774–1821), sinh trưởng tại Thành phố New York trong một gia đình quý tộc Anh Giáo, là một người vợ tận tụy, người mẹ của 5 người con và là nhà từ thiện xã hội. Sau khi người chồng William Magee Seton qua đời sớm tại Livorno, Ý năm 1803, ngài đã được đánh động sâu xa bởi đức tin và lòng tôn sùng Thánh Thể của các gia đình Công giáo Ý, dẫn đến quyết định gia nhập Giáo hội Công giáo tại Nhà thờ Thánh Phêrô New York năm 1805 dù bị gia đình ruồng bỏ.\n\nNăm 1809, theo lời mời của Đức Giám mục John Carroll, Mẹ Seton chuyển về Emmitsburg, Maryland, nơi ngài sáng lập Dòng Nữ Tử Bác Ái Thánh Giuse—dòng nữ tiên khởi được thành lập trên đất Mỹ. Ngài đã mở trường Thánh Giuse miễn phí cho học sinh nghèo, đặt nền móng tiên phong cho toàn bộ hệ thống trường học Công giáo giáo xứ tại Hoa Kỳ.\n\nMẹ Seton sống đời thánh thiện đặt trung tâm nơi Bí Tích Thánh Thể và lòng yêu mến Đức Mẹ. Qua đời vì bệnh lao ngày 4 tháng 1 năm 1821 ở tuổi 46, ngài để lại một di sản tâm linh rực rỡ. Ngày 14 tháng 9 năm 1975, Đức Giáo hoàng Phaolô VI đã long trọng tuyên thánh cho ngài trước 100.000 tín hữu tại Quảng trường Thánh Phêrô.",
+  "scripture_reading": "Matthew 25:35-40",
+  "suggested_prayer_en": "Lord God, you blessed Saint Elizabeth Ann Seton with an ardent love for the Holy Eucharist and a courageous charity for the education of the young and the care of the poor. Grant that inspired by her example, we may serve Christ with joy in our neighbors and walk faithfully in the light of His Gospel. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa là Thiên Chúa chúng con, Chúa đã ban cho Thánh Nữ Elizabeth Ann Seton lòng yêu mến Thánh Thể nồng nàn và đức bác ái can trường trong việc giáo dục người trẻ và chăm sóc người nghèo khó. Xin cho chúng con noi gương sáng của ngài, biết hân hoan phụng sự Chúa Kitô nơi tha nhân và bước đi trung thành trong ánh sáng Tin Mừng của Chúa. Amen.",
+  "primary_sources": [
+    {
+      "label": "National Shrine of Saint Elizabeth Ann Seton Official Archives",
+      "url": "https://setonshrine.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Paul VI - Homily for the Canonization of Elizabeth Ann Bayley Seton (September 14, 1975)",
+      "url": "https://www.vatican.va/content/paul-vi/en/homilies/1975/documents/hf_p-vi_hom_19750914_seton.html",
+      "type": "vatican"
+    }
+  ]
+}

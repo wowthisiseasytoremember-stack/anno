@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_akita",
+  "category": "marian_apparition",
+  "name_en": "Sanctuary of Our Lady of Akita (Seitai Hoshikai)",
+  "name_vi": "Đền Thánh Đức Mẹ Akita (Dòng Nữ Tỳ Thánh Thể)",
+  "feast_day_association": "Feast of Our Lady of the Rosary (October 7) / September 15",
+  "location": {
+    "shrine_or_basilica": "Seitai Hoshikai (Handmaids of the Holy Eucharist Convent)",
+    "city": "Akita",
+    "region_or_state": "Akita Prefecture, Tohoku",
+    "country": "Japan",
+    "latitude": 39.7547,
+    "longitude": 140.1481,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1984-04-22",
+    "approving_authority": "Bishop John Shojiro Ito / Cardinal Joseph Ratzinger (CDF)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Officially approved by Bishop John Shojiro Ito of Niigata on Easter Sunday 1984 as authentic supernatural occurrences; confirmed as worthy of belief by Cardinal Joseph Ratzinger (Pope Benedict XVI) in 1988.",
+    "confidence_note_vi": "Được Đức Giám mục Gioan Shojiro Ito giáo phận Niigata chính thức công nhận vào Chúa Nhật Phục Sinh năm 1984; Đức Hồng y Joseph Ratzinger (Bộ Giáo Lý Đức Tin) xác nhận đáng tin cậy vào năm 1988."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous Weeping Katsura-Wood Statue of Our Lady of All Nations",
+      "relic_name_vi": "Tượng Gỗ Katsura Chảy Máu và Nước Mắt của Đức Mẹ Mọi Dân Tộc",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Main Chapel of the Handmaids of the Holy Eucharist, Yuzawadai, Akita"
+    }
+  ],
+  "historical_summary_en": "Between 1973 and 1981, at the convent of the Handmaids of the Holy Eucharist in Yuzawadai, Akita, extraordinary mystical phenomena occurred surrounding Sister Agnes Katsuko Sasagawa, a deaf religious sister. On June 12, 1973, Sister Agnes witnessed brilliant rays of light emanating from the tabernacle, followed by the appearance of a cross-shaped wound upon her left palm that bled profusely on Thursdays and Fridays.\n\nOn July 6, 1973, a three-foot wooden statue of Our Lady carved from Katsura wood began speaking to Sister Agnes, promising the restoration of her hearing (which occurred miraculously in 1982) and conveying urgent messages calling for prayer, penance, and Eucharistic reparation. Between 1975 and 1981, the wooden statue wept human tears and perspired a sweet-scented fluid on 101 separate occasions before hundreds of witnesses, including the local ordinary, Bishop John Shojiro Ito.\n\nForensic investigations conducted by Professor Sagisaka of the Department of Legal Medicine at Akita University and the Gifu University School of Medicine conclusively established that the tears and blood were genuine human fluids belonging to blood types AB, B, and O. The messages warned of severe global trials and divisions within the Church while promising that the Rosary and the Sign of the Cross would remain unconquerable shields of protection.",
+  "historical_summary_vi": "Từ năm 1973 đến 1981, tại tu viện Dòng Nữ Tỳ Thánh Thể ở Yuzawadai, Akita, những hiện tượng siêu nhiên phi thường đã diễn ra xung quanh Nữ tu Agnes Katsuko Sasagawa, một nữ tu bị điếc hoàn toàn. Ngày 12 tháng 6 năm 1973, Sơ Agnes nhìn thấy ánh sáng chói lọi phát ra từ nhà tạm, và sau đó xuất hiện vết thương hình thánh giá rỉ máu nơi lòng bàn tay trái vào các ngày thứ Năm và thứ Sáu.\n\nNgày 6 tháng 7 năm 1973, pho tượng Đức Mẹ tạc bằng gỗ Katsura cao khoảng 90cm bắt đầu cất tiếng nói với Sơ Agnes, hứa sẽ chữa lành đôi tai cho sơ (phép lạ phục hồi thính giác đã xảy ra năm 1982) và truyền ban các sứ điệp khẩn thiết kêu gọi cầu nguyện, đền tội và tôn sùng Thánh Thể. Từ năm 1975 đến 1981, pho tượng gỗ đã 101 lần chảy nước mắt và toát ra mồ hôi thơm ngát trước sự chứng kiến của hàng trăm người, bao gồm chính Đức Giám mục Gioan Shojiro Ito.\n\nCác cuộc phân tích pháp y của Giáo sư Sagisaka thuộc Khoa Pháp Y Đại học Akita và Đại học Gifu đã chứng minh không thể chối cãi rằng các chất dịch và máu chảy ra từ tượng gỗ là máu và nước mắt của con người (thuộc nhóm máu AB, B và O). Sứ điệp Akita cảnh báo về những thử thách nặng nề và sự chia rẽ trong Giáo hội, đồng thời khẳng định chuỗi Mân Côi và Dấu Thánh Giá sẽ là lá chắn vững bền bảo vệ các tín hữu.",
+  "scripture_reading": "Joel 2:12-13",
+  "suggested_prayer_en": "O Most Sacred Heart of Jesus, truly present in the Holy Eucharist, we offer you our prayers, actions, and sufferings in union with the sorrowful and Immaculate Heart of Mary. Weep with us over the sins of the world, heal our spiritual deafness, and make us faithful instruments of reconciliation and peace. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Tâm Chúa Giêsu, Đấng đang hiện diện thực sự trong Bí Tích Thánh Thể, chúng con xin dâng lên Chúa mọi kinh nguyện, việc làm và những hy sinh thống khổ của chúng con, hợp cùng Trái Tim Vô Nhiễm Sầu Bi của Mẹ Maria. Xin Mẹ đoái thương những giọt nước mắt sám hối của chúng con, chữa lành sự điếc lác tâm linh và biến đổi chúng con thành những khí cụ bình an, hòa giải của Chúa. Amen.",
+  "primary_sources": [
+    {
+      "label": "Diocese of Niigata - Pastoral Letter of Bishop John Shojiro Ito on the Apparitions of Akita (1984)",
+      "url": "https://catholicnewsagency.com/resource/55415/our-lady-of-akita",
+      "type": "vatican"
+    },
+    {
+      "label": "Seitai Hoshikai Official Sanctuary & Medical Examination Dossier",
+      "url": "https://seitaihoshikai.com/us/",
+      "type": "academic"
+    }
+  ]
+}

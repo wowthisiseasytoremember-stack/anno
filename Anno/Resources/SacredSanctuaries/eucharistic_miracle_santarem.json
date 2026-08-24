@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "eucharistic_miracle_santarem",
+  "category": "eucharistic_miracle",
+  "name_en": "Church of the Holy Miracle (Eucharistic Miracle of Santarém)",
+  "name_vi": "Đền Thờ Phép Lạ Thánh Thể Santarém",
+  "feast_day_association": "Feast of the Eucharistic Miracle of Santarém (Second Sunday of April)",
+  "location": {
+    "shrine_or_basilica": "Igreja do Santíssimo Milagre (Church of Saint Stephen)",
+    "city": "Santarém",
+    "region_or_state": "Ribatejo",
+    "country": "Portugal",
+    "latitude": 39.2361,
+    "longitude": -8.6811,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1266-02-16",
+    "approving_authority": "Diocese of Lisbon / Confirmed by Papal Bulls of Pius IV, Gregory XIV, and Urban VIII",
+    "confidence": "confirmed",
+    "confidence_note_en": "Canonical investigation conducted in 1266; continuously approved by multiple papal bulls and granted plenary indulgences; Host remains permanently preserved in crystal monstrance.",
+    "confidence_note_vi": "Được Tòa Giám mục điều tra công nhận năm 1266; được nhiều Đức Giáo hoàng (Piô IV, Grêgôriô XIV, Urbanô VIII) ban Tông sắc công nhận và ban ơn toàn xá; Bánh Thánh rỉ máu được bảo tồn nguyên vẹn trong hào quang pha lê."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Bleeding Consecrated Host of Santarém",
+      "relic_name_vi": "Bánh Thánh Thể Rỉ Máu Phép Lạ tại Santarém",
+      "relic_type": "1st_class_blood",
+      "reliquary_location": "Eucharistic Throne above the High Altar of the Church of the Holy Miracle"
+    }
+  ],
+  "historical_summary_en": "On February 16, 1247 (or 1266 according to alternate parish records), a distressed woman in Santarém, Portugal, suffering from her husband's infidelity, consulted a local sorceress who promised a love potion on the condition that the woman bring her a consecrated Host. The woman attended Mass at the Church of Saint Stephen, received Holy Communion on her tongue, and stealthily removed the sacred Host, wrapping it in her headscarf.\n\nAs she walked toward the sorceress's dwelling, fresh human blood began to flow profusely from the veil, dripping onto the street and alarming passersby who thought she was severely wounded. Panicked, the woman ran home, hid the bleeding Host inside a wooden cedar trunk in her bedroom, and went to bed. In the middle of the night, both husband and wife were awakened by brilliant beams of blinding light emanating from the chest, illuminating the entire room with celestial radiance.\n\nOvercome with repentance, the woman confessed her sacrilege to her husband, and both knelt in nocturnal adoration. The next morning, the parish priest and a vast crowd processed to the home, reverently returning the bleeding Host to the church. The Host was encased in beeswax, which years later miraculously transformed into a clear crystal pyx, remaining visible to pilgrims today.",
+  "historical_summary_vi": "Ngày 16 tháng 2 năm 1247 (hoặc 1266 theo tài liệu giáo xứ), một phụ nữ đau khổ tại Santarém, Bồ Đào Nha vì chồng ngoại tình đã đến tìm một bà thầy bói. Bà này hứa sẽ làm bùa yêu với điều kiện người phụ nữ phải đem về một Bánh Thánh đã truyền phép. Người phụ nữ đi lễ tại nhà thờ Thánh Stephen, rước Mình Thánh Chúa trên lưỡi rồi lén lấy ra giấu vào chiếc khăn trùm đầu.\n\nTrên đường mang đến nhà phù thủy, máu tươi bỗng từ chiếc khăn tuôn chảy xối xả rơi xuống đường khiến người đi đường tưởng bà bị thương nặng. Hoảng loạn, người phụ nữ chạy về nhà giấu bọc Bánh Thánh vào một chiếc rương gỗ trong phòng ngủ. Nửa đêm, hai vợ chồng bỗng thức giấc bởi những luồng ánh sáng rực rỡ chói lòa phát ra từ chiếc rương gỗ, soi sáng cả căn phòng như ban ngày.\n\nTrong nước mắt sám hối nghẹn ngào, người vợ đã thú nhận tội phạm sự thánh với chồng và cả hai quỳ gối thờ lạy thâu đêm. Sáng hôm sau, Cha xứ cùng đông đảo giáo dân đã rước Bánh Thánh đang chảy máu về nhà thờ trong trọng thể. Bánh Thánh ban đầu được niêm phong trong sáp ong, nhưng sau đó sáp đã tự biến đổi thành chiếc bình pha lê trong suốt lưu giữ giọt Máu Thánh cho đến ngày nay.",
+  "scripture_reading": "Hebrews 10:29-31",
+  "suggested_prayer_en": "O Most Precious Blood of Jesus, poured out for the redemption of the world and miraculously revealed at Santarém, forgive our irreverence, coldness, and sacrileges against the Blessed Sacrament. Make us ardent adorers of your Eucharistic presence and grant peace and fidelity to all Christian marriages. Amen.",
+  "suggested_prayer_vi": "Lạy Máu Châu Báu Chúa Giêsu, đã đổ ra để cứu chuộc trần gian và tỏ hiện kỳ diệu tại Santarém, xin tha thứ cho sự bất kính, nguội lạnh và những xúc phạm của chúng con đối với Bí Tích Thánh Thể. Xin biến đổi chúng con thành những người tôn sùng Thánh Thể sốt sắng và gìn giữ sự chung thủy, bình an trong mọi gia đình Kitô giáo. Amen.",
+  "primary_sources": [
+    {
+      "label": "Diocese of Santarém - Historical Documentation of the Church of the Holy Miracle",
+      "url": "https://www.diocesesantarem.pt/",
+      "type": "academic"
+    },
+    {
+      "label": "Catholic Encyclopedia - Eucharistic Miracles of Europe",
+      "url": "https://www.newadvent.org/cathen/05584a.htm",
+      "type": "encyclopedia"
+    }
+  ]
+}

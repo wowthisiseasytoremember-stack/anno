@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_aparecida",
+  "category": "marian_apparition",
+  "name_en": "National Sanctuary of Our Lady of Aparecida",
+  "name_vi": "Vương Cung Thánh Đường Đức Mẹ Aparecida",
+  "feast_day_association": "Feast of Our Lady of Aparecida (October 12)",
+  "location": {
+    "shrine_or_basilica": "Santuário Nacional de Nossa Senhora da Conceição Aparecida",
+    "city": "Aparecida",
+    "region_or_state": "São Paulo",
+    "country": "Brazil",
+    "latitude": -22.8497,
+    "longitude": -45.2338,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1904-09-08",
+    "approving_authority": "Pope Saint Pius X (Papal Decree) / Consecrated by Pope John Paul II (1980)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Papal coronation granted by Pope Pius X in 1904; declared Principal Patroness of Brazil by Pope Pius XI in 1930; Basilica consecrated in person by Pope John Paul II on July 4, 1980.",
+    "confidence_note_vi": "Được Đức Thánh Cha Piô X ban sắc lệnh đội triều thiên năm 1904; Đức Giáo hoàng Piô XI tuyên phong là Đấng Bảo Trợ Nước Brazil năm 1930; Vương Cung Thánh Đường được chính Đức Gioan Phaolô II cung hiến ngày 4 tháng 7 năm 1980."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous Terracotta Statue of the Immaculate Conception",
+      "relic_name_vi": "Tượng Phép Lạ Mẹ Vô Nhiễm Nguyên Tội Bằng Đất Nung",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Niche of Gold and Bulletproof Crystal in the Main Transept"
+    }
+  ],
+  "historical_summary_en": "In October 1717, three impoverished fishermen—Domingos Garcia, João Alves, and Filipe Pedroso—were tasked with procuring fish from the Paraíba do Sul river for the banquet of the Count of Assumar, Governor of São Paulo. After hours of fruitless casting, João Alves cast his net and retrieved the headless terracotta body of a small statue of Our Lady of the Immaculate Conception. Casting his net a second time, he pulled up the missing head, which perfectly fit the torso.\n\nUpon reassembling the small blackened statue, the fishermen cast their nets once more and were overwhelmed by an unprecedented catch that threatened to sink their boats. The devotion grew rapidly in Pedroso's family chapel as candles miraculously rekindled themselves during prayers and enslaved people praying before the image experienced liberation from chains.\n\nThe Basilica of Aparecida, constructed between 1955 and 1980, is the second-largest Catholic church in the world after Saint Peter's Basilica in Rome, hosting over twelve million pilgrims each year and serving as the vibrant spiritual heart of Latin American Catholicism.",
+  "historical_summary_vi": "Vào tháng 10 năm 1717, ba người ngư dân nghèo—Domingos Garcia, João Alves và Filipe Pedroso—được giao nhiệm vụ đánh bắt cá trên sông Paraíba do Sul để chuẩn bị yến tiệc đón Bá tước Assumar, Thống đốc vùng São Paulo. Sau nhiều giờ kéo lưới không được một con cá nào, João Alves quăng mẻ lưới mới và vớt được phần thân bằng đất nung bị mất đầu của một bức tượng Đức Mẹ Vô Nhiễm. Quăng lưới lần thứ hai, ông vớt được phần đầu tượng và khi ghép lại thì vừa khít hoàn hảo.\n\nSau khi kính cẩn hợp nhất pho tượng nhỏ sẫm màu, các ngư dân lại buông lưới và lập tức kéo lên được lượng cá nhiều đến mức thuyền suýt chìm. Lòng tôn sùng lan tỏa nhanh chóng tại nguyện đường gia đình Pedroso với những ngọn nến tự bừng sáng trong lúc cầu nguyện và những người nô lệ được giải thoát khỏi xiềng xích khi quỳ gối khẩn cầu trước tượng Mẹ.\n\nVương Cung Thánh Đường Aparecida, được xây dựng từ năm 1955 đến 1980, là thánh đường Công giáo lớn thứ hai trên thế giới chỉ sau Đền Thờ Thánh Phêrô tại Roma, đón tiếp hơn 12 triệu khách hành hương mỗi năm và là trái tim tâm linh rực rỡ của Giáo hội Mỹ Latinh.",
+  "scripture_reading": "Luke 5:4-7",
+  "suggested_prayer_en": "O Lady Aparecida, Queen and Patroness of Brazil, who revealed your maternal favor to humble fishermen in their hour of need, cast your merciful eyes upon all who struggle in poverty, affliction, or spiritual darkness. Bring abundance to our spiritual nets and draw all nations into the unity of your Son's Kingdom. Through Jesus Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ Aparecida, Nữ Vương và Đấng Bảo Trợ nước Brazil, Mẹ đã tỏ bày tình mẫu tử dịu hiền cho những người dân chài nghèo khổ trong lúc gian nan, xin đoái nhìn đến tất cả những ai đang chịu thử thách vì nghèo đói, đau thương hay tăm tối linh hồn. Xin làm cho mẻ lưới thiêng liêng của chúng con được đầy tràn ân sủng và dẫn đưa muôn dân về trong Nước Con Chí Thánh của Mẹ. Nhờ Đức Giêsu Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "National Sanctuary of Aparecida Official Archival History",
+      "url": "https://www.a12.com/santuario",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Francis - Homily at the Basilica of the Shrine of Our Lady of Aparecida (July 24, 2013)",
+      "url": "https://www.vatican.va/content/francesco/en/homilies/2013/documents/papa-francesco_20130724_gmg-omelia-aparecida.html",
+      "type": "vatican"
+    }
+  ]
+}

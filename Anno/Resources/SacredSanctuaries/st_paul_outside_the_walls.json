@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_paul_outside_the_walls",
+  "category": "apostolic_tomb",
+  "name_en": "Papal Basilica of Saint Paul Outside the Walls",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Phaolô Ngoại Thành",
+  "feast_day_association": "Solemnity of Saints Peter and Paul (June 29) / Conversion of Saint Paul (January 25)",
+  "location": {
+    "shrine_or_basilica": "Basilica Papale di San Paolo fuori le Mura",
+    "city": "Rome",
+    "region_or_state": "Lazio",
+    "country": "Italy",
+    "latitude": 41.8586,
+    "longitude": 12.4764,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1854-12-10",
+    "approving_authority": "Pope Pius IX / Consecrated by Pope Siricius (390 AD)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Tomb inscription 'PAULO APOSTOLO MART...' dating to the 4th century confirmed under the Papal Altar; in 2009, Pope Benedict XVI announced carbon-14 dating confirming the interior tomb remains date to the 1st/2nd century.",
+    "confidence_note_vi": "Bia mộ khắc dòng chữ thế kỷ thứ 4 'PAULO APOSTOLO MART...' được xác nhận dưới Bàn Thờ Giáo Hoàng; năm 2009, Đức Giáo hoàng Biển Đức XVI công bố kết quả giám định carbon-14 xác nhận hài cốt trong mộ có niên đại từ thế kỷ thứ nhất/thứ hai."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sarcophagus and Relics of Saint Paul the Apostle and His Prison Chains",
+      "relic_name_vi": "Quan Tài Hài Cốt Thánh Phaolô Tông Đồ và Dây Xích Tù Ngục",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Directly beneath the Papal High Altar Confessio"
+    }
+  ],
+  "historical_summary_en": "Saint Paul of Tarsus, the 'Apostle to the Gentiles,' was beheaded around AD 64-67 along the Via Laurentina at *Aquae Salviae* (modern Tre Fontane) during the Neronian persecution. As a Roman citizen, Paul was spared crucifixion and suffered decapitation by sword. A devout Roman matron named Lucina retrieved his body and interred it in her family estate alongside the Via Ostiense, two miles outside the Aurelian Walls of Rome.\n\nEmperor Constantine erected the first basilica over the tomb in 324 AD, later expanded by Emperors Valentinian II, Theodosius I, and Arcadius into a magnificent five-aisled basilica. Although a catastrophic fire destroyed much of the medieval basilica in 1823, it was faithfully reconstructed by contributions from Catholic and world leaders, rededicated by Pope Pius IX in 1854.\n\nIn December 2006, Vatican archaeologists excavated a massive marble sarcophagus beneath the papal altar bearing the 4th-century inscription *PAULO APOSTOLO MART...* ('To Paul, Apostle, Martyr'). Scientific probes revealed fragments of bone, precious incense, and linen interwoven with pure gold lamé thread.",
+  "historical_summary_vi": "Thánh Phaolô thành Tarsô, 'Tông Đồ Dân Ngoại', đã chịu trảm quyết vì đạo vào khoảng năm 64-67 sau Công Nguyên tại *Aquae Salviae* (nay là Tre Fontane) dọc đường Via Laurentina dưới thời bạo chúa Nero. Vì mang quyền công dân La Mã, ngài không bị đóng đinh mà chịu tử đạo bằng gươm chém. Một phụ nữ quý tộc đạo đức tên là Lucina đã thu nhận thi hài ngài và an táng trong khu đất gia đình bên đường Via Ostiense, cách tường thành Roma hai dặm.\n\nHoàng đế Constantine đã dựng ngôi thánh đường đầu tiên trên mộ ngài vào năm 324, sau đó được các Hoàng đế Valentinian II, Theodosius I và Arcadius mở rộng thành đại thánh đường nguy nga gồm 5 gian. Dù một trận hỏa hoạn lớn thiêu rụi phần lớn ngôi đền năm 1823, thánh đường đã được tái thiết hoàn hảo nhờ sự đóng góp của giáo hội toàn cầu và được Đức Piô IX thánh hiến năm 1854.\n\nTháng 12 năm 2006, các nhà khảo cổ Vatican đã khai quật khối quách đá cẩm thạch khổng lồ nằm ngay dưới bàn thờ chính mang dòng chữ khắc thế kỷ thứ 4: *PAULO APOSTOLO MART...* ('Kính dâng Phaolô, Tông đồ, Tử đạo'). Các mẫu xét nghiệm khoa học đã tìm thấy các mảnh xương thánh, hương trầm quý và sợi vải lanh dệt chỉ vàng ròng.",
+  "scripture_reading": "2 Timothy 4:7-8",
+  "suggested_prayer_en": "O Great Apostle Saint Paul, Teacher of the Gentiles and Herald of Christ, you ran the race and kept the faith unto the shedding of your blood. Ignite in our hearts a burning zeal for the Gospel; teach us to glory only in the Cross of our Lord Jesus Christ, and make us fearless witnesses to His Truth. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Phaolô Tông Đồ vinh hiển, Thầy Dạy Dân Ngoại và là Sứ Giả của Chúa Kitô, ngài đã chiến đấu trong trận chiến cao đẹp, đã chạy hết chặng đường và giữ vững đức tin cho đến giọt máu cuối cùng. Xin thắp lên trong tâm hồn chúng con ngọn lửa nhiệt thành truyền giáo; dạy chúng con chỉ tự hào nơi Thập Giá Chúa Giêsu Kitô và trở nên những chứng nhân can trường cho Chân Lý. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope Benedict XVI - Homily for the Conclusion of the Pauline Year (June 28, 2009)",
+      "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2009/documents/hf_ben-xvi_hom_20090628_chius-anno-paolino.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Papal Basilica of Saint Paul Outside the Walls Official Archaeological Documentation",
+      "url": "https://www.basilicasanpaolo.org/",
+      "type": "academic"
+    }
+  ]
+}

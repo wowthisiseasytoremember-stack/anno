@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_lourdes",
+  "category": "marian_apparition",
+  "name_en": "Sanctuary of Our Lady of Lourdes",
+  "name_vi": "Đền Thánh Đức Mẹ Lộ Đức",
+  "feast_day_association": "Feast of Our Lady of Lourdes (February 11)",
+  "location": {
+    "shrine_or_basilica": "Sanctuaire de Notre-Dame de Lourdes (Grotte de Massabielle)",
+    "city": "Lourdes",
+    "region_or_state": "Hautes-Pyrénées",
+    "country": "France",
+    "latitude": 43.0975,
+    "longitude": -0.0581,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1862-01-18",
+    "approving_authority": "Bishop Bertrand-Sévère Laurence / Pope Pius IX",
+    "confidence": "confirmed",
+    "confidence_note_en": "Declared authentic by Bishop Laurence of Tarbes on January 18, 1862, confirming 18 apparitions in 1858; recognized by the Holy See with 70 medically certified miraculous healings validated by the Lourdes International Medical Bureau.",
+    "confidence_note_vi": "Được Đức Giám mục Bertrand-Sévère Laurence giáo phận Tarbes công nhận chính thức ngày 18 tháng 1 năm 1862, xác thực 18 lần hiện ra năm 1858; Tòa Thánh đã phê chuẩn và công nhận 70 phép lạ chữa lành y khoa được Hội đồng Y khoa Quốc tế Lộ Đức thẩm định."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous Spring of Massabielle and Grotto of Apparitions",
+      "relic_name_vi": "Suối Nguồn Phép Lạ Massabielle và Hang Đá Hiện Ra",
+      "relic_type": "apparition_site",
+      "reliquary_location": "Grotte de Massabielle beneath the Basilica of the Immaculate Conception"
+    }
+  ],
+  "historical_summary_en": "Between February 11 and July 16, 1858, the Blessed Virgin Mary appeared eighteen times to fourteen-year-old Bernadette Soubirous at the rock grotto of Massabielle on the banks of the Gave de Pau river. During the ninth apparition on February 25, the Lady instructed Bernadette to dig into the mud and drink from the water that emerged, uncovering a subterranean freshwater spring that flows continuously to this day with documented therapeutic and miraculous properties.\n\nOn March 25, 1858, the Feast of the Annunciation, the Lady revealed her heavenly identity in the local Bigourdan Occitan dialect: *'Que soi era Immaculada Concepcion'* ('I am the Immaculate Conception'). This self-revelation came merely four years after Pope Pius IX defined the dogma of the Immaculate Conception in the Apostolic Constitution *Ineffabilis Deus*, providing a divine seal through an unlettered peasant girl who had never encountered the theological term.\n\nThe Sanctuary of Lourdes has developed into the foremost Marian healing shrine on earth, receiving millions of sick and disabled pilgrims annually. The Lourdes Medical Bureau, operating under stringent empirical criteria, investigates claims of physical healing, verifying complete, spontaneous, and scientifically inexplicable cures.",
+  "historical_summary_vi": "Từ ngày 11 tháng 2 đến ngày 16 tháng 7 năm 1858, Đức Trinh Nữ Maria đã hiện ra 18 lần với cô thiếu nữ 14 tuổi Bernadette Soubirous tại hang đá Massabielle bên bờ sông Gave de Pau. Trong lần hiện ra thứ 9 vào ngày 25 tháng 2, Đức Mẹ dạy Bernadette cào đất uống nước bùn, từ đó làm tuôn trào dòng suối nước mát lành liên lỉ cho đến tận ngày nay, mang lại vô số ơn chữa lành thể xác và tâm linh.\n\nNgày 25 tháng 3 năm 1858, vào ngày Lễ Truyền Tin, Đức Mẹ đã mạc khải danh tánh của Mẹ bằng tiếng địa phương Gascon: *'Que soi era Immaculada Concepcion'* ('Ta là Đấng Vô Nhiễm Nguyên Tội'). Lời mạc khải này diễn ra chỉ bốn năm sau khi Đức Giáo hoàng Piô IX công bố tín điều Vô Nhiễm Nguyên Tội qua Tông sắc *Ineffabilis Deus*, trở thành dấu ấn siêu nhiên xác nhận tín điều qua một thiếu nữ mộc mạc chưa từng học thần học.\n\nĐền Thánh Lộ Đức đã trở thành trung tâm hành hương chữa lành lớn nhất thế giới, đón nhận hàng triệu bệnh nhân mỗi năm. Văn phòng Y khoa Quốc tế Lộ Đức áp dụng các tiêu chuẩn khoa học thực nghiệm khắt khe nhất để kiểm chứng các phép lạ chữa lành tức thì, dứt điểm và vượt quá quy luật tự nhiên.",
+  "scripture_reading": "Luke 1:28",
+  "suggested_prayer_en": "O Ever-Immaculate Virgin Mary, Mother of Mercy and Health of the Sick, you chose the humble grotto of Lourdes to manifest the glory of your Conception and the healing grace of your Son. Look upon our infirmities of body and soul; wash us in the cleansing waters of repentance, and obtain for us the strength to embrace the cross with joyful fidelity. Through Jesus Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Trinh Nữ Maria Vô Nhiễm Nguyên Tội, Mẹ Lòng Thương Xót và là Đấng Cứu Giúp các bệnh nhân, Mẹ đã chọn hang đá khiêm hạ Lộ Đức để tỏ bày vinh quang và ân sủng chữa lành của Con Mẹ. Xin đoái nhìn đến những yếu đuối tật nguyền nơi thân xác và tâm hồn chúng con; xin thanh tẩy chúng con trong dòng nước sám hối và ban cho chúng con lòng can đảm vác thánh giá theo Chúa trọn đời. Nhờ Đức Giêsu Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Lourdes Medical Bureau (Bureau des Constatations Médicales) Official Archives",
+      "url": "https://www.lourdes-france.org/en/miraculous-cures/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Pius XII - Encyclical Le Pèlerinage de Lourdes (1957)",
+      "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_02071957_le-pelerinage-de-lourdes.html",
+      "type": "vatican"
+    }
+  ]
+}

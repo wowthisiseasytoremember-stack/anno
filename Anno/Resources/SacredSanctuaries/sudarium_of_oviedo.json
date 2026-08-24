@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "sudarium_of_oviedo",
+  "category": "passion_relic",
+  "name_en": "Holy Chamber of Oviedo Cathedral (The Sudarium of Oviedo)",
+  "name_vi": "Căn Phòng Thánh Nhà Thờ Chính Tòa Oviedo (Khăn Trùm Đầu Chúa Giêsu)",
+  "feast_day_association": "Feast of the Exaltation of the Holy Cross (September 14) / Good Friday",
+  "location": {
+    "shrine_or_basilica": "Cámara Santa de la Catedral de San Salvador de Oviedo",
+    "city": "Oviedo",
+    "region_or_state": "Asturias",
+    "country": "Spain",
+    "latitude": 43.3625,
+    "longitude": -5.8431,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1075-03-14",
+    "approving_authority": "King Alfonso VI / Bishop Pelagius of Oviedo / Spanish Center for Sindonology (EDICES)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Preserved in the 9th-century UNESCO Cámara Santa inside the Arca Santa; officially opened in 1075 in the presence of King Alfonso VI and El Cid; comprehensive biometric and forensic studies by EDICES confirm exact bloodstain geometry matching the Turin Shroud.",
+    "confidence_note_vi": "Được lưu giữ trong Căn Phòng Thánh Cámara Santa thế kỷ thứ 9 (Di sản UNESCO); mở rương Arca Santa năm 1075 trước sự hiện diện của Vua Alfonso VI; các nghiên cứu pháp y của trung tâm EDICES xác nhận hình học vết máu trùng khớp hoàn hảo với Khăn Liệm Turin."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Holy Face Cloth of Christ (El Sudario de Oviedo)",
+      "relic_name_vi": "Khăn Liệm Trùm Mặt Chúa Giêsu (El Sudario de Oviedo)",
+      "relic_type": "miraculous_textile",
+      "reliquary_location": "The Arca Santa inside the Cámara Santa, Cathedral of Oviedo"
+    }
+  ],
+  "historical_summary_en": "The Sudarium of Oviedo (*El Sudario de Oviedo*) is an 84 x 53 cm linen cloth mentioned in Saint John's Gospel (*John 20:7*): *'the cloth that had been on Jesus' head, not lying with the linen wrappings but rolled up in a place by itself.'* According to Jewish burial customs, when a person died a violent bloody death, a face cloth was immediately wrapped around the head to cover the disfigured face and prevent blood from escaping before the body was moved from the cross to the tomb.\n\nHistorical records trace the Sudarium from Jerusalem in 614 AD (fleeing the Persian invasion of Chosroes II) across North Africa to Seville, Toledo, and finally into the northern mountains of Asturias in 812 AD to escape Islamic conquest. It was deposited in the pre-Romanesque *Cámara Santa* within the *Arca Santa* oak chest encased in silver reliefs.\n\nExtensive forensic investigations conducted since 1989 by the Spanish Center for Sindonology (EDICES) under Dr. José Delfín Villalaín and Dr. Mark Guscin demonstrated: (1) The blood is human blood belonging to type AB; (2) The stains contain six parts pulmonary edema fluid and one part blood, indicating asphyxiation from crucifixion; (3) When overlaying the Sudarium onto the face of the Shroud of Turin, there are over 70 points of exact geometric correspondence in nasal, facial, and beard bloodstains.",
+  "historical_summary_vi": "Khăn Trùm Đầu Oviedo (*El Sudario de Oviedo*) là tấm khăn vải lanh kích thước 84 x 53 cm được ghi nhận trong Phúc Âm Thánh Gioan (*Gioan 20:7*): *'khăn che đầu Người không để lẫn với băng vải nhưng cuộn lại để riêng một nơi.'* Theo tập tục mai táng của người Do Thái, khi một người qua đời vì bạo lực đẫm máu, một chiếc khăn trùm mặt được dùng ngay để che khuôn mặt biến dạng và thấm máu trước khi hạ xác từ thập giá xuống huyệt mộ.\n\nTài liệu lịch sử ghi nhận Khăn Trùm Đầu được đưa khỏi Jerusalem năm 614 khi quân Ba Tư xâm lược, chuyển qua Bắc Phi tới Seville, Toledo và cuối cùng được đưa lên vùng núi Asturias năm 812 để tránh cuộc xâm lăng Hồi giáo, an vị trong Căn Phòng Thánh *Cámara Santa* bên trong chiếc rương bạc *Arca Santa*.\n\nCác cuộc kiểm nghiệm pháp y quy mô của Trung tâm Khăn Liệm Tây Ban Nha (EDICES) từ năm 1989 đã chứng minh: (1) Máu trên khăn là máu người thuộc nhóm AB; (2) Tỷ lệ chất dịch gồm 6 phần dịch phù phổi và 1 phần máu, minh chứng nạn nhân chết vì ngạt thở do bị treo trên thập giá; (3) Khi đối chiếu Khăn Oviedo với khuôn mặt trên Khăn Liệm Turin, có hơn 70 điểm trùng khớp hình học tuyệt đối về vết máu ở sống mũi, gò má và chòm râu.",
+  "scripture_reading": "John 20:6-7",
+  "suggested_prayer_en": "O Lord Jesus Christ, whose Holy Face was covered with tears and blood as you died upon the Tree of the Cross, imprint upon our minds the remembrance of your suffering. Cleanse our consciences from all dead works and grant that, gazing upon the relics of your Passion, we may live entirely for You who died and rose for us. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Kitô, Đấng đã để khuôn mặt thánh thiện bị bao phủ bởi máu và nước mắt khi chết trên Cây Thập Giá, xin khắc sâu vào tâm trí chúng con hình ảnh Cuộc Khổ Nạn đau thương của Chúa. Xin thanh tẩy lương tâm chúng con khỏi mọi vết nhơ tội lỗi và cho chúng con khi chiêm ngắm thánh tích của Chúa biết hiến dâng trọn cuộc đời cho Đấng đã chết và phục sinh vì chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Spanish Center for Sindonology (EDICES) - Forensic and Comparative Studies of the Sudarium of Oviedo",
+      "url": "https://www.linteum.com/sudarium-of-oviedo.php",
+      "type": "academic"
+    },
+    {
+      "label": "Archdiocese of Oviedo - Historical Archive of the Cámara Santa",
+      "url": "https://catedraldeoviedo.com/camara-santa/",
+      "type": "academic"
+    }
+  ]
+}

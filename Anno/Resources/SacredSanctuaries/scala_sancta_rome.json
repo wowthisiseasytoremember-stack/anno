@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "scala_sancta_rome",
+  "category": "passion_relic",
+  "name_en": "Pontifical Sanctuary of the Holy Stairs (Scala Sancta)",
+  "name_vi": "Đền Thánh Các Bậc Thang Thánh (Scala Sancta)",
+  "feast_day_association": "Holy Week (Good Friday) / Exaltation of the Holy Cross (September 14)",
+  "location": {
+    "shrine_or_basilica": "Pontificio Santuario della Scala Santa e Sancta Sanctorum",
+    "city": "Rome",
+    "region_or_state": "Lazio",
+    "country": "Italy",
+    "latitude": 41.8864,
+    "longitude": 12.5064,
+    "precision": "holy_stairs"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1589-01-01",
+    "approving_authority": "Pope Sixtus V (Architectural Enshrinement) / Pope Leo XIII / Pope Pius IX",
+    "confidence": "confirmed",
+    "confidence_note_en": "Brought from Jerusalem to Rome by Empress Saint Helena in 326 AD; enshrined by Pope Sixtus V in 1589; in 2019, the wooden covers were removed for the first time in 300 years, revealing deep hollows worn by millions of pilgrims and original bloodstains under protective glass.",
+    "confidence_note_vi": "Được Thánh Nữ Hoàng hậu Helena rước từ Jerusalem về Roma năm 326; Đức Giáo hoàng Sixtus V cho xây dựng đền thờ năm 1589; năm 2019, lớp ốp gỗ được tháo dỡ lần đầu sau 300 năm để lộ các bậc đá mòn sâu bởi hàng triệu bước chân hành hương cùng vết máu thánh được bảo vệ bằng kính."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Twenty-Eight White Marble Steps of the Praetorium of Pontius Pilate",
+      "relic_name_vi": "Hai Mươi Tám Bậc Thang Cẩm Thạch Trắng Dinh Tổng Trấn Pontius Pilate",
+      "relic_type": "apparition_site",
+      "reliquary_location": "The Great Ascent leading to the Sancta Sanctorum Chapel"
+    }
+  ],
+  "historical_summary_en": "The *Scala Sancta* (Holy Stairs) consists of twenty-eight white Tyrian marble steps that formed the grand staircase of the Praetorium of Pontius Pilate in Jerusalem, which Jesus Christ climbed multiple times during His trial and condemnation on Good Friday (*John 18:28–19:16*). According to historical tradition, Empress Saint Helena transported these sacred steps to Rome in 326 AD, placing them adjacent to the Lateran Palace.\n\nIn 1589, Pope Sixtus V commissioned architect Domenico Fontana to construct the present monumental sanctuary opposite the Archbasilica of Saint John Lateran. Because Christ's bleeding feet touched these marble stones, pilgrims ascend the twenty-eight steps exclusively on their knees in prayer and penance.\n\nIn 1723, Pope Innocent XIII encased the marble in thick walnut wood to protect the stone from wearing away. In 2019, during a historic restoration, the wooden covers were removed for sixty days, revealing the bare, deeply grooved marble worn by millions of barefoot and knee-ascending pilgrims over seventeen centuries, with brass-encased glass windows marking the spots where droplets of Christ's Precious Blood fell on Good Friday.",
+  "historical_summary_vi": "Bậc Thang Thánh (*Scala Sancta*) gồm 28 bậc đá cẩm thạch trắng Tyrian từng là cầu thang chính dẫn lên Dinh Tổng trấn Pontius Pilate tại Jerusalem, nơi Chúa Giêsu Kitô đã bước lên nhiều lần trong Cuộc Xử Án và Nhận Án Tử Hình vào ngày Thứ Sáu Tuần Thánh (*Gioan 18:28–19:16*). Theo truyền thống, Thánh Nữ Hoàng hậu Helena đã đưa các bậc thang thánh này về Roma năm 326, đặt cạnh Cung điện Lateran.\n\nNăm 1589, Đức Giáo hoàng Sixtus V đã giao cho kiến trúc sư Domenico Fontana xây dựng đền thánh nguy nga ngày nay đối diện Đại Vương Cung Thánh Đường Thánh Gioan Lateran. Vì bước chân đẫm máu của Chúa Giêsu đã in dấu trên những phiến đá này, các tín hữu hành hương chỉ được phép leo lên 28 bậc thang hoàn toàn bằng đầu gối trong tâm tình sám hối và cầu nguyện.\n\nNăm 1723, Đức Giáo hoàng Innocent XIII cho ốp các tấm gỗ óc chó để bảo vệ mặt đá. Năm 2019, trong đợt đại trùng tu lịch sử, lớp gỗ ốp được tháo dỡ trong 60 ngày để lộ những rãnh đá mòn sâu của hàng triệu tín hữu quỳ gối qua 17 thế kỷ, với các nắp đồng gắn kính bảo tồn những giọt Máu Thánh của Chúa rớt xuống năm xưa.",
+  "scripture_reading": "John 18:33-37",
+  "suggested_prayer_en": "Lord Jesus Christ, King of Kings, who ascended the stairs of Pilate's judgment seat in meekness and love to bear our condemnation, have mercy on us. As we ascend our daily trials on our knees in prayer, grant us the grace of deep contrition, pure humility, and eternal union with you in Heaven. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Kitô, Vua Muôn Vua, Đấng đã khiêm hạ bước lên những bậc thang của tòa án Philatô để gánh lấy bản án tử hình thay cho chúng con, xin thương xót chúng con. Khi chúng con quỳ gối đối diện với những gian nan thử thách của cuộc đời, xin ban cho chúng con lòng thống hối chân thành, đức khiêm nhường sâu sắc và ân sủng được kết hợp muôn đời với Chúa trên Thiên Quốc. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pontificio Santuario della Scala Santa Official Documentation & 2019 Restoration Reports",
+      "url": "https://www.scalasanta.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Vatican News - The Unveiling of the Bare Marble of the Scala Sancta (April 2019)",
+      "url": "https://www.vaticannews.va/en/church/news/2019-04/scala-santa-rome-restoration-passion-christ.html",
+      "type": "vatican"
+    }
+  ]
+}

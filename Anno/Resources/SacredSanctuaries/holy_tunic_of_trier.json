@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "holy_tunic_of_trier",
+  "category": "passion_relic",
+  "name_en": "Trier Cathedral of Saint Peter (The Holy Tunic of Trier)",
+  "name_vi": "Nhà Thờ Chính Tòa Trier (Chiếc Áo Thánh Thành Trier)",
+  "feast_day_association": "Feast of the Holy Relics of Trier (Friday after Easter)",
+  "location": {
+    "shrine_or_basilica": "Hohe Domkirche St. Peter zu Trier",
+    "city": "Trier",
+    "region_or_state": "Rhineland-Palatinate",
+    "country": "Germany",
+    "latitude": 49.7561,
+    "longitude": 6.6433,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1512-04-14",
+    "approving_authority": "Emperor Maximilian I / Archbishop Richard von Greiffenklau / Pope Leo X",
+    "confidence": "confirmed",
+    "confidence_note_en": "Brought to Trier c. 327 AD by Empress Saint Helena, mother of Constantine the Great; documented in 1196 when the high altar was consecrated; elevated to global prominence during the 1512 Imperial Diet of Trier under Emperor Maximilian I.",
+    "confidence_note_vi": "Do Thánh Nữ Hoàng hậu Helena rước từ Jerusalem về Trier khoảng năm 327; được ghi nhận trong văn bia thánh hiến bàn thờ năm 1196; được Hoàng đế Maximilian I long trọng tôn vinh trong Đại hội Đế quốc năm 1512."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Seamless Robe of Christ (Der Heilige Rock zu Trier)",
+      "relic_name_vi": "Áo Choàng Thánh Của Chúa Kitô (Der Heilige Rock)",
+      "relic_type": "miraculous_textile",
+      "reliquary_location": "Holy Relic Chamber (Heilig-Rock-Kapelle) behind the High Altar of Trier Cathedral"
+    }
+  ],
+  "historical_summary_en": "The Holy Tunic of Trier (*Der Heilige Rock*) is celebrated in German Christian tradition as the seamless garment (*tunica inconsutilis*) worn by Jesus Christ, brought from Jerusalem to Trier (Augusta Treverorum, capital of the Western Roman Empire) around 327 AD by Empress Saint Helena, who converted her imperial palace into the Cathedral of Saint Peter.\n\nIn 1196, Archbishop John I consecrated the new eastern choir of Trier Cathedral and sealed the Holy Tunic within the high altar. In 1512, at the request of Holy Roman Emperor Maximilian I during the Imperial Diet of Trier, Archbishop Richard von Greiffenklau opened the altar, inaugurating the historic tradition of solemn public expositions (*Heilig-Rock-Wallfahrt*).\n\nThe tunic, woven without seams from wool and reinforced in subsequent centuries with delicate silk and taffeta layers for preservation, serves as a paramount theological symbol of the indivisible unity of the Catholic Church (*unitas Ecclesiae*). Major pilgrimages held in 1810, 1844, 1891, 1933, and 2012 drew millions of believers praying for reconciliation and Christian unity.",
+  "historical_summary_vi": "Chiếc Áo Thánh Trier (*Der Heilige Rock*) được tôn kính trong truyền thống Kitô giáo Đức là chiếc áo không đường may (*tunica inconsutilis*) của Chúa Giêsu Kitô, được Thánh Nữ Hoàng hậu Helena rước từ Jerusalem về Trier (thủ phủ La Mã phương Tây) vào khoảng năm 327 sau Công Nguyên khi ngài dâng cung điện hoàng gia để xây dựng Nhà thờ Chính tòa Thánh Phêrô.\n\nNăm 1196, Tổng Giám mục Gioan I đã cung hiến gian cung thánh mới và niêm phong Áo Thánh vào trong bàn thờ chính. Năm 1512, theo lời thỉnh cầu của Hoàng đế La Mã Thần thánh Maximilian I trong Đại hội Đế chế Trier, Tổng Giám mục Richard von Greiffenklau đã long trọng mở bàn thờ, khởi đầu truyền thống đại lễ hành hương tôn kính (*Heilig-Rock-Wallfahrt*).\n\nChiếc áo dệt liền mảnh bằng sợi len và được lót các lớp lụa bảo tồn qua các thế kỷ là biểu tượng thần học cao quý cho sự hiệp nhất bất khả phân chia của Hội Thánh Công giáo (*unitas Ecclesiae*). Các cuộc hành hương lớn lịch sử vào các năm 1810, 1844, 1891, 1933 và 2012 đã thu hút hàng triệu tín hữu đến cầu nguyện cho sự hòa giải và hiệp nhất Kitô giáo.",
+  "scripture_reading": "Ephesians 4:3-6",
+  "suggested_prayer_en": "Jesus Christ, Savior and Redeemer, you prayed that all who believe in you might be one as You and the Father are one. Look upon your seamless robe, the symbol of your Church's unity; heal all divisions among Christians, renew our faith, and lead all humanity into the peace of your Kingdom. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Kitô, Đấng Cứu Độ trần gian, Chúa đã tha thiết cầu nguyện cho mọi kẻ tin Chúa được nên một như Chúa và Chúa Cha là một. Xin nhìn đến chiếc áo thánh liền mảnh biểu tượng cho sự hiệp nhất của Hội Thánh; xin chữa lành mọi rạn nứt chia rẽ giữa các Kitô hữu, canh tân đức tin và dẫn đưa nhân loại vào trong bình an Nước Chúa. Amen.",
+  "primary_sources": [
+    {
+      "label": "Bistum Trier (Diocese of Trier) Official Archival Records of the Holy Tunic",
+      "url": "https://www.bistum-trier.de/home/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Benedict XVI - Message to the Bishop of Trier for the Holy Tunic Pilgrimage (April 13, 2012)",
+      "url": "https://www.vatican.va/content/benedict-xvi/en/messages/pont-messages/2012/documents/hf_ben-xvi_mes_20120413_trier.html",
+      "type": "vatican"
+    }
+  ]
+}

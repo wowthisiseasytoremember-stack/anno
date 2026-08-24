@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_dominic_bologna",
+  "category": "monastic_sanctuary",
+  "name_en": "Basilica of San Domenico (Arca di San Domenico)",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Đaminh (Bologna)",
+  "feast_day_association": "Feast of Saint Dominic, Priest and Founder (August 8)",
+  "location": {
+    "shrine_or_basilica": "Basilica Patriarcale di San Domenico",
+    "city": "Bologna",
+    "region_or_state": "Emilia-Romagna",
+    "country": "Italy",
+    "latitude": 44.4897,
+    "longitude": 11.3444,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1234-07-13",
+    "approving_authority": "Pope Gregory IX (Papal Bull Fons Sapientiae)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Canonized by Pope Gregory IX in 1234; tomb adorned by Nicola Pisano, Niccolò dell'Arca, and young Michelangelo Buonarroti; body verified and preserved in the Arca di San Domenico.",
+    "confidence_note_vi": "Được Đức Giáo hoàng Grêgôriô IX tuyên thánh năm 1234; lăng mộ do các danh họa Nicola Pisano, Niccolò dell'Arca và Michelangelo chạm khắc; thi hài được bảo tồn nguyên vẹn tại Arca di San Domenico."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Sacred Relics and Skull of Saint Dominic de Guzmán, Founder of the Order of Preachers",
+      "relic_name_vi": "Hài Cốt và Hộp Sọ Thánh Đaminh de Guzmán, Đấng Sáng Lập Dòng Thuyết Giáo",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "The Monumental Arca di San Domenico inside the Saint Dominic Chapel"
+    }
+  ],
+  "historical_summary_en": "Saint Dominic de Guzmán (1170–1221), born in Caleruega, Spain, founded the Order of Preachers (Dominicans) to combat the Albigensian heresy in southern France through rigorous intellectual defense of orthodox doctrine combined with radical evangelical poverty. Convinced that heretics could only be won through authentic Gospel witness and theological competence, Dominic sent his friars to the great university centers of Paris and Bologna.\n\nDominic lived a life of intense asceticism and perpetual contemplation, famously described as 'only speaking to God or of God' (*aut de Deo aut cum Deo*). Tradition attributes to Dominic the reception and global propagation of the Holy Rosary as a spiritual weapon of conversion.\n\nExhausted by preaching tours across Europe, Dominic died at the convent of Saint Nicholas in Bologna on August 6, 1221, promising his weeping brethren: *'Do not weep, for I shall be more useful to you after my death and I shall help you then more effectively than during my life.'* His tomb (*Arca di San Domenico*) is an artistic summit featuring sculptures by Nicola Pisano, Arnolfo di Cambio, and the youthful Michelangelo.",
+  "historical_summary_vi": "Thánh Đaminh de Guzmán (1170–1221), sinh tại Caleruega, Tây Ban Nha, đã sáng lập Dòng Thuyết Giáo (Dòng Đaminh) nhằm đẩy lùi bè rối Albi tại miền nam nước Pháp bằng lập luận thần học uyên bác kết hợp với đời sống khó nghèo thánh thiện theo Phúc Âm. Với xác tín rằng chỉ có thể chinh phục kẻ lầm lạc bằng đời sống chứng nhân đích thực, Thánh Đaminh đã cử các tu sĩ của mình đến các trung tâm đại học lớn tại Paris và Bologna.\n\nNgài sống đời khổ chế nghiêm ngặt và chiêm niệm liên lỉ, với châm ngôn sống nổi tiếng là 'chỉ nói với Chúa hoặc nói về Chúa' (*aut de Deo aut cum Deo*). Truyền thống thánh thiện ghi nhận Thánh Đaminh đã đón nhận và truyền bá sâu rộng Chuỗi Mân Côi như vũ khí thiêng liêng hoán cải nhân loại.\n\nKiệt sức vì các chuyến truyền giáo khắp cõi Châu Âu, Thánh Đaminh qua đời tại tu viện Thánh Nicôla ở Bologna ngày 6 tháng 8 năm 1221, để lại lời hứa an ủi các môn đệ: *'Anh em đừng khóc, sau khi chết Thầy sẽ giúp ích cho anh em hữu hiệu hơn khi còn sống.'* Lăng mộ ngài (*Arca di San Domenico*) là kiệt tác nghệ thuật điêu khắc với sự đóng góp của Nicola Pisano và Michelangelo thời trẻ.",
+  "scripture_reading": "2 Timothy 4:1-5",
+  "suggested_prayer_en": "O Holy Father Saint Dominic, Preacher of Grace and Defender of the True Faith, you fulfilled your promise to intercede for your children before the throne of God. Illuminate our minds with the light of Catholic truth, inflame our hearts with apostolic zeal for the salvation of souls, and teach us to pray the Holy Rosary with devout contemplation. Amen.",
+  "suggested_prayer_vi": "Lạy Cha Thánh Đaminh, Sứ Giả của Ân Sủng và Đấng Bảo Vệ Đức Tin Chân Thật, ngài đã giữ trọn lời hứa chuyển cầu cho đoàn con cái trước tòa Thiên Chúa. Xin soi sáng tâm trí chúng con bằng chân lý Tin Mừng, thắp lên trong lòng chúng con ngọn lửa nhiệt thành cứu rỗi các linh hồn và dạy chúng con biết sốt sắng lần chuỗi Mân Côi mỗi ngày. Amen.",
+  "primary_sources": [
+    {
+      "label": "Curia Generalis Ordinis Praedicatorum (Dominican Curia) Official Historical Dossier",
+      "url": "https://www.op.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Honorius III - Papal Bull Religiosam Vitam Confirming the Order of Preachers (1216)",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ]
+}

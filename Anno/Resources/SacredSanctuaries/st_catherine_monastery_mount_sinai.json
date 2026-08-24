@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_catherine_monastery_mount_sinai",
+  "category": "monastic_sanctuary",
+  "name_en": "Sacred Autonomous Monastery of Saint Catherine at Mount Sinai",
+  "name_vi": "Tu Viện Thánh Catarina trên Núi Sinai",
+  "feast_day_association": "Feast of Saint Catherine of Alexandria (November 25)",
+  "location": {
+    "shrine_or_basilica": "Holy Monastery of the God-trodden Mount Sinai (Saint Catherine's)",
+    "city": "Saint Catherine",
+    "region_or_state": "South Sinai Governorate",
+    "country": "Egypt",
+    "latitude": 28.5558,
+    "longitude": 33.9761,
+    "precision": "monastery_complex"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "0565-01-01",
+    "approving_authority": "Emperor Justinian I / UNESCO World Heritage Designation / Holy See Recognition",
+    "confidence": "confirmed",
+    "confidence_note_en": "Built by Emperor Justinian I between 548 and 565 AD enclosing the traditional site of the Burning Bush; holds the oldest continuously operating Christian monastic library and the relics of Saint Catherine discovered c. 800 AD.",
+    "confidence_note_vi": "Được Hoàng đế Justinian I xây dựng từ năm 548 đến 565 bao quanh Bụi Gai Bốc Cháy; bảo tồn thư viện đan viện Kitô giáo hoạt động liên tục cổ nhất thế giới và hài cốt Thánh Nữ Catarina được tìm thấy khoảng năm 800."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Holy Skull and Incorrupt Left Hand of Saint Catherine and the Living Burning Bush",
+      "relic_name_vi": "Hộp Sọ và Bàn Tay Trái Thánh Catarina cùng Bụi Gai Bốc Cháy Đang Sống",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Marble Shrine beside the High Altar of the Transfiguration Basilica and the Bush Enclosure"
+    }
+  ],
+  "historical_summary_en": "The Monastery of Saint Catherine at the foot of Mount Horeb (Mount Sinai) in the Sinai Peninsula is the oldest continuously inhabited Christian monastery in the world. Founded around 330 AD by Empress Saint Helena, who constructed a small chapel at the site of the Burning Bush (*Exodus 3:2*), the complex was transformed by Byzantine Emperor Justinian I between 548 and 565 AD into a fortified fortress-monastery to protect the hermit monks from nomadic raiders.\n\nAround 800 AD, the uncorrupted relics of Saint Catherine of Alexandria—the 4th-century virgin-martyr and philosopher whose body was transported by angels to the peak of Mount Sinai after her beheading—were discovered by the monks. The monastery was rededicated to her honor and became one of the foremost pilgrimage centers of the Christian East and West.\n\nThe monastery preserves an incomparable collection of early Christian art, including the 6th-century encaustic icon of *Christ Pantocrator*, the world's second-largest collection of ancient codices and manuscripts after the Vatican Library, and the living descendant of the biblical Burning Bush (*Rubus sanctus*).",
+  "historical_summary_vi": "Tu viện Thánh Catarina dưới chân Núi Horeb (Núi Sinai) trên bán đảo Sinai là tu viện Kitô giáo hoạt động liên tục cổ nhất trên thế giới. Được Thánh Nữ Hoàng hậu Helena khởi dựng vào khoảng năm 330 với một nguyện đường nhỏ tại vị trí Bụi Gai Bốc Cháy (*Xuất Hành 3:2*), toàn bộ quần thể đã được Hoàng đế Byzantine Justinian I xây dựng kiên cố từ năm 548 đến 565 thành một pháo đài đan viện bất khả xâm phạm bảo vệ các đan sĩ ẩn tu.\n\nKhoảng năm 800, các đan sĩ đã tìm thấy thi hài nguyên vẹn của Thánh Nữ Catarina thành Alexandria—vị thánh trinh nữ tử đạo thế kỷ thứ 4 mà thi thể tương truyền được các thiên thần đưa lên đỉnh núi Sinai sau khi chịu trảm quyết. Tu viện được đổi tên theo ngài và trở thành một trong những điểm hành hương linh thiêng bậc nhất của Kitô giáo Đông - Tây.\n\nTu viện lưu giữ bộ sưu tập nghệ thuật Kitô giáo cổ đại vô giá gồm linh ảnh *Chúa Kitô Đấng Cứu Thế* thế kỷ thứ 6, kho tàng thủ bản cổ xưa lớn thứ hai thế giới chỉ sau Thư viện Vatican, và bụi gai thần bí (*Rubus sanctus*) vẫn tươi tốt xanh tươi qua ngàn năm.",
+  "scripture_reading": "Exodus 3:2-5",
+  "suggested_prayer_en": "O God, who gave the Law to Moses on the holy mountain of Sinai and miraculously preserved the relics of your virgin martyr Saint Catherine, remove from our eyes the dust of worldly distractions. Grant that we may approach your holy presence with reverence and stand in the unquenchable fire of your divine love. Amen.",
+  "suggested_prayer_vi": "Lạy Thiên Chúa, Đấng đã ban Luật cho Môsê trên đỉnh núi thánh Sinai và gìn giữ di cốt Thánh Nữ Tử Đạo Catarina một cách kỳ diệu, xin gạt bỏ khỏi mắt chúng con những phù phiếm thế gian. Xin cho chúng con biết tiến lại gần nhan thánh Chúa với lòng tôn kính sâu xa và được bừng cháy trong ngọn lửa tình yêu bất diệt của Chúa. Amen.",
+  "primary_sources": [
+    {
+      "label": "Holy Monastery of Sinai Official Historical and Manuscript Archives",
+      "url": "https://www.sinaimonastery.com/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope John Paul II - Homily during Mount Sinai Pilgrimage (February 26, 2000)",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2000/documents/hf_jp-ii_hom_20000226_sinai.html",
+      "type": "vatican"
+    }
+  ]
+}

@@ -19,7 +19,7 @@
 | **Engine B Source Gate & Citations** | `validate_mock_content.py` + `validate_engine_b_output.py` | **100% strict LLM citation validation before use** | ✅ **DONE:** All 182 entries pass with $\ge 2$ verified primary/academic sources. |
 | **Swift Fixture Exporter** | `export_swift_fixture.py` script | **Automated 4-year calendar JSONL -> Swift export** | ✅ **DONE:** 182-day Swift mock dataset compiled into `AnnoMockData.swift`. |
 | **Monetization & StoreKit 2** | `AnnoProducts.storekit` + `EntitlementService.swift` | **Full 4-tier funnel with Day Pass & Pilgrimage Subscriptions** | ✅ **DONE:** StoreKit config, paywall triggers, and entitlement service built. |
-| **Sacred Geography & Routes** | `PilgrimageRoutes/` (4 routes, 21 waypoints) | **Curated GPS pilgrimage route packs** | ✅ **DONE:** Rome, Holy Land, European Marian, and Vietnam shrines complete. |
+| **Sacred Geography & Routes** | `PilgrimageRoutes/` (14 routes, 69 waypoints) + `SacredSanctuaries/` (72 dossiers) | **Curated GPS pilgrimage route packs & global sacred geography master** | ✅ **DONE (2026-08-24):** 72 standalone sanctuary dossiers + 14 linear routes (69 waypoints) + master catalog `sacred_geography_master.json`. |
 | **Sacred Art Iconography** | `ArtDossiers/` (65 masterpieces) | **High-res zoomable sacred art dossiers** | ✅ **DONE:** 65 public domain works with active HTTP URLs and bilingual notes. |
 | **Rotating Devotional Pool** | `anno_devotional_pool_365.json` | **365-day bilingual Catholic devotional rotation** | ✅ **DONE:** 365 days across 12 spiritual cycles with Swift loader. |
 | **Xcode Project Scaffolding** | Source files in `Anno/` & `ios/` | **Full `.xcodeproj` bundle compiling in Xcode** | 🟡 **Fenced:** Scaffold Xcode project on macOS device per `docs/NATIVE_BUILD_RUNBOOK.md`. |
@@ -36,7 +36,7 @@
 - [x] **Sprint A.5:** 365-Day bilingual devotional rotation pool (`Anno/Resources/anno_devotional_pool_365.json`, `Anno/Models/Devotional.swift`, `tools/validate_devotional_pool.py`).
 
 ### Phase B: Monetization Data Schemas & Route Assets (Linux)
-- [x] **Sprint B.1:** 4 Pilgrimage route packs in `Anno/Resources/PilgrimageRoutes/` (Rome Seven Churches, Holy Land Way of the Cross, European Marian Shrines, Vietnam Sacred Shrines) with `tools/validate_route_coordinates.py`.
+- [x] **Sprint B.1:** Global Sacred Geography & Pilgrimage Catalog in `Anno/Resources/SacredSanctuaries/` (72 sanctuaries) and `Anno/Resources/PilgrimageRoutes/` (14 route packs, 69 waypoints) with `tools/validate_sanctuaries.py`, `tools/validate_route_coordinates.py`, and compiled master `Anno/Resources/sacred_geography_master.json`.
 - [x] **Sprint B.2:** 65 High-resolution sacred art dossiers in `Anno/Resources/ArtDossiers/art_dossiers_catalog.json` with `tools/verify_artwork_links.py`.
 - [x] **Sprint B.3:** StoreKit 2 configuration (`Anno/Configuration/AnnoProducts.storekit`) and bilingual product metadata (`Anno/Resources/product_metadata.json`).
 - [x] **Sprint B.4:** Client paywall trigger rules (`Anno/Resources/paywall_triggers.json`), `Anno/Services/EntitlementService.swift`, and 63-key string catalog expansion (`localization/en` and `localization/vi`).

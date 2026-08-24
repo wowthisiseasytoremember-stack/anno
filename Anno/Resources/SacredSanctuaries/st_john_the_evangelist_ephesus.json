@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_john_the_evangelist_ephesus",
+  "category": "apostolic_tomb",
+  "name_en": "Basilica and Tomb of Saint John the Evangelist",
+  "name_vi": "Đền Thờ và Lăng Mộ Thánh Gioan Tông Đồ tại Ephesus",
+  "feast_day_association": "Feast of Saint John, Apostle and Evangelist (December 27)",
+  "location": {
+    "shrine_or_basilica": "Basilica of Saint John (Ayasuluk Hill)",
+    "city": "Selçuk (Ephesus)",
+    "region_or_state": "İzmir Province",
+    "country": "Turkey",
+    "latitude": 37.9525,
+    "longitude": 27.3672,
+    "precision": "crypt"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "0565-01-01",
+    "approving_authority": "Emperor Justinian I / Early Church Patristic Tradition (Polycrates of Ephesus / Eusebius)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Documented by Bishop Polycrates of Ephesus (c. 190 AD) and Eusebius of Caesarea; monumental 6-domed Justinian Basilica excavated by Austrian Archaeological Institute (1927-present) confirming the 1st-century apostolic tomb.",
+    "confidence_note_vi": "Được Giám mục Polycrates xứ Ephesus ghi nhận (khoảng năm 190) và Sử gia Eusebius thành Caesarea xác thực; Đại thánh đường 6 mái vòm thời Hoàng đế Justinian được Viện Khảo cổ Áo khai quật xác nhận ngôi mộ tông đồ thế kỷ thứ nhất."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Tomb of Saint John the Apostle and Beloved Disciple",
+      "relic_name_vi": "Lăng Mộ Thánh Gioan Tông Đồ, Môn Đệ Chúa Yêu",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Central Crypt Altar under the Dome of the Basilica of Saint John, Ayasuluk"
+    }
+  ],
+  "historical_summary_en": "Saint John the Evangelist, the 'Beloved Disciple' who rested his head upon Jesus' chest at the Last Supper and stood with the Virgin Mary at the foot of the Cross (*John 19:26-27*), accompanied Our Lady to Ephesus in Asia Minor after the dispersal of the apostles. Following his exile on the Isle of Patmos, where he penned the Book of Revelation, John returned to Ephesus, where he governed the churches of Asia, composed the Fourth Gospel and three epistles, and died in peace at extreme old age around AD 100.\n\nPatristic writers, including Saint Irenaeus of Lyons and Bishop Polycrates of Ephesus in his letter to Pope Victor I (c. 190 AD), recorded that John was buried on Ayasuluk Hill overlooking Ephesus. In the 4th century, Constantine built a church over the tomb, which Emperor Justinian I and Empress Theodora replaced in the 6th century with a colossal six-domed cruciform basilica modeled after the Church of the Holy Apostles in Constantinople.\n\nThroughout late antiquity and the Middle Ages, pilgrims flocked to the tomb, collecting the holy dust (*manna*) that miraculously issued from the apertures of the tomb on the apostle's feast day.",
+  "historical_summary_vi": "Thánh Gioan Tông Đồ, 'Người Môn Đệ Chúa Yêu', người đã tựa đầu vào ngực Chúa Giêsu trong Bữa Tiệc Ly và đứng kiên trung dưới chân Thập Giá cùng Đức Mẹ (*Gioan 19:26-27*), đã phụng dưỡng Đức Mẹ và đến sinh sống tại Ephesus thuộc vùng Tiểu Á sau khi các tông đồ phân tán đi truyền giáo. Sau thời gian bị lưu đày tại đảo Patmos—nơi ngài viết sách Khải Huyền—Thánh Gioan trở về Ephesus, coi sóc các giáo đoàn miền Tiểu Á, hoàn tất sách Phúc Âm thứ Tư cùng ba bức thư tông đồ và qua đời bình an ở tuổi đại thọ khoảng năm 100 sau Công Nguyên.\n\nCác Giáo phụ tiên khởi như Thánh Irenaeus thành Lyon và Giám mục Polycrates xứ Ephesus trong thư gửi Đức Giáo hoàng Victor I (năm 190) đều xác nhận Thánh Gioan được an táng trên đồi Ayasuluk nhìn xuống Ephesus. Vào thế kỷ thứ 4, Hoàng đế Constantine dựng thánh đường trên mộ ngài, và đến thế kỷ thứ 6 Hoàng đế Justinian I cùng Hoàng hậu Theodora đã xây dựng một đại vương cung thánh đường 6 mái vòm hình chữ thập tráng lệ.\n\nSuốt thời Cổ đại và Trung Cổ, các đoàn khách hành hương từ khắp nơi trên thế giới đã đổ về viếng lăng mộ Thánh Gioan, tôn kính vị Tông Đồ của Tình Yêu đã ghi lại những mạc khải thâm sâu nhất về Ngôi Lời Thiên Chúa.",
+  "scripture_reading": "John 21:20-24",
+  "suggested_prayer_en": "O Beloved Apostle Saint John, Herald of the Divine Word and Theologian of Love, you contemplated the mysteries of the Sacred Heart and received Mary as your Mother at the Cross. Grant that we may abide deeply in Christ's love, hear His divine voice with clarity, and love one another in truth and deed. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Gioan Tông Đồ kính yêu, Sứ Giả của Ngôi Lời Thiên Chúa và là Nhà Thần Học của Tình Yêu, ngài đã được kề bên Thánh Tâm Chúa và nhận Đức Mẹ làm Mẹ dưới chân Thập Giá. Xin cho chúng con biết hằng ở lại trong tình yêu của Chúa Kitô, biết lắng nghe tiếng Chúa trong thinh lặng và biết yêu thương nhau bằng hành động và chân lý. Amen.",
+  "primary_sources": [
+    {
+      "label": "Eusebius of Caesarea - Church History (Historia Ecclesiastica, Book III)",
+      "url": "https://www.newadvent.org/fathers/250103.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Austrian Archaeological Institute (ÖAI) - Ephesus Ayasuluk Excavation Reports",
+      "url": "https://www.oeaw.ac.at/en/oeai/research/classical-studies/ephesos",
+      "type": "academic"
+    }
+  ]
+}

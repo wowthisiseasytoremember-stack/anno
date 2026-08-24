@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_tra_kieu",
+  "category": "marian_apparition",
+  "name_en": "National Shrine of Our Lady of Trà Kiệu",
+  "name_vi": "Trung Tâm Hành Hương Đức Mẹ Trà Kiệu",
+  "feast_day_association": "Feast of Our Lady Help of Christians / Trà Kiệu Commemoration (May 31)",
+  "location": {
+    "shrine_or_basilica": "Trung tâm Hành hương Đức Mẹ Trà Kiệu",
+    "city": "Duy Xuyên",
+    "region_or_state": "Quảng Nam",
+    "country": "Vietnam",
+    "latitude": 15.8239,
+    "longitude": 108.2394,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1885-09-21",
+    "approving_authority": "Diocese of Đà Nẵng / Bishop Jean-Pierre-Alexandre Bruyère",
+    "confidence": "confirmed",
+    "confidence_note_en": "Documented by Fr. Jean-Baptiste Bruyère and approved by the local ordinary following the miraculous defense of the Christian village from September 1 to 21, 1885; celebrated as the Marian Shrine of the Diocese of Đà Nẵng.",
+    "confidence_note_vi": "Được Cha Jean-Baptiste Bruyère ghi chép và Tòa Giám mục công nhận sau biến cố giải cứu làng Công giáo Trà Kiệu từ ngày 1 đến 21 tháng 9 năm 1885; trở thành Trung tâm Hành hương Thánh Mẫu Giáo phận Đà Nẵng."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Apparition Hilltop Shrine (Bửu Châu) and Cannon Defense Memorial",
+      "relic_name_vi": "Đồi Bửu Châu Nơi Đức Mẹ Hiện Ra và Di Tích Phòng Thủ",
+      "relic_type": "apparition_site",
+      "reliquary_location": "Bửu Châu Hill Chapel, Trà Kiệu"
+    }
+  ],
+  "historical_summary_en": "In September 1885, during the Văn Thân uprising targeting Catholic communities in central Vietnam, a force of several thousand heavily armed insurgents surrounded the small Catholic village of Trà Kiệu in Quảng Nam province. The village was defended by only a few hundred poorly equipped faithful led by their pastor, Father Jean Bruyère, who gathered the women and children inside the parish church to pray the Rosary continuously before the Blessed Sacrament.\n\nBetween September 10 and 11, 1885, the attackers positioned artillery on the surrounding Bửu Châu hills to bombard the church. However, cannon shells repeatedly failed to hit the roof or deflected harmlessly. The assailants later testified that they saw a radiant Lady dressed in dazzling white standing upon the church roof, with her maternal mantle turning away incoming artillery rounds, accompanied by a troop of luminous children guarding the ramparts.\n\nOverwhelmed by the heavenly apparition and internal discord, the besieging forces broke camp and fled on September 21, 1885. In thanksgiving, the faithful built the shrine of Our Lady Help of Christians on Bửu Châu hill, which remains a deeply revered pilgrimage sanctuary in Central Vietnam.",
+  "historical_summary_vi": "Vào tháng 9 năm 1885, trong phong trào Văn Thân nhắm vào các cộng đoàn Công giáo miền Trung, hàng ngàn nghĩa binh vũ trang đã bao vây giáo họ Trà Kiệu thuộc tỉnh Quảng Nam. Ngôi làng nhỏ chỉ có vài trăm giáo dân với vũ khí thô sơ dưới sự hướng dẫn của Cha sở Jean Bruyère, đã tập hợp phụ nữ và trẻ em vào nhà thờ liên lỉ cầu nguyện chuỗi Mân Côi trước Mình Thánh Chúa.\n\nTừ ngày 10 đến 11 tháng 9 năm 1885, quân bao vây đặt đại bác trên đỉnh đồi Bửu Châu nã đạn xối xả vào nhà thờ. Lạ lùng thay, đạn pháo bắn ra đều rơi lệch hướng hoặc không nổ. Quân tấn công sau đó khai nhận họ nhìn thấy một Bà Đẹp rực rỡ mặc áo trắng tinh khôi đứng trên nóc nhà thờ, dang rộng tà áo chở che làm lệch hướng đạn pháo, bên cạnh có đoàn trẻ nhỏ sáng láng đứng bảo vệ lũy làng.\n\nTrước hiện tượng siêu nhiên và sự phân rã nội bộ, đoàn quân vây hãm đã rút lui vào ngày 21 tháng 9 năm 1885. Để ghi ơn cứu mạng lạ lùng, cộng đoàn đã xây dựng Đền Thánh Đức Mẹ Phù Hộ Các Tín Hữu trên đồi Bửu Châu, trở thành trung tâm hành hương linh thiêng thu hút hàng trăm ngàn tín hữu khắp miền Trung.",
+  "scripture_reading": "Psalm 91:1-4",
+  "suggested_prayer_en": "O Lady of Trà Kiệu, Mother of the Afflicted and Help of Christians, you shielded your children from deadly assaults and showed the power of confident prayer. Stand guard over our lives in times of spiritual warfare and moral danger; cover our youth with your mantle of purity, and guide our families to victory in Christ. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ Trà Kiệu, Mẹ Ban Ơn Phù Hộ Các Giáo Hữu, Mẹ đã dang tay che chở con cái Mẹ thoát khỏi làn tên mũi đạn trong cơn nguy biến nhờ lời kinh Mân Côi tha thiết. Xin Mẹ tiếp tục bảo vệ chúng con trong những cơn cám dỗ và gian nan thử thách linh hồn; xin chở che giới trẻ bằng tà áo trinh khiết của Mẹ và dẫn dắt gia đình chúng con luôn trung kiên theo Chúa. Amen.",
+  "primary_sources": [
+    {
+      "label": "Diocese of Đà Nẵng - Historical Chronicles of Trà Kiệu Marian Sanctuary",
+      "url": "https://giaophandanang.org/",
+      "type": "academic"
+    },
+    {
+      "label": "Missions Étrangères de Paris (MEP) - Annales du Sanctuaire de Trà Kiệu (1885)",
+      "url": "https://irfa.paris/en/",
+      "type": "academic"
+    }
+  ]
+}

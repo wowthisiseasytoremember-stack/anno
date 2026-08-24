@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "basilica_of_the_holy_sepulchre_jerusalem",
+  "category": "passion_relic",
+  "name_en": "Basilica of the Holy Sepulchre (Resurrection)",
+  "name_vi": "Vương Cung Thánh Đường Mộ Thánh (Phục Sinh, Giêrusalem)",
+  "feast_day_association": "Easter Sunday (The Resurrection of the Lord) / Exaltation of the Holy Cross (September 14)",
+  "location": {
+    "shrine_or_basilica": "Church of the Holy Sepulchre (Church of the Resurrection / Anastasis)",
+    "city": "Jerusalem",
+    "region_or_state": "Old City of Jerusalem",
+    "country": "Israel / Palestine",
+    "latitude": 31.7785,
+    "longitude": 35.2297,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "0335-09-13",
+    "approving_authority": "Emperor Constantine the Great / Empress Saint Helena / Pope Sylvester I",
+    "confidence": "confirmed",
+    "confidence_note_en": "Excavated in 326 AD by Empress Saint Helena beneath Hadrian's temple to Venus; the original empty rock-hewn tomb of Christ and Rock of Golgotha confirmed continuously across 17 centuries of Christian worship.",
+    "confidence_note_vi": "Được Thánh Nữ Hoàng hậu Helena khai quật năm 326 dưới đền thờ ngoại giáo thần Venus; lăng mộ đá rỗng nguyên thủy của Chúa Kitô và Đồi Canvê được phụng thờ liên tục suốt 17 thế kỷ."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Empty Tomb of Christ (Aedicula) and the Rock of Golgotha (Calvary)",
+      "relic_name_vi": "Ngôi Mộ Rỗng Phục Sinh của Chúa Kitô và Khối Đá Núi Sọ Canvê",
+      "relic_type": "apparition_site",
+      "reliquary_location": "The Central Rotunda Aedicula and the Calvary Chapel upstairs"
+    }
+  ],
+  "historical_summary_en": "The Church of the Holy Sepulchre in the Christian Quarter of the Old City of Jerusalem is the supreme spiritual epicenter of Christianity. The sanctuary encompasses the two most sacred sites in salvation history: the Rock of Golgotha (*Calvary*) where Jesus Christ was crucified for the sins of the world (*John 19:17-30*), and the empty rock-hewn tomb (*Anastasis*) where His body was laid and where He rose triumphant from the dead on Easter Sunday (*John 20:1-18*).\n\nIn 326 AD, following the Council of Nicaea, Emperor Constantine commissioned the demolition of the Roman temple erected by Emperor Hadrian over the site, uncovering the original 1st-century Jewish rock-cut tomb and the True Cross. The first basilica was solemnly dedicated on September 13, 335 AD.\n\nIn 2016, a historic scientific restoration of the Aedicula by National Geographic and the National Technical University of Athens temporarily unsealed the burial bed for the first time since 1555, confirming the intact original limestone bedrock burial shelf where Christ was laid.",
+  "historical_summary_vi": "Vương Cung Thánh Đường Mộ Thánh tại Khu Kitô giáo trong Thành Cổ Giêrusalem là tâm điểm tâm linh tối cao của toàn thể Kitô giáo. Đền thánh ôm trọn hai địa danh thánh thiêng nhất của lịch sử cứu độ: Đồi Núi Sọ Canvê nơi Chúa Giêsu Kitô chịu đóng đinh chịu chết chuộc tội cho nhân loại (*Gioan 19:17-30*), và Ngôi Mộ Đá Rỗng (*Anastasis*) nơi an táng thi hài Chúa và nơi Người đã khải hoàn Phục Sinh từ cõi chết vào Chúa Nhật Phục Sinh (*Gioan 20:1-18*).\n\nNăm 326, theo lệnh Hoàng đế Constantine và Thánh Nữ Hoàng hậu Helena, đền thờ La Mã ngoại giáo do Hadrian dựng lên đã bị triệt hạ để lộ ra ngôi mộ đá Do Thái thế kỷ thứ nhất và Cây Thập Giá Thật. Đại thánh đường đầu tiên được thánh hiến ngày 13 tháng 9 năm 335.\n\nNăm 2016, trong cuộc trùng tu khoa học lịch sử do Đại học Kỹ thuật Quốc gia Athens và National Geographic thực hiện, phiến đá hoa cương niêm phong từ năm 1555 được nhấc ra, hé lộ phiến đá vôi tự nhiên nguyên thủy nơi thi hài Chúa Giêsu đã an nghỉ.",
+  "scripture_reading": "Matthew 28:5-6",
+  "suggested_prayer_en": "Lord Jesus Christ, who by your holy death and glorious Resurrection destroyed our death and restored our life, we worship you at your Holy Tomb. Grant that we may walk in the newness of resurrection life, victorious over sin and fear, until we see you face to face in eternal glory. Amen.",
+  "suggested_prayer_vi": "Lạy Chúa Giêsu Kitô, Đấng nhờ cái chết thánh thiện và sự Phục Sinh vinh hiển đã tiêu diệt sự chết và phục hồi sự sống cho chúng con, chúng con thờ lạy Chúa nơi Mộ Thánh. Xin cho chúng con luôn bước đi trong đời sống mới của mầu nhiệm Phục Sinh, chiến thắng mọi tội lỗi và sợ hãi, cho đến ngày được chiêm ngưỡng Thánh Nhan Chúa trong vinh phúc muôn đời. Amen.",
+  "primary_sources": [
+    {
+      "label": "Custody of the Holy Land (Custodia Terrae Sanctae) Official Archival Records",
+      "url": "https://www.custodia.org/en",
+      "type": "academic"
+    },
+    {
+      "label": "National Geographic - Unsealing of Christ's Tomb Scientific Survey (2016)",
+      "url": "https://www.nationalgeographic.com/history/article/jesus-christ-tomb-burial-church-holy-sepulchre",
+      "type": "academic"
+    }
+  ]
+}

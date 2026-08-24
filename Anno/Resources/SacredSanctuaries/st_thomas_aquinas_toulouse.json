@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "st_thomas_aquinas_toulouse",
+  "category": "doctor_of_church",
+  "name_en": "Church of the Jacobins (Tomb of Saint Thomas Aquinas)",
+  "name_vi": "Đền Thờ Các Cha Dòng Đaminh (Lăng Mộ Thánh Tôma Aquinô)",
+  "feast_day_association": "Feast of Saint Thomas Aquinas, Doctor of the Church (January 28)",
+  "location": {
+    "shrine_or_basilica": "Église des Jacobins de Toulouse",
+    "city": "Toulouse",
+    "region_or_state": "Occitanie (Haute-Garonne)",
+    "country": "France",
+    "latitude": 43.6033,
+    "longitude": 1.4406,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1369-01-28",
+    "approving_authority": "Pope Urban V (Papal Translation) / Pope John XXII (Canonization 1323)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Canonized by Pope John XXII in 1323; solemn translation of his relics to the Dominican mother church of Toulouse ordered by Blessed Pope Urban V in 1369; declared Universal Doctor of the Church (*Doctor Angelicus*) by Pope Saint Pius V in 1567.",
+    "confidence_note_vi": "Được Đức Giáo hoàng Gioan XXII tuyên thánh năm 1323; Đức Chân Phước Urbanô V truyền lệnh rước thánh tích về tu viện mẹ Đaminh tại Toulouse năm 1369; Đức Thánh Cha Piô V tuyên phong là Tiến Sĩ Thiên Thần (*Doctor Angelicus*) năm 1567."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Major Relics and Skull of Saint Thomas Aquinas, the Angelic Doctor",
+      "relic_name_vi": "Xương Thánh và Hộp Sọ của Thánh Tôma Aquinô, Tiến Sĩ Thiên Thần",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Gilded reliquary altar beneath the Palm Tree column of the Church of the Jacobins"
+    }
+  ],
+  "historical_summary_en": "Saint Thomas Aquinas (1225–1274), the 'Angelic Doctor' (*Doctor Angelicus*), was the supreme philosopher and theologian of the Catholic Church, synthesizing Aristotelian philosophy with Christian divine revelation in his monumental masterwork, the *Summa Theologiae*. Joining the Dominican Order of Preachers against fierce family opposition, Thomas studied under Saint Albert the Great in Paris and Cologne.\n\nEndowed with profound mystical contemplation as well as intellectual brilliance, Thomas composed the sublime liturgical hymns for the Feast of Corpus Christi (*Pange Lingua*, *Tantum Ergo*, *Panis Angelicus*) at the request of Pope Urban IV. In December 1273, after experiencing an overpowering mystical ecstasy during Mass in Naples, he set down his pen, declaring: *'All that I have written seems like straw to me compared to what I have seen and what has been revealed to me.'*\n\nThomas died at the Cistercian Abbey of Fossanova on March 7, 1274, en route to the Council of Lyon. In 1369, Pope Urban V transferred his relics to the mother convent of the Dominican Order in Toulouse, where they rest beneath the famous 28-ribbed 'Palm Tree' pillar (*Le Palmier des Jacobins*).",
+  "historical_summary_vi": "Thánh Tôma Aquinô (1225–1274), 'Tiến Sĩ Thiên Thần' (*Doctor Angelicus*), là nhà triết học và thần học lỗi lạc bậc nhất của Hội Thánh Công giáo, người đã tổng hợp triết học Aristotle với Mạc Khải Kitô giáo trong kiệt tác vĩ đại *Summa Theologiae* (Tổng Luận Thần Học). Vượt qua sự ngăn cấm khắc nghiệt của gia đình quý tộc, ngài gia nhập Dòng Thuyết Giáo (Dòng Đaminh) và theo học dưới sự hướng dẫn của Thánh Albertô Cả tại Paris và Cologne.\n\nKhông chỉ có trí tuệ siêu phàm, Thánh Tôma còn là một nhà chiêm niệm thánh thiện sâu sắc. Ngài đã sáng tác các bài thánh ca phụng vụ tuyệt mỹ cho Đại Lễ Mình Máu Thánh Chúa (*Pange Lingua*, *Tantum Ergo*, *Panis Angelicus*) theo yêu cầu của Đức Giáo hoàng Urbanô IV. Tháng 12 năm 1273, sau một thị kiến thần bí sâu xa trong Thánh Lễ tại Naples, ngài đã gác bút và thốt lên: *'Tất cả những gì tôi đã viết chỉ như rơm rác so với những gì tôi đã được chiêm ngưỡng và được mạc khải.'*\n\nThánh Tôma qua đời tại Tu viện Fossanova ngày 7 tháng 3 năm 1274 trên đường tham dự Công đồng Lyon. Năm 1369, Đức Giáo hoàng Urbanô V đã chuyển di hài ngài về tu viện mẹ của Dòng Đaminh tại Toulouse, nơi thánh tích ngài an nghỉ dưới cột trụ hình cây cọ nổi tiếng (*Le Palmier des Jacobins*).",
+  "scripture_reading": "Wisdom 7:7-10",
+  "suggested_prayer_en": "O Angelic Doctor Saint Thomas Aquinas, Light of the Church and Model of Theologians, you sought nothing on earth but Christ alone (*'Non nisi Te, Domine'*). Grant us clarity of mind to comprehend the mysteries of faith, humility of heart to seek divine wisdom above all worldly knowledge, and a burning devotion to the Holy Eucharist. Amen.",
+  "suggested_prayer_vi": "Lạy Thánh Tôma Aquinô Tiến Sĩ Thiên Thần, Ngọn Đuốc của Hội Thánh và là Khuôn Vàng Thước Ngọc của các nhà thần học, ngài không tìm kiếm điều gì trên trần gian ngoài một mình Chúa Kitô (*'Non nisi Te, Domine'*). Xin ban cho trí tuệ chúng con sự sáng suốt để hiểu thấu các mầu nhiệm đức tin, ban cho tâm hồn chúng con đức khiêm nhường để tìm kiếm sự khôn ngoan Thiên Chúa và lòng sùng kính tha thiết Bí Tích Thánh Thể. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope Leo XIII - Encyclical Aeterni Patris on the Restoration of Christian Philosophy according to St. Thomas (1879)",
+      "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_04081879_aeterni-patris.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Couvent des Jacobins de Toulouse Official Historical Archives",
+      "url": "https://www.jacobins.toulouse.fr/",
+      "type": "academic"
+    }
+  ]
+}

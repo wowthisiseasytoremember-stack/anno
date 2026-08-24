@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_siluva",
+  "category": "marian_apparition",
+  "name_en": "Sanctuary of Our Lady of Šiluva",
+  "name_vi": "Đền Thánh Đức Mẹ Šiluva",
+  "feast_day_association": "Feast of the Nativity of the Blessed Virgin Mary (September 8)",
+  "location": {
+    "shrine_or_basilica": "Šiluvos Švč. Mergelės Marijos Gimimo bazilika",
+    "city": "Šiluva",
+    "region_or_state": "Raseiniai District",
+    "country": "Lithuania",
+    "latitude": 55.531,
+    "longitude": 23.2246,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1775-08-17",
+    "approving_authority": "Pope Pius VI (Papal Coronation) / Papal Bull 1775",
+    "confidence": "confirmed",
+    "confidence_note_en": "Officially confirmed by Pope Pius VI with papal coronation decrees in 1775; visited and honored by Pope John Paul II in September 1993 during his historic Baltic pilgrimage.",
+    "confidence_note_vi": "Được Đức Giáo hoàng Piô VI phê chuẩn chính thức qua sắc lệnh đội triều thiên năm 1775; được Thánh Giáo hoàng Gioan Phaolô II đến viếng thăm và tôn vinh trong chuyến tông du lịch sử vùng Baltic năm 1993."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Apparition Rock and Miraculous Painting of the Virgin and Child",
+      "relic_name_vi": "Phiến Đá Nơi Đức Mẹ Hiện Ra và Bức Tranh Phép Lạ Đức Mẹ Ẵm Chúa Hài Đồng",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Chapel of the Apparition (built directly over the apparition rock) and the Basilica Main Altar"
+    }
+  ],
+  "historical_summary_en": "In the early 17th century, following the Protestant Reformation, the Catholic parish in Šiluva, Lithuania, had been seized by Calvinists, and the Catholic faith was almost completely eradicated in the region. Before the church was confiscated around 1569, the last parish priest had placed the sacred chalices, documents, and an ancient icon of the Virgin into an ironclad chest and buried it in a field.\n\nIn the summer of 1608, several young shepherd children grazing their flocks in the field witnessed a miraculous vision: a beautiful young woman with weeping eyes, holding an infant in her arms and clothed in flowing blue and white robes, standing atop a large rock. The Calvinist pastor of the town was summoned to reprimand the children for superstition; upon arriving at the rock with a crowd, the pastor also saw the weeping Lady. When asked why she wept, she replied: *'Formerly in this place, my Son was adored and honored, but now this ground is given over to plowing and sowing.'*\n\nThe apparition led to the miraculous rediscovery of the buried chest by a blind nonagenarian whose sight was instantly restored. The event catalyzed the massive re-conversion of Lithuania to the Catholic faith, establishing Šiluva as one of the earliest documented Marian apparitions in Europe.",
+  "historical_summary_vi": "Vào đầu thế kỷ 17, sau phong trào Cải cách Kháng cách, giáo xứ Công giáo tại Šiluva, Lithuania đã bị những người theo thuyết Calvin tịch thu, và đức tin Công giáo gần như bị xóa sổ hoàn toàn trong vùng. Trước khi nhà thờ bị chiếm đoạt năm 1569, vị linh mục chánh xứ cuối cùng đã cất giấu chén thánh, sổ sách và linh ảnh Đức Mẹ cổ kính vào một chiếc rương sắt rồi chôn giấu ngoài cánh đồng.\n\nVào mùa hè năm 1608, các em nhỏ chăn chiên trên cánh đồng bỗng nhìn thấy một thị kiến kỳ diệu: một Người Nữ xinh đẹp đang bồng Hài Nhi trên tay, nước mắt tuôn rơi, mặc áo xanh da trời đứng trên một tảng đá lớn. Vị mục sư Calvin địa phương liền dẫn đám đông tới để quở trách các em vì mê tín; nhưng khi vừa tới nơi, chính vị mục sư cũng nhìn thấy Người Nữ đang khóc. Khi được hỏi vì sao Người khóc, Đức Mẹ đáp: *'Trước đây tại nơi này, Con Ta đã được tôn thờ và phụng sự, nhưng giờ đây đất này lại bị đem ra cày cấy gieo hạt.'*\n\nBiến cố hiện ra đã dẫn đến việc tìm lại chiếc rương sắt chôn giấu nhờ một cụ già mù 90 tuổi được sáng mắt ngay tức khắc khi chỉ đúng vị trí. Phép lạ này đã khơi mào cho phong trào tái trở lại đạo Công giáo mãnh liệt của toàn thể dân tộc Lithuania, đưa Šiluva trở thành một trong những cuộc hiện ra đầu tiên của Đức Mẹ được Giáo hội công nhận tại Châu Âu.",
+  "scripture_reading": "Jeremiah 31:15-17",
+  "suggested_prayer_en": "O Mother of God of Šiluva, who wept over the loss of faith and the neglect of your Divine Son, soften our hard hearts and awaken in us a burning desire for authentic conversion. Guard our parishes in true Catholic doctrine, strengthen families in living faith, and lead our society back to the worship of Christ. Amen.",
+  "suggested_prayer_vi": "Lạy Mẹ Thiên Chúa tại Šiluva, Mẹ đã rơi lệ vì đức tin bị mai một và Con Chí Thánh của Mẹ bị lãng quên, xin làm mềm lòng chai đá chúng con và thắp lên trong tâm hồn chúng con lòng khao khát hoán cải chân thành. Xin gìn giữ các giáo xứ trong giáo lý tinh tuyền, củng cố các gia đình trong đức tin sống động và dẫn đưa xã hội chúng con trở về phụng thờ Chúa Kitô. Amen.",
+  "primary_sources": [
+    {
+      "label": "Archdiocese of Kaunas - Official Documentation of Šiluva Apparitions",
+      "url": "https://kaunoarkivyskupija.lt/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope John Paul II - Prayer at the Sanctuary of Our Lady of Šiluva (September 7, 1993)",
+      "url": "https://www.vatican.va/content/john-paul-ii/lt/speeches/1993/september/documents/hf_jp-ii_spe_19930907_siluva.html",
+      "type": "vatican"
+    }
+  ]
+}

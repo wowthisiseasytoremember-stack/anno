@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_banneux",
+  "category": "marian_apparition",
+  "name_en": "Sanctuary of Our Lady of Banneux (Virgin of the Poor)",
+  "name_vi": "Đền Thánh Đức Mẹ Banneux (Đức Mẹ Kẻ Nghèo)",
+  "feast_day_association": "Feast of Our Lady of Banneux (January 15)",
+  "location": {
+    "shrine_or_basilica": "Sanctuaire de la Vierge des Pauvres de Banneux Notre-Dame",
+    "city": "Banneux (Louveigné)",
+    "region_or_state": "Liège",
+    "country": "Belgium",
+    "latitude": 50.5186,
+    "longitude": 5.8242,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1949-08-22",
+    "approving_authority": "Bishop Louis-Joseph Kerkhofs / Pope Pius XII",
+    "confidence": "confirmed",
+    "confidence_note_en": "Formally recognized as authentic supernatural apparitions by Bishop Kerkhofs of Liège in 1949 with confirmation from the Holy See.",
+    "confidence_note_vi": "Được Đức Giám mục Louis-Joseph Kerkhofs giáo phận Liège chính thức công nhận tính chất siêu nhiên đích thực vào năm 1949 với sự phê chuẩn của Tòa Thánh."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous Spring Dedicated to All Nations",
+      "relic_name_vi": "Suối Nguồn Phép Lạ Dành Cho Muôn Dân Nước",
+      "relic_type": "apparition_site",
+      "reliquary_location": "The Spring Esplanade at Banneux Sanctuary"
+    }
+  ],
+  "historical_summary_en": "Between January 15 and March 2, 1933, the Blessed Virgin Mary appeared eight times to eleven-year-old Mariette Beco in the small rural village of Banneux, Belgium, nestled in the Ardennes plateau. Clothed in a brilliant white gown with a blue sash and a golden rose on her right foot, the Lady stepped gently across the snow.\n\nDuring her second apparition on January 18, Our Lady led Mariette to a small spring of water beside the road. The Virgin instructed the child to plunge her hands into the freezing stream, proclaiming: *'Push your hands into the water... This spring is reserved for me... reserved for all nations, to bring comfort to the sick.'* On February 15, the Lady revealed her heavenly title: *'I am the Virgin of the Poor'* (*La Vierge des Pauvres*), promising to intercede especially for those burdened by spiritual poverty, destitution, and physical distress.\n\nOccurring in the immediate shadow of Adolf Hitler's rise to power in neighboring Germany in January 1933, the message of Banneux offered a heavenly counterpoint of peace, humility, and maternal tenderness for all nations, transcending racial and nationalistic hatreds.",
+  "historical_summary_vi": "Từ ngày 15 tháng 1 đến ngày 2 tháng 3 năm 1933, Đức Trinh Nữ Maria đã hiện ra tám lần với cô bé 11 tuổi Mariette Beco tại ngôi làng nông thôn nhỏ Banneux, nước Bỉ, trên vùng cao nguyên Ardennes. Mặc áo trắng tinh khôi với thắt lưng xanh và bông hồng vàng trên mu bàn chân phải, Đức Mẹ bước đi nhẹ nhàng trên tuyết trắng.\n\nTrong lần hiện ra thứ hai ngày 18 tháng 1, Đức Mẹ dẫn Mariette đến một dòng suối nhỏ bên đường. Mẹ dạy cô bé nhúng hai bàn tay vào làn nước băng giá và phán: *'Hãy nhúng tay con vào nước... Dòng suối này dành riêng cho Mẹ... dành cho mọi dân tộc để xoa dịu những người đau yếu tật nguyền.'* Ngày 15 tháng 2, Mẹ mạc khải danh hiệu: *'Ta là Đức Mẹ Kẻ Nghèo'* (*La Vierge des Pauvres*), hứa sẽ cầu bầu đặc biệt cho những người chịu cảnh nghèo khó tinh thần, cô thế và đau đớn bệnh tật.\n\nDiễn ra đúng vào thời điểm Adolf Hitler lên nắm quyền tại nước Đức láng giềng vào tháng 1 năm 1933, sứ điệp Banneux là lời mời gọi của thiên đàng về hòa bình, đức khiêm nhường và tình mẫu tử dành cho muôn dân tộc, vượt lên trên mọi hận thù chủng tộc và chủ nghĩa dân tộc cực đoan.",
+  "scripture_reading": "Matthew 5:3",
+  "suggested_prayer_en": "O Virgin of the Poor, Mother of the Savior and Queen of All Nations, you revealed the healing waters of grace for the sick and the destitute. Comfort all who carry heavy burdens of body or spirit, strengthen the poor and afflicted, and teach us to love our neighbor with the tender compassion of Christ. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ Kẻ Nghèo, Mẹ Đấng Cứu Thế và là Nữ Vương Muôn Dân Nước, Mẹ đã tỏ lộ dòng suối ân sủng chữa lành cho những người bệnh tật và nghèo khổ. Xin an ủi tất cả những ai đang mang gánh nặng thể xác hay tâm hồn, nâng đỡ người nghèo hèn và dạy chúng con biết yêu thương tha nhân bằng lòng trắc ẩn dịu hiền của Chúa Kitô. Amen.",
+  "primary_sources": [
+    {
+      "label": "Sanctuaire de Banneux Notre-Dame Official Historical Archives",
+      "url": "https://www.banneux-nd.be/en/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope John Paul II - Letter on the 50th Anniversary of the Banneux Apparitions (1983)",
+      "url": "https://www.vatican.va/content/john-paul-ii/fr/letters/1983/documents/hf_jp-ii_let_19830508_banneux.html",
+      "type": "vatican"
+    }
+  ]
+}

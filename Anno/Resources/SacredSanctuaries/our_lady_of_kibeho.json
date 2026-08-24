@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "our_lady_of_kibeho",
+  "category": "marian_apparition",
+  "name_en": "Sanctuary of Our Lady of Kibeho (Mother of the Word)",
+  "name_vi": "Đền Thánh Đức Mẹ Kibeho (Mẹ Ngôi Lời)",
+  "feast_day_association": "Feast of Our Lady of Kibeho (November 28)",
+  "location": {
+    "shrine_or_basilica": "Sanctuaire Notre-Dame de Kibeho (Mère du Verbe)",
+    "city": "Kibeho",
+    "region_or_state": "Nyaruguru, Southern Province",
+    "country": "Rwanda",
+    "latitude": -2.6539,
+    "longitude": 29.5539,
+    "precision": "apparition_ground"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "2001-06-29",
+    "approving_authority": "Bishop Augustin Misago / Holy See (CDF Declaration)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Officially approved by Bishop Augustin Misago of Gikongoro in communion with the Holy See on June 29, 2001, for the visions of Alphonsine Mumureke, Nathalie Mukamazimpaka, and Marie Claire Mukangango.",
+    "confidence_note_vi": "Được Đức Giám mục Augustin Misago giáo phận Gikongoro hiệp thông với Tòa Thánh chính thức công nhận ngày 29 tháng 6 năm 2001 đối với ba thị nhân: Alphonsine Mumureke, Nathalie Mukamazimpaka và Marie Claire Mukangango."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Apparition Grounds and Chapel of Our Lady of Sorrows",
+      "relic_name_vi": "Linh Địa Hiện Ra và Nguyện Đường Đức Mẹ Sầu Bi Kibeho",
+      "relic_type": "apparition_site",
+      "reliquary_location": "Sanctuary of Our Lady of Kibeho, Nyaruguru"
+    }
+  ],
+  "historical_summary_en": "On November 28, 1981, at a boarding school run by religious sisters in Kibeho, Rwanda, the Blessed Virgin Mary appeared to sixteen-year-old Alphonsine Mumureke, followed by subsequent apparitions to Nathalie Mukamazimpaka and Marie Claire Mukangango. Our Lady identified herself in the Kinyarwanda language as *'Nyina wa Jambo'* ('Mother of the Word') and issued a sorrowful call for sincere repentance, fraternal love, and the restoration of the Rosary of the Seven Sorrows.\n\nOn August 19, 1982, the visionaries witnessed an agonizing eight-hour vision known as the 'Day of Tears.' They saw riverbanks flowing with blood, burning villages, decapitated bodies, and horrifying mass violence. Our Lady warned that if human hearts did not repent and renounce tribal animosity, Rwanda would descend into an abyss of darkness.\n\nTwelve years later, in 1994, the devastating Rwandan Genocide erupted, fulfilling the prophetic visions with tragic precision. Kibeho is the first and only Vatican-approved Marian apparition site on the African continent, standing today as a global sanctuary of healing, reconciliation, and divine mercy.",
+  "historical_summary_vi": "Ngày 28 tháng 11 năm 1981, tại một trường nữ sinh nội trú do các nữ tu điều hành ở Kibeho, Rwanda, Đức Trinh Nữ Maria đã hiện ra với cô nữ sinh 16 tuổi Alphonsine Mumureke, và sau đó hiện ra với Nathalie Mukamazimpaka và Marie Claire Mukangango. Đức Mẹ xưng mình bằng tiếng Kinyarwanda là *'Nyina wa Jambo'* ('Mẹ Ngôi Lời') và tha thiết kêu gọi hoán cải nội tâm, sống đức ái huynh đệ và cổ võ việc lần Chuỗi Bảy Sự Thương Khó Đức Mẹ.\n\nNgày 19 tháng 8 năm 1982, các thị nhân đã trải qua thị kiến đau thương kéo dài 8 giờ đồng hồ gọi là 'Ngày Của Những Giọt Nước Mắt'. Các em nhìn thấy những dòng sông cuộn máu, những ngôi làng bốc cháy, những thi thể lìa đầu và cảnh tượng tàn sát man rợ. Đức Mẹ nghẹn ngào cảnh báo rằng nếu nhân loại không chịu ăn năn sám hối và từ bỏ hận thù bộ tộc, Rwanda sẽ rơi vào thảm kịch kinh hoàng.\n\nMười hai năm sau, vào năm 1994, nạn diệt chủng Rwanda bùng nổ tàn khốc, ứng nghiệm chính xác thị kiến tiên tri năm xưa. Kibeho là đền thánh Mẹ hiện ra đầu tiên và duy nhất tại Lục địa Châu Phi được Tòa Thánh Vatican chính thức phê chuẩn, trở thành ngọn hải đăng của sự hòa giải, chữa lành và lòng thương xót Chúa.",
+  "scripture_reading": "Luke 2:34-35",
+  "suggested_prayer_en": "O Mother of the Word, Our Lady of Kibeho, you wept over the impending darkness of human hatred and invited us to sincere repentance. Melt the coldness of our hearts, banish all seeds of division and tribalism from our communities, and teach us to pray your Rosary of Seven Sorrows with deep contrition. Through Jesus Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Mẹ Ngôi Lời, Đức Mẹ Kibeho, Mẹ đã rơi lệ trước bóng tối hận thù của con người và mời gọi chúng con thật lòng sám hối. Xin làm tan chảy sự băng giá trong tâm hồn chúng con, xua tan mọi mầm mống chia rẽ hận thù trong cộng đoàn và dạy chúng con biết sốt sắng lần hạt Bảy Sự Thương Khó của Mẹ với lòng thống hối chân thành. Nhờ Đức Giêsu Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Declaration of the Bishop of Gikongoro on the Apparitions of Kibeho (June 29, 2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20010629_kibeho_en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Sanctuary of Our Lady of Kibeho Official Documentation",
+      "url": "https://kibeho-sanctuary.com/",
+      "type": "academic"
+    }
+  ]
+}

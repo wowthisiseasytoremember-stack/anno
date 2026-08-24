@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "relics_true_cross_santa_croce",
+  "category": "passion_relic",
+  "name_en": "Basilica of the Holy Cross in Jerusalem (Santa Croce in Gerusalemme)",
+  "name_vi": "Đại Vương Cung Thánh Đường Thánh Giá Giêrusalem (Roma)",
+  "feast_day_association": "Feast of the Exaltation of the Holy Cross (September 14)",
+  "location": {
+    "shrine_or_basilica": "Basilica di Santa Croce in Gerusalemme",
+    "city": "Rome",
+    "region_or_state": "Lazio",
+    "country": "Italy",
+    "latitude": 41.8883,
+    "longitude": 12.5161,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "0325-01-01",
+    "approving_authority": "Empress Saint Helena / Pope Sylvester I / Cardinal Carvajal (1492)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Founded c. 325 AD by Saint Helena inside her Sessorian Palace; earth from Mount Calvary was spread beneath the floor, creating a piece of Jerusalem in Rome; rediscovery of Titulus Crucis sealed in a lead box in 1492.",
+    "confidence_note_vi": "Được Thánh Nữ Hoàng hậu Helena thành lập năm 325 trong Cung điện Sessorian; đất mang từ Đồi Canvê được rải dưới nền nhà tạo nên một mảnh đất Giêrusalem tại Roma; tấm Bảng Titulus Crucis được tìm thấy nguyên vẹn năm 1492."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "Major Relics of the True Cross, Two Holy Nails, Two Thorns, and the Titulus Crucis",
+      "relic_name_vi": "Thánh Tích Cây Gỗ Thập Giá Thật, Hai Đinh Thánh, Hai Gai Nhọn và Bảng Án Lệnh Titulus Crucis",
+      "relic_type": "1st_class_bone",
+      "reliquary_location": "Cappella delle Reliquie (Chapel of the Relics) of Santa Croce in Gerusalemme"
+    }
+  ],
+  "historical_summary_en": "The Basilica of Santa Croce in Gerusalemme is one of the Seven Pilgrim Churches of Rome, founded around 325 AD by Empress Saint Helena, mother of Constantine the Great. Following her historic pilgrimage to the Holy Land in 326 AD where she excavated Mount Calvary and discovered the True Cross (*Vera Crux*), Helena converted a vast hall of her Sessorian Palace into a Christian sanctuary, spreading ship-loads of soil from Golgotha under the floor so that the basilica literally rested upon the holy ground of Jerusalem.\n\nThe sanctuary encloses Christendom's most renowned instruments of the Passion: (1) Three large wood fragments of the True Cross (*Lignum Crucis*); (2) Two original Roman iron nails (*Chiodi Santi*); (3) Two thorns from the Crown of Thorns; (4) The sacred finger bone of Saint Thomas the Apostle; (5) The *Titulus Crucis*—the wooden inscription board placed above Jesus' head by Pontius Pilate (*John 19:19-20*).\n\nPaleographical investigations of the *Titulus Crucis* led by Michael Hesemann and Maria-Luisa Rigato confirmed that the three-line inscription (Hebrew, Greek, and Latin: *'Jesus the Nazarene, King of the Jews'*) is written from right to left in ancient Jewish-Roman chancery style authentic to 1st-century Judaea.",
+  "historical_summary_vi": "Đại Vương Cung Thánh Đường Thánh Giá Giêrusalem là một trong Bảy Nhà Thờ Hành Hương Cổ Truyền của Roma, được Thánh Nữ Hoàng hậu Helena thành lập vào khoảng năm 325. Sau chuyến hành hương lịch sử đến Đất Thánh năm 326 khai quật Đồi Canvê và tìm thấy Cây Thập Giá Thật (*Vera Crux*), Hoàng hậu Helena đã dâng cung điện Sessorian của mình làm thánh đường, cho chuyên chở nhiều thuyền đất từ Núi Sọ rải dưới nền nhà để thánh đường thực sự tọa lạc trên mảnh đất thánh của Giêrusalem.\n\nĐền thánh lưu giữ những Thánh Tích Cuộc Khổ Nạn quý báu nhất của Kitô giáo: (1) Ba mảnh gỗ lớn thuộc Cây Thập Giá Thật (*Lignum Crucis*); (2) Hai chiếc Đinh Sắt La Mã (*Chiodi Santi*); (3) Hai nhánh gai từ Mão Gai Chúa; (4) Đốt ngón tay Thánh Tôma Tông Đồ; (5) Tấm Bảng Án Lệnh *Titulus Crucis* do Pontius Pilate truyền đóng trên đầu Chúa (*Gioan 19:19-20*).\n\nCác nghiên cứu cổ tự học của Giáo sư Michael Hesemann xác nhận dòng chữ viết bằng ba thứ tiếng (Do Thái, Hy Lạp và Latinh: *'Giêsu Nadarét, Vua Dân Do Thái'*) được viết theo chiều từ phải sang trái chuẩn xác theo văn phong hành chính La Mã thế kỷ thứ nhất tại xứ Judaea.",
+  "scripture_reading": "John 19:19-22",
+  "suggested_prayer_en": "We adore you, O Christ, and we praise you, because by your Holy Cross you have redeemed the world. Through the contemplation of the sacred wood, nails, and thorns of your Passion, grant us the strength to take up our cross daily and follow you with steadfast devotion. Amen.",
+  "suggested_prayer_vi": "Chúng con thờ lạy Chúa Kitô và ngợi khen Chúa, vì Chúa đã dùng Thánh Giá Chúa mà cứu chuộc trần gian. Khi chiêm ngắm thánh tích cây gỗ, đinh thánh và mão gai đau thương của Cuộc Khổ Nạn, xin ban cho chúng con sức mạnh để can đảm vác thập giá mình mỗi ngày mà theo chân Chúa. Amen.",
+  "primary_sources": [
+    {
+      "label": "Basilica di Santa Croce in Gerusalemme Official Archival Documentation",
+      "url": "https://www.santacroceroma.it/",
+      "type": "academic"
+    },
+    {
+      "label": "Michael Hesemann - The Sign of the Cross: The Mystery of the Titulus Crucis (2000)",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "academic"
+    }
+  ]
+}

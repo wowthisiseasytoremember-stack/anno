@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "shrine_of_our_lady_of_altotting",
+  "category": "marian_apparition",
+  "name_en": "Gnadenkapelle of Our Lady of Altötting",
+  "name_vi": "Nguyện Đường Ân Sủng Đức Mẹ Altötting",
+  "feast_day_association": "Feast of the Nativity of the Blessed Virgin Mary (September 8)",
+  "location": {
+    "shrine_or_basilica": "Gnadenkapelle (Chapel of Grace)",
+    "city": "Altötting",
+    "region_or_state": "Bavaria",
+    "country": "Germany",
+    "latitude": 48.2267,
+    "longitude": 12.6775,
+    "precision": "chapel_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1489-09-01",
+    "approving_authority": "Diocese of Passau / Pope Pius VI / Pope Benedict XVI (Golden Rose 2006)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Celebrated since 1489 following the verified miraculous resuscitation of a drowned child; awarded the Golden Rose by Bavarian native Pope Benedict XVI in 2006.",
+    "confidence_note_vi": "Được tôn kính từ năm 1489 sau phép lạ cải tử hoàn sinh của một bé trai chết đuối; được Đức Giáo hoàng Biển Đức XVI trao tặng Bông Hồng Vàng vào năm 2006."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Miraculous 14th-Century Linden-Wood Black Madonna Statue and Royal Heart Urns",
+      "relic_name_vi": "Tượng Gỗ Đoạn Mẹ Đen Altötting Thế Kỷ 14 và Các Bình Bạc Đựng Trái Tim Hoàng Gia",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Silver Rococo Altar inside the octagonal Gnadenkapelle"
+    }
+  ],
+  "historical_summary_en": "The Chapel of Grace (*Gnadenkapelle*) in Altötting, Bavaria, is an octagonal pre-Romanesque structure dating back to around 700 AD, traditionally built on the site of an ancient baptistery founded by Saint Rupert of Salzburg. In 1489, a three-year-old boy drowned in the nearby river and his lifeless body was recovered. The grieving mother took the dead child and laid him before the wooden statue of the Virgin Mary in the chapel, praying with desperate tears; miraculously, life returned to the child before eyewitnesses.\n\nShortly thereafter, a second miracle occurred when a boy crushed under a horse cart was instantaneously restored to health after being commended to Our Lady of Altötting. The shrine immediately became the premier pilgrimage center of Central Europe, known as the 'Heart of Bavaria' (*Herz Bayerns*).\n\nTradition established that the hearts of Bavarian monarchs (including King Ludwig II) were preserved in ornate silver urns placed within niches surrounding the miraculous image. Pope Benedict XVI, born in nearby Marktl am Inn, considered Altötting his spiritual home, donating his episcopal ring to the shrine in 2006.",
+  "historical_summary_vi": "Nguyện đường Ân Sủng (*Gnadenkapelle*) tại Altötting, vùng Bavaria, là công trình hình bát giác cổ kính xây dựng từ khoảng năm 700 sau Công Nguyên, tương truyền do Thánh Rupert thành Salzburg lập nên làm nhà rửa tội. Năm 1489, một bé trai 3 tuổi bị rơi xuống sông chết đuối và vớt được thi thể lạnh ngắt. Người mẹ đau đớn bế xác con đến đặt trước tượng Đức Mẹ bằng gỗ đoạn trong nguyện đường, khóc lóc cầu xin; lạ lùng thay, đứa trẻ bỗng mở mắt hồi sinh trước sự kinh ngạc của mọi người.\n\nNgay sau đó, phép lạ thứ hai diễn ra khi một cậu bé bị xe ngựa cán nát thân thể đã được chữa lành tức thì sau khi được phó thác cho Đức Mẹ Altötting. Đền thánh nhanh chóng trở thành trung tâm hành hương hàng đầu của Trung Âu, được mệnh danh là 'Trái Tim của Xứ Bavaria' (*Herz Bayerns*).\n\nTheo truyền thống vương triều, trái tim của các vị vua xứ Bavaria (kể cả Vua Ludwig II) đều được đặt trong các bình bạc chạm trổ tinh xảo đặt xung quanh linh tượng Mẹ. Đức Giáo hoàng Biển Đức XVI, người sinh trưởng tại Marktl am Inn gần đó, luôn coi Altötting là ngôi nhà tâm linh của ngài và đã dâng tặng chiếc nhẫn Giám mục của ngài cho đền thánh năm 2006.",
+  "scripture_reading": "Luke 7:14-15",
+  "suggested_prayer_en": "O Lady of Altötting, Mother of Grace and Patroness of Bavaria, you listened to the desperate prayers of a grieving mother and restored her child to life. Look with maternal pity upon our spiritual death and infirmities; restore us to vibrant life in Christ, and preserve our families in steadfast faith and charity. Amen.",
+  "suggested_prayer_vi": "Lạy Đức Mẹ Altötting, Mẹ Ân Sủng và Quan Thầy Xứ Bavaria, Mẹ đã lắng nghe tiếng kêu van xé lòng của người mẹ mất con và ban ơn hồi sinh cho đứa trẻ. Xin Mẹ đoái nhìn đến những sự chết thiêng liêng và tật nguyền nơi tâm hồn chúng con; xin phục hồi sự sống thánh thiện trong Chúa Kitô và gìn giữ gia đình chúng con luôn kiên vững trong đức tin và đức ái. Amen.",
+  "primary_sources": [
+    {
+      "label": "Gnadenkapelle Altötting Official Historical Chronicles",
+      "url": "https://altoetting.de/en/",
+      "type": "academic"
+    },
+    {
+      "label": "Pope Benedict XVI - Address at the Chapel of Grace, Altötting (September 11, 2006)",
+      "url": "https://www.vatican.va/content/benedict-xvi/en/speeches/2006/september/documents/hf_ben-xvi_spe_20060911_altoetting-welcome.html",
+      "type": "vatican"
+    }
+  ]
+}

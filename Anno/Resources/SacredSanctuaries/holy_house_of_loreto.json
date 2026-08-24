@@ -1,0 +1,48 @@
+{
+  "sanctuary_id": "holy_house_of_loreto",
+  "category": "marian_apparition",
+  "name_en": "Basilica of the Holy House of Loreto",
+  "name_vi": "Đại Vương Cung Thánh Đường Nhà Thánh Loreto",
+  "feast_day_association": "Feast of Our Lady of Loreto (December 10)",
+  "location": {
+    "shrine_or_basilica": "Pontificia Basilica Minore della Santa Casa di Loreto",
+    "city": "Loreto",
+    "region_or_state": "Ancona, Marche",
+    "country": "Italy",
+    "latitude": 43.441,
+    "longitude": 13.6105,
+    "precision": "exact_altar"
+  },
+  "canonical_status": {
+    "approval_or_consecration_date": "1310-01-01",
+    "approving_authority": "Pope Clement V / Pope John Paul II (Apostolic Letter 1994)",
+    "confidence": "confirmed",
+    "confidence_note_en": "Supported by continuous papal bulls since Clement V (1310) and archaeological surveys by Fr. Bellarmino Bagatti confirming stones, mortar, and graffiti matching the 1st-century Grotto of the Annunciation in Nazareth.",
+    "confidence_note_vi": "Được chuẩn nhận qua nhiều Tông sắc của các Đức Giáo hoàng từ thời Clêmentê V (1310); các cuộc khảo cổ học của Cha Bellarmino Bagatti xác nhận cấu trúc đá, vữa và ký tự khắc trên đá hoàn toàn trùng khớp với Hang Đá Truyền Tin thế kỷ thứ nhất tại Nazareth."
+  },
+  "primary_relics": [
+    {
+      "relic_name_en": "The Three Stone Walls of the Holy House of the Annunciation",
+      "relic_name_vi": "Ba Bức Tường Đá Thánh của Ngôi Nhà Truyền Tin Nazareth",
+      "relic_type": "holy_icon",
+      "reliquary_location": "Enclosed within the Marble Screen designed by Bramante inside the Basilica"
+    }
+  ],
+  "historical_summary_en": "According to ancient Catholic tradition, the Holy House of Loreto is the earthly dwelling in Nazareth where the Virgin Mary was born, raised, and received the Annunciation of the Archangel Gabriel, and where the Word became Flesh (*Verbum Caro Factum Est*). Following the fall of the Crusader Kingdom of Jerusalem in 1291, historical documents—specifically the *Chartularium Culisanense* of 1294—record that the stone structure was carefully dismantled and transported from Palestine to Illyria (Trsat, Croatia) and subsequently to the shores of the Marche in Italy by the noble Byzantine family named De Angelis (Angeli).\n\nArchaeological and mineralogical investigations led by Franciscan biblical scholar Bellarmino Bagatti in the 1960s confirmed that the three walls consist of Nabataean limestone cut with ancient techniques and bonded by mortar composed of chemical elements native to the Levant, entirely unknown to medieval central Italy. Furthermore, graffiti scratched into the stones contains Nabataean-Greek monograms identical to those excavated beneath the Basilica of the Annunciation in Nazareth.\n\nThe Holy House stands today enveloped by a masterpiece of Italian Renaissance marble relief designed by Donato Bramante and executed by Sansovino and Sangallo. It has been venerated by hundreds of saints and pontiffs as the sanctified cradle of the Incarnation.",
+  "historical_summary_vi": "Theo truyền thống thánh thiêng của Giáo hội, Nhà Thánh Loreto chính là căn nhà tại Nazareth nơi Đức Trinh Nữ Maria sinh trưởng, đón nhận lời Truyền Tin của Sứ thần Gabriel và là nơi Ngôi Lời đã Nhập Thể làm Người (*Verbum Caro Factum Est*). Sau khi Vương quốc Thập Tự Quân sụp đổ năm 1291, các văn thư lịch sử (đặc biệt là *Chartularium Culisanense* năm 1294) ghi nhận các phiến đá của ngôi nhà đã được tháo dỡ và chuyên chở từ Đất Thánh sang Illyria (Croatia) rồi cập bến Loreto, nước Ý bởi gia tộc quý tộc Byzantine mang họ De Angelis (các Thiên Thần).\n\nCác cuộc khảo cứu khảo cổ học và khoáng vật học do linh mục học giả Phanxicô Bellarmino Bagatti thực hiện thập niên 1960 xác nhận rằng ba bức tường gồm các khối đá vôi kiểu Nabataean kết dính bằng loại vữa chỉ có ở vùng Trung Đông, hoàn toàn không hiện diện tại nước Ý thời Trung Cổ. Hơn thế nữa, các ký tự Hy Lạp-Aramaic khắc trên đá hoàn toàn trùng khớp với các di chỉ được khai quật tại Vương cung Thánh đường Truyền Tin ở Nazareth.\n\nNgôi Nhà Thánh ngày nay được bao bọc bởi lớp phù điêu cẩm thạch tuyệt tác thời Phục Hưng do danh họa Donato Bramante thiết kế, là nơi hành hương chiêm niệm mầu nhiệm Nhập Thể được vô số vị Thánh và Giáo hoàng tôn kính.",
+  "scripture_reading": "John 1:14",
+  "suggested_prayer_en": "O Lord God Almighty, who in your unfathomable mercy consecrated the dwelling of the Blessed Virgin Mary by the Incarnation of your Word, grant that through the intercession of Our Lady of Loreto, our homes may become sanctuaries of faith, pure love, and humble obedience to your Holy Will. Through the same Christ our Lord. Amen.",
+  "suggested_prayer_vi": "Lạy Thiên Chúa Toàn Năng, Đấng đã thánh hóa ngôi nhà của Đức Trinh Nữ Maria qua mầu nhiệm Ngôi Lời Nhập Thể, xin nhờ lời chuyển cầu của Đức Mẹ Loreto, biến đổi gia đình chúng con thành đền thánh của đức tin, tình yêu tinh tuyền và sự vâng phục thánh ý Chúa trong khiêm hạ. Nhờ Đức Kitô, Chúa chúng con. Amen.",
+  "primary_sources": [
+    {
+      "label": "Pope John Paul II - Letter for the Seventh Centenary of the Shrine of Loreto (1993)",
+      "url": "https://www.vatican.va/content/john-paul-ii/it/letters/1993/documents/hf_jp-ii_let_19930815_loreto.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Sanctuary of the Holy House of Loreto - Historical & Archaeological Dossier",
+      "url": "https://www.santuarioloreto.va/en.html",
+      "type": "academic"
+    }
+  ]
+}
