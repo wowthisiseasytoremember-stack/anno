@@ -1,5 +1,22 @@
 # CHANGELOG — Anno
 
+## [Unreleased] - 2026-08-24
+
+### Content Pipeline & Master Dataset Expansion (Phase A)
+- **Primary Source Citation Backfill:** Created `tools/backfill_citations.py` and populated >=2 verified, high-authority liturgical/historical source citations across all fortnight and August entries.
+- **Engine B September–December Expansion (122 Days):** Created `tools/batch_generate_engine_b.py` and generated daily historical research dossiers and sibling Vietnamese files for 2026-09-01 through 2026-12-31 based on the General Roman Calendar 2026 and multi-calendar math.
+- **Master 182-Day Unified Dataset:** Upgraded `tools/normalize_fixture.py` and compiled `Anno/Resources/anno_unified_2026.json` to 182 continuous days (July 3, 2026 – December 31, 2026) with 100% complete Vietnamese fields and zero validation errors.
+- **Swift Mock Data Exporter:** Updated `tools/export_swift_fixture.py` and regenerated `ios-fixtures/AnnoMockData.swift` with the full 182-day dataset.
+- **365-Day Devotional Pool:** Created `Anno/Resources/anno_devotional_pool_365.json` with 365 bilingual daily meditations across 12 spiritual seasons (Thomas à Kempis, Francis de Sales, Augustine, Brother Lawrence, Montfort, and Scripture), accompanied by `tools/validate_devotional_pool.py` and `Anno/Models/Devotional.swift`.
+
+### Monetization Assets & Schemas (Phase B)
+- **StoreKit 2 Configuration:** Created `Anno/Configuration/AnnoProducts.storekit` defining Day Pass ($1.99 non-consumable), Premium Annual ($49.99/yr), Premium Monthly ($4.99/mo), Pilgrim Annual ($79.99/yr), and Pilgrim Monthly ($9.99/mo).
+- **Product Metadata & Paywall Triggers:** Added `Anno/Resources/product_metadata.json` and `Anno/Resources/paywall_triggers.json` formalizing client trigger rules for archive access, routes, audio, and spiritual bouquets.
+- **Entitlement Service:** Created `Anno/Services/EntitlementService.swift` with StoreKit 2 transaction listeners, tier states, preview mock overrides, and paywall view bindings.
+- **Pilgrimage Route Packs:** Defined `docs/PILGRIMAGE_ROUTE_SCHEMA.md` and authored 4 bilingual route packs in `Anno/Resources/PilgrimageRoutes/` (Rome 7 Churches, Holy Land Passion, European Marian Shrines, Vietnam Shrines) validated with `tools/validate_route_coordinates.py`.
+- **Sacred Art Dossiers Catalog:** Curated 65 verified public-domain masterpieces in `Anno/Resources/ArtDossiers/art_dossiers_catalog.json` with bilingual theological commentary and verified HTTP reachability via `tools/verify_artwork_links.py`.
+- **Localization Expansion:** Expanded `localization/en/Localizable.strings` and `localization/vi/Localizable.strings` to 63 keys with 100.0% coverage verified by `tools/validate_localization.py`.
+
 ## [Unreleased] - 2026-08-10
 
 ### Documentation & Repository Health

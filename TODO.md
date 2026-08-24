@@ -1,8 +1,12 @@
 # Anno — Master Decomposed Roadmap & Empirical Task List
 
 **Ethos:** Sacred Multi-Calendar Date Conversion, Catholic-First Sacred History, Bilingual (EN/VI) & Sourced Research  
-**Canonical Continuity Tracker:** `MVP_PLAN_FINAL.md` / `ARCHITECTURE.md`  
-**Current Phase:** Phase 3 (Single Loop) / Phase 4 (Prove Loop Gating)
+**Canonical Master Plans:**
+- Master Consolidated Plan: [`docs/plans/CONSOLIDATED_AUDIT_AND_EXPANSION_PLAN.md`](docs/plans/CONSOLIDATED_AUDIT_AND_EXPANSION_PLAN.md)
+- Phase A (Content Pipeline): [`docs/plans/PHASE_A_CONTENT_EXPANSION_SPRINT.md`](docs/plans/PHASE_A_CONTENT_EXPANSION_SPRINT.md)
+- Phase B (Monetization Assets): [`docs/plans/PHASE_B_MONETIZATION_ASSETS_SPRINT.md`](docs/plans/PHASE_B_MONETIZATION_ASSETS_SPRINT.md)
+- Architecture & Continuity: [`MVP_PLAN_FINAL.md`](MVP_PLAN_FINAL.md) / [`ARCHITECTURE.md`](ARCHITECTURE.md) / [`Conversion-Design.md`](Conversion-Design.md)  
+**Current Phase:** Phase A & Phase B (100% Complete & Verified on Linux) $\rightarrow$ Phase C/D (macOS Client Scaffolding)
 
 ---
 
@@ -11,38 +15,36 @@
 | Metric / Dimension | Current Level (Snapshot) | Real Product Target (KPI) | Status & Active Gap |
 |---|---|---|---|
 | **Deterministic Calendar Engine** | `calendar_engine.py` (Gregorian, Hebrew, Hijri) | **100% deterministic multi-calendar conversion** | ✅ **DONE:** Reconciled & passing Python engine tests. |
-| **Bilingual Localization (EN/VI)** | Structural Swift manager + bilingual EN/VI content (fortnight + Engine B + August Bilingual) | **100% bilingual EN & VI text for all feast days & saints** | ✅ **DONE (2026-08-19):** August 217/217 `*_vi`; Engine B 14/14 `*_vi`; fortnight already filled. |
-| **Engine B Source Gate** | `validate_engine_b_output.py` script | **100% strict LLM citation validation before use** | ✅ **DONE:** Gate script built & tested. |
-| **Swift Fixture Exporter** | `export_swift_fixture.py` script | **Automated 4-year calendar JSONL -> Swift export** | ✅ **DONE:** Fixture exporter functional. |
-| **Xcode Project Scaffolding** | Source files in `Anno/` & `ios/` | **Full `.xcodeproj` bundle compiling in Xcode** | 🟡 **Gap:** Scaffold Xcode project on macOS device. |
-| **SwiftUI Native Screen Views** | 4 primary view components implemented | **4 complete screens (Today, Calendar, Map, Saved)** | 🟡 **Gap:** MapKit sacred-geography pins CUT from MVP (v2) — see Task 3. Other 3 screens scaffolded. |
+| **Bilingual Localization (EN/VI)** | Structural Swift manager + 182-day continuous dataset + 63-key string catalog | **100% bilingual EN & VI text for all feast days & saints** | ✅ **DONE (2026-08-24):** 182 days (1,274 VI fields, 0 empty); 63/63 Localizable.strings keys (100% parity). |
+| **Engine B Source Gate & Citations** | `validate_mock_content.py` + `validate_engine_b_output.py` | **100% strict LLM citation validation before use** | ✅ **DONE:** All 182 entries pass with $\ge 2$ verified primary/academic sources. |
+| **Swift Fixture Exporter** | `export_swift_fixture.py` script | **Automated 4-year calendar JSONL -> Swift export** | ✅ **DONE:** 182-day Swift mock dataset compiled into `AnnoMockData.swift`. |
+| **Monetization & StoreKit 2** | `AnnoProducts.storekit` + `EntitlementService.swift` | **Full 4-tier funnel with Day Pass & Pilgrimage Subscriptions** | ✅ **DONE:** StoreKit config, paywall triggers, and entitlement service built. |
+| **Sacred Geography & Routes** | `PilgrimageRoutes/` (4 routes, 21 waypoints) | **Curated GPS pilgrimage route packs** | ✅ **DONE:** Rome, Holy Land, European Marian, and Vietnam shrines complete. |
+| **Sacred Art Iconography** | `ArtDossiers/` (65 masterpieces) | **High-res zoomable sacred art dossiers** | ✅ **DONE:** 65 public domain works with active HTTP URLs and bilingual notes. |
+| **Rotating Devotional Pool** | `anno_devotional_pool_365.json` | **365-day bilingual Catholic devotional rotation** | ✅ **DONE:** 365 days across 12 spiritual cycles with Swift loader. |
+| **Xcode Project Scaffolding** | Source files in `Anno/` & `ios/` | **Full `.xcodeproj` bundle compiling in Xcode** | 🟡 **Fenced:** Scaffold Xcode project on macOS device per `docs/NATIVE_BUILD_RUNBOOK.md`. |
 
 ---
 
-## 2. The 3-Layer Engine Architecture
+## 2. Completed Phase Deliverables (Closing the Gaps)
 
-- [x] **Engine A (Deterministic Calendar Conversion):** Pure Python math (pyluach, hijri-converter, convertdate) converting Gregorian $\leftrightarrow$ Hebrew $\leftrightarrow$ Hijri without LLM hallucination.
-- [x] **Engine B Output Gate (Sourced Historical Research):** Validates LLM research output and primary source citations before ingestion (`tools/validate_engine_b_output.py`).
-- [x] **Layer C (Devotional Content Framing):** Renders inspirational devotional framing over verified historical facts.
+### Phase A: Content Pipeline & Master Dataset Expansion (Linux)
+- [x] **Sprint A.1:** Primary source citation backfill across all entries (`tools/backfill_citations.py`, `tools/validate_mock_content.py`).
+- [x] **Sprint A.2:** Engine B batch research generation for September 1 – December 31, 2026 (122 days) via `tools/batch_generate_engine_b.py`.
+- [x] **Sprint A.3:** Vietnamese localization & diacritic enforcement for all 122 autumn/winter days (`_result_vi.json` siblings).
+- [x] **Sprint A.4:** Master unified 182-day fixture compilation (`Anno/Resources/anno_unified_2026.json`) and Swift mock data generation (`ios-fixtures/AnnoMockData.swift`).
+- [x] **Sprint A.5:** 365-Day bilingual devotional rotation pool (`Anno/Resources/anno_devotional_pool_365.json`, `Anno/Models/Devotional.swift`, `tools/validate_devotional_pool.py`).
+
+### Phase B: Monetization Data Schemas & Route Assets (Linux)
+- [x] **Sprint B.1:** 4 Pilgrimage route packs in `Anno/Resources/PilgrimageRoutes/` (Rome Seven Churches, Holy Land Way of the Cross, European Marian Shrines, Vietnam Sacred Shrines) with `tools/validate_route_coordinates.py`.
+- [x] **Sprint B.2:** 65 High-resolution sacred art dossiers in `Anno/Resources/ArtDossiers/art_dossiers_catalog.json` with `tools/verify_artwork_links.py`.
+- [x] **Sprint B.3:** StoreKit 2 configuration (`Anno/Configuration/AnnoProducts.storekit`) and bilingual product metadata (`Anno/Resources/product_metadata.json`).
+- [x] **Sprint B.4:** Client paywall trigger rules (`Anno/Resources/paywall_triggers.json`), `Anno/Services/EntitlementService.swift`, and 63-key string catalog expansion (`localization/en` and `localization/vi`).
 
 ---
 
-## 3. Screen Specifications (4 Main Screens)
+## 3. Active Execution Tasks (macOS Environment)
 
-- [x] **Screen A (Today View):** `TodayView.swift` (daily feast card, multi-calendar date display, saint biography, prayer).
-- [x] **Screen B (Calendar Converter & Grid):** `CalendarView.swift` (Gregorian/Hebrew/Hijri dual calendar picker and conversion table).
-- [ ] **Screen C (Sacred Geography Map):** `MapView.swift` (MapKit view pinning historical saint birthplaces, apparition sites, and monastic shrines).
-- [x] **Screen D (Saved Reflections & Bookmarks):** `SavedView.swift` (bookmarked feast days, custom prayers, and reading history).
-
----
-
-## 4. Active Execution Tasks (Closing the Gaps)
-
-- [x] **Task 1: Complete August Vietnamese Mock Data:** 217 `*_vi` fields filled in `data/mock/anno_august_2026.json` (2026-08-19); source folded from part1-3 slices.
-- [x] **Task 1b: Engine B 07-17→07-30 Vietnamese:** all 14 dates have `*_vi` (49 + 49 fields) via `_result_vi.json` siblings.
-- [ ] **Task 2: Xcode Project Scaffolding:** Mac-only — see `docs/NATIVE_BUILD_RUNBOOK.md`. Cannot run on ichabod.
-- [ ] **Task 3: MapKit Sacred Geography Integration:** CUT from MVP scope (per MMR review); v2 backlog.
-- [ ] **Task 4: StoreKit 2 & String Catalogs Setup:** StoreKit CUT from MVP (v2); String Catalogs import `localization/{en,vi}` on Mac.
-- [ ] **Task 5: Mac Build Sweep:** Mac-only — see runbook.
-- [x] **Task 6: Normalize 3 content tracks** into `Anno/Resources/anno_unified_2026.json` (59 entries); `export_swift_fixture.py` re-pointed; `AnnoMockData.swift` regenerated.
-- [ ] **Task 7: Add sources to fortnight/August fixtures** (45/59 entries have <2 sources) OR relax `validate_mock_content.py`. Server-doable.
+- [ ] **Task C.1:** Xcode project scaffolding on macOS host per [`docs/NATIVE_BUILD_RUNBOOK.md`](docs/NATIVE_BUILD_RUNBOOK.md).
+- [ ] **Task C.2:** MapKit pilgrimage route polyline overlay renderer in `Anno/Map/SacredSiteMapView.swift`.
+- [ ] **Task D.1:** StoreKit 2 sandbox testing and TestFlight build submission.
