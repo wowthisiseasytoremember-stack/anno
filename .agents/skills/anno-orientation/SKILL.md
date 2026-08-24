@@ -52,7 +52,20 @@ Interrupted export scripts or manual edits can leave Swift fixture files in a co
 
 To prevent documentation sprawl and conflicting roadmaps, maintain the following hierarchy:
 
-*   **ROADMAP.md:** High-level roadmap tracking phases and checkboxes.
-*   **MVP_PLAN_FINAL.md:** The active, single source of truth for the TestFlight MVP scope (with cut features like Maps and Paywalls documented).
+*   **docs/plans/CONSOLIDATED_AUDIT_AND_EXPANSION_PLAN.md:** Master roadmap covering empirical capabilities, active gaps, monetization architecture, and the full concurrency matrix.
+*   **docs/plans/PHASE_A_CONTENT_EXPANSION_SPRINT.md:** Granular, task-level sprint plan for server-side content generation and source verification.
+*   **docs/plans/PHASE_B_MONETIZATION_ASSETS_SPRINT.md:** Granular sprint plan for pilgrimage route packs, art dossiers, and StoreKit 2 assets.
+*   **TODO.md / ROADMAP.md:** High-level roadmap tracking phases, empirical checklist, and pricing ladder gaps.
+*   **MVP_PLAN_FINAL.md:** The single source of truth for the TestFlight MVP scope.
 *   **STATE.md:** Active session state, next tasks, and frontier artifacts.
 *   **docs/archive/:** Move stale draft plans (e.g., `MVP_PLAN.md`, `MVP_PLAN_V2.md`) and outdated site-survey plans here to keep the root directory clean.
+
+---
+
+## 5. Monetization & Concurrency Audit Protocol
+
+When auditing commercial apps and content pipelines:
+
+1. **Audit the Pricing Funnel & Ethical Boundaries:** Verify that free tiers build habit and trust while gating depth/utility (e.g. archive, travel routes, art, audio). Include low-friction $1.99 buyer micro-unlocks and default annual anchor pricing. Reject all predatory/guilt-based mechanics.
+2. **Decompose Concurrency:** Mark tasks with explicit `[PARALLELIZABLE — IMMEDIATE]`, `[PIPELINED]`, and `[SYNCHRONIZATION BARRIER]` tags. Decouple independent backend data preparation from client UI scaffolding.
+3. **Run Live Validators:** Always run test suites and validator scripts (`tools/validate_*.py`) directly on the dataset to discover actual source or field deficits before authoring plans.

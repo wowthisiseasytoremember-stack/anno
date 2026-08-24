@@ -188,6 +188,12 @@ def validate_entry(entry: dict, strict: bool, check_sources: bool) -> tuple[int,
         if stype == "encyclopedia" and "newadvent.org" not in url:
             warn(f"source[{i}]: type=encyclopedia but URL doesn't contain newadvent.org")
 
+    # Artwork validation
+    artwork = entry.get("artwork", {})
+    artwork_url = artwork.get("source_url", "")
+    if "example.com" in artwork_url:
+        fail("artwork.source_url: example.com URL not allowed")
+
     # Content quality
     pri = entry.get("primary", {})
     summary_en = pri.get("summary_en", "")
