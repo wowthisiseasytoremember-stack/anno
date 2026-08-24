@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần XXII Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần XXII Mùa Thường Niên",
+    "summary_vi": "Thứ Tư tuần XXII Mùa Thường Niên tiếp tục hành trình chiêm niệm của Giáo hội qua các giáo huấn của Chúa Giêsu Kitô. Phụng vụ nhắc nhở các tín hữu rằng sự thờ phượng đích thực phát xuất từ một tâm hồn sám hối và lòng yêu mến chân lý sâu sắc. Trong mọi công việc bình dị, chúng ta được mời gọi làm chứng cho ánh sáng Tin Mừng.",
+    "body_vi": "Chu kỳ phụng vụ Mùa Thường Niên nhắc nhở chúng ta rằng đức tin không chỉ dành riêng cho các đại lễ trọng thể, mà phải thấm nhuần vào từng giờ phút của đời sống con người. Trong Tin Mừng Luca, Chúa Kitô giảng dạy nơi hội đường, chữa lành bệnh tật và lui vào nơi thanh vắng để cầu nguyện cùng Chúa Cha.\n\nCác tín hữu được mời gọi noi gương Chúa bằng việc tìm kiếm sự thinh lặng thánh thiện giữa những bận rộn trần thế. Khi lao động được dâng lên với ý hướng ngay lành, nó sẽ được nâng lên thành của lễ thiêng liêng đẹp lòng Thiên Chúa.\n\nChúng ta hãy canh tân quyết tâm hôm nay để nói năng hòa nhã, hành động công chính và hướng tâm trí về những lời hứa của sự sống đời đời.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-02."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Dâng hiến công việc hàng ngày như lời kinh sống động lên Chúa Cha",
+    "prayer_prompt_vi": "Lạy Chúa, xin dẫn dắt từng bước đi của con và cho mọi công việc con làm đều tôn vinh Thánh Danh Chúa."
+  }
+}

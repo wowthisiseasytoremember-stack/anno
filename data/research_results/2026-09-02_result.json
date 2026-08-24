@@ -1,0 +1,57 @@
+{
+  "id": "anno-2026-09-02",
+  "date": "2026-09-02",
+  "weekday": "Wednesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of the Twenty-Second Week in Ordinary Time",
+    "title_vi": "Thứ Tư tuần XXII Mùa Thường Niên"
+  },
+  "calendars": {
+    "julian": "2026-08-20",
+    "hebrew": "20 Elul 5786",
+    "islamic_umm_al_qura": "20 Rabi' al-Awwal 1448 AH",
+    "coptic": "27 Mesori 1742",
+    "ethiopian": "27 Nehase 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Twenty-Second Week in Ordinary Time",
+    "title_vi": "Thứ Tư tuần XXII Mùa Thường Niên",
+    "summary_en": "Wednesday of the Twenty-Second Week in Ordinary Time continues the Church's meditative journey through the teachings of Jesus Christ. The liturgy reminds believers that true worship flows from a contrite heart and an active love for truth. In every ordinary task, we are called to bear witness to the light of the Gospel.",
+    "summary_vi": "Thứ Tư tuần XXII Mùa Thường Niên tiếp tục hành trình chiêm niệm của Giáo hội qua các giáo huấn của Chúa Giêsu Kitô. Phụng vụ nhắc nhở các tín hữu rằng sự thờ phượng đích thực phát xuất từ một tâm hồn sám hối và lòng yêu mến chân lý sâu sắc. Trong mọi công việc bình dị, chúng ta được mời gọi làm chứng cho ánh sáng Tin Mừng.",
+    "body_en": "The liturgical cycle of Ordinary Time reminds us that faith is not reserved solely for grand solemnities, but must permeate every hour of human existence. In the Gospel of Luke, Christ preaches in synagogues, heals the sick, and retires to solitary places to pray to His Heavenly Father.\n\nBelievers are invited to follow the Lord's example by finding sacred stillness in the midst of worldly responsibilities. When our labor is offered with pure intention, it is elevated into spiritual sacrifice pleasing to God.\n\nLet us renew our commitment today to speak with gentleness, act with justice, and keep our minds centered on the promises of eternal life.",
+    "body_vi": "Chu kỳ phụng vụ Mùa Thường Niên nhắc nhở chúng ta rằng đức tin không chỉ dành riêng cho các đại lễ trọng thể, mà phải thấm nhuần vào từng giờ phút của đời sống con người. Trong Tin Mừng Luca, Chúa Kitô giảng dạy nơi hội đường, chữa lành bệnh tật và lui vào nơi thanh vắng để cầu nguyện cùng Chúa Cha.\n\nCác tín hữu được mời gọi noi gương Chúa bằng việc tìm kiếm sự thinh lặng thánh thiện giữa những bận rộn trần thế. Khi lao động được dâng lên với ý hướng ngay lành, nó sẽ được nâng lên thành của lễ thiêng liêng đẹp lòng Thiên Chúa.\n\nChúng ta hãy canh tân quyết tâm hôm nay để nói năng hòa nhã, hành động công chính và hướng tâm trí về những lời hứa của sự sống đời đời.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-09-02.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-02."
+  },
+  "place": null,
+  "artwork": {
+    "title": "Christ Healing the Sick",
+    "maker": "Rembrandt van Rijn",
+    "date_label": "c. 1649",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_The_Hundred_Guilder_Print.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia – Ordinary Time",
+      "url": "https://www.newadvent.org/cathen/11267a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Offer your daily work as a living prayer to the Father",
+    "hero_line_vi": "Dâng hiến công việc hàng ngày như lời kinh sống động lên Chúa Cha",
+    "prayer_prompt_en": "Direct my steps, O Lord, and let my work give glory to Your name.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dẫn dắt từng bước đi của con và cho mọi công việc con làm đều tôn vinh Thánh Danh Chúa."
+  }
+}

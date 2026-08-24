@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-07-31",
+  "date": "2026-07-31",
+  "weekday": "Friday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Memorial of Saint Ignatius of Loyola, Priest",
+    "title_vi": "Lễ Nhớ Thánh Inhaxiô thành Loyola, Linh mục"
+  },
+  "calendars": {
+    "julian": "2026-07-18",
+    "hebrew": "17 Av 5786",
+    "islamic_umm_al_qura": "17 Safar 1448 AH",
+    "coptic": "24 Epip 1742",
+    "ethiopian": "24 Hamle 2018"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saint Ignatius of Loyola",
+    "title_vi": "Thánh Inhaxiô thành Loyola",
+    "summary_en": "Saint Ignatius of Loyola (1491–1556) was a Spanish knight who underwent a profound spiritual conversion while recovering from battle wounds, founding the Society of Jesus (Jesuits) and authoring the Spiritual Exercises. His life motto, Ad Maiorem Dei Gloriam (For the Greater Glory of God), shaped Catholic education, missions, and spiritual discernment worldwide.",
+    "summary_vi": "Thánh Inhaxiô thành Loyola (1491–1556) là một hiệp sĩ người Tây Ban Nha đã trải qua cuộc hoán cải tâm linh sâu sắc trong thời gian dưỡng thương sau trận chiến, sáng lập Dòng Tên (Dòng Chúa Giêsu) và trước tác cuốn Linh Thao. Châm ngôn sống của ngài, Ad Maiorem Dei Gloriam (Để Thiên Chúa được vinh quang hơn), đã định hình nền giáo dục, truyền giáo và nghệ thuật phân định thiêng liêng trên toàn cầu.",
+    "body_en": "Born Íñigo López de Oñaz y Loyola in the Basque country of Spain, Ignatius pursued a life of chivalric glory as a soldier until a French cannonball shattered his leg at the Battle of Pamplona in 1521. During his long convalescence, having only the *Life of Christ* and the *Flos Sanctorum* (Lives of the Saints) to read, he noticed that thoughts of worldly conquests left him despondent, while thoughts of serving Christ filled his soul with lasting peace.\n\nRenouncing his knightly sword before the Black Madonna of Montserrat, Ignatius spent a year in austere prayer and solitude at Manresa. There, he formulated the *Spiritual Exercises*, a foundational manual of Catholic meditative prayer and discernment of spirits. He subsequently studied theology at the University of Paris, gathering six companions—including Saint Francis Xavier and Saint Peter Faber—to pronounce vows of poverty, chastity, and obedience to the Pope in 1534.\n\nPope Paul III officially approved the Society of Jesus in 1540, electing Ignatius as its first Superior General. Under his direction, Jesuit fathers founded schools, universities, and foreign missions across the globe, becoming the intellectual vanguard of the Catholic Reformation.",
+    "body_vi": "Sinh ra tại xứ Basque (Tây Ban Nha), Inhaxiô theo đuổi vinh quang hiệp sĩ cho đến khi một quả đạn pháo của quân Pháp làm vỡ nát chân ngài trong trận chiến Pamplona năm 1521. Trong thời gian dưỡng bệnh kéo dài, ngài chỉ có hai cuốn sách để đọc là *Cuộc đời Chúa Kitô* và *Hạnh Các Thánh*. Ngài nhận thấy những suy nghĩ về danh vọng trần thế khiến ngài trống rỗng, trong khi suy nghĩ về việc phụng sự Đức Kitô lại tràn ngập tâm hồn ngài sự bình an sâu thẳm.\n\nTừ bỏ thanh gươm hiệp sĩ trước tượng Đức Mẹ Đen tại Tu viện Montserrat, Inhaxiô đã trải qua một năm cầu nguyện và khổ hạnh tại hang đá Manresa. Tại đó, ngài đã biên soạn cuốn *Linh Thao*, một tác phẩm kinh điển về cầu nguyện chiêm niệm và phân định các thần loại. Sau đó, ngài theo học thần học tại Đại học Paris, tập hợp sáu người bạn đầu tiên—trong đó có Thánh Phanxicô Xaviê và Thánh Phêrô Faber—để cùng tuyên khấn khó nghèo, khiết tịnh và vâng phục Đức Giáo hoàng vào năm 1534.\n\nĐức Giáo hoàng Phaolô III đã chính thức phê chuẩn Dòng Tên vào năm 1540, bầu Thánh Inhaxiô làm Bề Trên Tổng Quyền tiên khởi. Dưới sự lãnh đạo của ngài, các tu sĩ Dòng Tên đã thành lập các trường học, đại học và các cơ sở truyền giáo khắp năm châu, trở thành ngọn cờ tri thức và mục vụ của cuộc Canh tân Công giáo.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Universal Roman Calendar maintains his memorial on July 31, corresponding to the date of his death in Rome in 1556.",
+    "confidence_note_vi": "Lịch Chung Rôma duy trì lễ nhớ của ngài vào ngày 31 tháng 7, tương ứng với ngày ngài qua đời tại Rôma năm 1556."
+  },
+  "place": {
+    "name": "Church of the Gesù, Rome, Italy",
+    "latitude": 41.8959,
+    "longitude": 12.4797,
+    "confidence": "confirmed",
+    "source_url": "https://www.chiesadelgesu.org"
+  },
+  "artwork": {
+    "title": "Saint Ignatius of Loyola",
+    "maker": "Peter Paul Rubens",
+    "date_label": "c. 1600–1620",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rubens_Ignatius_von_Loyola.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar – St. Ignatius of Loyola",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia – St. Ignatius Loyola",
+      "url": "https://www.newadvent.org/cathen/07638a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Autobiography of St. Ignatius of Loyola (Internet Archive)",
+      "url": "https://archive.org/details/autobiographyofs00igna",
+      "type": "academic"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "All for the greater glory of God — Ad Maiorem Dei Gloriam",
+    "hero_line_vi": "Tất cả để tôn vinh Thiên Chúa hơn — Ad Maiorem Dei Gloriam",
+    "prayer_prompt_en": "Pray for the gift of discernment and generous dedication to God holy will today.",
+    "prayer_prompt_vi": "Cầu xin ơn phân định thiêng liêng và lòng quảng đại hiến dâng trọn vẹn cho thánh ý Chúa hôm nay."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "anno-2026-09-01",
+  "date": "2026-09-01",
+  "weekday": "Tuesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of the Twenty-Second Week in Ordinary Time",
+    "title_vi": "Thứ Ba tuần XXII Mùa Thường Niên"
+  },
+  "calendars": {
+    "julian": "2026-08-19",
+    "hebrew": "19 Elul 5786",
+    "islamic_umm_al_qura": "19 Rabi' al-Awwal 1448 AH",
+    "coptic": "26 Mesori 1742",
+    "ethiopian": "26 Nehase 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Twenty-Second Week in Ordinary Time",
+    "title_vi": "Thứ Ba tuần XXII Mùa Thường Niên",
+    "summary_en": "Tuesday of the Twenty-Second Week in Ordinary Time invites the faithful to live the Gospel in the routine moments of daily life. The liturgical color green symbolizes growth, vitality, and enduring hope in God's kingdom. Today's liturgy calls us to cultivate interior humility and authentic charity toward our neighbors.",
+    "summary_vi": "Thứ Ba tuần XXII Mùa Thường Niên mời gọi các tín hữu sống Tin Mừng trong những khoảnh khắc bình dị của đời sống thường nhật. Màu phụng vụ xanh lá tượng trưng cho sự tăng trưởng, sức sống và niềm hy vọng bền bỉ vào Nước Thiên Chúa. Phụng vụ hôm nay thôi thúc chúng ta vun trồng lòng khiêm nhường nội tâm và đức bác ái chân thành đối với tha nhân.",
+    "body_en": "Ordinary Time occupies the greater part of the Church's liturgical year, offering a sacred rhythm that sanctifies daily labor, family duties, and quiet prayer. During this season, the readings from the Gospels provide continuous instruction on the teachings and miracles of Jesus Christ, drawing the soul into deeper discipleship.\n\nOn this weekday, the Church encourages Christians to reflect upon the sermon of Christ and His call to personal conversion. The ordinary circumstances of life become the very altar upon which we offer our daily sacrifices of patience, kindness, and devotion to God.\n\nBy uniting our daily tasks with the prayer of the universal Church, we participate in the sanctification of the world. Even without a major feast, every sunrise is a renewed gift of divine grace.",
+    "body_vi": "Mùa Thường Niên chiếm phần lớn thời gian trong năm phụng vụ của Giáo hội, mang lại một nhịp điệu thánh thiêng thánh hóa lao động thường ngày, bổn phận gia đình và lời cầu nguyện âm thầm. Trong mùa này, các bài đọc Tin Mừng mang đến sự hướng dẫn liên tục về các lời giảng dạy và phép lạ của Chúa Giêsu Kitô, dẫn đưa tâm hồn vào sự môn đệ sâu sắc hơn.\n\nVào ngày thường này, Giáo hội khuyến khích các Kitô hữu suy ngẫm về lời rao giảng của Đức Kitô và lời mời gọi hoán cải bản thân. Những hoàn cảnh bình dị của cuộc sống trở thành chính bàn thờ nơi chúng ta dâng lên những hy sinh hàng ngày về sự kiên nhẫn, lòng nhân ái và lòng sùng kính Thiên Chúa.\n\nBằng việc kết hợp những công việc thường nhật với lời cầu nguyện của Giáo hội hoàn vũ, chúng ta tham gia vào việc thánh hóa trần gian. Ngay cả khi không có lễ lớn, mỗi bình minh vẫn là một hồng ân mới mẻ của ân sủng thần linh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-09-01.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-01."
+  },
+  "place": null,
+  "artwork": {
+    "title": "Green Liturgical Vestment Detail",
+    "maker": "Unknown",
+    "date_label": "20th Century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Green_vestments.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2026",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "General Roman Calendar (Editio Typica Tertia)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Deepen your daily walk with Christ in Ordinary Time",
+    "hero_line_vi": "Đào sâu bước đường theo Chúa Kitô trong Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, sanctify my ordinary moments and help me recognize Your holy presence today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin thánh hóa những khoảnh khắc bình dị và giúp con nhận ra sự hiện diện thánh thiện của Chúa hôm nay."
+  }
+}

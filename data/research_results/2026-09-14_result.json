@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-09-14",
+  "date": "2026-09-14",
+  "weekday": "Monday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "Feast of the Exaltation of the Holy Cross",
+    "title_vi": "Lễ Suy Tôn Thánh Giá"
+  },
+  "calendars": {
+    "julian": "2026-09-01",
+    "hebrew": "3 Tisrei 5787",
+    "islamic_umm_al_qura": "3 Rabi' al-Thani 1448 AH",
+    "coptic": "4 Thout 1743",
+    "ethiopian": "4 Meskerem 2019"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Feast of the Exaltation of the Holy Cross",
+    "title_vi": "Lễ Suy Tôn Thánh Giá",
+    "summary_en": "The Feast of the Exaltation of the Holy Cross commemorates the recovery and veneration of the True Cross of Christ by Saint Helena and Emperor Heraclius, as well as the dedication of the Basilica of the Holy Sepulchre in Jerusalem in 335. The Cross, once an instrument of shame and death, is exalted as the glorious tree of life and symbol of eternal victory.",
+    "summary_vi": "Lễ Suy Tôn Thánh Giá kỷ niệm việc tìm lại và tôn kính Cây Thánh Giá Thật của Đức Kitô bởi Thánh Nữ Hêlêna và Hoàng đế Hêracliút, cũng như việc thánh hiến Vương cung Thánh đường Mộ Thánh tại Giêrusalem năm 335. Cây Thập Giá, vốn là biểu tượng của sự sỉ nhục và chết chóc, nay được tôn vinh là Cây Sự Sống vinh hiển và dấu chỉ chiến thắng khải hoàn muôn đời.",
+    "body_en": "In 326, Saint Helena, mother of Emperor Constantine, made a sacred pilgrimage to Jerusalem and discovered the relic of the True Cross buried beneath the pagan temple of Venus on Calvary. Constantine ordered the construction of a magnificent basilica encompassing both Golgotha and the Holy Sepulchre, which was solemnly dedicated on September 13–14, 335.\n\nThree centuries later, after the Persian Empire captured Jerusalem and carried off the holy relic, Emperor Heraclius recovered the True Cross in 629 and personally carried it barefoot into the Holy City. This triumphant return cemented the universal commemoration of the Holy Cross on September 14 throughout Eastern and Western Christendom.\n\nFor Catholics, the Cross is not an emblem of defeat, but the throne of divine mercy. On the wood of the Cross, Christ conquered sin, abolished death, and reconciled humanity to the Father.",
+    "body_vi": "Năm 326, Thánh Nữ Hêlêna, thân mẫu của Hoàng đế Constantinô, đã thực hiện cuộc hành hương thánh đến Giêrusalem và phát hiện ra thánh tích Cây Thập Giá Thật bị chôn vùi dưới ngôi đền ngoại giáo Venus trên đồi Canvê. Hoàng đế Constantinô đã truyền xây dựng một đại vương cung thánh đường bao trùm cả đồi Canvê và Mộ Thánh, được thánh hiến trọng thể vào ngày 13–14 tháng 9 năm 335.\n\nBa thế kỷ sau, sau khi Đế quốc Ba Tư chiếm Giêrusalem và mang thánh tích đi, Hoàng đế Hêracliút đã lấy lại Cây Thánh Giá vào năm 629 và đích thân đi chân trần vác Cây Thánh Giá trở lại Thánh Đô. Biến cố khải hoàn này đã củng cố việc toàn thể Giáo hội Đông và Tây phương cùng cử hành ngày lễ kính vào ngày 14 tháng 9.\n\nĐối với người Công giáo, Thập Giá không phải là dấu hiệu của thất bại, mà là ngai tòa của lòng thương xót thần linh. Trên cây Thập Giá, Chúa Kitô đã chiến thắng tội lỗi, tiêu diệt sự chết và hòa giải nhân loại với Chúa Cha.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-09-14.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-14."
+  },
+  "place": {
+    "name": "Church of the Holy Sepulchre, Jerusalem",
+    "latitude": 31.7785,
+    "longitude": 35.2296,
+    "confidence": "confirmed",
+    "source_url": "https://www.custodia.org/en/sanctuaries/holy-sepulchre"
+  },
+  "artwork": {
+    "title": "Exaltation of the Cross",
+    "maker": "Piero della Francesca",
+    "date_label": "c. 1452–1466",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Piero_della_Francesca_-_Exaltation_of_the_Cross_-_WGA17578.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar – Exaltation of the Holy Cross",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia – Cross and Crucifix",
+      "url": "https://www.newadvent.org/cathen/04517a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Eusebius of Caesarea, Life of Constantine",
+      "url": "https://www.newadvent.org/fathers/2502.htm",
+      "type": "academic"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "We adore You, O Christ, and we praise You, because by Your Holy Cross You have redeemed the world",
+    "hero_line_vi": "Lạy Chúa Kitô, chúng con thờ lạy và ngợi khen Chúa, vì Chúa đã dùng Thánh Giá mà cứu chuộc trần gian",
+    "prayer_prompt_en": "O God, who willed that Your Only Begotten Son should undergo the Cross to save the human race, grant, we pray, that we who have known His mystery on earth may merit the grace of His redemption in heaven.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã muốn cho Con Một Ngài chịu chết trên Thánh Giá để cứu chuộc nhân loại, xin cho chúng con là những kẻ đã nhận biết mầu nhiệm Thập Giá nơi trần gian, được hưởng ơn cứu chuộc vinh phúc trên thiên quốc."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Các Thánh Nam Nữ"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Các Thánh Nam Nữ",
+    "summary_vi": "Đại Lễ Các Thánh Nam Nữ tôn vinh đoàn người đông đảo vô kể những người nam người nữ thánh thiện đã đạt tới vinh quang chiêm ngưỡng nhan Chúa trên thiên quốc, gồm cả các vị thánh được tuyên thánh và vô số tín hữu âm thầm trung kiên. Đại lễ hướng cái nhìn của chúng ta về quê trời đích thực và khơi dậy ơn gọi nên thánh phổ quát của mỗi người.",
+    "body_vi": "Nguồn gốc của Lễ Các Thánh bắt nguồn từ những thế kỷ đầu tiên của Giáo hội, khi các tín hữu mừng kính toàn thể các thánh tử đạo trong một ngày duy nhất sau Lễ Hiện Xuống. Vào thế kỷ thứ tám, Đức Giáo hoàng Grêgôriô III đã thánh hiến một nhà nguyện trong Vương cung Thánh đường Thánh Phêrô dâng kính toàn thể các thánh, tông đồ, tử đạo và hiển tu, ấn định ngày 1 tháng 11. Sau đó, Đức Giáo hoàng Grêgôriô IV đã mở rộng đại lễ này cho toàn thể Giáo hội vào năm 835.\n\nĐại lễ này cử hành mầu nhiệm Giáo hội Chiến Thắng trong sự hiệp thông sâu xa với Giáo hội Lữ Hành nơi trần thế và Giáo hội Đau Khổ nơi Luyện Ngục. Sách Khải Huyền mô tả cộng đoàn thiên quốc này là 'một đoàn người thật đông đảo không ai đếm xuể, thuộc mọi dân, mọi chi tộc, mọi nước và mọi ngôn ngữ, đang đứng trước ngai' (Kh 7,9).\n\nNgày lễ nhắc nhở mỗi Kitô hữu rằng sự thánh thiện có thể đạt được trong mọi bậc sống nhờ ân sủng của Đức Kitô. Trong Các Mối Phúc Thật được công bố trong bài Tin Mừng hôm nay, Chúa Giêsu đã trao cho chúng ta bản hiến chương thần linh để nên thánh.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-01."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hân hoan hợp đoàn cùng muôn vàn vị thánh trước tôn nhan Thiên Chúa",
+    "prayer_prompt_vi": "Lạy Thiên Chúa toàn năng hằng hữu, nhờ ơn Chúa ban, chúng con được hân hoan tôn kính công phúc của toàn thể Các Thánh trong cùng một ngày đại lễ, xin vì lời chuyển cầu của vô số các đấng thánh mà rộng ban cho chúng con muôn vàn ân sủng và ơn hòa giải."
+  }
+}

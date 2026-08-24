@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Suy Tôn Thánh Giá"
+  },
+  "primary": {
+    "title_vi": "Lễ Suy Tôn Thánh Giá",
+    "summary_vi": "Lễ Suy Tôn Thánh Giá kỷ niệm việc tìm lại và tôn kính Cây Thánh Giá Thật của Đức Kitô bởi Thánh Nữ Hêlêna và Hoàng đế Hêracliút, cũng như việc thánh hiến Vương cung Thánh đường Mộ Thánh tại Giêrusalem năm 335. Cây Thập Giá, vốn là biểu tượng của sự sỉ nhục và chết chóc, nay được tôn vinh là Cây Sự Sống vinh hiển và dấu chỉ chiến thắng khải hoàn muôn đời.",
+    "body_vi": "Năm 326, Thánh Nữ Hêlêna, thân mẫu của Hoàng đế Constantinô, đã thực hiện cuộc hành hương thánh đến Giêrusalem và phát hiện ra thánh tích Cây Thập Giá Thật bị chôn vùi dưới ngôi đền ngoại giáo Venus trên đồi Canvê. Hoàng đế Constantinô đã truyền xây dựng một đại vương cung thánh đường bao trùm cả đồi Canvê và Mộ Thánh, được thánh hiến trọng thể vào ngày 13–14 tháng 9 năm 335.\n\nBa thế kỷ sau, sau khi Đế quốc Ba Tư chiếm Giêrusalem và mang thánh tích đi, Hoàng đế Hêracliút đã lấy lại Cây Thánh Giá vào năm 629 và đích thân đi chân trần vác Cây Thánh Giá trở lại Thánh Đô. Biến cố khải hoàn này đã củng cố việc toàn thể Giáo hội Đông và Tây phương cùng cử hành ngày lễ kính vào ngày 14 tháng 9.\n\nĐối với người Công giáo, Thập Giá không phải là dấu hiệu của thất bại, mà là ngai tòa của lòng thương xót thần linh. Trên cây Thập Giá, Chúa Kitô đã chiến thắng tội lỗi, tiêu diệt sự chết và hòa giải nhân loại với Chúa Cha.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-14."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lạy Chúa Kitô, chúng con thờ lạy và ngợi khen Chúa, vì Chúa đã dùng Thánh Giá mà cứu chuộc trần gian",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã muốn cho Con Một Ngài chịu chết trên Thánh Giá để cứu chuộc nhân loại, xin cho chúng con là những kẻ đã nhận biết mầu nhiệm Thập Giá nơi trần gian, được hưởng ơn cứu chuộc vinh phúc trên thiên quốc."
+  }
+}

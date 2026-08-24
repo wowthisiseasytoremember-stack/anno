@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Nhớ Thánh Inhaxiô thành Loyola, Linh mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Inhaxiô thành Loyola",
+    "summary_vi": "Thánh Inhaxiô thành Loyola (1491–1556) là một hiệp sĩ người Tây Ban Nha đã trải qua cuộc hoán cải tâm linh sâu sắc trong thời gian dưỡng thương sau trận chiến, sáng lập Dòng Tên (Dòng Chúa Giêsu) và trước tác cuốn Linh Thao. Châm ngôn sống của ngài, Ad Maiorem Dei Gloriam (Để Thiên Chúa được vinh quang hơn), đã định hình nền giáo dục, truyền giáo và nghệ thuật phân định thiêng liêng trên toàn cầu.",
+    "body_vi": "Sinh ra tại xứ Basque (Tây Ban Nha), Inhaxiô theo đuổi vinh quang hiệp sĩ cho đến khi một quả đạn pháo của quân Pháp làm vỡ nát chân ngài trong trận chiến Pamplona năm 1521. Trong thời gian dưỡng bệnh kéo dài, ngài chỉ có hai cuốn sách để đọc là *Cuộc đời Chúa Kitô* và *Hạnh Các Thánh*. Ngài nhận thấy những suy nghĩ về danh vọng trần thế khiến ngài trống rỗng, trong khi suy nghĩ về việc phụng sự Đức Kitô lại tràn ngập tâm hồn ngài sự bình an sâu thẳm.\n\nTừ bỏ thanh gươm hiệp sĩ trước tượng Đức Mẹ Đen tại Tu viện Montserrat, Inhaxiô đã trải qua một năm cầu nguyện và khổ hạnh tại hang đá Manresa. Tại đó, ngài đã biên soạn cuốn *Linh Thao*, một tác phẩm kinh điển về cầu nguyện chiêm niệm và phân định các thần loại. Sau đó, ngài theo học thần học tại Đại học Paris, tập hợp sáu người bạn đầu tiên—trong đó có Thánh Phanxicô Xaviê và Thánh Phêrô Faber—để cùng tuyên khấn khó nghèo, khiết tịnh và vâng phục Đức Giáo hoàng vào năm 1534.\n\nĐức Giáo hoàng Phaolô III đã chính thức phê chuẩn Dòng Tên vào năm 1540, bầu Thánh Inhaxiô làm Bề Trên Tổng Quyền tiên khởi. Dưới sự lãnh đạo của ngài, các tu sĩ Dòng Tên đã thành lập các trường học, đại học và các cơ sở truyền giáo khắp năm châu, trở thành ngọn cờ tri thức và mục vụ của cuộc Canh tân Công giáo.",
+    "confidence_note_vi": "Lịch Chung Rôma duy trì lễ nhớ của ngài vào ngày 31 tháng 7, tương ứng với ngày ngài qua đời tại Rôma năm 1556."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tất cả để tôn vinh Thiên Chúa hơn — Ad Maiorem Dei Gloriam",
+    "prayer_prompt_vi": "Cầu xin ơn phân định thiêng liêng và lòng quảng đại hiến dâng trọn vẹn cho thánh ý Chúa hôm nay."
+  }
+}

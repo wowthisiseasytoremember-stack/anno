@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần XXII Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần XXII Mùa Thường Niên",
+    "summary_vi": "Thứ Ba tuần XXII Mùa Thường Niên mời gọi các tín hữu sống Tin Mừng trong những khoảnh khắc bình dị của đời sống thường nhật. Màu phụng vụ xanh lá tượng trưng cho sự tăng trưởng, sức sống và niềm hy vọng bền bỉ vào Nước Thiên Chúa. Phụng vụ hôm nay thôi thúc chúng ta vun trồng lòng khiêm nhường nội tâm và đức bác ái chân thành đối với tha nhân.",
+    "body_vi": "Mùa Thường Niên chiếm phần lớn thời gian trong năm phụng vụ của Giáo hội, mang lại một nhịp điệu thánh thiêng thánh hóa lao động thường ngày, bổn phận gia đình và lời cầu nguyện âm thầm. Trong mùa này, các bài đọc Tin Mừng mang đến sự hướng dẫn liên tục về các lời giảng dạy và phép lạ của Chúa Giêsu Kitô, dẫn đưa tâm hồn vào sự môn đệ sâu sắc hơn.\n\nVào ngày thường này, Giáo hội khuyến khích các Kitô hữu suy ngẫm về lời rao giảng của Đức Kitô và lời mời gọi hoán cải bản thân. Những hoàn cảnh bình dị của cuộc sống trở thành chính bàn thờ nơi chúng ta dâng lên những hy sinh hàng ngày về sự kiên nhẫn, lòng nhân ái và lòng sùng kính Thiên Chúa.\n\nBằng việc kết hợp những công việc thường nhật với lời cầu nguyện của Giáo hội hoàn vũ, chúng ta tham gia vào việc thánh hóa trần gian. Ngay cả khi không có lễ lớn, mỗi bình minh vẫn là một hồng ân mới mẻ của ân sủng thần linh.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-01."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đào sâu bước đường theo Chúa Kitô trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin thánh hóa những khoảnh khắc bình dị và giúp con nhận ra sự hiện diện thánh thiện của Chúa hôm nay."
+  }
+}

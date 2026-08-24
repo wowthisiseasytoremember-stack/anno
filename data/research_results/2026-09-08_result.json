@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-09-08",
+  "date": "2026-09-08",
+  "weekday": "Tuesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "Feast of the Nativity of the Blessed Virgin Mary",
+    "title_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria"
+  },
+  "calendars": {
+    "julian": "2026-08-26",
+    "hebrew": "26 Elul 5786",
+    "islamic_umm_al_qura": "26 Rabi' al-Awwal 1448 AH",
+    "coptic": "3 Pi Kogi Enavot 1742",
+    "ethiopian": "3 Pagumen 2018"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Feast of the Nativity of the Blessed Virgin Mary",
+    "title_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria",
+    "summary_en": "The Feast of the Nativity of the Blessed Virgin Mary celebrates the birth of the Mother of God, whose entry into the world heralds the dawn of salvation. Born of Saints Joachim and Anne, Mary was prepared by God from the first moment of her conception to become the immaculate dwelling place for His eternal Son.",
+    "summary_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria mừng sinh nhật Mẹ Thiên Chúa, đấng bước vào trần gian như báo hiệu rạng đông của ơn cứu độ. Sinh ra bởi hai Thánh Gioakim và Anna, Mẹ Maria đã được Thiên Chúa chuẩn bị ngay từ giây phút đầu tiên thụ thai để trở nên đền thánh vô nhiễm cho Con Một Hằng Hữu của Ngài.",
+    "body_en": "The liturgical celebration of Mary's birth dates back to the fifth century in Jerusalem, where a basilica was consecrated over the traditional site of Saint Anne's home near the Pool of Bethesda. The feast was introduced to Rome in the seventh century by Pope Sergius I, accompanied by a solemn candlelight procession.\n\nIn Christian theology, Mary's nativity is likened to the morning star that dispels the darkness of the night before the rising of Christ, the true Sun of Justice. Saint John Damascene preached that today the barren earth rejoices, for through Mary the Creator of the universe begins His holy temple.\n\nThe Church rejoices in Mary's birth because it marks the immediate preparation for the Incarnation. Her holy life of humble obedience, profound faith, and immaculate purity serves as the perpetual model for the Church.",
+    "body_vi": "Việc cử hành phụng vụ sinh nhật Đức Maria bắt nguồn từ thế kỷ thứ năm tại Giêrusalem, nơi một vương cung thánh đường được thánh hiến trên nền ngôi nhà truyền thống của Thánh Anna gần hồ Bêxêđa. Ngày lễ này được Đức Giáo hoàng Sergiô I đưa vào Rôma vào thế kỷ thứ bảy với cuộc rước nến trọng thể.\n\nTrong thần học Kitô giáo, sinh nhật của Đức Maria được ví như ngôi sao mai xua tan bóng tối đêm đen trước khi Đức Kitô, Mặt Trời Công Chính đích thực, xuất hiện. Thánh Gioan Đamasxênô đã giảng rằng hôm nay đất cằn cỗi hãy hớn hở vui mừng, vì nhờ Mẹ Maria, Đấng Tạo Hóa bắt đầu xây dựng đền thánh của Ngài.\n\nGiáo hội hân hoan mừng sinh nhật Mẹ Maria vì đây là sự chuẩn bị trực tiếp cho mầu nhiệm Nhập Thể. Cuộc đời thánh thiện của Mẹ với lòng khiêm nhường vâng phục, đức tin sâu xa và sự tinh tuyền vô nhiễm là mẫu gương muôn đời cho toàn thể Giáo hội.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-09-08.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-08."
+  },
+  "place": {
+    "name": "Church of Saint Anne, Jerusalem",
+    "latitude": 31.7813,
+    "longitude": 35.2363,
+    "confidence": "confirmed",
+    "source_url": "https://www.custodia.org/en/sanctuaries/saint-anne"
+  },
+  "artwork": {
+    "title": "The Birth of the Virgin",
+    "maker": "Giotto di Bondone",
+    "date_label": "c. 1305",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._20_Scenes_from_the_Life_of_the_Virgin_-_4._Birth_of_the_Virgin_-_WGA09187.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar – Nativity of the Blessed Virgin Mary",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia – Feast of the Nativity of the Blessed Virgin Mary",
+      "url": "https://www.newadvent.org/cathen/10548b.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican Archives: Marialis Cultus (Pope Paul VI)",
+      "url": "https://www.vatican.va/content/paul-vi/en/apost_exhortations/documents/hf_p-vi_exh_19740202_marialis-cultus.html",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Dawn of salvation and morning star preceding the Sun of Justice",
+    "hero_line_vi": "Rạng đông cứu độ và sao mai đi trước Mặt Trời Công Chính",
+    "prayer_prompt_en": "Impart to Your servants, we pray, O Lord, the gift of heavenly grace, that the feast of the Nativity of the Blessed Virgin may bring deeper peace to those for whom the birth of her Son was the dawning of salvation.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban phát cho các tôi tớ Chúa hồng ân chan chứa từ trời, để việc cử hành lễ Sinh Nhật Đức Trinh Nữ Maria mang lại bình an sâu xa cho những ai đã nhận được rạng đông cứu độ từ Con của Mẹ."
+  }
+}

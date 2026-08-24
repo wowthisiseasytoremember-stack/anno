@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội",
+    "summary_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội tuyên xưng tín điều rằng Đức Trinh Nữ Maria, nhờ đặc ân vô song của Thiên Chúa toàn năng và vì công nghiệp của Chúa Giêsu Kitô, đã được gìn giữ tinh tuyền khỏi mọi vết nhơ của tội nguyên tổ ngay từ giây phút đầu tiên tượng thai trong lòng mẹ. Được Đức Giáo hoàng Piô IX long trọng định tín năm 1854, đây là đại lễ bổn mạng của nhiều quốc gia và giáo phận trên toàn thế giới.",
+    "body_vi": "Ngày 8 tháng 12 năm 1854, qua Tông sắc *Ineffabilis Deus*, Đức Chân phước Giáo hoàng Piô IX đã long trọng định tín tín điều Đức Mẹ Vô Nhiễm Nguyên Tội. Bốn năm sau, vào năm 1858, Đức Trinh Nữ Maria đã hiện ra với Thánh Nữ Bernadette Soubirous tại Lộ Đức (Pháp), xác nhận tín điều với lời tuyên bố: 'Ta là Đấng Vô Nhiễm Nguyên Tội.'\n\nĐại lễ này tôn vinh việc Thiên Chúa đã chuẩn bị một cung điện xứng đáng và tinh tuyền cho Con Một Ngài. Vì Mẹ Maria được tiền định để cưu mang Đấng Cực Thánh, Mẹ đã được cứu chuộc một cách kỳ diệu nhất, được gìn giữ khỏi mọi tội nhơ ngay từ giây phút đầu đời nhờ công nghiệp thấy trước của hy tế Canvê.\n\nĐược cử hành trong Mùa Vọng, ngày lễ rực sáng như dấu chỉ hy vọng huy hoàng, minh chứng sự toàn thắng của ân sủng Thiên Chúa trên tội lỗi và sự chết.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-08."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đầy tràn ơn phúc, được gìn giữ tinh tuyền khỏi mọi vết nhơ tội nguyên tổ ngay từ giây phút đầu tiên thành thai",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã nhờ sự Vô Nhiễm Nguyên Tội của Đức Trinh Nữ mà dọn cho Con Chúa một nơi ngự xứng đáng, xin vì công nghiệp thấy trước của cái chết của Con Chúa đã gìn giữ Mẹ khỏi mọi vết nhơ, mà ban cho chúng con nhờ lời Mẹ chuyển cầu cũng được sạch tội và xứng đáng đến trước tôn nhan Chúa."
+  }
+}

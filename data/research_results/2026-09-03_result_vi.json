@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Nhớ Thánh Grêgôriô Cả, Giáo hoàng, Tiến sĩ Hội Thánh"
+  },
+  "primary": {
+    "title_vi": "Lễ Nhớ Thánh Grêgôriô Cả, Giáo hoàng, Tiến sĩ Hội Thánh",
+    "summary_vi": "Thánh Grêgôriô Cả (k. 540–604) là một quý tộc La Mã, đan sĩ và Giáo hoàng với sự lãnh đạo kiệt xuất đã đặt nền móng cho Kitô giáo thời Trung Cổ. Ngài nhận tước hiệu 'Đầy tớ của các đầy tớ Thiên Chúa' (Servus servorum Dei), canh tân phụng vụ Rôma, phát triển bình ca phụng vụ (nhạc bình ca Grêgôriô), và cử Thánh Augustinô thành Canterbury đi truyền giáo tại Anh quốc.",
+    "body_vi": "Sinh ra trong một gia đình quý tộc La Mã, Grêgôriô từng giữ chức Thị trưởng Rôma trước khi từ bỏ sự giàu sang và danh vọng chính trị để biến dinh thự gia đình thành một đan viện Biển Đức dâng kính Thánh Anrê. Khát khao chiêm niệm đan tu của ngài bị gián đoạn khi Đức Giáo hoàng Pelagiô II truyền chức cho ngài và cử ngài làm khâm sứ tại Constantinôpôli. Năm 590, giữa lúc dịch bệnh hoành hành và các cuộc xâm lăng của man tộc, hàng giáo sĩ và dân chúng Rôma đã đồng thanh bầu ngài làm Giáo hoàng.\n\nTriều đại giáo hoàng của ngài được ghi dấu bằng lòng nhiệt thành mục vụ phi thường và tài quản trị kiệt xuất. Ngài đã tổ chức mạng lưới cứu trợ nuôi sống hàng ngàn người nghèo đói tại Rôma, chuộc các tù nhân và đàm phán hòa ước với các vua Lombard. Về thần học, tác phẩm *Mục Vụ Huấn Dụ* (*Regula Pastoralis*) của ngài đã trở thành cẩm nang kinh điển cho các giám mục, trong khi cuốn *Luân Lý Sách Gióp* định hình nền linh đạo Trung Cổ.\n\nNgài được tôn kính là một trong bốn Tiến sĩ La Tinh vĩ đại của Hội Thánh cùng với các Thánh Ambrôsiô, Augustinô và Giêrônimô. Di sản phụng vụ của ngài vẫn sống mãi trong Quy điển Rôma và dòng thánh nhạc bình ca bất hủ mang tên ngài.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-03."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đầy tớ của các đầy tớ Thiên Chúa, đấng canh tân phụng vụ và chở che người nghèo",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng ân cần chăm sóc dân Ngài với lòng nhân hậu và yêu thương, xin lắng nghe lời chúng con cầu nguyện nhờ lời chuyển cầu của Thánh Grêgôriô Cả."
+  }
+}

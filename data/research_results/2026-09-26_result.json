@@ -1,0 +1,57 @@
+{
+  "id": "anno-2026-09-26",
+  "date": "2026-09-26",
+  "weekday": "Saturday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of the 25th Week in Ordinary Time",
+    "title_vi": "Thứ Bảy tuần 25 Mùa Thường Niên"
+  },
+  "calendars": {
+    "julian": "2026-09-13",
+    "hebrew": "15 Tisrei 5787",
+    "islamic_umm_al_qura": "15 Rabi' al-Thani 1448 AH",
+    "coptic": "16 Thout 1743",
+    "ethiopian": "16 Meskerem 2019"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the 25th Week in Ordinary Time",
+    "title_vi": "Thứ Bảy tuần 25 Mùa Thường Niên",
+    "summary_en": "This Saturday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
+    "summary_vi": "Ngày Saturday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+    "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Saturday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+    "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Saturday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-09-26.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-26."
+  },
+  "place": null,
+  "artwork": {
+    "title": "Liturgical Meditation for Ordinary Time",
+    "maker": "Christian Sacred Art",
+    "date_label": "Historical",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2026",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "General Roman Calendar 2026",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Live the grace of Ordinary Time on this Saturday",
+    "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Saturday",
+    "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Saturday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
+    "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Saturday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+  }
+}

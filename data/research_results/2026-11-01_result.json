@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-11-01",
+  "date": "2026-11-01",
+  "weekday": "Sunday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "Solemnity of All Saints",
+    "title_vi": "Đại Lễ Các Thánh Nam Nữ"
+  },
+  "calendars": {
+    "julian": "2026-10-19",
+    "hebrew": "21 Cheshvan 5787",
+    "islamic_umm_al_qura": "21 Jumada al-Awwal 1448 AH",
+    "coptic": "22 Paopi 1743",
+    "ethiopian": "22 Tikemet 2019"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Solemnity of All Saints",
+    "title_vi": "Đại Lễ Các Thánh Nam Nữ",
+    "summary_en": "The Solemnity of All Saints celebrates the vast, innumerable multitude of holy men and women who have attained the beatific vision in heaven, including both canonized saints and the hidden, unsung faithful. The solemnity directs our gaze toward our heavenly homeland and renews our universal call to holiness.",
+    "summary_vi": "Đại Lễ Các Thánh Nam Nữ tôn vinh đoàn người đông đảo vô kể những người nam người nữ thánh thiện đã đạt tới vinh quang chiêm ngưỡng nhan Chúa trên thiên quốc, gồm cả các vị thánh được tuyên thánh và vô số tín hữu âm thầm trung kiên. Đại lễ hướng cái nhìn của chúng ta về quê trời đích thực và khơi dậy ơn gọi nên thánh phổ quát của mỗi người.",
+    "body_en": "The origins of All Saints Day trace back to the early centuries of the Church, when the faithful commemorated all Christian martyrs on a single day following Pentecost. In the eighth century, Pope Gregory III dedicated a chapel in Saint Peter's Basilica to all the saints, apostles, martyrs, and confessors, fixing the date on November 1. Pope Gregory IV subsequently extended the solemnity to the universal Church in 835.\n\nThis solemnity celebrates the Church Triumphant in union with the Church Militant on earth and the Church Penitent in Purgatory. The Book of Revelation describes this heavenly gathering as 'a great multitude, which no man could number, of all nations, and tribes, and peoples, and tongues, standing before the throne' (Rev 7:9).\n\nThe feast reminds every Christian that sanctity is achievable in every walk of life through the grace of Christ. In the Beatitudes proclaimed in today's Gospel, Jesus provides the divine charter for holiness.",
+    "body_vi": "Nguồn gốc của Lễ Các Thánh bắt nguồn từ những thế kỷ đầu tiên của Giáo hội, khi các tín hữu mừng kính toàn thể các thánh tử đạo trong một ngày duy nhất sau Lễ Hiện Xuống. Vào thế kỷ thứ tám, Đức Giáo hoàng Grêgôriô III đã thánh hiến một nhà nguyện trong Vương cung Thánh đường Thánh Phêrô dâng kính toàn thể các thánh, tông đồ, tử đạo và hiển tu, ấn định ngày 1 tháng 11. Sau đó, Đức Giáo hoàng Grêgôriô IV đã mở rộng đại lễ này cho toàn thể Giáo hội vào năm 835.\n\nĐại lễ này cử hành mầu nhiệm Giáo hội Chiến Thắng trong sự hiệp thông sâu xa với Giáo hội Lữ Hành nơi trần thế và Giáo hội Đau Khổ nơi Luyện Ngục. Sách Khải Huyền mô tả cộng đoàn thiên quốc này là 'một đoàn người thật đông đảo không ai đếm xuể, thuộc mọi dân, mọi chi tộc, mọi nước và mọi ngôn ngữ, đang đứng trước ngai' (Kh 7,9).\n\nNgày lễ nhắc nhở mỗi Kitô hữu rằng sự thánh thiện có thể đạt được trong mọi bậc sống nhờ ân sủng của Đức Kitô. Trong Các Mối Phúc Thật được công bố trong bài Tin Mừng hôm nay, Chúa Giêsu đã trao cho chúng ta bản hiến chương thần linh để nên thánh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-01.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-01."
+  },
+  "place": {
+    "name": "Saint Peter's Basilica, Vatican City",
+    "latitude": 41.9022,
+    "longitude": 12.4539,
+    "confidence": "confirmed",
+    "source_url": "https://www.vatican.va"
+  },
+  "artwork": {
+    "title": "All Saints (Landauer Altarpiece)",
+    "maker": "Albrecht Dürer",
+    "date_label": "1511",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_The_Adoration_of_the_Trinity_(Landauer_Altarpiece)_-_Google_Art_Project.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar – Solemnity of All Saints",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia – All Saints' Day",
+      "url": "https://www.newadvent.org/cathen/01315a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catechism of the Catholic Church: The Communion of Saints (946-962)",
+      "url": "https://www.vatican.va/archive/ENG0015/__P2B.HTM",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Rejoicing in the communion of the great multitude of saints before the throne of God",
+    "hero_line_vi": "Hân hoan hợp đoàn cùng muôn vàn vị thánh trước tôn nhan Thiên Chúa",
+    "prayer_prompt_en": "Almighty ever-living God, by whose gift we venerate in one celebration the merits of all the Saints, bestow on us, we pray, through the prayers of so many intercessors, an abundance of Your reconciliation.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa toàn năng hằng hữu, nhờ ơn Chúa ban, chúng con được hân hoan tôn kính công phúc của toàn thể Các Thánh trong cùng một ngày đại lễ, xin vì lời chuyển cầu của vô số các đấng thánh mà rộng ban cho chúng con muôn vàn ân sủng và ơn hòa giải."
+  }
+}

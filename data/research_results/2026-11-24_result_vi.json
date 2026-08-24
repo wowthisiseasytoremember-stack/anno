@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Kính Các Thánh Tử Đạo Việt Nam — Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Lễ Kính Các Thánh Tử Đạo Việt Nam — Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+    "summary_vi": "Thánh Anrê Dũng-Lạc (1795–1839) và 116 Bạn Tử Đạo đã làm chứng anh dũng cho Chúa Giêsu Kitô trong những cuộc bách hại khốc liệt tại Việt Nam dưới triều Nguyễn. Được Đức Giáo hoàng Gioan Phaolô II tôn phong hiển thánh năm 1988, các ngài gồm các giám mục, linh mục, tu sĩ và giáo dân đã can đảm chịu trăm chiều tra tấn và cái chết chứ quyết không đạp lên Thánh Giá.",
+    "body_vi": "Đức tin Kitô giáo được truyền bá vào Việt Nam từ thế kỷ XVI qua các thừa sai Dòng Đa Minh, Dòng Tên và Hội Thừa Sai Paris (MEP). Bất chấp những cuộc bách hại khốc liệt dưới triều các vua Minh Mạng, Thiệu Trị và Tự Đức giữa thế kỷ XVII và XIX, hơn 100.000 Kitô hữu Việt Nam đã can đảm lấy máu mình để minh chứng cho niềm tin son sắt.\n\nThánh Anrê Dũng-Lạc sinh ra trong một gia đình nghèo ngoại giáo và được một thầy giảng Công giáo nhận nuôi dưỡng, dạy dỗ. Thụ phong linh mục năm 1823, ngài tận tụy chăn dắt các giáo xứ, nhiều lần bị bắt rồi được giáo dân chuộc về để ngài tiếp tục âm thầm ban các Bí tích. Năm 1839, ngài bị bắt cùng Linh mục Phêrô Trương Văn Thi và bị trảm quyết tại Cầu Giấy (Hà Nội) vào ngày 21 tháng 12.\n\nNgày 19 tháng 6 năm 1988, Đức Giáo hoàng Gioan Phaolô II đã long trọng tôn phong 117 Thánh Tử Đạo Việt Nam lên bậc Hiển Thánh tại Rôma. Sự trung kiên anh dũng của các ngài là nền tảng vinh quang và là nguồn linh hứng thiêng liêng cho Giáo hội Công giáo Việt Nam và cộng đồng Công giáo Việt Nam trên toàn thế giới.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-24."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hạt giống đức tin trổ sinh từ dòng máu hào hùng của Các Thánh Tử Đạo Việt Nam",
+    "prayer_prompt_vi": "Lạy Thiên Chúa là nguồn gốc mọi quyền phụ tử, Đấng đã gìn giữ Các Thánh Tử Đạo Anrê Dũng-Lạc và các bạn luôn trung kiên với Thánh Giá Con Một Chúa cho đến giọt máu cuối cùng, xin vì lời chuyển cầu của các ngài cho chúng con biết loan truyền tình yêu Chúa giữa muôn dân."
+  }
+}

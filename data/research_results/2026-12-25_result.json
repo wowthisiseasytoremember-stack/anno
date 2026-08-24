@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-12-25",
+  "date": "2026-12-25",
+  "weekday": "Friday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "The Nativity of the Lord (Christmas)",
+    "title_vi": "Đại Lễ Giáng Sinh — Mừng Chúa Giáng Sinh"
+  },
+  "calendars": {
+    "julian": "2026-12-12",
+    "hebrew": "15 Tevet 5787",
+    "islamic_umm_al_qura": "16 Rajab 1448 AH",
+    "coptic": "16 Koiak 1743",
+    "ethiopian": "16 Tahsas 2019"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Nativity of the Lord (Christmas)",
+    "title_vi": "Đại Lễ Giáng Sinh — Mừng Chúa Giáng Sinh",
+    "summary_en": "The Solemnity of the Nativity of the Lord celebrates the profound mystery of the Incarnation, when the eternal Son of God took on human flesh and was born of the Virgin Mary in Bethlehem. In the poverty of the manger, the Light of the World shines forth, bringing peace and eternal redemption to all humanity.",
+    "summary_vi": "Đại Lễ Chúa Giáng Sinh mừng mầu nhiệm khôn tả của biến cố Nhập Thể, khi Con Thiên Chúa Hằng Hữu mặc lấy xác phàm nhân loại và sinh ra bởi Đức Trinh Nữ Maria tại Bêlem. Nơi máng cỏ nghèo hèn, Ánh Sáng Thế Gian đã bừng lên chiếu rọi, mang lại bình an và ơn cứu chuộc vĩnh cửu cho toàn thể nhân loại.",
+    "body_en": "For centuries, the prophets foretold the coming of the Messiah from the line of David. In the fullness of time, Caesar Augustus decreed a census, bringing Mary and Joseph to Bethlehem, the city of David. There, in a humble stable because there was no room for them in the inn, Mary gave birth to her firstborn Son, wrapped Him in swaddling clothes, and laid Him in a manger.\n\nAngelic choirs announced the joyous tidings to poor shepherds keeping watch in the fields: 'Glory to God in the highest, and on earth peace to people of good will' (Luke 2:14). The shepherds hastened to adore the newborn King, becoming the first witnesses to the mystery of God made man.\n\nSaint Athanasius proclaimed that 'God became man so that man might become god,' expressing the breathtaking dignity bestowed upon human nature through the Incarnation. Christmas calls every heart to adoration, thanksgiving, and generous love.",
+    "body_vi": "Trải qua bao thế kỷ, các ngôn sứ đã loan báo về sự xuất hiện của Đấng Mêxia thuộc dòng dõi Đavít. Đến thời viên mãn, Hoàng đế Caesar Augustus ra chiếu chỉ kiểm tra dân số, đưa Mẹ Maria và Thánh Giuse về Bêlem, thành của vua Đavít. Tại đó, nơi một hang đá nghèo hèn vì không tìm được chỗ trong quán trọ, Mẹ Maria đã hạ sinh Con Đầu Lòng, lấy tã bọc Người và đặt nằm trong máng cỏ.\n\nCác thiên thần đã loan báo tin vui trọng đại cho các mục đồng nghèo thức đêm canh giữ đàn chiên: 'Vinh danh Thiên Chúa trên trời, bình an dưới thế cho loài người Chúa thương' (Lc 2,14). Các mục đồng vội vã đến thờ lạy Hài Nhi, trở thành những nhân chứng đầu tiên cho mầu nhiệm Thiên Chúa làm người.\n\nThánh Athanasiô đã tuyên bố rằng 'Thiên Chúa đã làm người để con người được trở nên con Thiên Chúa', diễn tả phẩm giá cao quý khôn lường mà nhân loại được lãnh nhận qua biến cố Nhập Thể. Giáng Sinh mời gọi mọi tâm hồn hãy tôn thờ, cảm tạ và trao ban tình yêu thương bác ái.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-12-25.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-25."
+  },
+  "place": {
+    "name": "Church of the Nativity, Bethlehem",
+    "latitude": 31.7043,
+    "longitude": 35.2076,
+    "confidence": "confirmed",
+    "source_url": "https://www.custodia.org/en/sanctuaries/bethlehem"
+  },
+  "artwork": {
+    "title": "The Nativity",
+    "maker": "Federico Barocci",
+    "date_label": "1597",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Federico_Barocci_-_The_Nativity_-_Prado.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar – The Nativity of the Lord",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catechism of the Catholic Church: The Mystery of Christmas (525-526)",
+      "url": "https://www.vatican.va/archive/ENG0015/__P1N.HTM",
+      "type": "vatican"
+    },
+    {
+      "label": "Catholic Encyclopedia – Christmas",
+      "url": "https://www.newadvent.org/cathen/03724b.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Today is born our Savior, Christ the Lord! Glory to God in the highest!",
+    "hero_line_vi": "Hôm nay Đấng Cứu Độ đã sinh ra cho chúng ta, Người là Đức Kitô Chúa chúng ta!",
+    "prayer_prompt_en": "O God, who wonderfully created the dignity of human nature and still more wonderfully restored it, grant, we pray, that we may share in the divinity of Christ, who humbled Himself to share in our humanity.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã dựng nên phẩm giá con người một cách kỳ diệu và còn tái tạo phẩm giá ấy cách kỳ diệu hơn nữa, xin cho chúng con được thông phần vào bản tính thần linh của Đức Kitô, Đấng đã hạ mình chia sẻ thân phận làm người của chúng con."
+  }
+}

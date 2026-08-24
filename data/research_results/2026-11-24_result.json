@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-11-24",
+  "date": "2026-11-24",
+  "weekday": "Tuesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "Memorial of Saint Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+    "title_vi": "Lễ Kính Các Thánh Tử Đạo Việt Nam — Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo"
+  },
+  "calendars": {
+    "julian": "2026-11-11",
+    "hebrew": "14 Kislev 5787",
+    "islamic_umm_al_qura": "14 Jumada al-Thani 1448 AH",
+    "coptic": "15 Hathor 1743",
+    "ethiopian": "15 Hidar 2019"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Memorial of Saint Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+    "title_vi": "Lễ Kính Các Thánh Tử Đạo Việt Nam — Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+    "summary_en": "Saint Andrew Dũng-Lạc (1795–1839) and his 116 companion martyrs bore heroic witness to Jesus Christ during brutal persecutions in Vietnam under the Nguyễn dynasty. Canonized by Pope John Paul II in 1988, these martyrs represent bishops, priests, religious, and lay faithful who chose torture and martyrdom rather than trample upon the Cross.",
+    "summary_vi": "Thánh Anrê Dũng-Lạc (1795–1839) và 116 Bạn Tử Đạo đã làm chứng anh dũng cho Chúa Giêsu Kitô trong những cuộc bách hại khốc liệt tại Việt Nam dưới triều Nguyễn. Được Đức Giáo hoàng Gioan Phaolô II tôn phong hiển thánh năm 1988, các ngài gồm các giám mục, linh mục, tu sĩ và giáo dân đã can đảm chịu trăm chiều tra tấn và cái chết chứ quyết không đạp lên Thánh Giá.",
+    "body_en": "Christianity was first brought to Vietnam in the sixteenth century by Portuguese, Spanish Dominican, and French MEP missionaries. Despite fierce persecution under Emperors Minh Mạng, Thiệu Trị, and Tự Đức between the seventeenth and nineteenth centuries, over 100,000 Vietnamese Christians sealed their faith with their blood.\n\nAndrew Dũng-Lạc was born into a poor non-Christian family and was educated by a Catholic catechist. Ordained a priest in 1823, he served faithfully as a parish priest, repeatedly captured and ransomed by parishioners so he could continue administering the Sacraments in secret. In 1839, he was arrested alongside Father Peter Thi and beheaded in Hanoi on December 21.\n\nOn June 19, 1988, Pope Saint John Paul II canonized 117 Vietnamese martyrs in Rome. Their heroic fidelity remains the glorious foundation and spiritual inspiration of the Catholic Church in Vietnam and the global Vietnamese diaspora.",
+    "body_vi": "Đức tin Kitô giáo được truyền bá vào Việt Nam từ thế kỷ XVI qua các thừa sai Dòng Đa Minh, Dòng Tên và Hội Thừa Sai Paris (MEP). Bất chấp những cuộc bách hại khốc liệt dưới triều các vua Minh Mạng, Thiệu Trị và Tự Đức giữa thế kỷ XVII và XIX, hơn 100.000 Kitô hữu Việt Nam đã can đảm lấy máu mình để minh chứng cho niềm tin son sắt.\n\nThánh Anrê Dũng-Lạc sinh ra trong một gia đình nghèo ngoại giáo và được một thầy giảng Công giáo nhận nuôi dưỡng, dạy dỗ. Thụ phong linh mục năm 1823, ngài tận tụy chăn dắt các giáo xứ, nhiều lần bị bắt rồi được giáo dân chuộc về để ngài tiếp tục âm thầm ban các Bí tích. Năm 1839, ngài bị bắt cùng Linh mục Phêrô Trương Văn Thi và bị trảm quyết tại Cầu Giấy (Hà Nội) vào ngày 21 tháng 12.\n\nNgày 19 tháng 6 năm 1988, Đức Giáo hoàng Gioan Phaolô II đã long trọng tôn phong 117 Thánh Tử Đạo Việt Nam lên bậc Hiển Thánh tại Rôma. Sự trung kiên anh dũng của các ngài là nền tảng vinh quang và là nguồn linh hứng thiêng liêng cho Giáo hội Công giáo Việt Nam và cộng đồng Công giáo Việt Nam trên toàn thế giới.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-24.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-24."
+  },
+  "place": {
+    "name": "Saint Joseph Cathedral, Hanoi, Vietnam",
+    "latitude": 21.0287,
+    "longitude": 105.8496,
+    "confidence": "confirmed",
+    "source_url": "https://tonggiaophanhanoi.org"
+  },
+  "artwork": {
+    "title": "The Martyrs of Vietnam",
+    "maker": "Vietnamese Sacred Art",
+    "date_label": "20th Century",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vietnamese_martyrs.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar – St. Andrew Dũng-Lạc and Companions",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican Holy See: Canonization Homily of the Vietnamese Martyrs by Pope John Paul II (1988)",
+      "url": "https://www.vatican.va/content/john-paul-ii/it/homilies/1988/documents/hf_jp-ii_hom_19880619_martiri-vietnamiti.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Catholic Hierarchy and History of Church in Vietnam (Hội Đồng Giám Mục Việt Nam)",
+      "url": "https://hdgmvietnam.com/chi-tiet/cac-thanh-tu-dao-viet-nam-39328",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "The blood of the martyrs is the seed of the Church in Vietnam",
+    "hero_line_vi": "Hạt giống đức tin trổ sinh từ dòng máu hào hùng của Các Thánh Tử Đạo Việt Nam",
+    "prayer_prompt_en": "O God, source and origin of all fatherhood, who kept the Holy Martyrs Andrew Dũng-Lạc and his companions faithful to the Cross of Your Son even to the shedding of their blood, grant through their intercession that we may spread Your love among all peoples.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa là nguồn gốc mọi quyền phụ tử, Đấng đã gìn giữ Các Thánh Tử Đạo Anrê Dũng-Lạc và các bạn luôn trung kiên với Thánh Giá Con Một Chúa cho đến giọt máu cuối cùng, xin vì lời chuyển cầu của các ngài cho chúng con biết loan truyền tình yêu Chúa giữa muôn dân."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-09-03",
+  "date": "2026-09-03",
+  "weekday": "Thursday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Memorial of Saint Gregory the Great, Pope and Doctor of the Church",
+    "title_vi": "Lễ Nhớ Thánh Grêgôriô Cả, Giáo hoàng, Tiến sĩ Hội Thánh"
+  },
+  "calendars": {
+    "julian": "2026-08-21",
+    "hebrew": "21 Elul 5786",
+    "islamic_umm_al_qura": "21 Rabi' al-Awwal 1448 AH",
+    "coptic": "28 Mesori 1742",
+    "ethiopian": "28 Nehase 2018"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Memorial of Saint Gregory the Great, Pope and Doctor of the Church",
+    "title_vi": "Lễ Nhớ Thánh Grêgôriô Cả, Giáo hoàng, Tiến sĩ Hội Thánh",
+    "summary_en": "Saint Gregory the Great (c. 540–604) was a Roman patrician, monk, and pope whose brilliant leadership laid the foundations of medieval Christendom. He took the title 'Servant of the servants of God' (Servus servorum Dei), reformed the Roman liturgy, fostered liturgical chant (Gregorian chant), and sent Saint Augustine of Canterbury to evangelize Anglo-Saxon Britain.",
+    "summary_vi": "Thánh Grêgôriô Cả (k. 540–604) là một quý tộc La Mã, đan sĩ và Giáo hoàng với sự lãnh đạo kiệt xuất đã đặt nền móng cho Kitô giáo thời Trung Cổ. Ngài nhận tước hiệu 'Đầy tớ của các đầy tớ Thiên Chúa' (Servus servorum Dei), canh tân phụng vụ Rôma, phát triển bình ca phụng vụ (nhạc bình ca Grêgôriô), và cử Thánh Augustinô thành Canterbury đi truyền giáo tại Anh quốc.",
+    "body_en": "Born into a noble Roman senatorial family, Gregory served as Prefect of Rome before renouncing wealth and political ambition to convert his family estate into a Benedictine monastery dedicated to Saint Andrew. His desire for monastic contemplation was interrupted when Pope Pelagius II ordained him and sent him as papal ambassador to Constantinople. In 590, amidst plague and barbarian invasions, the clergy and people of Rome unanimously elected him Pope.\n\nGregory's pontificate was characterized by extraordinary pastoral zeal and administrative brilliance. He organized relief networks that fed the starving population of Rome, ransomed prisoners, and negotiated peace treaties with the Lombard kings. In theology, his *Pastoral Care* (*Regula Pastoralis*) became the classic guide for episcopal ministry, while his *Moralia in Job* shaped medieval spirituality.\n\nHe is revered as one of the four great Latin Doctors of the Church alongside Saints Ambrose, Augustine, and Jerome. His liturgical legacy endures in the Roman Canon and the sublime sacred music that bears his name.",
+    "body_vi": "Sinh ra trong một gia đình quý tộc La Mã, Grêgôriô từng giữ chức Thị trưởng Rôma trước khi từ bỏ sự giàu sang và danh vọng chính trị để biến dinh thự gia đình thành một đan viện Biển Đức dâng kính Thánh Anrê. Khát khao chiêm niệm đan tu của ngài bị gián đoạn khi Đức Giáo hoàng Pelagiô II truyền chức cho ngài và cử ngài làm khâm sứ tại Constantinôpôli. Năm 590, giữa lúc dịch bệnh hoành hành và các cuộc xâm lăng của man tộc, hàng giáo sĩ và dân chúng Rôma đã đồng thanh bầu ngài làm Giáo hoàng.\n\nTriều đại giáo hoàng của ngài được ghi dấu bằng lòng nhiệt thành mục vụ phi thường và tài quản trị kiệt xuất. Ngài đã tổ chức mạng lưới cứu trợ nuôi sống hàng ngàn người nghèo đói tại Rôma, chuộc các tù nhân và đàm phán hòa ước với các vua Lombard. Về thần học, tác phẩm *Mục Vụ Huấn Dụ* (*Regula Pastoralis*) của ngài đã trở thành cẩm nang kinh điển cho các giám mục, trong khi cuốn *Luân Lý Sách Gióp* định hình nền linh đạo Trung Cổ.\n\nNgài được tôn kính là một trong bốn Tiến sĩ La Tinh vĩ đại của Hội Thánh cùng với các Thánh Ambrôsiô, Augustinô và Giêrônimô. Di sản phụng vụ của ngài vẫn sống mãi trong Quy điển Rôma và dòng thánh nhạc bình ca bất hủ mang tên ngài.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-09-03.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-03."
+  },
+  "place": {
+    "name": "St. Peter's Basilica, Rome, Italy",
+    "latitude": 41.9022,
+    "longitude": 12.4539,
+    "confidence": "confirmed",
+    "source_url": "https://www.vatican.va/various/basiliche/san_pietro/index_it.htm"
+  },
+  "artwork": {
+    "title": "Pope Gregory I",
+    "maker": "Carlo Saraceni",
+    "date_label": "c. 1610",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Carlo_Saraceni_-_Pope_Gregory_I_-_Google_Art_Project.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar – St. Gregory the Great",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Alban Butler, Lives of the Saints (St. Gregory the Great)",
+      "url": "https://www.newadvent.org/cathen/06780a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican Papal Archives: Pope Benedict XVI General Audience on St. Gregory the Great (2008)",
+      "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2008/documents/hf_ben-xvi_aud_20080528.html",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Servant of the servants of God, reformer of liturgy and champion of the poor",
+    "hero_line_vi": "Đầy tớ của các đầy tớ Thiên Chúa, đấng canh tân phụng vụ và chở che người nghèo",
+    "prayer_prompt_en": "O God, who care for Your people with gentleness and rule them in love, hear our prayers through the intercession of Saint Gregory the Great.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng ân cần chăm sóc dân Ngài với lòng nhân hậu và yêu thương, xin lắng nghe lời chúng con cầu nguyện nhờ lời chuyển cầu của Thánh Grêgôriô Cả."
+  }
+}
