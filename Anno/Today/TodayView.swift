@@ -36,6 +36,10 @@ struct TodayView: View {
                     sacredPlaceCard(place: place)
                 }
 
+                if let connectedRoute = SacredGeographyLoader.shared.routes.first(where: { $0.isLiturgicallyConnected(to: entry) }) {
+                    liturgicalPilgrimageCard(route: connectedRoute)
+                }
+
                 prayerPromptCard
                 sourceConfidenceCard
             }
@@ -364,6 +368,88 @@ struct TodayView: View {
                             : "Open \(place.name) in Maps"
                     )
                 }
+            }
+        }
+        .annoCard()
+    }
+
+    private func liturgicalPilgrimageCard(route: PilgrimageRoute) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(spacing: 8) {
+                Image(systemName: "sparkles")
+                    .foregroundColor(AnnoTheme.goldLeaf)
+                Text(language == .vietnamese ? "Hành hương cùng Phụng vụ hôm nay" : "Walk this path today")
+                    .font(.headline)
+                    .fontDesign(.serif)
+                    .foregroundColor(AnnoTheme.goldLeaf)
+
+                Spacer()
+
+                Text("\(route.waypoints.count) \(language == .vietnamese ? "Trạm" : "Stations")")
+                    .font(.caption2.monospacedDigit().weight(.semibold))
+                    .foregroundColor(AnnoTheme.narthex)
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 3)
+                    .background(Capsule().fill(AnnoTheme.goldLeaf))
+            }
+
+            VStack(alignment: .leading, spacing: 4) {
+                Text(route.title(for: language))
+                    .font(.subheadline.weight(.semibold))
+                    .fontDesign(.serif)
+                    .foregroundColor(AnnoTheme.vellum)
+
+                Text(route.spiritualTheme(for: language))
+                    .font(.caption.italic())
+                    .foregroundColor(AnnoTheme.incense)
+                    .lineLimit(2)
+            }
+
+            // Preview first 3 stations
+            HStack(spacing: 6) {
+                ForEach(route.waypoints.prefix(3)) { wp in
+                    HStack(spacing: 4) {
+                        Text("\(wp.order)")
+                            .font(.caption2.weight(.bold))
+                            .foregroundColor(AnnoTheme.goldLeaf)
+                        Text(wp.name(for: language))
+                            .font(.caption2)
+                            .foregroundColor(AnnoTheme.vellum)
+                            .lineLimit(1)
+                    }
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 4)
+                    .background(RoundedRectangle(cornerRadius: 6).fill(AnnoTheme.ash.opacity(0.6)))
+
+                    if wp.order < min(route.waypoints.count, 3) {
+                        Image(systemName: "chevron.right")
+                            .font(.system(size: 8))
+                            .foregroundColor(AnnoTheme.incense.opacity(0.6))
+                    }
+                }
+            }
+
+            if let firstWp = route.waypoints.first, let mapsUrl = mapsURL(for: SacredPlace(name: firstWp.nameEn, latitude: firstWp.latitude, longitude: firstWp.longitude, confidence: .confirmed, sourceUrl: "")) {
+                Link(destination: mapsUrl) {
+                    HStack(spacing: 6) {
+                        Image(systemName: "map.fill")
+                        Text(language == .vietnamese ? "Xem Lộ Trình Trên Bản Đồ" : "Explore Route on Map")
+                    }
+                    .font(.caption.weight(.semibold))
+                    .foregroundColor(AnnoTheme.narthex)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 10)
+                    .background(
+                        LinearGradient(
+                            colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    )
+                    .clipShape(RoundedRectangle(cornerRadius: 8))
+                    .shadow(color: AnnoTheme.goldLeaf.opacity(0.3), radius: 6, y: 2)
+                }
+                .buttonStyle(.plain)
             }
         }
         .annoCard()

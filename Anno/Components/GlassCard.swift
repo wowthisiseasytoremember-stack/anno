@@ -1,20 +1,31 @@
 //  GlassCard.swift
-//  DailyDevotionKJVForWomen
+//  Anno
 //
-//  A frosted, gilded card container used throughout the app. Uses the
-//  liquid-glass effect on iOS 26 and gracefully falls back to a refined
-//  material treatment on earlier systems.
-//
+//  A frosted, gilded glass card container tailored for Anno's ecclesial aesthetic.
+//  Combines deep narthex surfaces, ultra-thin materials, specular gold leaf borders,
+//  and candle-glow ambient shadows.
 
 import SwiftUI
 
-/// A soft, elevated card with a thin gilded border and gentle shadow.
-struct GlassCard<Content: View>: View {
-    var cornerRadius: CGFloat = Metrics.cardRadius
-    var padding: CGFloat = Metrics.cardPadding
-    @ViewBuilder var content: Content
+public struct GlassCard<Content: View>: View {
+    public var cornerRadius: CGFloat = 16
+    public var padding: CGFloat = 16
+    public var accentGlow: Color? = nil
+    @ViewBuilder public var content: Content
 
-    var body: some View {
+    public init(
+        cornerRadius: CGFloat = 16,
+        padding: CGFloat = 16,
+        accentGlow: Color? = nil,
+        @ViewBuilder content: () -> Content
+    ) {
+        self.cornerRadius = cornerRadius
+        self.padding = padding
+        self.accentGlow = accentGlow
+        self.content = content()
+    }
+
+    public var body: some View {
         content
             .padding(padding)
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -24,60 +35,82 @@ struct GlassCard<Content: View>: View {
                     .strokeBorder(
                         LinearGradient(
                             colors: [
-                                Palette.gold.opacity(0.55),
-                                Palette.blush.opacity(0.25),
-                                Palette.gold.opacity(0.35)
+                                AnnoTheme.goldLeaf.opacity(0.45),
+                                AnnoTheme.ash.opacity(0.6),
+                                AnnoTheme.goldLeaf.opacity(0.2)
                             ],
                             startPoint: .topLeading,
                             endPoint: .bottomTrailing
                         ),
-                        lineWidth: 0.8
+                        lineWidth: 1
                     )
             )
-            .shadow(color: Palette.lilac.opacity(0.22), radius: 22, x: 0, y: 14)
-            .shadow(color: .black.opacity(0.05), radius: 3, x: 0, y: 2)
+            .shadow(
+                color: (accentGlow ?? AnnoTheme.candleGlow).opacity(accentGlow != nil ? 0.18 : 0.08),
+                radius: 16,
+                x: 0,
+                y: 8
+            )
+            .shadow(color: .black.opacity(0.4), radius: 6, x: 0, y: 3)
     }
 
     @ViewBuilder
     private var cardBackground: some View {
         RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
-            .fill(Palette.surface)
+            .fill(AnnoTheme.narthex.opacity(0.88))
             .overlay(
                 RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
-                    .fill(.ultraThinMaterial.opacity(0.35))
+                    .fill(.ultraThinMaterial.opacity(0.2))
             )
             .overlay(
                 RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
                     .fill(
                         LinearGradient(
-                            colors: [Color.white.opacity(0.16), .clear],
+                            colors: [
+                                Color.white.opacity(0.08),
+                                Color.clear,
+                                AnnoTheme.goldLeaf.opacity(0.03)
+                            ],
                             startPoint: .topLeading,
-                            endPoint: .center
+                            endPoint: .bottomTrailing
                         )
                     )
             )
     }
 }
 
-/// A pill button styled with the app's gold sheen, used for primary actions.
-struct GildedButtonStyle: ButtonStyle {
-    var prominent: Bool = false
+public struct GildedButtonStyle: ButtonStyle {
+    public var prominent: Bool = true
 
-    func makeBody(configuration: Configuration) -> some View {
+    public init(prominent: Bool = true) {
+        self.prominent = prominent
+    }
+
+    public func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.callout.weight(.semibold))
-            .foregroundStyle(prominent ? Color(hex: 0x3A2E15) : Palette.ink)
+            .font(.subheadline.weight(.semibold))
+            .fontDesign(.serif)
+            .foregroundStyle(prominent ? AnnoTheme.narthex : AnnoTheme.vellum)
             .padding(.horizontal, 18)
-            .padding(.vertical, 12)
+            .padding(.vertical, 10)
             .background {
-                Capsule().fill(prominent ? AnyShapeStyle(.goldSheen) : AnyShapeStyle(Palette.surfaceElevated))
+                if prominent {
+                    Capsule()
+                        .fill(
+                            LinearGradient(
+                                colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
+                        )
+                        .shadow(color: AnnoTheme.goldLeaf.opacity(0.4), radius: 8, y: 3)
+                } else {
+                    Capsule()
+                        .fill(AnnoTheme.choir.opacity(0.85))
+                        .overlay(Capsule().stroke(AnnoTheme.ash, lineWidth: 1))
+                }
             }
-            .overlay(
-                Capsule().strokeBorder(Palette.gold.opacity(prominent ? 0 : 0.4), lineWidth: 0.8)
-            )
-            .shadow(color: Palette.gold.opacity(prominent ? 0.3 : 0), radius: 10, y: 6)
-            .scaleEffect(configuration.isPressed ? 0.96 : 1)
-            .animation(.spring(response: 0.3, dampingFraction: 0.6), value: configuration.isPressed)
+            .scaleEffect(configuration.isPressed ? 0.96 : 1.0)
+            .animation(.spring(response: 0.25, dampingFraction: 0.7), value: configuration.isPressed)
     }
 }
-//

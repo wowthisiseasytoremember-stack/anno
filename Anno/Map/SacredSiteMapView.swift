@@ -103,26 +103,39 @@ public struct SacredSiteMapView: View {
     // MARK: - Spiritual Inquiry Header
 
     private var inquiryHeaderView: some View {
-        VStack(spacing: 2) {
+        VStack(spacing: 4) {
             Text(language == .vietnamese
                  ? "Hôm nay bạn muốn bước theo con đường của ai?"
                  : "Whose path will you walk today?")
-                .font(.subheadline.weight(.semibold))
-                .fontDesign(.serif)
-                .foregroundStyle(AnnoTheme.goldLeaf)
-                .shadow(color: .black.opacity(0.8), radius: 4, y: 1)
+                .font(.system(size: 15, weight: .semibold, design: .serif))
+                .foregroundStyle(
+                    LinearGradient(
+                        colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+                .shadow(color: AnnoTheme.goldLeaf.opacity(0.3), radius: 6, y: 1)
 
             if let today = currentEntry, !connectedRoutesToToday.isEmpty {
-                HStack(spacing: 4) {
+                HStack(spacing: 5) {
                     Image(systemName: "sparkles")
-                        .font(.caption2)
-                        .foregroundStyle(AnnoTheme.goldLeaf)
+                        .font(.system(size: 10))
+                        .foregroundStyle(AnnoTheme.candleGlow)
                     Text(language == .vietnamese
                          ? "Gắn liền với lễ: \(today.liturgical.titleVi)"
                          : "In season with: \(today.liturgical.titleEn)")
                         .font(.caption2)
-                        .foregroundStyle(AnnoTheme.vellum.opacity(0.9))
+                        .fontDesign(.serif)
+                        .foregroundStyle(AnnoTheme.vellum.opacity(0.85))
                 }
+                .padding(.horizontal, 10)
+                .padding(.vertical, 2)
+                .background(
+                    Capsule()
+                        .fill(AnnoTheme.narthex.opacity(0.75))
+                        .overlay(Capsule().stroke(AnnoTheme.goldLeaf.opacity(0.35), lineWidth: 0.8))
+                )
             }
         }
         .padding(.horizontal, 16)
@@ -156,14 +169,14 @@ public struct SacredSiteMapView: View {
                     MapPolyline(coordinates: route.coordinates)
                         .stroke(
                             LinearGradient(
-                                colors: [AnnoTheme.goldLeaf, AnnoTheme.goldLeaf.opacity(0.85)],
+                                colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf, AnnoTheme.candleGlow],
                                 startPoint: .leading,
                                 endPoint: .trailing
                             ),
                             style: StrokeStyle(lineWidth: 4.5, lineCap: .round, lineJoin: .round)
                         )
 
-                    // Numbered Waypoints
+                    // Numbered Waypoints with Halo
                     ForEach(route.waypoints) { wp in
                         Annotation(
                             wp.name(for: language),
@@ -171,12 +184,13 @@ public struct SacredSiteMapView: View {
                             anchor: .bottom
                         ) {
                             Button {
+                                Haptics.light()
                                 withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
                                     selectedWaypoint = wp
                                     sheetExpanded = true
                                 }
                             } label: {
-                                waypointPinView(waypoint: wp, isSelected: selectedWaypoint?.id == wp.id)
+                                waypointPinView(waypoint: wp, isSelected: (selectedWaypoint ?? route.waypoints.first)?.id == wp.id)
                             }
                             .buttonStyle(.plain)
                         }
@@ -191,6 +205,7 @@ public struct SacredSiteMapView: View {
                         anchor: .bottom
                     ) {
                         Button {
+                            Haptics.light()
                             withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
                                 selectedSanctuary = sanctuary
                                 sheetExpanded = true
@@ -213,6 +228,7 @@ public struct SacredSiteMapView: View {
         HStack(spacing: 6) {
             ForEach(MapExplorationMode.allCases) { m in
                 Button {
+                    Haptics.selection()
                     withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
                         mode = m
                         sheetExpanded = false
@@ -227,7 +243,13 @@ public struct SacredSiteMapView: View {
                         .background {
                             if mode == m {
                                 Capsule()
-                                    .fill(AnnoTheme.goldLeaf)
+                                    .fill(
+                                        LinearGradient(
+                                            colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
+                                            startPoint: .topLeading,
+                                            endPoint: .bottomTrailing
+                                        )
+                                    )
                                     .shadow(color: AnnoTheme.goldLeaf.opacity(0.4), radius: 6, y: 2)
                             } else {
                                 Capsule()
@@ -255,6 +277,7 @@ public struct SacredSiteMapView: View {
                 ForEach(SpiritualCalling.allCases) { calling in
                     let isSelected = selectedCalling == calling
                     Button {
+                        Haptics.selection()
                         withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
                             selectedCalling = calling
                             if let firstMatch = filteredRoutes.first {
@@ -265,7 +288,7 @@ public struct SacredSiteMapView: View {
                     } label: {
                         HStack(spacing: 4) {
                             Image(systemName: calling.icon)
-                                .font(.caption2)
+                                .font(.system(size: 10))
                             Text(calling.title(for: language))
                                 .font(.caption2.weight(isSelected ? .bold : .regular))
                                 .fontDesign(.serif)
@@ -296,6 +319,7 @@ public struct SacredSiteMapView: View {
                     let isConnected = currentEntry.map { route.isLiturgicallyConnected(to: $0) } ?? false
 
                     Button {
+                        Haptics.light()
                         withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
                             geoLoader.selectedRoute = route
                             selectedWaypoint = route.waypoints.first
@@ -346,10 +370,12 @@ public struct SacredSiteMapView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 6) {
                 Button {
+                    Haptics.selection()
                     withAnimation { geoLoader.selectedCategory = nil }
                 } label: {
                     Text(language == .vietnamese ? "Tất cả (72)" : "All (72)")
                         .font(.caption2.weight(geoLoader.selectedCategory == nil ? .bold : .regular))
+                        .fontDesign(.serif)
                         .foregroundStyle(geoLoader.selectedCategory == nil ? AnnoTheme.narthex : AnnoTheme.vellum)
                         .padding(.horizontal, 10)
                         .padding(.vertical, 5)
@@ -360,10 +386,12 @@ public struct SacredSiteMapView: View {
                 ForEach(geoLoader.availableCategories, id: \.self) { cat in
                     let isSelected = geoLoader.selectedCategory == cat
                     Button {
+                        Haptics.selection()
                         withAnimation { geoLoader.selectedCategory = cat }
                     } label: {
                         Text(cat.replacingOccurrences(of: "_", with: " ").capitalized)
                             .font(.caption2.weight(isSelected ? .bold : .regular))
+                            .fontDesign(.serif)
                             .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.vellum)
                             .padding(.horizontal, 10)
                             .padding(.vertical, 5)
@@ -381,10 +409,16 @@ public struct SacredSiteMapView: View {
     private func waypointPinView(waypoint: PilgrimageWaypoint, isSelected: Bool) -> some View {
         VStack(spacing: 0) {
             ZStack {
+                if isSelected {
+                    Circle()
+                        .stroke(AnnoTheme.goldLeaf.opacity(0.4), lineWidth: 5)
+                        .frame(width: 42, height: 42)
+                }
+
                 Circle()
                     .fill(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.narthex)
-                    .frame(width: isSelected ? 34 : 28, height: isSelected ? 34 : 28)
-                    .overlay(Circle().stroke(AnnoTheme.goldLeaf, lineWidth: 2))
+                    .frame(width: isSelected ? 32 : 26, height: isSelected ? 32 : 26)
+                    .overlay(Circle().stroke(AnnoTheme.goldLeaf, lineWidth: 1.5))
                     .shadow(color: .black.opacity(0.6), radius: 4, y: 2)
 
                 Text("\(waypoint.order)")
@@ -404,14 +438,20 @@ public struct SacredSiteMapView: View {
     private func sanctuaryPinView(sanctuary: Sanctuary, isSelected: Bool) -> some View {
         VStack(spacing: 0) {
             ZStack {
+                if isSelected {
+                    Circle()
+                        .stroke(AnnoTheme.goldLeaf.opacity(0.4), lineWidth: 4)
+                        .frame(width: 38, height: 38)
+                }
+
                 Circle()
                     .fill(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.narthex)
-                    .frame(width: 30, height: 30)
-                    .overlay(Circle().stroke(AnnoTheme.confidenceColor(sanctuary.canonicalStatus.confidenceLevel), lineWidth: 2))
+                    .frame(width: 28, height: 28)
+                    .overlay(Circle().stroke(AnnoTheme.confidenceColor(sanctuary.canonicalStatus.confidenceLevel), lineWidth: 1.8))
                     .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
 
                 Image(systemName: "cross.fill")
-                    .font(.system(size: 12))
+                    .font(.system(size: 11))
                     .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
             }
 
@@ -451,7 +491,7 @@ public struct SacredSiteMapView: View {
     private var atmosphereOverlay: some View {
         RadialGradient(
             gradient: Gradient(colors: [
-                AnnoTheme.narthex.opacity(0.9),
+                AnnoTheme.narthex.opacity(0.92),
                 AnnoTheme.narthex.opacity(0.0)
             ]),
             center: .top,
@@ -475,15 +515,23 @@ public struct SacredSiteMapView: View {
             }
         }
         .background {
-            RoundedRectangle(cornerRadius: 16, style: .continuous)
-                .fill(AnnoTheme.narthex)
-                .shadow(color: .black.opacity(0.6), radius: 20, y: -8)
+            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                .fill(AnnoTheme.narthex.opacity(0.94))
+                .background(.ultraThinMaterial.opacity(0.4))
+                .shadow(color: .black.opacity(0.65), radius: 24, y: -10)
                 .overlay(
-                    RoundedRectangle(cornerRadius: 16, style: .continuous)
-                        .stroke(AnnoTheme.ash, lineWidth: 1)
+                    RoundedRectangle(cornerRadius: 20, style: .continuous)
+                        .stroke(
+                            LinearGradient(
+                                colors: [AnnoTheme.goldLeaf.opacity(0.4), AnnoTheme.ash],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            ),
+                            lineWidth: 1
+                        )
                 )
         }
-        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .padding(.horizontal, 8)
         .padding(.bottom, 4)
     }
@@ -491,11 +539,12 @@ public struct SacredSiteMapView: View {
     private var sheetHandle: some View {
         VStack(spacing: 8) {
             Capsule()
-                .fill(AnnoTheme.incense.opacity(0.5))
+                .fill(AnnoTheme.incense.opacity(0.4))
                 .frame(width: 36, height: 4)
                 .padding(.top, 10)
 
             Button {
+                Haptics.selection()
                 withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
                     sheetExpanded.toggle()
                 }
@@ -563,7 +612,7 @@ public struct SacredSiteMapView: View {
             .padding(.horizontal, 16)
             .padding(.bottom, 20)
         }
-        .frame(maxHeight: 400)
+        .frame(maxHeight: 420)
     }
 
     // MARK: - Route Detail View
@@ -600,42 +649,58 @@ public struct SacredSiteMapView: View {
             Divider().background(AnnoTheme.ash)
 
             // Selected Waypoint Focus
-            if let wp = selectedWaypoint ?? route.waypoints.first {
-                VStack(alignment: .leading, spacing: 8) {
-                    HStack {
-                        Text("Station \(wp.order): \(wp.name(for: language))")
-                            .font(.headline)
-                            .fontDesign(.serif)
-                            .foregroundStyle(AnnoTheme.goldLeaf)
+            let currentWp = selectedWaypoint ?? route.waypoints.first
+            if let wp = currentWp {
+                VStack(alignment: .leading, spacing: 10) {
+                    HStack(alignment: .top) {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Station \(wp.order): \(wp.name(for: language))")
+                                .font(.headline)
+                                .fontDesign(.serif)
+                                .foregroundStyle(AnnoTheme.goldLeaf)
+                        }
 
                         Spacer()
 
-                        if let mapsUrl = appleMapsUrl(latitude: wp.latitude, longitude: wp.longitude) {
-                            Link(destination: mapsUrl) {
-                                Image(systemName: "arrow.triangle.turn.up.right.diamond.fill")
-                                    .font(.caption)
-                                    .foregroundStyle(AnnoTheme.goldLeaf)
-                                    .padding(6)
-                                    .background(Circle().fill(AnnoTheme.goldLeaf.opacity(0.15)))
+                        HStack(spacing: 8) {
+                            if let mapsUrl = appleMapsUrl(latitude: wp.latitude, longitude: wp.longitude) {
+                                Link(destination: mapsUrl) {
+                                    Image(systemName: "arrow.triangle.turn.up.right.diamond.fill")
+                                        .font(.caption)
+                                        .foregroundStyle(AnnoTheme.goldLeaf)
+                                        .padding(7)
+                                        .background(Circle().fill(AnnoTheme.goldLeaf.opacity(0.15)))
+                                }
                             }
                         }
                     }
 
                     Text(wp.historicalSummary(for: language))
                         .font(.caption)
-                        .foregroundStyle(AnnoTheme.vellum.opacity(0.9))
+                        .lineSpacing(3)
+                        .foregroundStyle(AnnoTheme.vellum.opacity(0.92))
 
                     if !wp.sacredRelic(for: language).isEmpty {
-                        HStack(alignment: .top, spacing: 6) {
+                        HStack(alignment: .top, spacing: 8) {
                             Image(systemName: "sparkles")
                                 .font(.caption2)
                                 .foregroundStyle(AnnoTheme.goldLeaf)
-                            Text(wp.sacredRelic(for: language))
-                                .font(.caption2)
-                                .foregroundStyle(AnnoTheme.incense)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(language == .vietnamese ? "Thánh Tích & Di Sản" : "Sacred Relics")
+                                    .font(.caption2.weight(.bold))
+                                    .foregroundStyle(AnnoTheme.goldLeaf)
+                                Text(wp.sacredRelic(for: language))
+                                    .font(.caption2)
+                                    .foregroundStyle(AnnoTheme.vellum)
+                            }
                         }
-                        .padding(8)
-                        .background(RoundedRectangle(cornerRadius: 6).fill(AnnoTheme.ash.opacity(0.5)))
+                        .padding(10)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(
+                            RoundedRectangle(cornerRadius: 8)
+                                .fill(AnnoTheme.choir.opacity(0.6))
+                                .overlay(RoundedRectangle(cornerRadius: 8).stroke(AnnoTheme.goldLeaf.opacity(0.2), lineWidth: 0.8))
+                        )
                     }
 
                     if !wp.suggestedPrayer(for: language).isEmpty {
@@ -646,11 +711,57 @@ public struct SacredSiteMapView: View {
 
                             Text(wp.suggestedPrayer(for: language))
                                 .font(.caption.italic())
+                                .fontDesign(.serif)
+                                .lineSpacing(2)
                                 .foregroundStyle(AnnoTheme.vellum)
                         }
-                        .padding(10)
-                        .background(RoundedRectangle(cornerRadius: 8).fill(AnnoTheme.narthex).overlay(RoundedRectangle(cornerRadius: 8).stroke(AnnoTheme.goldLeaf.opacity(0.3), lineWidth: 1)))
+                        .padding(12)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(
+                            RoundedRectangle(cornerRadius: 10)
+                                .fill(AnnoTheme.narthex)
+                                .overlay(RoundedRectangle(cornerRadius: 10).stroke(AnnoTheme.goldLeaf.opacity(0.35), lineWidth: 1))
+                        )
                     }
+
+                    // Stepper Navigation
+                    HStack {
+                        let currentIndex = route.waypoints.firstIndex(where: { $0.id == wp.id }) ?? 0
+                        if currentIndex > 0 {
+                            Button {
+                                Haptics.selection()
+                                withAnimation {
+                                    selectedWaypoint = route.waypoints[currentIndex - 1]
+                                }
+                            } label: {
+                                HStack(spacing: 4) {
+                                    Image(systemName: "chevron.left")
+                                    Text(language == .vietnamese ? "Trạm trước" : "Prev Station")
+                                }
+                                .font(.caption2.weight(.medium))
+                                .foregroundStyle(AnnoTheme.incense)
+                            }
+                        }
+
+                        Spacer()
+
+                        if currentIndex < route.waypoints.count - 1 {
+                            Button {
+                                Haptics.selection()
+                                withAnimation {
+                                    selectedWaypoint = route.waypoints[currentIndex + 1]
+                                }
+                            } label: {
+                                HStack(spacing: 4) {
+                                    Text(language == .vietnamese ? "Trạm kế tiếp" : "Next Station")
+                                    Image(systemName: "chevron.right")
+                                }
+                                .font(.caption2.weight(.semibold))
+                                .foregroundStyle(AnnoTheme.goldLeaf)
+                            }
+                        }
+                    }
+                    .padding(.top, 4)
                 }
             }
 
@@ -658,17 +769,19 @@ public struct SacredSiteMapView: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 8) {
                     ForEach(route.waypoints) { wp in
-                        let isSel = selectedWaypoint?.id == wp.id
+                        let isSel = (selectedWaypoint ?? route.waypoints.first)?.id == wp.id
                         Button {
+                            Haptics.light()
                             withAnimation {
                                 selectedWaypoint = wp
                             }
                         } label: {
                             Text("\(wp.order). \(wp.name(for: language))")
                                 .font(.caption2)
+                                .fontDesign(.serif)
                                 .foregroundStyle(isSel ? AnnoTheme.narthex : AnnoTheme.vellum)
-                                .padding(.horizontal, 8)
-                                .padding(.vertical, 4)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 5)
                                 .background(Capsule().fill(isSel ? AnnoTheme.goldLeaf : AnnoTheme.ash))
                         }
                         .buttonStyle(.plain)
@@ -709,6 +822,7 @@ public struct SacredSiteMapView: View {
 
             Text(sanctuary.historicalSummary(for: language))
                 .font(.caption)
+                .lineSpacing(3)
                 .foregroundStyle(AnnoTheme.vellum)
 
             if !sanctuary.suggestedPrayer(for: language).isEmpty {
@@ -719,10 +833,11 @@ public struct SacredSiteMapView: View {
 
                     Text(sanctuary.suggestedPrayer(for: language))
                         .font(.caption.italic())
+                        .fontDesign(.serif)
                         .foregroundStyle(AnnoTheme.vellum)
                 }
-                .padding(10)
-                .background(RoundedRectangle(cornerRadius: 8).fill(AnnoTheme.narthex).overlay(RoundedRectangle(cornerRadius: 8).stroke(AnnoTheme.goldLeaf.opacity(0.3), lineWidth: 1)))
+                .padding(12)
+                .background(RoundedRectangle(cornerRadius: 10).fill(AnnoTheme.narthex).overlay(RoundedRectangle(cornerRadius: 10).stroke(AnnoTheme.goldLeaf.opacity(0.35), lineWidth: 1)))
             }
         }
     }
@@ -731,6 +846,7 @@ public struct SacredSiteMapView: View {
         VStack(spacing: 8) {
             ForEach(geoLoader.filteredSanctuaries(category: geoLoader.selectedCategory)) { s in
                 Button {
+                    Haptics.selection()
                     withAnimation {
                         selectedSanctuary = s
                     }
@@ -739,6 +855,7 @@ public struct SacredSiteMapView: View {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(s.name(for: language))
                                 .font(.caption.weight(.semibold))
+                                .fontDesign(.serif)
                                 .foregroundStyle(AnnoTheme.vellum)
                             Text("\(s.location.city), \(s.location.country)")
                                 .font(.caption2)
@@ -749,8 +866,8 @@ public struct SacredSiteMapView: View {
                             .font(.caption2)
                             .foregroundStyle(AnnoTheme.incense)
                     }
-                    .padding(8)
-                    .background(RoundedRectangle(cornerRadius: 6).fill(AnnoTheme.ash.opacity(0.4)))
+                    .padding(10)
+                    .background(RoundedRectangle(cornerRadius: 8).fill(AnnoTheme.choir.opacity(0.5)).overlay(RoundedRectangle(cornerRadius: 8).stroke(AnnoTheme.ash, lineWidth: 0.8)))
                 }
                 .buttonStyle(.plain)
             }
