@@ -1,0 +1,191 @@
+[
+  {
+    "id": "anno-2027-01-01",
+    "date": "2027-01-01",
+    "weekday": "Friday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Solemnity",
+      "color": "white",
+      "title_en": "Solemnity of Mary, the Holy Mother of God",
+      "title_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa"
+    },
+    "calendars": {
+      "julian": "2026-12-19",
+      "hebrew": "22 Tevet 5787",
+      "islamic_umm_al_qura": "23 Rajab 1448 AH",
+      "coptic": "23 Koiak 1743",
+      "ethiopian": "23 Tahsas 1751"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Solemnity of Mary, the Holy Mother of God",
+      "title_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa",
+      "summary_en": "The Church opens the year by honoring Mary as the Mother of God. This solemnity proclaims the divinity of Christ and the unique role of his mother.",
+      "summary_vi": "Giáo Hội mở đầu năm mới bằng việc tôn vinh Mẹ Maria là Mẹ Thiên Chúa. Đại lễ này khẳng định thiên tính của Chúa Kitô và vai trò đặc biệt của Mẹ Người.",
+      "body_en": "The Solemnity of Mary, the Holy Mother of God, is celebrated on January 1 and is one of the most ancient feasts of the Church. It affirms that the child born of Mary is truly God, using the Greek title Theotokos, God-bearer.\n\nMary's motherhood is not merely biological but deeply theological. By her fiat at the Annunciation she became the doorway through which the Word entered flesh, and so she is honored as the first disciple and the model of faith.\n\nOn this day the Church also observes the World Day of Peace. The faithful are called to entrust the new year to the Lord through the intercession of the Blessed Virgin, asking for harmony among nations.",
+      "body_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa, được cử hành vào ngày 1 tháng 1 và là một trong những lễ trọng xưa nhất của Giáo Hội. Lễ này khẳng định rằng trẻ thơ sinh bởi Mẹ Maria thật sự là Thiên Chúa, với tước hiệu tiếng Hy Lạp Theotokos, nghĩa là Mẹ Thiên Chúa.\n\nChức làm Mẹ của Maria không chỉ là thể lý mà còn sâu xa về thần học. Bằng lời xin vâng lúc Truyền Tin, Mẹ đã trở nên cửa ngõ để Ngôi Lời nhập thể, và vì thế Mẹ được tôn vinh là môn đệ đầu tiên và là khuôn mẫu của đức tin.\n\nTrong ngày này, Giáo Hội cũng mừng Ngày Hòa Bình Thế Giới. Các tín hữu được mời gọi dâng năm mới lên Chúa qua lời chuyển cầu của Đức Trinh Nữ, xin bình an giữa các dân tộc.",
+      "confidence": "confirmed",
+      "confidence_note_en": "Doctrine defined at the Council of Ephesus (431) and confirmed by the Roman Martyrology.",
+      "confidence_note_vi": "Tín điều được xác định tại Công Đồng Êphêxô (431) và được xác nhận bởi Sách Lễ Rôma."
+    },
+    "place": {
+      "name": "Rome, Italy",
+      "latitude": 41.9029,
+      "longitude": 12.4534,
+      "confidence": "confirmed",
+      "source_url": "https://www.newadvent.org/cathen/14488a.htm"
+    },
+    "artwork": {
+      "title": "Illustration for Solemnity of Mary, the Holy Mother of God",
+      "maker": "Various Artists",
+      "date_label": "Historic",
+      "source_url": "https://www.wikimedia.org/",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Vatican — Liturgical Calendar 2027",
+        "url": "https://www.vatican.va/content/roman-missal/en.html",
+        "type": "vatican"
+      },
+      {
+        "label": "New Advent — Catholic Encyclopedia",
+        "url": "https://www.newadvent.org/cathen/14488a.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Mary, Mother of God",
+      "hero_line_vi": "Maria, Mẹ Thiên Chúa",
+      "prayer_prompt_en": "Holy Mother, guide our new year.",
+      "prayer_prompt_vi": "Lạy Mẹ Thiên Chúa, xin dẫn dắt năm mới của chúng con."
+    }
+  },
+  {
+    "id": "anno-2027-01-02",
+    "date": "2027-01-02",
+    "weekday": "Saturday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Memorial",
+      "color": "white",
+      "title_en": "Sts. Basil the Great and Gregory Nazianzen, Bishops and Doctors",
+      "title_vi": "Thánh Basiliô Cả và Thánh Grêgôriô Nazianzênô, Giám mục, Tiến sĩ HT"
+    },
+    "calendars": {
+      "julian": "2026-12-20",
+      "hebrew": "23 Tevet 5787",
+      "islamic_umm_al_qura": "24 Rajab 1448 AH",
+      "coptic": "24 Koiak 1743",
+      "ethiopian": "24 Tahsas 1751"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "Saint Basil the Great and Saint Gregory Nazianzen, Bishops and Doctors",
+      "title_vi": "Thánh Basiliô Cả và Thánh Grêgôriô Nazianzên, Giám Mục và Tiến Sĩ",
+      "summary_en": "Two Cappadocian fathers shaped the Church's teaching on the Trinity. They defended orthodoxy against Arianism in the fourth century.",
+      "summary_vi": "Hai cố đan cha Capadôcia đã kiến tạo giáo huấn của Giáo Hội về Ba Ngôi. Các ngài bảo vệ chính thống chống lại thuyết Ariô vào thế kỷ thứ tư.",
+      "body_en": "Saint Basil the Great was bishop of Caesarea and a founder of monastic life in the East. His liturgy, the Divine Liturgy of Saint Basil, is still celebrated today.\n\nSaint Gregory Nazianzen, called the Theologian, articulated the doctrine of the Holy Spirit with clarity. His five theological orations remain central to Trinitarian theology.\n\nTogether these friends defended the Nicene faith and gave the Church a language for speaking of one God in three persons. Their writings continue to form bishops and theologians.",
+      "body_vi": "Thánh Basiliô Cả là giám mục thành Cæsarea và là người khởi xướng đời sống đan tu tại phương Đông. Phụng vụ của ngài, Phụng Vụ Thánh Basiliô, vẫn còn cử hành đến ngày nay.\n\nThánh Grêgôriô Nazianzên, được gọi là Nhà Thần Học, đã trình bày rõ ràng giáo lý về Chúa Thánh Thần. Năm bài diễn từ thần học của ngài vẫn là trọng tâm của thần học Ba Ngôi.\n\nCùng với nhau, hai người bạn này đã bảo vệ đức tin Nicea và trao cho Giáo Hội một ngôn ngữ để nói về một Thiên Chúa trong ba ngôi vị. Các tác phẩm của các ngài tiếp tục đào tạo các giám mục và nhà thần học.",
+      "confidence": "confirmed",
+      "confidence_note_en": "Both inscribed as Doctors of the Church; feast in the Roman Calendar.",
+      "confidence_note_vi": "Cả hai được tôn là Tiến Sĩ Hội Thánh; lễ trong Lịch Phụng Vụ Rôma."
+    },
+    "place": {
+      "name": "Caesarea, Cappadocia",
+      "latitude": 38.0,
+      "longitude": 34.0,
+      "confidence": "confirmed",
+      "source_url": "https://www.newadvent.org/cathen/14488a.htm"
+    },
+    "artwork": {
+      "title": "Illustration for Saint Basil the Great and Saint Gregory Nazianzen, Bishops and Doctors",
+      "maker": "Various Artists",
+      "date_label": "Historic",
+      "source_url": "https://www.wikimedia.org/",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Vatican — Liturgical Calendar 2027",
+        "url": "https://www.vatican.va/content/roman-missal/en.html",
+        "type": "vatican"
+      },
+      {
+        "label": "New Advent — Catholic Encyclopedia",
+        "url": "https://www.newadvent.org/cathen/14488a.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "The Cappadocian Fathers",
+      "hero_line_vi": "Các Cha Capadôcia",
+      "prayer_prompt_en": "Teach us the mystery of the Trinity.",
+      "prayer_prompt_vi": "Xin dạy chúng con mầu nhiệm Ba Ngôi."
+    }
+  },
+  {
+    "id": "anno-2027-01-03",
+    "date": "2027-01-03",
+    "weekday": "Sunday",
+    "mock_priority": "engine_b_v1",
+    "liturgical": {
+      "rank": "Sunday",
+      "color": "white",
+      "title_en": "Sunday of Christmastide",
+      "title_vi": "Chúa Nhật Mùa Giáng Sinh"
+    },
+    "calendars": {
+      "julian": "2026-12-21",
+      "hebrew": "24 Tevet 5787",
+      "islamic_umm_al_qura": "25 Rajab 1448 AH",
+      "coptic": "25 Koiak 1743",
+      "ethiopian": "25 Tahsas 1751"
+    },
+    "primary": {
+      "type": "saint",
+      "title_en": "The Most Holy Name of Jesus",
+      "title_vi": "Thánh Danh Cực Thánh Chúa Giêsu",
+      "summary_en": "The name of Jesus is the name above every name, given for our salvation. Devotion to the Holy Name spread through the Society of Jesus.",
+      "summary_vi": "Danh thánh Giêsu là danh cao cả trên mọi danh, được ban cho phần rỗi chúng ta. Lòng sùng kính Thánh Danh lan rộng qua Dòng Tên.",
+      "body_en": "Philippians 2 tells us that at the name of Jesus every knee should bow. The name carries the identity and mission of the Son of God made flesh.\n\nThe devotion was promoted by Saint Bernardine of Siena and later by the Jesuits. The IHS monogram, from the Greek initials of Jesus, became a universal symbol.\n\nTo invoke the Holy Name is to call upon the living presence of the Savior. The Church encourages the faithful to honor it with reverence and trust.",
+      "body_vi": "Thư gửi tín hữu Philiphê 2 dạy rằng khi nghe danh thánh Giêsu, mọi gối phải quỳ xuống. Danh đó mang bản thể và sứ mệnh của Con Thiên Chúa làm người.\n\nLòng sùng kính được thánh Bernardinô thành Siena thúc đẩy, và về sau bởi Dòng Tên. Ký tự IHS, từ chữ viết tắt Hy Lạp của Giêsu, đã trở nên biểu tượng phổ quát.\n\nKêu cầu Thánh Danh là kêu cầu chính sự hiện diện sống động của Đấng Cứu Thế. Giáo Hội khuyến khích các tín hữu tôn kính danh thánh với lòng kính trọng và tin tưởng.",
+      "confidence": "confirmed",
+      "confidence_note_en": "Liturgical feast observed in the Roman Calendar; devotion approved by the Church.",
+      "confidence_note_vi": "Lễ phụng vụ trong Lịch Rôma; lòng sùng kính được Giáo Hội phê chuẩn."
+    },
+    "place": {
+      "name": "Nazareth, Israel",
+      "latitude": 32.7015,
+      "longitude": 35.3035,
+      "confidence": "confirmed",
+      "source_url": "https://www.newadvent.org/cathen/14488a.htm"
+    },
+    "artwork": {
+      "title": "Illustration for The Most Holy Name of Jesus",
+      "maker": "Various Artists",
+      "date_label": "Historic",
+      "source_url": "https://www.wikimedia.org/",
+      "status": "placeholder_only"
+    },
+    "sources": [
+      {
+        "label": "Vatican — Liturgical Calendar 2027",
+        "url": "https://www.vatican.va/content/roman-missal/en.html",
+        "type": "vatican"
+      },
+      {
+        "label": "New Advent — Catholic Encyclopedia",
+        "url": "https://www.newadvent.org/cathen/14488a.htm",
+        "type": "encyclopedia"
+      }
+    ],
+    "app_hooks": {
+      "hero_line_en": "Jesus, name above all names",
+      "hero_line_vi": "Giêsu, danh trên mọi danh",
+      "prayer_prompt_en": "Lord Jesus, mercy.",
+      "prayer_prompt_vi": "Lạy Chúa Giêsu, xin thương xót chúng con."
+    }
+  }
+]
