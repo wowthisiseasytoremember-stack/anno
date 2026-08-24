@@ -1,17 +1,26 @@
 "app.name" = "Anno";
 "app.subtitle" = "Ngày này trong lịch sử Công giáo";
 "app.tagline" = "Anno Domini — Năm của Chúa";
+
 "tab.today" = "Hôm nay";
 "tab.calendar" = "Lịch";
 "tab.map" = "Bản đồ";
 "tab.saved" = "Đã lưu";
 "tab.me" = "Tôi";
+
 "action.read_sources" = "Xem nguồn";
 "action.view_on_map" = "Xem trên bản đồ";
 "action.listen_reflection" = "Nghe suy niệm";
 "action.read_full_prayer" = "Đọc trọn lời nguyện";
 "action.show_less" = "Thu gọn";
 "action.unlock_plus" = "Mở khóa Anno Plus";
+"action.restore_purchases" = "Khôi phục gói mua";
+"action.upgrade_premium" = "Nâng cấp lên gói Cao cấp";
+"action.upgrade_pilgrim" = "Nâng cấp lên Gói Lữ hành";
+"action.unlock_day_pass" = "Mở khóa Thẻ Ngày";
+"action.dismiss" = "Bỏ qua";
+"action.cancel" = "Hủy";
+
 "label.confirmed" = "Đã xác nhận";
 "label.traditional" = "Theo truyền thống";
 "label.disputed" = "Còn tranh luận";
@@ -23,3 +32,40 @@
 "label.feast" = "Lễ kính";
 "label.memorial" = "Lễ nhớ";
 "label.optional_memorial" = "Lễ nhớ tùy chọn";
+"label.premium_tier" = "Anno Cao Cấp";
+"label.pilgrim_tier" = "Gói Lữ Hành";
+"label.free_tier" = "Gói Miễn Phí";
+"label.single_day_tier" = "Thẻ Ngày";
+
+"paywall.title.archive" = "Mở khóa Lịch sử Thánh thiện";
+"paywall.subtitle.archive" = "Các thánh, nghệ thuật thánh, nguồn tư liệu và địa điểm hành hương cho từng ngày trong năm.";
+"paywall.title.pilgrim" = "Gói Lữ hành";
+"paywall.subtitle.pilgrim" = "Lộ trình hành hương GPS tuyển chọn, bản đồ thánh ngoại tuyến và cẩm nang thánh tích.";
+"paywall.title.audio" = "Âm thanh Suy niệm Không giới hạn";
+"paywall.subtitle.audio" = "Nghe tiểu sử các thánh và các bài suy niệm hằng ngày không giới hạn.";
+"paywall.title.bouquet" = "Tạo Bó Hoa Thiêng Của Bạn";
+"paywall.subtitle.bouquet" = "Lưu trữ không giới hạn các mục yêu thích, lời nguyện và bộ sưu tập bài đọc.";
+
+"paywall.action.unlock_day" = "Mở khóa ngày này với $1.99";
+"paywall.action.subscribe_annual" = "Hằng năm — $49.99/năm (Tiết kiệm nhất)";
+"paywall.action.subscribe_monthly" = "Hằng tháng — $4.99/tháng";
+"paywall.action.pilgrim_annual" = "Gói Lữ hành Hằng năm — $79.99/năm";
+"paywall.action.pilgrim_monthly" = "Gói Lữ hành Hằng tháng — $9.99/tháng";
+"paywall.action.restore" = "Khôi phục gói mua";
+
+"paywall.label.best_value" = "Tiết kiệm nhất";
+"paywall.label.most_popular" = "Phổ biến nhất";
+"paywall.label.terms" = "Điều khoản dịch vụ";
+"paywall.label.privacy" = "Chính sách quyền riêng tư";
+"paywall.label.payment_disclaimer" = "Thanh toán sẽ được tính vào tài khoản Apple ID của bạn.";
+
+"paywall.benefit.archive_search" = "Tìm kiếm toàn bộ kho lưu trữ các ngày";
+"paywall.benefit.pilgrimage_pins" = "Mọi điểm địa lý thánh và lộ trình hành hương";
+"paywall.benefit.sacred_art" = "Phòng trưng bày nghệ thuật thánh chất lượng cao";
+"paywall.benefit.audio_entries" = "Thuyết minh âm thanh suy niệm hằng ngày";
+"paywall.benefit.saved_collections" = "Không giới hạn lời nguyện đã lưu và hoa thiêng";
+"paywall.benefit.source_sheets" = "Trích dẫn nguồn tư liệu gốc mở rộng và ghi chú";
+
+"alert.purchase_failed" = "Giao dịch thất bại";
+"alert.restore_success" = "Đã khôi phục gói mua thành công";
+"alert.restore_empty" = "Không tìm thấy gói thuê bao nào còn hiệu lực";

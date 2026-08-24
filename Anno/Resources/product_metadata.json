@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "subscription_group": {
+    "group_id": "AnnoSubscriptions",
+    "name_en": "Anno Subscriptions",
+    "name_vi": "Gói Thuê Bao Anno"
+  },
+  "tiers": [
+    {
+      "tier_id": "free",
+      "name_en": "Free Tier",
+      "name_vi": "Gói Miễn Phí",
+      "description_en": "Daily Catholic history and feast view for the current day.",
+      "description_vi": "Xem lịch sử Công giáo và ngày lễ hằng ngày cho ngày hiện tại.",
+      "features_en": [
+        "Today's feast and liturgical calendar",
+        "Deterministic Gregorian, Hebrew, and Hijri date conversion",
+        "Up to 3 audio reflection samples per week",
+        "Up to 5 saved bookmarks"
+      ],
+      "features_vi": [
+        "Ngày lễ và lịch phụng vụ hôm nay",
+        "Chuyển đổi lịch Công giáo, Do Thái và Hồi giáo chính xác tuyệt đối",
+        "Tối đa 3 lần nghe thử âm thanh suy niệm mỗi tuần",
+        "Tối đa 5 dấu trang đã lưu"
+      ]
+    },
+    {
+      "tier_id": "single_day",
+      "name_en": "Single Day Unlock",
+      "name_vi": "Mở Khóa Ngày Riêng Lẻ",
+      "description_en": "Permanent one-time unlock for any single archived date.",
+      "description_vi": "Mở khóa vĩnh viễn một lần cho bất kỳ ngày lưu trữ nào.",
+      "features_en": [
+        "Permanent access to selected historical date",
+        "Full saint dossier & primary sources for the day",
+        "Day's high-resolution sacred artwork and audio"
+      ],
+      "features_vi": [
+        "Truy cập vĩnh viễn ngày lịch sử đã chọn",
+        "Hồ sơ thánh đầy đủ & nguồn tư liệu gốc trong ngày",
+        "Tác phẩm nghệ thuật thánh độ phân giải cao và âm thanh trong ngày"
+      ]
+    },
+    {
+      "tier_id": "premium",
+      "name_en": "Anno Premium",
+      "name_vi": "Anno Cao Cấp",
+      "description_en": "Complete calendar archive, high-resolution sacred art, and unlimited devotional audio.",
+      "description_vi": "Toàn bộ kho lưu trữ lịch, nghệ thuật thánh chất lượng cao và âm thanh suy niệm không giới hạn.",
+      "features_en": [
+        "Full 4-year calendar archive search & future feast previews",
+        "Curated 60+ high-resolution sacred art gallery with theological analysis",
+        "Unlimited daily audio reflections & saint biography narrations",
+        "Unlimited bookmarks, custom prayers, and spiritual bouquets",
+        "Verified primary source library & scholarly citations"
+      ],
+      "features_vi": [
+        "Tìm kiếm toàn bộ kho lưu trữ lịch 4 năm & xem trước các ngày lễ tương lai",
+        "Hơn 60 tác phẩm nghệ thuật thánh độ phân giải cao cùng phân tích thần học",
+        "Nghe âm thanh suy niệm và tiểu sử các thánh không giới hạn",
+        "Không giới hạn đánh dấu, lời cầu nguyện cá nhân và hoa thiêng",
+        "Thư viện nguồn tài liệu gốc đã được học giả kiểm chứng"
+      ]
+    },
+    {
+      "tier_id": "pilgrim",
+      "name_en": "Anno Pilgrim Pass",
+      "name_vi": "Gói Lữ Hành Anno",
+      "description_en": "All Premium features plus curated multi-day GPS pilgrimage routes and offline navigation.",
+      "description_vi": "Toàn bộ tính năng Premium cùng lộ trình hành hương GPS đa ngày và bản đồ ngoại tuyến.",
+      "features_en": [
+        "Everything in Anno Premium included",
+        "Curated multi-day GPS pilgrimage route packs (Rome, Holy Land, Europe, Vietnam)",
+        "Offline sacred geography maps and waypoint turn-by-turn guidance",
+        "Historical saint birthplace, relic, and apparition site directories",
+        "Custom pilgrimage journal & waypoint check-ins",
+        "Priority access to new regional pilgrimage routes"
+      ],
+      "features_vi": [
+        "Bao gồm tất cả tính năng của gói Anno Premium",
+        "Các gói lộ trình hành hương GPS nhiều ngày (Rome, Đất Thánh, Châu Âu, Việt Nam)",
+        "Bản đồ địa lý thánh ngoại tuyến và hướng dẫn từng điểm dừng",
+        "Danh mục nơi sinh các thánh, thánh tích và các địa điểm Đức Mẹ hiện ra",
+        "Nhật ký hành hương cá nhân và lưu vết điểm dừng chân",
+        "Ưu tiên trải nghiệm các lộ trình hành hương khu vực mới"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": "com.anno.unlock.day_pass",
+      "type": "non_consumable",
+      "tier": "single_day",
+      "price_usd": 1.99,
+      "badge_en": "Micro-Unlock",
+      "badge_vi": "Mở Khóa Nhanh",
+      "title_en": "Single Day Pass",
+      "title_vi": "Thẻ Mở Khóa Ngày",
+      "subtitle_en": "Unlock yesterday's feast and historical research",
+      "subtitle_vi": "Mở khóa ngày lễ hôm qua và nghiên cứu lịch sử",
+      "description_en": "Permanent unlock for a single selected calendar day. Access full saint biographies, primary source citations, and liturgical reflections.",
+      "description_vi": "Mở khóa vĩnh viễn một ngày đã chọn trên lịch. Truy cập đầy đủ tiểu sử các thánh, trích dẫn nguồn lịch sử và suy niệm phụng vụ.",
+      "features_en": [
+        "Permanent access to selected day's feast & saint dossier",
+        "High-resolution sacred art viewer for the day",
+        "Daily audio narration and devotional reflections",
+        "Full primary source citations and historical notes"
+      ],
+      "features_vi": [
+        "Truy cập vĩnh viễn hồ sơ thánh và ngày lễ đã chọn",
+        "Xem nghệ thuật thánh độ phân giải cao trong ngày",
+        "Nghe thuyết minh âm thanh và các bài suy niệm",
+        "Trích dẫn nguồn tư liệu gốc và ghi chú lịch sử"
+      ]
+    },
+    {
+      "product_id": "com.anno.subscription.premium.annual",
+      "type": "auto_renewable_subscription",
+      "tier": "premium",
+      "subscription_group": "AnnoSubscriptions",
+      "subscription_level": 1,
+      "billing_period": "P1Y",
+      "period_unit": "year",
+      "price_usd": 49.99,
+      "price_per_month_equivalent_usd": 4.17,
+      "badge_en": "Best Value",
+      "badge_vi": "Tiết Kiệm Nhất",
+      "title_en": "Anno Premium (Annual)",
+      "title_vi": "Anno Cao Cấp (Hằng Năm)",
+      "subtitle_en": "$49.99 / year (Save 17%)",
+      "subtitle_vi": "$49.99 / năm (Tiết kiệm 17%)",
+      "description_en": "Complete access to the 4-year liturgical calendar archive, daily audio narrations, high-resolution sacred artwork gallery, and spiritual bouquets.",
+      "description_vi": "Truy cập toàn diện kho lưu trữ lịch phụng vụ 4 năm, âm thanh suy niệm hằng ngày, phòng trưng bày nghệ thuật thánh chất lượng cao và hoa thiêng.",
+      "features_en": [
+        "Full 4-year calendar archive search & future feast previews",
+        "Curated 60+ high-resolution sacred art gallery with theological analysis",
+        "Unlimited daily audio reflections & saint biography narrations",
+        "Unlimited bookmarks, custom prayers, and spiritual bouquets",
+        "Verified primary source library & scholarly citations"
+      ],
+      "features_vi": [
+        "Tìm kiếm toàn bộ kho lưu trữ lịch 4 năm & xem trước các ngày lễ tương lai",
+        "Hơn 60 tác phẩm nghệ thuật thánh độ phân giải cao cùng phân tích thần học",
+        "Nghe âm thanh suy niệm và tiểu sử các thánh không giới hạn",
+        "Không giới hạn đánh dấu, lời cầu nguyện cá nhân và hoa thiêng",
+        "Thư viện nguồn tài liệu gốc đã được học giả kiểm chứng"
+      ]
+    },
+    {
+      "product_id": "com.anno.subscription.premium.monthly",
+      "type": "auto_renewable_subscription",
+      "tier": "premium",
+      "subscription_group": "AnnoSubscriptions",
+      "subscription_level": 1,
+      "billing_period": "P1M",
+      "period_unit": "month",
+      "price_usd": 4.99,
+      "price_per_month_equivalent_usd": 4.99,
+      "badge_en": "Monthly",
+      "badge_vi": "Hằng Tháng",
+      "title_en": "Anno Premium (Monthly)",
+      "title_vi": "Anno Cao Cấp (Hằng Tháng)",
+      "subtitle_en": "$4.99 / month",
+      "subtitle_vi": "$4.99 / tháng",
+      "description_en": "Monthly flexible plan unlocking the entire sacred calendar archive, audio narrations, and art dossiers.",
+      "description_vi": "Gói linh hoạt theo tháng mở khóa toàn bộ kho lưu trữ lịch thánh, thuyết minh âm thanh và hồ sơ nghệ thuật.",
+      "features_en": [
+        "Full calendar archive search & future feast previews",
+        "Curated high-resolution sacred art gallery",
+        "Unlimited daily audio reflections & saint narrations",
+        "Unlimited bookmarks & spiritual bouquets",
+        "Cancel anytime in Apple ID settings"
+      ],
+      "features_vi": [
+        "Tìm kiếm toàn bộ kho lưu trữ lịch & xem trước các ngày lễ tương lai",
+        "Phòng trưng bày nghệ thuật thánh độ phân giải cao",
+        "Nghe âm thanh suy niệm và tiểu sử các thánh không giới hạn",
+        "Không giới hạn đánh dấu và hoa thiêng",
+        "Hủy bất cứ lúc nào trong cài đặt Apple ID"
+      ]
+    },
+    {
+      "product_id": "com.anno.subscription.pilgrim.annual",
+      "type": "auto_renewable_subscription",
+      "tier": "pilgrim",
+      "subscription_group": "AnnoSubscriptions",
+      "subscription_level": 2,
+      "billing_period": "P1Y",
+      "period_unit": "year",
+      "price_usd": 79.99,
+      "price_per_month_equivalent_usd": 6.67,
+      "badge_en": "Ultimate Pilgrim",
+      "badge_vi": "Lữ Hành Toàn Diện",
+      "title_en": "Pilgrim Pass (Annual)",
+      "title_vi": "Gói Lữ Hành (Hằng Năm)",
+      "subtitle_en": "$79.99 / year (Save 33%)",
+      "subtitle_vi": "$79.99 / năm (Tiết kiệm 33%)",
+      "description_en": "The ultimate companion for spiritual and physical pilgrimage. Includes all Premium features plus curated multi-day GPS pilgrimage routes, offline topographic maps, sacred relic guides, and route itineraries.",
+      "description_vi": "Người bạn đồng hành tối thượng cho các chuyến hành hương tâm linh và thực tế. Bao gồm mọi tính năng Premium cùng các lộ trình hành hương GPS nhiều ngày, bản đồ ngoại tuyến, cẩm nang thánh tích và lịch trình chi tiết.",
+      "features_en": [
+        "Everything in Anno Premium included",
+        "Curated multi-day GPS pilgrimage route packs (Rome, Holy Land, Europe, Vietnam)",
+        "Offline sacred geography maps and waypoint turn-by-turn guidance",
+        "Historical saint birthplace, relic, and apparition site directories",
+        "Custom pilgrimage journal & waypoint check-ins",
+        "Priority access to new regional pilgrimage routes"
+      ],
+      "features_vi": [
+        "Bao gồm tất cả tính năng của gói Anno Premium",
+        "Các gói lộ trình hành hương GPS nhiều ngày (Rome, Đất Thánh, Châu Âu, Việt Nam)",
+        "Bản đồ địa lý thánh ngoại tuyến và hướng dẫn từng điểm dừng",
+        "Danh mục nơi sinh các thánh, thánh tích và các địa điểm Đức Mẹ hiện ra",
+        "Nhật ký hành hương cá nhân và lưu vết điểm dừng chân",
+        "Ưu tiên trải nghiệm các lộ trình hành hương khu vực mới"
+      ]
+    },
+    {
+      "product_id": "com.anno.subscription.pilgrim.monthly",
+      "type": "auto_renewable_subscription",
+      "tier": "pilgrim",
+      "subscription_group": "AnnoSubscriptions",
+      "subscription_level": 2,
+      "billing_period": "P1M",
+      "period_unit": "month",
+      "price_usd": 9.99,
+      "price_per_month_equivalent_usd": 9.99,
+      "badge_en": "Pilgrim Monthly",
+      "badge_vi": "Lữ Hành Theo Tháng",
+      "title_en": "Pilgrim Pass (Monthly)",
+      "title_vi": "Gói Lữ Hành (Hằng Tháng)",
+      "subtitle_en": "$9.99 / month",
+      "subtitle_vi": "$9.99 / tháng",
+      "description_en": "Monthly access to GPS pilgrimage routes, offline maps, and all Premium archive features.",
+      "description_vi": "Truy cập hằng tháng vào lộ trình hành hương GPS, bản đồ ngoại tuyến và toàn bộ tính năng lưu trữ Premium.",
+      "features_en": [
+        "Everything in Anno Premium included",
+        "Curated multi-day GPS pilgrimage routes with offline maps",
+        "Sacred relics and historical shrine waypoints",
+        "Cancel anytime in Apple ID settings"
+      ],
+      "features_vi": [
+        "Bao gồm tất cả tính năng của gói Anno Premium",
+        "Các lộ trình hành hương GPS nhiều ngày cùng bản đồ ngoại tuyến",
+        "Điểm dừng thánh tích và các đền thánh lịch sử",
+        "Hủy bất cứ lúc nào trong cài đặt Apple ID"
+      ]
+    }
+  ]
+}

@@ -1,17 +1,26 @@
 "app.name" = "Anno";
 "app.subtitle" = "This Day in Catholic History";
 "app.tagline" = "Anno Domini — The Year of Our Lord";
+
 "tab.today" = "Today";
 "tab.calendar" = "Calendar";
 "tab.map" = "Map";
 "tab.saved" = "Saved";
 "tab.me" = "Me";
+
 "action.read_sources" = "View Sources";
 "action.view_on_map" = "View on Map";
 "action.listen_reflection" = "Listen to Reflection";
 "action.read_full_prayer" = "Read Full Prayer";
 "action.show_less" = "Show Less";
 "action.unlock_plus" = "Unlock Anno Plus";
+"action.restore_purchases" = "Restore Purchases";
+"action.upgrade_premium" = "Upgrade to Premium";
+"action.upgrade_pilgrim" = "Upgrade to Pilgrim Pass";
+"action.unlock_day_pass" = "Unlock Day Pass";
+"action.dismiss" = "Dismiss";
+"action.cancel" = "Cancel";
+
 "label.confirmed" = "Confirmed";
 "label.traditional" = "Traditional";
 "label.disputed" = "Disputed";
@@ -23,3 +32,40 @@
 "label.feast" = "Feast";
 "label.memorial" = "Memorial";
 "label.optional_memorial" = "Optional Memorial";
+"label.premium_tier" = "Anno Premium";
+"label.pilgrim_tier" = "Pilgrim Pass";
+"label.free_tier" = "Free Tier";
+"label.single_day_tier" = "Day Pass";
+
+"paywall.title.archive" = "Unlock Holy History";
+"paywall.subtitle.archive" = "Saints, sacred art, sources, and pilgrimage places for every day of the year.";
+"paywall.title.pilgrim" = "Pilgrim Pass";
+"paywall.subtitle.pilgrim" = "Curated GPS pilgrimage routes, offline sacred maps, and relic guides.";
+"paywall.title.audio" = "Unlimited Devotional Audio";
+"paywall.subtitle.audio" = "Listen to daily saint biographies and meditations without limits.";
+"paywall.title.bouquet" = "Build Your Spiritual Bouquet";
+"paywall.subtitle.bouquet" = "Organize unlimited bookmarks, prayers, and reading collections.";
+
+"paywall.action.unlock_day" = "Unlock This Day for $1.99";
+"paywall.action.subscribe_annual" = "Annual — $49.99/year (Best Value)";
+"paywall.action.subscribe_monthly" = "Monthly — $4.99/month";
+"paywall.action.pilgrim_annual" = "Pilgrim Pass Annual — $79.99/year";
+"paywall.action.pilgrim_monthly" = "Pilgrim Pass Monthly — $9.99/month";
+"paywall.action.restore" = "Restore Purchases";
+
+"paywall.label.best_value" = "Best Value";
+"paywall.label.most_popular" = "Most Popular";
+"paywall.label.terms" = "Terms of Service";
+"paywall.label.privacy" = "Privacy Policy";
+"paywall.label.payment_disclaimer" = "Payment will be charged to your Apple ID account.";
+
+"paywall.benefit.archive_search" = "Full archive search across all dates";
+"paywall.benefit.pilgrimage_pins" = "Every sacred geography pin and pilgrimage route";
+"paywall.benefit.sacred_art" = "High-resolution sacred art gallery";
+"paywall.benefit.audio_entries" = "Daily devotional audio narrations";
+"paywall.benefit.saved_collections" = "Unlimited saved prayers and bouquets";
+"paywall.benefit.source_sheets" = "Expanded primary source citations & notes";
+
+"alert.purchase_failed" = "Purchase Failed";
+"alert.restore_success" = "Purchases Restored Successfully";
+"alert.restore_empty" = "No Active Subscriptions Found";

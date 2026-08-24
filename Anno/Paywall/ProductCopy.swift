@@ -42,6 +42,18 @@ struct ProductCopy {
     }
 
     var secondaryPlan: String {
-        language == .vietnamese ? "Hằng tháng - $5.99/tháng" : "Monthly - $5.99/month"
+        language == .vietnamese ? "Hằng tháng - $4.99/tháng" : "Monthly - $4.99/month"
+    }
+
+    var dayPassPlan: String {
+        language == .vietnamese ? "Thẻ ngày - $1.99" : "Day Pass - $1.99"
+    }
+
+    var pilgrimAnnualPlan: String {
+        language == .vietnamese ? "Gói Lữ hành - $79.99/năm" : "Pilgrim Pass - $79.99/year"
+    }
+
+    var pilgrimMonthlyPlan: String {
+        language == .vietnamese ? "Gói Lữ hành - $9.99/tháng" : "Pilgrim Pass - $9.99/month"
     }
 }

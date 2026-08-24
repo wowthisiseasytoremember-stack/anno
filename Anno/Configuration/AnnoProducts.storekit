@@ -1,0 +1,231 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : ""
+      }
+    ]
+  },
+  "identifier" : "AnnoStoreKitConfig",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "A1010101",
+      "localizations" : [
+        {
+          "description" : "Unlock yesterday's feast, saint biographies, and reflection.",
+          "displayName" : "Single Day Pass",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Mở khóa ngày lễ hôm qua, tiểu sử các thánh và suy niệm.",
+          "displayName" : "Thẻ Mở Khóa Ngày",
+          "locale" : "vi"
+        }
+      ],
+      "productID" : "com.anno.unlock.day_pass",
+      "referenceName" : "Single Day Pass",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "AnnoSubscriptions",
+      "localizations" : [
+        {
+          "description" : "Full access to Anno Catholic history, art, and pilgrimage routes.",
+          "displayName" : "Anno Subscriptions",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Truy cập toàn bộ lịch sử Công giáo, nghệ thuật thánh và lộ trình hành hương.",
+          "displayName" : "Gói Thuê Bao Anno",
+          "locale" : "vi"
+        }
+      ],
+      "name" : "AnnoSubscriptions",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "49.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "A2020201",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Full calendar archive, high-res sacred art, and audio reflections.",
+              "displayName" : "Anno Premium Annual",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Toàn bộ kho lưu trữ, nghệ thuật thánh chất lượng cao và âm thanh suy niệm.",
+              "displayName" : "Anno Cao Cấp Hằng Năm",
+              "locale" : "vi"
+            }
+          ],
+          "productID" : "com.anno.subscription.premium.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Anno Premium Annual",
+          "subscriptionGroupID" : "AnnoSubscriptions",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "A2020202",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly full calendar archive, high-res sacred art, and audio reflections.",
+              "displayName" : "Anno Premium Monthly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Truy cập kho lưu trữ, nghệ thuật thánh chất lượng cao và âm thanh suy niệm theo tháng.",
+              "displayName" : "Anno Cao Cấp Hằng Tháng",
+              "locale" : "vi"
+            }
+          ],
+          "productID" : "com.anno.subscription.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Anno Premium Monthly",
+          "subscriptionGroupID" : "AnnoSubscriptions",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "79.99",
+          "familyShareable" : true,
+          "groupNumber" : 2,
+          "internalID" : "A3030301",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Premium features plus curated multi-day GPS pilgrimage routes and offline navigation.",
+              "displayName" : "Anno Pilgrim Pass Annual",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Đầy đủ tính năng Premium cùng lộ trình hành hương GPS đa ngày và bản đồ ngoại tuyến.",
+              "displayName" : "Gói Lữ Hành Anno Hằng Năm",
+              "locale" : "vi"
+            }
+          ],
+          "productID" : "com.anno.subscription.pilgrim.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Anno Pilgrim Pass Annual",
+          "subscriptionGroupID" : "AnnoSubscriptions",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : true,
+          "groupNumber" : 2,
+          "internalID" : "A3030302",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly access to pilgrimage routes, GPS navigation, and all Premium features.",
+              "displayName" : "Anno Pilgrim Pass Monthly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Truy cập lộ trình hành hương GPS và mọi tính năng Premium theo tháng.",
+              "displayName" : "Gói Lữ Hành Anno Hằng Tháng",
+              "locale" : "vi"
+            }
+          ],
+          "productID" : "com.anno.subscription.pilgrim.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Anno Pilgrim Pass Monthly",
+          "subscriptionGroupID" : "AnnoSubscriptions",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

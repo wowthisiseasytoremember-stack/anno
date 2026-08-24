@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "default_grace_period_days": 0,
+  "triggers": [
+    {
+      "trigger_id": "archive_history_gate",
+      "target_feature": "calendar_archive",
+      "description": "User attempts to navigate to any date other than today without an active premium or single-day entitlement.",
+      "condition": {
+        "type": "date_not_equal",
+        "reference": "today",
+        "exempt_tiers": ["premium", "pilgrim"],
+        "supports_single_day_unlock": true
+      },
+      "paywall_view": "ArchivePaywallView",
+      "presentation_style": "sheet",
+      "teaser_enabled": true,
+      "teaser_type": "yesterday_saint_summary",
+      "title_en": "Unlock the Catholic Archive",
+      "title_vi": "Mở Khóa Kho Lưu Trữ Công Giáo",
+      "subtitle_en": "Saints, sacred art, sources, and pilgrimage places for every day of the year.",
+      "subtitle_vi": "Các thánh, nghệ thuật thánh, nguồn và địa điểm hành hương cho từng ngày trong năm.",
+      "primary_product_id": "com.anno.subscription.premium.annual",
+      "secondary_product_id": "com.anno.subscription.premium.monthly",
+      "micro_unlock_product_id": "com.anno.unlock.day_pass",
+      "free_tier_fallback_action": "return_to_today"
+    },
+    {
+      "trigger_id": "pilgrim_route_gate",
+      "target_feature": "pilgrimage_routes_gps",
+      "description": "User attempts to open multi-day GPS pilgrimage routes, offline maps, or waypoint navigation.",
+      "condition": {
+        "type": "feature_access",
+        "feature_name": "pilgrimage_routes",
+        "exempt_tiers": ["pilgrim"],
+        "supports_single_day_unlock": false
+      },
+      "paywall_view": "PilgrimPaywallView",
+      "presentation_style": "full_screen_cover",
+      "teaser_enabled": true,
+      "teaser_type": "route_first_stop_preview",
+      "title_en": "Unlock Pilgrim Pass",
+      "title_vi": "Mở Khóa Gói Lữ Hành",
+      "subtitle_en": "Curated GPS pilgrimage routes, offline sacred maps, and relic guides across Rome, the Holy Land, Europe, and Vietnam.",
+      "subtitle_vi": "Lộ trình hành hương GPS tuyển chọn, bản đồ thánh ngoại tuyến và cẩm nang thánh tích tại Rome, Đất Thánh, Châu Âu và Việt Nam.",
+      "primary_product_id": "com.anno.subscription.pilgrim.annual",
+      "secondary_product_id": "com.anno.subscription.pilgrim.monthly",
+      "micro_unlock_product_id": null,
+      "free_tier_fallback_action": "show_sample_overview"
+    },
+    {
+      "trigger_id": "audio_narration_gate",
+      "target_feature": "audio_reflections",
+      "description": "User exceeds the weekly quota of 3 free audio reflection listens.",
+      "condition": {
+        "type": "weekly_quota_exceeded",
+        "max_free_quota": 3,
+        "quota_reset_day": "monday_00_00_utc",
+        "exempt_tiers": ["premium", "pilgrim"],
+        "supports_single_day_unlock": false
+      },
+      "paywall_view": "AudioPremiumPaywallView",
+      "presentation_style": "sheet",
+      "teaser_enabled": true,
+      "teaser_type": "30s_audio_sample",
+      "title_en": "Unlimited Devotional Audio",
+      "title_vi": "Âm Thanh Suy Niệm Không Giới Hạn",
+      "subtitle_en": "Listen to daily saint biographies, historical context, and sacred meditations without limits.",
+      "subtitle_vi": "Nghe tiểu sử các thánh hằng ngày, bối cảnh lịch sử và suy niệm thánh thiện không giới hạn.",
+      "primary_product_id": "com.anno.subscription.premium.annual",
+      "secondary_product_id": "com.anno.subscription.premium.monthly",
+      "micro_unlock_product_id": null,
+      "free_tier_fallback_action": "pause_audio"
+    },
+    {
+      "trigger_id": "spiritual_bouquet_gate",
+      "target_feature": "spiritual_bouquet_bookmarks",
+      "description": "User attempts to save more than 5 bookmarks or create custom spiritual bouquet collections.",
+      "condition": {
+        "type": "item_count_exceeded",
+        "max_free_count": 5,
+        "exempt_tiers": ["premium", "pilgrim"],
+        "supports_single_day_unlock": false
+      },
+      "paywall_view": "BouquetPaywallView",
+      "presentation_style": "sheet",
+      "teaser_enabled": false,
+      "teaser_type": null,
+      "title_en": "Build Your Spiritual Bouquet",
+      "title_vi": "Tạo Bó Hoa Thiêng Của Bạn",
+      "subtitle_en": "Organize unlimited bookmarks, personal prayers, saint intercessions, and reading collections.",
+      "subtitle_vi": "Lưu trữ không giới hạn các mục yêu thích, lời nguyện cá nhân, ý chỉ cầu bầu và bộ sưu tập bài đọc.",
+      "primary_product_id": "com.anno.subscription.premium.annual",
+      "secondary_product_id": "com.anno.subscription.premium.monthly",
+      "micro_unlock_product_id": null,
+      "free_tier_fallback_action": "dismiss_save"
+    }
+  ]
+}

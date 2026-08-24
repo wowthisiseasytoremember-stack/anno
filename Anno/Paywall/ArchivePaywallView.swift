@@ -202,7 +202,10 @@ struct ArchivePaywallView: View {
         VStack(spacing: 12) {
             // Primary CTA — full-width gold gradient
             Button {
-                // StoreKit purchase action
+                Task {
+                    try? await EntitlementService.shared.purchase(productID: EntitlementService.premiumAnnualProductID)
+                    dismiss()
+                }
             } label: {
                 VStack(spacing: 4) {
                     Text(copy.primaryPlan)
@@ -237,7 +240,10 @@ struct ArchivePaywallView: View {
 
             // Secondary CTA — bordered outline
             Button {
-                // StoreKit purchase action
+                Task {
+                    try? await EntitlementService.shared.purchase(productID: EntitlementService.premiumMonthlyProductID)
+                    dismiss()
+                }
             } label: {
                 Text(copy.secondaryPlan)
                     .font(.subheadline.weight(.medium))
@@ -253,8 +259,8 @@ struct ArchivePaywallView: View {
             .buttonStyle(.plain)
             .accessibilityLabel(
                 language == .vietnamese
-                    ? "Gói hằng tháng, năm đô la chín mươi chín xu mỗi tháng"
-                    : "Monthly plan, five dollars and ninety-nine cents per month"
+                    ? "Gói hằng tháng, bốn đô la chín mươi chín xu mỗi tháng"
+                    : "Monthly plan, four dollars and ninety-nine cents per month"
             )
         }
         .padding(.horizontal, 20)
@@ -269,7 +275,9 @@ struct ArchivePaywallView: View {
         VStack(spacing: 12) {
             // Restore purchases
             Button {
-                // Restore action
+                Task {
+                    try? await EntitlementService.shared.restorePurchases()
+                }
             } label: {
                 Text(language == .vietnamese ? "Khôi phục giao dịch" : "Restore Purchases")
                     .font(.caption.weight(.medium))
