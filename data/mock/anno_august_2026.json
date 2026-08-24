@@ -45,9 +45,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Daily Readings",
+        "label": "USCCB Daily Readings – Memorial of Saint Alphonsus Liguori",
         "url": "https://bible.usccb.org/bible/readings/080126",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "Catholic Encyclopedia: Saint Alphonsus Liguori",
+        "url": "https://www.newadvent.org/cathen/013341.htm",
+        "type": "encyclopedia"
       }
     ],
     "app_hooks": {
@@ -106,6 +111,11 @@
         "label": "USCCB 18th Sunday Readings",
         "url": "https://bible.usccb.org/bible/readings/080226.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+        "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -161,9 +171,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Daily Readings",
+        "label": "USCCB Daily Readings – Monday of the 18th Week in Ordinary Time",
         "url": "https://bible.usccb.org/bible/readings/080326.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+        "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -219,9 +234,19 @@
     },
     "sources": [
       {
-        "label": "Sanctuary of Ars",
+        "label": "Sanctuary of Ars – Shrine Records",
         "url": "https://www.ain-tourisme.com/en/offers/town-of-ars-sur-formans-sanctuary-town-ars-sur-formans-en-6285232/",
         "type": "academic"
+      },
+      {
+        "label": "Catholic Encyclopedia: St. Jean-Baptiste-Marie Vianney (Curé of Ars)",
+        "url": "https://www.newadvent.org/cathen/08326c.htm",
+        "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Daily Readings – Memorial of Saint John Vianney, Priest",
+        "url": "https://bible.usccb.org/bible/readings/080426.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -277,9 +302,14 @@
     },
     "sources": [
       {
-        "label": "Vatican Basilica Website",
+        "label": "Papal Basilica of Santa Maria Maggiore (Vatican)",
         "url": "https://www.basilicasantamariamaggiore.va/it/basilica.html",
         "type": "vatican"
+      },
+      {
+        "label": "Catholic Encyclopedia: Basilica of Liberius (Santa Maria Maggiore)",
+        "url": "https://www.newadvent.org/cathen/11561b.htm",
+        "type": "encyclopedia"
       }
     ],
     "app_hooks": {
@@ -335,9 +365,14 @@
     },
     "sources": [
       {
-        "label": "Vatican Homily on the Transfiguration",
+        "label": "Vatican – Homily of Pope John Paul II on the Feast of the Transfiguration",
         "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2002/august/documents/hf_jp-ii_spe_20020806_trasfigurazione.html",
         "type": "vatican"
+      },
+      {
+        "label": "USCCB Daily Readings – Feast of the Transfiguration of the Lord",
+        "url": "https://bible.usccb.org/bible/readings/080626.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -393,9 +428,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Culture - Feast Day Details",
+        "label": "Catholic Culture – Liturgical Day Details for August 7",
         "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-07",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "Catholic Encyclopedia: Pope Saint Sixtus II",
+        "url": "https://www.newadvent.org/cathen/14031b.htm",
+        "type": "encyclopedia"
       }
     ],
     "app_hooks": {
@@ -451,9 +491,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Memorial of Saint Dominic",
+        "label": "USCCB Memorial of Saint Dominic, Priest",
         "url": "https://bible.usccb.org/bible/readings/memorial-saint-dominic-priest",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "Catholic Encyclopedia: Saint Dominic",
+        "url": "https://www.newadvent.org/cathen/05106a.htm",
+        "type": "encyclopedia"
       }
     ],
     "app_hooks": {
@@ -512,6 +557,11 @@
         "label": "USCCB 19th Sunday Readings",
         "url": "https://bible.usccb.org/bible/readings/080926.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+        "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -567,9 +617,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Feast of Saint Lawrence",
+        "label": "USCCB Feast of Saint Lawrence, Deacon and Martyr",
         "url": "https://bible.usccb.org/bible/readings/081026.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "Catholic Encyclopedia: Saint Lawrence",
+        "url": "https://www.newadvent.org/cathen/09089a.htm",
+        "type": "encyclopedia"
       }
     ],
     "app_hooks": {
@@ -625,9 +680,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Encyclopedia Clare of Assisi",
+        "label": "Catholic Encyclopedia: Saint Clare of Assisi",
         "url": "https://www.newadvent.org/cathen/04004a.htm",
         "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Memorial of Saint Clare, Virgin",
+        "url": "https://bible.usccb.org/bible/readings/081126.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -683,9 +743,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Encyclopedia Jane Frances de Chantal",
+        "label": "Catholic Encyclopedia: Saint Jane Frances de Chantal",
         "url": "https://www.newadvent.org/cathen/08282c.htm",
         "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Liturgical Calendar – Optional Memorial of Saint Jane Frances de Chantal",
+        "url": "https://bible.usccb.org/bible/readings/081226.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -741,9 +806,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Culture Liturgical Entry",
+        "label": "Catholic Culture – Saints Pontian and Hippolytus",
         "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-13",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "Catholic Encyclopedia: Saint Hippolytus of Rome",
+        "url": "https://www.newadvent.org/cathen/07360b.htm",
+        "type": "encyclopedia"
       }
     ],
     "app_hooks": {
@@ -799,9 +869,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Encyclopedia Maximilian Kolbe",
+        "label": "Catholic Encyclopedia: Saint Maximilian Kolbe",
         "url": "https://www.newadvent.org/cathen/16124a.htm",
         "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Memorial of Saint Maximilian Mary Kolbe",
+        "url": "https://bible.usccb.org/bible/readings/081426.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -857,9 +932,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Mass Readings for the Assumption",
+        "label": "USCCB Mass Readings for the Solemnity of the Assumption",
         "url": "https://bible.usccb.org/bible/readings/081526.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "Apostolic Constitution Munificentissimus Deus – Pope Pius XII (Vatican)",
+        "url": "https://www.vatican.va/content/pius-xii/en/apost_constitutions/documents/hf_p-xii_apc_19501101_munificentissimus-deus.html",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -918,6 +998,11 @@
         "label": "USCCB 20th Sunday Readings",
         "url": "https://bible.usccb.org/bible/readings/081626.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+        "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -973,9 +1058,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Daily Readings",
+        "label": "USCCB Daily Readings – Monday of the 20th Week in Ordinary Time",
         "url": "https://bible.usccb.org/bible/readings/081726.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+        "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -1031,9 +1121,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Daily Readings",
+        "label": "USCCB Daily Readings – Tuesday of the 20th Week in Ordinary Time",
         "url": "https://bible.usccb.org/bible/readings/081826.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+        "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -1089,9 +1184,19 @@
     },
     "sources": [
       {
-        "label": "Tekton Ministries - St. John Eudes Profile",
+        "label": "Tekton Ministries – St. John Eudes Profile & Historical Context",
         "url": "https://www.tektonministries.org/saint-john-eudes/",
         "type": "academic"
+      },
+      {
+        "label": "Catholic Encyclopedia: Saint John Eudes",
+        "url": "https://www.newadvent.org/cathen/08470a.htm",
+        "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Daily Readings – Optional Memorial of Saint John Eudes",
+        "url": "https://bible.usccb.org/bible/readings/081926.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -1147,9 +1252,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Encyclopedia Bernard of Clairvaux",
+        "label": "Catholic Encyclopedia: Saint Bernard of Clairvaux",
         "url": "https://www.newadvent.org/cathen/02498d.htm",
         "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Memorial of Saint Bernard, Abbot and Doctor of the Church",
+        "url": "https://bible.usccb.org/bible/readings/082026.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -1205,9 +1315,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Encyclopedia Pope Pius X",
+        "label": "Catholic Encyclopedia: Pope Saint Pius X",
         "url": "https://www.newadvent.org/cathen/12137a.htm",
         "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Memorial of Saint Pius X, Pope",
+        "url": "https://bible.usccb.org/bible/readings/082126.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -1263,9 +1378,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Mass Readings for the Queenship",
+        "label": "USCCB Mass Readings for the Memorial of the Queenship of Mary",
         "url": "https://bible.usccb.org/bible/readings/082226.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "Encyclical Ad Caeli Reginam – Pope Pius XII (Vatican)",
+        "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -1324,6 +1444,11 @@
         "label": "USCCB 21st Sunday Readings",
         "url": "https://bible.usccb.org/bible/readings/082326.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+        "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -1379,9 +1504,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Feast of Saint Bartholomew",
+        "label": "USCCB Feast of Saint Bartholomew, Apostle",
         "url": "https://bible.usccb.org/bible/readings/feast-saint-bartholomew-apostle",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "Catholic Encyclopedia: Saint Bartholomew",
+        "url": "https://www.newadvent.org/cathen/023133.htm",
+        "type": "encyclopedia"
       }
     ],
     "app_hooks": {
@@ -1437,9 +1567,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Culture August 25 Details",
+        "label": "Catholic Culture – Optional Memorials for August 25",
         "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-25",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "Catholic Encyclopedia: Saint Louis IX of France",
+        "url": "https://www.newadvent.org/cathen/09368a.htm",
+        "type": "encyclopedia"
       }
     ],
     "app_hooks": {
@@ -1495,9 +1630,14 @@
     },
     "sources": [
       {
-        "label": "USCCB Daily Readings",
+        "label": "USCCB Daily Readings – Wednesday of the 21st Week in Ordinary Time",
         "url": "https://bible.usccb.org/bible/readings/082626.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+        "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -1553,9 +1693,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Encyclopedia Saint Monica",
+        "label": "Catholic Encyclopedia: Saint Monica",
         "url": "https://www.newadvent.org/cathen/10482a.htm",
         "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Memorial of Saint Monica",
+        "url": "https://bible.usccb.org/bible/readings/082726.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -1611,9 +1756,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Encyclopedia Saint Augustine",
+        "label": "Catholic Encyclopedia: Saint Augustine of Hippo",
         "url": "https://www.newadvent.org/cathen/02084a.htm",
         "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Memorial of Saint Augustine, Bishop and Doctor of the Church",
+        "url": "https://bible.usccb.org/bible/readings/082826.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -1669,9 +1819,14 @@
     },
     "sources": [
       {
-        "label": "Catholic Encyclopedia John the Baptist Beheading",
+        "label": "Catholic Encyclopedia: The Beheading of Saint John the Baptist",
         "url": "https://www.newadvent.org/cathen/08486b.htm",
         "type": "encyclopedia"
+      },
+      {
+        "label": "USCCB Memorial of the Passion of Saint John the Baptist, Martyr",
+        "url": "https://bible.usccb.org/bible/readings/082926.cfm",
+        "type": "liturgical_calendar"
       }
     ],
     "app_hooks": {
@@ -1730,6 +1885,11 @@
         "label": "USCCB 22nd Sunday Readings",
         "url": "https://bible.usccb.org/bible/readings/083026.cfm",
         "type": "liturgical_calendar"
+      },
+      {
+        "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+        "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+        "type": "vatican"
       }
     ],
     "app_hooks": {
@@ -1785,9 +1945,14 @@
     },
     "sources": [
       {
-        "label": "Monestirs de Catalunya - Sant Ramon",
+        "label": "Monestirs de Catalunya – Sant Ramon Nonat Monographic Dossier",
         "url": "https://www.monestirs.cat/monst/segar/esa17port.htm",
         "type": "academic"
+      },
+      {
+        "label": "Catholic Encyclopedia: Saint Raymond Nonnatus",
+        "url": "https://www.newadvent.org/cathen/12671b.htm",
+        "type": "encyclopedia"
       }
     ],
     "app_hooks": {

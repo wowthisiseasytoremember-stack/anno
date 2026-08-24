@@ -16,7 +16,7 @@
         "rank": "Feria",
         "color": "verdigris",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+        "title_vi": "Ngày Thường"
       },
       "calendars": {
         "julian": "2026-06-20",
@@ -28,12 +28,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "title_vi": "Ngày Thường",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -49,12 +49,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Feast of Saint Thomas, Apostle",
+          "url": "https://bible.usccb.org/bible/readings/070326.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Alban Butler, The Lives of the Fathers, Martyrs, and Other Principal Saints: St. Thomas, Apostle (1866)",
+          "url": "https://www.newadvent.org/cathen/14658b.htm",
+          "type": "encyclopedia"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -66,7 +77,7 @@
         "rank": "Feria",
         "color": "verdigris",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+        "title_vi": "Ngày Thường"
       },
       "calendars": {
         "julian": "2026-06-21",
@@ -78,12 +89,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "title_vi": "Ngày Thường",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -99,12 +110,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Saturday of the 13th Week in Ordinary Time",
+          "url": "https://bible.usccb.org/bible/readings/070426.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Alban Butler, The Lives of the Saints: St. Elizabeth of Portugal (1866)",
+          "url": "https://www.newadvent.org/cathen/05391a.htm",
+          "type": "encyclopedia"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -116,7 +138,7 @@
         "rank": "Sunday",
         "color": "verdigris",
         "title_en": "Sunday in Ordinary Time",
-        "title_vi": "Ch\u00faa Nh\u1eadt Th\u01b0\u1eddng Ni\u00ean"
+        "title_vi": "Chúa Nhật Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-22",
@@ -128,12 +150,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Sunday in Ordinary Time",
-        "title_vi": "Ch\u00faa Nh\u1eadt Th\u01b0\u1eddng Ni\u00ean",
+        "title_vi": "Chúa Nhật Thường Niên",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -149,12 +171,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – 14th Sunday in Ordinary Time",
+          "url": "https://bible.usccb.org/bible/readings/070526.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+          "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+          "type": "vatican"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -166,7 +199,7 @@
         "rank": "Feria",
         "color": "verdigris",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+        "title_vi": "Ngày Thường"
       },
       "calendars": {
         "julian": "2026-06-23",
@@ -178,12 +211,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "title_vi": "Ngày Thường",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -199,12 +232,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Monday of the 14th Week in Ordinary Time",
+          "url": "https://bible.usccb.org/bible/readings/070626.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican – Homily of Pope Pius XII at the Canonization of Saint Maria Goretti (1950)",
+          "url": "https://www.vatican.va/content/pius-xii/en/homilies/documents/hf_p-xii_hom_19500624_maria-goretti.html",
+          "type": "vatican"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -216,7 +260,7 @@
         "rank": "Feria",
         "color": "verdigris",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+        "title_vi": "Ngày Thường"
       },
       "calendars": {
         "julian": "2026-06-24",
@@ -228,12 +272,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "title_vi": "Ngày Thường",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -249,12 +293,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Tuesday of the 14th Week in Ordinary Time",
+          "url": "https://bible.usccb.org/bible/readings/070726.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+          "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+          "type": "vatican"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -266,7 +321,7 @@
         "rank": "Feria",
         "color": "verdigris",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+        "title_vi": "Ngày Thường"
       },
       "calendars": {
         "julian": "2026-06-25",
@@ -278,12 +333,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "title_vi": "Ngày Thường",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -299,12 +354,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Wednesday of the 14th Week in Ordinary Time",
+          "url": "https://bible.usccb.org/bible/readings/070826.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+          "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+          "type": "vatican"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -315,8 +381,8 @@
       "liturgical": {
         "rank": "Feast",
         "color": "white",
-        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
-        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu"
+        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
+        "title_vi": "Đại Hội Thánh Mẫu"
       },
       "calendars": {
         "julian": "2026-06-26",
@@ -327,13 +393,13 @@
       },
       "primary": {
         "type": "festival",
-        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
-        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu",
+        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
+        "title_vi": "Đại Hội Thánh Mẫu",
         "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "summary_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "summary_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Christ Cathedral, Garden Grove",
@@ -343,18 +409,29 @@
         "source_url": "https://example.com"
       },
       "artwork": {
-        "title": "Depiction for Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "title": "Depiction for Marian Days (Đại Hội Thánh Mẫu)",
         "maker": "Various Artists",
         "date_label": "Historic",
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "Congregation of the Mother of the Redeemer – Đại Hội Thánh Mẫu Official Archive",
+          "url": "https://dongcong.org/dai-hoi-thanh-mau",
+          "type": "academic"
+        },
+        {
+          "label": "USCCB Secretariat of Cultural Diversity in the Church – Asian and Pacific Island Catholics",
+          "url": "https://www.usccb.org/committees/cultural-diversity-church",
+          "type": "liturgical_calendar"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "hero_line_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "hero_line_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -365,8 +442,8 @@
       "liturgical": {
         "rank": "Feast",
         "color": "white",
-        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
-        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu"
+        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
+        "title_vi": "Đại Hội Thánh Mẫu"
       },
       "calendars": {
         "julian": "2026-06-27",
@@ -377,13 +454,13 @@
       },
       "primary": {
         "type": "festival",
-        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
-        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu",
+        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
+        "title_vi": "Đại Hội Thánh Mẫu",
         "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "summary_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "summary_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Christ Cathedral, Garden Grove",
@@ -393,18 +470,29 @@
         "source_url": "https://example.com"
       },
       "artwork": {
-        "title": "Depiction for Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "title": "Depiction for Marian Days (Đại Hội Thánh Mẫu)",
         "maker": "Various Artists",
         "date_label": "Historic",
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "Congregation of the Mother of the Redeemer – Đại Hội Thánh Mẫu Historical Records",
+          "url": "https://dongcong.org/dai-hoi-thanh-mau",
+          "type": "academic"
+        },
+        {
+          "label": "National Catholic Register – The Pilgrimage of Faith: Marian Days in Carthage",
+          "url": "https://www.ncregister.com/news/marian-days-vietnamese-catholic-pilgrimage",
+          "type": "news"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "hero_line_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "hero_line_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -415,8 +503,8 @@
       "liturgical": {
         "rank": "Feast",
         "color": "white",
-        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
-        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu"
+        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
+        "title_vi": "Đại Hội Thánh Mẫu"
       },
       "calendars": {
         "julian": "2026-06-28",
@@ -427,13 +515,13 @@
       },
       "primary": {
         "type": "festival",
-        "title_en": "Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
-        "title_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu",
+        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
+        "title_vi": "Đại Hội Thánh Mẫu",
         "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "summary_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "summary_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Christ Cathedral, Garden Grove",
@@ -443,18 +531,29 @@
         "source_url": "https://example.com"
       },
       "artwork": {
-        "title": "Depiction for Marian Days (\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu)",
+        "title": "Depiction for Marian Days (Đại Hội Thánh Mẫu)",
         "maker": "Various Artists",
         "date_label": "Historic",
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Memorial of Saint Benedict, Abbot",
+          "url": "https://bible.usccb.org/bible/readings/071126.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Encyclopedia: Saint Benedict of Nursia",
+          "url": "https://www.newadvent.org/cathen/02467b.htm",
+          "type": "encyclopedia"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "hero_line_vi": "\u0110\u1ea1i H\u1ed9i Th\u00e1nh M\u1eabu h\u00e0ng n\u0103m quy t\u1ee5 h\u00e0ng ng\u00e0n ng\u01b0\u1eddi r\u01b0\u1edbc ki\u1ec7u Th\u00e1nh Th\u1ec3.",
+        "hero_line_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -466,7 +565,7 @@
         "rank": "Sunday",
         "color": "verdigris",
         "title_en": "Sunday in Ordinary Time",
-        "title_vi": "Ch\u00faa Nh\u1eadt Th\u01b0\u1eddng Ni\u00ean"
+        "title_vi": "Chúa Nhật Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-29",
@@ -478,12 +577,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Sunday in Ordinary Time",
-        "title_vi": "Ch\u00faa Nh\u1eadt Th\u01b0\u1eddng Ni\u00ean",
+        "title_vi": "Chúa Nhật Thường Niên",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -499,12 +598,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – 15th Sunday in Ordinary Time",
+          "url": "https://bible.usccb.org/bible/readings/071226.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
+          "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+          "type": "vatican"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -516,7 +626,7 @@
         "rank": "Feria",
         "color": "verdigris",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+        "title_vi": "Ngày Thường"
       },
       "calendars": {
         "julian": "2026-06-30",
@@ -528,12 +638,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "title_vi": "Ngày Thường",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -549,12 +659,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Monday of the 15th Week in Ordinary Time",
+          "url": "https://bible.usccb.org/bible/readings/071326.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Encyclopedia: Saint Henry II",
+          "url": "https://www.newadvent.org/cathen/07229a.htm",
+          "type": "encyclopedia"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -566,7 +687,7 @@
         "rank": "Feria",
         "color": "verdigris",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+        "title_vi": "Ngày Thường"
       },
       "calendars": {
         "julian": "2026-07-01",
@@ -578,12 +699,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "title_vi": "Ngày Thường",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -599,12 +720,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Memorial of Saint Kateri Tekakwitha, Virgin",
+          "url": "https://bible.usccb.org/bible/readings/071426.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Encyclopedia: Saint Camillus de Lellis",
+          "url": "https://www.newadvent.org/cathen/03217b.htm",
+          "type": "encyclopedia"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -616,7 +748,7 @@
         "rank": "Feria",
         "color": "verdigris",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+        "title_vi": "Ngày Thường"
       },
       "calendars": {
         "julian": "2026-07-02",
@@ -628,12 +760,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "title_vi": "Ngày Thường",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -649,12 +781,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Memorial of Saint Bonaventure, Bishop and Doctor",
+          "url": "https://bible.usccb.org/bible/readings/071526.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Encyclopedia: Saint Bonaventure",
+          "url": "https://www.newadvent.org/cathen/02648c.htm",
+          "type": "encyclopedia"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     },
     {
@@ -666,7 +809,7 @@
         "rank": "Feria",
         "color": "verdigris",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng"
+        "title_vi": "Ngày Thường"
       },
       "calendars": {
         "julian": "2026-07-03",
@@ -678,12 +821,12 @@
       "primary": {
         "type": "liturgical_day",
         "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ng\u00e0y Th\u01b0\u1eddng",
+        "title_vi": "Ngày Thường",
         "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "confidence": "confirmed",
         "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "L\u1ecbch ph\u1ee5ng v\u1ee5 \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c minh."
+        "confidence_note_vi": "Lịch phụng vụ đã được xác minh."
       },
       "place": {
         "name": "Universal Church",
@@ -699,12 +842,23 @@
         "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
-      "sources": [],
+      "sources": [
+        {
+          "label": "USCCB Daily Readings – Optional Memorial of Our Lady of Mount Carmel",
+          "url": "https://bible.usccb.org/bible/readings/071626.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Encyclopedia: Feast of Our Lady of Mount Carmel",
+          "url": "https://www.newadvent.org/cathen/10604b.htm",
+          "type": "encyclopedia"
+        }
+      ],
       "app_hooks": {
         "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "M\u1ed9t ng\u00e0y th\u01b0\u1eddng ni\u00ean \u0111\u1ec3 th\u0103ng ti\u1ebfn \u0111\u1ee9c tin.",
+        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
         "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy ni\u1ec7m v\u1ec1 \u00e2n s\u1ee7ng ng\u00e0y h\u00f4m nay."
+        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
       }
     }
   ]

@@ -28,7 +28,7 @@
   },
   "items": [
     {
-      "entry_id": "anno-2026-07-03-thomas",
+      "entry_id": "anno-2026-07-03",
       "date": "2026-07-03",
       "mock_priority": "week_real_data",
       "entry_title_en": "Saint Thomas the Apostle",
@@ -44,7 +44,7 @@
       "notes": "The feast is confirmed. The Chennai martyrdom and tomb traditions should be labeled traditional."
     },
     {
-      "entry_id": "anno-2026-07-04-elizabeth-portugal",
+      "entry_id": "anno-2026-07-04",
       "date": "2026-07-04",
       "mock_priority": "week_real_data",
       "entry_title_en": "Saint Elizabeth of Portugal",
@@ -60,7 +60,7 @@
       "notes": "The saint and feast date are confirmed; US liturgical handling should note Independence Day context."
     },
     {
-      "entry_id": "anno-2026-07-05-ordinary-time-14",
+      "entry_id": "anno-2026-07-05",
       "date": "2026-07-05",
       "mock_priority": "week_real_data",
       "entry_title_en": "Fourteenth Sunday in Ordinary Time",
@@ -76,7 +76,7 @@
       "notes": "Confirmed Sunday observance for the US calendar."
     },
     {
-      "entry_id": "anno-2026-07-06-maria-goretti",
+      "entry_id": "anno-2026-07-06",
       "date": "2026-07-06",
       "mock_priority": "week_real_data",
       "entry_title_en": "Saint Maria Goretti",
@@ -92,7 +92,7 @@
       "notes": "Confirmed optional memorial and biography. Avoid exploitative framing."
     },
     {
-      "entry_id": "anno-2026-07-07-benedict-xi",
+      "entry_id": "anno-2026-07-07",
       "date": "2026-07-07",
       "mock_priority": "week_real_data",
       "entry_title_en": "Blessed Pope Benedict XI",
@@ -108,7 +108,7 @@
       "notes": "Confirmed as historical/date content, not a US General Calendar memorial."
     },
     {
-      "entry_id": "anno-2026-07-08-aquila-priscilla",
+      "entry_id": "anno-2026-07-08",
       "date": "2026-07-08",
       "mock_priority": "week_real_data",
       "entry_title_en": "Saints Aquila and Priscilla",
@@ -124,7 +124,7 @@
       "notes": "Confirmed biblical-historical commemoration; not a US General Calendar memorial."
     },
     {
-      "entry_id": "anno-2026-07-09-chinese-martyrs",
+      "entry_id": "anno-2026-07-09",
       "date": "2026-07-09",
       "mock_priority": "week_real_data",
       "entry_title_en": "Saint Augustine Zhao Rong and the Chinese Martyrs",
@@ -140,7 +140,7 @@
       "notes": "Confirmed optional memorial and Vatican canonization biography."
     },
     {
-      "entry_id": "anno-2026-07-10-canute",
+      "entry_id": "anno-2026-07-10",
       "date": "2026-07-10",
       "mock_priority": "fortnight_extension",
       "entry_title_en": "Saint Canute IV of Denmark",
@@ -156,7 +156,7 @@
       "notes": "Confirmed historical saint and Roman Martyrology context; not a US General Calendar memorial."
     },
     {
-      "entry_id": "anno-2026-07-11-benedict",
+      "entry_id": "anno-2026-07-11",
       "date": "2026-07-11",
       "mock_priority": "fortnight_extension",
       "entry_title_en": "Saint Benedict of Nursia",
@@ -172,7 +172,7 @@
       "notes": "Confirmed memorial."
     },
     {
-      "entry_id": "anno-2026-07-12-ordinary-time-15",
+      "entry_id": "anno-2026-07-12",
       "date": "2026-07-12",
       "mock_priority": "fortnight_extension",
       "entry_title_en": "Fifteenth Sunday in Ordinary Time",
@@ -188,7 +188,7 @@
       "notes": "Confirmed Sunday observance and Year A readings in the 2026 USCCB calendar."
     },
     {
-      "entry_id": "anno-2026-07-13-henry",
+      "entry_id": "anno-2026-07-13",
       "date": "2026-07-13",
       "mock_priority": "fortnight_extension",
       "entry_title_en": "Saint Henry II",
@@ -204,7 +204,7 @@
       "notes": "Confirmed optional memorial; miracle material should be marked traditional."
     },
     {
-      "entry_id": "anno-2026-07-14-kateri",
+      "entry_id": "anno-2026-07-14",
       "date": "2026-07-14",
       "mock_priority": "fortnight_extension",
       "entry_title_en": "Saint Kateri Tekakwitha",
@@ -220,7 +220,7 @@
       "notes": "Confirmed memorial in the United States."
     },
     {
-      "entry_id": "anno-2026-07-15-bonaventure",
+      "entry_id": "anno-2026-07-15",
       "date": "2026-07-15",
       "mock_priority": "fortnight_extension",
       "entry_title_en": "Saint Bonaventure",
@@ -236,7 +236,7 @@
       "notes": "Confirmed memorial."
     },
     {
-      "entry_id": "anno-2026-07-16-mount-carmel",
+      "entry_id": "anno-2026-07-16",
       "date": "2026-07-16",
       "mock_priority": "fortnight_extension",
       "entry_title_en": "Our Lady of Mount Carmel",
