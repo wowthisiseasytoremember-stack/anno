@@ -32,6 +32,7 @@ public final class PilgrimGuideCoordinator {
 
     public private(set) var nowPlaying: NowPlayingSnapshot?
     public private(set) var lastVisit: SanctuaryVisitEvent?
+    public private(set) var recentVisitLog: [SanctuaryVisitEvent] = []
     /// Set true by AR screens while a reliquary viewer session is running.
     public var arViewerActive = false {
         didSet { PilgrimCoreLog.coordinator.debug("AR viewer active = \(self.arViewerActive)") }

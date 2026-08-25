@@ -165,7 +165,14 @@ public struct AudioNarrationTrack: Codable, Identifiable, Hashable, Sendable {
 
     public func audioURL(for language: LanguageMode) -> URL? {
         let raw = language == .vietnamese ? audioUrlVi : audioUrlEn
-        return URL(string: raw)
+        // Remote CDN URL (http/https) takes precedence.
+        if let url = URL(string: raw), let scheme = url.scheme, scheme == "http" || scheme == "https" {
+            return url
+        }
+        // Otherwise resolve `raw` as a local bundled resource (with or without extension).
+        let name = (raw as NSString).deletingPathExtension
+        let ext = (raw as NSString).pathExtension.isEmpty ? "mp3" : (raw as NSString).pathExtension
+        return Bundle.main.url(forResource: name, withExtension: ext)
     }
 
     public func narrator(for language: LanguageMode) -> String {

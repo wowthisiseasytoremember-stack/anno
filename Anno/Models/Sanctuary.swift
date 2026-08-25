@@ -19,6 +19,7 @@ public struct Sanctuary: Identifiable, Codable, Hashable {
     public let suggestedPrayerEn: String
     public let suggestedPrayerVi: String
     public let primarySources: [SanctuarySource]?
+    public let iconAssetName: String?
 
     enum CodingKeys: String, CodingKey {
         case sanctuaryId = "sanctuary_id"
@@ -35,6 +36,7 @@ public struct Sanctuary: Identifiable, Codable, Hashable {
         case suggestedPrayerEn = "suggested_prayer_en"
         case suggestedPrayerVi = "suggested_prayer_vi"
         case primarySources = "primary_sources"
+        case iconAssetName = "icon_asset_name"
     }
 
     public var coordinate: CLLocationCoordinate2D {

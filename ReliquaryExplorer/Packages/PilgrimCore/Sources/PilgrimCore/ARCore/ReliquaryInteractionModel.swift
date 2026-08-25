@@ -98,7 +98,7 @@ public final class ReliquaryInteractionModel {
             phase = .failed(error.localizedDescription)
             return
         }
-        sessionIsActive = true
+        isSessionActive = true
         trackingState = .initializing
         phase = .searchingSurface
         startEventLoop()
@@ -111,7 +111,7 @@ public final class ReliquaryInteractionModel {
         eventsTask?.cancel(); eventsTask = nil
         gazeTask?.cancel(); gazeTask = nil
         missResetTask?.cancel(); missResetTask = nil
-        sessionIsActive = false
+        isSessionActive = false
         removeAllPlacements()
         if let reticleEntity {
             session.removeTransientEntity(reticleEntity)
@@ -354,12 +354,12 @@ public final class ReliquaryInteractionModel {
             trackingState = .initializing // relocalizing
 
         case let .sessionFailed(message):
-            sessionIsActive = false
+            isSessionActive = false
             phase = .failed(message)
             PilgrimCoreLog.ar.error("Session failed: \(message)")
 
         case let .authorizationDenied(message):
-            sessionIsActive = false
+            isSessionActive = false
             phase = .failed(message)
         }
     }

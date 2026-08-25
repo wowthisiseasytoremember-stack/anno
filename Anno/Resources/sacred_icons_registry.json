@@ -1,0 +1,37 @@
+{
+  "schema_version": "anno.sacred_icons.v1",
+  "description_en": "Registry of high-resolution sacred icon assets bundled in Anno/Resources/Images/, mapped to their subject sanctuaries where known.",
+  "description_vi": "Danh mục các tệp biểu tượng thánh độ phân giải cao trong Anno/Resources/Images/, ánh xạ đến đền thánh tương ứng khi biết.",
+  "icons": [
+    {
+      "asset_name": "la_vang_shrine_icon",
+      "subject_en": "Our Lady of La Vang Shrine",
+      "subject_vi": "Đền Thánh Đức Mẹ La Vang",
+      "sanctuary_id": "our_lady_of_la_vang"
+    },
+    {
+      "asset_name": "martyrs_wall_icon",
+      "subject_en": "Martyrs' Wall (North American Martyrs)",
+      "subject_vi": "Tường Các Thánh Tử Đạo",
+      "sanctuary_id": "north_american_martyrs_auriesville"
+    },
+    {
+      "asset_name": "icon_st_barbara",
+      "subject_en": "Saint Barbara",
+      "subject_vi": "Thánh Barbara",
+      "sanctuary_id": null
+    },
+    {
+      "asset_name": "icon_st_columban",
+      "subject_en": "Saint Columban",
+      "subject_vi": "Thánh Columphan",
+      "sanctuary_id": null
+    },
+    {
+      "asset_name": "rosary_garden_icon",
+      "subject_en": "Rosary Garden",
+      "subject_vi": "Vườn Mân Côi",
+      "sanctuary_id": null
+    }
+  ]
+}
