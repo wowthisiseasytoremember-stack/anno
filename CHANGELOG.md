@@ -2,6 +2,13 @@
 
 ## [Unreleased] - 2026-08-24
 
+### App Finishing Cleanup (2026-08-25)
+- **AGENTS.md corrected:** removed false claim that Reliquary/Spatial-Audio modules were "100% verified on Linux"; they compile only after two bug fixes and require Xcode/macOS.
+- **ReliquaryExplorer Info.plists:** added `Apps/iOS/Info.plist` and `Apps/visionOS/Info.plist` (required by `project.yml` `GENERATE_INFOPLIST_FILE: false`).
+- **CI workflow:** added `.github/workflows/ci.yml` (macOS runner: xcodegen + xcodebuild for ReliquaryExplorer).
+- **Placeholder artwork:** replaced 28 `example.com` placeholder image URLs in `anno_unified_2026.json` with sourced sacred-art URLs from `art_dossiers_catalog.json`.
+- **Infra duplicates removed:** `icons_infra/`, `calendar_engine_infra.py`, `calendar_2026_2029_infra.jsonl`, `localization_infra/`, `docs_infra/` (where canonical was a superset); safety backup at `/tmp/anno_infra_bak.tar.gz`.
+
 ### Content Pipeline & Master Dataset Expansion (Phase A)
 - **Primary Source Citation Backfill:** Created `tools/backfill_citations.py` and populated >=2 verified, high-authority liturgical/historical source citations across all fortnight and August entries.
 - **Engine B September–December Expansion (122 Days):** Created `tools/batch_generate_engine_b.py` and generated daily historical research dossiers and sibling Vietnamese files for 2026-09-01 through 2026-12-31 based on the General Roman Calendar 2026 and multi-calendar math.

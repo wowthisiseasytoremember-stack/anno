@@ -41,11 +41,11 @@ modules:
   - name: iOS Client Application
     path: Anno/
     does: SwiftUI mobile app implementing Today, Calendar, Map, and Saved views.
-updated: 2026-08-24 06:14 UTC
+updated: 2026-08-25 09:00 UTC
 ---
 
 # Interfaith Devotional Engine — AGENTS.md
-**Last updated:** 2026-08-24 06:14 UTC
+**Last updated:** 2026-08-25 09:00 UTC
 
 ## Quick Start (Read This First)
 
@@ -53,7 +53,7 @@ updated: 2026-08-24 06:14 UTC
 |------|-------|
 | **Architecture & invariants** | `ARCHITECTURE.md` |
 | **Delivery roadmap (phases)** | `ROADMAP.md` |
-| **Current context** | Direction changed to native SwiftUI iOS, Catholic-first launch, Vietnamese-ready. Standalone monetizable app (not part of content-factory). Phase A (Server-side content expansion & 182-day archive), Phase B (StoreKit 2, 18 Pilgrimage routes with 106 waypoints, 72 Sacred Sanctuaries master catalog, High-res art dossiers, Paywall triggers, Native MapKit Spiritual Inquiry & Liturgical Temporal Proximity UX), and AR Reliquary & Spatial Audio Modules 100% complete and verified on Linux. Next: Xcode project scaffolding & build sweep on macOS. |
+| **Current context** | Direction changed to native SwiftUI iOS, Catholic-first launch, Vietnamese-ready. Standalone monetizable app (not part of content-factory). Phase A (Server-side content expansion & 182-day archive), Phase B (StoreKit 2, 18 Pilgrimage routes with 106 waypoints, 72 Sacred Sanctuaries master catalog, High-res art dossiers, Paywall triggers, Native MapKit Spiritual Inquiry & Liturgical Temporal Proximity UX), and AR Reliquary & Spatial Audio Modules implemented (two compile bugs fixed; not buildable on Linux — Xcode/macOS required). Next: Xcode project scaffolding & build sweep on macOS. |
 
 ## Project
 Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversion + sourced historical research + Catholic-first content layer + later Sacred Context/interfaith expansion. Working name: Anno.

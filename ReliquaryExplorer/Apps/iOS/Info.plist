@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key><string>Reliquary Explorer</string>
+    <key>CFBundleIdentifier</key><string>org.pilgrimage.ReliquaryExplorer</string>
+    <key>CFBundleName</key><string>ReliquaryExplorer</string>
+    <key>CFBundleShortVersionString</key><string>1.0</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>UILaunchScreen</key><dict></dict>
+    <key>NSLocationWhenInUseUsageDescription</key><string>Used to show nearby sacred sites and reliquary geofences.</string>
+    <key>NSMicrophoneUsageDescription</key><string>Used for optional spatial-audio calibration.</string>
+    <key>UIBackgroundModes</key><array><string>location</string></array>
+</dict>
+</plist>
