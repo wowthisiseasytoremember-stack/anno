@@ -144,6 +144,51 @@ def repair_vi(en: dict, d_str: str) -> dict:
     return en
 
 
+_HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"}
+
+
+def _url_live(url: str) -> bool:
+    """HEAD-check a source URL. 403/401 = bot-blocked (treat as live); 404/DNS/conn = dead."""
+    try:
+        req = urllib.request.Request(url, method="HEAD", headers=_HEADERS)
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return r.status in (200, 401, 403, 405, 429)
+    except urllib.error.HTTPError as e:
+        return e.code in (401, 403, 405, 429)
+    except Exception:
+        return False
+
+
+def verify_sources(en: dict, d_str: str) -> dict:
+    """Rule #2: drop dead citation URLs; backfill with confirmed-live ones if <2 survive."""
+    srcs = en.get("sources", [])
+    if not srcs:
+        return en
+    kept = [s for s in srcs if _url_live(s.get("url", ""))]
+    dead = [s.get("url", "") for s in srcs if not _url_live(s.get("url", ""))]
+    if not dead:
+        return en
+    if len(kept) < 2:
+        title = en.get("liturgical", {}).get("title_en", "")
+        prompt = (
+            f"Date {d_str}. Feast: {title}. These Catholic source URLs are dead (404): {dead}. "
+            f"Return ONLY JSON: {{\"sources\": [{{\"label\":\"...\",\"url\":\"https://...\","
+            f"\"type\":\"vatican|encyclopedia|liturgical_calendar\"}}]}}. Give 2-3 URLs that "
+            f"resolve (HTTP 200) on vatican.va, newadvent.org, catholic.org, or usccb.org. "
+            f"Never invent URLs; return empty list if unsure."
+        )
+        raw = yolo([{"role": "system", "content": "You verify Catholic source URLs. Output only JSON."},
+                    {"role": "user", "content": prompt}], maxtok=500)
+        try:
+            for s in json.loads(extract_json(raw)).get("sources", []):
+                if _url_live(s.get("url", "")):
+                    kept.append(s)
+        except Exception:
+            pass
+    en["sources"] = kept
+    return en
+
+
 def cal_strings(d: date) -> dict:
     # Deterministic conversions via convertdate (Engine A math, no LLM).
     # NOTE: calendar_engine.convert_date is broken for future years
@@ -262,6 +307,11 @@ def main() -> None:
                 with open(vi_path, "w", encoding="utf-8") as f:
                     json.dump(vi, f, ensure_ascii=False, indent=2)
                 print(f"  VI-repaired {d_str}")
+
+            # Rule #2: drop dead citation URLs; backfill confirmed-live if <2 survive.
+            en = verify_sources(en, d_str)
+            with open(en_path, "w", encoding="utf-8") as f:
+                json.dump(en, f, ensure_ascii=False, indent=2)
 
             done += 1
             print(f"OK {d_str}")
