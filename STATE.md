@@ -9,12 +9,12 @@ last_active: 2026-08-24
 
 ## Current Frontier Artifacts
 
-- **Unified bilingual devotional dataset** (`Anno/Resources/anno_unified_2026.json`): 59 entries spanning 2026-07-03 → 2026-08-31, EN+VI, normalized from three source tracks (fortnight / Engine B / August) by `tools/normalize_fixture.py`. Regenerated Swift fixture `ios-fixtures/AnnoMockData.swift` consumes it.
-- **Engine A**: deterministic calendar conversion (12 systems) — verified `spot_check()` passes.
-- **Engine B**: 14-date Catholic research batch (2026-07-17 → 2026-07-30) complete and valid; VN (`*_vi`) filled for all 14 via `_result_vi.json` siblings + August 217-field VN pass.
-- **Localization**: EN/VI `Localizable.strings` 100% coverage verified.
-- **Validators**: `validate_engine_b_output.py` fixed to accept single-entry result files; `validate_mock_content.py` and `validate_localization.py` pass where applicable.
-- **Normalizer**: `tools/normalize_fixture.py` unifies the three content tracks into `anno_unified_2026.json` (59 entries); `merge_vi` correctly pulls real VN from `_result_vi.json` siblings over raw-research spelling.
+- **Unified bilingual devotional dataset** (`Anno/Resources/anno_unified_2026.json`): 182 entries spanning 2026-07-03 → 2026-12-31, EN+VI, normalized from three source tracks (fortnight / Engine B / August) by `tools/normalize_fixture.py`. 182/182 entries have ≥2 sources. Regenerated Swift fixture `ios-fixtures/AnnoMockData.swift` consumes it.
+- **Engine A**: deterministic calendar conversion (12 systems) — `test_calendar_engine.py` 10/10 passing on ichabod (covers 2026-2030).
+- **Engine B**: Catholic research complete 2026-07-17 → 2026-12-31 (137 EN + 137 VI `result*.json` files). Raw research results have no top-level `sources` key; `validate_engine_b_output.py --fixture` is meant to run on the *normalized* unified fixture (which carries sources), NOT raw `data/research_results/*_result.json`. VN (`*_vi`) filled for all via `_result_vi.json` siblings + August 217-field VN pass.
+- **Localization**: EN/VI `Localizable.strings` 100% coverage (63/63 keys) verified.
+- **Validators**: `validate_mock_content.py`, `validate_localization.py`/`_infra.py`, `validate_sanctuaries.py`, `validate_route_coordinates.py`, `validate_devotional_pool.py`, `validate_vietnamese_integrity.py`, `test_swift_geography_decodable.py`, `red_team_stress_test.py` all PASS. `validate_audio_narration.py` fixed (prayer-* IDs now valid).
+- **Normalizer**: `tools/normalize_fixture.py` unifies the three content tracks into `anno_unified_2026.json` (182 entries).
 
 ## Completed (2026-08-19)
 
@@ -46,3 +46,14 @@ last_active: 2026-08-24
 - **Ingestion:** `tools/ingest_2027_2028.py` merges seed + returned research → `anno_unified_2027_2028.json` (guarantees 100% `_vi`). Dry-run sample passed gate (exit 0) and ingested (0 missing `_vi`).
 - **Open:** `Docs/` vs `docs/` case-collision (pre-existing, unresolved — blocks committing handoff docs cleanly). 23/24 chunks await third-party research returns. Placeholder artwork URLs in 2026 mock (polish).
 - See `VERIFICATION_REPORT.md` for full detail.
+
+## 2026-08-27 — 2027-2028 Engine B Self-Run (background, resumable)
+
+**Status:** in progress (January 2027 batch running on ichabod via free deepseek-v4-flash).
+
+- **Model routing (verified):** yolo-auto rolled back to `qwen3.8-27b` only; deepseek-v4-flash now lives on **opencode-zen** (`https://opencode.ai/zen/go/v1`, key `OPENCODE_ZEN_API_KEY`). `tools/batch_engine_b_2027_gap.py` repointed there.
+- **Engine A rot found:** `calendar_engine.convert_date` is BROKEN for 2027+ (`datetime.date - datetime.datetime` in `gregorian_to_islamic_tabular`). Driver bypasses it with direct `convertdate` calls (deterministic, still no LLM on dates — rule #1 holds). Separate repair task.
+- **Driver fixes:** (1) retry/backoff on transient SSL timeout; (2) VI-repair step — when a `_vi` leaf is null/empty (deepseek dropped ~30% of VI titles on first pass), fire one cheap VI-only call and backfill. Quality now 100% bilingual.
+- **Contract:** single bilingual call/date (EN+VI inline) — halves calls vs separate VN pass. ~3 min/date. 183-day gap ≈ 9h → chunked per month, resumable (skips done dates).
+- **Quality caveat (rule #2):** sources are model-returned, unverified. Hallucinated URLs possible. Human spot-check + source validation gate required before publish.
+- **Privacy policy URL:** still needed for TestFlight upload; `Docs/privacy-policy.md` exists locally, not hosted.

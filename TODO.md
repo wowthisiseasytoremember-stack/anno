@@ -58,3 +58,18 @@
 - [ ] **Task D.2:** Implement Liturgical Solar Compass & Sundown Ring in `TodayView.swift` per [`docs/LITURGICAL_SOLAR_COMPASS_DESIGN.md`](docs/LITURGICAL_SOLAR_COMPASS_DESIGN.md).
 - [ ] **Task D.3:** MapKit pilgrimage route polyline overlay renderer in `Anno/Map/SacredSiteMapView.swift`.
 - [ ] **Task E.1:** StoreKit 2 sandbox testing and TestFlight build submission.
+
+---
+
+## 4. 2027-2028 Content Gap (Server / free LLM, in progress 2026-08-27)
+
+- [ ] **Task F.1:** Run Engine B self-research for 2027-01 → 2027-07 (183-day gap) via `tools/batch_engine_b_2027_gap.py` on opencode-zen free `deepseek-v4-flash`. Chunked per month, resumable. January batch running.
+- [ ] **Task F.2:** After each month lands, run `tools/normalize_fixture.py` + `validate_mock_content.py` source gate; human spot-check 3 dates/month for hallucinated source URLs (rule #2).
+- [ ] **Task F.3:** Repair `calendar_engine.convert_date` 2027+ break (`datetime.date - datetime.datetime` in `gregorian_to_islamic_tabular`). Add a 2027-2030 regression test before the fix is trusted.
+- [ ] **Task F.4:** Host `Docs/privacy-policy.md` at a public URL (GitHub Pages or static host) — required for TestFlight submission. (HUMAN: pick host.)
+- [ ] **Task F.5:** Extend batch driver to 2027-08 → 2028-12 once Jan–Jul 2027 proves clean (reuse same resumable runner).
+
+## 5. Defects Found (2026-08-27)
+
+- [ ] **DEF-1:** `calendar_engine.convert_date` crashes on future years (Engine A). Driver works around it; engine itself still broken. See F.3.
+- [ ] **DEF-2:** Free deepseek drops ~30% of Vietnamese `_vi` leaves on first pass. Mitigated by VI-repair call in driver; monitor after fix.
