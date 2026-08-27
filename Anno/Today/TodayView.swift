@@ -80,85 +80,81 @@ struct TodayView: View {
     // MARK: - 2. Date Block
 
     private var dateBlock: some View {
-        VStack(spacing: 8) {
-            Text(language == .vietnamese ? "HÔM NAY" : "TODAY")
-                .font(.caption.weight(.semibold))
-                .fontDesign(.serif)
-                .foregroundColor(AnnoTheme.incense)
-                .tracking(2.5)
+            VStack(spacing: 8) {
+                Text(language == .vietnamese ? "HÔM NAY" : "TODAY")
+                    .font(Typography.captionSemiboldSerif)
+                    .foregroundStyle(AnnoTheme.incense)
+                    .tracking(2.5)
 
-            Text(TodayDateFormatter.format(
-                dateString: entry.date,
-                parsedDate: entry.parsedDate,
-                language: language
-            ))
-            .font(.title2.weight(.bold))
-            .fontDesign(.serif)
-            .foregroundColor(AnnoTheme.vellum)
-            .multilineTextAlignment(.center)
+                Text(TodayDateFormatter.format(
+                    dateString: entry.date,
+                    parsedDate: entry.parsedDate,
+                    language: language
+                ))
+                .font(Typography.title2BoldSerif)
+                .foregroundStyle(AnnoTheme.vellum)
+                .multilineTextAlignment(.center)
 
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 8) {
-                    ForEach(calendarPillsData, id: \.label) { item in
-                        calendarPill(label: item.label, value: item.value)
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 8) {
+                        ForEach(calendarPillsData, id: \.label) { item in
+                            calendarPill(label: item.label, value: item.value)
+                        }
                     }
+                    .padding(.horizontal, 4)
                 }
-                .padding(.horizontal, 4)
             }
+            .frame(maxWidth: .infinity)
         }
-        .frame(maxWidth: .infinity)
-    }
 
     private func calendarPill(label: String, value: String) -> some View {
-        Text("\(label): \(value)")
-            .font(.caption2.weight(.medium))
-            .foregroundColor(AnnoTheme.incense)
-            .padding(.horizontal, 10)
-            .padding(.vertical, 5)
-            .background {
-                Capsule()
-                    .strokeBorder(AnnoTheme.ash, lineWidth: 1)
-            }
-    }
+            Text("\(label): \(value)")
+                .font(Typography.caption2Medium)
+                .foregroundStyle(AnnoTheme.incense)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 5)
+                .background {
+                    Capsule()
+                        .strokeBorder(AnnoTheme.ash, lineWidth: 1)
+                }
+        }
 
     // MARK: - 3. Saint / Event Header
 
     private var headerSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text(localizedText.title)
-                .font(.largeTitle.weight(.bold))
-                .fontDesign(.serif)
-                .foregroundColor(AnnoTheme.vellum)
-                .frame(maxWidth: .infinity, alignment: .leading)
+            VStack(alignment: .leading, spacing: 12) {
+                Text(localizedText.title)
+                    .font(Typography.largeTitleBoldSerif)
+                    .foregroundStyle(AnnoTheme.vellum)
+                    .frame(maxWidth: .infinity, alignment: .leading)
 
-            Text(localizedText.heroLine)
-                .font(.title3.italic())
-                .fontDesign(.serif)
-                .foregroundColor(AnnoTheme.gilt)
-                .frame(maxWidth: .infinity, alignment: .leading)
+                Text(localizedText.heroLine)
+                    .font(Typography.title3ItalicSerif)
+                    .foregroundStyle(AnnoTheme.gilt)
+                    .frame(maxWidth: .infinity, alignment: .leading)
 
-            HStack(spacing: 6) {
-                Circle()
-                    .fill(liturgicalColor(for: entry.liturgical.color))
-                    .frame(width: 6, height: 6)
+                HStack(spacing: 6) {
+                    Circle()
+                        .fill(liturgicalColor(for: entry.liturgical.color))
+                        .frame(width: 6, height: 6)
 
-                Text("\(entry.liturgical.rank) · \(entry.liturgical.color)")
-                    .font(.caption.weight(.medium))
-                    .foregroundColor(AnnoTheme.vellum)
-            }
-            .padding(.horizontal, 12)
-            .padding(.vertical, 6)
-            .background {
-                Capsule()
-                    .fill(AnnoTheme.choir)
-                    .strokeBorder(AnnoTheme.ash, lineWidth: 1)
+                    Text("\(entry.liturgical.rank) · \(entry.liturgical.color)")
+                        .font(Typography.captionMedium)
+                        .foregroundStyle(AnnoTheme.vellum)
+                }
+                .padding(.horizontal, 12)
+                .padding(.vertical, 6)
+                .background {
+                    Capsule()
+                        .fill(AnnoTheme.choir)
+                        .strokeBorder(AnnoTheme.ash, lineWidth: 1)
+                }
             }
         }
-    }
 
     // Expanded liturgical color palette – uses AnnoTheme tokens consistently.
     private func liturgicalColor(for colorName: String) -> Color {
-        let name = colorName.lowercased()
+    let name = colorName.lowercased()
         switch name {
         case "red", "đỏ":                              return AnnoTheme.crimson
         case "white", "gold", "trắng", "vàng":        return AnnoTheme.goldLeaf
@@ -174,289 +170,290 @@ struct TodayView: View {
     // MARK: - 4. Hero Artwork Card
 
     private var artworkCard: some View {
-        Button(action: {
-            Haptics.light()
-            isShowingArtCanvas = true
-        }) {
-            VStack(alignment: .leading, spacing: 14) {
-                ZStack(alignment: .bottomTrailing) {
-                    AsyncImage(url: URL(string: entry.artwork.sourceUrl)) { phase in
-                        switch phase {
-                        case .empty:
-                            ShimmerPlaceholder()
-                        case .success(let image):
-                            image
-                                .resizable()
-                                .aspectRatio(contentMode: .fill)
-                        case .failure:
-                            ZStack {
-                                AnnoTheme.choir
-                                Image(systemName: "photo.on.rectangle.angled")
-                                    .font(.largeTitle)
-                                    .foregroundColor(AnnoTheme.incense.opacity(0.4))
+            Button(action: {
+                Haptics.light()
+                isShowingArtCanvas = true
+            }) {
+                VStack(alignment: .leading, spacing: 14) {
+                    ZStack(alignment: .bottomTrailing) {
+                        AsyncImage(url: URL(string: entry.artwork.sourceUrl)) { phase in
+                            switch phase {
+                            case .empty:
+                                ShimmerPlaceholder()
+                            case .success(let image):
+                                image
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fill)
+                            case .failure:
+                                ZStack {
+                                    AnnoTheme.choir
+                                    Image(systemName: "photo.on.rectangle.angled")
+                                        .font(.largeTitle)
+                                        .foregroundStyle(AnnoTheme.incense.opacity(0.4))
+                                }
+                            @unknown default:
+                                ShimmerPlaceholder()
                             }
-                        @unknown default:
-                            ShimmerPlaceholder()
                         }
+                        .frame(height: 220)
+                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                        .shadow(color: .black.opacity(0.4), radius: 20, y: 10)
+
+                        // Zoom indicator badge
+                        HStack(spacing: 4) {
+                            Image(systemName: "arrow.up.left.and.arrow.down.right")
+                                .font(.system(size: 10, weight: .bold))
+                            Text(language == .vietnamese ? "Phóng to 4K" : "Zoom 4K")
+                                .font(.system(size: 10, weight: .semibold))
+                        }
+                        .foregroundStyle(AnnoTheme.goldLeaf)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(AnnoTheme.narthex.opacity(0.85))
+                        .clipShape(Capsule())
+                        .overlay(Capsule().stroke(AnnoTheme.goldLeaf.opacity(0.5), lineWidth: 0.8))
+                        .padding(10)
                     }
-                    .aspectRatio(1.35, contentMode: .fit)
-                    .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-                    .shadow(color: .black.opacity(0.4), radius: 20, y: 10)
+                    .accessibilityLabel(entry.artwork.title)
 
-                    // Zoom indicator badge
-                    HStack(spacing: 4) {
-                        Image(systemName: "arrow.up.left.and.arrow.down.right")
-                            .font(.system(size: 10, weight: .bold))
-                        Text(language == .vietnamese ? "Phóng to 4K" : "Zoom 4K")
-                            .font(.system(size: 10, weight: .semibold))
+                    VStack(alignment: .leading, spacing: 6) {
+                        HStack(alignment: .top, spacing: 8) {
+                            Text(entry.artwork.title)
+                                .font(Typography.headlineSerif)
+                                .foregroundStyle(AnnoTheme.vellum)
+                                .lineLimit(2)
+
+                            Spacer(minLength: 0)
+
+                            Text(entry.artwork.status)
+                                .font(Typography.caption2Bold)
+                                .foregroundStyle(AnnoTheme.choir)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 3)
+                                .background {
+                                    Capsule()
+                                        .fill(AnnoTheme.goldLeaf)
+                                }
+                        }
+
+                        Text("\(entry.artwork.maker) · \(entry.artwork.dateLabel)")
+                            .font(Typography.caption)
+                            .foregroundStyle(AnnoTheme.incense)
                     }
-                    .foregroundColor(AnnoTheme.goldLeaf)
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 4)
-                    .background(AnnoTheme.narthex.opacity(0.85))
-                    .clipShape(Capsule())
-                    .overlay(Capsule().stroke(AnnoTheme.goldLeaf.opacity(0.5), lineWidth: 0.8))
-                    .padding(10)
-                }
-                .accessibilityLabel(entry.artwork.title)
-
-                VStack(alignment: .leading, spacing: 6) {
-                    HStack(alignment: .top, spacing: 8) {
-                        Text(entry.artwork.title)
-                            .font(.headline)
-                            .fontDesign(.serif)
-                            .foregroundColor(AnnoTheme.vellum)
-                            .lineLimit(2)
-
-                        Spacer(minLength: 0)
-
-                        Text(entry.artwork.status)
-                            .font(.caption2.weight(.bold))
-                            .foregroundColor(AnnoTheme.choir)
-                            .padding(.horizontal, 8)
-                            .padding(.vertical, 3)
-                            .background {
-                                Capsule()
-                                    .fill(AnnoTheme.goldLeaf)
-                            }
-                    }
-
-                    Text("\(entry.artwork.maker) · \(entry.artwork.dateLabel)")
-                        .font(.caption)
-                        .foregroundColor(AnnoTheme.incense)
                 }
             }
+            .buttonStyle(.plain)
         }
-        .buttonStyle(.plain)
-    }
 
     // MARK: - 5. Quick-Actions Bar
 
     private var quickActionsBar: some View {
-        HStack(spacing: 12) {
-            Button(action: onShowSources) {
-                HStack(spacing: 6) {
-                    Image(systemName: "books.vertical.fill")
-                    Text(language == .vietnamese ? "Nguồn (\(entry.sources.count))" : "Sources (\(entry.sources.count))")
-                }
-                .font(.subheadline.weight(.medium))
-                .foregroundColor(AnnoTheme.vellum)
-                .padding(.horizontal, 14)
-                .padding(.vertical, 8)
-                .background {
-                    Capsule()
-                        .fill(AnnoTheme.choir)
-                        .strokeBorder(AnnoTheme.ash, lineWidth: 1)
-                }
-            }
-            .buttonStyle(.plain)
-
-            Spacer()
-
-            ConfidenceBadge(
-                label: localizedText.confidenceLabel,
-                confidence: entry.primary.confidence
-            )
-            .accessibilityLabel(localizedText.confidenceLabel)
-
-            Button(action: toggleBookmark) {
-                Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
-                    .font(.system(size: 16, weight: .semibold))
-                    .foregroundColor(isBookmarked ? AnnoTheme.goldLeaf : AnnoTheme.incense)
-                    .padding(10)
+            HStack(spacing: 12) {
+                Button(action: {
+                    Haptics.light()
+                    onShowSources()
+                }) {
+                    HStack(spacing: 6) {
+                        Image(systemName: "books.vertical.fill")
+                        Text(language == .vietnamese ? "Nguồn (\(entry.sources.count))" : "Sources (\(entry.sources.count))")
+                    }
+                    .font(Typography.captionMedium)
+                    .foregroundStyle(AnnoTheme.vellum)
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 8)
                     .background {
-                        Circle()
+                        Capsule()
                             .fill(AnnoTheme.choir)
                             .strokeBorder(AnnoTheme.ash, lineWidth: 1)
                     }
-                    .scaleEffect(bookmarkScale)
+                }
+                .buttonStyle(.plain)
+
+                Spacer()
+
+                ConfidenceBadge(
+                    label: localizedText.confidenceLabel,
+                    confidence: entry.primary.confidence
+                )
+                .accessibilityLabel(localizedText.confidenceLabel)
+
+                Button(action: {
+                    Haptics.selection()
+                    toggleBookmark()
+                }) {
+                    Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
+                        .font(.system(size: 16, weight: .semibold))
+                        .foregroundStyle(isBookmarked ? AnnoTheme.goldLeaf : AnnoTheme.incense)
+                        .padding(10)
+                        .background {
+                            Circle()
+                                .fill(AnnoTheme.choir)
+                                .strokeBorder(AnnoTheme.ash, lineWidth: 1)
+                        }
+                        .scaleEffect(bookmarkScale)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(
+                    isBookmarked
+                        ? (language == .vietnamese ? "Bỏ lưu trữ" : "Remove bookmark")
+                        : (language == .vietnamese ? "Lưu trữ" : "Bookmark")
+                )
             }
-            .buttonStyle(.plain)
-            .accessibilityLabel(
-                isBookmarked
-                    ? (language == .vietnamese ? "Bỏ lưu trữ" : "Remove bookmark")
-                    : (language == .vietnamese ? "Lưu trữ" : "Bookmark")
-            )
         }
-    }
 
     private func toggleBookmark() {
-        withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
-            isBookmarked.toggle()
-            bookmarkScale = 1.3
-        }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
-                bookmarkScale = 1.0
+                isBookmarked.toggle()
+                bookmarkScale = 1.3
+            }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
+                    bookmarkScale = 1.0
+                }
             }
         }
-    }
 
     // MARK: - 6. Summary Text
 
     private var summaryCard: some View {
-        Text(localizedText.summary)
-            .font(.body)
-            .fontDesign(.serif)
-            .lineSpacing(5)
-            .foregroundColor(AnnoTheme.vellum)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .annoCard()
-    }
+            Text(localizedText.summary)
+                .font(Typography.bodySerif)
+                .lineSpacing(5)
+                .foregroundStyle(AnnoTheme.vellum)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .annoCard()
+        }
 
     // MARK: - 7. Sacred Place Section
 
     private func sacredPlaceCard(place: SacredPlace) -> some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(alignment: .top) {
-                HStack(spacing: 8) {
-                    Image(systemName: "mappin.and.ellipse")
-                        .foregroundColor(AnnoTheme.goldLeaf)
-                    Text(place.name)
-                        .font(.headline)
-                        .fontDesign(.serif)
-                        .foregroundColor(AnnoTheme.vellum)
-                }
-                Spacer()
-                ConfidenceBadge(
-                    label: placeConfidenceLabel(place.confidence),
-                    confidence: place.confidence
-                )
-                .accessibilityLabel(placeConfidenceLabel(place.confidence))
-            }
-
-            HStack {
-                Text(String(format: "%.4f, %.4f", place.latitude, place.longitude))
-                    .font(.caption.monospacedDigit())
-                    .foregroundColor(AnnoTheme.incense)
-
-                Spacer()
-
-                if let url = mapsURL(for: place) {
-                    Link(destination: url) {
-                        HStack(spacing: 4) {
-                            Text(language == .vietnamese ? "Mở trong Bản đồ" : "Open in Maps")
-                            Image(systemName: "arrow.up.right")
-                        }
-                        .font(.caption.weight(.semibold))
-                        .foregroundColor(AnnoTheme.goldLeaf)
+            VStack(alignment: .leading, spacing: 12) {
+                HStack(alignment: .top) {
+                    HStack(spacing: 8) {
+                        Image(systemName: "mappin.and.ellipse")
+                            .foregroundStyle(AnnoTheme.goldLeaf)
+                        Text(place.name)
+                            .font(Typography.headlineSerif)
+                            .foregroundStyle(AnnoTheme.vellum)
                     }
-                    .buttonStyle(.plain)
-                    .accessibilityLabel(
-                        language == .vietnamese
-                            ? "Mở \(place.name) trong Bản đồ"
-                            : "Open \(place.name) in Maps"
+                    Spacer()
+                    ConfidenceBadge(
+                        label: placeConfidenceLabel(place.confidence),
+                        confidence: place.confidence
                     )
+                    .accessibilityLabel(placeConfidenceLabel(place.confidence))
+                }
+
+                HStack {
+                    Text(String(format: "%.4f, %.4f", place.latitude, place.longitude))
+                        .font(.caption.monospacedDigit())
+                        .foregroundStyle(AnnoTheme.incense)
+
+                    Spacer()
+
+                    if let url = mapsURL(for: place) {
+                        Link(destination: url) {
+                            HStack(spacing: 4) {
+                                Text(language == .vietnamese ? "Mở trong Bản đồ" : "Open in Maps")
+                                Image(systemName: "arrow.up.right")
+                            }
+                            .font(Typography.captionSemibold)
+                            .foregroundStyle(AnnoTheme.goldLeaf)
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityLabel(
+                            language == .vietnamese
+                                ? "Mở \(place.name) trong Bản đồ"
+                                : "Open \(place.name) in Maps"
+                        )
+                    }
                 }
             }
+            .annoCard()
         }
-        .annoCard()
-    }
 
     private func liturgicalPilgrimageCard(route: PilgrimageRoute) -> some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 8) {
-                Image(systemName: "sparkles")
-                    .foregroundColor(AnnoTheme.goldLeaf)
-                Text(language == .vietnamese ? "Hành hương cùng Phụng vụ hôm nay" : "Walk this path today")
-                    .font(.headline)
-                    .fontDesign(.serif)
-                    .foregroundColor(AnnoTheme.goldLeaf)
+            VStack(alignment: .leading, spacing: 12) {
+                HStack(spacing: 8) {
+                    Image(systemName: "sparkles")
+                        .foregroundStyle(AnnoTheme.goldLeaf)
+                    Text(language == .vietnamese ? "Hành hương cùng Phụng vụ hôm nay" : "Walk this path today")
+                        .font(Typography.headlineSerif)
+                        .foregroundStyle(AnnoTheme.goldLeaf)
 
-                Spacer()
+                    Spacer()
 
-                Text("\(route.waypoints.count) \(language == .vietnamese ? "Trạm" : "Stations")")
-                    .font(.caption2.monospacedDigit().weight(.semibold))
-                    .foregroundColor(AnnoTheme.narthex)
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 3)
-                    .background(Capsule().fill(AnnoTheme.goldLeaf))
-            }
+                    Text("\(route.waypoints.count) \(language == .vietnamese ? "Trạm" : "Stations")")
+                        .font(Typography.caption2MonospacedSemibold)
+                        .foregroundStyle(AnnoTheme.narthex)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 3)
+                        .background(Capsule().fill(AnnoTheme.goldLeaf))
+                }
 
-            VStack(alignment: .leading, spacing: 4) {
-                Text(route.title(for: language))
-                    .font(.subheadline.weight(.semibold))
-                    .fontDesign(.serif)
-                    .foregroundColor(AnnoTheme.vellum)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(route.title(for: language))
+                        .font(Typography.subheadlineSemiboldSerif)
+                        .foregroundStyle(AnnoTheme.vellum)
 
-                Text(route.spiritualTheme(for: language))
-                    .font(.caption.italic())
-                    .foregroundColor(AnnoTheme.incense)
-                    .lineLimit(2)
-            }
+                    Text(route.spiritualTheme(for: language))
+                        .font(Typography.captionItalic)
+                        .foregroundStyle(AnnoTheme.incense)
+                        .lineLimit(2)
+                }
 
-            // Preview first 3 stations
-            HStack(spacing: 6) {
-                ForEach(route.waypoints.prefix(3)) { wp in
-                    HStack(spacing: 4) {
-                        Text("\(wp.order)")
-                            .font(.caption2.weight(.bold))
-                            .foregroundColor(AnnoTheme.goldLeaf)
-                        Text(wp.name(for: language))
-                            .font(.caption2)
-                            .foregroundColor(AnnoTheme.vellum)
-                            .lineLimit(1)
-                    }
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 4)
-                    .background(RoundedRectangle(cornerRadius: 6).fill(AnnoTheme.ash.opacity(0.6)))
+                // Preview first 3 stations
+                HStack(spacing: 6) {
+                    ForEach(route.waypoints.prefix(3)) { wp in
+                        HStack(spacing: 4) {
+                            Text("\(wp.order)")
+                                .font(Typography.caption2Bold)
+                                .foregroundStyle(AnnoTheme.goldLeaf)
+                            Text(wp.name(for: language))
+                                .font(Typography.caption2)
+                                .foregroundStyle(AnnoTheme.vellum)
+                                .lineLimit(1)
+                        }
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(RoundedRectangle(cornerRadius: 6).fill(AnnoTheme.ash.opacity(0.6)))
 
-                    if wp.order < min(route.waypoints.count, 3) {
-                        Image(systemName: "chevron.right")
-                            .font(.system(size: 8))
-                            .foregroundColor(AnnoTheme.incense.opacity(0.6))
+                        if wp.order < min(route.waypoints.count, 3) {
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 8))
+                                .foregroundStyle(AnnoTheme.incense.opacity(0.6))
+                        }
                     }
                 }
-            }
 
-            if let firstWp = route.waypoints.first, let mapsUrl = mapsURL(for: SacredPlace(name: firstWp.nameEn, latitude: firstWp.latitude, longitude: firstWp.longitude, confidence: .confirmed, sourceUrl: "")) {
-                Link(destination: mapsUrl) {
-                    HStack(spacing: 6) {
-                        Image(systemName: "map.fill")
-                        Text(language == .vietnamese ? "Xem Lộ Trình Trên Bản Đồ" : "Explore Route on Map")
-                    }
-                    .font(.caption.weight(.semibold))
-                    .foregroundColor(AnnoTheme.narthex)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 10)
-                    .background(
-                        LinearGradient(
-                            colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
+                if let firstWp = route.waypoints.first, let mapsUrl = mapsURL(for: SacredPlace(name: firstWp.nameEn, latitude: firstWp.latitude, longitude: firstWp.longitude, confidence: .confirmed, sourceUrl: "")) {
+                    Link(destination: mapsUrl) {
+                        HStack(spacing: 6) {
+                            Image(systemName: "map.fill")
+                            Text(language == .vietnamese ? "Xem Lộ Trình Trên Bản Đồ" : "Explore Route on Map")
+                        }
+                        .font(Typography.captionSemibold)
+                        .foregroundStyle(AnnoTheme.narthex)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 10)
+                        .background(
+                            LinearGradient(
+                                colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
                         )
-                    )
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
-                    .shadow(color: AnnoTheme.goldLeaf.opacity(0.3), radius: 6, y: 2)
+                        .clipShape(RoundedRectangle(cornerRadius: 8))
+                        .shadow(color: AnnoTheme.goldLeaf.opacity(0.3), radius: 6, y: 2)
+                    }
+                    .buttonStyle(.plain)
                 }
-                .buttonStyle(.plain)
             }
+            .annoCard()
         }
-        .annoCard()
-    }
 
     private func mapsURL(for place: SacredPlace) -> URL? {
-        var components = URLComponents()
+    var components = URLComponents()
         components.scheme = "https"
         components.host = "maps.apple.com"
         components.queryItems = [
@@ -478,50 +475,50 @@ struct TodayView: View {
     // MARK: - 8. Prayer Prompt Card
 
     private var prayerPromptCard: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 8) {
-                Image(systemName: "hands.sparkles")
-                    .foregroundColor(AnnoTheme.goldLeaf)
-                Text(language == .vietnamese ? "Lời nguyện" : "Prayer prompt")
-                    .font(.headline)
-                    .fontDesign(.serif)
-                    .foregroundColor(AnnoTheme.goldLeaf)
-            }
+            VStack(alignment: .leading, spacing: 12) {
+                HStack(spacing: 8) {
+                    Image(systemName: "hands.sparkles")
+                        .foregroundStyle(AnnoTheme.goldLeaf)
+                    Text(language == .vietnamese ? "Lời nguyện" : "Prayer prompt")
+                        .font(Typography.headlineSerif)
+                        .foregroundStyle(AnnoTheme.goldLeaf)
+                }
 
-            Text(localizedText.prayerPrompt)
-                .font(.body)
-                .fontDesign(.serif)
-                .lineSpacing(5)
-                .foregroundColor(AnnoTheme.vellum)
+                Text(localizedText.prayerPrompt)
+                    .font(Typography.bodySerif)
+                    .lineSpacing(5)
+                    .foregroundStyle(AnnoTheme.vellum)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .annoCard()
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .annoCard()
-    }
 
     // MARK: - 9. Source Confidence Card
 
     private var sourceConfidenceCard: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text(localizedText.confidenceNote)
-                .font(.subheadline)
-                .fontDesign(.serif)
-                .lineSpacing(4)
-                .foregroundColor(AnnoTheme.incense)
+            VStack(alignment: .leading, spacing: 12) {
+                Text(localizedText.confidenceNote)
+                    .font(Typography.captionSerif)
+                    .lineSpacing(4)
+                    .foregroundStyle(AnnoTheme.incense)
 
-            Button(action: onShowSources) {
-                HStack(spacing: 6) {
-                    Text(language == .vietnamese ? "Xem nguồn" : "Read sources")
-                    Image(systemName: "chevron.right")
-                        .font(.caption.weight(.bold))
+                Button(action: {
+                    Haptics.light()
+                    onShowSources()
+                }) {
+                    HStack(spacing: 6) {
+                        Text(language == .vietnamese ? "Xem nguồn" : "Read sources")
+                        Image(systemName: "chevron.right")
+                            .font(Typography.captionBold)
+                    }
+                    .font(Typography.subheadlineSemibold)
+                    .foregroundStyle(AnnoTheme.goldLeaf)
                 }
-                .font(.subheadline.weight(.semibold))
-                .foregroundColor(AnnoTheme.goldLeaf)
+                .buttonStyle(.plain)
             }
-            .buttonStyle(.plain)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .annoCard()
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .annoCard()
-    }
 }
 
 // MARK: - Helper Types
@@ -530,7 +527,7 @@ private enum TodayDateFormatter {
     private static let utc = TimeZone(secondsFromGMT: 0)!
 
     private static let parser: DateFormatter = {
-        let df = DateFormatter()
+    let df = DateFormatter()
         df.locale = Locale(identifier: "en_US_POSIX")
         df.calendar = Calendar(identifier: .gregorian)
         df.timeZone = utc
@@ -539,7 +536,7 @@ private enum TodayDateFormatter {
     }()
 
     private static let enFormatter: DateFormatter = {
-        let df = DateFormatter()
+    let df = DateFormatter()
         df.locale = Locale(identifier: "en_US")
         df.calendar = Calendar(identifier: .gregorian)
         df.timeZone = utc
@@ -548,7 +545,7 @@ private enum TodayDateFormatter {
     }()
 
     private static let viFormatter: DateFormatter = {
-        let df = DateFormatter()
+    let df = DateFormatter()
         df.locale = Locale(identifier: "vi_VN")
         df.calendar = Calendar(identifier: .gregorian)
         df.timeZone = utc
