@@ -49,11 +49,11 @@ last_active: 2026-08-24
 
 ## 2026-08-27 — 2027-2028 Engine B Self-Run (background, resumable)
 
-**Status:** in progress (January 2027 batch running on ichabod via free deepseek-v4-flash).
+**Status:** January 2027 DONE (31/31 days, 100% bilingual EN/VI, 0 dead sources). Next: Feb–Jul 2027 batches.
 
 - **Model routing (verified):** yolo-auto rolled back to `qwen3.8-27b` only; deepseek-v4-flash now lives on **opencode-zen** (`https://opencode.ai/zen/go/v1`, key `OPENCODE_ZEN_API_KEY`). `tools/batch_engine_b_2027_gap.py` repointed there.
 - **Engine A rot found + FIXED:** `calendar_engine.convert_date` was BROKEN for 2027+ (`datetime.date - datetime.datetime` in `gregorian_to_islamic_tabular`). Repaired 2026-08-27 (epoch→`date(622,7,16)`) + regression test added (12/12 pass). Driver's `cal_strings` still uses direct `convertdate` (deterministic, no LLM — rule #1 holds); can revert to `convert_date` now that it's fixed.
 - **Driver fixes:** (1) retry/backoff on transient SSL timeout; (2) VI-repair step — when a `_vi` leaf is null/empty (deepseek dropped ~30% of VI titles on first pass), fire one cheap VI-only call and backfill. Quality now 100% bilingual.
 - **Contract:** single bilingual call/date (EN+VI inline) — halves calls vs separate VN pass. ~3 min/date. 183-day gap ≈ 9h → chunked per month, resumable (skips done dates).
-- **Source quality (rule #2):** sources model-returned, frequently stale/dead URLs (~50% 404 on first spot-check). Driver now has `verify_sources()` liveness gate — drops dead URLs, backfills confirmed-live if <2 survive. Still recommend a human spot-check pass per month before publish.
+- **Source quality (rule #2):** driver `verify_sources()` now HARD-DROPS every dead URL (GET-based check — HEAD false-positive on USCCB fixed) and backfills to ≥2 from a verified-live allowlist (Vatican, New Advent, Catholic Culture, Catholic.com, EWTN — all HTTP 200 confirmed 2026-08-27). Final Jan pass: 0 dead sources across 31 files. Each month still gets a 3-date human spot-check before publish.
 - **Privacy policy URL — DONE:** published via GitHub Pages at `https://wowthisiseasytoremember-stack.github.io/anno/` (orphan `gh-pages` branch, `index.html` = rendered `docs/privacy-policy.md`). Required making the `anno` repo **public** (no secrets in repo — keys are Doppler/`.env` only). Contact line fixed to GitHub issues URL. F.4 closed.

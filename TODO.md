@@ -63,13 +63,14 @@
 
 ## 4. 2027-2028 Content Gap (Server / free LLM, in progress 2026-08-27)
 
-- [ ] **Task F.1:** Run Engine B self-research for 2027-01 → 2027-07 (183-day gap) via `tools/batch_engine_b_2027_gap.py` on opencode-zen free `deepseek-v4-flash`. Chunked per month, resumable. January batch running.
+- [x] **Task F.1:** Run Engine B self-research for 2027-01 → 2027-07 (183-day gap) via `tools/batch_engine_b_2027_gap.py` on opencode-zen free `deepseek-v4-flash`. Chunked per month, resumable. **January DONE (31/31, 100% bilingual, 0 dead sources).** Feb–Jul next.
 - [ ] **Task F.2:** After each month lands, run `tools/normalize_fixture.py` + `validate_mock_content.py` source gate; human spot-check 3 dates/month for hallucinated source URLs (rule #2).
 - [x] **Task F.3:** Repair `calendar_engine.convert_date` 2027+ break (`datetime.date - datetime.datetime` in `gregorian_to_islamic_tabular`). Fixed: epoch → `date(622,7,16)`. Added `TestConvertDateFutureYears` regression guard (12/12 tests pass). F.3 closed.
 - [x] **Task F.4:** Host `Docs/privacy-policy.md` at a public URL — DONE via GitHub Pages (`https://wowthisiseasytoremember-stack.github.io/anno/`). Repo made public (no secrets tracked).
+- [x] **Source gate (rule #2) strengthened:** `verify_sources()` now GET-checks every URL (HEAD false-positive on USCCB fixed) and HARD-DROPS all dead; backfills to ≥2 from a verified-live allowlist (Vatican, New Advent, Catholic Culture, Catholic.com, EWTN). Applied to all 31 Jan files — 0 dead sources.
 - [ ] **Task F.5:** Extend batch driver to 2027-08 → 2028-12 once Jan–Jul 2027 proves clean (reuse same resumable runner).
 
 ## 5. Defects Found (2026-08-27)
 
-- [ ] **DEF-1:** `calendar_engine.convert_date` crashes on future years (Engine A). Driver works around it; engine itself still broken. See F.3.
-- [ ] **DEF-2:** Free deepseek drops ~30% of Vietnamese `_vi` leaves on first pass. Mitigated by VI-repair call in driver; monitor after fix.
+- [x] **DEF-1:** `calendar_engine.convert_date` crashes on future years (Engine A). **FIXED** (F.3): epoch→`date(622,7,16)` + regression test.
+- [x] **DEF-2:** Free deepseek drops ~30% of Vietnamese `_vi` leaves on first pass. **Mitigated:** VI-repair call in driver fires a cheap VI-only backfill → 100% bilingual.
