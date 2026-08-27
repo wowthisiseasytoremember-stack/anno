@@ -288,11 +288,35 @@ class TestFullFiveYearDataset(unittest.TestCase):
         self.assertEqual(expected_date, date(2031, 1, 1))
 
 
+class TestConvertDateFutureYears(unittest.TestCase):
+    """Regression guard: convert_date must not crash on 2027+ (was broken: date - datetime)."""
+
+    FUTURE_DATES = [
+        date(2026, 7, 3), date(2027, 1, 1), date(2028, 2, 29),
+        date(2029, 1, 1), date(2030, 12, 31),
+    ]
+
+    def test_convert_date_runs_for_all_future_years(self) -> None:
+        for d in self.FUTURE_DATES:
+            with self.subTest(d=d.isoformat()):
+                r = convert_date(d)
+                self.assertIn("islamic_tabular", r)
+                self.assertIn("coptic", r)
+                self.assertIn("hebrew", r)
+                # Islamic tabular date must be a non-empty AH string
+                self.assertTrue(r["islamic_tabular"]["date"].endswith("AH"))
+
+    def test_islamic_tabular_matches_known_2027_01_01(self) -> None:
+        r = convert_date(date(2027, 1, 1))
+        self.assertEqual(r["islamic_tabular"]["date"], "25 Rajab 1448 AH")
+
+
 def main() -> None:
     suite = unittest.TestSuite()
     suite.addTest(unittest.makeSuite(TestComputusAndMoveableFeasts))
     suite.addTest(unittest.makeSuite(TestMultiProperResolver))
     suite.addTest(unittest.makeSuite(TestFullFiveYearDataset))
+    suite.addTest(unittest.makeSuite(TestConvertDateFutureYears))
 
     runner = unittest.TextTestRunner(verbosity=2)
     result = runner.run(suite)

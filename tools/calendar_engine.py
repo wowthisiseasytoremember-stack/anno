@@ -11,7 +11,7 @@ Usage:
     python calendar_engine.py --spot-check
 """
 
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 import json, math, argparse, sys
 
 # Libs
@@ -176,7 +176,7 @@ def gregorian_to_islamic_umm(gregorian_date, sundown_str):
 
 def gregorian_to_islamic_tabular(gregorian_date):
     """30-year arithmetic cycle, 11 leap years in each 30-year cycle."""
-    epoch = datetime(622, 7, 16)
+    epoch = date(622, 7, 16)
     days_since_epoch = (gregorian_date - epoch).days
     if days_since_epoch < 0:
         return {'date': 'pre-Islamic epoch', 'year_in_cycle': 0, 'is_leap_year': False,
