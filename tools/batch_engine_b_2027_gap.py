@@ -121,7 +121,14 @@ def missing_vi(en: dict) -> bool:
 
 
 def repair_vi(en: dict, d_str: str) -> dict:
-    """One cheap call asking ONLY for the missing Vietnamese fields."""
+    """One cheap call translating missing Vietnamese fields. Passes the EN content as
+    context (ferial days return empty VI without it). Also backfills missing EN leaves
+    from their VI siblings so a day that only got VI is still EN-complete."""
+    # Reverse fallback: if an _en is missing but _vi exists, copy VI -> EN.
+    for sec, keys in VI_KEYS.items():
+        for k in keys:
+            if not en.get(sec, {}).get(k) and en.get(sec, {}).get(k.replace("_vi", "_en")):
+                en[sec][k] = en[sec][k.replace("_vi", "_en")]
     need = []
     for sec, keys in VI_KEYS.items():
         for k in keys:
@@ -129,13 +136,25 @@ def repair_vi(en: dict, d_str: str) -> dict:
                 need.append(f"{sec}.{k}")
     if not need:
         return en
+    # Build EN context so the translator has something to anchor to.
+    ctx = []
+    for sec in ("liturgical", "primary", "app_hooks"):
+        for k in ("title_en", "summary_en", "body_en", "hero_line_en", "prayer_prompt_en"):
+            v = en.get(sec, {}).get(k)
+            if v:
+                ctx.append(f"{sec}.{k}: {v}")
+    ctx_block = "\n".join(ctx)
     prompt = (
-        f"Date {d_str}. Return ONLY JSON with the missing Vietnamese fields: "
-        f"{need}. Use correct Vietnamese Catholic liturgical vocabulary, preserve diacritics."
+        f"Date {d_str}. Translate the missing Vietnamese Catholic fields. English context:\n"
+        f"{ctx_block}\n\nReturn ONLY JSON with these fields: {need}. "
+        f"Use correct Vietnamese Catholic vocabulary, preserve diacritics."
     )
     raw = yolo([{"role": "system", "content": "You are a Vietnamese Catholic liturgical translator. Output only JSON."},
-                {"role": "user", "content": prompt}], maxtok=700)
-    fix = json.loads(extract_json(raw))
+                {"role": "user", "content": prompt}], maxtok=900)
+    try:
+        fix = json.loads(extract_json(raw))
+    except Exception:
+        return en
     for sec, keys in VI_KEYS.items():
         for k in keys:
             got = fix.get(sec, {}).get(k) if isinstance(fix.get(sec), dict) else None

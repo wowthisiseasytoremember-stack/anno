@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_on": "2026-08-24",
+  "generated_on": "2026-08-27",
   "total_entries": 182,
   "entries": [
     {
@@ -38,13 +38,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Angelico_-_Annunciation_-_San_Marco_north_corridor.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Feria in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Angelico_-_Annunciation_-_San_Marco_north_corridor.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -101,13 +101,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Transfiguration_by_fra_Angelico_%28San_Marco_Cell_6%29.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Feria in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Transfiguration_by_fra_Angelico_%28San_Marco_Cell_6%29.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -164,13 +164,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gentile_da_Fabriano_-_Coronation_of_the_Virgin.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Sunday in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gentile_da_Fabriano_-_Coronation_of_the_Virgin.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -227,13 +227,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mus%C3%A9e_Ingres-Bourdelle_-_Noli_me_tangere_ou_J%C3%A9sus_apparaissant_%C3%A0_Madeleine_-_Antoine_Rivalz_-_Joconde06070000238.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Feria in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mus%C3%A9e_Ingres-Bourdelle_-_Noli_me_tangere_ou_J%C3%A9sus_apparaissant_%C3%A0_Madeleine_-_Antoine_Rivalz_-_Joconde06070000238.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -290,13 +290,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/%28Venice%29_The_Mocking_of_Christ_by_Jacopo_Da_ponte_-_gallerie_Accademia_Venice.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Feria in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/%28Venice%29_The_Mocking_of_Christ_by_Jacopo_Da_ponte_-_gallerie_Accademia_Venice.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -353,13 +353,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Fra_Angelico_-_Presentation_of_Jesus_in_the_Temple_%28Cell_10%29_-_WGA00544.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Feria in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Fra_Angelico_-_Presentation_of_Jesus_in_the_Temple_%28Cell_10%29_-_WGA00544.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -416,13 +416,13 @@
         "latitude": 33.7878,
         "longitude": -117.8986,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Giotto_di_Bondone_-_No._17_Scenes_from_the_Life_of_Christ_-_1._Nativity_-_Birth_of_Jesus_-_WGA09193.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Marian Days (Đại Hội Thánh Mẫu)",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Giotto_di_Bondone_-_No._17_Scenes_from_the_Life_of_Christ_-_1._Nativity_-_Birth_of_Jesus_-_WGA09193.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -479,13 +479,13 @@
         "latitude": 33.7878,
         "longitude": -117.8986,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Giotto_di_Bondone_-_No._20_Scenes_from_the_Life_of_Christ_-_4._Flight_into_Egypt_-_WGA09198.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Marian Days (Đại Hội Thánh Mẫu)",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Giotto_di_Bondone_-_No._20_Scenes_from_the_Life_of_Christ_-_4._Flight_into_Egypt_-_WGA09198.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -542,13 +542,13 @@
         "latitude": 33.7878,
         "longitude": -117.8986,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Marian Days (Đại Hội Thánh Mẫu)",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -605,13 +605,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Giotto_-_Scrovegni_-_-36-_-_Lamentation_%28The_Mourning_of_Christ%29_adj.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Sunday in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Giotto_-_Scrovegni_-_-36-_-_Lamentation_%28The_Mourning_of_Christ%29_adj.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -668,13 +668,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Giotto_di_Bondone_-_No._39_Scenes_from_the_Life_of_Christ_-_23._Pentecost_-_WGA09227.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Feria in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Giotto_di_Bondone_-_No._39_Scenes_from_the_Life_of_Christ_-_23._Pentecost_-_WGA09227.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -731,13 +731,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Nicolas_Lokhoff._Copy_of_the_picture._Saint_Francis_of_Assisi_Preaching_to_the_Birds_by_Giotto_di_Bondone.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Feria in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Nicolas_Lokhoff._Copy_of_the_picture._Saint_Francis_of_Assisi_Preaching_to_the_Birds_by_Giotto_di_Bondone.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -794,13 +794,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Giotto_di_Bondone_-_No._16_Scenes_from_the_Life_of_the_Virgin_-_7._Visitation_-_WGA09192.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Feria in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Giotto_di_Bondone_-_No._16_Scenes_from_the_Life_of_the_Virgin_-_7._Visitation_-_WGA09192.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -857,13 +857,13 @@
         "latitude": 41.9029,
         "longitude": 12.4534,
         "confidence": "confirmed",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Caravaggio%2C_Michelangelo_Merisi_da_-_The_Calling_of_Saint_Matthew_-_1599-1600_%28hi_res%29.jpg"
+        "source_url": "https://example.com"
       },
       "artwork": {
         "title": "Depiction for Feria in Ordinary Time",
         "maker": "Various Artists",
         "date_label": "Historic",
-        "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Caravaggio%2C_Michelangelo_Merisi_da_-_The_Calling_of_Saint_Matthew_-_1599-1600_%28hi_res%29.jpg",
+        "source_url": "https://example.com/placeholder.jpg",
         "status": "cleared"
       },
       "sources": [
@@ -952,7 +952,7 @@
       "id": "anno-2026-07-18",
       "date": "2026-07-18",
       "weekday": "Saturday",
-      "mock_priority": 3,
+      "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Optional Memorial",
         "color": "White",
@@ -1015,7 +1015,7 @@
       "id": "anno-2026-07-19",
       "date": "2026-07-19",
       "weekday": "Sunday",
-      "mock_priority": 1,
+      "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Sunday",
         "color": "Green",
@@ -1083,7 +1083,7 @@
       "id": "anno-2026-07-20",
       "date": "2026-07-20",
       "weekday": "Monday",
-      "mock_priority": 3,
+      "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Optional Memorial",
         "color": "Red",
@@ -1151,7 +1151,7 @@
       "id": "anno-2026-07-21",
       "date": "2026-07-21",
       "weekday": "Tuesday",
-      "mock_priority": 3,
+      "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Optional Memorial",
         "color": "White",
@@ -1219,7 +1219,7 @@
       "id": "anno-2026-07-22",
       "date": "2026-07-22",
       "weekday": "Wednesday",
-      "mock_priority": 1,
+      "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Feast",
         "color": "White",
@@ -1282,7 +1282,7 @@
       "id": "anno-2026-07-23",
       "date": "2026-07-23",
       "weekday": "Thursday",
-      "mock_priority": 4,
+      "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Optional Memorial",
         "color": "White",

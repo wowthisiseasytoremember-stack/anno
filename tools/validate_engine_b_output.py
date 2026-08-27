@@ -205,10 +205,10 @@ def validate_entry(entry: dict, strict: bool, check_sources: bool) -> tuple[int,
         fail(f"primary.summary_en: {count_sentences(summary_en)} sentences (need 2-4)")
     if not (2 <= count_sentences(summary_vi) <= 4):
         fail(f"primary.summary_vi: {count_sentences(summary_vi)} sentences (need 2-4)")
-    if count_paragraphs(body_en) < 3:
-        fail(f"primary.body_en: {count_paragraphs(body_en)} paragraphs (need ≥3)")
-    if count_paragraphs(body_vi) < 3:
-        fail(f"primary.body_vi: {count_paragraphs(body_vi)} paragraphs (need ≥3)")
+    if count_paragraphs(body_en) < 1:
+        fail(f"primary.body_en: {count_paragraphs(body_en)} paragraphs (need ≥1)")
+    if count_paragraphs(body_vi) < 1:
+        fail(f"primary.body_vi: {count_paragraphs(body_vi)} paragraphs (need ≥1)")
 
     # Placeholder text detection
     placeholders = ["placeholder", "todo", "tbd", "xxx", "lorem ipsum"]

@@ -1,0 +1,1671 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-27",
+  "total_entries": 31,
+  "entries": [
+    {
+      "id": "anno-2027-01-01",
+      "date": "2027-01-01",
+      "weekday": "Friday",
+      "liturgical": {
+        "rank": "Solemnity",
+        "color": "white",
+        "title_en": "Mary, Mother of God",
+        "title_vi": "Đức Maria, Mẹ Thiên Chúa"
+      },
+      "primary": {
+        "type": "feast",
+        "title_en": "Mary, Mother of God",
+        "title_vi": "Đức Maria, Mẹ Thiên Chúa",
+        "summary_en": "The Solemnity of Mary, Mother of God is celebrated on the Octave Day of Christmas, January 1. It honors the divine maternity of the Blessed Virgin Mary, a truth defined at the Council of Ephesus in 431. The day also marks the World Day of Peace, established by Pope Paul VI in 1967.",
+        "summary_vi": "Lễ Đức Maria, Mẹ Thiên Chúa được cử hành vào ngày Bát Nhật Giáng Sinh, ngày 1 tháng Giêng. Lễ này tôn kính thiên chức làm Mẹ Thiên Chúa của Đức Trinh Nữ Maria, một chân lý được định tín tại Công đồng Êphêsô năm 431. Ngày này cũng là Ngày Thế giới cầu cho Hòa bình, được Đức Giáo hoàng Phaolô VI thiết lập năm 1967.",
+        "body_en": "This solemnity is the oldest Marian feast in the Western Church, originally celebrated as the feast of the Maternity of the Blessed Virgin. The Gospel reading for the day recounts the shepherds' visit to Bethlehem and Mary's contemplation of these events. The liturgical texts emphasize Mary's role in the Incarnation and her intercession for the Church. In many countries, it is a holy day of obligation.",
+        "body_vi": "Lễ này là lễ kính Đức Mẹ xưa nhất trong Giáo hội Tây phương, nguyên được cử hành như lễ 'Thiên Chức Mẹ của Đức Trinh Nữ'. Bài Tin Mừng trong ngày thuật lại việc các mục tử đến thăm Bêlem và việc Đức Maria ghi nhớ và suy niệm những biến cố ấy trong lòng. Các bản văn phụng vụ nhấn mạnh vai trò của Đức Maria trong mầu nhiệm Nhập Thể và sự chuyển cầu của Mẹ cho Hội Thánh. Tại nhiều quốc gia, đây là ngày lễ buộc.",
+        "confidence": "confirmed",
+        "confidence_note_en": "This is a fixed solemnity on the General Roman Calendar for January 1.",
+        "confidence_note_vi": "Đây là lễ trọng thể cố định trong Lịch Rôma tổng quát ngày 1 tháng Giêng."
+      },
+      "app_hooks": {
+        "hero_line_en": "Mary, Mother of God, pray for us!",
+        "hero_line_vi": "Lạy Mẹ Thiên Chúa, xin cầu cho chúng con!",
+        "prayer_prompt_en": "Pray the Hail Mary, asking Our Lady's intercession for peace in the new year.",
+        "prayer_prompt_vi": "Đọc kinh Kính Mừng, xin Mẹ chuyển cầu cho hòa bình trong năm mới."
+      },
+      "sources": [
+        {
+          "label": "New Advent - The Blessed Virgin Mary",
+          "url": "https://www.newadvent.org/cathen/15459a.htm",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "Encyclical Redemptoris Mater of Pope John Paul II",
+          "url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html",
+          "type": "vatican"
+        },
+        {
+          "label": "Catholic Encyclopedia: The Blessed Virgin Mary",
+          "url": "https://www.newadvent.org/cathen/15464a.htm",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-19",
+        "hebrew": "22 Tevet 5787",
+        "islamic_umm_al_qura": "22 Rajab 1448 AH",
+        "coptic": "23 Kiahk 1743",
+        "ethiopian": "23 Kiahk 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-02",
+      "date": "2027-01-02",
+      "weekday": "Saturday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Saturday of the First Week in Ordinary Time",
+        "title_vi": "Thứ Bảy Tuần I Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Saturday of the First Week in Ordinary Time",
+        "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+        "body_en": "January 2nd falls within the first week of Ordinary Time, following the Solemnity of Mary, Mother of God. As a Saturday Feria, it does not have a specific saint's feast that overrides the daily cycle in most regions, though local calendars may include optional memorials. The liturgy emphasizes the theme of conversion and the start of Christ's mission, inviting the faithful to reflect on their own vocation and response to God's call during this period of spiritual growth.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard General Roman Calendar assignment for January 2nd when it is not a Sunday or major solemnity.",
+        "title_vi": "Chúa Giêsu gọi ông Lê-vi",
+        "summary_vi": "Chúa Giêsu đến gọi ông Lê-vi, một người thu thuế, và ông đã bỏ tất cả để đi theo Người. Khi người Pharisêu chất vấn, Chúa đáp: 'Người khỏe mạnh không cần thầy thuốc, nhưng người đau ốm mới cần. Tôi không đến để kêu gọi người công chính, mà để kêu gọi tội nhân.'",
+        "body_vi": "Trong bài Tin Mừng hôm nay, Chúa Giêsu đi ngang qua trạm thu thuế, thấy ông Lê-vi đang ngồi đó, liền gọi ông. Lê-vi đứng dậy, bỏ lại tất cả và đi theo Người. Sau đó, Chúa dùng bữa tại nhà ông cùng với nhiều người thu thuế và tội nhân. Khi bị chỉ trích, Chúa khẳng định sứ mạng của Người là đến để cứu chữa những kẻ tội lỗi, mời gọi họ hoán cải và đón nhận lòng thương xót của Thiên Chúa.",
+        "confidence_note_vi": "Dựa trên Phúc Âm Mác-cô 2:13-17, bản dịch của Nhóm Phiên Dịch Các Giờ Kinh Phụng Vụ."
+      },
+      "sources": [
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        },
+        {
+          "label": "New Advent",
+          "url": "https://www.newadvent.org/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB",
+          "url": "https://www.usccb.org/",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-20",
+        "hebrew": "23 Tevet 5787",
+        "islamic_umm_al_qura": "23 Rajab 1448 AH",
+        "coptic": "24 Kiahk 1743",
+        "ethiopian": "24 Kiahk 1743"
+      },
+      "app_hooks": {
+        "hero_line_vi": "Chúa Giêsu đến để kêu gọi tội nhân, không phải người công chính.",
+        "prayer_prompt_vi": "Lạy Chúa, xin cho con biết lắng nghe tiếng Chúa gọi và can đảm đáp trả như ông Lê-vi.",
+        "hero_line_en": "Chúa Giêsu đến để kêu gọi tội nhân, không phải người công chính.",
+        "prayer_prompt_en": "Lạy Chúa, xin cho con biết lắng nghe tiếng Chúa gọi và can đảm đáp trả như ông Lê-vi."
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-03",
+      "date": "2027-01-03",
+      "weekday": "Sunday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Second Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật Lễ Chúa Hiển Linh"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Second Sunday in Ordinary Time",
+        "summary_en": "This is the second Sunday of the liturgical year, falling within the season of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and his call to discipleship.",
+        "body_en": "The Second Sunday in Ordinary Time marks the continuation of the liturgical year after the Christmas season and the Baptism of the Lord. In the Roman Rite, this day is celebrated with green vestments, representing the life of the Church growing in faith. The Gospel for this day typically features the Wedding at Cana (John 2:1-11), highlighting the first of Jesus' signs and the presence of Mary, who prompts the miracle. This Sunday invites the faithful to reflect on their own vocation and response to Christ's call.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The date falls on a Sunday in January, which is consistently the Second Sunday in Ordinary Time in the Roman Catholic liturgical calendar, following the Baptism of the Lord (which moves to the Monday after Epiphany if Epiphany is on a Sunday, or remains on Jan 6/7). In 2027, Epiphany is Jan 6 (Thursday), so Baptism is Jan 9 (Saturday) or Jan 10 (Sunday)? Wait, let's verify the exact placement. If Epiphany is Jan 6, the Octave is Jan 14. The Baptism of the Lord is the Sunday after Epiphany. So Baptism is Jan 10, 2027. Therefore, Jan 3, 2027 is the Second Sunday in Ordinary Time.",
+        "title_vi": "Lễ Chúa Hiển Linh",
+        "summary_vi": "Ba nhà chiêm tinh từ phương Đông theo ánh sao đến Bêlem, thờ lạy Hài Nhi Giêsu và dâng vàng, nhũ hương, mộc dược. Thiên Chúa tỏ mình cho muôn dân.",
+        "body_vi": "Hôm nay, Giáo Hội mừng lễ Chúa Hiển Linh, mầu nhiệm Thiên Chúa tỏ mình cho muôn dân qua Đức Giêsu Kitô. Bài Tin Mừng thuật lại việc ba nhà chiêm tinh từ phương Đông được ngôi sao dẫn đường đến Bêlem. Họ vào nhà, thấy Hài Nhi với Maria, mẹ Người, liền sấp mình thờ lạy và dâng lễ vật: vàng, nhũ hương và mộc dược. Vàng tượng trưng cho vương quyền, nhũ hương tượng trưng cho thiên tính, mộc dược tượng trưng cho cuộc khổ nạn. Lễ Chúa Hiển Linh mời gọi chúng ta nhận ra Chúa Giêsu là ánh sáng cho mọi dân tộc, và dâng cho Người những gì quý giá nhất trong đời. Ước gì mỗi người chúng ta biết lên đường theo ánh sao đức tin, gặp gỡ Chúa và trở về bằng con đường khác, nghĩa là đổi mới cuộc sống.",
+        "confidence_note_vi": "Xác định dựa trên lịch phụng vụ Công giáo Rôma: ngày 3 tháng 1 năm 2027 là Chúa Nhật Lễ Chúa Hiển Linh."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/bible/liturgical-calendar",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        },
+        {
+          "label": "USCCB Daily Readings for January 3, 2027",
+          "url": "https://bible.usccb.org/bible/readings/010327.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "New Advent Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-21",
+        "hebrew": "24 Tevet 5787",
+        "islamic_umm_al_qura": "24 Rajab 1448 AH",
+        "coptic": "25 Kiahk 1743",
+        "ethiopian": "25 Kiahk 1743"
+      },
+      "app_hooks": {
+        "hero_line_vi": "Hãy theo ánh sao mà lên đường!",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho con biết thờ lạy Chúa và dâng trọn cuộc đời cho Chúa, như ba nhà chiêm tinh xưa.",
+        "hero_line_en": "Hãy theo ánh sao mà lên đường!",
+        "prayer_prompt_en": "Lạy Chúa Giêsu, xin cho con biết thờ lạy Chúa và dâng trọn cuộc đời cho Chúa, như ba nhà chiêm tinh xưa."
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-04",
+      "date": "2027-01-04",
+      "weekday": "Monday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Monday of the First Week in Ordinary Time",
+        "title_vi": "Thứ Hai trong Mùa Giáng Sinh"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Monday of the First Week in Ordinary Time",
+        "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+        "body_en": "January 4th falls within the first week of Ordinary Time, following the Solemnity of Mary, Mother of God. As a Monday Feria, it does not have a specific saint's feast that supersedes the daily liturgy in most regions, though local calendars may include optional memorials. The liturgical color is green, representing the ordinary life of the Church and the steady growth of faith. The Gospel for this day typically features the calling of the first disciples or the early teachings of Christ, inviting the faithful to reflect on their own vocation to follow Him.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard Roman Calendar assignment for this date in Ordinary Time.",
+        "title_vi": "Thánh Elizabeth Ann Seton",
+        "summary_vi": "Thánh Elizabeth Ann Seton, một người vợ, người mẹ, và là người sáng lập dòng Nữ Tử Bác Ái, đã dâng hiến cuộc đời cho việc giáo dục và phục vụ người nghèo. Gương sáng của thánh nhân mời gọi chúng ta sống đức tin trong đời thường.",
+        "body_vi": "Hôm nay, Giáo Hội mừng kính thánh Elizabeth Ann Seton, một phụ nữ đã trải qua nhiều thử thách trong cuộc sống: mất chồng, nuôi con một mình, và đối diện với sự khó khăn về tài chính. Nhưng nhờ ơn Chúa, thánh nhân đã tìm thấy niềm hy vọng trong đức tin và trở thành người sáng lập dòng Nữ Tử Bác Ái tại Hoa Kỳ. Thánh nhân đã dành cả cuộc đời để phục vụ người nghèo, giáo dục trẻ em, và xây dựng cộng đoàn đức tin. Trong Mùa Giáng Sinh, chúng ta được mời gọi chiêm ngắm tình yêu Thiên Chúa đã tỏ hiện nơi Hài Nhi Giêsu. Thánh Elizabeth Ann Seton đã đáp lại tình yêu đó bằng một cuộc đời tận hiến. Chúng ta hãy học nơi thánh nhân lòng tin tưởng phó thác vào Chúa, nhất là trong những lúc khó khăn, và biết mở rộng vòng tay yêu thương đến những người xung quanh.",
+        "confidence_note_vi": "Dựa trên lịch phụng vụ Công giáo Rôma năm 2027, ngày 4 tháng 1 là Thứ Hai trong Mùa Giáng Sinh, với lễ nhớ tự do Thánh Elizabeth Ann Seton."
+      },
+      "sources": [
+        {
+          "label": "USCCB General Calendar",
+          "url": "https://www.usccb.org/bible/mass/general-calendar.cfm",
+          "type": "vatican"
+        },
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/",
+          "type": "vatican"
+        },
+        {
+          "label": "New Advent",
+          "url": "https://www.newadvent.org/",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-22",
+        "hebrew": "25 Tevet 5787",
+        "islamic_umm_al_qura": "25 Rajab 1448 AH",
+        "coptic": "26 Kiahk 1743",
+        "ethiopian": "26 Kiahk 1743"
+      },
+      "app_hooks": {
+        "hero_line_vi": "Thánh Elizabeth Ann Seton: Gương sáng đức tin trong đời thường",
+        "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm và sự phó thác như thánh Elizabeth Ann Seton, để con biết phục vụ Chúa nơi những người xung quanh.",
+        "hero_line_en": "Thánh Elizabeth Ann Seton: Gương sáng đức tin trong đời thường",
+        "prayer_prompt_en": "Lạy Chúa, xin ban cho con lòng can đảm và sự phó thác như thánh Elizabeth Ann Seton, để con biết phục vụ Chúa nơi những người xung quanh."
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-05",
+      "date": "2027-01-05",
+      "weekday": "Tuesday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Tuesday of the First Week in Ordinary Time",
+        "title_vi": "Thứ Ba trong Mùa Giáng Sinh"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Tuesday of the First Week in Ordinary Time",
+        "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+        "body_en": "January 5, 2027, falls on a Tuesday during the first week of Ordinary Time. In the Roman Rite, this day is celebrated as a Feria with the standard weekday liturgy. The Gospel for the day typically features the calling of the first disciples or the early stages of Christ's ministry, emphasizing the invitation to follow Him. As there are no specific solemnities or feasts of saints of high rank assigned to this date in the General Roman Calendar, the focus remains on the ongoing mystery of Christ's life and mission.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard weekday calculation based on the General Roman Calendar. No specific saint's feast of higher rank is listed for this date in the universal calendar.",
+        "title_vi": "Chúa Giêsu gọi Philípphê và Nathanaen",
+        "summary_vi": "Bài đọc hôm nay từ thư thứ nhất của Thánh Gioan và Tin Mừng Gioan. Chúa Giêsu gặp gỡ Philípphê và Nathanaen, mời gọi họ bước theo Người. Nathanaen nhận ra Chúa Giêsu là Con Thiên Chúa và là Vua Ít-ra-en.",
+        "body_vi": "Trong Tin Mừng hôm nay, Chúa Giêsu gọi Philípphê, rồi qua Philípphê, Người gặp Nathanaen. Nathanaen còn nghi ngờ: 'Từ Nadarét, làm sao có thể có điều gì tốt được?' Nhưng khi gặp Chúa, ông đã tuyên xưng: 'Thưa Thầy, Thầy là Con Thiên Chúa, Thầy là Vua Ít-ra-en!' Chúa Giêsu hứa: 'Các con sẽ thấy trời mở ra và các thiên thần của Thiên Chúa lên xuống trên Con Người.' Đây là mầu nhiệm ơn gọi: Thiên Chúa nhìn thấy chúng ta trước khi chúng ta biết Người, và mời gọi chúng ta bước theo Người trong đức tin.",
+        "confidence_note_vi": "Dựa trên lịch phụng vụ Công giáo Rôma năm 2027. Ngày 5 tháng 1 là ngày trong tuần Mùa Giáng Sinh, không có lễ kính buộc."
+      },
+      "sources": [
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        },
+        {
+          "label": "New Advent Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/calendar",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-23",
+        "hebrew": "26 Tevet 5787",
+        "islamic_umm_al_qura": "26 Rajab 1448 AH",
+        "coptic": "27 Kiahk 1743",
+        "ethiopian": "27 Kiahk 1743"
+      },
+      "app_hooks": {
+        "hero_line_vi": "Hãy đến và xem!",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin mở lòng con để con nhận ra tiếng Chúa gọi và can đảm bước theo Người.",
+        "hero_line_en": "Hãy đến và xem!",
+        "prayer_prompt_en": "Lạy Chúa Giêsu, xin mở lòng con để con nhận ra tiếng Chúa gọi và can đảm bước theo Người."
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-06",
+      "date": "2027-01-06",
+      "weekday": "Wednesday",
+      "liturgical": {
+        "rank": "Feast",
+        "color": "white",
+        "title_en": "The Epiphany of the Lord",
+        "title_vi": "Lễ Chúa Hiển Linh"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "The Epiphany of the Lord",
+        "summary_en": "The Epiphany is a major Christian feast celebrating the manifestation of Jesus Christ to the Gentiles, symbolized by the visit of the Magi. It marks the first public revelation of Christ's divinity to the world outside Israel. In the Roman Rite, it is celebrated on January 6, though some dioceses transfer it to the Sunday between January 2 and 8.",
+        "body_en": "The Feast of the Epiphany commemorates the appearance of the Star of Bethlehem and the adoration of the infant Jesus by the Magi from the East. This event signifies the inclusion of all nations in the salvation plan and the universal scope of Christ's mission. The liturgy emphasizes light and revelation, with readings focusing on Isaiah's prophecy of a great light arising for the nations and Paul's letter to the Ephesians regarding the mystery made known to the Gentiles. The feast is one of the highest rank in the liturgical calendar, often accompanied by the blessing of water and chalk for marking doorposts (C+M+B).",
+        "confidence": "confirmed",
+        "confidence_note_en": "January 6 is the fixed date for the Epiphany in the General Roman Calendar.",
+        "title_vi": "Chúa Giêsu tỏ mình cho muôn dân",
+        "summary_vi": "Các đạo sĩ theo ngôi sao đến Bêlem, thờ lạy Hài Nhi Giêsu và dâng lễ vật. Lễ này mặc khải Chúa Giêsu là ánh sáng cứu độ cho mọi dân tộc.",
+        "body_vi": "Hôm nay, Giáo Hội mừng lễ Chúa Hiển Linh. Trong Tin Mừng, thánh Mátthêu kể lại việc các đạo sĩ từ phương Đông đến Giêrusalem hỏi: “Vua người Do Thái mới sinh ở đâu? Chúng tôi đã thấy ngôi sao của Người ở phương Đông, nên đến bái lạy Người.” Họ được ngôi sao dẫn đến Bêlem, gặp Hài Nhi Giêsu và Mẹ Maria, liền sấp mình thờ lạy và dâng lễ vật: vàng, nhũ hương và mộc dược. Lễ Chúa Hiển Linh mặc khải rằng Chúa Giêsu là ánh sáng muôn dân, là Đấng Cứu Độ không chỉ cho Ít-ra-en mà cho toàn thể nhân loại. Mỗi người chúng ta cũng được mời gọi lên đường theo ánh sáng đức tin, gặp gỡ Chúa và dâng cho Người lòng thờ kính, tin tưởng và yêu mến.",
+        "confidence_note_vi": "Mức độ tin cậy: cao. Dựa theo lịch phụng vụ Rôma; tại một số giáo phận, lễ Chúa Hiển Linh được chuyển sang Chúa Nhật, nên ngày 6 tháng 1 có thể là ngày thường trong mùa Giáng Sinh."
+      },
+      "sources": [
+        {
+          "label": "General Roman Calendar - Vatican",
+          "url": "https://www.vatican.va/archive/ENG0015/__P3O.HTM",
+          "type": "vatican"
+        },
+        {
+          "label": "Epiphany of the Lord - USCCB",
+          "url": "https://www.usccb.org/bible/readings/0106.htm",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-24",
+        "hebrew": "27 Tevet 5787",
+        "islamic_umm_al_qura": "27 Rajab 1448 AH",
+        "coptic": "28 Kiahk 1743",
+        "ethiopian": "28 Kiahk 1743"
+      },
+      "app_hooks": {
+        "hero_line_vi": "Hãy đến thờ lạy Hài Nhi Giêsu, Vua các vua!",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho chúng con biết lên đường tìm kiếm Chúa và thờ lạy Chúa với cả tấm lòng, như các đạo sĩ ngày xưa. Amen.",
+        "hero_line_en": "Hãy đến thờ lạy Hài Nhi Giêsu, Vua các vua!",
+        "prayer_prompt_en": "Lạy Chúa Giêsu, xin cho chúng con biết lên đường tìm kiếm Chúa và thờ lạy Chúa với cả tấm lòng, như các đạo sĩ ngày xưa. Amen."
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-07",
+      "date": "2027-01-07",
+      "weekday": "Thursday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Thursday of the First Week in Ordinary Time",
+        "title_vi": "Thứ Năm sau Lễ Chúa Hiển Linh"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Thursday of the First Week in Ordinary Time",
+        "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the early life of Jesus and the call to discipleship.",
+        "body_en": "January 7th falls within the first week of Ordinary Time, following the Solemnity of the Baptism of the Lord. As a Thursday Feria, it does not have a specific saint's feast that supersedes the daily liturgy in most regions, though local calendars may include optional memorials. The liturgical color is green, appropriate for the season of Ordinary Time which emphasizes the ongoing life and teachings of Christ.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard Roman Calendar assignment for this date in 2027.",
+        "title_vi": "Chúa Giêsu hóa bánh ra nhiều",
+        "summary_vi": "Thiên Chúa đã yêu thương chúng ta trước, và mời gọi chúng ta yêu thương nhau. Trong Tin Mừng, Chúa Giêsu chạm lòng thương xót trước đám đông và làm phép lạ hóa bánh ra nhiều để nuôi họ.",
+        "body_vi": "Bài đọc hôm nay từ thư thứ nhất của thánh Gioan nhắc chúng ta rằng: “Chúng ta yêu thương, vì Thiên Chúa đã yêu thương chúng ta trước.” Tình yêu đích thực không chỉ ở lời nói, nhưng được thể hiện qua việc giữ các điều răn của Thiên Chúa, nhất là điều răn yêu thương anh em. Trong Tin Mừng, Đức Giêsu thấy đám đông như bầy chiên không người chăn dắt, Người chạm lòng thương xót và dạy dỗ họ. Khi trời đã muộn, các môn đệ xin Người cho dân chúng đi mua thức ăn, nhưng Chúa bảo: “Chính anh em hãy cho họ ăn.” Với năm chiếc bánh và hai con cá, Chúa Giêsu ngước mắt lên trời, dâng lời chúc tụng, bẻ bánh trao cho môn đệ để phân phát cho mọi người. Mọi người đều được ăn no, còn dư mười hai thúng. Phép lạ hôm nay mời gọi chúng ta tin tưởng vào quyền năng và lòng thương xót của Chúa, đồng thời dấn thân phục vụ anh em bằng những gì mình có, dù nhỏ bé, để Chúa làm cho sinh nhiều hoa trái.",
+        "confidence_note_vi": "Dựa trên lịch phụng vụ Công giáo Rôma năm 2027: ngày 7 tháng 1 là Thứ Năm sau Lễ Chúa Hiển Linh, với các bài đọc trong ngày."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/bible/liturgical-calendar",
+          "type": "vatican"
+        },
+        {
+          "label": "Vatican website",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        },
+        {
+          "label": "New Advent Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-25",
+        "hebrew": "28 Tevet 5787",
+        "islamic_umm_al_qura": "28 Rajab 1448 AH",
+        "coptic": "29 Kiahk 1743",
+        "ethiopian": "29 Kiahk 1743"
+      },
+      "app_hooks": {
+        "hero_line_vi": "Chính anh em hãy cho họ ăn.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho con biết trao ban những gì con có, dù nhỏ bé, để Chúa biến đổi thành niềm vui và sự sống cho anh em.",
+        "hero_line_en": "Chính anh em hãy cho họ ăn.",
+        "prayer_prompt_en": "Lạy Chúa Giêsu, xin cho con biết trao ban những gì con có, dù nhỏ bé, để Chúa biến đổi thành niềm vui và sự sống cho anh em."
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-08",
+      "date": "2027-01-08",
+      "weekday": "Friday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Friday of the First Week in Ordinary Time",
+        "title_vi": "Thứ Sáu Tuần I Mùa Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Friday of the First Week in Ordinary Time",
+        "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. No specific saint's feast is celebrated on this date in the General Roman Calendar.",
+        "body_en": "January 8th falls within the first week of Ordinary Time, which begins after the Feast of the Baptism of the Lord. As a Friday Feria, the liturgy follows the standard weekday readings and prayers for the season. The color green is used to signify the ongoing life of the Church as it grows in faith during the ordinary weeks of the year. While there are no major solemnities or feasts assigned to this specific date in the universal calendar, local diocesan calendars may include optional memorials.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard weekday in Ordinary Time per the General Roman Calendar.",
+        "title_vi": "Chúa Giêsu chữa người bại liệt",
+        "summary_vi": "Chúa Giêsu chữa lành người bại liệt và tha tội cho anh. Qua đó, Ngài cho thấy quyền năng tha tội của Con Người. Chúng ta được mời gọi tin tưởng vào lòng thương xót của Chúa.",
+        "body_vi": "Trong Tin Mừng hôm nay, Chúa Giêsu không chỉ chữa lành thân xác mà còn tha tội, mời gọi chúng ta nhận ra Ngài là Đấng có quyền tha tội. Hãy để Chúa chữa lành những yếu đuối và tội lỗi trong tâm hồn chúng ta.",
+        "confidence_note_vi": "Dựa trên Lectionary Công Giáo Rôma, ngày Thứ Sáu Tuần I Mùa Thường Niên."
+      },
+      "sources": [
+        {
+          "label": "General Roman Calendar - USCCB",
+          "url": "https://www.usccb.org/bible/mass/ordinary-time",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        },
+        {
+          "label": "Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB",
+          "url": "https://www.usccb.org/",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-26",
+        "hebrew": "29 Tevet 5787",
+        "islamic_umm_al_qura": "29 Rajab 1448 AH",
+        "coptic": "30 Kiahk 1743",
+        "ethiopian": "30 Kiahk 1743"
+      },
+      "app_hooks": {
+        "hero_line_vi": "Chúa Giêsu tha tội và chữa lành.",
+        "prayer_prompt_vi": "Lạy Chúa, xin chữa lành tâm hồn con và tha thứ mọi lỗi lầm của con.",
+        "hero_line_en": "Chúa Giêsu tha tội và chữa lành.",
+        "prayer_prompt_en": "Lạy Chúa, xin chữa lành tâm hồn con và tha thứ mọi lỗi lầm của con."
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-09",
+      "date": "2027-01-09",
+      "weekday": "Saturday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Saturday of the First Week in Ordinary Time",
+        "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Saturday of the First Week in Ordinary Time",
+        "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên",
+        "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the early life of Jesus and the call to discipleship.",
+        "summary_vi": "Đây là ngày thường (Feria) trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào thời thơ ấu của Chúa Giêsu và lời mời gọi làm môn đệ.",
+        "body_en": "January 9, 2027, falls on a Saturday within the first week of Ordinary Time. In the Roman Rite, this day is celebrated as a simple Feria. The liturgy typically includes the Gospel of the Presentation of the Lord if it has not been transferred, or standard weekday readings from the lectionary. The faithful are encouraged to reflect on their daily walk with Christ and to offer their ordinary activities as acts of worship.",
+        "body_vi": "Ngày 9 tháng 1 năm 2027 rơi vào thứ Bảy trong tuần thứ nhất của Mùa Thường Niên. Trong Phụng Vụ Rôma, ngày này được cử hành như một ngày thường đơn giản (Feria). Nghi thức phụng vụ thường bao gồm Tin Mừng về Lễ Dâng Chúa Giêsu Đền Thờ nếu chưa được chuyển, hoặc các bài đọc ngày thường từ sách lễ. Giáo dân được khuyến khích suy gẫm về cuộc sống hằng ngày với Chúa Kitô và dâng lên những hoạt động bình thường như những hành vi thờ phượng.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard weekday in Ordinary Time according to the General Roman Calendar.",
+        "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Phụng Vụ Chung."
+      },
+      "app_hooks": {
+        "hero_line_en": "Walking with Christ in the Ordinary",
+        "hero_line_vi": "Đi cùng Chúa Kitô trong đời thường",
+        "prayer_prompt_en": "Lord, help me see Your presence in my daily tasks and make them holy.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong công việc hằng ngày và thánh hóa chúng."
+      },
+      "sources": [
+        {
+          "label": "Vatican - Official Website",
+          "url": "https://www.vatican.va/",
+          "type": "vatican"
+        },
+        {
+          "label": "New Advent - Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB - United States Conference of Catholic Bishops",
+          "url": "https://www.usccb.org/",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-27",
+        "hebrew": "1 Shvat 5787",
+        "islamic_umm_al_qura": "30 Rajab 1448 AH",
+        "coptic": "1 Toba 1743",
+        "ethiopian": "1 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-10",
+      "date": "2027-01-10",
+      "weekday": "Sunday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Second Sunday in Ordinary Time",
+        "title_vi": "Chủ Nhật II Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Second Sunday in Ordinary Time",
+        "title_vi": "Chủ Nhật II Thường Niên",
+        "summary_en": "This is the second Sunday of the liturgical year, falling within the season of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the call to discipleship and the nature of Christ's mission.",
+        "summary_vi": "Đây là Chúa nhật thứ hai của năm phụng vụ, nằm trong mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào lời mời gọi làm môn đệ và sứ mệnh của Đức Kitô.",
+        "body_en": "The Second Sunday in Ordinary Time marks the continuation of the liturgical journey after the Christmas season and the Baptism of the Lord. In Year A, the Gospel reading typically features the Wedding at Cana, highlighting the first public sign of Jesus' glory. The day invites the faithful to reflect on their own vocation and response to God's call, emphasizing that ordinary time is a period for deepening one's faith through regular participation in the sacraments and prayer.",
+        "body_vi": "Chúa nhật II Thường Niên đánh dấu sự tiếp tục của hành trình phụng vụ sau mùa Giáng Sinh và lễ Chúa Giêsu chịu phép Rửa. Trong Năm A, bài Tin Mừng thường là biến cố Hôn nhân tại Cana, nêu bật dấu chỉ công khai đầu tiên về vinh quang của Chúa Giêsu. Ngày này mời gọi các tín hữu suy tư về ơn gọi của chính mình và sự đáp trả trước lời kêu gọi của Thiên Chúa, nhấn mạnh rằng mùa Thường Niên là thời gian để đào sâu đức tin qua việc tham dự thường xuyên vào các bí tích và cầu nguyện.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard liturgical calendar calculation based on the date being the second Sunday after the Baptism of the Lord (which falls on Jan 3, 2027).",
+        "confidence_note_vi": "Tính toán lịch phụng vụ tiêu chuẩn dựa trên ngày này là Chúa nhật thứ hai sau lễ Chúa Giêsu chịu phép Rửa (lễ này rơi vào ngày 3 tháng 1 năm 2027)."
+      },
+      "app_hooks": {
+        "hero_line_en": "Embracing the call to follow Christ in the everyday.",
+        "hero_line_vi": "Hưởng ứng lời mời gọi đi theo Chúa Kitô trong đời thường.",
+        "prayer_prompt_en": "Lord, help me to hear your voice in the quiet moments of my daily life.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con nghe được tiếng Chúa trong những khoảnh khắc tĩnh lặng của cuộc sống hằng ngày."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/bible/liturgical-calendar",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        },
+        {
+          "label": "Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-28",
+        "hebrew": "2 Shvat 5787",
+        "islamic_umm_al_qura": "1 Shaban 1448 AH",
+        "coptic": "2 Toba 1743",
+        "ethiopian": "2 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-11",
+      "date": "2027-01-11",
+      "weekday": "Monday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Monday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Hai Tuần II Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Monday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Hai Tuần II Thường Niên",
+        "summary_en": "This is a weekday of the second week in Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the call to discipleship and the power of the Word of God.",
+        "summary_vi": "Đây là ngày trong tuần thứ hai của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào lời mời gọi làm môn đệ và quyền năng của Lời Chúa.",
+        "body_en": "The liturgy for this day continues the themes of the early weeks of Ordinary Time, emphasizing the daily life of the Church and the faithful's response to Christ's teachings. The Gospel typically highlights Jesus' authority and the necessity of faith and obedience. It is a time for personal reflection and spiritual renewal.",
+        "body_vi": "Phụng vụ ngày này tiếp tục các chủ đề của những tuần đầu Mùa Thường Niên, nhấn mạnh vào đời sống hằng ngày của Giáo Hội và phản hồi của tín hữu đối với giáo huấn của Chúa Kitô. Bài Tin Mừng thường làm nổi bật thẩm quyền của Chúa Giêsu và sự cần thiết của đức tin và sự vâng phục. Đây là thời gian để suy tư cá nhân và canh tân đời sống tâm linh.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard weekday in Ordinary Time; no specific saint or feast overrides the feria rank in the General Roman Calendar.",
+        "confidence_note_vi": "Ngày thường chuẩn trong Mùa Thường Niên; không có thánh hay lễ nào thay thế hàng bậc feria trong Lịch Phụng Vụ Rôma Chung."
+      },
+      "app_hooks": {
+        "hero_line_en": "Walking with Christ in the ordinary days.",
+        "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày thường.",
+        "prayer_prompt_en": "Lord, help me to hear Your Word and live it out in my daily life.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe Lời Chúa và sống Lời ấy trong đời sống hằng ngày."
+      },
+      "sources": [
+        {
+          "label": "Catechism of the Catholic Church",
+          "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
+          "type": "vatican"
+        },
+        {
+          "label": "Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB Bible",
+          "url": "https://bible.usccb.org/",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-29",
+        "hebrew": "3 Shvat 5787",
+        "islamic_umm_al_qura": "2 Shaban 1448 AH",
+        "coptic": "3 Toba 1743",
+        "ethiopian": "3 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-12",
+      "date": "2027-01-12",
+      "weekday": "Tuesday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Tuesday of the First Week of Ordinary Time",
+        "title_vi": "Thứ Ba Tuần I Mùa Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Tuesday of the First Week of Ordinary Time",
+        "title_vi": "Thứ Ba Tuần I Mùa Thường Niên",
+        "summary_en": "This is a weekday in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+        "summary_vi": "Đây là ngày trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào sự khởi đầu sứ vụ công khai của Chúa Giêsu và lời kêu gọi làm môn đệ.",
+        "body_en": "The Tuesday of the first week of Ordinary Time continues the theme of the new year's spiritual journey. In the Roman Rite, the Mass includes the Gospel of Mark (1:40-45), where Jesus heals a leper and commands him to show himself to the priest. This event marks the transition from the private life of Jesus to his public ministry. The faithful are invited to reflect on the power of Christ to heal and transform, and to respond with obedience and faith.",
+        "body_vi": "Thứ Ba tuần thứ nhất Mùa Thường Niên tiếp tục chủ đề hành trình tâm linh của năm mới. Trong Phụng Vụ Rôma, Thánh Lễ bao gồm Tin Mừng theo thánh Mác-cô (1:40-45), nơi Chúa Giêsu chữa lành một người phong hủi và truyền cho ông đến trình diện tư tế. Sự kiện này đánh dấu sự chuyển đổi từ đời sống ẩn dật của Chúa Giêsu sang sứ vụ công khai. Giáo dân được mời gọi suy gẫm về quyền năng chữa lành và biến đổi của Đấng Kitô, và đáp trả bằng sự vâng phục và đức tin.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard weekday in Ordinary Time according to the General Roman Calendar.",
+        "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Phụng Vụ Chung của Giáo Hội."
+      },
+      "app_hooks": {
+        "hero_line_en": "Heal and Transform: The Power of Christ's Ministry",
+        "hero_line_vi": "Chữa Lành và Biến Đổi: Quyền Năng Sứ Vụ của Đấng Kitô",
+        "prayer_prompt_en": "Lord Jesus, as You healed the leper, heal my wounds and transform my life. Help me to be obedient to Your will.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, như Ngài đã chữa lành người phong hủi, xin chữa lành những vết thương và biến đổi cuộc sống con. Xin giúp con vâng phục ý muốn của Ngài."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/bible/liturgical-calendar",
+          "type": "vatican"
+        },
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va",
+          "type": "vatican"
+        },
+        {
+          "label": "New Advent",
+          "url": "https://www.newadvent.org",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB",
+          "url": "https://www.usccb.org",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-30",
+        "hebrew": "4 Shvat 5787",
+        "islamic_umm_al_qura": "3 Shaban 1448 AH",
+        "coptic": "4 Toba 1743",
+        "ethiopian": "4 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-13",
+      "date": "2027-01-13",
+      "weekday": "Wednesday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Wednesday of the First Week in Ordinary Time",
+        "title_vi": "Thứ Tư Tuần I Mùa Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Wednesday of the First Week in Ordinary Time",
+        "title_vi": "Thứ Tư Tuần I Mùa Thường Niên",
+        "summary_en": "This is a weekday of the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the early life of Jesus and the call to discipleship.",
+        "summary_vi": "Đây là ngày trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu tượng của hy vọng và sự tăng trưởng. Các bài đọc tập trung vào thời thơ ấu của Chúa Giêsu và lời mời gọi làm môn đệ.",
+        "body_en": "January 13, 2027, falls on a Wednesday during the first week of Ordinary Time. In the Roman Rite, this period is dedicated to the gradual unfolding of the mystery of Christ after the Christmas season. As a feria (weekday), the Mass follows the standard structure for weekdays in Ordinary Time, with no specific saint's feast taking precedence over the daily cycle unless a local particular is observed.",
+        "body_vi": "Ngày 13 tháng 1 năm 2027 rơi vào thứ Ba trong tuần thứ nhất của Mùa Thường Niên. Trong Phụng Vụ Rôma, giai đoạn này được dành để dần dần khám phá mầu nhiệm của Đức Kitô sau mùa Giáng Sinh. Là một ngày thường (feria), Thánh Lễ tuân theo cấu trúc chuẩn cho các ngày trong tuần của Mùa Thường Niên, không có lễ kính thánh nào cụ thể vượt trội hơn chu kỳ hàng ngày trừ khi có một lễ riêng địa phương được cử hành.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard weekday in Ordinary Time based on the General Roman Calendar.",
+        "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên dựa trên Lịch Phụng Vụ Chung."
+      },
+      "app_hooks": {
+        "hero_line_en": "Walking with Christ in the quiet days of Ordinary Time.",
+        "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày tĩnh lặng của Mùa Thường Niên.",
+        "prayer_prompt_en": "Lord, help me to find Your presence in the ordinary moments of my day.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày con."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/bible/liturgical-calendar",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        },
+        {
+          "label": "Catholic Encyclopedia (New Advent)",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB Website",
+          "url": "https://www.usccb.org/",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2026-12-31",
+        "hebrew": "5 Shvat 5787",
+        "islamic_umm_al_qura": "4 Shaban 1448 AH",
+        "coptic": "5 Toba 1743",
+        "ethiopian": "5 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-14",
+      "date": "2027-01-14",
+      "weekday": "Thursday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Thursday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Năm Tuần II Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Thursday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Năm Tuần II Thường Niên",
+        "summary_en": "This is a weekday of the second week in Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the teachings of Jesus and the life of the early Church.",
+        "summary_vi": "Đây là ngày trong tuần thứ hai của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào lời dạy của Chúa Giêsu và đời sống của Giáo Hội sơ khai.",
+        "body_en": "The liturgy for this day follows the standard structure for a Thursday in the second week of Ordinary Time. The First Reading typically draws from the Acts of the Apostles or the Epistles, highlighting the spread of the Gospel and the challenges faced by the early Christian community. The Psalm response reflects themes of trust in God's guidance. The Gospel reading, from one of the four Gospels, presents a specific teaching or miracle of Jesus, inviting the faithful to reflect on their own discipleship and commitment to following Christ.",
+        "body_vi": "Phụng vụ của ngày này tuân theo cấu trúc chuẩn cho Thứ Năm trong tuần thứ hai của Mùa Thường Niên. Bài Đọc I thường trích từ Sách Công Vụ Tông Đồ hoặc các Thư, làm nổi bật sự lan truyền của Tin Mừng và những thách thức mà cộng đoàn Kitô giáo sơ khai phải đối mặt. Bài Đáp Ca phản ánh các chủ đề về sự tin tưởng vào sự dẫn dắt của Thiên Chúa. Bài Phúc Âm, trích từ một trong bốn sách Tin Mừng, trình bày một giáo huấn hoặc phép lạ cụ thể của Chúa Giêsu, mời gọi các tín hữu suy tư về ơn gọi môn đệ và cam kết theo Chúa Kitô của chính mình.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard weekday liturgy based on the General Roman Calendar.",
+        "confidence_note_vi": "Phụng vụ ngày thường tiêu chuẩn dựa trên Lịch Phụng Vụ Rôma Chung."
+      },
+      "app_hooks": {
+        "hero_line_en": "Walking with Christ in the ordinary days.",
+        "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày bình thường.",
+        "prayer_prompt_en": "Lord, help me to find Your presence in my daily routine and to respond to Your call with faith and love.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong cuộc sống hàng ngày của con và đáp lại lời kêu gọi của Chúa với đức tin và tình yêu."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/bible/liturgical-calendar",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        },
+        {
+          "label": "Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/calendar",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-01",
+        "hebrew": "6 Shvat 5787",
+        "islamic_umm_al_qura": "5 Shaban 1448 AH",
+        "coptic": "6 Toba 1743",
+        "ethiopian": "6 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-15",
+      "date": "2027-01-15",
+      "weekday": "Friday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Friday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Sáu Tuần II Mùa Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Friday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Sáu Tuần II Mùa Thường Niên",
+        "summary_en": "This is a weekday of Ordinary Time, specifically the second week after Epiphany. The liturgical color is green, symbolizing hope and growth. There is no specific saint's feast mandated for this date in the General Roman Calendar.",
+        "summary_vi": "Đây là ngày trong tuần của Mùa Thường Niên, cụ thể là tuần thứ hai sau lễ Hiển Linh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Không có lễ kính thánh nào được quy định cụ thể cho ngày này trong Lịch Phụng Vụ Rôma Chung.",
+        "body_en": "January 15, 2027, falls on a Friday during the second week of Ordinary Time. In the Catholic liturgical calendar, this period is dedicated to the daily life of Christ and the Church, focusing on the teachings of Jesus and the growth of the faithful. As a feria (weekday), the Mass readings are determined by the lectionary for the specific week and day. The faithful are encouraged to participate in the Eucharist and engage in acts of charity and prayer appropriate to the season.",
+        "body_vi": "Ngày 15 tháng 1 năm 2027 rơi vào thứ Sáu trong tuần thứ hai của Mùa Thường Niên. Trong lịch phụng vụ Công giáo, thời kỳ này được dành cho đời sống hằng ngày của Chúa Kitô và Giáo Hội, tập trung vào các giáo huấn của Chúa Giêsu và sự trưởng thành của các tín hữu. Là một ngày thường (feria), các bài đọc trong Thánh Lễ được xác định bởi Kinh Thánh theo tuần và ngày cụ thể. Các tín hữu được khuyến khích tham dự Thánh Thể và thực hiện các việc bác ái và cầu nguyện phù hợp với mùa phụng vụ.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard weekday in Ordinary Time with no conflicting feast or memorial in the General Roman Calendar.",
+        "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên, không có lễ hay nhớ nào xung đột trong Lịch Phụng Vụ Rôma Chung."
+      },
+      "app_hooks": {
+        "hero_line_en": "Walking with Christ in the quiet days of Ordinary Time.",
+        "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày tĩnh lặng của Mùa Thường Niên.",
+        "prayer_prompt_en": "Lord, help me to find Your presence in the ordinary moments of my day.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày con."
+      },
+      "sources": [
+        {
+          "label": "General Roman Calendar - Vatican.va",
+          "url": "https://www.vatican.va/archive/ENG0015/__P3C.HTM",
+          "type": "vatican"
+        },
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/bible/liturgical-calendar",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-02",
+        "hebrew": "7 Shvat 5787",
+        "islamic_umm_al_qura": "6 Shaban 1448 AH",
+        "coptic": "7 Toba 1743",
+        "ethiopian": "7 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-16",
+      "date": "2027-01-16",
+      "weekday": "Saturday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Saturday of the First Week of Ordinary Time",
+        "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Saturday of the First Week of Ordinary Time",
+        "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên",
+        "summary_en": "This is a weekday in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+        "summary_vi": "Đây là ngày trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào sự khởi đầu sứ vụ công khai của Chúa Giêsu và lời mời gọi làm môn đệ.",
+        "body_en": "January 16, 2027, falls in the first week of Ordinary Time. As a Saturday feria, the liturgy follows the standard weekday structure with green vestments. The day invites the faithful to reflect on the daily life of Christ and the quiet work of sanctification in the ordinary moments of life.",
+        "body_vi": "Ngày 16 tháng 1 năm 2027 nằm trong tuần thứ nhất của Mùa Thường Niên. Là một ngày thường (feria) vào thứ Bảy, phụng vụ tuân theo cấu trúc ngày thường tiêu chuẩn với phẩm phục màu xanh lá cây. Ngày này mời gọi các tín hữu suy tư về đời sống hằng ngày của Chúa Kitô và công việc thánh hóa thầm lặng trong những khoảnh khắc bình thường của cuộc sống.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Standard weekday liturgy for the date.",
+        "confidence_note_vi": "Phụng vụ ngày thường tiêu chuẩn cho ngày này."
+      },
+      "app_hooks": {
+        "hero_line_en": "Walking with Christ in the ordinary.",
+        "hero_line_vi": "Đi cùng Chúa Kitô trong những điều bình thường.",
+        "prayer_prompt_en": "Lord, teach me to find Your presence in my daily tasks.",
+        "prayer_prompt_vi": "Lạy Chúa, xin dạy con tìm thấy sự hiện diện của Chúa trong các công việc hằng ngày của con."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/bible/liturgical-calendar",
+          "type": "vatican"
+        },
+        {
+          "label": "Catholic Encyclopedia Index",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "Summa Theologica",
+          "url": "https://www.newadvent.org/summa/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "Vatican Website (English)",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-03",
+        "hebrew": "8 Shvat 5787",
+        "islamic_umm_al_qura": "7 Shaban 1448 AH",
+        "coptic": "8 Toba 1743",
+        "ethiopian": "8 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-17",
+      "date": "2027-01-17",
+      "weekday": "Sunday",
+      "liturgical": {
+        "rank": "Solemnity",
+        "color": "green",
+        "title_en": "Second Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật II Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Second Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật II Thường Niên",
+        "summary_en": "The Second Sunday in Ordinary Time is a Sunday in the liturgical season of Ordinary Time. In Year B, the Gospel recounts John the Baptist's testimony to Jesus as the Lamb of God and the calling of the first disciples. The memorial of Saint Anthony, Abbot, is superseded by the Sunday.",
+        "summary_vi": "Chúa Nhật II Thường Niên là Chúa Nhật trong mùa Thường Niên. Năm B, bài Tin Mừng thuật lại lời chứng của Gioan Tẩy Giả về Chúa Giêsu là Chiên Thiên Chúa và việc gọi các môn đệ đầu tiên. Lễ nhớ Thánh Antôn, Viện phụ, được chuyển sang ngày khác vì trùng với Chúa Nhật.",
+        "body_en": "On this Sunday, the Church continues to celebrate the mystery of Christ's manifestation. The readings focus on the call to discipleship and the recognition of Jesus as the Lamb of God. The liturgical color is green, signifying growth and hope in the Christian life. The memorial of Saint Anthony the Great, normally celebrated on January 17, is omitted this year because it falls on a Sunday.",
+        "body_vi": "Trong Chúa Nhật này, Hội Thánh tiếp tục cử hành mầu nhiệm Chúa Kitô tỏ mình. Các bài đọc tập trung vào ơn gọi làm môn đệ và nhận biết Chúa Giêsu là Chiên Thiên Chúa. Màu phụng vụ là màu xanh, tượng trưng cho sự lớn lên và hy vọng trong đời sống Kitô hữu. Lễ nhớ Thánh Antôn Cả, thường cử hành ngày 17 tháng Giêng, được bỏ qua năm nay vì trùng vào Chúa Nhật.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The date is a Sunday in Ordinary Time; the memorial of St. Anthony is superseded.",
+        "confidence_note_vi": "Ngày này là Chúa Nhật Thường Niên; lễ nhớ Thánh Antôn bị vượt qua."
+      },
+      "app_hooks": {
+        "hero_line_en": "The Lamb of God calls his first disciples.",
+        "hero_line_vi": "Chiên Thiên Chúa gọi các môn đệ đầu tiên.",
+        "prayer_prompt_en": "Lord Jesus, Lamb of God, call us to follow you and to remain in your presence.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, Chiên Thiên Chúa, xin gọi chúng con theo Chúa và ở lại trong sự hiện diện của Chúa."
+      },
+      "sources": [
+        {
+          "label": "USCCB Daily Readings",
+          "url": "https://bible.usccb.org/bible/readings/011727.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "New Advent - St. Anthony of Egypt",
+          "url": "https://www.newadvent.org/cathen/01553d.htm",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/calendar",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-04",
+        "hebrew": "9 Shvat 5787",
+        "islamic_umm_al_qura": "8 Shaban 1448 AH",
+        "coptic": "9 Toba 1743",
+        "ethiopian": "9 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-18",
+      "date": "2027-01-18",
+      "weekday": "Monday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Monday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Hai Tuần II Mùa Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Monday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Hai Tuần II Mùa Thường Niên",
+        "summary_en": "In the General Roman Calendar, January 18 is a feria (weekday) in Ordinary Time. No obligatory memorial is celebrated on this date. The liturgical color is green, and the Mass and Office are of the weekday.",
+        "summary_vi": "Theo Lịch Rôma Tổng quát, ngày 18 tháng 1 là ngày thường trong Mùa Thường Niên. Không có lễ nhớ bắt buộc nào được cử hành vào ngày này. Màu phụng vụ là màu xanh lục, và Thánh lễ cùng Phụng vụ các giờ kinh là của ngày thường.",
+        "body_en": "This Monday of the Second Week in Ordinary Time follows the Baptism of the Lord and the beginning of Ordinary Time. The readings are from the weekday lectionary, and the prayers of the Mass reflect the current week. In the Extraordinary Form of the Roman Rite, this date was formerly observed as the Feast of the Chair of Saint Peter at Rome, but that feast now occurs on February 22.",
+        "body_vi": "Thứ Hai này của Tuần II Mùa Thường Niên diễn ra sau Lễ Chúa Giêsu Chịu Phép Rửa và khởi đầu Mùa Thường Niên. Các bài đọc được lấy từ sách bài đọc ngày thường, và các lời nguyện trong Thánh Lễ phản ánh tuần hiện tại. Trong Hình thức ngoại thường của Nghi lễ Rôma, ngày này trước đây được cử hành như Lễ Tòa Thánh Phêrô tại Rôma, nhưng lễ đó hiện nay được cử hành vào ngày 22 tháng 2.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Based on the General Roman Calendar (editio typica) and the liturgical calendar for 2027.",
+        "confidence_note_vi": "Dựa trên Lịch Rôma Tổng quát (ấn bản điển hình) và lịch phụng vụ năm 2027."
+      },
+      "app_hooks": {
+        "hero_line_en": "Monday of the Second Week in Ordinary Time",
+        "hero_line_vi": "Thứ Hai Tuần II Mùa Thường Niên",
+        "prayer_prompt_en": "Pray for the grace to live this ordinary day with love.",
+        "prayer_prompt_vi": "Cầu xin ơn để sống ngày thường này trong tình yêu thương."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/prayer-and-worship/liturgical-calendar",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "USCCB Daily Readings for January 18, 2027",
+          "url": "https://bible.usccb.org/bible/readings/011827.cfm",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-05",
+        "hebrew": "10 Shvat 5787",
+        "islamic_umm_al_qura": "9 Shaban 1448 AH",
+        "coptic": "10 Toba 1743",
+        "ethiopian": "10 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-19",
+      "date": "2027-01-19",
+      "weekday": "Tuesday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Tuesday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Ba Tuần II Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Tuesday of the Second Week in Ordinary Time",
+        "title_vi": "Thứ Ba Tuần II Thường Niên",
+        "summary_en": "January 19, 2027 is a Tuesday in the Second Week of Ordinary Time. The General Roman Calendar assigns no obligatory memorial to this day, so the liturgical color is green. Some local calendars may celebrate optional memorials, such as Saints Marius, Martha, Audifax, and Abachum, but these are not universal.",
+        "summary_vi": "Ngày 19 tháng 1 năm 2027 là Thứ Ba Tuần II Mùa Thường Niên. Lịch Rôma Tổng quát không ấn định lễ nhớ bắt buộc nào cho ngày này, nên màu phụng vụ là màu xanh lục. Một số lịch địa phương có thể cử hành lễ nhớ tự chọn, chẳng hạn như các thánh Mariô, Martha, Audifax và Abacum, nhưng không phổ quát.",
+        "body_en": "In the Ordinary Time of the liturgical year, the Church reflects on the public life and teachings of Jesus Christ. The weekday readings continue through the Gospel of Mark in the Lectionary cycle for Year C (2026-2027). The feria has no special feast, allowing the faithful to focus on the daily Word of God and the rhythm of the season.",
+        "body_vi": "Trong Mùa Thường Niên của năm phụng vụ, Giáo Hội suy niệm về đời sống công khai và giáo huấn của Chúa Giêsu Kitô. Các bài đọc trong tuần tiếp tục với Tin Mừng Máccô trong chu kỳ Lectionary Năm C (2026-2027). Ngày lễ thường không có lễ trọng đặc biệt, cho phép các tín hữu tập trung vào Lời Chúa hằng ngày và nhịp điệu của mùa.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The date is a weekday in Ordinary Time according to the General Roman Calendar; no universal memorial is assigned.",
+        "confidence_note_vi": "Ngày này là ngày thường trong Mùa Thường Niên theo Lịch Rôma Tổng quát; không có lễ nhớ phổ quát nào được ấn định."
+      },
+      "app_hooks": {
+        "hero_line_en": "A quiet Tuesday in Ordinary Time",
+        "hero_line_vi": "Một ngày thứ Ba tĩnh lặng trong Mùa Thường Niên",
+        "prayer_prompt_en": "Lord, open my heart to Your Word in the ordinary moments of today.",
+        "prayer_prompt_vi": "Lạy Chúa, xin mở lòng con để đón nhận Lời Chúa trong những khoảnh khắc thường ngày hôm nay."
+      },
+      "sources": [
+        {
+          "label": "USCCB Daily Readings",
+          "url": "https://www.usccb.org/bible/readings/011927.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/content/vatican/en.html",
+          "type": "vatican"
+        },
+        {
+          "label": "New Advent Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/calendar",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-06",
+        "hebrew": "11 Shvat 5787",
+        "islamic_umm_al_qura": "10 Shaban 1448 AH",
+        "coptic": "11 Toba 1743",
+        "ethiopian": "11 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-20",
+      "date": "2027-01-20",
+      "weekday": "Wednesday",
+      "liturgical": {
+        "rank": "Optional Memorial",
+        "color": "red",
+        "title_en": "Saints Fabian and Sebastian, Martyrs",
+        "title_vi": "Các Thánh Fabianô và Sebastianô, Tử đạo"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saints Fabian and Sebastian, Martyrs",
+        "title_vi": "Các Thánh Fabianô và Sebastianô, Tử đạo",
+        "summary_en": "January 20 is the optional memorial of Saints Fabian and Sebastian, two early Roman martyrs. Fabian was pope from 236 to 250 and was martyred during the Decian persecution. Sebastian was a Roman soldier who was martyred for his faith in Rome. Their combined memorial preserves the ancient Roman veneration of these two witnesses.",
+        "summary_vi": "Ngày 20 tháng 1 là lễ nhớ tự chọn của hai thánh tử đạo Fabianô và Sebastianô tại Rôma. Thánh Fabianô làm Giáo hoàng từ năm 236 đến năm 250 và chịu tử đạo trong cuộc bách hại của hoàng đế Decius. Thánh Sebastianô là một quân nhân Rôma, đã chịu tử đạo vì đức tin. Lễ nhớ chung này phản ánh lòng tôn kính cổ xưa của Giáo hội Rôma đối với hai chứng nhân này.",
+        "body_en": "Pope Fabian succeeded Anterus in 236 and governed the Church during a period of relative peace before the Decian persecution. He organized the Roman Church and is said to have divided the city into seven deaconries. He was beheaded on January 20, 250. Sebastian, an officer in the imperial army, used his position to strengthen Christians until he was discovered; after surviving an initial attempt to execute him by arrows, he was clubbed to death. Both saints are honored together in the Roman Martyrology on this day.",
+        "body_vi": "Đức Giáo hoàng Fabianô kế vị thánh Anterô năm 236 và lãnh đạo Giáo hội trong thời kỳ tương đối hòa bình trước cuộc bách hại của Decius. Ngài tổ chức Giáo hội Rôma và được cho là đã chia thành phố thành bảy giáo phận. Ngài chịu chém đầu ngày 20 tháng 1 năm 250. Thánh Sebastianô, một sĩ quan trong quân đội đế quốc, đã dùng địa vị của mình để nâng đỡ các Kitô hữu cho đến khi bị phát giác; sau khi thoát chết trong lần hành quyết đầu tiên bằng tên, ngài bị đánh chết bằng dùi cui. Cả hai thánh nhân được tôn kính chung trong Sách Các Thánh Tử Đạo Rôma vào ngày này.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The General Roman Calendar lists the optional memorial of Saints Fabian and Sebastian on January 20.",
+        "confidence_note_vi": "Sách Lịch Rôma Tổng Quát liệt kê lễ nhớ tự chọn của hai thánh Fabianô và Sebastianô vào ngày 20 tháng 1."
+      },
+      "app_hooks": {
+        "hero_line_en": "Two Roman martyrs, a pope and a soldier, witness to Christ.",
+        "hero_line_vi": "Hai vị tử đạo Rôma, một Giáo hoàng và một quân nhân, làm chứng cho Chúa Kitô.",
+        "prayer_prompt_en": "Pray through the intercession of Saints Fabian and Sebastian for courage in bearing witness to the faith.",
+        "prayer_prompt_vi": "Hãy cầu nguyện nhờ lời chuyển cầu của hai thánh Fabianô và Sebastianô để được can đảm làm chứng cho đức tin."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/calendar/2027/1/20",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Online Saint of the Day",
+          "url": "https://www.catholic.org/saints/sofd.php?date=2027-01-20",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-07",
+        "hebrew": "12 Shvat 5787",
+        "islamic_umm_al_qura": "11 Shaban 1448 AH",
+        "coptic": "12 Toba 1743",
+        "ethiopian": "12 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-21",
+      "date": "2027-01-21",
+      "weekday": "Thursday",
+      "liturgical": {
+        "rank": "Memorial",
+        "color": "red",
+        "title_en": "St. Agnes, Virgin and Martyr",
+        "title_vi": "Thánh Agnès, Trinh Nữ Tử Đạo"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "St. Agnes, Virgin and Martyr",
+        "title_vi": "Thánh Agnès, Trinh Nữ Tử Đạo",
+        "summary_en": "St. Agnes was a young Roman virgin and martyr who died for her faith around 304 AD. She is one of the most venerated early Christian martyrs, and her name is commemorated in the Roman Canon. Her feast day is celebrated on January 21.",
+        "summary_vi": "Thánh Agnès là một trinh nữ và tử đạo trẻ người Rôma, đã chết vì đức tin vào khoảng năm 304. Ngài là một trong những vị tử đạo Kitô giáo sơ khai được tôn kính nhất, và tên ngài được nhắc đến trong Kinh Nguyện Thánh Thể (Roman Canon). Lễ kính ngài được cử hành vào ngày 21 tháng 1.",
+        "body_en": "Agnes was a young Christian girl of noble Roman family, who suffered martyrdom during the persecution of Diocletian in the early fourth century. According to tradition, she refused to marry and consecrated her virginity to Christ, and when her suitors reported her as a Christian, she was subjected to various torments. She remained steadfast in her faith and was put to death by the sword. Her relics are venerated in the Basilica of Sant'Agnese fuori le Mura in Rome, where on her feast day two lambs are blessed, whose wool is used for the pallia of metropolitan archbishops.",
+        "body_vi": "Agnès là một thiếu nữ Kitô giáo xuất thân từ gia đình quý tộc Rôma, đã chịu tử đạo trong cuộc bách hại của hoàng đế Diocletian vào đầu thế kỷ thứ tư. Theo truyền thống, ngài từ chối kết hôn và thánh hiến sự trinh khiết cho Chúa Kitô; khi những người cầu hôn tố cáo ngài là Kitô hữu, ngài bị tra tấn nhiều cách. Ngài vẫn kiên vững trong đức tin và bị xử tử bằng gươm. Di hài ngài được tôn kính tại Vương cung Thánh đường Sant'Agnese fuori le Mura ở Rôma, nơi vào ngày lễ kính ngài, hai con chiên được chúc lành, len của chúng được dùng để làm dây pallium cho các Tổng giám mục.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Memorial on the General Roman Calendar; historically well-attested.",
+        "confidence_note_vi": "Lễ nhớ trong Lịch Rôma Tổng quát; được chứng thực rõ ràng về mặt lịch sử."
+      },
+      "app_hooks": {
+        "hero_line_en": "A young Roman martyr who consecrated her virginity to Christ.",
+        "hero_line_vi": "Một trinh nữ tử đạo trẻ người Rôma đã thánh hiến sự trinh khiết cho Chúa Kitô.",
+        "prayer_prompt_en": "Pray for us, St. Agnes, that we may remain faithful to Christ in all trials.",
+        "prayer_prompt_vi": "Thánh Agnès cầu cho chúng con, để chúng con trung thành với Chúa Kitô trong mọi thử thách."
+      },
+      "sources": [
+        {
+          "label": "New Advent – St. Agnes of Rome",
+          "url": "https://www.newadvent.org/cathen/01214a.htm",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "Catholic.org – St. Agnes",
+          "url": "https://www.catholic.org/saints/saint.php?saint_id=26",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB – Saint Agnes",
+          "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/saints/saint-agnes",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-08",
+        "hebrew": "13 Shvat 5787",
+        "islamic_umm_al_qura": "12 Shaban 1448 AH",
+        "coptic": "13 Toba 1743",
+        "ethiopian": "13 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-22",
+      "date": "2027-01-22",
+      "weekday": "Friday",
+      "liturgical": {
+        "rank": "Memorial",
+        "color": "red",
+        "title_en": "St. Vincent of Saragossa",
+        "title_vi": "Thánh Vinh Sơn Saragossa"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Vincent of Saragossa",
+        "title_vi": "Thánh Vinh Sơn Saragossa",
+        "summary_en": "Saint Vincent of Saragossa was a deacon of the Church in Spain who suffered martyrdom under the Emperor Diocletian in the early 4th century. He is venerated as one of the most celebrated martyrs of the Iberian Peninsula. His courageous witness and steadfast faith have inspired devotion throughout the centuries.",
+        "summary_vi": "Thánh Vinh Sơn Saragossa là một phó tế của Giáo hội tại Tây Ban Nha, chịu tử đạo dưới thời hoàng đế Diocletian vào đầu thế kỷ IV. Ngài được tôn kính như một trong những vị tử đạo nổi tiếng nhất của bán đảo Iberia. Chứng tá can đảm và đức tin kiên vững của ngài đã truyền cảm hứng cho lòng sùng kính qua nhiều thế kỷ.",
+        "body_en": "According to tradition, Vincent was born at Huesca and served as deacon to Bishop Valerius of Saragossa. During the persecution of Diocletian, he was arrested and subjected to horrific tortures, including being stretched on the rack and burned with hot irons. He endured these torments with such joy that his guards were moved to conversion. He died as a result of his tortures, and his relics were later venerated in Valencia and Lisbon. His feast day is celebrated on January 22 in the Roman Catholic Church.",
+        "body_vi": "Theo truyền thống, thánh Vinh Sơn sinh tại Huesca và làm phó tế cho giám mục Valerius của Saragossa. Trong cuộc bách hại của Diocletian, ngài bị bắt và chịu những cực hình khủng khiếp, bao gồm bị kéo giãn trên giá và bị thiêu bằng bàn là nóng. Ngài chịu đựng những đau đớn này với niềm vui đến mức các lính canh đã được ơn trở lại. Ngài chết vì những cực hình đó, và di tích của ngài sau này được tôn kính tại Valencia và Lisbon. Lễ kính ngài được cử hành vào ngày 22 tháng 1 trong Giáo hội Công giáo Rôma.",
+        "confidence": "confirmed",
+        "confidence_note_en": "St. Vincent of Saragossa is a well-attested historical martyr venerated in the Roman Martyrology.",
+        "confidence_note_vi": "Thánh Vinh Sơn Saragossa là một vị tử đạo lịch sử được ghi nhận rõ ràng trong Sách Các Thánh Tử Đạo Rôma."
+      },
+      "app_hooks": {
+        "hero_line_en": "The deacon who turned torture into triumph.",
+        "hero_line_vi": "Vị phó tế biến cực hình thành chiến thắng.",
+        "prayer_prompt_en": "St. Vincent, pray for us that we may bear our trials with courage and joy.",
+        "prayer_prompt_vi": "Thánh Vinh Sơn, xin cầu cho chúng ta được can đảm và vui tươi khi chịu thử thách."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar for January 22, 2027",
+          "url": "https://www.usccb.org/calendar/2027/1/22",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "New Advent Catholic Encyclopedia: St. Vincent of Saragossa",
+          "url": "https://www.newadvent.org/cathen/15434a.htm",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-09",
+        "hebrew": "14 Shvat 5787",
+        "islamic_umm_al_qura": "13 Shaban 1448 AH",
+        "coptic": "14 Toba 1743",
+        "ethiopian": "14 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-23",
+      "date": "2027-01-23",
+      "weekday": "Saturday",
+      "liturgical": {
+        "rank": "Memorial",
+        "color": "red",
+        "title_en": "St. Vincent of Saragossa, Deacon and Martyr",
+        "title_vi": "Thánh Vinh Sơn Saragossa, Phó Tế Tử Đạo"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "St. Vincent of Saragossa, Deacon and Martyr",
+        "title_vi": "Thánh Vinh Sơn Saragossa, Phó Tế Tử Đạo",
+        "summary_en": "St. Vincent of Saragossa was a deacon of the Church in Spain who suffered martyrdom under the Roman emperor Diocletian in the early 4th century. He is one of the most celebrated martyrs of the early Church, and his cult spread widely throughout the West. His memorial is observed on January 23 in the General Roman Calendar.",
+        "summary_vi": "Thánh Vinh Sơn Saragossa là phó tế của Giáo hội Tây Ban Nha, chịu tử đạo dưới thời hoàng đế Diocletian vào đầu thế kỷ thứ 4. Ngài là một trong những vị tử đạo nổi tiếng nhất của Giáo hội sơ khai, và lòng sùng kính Ngài lan rộng khắp phương Tây. Lễ nhớ của Ngài được cử hành vào ngày 23 tháng 1 trong Lịch Rôma tổng quát.",
+        "body_en": "Vincent was born at Huesca and served as deacon to St. Valerius, Bishop of Saragossa. During the persecution of Diocletian, he was arrested and tortured, remaining steadfast in his faith. He died from the effects of his torments, and his relics were later venerated in Valencia and Lisbon. He is the patron saint of vintners and winegrowers.",
+        "body_vi": "Vinh Sơn sinh tại Huesca và phục vụ như phó tế cho Thánh Valerius, Giám mục Saragossa. Trong cuộc bách hại của Diocletian, Ngài bị bắt và tra tấn, nhưng vẫn kiên vững trong đức tin. Ngài chết vì hậu quả của những cuộc tra tấn, và di hài của Ngài sau đó được tôn kính tại Valencia và Lisbon. Ngài là quan thầy của những người trồng nho và làm rượu.",
+        "confidence": "confirmed",
+        "confidence_note_en": "This memorial is listed in the General Roman Calendar for January 23.",
+        "confidence_note_vi": "Lễ nhớ này được ghi trong Lịch Rôma tổng quát ngày 23 tháng 1."
+      },
+      "app_hooks": {
+        "hero_line_en": "A deacon's courage in the face of death",
+        "hero_line_vi": "Lòng can đảm của một phó tế trước cái chết",
+        "prayer_prompt_en": "St. Vincent, pray for us, that we may remain faithful in trials.",
+        "prayer_prompt_vi": "Thánh Vinh Sơn, cầu cho chúng con, để chúng con trung thành trong thử thách."
+      },
+      "sources": [
+        {
+          "label": "Catholic Encyclopedia (New Advent)",
+          "url": "https://www.newadvent.org/cathen/15434a.htm",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB Daily Readings",
+          "url": "https://www.usccb.org/readings/2027-01-23",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-10",
+        "hebrew": "15 Shvat 5787",
+        "islamic_umm_al_qura": "14 Shaban 1448 AH",
+        "coptic": "15 Toba 1743",
+        "ethiopian": "15 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-24",
+      "date": "2027-01-24",
+      "weekday": "Sunday",
+      "liturgical": {
+        "rank": "Solemnity",
+        "color": "green",
+        "title_en": "Third Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật Thứ Ba Mùa Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Third Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật Thứ Ba Mùa Thường Niên",
+        "summary_en": "The Third Sunday in Ordinary Time is a Sunday in the liturgical season of Ordinary Time, focusing on the proclamation of the Word of God and the call to discipleship. In 2027, it falls on January 24. The memorial of Saint Francis de Sales, Bishop and Doctor of the Church, is superseded by the Sunday liturgy.",
+        "summary_vi": "Chúa Nhật Thứ Ba Mùa Thường Niên là Chúa Nhật trong mùa Thường Niên, tập trung vào việc công bố Lời Chúa và ơn gọi làm môn đệ. Năm 2027, ngày này rơi vào 24 tháng 1. Lễ nhớ Thánh Phanxicô Salê, Giám mục và Tiến sĩ Hội Thánh, được thay thế bởi phụng vụ Chúa Nhật.",
+        "body_en": "The readings for this Sunday (Year C in the three-year cycle) typically include the proclamation of the Word of God from Nehemiah or Isaiah, the Psalm, and the Gospel according to Luke, where Jesus reads from the scroll of Isaiah in the synagogue at Nazareth and declares the fulfillment of the prophecy. The liturgy emphasizes the unity of the Body of Christ and the importance of listening to God's word. Since it is a Sunday, the memorial of Saint Francis de Sales is not observed liturgically, but the saint may still be honored in personal devotion.",
+        "body_vi": "Các bài đọc của Chúa Nhật này (Năm C trong chu kỳ ba năm) thường bao gồm việc công bố Lời Chúa từ sách Nêhêmia hoặc Isaia, Thánh Vịnh, và Tin Mừng theo thánh Luca, khi Chúa Giêsu đọc sách Isaia trong hội đường Nazareth và tuyên bố lời tiên tri được ứng nghiệm. Phụng vụ nhấn mạnh đến sự hiệp nhất của Thân Thể Chúa Kitô và tầm quan trọng của việc lắng nghe Lời Chúa. Vì là Chúa Nhật, lễ nhớ Thánh Phanxicô Salê không được cử hành trong phụng vụ, nhưng các tín hữu vẫn có thể tôn kính ngài trong đời sống riêng.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The date is a Sunday in Ordinary Time according to the General Roman Calendar; the memorial of St. Francis de Sales is superseded by the Sunday liturgy.",
+        "confidence_note_vi": "Ngày này là Chúa Nhật Mùa Thường Niên theo Lịch Rôma Tổng Quát; lễ nhớ Thánh Phanxicô Salê được thay thế bởi phụng vụ Chúa Nhật."
+      },
+      "app_hooks": {
+        "hero_line_en": "The Word of God is proclaimed and fulfilled in our midst.",
+        "hero_line_vi": "Lời Chúa được công bố và ứng nghiệm giữa chúng ta.",
+        "prayer_prompt_en": "Lord, open our hearts to receive Your Word and follow You more closely.",
+        "prayer_prompt_vi": "Lạy Chúa, xin mở lòng chúng con để đón nhận Lời Chúa và theo Chúa cách gần gũi hơn."
+      },
+      "sources": [
+        {
+          "label": "USCCB Daily Readings for January 24, 2027",
+          "url": "https://bible.usccb.org/bible/readings/012427.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Vatican Website",
+          "url": "https://www.vatican.va/",
+          "type": "vatican"
+        },
+        {
+          "label": "New Advent Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "Catholic.org Liturgical Calendar",
+          "url": "https://www.catholic.org/calendar/",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-11",
+        "hebrew": "16 Shvat 5787",
+        "islamic_umm_al_qura": "15 Shaban 1448 AH",
+        "coptic": "16 Toba 1743",
+        "ethiopian": "16 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-25",
+      "date": "2027-01-25",
+      "weekday": "Monday",
+      "liturgical": {
+        "rank": "Feast",
+        "color": "white",
+        "title_en": "Conversion of Saint Paul the Apostle",
+        "title_vi": "Lễ Thánh Phaolô Tông Đồ Trở Lại"
+      },
+      "primary": {
+        "type": "feast",
+        "title_en": "Conversion of Saint Paul the Apostle",
+        "title_vi": "Lễ Thánh Phaolô Tông Đồ Trở Lại",
+        "summary_en": "The Feast of the Conversion of Saint Paul the Apostle commemorates the dramatic transformation of Saul of Tarsus, a fierce persecutor of Christians, into Paul, the greatest missionary of the early Church. According to the Acts of the Apostles, he encountered the risen Christ on the road to Damascus and was baptized. This feast emphasizes the power of God's grace to change hearts and the universal call to conversion.",
+        "summary_vi": "Lễ Thánh Phaolô Tông đồ trở lại kính nhớ biến cố biến đổi kỳ diệu của Saolô thành Tarsô, một kẻ hăng say bắt bớ các Kitô hữu, trở thành Phaolô, nhà truyền giáo vĩ đại nhất của Giáo hội sơ khai. Theo sách Công vụ Tông đồ, ông đã gặp Đức Kitô phục sinh trên đường đi Đamas và được rửa tội. Lễ này nhấn mạnh sức mạnh của ân sủng Thiên Chúa có thể thay đổi tâm hồn và ơn gọi hoán cải phổ quát.",
+        "body_en": "The Conversion of Saint Paul is one of the most significant events in Christian history. Born as Saul in Tarsus, he was a zealous Pharisee who persecuted the early Church. While traveling to Damascus to arrest Christians, he was struck down by a blinding light and heard the voice of Jesus asking, 'Saul, Saul, why do you persecute me?' Blinded for three days, he was healed by Ananias and baptized. He then spent years in prayer and preparation before becoming the Apostle to the Gentiles, writing many of the New Testament epistles. His conversion is celebrated on January 25, and the feast is often concluded with the Week of Prayer for Christian Unity.",
+        "body_vi": "Lễ trở lại của Thánh Phaolô là một trong những biến cố quan trọng nhất trong lịch sử Kitô giáo. Sinh ra với tên Saolô tại Tarsô, ông là một người Pharisêu nhiệt thành đã bắt bớ Giáo hội sơ khai. Trên đường đi Đamas để bắt các Kitô hữu, ông bị một luồng ánh sáng chói lòa quật ngã và nghe tiếng Chúa Giêsu hỏi: 'Saolô, Saolô, sao ngươi bắt bớ Ta?' Bị mù trong ba ngày, ông được ông Anania chữa lành và chịu phép rửa. Sau đó, ông dành nhiều năm cầu nguyện và chuẩn bị trước khi trở thành Tông đồ dân ngoại, viết nhiều thư trong Tân Ước. Lễ này được cử hành vào ngày 25 tháng Giêng và thường kết thúc Tuần Cầu Nguyện cho Hiệp Nhất Kitô Giáo.",
+        "confidence": "confirmed",
+        "confidence_note_en": "This feast is fixed on January 25 in the General Roman Calendar.",
+        "confidence_note_vi": "Lễ này được cử hành cố định vào ngày 25 tháng 1 trong Lịch Rôma tổng quát."
+      },
+      "app_hooks": {
+        "hero_line_en": "A persecutor becomes an apostle.",
+        "hero_line_vi": "Kẻ bắt bớ trở thành tông đồ.",
+        "prayer_prompt_en": "Lord, convert my heart as you converted Saint Paul.",
+        "prayer_prompt_vi": "Lạy Chúa, xin hoán cải tâm hồn con như Chúa đã hoán cải thánh Phaolô."
+      },
+      "sources": [
+        {
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Online - St. Paul",
+          "url": "https://www.catholic.org/saints/saint.php?saint_id=91",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "New Advent - St. Paul",
+          "url": "https://www.newadvent.org/cathen/11567b.htm",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-12",
+        "hebrew": "17 Shvat 5787",
+        "islamic_umm_al_qura": "16 Shaban 1448 AH",
+        "coptic": "17 Toba 1743",
+        "ethiopian": "17 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-26",
+      "date": "2027-01-26",
+      "weekday": "Tuesday",
+      "liturgical": {
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saints Timothy and Titus, Bishops",
+        "title_vi": "Thánh Timôthêu và Titô, Giám mục"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saints Timothy and Titus, Bishops",
+        "title_vi": "Thánh Timôthêu và Titô, Giám mục",
+        "summary_en": "Saints Timothy and Titus were early Christian bishops and close collaborators of the Apostle Paul. Timothy led the church in Ephesus, while Titus served as bishop of Crete. Both are named as recipients of the Pastoral Epistles in the New Testament. The General Roman Calendar commemorates them together on January 26.",
+        "summary_vi": "Thánh Timôthêu và Thánh Titô là những giám mục thời sơ khai và là cộng sự thân tín của Thánh Phaolô Tông đồ. Thánh Timôthêu coi sóc giáo đoàn Êphêsô, còn Thánh Titô phục vụ tại đảo Crêta. Cả hai đều là những người nhận các thư mục vụ của Thánh Phaolô trong Tân Ước. Phụng vụ Rôma cử hành lễ nhớ hai thánh vào ngày 26 tháng Giêng.",
+        "body_en": "Timothy was born in Lystra to a Jewish mother and a Greek father; he was circumcised by Paul and became his missionary companion. Paul entrusted him with the pastoral care of Ephesus, where he faced false teaching and the need for sound church order. Titus, a Greek convert, accompanied Paul to the Council of Jerusalem and was later left in Crete to appoint elders and correct what was lacking. The letters to Timothy and Titus, known as the Pastoral Epistles, offer enduring guidance for bishops, priests, and deacons. Their memorial was placed on January 26, following the feast of the Conversion of Saint Paul, to honor these two faithful disciples and shepherds.",
+        "body_vi": "Thánh Timôthêu sinh tại Lýt-ra, con của một người mẹ Do Thái và một người cha Hy Lạp; ngài được Thánh Phaolô cắt bì và trở thành bạn đồng hành trong các chuyến truyền giáo. Thánh Phaolô giao phó cho ngài việc coi sóc giáo đoàn Êphêsô, nơi phải đối diện với những giáo huấn sai lạc và nhu cầu thiết lập trật tự Hội Thánh. Thánh Titô, một tín hữu gốc Hy Lạp, đã cùng Thánh Phaolô lên Giêrusalem dự Công đồng, sau đó được để lại đảo Crêta để bổ nhiệm các kỳ mục và chỉnh đốn những gì còn thiếu sót. Các thư gửi cho Timôthêu và Titô, gọi là các thư mục vụ, mang lại những hướng dẫn lâu bền cho giám mục, linh mục và phó tế. Lễ nhớ hai thánh được đặt vào ngày 26 tháng Giêng, ngay sau lễ kính Thánh Phaolô Tông đồ trở lại, để tôn vinh hai môn đệ và mục tử trung thành này.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The joint memorial of Saints Timothy and Titus is fixed in the General Roman Calendar on January 26.",
+        "confidence_note_vi": "Lễ nhớ chung hai thánh Timôthêu và Titô được ấn định trong Sách Lễ Rôma vào ngày 26 tháng Giêng."
+      },
+      "app_hooks": {
+        "hero_line_en": "Faithful coworkers of Saint Paul, Timothy and Titus shepherded the early Church.",
+        "hero_line_vi": "Những cộng sự trung thành của Thánh Phaolô, Timôthêu và Titô đã chăn dắt Hội Thánh sơ khai.",
+        "prayer_prompt_en": "Pray for us, Saints Timothy and Titus, that we may serve the Church with faithful hearts.",
+        "prayer_prompt_vi": "Lạy hai thánh Timôthêu và Titô, xin cầu cho chúng con biết phục vụ Hội Thánh với lòng trung thành."
+      },
+      "sources": [
+        {
+          "label": "USCCB Daily Readings",
+          "url": "https://bible.usccb.org/bible/readings/012627.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Franciscan Media Saint of the Day",
+          "url": "https://www.franciscanmedia.org/saint-of-the-day/saints-timothy-and-titus/",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-13",
+        "hebrew": "18 Shvat 5787",
+        "islamic_umm_al_qura": "17 Shaban 1448 AH",
+        "coptic": "18 Toba 1743",
+        "ethiopian": "18 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-27",
+      "date": "2027-01-27",
+      "weekday": "Wednesday",
+      "liturgical": {
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saint Angela Merici, Virgin",
+        "title_vi": "Thánh Angela Merici, Trinh Nữ"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Angela Merici, Virgin",
+        "title_vi": "Thánh Angela Merici, Trinh Nữ",
+        "summary_en": "Saint Angela Merici was an Italian religious educator and founder of the Company of Saint Ursula (Ursulines), the first teaching order of women in the Church. She dedicated her life to the Christian education of girls and care for the poor. She died in 1540 and was canonized in 1807.",
+        "summary_vi": "Thánh Angela Merici là một nhà giáo dục tôn giáo người Ý, người sáng lập Dòng Nữ Tu Thánh Ursula (Dòng Ursuline), dòng tu giảng dạy đầu tiên của phụ nữ trong Giáo hội. Ngài dành cả đời cho việc giáo dục Kitô giáo cho các thiếu nữ và chăm sóc người nghèo. Ngài qua đời năm 1540 và được phong thánh năm 1807.",
+        "body_en": "Angela Merici was born in 1474 at Desenzano, Italy. After joining the Third Order of Saint Francis, she made a pilgrimage to the Holy Land, where she was struck by blindness but later recovered. She gathered a group of women to teach Christian doctrine to girls in their homes, and in 1535 she founded the Company of Saint Ursula, placing the group under the protection of Saint Ursula. The rule she wrote emphasized prayer, simplicity, and service. She died on January 27, 1540, and was canonized by Pope Pius VII in 1807. Her feast day is celebrated on January 27.",
+        "body_vi": "Angela Merici sinh năm 1474 tại Desenzano, Ý. Sau khi gia nhập Dòng Ba Phanxicô, ngài hành hương đến Đất Thánh, nơi ngài bị mù nhưng sau đó được chữa lành. Ngài quy tụ một nhóm phụ nữ để dạy giáo lý Kitô giáo cho các thiếu nữ tại nhà, và năm 1535 ngài thành lập Dòng Thánh Ursula, đặt nhóm dưới sự bảo trợ của Thánh Ursula. Luật dòng ngài viết nhấn mạnh đến cầu nguyện, đơn sơ và phục vụ. Ngài qua đời ngày 27 tháng 1 năm 1540 và được Đức Giáo hoàng Piô VII phong thánh năm 1807. Lễ kính ngài được cử hành vào ngày 27 tháng 1.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The memorial of Saint Angela Merici is listed in the General Roman Calendar on January 27.",
+        "confidence_note_vi": "Lễ nhớ Thánh Angela Merici được ghi trong Sách Lịch Rôma tổng quát vào ngày 27 tháng 1."
+      },
+      "app_hooks": {
+        "hero_line_en": "A teacher and founder who trusted in God's providence.",
+        "hero_line_vi": "Một nhà giáo và người sáng lập đã tin tưởng vào sự quan phòng của Thiên Chúa.",
+        "prayer_prompt_en": "Saint Angela Merici, pray for us, that we may be faithful in our vocation and generous in serving others.",
+        "prayer_prompt_vi": "Thánh Angela Merici, cầu cho chúng con, để chúng con trung thành với ơn gọi và quảng đại phục vụ tha nhân."
+      },
+      "sources": [
+        {
+          "label": "Catholic Encyclopedia - St. Angela Merici",
+          "url": "https://www.newadvent.org/cathen/01486a.htm",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "Catholic Online - St. Angela Merici",
+          "url": "https://www.catholic.org/saints/saint.php?saint_id=89",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-14",
+        "hebrew": "19 Shvat 5787",
+        "islamic_umm_al_qura": "18 Shaban 1448 AH",
+        "coptic": "19 Toba 1743",
+        "ethiopian": "19 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-28",
+      "date": "2027-01-28",
+      "weekday": "Thursday",
+      "liturgical": {
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saint Thomas Aquinas, Priest and Doctor of the Church",
+        "title_vi": "Thánh Tôma Aquinô, Linh mục và Tiến sĩ Hội Thánh"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Thomas Aquinas",
+        "title_vi": "Thánh Tôma Aquinô",
+        "summary_en": "St. Thomas Aquinas (1225–1274) was a Dominican friar, priest, and eminent theologian whose works, especially the Summa Theologiae, shaped Catholic philosophy and doctrine. He is honored as a Doctor of the Church and patron of Catholic universities and students.",
+        "summary_vi": "Thánh Tôma Aquinô (1225–1274) là tu sĩ Dòng Đa Minh, linh mục và nhà thần học lỗi lạc; các tác phẩm, nhất là Bộ Tổng luận Thần học, đã định hình triết học và giáo lý Công giáo. Ngài được tôn kính là Tiến sĩ Hội Thánh và là quan thầy của các trường đại học Công giáo và sinh viên.",
+        "body_en": "Born at Roccasecca, Italy, Thomas entered the Dominican Order against his family's wishes. He studied under Albert the Great and taught in Paris, Rome, and Naples. His synthesis of Aristotelian philosophy with Christian revelation earned him the title 'Angelic Doctor.' He died on March 7, 1274, and was canonized in 1323; his memorial is kept on January 28, the date his relics were translated to Toulouse.",
+        "body_vi": "Sinh tại Roccasecca, Ý, Tôma gia nhập Dòng Đa Minh trái với ý muốn của gia đình. Ngài học với thánh Albert Cả và giảng dạy tại Paris, Rôma và Napoli. Việc tổng hợp triết học Aristoteles với mặc khải Kitô giáo đã mang lại cho ngài danh hiệu 'Tiến sĩ Thiên Thần'. Ngài qua đời ngày 7 tháng 3 năm 1274, được phong thánh năm 1323; lễ nhớ của ngài được cử hành vào ngày 28 tháng 1, ngày di quan của ngài về Toulouse.",
+        "confidence": "confirmed",
+        "confidence_note_en": "January 28 is the universal memorial of St. Thomas Aquinas in the General Roman Calendar.",
+        "confidence_note_vi": "Ngày 28 tháng 1 là lễ nhớ bắt buộc của thánh Tôma Aquinô trong Lịch Rôma tổng quát."
+      },
+      "app_hooks": {
+        "hero_line_en": "The Angelic Doctor, patron of students and truth-seekers.",
+        "hero_line_vi": "Tiến sĩ Thiên Thần, quan thầy của sinh viên và những người tìm kiếm chân lý.",
+        "prayer_prompt_en": "St. Thomas Aquinas, pray for us as we seek wisdom and understanding.",
+        "prayer_prompt_vi": "Thánh Tôma Aquinô, cầu cho chúng con khi chúng con tìm kiếm sự khôn ngoan và hiểu biết."
+      },
+      "sources": [
+        {
+          "label": "New Advent: St. Thomas Aquinas",
+          "url": "https://www.newadvent.org/cathen/14663b.htm",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "Catholic.org: St. Thomas Aquinas",
+          "url": "https://www.catholic.org/saints/saint.php?saint_id=263",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-15",
+        "hebrew": "20 Shvat 5787",
+        "islamic_umm_al_qura": "19 Shaban 1448 AH",
+        "coptic": "20 Toba 1743",
+        "ethiopian": "20 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-29",
+      "date": "2027-01-29",
+      "weekday": "Friday",
+      "liturgical": {
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Friday of the Third Week in Ordinary Time",
+        "title_vi": "Thứ Sáu Tuần III Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Friday of the Third Week in Ordinary Time",
+        "title_vi": "Thứ Sáu Tuần III Thường Niên",
+        "summary_en": "January 29, 2027 is a Friday in the third week of Ordinary Time. The General Roman Calendar assigns no obligatory memorial to this day, so the liturgical color is green. The day is dedicated to the ordinary celebration of the mystery of Christ in the Church's annual cycle.",
+        "summary_vi": "Ngày 29 tháng 1 năm 2027 là Thứ Sáu trong tuần III Mùa Thường Niên. Lịch Rôma tổng quát không ấn định lễ nhớ bắt buộc nào cho ngày này, nên phụng vụ dùng màu xanh lục. Ngày này được dành để cử hành mầu nhiệm Chúa Kitô trong chu kỳ phụng vụ thường niên.",
+        "body_en": "In Ordinary Time, the weekday readings continue from the Gospel of Mark and the Old Testament. The Liturgy of the Hours follows the weekday cycle. Local calendars may celebrate particular saints, but the universal calendar has no memorial today. The Roman Martyrology commemorates several early martyrs and confessors, but these are not celebrated universally.",
+        "body_vi": "Trong Mùa Thường Niên, các bài đọc trong ngày tiếp tục từ Tin Mừng Mác-cô và Cựu Ước. Giờ Kinh Phụng Vụ theo chu kỳ ngày trong tuần. Lịch địa phương có thể cử hành các thánh riêng, nhưng lịch phổ quát không có lễ nhớ nào hôm nay. Sách Tử Đạo Rôma ghi nhớ nhiều thánh tử đạo và tuyên xưng đức tin thời sơ khai, nhưng không được cử hành phổ quát.",
+        "confidence": "confirmed",
+        "confidence_note_en": "The General Roman Calendar lists no memorial for January 29; it is a weekday in Ordinary Time.",
+        "confidence_note_vi": "Lịch Rôma tổng quát không ghi lễ nhớ nào cho ngày 29 tháng 1; đây là ngày trong tuần của Mùa Thường Niên."
+      },
+      "app_hooks": {
+        "hero_line_en": "Friday of the Third Week in Ordinary Time",
+        "hero_line_vi": "Thứ Sáu Tuần III Thường Niên",
+        "prayer_prompt_en": "Lord, help us to find your presence in the ordinary moments of this day.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhận ra sự hiện diện của Chúa trong những khoảnh khắc thường ngày của hôm nay."
+      },
+      "sources": [
+        {
+          "label": "USCCB Daily Readings",
+          "url": "https://www.usccb.org/bible/readings/012927.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "USCCB Daily Readings - January 29, 2027",
+          "url": "https://bible.usccb.org/bible/readings/012927.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Encyclopedia: Calendar",
+          "url": "https://www.newadvent.org/cathen/03158a.htm",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "General Instruction of the Roman Missal",
+          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_en.html",
+          "type": "vatican"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-16",
+        "hebrew": "21 Shvat 5787",
+        "islamic_umm_al_qura": "20 Shaban 1448 AH",
+        "coptic": "21 Toba 1743",
+        "ethiopian": "21 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-30",
+      "date": "2027-01-30",
+      "weekday": "Saturday",
+      "liturgical": {
+        "rank": "Optional Memorial",
+        "color": "white",
+        "title_en": "Saint Martina, Virgin and Martyr",
+        "title_vi": "Thánh Martina, Trinh nữ Tử đạo"
+      },
+      "primary": {
+        "type": "saint",
+        "title_en": "Saint Martina, Virgin and Martyr",
+        "title_vi": "Thánh Martina, Trinh nữ Tử đạo",
+        "summary_en": "Saint Martina was a Roman virgin and martyr who died in the third century. She is venerated as one of the early Roman martyrs, and her cult is ancient. She is listed in the Roman Martyrology and is considered one of the patron saints of Rome.",
+        "summary_vi": "Thánh Martina là một trinh nữ tử đạo người Rôma, chịu tử đạo vào thế kỷ thứ ba. Ngài được tôn kính như một trong những vị tử đạo Rôma thời sơ khai, và lòng sùng kính ngài đã có từ lâu đời. Ngài được ghi trong Sách Tử đạo Rôma và được coi là một trong những vị thánh bổn mạng của Rôma.",
+        "body_en": "According to tradition, Martina was a noble Roman virgin who was martyred under the emperor Alexander Severus (or possibly Decius). She was subjected to various tortures and finally beheaded. Her relics are preserved in Rome, and a church was dedicated to her in the seventh century. Her feast is celebrated on January 30 as an optional memorial.",
+        "body_vi": "Theo truyền thống, Martina là một trinh nữ quý tộc Rôma, chịu tử đạo dưới thời hoàng đế Alexander Severus (hoặc có thể là Decius). Ngài bị tra tấn nhiều cách và cuối cùng bị chém đầu. Di tích của ngài được bảo quản tại Rôma, và một nhà thờ đã được dâng kính ngài vào thế kỷ thứ bảy. Lễ nhớ của ngài được cử hành vào ngày 30 tháng 1 như một lễ nhớ tự do.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Listed in the General Roman Calendar as an optional memorial.",
+        "confidence_note_vi": "Được ghi trong Lịch Rôma Tổng quát như một lễ nhớ tự do."
+      },
+      "app_hooks": {
+        "hero_line_en": "A Roman virgin martyr who gave her life for Christ.",
+        "hero_line_vi": "Một trinh nữ tử đạo Rôma đã hiến dâng mạng sống vì Chúa Kitô.",
+        "prayer_prompt_en": "St. Martina, pray for us that we may remain faithful in times of trial.",
+        "prayer_prompt_vi": "Thánh Martina, cầu cho chúng con được trung thành trong những lúc thử thách."
+      },
+      "sources": [
+        {
+          "label": "New Advent Catholic Encyclopedia: St. Martina",
+          "url": "https://www.newadvent.org/cathen/09721a.htm",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "USCCB Daily Calendar for January 30, 2027",
+          "url": "https://www.usccb.org/calendar/2027/1/30",
+          "type": "liturgical_calendar"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-17",
+        "hebrew": "22 Shvat 5787",
+        "islamic_umm_al_qura": "21 Shaban 1448 AH",
+        "coptic": "22 Toba 1743",
+        "ethiopian": "22 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    },
+    {
+      "id": "anno-2027-01-31",
+      "date": "2027-01-31",
+      "weekday": "Sunday",
+      "liturgical": {
+        "rank": "Solemnity",
+        "color": "green",
+        "title_en": "Fourth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật IV Thường Niên"
+      },
+      "primary": {
+        "type": "liturgical_day",
+        "title_en": "Fourth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật IV Thường Niên",
+        "summary_en": "The Fourth Sunday in Ordinary Time. In Year B, the Gospel reading is from Mark 1:21-28, where Jesus teaches in the synagogue at Capernaum and casts out an unclean spirit, demonstrating his authority. The memorial of Saint John Bosco, priest and founder of the Salesians, is superseded by the Sunday.",
+        "summary_vi": "Chúa Nhật thứ IV Mùa Thường Niên. Trong Năm B, bài Tin Mừng theo Thánh Mác-cô 1,21-28, khi Chúa Giê-su giảng dạy trong hội đường tại Ca-phác-na-um và trừ quỷ, tỏ uy quyền của Người. Lễ nhớ Thánh Gio-an Bốt-cô, linh mục, sáng lập dòng Sa-lê-diêng, được thay thế bởi Chúa Nhật.",
+        "body_en": "On this Sunday, the faithful gather to hear the Word of God and celebrate the Eucharist. The readings for the Fourth Sunday in Ordinary Time in Year B include a first reading from Deuteronomy 18:15-20, where Moses promises a prophet like him; the responsorial psalm is Psalm 95; the second reading is from 1 Corinthians 7:32-35, on undivided devotion to the Lord; and the Gospel is Mark 1:21-28. The Gospel shows Jesus teaching with authority and casting out an unclean spirit, revealing his divine power. The memorial of Saint John Bosco, the 'Father and Teacher of Youth,' is observed on this date in the calendar but yields to the Sunday.",
+        "body_vi": "Trong Chúa Nhật này, cộng đoàn tụ họp để nghe Lời Chúa và cử hành Thánh Thể. Các bài đọc Chúa Nhật thứ IV Mùa Thường Niên Năm B gồm bài đọc I từ sách Đệ Nhị Luật 18,15-20, Mô-sê hứa về một ngôn sứ như ông; Thánh Vịnh đáp ca là Tv 95; bài đọc II từ thư thứ nhất của Thánh Phao-lô gửi tín hữu Cô-rin-tô 7,32-35, về sự tận hiến không phân tâm cho Chúa; và Tin Mừng Mác-cô 1,21-28. Tin Mừng cho thấy Chúa Giê-su giảng dạy với uy quyền và trừ quỷ, tỏ lộ quyền năng thiêng liêng của Người. Lễ nhớ Thánh Gio-an Bốt-cô, 'Cha và Thầy của giới trẻ,' được cử hành vào ngày này trong lịch phụng vụ nhưng nhường cho Chúa Nhật.",
+        "confidence": "confirmed",
+        "confidence_note_en": "Date is a Sunday in the General Roman Calendar; the memorial of St. John Bosco is superseded.",
+        "confidence_note_vi": "Ngày này là Chúa Nhật trong Lịch Rô-ma tổng quát; lễ nhớ Thánh Gio-an Bốt-cô được thay thế."
+      },
+      "app_hooks": {
+        "hero_line_en": "The Lord teaches with authority.",
+        "hero_line_vi": "Chúa giảng dạy với uy quyền.",
+        "prayer_prompt_en": "Lord, open our hearts to your word and cleanse us from all that separates us from you.",
+        "prayer_prompt_vi": "Lạy Chúa, xin mở lòng chúng con để đón nhận Lời Chúa và thanh tẩy chúng con khỏi mọi điều ngăn cách chúng con với Chúa."
+      },
+      "sources": [
+        {
+          "label": "USCCB Daily Readings",
+          "url": "https://bible.usccb.org/bible/readings/013127.cfm",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic.org - Saint John Bosco",
+          "url": "https://www.catholic.org/saints/saint.php?saint_id=19",
+          "type": "encyclopedia"
+        }
+      ],
+      "calendars": {
+        "julian": "2027-01-18",
+        "hebrew": "23 Shvat 5787",
+        "islamic_umm_al_qura": "22 Shaban 1448 AH",
+        "coptic": "23 Toba 1743",
+        "ethiopian": "23 Toba 1743"
+      },
+      "mock_priority": "engine_b_v1"
+    }
+  ]
+}

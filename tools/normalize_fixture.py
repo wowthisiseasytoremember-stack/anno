@@ -27,6 +27,11 @@ TYPE_MAP = {
     "optional memorial": "memorial", "solemnity": "solemnity",
     "liturgical_day": "liturgical_day", "feria": "liturgical_day",
 }
+RANK_MAP = {
+    "solemnity": "Solemnity", "feast": "Feast", "memorial": "Memorial",
+    "optional memorial": "Optional Memorial", "optional_memorial": "Optional Memorial",
+    "feria": "Feria", "sunday": "Sunday",
+}
 COLOR_OK = {"white", "red", "green", "purple", "gold", "rose", "verdigris", "black"}
 
 
@@ -121,7 +126,11 @@ def normalize_engine_b(en_path: Path) -> dict:
     vi = load(vi_path) if vi_path and vi_path.exists() else None
     e = merge_vi(d, vi)
     e["id"] = norm_id(d.get("id", ""), date_str)
+    e["mock_priority"] = "engine_b_v1"  # pipeline-version marker required by the validation gate
     e["primary"]["type"] = map_type(e["primary"].get("type"))
+    rank = (e.get("liturgical", {}).get("rank") or "").strip().lower()
+    if rank in RANK_MAP:
+        e["liturgical"]["rank"] = RANK_MAP[rank]
     if "confidence" in e.get("primary", {}):
         e["primary"]["confidence"] = map_confidence(e["primary"]["confidence"])
     if isinstance(e.get("place"), dict) and "confidence" in e["place"]:
@@ -135,14 +144,17 @@ def normalize_engine_b(en_path: Path) -> dict:
 
 
 def ensure_vi(entry: dict) -> dict:
-    """Guarantee every *_vi leaf exists (defaults to EN sibling) so the
-    Swift decoder never KeyError's on missing Vietnamese."""
+    """Guarantee every *_vi AND *_en leaf exists. If one locale is missing, fall back
+    to the other so the Swift decoder never sees an empty string in either language."""
     def fill(section, key):
         sec = entry.get(section)
         if not isinstance(sec, dict):
             return
         en = sec.get(f"{key}_en", "")
-        if not sec.get(f"{key}_vi"):
+        vi = sec.get(f"{key}_vi", "")
+        if not (isinstance(en, str) and en.strip()):
+            sec[f"{key}_en"] = vi
+        if not (isinstance(vi, str) and vi.strip()):
             sec[f"{key}_vi"] = en
     fill("liturgical", "title")
     fill("primary", "title")
@@ -154,30 +166,9 @@ def ensure_vi(entry: dict) -> dict:
     return entry
 
 
-def main() -> None:
+def ingest_range(start_date: date, end_date: date) -> list:
+    """Ingest every research_results/<date>_result.json in [start,end] (with _vi overlay)."""
     entries = []
-
-    # 1. Fortnight (July 3 – July 16)
-    fort = load(FORTNIGHT)
-    for e in fort["entries"]:
-        entries.append(e)
-
-    # 2. Engine B July 17 – July 31
-    for day in range(17, 32):
-        p_en = RESEARCH / f"2026-07-{day:02d}_result_en.json"
-        p_raw = RESEARCH / f"2026-07-{day:02d}_result.json"
-        p = p_en if p_en.exists() else p_raw
-        if p.exists():
-            entries.append(normalize_engine_b(p))
-
-    # 3. August (August 1 – August 31)
-    aug = load(AUGUST)
-    assert isinstance(aug, list), "august file should be a list"
-    entries.extend(aug)
-
-    # 4. September 1 – December 31 (122 days)
-    start_date = date(2026, 9, 1)
-    end_date = date(2026, 12, 31)
     cur = start_date
     while cur <= end_date:
         d_str = cur.isoformat()
@@ -187,6 +178,35 @@ def main() -> None:
         if p.exists():
             entries.append(normalize_engine_b(p))
         cur += timedelta(days=1)
+    return entries
+
+
+def main() -> None:
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--year", type=int, default=2026, help="Year to build a fixture for (default 2026)")
+    ap.add_argument("--out", type=str, default=None, help="Output path (default Anno/Resources/anno_unified_<year>.json)")
+    args = ap.parse_args()
+
+    entries = []
+    if args.year == 2026:
+        # Preserve the exact 2026 construction (fortnight + august mock + Sep–Dec research).
+        fort = load(FORTNIGHT)
+        for e in fort["entries"]:
+            entries.append(e)
+        for day in range(17, 32):
+            p_en = RESEARCH / f"2026-07-{day:02d}_result_en.json"
+            p_raw = RESEARCH / f"2026-07-{day:02d}_result.json"
+            p = p_en if p_en.exists() else p_raw
+            if p.exists():
+                entries.append(normalize_engine_b(p))
+        aug = load(AUGUST)
+        assert isinstance(aug, list), "august file should be a list"
+        entries.extend(aug)
+        entries.extend(ingest_range(date(2026, 9, 1), date(2026, 12, 31)))
+    else:
+        # Any other year: ingest the whole year from research_results.
+        entries.extend(ingest_range(date(args.year, 1, 1), date(args.year, 12, 31)))
 
     # Dedupe by id (keep first), sort chronologically by date
     by_id = {}
@@ -194,6 +214,7 @@ def main() -> None:
         by_id.setdefault(e["id"], e)
     final = [ensure_vi(e) for e in sorted(by_id.values(), key=lambda e: e.get("date", ""))]
 
+    OUT = Path(args.out) if args.out else (ROOT / f"Anno/Resources/anno_unified_{args.year}.json")
     out = {
         "schema_version": "1.0",
         "generated_on": date.today().isoformat(),
@@ -227,7 +248,8 @@ def main() -> None:
             no_src += 1
         walk(e)
 
-    print(f"Master Unified Fixture: {len(final)} continuous entries (July 3, 2026 – December 31, 2026)")
+    span = f"{final[0].get('date','?')} -> {final[-1].get('date','?')}" if final else "n/a"
+    print(f"Master Unified Fixture ({args.year}): {len(final)} entries ({span})")
     print(f"  VI fields: {vi_tot} total, {vi_empty} empty")
     print(f"  Entries with <2 sources: {no_src}")
     print(f"  Written: {OUT.relative_to(ROOT)}")
