@@ -1,9 +1,8 @@
 //  ShareCard.swift
-//  DailyDevotionKJVForWomen
+//  Anno
 //
 //  A beautiful, self-contained card rendered to an image for sharing via
 //  ImageRenderer. Designed to look elegant on social feeds.
-//
 
 import SwiftUI
 
@@ -17,13 +16,13 @@ struct ShareCard: View {
             ChapterOrnament()
 
             Text("\u{201C}")
-                .font(.serifDisplay(64, weight: .bold))
-                .foregroundStyle(Palette.gold.opacity(0.5))
+                .font(Typography.displaySerif(size: 64, weight: .bold))
+                .foregroundStyle(AnnoTheme.goldLeaf.opacity(0.5))
                 .frame(height: 30)
 
             Text(verse)
-                .font(.serifDisplay(27, weight: .medium))
-                .foregroundStyle(Palette.ink)
+                .font(Typography.displaySerif(size: 27, weight: .medium))
+                .foregroundStyle(AnnoTheme.vellum)
                 .multilineTextAlignment(.center)
                 .lineSpacing(8)
                 .fixedSize(horizontal: false, vertical: true)
@@ -31,32 +30,32 @@ struct ShareCard: View {
             GoldDivider(width: 120)
 
             Text(reference.uppercased())
-                .font(.system(.subheadline, design: .serif).weight(.semibold))
+                .font(Typography.subheadlineSemiboldSerif)
                 .tracking(3)
-                .foregroundStyle(Palette.rose)
+                .foregroundStyle(AnnoTheme.rose)
 
-            Text("KJV for Women — Daily Devotional")
-                .font(.caption2)
+            Text("Anno — Daily Devotional")
+                .font(Typography.caption2)
                 .tracking(1)
-                .foregroundStyle(Palette.inkTertiary)
+                .foregroundStyle(AnnoTheme.incense)
         }
         .padding(44)
         .frame(width: 540, height: 540)
         .background {
             ZStack {
                 LinearGradient(
-                    colors: [Palette.bgTop, Palette.bgMid, Palette.bgBottom],
+                    colors: [AnnoTheme.narthex, AnnoTheme.choir, AnnoTheme.narthex],
                     startPoint: .topLeading,
                     endPoint: .bottomTrailing
                 )
-                RadialGradient(colors: [Palette.blush.opacity(0.5), .clear], center: .topLeading, startRadius: 0, endRadius: 400)
-                RadialGradient(colors: [Palette.gold.opacity(0.18), .clear], center: .bottomTrailing, startRadius: 0, endRadius: 380)
+                RadialGradient(colors: [AnnoTheme.rose.opacity(0.5), .clear], center: .topLeading, startRadius: 0, endRadius: 400)
+                RadialGradient(colors: [AnnoTheme.goldLeaf.opacity(0.18), .clear], center: .bottomTrailing, startRadius: 0, endRadius: 380)
             }
         }
         .overlay(
             RoundedRectangle(cornerRadius: 0)
                 .inset(by: 16)
-                .strokeBorder(Palette.gold.opacity(0.45), lineWidth: 1)
+                .strokeBorder(AnnoTheme.goldLeaf.opacity(0.45), lineWidth: 1)
         )
     }
 }
@@ -73,4 +72,3 @@ enum ShareCardRenderer {
         return renderer.uiImage
     }
 }
-//

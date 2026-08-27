@@ -88,8 +88,7 @@ public struct GildedButtonStyle: ButtonStyle {
 
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.subheadline.weight(.semibold))
-            .fontDesign(.serif)
+            .font(Typography.subheadlineSemiboldSerif)
             .foregroundStyle(prominent ? AnnoTheme.narthex : AnnoTheme.vellum)
             .padding(.horizontal, 18)
             .padding(.vertical, 10)

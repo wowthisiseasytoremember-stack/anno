@@ -257,11 +257,11 @@ struct SacredArtCanvas: View {
                     }) {
                         HStack(spacing: 4) {
                             Image(systemName: "arrow.counterclockwise")
-                                .font(.caption2.weight(.bold))
+                                .font(Typography.caption2Bold)
                             Text(String(format: "%.1fx", effectiveScale))
-                                .font(.caption.monospacedDigit().weight(.semibold))
+                                .font(Typography.captionBold.monospacedDigit())
                         }
-                        .foregroundColor(AnnoTheme.goldLeaf)
+                        .foregroundStyle(AnnoTheme.goldLeaf)
                         .padding(.horizontal, 10)
                         .padding(.vertical, 6)
                         .background(AnnoTheme.choir.opacity(0.85))
@@ -289,7 +289,7 @@ struct SacredArtCanvas: View {
                 }) {
                     Image(systemName: isCommentaryExpanded ? "info.circle.fill" : "info.circle")
                         .font(.system(size: 24))
-                        .foregroundColor(isCommentaryExpanded ? AnnoTheme.goldLeaf : AnnoTheme.vellum)
+                        .foregroundStyle(isCommentaryExpanded ? AnnoTheme.goldLeaf : AnnoTheme.vellum)
                         .padding(6)
                         .background(Circle().fill(AnnoTheme.choir.opacity(0.85)))
                         .overlay(Circle().stroke(AnnoTheme.ash, lineWidth: 1))
@@ -325,22 +325,21 @@ struct SacredArtCanvas: View {
                     HStack(alignment: .center, spacing: 10) {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(dossier.title)
-                                .font(.headline)
-                                .fontDesign(.serif)
-                                .foregroundColor(AnnoTheme.vellum)
+                                .font(Typography.headlineSerif)
+                                .foregroundStyle(AnnoTheme.vellum)
                                 .lineLimit(1)
 
                             Text("\(dossier.artist) · \(dossier.yearCreated)")
-                                .font(.caption)
-                                .foregroundColor(AnnoTheme.incense)
+                                .font(Typography.captionSerif)
+                                .foregroundStyle(AnnoTheme.incense)
                                 .lineLimit(1)
                         }
 
                         Spacer()
 
                         Image(systemName: isCommentaryExpanded ? "chevron.down" : "chevron.up")
-                            .font(.subheadline.weight(.semibold))
-                            .foregroundColor(AnnoTheme.goldLeaf)
+                            .font(Typography.subheadlineSemibold)
+                            .foregroundStyle(AnnoTheme.goldLeaf)
                     }
                     .padding(.horizontal, 16)
                     .padding(.bottom, 10)
@@ -357,12 +356,11 @@ struct SacredArtCanvas: View {
                         // Feast Association
                         HStack(spacing: 6) {
                             Image(systemName: "cross.fill")
-                                .font(.caption2)
-                                .foregroundColor(AnnoTheme.goldLeaf)
+                                .font(Typography.caption2)
+                                .foregroundStyle(AnnoTheme.goldLeaf)
                             Text(dossier.feastAssociation)
-                                .font(.caption.weight(.semibold))
-                                .fontDesign(.serif)
-                                .foregroundColor(AnnoTheme.gilt)
+                                .font(Typography.captionSemiboldSerif)
+                                .foregroundStyle(AnnoTheme.gilt)
                         }
                         .padding(.horizontal, 10)
                         .padding(.vertical, 4)
@@ -372,15 +370,13 @@ struct SacredArtCanvas: View {
                         // Theological Significance (New York Serif)
                         VStack(alignment: .leading, spacing: 8) {
                             Text(language == .vietnamese ? "Ý Nghĩa Thần Học & Chiêm Niệm" : "Theological Significance & Contemplation")
-                                .font(.subheadline.weight(.bold))
-                                .fontDesign(.serif)
-                                .foregroundColor(AnnoTheme.goldLeaf)
+                                .font(Typography.subheadlineSemiboldSerif)
+                                .foregroundStyle(AnnoTheme.goldLeaf)
 
                             Text(dossier.localizedTheologicalSignificance(for: language))
-                                .font(.body)
-                                .fontDesign(.serif)
+                                .font(Typography.bodySerif)
                                 .lineSpacing(5)
-                                .foregroundColor(AnnoTheme.vellum)
+                                .foregroundStyle(AnnoTheme.vellum)
                                 .fixedSize(horizontal: false, vertical: true)
                         }
 
@@ -390,8 +386,8 @@ struct SacredArtCanvas: View {
                         // Provenance & Metadata Grid
                         VStack(alignment: .leading, spacing: 8) {
                             Text(language == .vietnamese ? "Xuất Xứ & Thông Tin Kiệt Tác" : "Provenance & Masterwork Data")
-                                .font(.caption.weight(.bold))
-                                .foregroundColor(AnnoTheme.incense)
+                                .font(Typography.captionBold)
+                                .foregroundStyle(AnnoTheme.incense)
                                 .textCase(.uppercase)
 
                             metadataRow(
@@ -434,13 +430,13 @@ struct SacredArtCanvas: View {
     private func metadataRow(label: String, value: String) -> some View {
         HStack(alignment: .top, spacing: 8) {
             Text(label)
-                .font(.caption)
-                .foregroundColor(AnnoTheme.incense)
+                .font(Typography.captionSerif)
+                .foregroundStyle(AnnoTheme.incense)
                 .frame(width: 110, alignment: .leading)
 
             Text(value)
-                .font(.caption.weight(.medium))
-                .foregroundColor(AnnoTheme.vellum)
+                .font(Typography.captionMedium)
+                .foregroundStyle(AnnoTheme.vellum)
                 .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
@@ -454,8 +450,8 @@ struct SacredArtCanvas: View {
                 .scaleEffect(1.3)
 
             Text(language == .vietnamese ? "Đang tải tác phẩm 4K..." : "Loading sacred masterwork...")
-                .font(.caption.weight(.medium))
-                .foregroundColor(AnnoTheme.incense)
+                .font(Typography.captionMedium)
+                .foregroundStyle(AnnoTheme.incense)
         }
     }
 
@@ -463,11 +459,11 @@ struct SacredArtCanvas: View {
         VStack(spacing: 16) {
             Image(systemName: "exclamationmark.triangle")
                 .font(.system(size: 36))
-                .foregroundColor(AnnoTheme.crimson)
+                .foregroundStyle(AnnoTheme.crimson)
 
             Text(language == .vietnamese ? "Không thể tải ảnh độ phân giải cao" : "Unable to load high-resolution artwork")
-                .font(.subheadline.weight(.semibold))
-                .foregroundColor(AnnoTheme.vellum)
+                .font(Typography.subheadlineSemibold)
+                .foregroundStyle(AnnoTheme.vellum)
 
             Button(action: {
                 Task {
@@ -478,8 +474,8 @@ struct SacredArtCanvas: View {
                     Image(systemName: "arrow.clockwise")
                     Text(language == .vietnamese ? "Thử lại" : "Retry")
                 }
-                .font(.caption.weight(.bold))
-                .foregroundColor(AnnoTheme.narthex)
+                .font(Typography.captionBoldSerif)
+                .foregroundStyle(AnnoTheme.narthex)
                 .padding(.horizontal, 16)
                 .padding(.vertical, 8)
                 .background(AnnoTheme.goldLeaf)

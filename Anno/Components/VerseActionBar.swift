@@ -1,8 +1,7 @@
 //  VerseActionBar.swift
-//  DailyDevotionKJVForWomen
+//  Anno
 //
 //  Reusable action row for a verse: bookmark toggle and share.
-//
 
 import SwiftUI
 import SwiftData
@@ -10,7 +9,7 @@ import SwiftData
 struct VerseActionBar: View {
     let reference: VerseReference
     let text: String
-    var tint: Color = Palette.rose
+    var tint: Color = AnnoTheme.rose
 
     @Environment(\.modelContext) private var context
     @State private var isBookmarked = false
@@ -46,12 +45,12 @@ struct VerseActionBar: View {
             if isBookmarked { Haptics.success() } else { Haptics.light() }
         } label: {
             Image(systemName: isBookmarked ? "heart.fill" : "heart")
-                .font(.system(size: 16, weight: .semibold))
-                .foregroundStyle(isBookmarked ? AnyShapeStyle(tint) : AnyShapeStyle(Palette.inkSecondary))
+                .font(Typography.subheadlineSemibold)
+                .foregroundStyle(isBookmarked ? AnyShapeStyle(tint) : AnyShapeStyle(AnnoTheme.incense))
                 .symbolEffect(.bounce, value: isBookmarked)
                 .frame(width: 42, height: 42)
-                .background(Circle().fill(Palette.surfaceElevated))
-                .overlay(Circle().strokeBorder(Palette.gold.opacity(0.25), lineWidth: 0.8))
+                .background(Circle().fill(AnnoTheme.choir))
+                .overlay(Circle().strokeBorder(AnnoTheme.goldLeaf.opacity(0.25), lineWidth: 0.8))
         }
         .accessibilityLabel(isBookmarked ? "Remove bookmark" : "Add bookmark")
         .accessibilityHint("Saves this verse to your collection")
@@ -59,11 +58,11 @@ struct VerseActionBar: View {
 
     private func actionIcon(_ name: String) -> some View {
         Image(systemName: name)
-            .font(.system(size: 16, weight: .semibold))
-            .foregroundStyle(Palette.inkSecondary)
+            .font(Typography.subheadlineSemibold)
+            .foregroundStyle(AnnoTheme.incense)
             .frame(width: 42, height: 42)
-            .background(Circle().fill(Palette.surfaceElevated))
-            .overlay(Circle().strokeBorder(Palette.gold.opacity(0.25), lineWidth: 0.8))
+            .background(Circle().fill(AnnoTheme.choir))
+            .overlay(Circle().strokeBorder(AnnoTheme.goldLeaf.opacity(0.25), lineWidth: 0.8))
     }
 
     private func prepareShareImage() {

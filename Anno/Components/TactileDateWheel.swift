@@ -94,13 +94,12 @@ struct TactileDateWheel: View {
             // Month & Year Display
             VStack(alignment: .leading, spacing: 2) {
                 Text(monthYearString(from: selectedDate).localizedCapitalized)
-                    .font(.headline)
-                    .fontDesign(.serif)
-                    .foregroundColor(AnnoTheme.vellum)
+                    .font(Typography.headlineSerif)
+                    .foregroundStyle(AnnoTheme.vellum)
 
                 Text(fullWeekdayDateString(from: selectedDate))
-                    .font(.caption)
-                    .foregroundColor(AnnoTheme.incense)
+                    .font(Typography.captionSerif)
+                    .foregroundStyle(AnnoTheme.incense)
             }
 
             Spacer()
@@ -110,8 +109,8 @@ struct TactileDateWheel: View {
                 stepDate(by: -1)
             }) {
                 Image(systemName: "chevron.left")
-                    .font(.caption.weight(.bold))
-                    .foregroundColor(AnnoTheme.goldLeaf)
+                    .font(Typography.captionBoldSerif)
+                    .foregroundStyle(AnnoTheme.goldLeaf)
                     .padding(8)
                     .background(Circle().fill(AnnoTheme.narthex))
                     .overlay(Circle().stroke(AnnoTheme.ash, lineWidth: 1))
@@ -124,8 +123,8 @@ struct TactileDateWheel: View {
                 jumpToToday()
             }) {
                 Text(language == .vietnamese ? "Hôm nay" : "Today")
-                    .font(.caption.weight(.bold))
-                    .foregroundColor(isToday(selectedDate) ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
+                    .font(Typography.captionBoldSerif)
+                    .foregroundStyle(isToday(selectedDate) ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
                     .padding(.horizontal, 10)
                     .padding(.vertical, 6)
                     .background(
@@ -144,8 +143,8 @@ struct TactileDateWheel: View {
                 stepDate(by: 1)
             }) {
                 Image(systemName: "chevron.right")
-                    .font(.caption.weight(.bold))
-                    .foregroundColor(AnnoTheme.goldLeaf)
+                    .font(Typography.captionBoldSerif)
+                    .foregroundStyle(AnnoTheme.goldLeaf)
                     .padding(8)
                     .background(Circle().fill(AnnoTheme.narthex))
                     .overlay(Circle().stroke(AnnoTheme.ash, lineWidth: 1))
@@ -195,12 +194,12 @@ struct TactileDateWheel: View {
         }) {
             VStack(spacing: 4) {
                 Text(weekdayLabel)
-                    .font(.caption2.weight(.medium))
-                    .foregroundColor(isSelected ? AnnoTheme.narthex : (isCurrentDay ? AnnoTheme.goldLeaf : AnnoTheme.incense))
+                    .font(Typography.caption2Medium)
+                    .foregroundStyle(isSelected ? AnnoTheme.narthex : (isCurrentDay ? AnnoTheme.goldLeaf : AnnoTheme.incense))
 
                 Text("\(dayNumber)")
-                    .font(.callout.monospacedDigit().weight(isSelected ? .bold : .semibold))
-                    .foregroundColor(isSelected ? AnnoTheme.narthex : AnnoTheme.vellum)
+                    .font(Typography.captionBold.monospacedDigit())
+                    .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.vellum)
 
                 // Liturgical indicator dot
                 if let entry = entry {
@@ -246,12 +245,12 @@ struct TactileDateWheel: View {
         return VStack(alignment: .leading, spacing: 8) {
             HStack(spacing: 6) {
                 Image(systemName: "globe.europe.africa.fill")
-                    .font(.caption2)
-                    .foregroundColor(AnnoTheme.goldLeaf)
+                    .font(Typography.caption2)
+                    .foregroundStyle(AnnoTheme.goldLeaf)
 
                 Text(language == .vietnamese ? "Đồng Bộ Đa Lịch Thánh" : "Multi-Calendar Synchronizations")
-                    .font(.caption2.weight(.bold))
-                    .foregroundColor(AnnoTheme.incense)
+                    .font(Typography.caption2Bold)
+                    .foregroundStyle(AnnoTheme.incense)
                     .textCase(.uppercase)
                     .tracking(1.2)
             }
@@ -303,18 +302,18 @@ struct TactileDateWheel: View {
             HStack(spacing: 4) {
                 Text(symbol)
                     .font(.system(size: 8, weight: .black))
-                    .foregroundColor(AnnoTheme.goldLeaf)
+                    .foregroundStyle(AnnoTheme.goldLeaf)
                     .padding(2)
                     .background(Circle().fill(AnnoTheme.choir))
 
                 Text(title)
                     .font(.system(size: 9, weight: .semibold))
-                    .foregroundColor(AnnoTheme.incense)
+                    .foregroundStyle(AnnoTheme.incense)
             }
 
             Text(value)
-                .font(.caption2.weight(.medium))
-                .foregroundColor(AnnoTheme.vellum)
+                .font(Typography.caption2Medium)
+                .foregroundStyle(AnnoTheme.vellum)
                 .lineLimit(1)
         }
         .padding(.horizontal, 10)
