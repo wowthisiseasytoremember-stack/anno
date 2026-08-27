@@ -100,8 +100,7 @@ struct SavedView: View {
     private var titleBlock: some View {
         VStack(spacing: 10) {
             Text(language == .vietnamese ? "Bộ sưu tập đã lưu" : "Saved Collections")
-                .font(.title2.weight(.semibold))
-                .fontDesign(.serif)
+                .font(Typography.title2BoldSerif)
                 .foregroundStyle(AnnoTheme.vellum)
                 .multilineTextAlignment(.center)
                 .accessibilityAddTraits(.isHeader)
@@ -109,8 +108,7 @@ struct SavedView: View {
             Text(language == .vietnamese
                  ? "Lưu các ngày lễ, tác phẩm nghệ thuật thánh và địa điểm hành hương để trở lại sau."
                  : "Save feast days, sacred artwork, and pilgrimage sites to revisit later.")
-                .font(.subheadline)
-                .fontDesign(.serif)
+                .font(Typography.subheadlineSemiboldSerif)
                 .foregroundStyle(AnnoTheme.incense)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
@@ -121,14 +119,14 @@ struct SavedView: View {
 
     private var unlockButton: some View {
         Button {
+            Haptics.light()
             showingPaywall = true
         } label: {
             HStack(spacing: 8) {
                 Image(systemName: "lock.open.fill")
-                    .font(.subheadline.weight(.semibold))
+                    .font(Typography.subheadlineSemibold)
                 Text(language == .vietnamese ? "Mở khóa bộ sưu tập" : "Unlock Collections")
-                    .font(.headline)
-                    .fontDesign(.serif)
+                    .font(Typography.headlineSerif)
             }
             .foregroundStyle(AnnoTheme.narthex)
             .frame(maxWidth: .infinity)
@@ -165,7 +163,7 @@ struct SavedView: View {
     private var hoaThiengTracker: some View {
         VStack(alignment: .leading, spacing: 14) {
             Text(language == .vietnamese ? "HOA THIÊNG (SPIRITUAL BOUQUET)" : "SPIRITUAL BOUQUET")
-                .font(.caption.weight(.semibold))
+                .font(Typography.captionSemiboldSerif)
                 .foregroundStyle(AnnoTheme.incense)
                 .tracking(2.0)
                 .padding(.leading, 4)
@@ -205,8 +203,7 @@ struct SavedView: View {
 
     private func trackerRow(icon: String, titleEn: String, titleVi: String, isChecked: Binding<Bool>) -> some View {
         Button {
-            let generator = UIImpactFeedbackGenerator(style: .medium)
-            generator.impactOccurred()
+            Haptics.selection()
             withAnimation(.spring(response: 0.3, dampingFraction: 0.6)) {
                 isChecked.wrappedValue.toggle()
             }
@@ -218,8 +215,7 @@ struct SavedView: View {
                     .frame(width: 32)
 
                 Text(language == .vietnamese ? titleVi : titleEn)
-                    .font(.subheadline.weight(.medium))
-                    .fontDesign(.serif)
+                    .font(Typography.subheadlineSemiboldSerif)
                     .foregroundStyle(isChecked.wrappedValue ? AnnoTheme.vellum : AnnoTheme.incense)
 
                 Spacer()
@@ -249,7 +245,7 @@ struct SavedView: View {
     private var previewCollections: some View {
         VStack(alignment: .leading, spacing: 14) {
             Text(language == .vietnamese ? "BỘ SƯU TẬP" : "COLLECTIONS")
-                .font(.caption.weight(.semibold))
+                .font(Typography.captionSemiboldSerif)
                 .foregroundStyle(AnnoTheme.incense)
                 .tracking(2.0)
                 .padding(.leading, 4)
@@ -281,19 +277,18 @@ struct SavedView: View {
 
             VStack(alignment: .leading, spacing: 3) {
                 Text(item.title(for: language))
-                    .font(.subheadline.weight(.semibold))
-                    .fontDesign(.serif)
+                    .font(Typography.subheadlineSemiboldSerif)
                     .foregroundStyle(AnnoTheme.vellum)
 
                 Text(item.subtitle(for: language))
-                    .font(.caption)
+                    .font(Typography.caption)
                     .foregroundStyle(AnnoTheme.incense)
             }
 
             Spacer()
 
             Image(systemName: "lock.fill")
-                .font(.caption)
+                .font(Typography.caption)
                 .foregroundStyle(AnnoTheme.incense.opacity(0.5))
         }
         .annoCard()
