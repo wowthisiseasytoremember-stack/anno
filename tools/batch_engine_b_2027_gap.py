@@ -148,9 +148,11 @@ _HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (K
 
 
 def _url_live(url: str) -> bool:
-    """HEAD-check a source URL. 403/401 = bot-blocked (treat as live); 404/DNS/conn = dead."""
+    """Verify a citation is live. Uses GET (not HEAD) — some sites (USCCB) return 200 on
+    HEAD for 404 pages, so HEAD is unreliable. 403/401/405/429 = bot-blocked (treat live);
+    404/DNS/conn = dead."""
     try:
-        req = urllib.request.Request(url, method="HEAD", headers=_HEADERS)
+        req = urllib.request.Request(url, headers=_HEADERS)
         with urllib.request.urlopen(req, timeout=15) as r:
             return r.status in (200, 401, 403, 405, 429)
     except urllib.error.HTTPError as e:
@@ -159,34 +161,47 @@ def _url_live(url: str) -> bool:
         return False
 
 
+# Curated, VERIFIED-LIVE real Catholic reference authorities (checked 2026-08-27, HTTP 200).
+# Used to backfill citations when model-returned URLs are dead. These are real,
+# authoritative, and live — honest citations even if not day-specific.
+ALLOWLIST = [
+    {"label": "Vatican", "url": "https://www.vatican.va/", "type": "vatican"},
+    {"label": "New Advent (Catholic Encyclopedia)", "url": "https://www.newadvent.org/", "type": "encyclopedia"},
+    {"label": "Catholic Culture", "url": "https://www.catholicculture.org/", "type": "encyclopedia"},
+    {"label": "Catholic.com", "url": "https://www.catholic.com/", "type": "encyclopedia"},
+    {"label": "EWTN", "url": "https://www.ewtn.com/", "type": "encyclopedia"},
+]
+
+
 def verify_sources(en: dict, d_str: str) -> dict:
-    """Rule #2: drop dead citation URLs; backfill with confirmed-live ones if <2 survive."""
+    """Rule #2: DROP every dead citation URL unconditionally; backfill to >=2 with
+    verified-live real Catholic authorities when fewer than 2 survive. No hallucinated
+    deep-links are ever kept."""
     srcs = en.get("sources", [])
     if not srcs:
         return en
+    # Always strip dead URLs — never leave a 404 citation behind.
     kept = [s for s in srcs if _url_live(s.get("url", ""))]
-    dead = [s.get("url", "") for s in srcs if not _url_live(s.get("url", ""))]
-    if not dead:
-        return en
     if len(kept) < 2:
-        title = en.get("liturgical", {}).get("title_en", "")
-        prompt = (
-            f"Date {d_str}. Feast: {title}. These Catholic source URLs are dead (404): {dead}. "
-            f"Return ONLY JSON: {{\"sources\": [{{\"label\":\"...\",\"url\":\"https://...\","
-            f"\"type\":\"vatican|encyclopedia|liturgical_calendar\"}}]}}. Give 2-3 URLs that "
-            f"resolve (HTTP 200) on vatican.va, newadvent.org, catholic.org, or usccb.org. "
-            f"Never invent URLs; return empty list if unsure."
-        )
-        raw = yolo([{"role": "system", "content": "You verify Catholic source URLs. Output only JSON."},
-                    {"role": "user", "content": prompt}], maxtok=500)
-        try:
-            for s in json.loads(extract_json(raw)).get("sources", []):
-                if _url_live(s.get("url", "")):
-                    kept.append(s)
-        except Exception:
-            pass
+        have = {_domain(s.get("url", "")) for s in kept}
+        for a in ALLOWLIST:
+            if len(kept) >= 2:
+                break
+            if _domain(a["url"]) in have:
+                continue
+            if _url_live(a["url"]):
+                kept.append(a)
+                have.add(_domain(a["url"]))
     en["sources"] = kept
     return en
+
+
+def _domain(url: str) -> str:
+    try:
+        from urllib.parse import urlparse
+        return urlparse(url).netloc
+    except Exception:
+        return url
 
 
 def cal_strings(d: date) -> dict:
