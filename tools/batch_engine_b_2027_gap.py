@@ -138,8 +138,9 @@ def repair_vi(en: dict, d_str: str) -> dict:
     fix = json.loads(extract_json(raw))
     for sec, keys in VI_KEYS.items():
         for k in keys:
-            if not en.get(sec, {}).get(k) and fix.get(sec, {}).get(k):
-                en[sec][k] = fix[sec][k]
+            got = fix.get(sec, {}).get(k) if isinstance(fix.get(sec), dict) else None
+            if not en.get(sec, {}).get(k) and got:
+                en.setdefault(sec, {})[k] = got
     return en
 
 
