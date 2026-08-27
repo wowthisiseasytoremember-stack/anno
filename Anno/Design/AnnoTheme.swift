@@ -104,6 +104,9 @@ enum AnnoTheme {
     /// Transparent row background for List/Form sections.
     static let clearRow = Color.clear
 
+    /// Subtle fill opacity for colored backgrounds (badges, icon containers).
+    static let subtleFillOpacity = 0.12
+
     // MARK: - Animations
 
     /// Smooth spring used for card reveals and interactive transitions.

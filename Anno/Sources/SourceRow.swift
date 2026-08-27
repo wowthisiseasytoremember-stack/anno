@@ -43,7 +43,7 @@ struct SourceRow: View {
                 .font(Typography.subheadlineSemibold)
                 .foregroundStyle(sourceTypeColor)
                 .frame(width: 32, height: 32)
-                .background(sourceTypeColor.opacity(0.12))
+                .background(sourceTypeColor.opacity(AnnoTheme.subtleFillOpacity))
                 .clipShape(RoundedRectangle(cornerRadius: 6))
                 .accessibilityHidden(true)
 
@@ -60,7 +60,7 @@ struct SourceRow: View {
                     .foregroundStyle(sourceTypeColor)
                     .padding(.horizontal, AnnoTheme.sm)
                     .padding(.vertical, AnnoTheme.xs)
-                    .background(sourceTypeColor.opacity(0.12))
+                    .background(sourceTypeColor.opacity(AnnoTheme.subtleFillOpacity))
                     .clipShape(Capsule())
 
                 // Link button
