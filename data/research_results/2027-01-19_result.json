@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-19",
+  "date": "2027-01-19",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Second Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần II Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Second Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần II Thường Niên",
+    "summary_en": "January 19, 2027 is a Tuesday in the Second Week of Ordinary Time. The General Roman Calendar assigns no obligatory memorial to this day, so the liturgical color is green. Some local calendars may celebrate optional memorials, such as Saints Marius, Martha, Audifax, and Abachum, but these are not universal.",
+    "summary_vi": "Ngày 19 tháng 1 năm 2027 là Thứ Ba Tuần II Mùa Thường Niên. Lịch Rôma Tổng quát không ấn định lễ nhớ bắt buộc nào cho ngày này, nên màu phụng vụ là màu xanh lục. Một số lịch địa phương có thể cử hành lễ nhớ tự chọn, chẳng hạn như các thánh Mariô, Martha, Audifax và Abacum, nhưng không phổ quát.",
+    "body_en": "In the Ordinary Time of the liturgical year, the Church reflects on the public life and teachings of Jesus Christ. The weekday readings continue through the Gospel of Mark in the Lectionary cycle for Year C (2026-2027). The feria has no special feast, allowing the faithful to focus on the daily Word of God and the rhythm of the season.",
+    "body_vi": "Trong Mùa Thường Niên của năm phụng vụ, Giáo Hội suy niệm về đời sống công khai và giáo huấn của Chúa Giêsu Kitô. Các bài đọc trong tuần tiếp tục với Tin Mừng Máccô trong chu kỳ Lectionary Năm C (2026-2027). Ngày lễ thường không có lễ trọng đặc biệt, cho phép các tín hữu tập trung vào Lời Chúa hằng ngày và nhịp điệu của mùa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a weekday in Ordinary Time according to the General Roman Calendar; no universal memorial is assigned.",
+    "confidence_note_vi": "Ngày này là ngày thường trong Mùa Thường Niên theo Lịch Rôma Tổng quát; không có lễ nhớ phổ quát nào được ấn định."
+  },
+  "app_hooks": {
+    "hero_line_en": "A quiet Tuesday in Ordinary Time",
+    "hero_line_vi": "Một ngày thứ Ba tĩnh lặng trong Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, open my heart to Your Word in the ordinary moments of today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin mở lòng con để đón nhận Lời Chúa trong những khoảnh khắc thường ngày hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/011927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "General Roman Calendar (Vatican)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020514_ordinario_en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-06",
+    "hebrew": "11 Shvat 5787",
+    "islamic_umm_al_qura": "10 Shaban 1448 AH",
+    "coptic": "11 Toba 1743",
+    "ethiopian": "11 Toba 1743"
+  }
+}

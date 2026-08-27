@@ -1,0 +1,37 @@
+{
+  "id": "anno-2027-01-05",
+  "date": "2027-01-05",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the First Week in Ordinary Time"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the First Week in Ordinary Time",
+    "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+    "body_en": "January 5, 2027, falls on a Tuesday during the first week of Ordinary Time. In the Roman Rite, this day is celebrated as a Feria with the standard weekday liturgy. The Gospel for the day typically features the calling of the first disciples or the early stages of Christ's ministry, emphasizing the invitation to follow Him. As there are no specific solemnities or feasts of saints of high rank assigned to this date in the General Roman Calendar, the focus remains on the ongoing mystery of Christ's life and mission.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday calculation based on the General Roman Calendar. No specific saint's feast of higher rank is listed for this date in the universal calendar."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - Vatican.va",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20040313_general-roman-calendar_en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/liturgical-calendar",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-23",
+    "hebrew": "26 Tevet 5787",
+    "islamic_umm_al_qura": "26 Rajab 1448 AH",
+    "coptic": "27 Kiahk 1743",
+    "ethiopian": "27 Kiahk 1743"
+  }
+}

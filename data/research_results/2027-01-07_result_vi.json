@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần I Mùa Thường Niên",
+    "summary_vi": "Đây là ngày thường (Feria) trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào thời thơ ấu của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_vi": "Ngày 7 tháng 1 nằm trong tuần thứ nhất của Mùa Thường Niên, sau Lễ Trọng Rửa Tội Chúa. Là một ngày Thứ Năm thường (Feria), ngày này không có lễ kính một vị thánh cụ thể nào vượt trội hơn phụng vụ hàng ngày ở hầu hết các vùng, mặc dù lịch địa phương có thể bao gồm các lễ nhớ tùy ý. Màu phụng vụ là màu xanh lá cây, phù hợp với Mùa Thường Niên nhấn mạnh đời sống và giáo huấn liên tục của Đức Kitô.",
+    "confidence_note_vi": "Gán theo Lịch Rôma chung chuẩn cho ngày này trong năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sống hy vọng và tăng trưởng trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con trung thành bước đi trên đường môn đệ mỗi ngày."
+  }
+}

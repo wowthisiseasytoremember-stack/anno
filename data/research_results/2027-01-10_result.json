@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-10",
+  "date": "2027-01-10",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Second Sunday in Ordinary Time",
+    "title_vi": "Chủ Nhật II Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Second Sunday in Ordinary Time",
+    "title_vi": "Chủ Nhật II Thường Niên",
+    "summary_en": "This is the second Sunday of the liturgical year, falling within the season of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the call to discipleship and the nature of Christ's mission.",
+    "summary_vi": "Đây là Chúa nhật thứ hai của năm phụng vụ, nằm trong mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào lời mời gọi làm môn đệ và sứ mệnh của Đức Kitô.",
+    "body_en": "The Second Sunday in Ordinary Time marks the continuation of the liturgical journey after the Christmas season and the Baptism of the Lord. In Year A, the Gospel reading typically features the Wedding at Cana, highlighting the first public sign of Jesus' glory. The day invites the faithful to reflect on their own vocation and response to God's call, emphasizing that ordinary time is a period for deepening one's faith through regular participation in the sacraments and prayer.",
+    "body_vi": "Chúa nhật II Thường Niên đánh dấu sự tiếp tục của hành trình phụng vụ sau mùa Giáng Sinh và lễ Chúa Giêsu chịu phép Rửa. Trong Năm A, bài Tin Mừng thường là biến cố Hôn nhân tại Cana, nêu bật dấu chỉ công khai đầu tiên về vinh quang của Chúa Giêsu. Ngày này mời gọi các tín hữu suy tư về ơn gọi của chính mình và sự đáp trả trước lời kêu gọi của Thiên Chúa, nhấn mạnh rằng mùa Thường Niên là thời gian để đào sâu đức tin qua việc tham dự thường xuyên vào các bí tích và cầu nguyện.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard liturgical calendar calculation based on the date being the second Sunday after the Baptism of the Lord (which falls on Jan 3, 2027).",
+    "confidence_note_vi": "Tính toán lịch phụng vụ tiêu chuẩn dựa trên ngày này là Chúa nhật thứ hai sau lễ Chúa Giêsu chịu phép Rửa (lễ này rơi vào ngày 3 tháng 1 năm 2027)."
+  },
+  "app_hooks": {
+    "hero_line_en": "Embracing the call to follow Christ in the everyday.",
+    "hero_line_vi": "Hưởng ứng lời mời gọi đi theo Chúa Kitô trong đời thường.",
+    "prayer_prompt_en": "Lord, help me to hear your voice in the quiet moments of my daily life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nghe được tiếng Chúa trong những khoảnh khắc tĩnh lặng của cuộc sống hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - Vatican.va",
+      "url": "https://www.vatican.va/archive/ENG0015/__L0E.HTM",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/liturgical-calendar",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-28",
+    "hebrew": "2 Shvat 5787",
+    "islamic_umm_al_qura": "1 Shaban 1448 AH",
+    "coptic": "2 Toba 1743",
+    "ethiopian": "2 Toba 1743"
+  }
+}

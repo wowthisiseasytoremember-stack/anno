@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-01-17",
+  "date": "2027-01-17",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "green",
+    "title_en": "Second Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật II Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Second Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật II Thường Niên",
+    "summary_en": "The Second Sunday in Ordinary Time is a Sunday in the liturgical season of Ordinary Time. In Year B, the Gospel recounts John the Baptist's testimony to Jesus as the Lamb of God and the calling of the first disciples. The memorial of Saint Anthony, Abbot, is superseded by the Sunday.",
+    "summary_vi": "Chúa Nhật II Thường Niên là Chúa Nhật trong mùa Thường Niên. Năm B, bài Tin Mừng thuật lại lời chứng của Gioan Tẩy Giả về Chúa Giêsu là Chiên Thiên Chúa và việc gọi các môn đệ đầu tiên. Lễ nhớ Thánh Antôn, Viện phụ, được chuyển sang ngày khác vì trùng với Chúa Nhật.",
+    "body_en": "On this Sunday, the Church continues to celebrate the mystery of Christ's manifestation. The readings focus on the call to discipleship and the recognition of Jesus as the Lamb of God. The liturgical color is green, signifying growth and hope in the Christian life. The memorial of Saint Anthony the Great, normally celebrated on January 17, is omitted this year because it falls on a Sunday.",
+    "body_vi": "Trong Chúa Nhật này, Hội Thánh tiếp tục cử hành mầu nhiệm Chúa Kitô tỏ mình. Các bài đọc tập trung vào ơn gọi làm môn đệ và nhận biết Chúa Giêsu là Chiên Thiên Chúa. Màu phụng vụ là màu xanh, tượng trưng cho sự lớn lên và hy vọng trong đời sống Kitô hữu. Lễ nhớ Thánh Antôn Cả, thường cử hành ngày 17 tháng Giêng, được bỏ qua năm nay vì trùng vào Chúa Nhật.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a Sunday in Ordinary Time; the memorial of St. Anthony is superseded.",
+    "confidence_note_vi": "Ngày này là Chúa Nhật Thường Niên; lễ nhớ Thánh Antôn bị vượt qua."
+  },
+  "app_hooks": {
+    "hero_line_en": "The Lamb of God calls his first disciples.",
+    "hero_line_vi": "Chiên Thiên Chúa gọi các môn đệ đầu tiên.",
+    "prayer_prompt_en": "Lord Jesus, Lamb of God, call us to follow you and to remain in your presence.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, Chiên Thiên Chúa, xin gọi chúng con theo Chúa và ở lại trong sự hiện diện của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/011727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - St. Anthony of Egypt",
+      "url": "https://www.newadvent.org/cathen/01553d.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-04",
+    "hebrew": "9 Shvat 5787",
+    "islamic_umm_al_qura": "8 Shaban 1448 AH",
+    "coptic": "9 Toba 1743",
+    "ethiopian": "9 Toba 1743"
+  }
+}

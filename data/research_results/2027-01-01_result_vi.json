@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đức Maria, Mẹ Thiên Chúa"
+  },
+  "primary": {
+    "title_vi": "Đức Maria, Mẹ Thiên Chúa",
+    "summary_vi": "Lễ Đức Maria, Mẹ Thiên Chúa được cử hành vào ngày Bát Nhật Giáng Sinh, ngày 1 tháng Giêng. Lễ này tôn kính thiên chức làm Mẹ Thiên Chúa của Đức Trinh Nữ Maria, một chân lý được định tín tại Công đồng Êphêsô năm 431. Ngày này cũng là Ngày Thế giới cầu cho Hòa bình, được Đức Giáo hoàng Phaolô VI thiết lập năm 1967.",
+    "body_vi": "Lễ này là lễ kính Đức Mẹ xưa nhất trong Giáo hội Tây phương, nguyên được cử hành như lễ 'Thiên Chức Mẹ của Đức Trinh Nữ'. Bài Tin Mừng trong ngày thuật lại việc các mục tử đến thăm Bêlem và việc Đức Maria ghi nhớ và suy niệm những biến cố ấy trong lòng. Các bản văn phụng vụ nhấn mạnh vai trò của Đức Maria trong mầu nhiệm Nhập Thể và sự chuyển cầu của Mẹ cho Hội Thánh. Tại nhiều quốc gia, đây là ngày lễ buộc.",
+    "confidence_note_vi": "Đây là lễ trọng thể cố định trong Lịch Rôma tổng quát ngày 1 tháng Giêng."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lạy Mẹ Thiên Chúa, xin cầu cho chúng con!",
+    "prayer_prompt_vi": "Đọc kinh Kính Mừng, xin Mẹ chuyển cầu cho hòa bình trong năm mới."
+  }
+}

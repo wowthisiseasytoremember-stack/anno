@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần II Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần II Mùa Thường Niên",
+    "summary_vi": "Theo Lịch Rôma Tổng quát, ngày 18 tháng 1 là ngày thường trong Mùa Thường Niên. Không có lễ nhớ bắt buộc nào được cử hành vào ngày này. Màu phụng vụ là màu xanh lục, và Thánh lễ cùng Phụng vụ các giờ kinh là của ngày thường.",
+    "body_vi": "Thứ Hai này của Tuần II Mùa Thường Niên diễn ra sau Lễ Chúa Giêsu Chịu Phép Rửa và khởi đầu Mùa Thường Niên. Các bài đọc được lấy từ sách bài đọc ngày thường, và các lời nguyện trong Thánh Lễ phản ánh tuần hiện tại. Trong Hình thức ngoại thường của Nghi lễ Rôma, ngày này trước đây được cử hành như Lễ Tòa Thánh Phêrô tại Rôma, nhưng lễ đó hiện nay được cử hành vào ngày 22 tháng 2.",
+    "confidence_note_vi": "Dựa trên Lịch Rôma Tổng quát (ấn bản điển hình) và lịch phụng vụ năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thứ Hai Tuần II Mùa Thường Niên",
+    "prayer_prompt_vi": "Cầu xin ơn để sống ngày thường này trong tình yêu thương."
+  }
+}

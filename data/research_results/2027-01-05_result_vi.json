@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần I Mùa Thường Niên",
+    "summary_vi": "Đây là ngày thường (Feria) trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào sự khởi đầu sứ vụ công khai của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_vi": "Ngày 5 tháng 1 năm 2027 rơi vào thứ Hai trong tuần thứ nhất của Mùa Thường Niên. Trong Nghi thức La Mã, ngày này được cử hành như một ngày thường (Feria) với phụng vụ ngày thường tiêu chuẩn. Bài Tin Mừng cho ngày này thường mô tả việc kêu gọi các môn đệ đầu tiên hoặc những giai đoạn đầu tiên trong sứ vụ của Đấng Kitô, nhấn mạnh lời mời gọi đi theo Người. Vì không có các lễ trọng hay lễ kính các thánh có bậc cao hơn được chỉ định cho ngày này trong Lịch Rôma Chung, trọng tâm vẫn là mầu nhiệm liên tục về cuộc đời và sứ mệnh của Chúa Kitô.",
+    "confidence_note_vi": "Tính toán ngày thường tiêu chuẩn dựa trên Lịch Rôma Chung. Không có lễ kính thánh nào có bậc cao hơn được liệt kê cho ngày này trong lịch phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước theo Chúa trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm để đáp lại lời mời gọi của Ngài và trung thành bước theo chân Ngài mỗi ngày."
+  }
+}

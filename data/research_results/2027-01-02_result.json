@@ -1,0 +1,37 @@
+{
+  "id": "anno-2027-01-02",
+  "date": "2027-01-02",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the First Week in Ordinary Time"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the First Week in Ordinary Time",
+    "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+    "body_en": "January 2nd falls within the first week of Ordinary Time, following the Solemnity of Mary, Mother of God. As a Saturday Feria, it does not have a specific saint's feast that overrides the daily cycle in most regions, though local calendars may include optional memorials. The liturgy emphasizes the theme of conversion and the start of Christ's mission, inviting the faithful to reflect on their own vocation and response to God's call during this period of spiritual growth.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard General Roman Calendar assignment for January 2nd when it is not a Sunday or major solemnity."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - USCCB",
+      "url": "https://www.usccb.org/bible/mass/ordinary-time",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Liturgical Calendar",
+      "url": "https://www.newadvent.org/catholics/liturgicalcalendar.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-20",
+    "hebrew": "23 Tevet 5787",
+    "islamic_umm_al_qura": "23 Rajab 1448 AH",
+    "coptic": "24 Kiahk 1743",
+    "ethiopian": "24 Kiahk 1743"
+  }
+}

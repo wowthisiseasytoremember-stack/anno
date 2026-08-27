@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần I Mùa Thường Niên",
+    "summary_vi": "Đây là ngày trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu tượng của hy vọng và sự tăng trưởng. Các bài đọc tập trung vào thời thơ ấu của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_vi": "Ngày 13 tháng 1 năm 2027 rơi vào thứ Ba trong tuần thứ nhất của Mùa Thường Niên. Trong Phụng Vụ Rôma, giai đoạn này được dành để dần dần khám phá mầu nhiệm của Đức Kitô sau mùa Giáng Sinh. Là một ngày thường (feria), Thánh Lễ tuân theo cấu trúc chuẩn cho các ngày trong tuần của Mùa Thường Niên, không có lễ kính thánh nào cụ thể vượt trội hơn chu kỳ hàng ngày trừ khi có một lễ riêng địa phương được cử hành.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên dựa trên Lịch Phụng Vụ Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày con."
+  }
+}

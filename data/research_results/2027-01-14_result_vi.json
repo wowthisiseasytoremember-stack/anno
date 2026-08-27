@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần II Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần II Thường Niên",
+    "summary_vi": "Đây là ngày trong tuần thứ hai của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào lời dạy của Chúa Giêsu và đời sống của Giáo Hội sơ khai.",
+    "body_vi": "Phụng vụ của ngày này tuân theo cấu trúc chuẩn cho Thứ Năm trong tuần thứ hai của Mùa Thường Niên. Bài Đọc I thường trích từ Sách Công Vụ Tông Đồ hoặc các Thư, làm nổi bật sự lan truyền của Tin Mừng và những thách thức mà cộng đoàn Kitô giáo sơ khai phải đối mặt. Bài Đáp Ca phản ánh các chủ đề về sự tin tưởng vào sự dẫn dắt của Thiên Chúa. Bài Phúc Âm, trích từ một trong bốn sách Tin Mừng, trình bày một giáo huấn hoặc phép lạ cụ thể của Chúa Giêsu, mời gọi các tín hữu suy tư về ơn gọi môn đệ và cam kết theo Chúa Kitô của chính mình.",
+    "confidence_note_vi": "Phụng vụ ngày thường tiêu chuẩn dựa trên Lịch Phụng Vụ Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày bình thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong cuộc sống hàng ngày của con và đáp lại lời kêu gọi của Chúa với đức tin và tình yêu."
+  }
+}

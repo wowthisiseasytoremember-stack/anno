@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần II Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần II Thường Niên",
+    "summary_vi": "Ngày 19 tháng 1 năm 2027 là Thứ Ba Tuần II Mùa Thường Niên. Lịch Rôma Tổng quát không ấn định lễ nhớ bắt buộc nào cho ngày này, nên màu phụng vụ là màu xanh lục. Một số lịch địa phương có thể cử hành lễ nhớ tự chọn, chẳng hạn như các thánh Mariô, Martha, Audifax và Abacum, nhưng không phổ quát.",
+    "body_vi": "Trong Mùa Thường Niên của năm phụng vụ, Giáo Hội suy niệm về đời sống công khai và giáo huấn của Chúa Giêsu Kitô. Các bài đọc trong tuần tiếp tục với Tin Mừng Máccô trong chu kỳ Lectionary Năm C (2026-2027). Ngày lễ thường không có lễ trọng đặc biệt, cho phép các tín hữu tập trung vào Lời Chúa hằng ngày và nhịp điệu của mùa.",
+    "confidence_note_vi": "Ngày này là ngày thường trong Mùa Thường Niên theo Lịch Rôma Tổng quát; không có lễ nhớ phổ quát nào được ấn định."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Một ngày thứ Ba tĩnh lặng trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin mở lòng con để đón nhận Lời Chúa trong những khoảnh khắc thường ngày hôm nay."
+  }
+}

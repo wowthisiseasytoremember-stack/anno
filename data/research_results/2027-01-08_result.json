@@ -1,0 +1,37 @@
+{
+  "id": "anno-2027-01-08",
+  "date": "2027-01-08",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the First Week in Ordinary Time"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the First Week in Ordinary Time",
+    "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. No specific saint's feast is celebrated on this date in the General Roman Calendar.",
+    "body_en": "January 8th falls within the first week of Ordinary Time, which begins after the Feast of the Baptism of the Lord. As a Friday Feria, the liturgy follows the standard weekday readings and prayers for the season. The color green is used to signify the ongoing life of the Church as it grows in faith during the ordinary weeks of the year. While there are no major solemnities or feasts assigned to this specific date in the universal calendar, local diocesan calendars may include optional memorials.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time per the General Roman Calendar."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - USCCB",
+      "url": "https://www.usccb.org/bible/mass/ordinary-time",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Liturgical Calendar",
+      "url": "https://www.newadvent.org/calendar/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-26",
+    "hebrew": "29 Tevet 5787",
+    "islamic_umm_al_qura": "29 Rajab 1448 AH",
+    "coptic": "30 Kiahk 1743",
+    "ethiopian": "30 Kiahk 1743"
+  }
+}

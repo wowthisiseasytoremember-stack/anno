@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-12",
+  "date": "2027-01-12",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the First Week of Ordinary Time",
+    "title_vi": "Thứ Ba Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the First Week of Ordinary Time",
+    "title_vi": "Thứ Ba Tuần I Mùa Thường Niên",
+    "summary_en": "This is a weekday in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+    "summary_vi": "Đây là ngày trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào sự khởi đầu sứ vụ công khai của Chúa Giêsu và lời kêu gọi làm môn đệ.",
+    "body_en": "The Tuesday of the first week of Ordinary Time continues the theme of the new year's spiritual journey. In the Roman Rite, the Mass includes the Gospel of Mark (1:40-45), where Jesus heals a leper and commands him to show himself to the priest. This event marks the transition from the private life of Jesus to his public ministry. The faithful are invited to reflect on the power of Christ to heal and transform, and to respond with obedience and faith.",
+    "body_vi": "Thứ Ba tuần thứ nhất Mùa Thường Niên tiếp tục chủ đề hành trình tâm linh của năm mới. Trong Phụng Vụ Rôma, Thánh Lễ bao gồm Tin Mừng theo thánh Mác-cô (1:40-45), nơi Chúa Giêsu chữa lành một người phong hủi và truyền cho ông đến trình diện tư tế. Sự kiện này đánh dấu sự chuyển đổi từ đời sống ẩn dật của Chúa Giêsu sang sứ vụ công khai. Giáo dân được mời gọi suy gẫm về quyền năng chữa lành và biến đổi của Đấng Kitô, và đáp trả bằng sự vâng phục và đức tin.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time according to the General Roman Calendar.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Phụng Vụ Chung của Giáo Hội."
+  },
+  "app_hooks": {
+    "hero_line_en": "Heal and Transform: The Power of Christ's Ministry",
+    "hero_line_vi": "Chữa Lành và Biến Đổi: Quyền Năng Sứ Vụ của Đấng Kitô",
+    "prayer_prompt_en": "Lord Jesus, as You healed the leper, heal my wounds and transform my life. Help me to be obedient to Your will.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, như Ngài đã chữa lành người phong hủi, xin chữa lành những vết thương và biến đổi cuộc sống con. Xin giúp con vâng phục ý muốn của Ngài."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - Vatican.va",
+      "url": "https://www.vatican.va/archive/ENG0015/__P0A.HTM",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/liturgical-calendar",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-30",
+    "hebrew": "4 Shvat 5787",
+    "islamic_umm_al_qura": "3 Shaban 1448 AH",
+    "coptic": "4 Toba 1743",
+    "ethiopian": "4 Toba 1743"
+  }
+}

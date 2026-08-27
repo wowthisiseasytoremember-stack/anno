@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-01-24",
+  "date": "2027-01-24",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "green",
+    "title_en": "Third Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật Thứ Ba Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Third Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật Thứ Ba Mùa Thường Niên",
+    "summary_en": "The Third Sunday in Ordinary Time is a Sunday in the liturgical season of Ordinary Time, focusing on the proclamation of the Word of God and the call to discipleship. In 2027, it falls on January 24. The memorial of Saint Francis de Sales, Bishop and Doctor of the Church, is superseded by the Sunday liturgy.",
+    "summary_vi": "Chúa Nhật Thứ Ba Mùa Thường Niên là Chúa Nhật trong mùa Thường Niên, tập trung vào việc công bố Lời Chúa và ơn gọi làm môn đệ. Năm 2027, ngày này rơi vào 24 tháng 1. Lễ nhớ Thánh Phanxicô Salê, Giám mục và Tiến sĩ Hội Thánh, được thay thế bởi phụng vụ Chúa Nhật.",
+    "body_en": "The readings for this Sunday (Year C in the three-year cycle) typically include the proclamation of the Word of God from Nehemiah or Isaiah, the Psalm, and the Gospel according to Luke, where Jesus reads from the scroll of Isaiah in the synagogue at Nazareth and declares the fulfillment of the prophecy. The liturgy emphasizes the unity of the Body of Christ and the importance of listening to God's word. Since it is a Sunday, the memorial of Saint Francis de Sales is not observed liturgically, but the saint may still be honored in personal devotion.",
+    "body_vi": "Các bài đọc của Chúa Nhật này (Năm C trong chu kỳ ba năm) thường bao gồm việc công bố Lời Chúa từ sách Nêhêmia hoặc Isaia, Thánh Vịnh, và Tin Mừng theo thánh Luca, khi Chúa Giêsu đọc sách Isaia trong hội đường Nazareth và tuyên bố lời tiên tri được ứng nghiệm. Phụng vụ nhấn mạnh đến sự hiệp nhất của Thân Thể Chúa Kitô và tầm quan trọng của việc lắng nghe Lời Chúa. Vì là Chúa Nhật, lễ nhớ Thánh Phanxicô Salê không được cử hành trong phụng vụ, nhưng các tín hữu vẫn có thể tôn kính ngài trong đời sống riêng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a Sunday in Ordinary Time according to the General Roman Calendar; the memorial of St. Francis de Sales is superseded by the Sunday liturgy.",
+    "confidence_note_vi": "Ngày này là Chúa Nhật Mùa Thường Niên theo Lịch Rôma Tổng Quát; lễ nhớ Thánh Phanxicô Salê được thay thế bởi phụng vụ Chúa Nhật."
+  },
+  "app_hooks": {
+    "hero_line_en": "The Word of God is proclaimed and fulfilled in our midst.",
+    "hero_line_vi": "Lời Chúa được công bố và ứng nghiệm giữa chúng ta.",
+    "prayer_prompt_en": "Lord, open our hearts to receive Your Word and follow You more closely.",
+    "prayer_prompt_vi": "Lạy Chúa, xin mở lòng chúng con để đón nhận Lời Chúa và theo Chúa cách gần gũi hơn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for January 24, 2027",
+      "url": "https://bible.usccb.org/bible/readings/012427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent: St. Francis de Sales",
+      "url": "https://www.newadvent.org/cathen/06209a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican: General Roman Calendar",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020514_ordinamento-calendario_en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-11",
+    "hebrew": "16 Shvat 5787",
+    "islamic_umm_al_qura": "15 Shaban 1448 AH",
+    "coptic": "16 Toba 1743",
+    "ethiopian": "16 Toba 1743"
+  }
+}

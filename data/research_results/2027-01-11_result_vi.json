@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần II Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần II Thường Niên",
+    "summary_vi": "Đây là ngày trong tuần thứ hai của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào lời mời gọi làm môn đệ và quyền năng của Lời Chúa.",
+    "body_vi": "Phụng vụ ngày này tiếp tục các chủ đề của những tuần đầu Mùa Thường Niên, nhấn mạnh vào đời sống hằng ngày của Giáo Hội và phản hồi của tín hữu đối với giáo huấn của Chúa Kitô. Bài Tin Mừng thường làm nổi bật thẩm quyền của Chúa Giêsu và sự cần thiết của đức tin và sự vâng phục. Đây là thời gian để suy tư cá nhân và canh tân đời sống tâm linh.",
+    "confidence_note_vi": "Ngày thường chuẩn trong Mùa Thường Niên; không có thánh hay lễ nào thay thế hàng bậc feria trong Lịch Phụng Vụ Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe Lời Chúa và sống Lời ấy trong đời sống hằng ngày."
+  }
+}

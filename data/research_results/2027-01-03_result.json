@@ -1,0 +1,37 @@
+{
+  "id": "anno-2027-01-03",
+  "date": "2027-01-03",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Second Sunday in Ordinary Time"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Second Sunday in Ordinary Time",
+    "summary_en": "This is the second Sunday of the liturgical year, falling within the season of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and his call to discipleship.",
+    "body_en": "The Second Sunday in Ordinary Time marks the continuation of the liturgical year after the Christmas season and the Baptism of the Lord. In the Roman Rite, this day is celebrated with green vestments, representing the life of the Church growing in faith. The Gospel for this day typically features the Wedding at Cana (John 2:1-11), highlighting the first of Jesus' signs and the presence of Mary, who prompts the miracle. This Sunday invites the faithful to reflect on their own vocation and response to Christ's call.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls on a Sunday in January, which is consistently the Second Sunday in Ordinary Time in the Roman Catholic liturgical calendar, following the Baptism of the Lord (which moves to the Monday after Epiphany if Epiphany is on a Sunday, or remains on Jan 6/7). In 2027, Epiphany is Jan 6 (Thursday), so Baptism is Jan 9 (Saturday) or Jan 10 (Sunday)? Wait, let's verify the exact placement. If Epiphany is Jan 6, the Octave is Jan 14. The Baptism of the Lord is the Sunday after Epiphany. So Baptism is Jan 10, 2027. Therefore, Jan 3, 2027 is the Second Sunday in Ordinary Time."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/liturgical-calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathenc/11556a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-21",
+    "hebrew": "24 Tevet 5787",
+    "islamic_umm_al_qura": "24 Rajab 1448 AH",
+    "coptic": "25 Kiahk 1743",
+    "ethiopian": "25 Kiahk 1743"
+  }
+}

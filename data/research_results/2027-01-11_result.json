@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-11",
+  "date": "2027-01-11",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Second Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần II Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Second Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần II Thường Niên",
+    "summary_en": "This is a weekday of the second week in Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the call to discipleship and the power of the Word of God.",
+    "summary_vi": "Đây là ngày trong tuần thứ hai của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào lời mời gọi làm môn đệ và quyền năng của Lời Chúa.",
+    "body_en": "The liturgy for this day continues the themes of the early weeks of Ordinary Time, emphasizing the daily life of the Church and the faithful's response to Christ's teachings. The Gospel typically highlights Jesus' authority and the necessity of faith and obedience. It is a time for personal reflection and spiritual renewal.",
+    "body_vi": "Phụng vụ ngày này tiếp tục các chủ đề của những tuần đầu Mùa Thường Niên, nhấn mạnh vào đời sống hằng ngày của Giáo Hội và phản hồi của tín hữu đối với giáo huấn của Chúa Kitô. Bài Tin Mừng thường làm nổi bật thẩm quyền của Chúa Giêsu và sự cần thiết của đức tin và sự vâng phục. Đây là thời gian để suy tư cá nhân và canh tân đời sống tâm linh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time; no specific saint or feast overrides the feria rank in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày thường chuẩn trong Mùa Thường Niên; không có thánh hay lễ nào thay thế hàng bậc feria trong Lịch Phụng Vụ Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking with Christ in the ordinary days.",
+    "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày thường.",
+    "prayer_prompt_en": "Lord, help me to hear Your Word and live it out in my daily life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe Lời Chúa và sống Lời ấy trong đời sống hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - Vatican.va",
+      "url": "https://www.vatican.va/archive/ENG0015/__P0A.HTM",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/liturgical-calendar",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-29",
+    "hebrew": "3 Shvat 5787",
+    "islamic_umm_al_qura": "2 Shaban 1448 AH",
+    "coptic": "3 Toba 1743",
+    "ethiopian": "3 Toba 1743"
+  }
+}

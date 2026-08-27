@@ -1,0 +1,37 @@
+{
+  "id": "anno-2027-01-04",
+  "date": "2027-01-04",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the First Week in Ordinary Time"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the First Week in Ordinary Time",
+    "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+    "body_en": "January 4th falls within the first week of Ordinary Time, following the Solemnity of Mary, Mother of God. As a Monday Feria, it does not have a specific saint's feast that supersedes the daily liturgy in most regions, though local calendars may include optional memorials. The liturgical color is green, representing the ordinary life of the Church and the steady growth of faith. The Gospel for this day typically features the calling of the first disciples or the early teachings of Christ, inviting the faithful to reflect on their own vocation to follow Him.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard Roman Calendar assignment for this date in Ordinary Time."
+  },
+  "sources": [
+    {
+      "label": "USCCB General Calendar",
+      "url": "https://www.usccb.org/bible/mass/general-calendar.cfm",
+      "type": "vatican"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/liturgicalcalendar/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-22",
+    "hebrew": "25 Tevet 5787",
+    "islamic_umm_al_qura": "25 Rajab 1448 AH",
+    "coptic": "26 Kiahk 1743",
+    "ethiopian": "26 Kiahk 1743"
+  }
+}

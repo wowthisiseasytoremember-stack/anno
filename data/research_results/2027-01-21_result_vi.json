@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Agnès, Trinh Nữ Tử Đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Agnès, Trinh Nữ Tử Đạo",
+    "summary_vi": "Thánh Agnès là một trinh nữ và tử đạo trẻ người Rôma, đã chết vì đức tin vào khoảng năm 304. Ngài là một trong những vị tử đạo Kitô giáo sơ khai được tôn kính nhất, và tên ngài được nhắc đến trong Kinh Nguyện Thánh Thể (Roman Canon). Lễ kính ngài được cử hành vào ngày 21 tháng 1.",
+    "body_vi": "Agnès là một thiếu nữ Kitô giáo xuất thân từ gia đình quý tộc Rôma, đã chịu tử đạo trong cuộc bách hại của hoàng đế Diocletian vào đầu thế kỷ thứ tư. Theo truyền thống, ngài từ chối kết hôn và thánh hiến sự trinh khiết cho Chúa Kitô; khi những người cầu hôn tố cáo ngài là Kitô hữu, ngài bị tra tấn nhiều cách. Ngài vẫn kiên vững trong đức tin và bị xử tử bằng gươm. Di hài ngài được tôn kính tại Vương cung Thánh đường Sant'Agnese fuori le Mura ở Rôma, nơi vào ngày lễ kính ngài, hai con chiên được chúc lành, len của chúng được dùng để làm dây pallium cho các Tổng giám mục.",
+    "confidence_note_vi": "Lễ nhớ trong Lịch Rôma Tổng quát; được chứng thực rõ ràng về mặt lịch sử."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Một trinh nữ tử đạo trẻ người Rôma đã thánh hiến sự trinh khiết cho Chúa Kitô.",
+    "prayer_prompt_vi": "Thánh Agnès cầu cho chúng con, để chúng con trung thành với Chúa Kitô trong mọi thử thách."
+  }
+}

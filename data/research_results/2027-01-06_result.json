@@ -1,0 +1,37 @@
+{
+  "id": "anno-2027-01-06",
+  "date": "2027-01-06",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feast",
+    "color": "white",
+    "title_en": "The Epiphany of the Lord"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "The Epiphany of the Lord",
+    "summary_en": "The Epiphany is a major Christian feast celebrating the manifestation of Jesus Christ to the Gentiles, symbolized by the visit of the Magi. It marks the first public revelation of Christ's divinity to the world outside Israel. In the Roman Rite, it is celebrated on January 6, though some dioceses transfer it to the Sunday between January 2 and 8.",
+    "body_en": "The Feast of the Epiphany commemorates the appearance of the Star of Bethlehem and the adoration of the infant Jesus by the Magi from the East. This event signifies the inclusion of all nations in the salvation plan and the universal scope of Christ's mission. The liturgy emphasizes light and revelation, with readings focusing on Isaiah's prophecy of a great light arising for the nations and Paul's letter to the Ephesians regarding the mystery made known to the Gentiles. The feast is one of the highest rank in the liturgical calendar, often accompanied by the blessing of water and chalk for marking doorposts (C+M+B).",
+    "confidence": "confirmed",
+    "confidence_note_en": "January 6 is the fixed date for the Epiphany in the General Roman Calendar."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - Vatican",
+      "url": "https://www.vatican.va/archive/ENG0015/__P3O.HTM",
+      "type": "vatican"
+    },
+    {
+      "label": "Epiphany of the Lord - USCCB",
+      "url": "https://www.usccb.org/bible/readings/0106.htm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-24",
+    "hebrew": "27 Tevet 5787",
+    "islamic_umm_al_qura": "27 Rajab 1448 AH",
+    "coptic": "28 Kiahk 1743",
+    "ethiopian": "28 Kiahk 1743"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên",
+    "summary_vi": "Đây là ngày trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào sự khởi đầu sứ vụ công khai của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_vi": "Ngày 16 tháng 1 năm 2027 nằm trong tuần thứ nhất của Mùa Thường Niên. Là một ngày thường (feria) vào thứ Bảy, phụng vụ tuân theo cấu trúc ngày thường tiêu chuẩn với phẩm phục màu xanh lá cây. Ngày này mời gọi các tín hữu suy tư về đời sống hằng ngày của Chúa Kitô và công việc thánh hóa thầm lặng trong những khoảnh khắc bình thường của cuộc sống.",
+    "confidence_note_vi": "Phụng vụ ngày thường tiêu chuẩn cho ngày này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đi cùng Chúa Kitô trong những điều bình thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con tìm thấy sự hiện diện của Chúa trong các công việc hằng ngày của con."
+  }
+}

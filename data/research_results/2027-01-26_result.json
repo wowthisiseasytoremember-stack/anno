@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-26",
+  "date": "2027-01-26",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "memorial",
+    "color": "white",
+    "title_en": "Saints Timothy and Titus, Bishops",
+    "title_vi": "Thánh Timôthêu và Titô, Giám mục"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saints Timothy and Titus, Bishops",
+    "title_vi": "Thánh Timôthêu và Titô, Giám mục",
+    "summary_en": "Saints Timothy and Titus were early Christian bishops and close collaborators of the Apostle Paul. Timothy led the church in Ephesus, while Titus served as bishop of Crete. Both are named as recipients of the Pastoral Epistles in the New Testament. The General Roman Calendar commemorates them together on January 26.",
+    "summary_vi": "Thánh Timôthêu và Thánh Titô là những giám mục thời sơ khai và là cộng sự thân tín của Thánh Phaolô Tông đồ. Thánh Timôthêu coi sóc giáo đoàn Êphêsô, còn Thánh Titô phục vụ tại đảo Crêta. Cả hai đều là những người nhận các thư mục vụ của Thánh Phaolô trong Tân Ước. Phụng vụ Rôma cử hành lễ nhớ hai thánh vào ngày 26 tháng Giêng.",
+    "body_en": "Timothy was born in Lystra to a Jewish mother and a Greek father; he was circumcised by Paul and became his missionary companion. Paul entrusted him with the pastoral care of Ephesus, where he faced false teaching and the need for sound church order. Titus, a Greek convert, accompanied Paul to the Council of Jerusalem and was later left in Crete to appoint elders and correct what was lacking. The letters to Timothy and Titus, known as the Pastoral Epistles, offer enduring guidance for bishops, priests, and deacons. Their memorial was placed on January 26, following the feast of the Conversion of Saint Paul, to honor these two faithful disciples and shepherds.",
+    "body_vi": "Thánh Timôthêu sinh tại Lýt-ra, con của một người mẹ Do Thái và một người cha Hy Lạp; ngài được Thánh Phaolô cắt bì và trở thành bạn đồng hành trong các chuyến truyền giáo. Thánh Phaolô giao phó cho ngài việc coi sóc giáo đoàn Êphêsô, nơi phải đối diện với những giáo huấn sai lạc và nhu cầu thiết lập trật tự Hội Thánh. Thánh Titô, một tín hữu gốc Hy Lạp, đã cùng Thánh Phaolô lên Giêrusalem dự Công đồng, sau đó được để lại đảo Crêta để bổ nhiệm các kỳ mục và chỉnh đốn những gì còn thiếu sót. Các thư gửi cho Timôthêu và Titô, gọi là các thư mục vụ, mang lại những hướng dẫn lâu bền cho giám mục, linh mục và phó tế. Lễ nhớ hai thánh được đặt vào ngày 26 tháng Giêng, ngay sau lễ kính Thánh Phaolô Tông đồ trở lại, để tôn vinh hai môn đệ và mục tử trung thành này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The joint memorial of Saints Timothy and Titus is fixed in the General Roman Calendar on January 26.",
+    "confidence_note_vi": "Lễ nhớ chung hai thánh Timôthêu và Titô được ấn định trong Sách Lễ Rôma vào ngày 26 tháng Giêng."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faithful coworkers of Saint Paul, Timothy and Titus shepherded the early Church.",
+    "hero_line_vi": "Những cộng sự trung thành của Thánh Phaolô, Timôthêu và Titô đã chăn dắt Hội Thánh sơ khai.",
+    "prayer_prompt_en": "Pray for us, Saints Timothy and Titus, that we may serve the Church with faithful hearts.",
+    "prayer_prompt_vi": "Lạy hai thánh Timôthêu và Titô, xin cầu cho chúng con biết phục vụ Hội Thánh với lòng trung thành."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/012627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Franciscan Media Saint of the Day",
+      "url": "https://www.franciscanmedia.org/saint-of-the-day/saints-timothy-and-titus/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-13",
+    "hebrew": "18 Shvat 5787",
+    "islamic_umm_al_qura": "17 Shaban 1448 AH",
+    "coptic": "18 Toba 1743",
+    "ethiopian": "18 Toba 1743"
+  }
+}

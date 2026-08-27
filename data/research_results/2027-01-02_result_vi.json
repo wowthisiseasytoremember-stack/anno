@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên",
+    "summary_vi": "Đây là ngày thường (Feria) trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào khởi đầu sứ vụ công khai của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_vi": "Ngày 2 tháng 1 nằm trong tuần thứ nhất của Mùa Thường Niên, sau Lễ Trọng Đức Maria Mẹ Thiên Chúa. Là một ngày Thứ Bảy thường (Feria), ngày này không có lễ kính một vị thánh cụ thể nào thay thế chu kỳ hàng ngày ở hầu hết các vùng, mặc dù lịch địa phương có thể bao gồm các lễ nhớ tùy ý. Phụng vụ nhấn mạnh chủ đề hoán cải và sự khởi đầu sứ mệnh của Đấng Christ, mời gọi các tín hữu suy tư về ơn gọi và phản hồi của mình trước lời kêu gọi của Thiên Chúa trong thời kỳ tăng trưởng tâm linh này.",
+    "confidence_note_vi": "Gán theo Lịch Rôma Chung tiêu chuẩn cho ngày 2 tháng 1 khi không phải là Chúa Nhật hay lễ trọng lớn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước vào hành trình môn đệ với hy vọng xanh thẳm",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con đáp lại lời mời gọi của Ngài bằng lòng tin và sự trung thành."
+  }
+}

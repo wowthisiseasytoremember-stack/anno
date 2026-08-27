@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Các Thánh Fabianô và Sebastianô, Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Các Thánh Fabianô và Sebastianô, Tử đạo",
+    "summary_vi": "Ngày 20 tháng 1 là lễ nhớ tự chọn của hai thánh tử đạo Fabianô và Sebastianô tại Rôma. Thánh Fabianô làm Giáo hoàng từ năm 236 đến năm 250 và chịu tử đạo trong cuộc bách hại của hoàng đế Decius. Thánh Sebastianô là một quân nhân Rôma, đã chịu tử đạo vì đức tin. Lễ nhớ chung này phản ánh lòng tôn kính cổ xưa của Giáo hội Rôma đối với hai chứng nhân này.",
+    "body_vi": "Đức Giáo hoàng Fabianô kế vị thánh Anterô năm 236 và lãnh đạo Giáo hội trong thời kỳ tương đối hòa bình trước cuộc bách hại của Decius. Ngài tổ chức Giáo hội Rôma và được cho là đã chia thành phố thành bảy giáo phận. Ngài chịu chém đầu ngày 20 tháng 1 năm 250. Thánh Sebastianô, một sĩ quan trong quân đội đế quốc, đã dùng địa vị của mình để nâng đỡ các Kitô hữu cho đến khi bị phát giác; sau khi thoát chết trong lần hành quyết đầu tiên bằng tên, ngài bị đánh chết bằng dùi cui. Cả hai thánh nhân được tôn kính chung trong Sách Các Thánh Tử Đạo Rôma vào ngày này.",
+    "confidence_note_vi": "Sách Lịch Rôma Tổng Quát liệt kê lễ nhớ tự chọn của hai thánh Fabianô và Sebastianô vào ngày 20 tháng 1."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hai vị tử đạo Rôma, một Giáo hoàng và một quân nhân, làm chứng cho Chúa Kitô.",
+    "prayer_prompt_vi": "Hãy cầu nguyện nhờ lời chuyển cầu của hai thánh Fabianô và Sebastianô để được can đảm làm chứng cho đức tin."
+  }
+}

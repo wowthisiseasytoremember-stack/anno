@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật Thứ Ba Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật Thứ Ba Mùa Thường Niên",
+    "summary_vi": "Chúa Nhật Thứ Ba Mùa Thường Niên là Chúa Nhật trong mùa Thường Niên, tập trung vào việc công bố Lời Chúa và ơn gọi làm môn đệ. Năm 2027, ngày này rơi vào 24 tháng 1. Lễ nhớ Thánh Phanxicô Salê, Giám mục và Tiến sĩ Hội Thánh, được thay thế bởi phụng vụ Chúa Nhật.",
+    "body_vi": "Các bài đọc của Chúa Nhật này (Năm C trong chu kỳ ba năm) thường bao gồm việc công bố Lời Chúa từ sách Nêhêmia hoặc Isaia, Thánh Vịnh, và Tin Mừng theo thánh Luca, khi Chúa Giêsu đọc sách Isaia trong hội đường Nazareth và tuyên bố lời tiên tri được ứng nghiệm. Phụng vụ nhấn mạnh đến sự hiệp nhất của Thân Thể Chúa Kitô và tầm quan trọng của việc lắng nghe Lời Chúa. Vì là Chúa Nhật, lễ nhớ Thánh Phanxicô Salê không được cử hành trong phụng vụ, nhưng các tín hữu vẫn có thể tôn kính ngài trong đời sống riêng.",
+    "confidence_note_vi": "Ngày này là Chúa Nhật Mùa Thường Niên theo Lịch Rôma Tổng Quát; lễ nhớ Thánh Phanxicô Salê được thay thế bởi phụng vụ Chúa Nhật."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lời Chúa được công bố và ứng nghiệm giữa chúng ta.",
+    "prayer_prompt_vi": "Lạy Chúa, xin mở lòng chúng con để đón nhận Lời Chúa và theo Chúa cách gần gũi hơn."
+  }
+}

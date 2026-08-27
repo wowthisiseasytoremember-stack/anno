@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-20",
+  "date": "2027-01-20",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "optional_memorial",
+    "color": "red",
+    "title_en": "Saints Fabian and Sebastian, Martyrs",
+    "title_vi": "Các Thánh Fabianô và Sebastianô, Tử đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saints Fabian and Sebastian, Martyrs",
+    "title_vi": "Các Thánh Fabianô và Sebastianô, Tử đạo",
+    "summary_en": "January 20 is the optional memorial of Saints Fabian and Sebastian, two early Roman martyrs. Fabian was pope from 236 to 250 and was martyred during the Decian persecution. Sebastian was a Roman soldier who was martyred for his faith in Rome. Their combined memorial preserves the ancient Roman veneration of these two witnesses.",
+    "summary_vi": "Ngày 20 tháng 1 là lễ nhớ tự chọn của hai thánh tử đạo Fabianô và Sebastianô tại Rôma. Thánh Fabianô làm Giáo hoàng từ năm 236 đến năm 250 và chịu tử đạo trong cuộc bách hại của hoàng đế Decius. Thánh Sebastianô là một quân nhân Rôma, đã chịu tử đạo vì đức tin. Lễ nhớ chung này phản ánh lòng tôn kính cổ xưa của Giáo hội Rôma đối với hai chứng nhân này.",
+    "body_en": "Pope Fabian succeeded Anterus in 236 and governed the Church during a period of relative peace before the Decian persecution. He organized the Roman Church and is said to have divided the city into seven deaconries. He was beheaded on January 20, 250. Sebastian, an officer in the imperial army, used his position to strengthen Christians until he was discovered; after surviving an initial attempt to execute him by arrows, he was clubbed to death. Both saints are honored together in the Roman Martyrology on this day.",
+    "body_vi": "Đức Giáo hoàng Fabianô kế vị thánh Anterô năm 236 và lãnh đạo Giáo hội trong thời kỳ tương đối hòa bình trước cuộc bách hại của Decius. Ngài tổ chức Giáo hội Rôma và được cho là đã chia thành phố thành bảy giáo phận. Ngài chịu chém đầu ngày 20 tháng 1 năm 250. Thánh Sebastianô, một sĩ quan trong quân đội đế quốc, đã dùng địa vị của mình để nâng đỡ các Kitô hữu cho đến khi bị phát giác; sau khi thoát chết trong lần hành quyết đầu tiên bằng tên, ngài bị đánh chết bằng dùi cui. Cả hai thánh nhân được tôn kính chung trong Sách Các Thánh Tử Đạo Rôma vào ngày này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The General Roman Calendar lists the optional memorial of Saints Fabian and Sebastian on January 20.",
+    "confidence_note_vi": "Sách Lịch Rôma Tổng Quát liệt kê lễ nhớ tự chọn của hai thánh Fabianô và Sebastianô vào ngày 20 tháng 1."
+  },
+  "app_hooks": {
+    "hero_line_en": "Two Roman martyrs, a pope and a soldier, witness to Christ.",
+    "hero_line_vi": "Hai vị tử đạo Rôma, một Giáo hoàng và một quân nhân, làm chứng cho Chúa Kitô.",
+    "prayer_prompt_en": "Pray through the intercession of Saints Fabian and Sebastian for courage in bearing witness to the faith.",
+    "prayer_prompt_vi": "Hãy cầu nguyện nhờ lời chuyển cầu của hai thánh Fabianô và Sebastianô để được can đảm làm chứng cho đức tin."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar/2027/1/20",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Online Saint of the Day",
+      "url": "https://www.catholic.org/saints/sofd.php?date=2027-01-20",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-07",
+    "hebrew": "12 Shvat 5787",
+    "islamic_umm_al_qura": "11 Shaban 1448 AH",
+    "coptic": "12 Toba 1743",
+    "ethiopian": "12 Toba 1743"
+  }
+}

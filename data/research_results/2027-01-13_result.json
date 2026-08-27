@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-13",
+  "date": "2027-01-13",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the First Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the First Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần I Mùa Thường Niên",
+    "summary_en": "This is a weekday of the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the early life of Jesus and the call to discipleship.",
+    "summary_vi": "Đây là ngày trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu tượng của hy vọng và sự tăng trưởng. Các bài đọc tập trung vào thời thơ ấu của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_en": "January 13, 2027, falls on a Wednesday during the first week of Ordinary Time. In the Roman Rite, this period is dedicated to the gradual unfolding of the mystery of Christ after the Christmas season. As a feria (weekday), the Mass follows the standard structure for weekdays in Ordinary Time, with no specific saint's feast taking precedence over the daily cycle unless a local particular is observed.",
+    "body_vi": "Ngày 13 tháng 1 năm 2027 rơi vào thứ Ba trong tuần thứ nhất của Mùa Thường Niên. Trong Phụng Vụ Rôma, giai đoạn này được dành để dần dần khám phá mầu nhiệm của Đức Kitô sau mùa Giáng Sinh. Là một ngày thường (feria), Thánh Lễ tuân theo cấu trúc chuẩn cho các ngày trong tuần của Mùa Thường Niên, không có lễ kính thánh nào cụ thể vượt trội hơn chu kỳ hàng ngày trừ khi có một lễ riêng địa phương được cử hành.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time based on the General Roman Calendar.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên dựa trên Lịch Phụng Vụ Chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking with Christ in the quiet days of Ordinary Time.",
+    "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me to find Your presence in the ordinary moments of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày con."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - Vatican",
+      "url": "https://www.vatican.va/archive/ENG/CHURCH/P05489/05489.htm",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/liturgical-calendar",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-31",
+    "hebrew": "5 Shvat 5787",
+    "islamic_umm_al_qura": "4 Shaban 1448 AH",
+    "coptic": "5 Toba 1743",
+    "ethiopian": "5 Toba 1743"
+  }
+}

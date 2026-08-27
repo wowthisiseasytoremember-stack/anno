@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Timôthêu và Titô, Giám mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Timôthêu và Titô, Giám mục",
+    "summary_vi": "Thánh Timôthêu và Thánh Titô là những giám mục thời sơ khai và là cộng sự thân tín của Thánh Phaolô Tông đồ. Thánh Timôthêu coi sóc giáo đoàn Êphêsô, còn Thánh Titô phục vụ tại đảo Crêta. Cả hai đều là những người nhận các thư mục vụ của Thánh Phaolô trong Tân Ước. Phụng vụ Rôma cử hành lễ nhớ hai thánh vào ngày 26 tháng Giêng.",
+    "body_vi": "Thánh Timôthêu sinh tại Lýt-ra, con của một người mẹ Do Thái và một người cha Hy Lạp; ngài được Thánh Phaolô cắt bì và trở thành bạn đồng hành trong các chuyến truyền giáo. Thánh Phaolô giao phó cho ngài việc coi sóc giáo đoàn Êphêsô, nơi phải đối diện với những giáo huấn sai lạc và nhu cầu thiết lập trật tự Hội Thánh. Thánh Titô, một tín hữu gốc Hy Lạp, đã cùng Thánh Phaolô lên Giêrusalem dự Công đồng, sau đó được để lại đảo Crêta để bổ nhiệm các kỳ mục và chỉnh đốn những gì còn thiếu sót. Các thư gửi cho Timôthêu và Titô, gọi là các thư mục vụ, mang lại những hướng dẫn lâu bền cho giám mục, linh mục và phó tế. Lễ nhớ hai thánh được đặt vào ngày 26 tháng Giêng, ngay sau lễ kính Thánh Phaolô Tông đồ trở lại, để tôn vinh hai môn đệ và mục tử trung thành này.",
+    "confidence_note_vi": "Lễ nhớ chung hai thánh Timôthêu và Titô được ấn định trong Sách Lễ Rôma vào ngày 26 tháng Giêng."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Những cộng sự trung thành của Thánh Phaolô, Timôthêu và Titô đã chăn dắt Hội Thánh sơ khai.",
+    "prayer_prompt_vi": "Lạy hai thánh Timôthêu và Titô, xin cầu cho chúng con biết phục vụ Hội Thánh với lòng trung thành."
+  }
+}

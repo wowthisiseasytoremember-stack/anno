@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-16",
+  "date": "2027-01-16",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the First Week of Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the First Week of Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên",
+    "summary_en": "This is a weekday in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
+    "summary_vi": "Đây là ngày trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào sự khởi đầu sứ vụ công khai của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_en": "January 16, 2027, falls in the first week of Ordinary Time. As a Saturday feria, the liturgy follows the standard weekday structure with green vestments. The day invites the faithful to reflect on the daily life of Christ and the quiet work of sanctification in the ordinary moments of life.",
+    "body_vi": "Ngày 16 tháng 1 năm 2027 nằm trong tuần thứ nhất của Mùa Thường Niên. Là một ngày thường (feria) vào thứ Bảy, phụng vụ tuân theo cấu trúc ngày thường tiêu chuẩn với phẩm phục màu xanh lá cây. Ngày này mời gọi các tín hữu suy tư về đời sống hằng ngày của Chúa Kitô và công việc thánh hóa thầm lặng trong những khoảnh khắc bình thường của cuộc sống.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday liturgy for the date.",
+    "confidence_note_vi": "Phụng vụ ngày thường tiêu chuẩn cho ngày này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking with Christ in the ordinary.",
+    "hero_line_vi": "Đi cùng Chúa Kitô trong những điều bình thường.",
+    "prayer_prompt_en": "Lord, teach me to find Your presence in my daily tasks.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con tìm thấy sự hiện diện của Chúa trong các công việc hằng ngày của con."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - Vatican.va",
+      "url": "https://www.vatican.va/archive/ENG/CHP20C/DOC_CHP20C_00033.htm",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/liturgical-calendar",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-03",
+    "hebrew": "8 Shvat 5787",
+    "islamic_umm_al_qura": "7 Shaban 1448 AH",
+    "coptic": "8 Toba 1743",
+    "ethiopian": "8 Toba 1743"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-01-23",
+  "date": "2027-01-23",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "memorial",
+    "color": "red",
+    "title_en": "St. Vincent of Saragossa, Deacon and Martyr",
+    "title_vi": "Thánh Vinh Sơn Saragossa, Phó Tế Tử Đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Vincent of Saragossa, Deacon and Martyr",
+    "title_vi": "Thánh Vinh Sơn Saragossa, Phó Tế Tử Đạo",
+    "summary_en": "St. Vincent of Saragossa was a deacon of the Church in Spain who suffered martyrdom under the Roman emperor Diocletian in the early 4th century. He is one of the most celebrated martyrs of the early Church, and his cult spread widely throughout the West. His memorial is observed on January 23 in the General Roman Calendar.",
+    "summary_vi": "Thánh Vinh Sơn Saragossa là phó tế của Giáo hội Tây Ban Nha, chịu tử đạo dưới thời hoàng đế Diocletian vào đầu thế kỷ thứ 4. Ngài là một trong những vị tử đạo nổi tiếng nhất của Giáo hội sơ khai, và lòng sùng kính Ngài lan rộng khắp phương Tây. Lễ nhớ của Ngài được cử hành vào ngày 23 tháng 1 trong Lịch Rôma tổng quát.",
+    "body_en": "Vincent was born at Huesca and served as deacon to St. Valerius, Bishop of Saragossa. During the persecution of Diocletian, he was arrested and tortured, remaining steadfast in his faith. He died from the effects of his torments, and his relics were later venerated in Valencia and Lisbon. He is the patron saint of vintners and winegrowers.",
+    "body_vi": "Vinh Sơn sinh tại Huesca và phục vụ như phó tế cho Thánh Valerius, Giám mục Saragossa. Trong cuộc bách hại của Diocletian, Ngài bị bắt và tra tấn, nhưng vẫn kiên vững trong đức tin. Ngài chết vì hậu quả của những cuộc tra tấn, và di hài của Ngài sau đó được tôn kính tại Valencia và Lisbon. Ngài là quan thầy của những người trồng nho và làm rượu.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This memorial is listed in the General Roman Calendar for January 23.",
+    "confidence_note_vi": "Lễ nhớ này được ghi trong Lịch Rôma tổng quát ngày 23 tháng 1."
+  },
+  "app_hooks": {
+    "hero_line_en": "A deacon's courage in the face of death",
+    "hero_line_vi": "Lòng can đảm của một phó tế trước cái chết",
+    "prayer_prompt_en": "St. Vincent, pray for us, that we may remain faithful in trials.",
+    "prayer_prompt_vi": "Thánh Vinh Sơn, cầu cho chúng con, để chúng con trung thành trong thử thách."
+  },
+  "sources": [
+    {
+      "label": "Catholic Encyclopedia (New Advent)",
+      "url": "https://www.newadvent.org/cathen/15434a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/readings/2027-01-23",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican General Roman Calendar",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020514_ordinamento-del-calendario-romano_en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-10",
+    "hebrew": "15 Shvat 5787",
+    "islamic_umm_al_qura": "14 Shaban 1448 AH",
+    "coptic": "15 Toba 1743",
+    "ethiopian": "15 Toba 1743"
+  }
+}

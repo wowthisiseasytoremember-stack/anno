@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Vinh Sơn Saragossa, Phó Tế Tử Đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Vinh Sơn Saragossa, Phó Tế Tử Đạo",
+    "summary_vi": "Thánh Vinh Sơn Saragossa là phó tế của Giáo hội Tây Ban Nha, chịu tử đạo dưới thời hoàng đế Diocletian vào đầu thế kỷ thứ 4. Ngài là một trong những vị tử đạo nổi tiếng nhất của Giáo hội sơ khai, và lòng sùng kính Ngài lan rộng khắp phương Tây. Lễ nhớ của Ngài được cử hành vào ngày 23 tháng 1 trong Lịch Rôma tổng quát.",
+    "body_vi": "Vinh Sơn sinh tại Huesca và phục vụ như phó tế cho Thánh Valerius, Giám mục Saragossa. Trong cuộc bách hại của Diocletian, Ngài bị bắt và tra tấn, nhưng vẫn kiên vững trong đức tin. Ngài chết vì hậu quả của những cuộc tra tấn, và di hài của Ngài sau đó được tôn kính tại Valencia và Lisbon. Ngài là quan thầy của những người trồng nho và làm rượu.",
+    "confidence_note_vi": "Lễ nhớ này được ghi trong Lịch Rôma tổng quát ngày 23 tháng 1."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lòng can đảm của một phó tế trước cái chết",
+    "prayer_prompt_vi": "Thánh Vinh Sơn, cầu cho chúng con, để chúng con trung thành trong thử thách."
+  }
+}

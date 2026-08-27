@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chủ Nhật II Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chủ Nhật II Thường Niên",
+    "summary_vi": "Đây là Chúa nhật thứ hai của năm phụng vụ, nằm trong mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào lời mời gọi làm môn đệ và sứ mệnh của Đức Kitô.",
+    "body_vi": "Chúa nhật II Thường Niên đánh dấu sự tiếp tục của hành trình phụng vụ sau mùa Giáng Sinh và lễ Chúa Giêsu chịu phép Rửa. Trong Năm A, bài Tin Mừng thường là biến cố Hôn nhân tại Cana, nêu bật dấu chỉ công khai đầu tiên về vinh quang của Chúa Giêsu. Ngày này mời gọi các tín hữu suy tư về ơn gọi của chính mình và sự đáp trả trước lời kêu gọi của Thiên Chúa, nhấn mạnh rằng mùa Thường Niên là thời gian để đào sâu đức tin qua việc tham dự thường xuyên vào các bí tích và cầu nguyện.",
+    "confidence_note_vi": "Tính toán lịch phụng vụ tiêu chuẩn dựa trên ngày này là Chúa nhật thứ hai sau lễ Chúa Giêsu chịu phép Rửa (lễ này rơi vào ngày 3 tháng 1 năm 2027)."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hưởng ứng lời mời gọi đi theo Chúa Kitô trong đời thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nghe được tiếng Chúa trong những khoảnh khắc tĩnh lặng của cuộc sống hằng ngày."
+  }
+}

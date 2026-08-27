@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-01-25",
+  "date": "2027-01-25",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feast",
+    "color": "white",
+    "title_en": "Conversion of Saint Paul the Apostle",
+    "title_vi": "Lễ Thánh Phaolô Tông Đồ Trở Lại"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Conversion of Saint Paul the Apostle",
+    "title_vi": "Lễ Thánh Phaolô Tông Đồ Trở Lại",
+    "summary_en": "The Feast of the Conversion of Saint Paul the Apostle commemorates the dramatic transformation of Saul of Tarsus, a fierce persecutor of Christians, into Paul, the greatest missionary of the early Church. According to the Acts of the Apostles, he encountered the risen Christ on the road to Damascus and was baptized. This feast emphasizes the power of God's grace to change hearts and the universal call to conversion.",
+    "summary_vi": "Lễ Thánh Phaolô Tông đồ trở lại kính nhớ biến cố biến đổi kỳ diệu của Saolô thành Tarsô, một kẻ hăng say bắt bớ các Kitô hữu, trở thành Phaolô, nhà truyền giáo vĩ đại nhất của Giáo hội sơ khai. Theo sách Công vụ Tông đồ, ông đã gặp Đức Kitô phục sinh trên đường đi Đamas và được rửa tội. Lễ này nhấn mạnh sức mạnh của ân sủng Thiên Chúa có thể thay đổi tâm hồn và ơn gọi hoán cải phổ quát.",
+    "body_en": "The Conversion of Saint Paul is one of the most significant events in Christian history. Born as Saul in Tarsus, he was a zealous Pharisee who persecuted the early Church. While traveling to Damascus to arrest Christians, he was struck down by a blinding light and heard the voice of Jesus asking, 'Saul, Saul, why do you persecute me?' Blinded for three days, he was healed by Ananias and baptized. He then spent years in prayer and preparation before becoming the Apostle to the Gentiles, writing many of the New Testament epistles. His conversion is celebrated on January 25, and the feast is often concluded with the Week of Prayer for Christian Unity.",
+    "body_vi": "Lễ trở lại của Thánh Phaolô là một trong những biến cố quan trọng nhất trong lịch sử Kitô giáo. Sinh ra với tên Saolô tại Tarsô, ông là một người Pharisêu nhiệt thành đã bắt bớ Giáo hội sơ khai. Trên đường đi Đamas để bắt các Kitô hữu, ông bị một luồng ánh sáng chói lòa quật ngã và nghe tiếng Chúa Giêsu hỏi: 'Saolô, Saolô, sao ngươi bắt bớ Ta?' Bị mù trong ba ngày, ông được ông Anania chữa lành và chịu phép rửa. Sau đó, ông dành nhiều năm cầu nguyện và chuẩn bị trước khi trở thành Tông đồ dân ngoại, viết nhiều thư trong Tân Ước. Lễ này được cử hành vào ngày 25 tháng Giêng và thường kết thúc Tuần Cầu Nguyện cho Hiệp Nhất Kitô Giáo.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This feast is fixed on January 25 in the General Roman Calendar.",
+    "confidence_note_vi": "Lễ này được cử hành cố định vào ngày 25 tháng 1 trong Lịch Rôma tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "A persecutor becomes an apostle.",
+    "hero_line_vi": "Kẻ bắt bớ trở thành tông đồ.",
+    "prayer_prompt_en": "Lord, convert my heart as you converted Saint Paul.",
+    "prayer_prompt_vi": "Lạy Chúa, xin hoán cải tâm hồn con như Chúa đã hoán cải thánh Phaolô."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Online - St. Paul",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=91",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "New Advent - St. Paul",
+      "url": "https://www.newadvent.org/cathen/11567b.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-12",
+    "hebrew": "17 Shvat 5787",
+    "islamic_umm_al_qura": "16 Shaban 1448 AH",
+    "coptic": "17 Toba 1743",
+    "ethiopian": "17 Toba 1743"
+  }
+}

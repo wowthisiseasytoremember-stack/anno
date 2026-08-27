@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật II Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật II Mùa Thường Niên",
+    "summary_vi": "Đây là Chúa nhật thứ hai của năm phụng vụ, nằm trong mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào khởi đầu sứ vụ công khai của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_vi": "Chúa Nhật II Mùa Thường Niên đánh dấu sự tiếp nối của năm phụng vụ sau mùa Giáng Sinh và lễ Chúa Giêsu chịu phép Rửa. Trong Nghi thức La Mã, ngày này được cử hành với phẩm phục màu xanh lá, biểu trưng cho đời sống của Giáo Hội đang lớn lên trong đức tin. Bài Tin Mừng của ngày này thường trình bày biến cố Hôn nhân tại Cana (Ga 2:1-11), nổi bật với dấu chỉ đầu tiên của Chúa Giêsu và sự hiện diện của Đức Maria, Đấng đã thúc đẩy phép lạ. Chúa Nhật này mời gọi các tín hữu suy tư về ơn gọi riêng và phản hồi trước lời kêu gọi của Đức Kitô.",
+    "confidence_note_vi": "Ngày này rơi vào một Chủ nhật trong tháng Giêng, luôn là Chúa Nhật II Mùa Thường Niên trong lịch phụng vụ Công giáo La Mã, sau lễ Chúa Giêsu chịu phép Rửa. Năm 2027, lễ Hiển Linh rơi vào thứ Năm 6/1, do đó lễ Chúa Giêsu chịu phép Rửa sẽ vào Chúa Nhật 10/1. Vì vậy, 3/1/2027 là Chúa Nhật II Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sứ vụ đầu tiên: Dấu chỉ tình yêu tại Cana",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhạy cảm trước những dấu chỉ nhỏ bé trong cuộc sống để nhận ra sự hiện diện của Ngài."
+  }
+}

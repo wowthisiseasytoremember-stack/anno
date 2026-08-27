@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Vinh Sơn Saragossa"
+  },
+  "primary": {
+    "title_vi": "Thánh Vinh Sơn Saragossa",
+    "summary_vi": "Thánh Vinh Sơn Saragossa là một phó tế của Giáo hội tại Tây Ban Nha, chịu tử đạo dưới thời hoàng đế Diocletian vào đầu thế kỷ IV. Ngài được tôn kính như một trong những vị tử đạo nổi tiếng nhất của bán đảo Iberia. Chứng tá can đảm và đức tin kiên vững của ngài đã truyền cảm hứng cho lòng sùng kính qua nhiều thế kỷ.",
+    "body_vi": "Theo truyền thống, thánh Vinh Sơn sinh tại Huesca và làm phó tế cho giám mục Valerius của Saragossa. Trong cuộc bách hại của Diocletian, ngài bị bắt và chịu những cực hình khủng khiếp, bao gồm bị kéo giãn trên giá và bị thiêu bằng bàn là nóng. Ngài chịu đựng những đau đớn này với niềm vui đến mức các lính canh đã được ơn trở lại. Ngài chết vì những cực hình đó, và di tích của ngài sau này được tôn kính tại Valencia và Lisbon. Lễ kính ngài được cử hành vào ngày 22 tháng 1 trong Giáo hội Công giáo Rôma.",
+    "confidence_note_vi": "Thánh Vinh Sơn Saragossa là một vị tử đạo lịch sử được ghi nhận rõ ràng trong Sách Các Thánh Tử Đạo Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Vị phó tế biến cực hình thành chiến thắng.",
+    "prayer_prompt_vi": "Thánh Vinh Sơn, xin cầu cho chúng ta được can đảm và vui tươi khi chịu thử thách."
+  }
+}

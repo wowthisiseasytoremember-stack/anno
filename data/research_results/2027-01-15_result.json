@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-15",
+  "date": "2027-01-15",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Second Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần II Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Second Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần II Mùa Thường Niên",
+    "summary_en": "This is a weekday of Ordinary Time, specifically the second week after Epiphany. The liturgical color is green, symbolizing hope and growth. There is no specific saint's feast mandated for this date in the General Roman Calendar.",
+    "summary_vi": "Đây là ngày trong tuần của Mùa Thường Niên, cụ thể là tuần thứ hai sau lễ Hiển Linh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Không có lễ kính thánh nào được quy định cụ thể cho ngày này trong Lịch Phụng Vụ Rôma Chung.",
+    "body_en": "January 15, 2027, falls on a Friday during the second week of Ordinary Time. In the Catholic liturgical calendar, this period is dedicated to the daily life of Christ and the Church, focusing on the teachings of Jesus and the growth of the faithful. As a feria (weekday), the Mass readings are determined by the lectionary for the specific week and day. The faithful are encouraged to participate in the Eucharist and engage in acts of charity and prayer appropriate to the season.",
+    "body_vi": "Ngày 15 tháng 1 năm 2027 rơi vào thứ Sáu trong tuần thứ hai của Mùa Thường Niên. Trong lịch phụng vụ Công giáo, thời kỳ này được dành cho đời sống hằng ngày của Chúa Kitô và Giáo Hội, tập trung vào các giáo huấn của Chúa Giêsu và sự trưởng thành của các tín hữu. Là một ngày thường (feria), các bài đọc trong Thánh Lễ được xác định bởi Kinh Thánh theo tuần và ngày cụ thể. Các tín hữu được khuyến khích tham dự Thánh Thể và thực hiện các việc bác ái và cầu nguyện phù hợp với mùa phụng vụ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time with no conflicting feast or memorial in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên, không có lễ hay nhớ nào xung đột trong Lịch Phụng Vụ Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking with Christ in the quiet days of Ordinary Time.",
+    "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me to find Your presence in the ordinary moments of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày con."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar - Vatican.va",
+      "url": "https://www.vatican.va/archive/ENG0015/__P3C.HTM",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/liturgical-calendar",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-02",
+    "hebrew": "7 Shvat 5787",
+    "islamic_umm_al_qura": "6 Shaban 1448 AH",
+    "coptic": "7 Toba 1743",
+    "ethiopian": "7 Toba 1743"
+  }
+}

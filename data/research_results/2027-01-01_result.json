@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-01-01",
+  "date": "2027-01-01",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Mary, Mother of God",
+    "title_vi": "Đức Maria, Mẹ Thiên Chúa"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Mary, Mother of God",
+    "title_vi": "Đức Maria, Mẹ Thiên Chúa",
+    "summary_en": "The Solemnity of Mary, Mother of God is celebrated on the Octave Day of Christmas, January 1. It honors the divine maternity of the Blessed Virgin Mary, a truth defined at the Council of Ephesus in 431. The day also marks the World Day of Peace, established by Pope Paul VI in 1967.",
+    "summary_vi": "Lễ Đức Maria, Mẹ Thiên Chúa được cử hành vào ngày Bát Nhật Giáng Sinh, ngày 1 tháng Giêng. Lễ này tôn kính thiên chức làm Mẹ Thiên Chúa của Đức Trinh Nữ Maria, một chân lý được định tín tại Công đồng Êphêsô năm 431. Ngày này cũng là Ngày Thế giới cầu cho Hòa bình, được Đức Giáo hoàng Phaolô VI thiết lập năm 1967.",
+    "body_en": "This solemnity is the oldest Marian feast in the Western Church, originally celebrated as the feast of the Maternity of the Blessed Virgin. The Gospel reading for the day recounts the shepherds' visit to Bethlehem and Mary's contemplation of these events. The liturgical texts emphasize Mary's role in the Incarnation and her intercession for the Church. In many countries, it is a holy day of obligation.",
+    "body_vi": "Lễ này là lễ kính Đức Mẹ xưa nhất trong Giáo hội Tây phương, nguyên được cử hành như lễ 'Thiên Chức Mẹ của Đức Trinh Nữ'. Bài Tin Mừng trong ngày thuật lại việc các mục tử đến thăm Bêlem và việc Đức Maria ghi nhớ và suy niệm những biến cố ấy trong lòng. Các bản văn phụng vụ nhấn mạnh vai trò của Đức Maria trong mầu nhiệm Nhập Thể và sự chuyển cầu của Mẹ cho Hội Thánh. Tại nhiều quốc gia, đây là ngày lễ buộc.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This is a fixed solemnity on the General Roman Calendar for January 1.",
+    "confidence_note_vi": "Đây là lễ trọng thể cố định trong Lịch Rôma tổng quát ngày 1 tháng Giêng."
+  },
+  "app_hooks": {
+    "hero_line_en": "Mary, Mother of God, pray for us!",
+    "hero_line_vi": "Lạy Mẹ Thiên Chúa, xin cầu cho chúng con!",
+    "prayer_prompt_en": "Pray the Hail Mary, asking Our Lady's intercession for peace in the new year.",
+    "prayer_prompt_vi": "Đọc kinh Kính Mừng, xin Mẹ chuyển cầu cho hòa bình trong năm mới."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Solemnity of Mary, Mother of God",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/solemnity-of-mary-mother-of-god",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org - Feast of Mary, Mother of God",
+      "url": "https://www.catholic.org/saints/feastday.php?ID=3",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - The Blessed Virgin Mary",
+      "url": "https://www.newadvent.org/cathen/15459a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2026-12-19",
+    "hebrew": "22 Tevet 5787",
+    "islamic_umm_al_qura": "22 Rajab 1448 AH",
+    "coptic": "23 Kiahk 1743",
+    "ethiopian": "23 Kiahk 1743"
+  }
+}

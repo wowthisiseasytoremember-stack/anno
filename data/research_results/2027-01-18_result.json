@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-01-18",
+  "date": "2027-01-18",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Second Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần II Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Second Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần II Mùa Thường Niên",
+    "summary_en": "In the General Roman Calendar, January 18 is a feria (weekday) in Ordinary Time. No obligatory memorial is celebrated on this date. The liturgical color is green, and the Mass and Office are of the weekday.",
+    "summary_vi": "Theo Lịch Rôma Tổng quát, ngày 18 tháng 1 là ngày thường trong Mùa Thường Niên. Không có lễ nhớ bắt buộc nào được cử hành vào ngày này. Màu phụng vụ là màu xanh lục, và Thánh lễ cùng Phụng vụ các giờ kinh là của ngày thường.",
+    "body_en": "This Monday of the Second Week in Ordinary Time follows the Baptism of the Lord and the beginning of Ordinary Time. The readings are from the weekday lectionary, and the prayers of the Mass reflect the current week. In the Extraordinary Form of the Roman Rite, this date was formerly observed as the Feast of the Chair of Saint Peter at Rome, but that feast now occurs on February 22.",
+    "body_vi": "Thứ Hai này của Tuần II Mùa Thường Niên diễn ra sau Lễ Chúa Giêsu Chịu Phép Rửa và khởi đầu Mùa Thường Niên. Các bài đọc được lấy từ sách bài đọc ngày thường, và các lời nguyện trong Thánh Lễ phản ánh tuần hiện tại. Trong Hình thức ngoại thường của Nghi lễ Rôma, ngày này trước đây được cử hành như Lễ Tòa Thánh Phêrô tại Rôma, nhưng lễ đó hiện nay được cử hành vào ngày 22 tháng 2.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on the General Roman Calendar (editio typica) and the liturgical calendar for 2027.",
+    "confidence_note_vi": "Dựa trên Lịch Rôma Tổng quát (ấn bản điển hình) và lịch phụng vụ năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Monday of the Second Week in Ordinary Time",
+    "hero_line_vi": "Thứ Hai Tuần II Mùa Thường Niên",
+    "prayer_prompt_en": "Pray for the grace to live this ordinary day with love.",
+    "prayer_prompt_vi": "Cầu xin ơn để sống ngày thường này trong tình yêu thương."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB Daily Readings for January 18, 2027",
+      "url": "https://bible.usccb.org/bible/readings/011827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia: Chair of St. Peter",
+      "url": "https://www.newadvent.org/cathen/03644a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-05",
+    "hebrew": "10 Shvat 5787",
+    "islamic_umm_al_qura": "9 Shaban 1448 AH",
+    "coptic": "10 Toba 1743",
+    "ethiopian": "10 Toba 1743"
+  }
+}

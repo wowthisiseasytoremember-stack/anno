@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Thánh Phaolô Tông Đồ Trở Lại"
+  },
+  "primary": {
+    "title_vi": "Lễ Thánh Phaolô Tông Đồ Trở Lại",
+    "summary_vi": "Lễ Thánh Phaolô Tông đồ trở lại kính nhớ biến cố biến đổi kỳ diệu của Saolô thành Tarsô, một kẻ hăng say bắt bớ các Kitô hữu, trở thành Phaolô, nhà truyền giáo vĩ đại nhất của Giáo hội sơ khai. Theo sách Công vụ Tông đồ, ông đã gặp Đức Kitô phục sinh trên đường đi Đamas và được rửa tội. Lễ này nhấn mạnh sức mạnh của ân sủng Thiên Chúa có thể thay đổi tâm hồn và ơn gọi hoán cải phổ quát.",
+    "body_vi": "Lễ trở lại của Thánh Phaolô là một trong những biến cố quan trọng nhất trong lịch sử Kitô giáo. Sinh ra với tên Saolô tại Tarsô, ông là một người Pharisêu nhiệt thành đã bắt bớ Giáo hội sơ khai. Trên đường đi Đamas để bắt các Kitô hữu, ông bị một luồng ánh sáng chói lòa quật ngã và nghe tiếng Chúa Giêsu hỏi: 'Saolô, Saolô, sao ngươi bắt bớ Ta?' Bị mù trong ba ngày, ông được ông Anania chữa lành và chịu phép rửa. Sau đó, ông dành nhiều năm cầu nguyện và chuẩn bị trước khi trở thành Tông đồ dân ngoại, viết nhiều thư trong Tân Ước. Lễ này được cử hành vào ngày 25 tháng Giêng và thường kết thúc Tuần Cầu Nguyện cho Hiệp Nhất Kitô Giáo.",
+    "confidence_note_vi": "Lễ này được cử hành cố định vào ngày 25 tháng 1 trong Lịch Rôma tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Kẻ bắt bớ trở thành tông đồ.",
+    "prayer_prompt_vi": "Lạy Chúa, xin hoán cải tâm hồn con như Chúa đã hoán cải thánh Phaolô."
+  }
+}

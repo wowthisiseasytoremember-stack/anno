@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần I Mùa Thường Niên",
+    "summary_vi": "Đây là ngày thường (Feria) trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào thời thơ ấu của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_vi": "Ngày 9 tháng 1 năm 2027 rơi vào thứ Bảy trong tuần thứ nhất của Mùa Thường Niên. Trong Phụng Vụ Rôma, ngày này được cử hành như một ngày thường đơn giản (Feria). Nghi thức phụng vụ thường bao gồm Tin Mừng về Lễ Dâng Chúa Giêsu Đền Thờ nếu chưa được chuyển, hoặc các bài đọc ngày thường từ sách lễ. Giáo dân được khuyến khích suy gẫm về cuộc sống hằng ngày với Chúa Kitô và dâng lên những hoạt động bình thường như những hành vi thờ phượng.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Phụng Vụ Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đi cùng Chúa Kitô trong đời thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong công việc hằng ngày và thánh hóa chúng."
+  }
+}

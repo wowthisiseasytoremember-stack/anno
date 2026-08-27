@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần II Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần II Mùa Thường Niên",
+    "summary_vi": "Đây là ngày trong tuần của Mùa Thường Niên, cụ thể là tuần thứ hai sau lễ Hiển Linh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Không có lễ kính thánh nào được quy định cụ thể cho ngày này trong Lịch Phụng Vụ Rôma Chung.",
+    "body_vi": "Ngày 15 tháng 1 năm 2027 rơi vào thứ Sáu trong tuần thứ hai của Mùa Thường Niên. Trong lịch phụng vụ Công giáo, thời kỳ này được dành cho đời sống hằng ngày của Chúa Kitô và Giáo Hội, tập trung vào các giáo huấn của Chúa Giêsu và sự trưởng thành của các tín hữu. Là một ngày thường (feria), các bài đọc trong Thánh Lễ được xác định bởi Kinh Thánh theo tuần và ngày cụ thể. Các tín hữu được khuyến khích tham dự Thánh Thể và thực hiện các việc bác ái và cầu nguyện phù hợp với mùa phụng vụ.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên, không có lễ hay nhớ nào xung đột trong Lịch Phụng Vụ Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đi cùng Chúa Kitô trong những ngày tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày con."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần I Mùa Thường Niên",
+    "summary_vi": "Đây là ngày trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào sự khởi đầu sứ vụ công khai của Chúa Giêsu và lời kêu gọi làm môn đệ.",
+    "body_vi": "Thứ Ba tuần thứ nhất Mùa Thường Niên tiếp tục chủ đề hành trình tâm linh của năm mới. Trong Phụng Vụ Rôma, Thánh Lễ bao gồm Tin Mừng theo thánh Mác-cô (1:40-45), nơi Chúa Giêsu chữa lành một người phong hủi và truyền cho ông đến trình diện tư tế. Sự kiện này đánh dấu sự chuyển đổi từ đời sống ẩn dật của Chúa Giêsu sang sứ vụ công khai. Giáo dân được mời gọi suy gẫm về quyền năng chữa lành và biến đổi của Đấng Kitô, và đáp trả bằng sự vâng phục và đức tin.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Phụng Vụ Chung của Giáo Hội."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chữa Lành và Biến Đổi: Quyền Năng Sứ Vụ của Đấng Kitô",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, như Ngài đã chữa lành người phong hủi, xin chữa lành những vết thương và biến đổi cuộc sống con. Xin giúp con vâng phục ý muốn của Ngài."
+  }
+}

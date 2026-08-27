@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật II Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật II Thường Niên",
+    "summary_vi": "Chúa Nhật II Thường Niên là Chúa Nhật trong mùa Thường Niên. Năm B, bài Tin Mừng thuật lại lời chứng của Gioan Tẩy Giả về Chúa Giêsu là Chiên Thiên Chúa và việc gọi các môn đệ đầu tiên. Lễ nhớ Thánh Antôn, Viện phụ, được chuyển sang ngày khác vì trùng với Chúa Nhật.",
+    "body_vi": "Trong Chúa Nhật này, Hội Thánh tiếp tục cử hành mầu nhiệm Chúa Kitô tỏ mình. Các bài đọc tập trung vào ơn gọi làm môn đệ và nhận biết Chúa Giêsu là Chiên Thiên Chúa. Màu phụng vụ là màu xanh, tượng trưng cho sự lớn lên và hy vọng trong đời sống Kitô hữu. Lễ nhớ Thánh Antôn Cả, thường cử hành ngày 17 tháng Giêng, được bỏ qua năm nay vì trùng vào Chúa Nhật.",
+    "confidence_note_vi": "Ngày này là Chúa Nhật Thường Niên; lễ nhớ Thánh Antôn bị vượt qua."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chiên Thiên Chúa gọi các môn đệ đầu tiên.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, Chiên Thiên Chúa, xin gọi chúng con theo Chúa và ở lại trong sự hiện diện của Chúa."
+  }
+}

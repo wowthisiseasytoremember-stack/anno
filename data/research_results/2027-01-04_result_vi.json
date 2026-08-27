@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần I Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần I Mùa Thường Niên",
+    "summary_vi": "Đây là ngày thường (Feria) trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào khởi đầu sứ vụ công khai của Chúa Giêsu và lời mời gọi làm môn đệ.",
+    "body_vi": "Ngày 4 tháng 1 nằm trong tuần thứ nhất của Mùa Thường Niên, sau Lễ Đức Maria, Mẹ Thiên Chúa. Là một ngày Thứ Hai thường (Feria), ngày này không có lễ kính một vị thánh cụ thể nào vượt trội hơn phụng vụ hằng ngày ở hầu hết các vùng, mặc dù lịch địa phương có thể bao gồm các lễ nhớ tùy ý. Màu phụng vụ là màu xanh lá cây, đại diện cho đời sống thường nhật của Giáo Hội và sự tăng trưởng vững chắc của đức tin. Bài Tin Mừng cho ngày này thường mô tả việc kêu gọi các môn đệ đầu tiên hoặc những giáo huấn ban đầu của Đức Kitô, mời gọi các tín hữu suy tư về ơn gọi của chính mình để đi theo Người.",
+    "confidence_note_vi": "Phân bổ tiêu chuẩn của Lịch La Mã cho ngày này trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước theo Chúa trong đời sống thường nhật",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con trung thành đáp lại lời mời gọi làm môn đệ của Ngài trong mọi hoàn cảnh cuộc sống."
+  }
+}
