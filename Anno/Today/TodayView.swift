@@ -161,7 +161,7 @@ struct TodayView: View {
         case "blue", "lapis", "xanh":                 return AnnoTheme.lapis
         case "green":                                  return AnnoTheme.verdigris
         case "violet", "purple":                      return AnnoTheme.advent
-        case "rose":                                   return AnnoTheme.rose
+        case "rose":                                   return AnnoTheme.roseLiturgical
         case "black":                                  return AnnoTheme.ash
         default:                                       return AnnoTheme.incense
         }

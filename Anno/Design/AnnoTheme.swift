@@ -17,6 +17,7 @@ enum AnnoTheme {
     static let advent = Color(hex: 0x5C3D6E)
     static let easter = Color(hex: 0xF5F0E8)
     static let rose = Color(hex: 0xC96E7E)
+    static let roseLiturgical = Color(hex: 0xB3666E)
     static let candleGlow = Color(hex: 0xEDB84C)
 
     // MARK: - Confidence Colors
