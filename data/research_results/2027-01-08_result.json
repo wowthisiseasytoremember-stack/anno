@@ -5,7 +5,8 @@
   "liturgical": {
     "rank": "feria",
     "color": "green",
-    "title_en": "Friday of the First Week in Ordinary Time"
+    "title_en": "Friday of the First Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần I Mùa Thường Niên"
   },
   "primary": {
     "type": "liturgical_day",
@@ -13,7 +14,11 @@
     "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. No specific saint's feast is celebrated on this date in the General Roman Calendar.",
     "body_en": "January 8th falls within the first week of Ordinary Time, which begins after the Feast of the Baptism of the Lord. As a Friday Feria, the liturgy follows the standard weekday readings and prayers for the season. The color green is used to signify the ongoing life of the Church as it grows in faith during the ordinary weeks of the year. While there are no major solemnities or feasts assigned to this specific date in the universal calendar, local diocesan calendars may include optional memorials.",
     "confidence": "confirmed",
-    "confidence_note_en": "Standard weekday in Ordinary Time per the General Roman Calendar."
+    "confidence_note_en": "Standard weekday in Ordinary Time per the General Roman Calendar.",
+    "title_vi": "Chúa Giêsu chữa người bại liệt",
+    "summary_vi": "Chúa Giêsu chữa lành người bại liệt và tha tội cho anh. Qua đó, Ngài cho thấy quyền năng tha tội của Con Người. Chúng ta được mời gọi tin tưởng vào lòng thương xót của Chúa.",
+    "body_vi": "Trong Tin Mừng hôm nay, Chúa Giêsu không chỉ chữa lành thân xác mà còn tha tội, mời gọi chúng ta nhận ra Ngài là Đấng có quyền tha tội. Hãy để Chúa chữa lành những yếu đuối và tội lỗi trong tâm hồn chúng ta.",
+    "confidence_note_vi": "Dựa trên Lectionary Công Giáo Rôma, ngày Thứ Sáu Tuần I Mùa Thường Niên."
   },
   "sources": [
     {
@@ -22,9 +27,19 @@
       "type": "liturgical_calendar"
     },
     {
-      "label": "New Advent - Liturgical Calendar",
-      "url": "https://www.newadvent.org/calendar/",
+      "label": "Vatican Website",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
       "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB",
+      "url": "https://www.usccb.org/",
+      "type": "liturgical_calendar"
     }
   ],
   "calendars": {
@@ -33,5 +48,9 @@
     "islamic_umm_al_qura": "29 Rajab 1448 AH",
     "coptic": "30 Kiahk 1743",
     "ethiopian": "30 Kiahk 1743"
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chúa Giêsu tha tội và chữa lành.",
+    "prayer_prompt_vi": "Lạy Chúa, xin chữa lành tâm hồn con và tha thứ mọi lỗi lầm của con."
   }
 }

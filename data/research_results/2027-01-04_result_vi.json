@@ -1,15 +1,15 @@
 {
   "liturgical": {
-    "title_vi": "Thứ Hai Tuần I Mùa Thường Niên"
+    "title_vi": "Thứ Hai trong Mùa Giáng Sinh"
   },
   "primary": {
-    "title_vi": "Thứ Hai Tuần I Mùa Thường Niên",
-    "summary_vi": "Đây là ngày thường (Feria) trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào khởi đầu sứ vụ công khai của Chúa Giêsu và lời mời gọi làm môn đệ.",
-    "body_vi": "Ngày 4 tháng 1 nằm trong tuần thứ nhất của Mùa Thường Niên, sau Lễ Đức Maria, Mẹ Thiên Chúa. Là một ngày Thứ Hai thường (Feria), ngày này không có lễ kính một vị thánh cụ thể nào vượt trội hơn phụng vụ hằng ngày ở hầu hết các vùng, mặc dù lịch địa phương có thể bao gồm các lễ nhớ tùy ý. Màu phụng vụ là màu xanh lá cây, đại diện cho đời sống thường nhật của Giáo Hội và sự tăng trưởng vững chắc của đức tin. Bài Tin Mừng cho ngày này thường mô tả việc kêu gọi các môn đệ đầu tiên hoặc những giáo huấn ban đầu của Đức Kitô, mời gọi các tín hữu suy tư về ơn gọi của chính mình để đi theo Người.",
-    "confidence_note_vi": "Phân bổ tiêu chuẩn của Lịch La Mã cho ngày này trong Mùa Thường Niên."
+    "title_vi": "Thánh Elizabeth Ann Seton",
+    "summary_vi": "Thánh Elizabeth Ann Seton, một người vợ, người mẹ, và là người sáng lập dòng Nữ Tử Bác Ái, đã dâng hiến cuộc đời cho việc giáo dục và phục vụ người nghèo. Gương sáng của thánh nhân mời gọi chúng ta sống đức tin trong đời thường.",
+    "body_vi": "Hôm nay, Giáo Hội mừng kính thánh Elizabeth Ann Seton, một phụ nữ đã trải qua nhiều thử thách trong cuộc sống: mất chồng, nuôi con một mình, và đối diện với sự khó khăn về tài chính. Nhưng nhờ ơn Chúa, thánh nhân đã tìm thấy niềm hy vọng trong đức tin và trở thành người sáng lập dòng Nữ Tử Bác Ái tại Hoa Kỳ. Thánh nhân đã dành cả cuộc đời để phục vụ người nghèo, giáo dục trẻ em, và xây dựng cộng đoàn đức tin. Trong Mùa Giáng Sinh, chúng ta được mời gọi chiêm ngắm tình yêu Thiên Chúa đã tỏ hiện nơi Hài Nhi Giêsu. Thánh Elizabeth Ann Seton đã đáp lại tình yêu đó bằng một cuộc đời tận hiến. Chúng ta hãy học nơi thánh nhân lòng tin tưởng phó thác vào Chúa, nhất là trong những lúc khó khăn, và biết mở rộng vòng tay yêu thương đến những người xung quanh.",
+    "confidence_note_vi": "Dựa trên lịch phụng vụ Công giáo Rôma năm 2027, ngày 4 tháng 1 là Thứ Hai trong Mùa Giáng Sinh, với lễ nhớ tự do Thánh Elizabeth Ann Seton."
   },
   "app_hooks": {
-    "hero_line_vi": "Bước theo Chúa trong đời sống thường nhật",
-    "prayer_prompt_vi": "Lạy Chúa, xin giúp con trung thành đáp lại lời mời gọi làm môn đệ của Ngài trong mọi hoàn cảnh cuộc sống."
+    "hero_line_vi": "Thánh Elizabeth Ann Seton: Gương sáng đức tin trong đời thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm và sự phó thác như thánh Elizabeth Ann Seton, để con biết phục vụ Chúa nơi những người xung quanh."
   }
 }

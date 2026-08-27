@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Martina, Trinh nữ Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Martina, Trinh nữ Tử đạo",
+    "summary_vi": "Thánh Martina là một trinh nữ tử đạo người Rôma, chịu tử đạo vào thế kỷ thứ ba. Ngài được tôn kính như một trong những vị tử đạo Rôma thời sơ khai, và lòng sùng kính ngài đã có từ lâu đời. Ngài được ghi trong Sách Tử đạo Rôma và được coi là một trong những vị thánh bổn mạng của Rôma.",
+    "body_vi": "Theo truyền thống, Martina là một trinh nữ quý tộc Rôma, chịu tử đạo dưới thời hoàng đế Alexander Severus (hoặc có thể là Decius). Ngài bị tra tấn nhiều cách và cuối cùng bị chém đầu. Di tích của ngài được bảo quản tại Rôma, và một nhà thờ đã được dâng kính ngài vào thế kỷ thứ bảy. Lễ nhớ của ngài được cử hành vào ngày 30 tháng 1 như một lễ nhớ tự do.",
+    "confidence_note_vi": "Được ghi trong Lịch Rôma Tổng quát như một lễ nhớ tự do."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Một trinh nữ tử đạo Rôma đã hiến dâng mạng sống vì Chúa Kitô.",
+    "prayer_prompt_vi": "Thánh Martina, cầu cho chúng con được trung thành trong những lúc thử thách."
+  }
+}

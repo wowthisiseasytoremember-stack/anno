@@ -1,0 +1,58 @@
+{
+  "id": "anno-2027-01-29",
+  "date": "2027-01-29",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Third Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần III Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Third Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần III Thường Niên",
+    "summary_en": "January 29, 2027 is a Friday in the third week of Ordinary Time. The General Roman Calendar assigns no obligatory memorial to this day, so the liturgical color is green. The day is dedicated to the ordinary celebration of the mystery of Christ in the Church's annual cycle.",
+    "summary_vi": "Ngày 29 tháng 1 năm 2027 là Thứ Sáu trong tuần III Mùa Thường Niên. Lịch Rôma tổng quát không ấn định lễ nhớ bắt buộc nào cho ngày này, nên phụng vụ dùng màu xanh lục. Ngày này được dành để cử hành mầu nhiệm Chúa Kitô trong chu kỳ phụng vụ thường niên.",
+    "body_en": "In Ordinary Time, the weekday readings continue from the Gospel of Mark and the Old Testament. The Liturgy of the Hours follows the weekday cycle. Local calendars may celebrate particular saints, but the universal calendar has no memorial today. The Roman Martyrology commemorates several early martyrs and confessors, but these are not celebrated universally.",
+    "body_vi": "Trong Mùa Thường Niên, các bài đọc trong ngày tiếp tục từ Tin Mừng Mác-cô và Cựu Ước. Giờ Kinh Phụng Vụ theo chu kỳ ngày trong tuần. Lịch địa phương có thể cử hành các thánh riêng, nhưng lịch phổ quát không có lễ nhớ nào hôm nay. Sách Tử Đạo Rôma ghi nhớ nhiều thánh tử đạo và tuyên xưng đức tin thời sơ khai, nhưng không được cử hành phổ quát.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The General Roman Calendar lists no memorial for January 29; it is a weekday in Ordinary Time.",
+    "confidence_note_vi": "Lịch Rôma tổng quát không ghi lễ nhớ nào cho ngày 29 tháng 1; đây là ngày trong tuần của Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Friday of the Third Week in Ordinary Time",
+    "hero_line_vi": "Thứ Sáu Tuần III Thường Niên",
+    "prayer_prompt_en": "Lord, help us to find your presence in the ordinary moments of this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhận ra sự hiện diện của Chúa trong những khoảnh khắc thường ngày của hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/012927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB Daily Readings - January 29, 2027",
+      "url": "https://bible.usccb.org/bible/readings/012927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia: Calendar",
+      "url": "https://www.newadvent.org/cathen/03158a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "General Instruction of the Roman Missal",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-16",
+    "hebrew": "21 Shvat 5787",
+    "islamic_umm_al_qura": "20 Shaban 1448 AH",
+    "coptic": "21 Toba 1743",
+    "ethiopian": "21 Toba 1743"
+  }
+}

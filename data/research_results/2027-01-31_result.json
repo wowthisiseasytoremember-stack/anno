@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-31",
+  "date": "2027-01-31",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "green",
+    "title_en": "Fourth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật IV Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Fourth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật IV Thường Niên",
+    "summary_en": "The Fourth Sunday in Ordinary Time. In Year B, the Gospel reading is from Mark 1:21-28, where Jesus teaches in the synagogue at Capernaum and casts out an unclean spirit, demonstrating his authority. The memorial of Saint John Bosco, priest and founder of the Salesians, is superseded by the Sunday.",
+    "summary_vi": "Chúa Nhật thứ IV Mùa Thường Niên. Trong Năm B, bài Tin Mừng theo Thánh Mác-cô 1,21-28, khi Chúa Giê-su giảng dạy trong hội đường tại Ca-phác-na-um và trừ quỷ, tỏ uy quyền của Người. Lễ nhớ Thánh Gio-an Bốt-cô, linh mục, sáng lập dòng Sa-lê-diêng, được thay thế bởi Chúa Nhật.",
+    "body_en": "On this Sunday, the faithful gather to hear the Word of God and celebrate the Eucharist. The readings for the Fourth Sunday in Ordinary Time in Year B include a first reading from Deuteronomy 18:15-20, where Moses promises a prophet like him; the responsorial psalm is Psalm 95; the second reading is from 1 Corinthians 7:32-35, on undivided devotion to the Lord; and the Gospel is Mark 1:21-28. The Gospel shows Jesus teaching with authority and casting out an unclean spirit, revealing his divine power. The memorial of Saint John Bosco, the 'Father and Teacher of Youth,' is observed on this date in the calendar but yields to the Sunday.",
+    "body_vi": "Trong Chúa Nhật này, cộng đoàn tụ họp để nghe Lời Chúa và cử hành Thánh Thể. Các bài đọc Chúa Nhật thứ IV Mùa Thường Niên Năm B gồm bài đọc I từ sách Đệ Nhị Luật 18,15-20, Mô-sê hứa về một ngôn sứ như ông; Thánh Vịnh đáp ca là Tv 95; bài đọc II từ thư thứ nhất của Thánh Phao-lô gửi tín hữu Cô-rin-tô 7,32-35, về sự tận hiến không phân tâm cho Chúa; và Tin Mừng Mác-cô 1,21-28. Tin Mừng cho thấy Chúa Giê-su giảng dạy với uy quyền và trừ quỷ, tỏ lộ quyền năng thiêng liêng của Người. Lễ nhớ Thánh Gio-an Bốt-cô, 'Cha và Thầy của giới trẻ,' được cử hành vào ngày này trong lịch phụng vụ nhưng nhường cho Chúa Nhật.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date is a Sunday in the General Roman Calendar; the memorial of St. John Bosco is superseded.",
+    "confidence_note_vi": "Ngày này là Chúa Nhật trong Lịch Rô-ma tổng quát; lễ nhớ Thánh Gio-an Bốt-cô được thay thế."
+  },
+  "app_hooks": {
+    "hero_line_en": "The Lord teaches with authority.",
+    "hero_line_vi": "Chúa giảng dạy với uy quyền.",
+    "prayer_prompt_en": "Lord, open our hearts to your word and cleanse us from all that separates us from you.",
+    "prayer_prompt_vi": "Lạy Chúa, xin mở lòng chúng con để đón nhận Lời Chúa và thanh tẩy chúng con khỏi mọi điều ngăn cách chúng con với Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/013127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org - Saint John Bosco",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=19",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-18",
+    "hebrew": "23 Shvat 5787",
+    "islamic_umm_al_qura": "22 Shaban 1448 AH",
+    "coptic": "23 Toba 1743",
+    "ethiopian": "23 Toba 1743"
+  }
+}

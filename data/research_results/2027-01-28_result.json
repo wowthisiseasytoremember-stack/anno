@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-01-28",
+  "date": "2027-01-28",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "memorial",
+    "color": "white",
+    "title_en": "Saint Thomas Aquinas, Priest and Doctor of the Church",
+    "title_vi": "Thánh Tôma Aquinô, Linh mục và Tiến sĩ Hội Thánh"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saint Thomas Aquinas",
+    "title_vi": "Thánh Tôma Aquinô",
+    "summary_en": "St. Thomas Aquinas (1225–1274) was a Dominican friar, priest, and eminent theologian whose works, especially the Summa Theologiae, shaped Catholic philosophy and doctrine. He is honored as a Doctor of the Church and patron of Catholic universities and students.",
+    "summary_vi": "Thánh Tôma Aquinô (1225–1274) là tu sĩ Dòng Đa Minh, linh mục và nhà thần học lỗi lạc; các tác phẩm, nhất là Bộ Tổng luận Thần học, đã định hình triết học và giáo lý Công giáo. Ngài được tôn kính là Tiến sĩ Hội Thánh và là quan thầy của các trường đại học Công giáo và sinh viên.",
+    "body_en": "Born at Roccasecca, Italy, Thomas entered the Dominican Order against his family's wishes. He studied under Albert the Great and taught in Paris, Rome, and Naples. His synthesis of Aristotelian philosophy with Christian revelation earned him the title 'Angelic Doctor.' He died on March 7, 1274, and was canonized in 1323; his memorial is kept on January 28, the date his relics were translated to Toulouse.",
+    "body_vi": "Sinh tại Roccasecca, Ý, Tôma gia nhập Dòng Đa Minh trái với ý muốn của gia đình. Ngài học với thánh Albert Cả và giảng dạy tại Paris, Rôma và Napoli. Việc tổng hợp triết học Aristoteles với mặc khải Kitô giáo đã mang lại cho ngài danh hiệu 'Tiến sĩ Thiên Thần'. Ngài qua đời ngày 7 tháng 3 năm 1274, được phong thánh năm 1323; lễ nhớ của ngài được cử hành vào ngày 28 tháng 1, ngày di quan của ngài về Toulouse.",
+    "confidence": "confirmed",
+    "confidence_note_en": "January 28 is the universal memorial of St. Thomas Aquinas in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày 28 tháng 1 là lễ nhớ bắt buộc của thánh Tôma Aquinô trong Lịch Rôma tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "The Angelic Doctor, patron of students and truth-seekers.",
+    "hero_line_vi": "Tiến sĩ Thiên Thần, quan thầy của sinh viên và những người tìm kiếm chân lý.",
+    "prayer_prompt_en": "St. Thomas Aquinas, pray for us as we seek wisdom and understanding.",
+    "prayer_prompt_vi": "Thánh Tôma Aquinô, cầu cho chúng con khi chúng con tìm kiếm sự khôn ngoan và hiểu biết."
+  },
+  "sources": [
+    {
+      "label": "New Advent: St. Thomas Aquinas",
+      "url": "https://www.newadvent.org/cathen/14663b.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic.org: St. Thomas Aquinas",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=263",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-15",
+    "hebrew": "20 Shvat 5787",
+    "islamic_umm_al_qura": "19 Shaban 1448 AH",
+    "coptic": "20 Toba 1743",
+    "ethiopian": "20 Toba 1743"
+  }
+}

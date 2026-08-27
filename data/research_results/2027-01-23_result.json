@@ -36,11 +36,6 @@
       "label": "USCCB Daily Readings",
       "url": "https://www.usccb.org/readings/2027-01-23",
       "type": "liturgical_calendar"
-    },
-    {
-      "label": "Vatican General Roman Calendar",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020514_ordinamento-del-calendario-romano_en.html",
-      "type": "vatican"
     }
   ],
   "calendars": {

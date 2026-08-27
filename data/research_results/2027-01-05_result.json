@@ -5,7 +5,8 @@
   "liturgical": {
     "rank": "feria",
     "color": "green",
-    "title_en": "Tuesday of the First Week in Ordinary Time"
+    "title_en": "Tuesday of the First Week in Ordinary Time",
+    "title_vi": "Thứ Ba trong Mùa Giáng Sinh"
   },
   "primary": {
     "type": "liturgical_day",
@@ -13,18 +14,27 @@
     "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
     "body_en": "January 5, 2027, falls on a Tuesday during the first week of Ordinary Time. In the Roman Rite, this day is celebrated as a Feria with the standard weekday liturgy. The Gospel for the day typically features the calling of the first disciples or the early stages of Christ's ministry, emphasizing the invitation to follow Him. As there are no specific solemnities or feasts of saints of high rank assigned to this date in the General Roman Calendar, the focus remains on the ongoing mystery of Christ's life and mission.",
     "confidence": "confirmed",
-    "confidence_note_en": "Standard weekday calculation based on the General Roman Calendar. No specific saint's feast of higher rank is listed for this date in the universal calendar."
+    "confidence_note_en": "Standard weekday calculation based on the General Roman Calendar. No specific saint's feast of higher rank is listed for this date in the universal calendar.",
+    "title_vi": "Chúa Giêsu gọi Philípphê và Nathanaen",
+    "summary_vi": "Bài đọc hôm nay từ thư thứ nhất của Thánh Gioan và Tin Mừng Gioan. Chúa Giêsu gặp gỡ Philípphê và Nathanaen, mời gọi họ bước theo Người. Nathanaen nhận ra Chúa Giêsu là Con Thiên Chúa và là Vua Ít-ra-en.",
+    "body_vi": "Trong Tin Mừng hôm nay, Chúa Giêsu gọi Philípphê, rồi qua Philípphê, Người gặp Nathanaen. Nathanaen còn nghi ngờ: 'Từ Nadarét, làm sao có thể có điều gì tốt được?' Nhưng khi gặp Chúa, ông đã tuyên xưng: 'Thưa Thầy, Thầy là Con Thiên Chúa, Thầy là Vua Ít-ra-en!' Chúa Giêsu hứa: 'Các con sẽ thấy trời mở ra và các thiên thần của Thiên Chúa lên xuống trên Con Người.' Đây là mầu nhiệm ơn gọi: Thiên Chúa nhìn thấy chúng ta trước khi chúng ta biết Người, và mời gọi chúng ta bước theo Người trong đức tin.",
+    "confidence_note_vi": "Dựa trên lịch phụng vụ Công giáo Rôma năm 2027. Ngày 5 tháng 1 là ngày trong tuần Mùa Giáng Sinh, không có lễ kính buộc."
   },
   "sources": [
     {
-      "label": "General Roman Calendar - Vatican.va",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20040313_general-roman-calendar_en.html",
+      "label": "Vatican Website",
+      "url": "https://www.vatican.va/content/vatican/en.html",
       "type": "vatican"
     },
     {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    },
+    {
       "label": "USCCB Liturgical Calendar",
-      "url": "https://www.usccb.org/bible/liturgical-calendar",
-      "type": "vatican"
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
     }
   ],
   "calendars": {
@@ -33,5 +43,9 @@
     "islamic_umm_al_qura": "26 Rajab 1448 AH",
     "coptic": "27 Kiahk 1743",
     "ethiopian": "27 Kiahk 1743"
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy đến và xem!",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin mở lòng con để con nhận ra tiếng Chúa gọi và can đảm bước theo Người."
   }
 }

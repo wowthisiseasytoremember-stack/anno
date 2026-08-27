@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần III Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần III Thường Niên",
+    "summary_vi": "Ngày 29 tháng 1 năm 2027 là Thứ Sáu trong tuần III Mùa Thường Niên. Lịch Rôma tổng quát không ấn định lễ nhớ bắt buộc nào cho ngày này, nên phụng vụ dùng màu xanh lục. Ngày này được dành để cử hành mầu nhiệm Chúa Kitô trong chu kỳ phụng vụ thường niên.",
+    "body_vi": "Trong Mùa Thường Niên, các bài đọc trong ngày tiếp tục từ Tin Mừng Mác-cô và Cựu Ước. Giờ Kinh Phụng Vụ theo chu kỳ ngày trong tuần. Lịch địa phương có thể cử hành các thánh riêng, nhưng lịch phổ quát không có lễ nhớ nào hôm nay. Sách Tử Đạo Rôma ghi nhớ nhiều thánh tử đạo và tuyên xưng đức tin thời sơ khai, nhưng không được cử hành phổ quát.",
+    "confidence_note_vi": "Lịch Rôma tổng quát không ghi lễ nhớ nào cho ngày 29 tháng 1; đây là ngày trong tuần của Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thứ Sáu Tuần III Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhận ra sự hiện diện của Chúa trong những khoảnh khắc thường ngày của hôm nay."
+  }
+}

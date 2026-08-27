@@ -5,7 +5,8 @@
   "liturgical": {
     "rank": "feria",
     "color": "green",
-    "title_en": "Thursday of the First Week in Ordinary Time"
+    "title_en": "Thursday of the First Week in Ordinary Time",
+    "title_vi": "Thứ Năm sau Lễ Chúa Hiển Linh"
   },
   "primary": {
     "type": "liturgical_day",
@@ -13,18 +14,27 @@
     "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the early life of Jesus and the call to discipleship.",
     "body_en": "January 7th falls within the first week of Ordinary Time, following the Solemnity of the Baptism of the Lord. As a Thursday Feria, it does not have a specific saint's feast that supersedes the daily liturgy in most regions, though local calendars may include optional memorials. The liturgical color is green, appropriate for the season of Ordinary Time which emphasizes the ongoing life and teachings of Christ.",
     "confidence": "confirmed",
-    "confidence_note_en": "Standard Roman Calendar assignment for this date in 2027."
+    "confidence_note_en": "Standard Roman Calendar assignment for this date in 2027.",
+    "title_vi": "Chúa Giêsu hóa bánh ra nhiều",
+    "summary_vi": "Thiên Chúa đã yêu thương chúng ta trước, và mời gọi chúng ta yêu thương nhau. Trong Tin Mừng, Chúa Giêsu chạm lòng thương xót trước đám đông và làm phép lạ hóa bánh ra nhiều để nuôi họ.",
+    "body_vi": "Bài đọc hôm nay từ thư thứ nhất của thánh Gioan nhắc chúng ta rằng: “Chúng ta yêu thương, vì Thiên Chúa đã yêu thương chúng ta trước.” Tình yêu đích thực không chỉ ở lời nói, nhưng được thể hiện qua việc giữ các điều răn của Thiên Chúa, nhất là điều răn yêu thương anh em. Trong Tin Mừng, Đức Giêsu thấy đám đông như bầy chiên không người chăn dắt, Người chạm lòng thương xót và dạy dỗ họ. Khi trời đã muộn, các môn đệ xin Người cho dân chúng đi mua thức ăn, nhưng Chúa bảo: “Chính anh em hãy cho họ ăn.” Với năm chiếc bánh và hai con cá, Chúa Giêsu ngước mắt lên trời, dâng lời chúc tụng, bẻ bánh trao cho môn đệ để phân phát cho mọi người. Mọi người đều được ăn no, còn dư mười hai thúng. Phép lạ hôm nay mời gọi chúng ta tin tưởng vào quyền năng và lòng thương xót của Chúa, đồng thời dấn thân phục vụ anh em bằng những gì mình có, dù nhỏ bé, để Chúa làm cho sinh nhiều hoa trái.",
+    "confidence_note_vi": "Dựa trên lịch phụng vụ Công giáo Rôma năm 2027: ngày 7 tháng 1 là Thứ Năm sau Lễ Chúa Hiển Linh, với các bài đọc trong ngày."
   },
   "sources": [
-    {
-      "label": "General Roman Calendar - Vatican",
-      "url": "https://www.vatican.va/archive/ENG0015/__P0A.HTM",
-      "type": "vatican"
-    },
     {
       "label": "USCCB Liturgical Calendar",
       "url": "https://www.usccb.org/bible/liturgical-calendar",
       "type": "vatican"
+    },
+    {
+      "label": "Vatican website",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
     }
   ],
   "calendars": {
@@ -33,5 +43,9 @@
     "islamic_umm_al_qura": "28 Rajab 1448 AH",
     "coptic": "29 Kiahk 1743",
     "ethiopian": "29 Kiahk 1743"
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chính anh em hãy cho họ ăn.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho con biết trao ban những gì con có, dù nhỏ bé, để Chúa biến đổi thành niềm vui và sự sống cho anh em."
   }
 }

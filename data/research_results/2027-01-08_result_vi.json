@@ -3,13 +3,13 @@
     "title_vi": "Thứ Sáu Tuần I Mùa Thường Niên"
   },
   "primary": {
-    "title_vi": "Thứ Sáu Tuần I Mùa Thường Niên",
-    "summary_vi": "Đây là ngày thường (Feria) trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Không có lễ kính thánh nào đặc biệt được cử hành vào ngày này trong Lịch Rôma Chung.",
-    "body_vi": "Ngày 8 tháng 1 nằm trong tuần thứ nhất của Mùa Thường Niên, bắt đầu sau Lễ Chúa Giêsu Chịu Phép Rửa. Là một Thứ Sáu thường (Feria), phụng vụ tuân theo các bài đọc và lời cầu nguyện tiêu chuẩn của ngày thường trong mùa này. Màu xanh lá cây được sử dụng để chỉ ra đời sống liên tục của Giáo Hội khi lớn lên trong đức tin trong các tuần thường niên của năm. Mặc dù không có các đại lễ hay lễ trọng nào được ấn định cho ngày cụ thể này trong lịch phổ quát, nhưng lịch giáo phận địa phương có thể bao gồm các lễ nhớ tùy chọn.",
-    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Rôma Chung."
+    "title_vi": "Chúa Giêsu chữa người bại liệt",
+    "summary_vi": "Chúa Giêsu chữa lành người bại liệt và tha tội cho anh. Qua đó, Ngài cho thấy quyền năng tha tội của Con Người. Chúng ta được mời gọi tin tưởng vào lòng thương xót của Chúa.",
+    "body_vi": "Trong Tin Mừng hôm nay, Chúa Giêsu không chỉ chữa lành thân xác mà còn tha tội, mời gọi chúng ta nhận ra Ngài là Đấng có quyền tha tội. Hãy để Chúa chữa lành những yếu đuối và tội lỗi trong tâm hồn chúng ta.",
+    "confidence_note_vi": "Dựa trên Lectionary Công Giáo Rôma, ngày Thứ Sáu Tuần I Mùa Thường Niên."
   },
   "app_hooks": {
-    "hero_line_vi": "Sống đức tin bình dị giữa lòng đời",
-    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng kiên trì để lớn lên trong ân sủng mỗi ngày."
+    "hero_line_vi": "Chúa Giêsu tha tội và chữa lành.",
+    "prayer_prompt_vi": "Lạy Chúa, xin chữa lành tâm hồn con và tha thứ mọi lỗi lầm của con."
   }
 }

@@ -5,7 +5,8 @@
   "liturgical": {
     "rank": "feria",
     "color": "green",
-    "title_en": "Saturday of the First Week in Ordinary Time"
+    "title_en": "Saturday of the First Week in Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần I Thường Niên"
   },
   "primary": {
     "type": "liturgical_day",
@@ -13,18 +14,27 @@
     "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
     "body_en": "January 2nd falls within the first week of Ordinary Time, following the Solemnity of Mary, Mother of God. As a Saturday Feria, it does not have a specific saint's feast that overrides the daily cycle in most regions, though local calendars may include optional memorials. The liturgy emphasizes the theme of conversion and the start of Christ's mission, inviting the faithful to reflect on their own vocation and response to God's call during this period of spiritual growth.",
     "confidence": "confirmed",
-    "confidence_note_en": "Standard General Roman Calendar assignment for January 2nd when it is not a Sunday or major solemnity."
+    "confidence_note_en": "Standard General Roman Calendar assignment for January 2nd when it is not a Sunday or major solemnity.",
+    "title_vi": "Chúa Giêsu gọi ông Lê-vi",
+    "summary_vi": "Chúa Giêsu đến gọi ông Lê-vi, một người thu thuế, và ông đã bỏ tất cả để đi theo Người. Khi người Pharisêu chất vấn, Chúa đáp: 'Người khỏe mạnh không cần thầy thuốc, nhưng người đau ốm mới cần. Tôi không đến để kêu gọi người công chính, mà để kêu gọi tội nhân.'",
+    "body_vi": "Trong bài Tin Mừng hôm nay, Chúa Giêsu đi ngang qua trạm thu thuế, thấy ông Lê-vi đang ngồi đó, liền gọi ông. Lê-vi đứng dậy, bỏ lại tất cả và đi theo Người. Sau đó, Chúa dùng bữa tại nhà ông cùng với nhiều người thu thuế và tội nhân. Khi bị chỉ trích, Chúa khẳng định sứ mạng của Người là đến để cứu chữa những kẻ tội lỗi, mời gọi họ hoán cải và đón nhận lòng thương xót của Thiên Chúa.",
+    "confidence_note_vi": "Dựa trên Phúc Âm Mác-cô 2:13-17, bản dịch của Nhóm Phiên Dịch Các Giờ Kinh Phụng Vụ."
   },
   "sources": [
     {
-      "label": "General Roman Calendar - USCCB",
-      "url": "https://www.usccb.org/bible/mass/ordinary-time",
-      "type": "liturgical_calendar"
+      "label": "Vatican Website",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
     },
     {
-      "label": "New Advent - Liturgical Calendar",
-      "url": "https://www.newadvent.org/catholics/liturgicalcalendar.htm",
+      "label": "New Advent",
+      "url": "https://www.newadvent.org/",
       "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB",
+      "url": "https://www.usccb.org/",
+      "type": "liturgical_calendar"
     }
   ],
   "calendars": {
@@ -33,5 +43,9 @@
     "islamic_umm_al_qura": "23 Rajab 1448 AH",
     "coptic": "24 Kiahk 1743",
     "ethiopian": "24 Kiahk 1743"
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chúa Giêsu đến để kêu gọi tội nhân, không phải người công chính.",
+    "prayer_prompt_vi": "Lạy Chúa, xin cho con biết lắng nghe tiếng Chúa gọi và can đảm đáp trả như ông Lê-vi."
   }
 }

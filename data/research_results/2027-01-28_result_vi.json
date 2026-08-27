@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Tôma Aquinô, Linh mục và Tiến sĩ Hội Thánh"
+  },
+  "primary": {
+    "title_vi": "Thánh Tôma Aquinô",
+    "summary_vi": "Thánh Tôma Aquinô (1225–1274) là tu sĩ Dòng Đa Minh, linh mục và nhà thần học lỗi lạc; các tác phẩm, nhất là Bộ Tổng luận Thần học, đã định hình triết học và giáo lý Công giáo. Ngài được tôn kính là Tiến sĩ Hội Thánh và là quan thầy của các trường đại học Công giáo và sinh viên.",
+    "body_vi": "Sinh tại Roccasecca, Ý, Tôma gia nhập Dòng Đa Minh trái với ý muốn của gia đình. Ngài học với thánh Albert Cả và giảng dạy tại Paris, Rôma và Napoli. Việc tổng hợp triết học Aristoteles với mặc khải Kitô giáo đã mang lại cho ngài danh hiệu 'Tiến sĩ Thiên Thần'. Ngài qua đời ngày 7 tháng 3 năm 1274, được phong thánh năm 1323; lễ nhớ của ngài được cử hành vào ngày 28 tháng 1, ngày di quan của ngài về Toulouse.",
+    "confidence_note_vi": "Ngày 28 tháng 1 là lễ nhớ bắt buộc của thánh Tôma Aquinô trong Lịch Rôma tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tiến sĩ Thiên Thần, quan thầy của sinh viên và những người tìm kiếm chân lý.",
+    "prayer_prompt_vi": "Thánh Tôma Aquinô, cầu cho chúng con khi chúng con tìm kiếm sự khôn ngoan và hiểu biết."
+  }
+}

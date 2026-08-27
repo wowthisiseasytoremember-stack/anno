@@ -5,7 +5,8 @@
   "liturgical": {
     "rank": "feast",
     "color": "white",
-    "title_en": "The Epiphany of the Lord"
+    "title_en": "The Epiphany of the Lord",
+    "title_vi": "Lễ Chúa Hiển Linh"
   },
   "primary": {
     "type": "liturgical_day",
@@ -13,7 +14,11 @@
     "summary_en": "The Epiphany is a major Christian feast celebrating the manifestation of Jesus Christ to the Gentiles, symbolized by the visit of the Magi. It marks the first public revelation of Christ's divinity to the world outside Israel. In the Roman Rite, it is celebrated on January 6, though some dioceses transfer it to the Sunday between January 2 and 8.",
     "body_en": "The Feast of the Epiphany commemorates the appearance of the Star of Bethlehem and the adoration of the infant Jesus by the Magi from the East. This event signifies the inclusion of all nations in the salvation plan and the universal scope of Christ's mission. The liturgy emphasizes light and revelation, with readings focusing on Isaiah's prophecy of a great light arising for the nations and Paul's letter to the Ephesians regarding the mystery made known to the Gentiles. The feast is one of the highest rank in the liturgical calendar, often accompanied by the blessing of water and chalk for marking doorposts (C+M+B).",
     "confidence": "confirmed",
-    "confidence_note_en": "January 6 is the fixed date for the Epiphany in the General Roman Calendar."
+    "confidence_note_en": "January 6 is the fixed date for the Epiphany in the General Roman Calendar.",
+    "title_vi": "Chúa Giêsu tỏ mình cho muôn dân",
+    "summary_vi": "Các đạo sĩ theo ngôi sao đến Bêlem, thờ lạy Hài Nhi Giêsu và dâng lễ vật. Lễ này mặc khải Chúa Giêsu là ánh sáng cứu độ cho mọi dân tộc.",
+    "body_vi": "Hôm nay, Giáo Hội mừng lễ Chúa Hiển Linh. Trong Tin Mừng, thánh Mátthêu kể lại việc các đạo sĩ từ phương Đông đến Giêrusalem hỏi: “Vua người Do Thái mới sinh ở đâu? Chúng tôi đã thấy ngôi sao của Người ở phương Đông, nên đến bái lạy Người.” Họ được ngôi sao dẫn đến Bêlem, gặp Hài Nhi Giêsu và Mẹ Maria, liền sấp mình thờ lạy và dâng lễ vật: vàng, nhũ hương và mộc dược. Lễ Chúa Hiển Linh mặc khải rằng Chúa Giêsu là ánh sáng muôn dân, là Đấng Cứu Độ không chỉ cho Ít-ra-en mà cho toàn thể nhân loại. Mỗi người chúng ta cũng được mời gọi lên đường theo ánh sáng đức tin, gặp gỡ Chúa và dâng cho Người lòng thờ kính, tin tưởng và yêu mến.",
+    "confidence_note_vi": "Mức độ tin cậy: cao. Dựa theo lịch phụng vụ Rôma; tại một số giáo phận, lễ Chúa Hiển Linh được chuyển sang Chúa Nhật, nên ngày 6 tháng 1 có thể là ngày thường trong mùa Giáng Sinh."
   },
   "sources": [
     {
@@ -33,5 +38,9 @@
     "islamic_umm_al_qura": "27 Rajab 1448 AH",
     "coptic": "28 Kiahk 1743",
     "ethiopian": "28 Kiahk 1743"
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy đến thờ lạy Hài Nhi Giêsu, Vua các vua!",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho chúng con biết lên đường tìm kiếm Chúa và thờ lạy Chúa với cả tấm lòng, như các đạo sĩ ngày xưa. Amen."
   }
 }

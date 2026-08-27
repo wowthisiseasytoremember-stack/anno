@@ -28,18 +28,18 @@
   },
   "sources": [
     {
-      "label": "USCCB - Solemnity of Mary, Mother of God",
-      "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/solemnity-of-mary-mother-of-god",
-      "type": "liturgical_calendar"
-    },
-    {
-      "label": "Catholic.org - Feast of Mary, Mother of God",
-      "url": "https://www.catholic.org/saints/feastday.php?ID=3",
-      "type": "liturgical_calendar"
-    },
-    {
       "label": "New Advent - The Blessed Virgin Mary",
       "url": "https://www.newadvent.org/cathen/15459a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Encyclical Redemptoris Mater of Pope John Paul II",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html",
+      "type": "vatican"
+    },
+    {
+      "label": "Catholic Encyclopedia: The Blessed Virgin Mary",
+      "url": "https://www.newadvent.org/cathen/15464a.htm",
       "type": "encyclopedia"
     }
   ],

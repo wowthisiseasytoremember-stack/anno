@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Angela Merici, Trinh Nữ"
+  },
+  "primary": {
+    "title_vi": "Thánh Angela Merici, Trinh Nữ",
+    "summary_vi": "Thánh Angela Merici là một nhà giáo dục tôn giáo người Ý, người sáng lập Dòng Nữ Tu Thánh Ursula (Dòng Ursuline), dòng tu giảng dạy đầu tiên của phụ nữ trong Giáo hội. Ngài dành cả đời cho việc giáo dục Kitô giáo cho các thiếu nữ và chăm sóc người nghèo. Ngài qua đời năm 1540 và được phong thánh năm 1807.",
+    "body_vi": "Angela Merici sinh năm 1474 tại Desenzano, Ý. Sau khi gia nhập Dòng Ba Phanxicô, ngài hành hương đến Đất Thánh, nơi ngài bị mù nhưng sau đó được chữa lành. Ngài quy tụ một nhóm phụ nữ để dạy giáo lý Kitô giáo cho các thiếu nữ tại nhà, và năm 1535 ngài thành lập Dòng Thánh Ursula, đặt nhóm dưới sự bảo trợ của Thánh Ursula. Luật dòng ngài viết nhấn mạnh đến cầu nguyện, đơn sơ và phục vụ. Ngài qua đời ngày 27 tháng 1 năm 1540 và được Đức Giáo hoàng Piô VII phong thánh năm 1807. Lễ kính ngài được cử hành vào ngày 27 tháng 1.",
+    "confidence_note_vi": "Lễ nhớ Thánh Angela Merici được ghi trong Sách Lịch Rôma tổng quát vào ngày 27 tháng 1."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Một nhà giáo và người sáng lập đã tin tưởng vào sự quan phòng của Thiên Chúa.",
+    "prayer_prompt_vi": "Thánh Angela Merici, cầu cho chúng con, để chúng con trung thành với ơn gọi và quảng đại phục vụ tha nhân."
+  }
+}

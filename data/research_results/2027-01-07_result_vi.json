@@ -1,15 +1,15 @@
 {
   "liturgical": {
-    "title_vi": "Thứ Năm Tuần I Mùa Thường Niên"
+    "title_vi": "Thứ Năm sau Lễ Chúa Hiển Linh"
   },
   "primary": {
-    "title_vi": "Thứ Năm Tuần I Mùa Thường Niên",
-    "summary_vi": "Đây là ngày thường (Feria) trong tuần thứ nhất của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng. Các bài đọc tập trung vào thời thơ ấu của Chúa Giêsu và lời mời gọi làm môn đệ.",
-    "body_vi": "Ngày 7 tháng 1 nằm trong tuần thứ nhất của Mùa Thường Niên, sau Lễ Trọng Rửa Tội Chúa. Là một ngày Thứ Năm thường (Feria), ngày này không có lễ kính một vị thánh cụ thể nào vượt trội hơn phụng vụ hàng ngày ở hầu hết các vùng, mặc dù lịch địa phương có thể bao gồm các lễ nhớ tùy ý. Màu phụng vụ là màu xanh lá cây, phù hợp với Mùa Thường Niên nhấn mạnh đời sống và giáo huấn liên tục của Đức Kitô.",
-    "confidence_note_vi": "Gán theo Lịch Rôma chung chuẩn cho ngày này trong năm 2027."
+    "title_vi": "Chúa Giêsu hóa bánh ra nhiều",
+    "summary_vi": "Thiên Chúa đã yêu thương chúng ta trước, và mời gọi chúng ta yêu thương nhau. Trong Tin Mừng, Chúa Giêsu chạm lòng thương xót trước đám đông và làm phép lạ hóa bánh ra nhiều để nuôi họ.",
+    "body_vi": "Bài đọc hôm nay từ thư thứ nhất của thánh Gioan nhắc chúng ta rằng: “Chúng ta yêu thương, vì Thiên Chúa đã yêu thương chúng ta trước.” Tình yêu đích thực không chỉ ở lời nói, nhưng được thể hiện qua việc giữ các điều răn của Thiên Chúa, nhất là điều răn yêu thương anh em. Trong Tin Mừng, Đức Giêsu thấy đám đông như bầy chiên không người chăn dắt, Người chạm lòng thương xót và dạy dỗ họ. Khi trời đã muộn, các môn đệ xin Người cho dân chúng đi mua thức ăn, nhưng Chúa bảo: “Chính anh em hãy cho họ ăn.” Với năm chiếc bánh và hai con cá, Chúa Giêsu ngước mắt lên trời, dâng lời chúc tụng, bẻ bánh trao cho môn đệ để phân phát cho mọi người. Mọi người đều được ăn no, còn dư mười hai thúng. Phép lạ hôm nay mời gọi chúng ta tin tưởng vào quyền năng và lòng thương xót của Chúa, đồng thời dấn thân phục vụ anh em bằng những gì mình có, dù nhỏ bé, để Chúa làm cho sinh nhiều hoa trái.",
+    "confidence_note_vi": "Dựa trên lịch phụng vụ Công giáo Rôma năm 2027: ngày 7 tháng 1 là Thứ Năm sau Lễ Chúa Hiển Linh, với các bài đọc trong ngày."
   },
   "app_hooks": {
-    "hero_line_vi": "Sống hy vọng và tăng trưởng trong Mùa Thường Niên",
-    "prayer_prompt_vi": "Lạy Chúa, xin giúp con trung thành bước đi trên đường môn đệ mỗi ngày."
+    "hero_line_vi": "Chính anh em hãy cho họ ăn.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho con biết trao ban những gì con có, dù nhỏ bé, để Chúa biến đổi thành niềm vui và sự sống cho anh em."
   }
 }

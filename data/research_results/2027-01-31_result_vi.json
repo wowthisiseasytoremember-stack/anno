@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật IV Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật IV Thường Niên",
+    "summary_vi": "Chúa Nhật thứ IV Mùa Thường Niên. Trong Năm B, bài Tin Mừng theo Thánh Mác-cô 1,21-28, khi Chúa Giê-su giảng dạy trong hội đường tại Ca-phác-na-um và trừ quỷ, tỏ uy quyền của Người. Lễ nhớ Thánh Gio-an Bốt-cô, linh mục, sáng lập dòng Sa-lê-diêng, được thay thế bởi Chúa Nhật.",
+    "body_vi": "Trong Chúa Nhật này, cộng đoàn tụ họp để nghe Lời Chúa và cử hành Thánh Thể. Các bài đọc Chúa Nhật thứ IV Mùa Thường Niên Năm B gồm bài đọc I từ sách Đệ Nhị Luật 18,15-20, Mô-sê hứa về một ngôn sứ như ông; Thánh Vịnh đáp ca là Tv 95; bài đọc II từ thư thứ nhất của Thánh Phao-lô gửi tín hữu Cô-rin-tô 7,32-35, về sự tận hiến không phân tâm cho Chúa; và Tin Mừng Mác-cô 1,21-28. Tin Mừng cho thấy Chúa Giê-su giảng dạy với uy quyền và trừ quỷ, tỏ lộ quyền năng thiêng liêng của Người. Lễ nhớ Thánh Gio-an Bốt-cô, 'Cha và Thầy của giới trẻ,' được cử hành vào ngày này trong lịch phụng vụ nhưng nhường cho Chúa Nhật.",
+    "confidence_note_vi": "Ngày này là Chúa Nhật trong Lịch Rô-ma tổng quát; lễ nhớ Thánh Gio-an Bốt-cô được thay thế."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chúa giảng dạy với uy quyền.",
+    "prayer_prompt_vi": "Lạy Chúa, xin mở lòng chúng con để đón nhận Lời Chúa và thanh tẩy chúng con khỏi mọi điều ngăn cách chúng con với Chúa."
+  }
+}

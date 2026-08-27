@@ -1,15 +1,15 @@
 {
   "liturgical": {
-    "title_vi": "Lễ Hiển Linh"
+    "title_vi": "Lễ Chúa Hiển Linh"
   },
   "primary": {
-    "title_vi": "Lễ Hiển Linh",
-    "summary_vi": "Lễ Hiển Linh là một đại lễ của Kitô giáo, mừng việc Chúa Giêsu Kitô được tỏ hiện cho các dân ngoại, tượng trưng qua cuộc viếng thăm của các Đạo Sĩ. Đây là lần đầu tiên thần tính của Chúa Kitô được công khai mặc khải cho thế giới bên ngoài Israel. Trong Phụng vụ Rôma, lễ này được cử hành vào ngày 6 tháng 1, mặc dù một số giáo phận chuyển sang Chúa Nhật giữa ngày 2 và 8 tháng 1.",
-    "body_vi": "Lễ Hiển Linh tưởng nhớ sự xuất hiện của Ngôi Sao Bê-lem và việc các Đạo Sĩ từ phương Đông đến thờ lạy Hài Nhi Giêsu. Sự kiện này biểu thị việc tất cả các dân tộc được bao gồm trong kế hoạch cứu độ và tầm vóc phổ quát của sứ mệnh Chúa Kitô. Phụng vụ nhấn mạnh ánh sáng và sự mặc khải, với các bài đọc tập trung vào lời tiên tri của Isaia về ánh sáng lớn lao mọc lên cho các dân tộc và thư của Phaolô gửi tín hữu Êphêsô về mầu nhiệm đã được tỏ lộ cho các dân ngoại. Lễ này có bậc cao nhất trong lịch phụng vụ, thường đi kèm với phép lành nước và phấn để đánh dấu khung cửa (C+M+B).",
-    "confidence_note_vi": "Ngày 6 tháng 1 là ngày cố định của Lễ Hiển Linh trong Lịch Rôma Chung."
+    "title_vi": "Chúa Giêsu tỏ mình cho muôn dân",
+    "summary_vi": "Các đạo sĩ theo ngôi sao đến Bêlem, thờ lạy Hài Nhi Giêsu và dâng lễ vật. Lễ này mặc khải Chúa Giêsu là ánh sáng cứu độ cho mọi dân tộc.",
+    "body_vi": "Hôm nay, Giáo Hội mừng lễ Chúa Hiển Linh. Trong Tin Mừng, thánh Mátthêu kể lại việc các đạo sĩ từ phương Đông đến Giêrusalem hỏi: “Vua người Do Thái mới sinh ở đâu? Chúng tôi đã thấy ngôi sao của Người ở phương Đông, nên đến bái lạy Người.” Họ được ngôi sao dẫn đến Bêlem, gặp Hài Nhi Giêsu và Mẹ Maria, liền sấp mình thờ lạy và dâng lễ vật: vàng, nhũ hương và mộc dược. Lễ Chúa Hiển Linh mặc khải rằng Chúa Giêsu là ánh sáng muôn dân, là Đấng Cứu Độ không chỉ cho Ít-ra-en mà cho toàn thể nhân loại. Mỗi người chúng ta cũng được mời gọi lên đường theo ánh sáng đức tin, gặp gỡ Chúa và dâng cho Người lòng thờ kính, tin tưởng và yêu mến.",
+    "confidence_note_vi": "Mức độ tin cậy: cao. Dựa theo lịch phụng vụ Rôma; tại một số giáo phận, lễ Chúa Hiển Linh được chuyển sang Chúa Nhật, nên ngày 6 tháng 1 có thể là ngày thường trong mùa Giáng Sinh."
   },
   "app_hooks": {
-    "hero_line_vi": "Ánh sáng của Chúa Kitô chiếu soi muôn dân.",
-    "prayer_prompt_vi": "Lạy Chúa, xin mở lòng con để đón nhận sự mặc khải của Ngài và chia sẻ Tin Mừng cho mọi người."
+    "hero_line_vi": "Hãy đến thờ lạy Hài Nhi Giêsu, Vua các vua!",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho chúng con biết lên đường tìm kiếm Chúa và thờ lạy Chúa với cả tấm lòng, như các đạo sĩ ngày xưa. Amen."
   }
 }

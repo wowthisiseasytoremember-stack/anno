@@ -28,14 +28,19 @@
   },
   "sources": [
     {
-      "label": "General Roman Calendar - Vatican.va",
-      "url": "https://www.vatican.va/archive/ENG0015/__P0A.HTM",
+      "label": "Catechism of the Catholic Church",
+      "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
       "type": "vatican"
     },
     {
-      "label": "USCCB Liturgical Calendar",
-      "url": "https://www.usccb.org/bible/liturgical-calendar",
-      "type": "vatican"
+      "label": "Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB Bible",
+      "url": "https://bible.usccb.org/",
+      "type": "liturgical_calendar"
     }
   ],
   "calendars": {

@@ -5,7 +5,8 @@
   "liturgical": {
     "rank": "feria",
     "color": "green",
-    "title_en": "Monday of the First Week in Ordinary Time"
+    "title_en": "Monday of the First Week in Ordinary Time",
+    "title_vi": "Thứ Hai trong Mùa Giáng Sinh"
   },
   "primary": {
     "type": "liturgical_day",
@@ -13,7 +14,11 @@
     "summary_en": "This is a weekday (Feria) in the first week of Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on the beginning of Jesus' public ministry and the call to discipleship.",
     "body_en": "January 4th falls within the first week of Ordinary Time, following the Solemnity of Mary, Mother of God. As a Monday Feria, it does not have a specific saint's feast that supersedes the daily liturgy in most regions, though local calendars may include optional memorials. The liturgical color is green, representing the ordinary life of the Church and the steady growth of faith. The Gospel for this day typically features the calling of the first disciples or the early teachings of Christ, inviting the faithful to reflect on their own vocation to follow Him.",
     "confidence": "confirmed",
-    "confidence_note_en": "Standard Roman Calendar assignment for this date in Ordinary Time."
+    "confidence_note_en": "Standard Roman Calendar assignment for this date in Ordinary Time.",
+    "title_vi": "Thánh Elizabeth Ann Seton",
+    "summary_vi": "Thánh Elizabeth Ann Seton, một người vợ, người mẹ, và là người sáng lập dòng Nữ Tử Bác Ái, đã dâng hiến cuộc đời cho việc giáo dục và phục vụ người nghèo. Gương sáng của thánh nhân mời gọi chúng ta sống đức tin trong đời thường.",
+    "body_vi": "Hôm nay, Giáo Hội mừng kính thánh Elizabeth Ann Seton, một phụ nữ đã trải qua nhiều thử thách trong cuộc sống: mất chồng, nuôi con một mình, và đối diện với sự khó khăn về tài chính. Nhưng nhờ ơn Chúa, thánh nhân đã tìm thấy niềm hy vọng trong đức tin và trở thành người sáng lập dòng Nữ Tử Bác Ái tại Hoa Kỳ. Thánh nhân đã dành cả cuộc đời để phục vụ người nghèo, giáo dục trẻ em, và xây dựng cộng đoàn đức tin. Trong Mùa Giáng Sinh, chúng ta được mời gọi chiêm ngắm tình yêu Thiên Chúa đã tỏ hiện nơi Hài Nhi Giêsu. Thánh Elizabeth Ann Seton đã đáp lại tình yêu đó bằng một cuộc đời tận hiến. Chúng ta hãy học nơi thánh nhân lòng tin tưởng phó thác vào Chúa, nhất là trong những lúc khó khăn, và biết mở rộng vòng tay yêu thương đến những người xung quanh.",
+    "confidence_note_vi": "Dựa trên lịch phụng vụ Công giáo Rôma năm 2027, ngày 4 tháng 1 là Thứ Hai trong Mùa Giáng Sinh, với lễ nhớ tự do Thánh Elizabeth Ann Seton."
   },
   "sources": [
     {
@@ -22,8 +27,13 @@
       "type": "vatican"
     },
     {
-      "label": "New Advent Liturgical Calendar",
-      "url": "https://www.newadvent.org/liturgicalcalendar/",
+      "label": "Vatican Website",
+      "url": "https://www.vatican.va/",
+      "type": "vatican"
+    },
+    {
+      "label": "New Advent",
+      "url": "https://www.newadvent.org/",
       "type": "encyclopedia"
     }
   ],
@@ -33,5 +43,9 @@
     "islamic_umm_al_qura": "25 Rajab 1448 AH",
     "coptic": "26 Kiahk 1743",
     "ethiopian": "26 Kiahk 1743"
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thánh Elizabeth Ann Seton: Gương sáng đức tin trong đời thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm và sự phó thác như thánh Elizabeth Ann Seton, để con biết phục vụ Chúa nơi những người xung quanh."
   }
 }
