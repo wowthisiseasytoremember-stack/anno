@@ -231,7 +231,7 @@ struct MonthCalendarView: View {
                 if let date = cell {
                     dayCell(for: date)
                 } else {
-                    Color.clear.frame(height: 44)
+                    AnnoTheme.clearRow.frame(height: 44)
                 }
             }
         }
@@ -280,7 +280,7 @@ struct MonthCalendarView: View {
 
                 HStack(spacing: 3) {
                     if dotColors.isEmpty {
-                        Circle().fill(Color.clear).frame(width: 4, height: 4)
+                        Circle().fill(AnnoTheme.clearRow).frame(width: 4, height: 4)
                     } else {
                         ForEach(Array(dotColors.enumerated()), id: \.offset) { _, color in
                             Circle().fill(color).frame(width: 4, height: 4)

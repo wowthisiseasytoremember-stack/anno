@@ -124,7 +124,7 @@ struct SettingsView: View {
                     }
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
-                    .listRowBackground(Color.clear)
+                    .listRowBackground(AnnoTheme.clearRow)
                 }
             }
             .scrollContentBackground(.hidden)

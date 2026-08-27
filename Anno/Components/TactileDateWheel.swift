@@ -208,7 +208,7 @@ struct TactileDateWheel: View {
                         .frame(width: 4, height: 4)
                 } else {
                     Circle()
-                        .fill(Color.clear)
+                        .fill(AnnoTheme.clearRow)
                         .frame(width: 4, height: 4)
                 }
             }

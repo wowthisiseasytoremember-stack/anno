@@ -100,6 +100,9 @@ enum AnnoTheme {
     static let lg: CGFloat = 24
     static let xl: CGFloat = 32
 
+    /// Transparent row background for List/Form sections.
+    static let clearRow = Color.clear
+
     // MARK: - Animations
 
     /// Smooth spring used for card reveals and interactive transitions.
