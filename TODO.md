@@ -65,7 +65,7 @@
 
 - [ ] **Task F.1:** Run Engine B self-research for 2027-01 → 2027-07 (183-day gap) via `tools/batch_engine_b_2027_gap.py` on opencode-zen free `deepseek-v4-flash`. Chunked per month, resumable. January batch running.
 - [ ] **Task F.2:** After each month lands, run `tools/normalize_fixture.py` + `validate_mock_content.py` source gate; human spot-check 3 dates/month for hallucinated source URLs (rule #2).
-- [ ] **Task F.3:** Repair `calendar_engine.convert_date` 2027+ break (`datetime.date - datetime.datetime` in `gregorian_to_islamic_tabular`). Add a 2027-2030 regression test before the fix is trusted.
+- [x] **Task F.3:** Repair `calendar_engine.convert_date` 2027+ break (`datetime.date - datetime.datetime` in `gregorian_to_islamic_tabular`). Fixed: epoch → `date(622,7,16)`. Added `TestConvertDateFutureYears` regression guard (12/12 tests pass). F.3 closed.
 - [x] **Task F.4:** Host `Docs/privacy-policy.md` at a public URL — DONE via GitHub Pages (`https://wowthisiseasytoremember-stack.github.io/anno/`). Repo made public (no secrets tracked).
 - [ ] **Task F.5:** Extend batch driver to 2027-08 → 2028-12 once Jan–Jul 2027 proves clean (reuse same resumable runner).
 
