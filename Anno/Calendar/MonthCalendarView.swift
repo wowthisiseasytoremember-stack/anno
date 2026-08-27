@@ -378,11 +378,11 @@ struct MonthCalendarView: View {
                 ForEach(items, id: \.0) { label, value in
                     VStack(spacing: 1) {
                         Text(label)
-                            .font(.system(size: 8, weight: .semibold))
+                            .font(Typography.iconSmall)
                             .foregroundStyle(AnnoTheme.incense)
                             .fixedSize(horizontal: false, vertical: true)
                         Text(value)
-                            .font(.system(size: 10, weight: .medium))
+                            .font(Typography.iconCaption)
                             .foregroundStyle(AnnoTheme.vellum)
                             .fixedSize(horizontal: true, vertical: true)
                     }

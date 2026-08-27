@@ -301,13 +301,13 @@ struct TactileDateWheel: View {
         VStack(alignment: .leading, spacing: 3) {
             HStack(spacing: 4) {
                 Text(symbol)
-                    .font(.system(size: 8, weight: .black))
+                    .font(Typography.iconMicro)
                     .foregroundStyle(AnnoTheme.goldLeaf)
                     .padding(2)
                     .background(Circle().fill(AnnoTheme.choir))
 
                 Text(title)
-                    .font(.system(size: 9, weight: .semibold))
+                    .font(Typography.iconCaption2)
                     .foregroundStyle(AnnoTheme.incense)
             }
 

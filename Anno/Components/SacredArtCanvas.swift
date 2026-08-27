@@ -240,7 +240,7 @@ struct SacredArtCanvas: View {
                         onDismiss()
                     }) {
                         Image(systemName: "xmark.circle.fill")
-                            .font(.system(size: 28))
+                            .font(Typography.iconTitle2)
                             .foregroundStyle(AnnoTheme.vellum, AnnoTheme.choir.opacity(0.8))
                             .background(Circle().fill(AnnoTheme.choir))
                     }
@@ -288,7 +288,7 @@ struct SacredArtCanvas: View {
                     }
                 }) {
                     Image(systemName: isCommentaryExpanded ? "info.circle.fill" : "info.circle")
-                        .font(.system(size: 24))
+                        .font(Typography.iconTitle)
                         .foregroundStyle(isCommentaryExpanded ? AnnoTheme.goldLeaf : AnnoTheme.vellum)
                         .padding(6)
                         .background(Circle().fill(AnnoTheme.choir.opacity(0.85)))
@@ -458,7 +458,7 @@ struct SacredArtCanvas: View {
     private var errorRetryView: some View {
         VStack(spacing: 16) {
             Image(systemName: "exclamationmark.triangle")
-                .font(.system(size: 36))
+                .font(Typography.iconLarge)
                 .foregroundStyle(AnnoTheme.crimson)
 
             Text(language == .vietnamese ? "Không thể tải ảnh độ phân giải cao" : "Unable to load high-resolution artwork")

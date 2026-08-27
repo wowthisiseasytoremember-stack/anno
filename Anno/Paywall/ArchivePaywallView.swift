@@ -96,7 +96,7 @@ struct ArchivePaywallView: View {
                     .frame(width: 160, height: 160)
 
                 Image(systemName: "cross.fill")
-                    .font(.system(size: 44, weight: .light))
+                    .font(Typography.iconHero)
                     .foregroundStyle(
                         LinearGradient(
                             colors: [AnnoTheme.goldLeaf, AnnoTheme.gilt],

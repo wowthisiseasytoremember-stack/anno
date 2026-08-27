@@ -75,7 +75,7 @@ struct SavedView: View {
                 .frame(width: 140, height: 140)
 
             Image(systemName: "bookmark.fill")
-                .font(.system(size: 52, weight: .light))
+                .font(Typography.iconHeroLarge)
                 .foregroundStyle(
                     LinearGradient(
                         colors: [AnnoTheme.goldLeaf, AnnoTheme.gilt],

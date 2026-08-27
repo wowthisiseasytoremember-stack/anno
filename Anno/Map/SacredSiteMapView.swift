@@ -120,7 +120,7 @@ public struct SacredSiteMapView: View {
             if let today = currentEntry, !connectedRoutesToToday.isEmpty {
                 HStack(spacing: 5) {
                     Image(systemName: "sparkles")
-                        .font(.system(size: 10))
+                        .font(Typography.iconCaption)
                         .foregroundStyle(AnnoTheme.candleGlow)
                     Text(language == .vietnamese
                          ? "Gắn liền với lễ: \(today.liturgical.titleVi)"
@@ -286,7 +286,7 @@ public struct SacredSiteMapView: View {
                     } label: {
                         HStack(spacing: 4) {
                             Image(systemName: calling.icon)
-                                .font(.system(size: 10))
+                                .font(Typography.iconCaption)
                             Text(calling.title(for: language))
                                 .font(Typography.caption2Medium)
                         }
@@ -415,23 +415,23 @@ public struct SacredSiteMapView: View {
                     .overlay(Circle().stroke(AnnoTheme.goldLeaf, lineWidth: 1.5))
                     .shadow(color: .black.opacity(0.6), radius: 4, y: 2)
 
-                Text("\(waypoint.order)")
-                    .font(Typography.captionBoldSerif)
-                    .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
-            }
+                Text("\\\(waypoint.order)")
+                                    .font(Typography.captionBoldSerif)
+                                    .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
+                            }
 
-            Image(systemName: "triangle.fill")
-                .font(.system(size: 6))
-                .foregroundStyle(AnnoTheme.goldLeaf)
-                .rotationEffect(.degrees(180))
-                .offset(y: -2)
-        }
-    }
+                            Image(systemName: "triangle.fill")
+                                .font(Typography.iconTiny)
+                                .foregroundStyle(AnnoTheme.goldLeaf)
+                                .rotationEffect(.degrees(180))
+                                .offset(y: -2)
+                        }
+                    }
 
-    private func sanctuaryPinView(sanctuary: Sanctuary, isSelected: Bool) -> some View {
-        VStack(spacing: 0) {
-            ZStack {
-                if isSelected {
+                    private func sanctuaryPinView(sanctuary: Sanctuary, isSelected: Bool) -> some View {
+                        VStack(spacing: 0) {
+                            ZStack {
+                                if isSelected {
                     Circle()
                         .stroke(AnnoTheme.goldLeaf.opacity(0.4), lineWidth: 4)
                         .frame(width: 38, height: 38)
@@ -444,12 +444,12 @@ public struct SacredSiteMapView: View {
                     .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
 
                 Image(systemName: "cross.fill")
-                    .font(.system(size: 11))
+                    .font(Typography.iconCaption2)
                     .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
             }
 
             Image(systemName: "triangle.fill")
-                .font(.system(size: 6))
+                .font(Typography.iconTiny)
                 .foregroundStyle(AnnoTheme.goldLeaf)
                 .rotationEffect(.degrees(180))
                 .offset(y: -2)
@@ -460,7 +460,7 @@ public struct SacredSiteMapView: View {
         VStack(spacing: 0) {
             ZStack {
                 Image(systemName: "mappin.circle.fill")
-                    .font(.system(size: 30, weight: .bold))
+                    .font(Typography.iconSacredPin)
                     .foregroundStyle(AnnoTheme.goldLeaf)
                     .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
 
@@ -471,7 +471,7 @@ public struct SacredSiteMapView: View {
             }
 
             Image(systemName: "triangle.fill")
-                .font(.system(size: 8))
+                .font(Typography.iconSmall)
                 .foregroundStyle(AnnoTheme.goldLeaf)
                 .rotationEffect(.degrees(180))
                 .offset(y: -4)

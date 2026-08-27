@@ -202,9 +202,9 @@ struct TodayView: View {
                         // Zoom indicator badge
                         HStack(spacing: 4) {
                             Image(systemName: "arrow.up.left.and.arrow.down.right")
-                                .font(.system(size: 10, weight: .bold))
+                                .font(Typography.iconCaption)
                             Text(language == .vietnamese ? "Phóng to 4K" : "Zoom 4K")
-                                .font(.system(size: 10, weight: .semibold))
+                                .font(Typography.iconCaption)
                         }
                         .foregroundStyle(AnnoTheme.goldLeaf)
                         .padding(.horizontal, 8)
@@ -282,7 +282,7 @@ struct TodayView: View {
                     toggleBookmark()
                 }) {
                     Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(Typography.iconBody)
                         .foregroundStyle(isBookmarked ? AnnoTheme.goldLeaf : AnnoTheme.incense)
                         .padding(10)
                         .background {
@@ -420,7 +420,7 @@ struct TodayView: View {
 
                         if wp.order < min(route.waypoints.count, 3) {
                             Image(systemName: "chevron.right")
-                                .font(.system(size: 8))
+                                .font(Typography.iconTiny)
                                 .foregroundStyle(AnnoTheme.incense.opacity(0.6))
                         }
                     }
