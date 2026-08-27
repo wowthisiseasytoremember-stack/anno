@@ -6,7 +6,7 @@ struct ConfidenceBadge: View {
 
     var body: some View {
         Label(label, systemImage: iconName)
-            .font(.caption.weight(.semibold))
+            .font(Typography.captionSemiboldSerif)
             .padding(.horizontal, 10)
             .padding(.vertical, 6)
             .foregroundStyle(AnnoTheme.confidenceColor(confidence))

@@ -237,7 +237,7 @@ struct TodayView: View {
                         }
 
                         Text("\(entry.artwork.maker) · \(entry.artwork.dateLabel)")
-                            .font(Typography.caption)
+                            .font(Typography.captionSerif)
                             .foregroundStyle(AnnoTheme.incense)
                     }
                 }
@@ -346,7 +346,7 @@ struct TodayView: View {
 
                 HStack {
                     Text(String(format: "%.4f, %.4f", place.latitude, place.longitude))
-                        .font(.caption.monospacedDigit())
+                        .font(Typography.captionSerif.monospacedDigit())
                         .foregroundStyle(AnnoTheme.incense)
 
                     Spacer()

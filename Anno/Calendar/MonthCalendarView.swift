@@ -172,7 +172,7 @@ struct MonthCalendarView: View {
                 changeMonth(by: -1)
             } label: {
                 Image(systemName: "chevron.left")
-                    .font(.body.weight(.semibold))
+                    .font(Typography.subheadlineSemiboldSerif)
                     .foregroundStyle(AnnoTheme.goldLeaf)
                     .frame(width: 36, height: 36)
                     .background(AnnoTheme.choir)
@@ -194,7 +194,7 @@ struct MonthCalendarView: View {
                 changeMonth(by: 1)
             } label: {
                 Image(systemName: "chevron.right")
-                    .font(.body.weight(.semibold))
+                    .font(Typography.subheadlineSemiboldSerif)
                     .foregroundStyle(AnnoTheme.goldLeaf)
                     .frame(width: 36, height: 36)
                     .background(AnnoTheme.choir)
@@ -268,7 +268,7 @@ struct MonthCalendarView: View {
                     }
 
                     Text("\(dayNum)")
-                        .font(.callout.monospacedDigit().weight(isSelected ? .bold : .regular))
+                        .font(Typography.captionBold.monospacedDigit())
                         .foregroundStyle(
                             isSelected
                                 ? AnnoTheme.narthex
@@ -414,7 +414,7 @@ struct MonthCalendarView: View {
 
                 if !loc.liturgicalTitle.isEmpty {
                     Text(loc.liturgicalTitle)
-                        .font(Typography.caption)
+                        .font(Typography.captionSerif)
                         .foregroundStyle(AnnoTheme.incense)
                         .fixedSize(horizontal: false, vertical: true)
                 }
