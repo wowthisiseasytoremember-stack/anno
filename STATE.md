@@ -56,4 +56,4 @@ last_active: 2026-08-24
 - **Driver fixes:** (1) retry/backoff on transient SSL timeout; (2) VI-repair step — when a `_vi` leaf is null/empty (deepseek dropped ~30% of VI titles on first pass), fire one cheap VI-only call and backfill. Quality now 100% bilingual.
 - **Contract:** single bilingual call/date (EN+VI inline) — halves calls vs separate VN pass. ~3 min/date. 183-day gap ≈ 9h → chunked per month, resumable (skips done dates).
 - **Quality caveat (rule #2):** sources are model-returned, unverified. Hallucinated URLs possible. Human spot-check + source validation gate required before publish.
-- **Privacy policy URL:** still needed for TestFlight upload; `Docs/privacy-policy.md` exists locally, not hosted.
+- **Privacy policy URL — DONE:** published via GitHub Pages at `https://wowthisiseasytoremember-stack.github.io/anno/` (orphan `gh-pages` branch, `index.html` = rendered `docs/privacy-policy.md`). Required making the `anno` repo **public** (no secrets in repo — keys are Doppler/`.env` only). Contact line fixed to GitHub issues URL. F.4 closed.
