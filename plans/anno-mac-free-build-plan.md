@@ -1,6 +1,6 @@
 # Anno — Mac-Free Build Plan (S3/S4 Infrastructure)
 
-**Status:** Post-MMR v4 (all critical findings folded)
+**Status:** Post-MMR v5 (all critical findings folded — final execution plan)
 **Date:** 2026-08-28
 **Branch:** visual-polish
 **Author:** GCU No Trouble At All
@@ -9,9 +9,9 @@
 
 ## Goal
 
-Build every artifact needed for TestFlight release **on Linux** — so the next macOS session is a single `fastlane beta` command that produces a valid TestFlight build.
+Build every artifact needed for TestFlight release **on Linux** — so the next macOS session is a single `fastlane beta_deploy` command that produces a valid TestFlight build.
 
-> **Clarification (MMR):** This plan builds *artifacts* (Fastfile, docs, Swift files, workflow YAML) on Linux. The GitHub Actions release workflow **requires macOS runners** and cannot run on Linux. The Linux value is artifact authoring, not CI execution.
+> **Clarification:** This plan builds *artifacts* (Fastfile, docs, Swift files, workflow YAML) on Linux. The GitHub Actions release workflow **requires macOS runners** and cannot run on Linux. The Linux value is artifact authoring, not CI execution.
 
 **Target:** Anno iOS app (Catholic daily devotional, EN/VI, StoreKit 2 subscription via RevenueCat)
 
@@ -36,13 +36,14 @@ Build every artifact needed for TestFlight release **on Linux** — so the next 
 
 ## What We Build on Linux
 
-### 1. Fastlane (Placeholders First — MMR Order Fix)
+### 1. Fastlane (Placeholders First + Split Lanes — MMR Critical Fix)
 | File | Purpose |
 |------|---------|
-| `fastlane/Fastfile` | **Primary lane:** `beta` (TestFlight, `match(type: "appstore", readonly: true)`). **Write lanes:** `match_appstore`, `match_development` — **guarded by `ensure_env(env: 'CI')`**. **Remove** redundant `match` pre-flight steps — `fastlane beta` handles match internally (MMR finding). |
+| `fastlane/Fastfile` | **Three lanes:**<br>• `beta_validate` — `match(type: "appstore", readonly: true)` + `gym` (build only, **no pilot**)<br>• `beta_deploy` — `match(type: "appstore", readonly: true)` + `gym` + `pilot` (upload to TestFlight)<br>• `match_appstore` / `match_development` — **guarded by `ensure_env(env: 'CI')`** (write only on Mac) |
 | `fastlane/Appfile` | App identifier, team ID, Apple ID |
 | `fastlane/Matchfile` | `git_url`, `type("appstore")`, `readonly(true)` |
-| `fastlane/Gemfile` | **Only `gem "fastlane"`** — match is in core, no plugins needed (MMR finding) |
+| `fastlane/Gemfile` | `gem "fastlane", "~> 2.225"` — **version pinned** (MMR finding)<br>**Commit `fastlane/Gemfile.lock`** to repo |
+| `fastlane/Gemfile.lock` | Committed — ensures deterministic CI bundle install |
 
 **Secrets referenced as placeholders (exact names for SECRETS.md):**
 - `MATCH_GIT_URL` — git remote for match repo
@@ -53,25 +54,44 @@ Build every artifact needed for TestFlight release **on Linux** — so the next 
 - `FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD` — for `pilot` upload
 - `REVENUECAT_API_KEY` — (if using server-side webhooks; SDK public key goes in app bundle)
 
-### 2. Documentation (After Fastlane Placeholders)
+### 2. RevenueCat Protocol + MockStore (Testable on Linux — MMR Critical Fix)
 | File | Purpose |
 |------|---------|
-| `docs/SECRETS.md` | **Exact mapping table:** Fastfile placeholder → GitHub Secret name → Source (ASC / Match / RevenueCat). Include note: "GitHub auto-masks secrets in logs; avoid `echo $SECRET`." |
-| `docs/MATCH_SETUP.md` | Mac playbook: exact `fastlane match` commands (brew install → init → appstore → push → verify `readonly: true` works) |
-| `docs/RELEASE_CHECKLIST.md` | 30-min Mac session: match init → secrets verify → `fastlane beta` |
+| `Anno/Services/StoreKitProvider.swift` | **Protocol** — `func getCustomerInfo() async throws -> CustomerInfo`, `func purchase(_ package: Package) async throws`, `func restorePurchases() async throws` |
+| `Anno/Services/RevenueCatProvider.swift` | Production impl — wraps `Purchases` SDK, conforms to `StoreKitProvider` |
+| `Anno/Services/MockStoreProvider.swift` | **Test impl** — in-memory entitlement state, deterministic success/failure, used by Linux `swift test` |
+| `Anno/Services/EntitlementManager.swift` | Reads `CustomerInfo.entitlements.active["premium"]?.isActive` — pure Swift, testable on Linux |
+| `Anno/ViewModels/StoreViewModel.swift` | UI-facing: packages, purchase, restore, error handling — injects `StoreKitProvider` |
+| `AnnoTests/StoreKitProviderTests.swift` | Tests `EntitlementManager` + `StoreViewModel` with `MockStoreProvider` |
 
-### 3. GitHub Actions — Release Workflow (Single Job — MMR Critical Fix)
+**Products (RevenueCat Dashboard → App Store Connect):**
+- `anno.subscription.yearly` — $19.99/yr (intro: 7-day free trial)
+- `anno.subscription.monthly` — $2.99/mo
+
+**Entitlement:** `premium` (attached to both products)
+
+**Verification command (runs on Linux):**
+```bash
+swift test --filter StoreKitProviderTests
+```
+
+### 3. GitHub Actions — Release Workflow (Tag-Gated — MMR Critical Fix)
 | File | Purpose |
 |------|---------|
 | `.github/workflows/ios-release.yml` | **Single job `release`** on `macos-latest` (90 min timeout) |
 
-**Job: release** (sequential steps, no artifact passing):
+**Tag gating:**
+- `v*-dryrun` tags → run `beta_validate` lane (match + gym, no upload)
+- `v[0-9]+.[0-9]+.[0-9]+` semver tags → run `beta_deploy` lane (full upload)
+
+**Job: release** (sequential steps):
 ```yaml
 - checkout
 - xcodegen generate
 - actions/cache: ~/Library/Developer/Xcode/DerivedData + SPM cache
 - bundle install (fastlane/Gemfile)
-- fastlane beta  # runs gym (build) + pilot (upload) + match (readonly) internally
+- if: github.ref matches 'v*-dryrun' → fastlane beta_validate
+- if: github.ref matches 'v[0-9]+.[0-9]+.[0-9]+' → fastlane beta_deploy
 ```
 
 **Concurrency:** `group: release, cancel-in-progress: true`
@@ -87,35 +107,20 @@ FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD
 REVENUECAT_API_KEY  # if webhooks used
 ```
 
-**No pre-flight match step** — `fastlane beta` handles it (MMR finding).
+**No pre-flight match step** — `fastlane beta_validate` / `beta_deploy` handle it.
 
-### 4. StoreKit 2 — RevenueCat with Protocol/Mock (MMR Critical Fix)
-| Decision | Rationale |
-|----------|-----------|
-| **RevenueCat SDK** | Cross-platform, handles grace period / billing retry / family sharing server-side, dashboard for product config |
-| **Protocol + MockStore** | Enables `swift test` on Linux — CI regression testing for subscription logic |
-
-**Files:**
-| File | Purpose |
-|------|---------|
-| `Anno/Services/StoreKitProvider.swift` | **Protocol** — `func getCustomerInfo() async throws -> CustomerInfo`, `func purchase(_ package: Package) async throws`, `func restorePurchases() async throws` |
-| `Anno/Services/RevenueCatProvider.swift` | Production impl — wraps `Purchases` SDK, conforms to `StoreKitProvider` |
-| `Anno/Services/MockStoreProvider.swift` | **Test impl** — in-memory entitlement state, deterministic success/failure, used by Linux `swift test` |
-| `Anno/Services/EntitlementManager.swift` | Reads `CustomerInfo.entitlements.active["premium"]?.isActive` — pure Swift, testable on Linux |
-| `Anno/ViewModels/StoreViewModel.swift` | UI-facing: packages, purchase, restore, error handling — injects `StoreKitProvider` |
-
-**Products (RevenueCat Dashboard → App Store Connect):**
-- `anno.subscription.yearly` — $19.99/yr (intro: 7-day free trial)
-- `anno.subscription.monthly` — $2.99/mo
-
-**Entitlement:** `premium` (attached to both products)
-
-**Test target:** `AnnoTests/StoreKitProviderTests.swift` — tests `EntitlementManager` + `StoreViewModel` with `MockStoreProvider`
-
-### 5. CI/CD — Update Existing Build Workflow
+### 4. CI/CD — Update Existing Build Workflow
 | File | Change |
 |------|--------|
-| `.github/workflows/ios-build.yml` | Add `validate` **step** (not separate job) in existing job: `xcodegen generate` → `xcodegen validate` → `xcodebuild -analyze` (MMR: ordering dependency) |
+| `.github/workflows/ios-build.yml` | Add `validate` **step** in existing job: `xcodegen generate` → `xcodegen validate` → `xcodebuild -analyze` (MMR: ordering dependency) |
+
+### 5. Documentation (After Fastlane Placeholders)
+| File | Purpose |
+|------|---------|
+| `docs/SECRETS.md` | **Exact mapping table:** Fastfile placeholder → GitHub Secret name → Source (ASC / Match / RevenueCat). Include note: "GitHub auto-masks secrets in logs; avoid `echo $SECRET`." |
+| `docs/MATCH_SETUP.md` | Mac playbook: exact `fastlane match` commands (brew install → init → appstore → push → verify `readonly: true` works) |
+| `docs/RELEASE_CHECKLIST.md` | 30-min Mac session: match init → secrets verify → `fastlane beta_deploy` |
+| `docs/VIETNAMESE_REVIEW_SIGNOFF.md` | **Enforced gate** — tracks: reviewer name, date, `vi_review_complete: true` (MMR finding). Release checklist: "Verify this file exists with `vi_review_complete: true` before `beta_deploy`." |
 
 ### 6. App Store Connect Metadata (Minimal Viable)
 | File | Purpose |
@@ -138,61 +143,60 @@ REVENUECAT_API_KEY  # if webhooks used
 | Initial `match` cert generation | `docs/MATCH_SETUP.md` |
 | Device provisioning / UDID | `docs/RELEASE_CHECKLIST.md` |
 | `fastlane snapshot` screenshots | (post-MVP) |
-| First `fastlane beta` execution | `docs/RELEASE_CHECKLIST.md` |
+| First `fastlane beta_deploy` execution | `docs/RELEASE_CHECKLIST.md` |
 | TestFlight internal testing | (post-MVP) |
 
 ---
 
-## Execution Order (Clean, Unblocked)
+## Execution Order (Parallel Where Possible)
 
 ```
-PHASE 1 — FASTLANE PLACEHOLDERS (Unblocks Everything)
-├── fastlane/Fastfile          ← beta lane (readonly match), write lanes guarded, NO pre-flight match
+PHASE 1 — PARALLEL ARTIFACT AUTHORSHIP (Unblocks Everything)
+├── fastlane/Fastfile          ← beta_validate, beta_deploy, guarded write lanes
 ├── fastlane/Appfile
 ├── fastlane/Matchfile
-└── fastlane/Gemfile           ← ONLY "gem \"fastlane\""
-
-PHASE 2 — REVENUECAT PROTOCOL + MOCK (Testable on Linux)
+├── fastlane/Gemfile           ← "gem \"fastlane\", \"~> 2.225\""
+├── fastlane/Gemfile.lock      ← commit this
 ├── StoreKitProvider.swift     ← protocol
 ├── RevenueCatProvider.swift   ← production
 ├── MockStoreProvider.swift    ← test impl
 ├── EntitlementManager.swift   ← pure Swift
 ├── StoreViewModel.swift       ← injects StoreKitProvider
-└── StoreKitProviderTests.swift ← swift test on Linux
+├── StoreKitProviderTests.swift ← swift test --filter StoreKitProviderTests
+├── .github/workflows/ios-release.yml (single job, tag gating, cache, concurrency)
+└── Update ios-build.yml validate step (generate → validate → analyze)
 
-PHASE 3 — CI/CD RELEASE WORKFLOW (Single Job)
-├── .github/workflows/ios-release.yml (single release job, cache, concurrency)
-└── Update ios-build.yml validate step (xcodegen generate → validate → analyze)
-
-PHASE 4 — DOCUMENTATION (Maps to Placeholders)
-├── docs/SECRETS.md            ← exact secret ↔ placeholder mapping table
+PHASE 2 — DOCUMENTATION (Maps to Placeholders)
+├── docs/SECRETS.md            ← exact mapping table
 ├── docs/MATCH_SETUP.md        ← exact shell commands
-└── docs/RELEASE_CHECKLIST.md  ← 30-min walkthrough
+├── docs/RELEASE_CHECKLIST.md  ← 30-min walkthrough + vi signoff gate
+└── docs/VIETNAMESE_REVIEW_SIGNOFF.md ← reviewer, date, vi_review_complete: true
 
-PHASE 5 — METADATA
+PHASE 3 — METADATA
 ├── fastlane/metadata/en-US/
 └── fastlane/metadata/vi/README.md
 
-PHASE 6 — VERIFICATION
-├── Tag dry-run (v0.0.0-dryrun) → confirm match readonly + build + deploy
-└── Commit, push, CI green
+PHASE 4 — VERIFICATION (Executable — MMR Fix)
+├── [Linux] swift test --filter StoreKitProviderTests → MUST PASS
+├── [CI] git tag v0.0.0-dryrun && git push origin v0.0.0-dryrun
+│   └── Verify: ios-release.yml starts, runs beta_validate, match readonly + gym succeed (no upload)
+├── [CI] Confirm: NO TestFlight build created from dry-run
+└── [Mac] Run RELEASE_CHECKLIST.md → fastlane beta_deploy on semver tag (e.g., v1.0.0)
 ```
 
 ---
 
-## Acceptance Criteria
+## Acceptance Criteria (Executable — MMR Fix)
 
-- [ ] `fastlane/Fastfile` has `beta` lane with `match(type: "appstore", readonly: true)` + write lanes guarded by `ensure_env(env: 'CI')` + no pre-flight match step
-- [ ] `fastlane/Gemfile` has **only** `gem "fastlane"`
-- [ ] `docs/SECRETS.md` exact mapping table (Fastfile placeholder → GitHub Secret name → Source)
-- [ ] `docs/MATCH_SETUP.md` exact `fastlane match` commands + verify readonly step
-- [ ] `docs/RELEASE_CHECKLIST.md` walkable in <30 min
-- [ ] `ios-release.yml`: **single `release` job**, caching (DerivedData + SPM), 90min, concurrency group, no artifact passing
-- [ ] `StoreKitProvider.swift` + `RevenueCatProvider.swift` + `MockStoreProvider.swift` + `EntitlementManager.swift` + `StoreViewModel.swift` implemented
-- [ ] `StoreKitProviderTests.swift` passes on Linux (`swift test`)
-- [ ] `ios-build.yml` validate: `xcodegen generate` → `xcodegen validate` → `xcodebuild -analyze` (sequential steps in same job)
-- [ ] `fastlane/metadata/en-US/` populated, `vi/` has placeholder README
-- [ ] Dry-run tag passes end-to-end
+| Phase | Verification Command | Expected Result |
+|-------|---------------------|-----------------|
+| Fastlane | `cd fastlane && bundle exec fastlane --version` | `fastlane 2.225.x` |
+| Gemfile.lock | `git ls-files fastlane/Gemfile.lock` | Tracked |
+| StoreKit tests | `swift test --filter StoreKitProviderTests` | All pass on Linux |
+| ios-release.yml (dry-run) | `git tag v0.0.0-dryrun && git push origin v0.0.0-dryrun` | Workflow triggers, `beta_validate` runs, match readonly + gym succeed, **no pilot upload** |
+| ios-release.yml (deploy) | `git tag v1.0.0 && git push origin v1.0.0` | Workflow triggers, `beta_deploy` runs, TestFlight build uploaded |
+| SECRETS.md | `grep -c "MATCH_GIT_URL\|APP_STORE_CONNECT_API_KEY_KEY_ID\|MATCH_PASSWORD" docs/SECRETS.md` | ≥ 6 mappings |
+| VI signoff | `cat docs/VIETNAMESE_REVIEW_SIGNOFF.md | grep "vi_review_complete: true"` | Returns line |
 
 ---
 
@@ -200,12 +204,10 @@ PHASE 6 — VERIFICATION
 
 | Phase | Items | Est. Time |
 |-------|-------|-----------|
-| Fastlane placeholders | 1 | 45 min |
-| RevenueCat protocol + mock + tests | 2 | 2.5 hrs |
-| CI/CD release workflow (single job + cache) | 3 | 1 hr |
-| Documentation | 4 | 30 min |
-| Metadata | 5 | 45 min |
-| Verification (dry-run) | 6 | 30 min |
+| Parallel artifact authorship | 1 | 4 hrs |
+| Documentation | 2 | 30 min |
+| Metadata | 3 | 45 min |
+| Verification (dry-run + Mac) | 4 | 1 hr |
 | **Total** | | **~6 hrs** |
 
-All doable on ichabod (Linux). Mac session = `MATCH_SETUP.md` → `fastlane beta`.
+All doable on ichabod (Linux). Mac session = `MATCH_SETUP.md` → verify `VIETNAMESE_REVIEW_SIGNOFF.md` → `fastlane beta_deploy`.
