@@ -3,11 +3,7 @@ import SwiftUI
 struct RootView: View {
     @Environment(AppSettings.self) private var settings
     @StateObject private var store: FixtureStore
-    #if ANNO_VN
-    @State private var language: LanguageMode = .vietnamese
-    #else
     @State private var language: LanguageMode = .english
-    #endif
     @State private var selectedTab: AppTab = .today
     @State private var showingSources = false
     @State private var showingSettings = false
