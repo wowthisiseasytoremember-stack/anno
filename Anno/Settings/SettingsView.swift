@@ -21,13 +21,12 @@ struct SettingsView: View {
                         Text("English").tag(LanguageMode.english)
                         Text("Tiếng Việt").tag(LanguageMode.vietnamese)
                     }
-                    .foregroundColor(AnnoTheme.vellum)
+                    .foregroundStyle(AnnoTheme.vellum)
                     .listRowBackground(AnnoTheme.choir)
                 } header: {
                     Text(language == .vietnamese ? "NGÔN NGỮ" : "LANGUAGE")
-                        .foregroundColor(sectionHeaderColor)
-                        .font(.caption.weight(.semibold))
-                        .fontDesign(.serif)
+                        .foregroundStyle(sectionHeaderColor)
+                        .font(Typography.captionSemiboldSerif)
                 }
 
                 // MARK: - Tradition
@@ -41,19 +40,18 @@ struct SettingsView: View {
                                 .tag(tradition)
                         }
                     }
-                    .foregroundColor(AnnoTheme.vellum)
+                    .foregroundStyle(AnnoTheme.vellum)
                     .listRowBackground(AnnoTheme.choir)
                 } header: {
                     Text(language == .vietnamese ? "TRUYỀN THỐNG" : "TRADITION")
-                        .foregroundColor(sectionHeaderColor)
-                        .font(.caption.weight(.semibold))
-                        .fontDesign(.serif)
+                        .foregroundStyle(sectionHeaderColor)
+                        .font(Typography.captionSemiboldSerif)
                 } footer: {
                     Text(language == .vietnamese
                          ? "Chọn truyền thống để ưu tiên nội dung phụng vụ và thánh nhân."
                          : "Choose a tradition to prioritize liturgical content and saints.")
-                        .foregroundColor(AnnoTheme.incense)
-                        .font(.caption)
+                        .foregroundStyle(AnnoTheme.incense)
+                        .font(Typography.caption)
                 }
 
                 // MARK: - Notifications
@@ -61,19 +59,18 @@ struct SettingsView: View {
                     Toggle(isOn: $notificationsEnabled) {
                         Label {
                             Text(language == .vietnamese ? "Nhắc nhở hằng ngày" : "Daily reminder")
-                                .foregroundColor(AnnoTheme.vellum)
+                                .foregroundStyle(AnnoTheme.vellum)
                         } icon: {
                             Image(systemName: "bell.badge")
-                                .foregroundColor(AnnoTheme.goldLeaf)
+                                .foregroundStyle(AnnoTheme.goldLeaf)
                         }
                     }
                     .tint(AnnoTheme.goldLeaf)
                     .listRowBackground(AnnoTheme.choir)
                 } header: {
                     Text(language == .vietnamese ? "THÔNG BÁO" : "NOTIFICATIONS")
-                        .foregroundColor(sectionHeaderColor)
-                        .font(.caption.weight(.semibold))
-                        .fontDesign(.serif)
+                        .foregroundStyle(sectionHeaderColor)
+                        .font(Typography.captionSemiboldSerif)
                 }
 
                 // MARK: - About
@@ -103,9 +100,8 @@ struct SettingsView: View {
                     )
                 } header: {
                     Text(language == .vietnamese ? "THÔNG TIN" : "ABOUT")
-                        .foregroundColor(sectionHeaderColor)
-                        .font(.caption.weight(.semibold))
-                        .fontDesign(.serif)
+                        .foregroundStyle(sectionHeaderColor)
+                        .font(Typography.captionSemiboldSerif)
                 }
 
                 // MARK: - Footer
@@ -113,19 +109,17 @@ struct SettingsView: View {
                     VStack(spacing: 8) {
                         Image(systemName: "cross")
                             .font(.title2)
-                            .foregroundColor(AnnoTheme.goldLeaf.opacity(0.4))
+                            .foregroundStyle(AnnoTheme.goldLeaf.opacity(0.4))
 
                         Text("Anno")
-                            .font(.headline)
-                            .fontDesign(.serif)
-                            .foregroundColor(AnnoTheme.incense)
+                            .font(Typography.headlineSerif)
+                            .foregroundStyle(AnnoTheme.incense)
 
                         Text(language == .vietnamese
                              ? "Mỗi ngày kể từ Nhập Thể đều đã được đánh số."
                              : "Every day since the Incarnation has been numbered.")
-                            .font(.caption)
-                            .fontDesign(.serif)
-                            .foregroundColor(AnnoTheme.incense.opacity(0.6))
+                            .font(Typography.caption)
+                            .foregroundStyle(AnnoTheme.incense.opacity(0.6))
                             .multilineTextAlignment(.center)
                     }
                     .frame(maxWidth: .infinity)
@@ -143,10 +137,11 @@ struct SettingsView: View {
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
+                        Haptics.light()
                         dismiss()
                     } label: {
                         Image(systemName: "xmark.circle.fill")
-                            .foregroundColor(AnnoTheme.incense)
+                            .foregroundStyle(AnnoTheme.incense)
                             .font(.title3)
                     }
                 }
@@ -158,10 +153,10 @@ struct SettingsView: View {
         HStack {
             Label {
                 Text(title)
-                    .foregroundColor(AnnoTheme.vellum)
+                    .foregroundStyle(AnnoTheme.vellum)
             } icon: {
                 Image(systemName: icon)
-                    .foregroundColor(AnnoTheme.goldLeaf)
+                    .foregroundStyle(AnnoTheme.goldLeaf)
                     .frame(width: 24)
             }
 
@@ -169,12 +164,12 @@ struct SettingsView: View {
 
             if let detail {
                 Text(detail)
-                    .font(.caption)
-                    .foregroundColor(AnnoTheme.incense)
+                    .font(Typography.caption)
+                    .foregroundStyle(AnnoTheme.incense)
             } else {
                 Image(systemName: "chevron.right")
-                    .font(.caption.weight(.semibold))
-                    .foregroundColor(AnnoTheme.incense)
+                    .font(Typography.captionBold)
+                    .foregroundStyle(AnnoTheme.incense)
             }
         }
         .listRowBackground(AnnoTheme.choir)

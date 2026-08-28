@@ -167,10 +167,13 @@ struct MonthCalendarView: View {
 
     private var monthHeader: some View {
         HStack(spacing: 12) {
-            Button { changeMonth(by: -1) } label: {
+            Button {
+                Haptics.light()
+                changeMonth(by: -1)
+            } label: {
                 Image(systemName: "chevron.left")
                     .font(.body.weight(.semibold))
-                    .foregroundColor(AnnoTheme.goldLeaf)
+                    .foregroundStyle(AnnoTheme.goldLeaf)
                     .frame(width: 36, height: 36)
                     .background(AnnoTheme.choir)
                     .clipShape(Circle())
@@ -180,16 +183,19 @@ struct MonthCalendarView: View {
             Spacer()
 
             Text(monthYearFormatter.string(from: displayedMonth).localizedCapitalized)
-                .font(.title3.weight(.bold))
-                .foregroundColor(AnnoTheme.vellum)
+                .font(Typography.title2BoldSerif)
+                .foregroundStyle(AnnoTheme.vellum)
                 .monospacedDigit()
 
             Spacer()
 
-            Button { changeMonth(by: 1) } label: {
+            Button {
+                Haptics.light()
+                changeMonth(by: 1)
+            } label: {
                 Image(systemName: "chevron.right")
                     .font(.body.weight(.semibold))
-                    .foregroundColor(AnnoTheme.goldLeaf)
+                    .foregroundStyle(AnnoTheme.goldLeaf)
                     .frame(width: 36, height: 36)
                     .background(AnnoTheme.choir)
                     .clipShape(Circle())
@@ -209,8 +215,8 @@ struct MonthCalendarView: View {
         return LazyVGrid(columns: gridColumns, spacing: 4) {
             ForEach(Array(symbols.enumerated()), id: \.offset) { idx, sym in
                 Text(sym)
-                    .font(.caption.weight(.semibold))
-                    .foregroundColor(idx == 0 ? AnnoTheme.goldLeaf : AnnoTheme.incense)
+                    .font(Typography.captionSemiboldSerif)
+                    .foregroundStyle(idx == 0 ? AnnoTheme.goldLeaf : AnnoTheme.incense)
                     .frame(maxWidth: .infinity)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -244,6 +250,7 @@ struct MonthCalendarView: View {
         let dotColors = Array(dayEntries.prefix(2)).map { liturgicalColor(for: $0.liturgical.color) }
 
         return Button {
+            Haptics.selection()
             withAnimation(.easeInOut(duration: 0.25)) {
                 selectedDate = date
             }
@@ -262,7 +269,7 @@ struct MonthCalendarView: View {
 
                     Text("\(dayNum)")
                         .font(.callout.monospacedDigit().weight(isSelected ? .bold : .regular))
-                        .foregroundColor(
+                        .foregroundStyle(
                             isSelected
                                 ? AnnoTheme.narthex
                                 : (isSunday ? AnnoTheme.goldLeaf : AnnoTheme.vellum)
@@ -307,8 +314,8 @@ struct MonthCalendarView: View {
     private var detailPanel: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text(fullDateFormatter.string(from: selectedDate).localizedCapitalized)
-                .font(.headline)
-                .foregroundColor(AnnoTheme.vellum)
+                .font(Typography.headlineSerif)
+                .foregroundStyle(AnnoTheme.vellum)
                 .fixedSize(horizontal: false, vertical: true)
 
             if let first = selectedDayEntries.first {
@@ -319,8 +326,8 @@ struct MonthCalendarView: View {
                 Text(language == .english
                      ? "No events for this day."
                      : "Không có sự kiện cho ngày này.")
-                    .font(.subheadline)
-                    .foregroundColor(AnnoTheme.incense)
+                    .font(Typography.subheadlineSemiboldSerif)
+                    .foregroundStyle(AnnoTheme.incense)
                     .fixedSize(horizontal: false, vertical: true)
                     .padding(.vertical, 6)
             } else {
@@ -332,13 +339,14 @@ struct MonthCalendarView: View {
             }
 
             Button {
+                Haptics.light()
                 if let first = selectedDayEntries.first {
                     onSelectEntry(first)
                 }
             } label: {
                 Text(language == .english ? "Open This Day" : "Mở ngày này")
-                    .font(.headline)
-                    .foregroundColor(AnnoTheme.narthex)
+                    .font(Typography.headlineSerif)
+                    .foregroundStyle(AnnoTheme.narthex)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 14)
                     .background(selectedDayEntries.isEmpty ? AnnoTheme.ash : AnnoTheme.goldLeaf)
@@ -371,11 +379,11 @@ struct MonthCalendarView: View {
                     VStack(spacing: 1) {
                         Text(label)
                             .font(.system(size: 8, weight: .semibold))
-                            .foregroundColor(AnnoTheme.incense)
+                            .foregroundStyle(AnnoTheme.incense)
                             .fixedSize(horizontal: false, vertical: true)
                         Text(value)
                             .font(.system(size: 10, weight: .medium))
-                            .foregroundColor(AnnoTheme.vellum)
+                            .foregroundStyle(AnnoTheme.vellum)
                             .fixedSize(horizontal: true, vertical: true)
                     }
                     .padding(.horizontal, 10)
@@ -400,21 +408,21 @@ struct MonthCalendarView: View {
 
             VStack(alignment: .leading, spacing: 4) {
                 Text(loc.title)
-                    .font(.subheadline.weight(.semibold))
-                    .foregroundColor(AnnoTheme.vellum)
+                    .font(Typography.subheadlineSemiboldSerif)
+                    .foregroundStyle(AnnoTheme.vellum)
                     .fixedSize(horizontal: false, vertical: true)
 
                 if !loc.liturgicalTitle.isEmpty {
                     Text(loc.liturgicalTitle)
-                        .font(.caption)
-                        .foregroundColor(AnnoTheme.incense)
+                        .font(Typography.caption)
+                        .foregroundStyle(AnnoTheme.incense)
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
                 HStack(spacing: 8) {
                     Text(entry.liturgical.rank)
-                        .font(.caption2.weight(.medium))
-                        .foregroundColor(AnnoTheme.incense)
+                        .font(Typography.caption2Medium)
+                        .foregroundStyle(AnnoTheme.incense)
                         .fixedSize(horizontal: false, vertical: true)
 
                     ConfidenceBadge(label: loc.confidenceLabel, confidence: entry.primary.confidence)

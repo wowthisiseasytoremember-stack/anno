@@ -30,15 +30,17 @@ struct RootView: View {
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         Button {
+                            Haptics.light()
                             showingSettings = true
                         } label: {
                             Image(systemName: "gearshape")
-                                .foregroundColor(AnnoTheme.incense)
+                                .foregroundStyle(AnnoTheme.incense)
                         }
+                        .accessibilityLabel(language == .vietnamese ? "Cài đặt" : "Settings")
                     }
                 }
             }
-            .tabItem { Label("Today", systemImage: "sun.max") }
+            .tabItem { Label(language == .vietnamese ? "Hôm nay" : "Today", systemImage: "sun.max") }
             .tag(AppTab.today)
 
             NavigationStack {
@@ -51,7 +53,7 @@ struct RootView: View {
                     }
                 )
             }
-            .tabItem { Label("Calendar", systemImage: "calendar") }
+            .tabItem { Label(language == .vietnamese ? "Lịch" : "Calendar", systemImage: "calendar") }
             .tag(AppTab.calendar)
 
             NavigationStack {
@@ -61,13 +63,13 @@ struct RootView: View {
                     language: language
                 )
             }
-            .tabItem { Label("Map", systemImage: "map") }
+            .tabItem { Label(language == .vietnamese ? "Bản đồ" : "Map", systemImage: "map") }
             .tag(AppTab.map)
 
             NavigationStack {
                 SavedView(language: language)
             }
-            .tabItem { Label("Saved", systemImage: "bookmark") }
+            .tabItem { Label(language == .vietnamese ? "Đã lưu" : "Saved", systemImage: "bookmark") }
             .tag(AppTab.saved)
         }
         .tint(AnnoTheme.goldLeaf)

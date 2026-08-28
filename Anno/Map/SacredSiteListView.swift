@@ -32,43 +32,42 @@ struct SacredSiteListView: View {
             RoundedRectangle(cornerRadius: 2)
                 .fill(AnnoTheme.confidenceColor(place.confidence))
                 .frame(width: 4)
-                
+
             VStack(alignment: .leading, spacing: 8) {
                 // Header: Place Name and Entry Title
                 VStack(alignment: .leading, spacing: 2) {
                     Text(place.name)
-                        .font(.headline)
-                        .fontDesign(.serif)
+                        .font(Typography.headlineSerif)
                         .foregroundStyle(AnnoTheme.vellum)
                         .fixedSize(horizontal: false, vertical: true)
-                        
+
                     Text(LocalizedEntryText(entry: entry, language: language).title)
-                        .font(.caption)
+                        .font(Typography.caption)
                         .foregroundStyle(AnnoTheme.incense)
                         .fixedSize(horizontal: false, vertical: true)
                 }
-                
+
                 // Coordinates
                 Text("\(place.latitude.formatted(.number.precision(.fractionLength(4)))), \(place.longitude.formatted(.number.precision(.fractionLength(4))))")
                     .font(.caption2.monospacedDigit())
                     .foregroundStyle(AnnoTheme.incense.opacity(0.8))
-                
+
                 // Footer: Confidence Badge & Map Link
                 HStack(alignment: .bottom) {
                     ConfidenceBadge(
                         label: LocalizedEntryText(entry: entry, language: language).confidenceLabel,
                         confidence: place.confidence
                     )
-                    
+
                     Spacer()
-                    
+
                     if let mapsUrl = appleMapsUrl(latitude: place.latitude, longitude: place.longitude) {
                         Link(destination: mapsUrl) {
                             HStack(spacing: 4) {
                                 Text(language == .vietnamese ? "Bản đồ" : "Maps")
-                                    .font(.caption.weight(.medium))
+                                    .font(Typography.captionMedium)
                                 Image(systemName: "arrow.triangle.turn.up.right.diamond.fill")
-                                    .font(.caption)
+                                    .font(Typography.caption)
                             }
                             .foregroundStyle(AnnoTheme.goldLeaf)
                             .padding(.horizontal, 10)

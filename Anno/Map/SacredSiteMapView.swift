@@ -107,7 +107,7 @@ public struct SacredSiteMapView: View {
             Text(language == .vietnamese
                  ? "Hôm nay bạn muốn bước theo con đường của ai?"
                  : "Whose path will you walk today?")
-                .font(.system(size: 15, weight: .semibold, design: .serif))
+                .font(Typography.subheadlineSemibold)
                 .foregroundStyle(
                     LinearGradient(
                         colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
@@ -125,8 +125,7 @@ public struct SacredSiteMapView: View {
                     Text(language == .vietnamese
                          ? "Gắn liền với lễ: \(today.liturgical.titleVi)"
                          : "In season with: \(today.liturgical.titleEn)")
-                        .font(.caption2)
-                        .fontDesign(.serif)
+                        .font(Typography.caption2)
                         .foregroundStyle(AnnoTheme.vellum.opacity(0.85))
                 }
                 .padding(.horizontal, 10)

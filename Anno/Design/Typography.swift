@@ -1,30 +1,34 @@
 //  Typography.swift
-//  DailyDevotionKJVForWomen
+//  Anno
 //
-//  Elegant serif display type for titles & scripture headings, paired with
-//  San Francisco for body. All fonts scale with Dynamic Type.
-//
+//  Typography namespace wrapping AnnoTheme font functions for semantic clarity.
 
 import SwiftUI
 
-extension Font {
-    /// Large serif display used for the app title & hero headings.
-    static func serifDisplay(_ size: CGFloat, weight: Font.Weight = .regular) -> Font {
-        .system(size: size, weight: weight, design: .serif)
-    }
+enum Typography {
 
-    /// Serif title scaled relative to a text style for Dynamic Type support.
-    static func serif(_ style: Font.TextStyle, weight: Font.Weight = .regular) -> Font {
-        .system(style, design: .serif).weight(weight)
-    }
-}
+    // MARK: - Display / Title
+    static let largeTitleBoldSerif = AnnoTheme.display(34, weight: .bold)
+    static let title2BoldSerif = AnnoTheme.display(22, weight: .bold)
+    static let title3ItalicSerif = AnnoTheme.display(20, weight: .regular).italic()
+    static let headlineSerif = AnnoTheme.heading(17, weight: .semibold)
 
-extension View {
-    /// Applies serif styling that still honours Dynamic Type by scaling
-    /// against a reference text style.
-    func serifTitle(_ style: Font.TextStyle = .title, weight: Font.Weight = .semibold) -> some View {
-        font(.serif(style, weight: weight))
-            .foregroundStyle(Palette.ink)
-    }
+    // MARK: - Body
+    static let bodySerif = AnnoTheme.body(17, weight: .regular)
+    static let subheadlineSemiboldSerif = AnnoTheme.body(15, weight: .semibold)
+
+    // MARK: - Caption / Small
+    static let captionSemiboldSerif = AnnoTheme.caption(12, weight: .semibold)
+    static let captionSerif = AnnoTheme.caption(12, weight: .regular)
+    static let captionMedium = AnnoTheme.caption(12, weight: .medium)
+    static let captionSemibold = AnnoTheme.caption(12, weight: .semibold)
+    static let captionBold = AnnoTheme.caption(12, weight: .bold)
+    static let caption2Bold = AnnoTheme.caption(11, weight: .bold)
+    static let caption2Medium = AnnoTheme.caption(11, weight: .medium)
+    static let caption2 = AnnoTheme.caption(11, weight: .regular)
+    static let caption2MonospacedSemibold = AnnoTheme.caption(11, weight: .semibold).monospacedDigit()
+    static let captionItalic = AnnoTheme.caption(12, weight: .regular).italic()
+
+    // MARK: - Non-serif utilities
+    static let subheadlineSemibold = Font.system(.subheadline, weight: .semibold)
 }
-//

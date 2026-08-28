@@ -74,3 +74,9 @@
 
 - [x] **DEF-1:** `calendar_engine.convert_date` crashes on future years (Engine A). **FIXED** (F.3): epoch→`date(622,7,16)` + regression test.
 - [x] **DEF-2:** Free deepseek drops ~30% of Vietnamese `_vi` leaves on first pass. **Mitigated:** VI-repair call in driver fires a cheap VI-only backfill → 100% bilingual.
+
+## 📥 Ingest Staged Arena Artifacts
+- [x] **Audit and ingest** Hagiographical & Sacred Geography Research Prompt Pack (audited and moved to [`docs/research/sacred_geography_hagiography_prompt_pack.md`](docs/research/sacred_geography_hagiography_prompt_pack.md); staged assets audited in [`assets/arena_extracted/README.md`](assets/arena_extracted/README.md)).
+
+## ✝️ Anno Sacred Geography Arena Prompts Audit
+- [x] **Audit Sacred Geography Hagiography Prompts**: Reviewed `docs/arena_extracted_hagiography_prompt_pack.md` and staged assets in `assets/arena_extracted/`. Verified route packs/enrichment scripts are already integrated into `Anno/Resources/PilgrimageRoutes/` and Swift components in `ReliquaryExplorer/`. Promoted prompt pack to canonical reference in [`docs/research/sacred_geography_hagiography_prompt_pack.md`](docs/research/sacred_geography_hagiography_prompt_pack.md).
