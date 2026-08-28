@@ -6,8 +6,6 @@ options:
     iOS: "17.0"
 
 packages:
-  AnnoPilgrimageMap:
-    path: ../ios
   PilgrimCore:
     path: ../ReliquaryExplorer/Packages/PilgrimCore
 
@@ -26,7 +24,6 @@ targets:
     sources:
       - path: .
     dependencies:
-      - package: AnnoPilgrimageMap
       - package: PilgrimCore
     resources:
       - Resources/*
