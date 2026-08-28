@@ -2,7 +2,9 @@ import SwiftUI
 
 struct SavedView: View {
     let language: LanguageMode
+#if !ANNO_VN
     @State private var showingPaywall = false
+#endif
     @State private var glowOpacity: Double = 0.4
     @State private var appeared = false
 
@@ -10,6 +12,9 @@ struct SavedView: View {
         ScrollView {
             VStack(spacing: 32) {
                 heroSection
+#if !ANNO_VN
+                unlockButton
+#endif
                 hoaThiengTracker
                 previewCollections
             }
@@ -34,9 +39,11 @@ struct SavedView: View {
             }
         }
         .navigationTitle(language == .vietnamese ? "Đã lưu" : "Saved")
+#if !ANNO_VN
         .sheet(isPresented: $showingPaywall) {
             ArchivePaywallView(language: language)
         }
+#endif
         .onAppear {
             withAnimation(.easeOut(duration: 0.8)) {
                 appeared = true
@@ -50,7 +57,9 @@ struct SavedView: View {
         VStack(spacing: 24) {
             bookmarkHero
             titleBlock
+#if !ANNO_VN
             unlockButton
+#endif
         }
         .frame(maxWidth: .infinity)
         .opacity(appeared ? 1 : 0)
@@ -117,6 +126,7 @@ struct SavedView: View {
         .padding(.horizontal, 8)
     }
 
+#if !ANNO_VN
     private var unlockButton: some View {
         Button {
             Haptics.light()
@@ -153,6 +163,7 @@ struct SavedView: View {
                 : "Opens the Anno Plus subscription page"
         )
     }
+#endif
 
     // MARK: - Hoa Thiêng Tracker (Gamification)
 

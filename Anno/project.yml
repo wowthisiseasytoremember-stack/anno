@@ -23,6 +23,9 @@ targets:
     platform: iOS
     sources:
       - path: .
+        excludes:
+          - AnnoVNApp.swift
+          - Info-VN.plist
     dependencies:
       - package: PilgrimCore
     resources:
@@ -59,11 +62,45 @@ targets:
         TARGETED_DEVICE_FAMILY: "1,2"
         PRODUCT_BUNDLE_IDENTIFIER: org.anno.Anno
 
+  AnnoVN:
+    type: application
+    platform: iOS
+    sources:
+      - path: .
+        excludes:
+          - AnnoApp.swift
+          - Info.plist
+          - Info-VN.plist
+          - Paywall
+          - Services/RevenueCatProvider.swift
+          - Services/EntitlementService.swift
+          - ViewModels/StoreViewModel.swift
+    dependencies:
+      - package: PilgrimCore
+    resources:
+      - Resources/*
+    info:
+      path: Info-VN.plist
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: org.anno.AnnoVN
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: ANNO_VN
+
 schemes:
   Anno:
     build:
       targets:
         Anno: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+
+  AnnoVN:
+    build:
+      targets:
+        AnnoVN: all
     run:
       config: Debug
     test:
