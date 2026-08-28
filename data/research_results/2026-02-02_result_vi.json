@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Dâng Chúa Giêsu Trong Đền Thờ"
+  },
+  "primary": {
+    "title_vi": "Lễ Dâng Chúa Giêsu Trong Đền Thờ",
+    "summary_vi": "Bốn mươi ngày sau Giáng Sinh, Giáo hội mừng Lễ Dâng Chúa Giêsu Trong Đền Thờ. Theo Lề Luật Môsê, Mẹ Maria và Thánh Giuse đem Hài Nhi đến Giêrusalem, nơi cụ già công chính Simêon tuyên bố Ngài là 'ánh sáng để mặc khải cho các dân tộc' — khiến lễ này được gọi phổ biến là 'Lễ Nến.'",
+    "body_vi": "Thánh ca Simêon, Nunc Dimittis, diễn tả niềm vui của người đã cuối cùng thấy Đấng Mêxia được chờ đợi từ lâu. 'Bây giờ Chúa cho tôi tớ Chúa ra đi trong bình an, vì mắt tôi đã thấy ơn cứu độ của Chúa, mà Chúa đã chuẩn bị trước mặt muôn dân, ánh sáng để mặc khải cho các dân tộc và vinh quang của dân Israel' (Lc 2,30-32).\n\nNữ tiên tri Anna, tám mươi bốn tuổi, cũng nhận ra Hài Nhi là Đấng Cứu Chuộc và nói về Ngài cho tất cả những ai đang chờ đợi sự giải phóng của Giêrusalem. Những cây nến được thánh hiến trong ngày này được rước đi trong cuộc kiệu để nhắc nhở Đức Kitô là Ánh Sáng vào đền thờ.\n\nLễ này kết thúc các cử hành bên ngoài của Mùa Giáng Sinh và mời gọi các tín hữu dâng mình làm đền thờ sống động cho Chúa Thánh Thần.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-02-02."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ánh Sáng Muôn Dân vào đền thờ",
+    "prayer_prompt_vi": "Lạy Thiên Chúa toàn năng hằng hữu, chúng con tha thiết cầu xin long trọng của Chúa rằng, cũng như Con Một Chúa đã được dâng trong đền thờ trong xác phàm nhân loại, chúng con cũng xứng đáng được dâng trước Chúa với tâm hồn thanh sạch."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Lễ Tro — Khởi đầu Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Lễ Tro — Khởi đầu Mùa Chay",
+    "summary_vi": "Thứ Tư Lễ Tro khai mở Mùa Chay thánh thiện, hành trình bốn mươi ngày hướng về Phục Sinh. Các tín hữu lãnh nhận tro trên trán như dấu hiệu sám hối và tính mỏng manh của kiếp người, đánh dấu khởi đầu thời kỳ cầu nguyện, ăn chay và bố thí.",
+    "body_vi": "Tro được sử dụng trong ngày này được làm từ các cành lá thánh đã được thánh hiến vào Chúa Nhật Lễ Lá trước đó, biểu tượng cho việc kết nối khởi đầu Mùa Chay với sự kiện Chúa vinh quang vào Giêrusalem dẫn đến Cuộc Khổ Nạn. Công thức phụng vụ 'Hãy ăn năn và tin vào Tin Mừng' hoặc 'Hãy nhớ rằng con là bụi tro' đi kèm với việc rắc tro.\n\nMùa Chay là mùa bốn mươi ngày (không kể các Chúa Nhật) phản ánh bốn mươi ngày Chúa Giêsu trải qua trong sa mạc trước sứ vụ công khai. Đó là thời gian chiến đấu thiêng liêng chống lại các thế lực tội lỗi, canh tân lời hứa bí tích rửa tội, và sâu sắc hóa sự hoán cải.\n\nBa trụ cột của Mùa Chay — cầu nguyện, ăn chay và bố thí — mời gọi các Kitô hữu lớn lên trong sự hiệp nhất thân mật với Thiên Chúa, làm chủ các ham muốn và phục vụ người nghèo với lòng quảng đại hơn.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-02-18."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy nhớ rằng con là bụi tro, và sẽ trở về bụi tro",
+    "prayer_prompt_vi": "Lạy Chúa, xin cho chúng con khởi đầu cuộc chiến đấu thánh thiêng này bằng việc ăn chay thánh, để khi chúng ta chiến đấu chống lại thần dữ, chúng ta được trang bị bằng vũ khí tự chủ."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Hiện Xuống — Chúa Nhật Ngũ Tuần"
+  },
+  "primary": {
+    "title_vi": "Lễ Hiện Xuống — Chúa Nhật Ngũ Tuần",
+    "summary_vi": "Lễ Hiện Xuống, năm mươi ngày sau Phục Sinh, mừng việc Chúa Thánh Thần ngự xuống trên Đức Trinh Nữ Maria và các Tông Đồ trong Phòng Tiệc Ly. Được đánh dấu bằng các lưỡi lửa và tiếng gió mạnh, biến cố này khai sinh Giáo Hội và ban quyền năng cho các Tông Đồ rao giảng Tin Mừng cho muôn dân.",
+    "body_vi": "Trong Phòng Tiệc Ly tại Giêrusalem, các môn đệ đang quy tụ cầu nguyện cùng Mẹ Maria thì bỗng nhiên một tiếng động như gió mạnh thổi đến lấp đầy cả căn nhà, và các lưỡi lửa đậu xuống trên mỗi người. Họ đầy tràn Chúa Thánh Thần và bắt đầu nói bằng các thứ tiếng khác nhau, như Thần Khí ban cho họ nói (Cv 2,2-4).\n\nĐám đông tụ tập đã nghe họ nói bằng tiếng mẹ đẻ của mình, ngạc nhiên rằng những người Galilê thất học lại có thể rao giảng những công trình kỳ diệu của Thiên Chúa bằng nhiều ngôn ngữ. Bài giảng của Thánh Phêrô hôm đó đã cải hoá ba ngàn linh hồn, khai mở sứ mạng công khai của Giáo Hội.\n\nLễ Do Thái Ngũ Tuần (Shavuot) ban đầu là lễ tạ ơn mùa gặt lúa mì và tưởng nhớ việc ban Lề Luật tại Sinai. Trong truyền thống Kitô giáo, lễ này mừng việc ban Chúa Thánh Thần và Lề Luật Mới của Tình Yêu được ghi vào lòng.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-05-24."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chúa Thánh Thần ngự xuống — lưỡi lửa, tâm hồn canh tân",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng nhờ mầu nhiệm đại lễ hôm nay thánh hiến Giáo Hội Chúa trên toàn thế giới, xin cho dân Chúa ở khắp nơi, nhờ sự tuôn đổ của Chúa Thánh Thần, được đẹp lòng Chúa."
+  }
+}

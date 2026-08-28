@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-01-06",
+  "date": "2026-01-06",
+  "weekday": "Tuesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "The Epiphany of the Lord",
+    "title_vi": "Đại Lễ Hiển Linh — Chúa Giêsu Tỏ Mình Ra"
+  },
+  "calendars": {
+    "julian": "2025-12-24",
+    "hebrew": "17 Tevet 5786",
+    "islamic_umm_al_qura": "17 Rajab 1447 AH",
+    "coptic": "28 Koiak 1742",
+    "ethiopian": "28 Tahsas 2018"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Epiphany of the Lord",
+    "title_vi": "Đại Lễ Hiển Linh — Chúa Giêsu Tỏ Mình Ra",
+    "summary_en": "The Epiphany celebrates the manifestation of Jesus Christ to the Magi — the wise men from the East — representing the nations of the world. This Solemnity reveals that the salvation brought by the Incarnation is for all peoples, not only the children of Abraham.",
+    "summary_vi": "Đại Lễ Hiển Linh mừng việc Chúa Giêsu Kitô tỏ mình ra cho các Nhà Thông Thái — những vị hiền nhân từ phương Đông — đại diện cho muôn dân trên thế giới. Đại Lễ này loan báo rằng ơn cứu độ do biến cố Nhập Thể mang lại là cho mọi dân tộc, không chỉ riêng con cháu của Abraham.",
+    "body_en": "Following the Star of Bethlehem, the Magi — traditionally three in number and often identified as Caspar, Melchior, and Balthasar — traveled from distant lands bearing gifts of gold, frankincense, and myrrh. Their journey symbolizes the pilgrimage of all nations toward the Light of Christ.\n\nGold acknowledged Christ's kingship, frankincense His divinity, and myrrh His coming Passion and burial. Through these gifts, the Magi unknowingly proclaimed the full mystery of Christ: King, God, and Suffering Savior.\n\nIn many cultures, this day is celebrated with the blessing of homes, where families mark their doorframes with chalk as a sign of welcome to Christ, the Light of the World.",
+    "body_vi": "Theo ánh sao Bêlem, các Nhà Thông Thái — truyền thống ghi nhận có ba vị và thường được xác định là Caspar, Melchior và Balthasar — đã du hành từ những vùng đất xa xôi mang theo lễ vật vàng, nhũ hương và mộc dược. Hành trình của các ngài tượng trưng cho cuộc hành hương của mọi dân tộc về phía Ánh Sáng Đức Kitô.\n\nVàng công nhận tước vị Vua của Đức Kitô, nhũ hương tôn vinh thần tính của Ngài, và mộc dược báo trước cuộc Khổ Nạn và an táng của Ngài. Qua những lễ vật này, các Nhà Thông Thái đã vô tình loan báo toàn bộ mầu nhiệm Đức Kitô: Vua, Thiên Chúa và Đấng Cứu Độ chịu đau khổ.\n\nTrong nhiều nền văn hóa, ngày này được cử hành với phép lành nhà cửa, nơi các gia đình ghi dấu trên khung cửa bằng phấn như dấu hiệu chào đón Đức Kitô, Ánh Sáng Thế Gian.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-01-06.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-01-06."
+  },
+  "place": {
+    "name": "Church of the Nativity, Bethlehem",
+    "latitude": 31.7043,
+    "longitude": 35.2076,
+    "confidence": "confirmed",
+    "source_url": "https://www.custodia.org/en/sanctuaries/bethlehem"
+  },
+  "artwork": {
+    "title": "Adoration of the Magi",
+    "maker": "Sandro Botticelli",
+    "date_label": "c. 1475",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_Adoration_of_the_Magi_-_National_Gallery_of_Art.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Epiphany of the Lord",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catechism of the Catholic Church — Epiphany (528)",
+      "url": "https://www.vatican.va/archive/ccc_css/archive/catechism/p122a3p1.htm",
+      "type": "vatican"
+    },
+    {
+      "label": "Matthew 2:1-12 — The Visit of the Magi",
+      "url": "https://bible.usccb.org/bible/matthew/2",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "The nations come to worship the newborn King",
+    "hero_line_vi": "Muôn dân đến thờ lạy Hài Nhi Vua",
+    "prayer_prompt_en": "O God, who on this day revealed your Only Begotten Son to the nations by the guidance of a star, grant that we, who now know you by faith, may be brought to contemplate the beauty of your glorious divinity.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, ngày hôm nay Chúa đã tỏ Con Một của Chúa ra cho muôn dân nhờ sự hướng dẫn của ngôi sao, xin cho chúng con, những người nay nhận biết Chúa qua đức tin, được đưa đến chiêm ngắm vẻ đẹp rực rỡ thần tính của Chúa."
+  }
+}

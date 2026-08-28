@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-03-19",
+  "date": "2026-03-19",
+  "weekday": "Thursday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "Solemnity of Saint Joseph, Husband of the Blessed Virgin Mary",
+    "title_vi": "Đại Lễ Thánh Giuse, Bạn Đức Trinh Nữ Maria"
+  },
+  "calendars": {
+    "julian": "2026-03-06",
+    "hebrew": "1 Nisan 5786",
+    "islamic_umm_al_qura": "30 Ramadan 1447 AH",
+    "coptic": "10 Paremhat 1742",
+    "ethiopian": "10 Megabit 2018"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Solemnity of Saint Joseph, Husband of the Blessed Virgin Mary",
+    "title_vi": "Đại Lễ Thánh Giuse, Bạn Đức Trinh Nữ Maria",
+    "summary_en": "This Solemnity honors Saint Joseph, the husband of Mary and the foster-father of Jesus. A descendant of King David, Joseph was a righteous man chosen by God to guard the Holy Family and protect the Christ Child from the massacre of the innocents.",
+    "summary_vi": "Đại Lễ này tôn vinh Thánh Giuse, chồng của Mẹ Maria và cha nuôi của Chúa Giêsu. Là hậu duệ của Vua Đavít, Thánh Giuse là người công chính được Thiên Chúa tuyển chọn để gìn giữ Thánh Gia và bảo vệ Hài Nhi Giêsu khỏi cuộc tàn sát các trẻ thơ.",
+    "body_en": "Joseph appears in the Gospel as a man of few words but great obedience. Four times an angel appears to him in dreams, and each time Joseph responds immediately: he takes Mary as his wife, flees with the Holy Family to Egypt, returns after Herod's death, and settles in Nazareth. His silent fidelity teaches us the strength of humble service.\n\nDeclared Patron of the Universal Church by Pope Pius IX in 1870, Saint Joseph is also the patron of workers, families, and a happy death. The faithful invoke his intercession for guidance in practical affairs and for protection of their loved ones.\n\nThe humility of Saint Joseph — his willingness to be overshadowed, to step aside so that Christ might be revealed — is a model for every disciple called to serve in obscurity.",
+    "body_vi": "Thánh Giuse xuất hiện trong Tin Mừng như một người ít lời nhưng vâng phục lớn lao. Bốn lần một thiên thần hiện ra với ngài trong giấc mơ, và mỗi lần Thánh Giuse đều đáp lại ngay lập tức: đón Mẹ Maria làm vợ, trốn cùng Thánh Gia sang Ai Cập, trở về sau khi Hêrôđê qua đời, và định cư tại Nagiarét. Sự trung tín thầm lặng của ngài dạy chúng ta sức mạnh của việc phục vụ khiêm tốn.\n\nĐược Đức Giáo hoàng Piô IX tuyên bố là Quan Thầy của Hội Thánh Hoàn Vũ năm 1870, Thánh Giuse cũng là quan thầy của người thợ thuyền, gia đình và sự chết lành. Các tín hữu kêu cầu sự chuyển cầu của ngài để được hướng dẫn trong các công việc thực tế và bảo vệ những người thân yêu.\n\nSự khiêm nhường của Thánh Giuse — sự sẵn sàng bị che khuất, nhường bước để Đức Kitô được mặc khải — là mẫu mực cho mỗi môn đệ được kêu gọi phục vụ trong bóng tối.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-03-19.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-03-19."
+  },
+  "place": {
+    "name": "St. Joseph's Oratory, Montreal",
+    "latitude": 45.4928,
+    "longitude": -73.6181,
+    "confidence": "confirmed",
+    "source_url": "https://www.saint-joseph.org/en/"
+  },
+  "artwork": {
+    "title": "Saint Joseph with the Infant Jesus",
+    "maker": "El Greco",
+    "date_label": "c. 1597",
+    "source_url": "https://commons.wikimedia.org/wiki/File:El_Greco_-_Saint_Joseph_and_the_Christ_Child.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Saint Joseph",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Matthew 1:18-25 — Joseph's Righteousness",
+      "url": "https://bible.usccb.org/bible/matthew/1",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Encyclopedia — Saint Joseph",
+      "url": "https://www.newadvent.org/cathen/08532a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "The just man, the silent carpenter who sheltered the Savior",
+    "hero_line_vi": "Người công chính, người thợ mộc thầm lặng đã che chở Đấng Cứu Độ",
+    "prayer_prompt_en": "O God, who in your unfailing wisdom chose Saint Joseph to be the spouse of the Blessed Virgin Mary and the foster-father of your Son, grant, we pray, that we may deserve to have him as our intercessor in heaven whom we venerate as our protector on earth.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng trong sự khôn ngoan hoàn hảo đã tuyển chọn Thánh Giuse làm bạn đời của Đức Trinh Nữ Maria và cha nuôi của Con Chúa, xin cho chúng con được ngài chuyển cầu trên trời, Đấng mà chúng con tôn kính làm người bảo vệ chúng con dưới đất."
+  }
+}

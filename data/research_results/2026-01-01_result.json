@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-01-01",
+  "date": "2026-01-01",
+  "weekday": "Thursday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "Solemnity of Mary, the Holy Mother of God",
+    "title_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa"
+  },
+  "calendars": {
+    "julian": "2025-12-19",
+    "hebrew": "12 Tevet 5786",
+    "islamic_umm_al_qura": "12 Rajab 1447 AH",
+    "coptic": "23 Koiak 1742",
+    "ethiopian": "23 Tahsas 2018"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Solemnity of Mary, the Holy Mother of God",
+    "title_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa",
+    "summary_en": "The Octave Day of Christmas celebrates Mary's divine Motherhood, proclaimed at the Council of Ephesus in 431 AD. This Solemnity honors the Blessed Virgin Mary as Theotokos — the God-bearer — who bore the eternal Son of God in her womb by the power of the Holy Spirit.",
+    "summary_vi": "Ngày thứ 8 trong Tuần Bát Nhật Giáng Sinh mừng kính Mẹ Maria là Mẹ Thiên Chúa, được Công đồng Êphêsô long trọng tuyên xưng năm 431. Đại Lễ này tôn vinh Đức Trinh Nữ Maria là Đức Theotokos — Đấng mang Thiên Chúa — đã cưu mang Con Hằng Hữu của Thiên Chúa bởi quyền năng Chúa Thánh Thần.",
+    "body_en": "On this Octave Day of the Nativity, the Church turns the focus from the newborn King to His Mother, recognizing the singular grace bestowed upon the Virgin Mary. The Council of Ephesus (431 AD) defined that Mary is rightly called the Mother of God because her Son, Jesus Christ, is one divine Person with two natures, divine and human.\n\nIn Her maternal role, Mary intercedes for all the faithful, drawing humanity into intimate union with her Divine Son. The liturgy of this day is filled with prayers entrusting the New Year to her maternal care, asking for her protection throughout the days ahead.\n\nAs the World Day of Peace, observed since 1967, this Solemnity calls all nations to recognize that true peace begins in the human heart reconciled to God.",
+    "body_vi": "Vào ngày thứ 8 trong Tuần Bát Nhật này, Giáo hội chuyển trọng tâm từ Hài Nhi Vua đến Mẹ của Ngài, công nhận ân sủng đặc biệt đã ban cho Đức Trinh Nữ Maria. Công đồng Êphêsô (năm 431) đã định tín rằng Mẹ Maria xứng đáng được gọi là Mẹ Thiên Chúa bởi vì Con của Mẹ, Chúa Giêsu Kitô, là một Ngôi Vị thần linh duy nhất với hai bản tính, thần linh và nhân loại.\n\nTrong vai trò làm Mẹ, Mẹ Maria chuyển cầu cho tất cả các tín hữu, đưa nhân loại vào sự hiệp nhất thân mật với Con Thiên Chúa. Phụng vụ ngày hôm nay tràn ngập những lời nguyện phó thác năm mới cho sự chăm sóc của Mẹ, xin Mẹ che chở trong suốt những ngày sắp tới.\n\nLà Ngày Hòa Bình Thế Giới, được cử hành từ năm 1967, Đại Lễ này kêu gọi mọi quốc gia nhận ra rằng hòa bình thật sự bắt đầu từ tâm hồn con người hòa giải với Thiên Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-01-01.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-01-01."
+  },
+  "place": {
+    "name": "St. Peter's Basilica, Vatican City",
+    "latitude": 41.9022,
+    "longitude": 12.4539,
+    "confidence": "confirmed",
+    "source_url": "https://www.vatican.va/various/basiliche/san_pietro/index_it.htm"
+  },
+  "artwork": {
+    "title": "Madonna and Child",
+    "maker": "Duccio di Buoninsegna",
+    "date_label": "c. 1300",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_Madonna_and_Child_-_WGA05890.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Solemnity of Mary, Mother of God",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Council of Ephesus (431 AD)",
+      "url": "https://www.vatican.va/archive/ccc_css/archive/councils/lec1.htm",
+      "type": "vatican"
+    },
+    {
+      "label": "Catechism of the Catholic Church — Theotokos (495)",
+      "url": "https://www.vatican.va/archive/ccc_css/archive/catechism/p122a3p1.htm",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Octave Day of Christmas — honoring Mary as Mother of God",
+    "hero_line_vi": "Ngày thứ 8 trong Tuần Bát Nhật — tôn vinh Mẹ Maria là Mẹ Thiên Chúa",
+    "prayer_prompt_en": "O God, who through the fruitful virginity of Blessed Mary bestowed upon the human race the reward of eternal salvation, grant, we pray, that we may feel the intercession of her whose festivals we celebrate.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, nhờ sự đồng trinh phong phú của Đức Maria chúc phúc mà ban cho loài người phần thưởng cứu rỗi vĩnh cửu, xin cho chúng con cảm nhận được sự chuyển cầu của Mẹ mà chúng con đang mừng lễ kính."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-06-29",
+  "date": "2026-06-29",
+  "weekday": "Monday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "red",
+    "title_en": "Solemnity of Saints Peter and Paul, Apostles",
+    "title_vi": "Đại Lễ Thánh Phêrô và Thánh Phao Lô, Tông Đồ"
+  },
+  "calendars": {
+    "julian": "2026-06-16",
+    "hebrew": "14 Tamuz 5786",
+    "islamic_umm_al_qura": "14 Muharram 1448 AH",
+    "coptic": "22 Paoni 1742",
+    "ethiopian": "22 Sene 2018"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Solemnity of Saints Peter and Paul, Apostles",
+    "title_vi": "Đại Lễ Thánh Phêrô và Thánh Phao Lô, Tông Đồ",
+    "summary_en": "This Solemnity honors Saints Peter and Paul, the twin pillars of the Church. Peter, the fisherman from Galilee, was chosen as the first Pope and shepherd of Christ's flock. Paul, the Pharisee turned Apostle to the Gentiles, brought the Gospel to the ends of the known world. Both were martyred in Rome around 64-67 AD.",
+    "summary_vi": "Đại Lễ này tôn vinh Thánh Phêrô và Thánh Phao Lô, hai trụ cột song sinh của Giáo Hội. Thánh Phêrô, ngư phủ từ Galilê, được tuyển chọn là Giáo hoàng đầu tiên và người chăn chiên của đoàn chiên Đức Kitô. Thánh Phao Lô, người Pha-ri-sê trở thành Tông Đồ của các dân tộc, đã mang Tin Mừng đến tận cùng thế giới. Cả hai đã chịu tử đạo tại Rôma khoảng 64-67 sau Công Nguyên.",
+    "body_en": "Peter's confession at Caesarea Philippi — 'You are the Christ, the Son of the living God' (Matthew 16:16) — was the foundation upon which Christ built His Church. Paul, originally Saul of Tarsus, was transformed by a vision of Christ on the road to Damascus, becoming the most prolific missionary of the early Church and author of thirteen or fourteen New Testament epistles.\n\nBoth apostles were martyred in Rome under Emperor Nero. Peter was crucified upside down, considering himself unworthy to die in the same manner as his Lord. Paul, a Roman citizen, was beheaded. Their tombs beneath St. Peter's Basilica and St. Paul Outside the Walls are still venerated today.\n\nThis Solemnity celebrates the unity of the Church built upon apostolic foundation. The Pope, successor of Peter, and the bishops, successors of the apostles, continue their mission of teaching, sanctifying, and governing the People of God.",
+    "body_vi": "Sự tuyên xưng của Thánh Phêrô tại Cêsarê Philip — 'Thầy là Đức Kitô, Con Thiên Chúa hằng sống' (Mt 16,16) — là nền tảng mà Đức Kitô xây dựng Giáo Hội. Thánh Phao Lô, ban đầu tên là Saolê tại Tarsô, đã được biến đổi qua một thị kiến của Đức Kitô trên đường Đamát, trở thành nhà truyền giáo sung mãn nhất của Giáo Hội sơ khai và tác giả của mười ba hoặc mười bốn thư tín trong Tân Ước.\n\nCả hai tông đồ đều chịu tử đạo tại Rôma dưới thời Hoàng đế Nêrô. Thánh Phêrô bị đóng đinh xuống, coi mình không xứng chết theo cách giống Chúa. Thánh Phao Lô, là công dân Rôma, bị chém đầu. Mộ của ngài dưới Vương Cung Thánh Đường Thánh Phêrô và Vương Cung Thánh Đường Thánh Phao Lô Ngoài Tường vẫn được tôn kính ngày nay.\n\nĐại Lễ này mừng sự hiệp nhất của Giáo Hội được xây trên nền tảng tông đồ. Đức Giáo hoàng, người kế vị Thánh Phêrô, và các giám mục, những người kế vị các tông đồ, tiếp tục sứ mạng giảng dạy, thánh hóa và quản trị Dân Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-06-29.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-06-29."
+  },
+  "place": {
+    "name": "St. Peter's Basilica, Vatican City",
+    "latitude": 41.9022,
+    "longitude": 12.4539,
+    "confidence": "confirmed",
+    "source_url": "https://www.vatican.va/various/basiliche/san_pietro/index_it.htm"
+  },
+  "artwork": {
+    "title": "Saints Peter and Paul",
+    "maker": "Caravaggio",
+    "date_label": "c. 1607",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_Saints_Peter_and_Paul.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Saints Peter and Paul",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catechism of the Catholic Church — Peter (880-887), Paul (880)",
+      "url": "https://www.vatican.va/archive/ccc_css/archive/catechism/p122a3p2.htm",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Two pillars of the Church — the fisherman and the scholar",
+    "hero_line_vi": "Hai trụ cột của Giáo Hội — ngư phủ và học giả",
+    "prayer_prompt_en": "O God, who on the Solemnity of the Apostles Peter and Paul give your Church the firm foundation of their witness and the wide reach of their preaching, grant that, following their teaching, we may run the race of faith and complete the journey of salvation.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng trong Đại Lễ các Tông Đồ Phêrô và Phao Lô ban cho Giáo Hội nền tảng vững chắc qua lời chứng và tầm với rộng lớn qua việc rao giảng của các ngài, xin cho chúng con, theo giáo huấn của các ngài, chạy đua đức tin và hoàn tất hành trình cứu độ."
+  }
+}

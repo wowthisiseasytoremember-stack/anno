@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-06-19",
+  "date": "2026-06-19",
+  "weekday": "Friday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "Solemnity of the Most Sacred Heart of Jesus",
+    "title_vi": "Đại Lễ Thánh Tâm Chúa Giêsu"
+  },
+  "calendars": {
+    "julian": "2026-06-06",
+    "hebrew": "4 Tamuz 5786",
+    "islamic_umm_al_qura": "4 Muharram 1448 AH",
+    "coptic": "12 Paoni 1742",
+    "ethiopian": "12 Sene 2018"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Solemnity of the Most Sacred Heart of Jesus",
+    "title_vi": "Đại Lễ Thánh Tâm Chúa Giêsu",
+    "summary_en": "The Solemnity of the Sacred Heart of Jesus, celebrated nineteen days after Pentecost, honors the boundless love of Christ as symbolized by His Heart, pierced for our salvation. The devotion, revealed to Saint Margaret Mary Alacoque in the 17th century, emphasizes Christ's merciful love and our call to make reparation for sin.",
+    "summary_vi": "Đại Lễ Thánh Tâm Chúa Giêsu, được cử hành mười chín ngày sau Ngũ Tuần, tôn vinh tình yêu vô biên của Đức Kitô được tượng trưng qua Trái Tim Ngài, đã bị đâm thâu vì ơn cứu rỗi chúng ta. Việc sùng kính này, được Thánh Nữ Margareta Maria Alacoque mặc khải vào thế kỷ 17, nhấn mạnh tình yêu thương xót của Đức Kitô và lời mời gọi chúng ta đền tội.",
+    "body_en": "On December 27, 1673, Saint Margaret Mary Alacoque, a Visitation nun in Paray-le-Monial, France, experienced a vision of Christ exposing His Sacred Heart and saying: 'Behold this Heart which has so loved men that it has spared nothing, even to exhausting and consuming itself, in order to testify its love.'\n\nIn response to this revelation, Christ asked for a feast day in honor of His Sacred Heart, for communion on First Fridays, for the Holy Hour of adoration, and for acts of reparation. Pope Pius IX established the feast in 1856, and Pope Pius XII elevated it to a Solemnity in 1956.\n\nThe Heart of Jesus is the symbol of His infinite divine and human love, the source from which flows the blood and water that gushed forth on the Cross (John 19:34), symbols of baptism and the Eucharist.",
+    "body_vi": "Vào ngày 27 tháng 12 năm 1673, Thánh Nữ Margareta Maria Alacoque, một nữ tu Dòng Thăm Viếng tại Paray-le-Monial (Pháp), đã trải qua một thị kiến của Đức Kitô phơi bày Thánh Tâm Ngài và nói: 'Hãy nhìn Trái Tim này, yêu mến loài người đến nỗi không tiếc gì, thậm chí kiệt sức và tự tiêu hao, để chứng minh tình yêu của Ngài.'\n\nĐể đáp lại sự mặc khải này, Chúa Kitô đã yêu cầu một ngày lễ để tôn vinh Thánh Tâm Ngài, rước lễ vào các Thứ Sáu đầu tháng, giờ Chầu Thánh Thể, và các việc đền tội. Đức Giáo hoàng Piô IX thiết lập lễ này năm 1856, và Đức Giáo hoàng Piô XII nâng lên thành Đại Lễ năm 1956.\n\nTrái Tim Chúa Giêsu là biểu tượng của tình yêu thần linh và nhân loại vô biên của Ngài, nguồn tuôn chảy máu và nước từ Thập Giá (Ga 19,34), biểu tượng của bí tích rửa tội và Thánh Thể.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-06-19.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-06-19."
+  },
+  "place": {
+    "name": "Basilica of the Sacred Heart, Paris",
+    "latitude": 48.8718,
+    "longitude": 2.2935,
+    "confidence": "confirmed",
+    "source_url": "https://www.sacre-coeur-montmartre.com/en/"
+  },
+  "artwork": {
+    "title": "Sacred Heart of Jesus",
+    "maker": "Pompeo Batoni",
+    "date_label": "c. 1767",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pompeo_Batoni_-_Sacred_Heart_of_Jesus.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Sacred Heart of Jesus",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia — Devotion to the Sacred Heart",
+      "url": "https://www.newadvent.org/cathen/13354a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Paray-le-Monial Sanctuary",
+      "url": "https://www.sanctuaire-paray.org/",
+      "type": "devotional"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Learn from me, for I am meek and humble of heart",
+    "hero_line_vi": "Hãy học cùng tôi, vì tôi hiền lành và khiêm nhường trong lòng",
+    "prayer_prompt_en": "O God, who in the Heart of your Son, wounded by our sins, mercifully pour out upon us the infinite treasures of your love, grant, we pray, that we may offer him a fitting tribute of love and of reparation.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã trong Trái Tim Con Chúa, bị thương vì tội chúng ta, nhân từ tuôn đổ trên chúng con những kho tàng vô tận tình yêu của Chúa, xin cho chúng con dâng lên Ngài món cống hiến tình yêu và đền tội xứng đáng."
+  }
+}

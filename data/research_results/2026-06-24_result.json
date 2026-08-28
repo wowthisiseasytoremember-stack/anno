@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-06-24",
+  "date": "2026-06-24",
+  "weekday": "Wednesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "Solemnity of the Nativity of Saint John the Baptist",
+    "title_vi": "Đại Lễ Sinh Nhật Thánh Gioan Tẩy Giả"
+  },
+  "calendars": {
+    "julian": "2026-06-11",
+    "hebrew": "9 Tamuz 5786",
+    "islamic_umm_al_qura": "9 Muharram 1448 AH",
+    "coptic": "17 Paoni 1742",
+    "ethiopian": "17 Sene 2018"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Solemnity of the Nativity of Saint John the Baptist",
+    "title_vi": "Đại Lễ Sinh Nhật Thánh Gioan Tẩy Giả",
+    "summary_en": "The Nativity of Saint John the Baptist is one of only three nativities celebrated in the liturgical year (along with the Blessed Virgin Mary and Jesus Christ). It honors the birth of the forerunner who would prepare the way for the Messiah, whose mission began even before his birth.",
+    "summary_vi": "Sinh Nhật Thánh Gioan Tẩy Giả là một trong ba lễ sinh nhật được cử hành trong năm phụng vụ (cùng với Đức Trinh Nữ Maria và Chúa Giêsu Kitô). Lễ này tôn vinh sự ra đời của tiền hô, Đấng đã dọn đường cho Đấng Mêxia, sứ mạng của ngài bắt đầu ngay từ trước khi ngài được sinh ra.",
+    "body_en": "John's birth, six months before Christ, was announced by the Angel Gabriel to his father Zechariah in the Temple. Zechariah was struck mute for his doubt, and his speech was restored only after he wrote 'His name is John' on a tablet. Mary's visit to her cousin Elizabeth prompted the Magnificat and caused John to leap for joy in his mother's womb.\n\nAs an adult, John lived in the wilderness of Judea, clothed in camel's hair and eating locusts and wild honey. He preached a baptism of repentance and pointed to Christ: 'Behold, the Lamb of God, who takes away the sin of the world' (John 1:29).\n\nThe Church celebrates both his nativity (June 24) and his martyrdom (August 29), highlighting the full arc of his prophetic mission.",
+    "body_vi": "Sự ra đời của Thánh Gioan, sáu tháng trước Chúa Giêsu, đã được Thiên Thần Gabriel loan báo cho cha ngài là Dacaria trong Đền Thờ. Thánh Dacaria bị câm vì sự nghi ngờ, và tiếng nói của ngài chỉ được phục hồi sau khi ngài viết 'Tên ngài là Gioan' trên một tấm bảng. Cuộc viếng thăm của Mẹ Maria với em là bà Isave đã khởi xướng kinh Magnificat và khiến Thánh Gioan nhảy mừng trong lòng mẹ.\n\nKhi trưởng thành, Thánh Gioan sống trong hoang mạc Giuđê, mặc áo lông lạc đà và ăn cào cào và mật ong rừng. Ngài rao giảng phép rửa sám hối và chỉ về Đức Kitô: 'Đây là Chiên Thiên Chúa, Đấng xoá bỏ tội trần gian' (Ga 1,29).\n\nGiáo Hội mừng cả ngày sinh (24 tháng 6) và ngày tử đạo (29 tháng 8) của ngài, nêu bật toàn bộ sứ mạng ngôn sứ của ngài.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-06-24.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-06-24."
+  },
+  "place": {
+    "name": "Church of Saint John the Baptist, Ein Karem",
+    "latitude": 31.7654,
+    "longitude": 35.1639,
+    "confidence": "traditional",
+    "source_url": "https://www.custodia.org/en/sanctuaries/ein-karem"
+  },
+  "artwork": {
+    "title": "Saint John the Baptist Preaching",
+    "maker": "Pieter Bruegel the Elder",
+    "date_label": "c. 1566",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Preaching_of_St_John_the_Baptist.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Nativity of Saint John the Baptist",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Luke 1:5-25 — Birth of John the Baptist Foretold",
+      "url": "https://bible.usccb.org/bible/luke/1",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "The voice crying in the wilderness — Prepare the way of the Lord",
+    "hero_line_vi": "Tiếng kêu trong sa mạc — Hãy dọn đường Chúa",
+    "prayer_prompt_en": "O God, who raised up Saint John the Baptist to make ready a perfect people for Christ the Lord, grant that we, who have been redeemed by his baptism, may rejoice in the grace of heavenly birth.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã nâng Thánh Gioan Tẩy Giả lên để chuẩn bị cho Chúa Kitô một dân xứng đáng, xin cho chúng con, những người đã được cứu chuộc nhờ phép rửa, vui mừng trong ân sủng của sự sinh ra từ trời."
+  }
+}

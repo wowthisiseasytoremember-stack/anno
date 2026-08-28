@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Thánh Phêrô và Thánh Phao Lô, Tông Đồ"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Thánh Phêrô và Thánh Phao Lô, Tông Đồ",
+    "summary_vi": "Đại Lễ này tôn vinh Thánh Phêrô và Thánh Phao Lô, hai trụ cột song sinh của Giáo Hội. Thánh Phêrô, ngư phủ từ Galilê, được tuyển chọn là Giáo hoàng đầu tiên và người chăn chiên của đoàn chiên Đức Kitô. Thánh Phao Lô, người Pha-ri-sê trở thành Tông Đồ của các dân tộc, đã mang Tin Mừng đến tận cùng thế giới. Cả hai đã chịu tử đạo tại Rôma khoảng 64-67 sau Công Nguyên.",
+    "body_vi": "Sự tuyên xưng của Thánh Phêrô tại Cêsarê Philip — 'Thầy là Đức Kitô, Con Thiên Chúa hằng sống' (Mt 16,16) — là nền tảng mà Đức Kitô xây dựng Giáo Hội. Thánh Phao Lô, ban đầu tên là Saolê tại Tarsô, đã được biến đổi qua một thị kiến của Đức Kitô trên đường Đamát, trở thành nhà truyền giáo sung mãn nhất của Giáo Hội sơ khai và tác giả của mười ba hoặc mười bốn thư tín trong Tân Ước.\n\nCả hai tông đồ đều chịu tử đạo tại Rôma dưới thời Hoàng đế Nêrô. Thánh Phêrô bị đóng đinh xuống, coi mình không xứng chết theo cách giống Chúa. Thánh Phao Lô, là công dân Rôma, bị chém đầu. Mộ của ngài dưới Vương Cung Thánh Đường Thánh Phêrô và Vương Cung Thánh Đường Thánh Phao Lô Ngoài Tường vẫn được tôn kính ngày nay.\n\nĐại Lễ này mừng sự hiệp nhất của Giáo Hội được xây trên nền tảng tông đồ. Đức Giáo hoàng, người kế vị Thánh Phêrô, và các giám mục, những người kế vị các tông đồ, tiếp tục sứ mạng giảng dạy, thánh hóa và quản trị Dân Chúa.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-06-29."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hai trụ cột của Giáo Hội — ngư phủ và học giả",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng trong Đại Lễ các Tông Đồ Phêrô và Phao Lô ban cho Giáo Hội nền tảng vững chắc qua lời chứng và tầm với rộng lớn qua việc rao giảng của các ngài, xin cho chúng con, theo giáo huấn của các ngài, chạy đua đức tin và hoàn tất hành trình cứu độ."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Thánh Tâm Chúa Giêsu"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Thánh Tâm Chúa Giêsu",
+    "summary_vi": "Đại Lễ Thánh Tâm Chúa Giêsu, được cử hành mười chín ngày sau Ngũ Tuần, tôn vinh tình yêu vô biên của Đức Kitô được tượng trưng qua Trái Tim Ngài, đã bị đâm thâu vì ơn cứu rỗi chúng ta. Việc sùng kính này, được Thánh Nữ Margareta Maria Alacoque mặc khải vào thế kỷ 17, nhấn mạnh tình yêu thương xót của Đức Kitô và lời mời gọi chúng ta đền tội.",
+    "body_vi": "Vào ngày 27 tháng 12 năm 1673, Thánh Nữ Margareta Maria Alacoque, một nữ tu Dòng Thăm Viếng tại Paray-le-Monial (Pháp), đã trải qua một thị kiến của Đức Kitô phơi bày Thánh Tâm Ngài và nói: 'Hãy nhìn Trái Tim này, yêu mến loài người đến nỗi không tiếc gì, thậm chí kiệt sức và tự tiêu hao, để chứng minh tình yêu của Ngài.'\n\nĐể đáp lại sự mặc khải này, Chúa Kitô đã yêu cầu một ngày lễ để tôn vinh Thánh Tâm Ngài, rước lễ vào các Thứ Sáu đầu tháng, giờ Chầu Thánh Thể, và các việc đền tội. Đức Giáo hoàng Piô IX thiết lập lễ này năm 1856, và Đức Giáo hoàng Piô XII nâng lên thành Đại Lễ năm 1956.\n\nTrái Tim Chúa Giêsu là biểu tượng của tình yêu thần linh và nhân loại vô biên của Ngài, nguồn tuôn chảy máu và nước từ Thập Giá (Ga 19,34), biểu tượng của bí tích rửa tội và Thánh Thể.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-06-19."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy học cùng tôi, vì tôi hiền lành và khiêm nhường trong lòng",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã trong Trái Tim Con Chúa, bị thương vì tội chúng ta, nhân từ tuôn đổ trên chúng con những kho tàng vô tận tình yêu của Chúa, xin cho chúng con dâng lên Ngài món cống hiến tình yêu và đền tội xứng đáng."
+  }
+}

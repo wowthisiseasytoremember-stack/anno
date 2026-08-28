@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-05-24",
+  "date": "2026-05-24",
+  "weekday": "Sunday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "red",
+    "title_en": "Pentecost Sunday",
+    "title_vi": "Lễ Hiện Xuống — Chúa Nhật Ngũ Tuần"
+  },
+  "calendars": {
+    "julian": "2026-05-11",
+    "hebrew": "8 Sivan 5786",
+    "islamic_umm_al_qura": "7 Dhu al-Hijjah 1447 AH",
+    "coptic": "16 Pashons 1742",
+    "ethiopian": "16 Genbot 2018"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Pentecost Sunday",
+    "title_vi": "Lễ Hiện Xuống — Chúa Nhật Ngũ Tuần",
+    "summary_en": "Pentecost, fifty days after Easter, celebrates the descent of the Holy Spirit upon the Virgin Mary and the Apostles in the Upper Room. Marked by tongues of fire and the sound of a mighty wind, this event birthed the Church and empowered the Apostles to preach the Gospel to all nations.",
+    "summary_vi": "Lễ Hiện Xuống, năm mươi ngày sau Phục Sinh, mừng việc Chúa Thánh Thần ngự xuống trên Đức Trinh Nữ Maria và các Tông Đồ trong Phòng Tiệc Ly. Được đánh dấu bằng các lưỡi lửa và tiếng gió mạnh, biến cố này khai sinh Giáo Hội và ban quyền năng cho các Tông Đồ rao giảng Tin Mừng cho muôn dân.",
+    "body_en": "In the Upper Room in Jerusalem, the disciples were gathered in prayer with Mary when suddenly a sound like a rushing wind filled the house, and tongues of fire rested on each of them. They were filled with the Holy Spirit and began to speak in different languages, as the Spirit gave them utterance (Acts 2:2-4).\n\nThe crowd that gathered heard them speaking in their own native tongues, marveling that uneducated Galileans could proclaim the mighty works of God in many languages. Peter's sermon that day converted three thousand souls, inaugurating the public mission of the Church.\n\nThe Jewish feast of Pentecost (Shavuot) was originally a thanksgiving for the wheat harvest and a commemoration of the giving of the Law at Sinai. In Christian tradition, it celebrates the giving of the Holy Spirit and the new Law of Love written on the heart.",
+    "body_vi": "Trong Phòng Tiệc Ly tại Giêrusalem, các môn đệ đang quy tụ cầu nguyện cùng Mẹ Maria thì bỗng nhiên một tiếng động như gió mạnh thổi đến lấp đầy cả căn nhà, và các lưỡi lửa đậu xuống trên mỗi người. Họ đầy tràn Chúa Thánh Thần và bắt đầu nói bằng các thứ tiếng khác nhau, như Thần Khí ban cho họ nói (Cv 2,2-4).\n\nĐám đông tụ tập đã nghe họ nói bằng tiếng mẹ đẻ của mình, ngạc nhiên rằng những người Galilê thất học lại có thể rao giảng những công trình kỳ diệu của Thiên Chúa bằng nhiều ngôn ngữ. Bài giảng của Thánh Phêrô hôm đó đã cải hoá ba ngàn linh hồn, khai mở sứ mạng công khai của Giáo Hội.\n\nLễ Do Thái Ngũ Tuần (Shavuot) ban đầu là lễ tạ ơn mùa gặt lúa mì và tưởng nhớ việc ban Lề Luật tại Sinai. Trong truyền thống Kitô giáo, lễ này mừng việc ban Chúa Thánh Thần và Lề Luật Mới của Tình Yêu được ghi vào lòng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-05-24.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-05-24."
+  },
+  "place": {
+    "name": "Church of the Cenacle (Upper Room), Jerusalem",
+    "latitude": 31.7725,
+    "longitude": 35.2297,
+    "confidence": "traditional",
+    "source_url": "https://www.custodia.org/en/sanctuaries/cenacle"
+  },
+  "artwork": {
+    "title": "Pentecost",
+    "maker": "Titian",
+    "date_label": "c. 1545",
+    "source_url": "https://commons.wikimedia.org/wiki/File:1546_Tiziano_Ascensione_Pentecoste_Spiridione.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Pentecost Sunday",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Acts 2:1-31 — The Coming of the Holy Spirit",
+      "url": "https://bible.usccb.org/bible/acts/2",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catechism of the Catholic Church — Pentecost (731-741)",
+      "url": "https://www.vatican.va/archive/ccc_css/archive/catechism/p122a3p2.htm",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "The Spirit comes — tongues of fire, hearts renewed",
+    "hero_line_vi": "Chúa Thánh Thần ngự xuống — lưỡi lửa, tâm hồn canh tân",
+    "prayer_prompt_en": "O God, who by the mystery of today's great feast sanctify your Church throughout the world, grant that, through the outpouring of the Holy Spirit, your people everywhere may be found acceptable in your sight.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng nhờ mầu nhiệm đại lễ hôm nay thánh hiến Giáo Hội Chúa trên toàn thế giới, xin cho dân Chúa ở khắp nơi, nhờ sự tuôn đổ của Chúa Thánh Thần, được đẹp lòng Chúa."
+  }
+}

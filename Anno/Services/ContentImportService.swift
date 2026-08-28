@@ -110,8 +110,8 @@ final class ContentImportService {
     }
     
     private func importEntries() async throws {
-        guard let url = Bundle.main.url(forResource: "anno_unified_2026", withExtension: "json") else {
-            throw ImportError.missingResource("anno_unified_2026.json")
+        guard let url = Bundle.main.url(forResource: "anno_full_2026", withExtension: "json") else {
+            throw ImportError.missingResource("anno_full_2026.json")
         }
         
         let data = try Data(contentsOf: url)

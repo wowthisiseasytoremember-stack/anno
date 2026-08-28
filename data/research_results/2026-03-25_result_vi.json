@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Truyền Tin"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Truyền Tin",
+    "summary_vi": "Đại Lễ Truyền Tin mừng khoảnh khắc Thiên Thần Gabriel loan báo cho Đức Trinh Nữ Maria rằng Mẹ sẽ thụ thai và sinh Con Thiên Chúa, cùng với tiếng 'Xin Vâng' của Mẹ Maria — sự 'Vâng' của Mẹ với chương trình thần linh. Đại Lễ này đánh dấu chính biến cố Nhập Thể, khi Lời Hằng Hữu trở nên xác phàm trong cung lòng Mẹ.",
+    "body_vi": "Lễ Truyền Tin là bản lề của lịch sử. Tại thị trấn nhỏ bé Nagiarét, một thiếu nữ Do Thái trẻ tuổi trở thành Mẹ Thiên Chúa, và Con Hằng Hữu đã mặc lấy xác phàm cho ơn cứu rỗi chúng ta. Sự đáp lại của Mẹ Maria, 'Này con là tôi tớ Chúa, xin vâng theo lời Chúa' (Lc 1,38), là mẫu mực của mọi hành động đức tin Kitô giáo.\n\nCác Giáo phụ Hội Thánh đã thấy nơi Mẹ Maria là Eva Mới: nơi Eva bất tuân trong Vườn Địa Đàng, Mẹ Maria vâng lời trong nhà, và qua sự vâng lời của Mẹ đến thuốc chữa cho sự bất tuân. Giờ Kinh Phụng Vụ đánh dấu Lễ Truyền Tin với kinh Truyền Tin, đọc ba lần mỗi ngày để tưởng nhớ biến cố Nhập Thể.\n\nChín tháng từ ngày này, Giáo hội mừng Đại Lễ Giáng Sinh vào ngày 25 tháng 12.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-03-25."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Xin vâng theo lời Chúa",
+    "prayer_prompt_vi": "Lạy Chúa, xin đổ tràn ân sủng Chúa vào lòng chúng con, để chúng con, những người đã được biết về biến cố Nhập Thể của Chúa Kitô Con Chúa qua sứ điệp của một Thiên Thần, nhờ cuộc Thương Khó và Thánh Giá của Ngài mà được dẫn đến vinh quang của sự Phục Sinh."
+  }
+}
