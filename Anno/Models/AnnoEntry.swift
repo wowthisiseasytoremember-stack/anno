@@ -15,17 +15,31 @@ struct WeekFixture: Codable {
 }
 
 struct AnnoEntry: Codable, Identifiable, Hashable {
-    let id: String
-    let date: String
-    let weekday: String
-    let mockPriority: String
-    let liturgical: LiturgicalInfo
-    let calendars: CalendarConversions
-    let primary: PrimaryContent
-    let place: SacredPlace?
-    let artwork: ArtworkCandidate
-    let sources: [SourceRef]
-    let appHooks: AppHooks
+    var id: String
+    var date: String
+    var weekday: String
+    var mockPriority: String
+    var liturgical: LiturgicalInfo
+    var calendars: CalendarConversions
+    var primary: PrimaryContent
+    var place: SacredPlace?
+    var artwork: ArtworkCandidate
+    var sources: [SourceRef]
+    var appHooks: AppHooks
+
+    init(id: String, date: String, weekday: String, mockPriority: String, liturgical: LiturgicalInfo, calendars: CalendarConversions, primary: PrimaryContent, place: SacredPlace?, artwork: ArtworkCandidate, sources: [SourceRef], appHooks: AppHooks) {
+        self.id = id
+        self.date = date
+        self.weekday = weekday
+        self.mockPriority = mockPriority
+        self.liturgical = liturgical
+        self.calendars = calendars
+        self.primary = primary
+        self.place = place
+        self.artwork = artwork
+        self.sources = sources
+        self.appHooks = appHooks
+    }
 
     var parsedDate: Date? {
         Self.dateFormatter.date(from: date)
@@ -56,14 +70,29 @@ struct CalendarConversions: Codable, Hashable {
 }
 
 struct PrimaryContent: Codable, Hashable {
-    let type: String
-    let titleEn: String
-    let titleVi: String
-    let summaryEn: String
-    let summaryVi: String
-    let confidence: ConfidenceLevel
-    let confidenceNoteEn: String
-    let confidenceNoteVi: String
+    var type: String
+    var titleEn: String
+    var titleVi: String
+    var summaryEn: String
+    var summaryVi: String
+    var confidence: ConfidenceLevel
+    var confidenceNoteEn: String
+    var confidenceNoteVi: String
+    var bodyEn: String
+    var bodyVi: String
+
+    init(type: String, titleEn: String, titleVi: String, summaryEn: String, summaryVi: String, confidence: ConfidenceLevel, confidenceNoteEn: String, confidenceNoteVi: String, bodyEn: String = "", bodyVi: String = "") {
+        self.type = type
+        self.titleEn = titleEn
+        self.titleVi = titleVi
+        self.summaryEn = summaryEn
+        self.summaryVi = summaryVi
+        self.confidence = confidence
+        self.confidenceNoteEn = confidenceNoteEn
+        self.confidenceNoteVi = confidenceNoteVi
+        self.bodyEn = bodyEn
+        self.bodyVi = bodyVi
+    }
 }
 
 struct SacredPlace: Codable, Hashable {

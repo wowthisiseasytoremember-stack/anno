@@ -1,11 +1,13 @@
 import SwiftUI
 
 struct RootView: View {
+    @Environment(AppSettings.self) private var settings
     @StateObject private var store: FixtureStore
     @State private var language: LanguageMode = .english
     @State private var selectedTab: AppTab = .today
     @State private var showingSources = false
     @State private var showingSettings = false
+    @State private var showWelcome = false
 
     init(store: FixtureStore) {
         _store = StateObject(wrappedValue: store)
@@ -73,11 +75,21 @@ struct RootView: View {
             .tag(AppTab.saved)
         }
         .tint(AnnoTheme.goldLeaf)
+        .environment(settings)
         .sheet(isPresented: $showingSources) {
             SourceSheet(entry: store.selectedEntry, language: language)
         }
         .sheet(isPresented: $showingSettings) {
             SettingsView(language: $language)
+        }
+        .sheet(isPresented: $showWelcome) {
+            WelcomeView { showWelcome = false }
+        }
+        .onAppear {
+            if !settings.hasSeenWelcome {
+                showWelcome = true
+                settings.hasSeenWelcome = true
+            }
         }
     }
 }
@@ -92,4 +104,5 @@ private enum AppTab {
 #Preview {
     RootView(store: .preview)
         .preferredColorScheme(.dark)
+        .environment(AppSettings())
 }
