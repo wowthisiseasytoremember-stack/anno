@@ -223,6 +223,22 @@ Ship **P0–P2 as a technical/public beta** with conservative noncommercial term
 
 # B. Product / Technical Spec
 
+## B0. Current data reality (verified 2026-08-29)
+
+Before building, know what is actually on disk. The external plan assumed a fully-sourced 4-year master; it is not.
+
+| File | Entries | Non-empty `sources` | Notes |
+|---|---:|---:|---|
+| `Anno/Resources/anno_full_2026_2029.json` | 1461 | **0 / 1461** | 4-year master exists, but carries ZERO source citations. Do NOT point `export_feed.py` at this for a sourced feed. |
+| `Anno/Resources/anno_unified_2026.json` | 182 | **182 / 182** | Jul 3–Dec 31 2026, EN/VI, ≥2 live sources each. Real. |
+| `Anno/Resources/anno_unified_2027.json` | 31 | **31 / 31** | Jan 2027, sourced. Real. |
+| `Anno/Resources/anno_devotional_pool_365.json` | **0** | 0 | The "365-day devotional pool" referenced in §0 / Deck D does NOT exist as data — file is empty. |
+
+**Consequences for this spec:**
+- The P0 exit criterion "all entries have ≥2 live sources" is satisfiable ONLY over `anno_unified_2026.json` + `anno_unified_2027.json` (213 days total), not over the master.
+- Either (a) build the feed from the unified sourced files first, or (b) run a source-enrichment pass on `anno_full_2026_2029.json` before export. Option (a) is the short path to a real P0 deliverable.
+- "1461-entry master" is real as a calendar/structure file; "sourced feed" coverage today is 213 days. State this honestly in any customer-facing material.
+
 ## B1. Feed contract principles
 
 The feed should **extend** the internal `AnnoEntry` schema. It should not replace or mutate it.
@@ -564,8 +580,12 @@ Transform internal normalized Anno fixtures into the consumer-facing feed contra
 
 ```text
 python export_feed.py \
-  --input Anno/Resources/anno_full_2026_2029.json \
+  --input Anno/Resources/anno_unified_2026.json \
   --out feed/ \
+  # NOTE (verified 2026-08-29): for a SOURCED feed use the unified files, not the
+  # 4-year master. anno_full_2026_2029.json has 1461 entries but 0 sources.
+  # To also cover Jan 2027, run again with --input Anno/Resources/anno_unified_2027.json
+  # or concat the two before export. See B0.
   --feed-version 2026.08.28.001 \
   --license-profile free \
   --terms-url https://wowthisiseasytoremember-stack.github.io/anno/terms/feed-free.html \
@@ -664,7 +684,9 @@ python build_feed.py \
   --end-date 2029-12-31 \
   --mode nightly \
   --resume \
-  --input-master Anno/Resources/anno_full_2026_2029.json \
+  --input-master Anno/Resources/anno_unified_2026.json \
+  # NOTE (verified 2026-08-29): see B0 — the 4-year master has 0 sources.
+  # Use the unified sourced files; enrich the master in a later pass if needed.
   --out feed/ \
   --state build/feed_build_state.sqlite \
   --feed-version auto
