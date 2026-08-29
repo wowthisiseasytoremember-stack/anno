@@ -2,9 +2,9 @@ name: iOS Build — Anno
 
 on:
   push:
-    branches: [main, visual-polish]
+    branches: [main]
   pull_request:
-    branches: [main, visual-polish]
+    branches: [main]
 
 jobs:
   build:
