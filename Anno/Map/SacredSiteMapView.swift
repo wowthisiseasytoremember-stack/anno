@@ -120,7 +120,7 @@ public struct SacredSiteMapView: View {
             if let today = currentEntry, !connectedRoutesToToday.isEmpty {
                 HStack(spacing: 5) {
                     Image(systemName: "sparkles")
-                        .font(.system(size: 10))
+                        .font(Typography.iconCaption)
                         .foregroundStyle(AnnoTheme.candleGlow)
                     Text(language == .vietnamese
                          ? "Gắn liền với lễ: \(today.liturgical.titleVi)"
@@ -234,8 +234,7 @@ public struct SacredSiteMapView: View {
                     }
                 } label: {
                     Text(m.title(for: language))
-                        .font(.caption.weight(mode == m ? .bold : .medium))
-                        .fontDesign(.serif)
+                        .font(Typography.captionSemiboldSerif)
                         .foregroundStyle(mode == m ? AnnoTheme.narthex : AnnoTheme.vellum)
                         .padding(.horizontal, 12)
                         .padding(.vertical, 8)
@@ -287,10 +286,9 @@ public struct SacredSiteMapView: View {
                     } label: {
                         HStack(spacing: 4) {
                             Image(systemName: calling.icon)
-                                .font(.system(size: 10))
+                                .font(Typography.iconCaption)
                             Text(calling.title(for: language))
-                                .font(.caption2.weight(isSelected ? .bold : .regular))
-                                .fontDesign(.serif)
+                                .font(Typography.caption2Medium)
                         }
                         .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.vellum)
                         .padding(.horizontal, 10)
@@ -327,22 +325,21 @@ public struct SacredSiteMapView: View {
                         HStack(spacing: 6) {
                             if isConnected {
                                 Image(systemName: "sparkles")
-                                    .font(.caption2)
+                                    .font(Typography.caption2)
                                     .foregroundStyle(AnnoTheme.goldLeaf)
                             } else {
                                 Image(systemName: "figure.walk")
-                                    .font(.caption2)
+                                    .font(Typography.caption2)
                                     .foregroundStyle(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.incense)
                             }
 
                             Text(route.title(for: language))
-                                .font(.caption.weight(isSelected ? .semibold : .regular))
-                                .fontDesign(.serif)
+                                .font(Typography.captionSemiboldSerif)
                                 .foregroundStyle(isSelected ? AnnoTheme.vellum : AnnoTheme.incense)
                                 .lineLimit(1)
 
                             Text("(\(route.waypoints.count))")
-                                .font(.caption2.monospacedDigit())
+                                .font(Typography.caption2MonospacedSemibold)
                                 .foregroundStyle(AnnoTheme.goldLeaf.opacity(0.85))
                         }
                         .padding(.horizontal, 10)
@@ -373,8 +370,7 @@ public struct SacredSiteMapView: View {
                     withAnimation { geoLoader.selectedCategory = nil }
                 } label: {
                     Text(language == .vietnamese ? "Tất cả (72)" : "All (72)")
-                        .font(.caption2.weight(geoLoader.selectedCategory == nil ? .bold : .regular))
-                        .fontDesign(.serif)
+                        .font(Typography.caption2Medium)
                         .foregroundStyle(geoLoader.selectedCategory == nil ? AnnoTheme.narthex : AnnoTheme.vellum)
                         .padding(.horizontal, 10)
                         .padding(.vertical, 5)
@@ -389,8 +385,7 @@ public struct SacredSiteMapView: View {
                         withAnimation { geoLoader.selectedCategory = cat }
                     } label: {
                         Text(cat.replacingOccurrences(of: "_", with: " ").capitalized)
-                            .font(.caption2.weight(isSelected ? .bold : .regular))
-                            .fontDesign(.serif)
+                            .font(Typography.caption2Medium)
                             .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.vellum)
                             .padding(.horizontal, 10)
                             .padding(.vertical, 5)
@@ -420,24 +415,23 @@ public struct SacredSiteMapView: View {
                     .overlay(Circle().stroke(AnnoTheme.goldLeaf, lineWidth: 1.5))
                     .shadow(color: .black.opacity(0.6), radius: 4, y: 2)
 
-                Text("\(waypoint.order)")
-                    .font(.caption.weight(.bold))
-                    .fontDesign(.serif)
-                    .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
-            }
+                Text("\\\(waypoint.order)")
+                                    .font(Typography.captionBoldSerif)
+                                    .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
+                            }
 
-            Image(systemName: "triangle.fill")
-                .font(.system(size: 6))
-                .foregroundStyle(AnnoTheme.goldLeaf)
-                .rotationEffect(.degrees(180))
-                .offset(y: -2)
-        }
-    }
+                            Image(systemName: "triangle.fill")
+                                .font(Typography.iconTiny)
+                                .foregroundStyle(AnnoTheme.goldLeaf)
+                                .rotationEffect(.degrees(180))
+                                .offset(y: -2)
+                        }
+                    }
 
-    private func sanctuaryPinView(sanctuary: Sanctuary, isSelected: Bool) -> some View {
-        VStack(spacing: 0) {
-            ZStack {
-                if isSelected {
+                    private func sanctuaryPinView(sanctuary: Sanctuary, isSelected: Bool) -> some View {
+                        VStack(spacing: 0) {
+                            ZStack {
+                                if isSelected {
                     Circle()
                         .stroke(AnnoTheme.goldLeaf.opacity(0.4), lineWidth: 4)
                         .frame(width: 38, height: 38)
@@ -450,12 +444,12 @@ public struct SacredSiteMapView: View {
                     .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
 
                 Image(systemName: "cross.fill")
-                    .font(.system(size: 11))
+                    .font(Typography.iconCaption2)
                     .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
             }
 
             Image(systemName: "triangle.fill")
-                .font(.system(size: 6))
+                .font(Typography.iconTiny)
                 .foregroundStyle(AnnoTheme.goldLeaf)
                 .rotationEffect(.degrees(180))
                 .offset(y: -2)
@@ -466,7 +460,7 @@ public struct SacredSiteMapView: View {
         VStack(spacing: 0) {
             ZStack {
                 Image(systemName: "mappin.circle.fill")
-                    .font(.system(size: 30, weight: .bold))
+                    .font(Typography.iconSacredPin)
                     .foregroundStyle(AnnoTheme.goldLeaf)
                     .shadow(color: .black.opacity(0.5), radius: 4, y: 2)
 
@@ -477,7 +471,7 @@ public struct SacredSiteMapView: View {
             }
 
             Image(systemName: "triangle.fill")
-                .font(.system(size: 8))
+                .font(Typography.iconSmall)
                 .foregroundStyle(AnnoTheme.goldLeaf)
                 .rotationEffect(.degrees(180))
                 .offset(y: -4)
@@ -553,15 +547,15 @@ public struct SacredSiteMapView: View {
                         .foregroundStyle(AnnoTheme.goldLeaf)
 
                     Text(sheetTitle)
-                        .font(.subheadline.weight(.semibold))
-                        .fontDesign(.serif)
+                        .font(Typography.subheadlineSemibold)
+                        
                         .foregroundStyle(AnnoTheme.vellum)
                         .lineLimit(1)
 
                     Spacer()
 
                     Image(systemName: sheetExpanded ? "chevron.down" : "chevron.up")
-                        .font(.caption.weight(.bold))
+                        .font(Typography.captionBoldSerif)
                         .foregroundStyle(AnnoTheme.incense)
                 }
                 .padding(.horizontal, 16)
@@ -630,19 +624,19 @@ public struct SacredSiteMapView: View {
                         Image(systemName: "sparkles")
                         Text(language == .vietnamese ? "Hôm nay" : "Today")
                     }
-                    .font(.caption2.weight(.bold))
+                    .font(Typography.caption2Bold)
                     .foregroundStyle(AnnoTheme.narthex)
                     .padding(.horizontal, 6)
                     .padding(.vertical, 2)
                     .background(Capsule().fill(AnnoTheme.goldLeaf))
                 }
             }
-            .font(.caption2)
+            .font(Typography.caption2)
             .foregroundStyle(AnnoTheme.goldLeaf)
 
             Text(route.spiritualTheme(for: language))
-                .font(.subheadline.italic())
-                .fontDesign(.serif)
+                .font(Typography.bodySerif.italic())
+                
                 .foregroundStyle(AnnoTheme.vellum)
 
             Divider().background(AnnoTheme.ash)
@@ -654,8 +648,7 @@ public struct SacredSiteMapView: View {
                     HStack(alignment: .top) {
                         VStack(alignment: .leading, spacing: 2) {
                             Text("Station \(wp.order): \(wp.name(for: language))")
-                                .font(.headline)
-                                .fontDesign(.serif)
+                                .font(Typography.headlineSerif)
                                 .foregroundStyle(AnnoTheme.goldLeaf)
                         }
 
@@ -665,7 +658,7 @@ public struct SacredSiteMapView: View {
                             if let mapsUrl = appleMapsUrl(latitude: wp.latitude, longitude: wp.longitude) {
                                 Link(destination: mapsUrl) {
                                     Image(systemName: "arrow.triangle.turn.up.right.diamond.fill")
-                                        .font(.caption)
+                                        .font(Typography.captionSerif)
                                         .foregroundStyle(AnnoTheme.goldLeaf)
                                         .padding(7)
                                         .background(Circle().fill(AnnoTheme.goldLeaf.opacity(0.15)))
@@ -675,21 +668,21 @@ public struct SacredSiteMapView: View {
                     }
 
                     Text(wp.historicalSummary(for: language))
-                        .font(.caption)
+                        .font(Typography.captionSerif)
                         .lineSpacing(3)
                         .foregroundStyle(AnnoTheme.vellum.opacity(0.92))
 
                     if !wp.sacredRelic(for: language).isEmpty {
                         HStack(alignment: .top, spacing: 8) {
                             Image(systemName: "sparkles")
-                                .font(.caption2)
+                                .font(Typography.caption2)
                                 .foregroundStyle(AnnoTheme.goldLeaf)
                             VStack(alignment: .leading, spacing: 2) {
                                 Text(language == .vietnamese ? "Thánh Tích & Di Sản" : "Sacred Relics")
-                                    .font(.caption2.weight(.bold))
+                                    .font(Typography.caption2Bold)
                                     .foregroundStyle(AnnoTheme.goldLeaf)
                                 Text(wp.sacredRelic(for: language))
-                                    .font(.caption2)
+                                    .font(Typography.caption2)
                                     .foregroundStyle(AnnoTheme.vellum)
                             }
                         }
@@ -705,12 +698,12 @@ public struct SacredSiteMapView: View {
                     if !wp.suggestedPrayer(for: language).isEmpty {
                         VStack(alignment: .leading, spacing: 4) {
                             Text(language == .vietnamese ? "Lời Nguyện Hành Hương" : "Pilgrim's Prayer")
-                                .font(.caption2.weight(.bold))
+                                .font(Typography.caption2Bold)
                                 .foregroundStyle(AnnoTheme.goldLeaf)
 
                             Text(wp.suggestedPrayer(for: language))
-                                .font(.caption.italic())
-                                .fontDesign(.serif)
+                                .font(Typography.captionItalic)
+                                
                                 .lineSpacing(2)
                                 .foregroundStyle(AnnoTheme.vellum)
                         }
@@ -733,7 +726,7 @@ public struct SacredSiteMapView: View {
                                 Image(systemName: "speaker.wave.2.fill")
                                 Text(language == .vietnamese ? "Nghe Lời Nguyện" : "Listen to Prayer")
                             }
-                            .font(.caption2.weight(.semibold))
+                            .font(Typography.caption2Medium)
                             .foregroundStyle(AnnoTheme.narthex)
                             .padding(.horizontal, 12)
                             .padding(.vertical, 8)
@@ -758,7 +751,7 @@ public struct SacredSiteMapView: View {
                                     Image(systemName: "arkit")
                                     Text(language == .vietnamese ? "Chiêm Ngắm 3D" : "View in AR")
                                 }
-                                .font(.caption2.weight(.semibold))
+                                .font(Typography.caption2Medium)
                                 .foregroundStyle(AnnoTheme.goldLeaf)
                                 .padding(.horizontal, 12)
                                 .padding(.vertical, 8)
@@ -787,7 +780,7 @@ public struct SacredSiteMapView: View {
                                     Image(systemName: "chevron.left")
                                     Text(language == .vietnamese ? "Trạm trước" : "Prev Station")
                                 }
-                                .font(.caption2.weight(.medium))
+                                .font(Typography.caption2Medium)
                                 .foregroundStyle(AnnoTheme.incense)
                             }
                         }
@@ -805,7 +798,7 @@ public struct SacredSiteMapView: View {
                                     Text(language == .vietnamese ? "Trạm kế tiếp" : "Next Station")
                                     Image(systemName: "chevron.right")
                                 }
-                                .font(.caption2.weight(.semibold))
+                                .font(Typography.caption2Medium)
                                 .foregroundStyle(AnnoTheme.goldLeaf)
                             }
                         }
@@ -826,8 +819,7 @@ public struct SacredSiteMapView: View {
                             }
                         } label: {
                             Text("\(wp.order). \(wp.name(for: language))")
-                                .font(.caption2)
-                                .fontDesign(.serif)
+                                .font(Typography.caption2)
                                 .foregroundStyle(isSel ? AnnoTheme.narthex : AnnoTheme.vellum)
                                 .padding(.horizontal, 10)
                                 .padding(.vertical, 5)
@@ -847,12 +839,11 @@ public struct SacredSiteMapView: View {
             HStack {
                 VStack(alignment: .leading, spacing: 2) {
                     Text(sanctuary.name(for: language))
-                        .font(.headline)
-                        .fontDesign(.serif)
+                        .font(Typography.headlineSerif)
                         .foregroundStyle(AnnoTheme.goldLeaf)
 
                     Text("\(sanctuary.location.city), \(sanctuary.location.country)")
-                        .font(.caption2)
+                        .font(Typography.caption2)
                         .foregroundStyle(AnnoTheme.incense)
                 }
 
@@ -861,7 +852,7 @@ public struct SacredSiteMapView: View {
                 if let mapsUrl = appleMapsUrl(latitude: sanctuary.location.latitude, longitude: sanctuary.location.longitude) {
                     Link(destination: mapsUrl) {
                         Image(systemName: "arrow.triangle.turn.up.right.diamond.fill")
-                            .font(.caption)
+                            .font(Typography.captionSerif)
                             .foregroundStyle(AnnoTheme.goldLeaf)
                             .padding(6)
                             .background(Circle().fill(AnnoTheme.goldLeaf.opacity(0.15)))
@@ -870,19 +861,19 @@ public struct SacredSiteMapView: View {
             }
 
             Text(sanctuary.historicalSummary(for: language))
-                .font(.caption)
+                .font(Typography.captionSerif)
                 .lineSpacing(3)
                 .foregroundStyle(AnnoTheme.vellum)
 
             if !sanctuary.suggestedPrayer(for: language).isEmpty {
                 VStack(alignment: .leading, spacing: 4) {
                     Text(language == .vietnamese ? "Lời Nguyện Thánh Địa" : "Sanctuary Prayer")
-                        .font(.caption2.weight(.bold))
+                        .font(Typography.caption2Bold)
                         .foregroundStyle(AnnoTheme.goldLeaf)
 
                     Text(sanctuary.suggestedPrayer(for: language))
-                        .font(.caption.italic())
-                        .fontDesign(.serif)
+                        .font(Typography.captionItalic)
+                        
                         .foregroundStyle(AnnoTheme.vellum)
                 }
                 .padding(12)
@@ -905,7 +896,7 @@ public struct SacredSiteMapView: View {
                         Image(systemName: "speaker.wave.2.fill")
                         Text(language == .vietnamese ? "Nghe Lời Nguyện" : "Listen to Prayer")
                     }
-                    .font(.caption2.weight(.semibold))
+                    .font(Typography.caption2Medium)
                     .foregroundStyle(AnnoTheme.narthex)
                     .padding(.horizontal, 12)
                     .padding(.vertical, 8)
@@ -930,7 +921,7 @@ public struct SacredSiteMapView: View {
                             Image(systemName: "arkit")
                             Text(language == .vietnamese ? "Chiêm Ngắm 3D" : "View in AR")
                         }
-                        .font(.caption2.weight(.semibold))
+                        .font(Typography.caption2Medium)
                         .foregroundStyle(AnnoTheme.goldLeaf)
                         .padding(.horizontal, 12)
                         .padding(.vertical, 8)
@@ -959,16 +950,16 @@ public struct SacredSiteMapView: View {
                     HStack {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(s.name(for: language))
-                                .font(.caption.weight(.semibold))
-                                .fontDesign(.serif)
+                                .font(Typography.captionSemiboldSerif)
+                                
                                 .foregroundStyle(AnnoTheme.vellum)
                             Text("\(s.location.city), \(s.location.country)")
-                                .font(.caption2)
+                                .font(Typography.caption2)
                                 .foregroundStyle(AnnoTheme.incense)
                         }
                         Spacer()
                         Image(systemName: "chevron.right")
-                            .font(.caption2)
+                            .font(Typography.caption2)
                             .foregroundStyle(AnnoTheme.incense)
                     }
                     .padding(10)

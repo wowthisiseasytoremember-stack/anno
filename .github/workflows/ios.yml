@@ -1,0 +1,56 @@
+name: iOS Build — Anno
+
+on:
+  push:
+    branches: [main, visual-polish]
+  pull_request:
+    branches: [main, visual-polish]
+
+jobs:
+  build:
+    name: Build Anno (iOS Simulator)
+    runs-on: macos-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+
+      - name: Install xcodegen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project (Anno)
+        working-directory: Anno
+        run: xcodegen generate
+
+      - name: Cache DerivedData
+        uses: actions/cache@v4
+        with:
+          path: ~/Library/Developer/Xcode/DerivedData
+          key: ${{ runner.os }}-xcode-${{ hashFiles('**/Package.resolved', 'Anno/project.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-xcode-
+
+      - name: Build Anno
+        working-directory: Anno
+        run: |
+          xcodebuild clean build \
+            -project Anno.xcodeproj \
+            -scheme Anno \
+            -destination 'platform=iOS Simulator,name=iPhone 16' \
+            -derivedDataPath ~/Library/Developer/Xcode/DerivedData \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            | xcpretty --simple
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: ~/Library/Developer/Xcode/DerivedData/Anno/Logs/Build/
+          retention-days: 7

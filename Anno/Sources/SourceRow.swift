@@ -40,27 +40,27 @@ struct SourceRow: View {
         HStack(alignment: .top, spacing: AnnoTheme.md) {
             // Source type icon
             Image(systemName: sourceIcon)
-                .font(.system(size: 18, weight: .medium))
+                .font(Typography.subheadlineSemibold)
                 .foregroundStyle(sourceTypeColor)
                 .frame(width: 32, height: 32)
-                .background(sourceTypeColor.opacity(0.12))
+                .background(sourceTypeColor.opacity(AnnoTheme.subtleFillOpacity))
                 .clipShape(RoundedRectangle(cornerRadius: 6))
                 .accessibilityHidden(true)
 
             VStack(alignment: .leading, spacing: AnnoTheme.sm) {
                 // Source label
                 Text(source.label)
-                    .font(AnnoTheme.body(16, weight: .semibold))
+                    .font(Typography.subheadlineSemiboldSerif)
                     .foregroundStyle(AnnoTheme.vellum)
                     .fixedSize(horizontal: false, vertical: true)
 
                 // Type badge
                 Text(sourceTypeLabel)
-                    .font(AnnoTheme.caption(11, weight: .semibold))
+                    .font(Typography.caption2Medium)
                     .foregroundStyle(sourceTypeColor)
                     .padding(.horizontal, AnnoTheme.sm)
                     .padding(.vertical, AnnoTheme.xs)
-                    .background(sourceTypeColor.opacity(0.12))
+                    .background(sourceTypeColor.opacity(AnnoTheme.subtleFillOpacity))
                     .clipShape(Capsule())
 
                 // Link button
@@ -68,9 +68,9 @@ struct SourceRow: View {
                     Link(destination: url) {
                         HStack(spacing: AnnoTheme.xs) {
                             Image(systemName: "safari")
-                                .font(.system(size: 12, weight: .semibold))
+                                .font(Typography.captionSemibold)
                             Text("Open Source")
-                                .font(AnnoTheme.caption(12, weight: .semibold))
+                                .font(Typography.captionSemibold)
                         }
                         .foregroundStyle(AnnoTheme.narthex)
                         .padding(.horizontal, AnnoTheme.md)

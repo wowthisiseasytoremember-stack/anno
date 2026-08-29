@@ -73,10 +73,11 @@ struct SourceSheet: View {
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
+                        Haptics.light()
                         dismiss()
                     } label: {
                         Image(systemName: "xmark.circle.fill")
-                            .font(.system(size: 18))
+                            .font(Typography.subheadlineSemibold)
                             .symbolRenderingMode(.hierarchical)
                             .foregroundStyle(AnnoTheme.incense)
                     }
@@ -94,7 +95,7 @@ struct SourceSheet: View {
         VStack(alignment: .leading, spacing: AnnoTheme.sm) {
             // Section label
             Text(confidenceSectionTitle.uppercased())
-                .font(AnnoTheme.caption(11, weight: .bold))
+                .font(Typography.caption2Bold)
                 .foregroundStyle(AnnoTheme.goldLeaf)
                 .tracking(1.2)
 
@@ -106,13 +107,13 @@ struct SourceSheet: View {
                     .accessibilityHidden(true)
 
                 Text(localizedText.confidenceLabel)
-                    .font(AnnoTheme.body(15, weight: .semibold))
+                    .font(Typography.subheadlineSemiboldSerif)
                     .foregroundStyle(AnnoTheme.confidenceColor(entry.primary.confidence))
             }
 
             // Confidence note
             Text(localizedText.confidenceNote)
-                .font(AnnoTheme.body(14))
+                .font(Typography.bodySerif)
                 .foregroundStyle(AnnoTheme.vellum.opacity(0.85))
                 .fixedSize(horizontal: false, vertical: true)
         }
@@ -136,7 +137,7 @@ struct SourceSheet: View {
                 VStack(alignment: .leading, spacing: AnnoTheme.sm) {
                     // Section header
                     Text(sectionTitle(for: type).uppercased())
-                        .font(AnnoTheme.caption(11, weight: .bold))
+                        .font(Typography.caption2Bold)
                         .foregroundStyle(AnnoTheme.goldLeaf)
                         .tracking(1.2)
                         .padding(.leading, AnnoTheme.xs)
@@ -173,7 +174,7 @@ struct SourceSheet: View {
 
     private var sourceCountBadge: some View {
         Text("\(totalSourceCount)")
-            .font(AnnoTheme.caption(11, weight: .bold))
+            .font(Typography.caption2Bold)
             .foregroundStyle(AnnoTheme.narthex)
             .padding(.horizontal, AnnoTheme.sm)
             .padding(.vertical, AnnoTheme.xs)

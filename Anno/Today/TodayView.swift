@@ -79,7 +79,7 @@ struct TodayView: View {
 
     // MARK: - 2. Date Block
 
-        private var dateBlock: some View {
+    private var dateBlock: some View {
             VStack(spacing: 8) {
                 Text(language == .vietnamese ? "HÔM NAY" : "TODAY")
                     .font(Typography.captionSemiboldSerif)
@@ -107,7 +107,7 @@ struct TodayView: View {
             .frame(maxWidth: .infinity)
         }
 
-        private func calendarPill(label: String, value: String) -> some View {
+    private func calendarPill(label: String, value: String) -> some View {
             Text("\(label): \(value)")
                 .font(Typography.caption2Medium)
                 .foregroundStyle(AnnoTheme.incense)
@@ -119,9 +119,9 @@ struct TodayView: View {
                 }
         }
 
-        // MARK: - 3. Saint / Event Header
+    // MARK: - 3. Saint / Event Header
 
-        private var headerSection: some View {
+    private var headerSection: some View {
             VStack(alignment: .leading, spacing: 12) {
                 Text(localizedText.title)
                     .font(Typography.largeTitleBoldSerif)
@@ -154,14 +154,14 @@ struct TodayView: View {
 
     // Expanded liturgical color palette – uses AnnoTheme tokens consistently.
     private func liturgicalColor(for colorName: String) -> Color {
-        let name = colorName.lowercased()
+    let name = colorName.lowercased()
         switch name {
         case "red", "đỏ":                              return AnnoTheme.crimson
         case "white", "gold", "trắng", "vàng":        return AnnoTheme.goldLeaf
         case "blue", "lapis", "xanh":                 return AnnoTheme.lapis
         case "green":                                  return AnnoTheme.verdigris
         case "violet", "purple":                      return AnnoTheme.advent
-        case "rose":                                   return Color(hex: 0xB3666E)
+        case "rose":                                   return AnnoTheme.roseLiturgical
         case "black":                                  return AnnoTheme.ash
         default:                                       return AnnoTheme.incense
         }
@@ -169,7 +169,7 @@ struct TodayView: View {
 
     // MARK: - 4. Hero Artwork Card
 
-        private var artworkCard: some View {
+    private var artworkCard: some View {
             Button(action: {
                 Haptics.light()
                 isShowingArtCanvas = true
@@ -202,9 +202,9 @@ struct TodayView: View {
                         // Zoom indicator badge
                         HStack(spacing: 4) {
                             Image(systemName: "arrow.up.left.and.arrow.down.right")
-                                .font(.system(size: 10, weight: .bold))
+                                .font(Typography.iconCaption)
                             Text(language == .vietnamese ? "Phóng to 4K" : "Zoom 4K")
-                                .font(.system(size: 10, weight: .semibold))
+                                .font(Typography.iconCaption)
                         }
                         .foregroundStyle(AnnoTheme.goldLeaf)
                         .padding(.horizontal, 8)
@@ -237,7 +237,7 @@ struct TodayView: View {
                         }
 
                         Text("\(entry.artwork.maker) · \(entry.artwork.dateLabel)")
-                            .font(Typography.caption)
+                            .font(Typography.captionSerif)
                             .foregroundStyle(AnnoTheme.incense)
                     }
                 }
@@ -245,9 +245,9 @@ struct TodayView: View {
             .buttonStyle(.plain)
         }
 
-        // MARK: - 5. Quick-Actions Bar
+    // MARK: - 5. Quick-Actions Bar
 
-        private var quickActionsBar: some View {
+    private var quickActionsBar: some View {
             HStack(spacing: 12) {
                 Button(action: {
                     Haptics.light()
@@ -282,7 +282,7 @@ struct TodayView: View {
                     toggleBookmark()
                 }) {
                     Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(Typography.iconBody)
                         .foregroundStyle(isBookmarked ? AnnoTheme.goldLeaf : AnnoTheme.incense)
                         .padding(10)
                         .background {
@@ -301,7 +301,7 @@ struct TodayView: View {
             }
         }
 
-        private func toggleBookmark() {
+    private func toggleBookmark() {
             withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
                 isBookmarked.toggle()
                 bookmarkScale = 1.3
@@ -313,9 +313,9 @@ struct TodayView: View {
             }
         }
 
-        // MARK: - 6. Summary Text
+    // MARK: - 6. Summary Text
 
-        private var summaryCard: some View {
+    private var summaryCard: some View {
             Text(localizedText.summary)
                 .font(Typography.bodySerif)
                 .lineSpacing(5)
@@ -326,7 +326,7 @@ struct TodayView: View {
 
     // MARK: - 7. Sacred Place Section
 
-        private func sacredPlaceCard(place: SacredPlace) -> some View {
+    private func sacredPlaceCard(place: SacredPlace) -> some View {
             VStack(alignment: .leading, spacing: 12) {
                 HStack(alignment: .top) {
                     HStack(spacing: 8) {
@@ -346,7 +346,7 @@ struct TodayView: View {
 
                 HStack {
                     Text(String(format: "%.4f, %.4f", place.latitude, place.longitude))
-                        .font(.caption.monospacedDigit())
+                        .font(Typography.captionSerif.monospacedDigit())
                         .foregroundStyle(AnnoTheme.incense)
 
                     Spacer()
@@ -372,7 +372,7 @@ struct TodayView: View {
             .annoCard()
         }
 
-        private func liturgicalPilgrimageCard(route: PilgrimageRoute) -> some View {
+    private func liturgicalPilgrimageCard(route: PilgrimageRoute) -> some View {
             VStack(alignment: .leading, spacing: 12) {
                 HStack(spacing: 8) {
                     Image(systemName: "sparkles")
@@ -420,7 +420,7 @@ struct TodayView: View {
 
                         if wp.order < min(route.waypoints.count, 3) {
                             Image(systemName: "chevron.right")
-                                .font(.system(size: 8))
+                                .font(Typography.iconTiny)
                                 .foregroundStyle(AnnoTheme.incense.opacity(0.6))
                         }
                     }
@@ -453,7 +453,7 @@ struct TodayView: View {
         }
 
     private func mapsURL(for place: SacredPlace) -> URL? {
-        var components = URLComponents()
+    var components = URLComponents()
         components.scheme = "https"
         components.host = "maps.apple.com"
         components.queryItems = [
@@ -474,7 +474,7 @@ struct TodayView: View {
 
     // MARK: - 8. Prayer Prompt Card
 
-        private var prayerPromptCard: some View {
+    private var prayerPromptCard: some View {
             VStack(alignment: .leading, spacing: 12) {
                 HStack(spacing: 8) {
                     Image(systemName: "hands.sparkles")
@@ -493,9 +493,9 @@ struct TodayView: View {
             .annoCard()
         }
 
-        // MARK: - 9. Source Confidence Card
+    // MARK: - 9. Source Confidence Card
 
-        private var sourceConfidenceCard: some View {
+    private var sourceConfidenceCard: some View {
             VStack(alignment: .leading, spacing: 12) {
                 Text(localizedText.confidenceNote)
                     .font(Typography.captionSerif)
@@ -527,7 +527,7 @@ private enum TodayDateFormatter {
     private static let utc = TimeZone(secondsFromGMT: 0)!
 
     private static let parser: DateFormatter = {
-        let df = DateFormatter()
+    let df = DateFormatter()
         df.locale = Locale(identifier: "en_US_POSIX")
         df.calendar = Calendar(identifier: .gregorian)
         df.timeZone = utc
@@ -536,7 +536,7 @@ private enum TodayDateFormatter {
     }()
 
     private static let enFormatter: DateFormatter = {
-        let df = DateFormatter()
+    let df = DateFormatter()
         df.locale = Locale(identifier: "en_US")
         df.calendar = Calendar(identifier: .gregorian)
         df.timeZone = utc
@@ -545,7 +545,7 @@ private enum TodayDateFormatter {
     }()
 
     private static let viFormatter: DateFormatter = {
-        let df = DateFormatter()
+    let df = DateFormatter()
         df.locale = Locale(identifier: "vi_VN")
         df.calendar = Calendar(identifier: .gregorian)
         df.timeZone = utc

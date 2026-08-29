@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Chúa Giêsu Chịu Phép Rửa"
+  },
+  "primary": {
+    "title_vi": "Lễ Chúa Giêsu Chịu Phép Rửa",
+    "summary_vi": "Lễ Chúa Giêsu Chịu Phép Rửa kết thúc Mùa Giáng Sinh và mặc khải mầu nhiệm Ba Ngôi. Tại sông Giođan, Thánh Gioan Tẩy Giả làm phép rửa cho Chúa Giêsu, trời mở ra, Chúa Thánh Thần ngự xuống như chim bồ câu, và tiếng Chúa Cha vang lên tuyên bố Chúa Giêsu là Con yêu dấu của Ngài.",
+    "body_vi": "Việc Chúa Giêsu chịu phép rửa của Thánh Gioan Tẩy Giả là khoảnh khắc mặc khải thần học sâu sắc. Dù vô tội, Chúa Giêsu vẫn đứng giữa những người tội lỗi để đồng nhất với nhu cầu ăn năn của nhân loại. Trời mở ra biểu thị sự đáp lại của Thiên Chúa cho ơn cứu chuộc mà chúng ta đã chờ đợi từ lâu.\n\nChúa Thánh Thần ngự xuống như chim bồ câu và tiếng Chúa Cha tuyên bố 'Con là Con yêu dấu của Cha, hôm nay Cha đã sinh ra Con' (Mt 3,17) mặc khải trọn vẹn mầu nhiệm Ba Ngôi. Các tín hữu được mời gọi canh tân lời hứa bí tích rửa tội của mình và sống sứ mạng làm con cái trong Con Một.\n\nLễ này khai mở Mùa Thường Niên, kêu gọi các Kitô hữu sống căn tính bí tích rửa tội với lòng xác tín canh tân.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-01-11."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Trời mở ra — tiếng Chúa Cha: Con là Con yêu dấu của Cha",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã dùng tiếng Chúa Thánh Thần tuyên bố Con yêu dấu của Chúa khi chịu phép rửa tại sông Giođan, xin cho chúng con, những người được sinh ra bởi nước và Thần Khí, được ghi vào số các con cái của Chúa."
+  }
+}

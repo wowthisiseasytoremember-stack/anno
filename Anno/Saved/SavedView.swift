@@ -75,7 +75,7 @@ struct SavedView: View {
                 .frame(width: 140, height: 140)
 
             Image(systemName: "bookmark.fill")
-                .font(.system(size: 52, weight: .light))
+                .font(Typography.iconHeroLarge)
                 .foregroundStyle(
                     LinearGradient(
                         colors: [AnnoTheme.goldLeaf, AnnoTheme.gilt],
@@ -210,7 +210,7 @@ struct SavedView: View {
         } label: {
             HStack(spacing: 16) {
                 Image(systemName: icon)
-                    .font(.title3)
+                    .font(Typography.title3ItalicSerif)
                     .foregroundStyle(isChecked.wrappedValue ? AnnoTheme.goldLeaf : AnnoTheme.incense.opacity(0.5))
                     .frame(width: 32)
 
@@ -267,7 +267,7 @@ struct SavedView: View {
     private func collectionCard(item: MockCollection) -> some View {
         HStack(spacing: 14) {
             Image(systemName: item.icon)
-                .font(.title3.weight(.medium))
+                .font(Typography.title3ItalicSerif)
                 .foregroundStyle(AnnoTheme.goldLeaf)
                 .frame(width: 40, height: 40)
                 .background(
@@ -281,14 +281,14 @@ struct SavedView: View {
                     .foregroundStyle(AnnoTheme.vellum)
 
                 Text(item.subtitle(for: language))
-                    .font(Typography.caption)
+                    .font(Typography.captionSerif)
                     .foregroundStyle(AnnoTheme.incense)
             }
 
             Spacer()
 
             Image(systemName: "lock.fill")
-                .font(Typography.caption)
+                .font(Typography.captionSerif)
                 .foregroundStyle(AnnoTheme.incense.opacity(0.5))
         }
         .annoCard()

@@ -51,7 +51,7 @@ struct SettingsView: View {
                          ? "Chọn truyền thống để ưu tiên nội dung phụng vụ và thánh nhân."
                          : "Choose a tradition to prioritize liturgical content and saints.")
                         .foregroundStyle(AnnoTheme.incense)
-                        .font(Typography.caption)
+                        .font(Typography.captionSerif)
                 }
 
                 // MARK: - Notifications
@@ -108,7 +108,7 @@ struct SettingsView: View {
                 Section {
                     VStack(spacing: 8) {
                         Image(systemName: "cross")
-                            .font(.title2)
+                            .font(Typography.title2BoldSerif)
                             .foregroundStyle(AnnoTheme.goldLeaf.opacity(0.4))
 
                         Text("Anno")
@@ -118,13 +118,13 @@ struct SettingsView: View {
                         Text(language == .vietnamese
                              ? "Mỗi ngày kể từ Nhập Thể đều đã được đánh số."
                              : "Every day since the Incarnation has been numbered.")
-                            .font(Typography.caption)
+                            .font(Typography.captionSerif)
                             .foregroundStyle(AnnoTheme.incense.opacity(0.6))
                             .multilineTextAlignment(.center)
                     }
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
-                    .listRowBackground(Color.clear)
+                    .listRowBackground(AnnoTheme.clearRow)
                 }
             }
             .scrollContentBackground(.hidden)
@@ -142,7 +142,7 @@ struct SettingsView: View {
                     } label: {
                         Image(systemName: "xmark.circle.fill")
                             .foregroundStyle(AnnoTheme.incense)
-                            .font(.title3)
+                            .font(Typography.title3ItalicSerif)
                     }
                 }
             }
@@ -164,7 +164,7 @@ struct SettingsView: View {
 
             if let detail {
                 Text(detail)
-                    .font(Typography.caption)
+                    .font(Typography.captionSerif)
                     .foregroundStyle(AnnoTheme.incense)
             } else {
                 Image(systemName: "chevron.right")

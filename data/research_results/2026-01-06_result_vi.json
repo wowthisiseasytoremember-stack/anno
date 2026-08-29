@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Hiển Linh — Chúa Giêsu Tỏ Mình Ra"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Hiển Linh — Chúa Giêsu Tỏ Mình Ra",
+    "summary_vi": "Đại Lễ Hiển Linh mừng việc Chúa Giêsu Kitô tỏ mình ra cho các Nhà Thông Thái — những vị hiền nhân từ phương Đông — đại diện cho muôn dân trên thế giới. Đại Lễ này loan báo rằng ơn cứu độ do biến cố Nhập Thể mang lại là cho mọi dân tộc, không chỉ riêng con cháu của Abraham.",
+    "body_vi": "Theo ánh sao Bêlem, các Nhà Thông Thái — truyền thống ghi nhận có ba vị và thường được xác định là Caspar, Melchior và Balthasar — đã du hành từ những vùng đất xa xôi mang theo lễ vật vàng, nhũ hương và mộc dược. Hành trình của các ngài tượng trưng cho cuộc hành hương của mọi dân tộc về phía Ánh Sáng Đức Kitô.\n\nVàng công nhận tước vị Vua của Đức Kitô, nhũ hương tôn vinh thần tính của Ngài, và mộc dược báo trước cuộc Khổ Nạn và an táng của Ngài. Qua những lễ vật này, các Nhà Thông Thái đã vô tình loan báo toàn bộ mầu nhiệm Đức Kitô: Vua, Thiên Chúa và Đấng Cứu Độ chịu đau khổ.\n\nTrong nhiều nền văn hóa, ngày này được cử hành với phép lành nhà cửa, nơi các gia đình ghi dấu trên khung cửa bằng phấn như dấu hiệu chào đón Đức Kitô, Ánh Sáng Thế Gian.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-01-06."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Muôn dân đến thờ lạy Hài Nhi Vua",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, ngày hôm nay Chúa đã tỏ Con Một của Chúa ra cho muôn dân nhờ sự hướng dẫn của ngôi sao, xin cho chúng con, những người nay nhận biết Chúa qua đức tin, được đưa đến chiêm ngắm vẻ đẹp rực rỡ thần tính của Chúa."
+  }
+}

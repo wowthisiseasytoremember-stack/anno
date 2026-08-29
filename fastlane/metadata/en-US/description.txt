@@ -1,0 +1,21 @@
+# Anno — Catholic daily devotional companion
+
+Anno pairs a deterministic multi-calendar liturgical engine with sourced Catholic historical
+research and a bilingual (English / Vietnamese) devotional layer — so every day opens onto the
+saints, feasts, and sacred geography the Church is actually remembering.
+
+Built for the daily pray-er who wants substance, not noise:
+
+• Liturgical calendar, done right — Gregorian, Hebrew, and Hijri conversions computed
+  deterministically, with the feast, memorial, or solemnity for each day spelled out plainly.
+• Bilingual from day one — full English and Vietnamese content for every entry (Jul–Dec 2026
+  shipped 100% bilingual with sources), because the Vietnamese Catholic community deserves first-class.
+• Sacred geography & pilgrimage — 18 pilgrimage corridors and 72 venerated sanctuaries mapped,
+  with distance-aware narration that begins as you approach a site.
+• Audio devotions — monastic-choir ambience and cathedral-reverberant hagiography for hands-free prayer.
+• Premium, honestly — a yearly or monthly subscription unlocks the full archive, pilgrimage routes,
+  and audio narration. Seven-day free trial on yearly.
+
+No ads. No tracking. Your prayer life stays on your device.
+
+Anno — whose feast will you remember today?

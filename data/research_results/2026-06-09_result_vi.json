@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Nhớ Thánh Ephrem, Phó Tế Tiến Sĩ"
+  },
+  "primary": {
+    "title_vi": "Lễ Nhớ Thánh Ephrem, Phó Tế Tiến Sĩ",
+    "summary_vi": "Lễ Nhớ Thánh Ephrem, Phó Tế Tiến Sĩ mời gọi các tín hữu noi gương các nhân đức của vị chứng nhân thánh thiện này. Edessa đánh dấu trung tâm địa lý của cuộc hành hương trần thế và nền tảng di sản thiêng liêng của ngài.",
+    "body_vi": "Thánh Ephrem là chứng nhân mạnh mẽ cho sự môn đệ Kitô giáo. Qua cầu nguyện, hy sinh và đức tin kiên vững, vị thánh này chỉ ra con đường nên thánh mở ra cho mọi người đã chịu phép rửa. Giáo Hội tưởng nhớ vị chứng nhân thánh thiện này vào ngày 2026-06-09, mời gọi các tín hữu tìm kiếm sự chuyển cầu của ngài và noi gương các nhân đức. Địa điểm của sứ vụ ngài — đặc biệt là Edessa — vẫn là nơi hành hương và cầu nguyện cho những ai muốn bước theo dấu chân ngài.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-06-09."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tôn vinh cuộc đời và chứng tá của Thánh Ephrem, Phó Tế Tiến Sĩ",
+    "prayer_prompt_vi": "Lạy Chúa, nhờ sự chuyển cầu của Thánh Ephrem, Phó Tế Tiến Sĩ, xin ban cho chúng con ân sủng trung thành hơn với Đức Kitô trong cuộc sống hàng ngày."
+  }
+}

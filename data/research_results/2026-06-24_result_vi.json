@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Sinh Nhật Thánh Gioan Tẩy Giả"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Sinh Nhật Thánh Gioan Tẩy Giả",
+    "summary_vi": "Sinh Nhật Thánh Gioan Tẩy Giả là một trong ba lễ sinh nhật được cử hành trong năm phụng vụ (cùng với Đức Trinh Nữ Maria và Chúa Giêsu Kitô). Lễ này tôn vinh sự ra đời của tiền hô, Đấng đã dọn đường cho Đấng Mêxia, sứ mạng của ngài bắt đầu ngay từ trước khi ngài được sinh ra.",
+    "body_vi": "Sự ra đời của Thánh Gioan, sáu tháng trước Chúa Giêsu, đã được Thiên Thần Gabriel loan báo cho cha ngài là Dacaria trong Đền Thờ. Thánh Dacaria bị câm vì sự nghi ngờ, và tiếng nói của ngài chỉ được phục hồi sau khi ngài viết 'Tên ngài là Gioan' trên một tấm bảng. Cuộc viếng thăm của Mẹ Maria với em là bà Isave đã khởi xướng kinh Magnificat và khiến Thánh Gioan nhảy mừng trong lòng mẹ.\n\nKhi trưởng thành, Thánh Gioan sống trong hoang mạc Giuđê, mặc áo lông lạc đà và ăn cào cào và mật ong rừng. Ngài rao giảng phép rửa sám hối và chỉ về Đức Kitô: 'Đây là Chiên Thiên Chúa, Đấng xoá bỏ tội trần gian' (Ga 1,29).\n\nGiáo Hội mừng cả ngày sinh (24 tháng 6) và ngày tử đạo (29 tháng 8) của ngài, nêu bật toàn bộ sứ mạng ngôn sứ của ngài.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-06-24."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tiếng kêu trong sa mạc — Hãy dọn đường Chúa",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã nâng Thánh Gioan Tẩy Giả lên để chuẩn bị cho Chúa Kitô một dân xứng đáng, xin cho chúng con, những người đã được cứu chuộc nhờ phép rửa, vui mừng trong ân sủng của sự sinh ra từ trời."
+  }
+}

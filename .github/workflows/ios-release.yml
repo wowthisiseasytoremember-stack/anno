@@ -1,0 +1,80 @@
+name: iOS Release — Anno
+
+on:
+  push:
+    tags:
+      - 'v*-dryrun'
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+
+concurrency:
+  group: release
+  cancel-in-progress: true
+
+jobs:
+  release:
+    name: Build & Deploy (TestFlight)
+    runs-on: macos-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+
+      - name: Setup Swift
+        uses: swift-actions/setup-swift@v2
+        with:
+          swift-version: "5.10"
+
+      - name: Install xcodegen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        working-directory: Anno
+        run: xcodegen generate
+
+      - name: Cache DerivedData
+        uses: actions/cache@v4
+        with:
+          path: ~/Library/Developer/Xcode/DerivedData
+          key: ${{ runner.os }}-release-${{ hashFiles('**/Package.resolved', 'Anno/project.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-release-
+
+      - name: Cache SwiftPM
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/SwiftPM
+          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
+
+      - name: Bundle install
+        working-directory: fastlane
+        run: bundle install
+
+      - name: Validate (dry-run tag)
+        if: github.ref == 'refs/tags/v*-dryrun'
+        working-directory: fastlane
+        run: bundle exec fastlane beta_validate
+
+      - name: Deploy (semver tag)
+        if: github.ref == 'refs/tags/v[0-9]+.[0-9]+.[0-9]+'
+        working-directory: fastlane
+        run: bundle exec fastlane beta_deploy
+
+  test-storekit:
+    name: StoreKit Layer Tests (Linux-safe)
+    needs: release
+    runs-on: macos-latest
+    if: github.ref == 'refs/tags/v[0-9]+.[0-9]+.[0-9]+'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Swift
+        uses: swift-actions/setup-swift@v2
+        with:
+          swift-version: "5.10"
+
+      - name: Run StoreKit provider tests
+        run: swift test --filter StoreKitProviderTests

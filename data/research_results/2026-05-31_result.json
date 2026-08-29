@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-05-31",
+  "date": "2026-05-31",
+  "weekday": "Sunday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Memorial of The Visitation of the Blessed Virgin Mary",
+    "title_vi": "Lễ Nhớ Lễ Đức Mẹ Viếng Thăm"
+  },
+  "calendars": {
+    "julian": "2026-05-18",
+    "hebrew": "15 Sivan 5786",
+    "islamic_umm_al_qura": "14 Dhu al-Hijjah 1447 AH",
+    "coptic": "23 Pashons 1742",
+    "ethiopian": "23 Genbot 2018"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Memorial of The Visitation of the Blessed Virgin Mary",
+    "title_vi": "Lễ Nhớ Lễ Đức Mẹ Viếng Thăm",
+    "summary_en": "The Memorial of The Visitation of the Blessed Virgin Mary calls the faithful to imitate the virtues of this holy witness. Ein Karem, Jerusalem marks the geographical heart of their earthly pilgrimage and the foundation of their spiritual legacy.",
+    "summary_vi": "Lễ Nhớ Lễ Đức Mẹ Viếng Thăm mời gọi các tín hữu noi gương các nhân đức của vị chứng nhân thánh thiện này. Ein Karem, Jerusalem đánh dấu trung tâm địa lý của cuộc hành hương trần thế và nền tảng di sản thiêng liêng của ngài.",
+    "body_en": "Saint The Visitation of the Blessed Virgin Mary offers a powerful witness of Christian discipleship. Through prayer, sacrifice, and unwavering faith, this saint shows the path to holiness that is open to all the baptized. The Church commemorates this holy witness on 2026-05-31, inviting the faithful to seek their intercession and emulate their virtues. The geography of their ministry — particularly Ein Karem, Jerusalem — remains a place of pilgrimage and prayer for those seeking to follow in their footsteps.",
+    "body_vi": "Thánh Lễ Đức Mẹ Viếng Thăm là chứng nhân mạnh mẽ cho sự môn đệ Kitô giáo. Qua cầu nguyện, hy sinh và đức tin kiên vững, vị thánh này chỉ ra con đường nên thánh mở ra cho mọi người đã chịu phép rửa. Giáo Hội tưởng nhớ vị chứng nhân thánh thiện này vào ngày 2026-05-31, mời gọi các tín hữu tìm kiếm sự chuyển cầu của ngài và noi gương các nhân đức. Địa điểm của sứ vụ ngài — đặc biệt là Ein Karem, Jerusalem — vẫn là nơi hành hương và cầu nguyện cho những ai muốn bước theo dấu chân ngài.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-05-31.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-05-31."
+  },
+  "place": {
+    "name": "Ein Karem, Jerusalem",
+    "latitude": null,
+    "longitude": null,
+    "confidence": "traditional",
+    "source_url": "https://www.catholic.org/saints/"
+  },
+  "artwork": {
+    "title": "The Visitation of the Blessed Virgin Mary",
+    "maker": "Sacred Art",
+    "date_label": "Historical",
+    "source_url": "https://commons.wikimedia.org/wiki/Saints",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia — Saint Index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Honoring the life and witness of The Visitation of the Blessed Virgin Mary",
+    "hero_line_vi": "Tôn vinh cuộc đời và chứng tá của Lễ Đức Mẹ Viếng Thăm",
+    "prayer_prompt_en": "Lord, through the intercession of The Visitation of the Blessed Virgin Mary, grant us the grace to follow Christ more faithfully in our daily lives.",
+    "prayer_prompt_vi": "Lạy Chúa, nhờ sự chuyển cầu của Lễ Đức Mẹ Viếng Thăm, xin ban cho chúng con ân sủng trung thành hơn với Đức Kitô trong cuộc sống hàng ngày."
+  }
+}

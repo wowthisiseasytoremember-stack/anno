@@ -54,10 +54,11 @@ struct ArchivePaywallView: View {
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
+                        Haptics.light()
                         dismiss()
                     } label: {
                         Image(systemName: "xmark.circle.fill")
-                            .font(.title3)
+                            .font(Typography.title3ItalicSerif)
                             .symbolRenderingMode(.hierarchical)
                             .foregroundStyle(AnnoTheme.incense)
                     }
@@ -95,7 +96,7 @@ struct ArchivePaywallView: View {
                     .frame(width: 160, height: 160)
 
                 Image(systemName: "cross.fill")
-                    .font(.system(size: 44, weight: .light))
+                    .font(Typography.iconHero)
                     .foregroundStyle(
                         LinearGradient(
                             colors: [AnnoTheme.goldLeaf, AnnoTheme.gilt],
@@ -117,8 +118,7 @@ struct ArchivePaywallView: View {
 
             VStack(spacing: 10) {
                 Text(copy.title)
-                    .font(.largeTitle.weight(.bold))
-                    .fontDesign(.serif)
+                    .font(Typography.largeTitleBoldSerif)
                     .foregroundStyle(
                         LinearGradient(
                             colors: [AnnoTheme.goldLeaf, AnnoTheme.gilt],
@@ -131,8 +131,7 @@ struct ArchivePaywallView: View {
                     .accessibilityAddTraits(.isHeader)
 
                 Text(copy.subtitle)
-                    .font(.subheadline)
-                    .fontDesign(.serif)
+                    .font(Typography.subheadlineSerif)
                     .foregroundStyle(AnnoTheme.incense)
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
@@ -178,14 +177,13 @@ struct ArchivePaywallView: View {
     private func benefitRow(icon: String, text: String) -> some View {
         HStack(spacing: 14) {
             Image(systemName: icon)
-                .font(.body.weight(.medium))
+                .font(Typography.subheadlineSemiboldSerif)
                 .foregroundStyle(AnnoTheme.goldLeaf)
                 .frame(width: 32, height: 32)
                 .accessibilityHidden(true)
 
             Text(text)
-                .font(.subheadline)
-                .fontDesign(.serif)
+                .font(Typography.subheadlineSerif)
                 .foregroundStyle(AnnoTheme.vellum)
                 .fixedSize(horizontal: false, vertical: true)
 
@@ -202,6 +200,7 @@ struct ArchivePaywallView: View {
         VStack(spacing: 12) {
             // Primary CTA — full-width gold gradient
             Button {
+                Haptics.medium()
                 Task {
                     try? await EntitlementService.shared.purchase(productID: EntitlementService.premiumAnnualProductID)
                     dismiss()
@@ -209,11 +208,10 @@ struct ArchivePaywallView: View {
             } label: {
                 VStack(spacing: 4) {
                     Text(copy.primaryPlan)
-                        .font(.headline)
-                        .fontDesign(.serif)
+                        .font(Typography.headlineSerif)
 
                     Text(language == .vietnamese ? "Tiết kiệm nhất" : "Best value")
-                        .font(.caption2.weight(.medium))
+                        .font(Typography.caption2Medium)
                         .textCase(.uppercase)
                         .tracking(1.0)
                         .opacity(0.8)
@@ -240,14 +238,14 @@ struct ArchivePaywallView: View {
 
             // Secondary CTA — bordered outline
             Button {
+                Haptics.light()
                 Task {
                     try? await EntitlementService.shared.purchase(productID: EntitlementService.premiumMonthlyProductID)
                     dismiss()
                 }
             } label: {
                 Text(copy.secondaryPlan)
-                    .font(.subheadline.weight(.medium))
-                    .fontDesign(.serif)
+                    .font(Typography.subheadlineMediumSerif)
                     .foregroundStyle(AnnoTheme.goldLeaf)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 14)
@@ -275,12 +273,13 @@ struct ArchivePaywallView: View {
         VStack(spacing: 12) {
             // Restore purchases
             Button {
+                Haptics.selection()
                 Task {
                     try? await EntitlementService.shared.restorePurchases()
                 }
             } label: {
                 Text(language == .vietnamese ? "Khôi phục giao dịch" : "Restore Purchases")
-                    .font(.caption.weight(.medium))
+                    .font(Typography.captionMedium)
                     .foregroundStyle(AnnoTheme.incense)
             }
             .buttonStyle(.plain)
@@ -293,24 +292,26 @@ struct ArchivePaywallView: View {
             // Terms & Privacy
             HStack(spacing: 20) {
                 Button {
+                    Haptics.selection()
                     // Terms action
                 } label: {
                     Text(language == .vietnamese ? "Điều khoản" : "Terms")
-                        .font(.caption2)
+                        .font(Typography.caption2)
                         .foregroundStyle(AnnoTheme.incense.opacity(0.7))
                 }
                 .buttonStyle(.plain)
 
                 Text("·")
-                    .font(.caption2)
+                    .font(Typography.caption2)
                     .foregroundStyle(AnnoTheme.incense.opacity(0.4))
                     .accessibilityHidden(true)
 
                 Button {
+                    Haptics.selection()
                     // Privacy action
                 } label: {
                     Text(language == .vietnamese ? "Quyền riêng tư" : "Privacy")
-                        .font(.caption2)
+                        .font(Typography.caption2)
                         .foregroundStyle(AnnoTheme.incense.opacity(0.7))
                 }
                 .buttonStyle(.plain)
@@ -319,7 +320,7 @@ struct ArchivePaywallView: View {
             Text(language == .vietnamese
                  ? "Thanh toán sẽ được tính vào tài khoản Apple ID của bạn."
                  : "Payment will be charged to your Apple ID account.")
-                .font(.caption2)
+                .font(Typography.caption2)
                 .foregroundStyle(AnnoTheme.incense.opacity(0.5))
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)

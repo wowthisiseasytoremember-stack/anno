@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-04-05",
+  "date": "2026-04-05",
+  "weekday": "Sunday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "Easter Sunday — The Resurrection of the Lord",
+    "title_vi": "Chúa Nhật Phục Sinh — Chúa Sống Lại"
+  },
+  "calendars": {
+    "julian": "2026-03-23",
+    "hebrew": "18 Nisan 5786",
+    "islamic_umm_al_qura": "17 Shawwal 1447 AH",
+    "coptic": "27 Paremhat 1742",
+    "ethiopian": "27 Megabit 2018"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Easter Sunday — The Resurrection of the Lord",
+    "title_vi": "Chúa Nhật Phục Sinh — Chúa Sống Lại",
+    "summary_en": "Easter Sunday is the greatest Solemnity of the liturgical year, celebrating the Resurrection of Jesus Christ from the dead on the third day after His Passion. The empty tomb and the appearances to the disciples are the foundation of the Christian faith and the source of our hope of eternal life.",
+    "summary_vi": "Chúa Nhật Phục Sinh là Đại Lễ cao trọng nhất của năm phụng vụ, mừng việc Chúa Giêsu Kitô sống lại từ cõi chết vào ngày thứ ba sau Cuộc Thương Khó. Ngôi mộ trống và các biến cố Chúa hiện ra với các môn đệ là nền tảng của đức tin Kitô giáo và nguồn hy vọng sự sống vĩnh cửu của chúng ta.",
+    "body_en": "On the third day after His death on the Cross, Jesus rose in glory from the tomb, conquering death forever. The women who came to anoint His body at dawn found the stone rolled away and the tomb empty, with angels proclaiming: 'Why do you seek the living among the dead? He is not here, but is risen' (Luke 24:5-6).\n\nThroughout the day, the Risen Lord appeared to Mary Magdalene, to the disciples on the road to Emmaus, to Peter, to the ten apostles behind locked doors, and later to Thomas and the eleven. These appearances established the truth of the Resurrection as the bedrock of Christian belief.\n\nEaster is the Passover (Pascha) of the New Covenant, the passage from death to life, from sin to grace, from darkness to light. The fifty days of Easter Time that follow lead to the descent of the Holy Spirit at Pentecost.",
+    "body_vi": "Vào ngày thứ ba sau khi chịu chết trên Thập Giá, Chúa Giêsu đã sống lại vinh quang từ ngôi mộ, chiến thắng sự chết muôn đời. Các phụ nữ đến xức dầu cho xác Ngài vào sáng sớm đã thấy tảng đá lăn ra và ngôi mộ trống, với các thiên thần loan báo: 'Sao các bà tìm người sống ở giữa kẻ chết? Ngài không ở đây, Ngài đã sống lại rồi' (Lc 24,5-6).\n\nTrong suốt ngày hôm đó, Chúa Phục Sinh đã hiện ra với bà Maria Mađalêna, với các môn đệ trên đường Emmau, với Phêrô, với mười tông đồ đằng sau những cánh cửa đóng kín, và sau đó với Tôma và mười một vị. Những lần hiện ra này đã xác lập chân lý Phục Sinh là nền tảng của đức tin Kitô giáo.\n\nPhục Sinh là Lễ Vượt Qua (Pascha) của Giao Ước Mới, cuộc đi qua từ sự chết đến sự sống, từ tội lỗi đến ân sủng, từ bóng tối đến ánh sáng. Năm mươi ngày Mùa Phục Sinh tiếp theo dẫn đến sự ngự xuống của Chúa Thánh Thần vào lễ Ngũ Tuần.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-04-05.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-04-05."
+  },
+  "place": {
+    "name": "Church of the Holy Sepulchre, Jerusalem",
+    "latitude": 31.7784,
+    "longitude": 35.2296,
+    "confidence": "confirmed",
+    "source_url": "https://www.custodia.org/en/sanctuaries/holy-sepulchre"
+  },
+  "artwork": {
+    "title": "The Resurrection of Christ",
+    "maker": "Piero della Francesca",
+    "date_label": "c. 1463",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Piero_della_Francesca_-_Resurrection.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Easter Sunday",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catechism of the Catholic Church — The Resurrection (638-655)",
+      "url": "https://www.vatican.va/archive/ccc_css/archive/catechism/p122a3p2.htm",
+      "type": "vatican"
+    },
+    {
+      "label": "Luke 24:1-12 — The Empty Tomb",
+      "url": "https://bible.usccb.org/bible/luke/24",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Christ is risen! He is risen indeed! Alleluia!",
+    "hero_line_vi": "Đức Kitô đã sống lại! Ngài đã sống lại thật! Alleluia!",
+    "prayer_prompt_en": "O God, who on this day, through your Only Begotten Son, have conquered death and unlocked the path to eternity, grant, we pray, that we who celebrate the Solemnity of the Lord's Resurrection may, through the renewing Spirit, rise to newness of life.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, ngày hôm nay qua Con Một, Chúa đã chiến thắng sự chết và mở ra con đường vĩnh cửu, xin cho chúng con, những người cử hành Đại Lễ Phục Sinh của Chúa, nhờ Chúa Thánh Thần canh tân, được sống lại trong sự sống mới."
+  }
+}

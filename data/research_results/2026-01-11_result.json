@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-01-11",
+  "date": "2026-01-11",
+  "weekday": "Sunday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "Feast of the Baptism of the Lord",
+    "title_vi": "Lễ Chúa Giêsu Chịu Phép Rửa"
+  },
+  "calendars": {
+    "julian": "2025-12-29",
+    "hebrew": "22 Tevet 5786",
+    "islamic_umm_al_qura": "22 Rajab 1447 AH",
+    "coptic": "3 Tobi 1742",
+    "ethiopian": "3 Ter 2018"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Feast of the Baptism of the Lord",
+    "title_vi": "Lễ Chúa Giêsu Chịu Phép Rửa",
+    "summary_en": "The Feast of the Baptism of the Lord closes the Christmas Season and reveals the mystery of the Holy Trinity. At the Jordan River, John the Baptist baptizes Jesus, the heavens open, the Holy Spirit descends as a dove, and the Father's voice is heard proclaiming Jesus as His beloved Son.",
+    "summary_vi": "Lễ Chúa Giêsu Chịu Phép Rửa kết thúc Mùa Giáng Sinh và mặc khải mầu nhiệm Ba Ngôi. Tại sông Giođan, Thánh Gioan Tẩy Giả làm phép rửa cho Chúa Giêsu, trời mở ra, Chúa Thánh Thần ngự xuống như chim bồ câu, và tiếng Chúa Cha vang lên tuyên bố Chúa Giêsu là Con yêu dấu của Ngài.",
+    "body_en": "Jesus' baptism by John the Baptist is a moment of profound theological revelation. Though sinless, Jesus stands among sinners to identify with humanity's need for repentance. The heavens opening signifies God's response to our long-awaited redemption.\n\nThe descent of the Holy Spirit as a dove and the Father's voice declaring 'You are my beloved Son; with you I am well pleased' (Matthew 3:17) reveal the full mystery of the Trinity. The faithful are invited to renew their own baptismal promises and to embrace the mission of being sons and daughters in the Son.\n\nThis feast inaugurates Ordinary Time, calling Christians to live their baptismal identity with renewed conviction.",
+    "body_vi": "Việc Chúa Giêsu chịu phép rửa của Thánh Gioan Tẩy Giả là khoảnh khắc mặc khải thần học sâu sắc. Dù vô tội, Chúa Giêsu vẫn đứng giữa những người tội lỗi để đồng nhất với nhu cầu ăn năn của nhân loại. Trời mở ra biểu thị sự đáp lại của Thiên Chúa cho ơn cứu chuộc mà chúng ta đã chờ đợi từ lâu.\n\nChúa Thánh Thần ngự xuống như chim bồ câu và tiếng Chúa Cha tuyên bố 'Con là Con yêu dấu của Cha, hôm nay Cha đã sinh ra Con' (Mt 3,17) mặc khải trọn vẹn mầu nhiệm Ba Ngôi. Các tín hữu được mời gọi canh tân lời hứa bí tích rửa tội của mình và sống sứ mạng làm con cái trong Con Một.\n\nLễ này khai mở Mùa Thường Niên, kêu gọi các Kitô hữu sống căn tính bí tích rửa tội với lòng xác tín canh tân.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-01-11.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-01-11."
+  },
+  "place": {
+    "name": "Qasr el Yahud, Jordan River (traditional baptism site)",
+    "latitude": 31.8333,
+    "longitude": 35.5333,
+    "confidence": "traditional",
+    "source_url": "https://www.custodia.org/en/sanctuaries/baptism-site"
+  },
+  "artwork": {
+    "title": "The Baptism of Christ",
+    "maker": "Piero della Francesca",
+    "date_label": "c. 1450",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Piero_della_Francesca_-_Battesimo_di_Cristo.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Baptism of the Lord",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Matthew 3:13-17 — Baptism of Jesus",
+      "url": "https://bible.usccb.org/bible/matthew/3",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Heaven opens — the Father's voice: You are my beloved Son",
+    "hero_line_vi": "Trời mở ra — tiếng Chúa Cha: Con là Con yêu dấu của Cha",
+    "prayer_prompt_en": "O God, who by the voice of the Holy Spirit declared your beloved Son at the baptism in the Jordan, grant that we, who are born of water and the Spirit, may be numbered among your children.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã dùng tiếng Chúa Thánh Thần tuyên bố Con yêu dấu của Chúa khi chịu phép rửa tại sông Giođan, xin cho chúng con, những người được sinh ra bởi nước và Thần Khí, được ghi vào số các con cái của Chúa."
+  }
+}

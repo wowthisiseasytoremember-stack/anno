@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật Phục Sinh — Chúa Sống Lại"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật Phục Sinh — Chúa Sống Lại",
+    "summary_vi": "Chúa Nhật Phục Sinh là Đại Lễ cao trọng nhất của năm phụng vụ, mừng việc Chúa Giêsu Kitô sống lại từ cõi chết vào ngày thứ ba sau Cuộc Thương Khó. Ngôi mộ trống và các biến cố Chúa hiện ra với các môn đệ là nền tảng của đức tin Kitô giáo và nguồn hy vọng sự sống vĩnh cửu của chúng ta.",
+    "body_vi": "Vào ngày thứ ba sau khi chịu chết trên Thập Giá, Chúa Giêsu đã sống lại vinh quang từ ngôi mộ, chiến thắng sự chết muôn đời. Các phụ nữ đến xức dầu cho xác Ngài vào sáng sớm đã thấy tảng đá lăn ra và ngôi mộ trống, với các thiên thần loan báo: 'Sao các bà tìm người sống ở giữa kẻ chết? Ngài không ở đây, Ngài đã sống lại rồi' (Lc 24,5-6).\n\nTrong suốt ngày hôm đó, Chúa Phục Sinh đã hiện ra với bà Maria Mađalêna, với các môn đệ trên đường Emmau, với Phêrô, với mười tông đồ đằng sau những cánh cửa đóng kín, và sau đó với Tôma và mười một vị. Những lần hiện ra này đã xác lập chân lý Phục Sinh là nền tảng của đức tin Kitô giáo.\n\nPhục Sinh là Lễ Vượt Qua (Pascha) của Giao Ước Mới, cuộc đi qua từ sự chết đến sự sống, từ tội lỗi đến ân sủng, từ bóng tối đến ánh sáng. Năm mươi ngày Mùa Phục Sinh tiếp theo dẫn đến sự ngự xuống của Chúa Thánh Thần vào lễ Ngũ Tuần.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-04-05."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức Kitô đã sống lại! Ngài đã sống lại thật! Alleluia!",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, ngày hôm nay qua Con Một, Chúa đã chiến thắng sự chết và mở ra con đường vĩnh cửu, xin cho chúng con, những người cử hành Đại Lễ Phục Sinh của Chúa, nhờ Chúa Thánh Thần canh tân, được sống lại trong sự sống mới."
+  }
+}

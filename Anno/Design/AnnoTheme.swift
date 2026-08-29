@@ -17,6 +17,7 @@ enum AnnoTheme {
     static let advent = Color(hex: 0x5C3D6E)
     static let easter = Color(hex: 0xF5F0E8)
     static let rose = Color(hex: 0xC96E7E)
+    static let roseLiturgical = Color(hex: 0xB3666E)
     static let candleGlow = Color(hex: 0xEDB84C)
 
     // MARK: - Confidence Colors
@@ -99,6 +100,12 @@ enum AnnoTheme {
     static let md: CGFloat = 16
     static let lg: CGFloat = 24
     static let xl: CGFloat = 32
+
+    /// Transparent row background for List/Form sections.
+    static let clearRow = Color.clear
+
+    /// Subtle fill opacity for colored backgrounds (badges, icon containers).
+    static let subtleFillOpacity = 0.12
 
     // MARK: - Animations
 

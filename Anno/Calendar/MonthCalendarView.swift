@@ -172,7 +172,7 @@ struct MonthCalendarView: View {
                 changeMonth(by: -1)
             } label: {
                 Image(systemName: "chevron.left")
-                    .font(.body.weight(.semibold))
+                    .font(Typography.subheadlineSemiboldSerif)
                     .foregroundStyle(AnnoTheme.goldLeaf)
                     .frame(width: 36, height: 36)
                     .background(AnnoTheme.choir)
@@ -194,7 +194,7 @@ struct MonthCalendarView: View {
                 changeMonth(by: 1)
             } label: {
                 Image(systemName: "chevron.right")
-                    .font(.body.weight(.semibold))
+                    .font(Typography.subheadlineSemiboldSerif)
                     .foregroundStyle(AnnoTheme.goldLeaf)
                     .frame(width: 36, height: 36)
                     .background(AnnoTheme.choir)
@@ -231,7 +231,7 @@ struct MonthCalendarView: View {
                 if let date = cell {
                     dayCell(for: date)
                 } else {
-                    Color.clear.frame(height: 44)
+                    AnnoTheme.clearRow.frame(height: 44)
                 }
             }
         }
@@ -268,7 +268,7 @@ struct MonthCalendarView: View {
                     }
 
                     Text("\(dayNum)")
-                        .font(.callout.monospacedDigit().weight(isSelected ? .bold : .regular))
+                        .font(Typography.captionBold.monospacedDigit())
                         .foregroundStyle(
                             isSelected
                                 ? AnnoTheme.narthex
@@ -280,7 +280,7 @@ struct MonthCalendarView: View {
 
                 HStack(spacing: 3) {
                     if dotColors.isEmpty {
-                        Circle().fill(Color.clear).frame(width: 4, height: 4)
+                        Circle().fill(AnnoTheme.clearRow).frame(width: 4, height: 4)
                     } else {
                         ForEach(Array(dotColors.enumerated()), id: \.offset) { _, color in
                             Circle().fill(color).frame(width: 4, height: 4)
@@ -378,11 +378,11 @@ struct MonthCalendarView: View {
                 ForEach(items, id: \.0) { label, value in
                     VStack(spacing: 1) {
                         Text(label)
-                            .font(.system(size: 8, weight: .semibold))
+                            .font(Typography.iconSmall)
                             .foregroundStyle(AnnoTheme.incense)
                             .fixedSize(horizontal: false, vertical: true)
                         Text(value)
-                            .font(.system(size: 10, weight: .medium))
+                            .font(Typography.iconCaption)
                             .foregroundStyle(AnnoTheme.vellum)
                             .fixedSize(horizontal: true, vertical: true)
                     }
@@ -414,7 +414,7 @@ struct MonthCalendarView: View {
 
                 if !loc.liturgicalTitle.isEmpty {
                     Text(loc.liturgicalTitle)
-                        .font(Typography.caption)
+                        .font(Typography.captionSerif)
                         .foregroundStyle(AnnoTheme.incense)
                         .fixedSize(horizontal: false, vertical: true)
                 }

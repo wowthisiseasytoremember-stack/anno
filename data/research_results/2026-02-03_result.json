@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-02-03",
+  "date": "2026-02-03",
+  "weekday": "Tuesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Memorial of Saint Blaise, Bishop and Martyr",
+    "title_vi": "Lễ Nhớ Thánh Blasiô, Giám Mục Tử Đạo"
+  },
+  "calendars": {
+    "julian": "2026-01-21",
+    "hebrew": "16 Shvat 5786",
+    "islamic_umm_al_qura": "15 Sha'ban 1447 AH",
+    "coptic": "26 Tobi 1742",
+    "ethiopian": "26 Ter 2018"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Memorial of Saint Blaise, Bishop and Martyr",
+    "title_vi": "Lễ Nhớ Thánh Blasiô, Giám Mục Tử Đạo",
+    "summary_en": "The Memorial of Saint Blaise, Bishop and Martyr calls the faithful to imitate the virtues of this holy witness. Sebastea, Armenia marks the geographical heart of their earthly pilgrimage and the foundation of their spiritual legacy.",
+    "summary_vi": "Lễ Nhớ Thánh Blasiô, Giám Mục Tử Đạo mời gọi các tín hữu noi gương các nhân đức của vị chứng nhân thánh thiện này. Sebastea, Armenia đánh dấu trung tâm địa lý của cuộc hành hương trần thế và nền tảng di sản thiêng liêng của ngài.",
+    "body_en": "Saint Blaise offers a powerful witness of Christian discipleship. Through prayer, sacrifice, and unwavering faith, this saint shows the path to holiness that is open to all the baptized. The Church commemorates this holy witness on 2026-02-03, inviting the faithful to seek their intercession and emulate their virtues. The geography of their ministry — particularly Sebastea, Armenia — remains a place of pilgrimage and prayer for those seeking to follow in their footsteps.",
+    "body_vi": "Thánh Blasiô là chứng nhân mạnh mẽ cho sự môn đệ Kitô giáo. Qua cầu nguyện, hy sinh và đức tin kiên vững, vị thánh này chỉ ra con đường nên thánh mở ra cho mọi người đã chịu phép rửa. Giáo Hội tưởng nhớ vị chứng nhân thánh thiện này vào ngày 2026-02-03, mời gọi các tín hữu tìm kiếm sự chuyển cầu của ngài và noi gương các nhân đức. Địa điểm của sứ vụ ngài — đặc biệt là Sebastea, Armenia — vẫn là nơi hành hương và cầu nguyện cho những ai muốn bước theo dấu chân ngài.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-02-03.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-02-03."
+  },
+  "place": {
+    "name": "Sebastea, Armenia",
+    "latitude": null,
+    "longitude": null,
+    "confidence": "traditional",
+    "source_url": "https://www.catholic.org/saints/"
+  },
+  "artwork": {
+    "title": "Saint Blaise, Bishop and Martyr",
+    "maker": "Sacred Art",
+    "date_label": "Historical",
+    "source_url": "https://commons.wikimedia.org/wiki/Saints",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia — Saint Index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Honoring the life and witness of Saint Blaise, Bishop and Martyr",
+    "hero_line_vi": "Tôn vinh cuộc đời và chứng tá của Thánh Blasiô, Giám Mục Tử Đạo",
+    "prayer_prompt_en": "Lord, through the intercession of Saint Blaise, Bishop and Martyr, grant us the grace to follow Christ more faithfully in our daily lives.",
+    "prayer_prompt_vi": "Lạy Chúa, nhờ sự chuyển cầu của Thánh Blasiô, Giám Mục Tử Đạo, xin ban cho chúng con ân sủng trung thành hơn với Đức Kitô trong cuộc sống hàng ngày."
+  }
+}

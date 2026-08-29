@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-03-25",
+  "date": "2026-03-25",
+  "weekday": "Wednesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "The Annunciation of the Lord",
+    "title_vi": "Đại Lễ Truyền Tin"
+  },
+  "calendars": {
+    "julian": "2026-03-12",
+    "hebrew": "7 Nisan 5786",
+    "islamic_umm_al_qura": "6 Shawwal 1447 AH",
+    "coptic": "16 Paremhat 1742",
+    "ethiopian": "16 Megabit 2018"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Annunciation of the Lord",
+    "title_vi": "Đại Lễ Truyền Tin",
+    "summary_en": "The Annunciation celebrates the moment when the Angel Gabriel announced to the Blessed Virgin Mary that she would conceive and bear the Son of God, and Mary's 'Fiat' — her 'Yes' to the divine plan. This Solemnity marks the Incarnation itself, when the eternal Word became flesh in her womb.",
+    "summary_vi": "Đại Lễ Truyền Tin mừng khoảnh khắc Thiên Thần Gabriel loan báo cho Đức Trinh Nữ Maria rằng Mẹ sẽ thụ thai và sinh Con Thiên Chúa, cùng với tiếng 'Xin Vâng' của Mẹ Maria — sự 'Vâng' của Mẹ với chương trình thần linh. Đại Lễ này đánh dấu chính biến cố Nhập Thể, khi Lời Hằng Hữu trở nên xác phàm trong cung lòng Mẹ.",
+    "body_en": "The Annunciation is the hinge of history. In the obscure town of Nazareth, a young Jewish woman became the Mother of God, and the eternal Son took flesh for our salvation. Mary's response, 'Behold the handmaid of the Lord; be it done unto me according to thy word' (Luke 1:38), is the model of every act of Christian faith.\n\nThe Fathers of the Church saw in Mary the New Eve: where Eve disobeyed in the Garden, Mary obeyed in the home, and through her obedience came the remedy for disobedience. The Liturgy of the Hours marks the Annunciation with the Angelus, prayed three times daily to commemorate the Incarnation.\n\nNine months from this date, the Church celebrates the Nativity of the Lord on December 25.",
+    "body_vi": "Lễ Truyền Tin là bản lề của lịch sử. Tại thị trấn nhỏ bé Nagiarét, một thiếu nữ Do Thái trẻ tuổi trở thành Mẹ Thiên Chúa, và Con Hằng Hữu đã mặc lấy xác phàm cho ơn cứu rỗi chúng ta. Sự đáp lại của Mẹ Maria, 'Này con là tôi tớ Chúa, xin vâng theo lời Chúa' (Lc 1,38), là mẫu mực của mọi hành động đức tin Kitô giáo.\n\nCác Giáo phụ Hội Thánh đã thấy nơi Mẹ Maria là Eva Mới: nơi Eva bất tuân trong Vườn Địa Đàng, Mẹ Maria vâng lời trong nhà, và qua sự vâng lời của Mẹ đến thuốc chữa cho sự bất tuân. Giờ Kinh Phụng Vụ đánh dấu Lễ Truyền Tin với kinh Truyền Tin, đọc ba lần mỗi ngày để tưởng nhớ biến cố Nhập Thể.\n\nChín tháng từ ngày này, Giáo hội mừng Đại Lễ Giáng Sinh vào ngày 25 tháng 12.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-03-25.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-03-25."
+  },
+  "place": {
+    "name": "Basilica of the Annunciation, Nazareth",
+    "latitude": 32.7022,
+    "longitude": 35.2985,
+    "confidence": "confirmed",
+    "source_url": "https://www.custodia.org/en/sanctuaries/nazareth"
+  },
+  "artwork": {
+    "title": "The Annunciation",
+    "maker": "Leonardo da Vinci",
+    "date_label": "c. 1472",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Annunciazione_-_Google_Art_Project.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Annunciation of the Lord",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Luke 1:26-38 — The Annunciation",
+      "url": "https://bible.usccb.org/bible/luke/1",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catechism of the Catholic Church — The Annunciation (484-486)",
+      "url": "https://www.vatican.va/archive/ccc_css/archive/catechism/p122a3p1.htm",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Be it done unto me according to your word",
+    "hero_line_vi": "Xin vâng theo lời Chúa",
+    "prayer_prompt_en": "Pour forth, we beseech you, O Lord, your grace into our hearts, that we, to whom the Incarnation of Christ your Son was made known by the message of an Angel, may by his Passion and Cross be brought to the glory of his Resurrection.",
+    "prayer_prompt_vi": "Lạy Chúa, xin đổ tràn ân sủng Chúa vào lòng chúng con, để chúng con, những người đã được biết về biến cố Nhập Thể của Chúa Kitô Con Chúa qua sứ điệp của một Thiên Thần, nhờ cuộc Thương Khó và Thánh Giá của Ngài mà được dẫn đến vinh quang của sự Phục Sinh."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "anno-2026-02-18",
+  "date": "2026-02-18",
+  "weekday": "Wednesday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Ash Wednesday — Beginning of Lent",
+    "title_vi": "Thứ Tư Lễ Tro — Khởi đầu Mùa Chay"
+  },
+  "calendars": {
+    "julian": "2026-02-05",
+    "hebrew": "1 Adar 5786",
+    "islamic_umm_al_qura": "1 Ramadan 1447 AH",
+    "coptic": "11 Meshir 1742",
+    "ethiopian": "11 Yekatit 2018"
+  },
+  "primary": {
+    "type": "ash_wednesday",
+    "title_en": "Ash Wednesday — Beginning of Lent",
+    "title_vi": "Thứ Tư Lễ Tro — Khởi đầu Mùa Chay",
+    "summary_en": "Ash Wednesday inaugurates the sacred Lenten Season, the forty-day journey toward Easter. The faithful receive ashes on their foreheads as a sign of repentance and mortality, marking the beginning of a period of prayer, fasting, and almsgiving.",
+    "summary_vi": "Thứ Tư Lễ Tro khai mở Mùa Chay thánh thiện, hành trình bốn mươi ngày hướng về Phục Sinh. Các tín hữu lãnh nhận tro trên trán như dấu hiệu sám hối và tính mỏng manh của kiếp người, đánh dấu khởi đầu thời kỳ cầu nguyện, ăn chay và bố thí.",
+    "body_en": "The ashes used on this day are made from the palm branches blessed on the previous Palm Sunday, symbolically linking the beginning of Lent to the triumphal entry into Jerusalem that led to the Passion. The liturgical formula 'Repent and believe in the Gospel' or 'Remember you are dust' accompanies the imposition of ashes.\n\nLent is a forty-day season (excluding Sundays) that mirrors the forty days Jesus spent in the desert before His public ministry. It is a time of spiritual combat against the forces of sin, a renewal of baptismal promises, and a deepening of conversion.\n\nThe three pillars of Lent — prayer, fasting, and almsgiving — invite Christians to grow in intimate union with God, master their appetites, and serve the poor with greater generosity.",
+    "body_vi": "Tro được sử dụng trong ngày này được làm từ các cành lá thánh đã được thánh hiến vào Chúa Nhật Lễ Lá trước đó, biểu tượng cho việc kết nối khởi đầu Mùa Chay với sự kiện Chúa vinh quang vào Giêrusalem dẫn đến Cuộc Khổ Nạn. Công thức phụng vụ 'Hãy ăn năn và tin vào Tin Mừng' hoặc 'Hãy nhớ rằng con là bụi tro' đi kèm với việc rắc tro.\n\nMùa Chay là mùa bốn mươi ngày (không kể các Chúa Nhật) phản ánh bốn mươi ngày Chúa Giêsu trải qua trong sa mạc trước sứ vụ công khai. Đó là thời gian chiến đấu thiêng liêng chống lại các thế lực tội lỗi, canh tân lời hứa bí tích rửa tội, và sâu sắc hóa sự hoán cải.\n\nBa trụ cột của Mùa Chay — cầu nguyện, ăn chay và bố thí — mời gọi các Kitô hữu lớn lên trong sự hiệp nhất thân mật với Thiên Chúa, làm chủ các ham muốn và phục vụ người nghèo với lòng quảng đại hơn.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-02-18.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-02-18."
+  },
+  "place": {
+    "name": "Church of the Holy Sepulchre, Jerusalem",
+    "latitude": 31.7784,
+    "longitude": 35.2296,
+    "confidence": "traditional",
+    "source_url": "https://www.custodia.org/en/sanctuaries/holy-sepulchre"
+  },
+  "artwork": {
+    "title": "Ash Wednesday",
+    "maker": "Carlo Crivelli",
+    "date_label": "c. 1470",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Carlo_Crivelli_-_Ash_Wednesday.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Ash Wednesday",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Joel 2:12-18 — Call to Repentance",
+      "url": "https://bible.usccb.org/bible/joel/2",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catechism of the Catholic Church — Lent (540)",
+      "url": "https://www.vatican.va/archive/ccc_css/archive/catechism/p122a3p1.htm",
+      "type": "vatican"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "Remember you are dust, and to dust you shall return",
+    "hero_line_vi": "Hãy nhớ rằng con là bụi tro, và sẽ trở về bụi tro",
+    "prayer_prompt_en": "Grant, O Lord, that we may begin with holy fasting the campaign of this sacred combat, so that, as we take up the battle against the spirit of evil, we may be armed with the weapons of self-restraint.",
+    "prayer_prompt_vi": "Lạy Chúa, xin cho chúng con khởi đầu cuộc chiến đấu thánh thiêng này bằng việc ăn chay thánh, để khi chúng ta chiến đấu chống lại thần dữ, chúng ta được trang bị bằng vũ khí tự chủ."
+  }
+}

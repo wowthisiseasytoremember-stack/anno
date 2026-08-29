@@ -42,14 +42,14 @@ struct SacredSiteListView: View {
                         .fixedSize(horizontal: false, vertical: true)
 
                     Text(LocalizedEntryText(entry: entry, language: language).title)
-                        .font(Typography.caption)
+                        .font(Typography.captionSerif)
                         .foregroundStyle(AnnoTheme.incense)
                         .fixedSize(horizontal: false, vertical: true)
                 }
 
                 // Coordinates
                 Text("\(place.latitude.formatted(.number.precision(.fractionLength(4)))), \(place.longitude.formatted(.number.precision(.fractionLength(4))))")
-                    .font(.caption2.monospacedDigit())
+                    .font(Typography.caption2MonospacedSemibold)
                     .foregroundStyle(AnnoTheme.incense.opacity(0.8))
 
                 // Footer: Confidence Badge & Map Link
@@ -67,7 +67,7 @@ struct SacredSiteListView: View {
                                 Text(language == .vietnamese ? "Bản đồ" : "Maps")
                                     .font(Typography.captionMedium)
                                 Image(systemName: "arrow.triangle.turn.up.right.diamond.fill")
-                                    .font(Typography.caption)
+                                    .font(Typography.captionSerif)
                             }
                             .foregroundStyle(AnnoTheme.goldLeaf)
                             .padding(.horizontal, 10)

@@ -1,7 +1,7 @@
 ---
 title: STATE
 state: active
-last_active: 2026-08-24
+last_active: 2026-08-28
 ---
 # interfaith-devotional — Project State
 

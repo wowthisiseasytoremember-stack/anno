@@ -1,0 +1,30 @@
+default_platform(:ios)
+
+# Anno beta lanes.
+# Default match behavior is READ-ONLY (safe). Writing certs requires the
+# explicit MATCH_WRITE=1 guard (see match_appstore / match_development below).
+
+lane :beta_validate do
+  match(type: "appstore", readonly: true)
+  gym(scheme: "Anno", export_method: "app-store", clean: true)
+  # Build only — NO pilot. Used by `v*-dryrun` tags.
+end
+
+lane :beta_deploy do
+  match(type: "appstore", readonly: true)
+  gym(scheme: "Anno", export_method: "app-store", clean: true)
+  pilot(
+    skip_submission: true,
+    skip_waiting_for_build_processing: true
+  )
+end
+
+lane :match_appstore do
+  UI.user_error!("Refusing to write certs. Set MATCH_WRITE=1 to opt in.") unless ENV["MATCH_WRITE"] == "1"
+  match(type: "appstore", readonly: false)
+end
+
+lane :match_development do
+  UI.user_error!("Refusing to write certs. Set MATCH_WRITE=1 to opt in.") unless ENV["MATCH_WRITE"] == "1"
+  match(type: "development", readonly: false)
+end

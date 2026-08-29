@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa",
+    "summary_vi": "Ngày thứ 8 trong Tuần Bát Nhật Giáng Sinh mừng kính Mẹ Maria là Mẹ Thiên Chúa, được Công đồng Êphêsô long trọng tuyên xưng năm 431. Đại Lễ này tôn vinh Đức Trinh Nữ Maria là Đức Theotokos — Đấng mang Thiên Chúa — đã cưu mang Con Hằng Hữu của Thiên Chúa bởi quyền năng Chúa Thánh Thần.",
+    "body_vi": "Vào ngày thứ 8 trong Tuần Bát Nhật này, Giáo hội chuyển trọng tâm từ Hài Nhi Vua đến Mẹ của Ngài, công nhận ân sủng đặc biệt đã ban cho Đức Trinh Nữ Maria. Công đồng Êphêsô (năm 431) đã định tín rằng Mẹ Maria xứng đáng được gọi là Mẹ Thiên Chúa bởi vì Con của Mẹ, Chúa Giêsu Kitô, là một Ngôi Vị thần linh duy nhất với hai bản tính, thần linh và nhân loại.\n\nTrong vai trò làm Mẹ, Mẹ Maria chuyển cầu cho tất cả các tín hữu, đưa nhân loại vào sự hiệp nhất thân mật với Con Thiên Chúa. Phụng vụ ngày hôm nay tràn ngập những lời nguyện phó thác năm mới cho sự chăm sóc của Mẹ, xin Mẹ che chở trong suốt những ngày sắp tới.\n\nLà Ngày Hòa Bình Thế Giới, được cử hành từ năm 1967, Đại Lễ này kêu gọi mọi quốc gia nhận ra rằng hòa bình thật sự bắt đầu từ tâm hồn con người hòa giải với Thiên Chúa.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-01-01."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ngày thứ 8 trong Tuần Bát Nhật — tôn vinh Mẹ Maria là Mẹ Thiên Chúa",
+    "prayer_prompt_vi": "Lạy Thiên Chúa, nhờ sự đồng trinh phong phú của Đức Maria chúc phúc mà ban cho loài người phần thưởng cứu rỗi vĩnh cửu, xin cho chúng con cảm nhận được sự chuyển cầu của Mẹ mà chúng con đang mừng lễ kính."
+  }
+}

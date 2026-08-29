@@ -1,0 +1,63 @@
+{
+  "id": "anno-2026-02-02",
+  "date": "2026-02-02",
+  "weekday": "Monday",
+  "mock_priority": "engine_b_v1",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "Feast of the Presentation of the Lord",
+    "title_vi": "Lễ Dâng Chúa Giêsu Trong Đền Thờ"
+  },
+  "calendars": {
+    "julian": "2026-01-20",
+    "hebrew": "15 Shvat 5786",
+    "islamic_umm_al_qura": "14 Sha'ban 1447 AH",
+    "coptic": "25 Tobi 1742",
+    "ethiopian": "25 Ter 2018"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Feast of the Presentation of the Lord",
+    "title_vi": "Lễ Dâng Chúa Giêsu Trong Đền Thờ",
+    "summary_en": "Forty days after Christmas, the Church celebrates the Presentation of Jesus in the Temple. Following Mosaic Law, Mary and Joseph bring the Child to Jerusalem, where the righteous elder Simeon proclaims Him 'a light for revelation to the Gentiles' — earning this feast the popular name 'Candlemas.'",
+    "summary_vi": "Bốn mươi ngày sau Giáng Sinh, Giáo hội mừng Lễ Dâng Chúa Giêsu Trong Đền Thờ. Theo Lề Luật Môsê, Mẹ Maria và Thánh Giuse đem Hài Nhi đến Giêrusalem, nơi cụ già công chính Simêon tuyên bố Ngài là 'ánh sáng để mặc khải cho các dân tộc' — khiến lễ này được gọi phổ biến là 'Lễ Nến.'",
+    "body_en": "Simeon's canticle, the Nunc Dimittis, captures the joy of one who has finally seen the long-awaited Messiah. 'Now you dismiss your servant in peace, for my eyes have seen your salvation, which you prepared in the sight of all peoples, a light for revelation to the Gentiles and glory for your people Israel' (Luke 2:30-32).\n\nThe prophetess Anna, eighty-four years old, also recognized the Child as the Redeemer and spoke of Him to all who awaited the deliverance of Jerusalem. The candles blessed on this day are carried in procession to recall Christ as the Light entering His temple.\n\nThis feast closes the Christmas season's external celebrations and invites the faithful to offer themselves as living temples of the Holy Spirit.",
+    "body_vi": "Thánh ca Simêon, Nunc Dimittis, diễn tả niềm vui của người đã cuối cùng thấy Đấng Mêxia được chờ đợi từ lâu. 'Bây giờ Chúa cho tôi tớ Chúa ra đi trong bình an, vì mắt tôi đã thấy ơn cứu độ của Chúa, mà Chúa đã chuẩn bị trước mặt muôn dân, ánh sáng để mặc khải cho các dân tộc và vinh quang của dân Israel' (Lc 2,30-32).\n\nNữ tiên tri Anna, tám mươi bốn tuổi, cũng nhận ra Hài Nhi là Đấng Cứu Chuộc và nói về Ngài cho tất cả những ai đang chờ đợi sự giải phóng của Giêrusalem. Những cây nến được thánh hiến trong ngày này được rước đi trong cuộc kiệu để nhắc nhở Đức Kitô là Ánh Sáng vào đền thờ.\n\nLễ này kết thúc các cử hành bên ngoài của Mùa Giáng Sinh và mời gọi các tín hữu dâng mình làm đền thờ sống động cho Chúa Thánh Thần.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-02-02.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-02-02."
+  },
+  "place": {
+    "name": "Church of the Presentation, Jerusalem",
+    "latitude": 31.7818,
+    "longitude": 35.2368,
+    "confidence": "confirmed",
+    "source_url": "https://www.custodia.org/en/sanctuaries/presentation"
+  },
+  "artwork": {
+    "title": "Presentation of Jesus at the Temple",
+    "maker": "Rembrandt van Rijn",
+    "date_label": "c. 1628",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn-_Presentation_of_Jesus_in_the_Temple.jpg",
+    "status": "placeholder_only"
+  },
+  "sources": [
+    {
+      "label": "USCCB — Presentation of the Lord",
+      "url": "https://bible.usccb.org/daily-bible-reading",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Luke 2:22-40 — Presentation in the Temple",
+      "url": "https://bible.usccb.org/bible/luke/2",
+      "type": "encyclopedia"
+    }
+  ],
+  "app_hooks": {
+    "hero_line_en": "The Light of the Nations enters His temple",
+    "hero_line_vi": "Ánh Sáng Muôn Dân vào đền thờ",
+    "prayer_prompt_en": "Almighty ever-living God, we humbly implore your majesty that, just as your Only Begotten Son was presented in the temple in the substance of our flesh, so too we may be presented to you with purified souls.",
+    "prayer_prompt_vi": "Lạy Thiên Chúa toàn năng hằng hữu, chúng con tha thiết cầu xin long trọng của Chúa rằng, cũng như Con Một Chúa đã được dâng trong đền thờ trong xác phàm nhân loại, chúng con cũng xứng đáng được dâng trước Chúa với tâm hồn thanh sạch."
+  }
+}

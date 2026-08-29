@@ -16,8 +16,8 @@ let package = Package(
     name: "PilgrimCore",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v26),
-        .visionOS(.v26),
+        .iOS(.v17),
+        .visionOS(.v1),
     ],
     products: [
         .library(name: "PilgrimCore", targets: ["PilgrimCore"]),
