@@ -1,10 +1,40 @@
 #!/usr/bin/env python3
 """Fire Engine B — Catholic Research Pipeline for July 17-30."""
-import json, os, subprocess, sys, time
+import json, os, subprocess, sys, time, urllib.request, urllib.error
 
 ANNO_DIR = "/home/ichabod/Projects/Anno"
 OUT_DIR = os.path.join(ANNO_DIR, "data", "research_results")
 os.makedirs(OUT_DIR, exist_ok=True)
+
+# Source validation (reused from batch_engine_b_2027_gap.py)
+_HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"}
+
+def _url_live(url: str) -> bool:
+    """Verify a citation is live. Uses GET (not HEAD). 403/401/405/429 = live; 404/DNS = dead."""
+    try:
+        req = urllib.request.Request(url, headers=_HEADERS)
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return r.status in (200, 401, 403, 405, 429)
+    except urllib.error.HTTPError as e:
+        return e.code in (401, 403, 405, 429)
+    except Exception:
+        return False
+
+
+def verify_sources_inline(en: dict) -> dict:
+    """Drop dead citation URLs; mark for manual review if <2 survive."""
+    srcs = en.get("sources", [])
+    if not srcs:
+        return en
+    kept = [s for s in srcs if _url_live(s.get("url", ""))]
+    if len(kept) < 2:
+        note = f"Only {len(kept)} live citation(s); manual verification required."
+        if "primary" in en:
+            en["primary"]["confidence_note_en"] = (en["primary"].get("confidence_note_en", "") + " " + note).strip()
+            en["primary"]["confidence_note_vi"] = (en["primary"].get("confidence_note_vi", "") + " " + note).strip()
+    en["sources"] = kept
+    return en
+
 
 # Get API key
 env_path = "/home/ichabod/.hermes/.env"
@@ -215,6 +245,9 @@ for date in dates:
     result = call_openrouter(prompt)
     
     if result:
+        # Inline source validation before writing to disk
+        result = verify_sources_inline(result)
+        
         title = result.get("liturgical", {}).get("title_en", "N/A")
         primary_type = result.get("primary", {}).get("type", "N/A")
         confidence = result.get("primary", {}).get("confidence", "N/A")

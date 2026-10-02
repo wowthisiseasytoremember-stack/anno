@@ -231,41 +231,24 @@ def _url_live(url: str) -> bool:
             return r.status in (200, 401, 403, 405, 429)
     except urllib.error.HTTPError as e:
         return e.code in (401, 403, 405, 429)
-    except Exception:
+except Exception:
         return False
 
 
-# Curated, VERIFIED-LIVE real Catholic reference authorities (checked 2026-08-27, HTTP 200).
-# Used to backfill citations when model-returned URLs are dead. These are real,
-# authoritative, and live — honest citations even if not day-specific.
-ALLOWLIST = [
-    {"label": "Vatican", "url": "https://www.vatican.va/", "type": "vatican"},
-    {"label": "New Advent (Catholic Encyclopedia)", "url": "https://www.newadvent.org/", "type": "encyclopedia"},
-    {"label": "Catholic Culture", "url": "https://www.catholicculture.org/", "type": "encyclopedia"},
-    {"label": "Catholic.com", "url": "https://www.catholic.com/", "type": "encyclopedia"},
-    {"label": "EWTN", "url": "https://www.ewtn.com/", "type": "encyclopedia"},
-]
-
-
 def verify_sources(en: dict, d_str: str) -> dict:
-    """Rule #2: DROP every dead citation URL unconditionally; backfill to >=2 with
-    verified-live real Catholic authorities when fewer than 2 survive. No hallucinated
-    deep-links are ever kept."""
+    """Rule #2: DROP every dead citation URL unconditionally; if fewer than 2 survive,
+    mark entry as needing manual verification. NO homepage URL backfill."""
     srcs = en.get("sources", [])
     if not srcs:
         return en
     # Always strip dead URLs — never leave a 404 citation behind.
     kept = [s for s in srcs if _url_live(s.get("url", ""))]
     if len(kept) < 2:
-        have = {_domain(s.get("url", "")) for s in kept}
-        for a in ALLOWLIST:
-            if len(kept) >= 2:
-                break
-            if _domain(a["url"]) in have:
-                continue
-            if _url_live(a["url"]):
-                kept.append(a)
-                have.add(_domain(a["url"]))
+        # Mark for manual review instead of backfilling homepage URLs
+        note = f"Only {len(kept)} live citation(s) found; manual source verification required before publishing."
+        if "primary" in en:
+            en["primary"]["confidence_note_en"] = (en["primary"].get("confidence_note_en", "") + " " + note).strip()
+            en["primary"]["confidence_note_vi"] = (en["primary"].get("confidence_note_vi", "") + " " + note).strip()
     en["sources"] = kept
     return en
 

@@ -122,6 +122,13 @@ def count_paragraphs(text: str) -> int:
     return len([p for p in text.split("\n\n") if p.strip()])
 
 
+def has_vietnamese_diacritics(text: str) -> bool:
+    """Check if text contains Vietnamese diacritics (àáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵđ)."""
+    vietnamese_diacritics = set("àáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵđ"
+                                 "ÀÁẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬÈÉẺẼẸÊẾỀỂỄỆÌÍỈĨỊÒÓỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÙÚỦŨỤƯỨỪỬỮỰỲÝỶỸỴĐ")
+    return any(c in vietnamese_diacritics for c in text)
+
+
 def check_url_head(url: str, timeout: int = 5) -> tuple[bool, int]:
     try:
         # Use GET with stream=True to avoid downloading body; some sites block HEAD
@@ -215,6 +222,20 @@ def validate_entry(entry: dict, strict: bool, check_sources: bool) -> tuple[int,
     for field_name, field_val in [("summary_en", summary_en), ("summary_vi", summary_vi), ("body_en", body_en), ("body_vi", body_vi)]:
         if any(p in field_val.lower() for p in placeholders):
             fail(f"primary.{field_name}: contains placeholder text")
+
+    # Vietnamese diacritics validation
+    vi_fields = {
+        "liturgical.title_vi": entry.get("liturgical", {}).get("title_vi", ""),
+        "primary.title_vi": pri.get("title_vi", ""),
+        "primary.summary_vi": pri.get("summary_vi", ""),
+        "primary.body_vi": pri.get("body_vi", ""),
+        "primary.confidence_note_vi": pri.get("confidence_note_vi", ""),
+        "app_hooks.hero_line_vi": entry.get("app_hooks", {}).get("hero_line_vi", ""),
+        "app_hooks.prayer_prompt_vi": entry.get("app_hooks", {}).get("prayer_prompt_vi", ""),
+    }
+    for field_name, field_val in vi_fields.items():
+        if field_val and not has_vietnamese_diacritics(field_val):
+            warn(f"{field_name}: no Vietnamese diacritics detected (may be untranslated)")
 
     # Confidence consistency
     rank = entry.get("liturgical", {}).get("rank", "")
