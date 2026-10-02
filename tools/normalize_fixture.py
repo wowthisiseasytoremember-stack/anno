@@ -181,8 +181,30 @@ def ingest_range(start_date: date, end_date: date) -> list:
     return entries
 
 
+def normalize_generic_entry(entry: dict, date_str: str) -> dict:
+    """Apply standard normalization to any entry (fortnight, august, engine_b)."""
+    e = json.loads(json.dumps(entry))  # deep copy
+    e["id"] = norm_id(e.get("id", ""), date_str)
+    e["mock_priority"] = e.get("mock_priority", "fortnight_mock" if "fortnight" in date_str else "august_mock")
+    e["primary"]["type"] = map_type(e["primary"].get("type"))
+    rank = (e.get("liturgical", {}).get("rank") or "").strip().lower()
+    if rank in RANK_MAP:
+        e["liturgical"]["rank"] = RANK_MAP[rank]
+    if "confidence" in e.get("primary", {}):
+        e["primary"]["confidence"] = map_confidence(e["primary"]["confidence"])
+    if isinstance(e.get("place"), dict) and "confidence" in e["place"]:
+        e["place"]["confidence"] = map_confidence(e["place"]["confidence"])
+    color = e.get("liturgical", {}).get("color", "")
+    if color and color.lower() not in COLOR_OK:
+        e["liturgical"]["color"] = color.lower()
+    if "sources" in e and isinstance(e["sources"], list):
+        e["sources"] = normalize_sources(e["sources"])
+    return e
+
+
 def main() -> None:
     import argparse
+    import sys
     ap = argparse.ArgumentParser()
     ap.add_argument("--year", type=int, default=2026, help="Year to build a fixture for (default 2026)")
     ap.add_argument("--out", type=str, default=None, help="Output path (default Anno/Resources/anno_unified_<year>.json)")
@@ -191,9 +213,10 @@ def main() -> None:
     entries = []
     if args.year == 2026:
         # Preserve the exact 2026 construction (fortnight + august mock + Sep–Dec research).
+        # BUT: normalize ALL tracks consistently.
         fort = load(FORTNIGHT)
         for e in fort["entries"]:
-            entries.append(e)
+            entries.append(normalize_generic_entry(e, e.get("date", "")))
         for day in range(17, 32):
             p_en = RESEARCH / f"2026-07-{day:02d}_result_en.json"
             p_raw = RESEARCH / f"2026-07-{day:02d}_result.json"
@@ -202,7 +225,8 @@ def main() -> None:
                 entries.append(normalize_engine_b(p))
         aug = load(AUGUST)
         assert isinstance(aug, list), "august file should be a list"
-        entries.extend(aug)
+        for e in aug:
+            entries.append(normalize_generic_entry(e, e.get("date", "")))
         entries.extend(ingest_range(date(2026, 9, 1), date(2026, 12, 31)))
     else:
         # Any other year: ingest the whole year from research_results.
@@ -214,18 +238,32 @@ def main() -> None:
         by_id.setdefault(e["id"], e)
     final = [ensure_vi(e) for e in sorted(by_id.values(), key=lambda e: e.get("date", ""))]
 
-    OUT = Path(args.out) if args.out else (ROOT / f"Anno/Resources/anno_unified_{args.year}.json")
-    out = {
-        "schema_version": "1.0",
-        "generated_on": date.today().isoformat(),
-        "total_entries": len(final),
-        "entries": final,
-    }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
+    # BLOCKING VALIDATOR: fail if required fields missing
+    required_fields = ["weekday", "calendars", "artwork", "mock_priority"]
+    missing_required = []
+    for i, e in enumerate(final):
+        for field in required_fields:
+            if field not in e:
+                missing_required.append(f"Entry {i} (id={e.get('id')}): missing required field '{field}'")
+        # Also validate nested required fields
+        if "calendars" in e:
+            cal = e["calendars"]
+            for cal_field in ["julian", "hebrew", "islamic_umm_al_qura", "coptic", "ethiopian"]:
+                if cal_field not in cal:
+                    missing_required.append(f"Entry {i} (id={e.get('id')}): calendars missing '{cal_field}'")
+        if "artwork" in e:
+            art = e["artwork"]
+            for art_field in ["title", "maker", "date_label", "source_url", "status"]:
+                if art_field not in art:
+                    missing_required.append(f"Entry {i} (id={e.get('id')}): artwork missing '{art_field}'")
 
-    # Report validation metrics
+    if missing_required:
+        print("VALIDATION FAILED - missing required fields:", file=sys.stderr)
+        for msg in missing_required:
+            print(f"  {msg}", file=sys.stderr)
+        sys.exit(1)
+
+    # Validate VI completeness
     vi_empty = 0
     vi_tot = 0
     no_src = 0
@@ -247,6 +285,25 @@ def main() -> None:
         if len(e.get("sources", [])) < 2:
             no_src += 1
         walk(e)
+
+    if vi_empty > 0:
+        print(f"VALIDATION FAILED - {vi_empty} empty *_vi fields", file=sys.stderr)
+        sys.exit(1)
+
+    if no_src > 0:
+        print(f"VALIDATION FAILED - {no_src} entries with <2 sources", file=sys.stderr)
+        sys.exit(1)
+
+    OUT = Path(args.out) if args.out else (ROOT / f"Anno/Resources/anno_unified_{args.year}.json")
+    out = {
+        "schema_version": "1.0",
+        "generated_on": date.today().isoformat(),
+        "total_entries": len(final),
+        "entries": final,
+    }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUT, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
 
     span = f"{final[0].get('date','?')} -> {final[-1].get('date','?')}" if final else "n/a"
     print(f"Master Unified Fixture ({args.year}): {len(final)} entries ({span})")
