@@ -58,7 +58,62 @@ SYSTEM_EN = (
     "Provide >=2 real, verifiable source URLs (vatican.va, usccb.org, catholic.org, newadvent.org, catholic-saints.net, or similar). "
     "Never invent URLs. Set confidence='disputed' if uncertain. Keep summary_en factual. "
     "Vietnamese fields must use correct Vietnamese Catholic liturgical vocabulary and preserve diacritics."
+    "IMPORTANT: For Sundays and Solemnities, the liturgical day theme IS the primary content — not any saint memorial. "
+    "The 'primary' object should reflect the Sunday/Solemnity, with type='liturgical_day' or 'solemnity'."
 )
+
+# Sunday and Major Feast context for 2027 (General Roman Calendar)
+# Used to ensure the LLM prioritizes the liturgical day over saint memorials
+FEAST_NOTES_2027 = {
+    # January
+    "2027-01-01": "Solemnity of Mary, Mother of God — Holy Day of Obligation. Octave Day of Christmas.",
+    "2027-01-06": "Epiphany of the Lord — Solemnity (transferred to Sunday Jan 3 in some regions).",
+    "2027-01-10": "Baptism of the Lord — Feast (Sunday after Epiphany).",
+    # February
+    "2027-02-14": "Ash Wednesday — Day of Fast and Abstinence. Beginning of Lent.",
+    "2027-02-21": "First Sunday of Lent — Liturgical anchor; Sunday theme takes precedence.",
+    "2027-02-28": "Second Sunday of Lent — Liturgical anchor.",
+    # March
+    "2027-03-07": "Third Sunday of Lent — Liturgical anchor.",
+    "2027-03-14": "Fourth Sunday of Lent (Laetare Sunday) — Liturgical anchor; rose vestments.",
+    "2027-03-19": "Solemnity of St. Joseph — Husband of the Blessed Virgin Mary.",
+    "2027-03-21": "Fifth Sunday of Lent — Liturgical anchor.",
+    "2027-03-25": "Solemnity of the Annunciation — 9 months before Christmas.",
+    "2027-03-28": "Palm Sunday of the Passion of the Lord — Holy Week begins.",
+    # April
+    "2027-04-01": "Maundy Thursday — Mass of the Lord's Supper.",
+    "2027-04-02": "Good Friday — Passion of the Lord; Day of Fast and Abstinence.",
+    "2027-04-03": "Holy Saturday — Easter Vigil.",
+    "2027-04-04": "Easter Sunday — Solemnity of Solemnities; Resurrection of the Lord.",
+    "2027-04-11": "Divine Mercy Sunday (Second Sunday of Easter) — Liturgical anchor.",
+    "2027-04-18": "Third Sunday of Easter — Liturgical anchor.",
+    "2027-04-25": "Fourth Sunday of Easter (Good Shepherd Sunday) — Liturgical anchor.",
+    "2027-04-29": "St. Catherine of Siena — Memorial (Doctor of the Church).",
+    # May
+    "2027-05-02": "Fifth Sunday of Easter — Liturgical anchor.",
+    "2027-05-09": "Sixth Sunday of Easter — Liturgical anchor.",
+    "2027-05-13": "Ascension of the Lord — Solemnity (Thursday; transferred to Sunday May 16 in some regions).",
+    "2027-05-16": "Seventh Sunday of Easter — Liturgical anchor.",
+    "2027-05-23": "Pentecost Sunday — Solemnity; Descent of the Holy Spirit.",
+    "2027-05-30": "Most Holy Trinity — Solemnity (Sunday after Pentecost).",
+    # June
+    "2027-06-06": "Most Holy Body and Blood of Christ (Corpus Christi) — Solemnity (Thursday Jun 3; transferred to Sunday Jun 6 in some regions).",
+    "2027-06-11": "Most Sacred Heart of Jesus — Solemnity (Friday after Corpus Christi octave).",
+    "2027-06-13": "Eleventh Sunday in Ordinary Time — Liturgical anchor.",
+    "2027-06-20": "Twelfth Sunday in Ordinary Time — Liturgical anchor.",
+    "2027-06-24": "Solemnity of the Nativity of St. John the Baptist — Solemnity.",
+    "2027-06-27": "Thirteenth Sunday in Ordinary Time — Liturgical anchor.",
+    "2027-06-29": "Solemnity of Sts. Peter and Paul — Solemnity.",
+    # July
+    "2027-07-03": "St. Thomas — Feast.",
+    "2027-07-04": "Fourteenth Sunday in Ordinary Time — Liturgical anchor.",
+    "2027-07-11": "Fifteenth Sunday in Ordinary Time — Liturgical anchor.",
+    "2027-07-18": "Sixteenth Sunday in Ordinary Time — Liturgical anchor.",
+    "2027-07-22": "St. Mary Magdalene — Feast (Apostle to the Apostles).",
+    "2027-07-25": "St. James the Apostle — Feast (Patron of Spain).",
+    "2027-07-26": "Sts. Joachim and Anne — Memorial (Parents of the Blessed Virgin).",
+    "2027-07-29": "Sts. Martha, Mary, and Lazarus — Memorial.",
+}
 
 
 def extract_json(text: str) -> str:
@@ -287,10 +342,14 @@ def main() -> None:
             continue
         try:
             cs = cal_strings(cur)
+            feast_note = FEAST_NOTES_2027.get(d_str, "")
+            if "Sunday" in feast_note or "Solemnity" in feast_note:
+                feast_note += "\nIMPORTANT: This is a Sunday or Solemnity — the liturgical day theme IS the primary content, not any saint memorial. The 'primary' object must reflect the Sunday/Solemnity (type='liturgical_day' or 'solemnity')."
             prompt = (
                 f"Date {d_str} ({cur.strftime('%A')}). Deterministic calendar conversions: "
                 f"julian={cs['julian']}, hebrew={cs['hebrew']}, islamic={cs['islamic_umm_al_qura']}, "
                 f"coptic={cs['coptic']}, ethiopian={cs['ethiopian']}. "
+                f"Context: {feast_note or 'Weekday of Ordinary Time'}. "
                 f"Return the bilingual JSON for this date."
             )
             en_raw = yolo([{"role": "system", "content": SYSTEM_EN},
