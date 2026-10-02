@@ -11,11 +11,11 @@ Usage:
     python calendar_engine.py --spot-check
 """
 
-from datetime import date, datetime, timedelta, timezone
-import json, math, argparse, sys
+from datetime import date, datetime, timedelta
+import json, argparse, sys
 
 # Libs
-from convertdate import julian, coptic
+from convertdate import coptic
 from pyluach import dates, hebrewcal
 from hijri_converter import convert
 from astral import LocationInfo
@@ -88,29 +88,23 @@ def compute_sundown(gregorian_date):
         gregorian_date.year, gregorian_date.month, gregorian_date.day, 12, 0, 0
     ))
     try:
-        s = sunset(anchor_location.observer, dt, direction=0)
+        s = sunset(anchor_location.observer, dt)
     except Exception:
-        # Fallback: sinusoidal approximation
-        doy = gregorian_date.timetuple().tm_yday
-        minutes = 16 * 60 + 45 + (3 * 60 + 20) * (1 + math.sin((doy - 80) * 2 * math.pi / 365)) / 2
-        hour = int(minutes // 60)
-        minute = int(minutes % 60)
-        return f"{hour:02d}:{minute:02d} PDT"
+        raise RuntimeError(f"astral sunset calculation failed for {gregorian_date}; cannot use fallback for liturgical day boundaries")
 
     # Convert to local time and format
     s_local = s.astimezone(ANCHOR_TZ)
-    return s_local.strftime("%H:%M PDT")
+    return s_local.strftime("%H:%M %Z")
 
 
 # ── Julian ─────────────────────────────────────────────────────
 
 def compute_julian_offset(year):
-    """Julian-Gregorian day offset (was 10 in 1582, grows by 1 each century-year not divisible by 400)."""
-    offset = 10
-    for y in range(1583, year + 1):
-        if y % 100 == 0 and y % 400 != 0:
-            offset += 1
-    return offset
+    """Julian-Gregorian day offset (was 10 in 1582, grows by 1 each century-year not divisible by 400).
+    Closed-form: (year//100) - (year//400) - 2 for years >= 1582."""
+    if year < 1582:
+        return 10  # Pre-Gregorian reform
+    return (year // 100) - (year // 400) - 2
 
 
 def gregorian_to_julian_dt(gregorian_date):
@@ -176,7 +170,10 @@ def gregorian_to_islamic_umm(gregorian_date, sundown_str):
 
 def gregorian_to_islamic_tabular(gregorian_date):
     """30-year arithmetic cycle, 11 leap years in each 30-year cycle."""
-    epoch = date(622, 7, 16)
+    # Handle both date and datetime input
+    if isinstance(gregorian_date, datetime):
+        gregorian_date = gregorian_date.date()
+    epoch = date(622, 7, 19)
     days_since_epoch = (gregorian_date - epoch).days
     if days_since_epoch < 0:
         return {'date': 'pre-Islamic epoch', 'year_in_cycle': 0, 'is_leap_year': False,
@@ -259,7 +256,8 @@ def gregorian_to_ethiopian(gregorian_date):
 def gregorian_to_byzantine(gregorian_date):
     julian_dt, offset = gregorian_to_julian_dt(gregorian_date)
     # Byzantine year starts Sep 1: Jan-Aug = +5508, Sep-Dec = +5509
-    byz_year = gregorian_date.year + (5508 if gregorian_date.month < 9 else 5509)
+    # Use JULIAN month, not Gregorian (offset = 13 days in 2026)
+    byz_year = gregorian_date.year + (5508 if julian_dt.month < 9 else 5509)
     return {
         'date': f"{julian_dt.day} {julian_dt.strftime('%B')} {byz_year}",
         'epoch_name': 'Anno Mundi',
@@ -271,14 +269,15 @@ def gregorian_to_byzantine(gregorian_date):
 def gregorian_to_armenian(gregorian_date):
     # Armenian era began July 11, 552 AD (Julian).
     # Armenian year = Gregorian - 551 for Jan 1 - Jul 10 dates; Jul 11 - Dec = Gregorian - 550
-    if gregorian_date.month < 7 or (gregorian_date.month == 7 and gregorian_date.day <= 10):
+    # Boundary is July 11 JULIAN = July 24 Gregorian (2026). Use JULIAN date for boundary.
+    julian_dt, _ = gregorian_to_julian_dt(gregorian_date)
+    if julian_dt.month < 7 or (julian_dt.month == 7 and julian_dt.day <= 10):
         armenian_year = gregorian_date.year - 551
     else:
         armenian_year = gregorian_date.year - 550
-    julian_dt, _ = gregorian_to_julian_dt(gregorian_date)
     return {
         'date': f"{julian_dt.day} {julian_dt.strftime('%B')} {armenian_year}",
-        'epoch_year': 550,
+        'epoch_year': 551,
         'certainty_flag': CERTAINTY_FLAGS['armenian'],
     }
 
@@ -286,10 +285,11 @@ def gregorian_to_armenian(gregorian_date):
 def gregorian_to_syriac(gregorian_date):
     julian_dt, offset = gregorian_to_julian_dt(gregorian_date)
     # Seleucid year: +311 (Oct-Dec) or +312 (Jan-Sep) because year starts in October
-    if gregorian_date.month >= 10:
-        seleucid_year = gregorian_date.year + 311
+    # Use JULIAN month/year, not Gregorian (Oct 1 Julian = Oct 14 Gregorian in 2026)
+    if julian_dt.month >= 10:
+        seleucid_year = julian_dt.year + 311
     else:
-        seleucid_year = gregorian_date.year + 312
+        seleucid_year = julian_dt.year + 312
     # Syriac months are offset: Julian month 1 (Jan) = Syriac Kanun II (month 4)
     # Because Syriac year starts in October (Tishrin I = month 1)
     # Shift: syriac_month_num = ((julian_month + 2) % 12) + 1
@@ -357,7 +357,7 @@ def convert_date(gregorian_date):
 
     # Compute JDN (Julian Day Number)
     # Python: date.toordinal() gives days since 0001-01-01; JDN = ordinal + 1721424.5
-    jdn = gregorian_date.toordinal() + 1721424
+    jdn = gregorian_date.toordinal() + 1721425
 
     result = {
         'gregorian_date': gregorian_date.strftime('%Y-%m-%d'),
