@@ -43,7 +43,62 @@ jobs:
             -derivedDataPath "$RUNNER_TEMP/AnnoDerivedData" \
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGNING_ALLOWED=NO
+            CODE_SIGNING_ALLOWED=NO \
+            SWIFT_TREAT_WARNINGS_AS_ERRORS=YES
+
+      - name: Capture v1 visual smoke screenshots
+        env:
+          APP_PATH: ${{ runner.temp }}/AnnoDerivedData/Build/Products/Debug-iphonesimulator/Anno.app
+          SCREENSHOT_DIR: ${{ runner.temp }}/anno-visual-smoke
+        run: |
+          set -euo pipefail
+          mkdir -p "$SCREENSHOT_DIR"
+
+          DEVICE_ID="$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          data = json.load(sys.stdin)
+          for runtime, devices in data["devices"].items():
+              if "iOS" not in runtime:
+                  continue
+              for device in devices:
+                  if device.get("isAvailable") and device["name"].startswith("iPhone"):
+                      print(device["udid"])
+                      raise SystemExit
+          raise SystemExit("No available iPhone simulator found")
+          ')"
+
+          echo "Using simulator $DEVICE_ID"
+          xcrun simctl boot "$DEVICE_ID" 2>/dev/null || true
+          xcrun simctl bootstatus "$DEVICE_ID" -b
+
+          test -d "$APP_PATH"
+          xcrun simctl uninstall "$DEVICE_ID" org.anno.Anno 2>/dev/null || true
+          xcrun simctl install "$DEVICE_ID" "$APP_PATH"
+
+          xcrun simctl launch "$DEVICE_ID" org.anno.Anno
+          sleep 3
+          xcrun simctl io "$DEVICE_ID" screenshot "$SCREENSHOT_DIR/welcome.png"
+          xcrun simctl terminate "$DEVICE_ID" org.anno.Anno
+
+          for TAB in today calendar map; do
+            SIMCTL_CHILD_ANNO_SKIP_WELCOME=1 \
+            SIMCTL_CHILD_ANNO_SCREENSHOT_TAB="$TAB" \
+              xcrun simctl launch "$DEVICE_ID" org.anno.Anno
+            sleep 3
+            xcrun simctl io "$DEVICE_ID" screenshot "$SCREENSHOT_DIR/$TAB.png"
+            xcrun simctl terminate "$DEVICE_ID" org.anno.Anno
+          done
+
+          ls -lh "$SCREENSHOT_DIR"
+
+      - name: Upload visual smoke screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: anno-visual-smoke
+          path: ${{ runner.temp }}/anno-visual-smoke/*.png
+          if-no-files-found: warn
+          retention-days: 14
 
   engine-a-tests:
     name: Engine A calendar tests
