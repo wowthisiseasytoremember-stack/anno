@@ -6,6 +6,12 @@ public enum MapExplorationMode: String, CaseIterable, Identifiable {
     case sanctuaries = "Sanctuaries"
     case feastSites = "Feast Sites"
 
+    // v1 intentionally exposes pilgrimage routes + feast sites only.
+    // The legacy 72-sanctuary catalog is deferred with the reliquary work.
+    public static var allCases: [MapExplorationMode] {
+        [.pilgrimages, .feastSites]
+    }
+
     public var id: String { rawValue }
 
     public func title(for language: LanguageMode) -> String {
