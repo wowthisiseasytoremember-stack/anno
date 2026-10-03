@@ -2,7 +2,7 @@
   "schema_version": "anno.physical_markers.v1",
   "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
   "purpose": "Field-test QR/NFC identities. GPS resolves five geographic chapters; markers resolve seven exact spiritual stations.",
-  "payload_scheme": "anno://pilgrimage/{route_id}/{station_id}",
+  "payload_scheme": "anno://p/lv/{marker_index}",
   "visual_treatment": {
     "primary": "Marian blue + gilt",
     "instruction_en": "Open in Anno",
@@ -15,84 +15,91 @@
       "chapter_id": "christ_cathedral_la_vang",
       "label_en": "Our Lady of La Vang",
       "label_vi": "Đức Mẹ La Vang",
-      "payload": "anno://pilgrimage/socal_vietnamese_catholic_pilgrimage_la_vang/our_lady_la_vang_shrine_christ_cathedral",
+      "payload": "anno://p/lv/1",
       "trigger_types": [
         "qr",
         "nfc"
       ],
-      "camera_mode": "shrine_interpretation"
+      "camera_mode": "shrine_interpretation",
+      "marker_index": 1
     },
     {
       "station_id": "martyrs_wall_117_vietnamese_christian",
       "chapter_id": "christ_cathedral_la_vang",
       "label_en": "117 Vietnamese Martyrs",
       "label_vi": "117 Thánh Tử Đạo Việt Nam",
-      "payload": "anno://pilgrimage/socal_vietnamese_catholic_pilgrimage_la_vang/martyrs_wall_117_vietnamese_christian",
+      "payload": "anno://p/lv/2",
       "trigger_types": [
         "qr",
         "nfc"
       ],
-      "camera_mode": "martyr_text_recognition"
+      "camera_mode": "martyr_text_recognition",
+      "marker_index": 2
     },
     {
       "station_id": "rosary_gardens_christ_cathedral_pilgrimage",
       "chapter_id": "christ_cathedral_la_vang",
       "label_en": "Marian Gardens",
       "label_vi": "Vườn Đức Mẹ",
-      "payload": "anno://pilgrimage/socal_vietnamese_catholic_pilgrimage_la_vang/rosary_gardens_christ_cathedral_pilgrimage",
+      "payload": "anno://p/lv/3",
       "trigger_types": [
         "qr",
         "nfc"
       ],
-      "camera_mode": "reflection"
+      "camera_mode": "reflection",
+      "marker_index": 3
     },
     {
       "station_id": "st_columban_church_garden_grove",
       "chapter_id": "st_columban",
       "label_en": "Saint Columban",
       "label_vi": "Giáo Xứ Thánh Columban",
-      "payload": "anno://pilgrimage/socal_vietnamese_catholic_pilgrimage_la_vang/st_columban_church_garden_grove",
+      "payload": "anno://p/lv/4",
       "trigger_types": [
         "qr",
         "nfc"
       ],
-      "camera_mode": "parish_context"
+      "camera_mode": "parish_context",
+      "marker_index": 4
     },
     {
       "station_id": "vietnamese_catholic_center_santa_ana",
       "chapter_id": "vietnamese_catholic_center",
       "label_en": "Vietnamese Catholic Center",
       "label_vi": "Trung Tâm Công Giáo Việt Nam",
-      "payload": "anno://pilgrimage/socal_vietnamese_catholic_pilgrimage_la_vang/vietnamese_catholic_center_santa_ana",
+      "payload": "anno://p/lv/5",
       "trigger_types": [
         "qr",
         "nfc"
       ],
-      "camera_mode": "institution_context"
+      "camera_mode": "institution_context",
+      "marker_index": 5
     },
     {
       "station_id": "our_lady_of_la_vang_church_santa_ana",
       "chapter_id": "our_lady_of_la_vang_parish",
       "label_en": "Our Lady of La Vang Catholic Church",
       "label_vi": "Giáo Xứ Đức Mẹ La Vang",
-      "payload": "anno://pilgrimage/socal_vietnamese_catholic_pilgrimage_la_vang/our_lady_of_la_vang_church_santa_ana",
+      "payload": "anno://p/lv/6",
       "trigger_types": [
         "qr",
         "nfc"
       ],
-      "camera_mode": "marian_parish_context"
+      "camera_mode": "marian_parish_context",
+      "marker_index": 6
     },
     {
       "station_id": "st_barbara_parish_westminster",
       "chapter_id": "st_barbara",
       "label_en": "Saint Barbara",
       "label_vi": "Giáo Xứ Thánh Barbara",
-      "payload": "anno://pilgrimage/socal_vietnamese_catholic_pilgrimage_la_vang/st_barbara_parish_westminster",
+      "payload": "anno://p/lv/7",
       "trigger_types": [
         "qr",
         "nfc"
       ],
-      "camera_mode": "family_parish_context"
+      "camera_mode": "family_parish_context",
+      "marker_index": 7
     }
   ],
   "beacon_contexts": [
