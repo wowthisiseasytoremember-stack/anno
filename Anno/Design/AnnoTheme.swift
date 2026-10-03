@@ -133,7 +133,7 @@ extension Color {
 // MARK: - AnnoCard View Modifier
 
 struct AnnoCard: ViewModifier {
-    var cornerRadius: CGFloat = 8
+    var cornerRadius: CGFloat = 12
 
     func body(content: Content) -> some View {
         content
@@ -148,7 +148,7 @@ struct AnnoCard: ViewModifier {
 }
 
 extension View {
-    func annoCard(cornerRadius: CGFloat = 8) -> some View {
+    func annoCard(cornerRadius: CGFloat = 12) -> some View {
         modifier(AnnoCard(cornerRadius: cornerRadius))
     }
 }
