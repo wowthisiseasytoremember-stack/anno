@@ -8,6 +8,32 @@ on:
   workflow_dispatch:
 
 jobs:
+  field-marker-kit:
+    name: SoCal QR/NFC field-marker kit
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install QR dependency
+        run: pip install qrcode
+
+      - name: Generate printable field markers
+        run: python3 tools/generate_socal_field_markers.py
+
+      - name: Upload field-marker kit
+        uses: actions/upload-artifact@v4
+        with:
+          name: anno-socal-la-vang-field-markers
+          path: build/socal-la-vang-field-markers/
+          if-no-files-found: error
+          retention-days: 30
+
   native-build:
     name: Native iOS build
     # macOS runners are intentionally opt-in to avoid burning paid GitHub minutes.
@@ -291,4 +317,38 @@ jobs:
           assert coords["st_barbara_parish_westminster"] == (33.737313, -117.937589)
 
           print("SoCal exemplar alignment OK: 7 required spiritual stations")
+          PY
+
+      - name: Verify SoCal physical marker identities
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          root = Path("Anno/Resources")
+          route = json.loads(
+              (root / "PilgrimageRoutes" / "socal_vietnamese_catholic_pilgrimage_la_vang.json").read_text()
+          )
+          markers = json.loads(
+              (root / "socal_la_vang_physical_markers_v1.json").read_text()
+          )
+
+          live_ids = {wp["waypoint_id"] for wp in route["waypoints"]}
+          marker_ids = {m["station_id"] for m in markers["markers"]}
+
+          assert len(markers["markers"]) == 7
+          assert marker_ids == live_ids
+          assert {m["marker_index"] for m in markers["markers"]} == set(range(1, 8))
+
+          for marker in markers["markers"]:
+              payload = marker["payload"]
+              parsed = urlparse(payload)
+              assert parsed.scheme == "anno"
+              assert parsed.netloc == "p"
+              assert parsed.path == f"/lv/{marker['marker_index']}"
+              assert "qr" in marker["trigger_types"]
+              assert "nfc" in marker["trigger_types"]
+
+          print("SoCal physical markers OK: 7 exact station identities")
           PY
