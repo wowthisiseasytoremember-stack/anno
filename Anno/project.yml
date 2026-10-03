@@ -25,19 +25,30 @@ targets:
         # into the narrow fixture-driven v1 app.
         excludes:
           - AppRouter.swift
+          - Components/GlassCard.swift
+          - Components/ShareableImage.swift
           - Components/ShareCard.swift
           - Components/VerseActionBar.swift
           - Models/Artwork.swift
           - Models/AudioNarrationTrack.swift
+          - Models/Devotional.swift
           - Models/Bookmark.swift
           - Models/FieldNote.swift
           - Models/Journey.swift
           - Models/SacredPlace.swift
           - Models/Visit.swift
+          - Services/AnnoDevotionalLoader.swift
           - Services/AudioDevotionalPlayer.swift
           - Services/BookmarkActions.swift
+          - Services/DailyDevotionalLoader.swift
+          - Services/DevotionalProvider.swift
           - Services/ContentImportService.swift
+          - Services/NotificationService.swift
           - Services/SacredSpatialAudioEngine.swift
+          - Services/SearchHistory.swift
+          - Saved/SavedView.swift
+          - Paywall/ArchivePaywallView.swift
+          - Paywall/ProductCopy.swift
           - ViewModels/StoreViewModel.swift
     resources:
       - Resources/*
@@ -54,8 +65,6 @@ targets:
           - UIInterfaceOrientationLandscapeRight
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
-        NSLocationWhenInUseUsageDescription: >
-          Your location shows pilgrimage waypoints and feast sites on the map while the app is open.
         ITSAppUsesNonExemptEncryption: false
     settings:
       base:
