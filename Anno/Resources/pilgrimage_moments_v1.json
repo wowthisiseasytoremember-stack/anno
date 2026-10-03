@@ -71,6 +71,34 @@
       "level": "climax",
       "label_en": "Before the Tilma",
       "label_vi": "Trước Áo Choàng Tilma"
+    },
+    {
+      "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
+      "waypoint_id": "st_columban_church_garden_grove",
+      "level": "highlight",
+      "label_en": "Faith Becomes Community",
+      "label_vi": "Đức Tin Trở Thành Cộng Đoàn"
+    },
+    {
+      "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
+      "waypoint_id": "vietnamese_catholic_center_santa_ana",
+      "level": "highlight",
+      "label_en": "Built for the Next Generation",
+      "label_vi": "Xây Dựng Cho Thế Hệ Kế Tiếp"
+    },
+    {
+      "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
+      "waypoint_id": "our_lady_of_la_vang_church_santa_ana",
+      "level": "climax",
+      "label_en": "La Vang Lives Here Too",
+      "label_vi": "La Vang Vẫn Sống Nơi Đây"
+    },
+    {
+      "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
+      "waypoint_id": "st_barbara_parish_westminster",
+      "level": "highlight",
+      "label_en": "Faith Handed Forward",
+      "label_vi": "Đức Tin Được Trao Lại"
     }
   ]
 }
