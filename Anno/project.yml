@@ -19,6 +19,23 @@ targets:
     platform: iOS
     sources:
       - path: .
+        # Keep unfinished/deferred architectures in-repo without compiling them
+        # into the narrow fixture-driven v1 app.
+        excludes:
+          - AppRouter.swift
+          - Components/VerseActionBar.swift
+          - Models/Artwork.swift
+          - Models/AudioNarrationTrack.swift
+          - Models/Bookmark.swift
+          - Models/FieldNote.swift
+          - Models/Journey.swift
+          - Models/SacredPlace.swift
+          - Models/Visit.swift
+          - Services/AudioDevotionalPlayer.swift
+          - Services/BookmarkActions.swift
+          - Services/ContentImportService.swift
+          - Services/SacredSpatialAudioEngine.swift
+          - ViewModels/StoreViewModel.swift
     resources:
       - Resources/*
     info:
