@@ -1,3 +1,4 @@
+import CoreNFC
 import Foundation
 
 /// Stable physical-marker identities for the Orange County field-test route.
@@ -26,10 +27,14 @@ enum AnnoPhysicalPilgrimageMarker {
         deepLinkURL(stationId: stationId)?.absoluteString
     }
 
-    /// Use the same URI payload for an NFC NDEF tag later. The Core NFC write
-    /// session remains staged because it requires target entitlements/device
-    /// validation.
-    static func nfcURIPayload(stationId: String) -> String? {
-        deepLinkURL(stationId: stationId)?.absoluteString
+    /// Produces the actual NDEF URI record used by a writable NFC tag.
+    ///
+    /// The Core NFC write session remains staged because it requires target
+    /// entitlements and physical-device validation.
+    static func nfcPayload(stationId: String) -> NFCNDEFPayload? {
+        guard let url = deepLinkURL(stationId: stationId) else {
+            return nil
+        }
+        return NFCNDEFPayload.wellKnownTypeURIPayload(url: url)
     }
 }
