@@ -51,7 +51,7 @@ enum SpotlightIndexer {
         attributes.title = route.titleEn
         attributes.displayName = route.titleEn
         attributes.contentDescription = route.overviewEn
-        attributes.keywords = [
+        var keywords = [
             "Anno",
             "Catholic",
             "pilgrimage",
@@ -59,6 +59,21 @@ enum SpotlightIndexer {
             route.region,
             route.spiritualThemeEn
         ]
+
+        if route.routeId == "socal_vietnamese_catholic_pilgrimage_la_vang" {
+            keywords.append(contentsOf: [
+                "Our Lady of La Vang",
+                "La Vang",
+                "Vietnamese Catholic",
+                "Vietnamese Catholic Orange County",
+                "Orange County",
+                "Garden Grove",
+                "Santa Ana",
+                "Little Saigon"
+            ])
+        }
+
+        attributes.keywords = keywords
 
         return CSSearchableItem(
             uniqueIdentifier: routePrefix + route.routeId,
