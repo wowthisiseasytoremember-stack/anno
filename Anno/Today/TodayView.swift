@@ -5,12 +5,56 @@ struct TodayView: View {
     @Binding var language: LanguageMode
     let onShowSources: () -> Void
 
-    @State private var isBookmarked: Bool = false
-    @State private var bookmarkScale: CGFloat = 1.0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var isShowingArtCanvas: Bool = false
+    @State private var appeared = false
 
     private var localizedText: LocalizedEntryText {
         LocalizedEntryText(entry: entry, language: language)
+    }
+
+    private var sacredIntensity: SacredIntensity {
+        SacredIntensity.from(rank: entry.liturgical.rank)
+    }
+
+    private var liturgicalTint: Color {
+        AnnoTheme.liturgicalColor(named: entry.liturgical.color)
+    }
+
+    private var sacredDayBanner: SacredMomentBanner? {
+        let rank = entry.liturgical.rank.lowercased()
+
+        if sacredIntensity == .solemnity {
+            return SacredMomentBanner(
+                title: language == .vietnamese ? "Lễ Trọng" : "Solemnity",
+                subtitle: localizedText.title,
+                symbol: AnnoSymbol.sacred,
+                intensity: .solemnity,
+                tint: liturgicalTint
+            )
+        }
+
+        if rank == "feast" {
+            return SacredMomentBanner(
+                title: language == .vietnamese ? "Ngày Lễ" : "Feast Day",
+                subtitle: localizedText.title,
+                symbol: "sparkles",
+                intensity: .feast,
+                tint: liturgicalTint
+            )
+        }
+
+        if rank == "sunday" {
+            return SacredMomentBanner(
+                title: language == .vietnamese ? "Chúa Nhật" : "Sunday",
+                subtitle: localizedText.title,
+                symbol: AnnoSymbol.today,
+                intensity: .feast,
+                tint: liturgicalTint
+            )
+        }
+
+        return nil
     }
 
     private var calendarPillsData: [(label: String, value: String)] {
@@ -25,29 +69,51 @@ struct TodayView: View {
 
     var body: some View {
         ScrollView {
-            VStack(spacing: 28) {
+            VStack(spacing: AnnoTheme.lg) {
                 dateBlock
+                    .annoReveal(isVisible: appeared, delay: 0.00)
+
+                if let banner = sacredDayBanner {
+                    banner
+                        .annoReveal(isVisible: appeared, delay: 0.03)
+                }
+
                 headerSection
-                artworkCard
+                    .annoReveal(isVisible: appeared, delay: 0.04)
+                artworkHero
+                    .annoReveal(
+                        isVisible: appeared,
+                        distance: sacredIntensity.revealDistance,
+                        delay: 0.08
+                    )
                 quickActionsBar
+                    .annoReveal(isVisible: appeared, delay: 0.12)
                 summaryCard
+                    .annoReveal(isVisible: appeared, delay: 0.16)
 
                 if let place = entry.place {
                     sacredPlaceCard(place: place)
+                        .annoReveal(isVisible: appeared, delay: 0.20)
                 }
 
                 if let connectedRoute = SacredGeographyLoader.shared.routes.first(where: { $0.isLiturgicallyConnected(to: entry) }) {
                     liturgicalPilgrimageCard(route: connectedRoute)
+                        .annoReveal(isVisible: appeared, delay: 0.24)
                 }
 
                 prayerPromptCard
+                    .annoReveal(isVisible: appeared, delay: 0.28)
                 sourceConfidenceCard
+                    .annoReveal(isVisible: appeared, delay: 0.32)
             }
             .padding(.horizontal, 20)
             .padding(.top, 16)
             .padding(.bottom, 48)
         }
-        .liturgicalAtmosphere(named: entry.liturgical.color)
+        .ceremonialLiturgicalAtmosphere(
+            named: entry.liturgical.color,
+            rank: entry.liturgical.rank
+        )
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 languagePicker
@@ -59,6 +125,16 @@ struct TodayView: View {
                 language: $language,
                 onDismiss: { isShowingArtCanvas = false }
             )
+        }
+        .onAppear {
+            appeared = true
+        }
+        .onChange(of: entry.id) {
+            guard !reduceMotion else { return }
+            appeared = false
+            withAnimation(AnnoMotion.reveal) {
+                appeared = true
+            }
         }
     }
 
@@ -75,6 +151,7 @@ struct TodayView: View {
         .pickerStyle(.segmented)
         .frame(width: 84)
         .tint(AnnoTheme.goldLeaf)
+        .sensoryFeedback(.selection, trigger: language)
     }
 
     // MARK: - 2. Date Block
@@ -108,16 +185,8 @@ struct TodayView: View {
         }
 
     private func calendarPill(label: String, value: String) -> some View {
-            Text("\(label): \(value)")
-                .font(Typography.caption2Medium)
-                .foregroundStyle(AnnoTheme.incense)
-                .padding(.horizontal, 10)
-                .padding(.vertical, 5)
-                .background {
-                    Capsule()
-                        .strokeBorder(AnnoTheme.ash, lineWidth: 1)
-                }
-        }
+        AnnoMetadataPill(text: "\(label): \(value)")
+    }
 
     // MARK: - 3. Saint / Event Header
 
@@ -169,6 +238,30 @@ struct TodayView: View {
 
     // MARK: - 4. Hero Artwork Card
 
+    private var artworkHero: some View {
+        ZStack {
+            if sacredIntensity > .ordinary {
+                SolemnityBloom(
+                    tint: liturgicalTint,
+                    active: sacredIntensity == .solemnity
+                )
+                .frame(height: sacredIntensity == .solemnity ? 320 : 270)
+            }
+
+            VStack(spacing: AnnoTheme.sm) {
+                if sacredIntensity > .ordinary {
+                    SacredDivider(
+                        tint: liturgicalTint,
+                        intensity: sacredIntensity
+                    )
+                    .padding(.horizontal, sacredIntensity == .solemnity ? 24 : 44)
+                }
+
+                artworkCard
+            }
+        }
+    }
+
     private var artworkCard: some View {
             Button(action: {
                 Haptics.light()
@@ -187,7 +280,7 @@ struct TodayView: View {
                             case .failure:
                                 ZStack {
                                     AnnoTheme.choir
-                                    Image(systemName: "photo.on.rectangle.angled")
+                                    Image(systemName: AnnoSymbol.artworkUnavailable)
                                         .font(.largeTitle)
                                         .foregroundStyle(AnnoTheme.incense.opacity(0.4))
                                 }
@@ -195,13 +288,13 @@ struct TodayView: View {
                                 ShimmerPlaceholder()
                             }
                         }
-                        .frame(height: 220)
-                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                        .frame(height: 240)
+                        .clipShape(RoundedRectangle(cornerRadius: AnnoTheme.radiusHero, style: .continuous))
                         .shadow(color: .black.opacity(0.4), radius: 20, y: 10)
 
                         // Zoom indicator badge
                         HStack(spacing: 4) {
-                            Image(systemName: "arrow.up.left.and.arrow.down.right")
+                            Image(systemName: AnnoSymbol.artworkExpand)
                                 .font(Typography.iconCaption)
                             Text(language == .vietnamese ? "Phóng to 4K" : "Zoom 4K")
                                 .font(Typography.iconCaption)
@@ -248,80 +341,66 @@ struct TodayView: View {
     // MARK: - 5. Quick-Actions Bar
 
     private var quickActionsBar: some View {
+        ViewThatFits(in: .horizontal) {
             HStack(spacing: 12) {
-                Button(action: {
-                    Haptics.light()
-                    onShowSources()
-                }) {
-                    HStack(spacing: 6) {
-                        Image(systemName: "books.vertical.fill")
-                        Text(language == .vietnamese ? "Nguồn (\(entry.sources.count))" : "Sources (\(entry.sources.count))")
-                    }
-                    .font(Typography.captionMedium)
-                    .foregroundStyle(AnnoTheme.vellum)
-                    .padding(.horizontal, 14)
-                    .padding(.vertical, 8)
-                    .background {
-                        Capsule()
-                            .fill(AnnoTheme.choir)
-                            .strokeBorder(AnnoTheme.ash, lineWidth: 1)
-                    }
-                }
-                .buttonStyle(.plain)
+                sourcesButton
 
                 Spacer()
 
-                ConfidenceBadge(
-                    label: localizedText.confidenceLabel,
-                    confidence: entry.primary.confidence
-                )
-                .accessibilityLabel(localizedText.confidenceLabel)
+                confidenceBadge
+            }
 
-                Button(action: {
-                    Haptics.selection()
-                    toggleBookmark()
-                }) {
-                    Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
-                        .font(Typography.iconBody)
-                        .foregroundStyle(isBookmarked ? AnnoTheme.goldLeaf : AnnoTheme.incense)
-                        .padding(10)
-                        .background {
-                            Circle()
-                                .fill(AnnoTheme.choir)
-                                .strokeBorder(AnnoTheme.ash, lineWidth: 1)
-                        }
-                        .scaleEffect(bookmarkScale)
-                }
-                .buttonStyle(.plain)
-                .accessibilityLabel(
-                    isBookmarked
-                        ? (language == .vietnamese ? "Bỏ lưu trữ" : "Remove bookmark")
-                        : (language == .vietnamese ? "Lưu trữ" : "Bookmark")
-                )
+            VStack(alignment: .leading, spacing: 10) {
+                sourcesButton
+                confidenceBadge
             }
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
 
-    private func toggleBookmark() {
-            withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
-                isBookmarked.toggle()
-                bookmarkScale = 1.3
+    private var sourcesButton: some View {
+        Button(action: {
+            Haptics.light()
+            onShowSources()
+        }) {
+            HStack(spacing: 6) {
+                Image(systemName: AnnoSymbol.sources)
+                Text(
+                    language == .vietnamese
+                        ? "Nguồn (\(entry.sources.count))"
+                        : "Sources (\(entry.sources.count))"
+                )
             }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
-                    bookmarkScale = 1.0
-                }
+            .font(Typography.captionMedium)
+            .foregroundStyle(AnnoTheme.vellum)
+            .padding(.horizontal, 14)
+            .padding(.vertical, 8)
+            .background {
+                Capsule()
+                    .fill(AnnoTheme.choir)
+                    .strokeBorder(AnnoTheme.ash, lineWidth: 1)
             }
         }
+        .buttonStyle(.plain)
+        .annoTapTarget()
+    }
 
+    private var confidenceBadge: some View {
+        ConfidenceBadge(
+            label: localizedText.confidenceLabel,
+            confidence: entry.primary.confidence
+        )
+        .accessibilityLabel(localizedText.confidenceLabel)
+    }
     // MARK: - 6. Summary Text
 
     private var summaryCard: some View {
             Text(localizedText.summary)
                 .font(Typography.bodySerif)
                 .lineSpacing(5)
-                .foregroundStyle(AnnoTheme.vellum)
+                .foregroundStyle(AnnoTheme.textPrimary)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .annoCard()
+                .annoSurface(.base)
         }
 
     // MARK: - 7. Sacred Place Section
@@ -369,11 +448,21 @@ struct TodayView: View {
                     }
                 }
             }
-            .annoCard()
+            .annoSurface(.base)
         }
 
     private func liturgicalPilgrimageCard(route: PilgrimageRoute) -> some View {
             VStack(alignment: .leading, spacing: 12) {
+                SacredMomentBanner(
+                    title: language == .vietnamese
+                        ? "Gắn Liền Với Hôm Nay"
+                        : "Connected to Today",
+                    subtitle: route.title(for: language),
+                    symbol: AnnoSymbol.route,
+                    intensity: sacredIntensity == .solemnity ? .solemnity : .feast,
+                    tint: liturgicalTint
+                )
+
                 HStack(spacing: 8) {
                     Image(systemName: "sparkles")
                         .foregroundStyle(AnnoTheme.goldLeaf)
@@ -412,7 +501,7 @@ struct TodayView: View {
                             Text(wp.name(for: language))
                                 .font(Typography.caption2)
                                 .foregroundStyle(AnnoTheme.vellum)
-                                .lineLimit(1)
+                                .lineLimit(2)
                         }
                         .padding(.horizontal, 8)
                         .padding(.vertical, 4)
@@ -429,7 +518,7 @@ struct TodayView: View {
                 if let firstWp = route.waypoints.first, let mapsUrl = mapsURL(for: SacredPlace(name: firstWp.nameEn, latitude: firstWp.latitude, longitude: firstWp.longitude, confidence: .confirmed, sourceUrl: "")) {
                     Link(destination: mapsUrl) {
                         HStack(spacing: 6) {
-                            Image(systemName: "map.fill")
+                            Image(systemName: AnnoSymbol.route)
                             Text(language == .vietnamese ? "Xem Lộ Trình Trên Bản Đồ" : "Explore Route on Map")
                         }
                         .font(Typography.captionSemibold)
@@ -443,13 +532,13 @@ struct TodayView: View {
                                 endPoint: .bottomTrailing
                             )
                         )
-                        .clipShape(RoundedRectangle(cornerRadius: 8))
+                        .clipShape(RoundedRectangle(cornerRadius: AnnoTheme.radiusCompact, style: .continuous))
                         .shadow(color: AnnoTheme.goldLeaf.opacity(0.3), radius: 6, y: 2)
                     }
                     .buttonStyle(.plain)
                 }
             }
-            .annoCard()
+            .annoSurface(.devotional)
         }
 
     private func mapsURL(for place: SacredPlace) -> URL? {
@@ -477,7 +566,7 @@ struct TodayView: View {
     private var prayerPromptCard: some View {
             VStack(alignment: .leading, spacing: 12) {
                 HStack(spacing: 8) {
-                    Image(systemName: "hands.sparkles")
+                    Image(systemName: AnnoSymbol.prayer)
                         .foregroundStyle(AnnoTheme.goldLeaf)
                     Text(language == .vietnamese ? "Lời nguyện" : "Prayer prompt")
                         .font(Typography.headlineSerif)
@@ -490,7 +579,7 @@ struct TodayView: View {
                     .foregroundStyle(AnnoTheme.vellum)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .annoCard()
+            .annoSurface(.devotional)
         }
 
     // MARK: - 9. Source Confidence Card
@@ -517,7 +606,7 @@ struct TodayView: View {
                 .buttonStyle(.plain)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .annoCard()
+            .annoSurface(.research)
         }
 }
 
@@ -565,6 +654,7 @@ private enum TodayDateFormatter {
 
 // Enhanced shimmer placeholder – warmer gold-tinged animation that echoes the ecclesial palette.
 private struct ShimmerPlaceholder: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var phase: CGFloat = -1.0
 
     var body: some View {
@@ -597,6 +687,10 @@ private struct ShimmerPlaceholder: View {
                 .clipped()
         }
         .onAppear {
+            guard !reduceMotion else {
+                phase = 0
+                return
+            }
             withAnimation(.linear(duration: 1.8).repeatForever(autoreverses: false)) {
                 phase = 1.0
             }

@@ -4,15 +4,11 @@ struct SettingsView: View {
     @Binding var language: LanguageMode
     @Environment(\.dismiss) private var dismiss
 
-    @State private var notificationsEnabled = true
-    @State private var homeTradition: HomeTradition = .roman
-
     private var sectionHeaderColor: Color { AnnoTheme.goldLeaf }
 
     var body: some View {
         NavigationStack {
             List {
-                // MARK: - Language
                 Section {
                     Picker(
                         language == .vietnamese ? "Ngôn ngữ" : "Language",
@@ -24,87 +20,35 @@ struct SettingsView: View {
                     .foregroundStyle(AnnoTheme.vellum)
                     .listRowBackground(AnnoTheme.choir)
                 } header: {
-                    Text(language == .vietnamese ? "NGÔN NGỮ" : "LANGUAGE")
-                        .foregroundStyle(sectionHeaderColor)
-                        .font(Typography.captionSemiboldSerif)
-                }
-
-                // MARK: - Tradition
-                Section {
-                    Picker(
-                        language == .vietnamese ? "Truyền thống chính" : "Home tradition",
-                        selection: $homeTradition
-                    ) {
-                        ForEach(HomeTradition.allCases) { tradition in
-                            Text(tradition.displayName(language: language))
-                                .tag(tradition)
-                        }
-                    }
-                    .foregroundStyle(AnnoTheme.vellum)
-                    .listRowBackground(AnnoTheme.choir)
-                } header: {
-                    Text(language == .vietnamese ? "TRUYỀN THỐNG" : "TRADITION")
-                        .foregroundStyle(sectionHeaderColor)
-                        .font(Typography.captionSemiboldSerif)
+                    sectionHeader(language == .vietnamese ? "NGÔN NGỮ" : "LANGUAGE")
                 } footer: {
                     Text(language == .vietnamese
-                         ? "Chọn truyền thống để ưu tiên nội dung phụng vụ và thánh nhân."
-                         : "Choose a tradition to prioritize liturgical content and saints.")
+                         ? "Anno v1 ưu tiên tiếng Anh; hỗ trợ tiếng Việt bắt đầu từ các lễ trọng và nội dung đã được biên soạn."
+                         : "Anno v1 is English-first; Vietnamese support begins with major feasts and content that has been prepared.")
                         .foregroundStyle(AnnoTheme.incense)
                         .font(Typography.captionSerif)
                 }
 
-                // MARK: - Notifications
                 Section {
-                    Toggle(isOn: $notificationsEnabled) {
-                        Label {
-                            Text(language == .vietnamese ? "Nhắc nhở hằng ngày" : "Daily reminder")
-                                .foregroundStyle(AnnoTheme.vellum)
-                        } icon: {
-                            Image(systemName: "bell.badge")
-                                .foregroundStyle(AnnoTheme.goldLeaf)
-                        }
-                    }
-                    .tint(AnnoTheme.goldLeaf)
-                    .listRowBackground(AnnoTheme.choir)
-                } header: {
-                    Text(language == .vietnamese ? "THÔNG BÁO" : "NOTIFICATIONS")
-                        .foregroundStyle(sectionHeaderColor)
-                        .font(Typography.captionSemiboldSerif)
-                }
-
-                // MARK: - About
-                Section {
-                    aboutRow(
+                    infoRow(
+                        icon: "calendar",
+                        title: language == .vietnamese ? "Nội dung" : "Content",
+                        detail: language == .vietnamese ? "Phụng vụ Công giáo hằng ngày" : "Daily Catholic devotional"
+                    )
+                    infoRow(
+                        icon: "map",
+                        title: language == .vietnamese ? "Hành hương" : "Pilgrimage",
+                        detail: language == .vietnamese ? "5 tuyến đường chủ lực" : "5 flagship routes"
+                    )
+                    infoRow(
                         icon: "scroll",
-                        title: language == .vietnamese ? "Giới thiệu Anno" : "About Anno",
-                        detail: language == .vietnamese ? "Phiên bản 1.0" : "Version 1.0"
-                    )
-
-                    aboutRow(
-                        icon: "envelope",
-                        title: language == .vietnamese ? "Liên hệ" : "Contact",
-                        detail: "hello@anno.app"
-                    )
-
-                    aboutRow(
-                        icon: "doc.text",
-                        title: language == .vietnamese ? "Chính sách bảo mật" : "Privacy Policy",
-                        detail: nil
-                    )
-
-                    aboutRow(
-                        icon: "doc.plaintext",
-                        title: language == .vietnamese ? "Điều khoản sử dụng" : "Terms of Use",
-                        detail: nil
+                        title: language == .vietnamese ? "Phiên bản" : "Version",
+                        detail: "1.0"
                     )
                 } header: {
-                    Text(language == .vietnamese ? "THÔNG TIN" : "ABOUT")
-                        .foregroundStyle(sectionHeaderColor)
-                        .font(Typography.captionSemiboldSerif)
+                    sectionHeader(language == .vietnamese ? "ANNO V1" : "ANNO V1")
                 }
 
-                // MARK: - Footer
                 Section {
                     VStack(spacing: 8) {
                         Image(systemName: "cross")
@@ -119,7 +63,7 @@ struct SettingsView: View {
                              ? "Mỗi ngày kể từ Nhập Thể đều đã được đánh số."
                              : "Every day since the Incarnation has been numbered.")
                             .font(Typography.captionSerif)
-                            .foregroundStyle(AnnoTheme.incense.opacity(0.6))
+                            .foregroundStyle(AnnoTheme.incense.opacity(0.7))
                             .multilineTextAlignment(.center)
                     }
                     .frame(maxWidth: .infinity)
@@ -144,58 +88,36 @@ struct SettingsView: View {
                             .foregroundStyle(AnnoTheme.incense)
                             .font(Typography.title3ItalicSerif)
                     }
+                    .accessibilityLabel(language == .vietnamese ? "Đóng" : "Close")
                 }
             }
         }
     }
 
-    private func aboutRow(icon: String, title: String, detail: String?) -> some View {
-        HStack {
-            Label {
-                Text(title)
-                    .foregroundStyle(AnnoTheme.vellum)
-            } icon: {
-                Image(systemName: icon)
-                    .foregroundStyle(AnnoTheme.goldLeaf)
-                    .frame(width: 24)
-            }
+    private func sectionHeader(_ title: String) -> some View {
+        Text(title)
+            .foregroundStyle(sectionHeaderColor)
+            .font(Typography.captionSemiboldSerif)
+    }
 
-            Spacer()
+    private func infoRow(icon: String, title: String, detail: String) -> some View {
+        HStack(spacing: 12) {
+            Image(systemName: icon)
+                .foregroundStyle(AnnoTheme.goldLeaf)
+                .frame(width: 24)
+                .accessibilityHidden(true)
 
-            if let detail {
-                Text(detail)
-                    .font(Typography.captionSerif)
-                    .foregroundStyle(AnnoTheme.incense)
-            } else {
-                Image(systemName: "chevron.right")
-                    .font(Typography.captionBold)
-                    .foregroundStyle(AnnoTheme.incense)
-            }
+            Text(title)
+                .foregroundStyle(AnnoTheme.vellum)
+
+            Spacer(minLength: 12)
+
+            Text(detail)
+                .font(Typography.captionSerif)
+                .foregroundStyle(AnnoTheme.incense)
+                .multilineTextAlignment(.trailing)
         }
         .listRowBackground(AnnoTheme.choir)
-    }
-}
-
-// MARK: - Home Tradition
-
-enum HomeTradition: String, CaseIterable, Identifiable {
-    case roman = "roman"
-    case byzantine = "byzantine"
-    case coptic = "coptic"
-    case syriac = "syriac"
-
-    var id: String { rawValue }
-
-    func displayName(language: LanguageMode) -> String {
-        switch self {
-        case .roman:
-            return language == .vietnamese ? "Công giáo La Mã" : "Roman Catholic"
-        case .byzantine:
-            return language == .vietnamese ? "Đông Phương Byzantine" : "Byzantine"
-        case .coptic:
-            return language == .vietnamese ? "Cốp-tích" : "Coptic"
-        case .syriac:
-            return language == .vietnamese ? "Syriac" : "Syriac"
-        }
+        .accessibilityElement(children: .combine)
     }
 }

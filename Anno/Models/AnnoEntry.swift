@@ -1,12 +1,12 @@
 import Foundation
 
-struct AnnoFixture: Codable {
+struct AnnoFixture: Codable, Sendable {
     let schemaVersion: String
     let generatedOn: String
     let entries: [AnnoEntry]
 }
 
-struct WeekFixture: Codable {
+struct WeekFixture: Codable, Sendable {
     let schemaVersion: String
     let generatedOn: String
     let description: String
@@ -14,8 +14,8 @@ struct WeekFixture: Codable {
     let entryIds: [String]
 }
 
-struct AnnoEntry: Codable, Identifiable, Hashable {
-    var id: String
+public struct AnnoEntry: Codable, Identifiable, Hashable, Sendable {
+    public var id: String
     var date: String
     var weekday: String
     var mockPriority: String
@@ -54,14 +54,14 @@ struct AnnoEntry: Codable, Identifiable, Hashable {
     }()
 }
 
-struct LiturgicalInfo: Codable, Hashable {
+struct LiturgicalInfo: Codable, Hashable, Sendable {
     let rank: String
     let color: String
     let titleEn: String
     let titleVi: String
 }
 
-struct CalendarConversions: Codable, Hashable {
+struct CalendarConversions: Codable, Hashable, Sendable {
     let julian: String
     let hebrew: String
     let islamicUmmAlQura: String
@@ -69,7 +69,7 @@ struct CalendarConversions: Codable, Hashable {
     let ethiopian: String
 }
 
-struct PrimaryContent: Codable, Hashable {
+struct PrimaryContent: Codable, Hashable, Sendable {
     var type: String
     var titleEn: String
     var titleVi: String
@@ -95,7 +95,7 @@ struct PrimaryContent: Codable, Hashable {
     }
 }
 
-struct SacredPlace: Codable, Hashable {
+struct SacredPlace: Codable, Hashable, Sendable {
     let name: String
     let latitude: Double
     let longitude: Double
@@ -103,7 +103,7 @@ struct SacredPlace: Codable, Hashable {
     let sourceUrl: String
 }
 
-struct ArtworkCandidate: Codable, Hashable {
+struct ArtworkCandidate: Codable, Hashable, Sendable {
     let title: String
     let maker: String
     let dateLabel: String
@@ -111,21 +111,21 @@ struct ArtworkCandidate: Codable, Hashable {
     let status: String
 }
 
-struct SourceRef: Codable, Identifiable, Hashable {
+struct SourceRef: Codable, Identifiable, Hashable, Sendable {
     var id: String { url }
     let label: String
     let url: String
     let type: String
 }
 
-struct AppHooks: Codable, Hashable {
+struct AppHooks: Codable, Hashable, Sendable {
     let heroLineEn: String
     let heroLineVi: String
     let prayerPromptEn: String
     let prayerPromptVi: String
 }
 
-enum ConfidenceLevel: String, Codable, Hashable {
+public enum ConfidenceLevel: String, Codable, Hashable, Sendable {
     case confirmed
     case traditional
     case disputed

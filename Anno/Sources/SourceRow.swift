@@ -5,15 +5,8 @@ struct SourceRow: View {
 
     // MARK: - Source Type Mapping
 
-    /// SF Symbol name for the given source type string.
     private var sourceIcon: String {
-        switch source.type.lowercased() {
-        case "liturgical":      return "book.closed"
-        case "historical":      return "clock"
-        case "church_biography": return "globe"
-        case "academic":        return "doc.text"
-        default:                return "text.book.closed"
-        }
+        AnnoSymbol.sourceType(source.type)
     }
 
     /// Accent color for the source type badge.
@@ -67,7 +60,7 @@ struct SourceRow: View {
                 if let url = URL(string: source.url) {
                     Link(destination: url) {
                         HStack(spacing: AnnoTheme.xs) {
-                            Image(systemName: "safari")
+                            Image(systemName: AnnoSymbol.externalLink)
                                 .font(Typography.captionSemibold)
                             Text("Open Source")
                                 .font(Typography.captionSemibold)

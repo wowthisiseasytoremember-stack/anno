@@ -82,7 +82,7 @@ struct TactileDateWheel: View {
         .onAppear {
             generateDateList()
         }
-        .onChange(of: selectedDate) { newDate in
+        .onChange(of: selectedDate) { _, newDate in
             triggerHapticFeedback(for: newDate)
         }
     }
@@ -172,7 +172,7 @@ struct TactileDateWheel: View {
             .onAppear {
                 proxy.scrollTo(dateIdentifier(for: selectedDate), anchor: .center)
             }
-            .onChange(of: selectedDate) { newDate in
+            .onChange(of: selectedDate) { _, newDate in
                 withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
                     proxy.scrollTo(dateIdentifier(for: newDate), anchor: .center)
                 }
@@ -431,7 +431,6 @@ struct TactileDateWheel: View {
         // Fallback calendar math calculation for dates outside bundle
         let comps = calendar.dateComponents([.year, .month, .day], from: date)
         let day = comps.day ?? 1
-        let month = comps.month ?? 1
         let year = comps.year ?? 2026
 
         // Julian is ~13 days behind Gregorian in 20th-21st centuries

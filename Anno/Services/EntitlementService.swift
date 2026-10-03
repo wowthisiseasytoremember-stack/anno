@@ -115,9 +115,9 @@ public final class EntitlementService: ObservableObject {
     public func startTransactionListener() {
         transactionListenerTask?.cancel()
         transactionListenerTask = Task.detached { [weak self] in
-            for await result in Transaction.updates {
+            for await result in StoreKit.Transaction.updates {
                 do {
-                    let transaction = try self?.checkVerified(result)
+                    let transaction = try await self?.checkVerified(result)
                     if let transaction = transaction {
                         await self?.updateCustomerProductStatus()
                         await transaction.finish()
@@ -143,7 +143,7 @@ public final class EntitlementService: ObservableObject {
 
     // MARK: - Purchase
     @discardableResult
-    public func purchase(_ product: Product) async throws -> Transaction? {
+    public func purchase(_ product: Product) async throws -> StoreKit.Transaction? {
         if isMockMode {
             applyMockPurchase(productID: product.id)
             return nil
@@ -220,7 +220,7 @@ public final class EntitlementService: ObservableObject {
         var activeProductIDs: Set<String> = []
         var resolvedTier: EntitlementTier = .free
 
-        for await result in Transaction.currentEntitlements {
+        for await result in StoreKit.Transaction.currentEntitlements {
             do {
                 let transaction = try checkVerified(result)
                 activeProductIDs.insert(transaction.productID)

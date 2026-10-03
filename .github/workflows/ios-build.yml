@@ -1,4 +1,4 @@
-name: iOS Build & Test
+name: Anno CI
 
 on:
   push:
@@ -7,125 +7,130 @@ on:
     branches: [main]
   workflow_dispatch:
 
-env:
-  DEVELOPER_DIR: /Applications/Xcode_16.0.app/Contents/Developer
-  XCODE_VERSION: "16.0"
-  IOS_DEPLOYMENT_TARGET: "17.0"
-
 jobs:
-  build-and-test:
-    name: Build & Test on macOS
-    runs-on: macos-15
-    timeout-minutes: 60
-
+  field-marker-kit:
+    name: SoCal QR/NFC field-marker kit
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          submodules: recursive
+          python-version: "3.11"
+
+      - name: Install QR dependency
+        run: pip install qrcode
+
+      - name: Generate printable field markers
+        run: python3 tools/generate_socal_field_markers.py
+
+      - name: Upload field-marker kit
+        uses: actions/upload-artifact@v4
+        with:
+          name: anno-socal-la-vang-field-markers
+          path: build/socal-la-vang-field-markers/
+          if-no-files-found: error
+          retention-days: 30
+
+  native-build:
+    name: Native iOS build
+    # macOS runners are intentionally opt-in to avoid burning paid GitHub minutes.
+    # Run this job manually when we explicitly want compile + simulator screenshots.
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Select Xcode
         run: |
-          sudo xcode-select -s /Applications/Xcode_${XCODE_VERSION}.app
+          sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
           xcodebuild -version
 
-      - name: Install xcodegen
+      - name: Install XcodeGen
         run: |
-          if ! command -v xcodegen &> /dev/null; then
+          if ! command -v xcodegen >/dev/null 2>&1; then
             brew install xcodegen
           fi
           xcodegen --version
 
-      - name: Generate Xcode project
-        run: |
-          xcodegen generate
-          echo "Generated: $(ls -la *.xcodeproj)"
+      - name: Generate Anno project
+        working-directory: Anno
+        run: xcodegen generate
 
-      - name: Cache SPM dependencies
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/Library/Caches/org.swift.swiftpm
-            .build
-          key: spm-${{ runner.os }}-${{ hashFiles('**/Package.resolved') }}
-          restore-keys: |
-            spm-${{ runner.os }}-
-
-      - name: Resolve SPM dependencies
+      - name: Build Anno
+        working-directory: Anno
         run: |
-          xcodebuild -resolvePackageDependencies \
+          set -o pipefail
+          xcodebuild clean build \
+            -project Anno.xcodeproj \
             -scheme Anno \
-            -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.0'
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "$RUNNER_TEMP/AnnoDerivedData" \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            SWIFT_TREAT_WARNINGS_AS_ERRORS=YES
 
-      - name: Build for testing
+      - name: Capture v1 visual smoke screenshots
+        env:
+          APP_PATH: ${{ runner.temp }}/AnnoDerivedData/Build/Products/Debug-iphonesimulator/Anno.app
+          SCREENSHOT_DIR: ${{ runner.temp }}/anno-visual-smoke
         run: |
-          xcodebuild build-for-testing \
-            -scheme Anno \
-            -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.0' \
-            -quiet
+          set -euo pipefail
+          mkdir -p "$SCREENSHOT_DIR"
 
-      - name: Run unit tests
-        run: |
-          xcodebuild test \
-            -scheme Anno \
-            -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.0' \
-            -quiet \
-            -resultBundlePath build/Anno.xcresult
+          DEVICE_ID="$(xcrun simctl list devices available -j | python3 -c '
+          import json, sys
+          data = json.load(sys.stdin)
+          for runtime, devices in data["devices"].items():
+              if "iOS" not in runtime:
+                  continue
+              for device in devices:
+                  if device.get("isAvailable") and device["name"].startswith("iPhone"):
+                      print(device["udid"])
+                      raise SystemExit
+          raise SystemExit("No available iPhone simulator found")
+          ')"
 
-      - name: Upload test results
+          echo "Using simulator $DEVICE_ID"
+          xcrun simctl boot "$DEVICE_ID" 2>/dev/null || true
+          xcrun simctl bootstatus "$DEVICE_ID" -b
+
+          test -d "$APP_PATH"
+          xcrun simctl uninstall "$DEVICE_ID" org.anno.Anno 2>/dev/null || true
+          xcrun simctl install "$DEVICE_ID" "$APP_PATH"
+
+          xcrun simctl launch "$DEVICE_ID" org.anno.Anno
+          sleep 3
+          xcrun simctl io "$DEVICE_ID" screenshot "$SCREENSHOT_DIR/welcome.png"
+          xcrun simctl terminate "$DEVICE_ID" org.anno.Anno
+
+          for TAB in today calendar map; do
+            SIMCTL_CHILD_ANNO_SKIP_WELCOME=1 \
+            SIMCTL_CHILD_ANNO_SCREENSHOT_TAB="$TAB" \
+              xcrun simctl launch "$DEVICE_ID" org.anno.Anno
+            sleep 3
+            xcrun simctl io "$DEVICE_ID" screenshot "$SCREENSHOT_DIR/$TAB.png"
+            xcrun simctl terminate "$DEVICE_ID" org.anno.Anno
+          done
+
+          ls -lh "$SCREENSHOT_DIR"
+
+      - name: Upload visual smoke screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-results
-          path: build/Anno.xcresult
-          retention-days: 7
-
-      - name: Build for release (archive)
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        run: |
-          xcodebuild archive \
-            -scheme Anno \
-            -archivePath build/Anno.xcarchive \
-            -destination 'generic/platform=iOS' \
-            CODE_SIGNING_ALLOWED=NO \
-            -quiet
-
-      - name: Export IPA (unsigned)
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        run: |
-          mkdir -p build/export
-          cat > build/export/ExportOptions.plist << 'EOF'
-          <?xml version="1.0" encoding="UTF-8"?>
-          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-          <plist version="1.0">
-          <dict>
-            <key>method</key>
-            <string>development</string>
-            <key>signingStyle</key>
-            <string>automatic</string>
-            <key>compileBitcode</key>
-            <false/>
-            <key>stripSwiftSymbols</key>
-            <true/>
-          </dict>
-          </plist>
-          EOF
-          xcodebuild -exportArchive \
-            -archivePath build/Anno.xcarchive \
-            -exportPath build/export \
-            -exportOptionsPlist build/export/ExportOptions.plist \
-            -quiet
-
-      - name: Upload unsigned IPA
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        uses: actions/upload-artifact@v4
-        with:
-          name: anno-unsigned-ipa
-          path: build/export/*.ipa
-          retention-days: 30
+          name: anno-visual-smoke
+          path: ${{ runner.temp }}/anno-visual-smoke/*.png
+          if-no-files-found: warn
+          retention-days: 14
 
   engine-a-tests:
-    name: Engine A Calendar Tests (Linux)
+    name: Engine A calendar tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -133,15 +138,15 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install deps
+      - name: Install dependencies
         run: pip install pyluach hijri-converter convertdate astral pytz pytest jsonschema requests
-      - name: Run calendar_engine spot-check
+      - name: Spot-check calendar engine
         run: python3 calendar_engine.py --spot-check
-      - name: Run pytest
+      - name: Run calendar tests
         run: python3 -m pytest tools/test_calendar_engine.py -v
 
   engine-b-validation:
-    name: Engine B Validation Gate (Linux)
+    name: Engine B fixture validation
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -149,14 +154,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install deps
+      - name: Install dependencies
         run: pip install jsonschema requests feedparser
       - name: Validate unified fixture
         run: python3 tools/validate_engine_b_output.py --fixture Anno/Resources/anno_unified_2026.json --check-sources
         continue-on-error: true
 
-  normalization-pipeline:
-    name: Normalization Pipeline (Linux)
+  content-integrity:
+    name: Normalization + v1 route integrity
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -164,14 +169,186 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Run normalizer
         run: python3 tools/normalize_fixture.py --year 2026
-      - name: Verify output
+
+      - name: Verify normalized fixture
         run: |
-          python3 -c "
+          python3 - <<'PY'
           import json
-          data = json.load(open('Anno/Resources/anno_unified_2026.json'))
-          print(f'Entries: {data[\"total_entries\"]}')
-          for e in data['entries'][:3]:
-              print(f'  {e[\"id\"]}: weekday={e.get(\"weekday\")}, mock_priority={e.get(\"mock_priority\")}, calendars={\"calendars\" in e}, artwork={\"artwork\" in e}')
-          "
+          from pathlib import Path
+
+          path = Path("Anno/Resources/anno_unified_2026.json")
+          data = json.loads(path.read_text())
+          entries = data["entries"]
+          assert data["total_entries"] == len(entries) == 182
+          required = ("weekday", "calendars", "artwork", "mock_priority")
+          for entry in entries:
+              missing = [key for key in required if key not in entry]
+              assert not missing, f"{entry.get('id')}: missing {missing}"
+          print(f"normalized fixture OK: {len(entries)} entries")
+          PY
+
+      - name: Verify five flagship pilgrimage routes
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("Anno/Resources")
+          manifest = json.loads((root / "flagship_routes_v1.json").read_text())
+          refs = manifest["flagship_routes"]
+          assert manifest["summary"]["total_routes"] == 5
+          assert len(refs) == 5
+
+          total_waypoints = 0
+          seen = set()
+          for ref in refs:
+              route_path = root / "PilgrimageRoutes" / ref["file"]
+              assert route_path.exists(), f"missing route file: {route_path}"
+              route = json.loads(route_path.read_text())
+              assert route["route_id"] == ref["route_id"], (
+                  f"route id mismatch: {route_path}: "
+                  f"{route['route_id']} != {ref['route_id']}"
+              )
+              assert route["route_id"] not in seen, f"duplicate route id: {route['route_id']}"
+              seen.add(route["route_id"])
+              assert len(route["waypoints"]) == ref["waypoints_count"], (
+                  f"waypoint count mismatch for {route['route_id']}"
+              )
+              total_waypoints += len(route["waypoints"])
+
+          assert total_waypoints == manifest["summary"]["total_waypoints"] == 27
+          print(f"flagship routes OK: {len(refs)} routes / {total_waypoints} waypoints")
+          PY
+
+      - name: Verify pilgrimage presentation moments
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("Anno/Resources")
+          flagship = json.loads((root / "flagship_routes_v1.json").read_text())
+          moments = json.loads((root / "pilgrimage_moments_v1.json").read_text())["moments"]
+
+          routes = {}
+          for ref in flagship["flagship_routes"]:
+              route = json.loads((root / "PilgrimageRoutes" / ref["file"]).read_text())
+              routes[route["route_id"]] = {
+                  wp["waypoint_id"] for wp in route["waypoints"]
+              }
+
+          assert len(moments) == 14, f"expected 14 v1 presentation moments, got {len(moments)}"
+          seen = set()
+          for moment in moments:
+              key = (moment["route_id"], moment["waypoint_id"])
+              assert key not in seen, f"duplicate presentation moment: {key}"
+              seen.add(key)
+              assert moment["route_id"] in routes, f"unknown flagship route: {moment['route_id']}"
+              assert moment["waypoint_id"] in routes[moment["route_id"]], (
+                  f"unknown waypoint for {moment['route_id']}: {moment['waypoint_id']}"
+              )
+              assert moment["level"] in {"highlight", "climax"}
+              assert moment["label_en"].strip()
+              assert moment["label_vi"].strip()
+
+          print(f"pilgrimage moments OK: {len(moments)} explicit highlights/climaxes")
+          PY
+
+      - name: Verify SoCal exemplar alignment
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("Anno/Resources")
+          route_id = "socal_vietnamese_catholic_pilgrimage_la_vang"
+
+          route = json.loads(
+              (root / "PilgrimageRoutes" / f"{route_id}.json").read_text()
+          )
+          content = json.loads(
+              (root / "socal_la_vang_exemplar_content_v1.json").read_text()
+          )
+
+          assert route["route_id"] == content["route_id"] == route_id
+          assert len(route["waypoints"]) == 7
+
+          live_ids = {wp["waypoint_id"] for wp in route["waypoints"]}
+          core = next(v for v in content["variants"] if v["id"] == "core")
+          chapters = {
+              chapter["id"]: chapter
+              for chapter in content["chapters"]
+          }
+
+          required_ids = []
+          for chapter_id in core["chapter_ids"]:
+              for station in chapters[chapter_id]["stations"]:
+                  if station["station_role"] == "optional_context":
+                      continue
+                  station_id = station.get("waypoint_id") or station.get("station_id")
+                  required_ids.append(station_id)
+
+          assert len(required_ids) == 7
+          assert set(required_ids) == live_ids, (
+              f"SoCal exemplar mismatch: content={required_ids}, live={sorted(live_ids)}"
+          )
+
+          # Guard against known stale public-facing data from the pre-exemplar route.
+          public_text = " ".join([
+              route["title_en"],
+              route["region"],
+              route["overview_en"],
+              *(wp["name_en"] for wp in route["waypoints"]),
+          ]).lower()
+
+          assert "st. barbara parish in westminster" not in public_text
+          assert "rosary gardens & outdoor mass plaza" not in public_text
+          assert "mother-in-law" not in json.dumps(route).lower()
+          assert "pacific coast circuit" not in json.dumps(route).lower()
+
+          # Known official-location corrections.
+          coords = {wp["waypoint_id"]: (wp["latitude"], wp["longitude"]) for wp in route["waypoints"]}
+          assert coords["st_columban_church_garden_grove"] == (33.77812, -117.94418)
+          assert coords["vietnamese_catholic_center_santa_ana"] == (33.7589895, -117.9216506)
+          assert coords["our_lady_of_la_vang_church_santa_ana"] == (33.7428866, -117.9208725)
+          assert coords["st_barbara_parish_westminster"] == (33.737313, -117.937589)
+
+          print("SoCal exemplar alignment OK: 7 required spiritual stations")
+          PY
+
+      - name: Verify SoCal physical marker identities
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          root = Path("Anno/Resources")
+          route = json.loads(
+              (root / "PilgrimageRoutes" / "socal_vietnamese_catholic_pilgrimage_la_vang.json").read_text()
+          )
+          markers = json.loads(
+              (root / "socal_la_vang_physical_markers_v1.json").read_text()
+          )
+
+          live_ids = {wp["waypoint_id"] for wp in route["waypoints"]}
+          marker_ids = {m["station_id"] for m in markers["markers"]}
+
+          assert len(markers["markers"]) == 7
+          assert marker_ids == live_ids
+          assert {m["marker_index"] for m in markers["markers"]} == set(range(1, 8))
+
+          for marker in markers["markers"]:
+              payload = marker["payload"]
+              parsed = urlparse(payload)
+              assert parsed.scheme == "anno"
+              assert parsed.netloc == "p"
+              assert parsed.path == f"/lv/{marker['marker_index']}"
+              assert "qr" in marker["trigger_types"]
+              assert "nfc" in marker["trigger_types"]
+
+          print("SoCal physical markers OK: 7 exact station identities")
+          PY

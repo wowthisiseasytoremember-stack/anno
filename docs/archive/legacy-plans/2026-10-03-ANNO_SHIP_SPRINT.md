@@ -1,3 +1,7 @@
+> ARCHIVED 2026-10-03
+>
+> This document is preserved for historical context only. It predates the current Anno v1 scope and must not be used as implementation authority. Start with `START_HERE.md`, `README.md`, and `ROADMAP.md`.
+
 # Anno — Ship Sprint Plan (Current → App Store)
 
 **Generated:** 2026-08-28 00:00 UTC

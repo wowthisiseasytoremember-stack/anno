@@ -6,6 +6,12 @@ public enum MapExplorationMode: String, CaseIterable, Identifiable {
     case sanctuaries = "Sanctuaries"
     case feastSites = "Feast Sites"
 
+    // v1 intentionally exposes pilgrimage routes + feast sites only.
+    // The legacy 72-sanctuary catalog is deferred with the reliquary work.
+    public static var allCases: [MapExplorationMode] {
+        [.pilgrimages, .feastSites]
+    }
+
     public var id: String { rawValue }
 
     public func title(for language: LanguageMode) -> String {
@@ -21,12 +27,29 @@ public enum MapExplorationMode: String, CaseIterable, Identifiable {
 }
 
 public struct SacredSiteMapView: View {
+    private enum PilgrimageSegmentState {
+        case future
+        case next
+        case completed
+    }
+
+    private struct PilgrimageMapSegment: Identifiable {
+        let id: String
+        let coordinates: [CLLocationCoordinate2D]
+        let state: PilgrimageSegmentState
+    }
+
     public let entries: [AnnoEntry]
     public let currentEntry: AnnoEntry?
     public let language: LanguageMode
 
     @StateObject private var geoLoader = SacredGeographyLoader.shared
-    @StateObject private var audioPlayer = AudioDevotionalPlayer.shared
+    @StateObject private var exemplarContent = SoCalExemplarContentLoader.shared
+    @StateObject private var progressStore = PilgrimageProgressStore.shared
+    @StateObject private var sessionStore = PilgrimageSessionStore.shared
+    @StateObject private var locationService = PilgrimageLocationService.shared
+    @AppStorage("anno.socalExemplarHeroSeen") private var hasSeenSoCalExemplarHero = false
+    @State private var lastHapticArrivalChapterId: String?
 
     @State private var mode: MapExplorationMode = .pilgrimages
     @State private var selectedCalling: SpiritualCalling = .all
@@ -59,9 +82,135 @@ public struct SacredSiteMapView: View {
         return geoLoader.routes.filter { $0.isLiturgicallyConnected(to: today) }
     }
 
+    private var selectedRouteIsSoCalExemplar: Bool {
+        guard let route = geoLoader.selectedRoute else { return false }
+        return route.routeId == exemplarContent.content?.routeId
+    }
+
+    private func isSoCalExemplar(_ route: PilgrimageRoute) -> Bool {
+        route.routeId == exemplarContent.content?.routeId
+    }
+
+    private func exemplarStation(
+        route: PilgrimageRoute,
+        waypoint: PilgrimageWaypoint
+    ) -> SoCalExemplarContent.Station? {
+        guard isSoCalExemplar(route) else { return nil }
+        return exemplarContent.content?.station(id: waypoint.waypointId)
+    }
+
+    private func exemplarChapter(
+        route: PilgrimageRoute,
+        waypoint: PilgrimageWaypoint
+    ) -> SoCalExemplarContent.Chapter? {
+        guard isSoCalExemplar(route) else { return nil }
+        return exemplarContent.content?.chapter(containing: waypoint.waypointId)
+    }
+
+    private func exemplarRequiredStationIds(
+        route: PilgrimageRoute
+    ) -> [String] {
+        guard isSoCalExemplar(route) else {
+            return route.waypoints.map(\.waypointId)
+        }
+        return exemplarContent.content?.coreRequiredStationIds ?? []
+    }
+
+    private func exemplarVisitedCount(route: PilgrimageRoute) -> Int {
+        progressStore.visitedCount(
+            routeId: route.routeId,
+            requiredStationIds: exemplarRequiredStationIds(route: route)
+        )
+    }
+
+    private func exemplarIsComplete(route: PilgrimageRoute) -> Bool {
+        progressStore.hasVisitedAll(
+            routeId: route.routeId,
+            requiredStationIds: exemplarRequiredStationIds(route: route)
+        )
+    }
+
+    private func isChapterComplete(
+        route: PilgrimageRoute,
+        chapter: SoCalExemplarContent.Chapter
+    ) -> Bool {
+        let stationIds = chapter.stations
+            .filter { $0.stationRole != "optional_context" }
+            .map(\.id)
+
+        return progressStore.hasVisitedAll(
+            routeId: route.routeId,
+            requiredStationIds: stationIds
+        )
+    }
+
+    private func soCalPilgrimageSegments(
+        route: PilgrimageRoute
+    ) -> [PilgrimageMapSegment] {
+        guard isSoCalExemplar(route),
+              let content = exemplarContent.content,
+              let core = content.variants.first(where: { $0.id == "core" }) else {
+            return []
+        }
+
+        let chapterNodes: [(chapter: SoCalExemplarContent.Chapter, waypoint: PilgrimageWaypoint)] =
+            core.chapterIds.compactMap { chapterId in
+                guard let chapter = content.chapters.first(where: {
+                    $0.id == chapterId
+                }) else {
+                    return nil
+                }
+
+                guard let stationId = chapter.stations
+                    .first(where: { $0.stationRole != "optional_context" })?
+                    .id,
+                      let waypoint = route.waypoints.first(where: {
+                          $0.waypointId == stationId
+                      }) else {
+                    return nil
+                }
+
+                return (chapter, waypoint)
+            }
+
+        guard chapterNodes.count > 1 else {
+            return []
+        }
+
+        return (0..<(chapterNodes.count - 1)).map { index in
+            let source = chapterNodes[index]
+            let destination = chapterNodes[index + 1]
+
+            let state: PilgrimageSegmentState
+            if isChapterComplete(route: route, chapter: destination.chapter) {
+                state = .completed
+            } else if isChapterComplete(route: route, chapter: source.chapter) {
+                state = .next
+            } else {
+                state = .future
+            }
+
+            return PilgrimageMapSegment(
+                id: "\(source.chapter.id)->\(destination.chapter.id)",
+                coordinates: [
+                    source.waypoint.coordinate,
+                    destination.waypoint.coordinate
+                ],
+                state: state
+            )
+        }
+    }
+
     public var body: some View {
         ZStack(alignment: .top) {
             mapLayer
+
+            if !geoLoader.isLoading && mode == .pilgrimages && filteredRoutes.isEmpty {
+                emptyPilgrimageState
+                    .padding(.horizontal, AnnoTheme.lg)
+                    .padding(.top, 180)
+                    .transition(.opacity)
+            }
 
             // Atmospheric gradient & Inquiry Controls
             VStack(spacing: 8) {
@@ -75,6 +224,7 @@ public struct SacredSiteMapView: View {
                 if mode == .pilgrimages {
                     callingFilterCarousel
                     routeSelectionCarousel
+                    arrivalMagicBar
                 } else if mode == .sanctuaries {
                     sanctuaryCategoryFilter
                 }
@@ -86,17 +236,291 @@ public struct SacredSiteMapView: View {
         .background(AnnoTheme.narthex)
         .navigationTitle(language == .vietnamese ? "Bản đồ Thánh Địa" : "Sacred Geography")
         .navigationBarTitleDisplayMode(.inline)
+        .sensoryFeedback(.selection, trigger: mode)
         .onAppear {
             if geoLoader.routes.isEmpty {
                 geoLoader.loadData()
             }
+
+            selectedWaypoint =
+                geoLoader.selectedWaypoint
+                ?? geoLoader.selectedRoute?.waypoints.first
+
+            if selectedRouteIsSoCalExemplar && !hasSeenSoCalExemplarHero {
+                selectedWaypoint = geoLoader.selectedRoute?.waypoints.first
+                sheetExpanded = true
+                hasSeenSoCalExemplarHero = true
+            }
+
             updateCameraPosition()
         }
-        .onChange(of: mode) { _ in
+        .onDisappear {
+            locationService.stop()
+        }
+        .onChange(of: mode) { _, _ in
             updateCameraPosition()
         }
-        .onChange(of: geoLoader.selectedRoute) { _ in
+        .onChange(of: geoLoader.selectedRoute) { _, route in
+            if let route,
+               geoLoader.selectedWaypoint?.waypointId != selectedWaypoint?.waypointId {
+                selectedWaypoint = geoLoader.selectedWaypoint ?? route.waypoints.first
+            }
             updateCameraPosition()
+        }
+        .onChange(of: geoLoader.selectedWaypoint) { _, waypoint in
+            if let waypoint {
+                selectedWaypoint = waypoint
+                sheetExpanded = true
+                updateCameraPosition()
+            }
+        }
+        .onChange(of: selectedWaypoint) { _, waypoint in
+            guard let waypoint,
+                  let route = geoLoader.selectedRoute else {
+                return
+            }
+
+            sessionStore.updateCurrentStation(
+                routeId: route.routeId,
+                stationId: waypoint.waypointId
+            )
+
+            focusOnWaypoint(
+                route: route,
+                waypoint: waypoint
+            )
+        }
+        .onChange(of: locationService.latestLocation) { _, _ in
+            handleLocationMomentIfNeeded()
+        }
+    }
+
+    private var arrivalMagicBar: some View {
+        Group {
+            switch locationService.authorizationStatus {
+            case .notDetermined:
+                Button {
+                    Haptics.light()
+                    locationService.begin()
+                } label: {
+                    HStack(spacing: 8) {
+                        Image(systemName: "location.fill")
+                        Text(
+                            language == .vietnamese
+                                ? "Bật Phép Màu Khi Đến Nơi"
+                                : "Enable Arrival Magic"
+                        )
+                        Spacer()
+                        Image(systemName: "sparkles")
+                    }
+                    .font(Typography.captionSemibold)
+                    .foregroundStyle(AnnoTheme.narthex)
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 9)
+                    .background(AnnoTheme.goldLeaf)
+                    .clipShape(Capsule())
+                }
+                .buttonStyle(.plain)
+                .padding(.horizontal, 16)
+
+            case .authorizedWhenInUse, .authorizedAlways:
+                if let nearby = locationService.nearestRelevantChapter() {
+                    Button {
+                        openNearbyChapter(nearby.chapter)
+                    } label: {
+                        HStack(spacing: 8) {
+                            Image(
+                                systemName: nearby.proximity == .arrived
+                                    ? "mappin.and.ellipse"
+                                    : "location.viewfinder"
+                            )
+                            .symbolRenderingMode(.hierarchical)
+                            .foregroundStyle(
+                                nearby.proximity == .arrived
+                                    ? AnnoTheme.gilt
+                                    : AnnoTheme.goldLeaf
+                            )
+
+                            VStack(alignment: .leading, spacing: 1) {
+                                Text(
+                                    nearby.proximity == .arrived
+                                        ? (language == .vietnamese ? "BẠN ĐÃ ĐẾN" : "YOU'VE ARRIVED")
+                                        : (language == .vietnamese ? "ĐANG ĐẾN GẦN" : "APPROACHING")
+                                )
+                                .font(Typography.caption2Bold)
+                                .tracking(1.0)
+                                .foregroundStyle(AnnoTheme.gilt)
+
+                                Text(nearby.chapter.title(for: language))
+                                    .font(Typography.captionSemiboldSerif)
+                                    .foregroundStyle(AnnoTheme.vellum)
+                                    .lineLimit(2)
+                            }
+
+                            Spacer()
+
+                            Text(distanceLabel(nearby.distanceMeters))
+                            .font(Typography.caption2MonospacedSemibold)
+                            .foregroundStyle(AnnoTheme.incense)
+                        }
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 9)
+                        .background {
+                            Capsule()
+                                .fill(AnnoTheme.narthex.opacity(0.92))
+                        }
+                        .overlay {
+                            Capsule()
+                                .strokeBorder(
+                                    nearby.proximity == .arrived
+                                        ? AnnoTheme.gilt.opacity(0.85)
+                                        : AnnoTheme.goldLeaf.opacity(0.45),
+                                    lineWidth: nearby.proximity == .arrived ? 1.4 : 1
+                                )
+                        }
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, 16)
+                } else if locationService.isActive {
+                    HStack(spacing: 8) {
+                        Image(systemName: "location.fill")
+                            .foregroundStyle(AnnoTheme.verdigris)
+                        Text(
+                            language == .vietnamese
+                                ? "Phép màu khi đến nơi đang bật"
+                                : "Arrival Magic is on"
+                        )
+                        .font(Typography.caption2Medium)
+                        .foregroundStyle(AnnoTheme.incense)
+                        Spacer()
+                    }
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 7)
+                    .background {
+                        Capsule()
+                            .fill(AnnoTheme.narthex.opacity(0.82))
+                    }
+                    .padding(.horizontal, 16)
+                } else {
+                    Button {
+                        Haptics.light()
+                        locationService.begin()
+                    } label: {
+                        HStack(spacing: 8) {
+                            Image(systemName: "location.fill")
+                            Text(
+                                language == .vietnamese
+                                    ? "Tiếp Tục Phép Màu Khi Đến Nơi"
+                                    : "Resume Arrival Magic"
+                            )
+                            Spacer()
+                            Image(systemName: "play.fill")
+                        }
+                        .font(Typography.captionSemibold)
+                        .foregroundStyle(AnnoTheme.vellum)
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 9)
+                        .background {
+                            Capsule()
+                                .fill(AnnoTheme.narthex.opacity(0.92))
+                        }
+                        .overlay {
+                            Capsule()
+                                .strokeBorder(
+                                    AnnoTheme.goldLeaf.opacity(0.45),
+                                    lineWidth: 1
+                                )
+                        }
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, 16)
+                }
+
+            case .denied, .restricted:
+                HStack(spacing: 8) {
+                    Image(systemName: "location.slash.fill")
+                        .foregroundStyle(AnnoTheme.incense)
+                    Text(
+                        language == .vietnamese
+                            ? "Vị trí đang tắt — nút “Tôi Đang Ở Đây” vẫn hoạt động"
+                            : "Location is off — “I'm Here” still works"
+                    )
+                    .font(Typography.caption2Medium)
+                    .foregroundStyle(AnnoTheme.incense)
+                    Spacer()
+                }
+                .padding(.horizontal, 12)
+                .padding(.vertical, 7)
+                .background {
+                    Capsule()
+                        .fill(AnnoTheme.narthex.opacity(0.82))
+                }
+                .padding(.horizontal, 16)
+
+            @unknown default:
+                EmptyView()
+            }
+        }
+    }
+
+    private func distanceLabel(_ meters: Double) -> String {
+        if meters < 1_000 {
+            return "\(Int(meters.rounded())) m"
+        }
+
+        return String(format: "%.1f km", meters / 1_000)
+    }
+
+    private func openNearbyChapter(_ chapter: PilgrimageChapterLocation) {
+        guard let route = geoLoader.routes.first(where: {
+            $0.routeId == "socal_vietnamese_catholic_pilgrimage_la_vang"
+        }),
+        let waypoint = route.waypoints.first(where: {
+            $0.waypointId == chapter.representativeWaypointId
+        }) else {
+            return
+        }
+
+        geoLoader.selectedRoute = route
+        geoLoader.selectedWaypoint = waypoint
+        selectedWaypoint = waypoint
+        sheetExpanded = true
+        Haptics.sacredArrival(.feast)
+        updateCameraPosition()
+    }
+
+    private func handleLocationMomentIfNeeded() {
+        guard let nearby = locationService.nearestRelevantChapter(),
+              nearby.proximity == .arrived else {
+            return
+        }
+
+        guard lastHapticArrivalChapterId != nearby.chapter.id else {
+            return
+        }
+
+        lastHapticArrivalChapterId = nearby.chapter.id
+        Haptics.sacredArrival(.solemnity)
+    }
+
+    private var emptyPilgrimageState: some View {
+        AnnoStateView(
+            symbol: AnnoSymbol.pilgrimage,
+            title: language == .vietnamese
+                ? "Không có tuyến đường phù hợp"
+                : "No pilgrimage routes match",
+            message: language == .vietnamese
+                ? "Hãy xóa bộ lọc để xem lại năm tuyến hành hương chủ lực."
+                : "Clear the filters to return to Anno's five flagship pilgrimage routes.",
+            tint: AnnoTheme.goldLeaf,
+            actionTitle: language == .vietnamese ? "Hiển thị tất cả" : "Show all"
+        ) {
+            withAnimation(AnnoMotion.selection) {
+                selectedCalling = .all
+                selectedRegion = .all
+                geoLoader.selectedRoute = geoLoader.routes.first
+                selectedWaypoint = geoLoader.routes.first?.waypoints.first
+            }
         }
     }
 
@@ -145,6 +569,8 @@ public struct SacredSiteMapView: View {
 
     private var mapLayer: some View {
         Map(position: $position) {
+            UserAnnotation()
+
             switch mode {
             case .feastSites:
                 ForEach(siteEntries) { entry in
@@ -164,16 +590,71 @@ public struct SacredSiteMapView: View {
 
             case .pilgrimages:
                 if let route = geoLoader.selectedRoute {
-                    // Glowing gold pilgrimage path
-                    MapPolyline(coordinates: route.coordinates)
-                        .stroke(
-                            LinearGradient(
-                                colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf, AnnoTheme.candleGlow],
-                                startPoint: .leading,
-                                endPoint: .trailing
-                            ),
-                            style: StrokeStyle(lineWidth: 4.5, lineCap: .round, lineJoin: .round)
-                        )
+                    if isSoCalExemplar(route) {
+                        ForEach(soCalPilgrimageSegments(route: route)) { segment in
+                            switch segment.state {
+                            case .completed:
+                                MapPolyline(coordinates: segment.coordinates)
+                                    .stroke(
+                                        LinearGradient(
+                                            colors: [
+                                                AnnoTheme.gilt,
+                                                AnnoTheme.goldLeaf,
+                                                AnnoTheme.candleGlow
+                                            ],
+                                            startPoint: .leading,
+                                            endPoint: .trailing
+                                        ),
+                                        style: StrokeStyle(
+                                            lineWidth: 5.5,
+                                            lineCap: .round,
+                                            lineJoin: .round
+                                        )
+                                    )
+
+                            case .next:
+                                MapPolyline(coordinates: segment.coordinates)
+                                    .stroke(
+                                        AnnoTheme.candleGlow.opacity(0.90),
+                                        style: StrokeStyle(
+                                            lineWidth: 4.5,
+                                            lineCap: .round,
+                                            lineJoin: .round,
+                                            dash: [10, 7]
+                                        )
+                                    )
+
+                            case .future:
+                                MapPolyline(coordinates: segment.coordinates)
+                                    .stroke(
+                                        AnnoTheme.incense.opacity(0.28),
+                                        style: StrokeStyle(
+                                            lineWidth: 3,
+                                            lineCap: .round,
+                                            lineJoin: .round
+                                        )
+                                    )
+                            }
+                        }
+                    } else {
+                        MapPolyline(coordinates: route.coordinates)
+                            .stroke(
+                                LinearGradient(
+                                    colors: [
+                                        AnnoTheme.gilt,
+                                        AnnoTheme.goldLeaf,
+                                        AnnoTheme.candleGlow
+                                    ],
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                ),
+                                style: StrokeStyle(
+                                    lineWidth: 4.5,
+                                    lineCap: .round,
+                                    lineJoin: .round
+                                )
+                            )
+                    }
 
                     // Numbered Waypoints with Halo
                     ForEach(route.waypoints) { wp in
@@ -183,13 +664,28 @@ public struct SacredSiteMapView: View {
                             anchor: .bottom
                         ) {
                             Button {
-                                Haptics.light()
-                                withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                                let moment = PilgrimageMomentRegistry.shared.moment(
+                                    routeId: route.routeId,
+                                    waypointId: wp.waypointId
+                                )
+                                Haptics.sacredArrival(
+                                    moment?.level.sacredIntensity ?? .ordinary
+                                )
+
+                                withAnimation(
+                                    moment?.level == .climax
+                                        ? AnnoMotion.immersive
+                                        : AnnoMotion.selection
+                                ) {
                                     selectedWaypoint = wp
                                     sheetExpanded = true
                                 }
                             } label: {
-                                waypointPinView(waypoint: wp, isSelected: (selectedWaypoint ?? route.waypoints.first)?.id == wp.id)
+                                waypointPinView(
+                                    route: route,
+                                    waypoint: wp,
+                                    isSelected: (selectedWaypoint ?? route.waypoints.first)?.id == wp.id
+                                )
                             }
                             .buttonStyle(.plain)
                         }
@@ -205,7 +701,7 @@ public struct SacredSiteMapView: View {
                     ) {
                         Button {
                             Haptics.light()
-                            withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                            withAnimation(AnnoMotion.selection) {
                                 selectedSanctuary = sanctuary
                                 sheetExpanded = true
                             }
@@ -228,7 +724,7 @@ public struct SacredSiteMapView: View {
             ForEach(MapExplorationMode.allCases) { m in
                 Button {
                     Haptics.selection()
-                    withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
+                    withAnimation(AnnoMotion.selection) {
                         mode = m
                         sheetExpanded = false
                     }
@@ -276,7 +772,7 @@ public struct SacredSiteMapView: View {
                     let isSelected = selectedCalling == calling
                     Button {
                         Haptics.selection()
-                        withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
+                        withAnimation(AnnoMotion.selection) {
                             selectedCalling = calling
                             if let firstMatch = filteredRoutes.first {
                                 geoLoader.selectedRoute = firstMatch
@@ -285,7 +781,7 @@ public struct SacredSiteMapView: View {
                         }
                     } label: {
                         HStack(spacing: 4) {
-                            Image(systemName: calling.icon)
+                            Image(systemName: AnnoSymbol.spiritualCalling(calling))
                                 .font(Typography.iconCaption)
                             Text(calling.title(for: language))
                                 .font(Typography.caption2Medium)
@@ -317,9 +813,12 @@ public struct SacredSiteMapView: View {
 
                     Button {
                         Haptics.light()
-                        withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                        withAnimation(AnnoMotion.selection) {
                             geoLoader.selectedRoute = route
                             selectedWaypoint = route.waypoints.first
+                            if isSoCalExemplar(route) {
+                                sheetExpanded = true
+                            }
                         }
                     } label: {
                         HStack(spacing: 6) {
@@ -327,6 +826,7 @@ public struct SacredSiteMapView: View {
                                 Image(systemName: "sparkles")
                                     .font(Typography.caption2)
                                     .foregroundStyle(AnnoTheme.goldLeaf)
+                                    .symbolEffect(.appear, value: isConnected)
                             } else {
                                 Image(systemName: "figure.walk")
                                     .font(Typography.caption2)
@@ -336,7 +836,7 @@ public struct SacredSiteMapView: View {
                             Text(route.title(for: language))
                                 .font(Typography.captionSemiboldSerif)
                                 .foregroundStyle(isSelected ? AnnoTheme.vellum : AnnoTheme.incense)
-                                .lineLimit(1)
+                                .lineLimit(2)
 
                             Text("(\(route.waypoints.count))")
                                 .font(Typography.caption2MonospacedSemibold)
@@ -400,35 +900,91 @@ public struct SacredSiteMapView: View {
 
     // MARK: - Custom Pin Views
 
-    private func waypointPinView(waypoint: PilgrimageWaypoint, isSelected: Bool) -> some View {
-        VStack(spacing: 0) {
+    private func waypointPinView(
+        route: PilgrimageRoute,
+        waypoint: PilgrimageWaypoint,
+        isSelected: Bool
+    ) -> some View {
+        let moment = PilgrimageMomentRegistry.shared.moment(
+            routeId: route.routeId,
+            waypointId: waypoint.waypointId
+        )
+        let intensity = moment?.level.sacredIntensity ?? (isSelected ? .feast : .ordinary)
+        let baseSize: CGFloat = {
+            switch moment?.level {
+            case .climax: return isSelected ? 40 : 34
+            case .highlight: return isSelected ? 36 : 30
+            case nil: return isSelected ? 32 : 26
+            }
+        }()
+
+        return VStack(spacing: 0) {
             ZStack {
-                if isSelected {
-                    Circle()
-                        .stroke(AnnoTheme.goldLeaf.opacity(0.4), lineWidth: 5)
-                        .frame(width: 42, height: 42)
+                if intensity > .ordinary {
+                    SacredAureole(
+                        tint: AnnoTheme.goldLeaf,
+                        intensity: intensity,
+                        diameter: moment?.level == .climax ? 58 : 48
+                    )
                 }
 
                 Circle()
                     .fill(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.narthex)
-                    .frame(width: isSelected ? 32 : 26, height: isSelected ? 32 : 26)
-                    .overlay(Circle().stroke(AnnoTheme.goldLeaf, lineWidth: 1.5))
-                    .shadow(color: .black.opacity(0.6), radius: 4, y: 2)
+                    .frame(width: baseSize, height: baseSize)
+                    .overlay(
+                        Circle()
+                            .stroke(
+                                moment?.level == .climax
+                                    ? AnnoTheme.gilt
+                                    : AnnoTheme.goldLeaf,
+                                lineWidth: moment?.level == .climax ? 2.2 : 1.5
+                            )
+                    )
+                    .shadow(
+                        color: moment != nil
+                            ? AnnoTheme.gilt.opacity(isSelected ? 0.52 : 0.28)
+                            : .black.opacity(0.6),
+                        radius: moment != nil ? (isSelected ? 10 : 6) : 4,
+                        y: 2
+                    )
 
-                Text("\\\(waypoint.order)")
-                                    .font(Typography.captionBoldSerif)
-                                    .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
-                            }
+                Text("\(waypoint.order)")
+                    .font(Typography.captionBoldSerif)
+                    .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
 
-                            Image(systemName: "triangle.fill")
-                                .font(Typography.iconTiny)
-                                .foregroundStyle(AnnoTheme.goldLeaf)
-                                .rotationEffect(.degrees(180))
-                                .offset(y: -2)
-                        }
-                    }
+                if progressStore.isVisited(
+                    routeId: route.routeId,
+                    waypointId: waypoint.waypointId
+                ) {
+                    Image(systemName: "checkmark.seal.fill")
+                        .font(Typography.iconSmall)
+                        .foregroundStyle(AnnoTheme.verdigris)
+                        .background(Circle().fill(AnnoTheme.narthex))
+                        .offset(x: baseSize * 0.43, y: baseSize * 0.40)
+                }
 
-                    private func sanctuaryPinView(sanctuary: Sanctuary, isSelected: Bool) -> some View {
+                if let moment {
+                    Image(systemName: moment.level == .climax ? "sparkles" : AnnoSymbol.sacred)
+                        .font(Typography.iconTiny)
+                        .foregroundStyle(
+                            moment.level == .climax
+                                ? AnnoTheme.gilt
+                                : AnnoTheme.goldLeaf
+                        )
+                        .offset(x: baseSize * 0.45, y: -baseSize * 0.40)
+                        .symbolEffect(.appear, value: isSelected)
+                }
+            }
+
+            Image(systemName: "triangle.fill")
+                .font(Typography.iconTiny)
+                .foregroundStyle(AnnoTheme.goldLeaf)
+                .rotationEffect(.degrees(180))
+                .offset(y: -2)
+        }
+    }
+
+    private func sanctuaryPinView(sanctuary: Sanctuary, isSelected: Bool) -> some View {
                         VStack(spacing: 0) {
                             ZStack {
                                 if isSelected {
@@ -482,18 +1038,63 @@ public struct SacredSiteMapView: View {
     // MARK: - Atmosphere Overlay
 
     private var atmosphereOverlay: some View {
-        RadialGradient(
-            gradient: Gradient(colors: [
-                AnnoTheme.narthex.opacity(0.92),
-                AnnoTheme.narthex.opacity(0.0)
-            ]),
-            center: .top,
-            startRadius: 0,
-            endRadius: 180
-        )
-        .frame(height: 140)
+        TimelineView(.periodic(from: .now, by: 60)) { context in
+            let hour = Calendar.current.component(.hour, from: context.date)
+
+            ZStack {
+                RadialGradient(
+                    colors: ambientMapColors(for: hour),
+                    center: .top,
+                    startRadius: 0,
+                    endRadius: 210
+                )
+
+                LinearGradient(
+                    colors: [
+                        AnnoTheme.narthex.opacity(0.72),
+                        .clear
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+            }
+            .animation(AnnoMotion.atmosphere, value: hour)
+        }
+        .frame(height: 160)
         .allowsHitTesting(false)
         .ignoresSafeArea(edges: .top)
+    }
+
+    private func ambientMapColors(for hour: Int) -> [Color] {
+        switch hour {
+        case 5..<8:
+            return [
+                AnnoTheme.candleGlow.opacity(0.24),
+                AnnoTheme.lapis.opacity(0.13),
+                AnnoTheme.narthex.opacity(0.0)
+            ]
+
+        case 8..<17:
+            return [
+                AnnoTheme.gilt.opacity(0.14),
+                AnnoTheme.goldLeaf.opacity(0.06),
+                AnnoTheme.narthex.opacity(0.0)
+            ]
+
+        case 17..<21:
+            return [
+                AnnoTheme.candleGlow.opacity(0.20),
+                AnnoTheme.crimson.opacity(0.09),
+                AnnoTheme.narthex.opacity(0.0)
+            ]
+
+        default:
+            return [
+                AnnoTheme.lapis.opacity(0.22),
+                AnnoTheme.narthex.opacity(0.18),
+                AnnoTheme.narthex.opacity(0.0)
+            ]
+        }
     }
 
     // MARK: - Bottom Sheet
@@ -538,7 +1139,7 @@ public struct SacredSiteMapView: View {
 
             Button {
                 Haptics.selection()
-                withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                withAnimation(AnnoMotion.selection) {
                     sheetExpanded.toggle()
                 }
             } label: {
@@ -548,9 +1149,9 @@ public struct SacredSiteMapView: View {
 
                     Text(sheetTitle)
                         .font(Typography.subheadlineSemibold)
-                        
                         .foregroundStyle(AnnoTheme.vellum)
-                        .lineLimit(1)
+                        .lineLimit(2)
+                        .fixedSize(horizontal: false, vertical: true)
 
                     Spacer()
 
@@ -612,6 +1213,34 @@ public struct SacredSiteMapView: View {
 
     private func pilgrimageRouteDetailView(route: PilgrimageRoute) -> some View {
         VStack(alignment: .leading, spacing: 14) {
+            if isSoCalExemplar(route),
+               let content = exemplarContent.content {
+                SoCalPilgrimageHero(
+                    content: content,
+                    language: language,
+                    visitedCount: exemplarVisitedCount(route: route),
+                    totalCount: exemplarRequiredStationIds(route: route).count
+                )
+
+                PilgrimageSessionControl(
+                    isActive: sessionStore.isActive(routeId: route.routeId),
+                    startedAt: sessionStore.startedAt,
+                    language: language
+                ) {
+                    let firstStation = selectedWaypoint ?? route.waypoints.first
+                    sessionStore.begin(
+                        routeId: route.routeId,
+                        stationId: firstStation?.waypointId
+                    )
+                    Haptics.sacredArrival(.feast)
+                    locationService.begin()
+                } onEnd: {
+                    sessionStore.end(routeId: route.routeId)
+                    locationService.stop()
+                    Haptics.soft()
+                }
+            }
+
             // Spiritual theme & badges
             HStack(spacing: 8) {
                 Label("\(route.durationDays) \(language == .vietnamese ? "ngày" : "days")", systemImage: "clock")
@@ -644,7 +1273,66 @@ public struct SacredSiteMapView: View {
             // Selected Waypoint Focus
             let currentWp = selectedWaypoint ?? route.waypoints.first
             if let wp = currentWp {
+                let moment = PilgrimageMomentRegistry.shared.moment(
+                    routeId: route.routeId,
+                    waypointId: wp.waypointId
+                )
+
                 VStack(alignment: .leading, spacing: 10) {
+                    if let moment {
+                        SacredMomentBanner(
+                            title: moment.level == .climax
+                                ? (language == .vietnamese
+                                    ? "Khoảnh Khắc Hành Hương Lớn"
+                                    : "Major Pilgrimage Moment")
+                                : (language == .vietnamese
+                                    ? "Điểm Nhấn Hành Hương"
+                                    : "Pilgrimage Highlight"),
+                            subtitle: moment.label(for: language),
+                            symbol: moment.level == .climax
+                                ? "sparkles"
+                                : AnnoSymbol.sacred,
+                            intensity: moment.level.sacredIntensity,
+                            tint: AnnoTheme.goldLeaf
+                        )
+                    }
+
+                    if let chapter = exemplarChapter(route: route, waypoint: wp) {
+                        SoCalChapterHeader(chapter: chapter, language: language)
+                    }
+
+                    if let station = exemplarStation(route: route, waypoint: wp) {
+                        SoCalStationRitualView(
+                            station: station,
+                            language: language
+                        )
+
+                        PilgrimageVisitButton(
+                            isVisited: progressStore.isVisited(
+                                routeId: route.routeId,
+                                waypointId: wp.waypointId
+                            ),
+                            language: language
+                        ) {
+                            progressStore.markVisited(route: route, waypoint: wp)
+
+                            if exemplarIsComplete(route: route) {
+                                progressStore.markCompleted(routeId: route.routeId)
+                                sessionStore.complete(routeId: route.routeId)
+                                locationService.stop()
+                                Haptics.pilgrimageComplete()
+                            } else if let station = exemplarStation(route: route, waypoint: wp) {
+                                Haptics.sacredArrival(
+                                    station.momentLevel == "climax"
+                                        ? .solemnity
+                                        : (station.momentLevel == "highlight" ? .feast : .ordinary)
+                                )
+                            } else {
+                                Haptics.medium()
+                            }
+                        }
+                    }
+
                     HStack(alignment: .top) {
                         VStack(alignment: .leading, spacing: 2) {
                             Text("Station \(wp.order): \(wp.name(for: language))")
@@ -664,15 +1352,42 @@ public struct SacredSiteMapView: View {
                                         .background(Circle().fill(AnnoTheme.goldLeaf.opacity(0.15)))
                                 }
                             }
+
+                            if let stationLink = AnnoDeepLink.pilgrimage(
+                                route: route,
+                                waypoint: wp
+                            ) {
+                                ShareLink(
+                                    item: stationLink,
+                                    subject: Text(route.title(for: language)),
+                                    message: Text(
+                                        language == .vietnamese
+                                            ? "Mở điểm hành hương này trong Anno."
+                                            : "Open this pilgrimage station in Anno."
+                                    )
+                                ) {
+                                    Image(systemName: "square.and.arrow.up")
+                                        .font(Typography.captionSerif)
+                                        .foregroundStyle(AnnoTheme.goldLeaf)
+                                        .padding(7)
+                                        .background(
+                                            Circle()
+                                                .fill(AnnoTheme.goldLeaf.opacity(0.15))
+                                        )
+                                }
+                            }
                         }
                     }
 
-                    Text(wp.historicalSummary(for: language))
-                        .font(Typography.captionSerif)
-                        .lineSpacing(3)
-                        .foregroundStyle(AnnoTheme.vellum.opacity(0.92))
+                    if exemplarStation(route: route, waypoint: wp) == nil {
+                        Text(wp.historicalSummary(for: language))
+                            .font(Typography.captionSerif)
+                            .lineSpacing(3)
+                            .foregroundStyle(AnnoTheme.vellum.opacity(0.92))
+                    }
 
-                    if !wp.sacredRelic(for: language).isEmpty {
+                    if exemplarStation(route: route, waypoint: wp) == nil,
+                       !wp.sacredRelic(for: language).isEmpty {
                         HStack(alignment: .top, spacing: 8) {
                             Image(systemName: "sparkles")
                                 .font(Typography.caption2)
@@ -695,7 +1410,8 @@ public struct SacredSiteMapView: View {
                         )
                     }
 
-                    if !wp.suggestedPrayer(for: language).isEmpty {
+                    if exemplarStation(route: route, waypoint: wp) == nil,
+                       !wp.suggestedPrayer(for: language).isEmpty {
                         VStack(alignment: .leading, spacing: 4) {
                             Text(language == .vietnamese ? "Lời Nguyện Hành Hương" : "Pilgrim's Prayer")
                                 .font(Typography.caption2Bold)
@@ -716,55 +1432,6 @@ public struct SacredSiteMapView: View {
                         )
                     }
 
-                    // Multimedia & AR Action Buttons
-                    HStack(spacing: 8) {
-                        Button {
-                            Haptics.light()
-                            SacredSpatialAudioEngine.shared.playStationNarration(waypoint: wp, language: language)
-                        } label: {
-                            HStack(spacing: 6) {
-                                Image(systemName: "speaker.wave.2.fill")
-                                Text(language == .vietnamese ? "Nghe Lời Nguyện" : "Listen to Prayer")
-                            }
-                            .font(Typography.caption2Medium)
-                            .foregroundStyle(AnnoTheme.narthex)
-                            .padding(.horizontal, 12)
-                            .padding(.vertical, 8)
-                            .background(
-                                Capsule()
-                                    .fill(
-                                        LinearGradient(
-                                            colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
-                                            startPoint: .topLeading,
-                                            endPoint: .bottomTrailing
-                                        )
-                                    )
-                            )
-                        }
-                        .buttonStyle(.plain)
-
-                        if let _ = wp.associated3DReliquaryId {
-                            Button {
-                                Haptics.selection()
-                            } label: {
-                                HStack(spacing: 6) {
-                                    Image(systemName: "arkit")
-                                    Text(language == .vietnamese ? "Chiêm Ngắm 3D" : "View in AR")
-                                }
-                                .font(Typography.caption2Medium)
-                                .foregroundStyle(AnnoTheme.goldLeaf)
-                                .padding(.horizontal, 12)
-                                .padding(.vertical, 8)
-                                .background(
-                                    Capsule()
-                                        .fill(AnnoTheme.choir.opacity(0.8))
-                                        .overlay(Capsule().stroke(AnnoTheme.goldLeaf.opacity(0.6), lineWidth: 1))
-                                )
-                            }
-                            .buttonStyle(.plain)
-                        }
-                    }
-                    .padding(.top, 2)
 
                     // Stepper Navigation
                     HStack {
@@ -807,6 +1474,18 @@ public struct SacredSiteMapView: View {
                 }
             }
 
+            if isSoCalExemplar(route),
+               exemplarIsComplete(route: route),
+               let content = exemplarContent.content {
+                PilgrimageCompletionKeepsake(
+                    content: content,
+                    routeId: route.routeId,
+                    language: language,
+                    completionDate: progressStore.completionDate(routeId: route.routeId)
+                )
+                .transition(.scale.combined(with: .opacity))
+            }
+
             // Waypoints Quick Switcher
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 8) {
@@ -818,12 +1497,33 @@ public struct SacredSiteMapView: View {
                                 selectedWaypoint = wp
                             }
                         } label: {
-                            Text("\(wp.order). \(wp.name(for: language))")
-                                .font(Typography.caption2)
-                                .foregroundStyle(isSel ? AnnoTheme.narthex : AnnoTheme.vellum)
-                                .padding(.horizontal, 10)
-                                .padding(.vertical, 5)
-                                .background(Capsule().fill(isSel ? AnnoTheme.goldLeaf : AnnoTheme.ash))
+                            HStack(spacing: 4) {
+                                if progressStore.isVisited(
+                                    routeId: route.routeId,
+                                    waypointId: wp.waypointId
+                                ) {
+                                    Image(systemName: "checkmark")
+                                        .font(Typography.iconTiny)
+                                }
+
+                                Text("\(wp.order). \(wp.name(for: language))")
+                            }
+                            .font(Typography.caption2)
+                            .foregroundStyle(isSel ? AnnoTheme.narthex : AnnoTheme.vellum)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 5)
+                            .background(
+                                Capsule().fill(
+                                    isSel
+                                        ? AnnoTheme.goldLeaf
+                                        : (progressStore.isVisited(
+                                            routeId: route.routeId,
+                                            waypointId: wp.waypointId
+                                        )
+                                            ? AnnoTheme.verdigris.opacity(0.55)
+                                            : AnnoTheme.ash)
+                                )
+                            )
                         }
                         .buttonStyle(.plain)
                     }
@@ -880,61 +1580,6 @@ public struct SacredSiteMapView: View {
                 .background(RoundedRectangle(cornerRadius: 10).fill(AnnoTheme.narthex).overlay(RoundedRectangle(cornerRadius: 10).stroke(AnnoTheme.goldLeaf.opacity(0.35), lineWidth: 1)))
             }
 
-            // Multimedia & AR Action Buttons
-            HStack(spacing: 8) {
-                Button {
-                    Haptics.light()
-                    AudioDevotionalPlayer.shared.play(
-                        trackId: sanctuary.id,
-                        title: sanctuary.name(for: language),
-                        saint: sanctuary.categoryDisplay,
-                        audioUrl: "bundle://hagiography_\(sanctuary.id)",
-                        duration: 180
-                    )
-                } label: {
-                    HStack(spacing: 6) {
-                        Image(systemName: "speaker.wave.2.fill")
-                        Text(language == .vietnamese ? "Nghe Lời Nguyện" : "Listen to Prayer")
-                    }
-                    .font(Typography.caption2Medium)
-                    .foregroundStyle(AnnoTheme.narthex)
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 8)
-                    .background(
-                        Capsule()
-                            .fill(
-                                LinearGradient(
-                                    colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
-                                    startPoint: .topLeading,
-                                    endPoint: .bottomTrailing
-                                )
-                            )
-                    )
-                }
-                .buttonStyle(.plain)
-
-                if let _ = sanctuary.associated3DReliquaryId {
-                    Button {
-                        Haptics.selection()
-                    } label: {
-                        HStack(spacing: 6) {
-                            Image(systemName: "arkit")
-                            Text(language == .vietnamese ? "Chiêm Ngắm 3D" : "View in AR")
-                        }
-                        .font(Typography.caption2Medium)
-                        .foregroundStyle(AnnoTheme.goldLeaf)
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 8)
-                        .background(
-                            Capsule()
-                                .fill(AnnoTheme.choir.opacity(0.8))
-                                .overlay(Capsule().stroke(AnnoTheme.goldLeaf.opacity(0.6), lineWidth: 1))
-                        )
-                    }
-                    .buttonStyle(.plain)
-                }
-            }
-            .padding(.top, 2)
         }
     }
 
@@ -971,6 +1616,34 @@ public struct SacredSiteMapView: View {
     }
 
     // MARK: - Camera & Coordinate Math
+
+    private func focusOnWaypoint(
+        route: PilgrimageRoute,
+        waypoint: PilgrimageWaypoint
+    ) {
+        let moment = PilgrimageMomentRegistry.shared.moment(
+            routeId: route.routeId,
+            waypointId: waypoint.waypointId
+        )
+
+        let distance: CLLocationDistance =
+            moment?.level == .climax ? 650 : 900
+
+        withAnimation(
+            moment?.level == .climax
+                ? AnnoMotion.immersive
+                : AnnoMotion.selection
+        ) {
+            position = .camera(
+                MapCamera(
+                    centerCoordinate: waypoint.coordinate,
+                    distance: distance,
+                    heading: 0,
+                    pitch: 42
+                )
+            )
+        }
+    }
 
     private func updateCameraPosition() {
         switch mode {

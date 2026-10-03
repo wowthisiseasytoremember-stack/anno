@@ -18,6 +18,7 @@ struct MonthCalendarView: View {
     @State private var displayedMonth: Date
     @State private var selectedDate: Date
     @State private var presentationMode: CalendarPresentationMode = .monthGrid
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     // MARK: Init
 
@@ -88,6 +89,11 @@ struct MonthCalendarView: View {
         entriesByDate[selectedDateKey] ?? []
     }
 
+    private var selectedSacredIntensity: SacredIntensity {
+        guard let first = selectedDayEntries.first else { return .ordinary }
+        return SacredIntensity.from(rank: first.liturgical.rank)
+    }
+
     private var startOfDisplayedMonth: Date {
         let comps = calendar.dateComponents([.year, .month], from: displayedMonth)
         return calendar.date(from: comps) ?? displayedMonth
@@ -143,7 +149,10 @@ struct MonthCalendarView: View {
             .scrollContentBackground(.hidden)
             .scrollIndicators(.hidden)
         }
-        .liturgicalAtmosphere(named: selectedDayEntries.first?.liturgical.color ?? "Gold", intensity: 0.65)
+        .ceremonialLiturgicalAtmosphere(
+            named: selectedDayEntries.first?.liturgical.color ?? "Gold",
+            rank: selectedDayEntries.first?.liturgical.rank ?? "Feria"
+        )
         .navigationTitle(navigationTitle)
         .navigationBarTitleDisplayMode(.inline)
         .toolbarColorScheme(.dark, for: .navigationBar)
@@ -159,6 +168,7 @@ struct MonthCalendarView: View {
                 }
                 .pickerStyle(.segmented)
                 .frame(width: 88)
+                .sensoryFeedback(.selection, trigger: presentationMode)
             }
         }
     }
@@ -236,7 +246,7 @@ struct MonthCalendarView: View {
             }
         }
         .padding(12)
-        .annoCard()
+        .annoSurface(.research)
     }
 
     private func dayCell(for date: Date) -> some View {
@@ -251,16 +261,37 @@ struct MonthCalendarView: View {
 
         return Button {
             Haptics.selection()
-            withAnimation(.easeInOut(duration: 0.25)) {
+            withAnimation(reduceMotion ? nil : AnnoMotion.selection) {
                 selectedDate = date
             }
         } label: {
             VStack(spacing: 4) {
                 ZStack {
+                    let sacredIntensity = dayEntries
+                        .map { SacredIntensity.from(rank: $0.liturgical.rank) }
+                        .max() ?? .ordinary
+                    let aureoleTint = dayEntries.first.map {
+                        liturgicalColor(for: $0.liturgical.color)
+                    } ?? AnnoTheme.goldLeaf
+
+                    if sacredIntensity > .ordinary && !isSelected {
+                        SacredAureole(
+                            tint: aureoleTint,
+                            intensity: sacredIntensity,
+                            diameter: sacredIntensity == .solemnity ? 40 : 36
+                        )
+                    }
+
                     if isSelected {
                         Circle()
                             .fill(AnnoTheme.goldLeaf)
                             .frame(width: 32, height: 32)
+                            .shadow(
+                                color: sacredIntensity == .solemnity
+                                    ? AnnoTheme.gilt.opacity(0.45)
+                                    : .clear,
+                                radius: sacredIntensity == .solemnity ? 8 : 0
+                            )
                     } else if isToday {
                         Circle()
                             .stroke(AnnoTheme.goldLeaf, lineWidth: 1.4)
@@ -276,7 +307,7 @@ struct MonthCalendarView: View {
                         )
                         .fixedSize(horizontal: false, vertical: true)
                 }
-                .frame(height: 32)
+                .frame(height: 40)
 
                 HStack(spacing: 3) {
                     if dotColors.isEmpty {
@@ -311,6 +342,35 @@ struct MonthCalendarView: View {
 
     // MARK: - Detail Panel
 
+    private func selectedDayBanner(for entry: AnnoEntry) -> SacredMomentBanner? {
+        let intensity = SacredIntensity.from(rank: entry.liturgical.rank)
+        let rank = entry.liturgical.rank.lowercased()
+        let localized = LocalizedEntryText(entry: entry, language: language)
+        let tint = liturgicalColor(for: entry.liturgical.color)
+
+        if intensity == .solemnity {
+            return SacredMomentBanner(
+                title: language == .english ? "Solemnity" : "Lễ Trọng",
+                subtitle: localized.title,
+                symbol: AnnoSymbol.sacred,
+                intensity: .solemnity,
+                tint: tint
+            )
+        }
+
+        if rank == "feast" {
+            return SacredMomentBanner(
+                title: language == .english ? "Feast Day" : "Ngày Lễ",
+                subtitle: localized.title,
+                symbol: "sparkles",
+                intensity: .feast,
+                tint: tint
+            )
+        }
+
+        return nil
+    }
+
     private var detailPanel: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text(fullDateFormatter.string(from: selectedDate).localizedCapitalized)
@@ -319,17 +379,22 @@ struct MonthCalendarView: View {
                 .fixedSize(horizontal: false, vertical: true)
 
             if let first = selectedDayEntries.first {
+                if let banner = selectedDayBanner(for: first) {
+                    banner
+                }
+
                 conversionsView(for: first.calendars)
             }
 
             if selectedDayEntries.isEmpty {
-                Text(language == .english
-                     ? "No events for this day."
-                     : "Không có sự kiện cho ngày này.")
-                    .font(Typography.subheadlineSemiboldSerif)
-                    .foregroundStyle(AnnoTheme.incense)
-                    .fixedSize(horizontal: false, vertical: true)
-                    .padding(.vertical, 6)
+                AnnoStateView(
+                    symbol: AnnoSymbol.calendar,
+                    title: language == .english ? "A quiet day" : "Một ngày yên tĩnh",
+                    message: language == .english
+                        ? "No feast or devotional entry is attached to this date yet."
+                        : "Chưa có lễ hoặc nội dung suy niệm được gắn với ngày này.",
+                    tint: AnnoTheme.incense
+                )
             } else {
                 VStack(alignment: .leading, spacing: 8) {
                     ForEach(selectedDayEntries, id: \.id) { entry in
@@ -355,11 +420,10 @@ struct MonthCalendarView: View {
             .disabled(selectedDayEntries.isEmpty)
             .padding(.top, 4)
         }
-        .padding(14)
-        .annoCard()
+        .annoSurface(selectedSacredIntensity == .solemnity ? .devotional : .base)
         .id(selectedDateKey)
-        .transition(.opacity)
-        .animation(.easeInOut(duration: 0.25), value: selectedDateKey)
+        .transition(.opacity.combined(with: .move(edge: .bottom)))
+        .animation(reduceMotion ? nil : AnnoMotion.reveal, value: selectedDateKey)
     }
 
     // MARK: - Calendar Conversions
@@ -388,9 +452,9 @@ struct MonthCalendarView: View {
                     }
                     .padding(.horizontal, 10)
                     .padding(.vertical, 6)
-                    .background(AnnoTheme.narthex)
+                    .background(AnnoTheme.surfaceInset)
                     .clipShape(Capsule())
-                    .overlay(Capsule().stroke(AnnoTheme.ash, lineWidth: 0.5))
+                    .overlay(Capsule().stroke(AnnoTheme.borderSubtle, lineWidth: 0.5))
                 }
             }
         }
@@ -432,9 +496,12 @@ struct MonthCalendarView: View {
             Spacer(minLength: 8)
         }
         .padding(10)
-        .background(AnnoTheme.narthex)
-        .clipShape(RoundedRectangle(cornerRadius: 8))
-        .overlay(RoundedRectangle(cornerRadius: 8).stroke(AnnoTheme.ash, lineWidth: 1))
+        .background(AnnoTheme.surfaceInset)
+        .clipShape(RoundedRectangle(cornerRadius: AnnoTheme.radiusCompact, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: AnnoTheme.radiusCompact, style: .continuous)
+                .stroke(AnnoTheme.borderSubtle, lineWidth: 1)
+        )
     }
 
     // MARK: - Helpers
@@ -454,7 +521,7 @@ struct MonthCalendarView: View {
         guard let newMonth = calendar.date(byAdding: .month, value: value, to: displayedMonth) else {
             return
         }
-        withAnimation(.easeInOut(duration: 0.25)) {
+        withAnimation(reduceMotion ? nil : AnnoMotion.reveal) {
             displayedMonth = newMonth
             // If the selected date falls outside the new month, snap to the first day.
             if !calendar.isDate(selectedDate, equalTo: newMonth, toGranularity: .month) {

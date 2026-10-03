@@ -1,3 +1,7 @@
+> ARCHIVED 2026-10-03
+>
+> This document is preserved for historical context only. It predates the current Anno v1 scope and must not be used as implementation authority. Start with `START_HERE.md`, `README.md`, and `ROADMAP.md`.
+
 # Anno MVP — Catholic Daily Devotional (Final)
 **Last updated:** 2026-07-15 19:30 UTC
 **Goal:** TestFlight-ready daily devotional for Catholic iOS users (EN + VI)

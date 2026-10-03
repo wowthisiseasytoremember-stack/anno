@@ -4,12 +4,23 @@
   "compiled_on": "2026-10-03",
   "flagship_routes": [
     {
+      "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
+      "title_en": "Our Lady of La Vang — Orange County Pilgrimage",
+      "title_vi": "Đức Mẹ La Vang — Hành Hương Quận Cam",
+      "region": "Garden Grove / Santa Ana / Orange County, CA, USA",
+      "duration_days": 1,
+      "distance_km": 0,
+      "difficulty": "easy",
+      "waypoints_count": 7,
+      "file": "socal_vietnamese_catholic_pilgrimage_la_vang.json"
+    },
+    {
       "route_id": "holy_land_passion",
       "title_en": "The Holy Land — Way of the Cross & Resurrection",
       "title_vi": "Đất Thánh — Con đường Thập giá và Phục sinh",
       "region": "Jerusalem, Holy Land",
       "duration_days": 3,
-      "distance_km": 12.0,
+      "distance_km": 12,
       "difficulty": "moderate",
       "waypoints_count": 5,
       "file": "holy_land_passion.json"
@@ -20,7 +31,7 @@
       "title_vi": "Hành trình Bảy Nhà thờ Hành hương Rôma",
       "region": "Rome, Italy",
       "duration_days": 2,
-      "distance_km": 25.0,
+      "distance_km": 25,
       "difficulty": "moderate",
       "waypoints_count": 7,
       "file": "rome_seven_churches.json"
@@ -31,29 +42,18 @@
       "title_vi": "Con Đường Thánh Giacôbê — Camino Francés",
       "region": "Northern Spain & Pyrenees",
       "duration_days": 32,
-      "distance_km": 780.0,
+      "distance_km": 780,
       "difficulty": "challenging",
       "waypoints_count": 5,
       "file": "camino_de_santiago.json"
     },
     {
-      "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
-      "title_en": "Our Lady of La Vang — Southern California Pilgrimage",
-      "title_vi": "Đức Mẹ La Vang — Cuộc Hành Hương Miền Nam California",
-      "region": "Garden Grove / Orange County, CA, USA",
-      "duration_days": 1,
-      "distance_km": 0.0,
-      "difficulty": "easy",
-      "waypoints_count": 5,
-      "file": "socal_vietnamese_catholic_pilgrimage_la_vang.json"
-    },
-    {
       "route_id": "basilica_of_our_lady_of_guadalupe",
       "title_en": "Basilica of Our Lady of Guadalupe — Patroness of the Americas",
-      "title_vi": "Đại Vương cung Thánh đường Đức Mẹ Guadalupe — Quan Phù Thủy Các Châu Mỹ",
+      "title_vi": "Đại Vương cung Thánh đường Đức Mẹ Guadalupe — Quan Thầy của Châu Mỹ",
       "region": "Mexico City, Mexico",
       "duration_days": 2,
-      "distance_km": 5.0,
+      "distance_km": 5,
       "difficulty": "easy",
       "waypoints_count": 3,
       "file": "basilica_of_our_lady_of_guadalupe.json"
@@ -61,13 +61,21 @@
   ],
   "summary": {
     "total_routes": 5,
-    "total_waypoints": 25,
+    "total_waypoints": 27,
     "total_countries": 5,
-    "countries": ["Holy Land (Israel/Palestine)", "Italy", "Spain", "USA", "Mexico"],
+    "countries": [
+      "Holy Land (Israel/Palestine)",
+      "Italy",
+      "Spain",
+      "USA",
+      "Mexico"
+    ],
     "difficulty_distribution": {
       "easy": 2,
       "moderate": 2,
       "challenging": 1
     }
-  }
+  },
+  "featured_route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
+  "initial_test_region": "Orange County, California"
 }
