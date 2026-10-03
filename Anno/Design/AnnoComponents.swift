@@ -148,3 +148,47 @@ struct AnnoMetadataPill: View {
             }
     }
 }
+
+
+struct AnnoStateView: View {
+    let symbol: String
+    let title: String
+    let message: String
+    var tint: Color = AnnoTheme.incense
+    var actionTitle: String?
+    var action: (() -> Void)?
+
+    var body: some View {
+        VStack(spacing: AnnoTheme.md) {
+            AnnoIconBadge(symbol: symbol, tint: tint, size: 54)
+
+            VStack(spacing: AnnoTheme.sm) {
+                Text(title)
+                    .font(Typography.headlineSerif)
+                    .foregroundStyle(AnnoTheme.textPrimary)
+                    .multilineTextAlignment(.center)
+
+                Text(message)
+                    .font(Typography.subheadlineSerif)
+                    .foregroundStyle(AnnoTheme.textSecondary)
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+
+            if let actionTitle, let action {
+                Button(actionTitle, action: action)
+                    .font(Typography.subheadlineSemiboldSerif)
+                    .foregroundStyle(AnnoTheme.narthex)
+                    .padding(.horizontal, AnnoTheme.md)
+                    .padding(.vertical, 10)
+                    .background(AnnoTheme.goldLeaf)
+                    .clipShape(Capsule())
+                    .buttonStyle(.plain)
+                    .annoTapTarget()
+            }
+        }
+        .frame(maxWidth: .infinity)
+        .annoSurface(.raised)
+        .accessibilityElement(children: .combine)
+    }
+}
