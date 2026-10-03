@@ -4,6 +4,7 @@ struct SourceSheet: View {
     let entry: AnnoEntry
     let language: LanguageMode
     @Environment(\.dismiss) private var dismiss
+    @State private var appeared = false
 
     // MARK: - Computed Properties
 
@@ -59,7 +60,15 @@ struct SourceSheet: View {
             ScrollView {
                 VStack(spacing: AnnoTheme.lg) {
                     confidenceCard
-                    sourcesList
+                        .annoReveal(isVisible: appeared, delay: 0.00)
+
+                    if entry.sources.isEmpty {
+                        emptySourcesState
+                            .annoReveal(isVisible: appeared, delay: 0.06)
+                    } else {
+                        sourcesList
+                            .annoReveal(isVisible: appeared, delay: 0.06)
+                    }
                 }
                 .padding(.horizontal, AnnoTheme.md)
                 .padding(.vertical, AnnoTheme.lg)
@@ -76,7 +85,7 @@ struct SourceSheet: View {
                         Haptics.light()
                         dismiss()
                     } label: {
-                        Image(systemName: "xmark.circle.fill")
+                        Image(systemName: AnnoSymbol.close)
                             .font(Typography.subheadlineSemibold)
                             .symbolRenderingMode(.hierarchical)
                             .foregroundStyle(AnnoTheme.incense)
@@ -86,6 +95,9 @@ struct SourceSheet: View {
             }
             .toolbarBackground(AnnoTheme.choir, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
+            .onAppear {
+                appeared = true
+            }
         }
     }
 
@@ -118,15 +130,35 @@ struct SourceSheet: View {
                 .fixedSize(horizontal: false, vertical: true)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-        .annoCard()
-        .shadow(
-            color: AnnoTheme.cardShadow.color,
-            radius: AnnoTheme.cardShadow.radius,
-            x: AnnoTheme.cardShadow.x,
-            y: AnnoTheme.cardShadow.y
-        )
+        .annoSurface(.research)
         .accessibilityElement(children: .combine)
         .accessibilityLabel("\(confidenceSectionTitle): \(localizedText.confidenceLabel). \(localizedText.confidenceNote)")
+    }
+
+    private var emptySourcesState: some View {
+        VStack(spacing: AnnoTheme.md) {
+            AnnoIconBadge(
+                symbol: AnnoSymbol.sources,
+                tint: AnnoTheme.incense,
+                size: 52
+            )
+
+            Text(language == .vietnamese ? "Chưa có nguồn cho mục này" : "No sources attached yet")
+                .font(Typography.headlineSerif)
+                .foregroundStyle(AnnoTheme.textPrimary)
+                .multilineTextAlignment(.center)
+
+            Text(language == .vietnamese
+                 ? "Anno sẽ hiển thị nguồn tại đây khi dữ liệu nghiên cứu đã được gắn vào mục."
+                 : "Anno will show research references here when they are attached to this entry.")
+                .font(Typography.subheadlineSerif)
+                .foregroundStyle(AnnoTheme.textSecondary)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .frame(maxWidth: .infinity)
+        .annoSurface(.research)
+        .accessibilityElement(children: .combine)
     }
 
     // MARK: - Sources List
@@ -158,13 +190,7 @@ struct SourceSheet: View {
                             }
                         }
                     }
-                    .annoCard()
-                    .shadow(
-                        color: AnnoTheme.subtleShadow.color,
-                        radius: AnnoTheme.subtleShadow.radius,
-                        x: AnnoTheme.subtleShadow.x,
-                        y: AnnoTheme.subtleShadow.y
-                    )
+                    .annoSurface(.base, padding: 0)
                 }
             }
         }
