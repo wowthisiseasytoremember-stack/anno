@@ -34,7 +34,9 @@ public struct SacredSiteMapView: View {
     @StateObject private var geoLoader = SacredGeographyLoader.shared
     @StateObject private var exemplarContent = SoCalExemplarContentLoader.shared
     @StateObject private var progressStore = PilgrimageProgressStore.shared
+    @StateObject private var locationService = PilgrimageLocationService.shared
     @AppStorage("anno.socalExemplarHeroSeen") private var hasSeenSoCalExemplarHero = false
+    @State private var lastHapticArrivalChapterId: String?
 
     @State private var mode: MapExplorationMode = .pilgrimages
     @State private var selectedCalling: SpiritualCalling = .all
@@ -138,6 +140,7 @@ public struct SacredSiteMapView: View {
                 if mode == .pilgrimages {
                     callingFilterCarousel
                     routeSelectionCarousel
+                    arrivalMagicBar
                 } else if mode == .sanctuaries {
                     sanctuaryCategoryFilter
                 }
@@ -184,6 +187,187 @@ public struct SacredSiteMapView: View {
                 updateCameraPosition()
             }
         }
+        .onChange(of: locationService.latestLocation) { _, _ in
+            handleLocationMomentIfNeeded()
+        }
+    }
+
+    private var arrivalMagicBar: some View {
+        Group {
+            switch locationService.authorizationStatus {
+            case .notDetermined:
+                Button {
+                    Haptics.light()
+                    locationService.begin()
+                } label: {
+                    HStack(spacing: 8) {
+                        Image(systemName: "location.fill")
+                        Text(
+                            language == .vietnamese
+                                ? "Bật Phép Màu Khi Đến Nơi"
+                                : "Enable Arrival Magic"
+                        )
+                        Spacer()
+                        Image(systemName: "sparkles")
+                    }
+                    .font(Typography.captionSemibold)
+                    .foregroundStyle(AnnoTheme.narthex)
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 9)
+                    .background(AnnoTheme.goldLeaf)
+                    .clipShape(Capsule())
+                }
+                .buttonStyle(.plain)
+                .padding(.horizontal, 16)
+
+            case .authorizedWhenInUse, .authorizedAlways:
+                if let nearby = locationService.nearestRelevantChapter() {
+                    Button {
+                        openNearbyChapter(nearby.chapter)
+                    } label: {
+                        HStack(spacing: 8) {
+                            Image(
+                                systemName: nearby.proximity == .arrived
+                                    ? "mappin.and.ellipse"
+                                    : "location.viewfinder"
+                            )
+                            .symbolRenderingMode(.hierarchical)
+                            .foregroundStyle(
+                                nearby.proximity == .arrived
+                                    ? AnnoTheme.gilt
+                                    : AnnoTheme.goldLeaf
+                            )
+
+                            VStack(alignment: .leading, spacing: 1) {
+                                Text(
+                                    nearby.proximity == .arrived
+                                        ? (language == .vietnamese ? "BẠN ĐÃ ĐẾN" : "YOU'VE ARRIVED")
+                                        : (language == .vietnamese ? "ĐANG ĐẾN GẦN" : "APPROACHING")
+                                )
+                                .font(Typography.caption2Bold)
+                                .tracking(1.0)
+                                .foregroundStyle(AnnoTheme.gilt)
+
+                                Text(nearby.chapter.title(for: language))
+                                    .font(Typography.captionSemiboldSerif)
+                                    .foregroundStyle(AnnoTheme.vellum)
+                                    .lineLimit(2)
+                            }
+
+                            Spacer()
+
+                            Text(
+                                Measurement(
+                                    value: nearby.distanceMeters,
+                                    unit: UnitLength.meters
+                                )
+                                .formatted(
+                                    .measurement(
+                                        width: .abbreviated,
+                                        usage: .road
+                                    )
+                                )
+                            )
+                            .font(Typography.caption2MonospacedSemibold)
+                            .foregroundStyle(AnnoTheme.incense)
+                        }
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 9)
+                        .background {
+                            Capsule()
+                                .fill(AnnoTheme.narthex.opacity(0.92))
+                        }
+                        .overlay {
+                            Capsule()
+                                .strokeBorder(
+                                    nearby.proximity == .arrived
+                                        ? AnnoTheme.gilt.opacity(0.85)
+                                        : AnnoTheme.goldLeaf.opacity(0.45),
+                                    lineWidth: nearby.proximity == .arrived ? 1.4 : 1
+                                )
+                        }
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, 16)
+                } else if locationService.isActive {
+                    HStack(spacing: 8) {
+                        Image(systemName: "location.fill")
+                            .foregroundStyle(AnnoTheme.verdigris)
+                        Text(
+                            language == .vietnamese
+                                ? "Phép màu khi đến nơi đang bật"
+                                : "Arrival Magic is on"
+                        )
+                            .font(Typography.caption2Medium)
+                            .foregroundStyle(AnnoTheme.incense)
+                        Spacer()
+                    }
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 7)
+                    .background {
+                        Capsule()
+                            .fill(AnnoTheme.narthex.opacity(0.82))
+                    }
+                    .padding(.horizontal, 16)
+                }
+
+            case .denied, .restricted:
+                HStack(spacing: 8) {
+                    Image(systemName: "location.slash.fill")
+                        .foregroundStyle(AnnoTheme.incense)
+                    Text(
+                        language == .vietnamese
+                            ? "Vị trí đang tắt — nút “Tôi Đang Ở Đây” vẫn hoạt động"
+                            : "Location is off — “I'm Here” still works"
+                    )
+                    .font(Typography.caption2Medium)
+                    .foregroundStyle(AnnoTheme.incense)
+                    Spacer()
+                }
+                .padding(.horizontal, 12)
+                .padding(.vertical, 7)
+                .background {
+                    Capsule()
+                        .fill(AnnoTheme.narthex.opacity(0.82))
+                }
+                .padding(.horizontal, 16)
+
+            @unknown default:
+                EmptyView()
+            }
+        }
+    }
+
+    private func openNearbyChapter(_ chapter: PilgrimageChapterLocation) {
+        guard let route = geoLoader.routes.first(where: {
+            $0.routeId == "socal_vietnamese_catholic_pilgrimage_la_vang"
+        }),
+        let waypoint = route.waypoints.first(where: {
+            $0.waypointId == chapter.representativeWaypointId
+        }) else {
+            return
+        }
+
+        geoLoader.selectedRoute = route
+        geoLoader.selectedWaypoint = waypoint
+        selectedWaypoint = waypoint
+        sheetExpanded = true
+        Haptics.sacredArrival(.feast)
+        updateCameraPosition()
+    }
+
+    private func handleLocationMomentIfNeeded() {
+        guard let nearby = locationService.nearestRelevantChapter(),
+              nearby.proximity == .arrived else {
+            return
+        }
+
+        guard lastHapticArrivalChapterId != nearby.chapter.id else {
+            return
+        }
+
+        lastHapticArrivalChapterId = nearby.chapter.id
+        Haptics.sacredArrival(.solemnity)
     }
 
     private var emptyPilgrimageState: some View {
@@ -252,6 +436,8 @@ public struct SacredSiteMapView: View {
 
     private var mapLayer: some View {
         Map(position: $position) {
+            UserAnnotation()
+
             switch mode {
             case .feastSites:
                 ForEach(siteEntries) { entry in
