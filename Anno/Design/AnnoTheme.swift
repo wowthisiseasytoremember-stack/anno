@@ -20,6 +20,24 @@ enum AnnoTheme {
     static let roseLiturgical = Color(hex: 0xB3666E)
     static let candleGlow = Color(hex: 0xEDB84C)
 
+    // MARK: - Semantic Surfaces
+
+    static let surfaceBase = choir
+    static let surfaceRaised = Color(hex: 0x28221B)
+    static let surfaceInset = Color(hex: 0x181512)
+    static let borderSubtle = ash.opacity(0.9)
+    static let borderEmphasis = goldLeaf.opacity(0.42)
+    static let textPrimary = vellum
+    static let textSecondary = incense
+    static let textAccent = gilt
+
+    // MARK: - Shape
+
+    static let radiusCompact: CGFloat = 10
+    static let radiusCard: CGFloat = 16
+    static let radiusHero: CGFloat = 22
+    static let minimumTapTarget: CGFloat = 44
+
     // MARK: - Confidence Colors
 
     static func confidenceColor(_ confidence: ConfidenceLevel) -> Color {
@@ -133,7 +151,7 @@ extension Color {
 // MARK: - AnnoCard View Modifier
 
 struct AnnoCard: ViewModifier {
-    var cornerRadius: CGFloat = 12
+    var cornerRadius: CGFloat = AnnoTheme.radiusCard
 
     func body(content: Content) -> some View {
         content
@@ -148,7 +166,7 @@ struct AnnoCard: ViewModifier {
 }
 
 extension View {
-    func annoCard(cornerRadius: CGFloat = 12) -> some View {
+    func annoCard(cornerRadius: CGFloat = AnnoTheme.radiusCard) -> some View {
         modifier(AnnoCard(cornerRadius: cornerRadius))
     }
 }
