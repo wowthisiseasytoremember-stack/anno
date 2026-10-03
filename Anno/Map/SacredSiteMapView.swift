@@ -279,14 +279,9 @@ public struct SacredSiteMapView: View {
                                     routeId: route.routeId,
                                     waypointId: wp.waypointId
                                 )
-                                switch moment?.level {
-                                case .climax:
-                                    Haptics.success()
-                                case .highlight:
-                                    Haptics.medium()
-                                case nil:
-                                    Haptics.light()
-                                }
+                                Haptics.sacredArrival(
+                                    moment?.level.sacredIntensity ?? .ordinary
+                                )
 
                                 withAnimation(
                                     moment?.level == .climax
@@ -871,7 +866,13 @@ public struct SacredSiteMapView: View {
 
                             if exemplarIsComplete(route: route) {
                                 progressStore.markCompleted(routeId: route.routeId)
-                                Haptics.success()
+                                Haptics.pilgrimageComplete()
+                            } else if let station = exemplarStation(route: route, waypoint: wp) {
+                                Haptics.sacredArrival(
+                                    station.momentLevel == "climax"
+                                        ? .solemnity
+                                        : (station.momentLevel == "highlight" ? .feast : .ordinary)
+                                )
                             } else {
                                 Haptics.medium()
                             }
