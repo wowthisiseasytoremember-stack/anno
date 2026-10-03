@@ -284,6 +284,11 @@ public struct SacredSiteMapView: View {
                 routeId: route.routeId,
                 stationId: waypoint.waypointId
             )
+
+            focusOnWaypoint(
+                route: route,
+                waypoint: waypoint
+            )
         }
         .onChange(of: locationService.latestLocation) { _, _ in
             handleLocationMomentIfNeeded()
@@ -1033,18 +1038,63 @@ public struct SacredSiteMapView: View {
     // MARK: - Atmosphere Overlay
 
     private var atmosphereOverlay: some View {
-        RadialGradient(
-            gradient: Gradient(colors: [
-                AnnoTheme.narthex.opacity(0.92),
-                AnnoTheme.narthex.opacity(0.0)
-            ]),
-            center: .top,
-            startRadius: 0,
-            endRadius: 180
-        )
-        .frame(height: 140)
+        TimelineView(.periodic(from: .now, by: 60)) { context in
+            let hour = Calendar.current.component(.hour, from: context.date)
+
+            ZStack {
+                RadialGradient(
+                    colors: ambientMapColors(for: hour),
+                    center: .top,
+                    startRadius: 0,
+                    endRadius: 210
+                )
+
+                LinearGradient(
+                    colors: [
+                        AnnoTheme.narthex.opacity(0.72),
+                        .clear
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+            }
+            .animation(AnnoMotion.atmosphere, value: hour)
+        }
+        .frame(height: 160)
         .allowsHitTesting(false)
         .ignoresSafeArea(edges: .top)
+    }
+
+    private func ambientMapColors(for hour: Int) -> [Color] {
+        switch hour {
+        case 5..<8:
+            return [
+                AnnoTheme.candleGlow.opacity(0.24),
+                AnnoTheme.lapis.opacity(0.13),
+                AnnoTheme.narthex.opacity(0.0)
+            ]
+
+        case 8..<17:
+            return [
+                AnnoTheme.gilt.opacity(0.14),
+                AnnoTheme.goldLeaf.opacity(0.06),
+                AnnoTheme.narthex.opacity(0.0)
+            ]
+
+        case 17..<21:
+            return [
+                AnnoTheme.candleGlow.opacity(0.20),
+                AnnoTheme.crimson.opacity(0.09),
+                AnnoTheme.narthex.opacity(0.0)
+            ]
+
+        default:
+            return [
+                AnnoTheme.lapis.opacity(0.22),
+                AnnoTheme.narthex.opacity(0.18),
+                AnnoTheme.narthex.opacity(0.0)
+            ]
+        }
     }
 
     // MARK: - Bottom Sheet
@@ -1566,6 +1616,34 @@ public struct SacredSiteMapView: View {
     }
 
     // MARK: - Camera & Coordinate Math
+
+    private func focusOnWaypoint(
+        route: PilgrimageRoute,
+        waypoint: PilgrimageWaypoint
+    ) {
+        let moment = PilgrimageMomentRegistry.shared.moment(
+            routeId: route.routeId,
+            waypointId: waypoint.waypointId
+        )
+
+        let distance: CLLocationDistance =
+            moment?.level == .climax ? 650 : 900
+
+        withAnimation(
+            moment?.level == .climax
+                ? AnnoMotion.immersive
+                : AnnoMotion.selection
+        ) {
+            position = .camera(
+                MapCamera(
+                    centerCoordinate: waypoint.coordinate,
+                    distance: distance,
+                    heading: 0,
+                    pitch: 42
+                )
+            )
+        }
+    }
 
     private func updateCameraPosition() {
         switch mode {
