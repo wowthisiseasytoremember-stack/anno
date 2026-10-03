@@ -59,6 +59,38 @@ struct AnnoDailyWidgetView: View {
     @Environment(\.widgetFamily) private var family
     let entry: AnnoWidgetEntry
 
+    private enum Emphasis {
+        case ordinary
+        case feast
+        case solemnity
+    }
+
+    private var emphasis: Emphasis {
+        switch entry.glance.rank.lowercased() {
+        case "solemnity":
+            return .solemnity
+        case "sunday", "feast", "memorial", "optional memorial":
+            return .feast
+        default:
+            return .ordinary
+        }
+    }
+
+    private var accent: Color {
+        switch entry.glance.liturgicalColorName.lowercased() {
+        case "red":
+            return Color(red: 0.55, green: 0.18, blue: 0.23)
+        case "purple", "violet":
+            return Color(red: 0.36, green: 0.24, blue: 0.43)
+        case "green", "verdigris":
+            return Color(red: 0.23, green: 0.42, blue: 0.32)
+        case "white", "gold":
+            return Color(red: 0.79, green: 0.66, blue: 0.30)
+        default:
+            return Color(red: 0.79, green: 0.66, blue: 0.30)
+        }
+    }
+
     var body: some View {
         switch family {
         case .accessoryCircular:
@@ -73,43 +105,98 @@ struct AnnoDailyWidgetView: View {
     }
 
     private var systemWidget: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack(spacing: 6) {
-                Image(systemName: "cross.fill")
-                    .font(.caption2)
-                Text("ANNO")
-                    .font(.caption2.weight(.semibold))
-                    .tracking(1.3)
-                Spacer()
+        ZStack(alignment: .topTrailing) {
+            if emphasis == .solemnity {
+                Circle()
+                    .fill(
+                        RadialGradient(
+                            colors: [
+                                Color(red: 0.85, green: 0.72, blue: 0.36).opacity(0.34),
+                                .clear
+                            ],
+                            center: .center,
+                            startRadius: 0,
+                            endRadius: 90
+                        )
+                    )
+                    .frame(width: 150, height: 150)
+                    .offset(x: 55, y: -58)
             }
-            .foregroundStyle(.secondary)
 
-            Text(entry.glance.title)
-                .font(.headline)
-                .fontDesign(.serif)
-                .lineLimit(2)
+            VStack(alignment: .leading, spacing: 8) {
+                HStack(spacing: 6) {
+                    Image(systemName: "cross.fill")
+                        .font(.caption2)
+                        .foregroundStyle(emphasis == .ordinary ? .secondary : accent)
 
-            Text(entry.glance.subtitle)
-                .font(.caption)
+                    Text("ANNO")
+                        .font(.caption2.weight(.semibold))
+                        .tracking(1.3)
+
+                    Spacer()
+
+                    if emphasis != .ordinary {
+                        Text(entry.glance.rank.uppercased())
+                            .font(.caption2.weight(.bold))
+                            .foregroundStyle(emphasis == .solemnity ? accent : .secondary)
+                            .lineLimit(1)
+                    }
+                }
                 .foregroundStyle(.secondary)
-                .lineLimit(2)
 
-            Spacer(minLength: 0)
+                Text(entry.glance.title)
+                    .font(emphasis == .solemnity ? .title3.bold() : .headline)
+                    .fontDesign(.serif)
+                    .lineLimit(emphasis == .solemnity ? 3 : 2)
 
-            Text(entry.glance.rank)
-                .font(.caption2.weight(.medium))
-                .foregroundStyle(.secondary)
+                Text(entry.glance.subtitle)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(2)
+
+                Spacer(minLength: 0)
+
+                HStack(spacing: 6) {
+                    Circle()
+                        .fill(accent)
+                        .frame(width: 7, height: 7)
+
+                    Text(emphasis == .ordinary ? entry.glance.rank : "TODAY IS SPECIAL")
+                        .font(.caption2.weight(emphasis == .solemnity ? .bold : .medium))
+                        .foregroundStyle(emphasis == .solemnity ? accent : .secondary)
+                }
+            }
         }
         .containerBackground(for: .widget) {
-            Color(red: 0.075, green: 0.067, blue: 0.055)
+            LinearGradient(
+                colors: emphasis == .solemnity
+                    ? [
+                        Color(red: 0.10, green: 0.085, blue: 0.06),
+                        accent.opacity(0.18),
+                        Color(red: 0.075, green: 0.067, blue: 0.055)
+                    ]
+                    : [
+                        Color(red: 0.075, green: 0.067, blue: 0.055),
+                        accent.opacity(emphasis == .feast ? 0.10 : 0.035)
+                    ],
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
         }
     }
 
     private var accessoryCircular: some View {
         ZStack {
             AccessoryWidgetBackground()
+
+            if emphasis != .ordinary {
+                Circle()
+                    .strokeBorder(.primary.opacity(emphasis == .solemnity ? 0.95 : 0.5), lineWidth: emphasis == .solemnity ? 2 : 1)
+                    .padding(2)
+            }
+
             VStack(spacing: 1) {
-                Image(systemName: "cross.fill")
+                Image(systemName: emphasis == .solemnity ? "sparkles" : "cross.fill")
                 Text(dayNumber)
                     .font(.caption.weight(.bold))
             }
@@ -120,13 +207,18 @@ struct AnnoDailyWidgetView: View {
     }
 
     private var accessoryRectangular: some View {
-        VStack(alignment: .leading, spacing: 2) {
-            Text(entry.glance.rank.uppercased())
-                .font(.caption2.weight(.semibold))
-            Text(entry.glance.title)
+        HStack(spacing: 8) {
+            Image(systemName: emphasis == .solemnity ? "sparkles" : "cross.fill")
                 .font(.headline)
-                .fontDesign(.serif)
-                .lineLimit(2)
+
+            VStack(alignment: .leading, spacing: 2) {
+                Text(entry.glance.rank.uppercased())
+                    .font(.caption2.weight(.semibold))
+                Text(entry.glance.title)
+                    .font(.headline)
+                    .fontDesign(.serif)
+                    .lineLimit(2)
+            }
         }
     }
 
