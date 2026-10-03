@@ -49,21 +49,35 @@ final class FixtureStore: ObservableObject {
             throw FixtureError.emptyResource("anno_unified_2026.json")
         }
 
-        let week: WeekFixture = try decodeResource(
-            "anno_week_current",
-            extension: "json",
-            bundle: bundle
-        )
+        let formatter = DateFormatter()
+        formatter.calendar = Calendar(identifier: .gregorian)
+        formatter.locale = Locale(identifier: "en_US_POSIX")
+        formatter.dateFormat = "yyyy-MM-dd"
 
-        let validWeekIDs = week.entryIds.filter { id in
-            fixture.entries.contains(where: { $0.id == id })
-        }
-        let selectedID = validWeekIDs.first ?? fixture.entries.first?.id
+        let now = Date()
+        let selectedEntry = fixture.entries.min { lhs, rhs in
+            let lhsDate = formatter.date(from: lhs.date) ?? .distantPast
+            let rhsDate = formatter.date(from: rhs.date) ?? .distantPast
+            return abs(lhsDate.timeIntervalSince(now)) < abs(rhsDate.timeIntervalSince(now))
+        } ?? fixture.entries[0]
+
+        let selectedDate = formatter.date(from: selectedEntry.date) ?? now
+        let calendar = Calendar(identifier: .gregorian)
+        let weekDateKeys = Set((-3...3).compactMap { offset -> String? in
+            guard let date = calendar.date(byAdding: .day, value: offset, to: selectedDate) else {
+                return nil
+            }
+            return formatter.string(from: date)
+        })
+
+        let weekIDs = fixture.entries
+            .filter { weekDateKeys.contains($0.date) }
+            .map(\.id)
 
         return FixtureStore(
             fixture: fixture,
-            weekEntryIDs: validWeekIDs,
-            selectedEntryID: selectedID
+            weekEntryIDs: weekIDs,
+            selectedEntryID: selectedEntry.id
         )
     }
 
