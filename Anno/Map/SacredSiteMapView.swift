@@ -97,10 +97,10 @@ public struct SacredSiteMapView: View {
             }
             updateCameraPosition()
         }
-        .onChange(of: mode) { _ in
+        .onChange(of: mode) { _, _ in
             updateCameraPosition()
         }
-        .onChange(of: geoLoader.selectedRoute) { _ in
+        .onChange(of: geoLoader.selectedRoute) { _, _ in
             updateCameraPosition()
         }
     }
