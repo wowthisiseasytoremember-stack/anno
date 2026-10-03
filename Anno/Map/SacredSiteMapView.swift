@@ -170,6 +170,9 @@ public struct SacredSiteMapView: View {
 
             updateCameraPosition()
         }
+        .onDisappear {
+            locationService.stop()
+        }
         .onChange(of: mode) { _, _ in
             updateCameraPosition()
         }
@@ -256,18 +259,7 @@ public struct SacredSiteMapView: View {
 
                             Spacer()
 
-                            Text(
-                                Measurement(
-                                    value: nearby.distanceMeters,
-                                    unit: UnitLength.meters
-                                )
-                                .formatted(
-                                    .measurement(
-                                        width: .abbreviated,
-                                        usage: .road
-                                    )
-                                )
-                            )
+                            Text(distanceLabel(nearby.distanceMeters))
                             .font(Typography.caption2MonospacedSemibold)
                             .foregroundStyle(AnnoTheme.incense)
                         }
@@ -298,8 +290,8 @@ public struct SacredSiteMapView: View {
                                 ? "Phép màu khi đến nơi đang bật"
                                 : "Arrival Magic is on"
                         )
-                            .font(Typography.caption2Medium)
-                            .foregroundStyle(AnnoTheme.incense)
+                        .font(Typography.caption2Medium)
+                        .foregroundStyle(AnnoTheme.incense)
                         Spacer()
                     }
                     .padding(.horizontal, 12)
@@ -308,6 +300,39 @@ public struct SacredSiteMapView: View {
                         Capsule()
                             .fill(AnnoTheme.narthex.opacity(0.82))
                     }
+                    .padding(.horizontal, 16)
+                } else {
+                    Button {
+                        Haptics.light()
+                        locationService.begin()
+                    } label: {
+                        HStack(spacing: 8) {
+                            Image(systemName: "location.fill")
+                            Text(
+                                language == .vietnamese
+                                    ? "Tiếp Tục Phép Màu Khi Đến Nơi"
+                                    : "Resume Arrival Magic"
+                            )
+                            Spacer()
+                            Image(systemName: "play.fill")
+                        }
+                        .font(Typography.captionSemibold)
+                        .foregroundStyle(AnnoTheme.vellum)
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 9)
+                        .background {
+                            Capsule()
+                                .fill(AnnoTheme.narthex.opacity(0.92))
+                        }
+                        .overlay {
+                            Capsule()
+                                .strokeBorder(
+                                    AnnoTheme.goldLeaf.opacity(0.45),
+                                    lineWidth: 1
+                                )
+                        }
+                    }
+                    .buttonStyle(.plain)
                     .padding(.horizontal, 16)
                 }
 
@@ -336,6 +361,14 @@ public struct SacredSiteMapView: View {
                 EmptyView()
             }
         }
+    }
+
+    private func distanceLabel(_ meters: Double) -> String {
+        if meters < 1_000 {
+            return "\(Int(meters.rounded())) m"
+        }
+
+        return String(format: "%.1f km", meters / 1_000)
     }
 
     private func openNearbyChapter(_ chapter: PilgrimageChapterLocation) {
