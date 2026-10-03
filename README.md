@@ -6,7 +6,7 @@
 
 - **Daily devotional:** EN-primary Catholic devotional content backed by structured research and source references.
 - **Deterministic calendar engine:** Engine A converts Gregorian dates across the supported liturgical/calendar systems without using an LLM for date math.
-- **Five flagship pilgrimage routes:** Jerusalem / Holy Land, Rome Seven Churches, Camino de Santiago, Southern California La Vang, and Our Lady of Guadalupe.
+- **Five flagship pilgrimage routes:** Orange County / Our Lady of La Vang (featured exemplar), Jerusalem / Holy Land, Rome Seven Churches, Camino de Santiago, and Our Lady of Guadalupe.
 - **Focused localization:** English is primary; Vietnamese is required for the selected major feasts defined in the current product docs.
 - **Two tiers:** Free + Premium ($49.99/year).
 
@@ -19,7 +19,7 @@ The following are **not v1 features**: AR reliquaries, spatial/geofenced audio, 
 - The normalized 2026 app fixture is `Anno/Resources/anno_unified_2026.json`.
 - The v1 pilgrimage source of truth is `Anno/Resources/flagship_routes_v1.json`; the app loader resolves those five route files directly.
 - The native client lives under `Anno/` and is generated from `Anno/project.yml` with XcodeGen.
-- GitHub Actions provides macOS/Xcode build validation for the native client.
+- Cheap GitHub Actions validate engines/content/routes on pushes. Native macOS/Xcode validation is intentionally manual/opt-in to avoid accidental runner-minute burn.
 
 ## Repository map
 
@@ -46,13 +46,15 @@ The following are **not v1 features**: AR reliquaries, spatial/geofenced audio, 
 
 Read these before extending the product:
 
-1. `AGENTS.md` — current scope, invariants, and handoff state.
-2. `PRD.md` — v1 product definition.
+1. `START_HERE.md` — canonical orientation and scope.
+2. `PRD.md` — current product definition.
 3. `ROADMAP.md` — current delivery state and next phases.
-4. `ARCHITECTURE.md` — architecture and data-flow decisions.
-5. `docs/NATIVE_BUILD_RUNBOOK.md` — native build and TestFlight path.
+4. `ARCHITECTURE.md` — active architecture and boundaries.
+5. `docs/HANDOFF_2026-10-03.md` — exact pause/resume state.
+6. `docs/NATIVE_BUILD_RUNBOOK.md` — native build and TestFlight path.
+7. `AGENTS.md` — repository instructions and invariants.
 
-When older documents disagree with these, treat the current v1 scope above and `AGENTS.md` as authoritative.
+When older documents disagree with these, treat `START_HERE.md`, the current root docs above, and Issues #28/#31/#33 as authoritative.
 
 ## Useful validation commands
 
