@@ -32,6 +32,9 @@ public struct SacredSiteMapView: View {
     public let language: LanguageMode
 
     @StateObject private var geoLoader = SacredGeographyLoader.shared
+    @StateObject private var exemplarContent = SoCalExemplarContentLoader.shared
+    @StateObject private var progressStore = PilgrimageProgressStore.shared
+    @AppStorage("anno.socalExemplarHeroSeen") private var hasSeenSoCalExemplarHero = false
 
     @State private var mode: MapExplorationMode = .pilgrimages
     @State private var selectedCalling: SpiritualCalling = .all
@@ -62,6 +65,31 @@ public struct SacredSiteMapView: View {
     private var connectedRoutesToToday: [PilgrimageRoute] {
         guard let today = currentEntry else { return [] }
         return geoLoader.routes.filter { $0.isLiturgicallyConnected(to: today) }
+    }
+
+    private var selectedRouteIsSoCalExemplar: Bool {
+        guard let route = geoLoader.selectedRoute else { return false }
+        return route.routeId == exemplarContent.content?.routeId
+    }
+
+    private func isSoCalExemplar(_ route: PilgrimageRoute) -> Bool {
+        route.routeId == exemplarContent.content?.routeId
+    }
+
+    private func exemplarStation(
+        route: PilgrimageRoute,
+        waypoint: PilgrimageWaypoint
+    ) -> SoCalExemplarContent.Station? {
+        guard isSoCalExemplar(route) else { return nil }
+        return exemplarContent.content?.station(id: waypoint.waypointId)
+    }
+
+    private func exemplarChapter(
+        route: PilgrimageRoute,
+        waypoint: PilgrimageWaypoint
+    ) -> SoCalExemplarContent.Chapter? {
+        guard isSoCalExemplar(route) else { return nil }
+        return exemplarContent.content?.chapter(containing: waypoint.waypointId)
     }
 
     public var body: some View {
@@ -103,6 +131,13 @@ public struct SacredSiteMapView: View {
             if geoLoader.routes.isEmpty {
                 geoLoader.loadData()
             }
+
+            if selectedRouteIsSoCalExemplar && !hasSeenSoCalExemplarHero {
+                selectedWaypoint = geoLoader.selectedRoute?.waypoints.first
+                sheetExpanded = true
+                hasSeenSoCalExemplarHero = true
+            }
+
             updateCameraPosition()
         }
         .onChange(of: mode) { _, _ in
@@ -374,6 +409,9 @@ public struct SacredSiteMapView: View {
                         withAnimation(AnnoMotion.selection) {
                             geoLoader.selectedRoute = route
                             selectedWaypoint = route.waypoints.first
+                            if isSoCalExemplar(route) {
+                                sheetExpanded = true
+                            }
                         }
                     } label: {
                         HStack(spacing: 6) {
@@ -506,6 +544,17 @@ public struct SacredSiteMapView: View {
                 Text("\(waypoint.order)")
                     .font(Typography.captionBoldSerif)
                     .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
+
+                if progressStore.isVisited(
+                    routeId: route.routeId,
+                    waypointId: waypoint.waypointId
+                ) {
+                    Image(systemName: "checkmark.seal.fill")
+                        .font(Typography.iconSmall)
+                        .foregroundStyle(AnnoTheme.verdigris)
+                        .background(Circle().fill(AnnoTheme.narthex))
+                        .offset(x: baseSize * 0.43, y: baseSize * 0.40)
+                }
 
                 if let moment {
                     Image(systemName: moment.level == .climax ? "sparkles" : AnnoSymbol.sacred)
@@ -712,6 +761,16 @@ public struct SacredSiteMapView: View {
 
     private func pilgrimageRouteDetailView(route: PilgrimageRoute) -> some View {
         VStack(alignment: .leading, spacing: 14) {
+            if isSoCalExemplar(route),
+               let content = exemplarContent.content {
+                SoCalPilgrimageHero(
+                    content: content,
+                    language: language,
+                    visitedCount: progressStore.visitedCount(route: route),
+                    totalCount: route.waypoints.count
+                )
+            }
+
             // Spiritual theme & badges
             HStack(spacing: 8) {
                 Label("\(route.durationDays) \(language == .vietnamese ? "ngày" : "days")", systemImage: "clock")
@@ -767,6 +826,37 @@ public struct SacredSiteMapView: View {
                             tint: AnnoTheme.goldLeaf
                         )
                     }
+
+                    if let chapter = exemplarChapter(route: route, waypoint: wp) {
+                        SoCalChapterHeader(chapter: chapter, language: language)
+                    }
+
+                    if let station = exemplarStation(route: route, waypoint: wp) {
+                        SoCalStationRitualView(
+                            station: station,
+                            language: language
+                        )
+
+                        PilgrimageVisitButton(
+                            isVisited: progressStore.isVisited(
+                                routeId: route.routeId,
+                                waypointId: wp.waypointId
+                            ),
+                            language: language
+                        ) {
+                            let willComplete =
+                                progressStore.visitedCount(route: route) == route.waypoints.count - 1
+
+                            progressStore.markVisited(route: route, waypoint: wp)
+
+                            if willComplete {
+                                Haptics.success()
+                            } else {
+                                Haptics.medium()
+                            }
+                        }
+                    }
+
                     HStack(alignment: .top) {
                         VStack(alignment: .leading, spacing: 2) {
                             Text("Station \(wp.order): \(wp.name(for: language))")
@@ -789,12 +879,15 @@ public struct SacredSiteMapView: View {
                         }
                     }
 
-                    Text(wp.historicalSummary(for: language))
-                        .font(Typography.captionSerif)
-                        .lineSpacing(3)
-                        .foregroundStyle(AnnoTheme.vellum.opacity(0.92))
+                    if exemplarStation(route: route, waypoint: wp) == nil {
+                        Text(wp.historicalSummary(for: language))
+                            .font(Typography.captionSerif)
+                            .lineSpacing(3)
+                            .foregroundStyle(AnnoTheme.vellum.opacity(0.92))
+                    }
 
-                    if !wp.sacredRelic(for: language).isEmpty {
+                    if exemplarStation(route: route, waypoint: wp) == nil,
+                       !wp.sacredRelic(for: language).isEmpty {
                         HStack(alignment: .top, spacing: 8) {
                             Image(systemName: "sparkles")
                                 .font(Typography.caption2)
@@ -817,7 +910,8 @@ public struct SacredSiteMapView: View {
                         )
                     }
 
-                    if !wp.suggestedPrayer(for: language).isEmpty {
+                    if exemplarStation(route: route, waypoint: wp) == nil,
+                       !wp.suggestedPrayer(for: language).isEmpty {
                         VStack(alignment: .leading, spacing: 4) {
                             Text(language == .vietnamese ? "Lời Nguyện Hành Hương" : "Pilgrim's Prayer")
                                 .font(Typography.caption2Bold)
@@ -880,6 +974,17 @@ public struct SacredSiteMapView: View {
                 }
             }
 
+            if isSoCalExemplar(route),
+               progressStore.isComplete(route: route),
+               let content = exemplarContent.content {
+                PilgrimageCompletionKeepsake(
+                    content: content,
+                    language: language,
+                    completionDate: progressStore.completionDate(routeId: route.routeId)
+                )
+                .transition(.scale.combined(with: .opacity))
+            }
+
             // Waypoints Quick Switcher
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 8) {
@@ -891,12 +996,33 @@ public struct SacredSiteMapView: View {
                                 selectedWaypoint = wp
                             }
                         } label: {
-                            Text("\(wp.order). \(wp.name(for: language))")
-                                .font(Typography.caption2)
-                                .foregroundStyle(isSel ? AnnoTheme.narthex : AnnoTheme.vellum)
-                                .padding(.horizontal, 10)
-                                .padding(.vertical, 5)
-                                .background(Capsule().fill(isSel ? AnnoTheme.goldLeaf : AnnoTheme.ash))
+                            HStack(spacing: 4) {
+                                if progressStore.isVisited(
+                                    routeId: route.routeId,
+                                    waypointId: wp.waypointId
+                                ) {
+                                    Image(systemName: "checkmark")
+                                        .font(Typography.iconTiny)
+                                }
+
+                                Text("\(wp.order). \(wp.name(for: language))")
+                            }
+                            .font(Typography.caption2)
+                            .foregroundStyle(isSel ? AnnoTheme.narthex : AnnoTheme.vellum)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 5)
+                            .background(
+                                Capsule().fill(
+                                    isSel
+                                        ? AnnoTheme.goldLeaf
+                                        : (progressStore.isVisited(
+                                            routeId: route.routeId,
+                                            waypointId: wp.waypointId
+                                        )
+                                            ? AnnoTheme.verdigris.opacity(0.55)
+                                            : AnnoTheme.ash)
+                                )
+                            )
                         }
                         .buttonStyle(.plain)
                     }
