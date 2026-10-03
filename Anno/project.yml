@@ -5,10 +5,6 @@ options:
   deploymentTarget:
     iOS: "17.0"
 
-packages:
-  PilgrimCore:
-    path: ../ReliquaryExplorer/Packages/PilgrimCore
-
 settings:
   base:
     SWIFT_VERSION: "5.10"
@@ -23,8 +19,6 @@ targets:
     platform: iOS
     sources:
       - path: .
-    dependencies:
-      - package: PilgrimCore
     resources:
       - Resources/*
     info:
@@ -40,19 +34,8 @@ targets:
           - UIInterfaceOrientationLandscapeRight
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
-        UIBackgroundModes:
-          - audio
-        NSCameraUsageDescription: >
-          The camera is used by ARKit to detect surfaces so you can place
-          3-D reliquaries and Passion textiles in your physical space.
-          No images leave your device.
         NSLocationWhenInUseUsageDescription: >
-          Your location shows sanctuaries on the map and calibrates
-          distances while the app is open.
-        NSLocationAlwaysAndWhenInUseUsageDescription: >
-          The Pilgrim Guide monitors sanctuary geofences in the background
-          so narration begins automatically as you approach each sacred
-          site on the pilgrimage route — no continuous GPS, no map open.
+          Your location shows pilgrimage waypoints and feast sites on the map while the app is open.
         ITSAppUsesNonExemptEncryption: false
     settings:
       base:
