@@ -6,16 +6,16 @@ family: apps
 what: >-
   Native SwiftUI iOS app (working name "Anno") that pairs deterministic
   multi-calendar date conversion with sourced historical research and a
-  Catholic-first devotional content layer, with Vietnamese localization
-  structural from v1. v1 scope: Calendar engine (12 systems), GPS pilgrimage
-  routes (18 routes, 106 waypoints, 72 sanctuaries), daily bilingual devotional
-  content (EN/VI). Removed from v1: AR Reliquary, Spatial Audio, Interfaith layer.
+  Catholic-first devotional content layer. v1 scope: Calendar engine (12 systems),
+  GPS pilgrimage routes (5 flagship: Jerusalem, Rome, Santiago, La Vang, Guadalupe),
+  daily EN-primary devotional content (VI for 8 major feasts only).
+  Removed from v1: AR Reliquary, Spatial Audio, Interfaith layer.
 goal: >-
-  Scaffold the Xcode project (requires macOS), maintain the bilingual
-  content pipeline, and keep the master 182-day unified dataset normalized into
-  the Swift fixture schema. Content for Jul 3–Dec 31 2026 is 100% bilingual (EN/VI) with full sources.
+  Scaffold the Xcode project (requires macOS), maintain the content pipeline,
+  and keep the master 182-day unified dataset normalized into the Swift fixture
+  schema. Content for Jul 3–Dec 31 2026 is EN-primary (VI for 8 major feasts).
   Monetization: Free tier (calendar + basic devotional) + Premium $49.99/yr
-  (pilgrimage routes + full liturgical content + devotional deep-dives).
+  (5 flagship pilgrimage routes + full liturgical content + devotional deep-dives).
 status: active
 stack: [swift, swiftui, python]
 entrypoints:
@@ -32,14 +32,14 @@ modules:
     does: Exports calendar engine output as fixtures for the iOS target.
   - name: Content normalizer
     path: tools/normalize_fixture.py
-    does: Concats fortnight, Engine B July/Sep-Dec, and August tracks into Anno/Resources/anno_unified_2026.json (182 days), aligns schema, guarantees 100% *_vi leaves.
+    does: Concats fortnight, Engine B July/Sep-Dec, and August tracks into Anno/Resources/anno_unified_2026.json (182 days), aligns schema, guarantees 100% *_vi leaves for key feasts.
   - name: Localization
     path: ios/LocalizationManager.swift
-    does: Swift localization manager backing the Vietnamese-ready content shape.
+    does: Swift localization manager backing the Vietnamese-ready content shape (key feasts only).
   - name: iOS Client Application
     path: Anno/
     does: SwiftUI mobile app implementing Today, Calendar, Map (pilgrimage), and Saved views.
-updated: 2026-10-03 00:00 UTC
+updated: 2026-10-03 00:30 UTC
 ---
 
 # Interfaith Devotional Engine — AGENTS.md
@@ -51,10 +51,10 @@ updated: 2026-10-03 00:00 UTC
 |------|-------|
 | **Architecture & invariants** | `ARCHITECTURE.md` |
 | **Delivery roadmap (phases)** | `ROADMAP.md` |
-| **Current context** | v1 scope narrowed: Catholic-first devotional + deterministic 12-calendar engine + GPS pilgrimage routes (18 routes, 106 waypoints, 72 sanctuaries). Removed from v1: AR Reliquary (archive/v1-removed/ReliquaryExplorer), Spatial Audio, Interfaith layer. Monetization: Free + Premium $49.99/yr (2 tiers). Editorial gate for LLM content: **known risk — no human gate in v1; family validation for VI only**. Next: Xcode project scaffolding & build sweep on macOS (CI via GitHub Actions). |
+| **Current context** | v1 scope: Catholic-first devotional + deterministic 12-calendar engine + GPS pilgrimage routes (5 flagship: Jerusalem Via Dolorosa, Rome Seven Churches, Santiago de Compostela, La Vang Vietnam, Guadalupe Mexico). Removed from v1: AR Reliquary, Spatial Audio, Interfaith layer, 18 routes → 5 flagship. VI reduced to 8 major feasts only (Christmas, Easter, Pentecost, Assumption, Immaculate Conception, Divine Mercy, Christ the King, Epiphany). Monetization: Free + Premium $49.99/yr (2 tiers). GTM: Vietnamese diaspora channels (Lang Viet orgs, VietCatholic media, parish referrals). Editorial gate for LLM content: **known risk — no human gate in v1; family/community validation only**. LLM pipeline continues for Day 183+. Next: Xcode project scaffolding & build sweep on macOS (CI via GitHub Actions). |
 
 ## Project
-Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversion + sourced historical research + Catholic-first content layer. Working name: Anno. v1 = Calendar + Pilgrimage + Devotional only.
+Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversion + sourced historical research + Catholic-first content layer. Working name: Anno. v1 = Calendar (12 systems) + Pilgrimage (5 flagship routes) + Devotional (EN-primary, VI for 8 major feasts).
 
 ## Architecture: Two-Engine + Content Layer
 - **Engine A** (Python): deterministic calendar conversion — pyluach, hijri-converter, convertdate
@@ -78,15 +78,17 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 - Layer C does "framing" — facts rigorous, framing inspirational
 - Interfaith connections only where genuine intersection exists (v1: Catholic-only; interfaith deferred)
 - Native iOS implementation uses SwiftUI, StoreKit 2, MapKit, and Xcode String Catalogs
-- Vietnamese localization is structural from v1; do not hard-code English-only content shapes
+- Vietnamese localization: VI for 8 major feasts only (Christmas, Easter, Pentecost, Assumption, Immaculate Conception, Divine Mercy, Christ the King, Epiphany); EN-primary for all other days
 
 ## Ecosystem & Relationships
 - **Content Factory:** Standalone app. Independent monetization app; does not consume or produce content-factory pipelines.
 - **Engine A Shared Primitive:** Consumes `calendar_engine.py` (in this project root; infra copy archived).
 
 ## Known Risks (v1)
-- **LLM content without human editorial gate** — family VI validation only; no theologian reviewer. Reputational risk for Catholic audience. Mitigation: source validation gates strict; confidence=disputed for uncertain entries.
+- **LLM content without human editorial gate** — family/community validation only; no theologian reviewer. Reputational risk for Catholic audience. Mitigation: source validation gates strict; confidence=disputed for uncertain entries; **VI reduced to 8 major feasts to minimize surface area**.
 - **No iOS build yet** — requires macOS/Xcode. CI pipeline (GitHub Actions macOS) configured for future.
+- **Vietnamese diaspora GTM unproven** — Lang Viet orgs / VietCatholic media outreach untested; no guaranteed conversion rate.
+- **5 flagship routes** — may feel thin vs. competitor "unlimited" content; must execute depth (offline maps, audio, deep history) not breadth.
 
 ## Changelog
 

@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.0] - 2026-10-03
+
+### Scope & Strategy (v1 Decisions)
+- **Vietnamese scope reduction**: EN-primary for all 182 days; VI only for 8 major feasts (Christmas, Easter, Pentecost, Assumption, Immaculate Conception, Divine Mercy, Christ the King, Epiphany). Removes ~174 VI translations from v1 scope.
+- **Pilgrimage routes**: Reduced from 18 to 5 flagship routes (Jerusalem Via Dolorosa, Rome Seven Churches, Santiago de Compostela, La Vang Vietnam, Guadalupe Mexico). 13 routes deferred to v2.
+- **Go-to-Market**: Primary channel = Vietnamese diaspora (Lang Viet parish orgs, VietCatholic media, parish priest referrals). Secondary = SEO/content marketing (Catholic calendar, pilgrimage, La Vang keywords).
+- **Editorial gate**: Documented known risk — no theologian reviewer in v1; family/community validation only. LLM pipeline continues for Day 183+.
+- **Content pipeline**: Engine B LLM automation continues for Day 183+ (Jan 2027+); no human review queue.
+
+### Documentation
+- **UPDATED**: `AGENTS.md` — v1 scope (5 routes, 8 feasts VI), GTM, known risks, current context
+- **UPDATED**: `PRD.md` — Vietnamese scope, 5 flagship routes, GTM section added
+- **UPDATED**: `ROADMAP.md` — VI reduction, 5 flagship routes, GTM phase, editorial risk
+- **UPDATED**: `CHANGELOG.md` (this file)
+
+---
+
 ## [1.1.0] - 2026-10-03
 
 ### Scope & Strategy

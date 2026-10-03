@@ -52,8 +52,8 @@ And then the app tells them a story. With art. With a map. With a prayer.
 
 **v1 Scope (Narrowed from original 5-feature plan):**
 1. **Deterministic Calendar Engine** — 12 liturgical calendars (Gregorian, Julian, Hebrew, Islamic Umm al-Qura/Tabular, Coptic, Ethiopian, Byzantine, Armenian, Syriac, Talmudic notations). Pure Python, zero LLM.
-2. **GPS Pilgrimage Routes** — 18 curated routes (106 waypoints) across 72 sacred sanctuaries. MapKit-native, offline-capable.
-3. **Catholic-First Devotional Content** — Daily bilingual (EN/VI) entries with sourced research, artwork, prayer prompts.
+2. **GPS Pilgrimage Routes** — **5 flagship routes** (Jerusalem Via Dolorosa, Rome Seven Churches, Santiago de Compostela, La Vang Vietnam, Guadalupe Mexico) with offline MapKit maps. **18 routes deferred to v2**.
+3. **Catholic-First Devotional Content** — Daily **EN-primary** entries with **VI for major feasts only** (Christmas, Easter, Pentecost, Assumption, Immaculate Conception, Divine Mercy, Christ the King, Epiphany). Sourced research, artwork, prayer prompts.
 4. **Free + Premium ($49.99/yr)** — Two tiers only. No AR, no spatial audio engine, no interfaith layer in v1.
 
 ## The Moat
@@ -65,7 +65,26 @@ No other app does **deterministic multi-calendar conversion (12 systems) + sourc
 | Tier | Feature | Price |
 |------|---------|-------|
 | **Free** | Daily devotional + 1 calendar conversion (Gregorian) + basic map | $0 |
-| **Premium** | All 12 calendar systems + 18 pilgrimage routes (offline) + full liturgical content + artwork gallery + devotional deep-dives + source citations | **$49.99/yr** |
+| **Premium** | All 12 calendar systems + **5 flagship pilgrimage routes** (offline) + full liturgical content + artwork gallery + devotional deep-dives + source citations | **$49.99/yr** |
+
+## Go-to-Market (v1)
+
+**Primary Channel:** Vietnamese diaspora Catholic communities
+- Lang Viet parish organizations (US, Australia, France, Canada)
+- Vietnamese Catholic media (VNReport, VietCatholic, local parish bulletins)
+- Diaspora parish priests as trusted referrers
+- Facebook groups: "Cộng đồng Công giáo Việt Nam tại [Country]"
+
+**Secondary Channel:** SEO/Content Marketing
+- "Catholic calendar 2026", "Latin Mass calendar", "Eastern Catholic calendar"
+- "Catholic pilgrimage routes", "Via Dolorosa map", "Santiago de Compostela app"
+- "Vietnamese Catholic app", "La Vang pilgrimage"
+
+**Launch Sequence:**
+1. Family/close community beta (EN + key feasts VI) → testimonials
+2. Vietnamese diaspora outreach (priest referrals + community orgs)
+3. Catholic podcast/YouTube guest appearances
+4. App Store optimization (keywords: Catholic calendar, pilgrimage, La Vang)
 
 ---
 
