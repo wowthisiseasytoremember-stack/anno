@@ -203,7 +203,22 @@ struct SoCalExemplarContent: Codable, Sendable {
     }
 
     func station(id: String) -> Station? {
-        chapters.lazy.flatMap(\.stations).first { $0.id == id }
+        chapters.lazy.flatMap { $0.stations }.first { $0.id == id }
+    }
+
+    var coreRequiredStationIds: [String] {
+        guard let core = variants.first(where: { $0.id == "core" }) else {
+            return []
+        }
+
+        return chapters
+            .filter { core.chapterIds.contains($0.id) }
+            .sorted { $0.order < $1.order }
+            .flatMap { chapter in
+                chapter.stations
+                    .filter { $0.stationRole != "optional_context" }
+                    .map(\.id)
+            }
     }
 }
 
