@@ -342,6 +342,35 @@ struct MonthCalendarView: View {
 
     // MARK: - Detail Panel
 
+    private func selectedDayBanner(for entry: AnnoEntry) -> SacredMomentBanner? {
+        let intensity = SacredIntensity.from(rank: entry.liturgical.rank)
+        let rank = entry.liturgical.rank.lowercased()
+        let localized = LocalizedEntryText(entry: entry, language: language)
+        let tint = liturgicalColor(for: entry.liturgical.color)
+
+        if intensity == .solemnity {
+            return SacredMomentBanner(
+                title: language == .english ? "Solemnity" : "Lễ Trọng",
+                subtitle: localized.title,
+                symbol: AnnoSymbol.sacred,
+                intensity: .solemnity,
+                tint: tint
+            )
+        }
+
+        if rank == "feast" {
+            return SacredMomentBanner(
+                title: language == .english ? "Feast Day" : "Ngày Lễ",
+                subtitle: localized.title,
+                symbol: "sparkles",
+                intensity: .feast,
+                tint: tint
+            )
+        }
+
+        return nil
+    }
+
     private var detailPanel: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text(fullDateFormatter.string(from: selectedDate).localizedCapitalized)
@@ -350,6 +379,10 @@ struct MonthCalendarView: View {
                 .fixedSize(horizontal: false, vertical: true)
 
             if let first = selectedDayEntries.first {
+                if let banner = selectedDayBanner(for: first) {
+                    banner
+                }
+
                 conversionsView(for: first.calendars)
             }
 
