@@ -1,5 +1,6 @@
 import Foundation
 
+@MainActor
 final class FixtureStore: ObservableObject {
     @Published var selectedEntryID: AnnoEntry.ID
 
