@@ -7,6 +7,17 @@
     <key>CFBundleName</key><string>Anno</string>
     <key>CFBundleShortVersionString</key><string>1.0</string>
     <key>CFBundleVersion</key><string>1</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>org.anno.pilgrimage</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>anno</string>
+            </array>
+        </dict>
+    </array>
     <key>UILaunchScreen</key><dict></dict>
     <key>ITSAppUsesNonExemptEncryption</key><false/>
 </dict>
