@@ -46,6 +46,7 @@ public struct SacredSiteMapView: View {
     @StateObject private var geoLoader = SacredGeographyLoader.shared
     @StateObject private var exemplarContent = SoCalExemplarContentLoader.shared
     @StateObject private var progressStore = PilgrimageProgressStore.shared
+    @StateObject private var sessionStore = PilgrimageSessionStore.shared
     @StateObject private var locationService = PilgrimageLocationService.shared
     @AppStorage("anno.socalExemplarHeroSeen") private var hasSeenSoCalExemplarHero = false
     @State private var lastHapticArrivalChapterId: String?
@@ -272,6 +273,17 @@ public struct SacredSiteMapView: View {
                 sheetExpanded = true
                 updateCameraPosition()
             }
+        }
+        .onChange(of: selectedWaypoint) { _, waypoint in
+            guard let waypoint,
+                  let route = geoLoader.selectedRoute else {
+                return
+            }
+
+            sessionStore.updateCurrentStation(
+                routeId: route.routeId,
+                stationId: waypoint.waypointId
+            )
         }
         .onChange(of: locationService.latestLocation) { _, _ in
             handleLocationMomentIfNeeded()
@@ -1159,6 +1171,24 @@ public struct SacredSiteMapView: View {
                     visitedCount: exemplarVisitedCount(route: route),
                     totalCount: exemplarRequiredStationIds(route: route).count
                 )
+
+                PilgrimageSessionControl(
+                    isActive: sessionStore.isActive(routeId: route.routeId),
+                    startedAt: sessionStore.startedAt,
+                    language: language
+                ) {
+                    let firstStation = selectedWaypoint ?? route.waypoints.first
+                    sessionStore.begin(
+                        routeId: route.routeId,
+                        stationId: firstStation?.waypointId
+                    )
+                    Haptics.sacredArrival(.feast)
+                    locationService.begin()
+                } onEnd: {
+                    sessionStore.end(routeId: route.routeId)
+                    locationService.stop()
+                    Haptics.soft()
+                }
             }
 
             // Spiritual theme & badges
@@ -1238,6 +1268,8 @@ public struct SacredSiteMapView: View {
 
                             if exemplarIsComplete(route: route) {
                                 progressStore.markCompleted(routeId: route.routeId)
+                                sessionStore.complete(routeId: route.routeId)
+                                locationService.stop()
                                 Haptics.pilgrimageComplete()
                             } else if let station = exemplarStation(route: route, waypoint: wp) {
                                 Haptics.sacredArrival(
