@@ -11,7 +11,7 @@
       "duration_days": 1,
       "distance_km": 0,
       "difficulty": "easy",
-      "waypoints_count": 5,
+      "waypoints_count": 7,
       "file": "socal_vietnamese_catholic_pilgrimage_la_vang.json"
     },
     {
@@ -61,7 +61,7 @@
   ],
   "summary": {
     "total_routes": 5,
-    "total_waypoints": 25,
+    "total_waypoints": 27,
     "total_countries": 5,
     "countries": [
       "Holy Land (Israel/Palestine)",
