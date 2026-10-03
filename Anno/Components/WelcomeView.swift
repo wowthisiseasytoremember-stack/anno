@@ -72,8 +72,8 @@ struct WelcomeView: View {
                     )
                     featureRow(
                         icon: AnnoSymbol.route,
-                        title: "Five Pilgrimage Routes",
-                        subtitle: "Jerusalem, Rome, Santiago, La Vang, and Guadalupe"
+                        title: "Start Close to Home",
+                        subtitle: "Begin with the Orange County La Vang pilgrimage, then explore Jerusalem, Rome, Santiago, and Guadalupe"
                     )
                     featureRow(
                         icon: AnnoSymbol.language,
