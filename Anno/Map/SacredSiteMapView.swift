@@ -1040,6 +1040,7 @@ public struct SacredSiteMapView: View {
                let content = exemplarContent.content {
                 PilgrimageCompletionKeepsake(
                     content: content,
+                    routeId: route.routeId,
                     language: language,
                     completionDate: progressStore.completionDate(routeId: route.routeId)
                 )
