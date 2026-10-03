@@ -11,6 +11,21 @@ Anno should feel like opening a small illuminated devotional object every day.
 
 The visual target is **quiet baseline + earned spectacle**.
 
+### Mass-market salience rule
+
+Design one notch more obvious than a design team would instinctively choose.
+
+Anno is not primarily a portfolio piece. Important things should look important immediately:
+- bigger contrast differences
+- explicit labels in addition to subtle ornament
+- brighter gold at true peaks
+- clear success/reward feedback
+- hierarchy that survives distracted use
+
+A slightly commercial-looking treatment is acceptable when it materially improves comprehension, emotional payoff, or perceived value. The test is not “would a minimalist designer approve?” The test is “does a normal person instantly understand that something special just happened?”
+
+Do not confuse accessibility with subtlety: halos, color, motion, text labels, iconography, and haptics should reinforce one another rather than asking the user to decode any one cue.
+
 Ordinary days should feel contemplative, tactile, and still. Important days should visibly become more ceremonial. Catholicism has a real tradition of pageantry, procession, gold, incense, relics, mosaics, bells, vestments, basilicas, and Baroque theatricality. Anno can use that tradition without turning every tap into a theme-park effect.
 
 ### Sacred intensity model
@@ -191,7 +206,9 @@ Make route progression feel like pilgrimage, not GPS.
 - station-to-station transitions feel directional
 - connected-to-today routes get a liturgical cue
 - empty filter state is explicit
-- selected waypoint may get a restrained halo/ripple once
+- selected waypoint gets a visible focus treatment
+- explicit v1 registry marks important stations as **Pilgrimage Highlight** or **Major Pilgrimage Moment**
+- flagship climaxes can use bigger pins, stronger glow, explicit labels, and stronger one-shot haptic feedback
 - Apple Maps remains the handoff for actual navigation
 - avoid pretending Anno is a turn-by-turn mapping product
 
