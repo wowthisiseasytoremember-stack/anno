@@ -51,17 +51,17 @@ struct WelcomeView: View {
 
                 VStack(spacing: 14) {
                     featureRow(
-                        icon: "sun.horizon.fill",
+                        icon: AnnoSymbol.today,
                         title: "Daily Devotional",
                         subtitle: "Sourced Catholic history, prayer, art, and confidence labels"
                     )
                     featureRow(
-                        icon: "map.fill",
+                        icon: AnnoSymbol.route,
                         title: "Five Pilgrimage Routes",
                         subtitle: "Jerusalem, Rome, Santiago, La Vang, and Guadalupe"
                     )
                     featureRow(
-                        icon: "textformat.alt",
+                        icon: AnnoSymbol.language,
                         title: "English-first",
                         subtitle: "Vietnamese support is included and expands from the major-feast v1 baseline"
                     )
@@ -91,7 +91,7 @@ struct WelcomeView: View {
             if reduceMotion {
                 appear = true
             } else {
-                withAnimation(.spring(response: 0.7, dampingFraction: 0.84)) {
+                withAnimation(AnnoMotion.reveal) {
                     appear = true
                 }
             }
@@ -135,10 +135,10 @@ struct AnnoGildedButtonStyle: ButtonStyle {
             .padding(.vertical, 14)
             .frame(maxWidth: .infinity)
             .background(
-                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                RoundedRectangle(cornerRadius: AnnoTheme.radiusCard, style: .continuous)
                     .fill(prominent ? AnnoTheme.goldLeaf : AnnoTheme.choir)
                     .overlay(
-                        RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        RoundedRectangle(cornerRadius: AnnoTheme.radiusCard, style: .continuous)
                             .stroke(AnnoTheme.ash, lineWidth: 1)
                     )
             )
