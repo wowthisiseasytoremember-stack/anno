@@ -391,7 +391,7 @@ public struct SacredSiteMapView: View {
                             Text(route.title(for: language))
                                 .font(Typography.captionSemiboldSerif)
                                 .foregroundStyle(isSelected ? AnnoTheme.vellum : AnnoTheme.incense)
-                                .lineLimit(1)
+                                .lineLimit(2)
 
                             Text("(\(route.waypoints.count))")
                                 .font(Typography.caption2MonospacedSemibold)
@@ -648,9 +648,9 @@ public struct SacredSiteMapView: View {
 
                     Text(sheetTitle)
                         .font(Typography.subheadlineSemibold)
-                        
                         .foregroundStyle(AnnoTheme.vellum)
-                        .lineLimit(1)
+                        .lineLimit(2)
+                        .fixedSize(horizontal: false, vertical: true)
 
                     Spacer()
 
