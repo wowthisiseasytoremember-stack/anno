@@ -13,6 +13,14 @@ struct TodayView: View {
         LocalizedEntryText(entry: entry, language: language)
     }
 
+    private var sacredIntensity: SacredIntensity {
+        SacredIntensity.from(rank: entry.liturgical.rank)
+    }
+
+    private var liturgicalTint: Color {
+        AnnoTheme.liturgicalColor(named: entry.liturgical.color)
+    }
+
     private var calendarPillsData: [(label: String, value: String)] {
         [
             ("Julian", entry.calendars.julian),
@@ -30,8 +38,12 @@ struct TodayView: View {
                     .annoReveal(isVisible: appeared, delay: 0.00)
                 headerSection
                     .annoReveal(isVisible: appeared, delay: 0.04)
-                artworkCard
-                    .annoReveal(isVisible: appeared, distance: 18, delay: 0.08)
+                artworkHero
+                    .annoReveal(
+                        isVisible: appeared,
+                        distance: sacredIntensity.revealDistance,
+                        delay: 0.08
+                    )
                 quickActionsBar
                     .annoReveal(isVisible: appeared, delay: 0.12)
                 summaryCard
@@ -56,7 +68,10 @@ struct TodayView: View {
             .padding(.top, 16)
             .padding(.bottom, 48)
         }
-        .liturgicalAtmosphere(named: entry.liturgical.color)
+        .liturgicalAtmosphere(
+            named: entry.liturgical.color,
+            intensity: sacredIntensity.atmosphereIntensity
+        )
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 languagePicker
@@ -180,6 +195,30 @@ struct TodayView: View {
     }
 
     // MARK: - 4. Hero Artwork Card
+
+    private var artworkHero: some View {
+        ZStack {
+            if sacredIntensity > .ordinary {
+                SolemnityBloom(
+                    tint: liturgicalTint,
+                    active: sacredIntensity == .solemnity
+                )
+                .frame(height: sacredIntensity == .solemnity ? 320 : 270)
+            }
+
+            VStack(spacing: AnnoTheme.sm) {
+                if sacredIntensity > .ordinary {
+                    SacredDivider(
+                        tint: liturgicalTint,
+                        intensity: sacredIntensity
+                    )
+                    .padding(.horizontal, sacredIntensity == .solemnity ? 24 : 44)
+                }
+
+                artworkCard
+            }
+        }
+    }
 
     private var artworkCard: some View {
             Button(action: {
