@@ -188,6 +188,58 @@ enum LiturgicalColorType: String, CaseIterable, Identifiable, Codable {
 
 // MARK: - Liturgical Atmosphere Modifier
 
+struct LiturgicalCeremonialBackground: View {
+    let color: LiturgicalColorType
+    let intensity: SacredIntensity
+
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var revealed = false
+
+    var body: some View {
+        ZStack {
+            color.backgroundGradient(intensity: intensity.atmosphereIntensity)
+
+            if intensity > .ordinary {
+                RadialGradient(
+                    colors: [
+                        AnnoTheme.gilt.opacity(
+                            intensity == .solemnity ? 0.16 : 0.07
+                        ),
+                        color.primaryTint.opacity(
+                            intensity == .solemnity ? 0.08 : 0.035
+                        ),
+                        .clear
+                    ],
+                    center: .top,
+                    startRadius: 0,
+                    endRadius: intensity == .solemnity ? 360 : 240
+                )
+                .ignoresSafeArea()
+                .scaleEffect(reduceMotion || revealed ? 1 : 0.9)
+                .opacity(revealed ? 1 : 0)
+                .animation(reduceMotion ? nil : .easeOut(duration: 1.0), value: revealed)
+            }
+
+            if intensity == .solemnity {
+                LinearGradient(
+                    colors: [
+                        .clear,
+                        AnnoTheme.gilt.opacity(0.04),
+                        .clear
+                    ],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+                .ignoresSafeArea()
+                .blendMode(.screen)
+            }
+        }
+        .onAppear {
+            revealed = true
+        }
+    }
+}
+
 struct LiturgicalAtmosphereModifier: ViewModifier {
     let liturgicalColor: LiturgicalColorType
     var intensity: Double = 0.85
@@ -266,6 +318,18 @@ struct LiturgicalCardModifier: ViewModifier {
 // MARK: - View Extensions
 
 extension View {
+    func ceremonialLiturgicalAtmosphere(
+        named rawName: String,
+        rank: String
+    ) -> some View {
+        background {
+            LiturgicalCeremonialBackground(
+                color: LiturgicalColorType.from(rawName: rawName),
+                intensity: SacredIntensity.from(rank: rank)
+            )
+        }
+    }
+
     /// Applies a dynamic ecclesial ambient background matching the given liturgical color.
     func liturgicalAtmosphere(color: LiturgicalColorType, intensity: Double = 0.85) -> some View {
         modifier(LiturgicalAtmosphereModifier(liturgicalColor: color, intensity: intensity))
