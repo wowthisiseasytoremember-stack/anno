@@ -196,3 +196,37 @@ jobs:
           assert total_waypoints == manifest["summary"]["total_waypoints"] == 25
           print(f"flagship routes OK: {len(refs)} routes / {total_waypoints} waypoints")
           PY
+
+      - name: Verify pilgrimage presentation moments
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("Anno/Resources")
+          flagship = json.loads((root / "flagship_routes_v1.json").read_text())
+          moments = json.loads((root / "pilgrimage_moments_v1.json").read_text())["moments"]
+
+          routes = {}
+          for ref in flagship["flagship_routes"]:
+              route = json.loads((root / "PilgrimageRoutes" / ref["file"]).read_text())
+              routes[route["route_id"]] = {
+                  wp["waypoint_id"] for wp in route["waypoints"]
+              }
+
+          assert len(moments) == 10, f"expected 10 v1 presentation moments, got {len(moments)}"
+          seen = set()
+          for moment in moments:
+              key = (moment["route_id"], moment["waypoint_id"])
+              assert key not in seen, f"duplicate presentation moment: {key}"
+              seen.add(key)
+              assert moment["route_id"] in routes, f"unknown flagship route: {moment['route_id']}"
+              assert moment["waypoint_id"] in routes[moment["route_id"]], (
+                  f"unknown waypoint for {moment['route_id']}: {moment['waypoint_id']}"
+              )
+              assert moment["level"] in {"highlight", "climax"}
+              assert moment["label_en"].strip()
+              assert moment["label_vi"].strip()
+
+          print(f"pilgrimage moments OK: {len(moments)} explicit highlights/climaxes")
+          PY
