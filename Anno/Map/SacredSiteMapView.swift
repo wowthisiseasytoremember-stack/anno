@@ -361,6 +361,7 @@ public struct SacredSiteMapView: View {
                                 Image(systemName: "sparkles")
                                     .font(Typography.caption2)
                                     .foregroundStyle(AnnoTheme.goldLeaf)
+                                    .symbolEffect(.appear, value: isConnected)
                             } else {
                                 Image(systemName: "figure.walk")
                                     .font(Typography.caption2)
@@ -438,16 +439,24 @@ public struct SacredSiteMapView: View {
         VStack(spacing: 0) {
             ZStack {
                 if isSelected {
-                    Circle()
-                        .stroke(AnnoTheme.goldLeaf.opacity(0.4), lineWidth: 5)
-                        .frame(width: 42, height: 42)
+                    SacredAureole(
+                        tint: AnnoTheme.goldLeaf,
+                        intensity: .feast,
+                        diameter: 46
+                    )
                 }
 
                 Circle()
                     .fill(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.narthex)
                     .frame(width: isSelected ? 32 : 26, height: isSelected ? 32 : 26)
                     .overlay(Circle().stroke(AnnoTheme.goldLeaf, lineWidth: 1.5))
-                    .shadow(color: .black.opacity(0.6), radius: 4, y: 2)
+                    .shadow(
+                        color: isSelected
+                            ? AnnoTheme.gilt.opacity(0.35)
+                            : .black.opacity(0.6),
+                        radius: isSelected ? 8 : 4,
+                        y: 2
+                    )
 
                 Text("\\\(waypoint.order)")
                                     .font(Typography.captionBoldSerif)
