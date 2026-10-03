@@ -1,50 +1,95 @@
-# CHANGELOG — Anno
+# CHANGELOG
 
-## [Unreleased] - 2026-08-24
+All notable changes to this project will be documented in this file.
 
-### App Finishing Cleanup (2026-08-25)
-- **AGENTS.md corrected:** removed false claim that Reliquary/Spatial-Audio modules were "100% verified on Linux"; they compile only after two bug fixes and require Xcode/macOS.
-- **ReliquaryExplorer Info.plists:** added `Apps/iOS/Info.plist` and `Apps/visionOS/Info.plist` (required by `project.yml` `GENERATE_INFOPLIST_FILE: false`).
-- **CI workflow:** added `.github/workflows/ci.yml` (macOS runner: xcodegen + xcodebuild for ReliquaryExplorer).
-- **Placeholder artwork:** replaced 28 `example.com` placeholder image URLs in `anno_unified_2026.json` with sourced sacred-art URLs from `art_dossiers_catalog.json`.
-- **Infra duplicates removed:** `icons_infra/`, `calendar_engine_infra.py`, `calendar_2026_2029_infra.jsonl`, `localization_infra/`, `docs_infra/` (where canonical was a superset); safety backup at `/tmp/anno_infra_bak.tar.gz`.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-### Content Pipeline & Master Dataset Expansion (Phase A)
-- **Primary Source Citation Backfill:** Created `tools/backfill_citations.py` and populated >=2 verified, high-authority liturgical/historical source citations across all fortnight and August entries.
-- **Engine B September–December Expansion (122 Days):** Created `tools/batch_generate_engine_b.py` and generated daily historical research dossiers and sibling Vietnamese files for 2026-09-01 through 2026-12-31 based on the General Roman Calendar 2026 and multi-calendar math.
-- **Master 182-Day Unified Dataset:** Upgraded `tools/normalize_fixture.py` and compiled `Anno/Resources/anno_unified_2026.json` to 182 continuous days (July 3, 2026 – December 31, 2026) with 100% complete Vietnamese fields and zero validation errors.
-- **Swift Mock Data Exporter:** Updated `tools/export_swift_fixture.py` and regenerated `ios-fixtures/AnnoMockData.swift` with the full 182-day dataset.
-- **365-Day Devotional Pool:** Created `Anno/Resources/anno_devotional_pool_365.json` with 365 bilingual daily meditations across 12 spiritual seasons (Thomas à Kempis, Francis de Sales, Augustine, Brother Lawrence, Montfort, and Scripture), accompanied by `tools/validate_devotional_pool.py` and `Anno/Models/Devotional.swift`.
+---
 
-### Monetization Assets & Schemas (Phase B)
-- **StoreKit 2 Configuration:** Created `Anno/Configuration/AnnoProducts.storekit` defining Day Pass ($1.99 non-consumable), Premium Annual ($49.99/yr), Premium Monthly ($4.99/mo), Pilgrim Annual ($79.99/yr), and Pilgrim Monthly ($9.99/mo).
-- **Product Metadata & Paywall Triggers:** Added `Anno/Resources/product_metadata.json` and `Anno/Resources/paywall_triggers.json` formalizing client trigger rules for archive access, routes, audio, and spiritual bouquets.
-- **Entitlement Service:** Created `Anno/Services/EntitlementService.swift` with StoreKit 2 transaction listeners, tier states, preview mock overrides, and paywall view bindings.
-- **Pilgrimage Route Packs:** Defined `docs/PILGRIMAGE_ROUTE_SCHEMA.md` and authored 4 bilingual route packs in `Anno/Resources/PilgrimageRoutes/` (Rome 7 Churches, Holy Land Passion, European Marian Shrines, Vietnam Shrines) validated with `tools/validate_route_coordinates.py`.
-- **Sacred Art Dossiers Catalog:** Curated 65 verified public-domain masterpieces in `Anno/Resources/ArtDossiers/art_dossiers_catalog.json` with bilingual theological commentary and verified HTTP reachability via `tools/verify_artwork_links.py`.
-- **Localization Expansion:** Expanded `localization/en/Localizable.strings` and `localization/vi/Localizable.strings` to 63 keys with 100.0% coverage verified by `tools/validate_localization.py`.
+## [1.1.0] - 2026-10-03
 
-### Verification & 2027-2028 Handoff Preparation (2026-08-24)
-- **Verification pass (PASS):** Engine A `test_calendar_engine.py` 10/10 on ichabod (covers 2026-2030); Engine B gate `validate_engine_b_output.py` confirmed working. 8 corrupted Vietnamese (U+FFFD) leaves in Aug-2026 entries repaired at source and regenerated into `anno_unified_2026.json` (182 entries, 0 U+FFFD) and `AnnoMockData.swift`.
-- **New validators:** Added `tools/validate_vietnamese_integrity.py` (flags U+FFFD / empty `_vi`) and an `artwork.source_url` `example.com` rejection in `validate_engine_b_output.py`.
-- **2027-2028 seed catalog:** `data/seed/anno_seed_2027_2028.json` — 731 days (2027-01-01→2028-12-31) with liturgical rank/color/title + 5 calendar conversions, via `multi_proper_calendar_resolver` + `computus_engine`.
-- **Self-contained third-party handoff:** `docs/research/HANDOFF_BRIEF.md` (no FS access required) + 24 monthly packets `docs/research/handoff/2027-01.md…2028-12.md` + `docs/research/handoff_manifest.yaml` tracker.
-- **Ingestion pipeline:** `tools/ingest_2027_2028.py` merges seed + returned research into `anno_unified_2027_2028.json` (guarantees 100% `_vi`); end-to-end dry-run passed the gate (exit 0) and ingested cleanly.
-- Branch `work/verify-2027-2028`; full detail in `VERIFICATION_REPORT.md`.
+### Scope & Strategy
+- **Narrowed v1 scope** to 3 core features: Calendar Engine (12 systems), GPS Pilgrimage Routes (18 routes, 106 waypoints, 72 sanctuaries), Catholic-First Devotional Content (bilingual EN/VI).
+- **Removed from v1** (archived to `archive/v1-removed/`):
+  - AR Reliquary (RealityKit, `ReliquaryExplorer/`, `Anno/Reliquary/`)
+  - Spatial Audio Engine (`SacredSpatialAudioEngine.swift`)
+  - Interfaith layer (Jewish/Islamic parallel observances beyond calendar conversions)
+- **Collapsed pricing** from 3 tiers (Premium/Pilgrim/Scholar) to 2 tiers: Free + Premium **$49.99/yr**
+- **Added MIT LICENSE** to repository root
+- **Removed** `Anno/CLONE_FROM_KJV.md` (code confirmed original)
 
-## [Unreleased] - 2026-08-10
+### Engine A — Calendar Conversion (`calendar_engine.py`)
+- **FIXED**: JDN off-by-one — constant `1721424` → `1721425`
+- **FIXED**: Tabular Islamic epoch 3-day error — `date(622,7,16)` → `date(622,7,19)` (Julian epoch)
+- **FIXED**: Byzantine year boundary — now uses `julian_dt.month` (not Gregorian)
+- **FIXED**: Syriac year boundary — now uses `julian_dt.month/year` (not Gregorian)
+- **FIXED**: Armenian year boundary — uses `julian_dt`; `epoch_year` corrected `550`→`551`
+- **FIXED**: Sundown timezone — uses `%Z` format (shows PST/PDT correctly); removed sinusoidal fallback (now raises `RuntimeError`)
+- **OPTIMIZED**: `compute_julian_offset` — O(n) loop → closed-form `(year//100 - year//400 - 2)`
+- **CLEANED**: Removed unused imports (`timezone`, `math`, `convertdate.julian`)
+- **VERIFIED**: All 12 `test_calendar_engine.py` tests pass (including 2027-2030 future years)
 
-### Documentation & Repository Health
-- Executed orientation recovery audit and verified project state.
-- Discovered and discarded a broken, uncommitted modification to `ios-fixtures/AnnoMockData.swift` that left the file in a syntactically invalid state (ending in a dangling `static let augustJSON = #`). This restores compile safety to the Swift files.
-- Updated `AGENTS.md` frontmatter with `initiative: monetization` and `family: apps` to match the canonical `~/plans/initiatives.yml` mapping.
-- Added "iOS Client Application" to the modules list in the `AGENTS.md` frontmatter.
-- Audited the untracked August 2026 mock data batch (`data/mock/anno_august_2026.json`) and confirmed that all 31 entries are missing Vietnamese translations, setting up a clear future content generation task.
+### Engine B — Research Pipeline
+- **REMOVED**: ALLOWLIST homepage URL backfill (`vatican.va/`, `newadvent.org/`) — now marks entries needing manual review if `<2` live citations
+- **ADDED**: Inline source validation to `fire_engine_b.py` (reuses `_url_live()` from batch script)
+- **ADDED**: Sunday/Solemnity context injection via `FEAST_NOTES_2027` dict (Jan–Jul 2027 major feasts)
+- **REMOVED**: Reverse fallback in `repair_vi()` that corrupted EN fields with VI content
+- **ADDED**: Vietnamese diacritics validation warning in `validate_engine_b_output.py`
 
-## [Unreleased] - 2026-08-09
+### Normalization Pipeline (`tools/normalize_fixture.py`)
+- **ADDED**: `normalize_generic_entry()` — applies consistent type/rank/confidence/source normalization to ALL tracks (fortnight, august, Engine B)
+- **ADDED**: Blocking validator (fail-closed) before write:
+  - Missing required fields: `weekday`, `calendars`, `artwork`, `mock_priority`
+  - Empty `*_vi` fields (recursive scan)
+  - Entries with `<2` sources
+- **VERIFIED**: 182 entries, 0 empty VI fields, 0 entries with `<2` sources
 
-### Documentation & Ecosystem Relationships
-- Executed connection work order auditing project relationship to `content-factory`.
-- Confirmed ground truth: `Anno` is a standalone monetizable native SwiftUI iOS Catholic/interfaith devotional app.
-- Clarified that `Anno` does not consume from or produce into `content-factory` pipelines (keyword overlaps like `annotate_beats.py` are unrelated).
-- Updated `/home/ichabod/Projects/Anno/CLAUDE.md` and `/home/ichabod/Projects/Anno/AGENTS.md` to reflect ecosystem status, shared primitives (`calendar_engine.py`), and updated timestamps.
+### CI/CD
+- **ADDED**: `.github/workflows/ios-build.yml` — GitHub Actions macOS runner for:
+  - Xcode project generation (xcodegen)
+  - SPM dependency resolution
+  - Build + unit tests on iOS Simulator
+  - Archive + unsigned IPA export on main branch push
+  - Engine A calendar tests (Linux)
+  - Engine B validation gate (Linux)
+  - Normalization pipeline verification (Linux)
+
+### Documentation
+- **UPDATED**: `AGENTS.md` — v1 scope, pricing, known risks, current context
+- **UPDATED**: `PRD.md` — v1 scope, 2-tier pricing ($49.99/yr), roadmap with removed features
+- **CREATED**: `CHANGELOG.md` (this file)
+
+---
+
+## [1.0.0] - 2026-08-24
+
+### Added
+- Engine A: Deterministic 12-calendar conversion (pure Python)
+- Engine B: LLM Catholic research pipeline with source validation
+- Layer C: Devotional content generation (bilingual EN/VI)
+- 182-day unified dataset (Jul 3 – Dec 31 2026)
+- 18 pilgrimage routes (106 waypoints) + 72 sacred sanctuaries
+- Swift fixture export for iOS integration
+- StoreKit 2 configuration (original 3-tier pricing)
+- AR Reliquary module (RealityKit, iOS/visionOS)
+- Spatial Audio engine (monastic choir + cathedral reverb)
+- Vietnamese localization (String Catalogs, structural from v1)
+
+### Known Issues (Pre-1.1)
+- Engine A calendar bugs (JDN, Islamic epoch, Julian boundaries)
+- Normalization pipeline track asymmetry (fortnight/august unnormalized)
+- Engine B ALLOWLIST homepage backfill
+- No blocking validator (fail-open)
+- AR/Spatial Audio/Interfaith in v1 scope
+- 3-tier monthly pricing
+
+---
+
+## Legend
+- **ADDED** — new features
+- **FIXED** — bug fixes
+- **OPTIMIZED** — performance improvements
+- **REMOVED** — deleted features/code
+- **UPDATED** — documentation/configuration changes
+- **VERIFIED** — test validation

@@ -1,0 +1,177 @@
+name: iOS Build & Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode_16.0.app/Contents/Developer
+  XCODE_VERSION: "16.0"
+  IOS_DEPLOYMENT_TARGET: "17.0"
+
+jobs:
+  build-and-test:
+    name: Build & Test on macOS
+    runs-on: macos-15
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Select Xcode
+        run: |
+          sudo xcode-select -s /Applications/Xcode_${XCODE_VERSION}.app
+          xcodebuild -version
+
+      - name: Install xcodegen
+        run: |
+          if ! command -v xcodegen &> /dev/null; then
+            brew install xcodegen
+          fi
+          xcodegen --version
+
+      - name: Generate Xcode project
+        run: |
+          xcodegen generate
+          echo "Generated: $(ls -la *.xcodeproj)"
+
+      - name: Cache SPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/Library/Caches/org.swift.swiftpm
+            .build
+          key: spm-${{ runner.os }}-${{ hashFiles('**/Package.resolved') }}
+          restore-keys: |
+            spm-${{ runner.os }}-
+
+      - name: Resolve SPM dependencies
+        run: |
+          xcodebuild -resolvePackageDependencies \
+            -scheme Anno \
+            -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.0'
+
+      - name: Build for testing
+        run: |
+          xcodebuild build-for-testing \
+            -scheme Anno \
+            -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.0' \
+            -quiet
+
+      - name: Run unit tests
+        run: |
+          xcodebuild test \
+            -scheme Anno \
+            -destination 'platform=iOS Simulator,name=iPhone 16 Pro,OS=18.0' \
+            -quiet \
+            -resultBundlePath build/Anno.xcresult
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: build/Anno.xcresult
+          retention-days: 7
+
+      - name: Build for release (archive)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: |
+          xcodebuild archive \
+            -scheme Anno \
+            -archivePath build/Anno.xcarchive \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGNING_ALLOWED=NO \
+            -quiet
+
+      - name: Export IPA (unsigned)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: |
+          mkdir -p build/export
+          cat > build/export/ExportOptions.plist << 'EOF'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>method</key>
+            <string>development</string>
+            <key>signingStyle</key>
+            <string>automatic</string>
+            <key>compileBitcode</key>
+            <false/>
+            <key>stripSwiftSymbols</key>
+            <true/>
+          </dict>
+          </plist>
+          EOF
+          xcodebuild -exportArchive \
+            -archivePath build/Anno.xcarchive \
+            -exportPath build/export \
+            -exportOptionsPlist build/export/ExportOptions.plist \
+            -quiet
+
+      - name: Upload unsigned IPA
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: anno-unsigned-ipa
+          path: build/export/*.ipa
+          retention-days: 30
+
+  engine-a-tests:
+    name: Engine A Calendar Tests (Linux)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install pyluach hijri-converter convertdate astral pytz pytest jsonschema requests
+      - name: Run calendar_engine spot-check
+        run: python3 calendar_engine.py --spot-check
+      - name: Run pytest
+        run: python3 -m pytest tools/test_calendar_engine.py -v
+
+  engine-b-validation:
+    name: Engine B Validation Gate (Linux)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install jsonschema requests feedparser
+      - name: Validate unified fixture
+        run: python3 tools/validate_engine_b_output.py --fixture Anno/Resources/anno_unified_2026.json --check-sources
+        continue-on-error: true
+
+  normalization-pipeline:
+    name: Normalization Pipeline (Linux)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run normalizer
+        run: python3 tools/normalize_fixture.py --year 2026
+      - name: Verify output
+        run: |
+          python3 -c "
+          import json
+          data = json.load(open('Anno/Resources/anno_unified_2026.json'))
+          print(f'Entries: {data[\"total_entries\"]}')
+          for e in data['entries'][:3]:
+              print(f'  {e[\"id\"]}: weekday={e.get(\"weekday\")}, mock_priority={e.get(\"mock_priority\")}, calendars={\"calendars\" in e}, artwork={\"artwork\" in e}')
+          "

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_on": "2026-08-27",
+  "generated_on": "2026-10-02",
   "total_entries": 182,
   "entries": [
     {
@@ -400,7 +400,7 @@
         "ethiopian": "2 Hamle 2018"
       },
       "primary": {
-        "type": "festival",
+        "type": "liturgical_day",
         "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
         "title_vi": "Đại Hội Thánh Mẫu",
         "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
@@ -463,7 +463,7 @@
         "ethiopian": "3 Hamle 2018"
       },
       "primary": {
-        "type": "festival",
+        "type": "liturgical_day",
         "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
         "title_vi": "Đại Hội Thánh Mẫu",
         "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
@@ -526,7 +526,7 @@
         "ethiopian": "4 Hamle 2018"
       },
       "primary": {
-        "type": "festival",
+        "type": "liturgical_day",
         "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
         "title_vi": "Đại Hội Thánh Mẫu",
         "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",

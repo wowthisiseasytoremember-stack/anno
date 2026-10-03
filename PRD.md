@@ -1,14 +1,14 @@
 document = """# The Daily Devotional Engine
 ## Technical Specification & Content Playbook
-### For a Hallow-Scale Faith-Based App
+### For a Catholic-First Devotional + Pilgrimage App
 
 ---
 
-**Version:** 1.0  
-**Date:** July 2026  
+**Version:** 1.1 (v1 scope narrowed 2026-10-03)  
+**Date:** July 2026 (updated Oct 2026)  
 **Classification:** Internal Product Spec  
-**Target Market:** Catholic, Christian, and Abrahamic-faith daily devotional app users  
-**Monetization Model:** Freemium daily content + premium deep-dive packs + pilgrimage route subscriptions
+**Target Market:** Catholic daily devotional app users + pilgrimage-seeking Catholics  
+**Monetization Model:** Free (calendar + basic devotional) + Premium $49.99/yr (pilgrimage routes + full liturgical content + devotional deep-dives)
 
 ---
 
@@ -34,11 +34,11 @@ document = """# The Daily Devotional Engine
 Existing devotional apps (Hallow, Glorify, Pray.com) serve generic daily content. Users get a Bible verse and a reflection. What they *don't* get is:
 
 - **Temporal specificity**: "What happened in biblical history *today*?"
-- **Interfaith depth**: "How do Jews, Christians, and Muslims remember this figure differently?"
 - **Geographic immersion**: "Where did this happen? Can I visit?"
 - **Artistic heritage**: "What did Caravaggio paint about this saint?"
+- **Liturgical precision**: "What calendar does my Eastern Catholic parish use?"
 
-## The Product
+## The Product (v1 Scope)
 
 A daily feed where every day is **historically loaded**. The user opens the app and discovers that today—July 2, 2026—is:
 
@@ -50,18 +50,22 @@ A daily feed where every day is **historically loaded**. The user opens the app 
 
 And then the app tells them a story. With art. With a map. With a prayer.
 
+**v1 Scope (Narrowed from original 5-feature plan):**
+1. **Deterministic Calendar Engine** — 12 liturgical calendars (Gregorian, Julian, Hebrew, Islamic Umm al-Qura/Tabular, Coptic, Ethiopian, Byzantine, Armenian, Syriac, Talmudic notations). Pure Python, zero LLM.
+2. **GPS Pilgrimage Routes** — 18 curated routes (106 waypoints) across 72 sacred sanctuaries. MapKit-native, offline-capable.
+3. **Catholic-First Devotional Content** — Daily bilingual (EN/VI) entries with sourced research, artwork, prayer prompts.
+4. **Free + Premium ($49.99/yr)** — Two tiers only. No AR, no spatial audio engine, no interfaith layer in v1.
+
 ## The Moat
 
-No other app does **deterministic multi-calendar conversion + scholarly research + interfaith context + GPS-ready geography** at scale. This is defensible IP.
+No other app does **deterministic multi-calendar conversion (12 systems) + sourced Catholic research + GPS pilgrimage routes** at scale. This is defensible IP.
 
-## Revenue Streams
+## Revenue Streams (v1)
 
 | Tier | Feature | Price |
 |------|---------|-------|
-| **Free** | Daily devotional + 1 calendar conversion | $0 |
-| **Premium** | All calendar systems + deep-dive articles + artwork gallery | $4.99/mo |
-| **Pilgrim** | GPS-guided routes (e.g., "Walk Mary's path from Nazareth to Ein Kerem") | $9.99/mo |
-| **Scholar** | Source citations, academic paper links, raw JSON export | $12.99/mo |
+| **Free** | Daily devotional + 1 calendar conversion (Gregorian) + basic map | $0 |
+| **Premium** | All 12 calendar systems + 18 pilgrimage routes (offline) + full liturgical content + artwork gallery + devotional deep-dives + source citations | **$49.99/yr** |
 
 ---
 
@@ -570,46 +574,53 @@ Yesterday was 17 Tammuz. Today is 18 Tammuz. The Three Weeks have begun—counti
 
 ---
 
-# 7. IMPLEMENTATION ROADMAP
+# 7. IMPLEMENTATION ROADMAP (v1)
 
-## Phase 1: Foundation (Weeks 1-2)
-- [ ] Run Engine A to generate 2026-2029 JSONL table
-- [ ] Spot-check 20 dates against external references (hebcal.com, timeanddate.com)
-- [ ] Fix any divergence bugs
-- [ ] Store JSONL in S3/Cloud Storage
+## Phase 1: Foundation (Weeks 1-2) ✅ DONE
+- [x] Run Engine A to generate 2026-2029 JSONL table
+- [x] Spot-check 20 dates against external references (hebcal.com, timeanddate.com)
+- [x] Fix divergence bugs (JDN, Islamic epoch, Julian boundaries, PDT/PST)
+- [x] Store JSONL in repo (`calendar_2026_2029.jsonl`)
 
-## Phase 2: Research Pipeline (Weeks 3-4)
-- [ ] Build Engine B prompt template
-- [ ] Run 30-day test batch (July 2026)
-- [ ] Human-review outputs for accuracy
-- [ ] Build source-citation validator (check URLs, DOIs)
-- [ ] Cache daily outputs to avoid re-research
+## Phase 2: Research Pipeline (Weeks 3-4) ✅ DONE (Jul-Dec 2026)
+- [x] Build Engine B prompt template
+- [x] Run 182-day batch (July 3 – Dec 31 2026)
+- [x] Source-citation validator (`tools/validate_engine_b_output.py`)
+- [x] Inline source validation in `fire_engine_b.py` + batch script
+- [x] Cache daily outputs to `data/research_results/`
 
-## Phase 3: Devotional Layer (Weeks 5-6)
-- [ ] Build Layer C prompt template (content transformation)
-- [ ] A/B test tone: scholarly vs. warm vs. urgent
-- [ ] Build artwork ingestion pipeline (Wikidata → image URL)
-- [ ] Build GPS pin pipeline (Wikidata Q-code → lat/lon)
+## Phase 3: Devotional Layer (Weeks 5-6) ✅ DONE
+- [x] Build Layer C prompt template (content transformation)
+- [x] A/B tone testing via MMR (scholarly vs warm vs urgent)
+- [x] Artwork ingestion pipeline (Wikidata → image URL placeholder)
+- [x] GPS pin pipeline (Wikidata Q-code → lat/lon)
 
-## Phase 4: App Integration (Weeks 7-8)
-- [ ] JSON → React Native / Flutter daily card
-- [ ] Calendar switcher UI (tap to see Hebrew, Islamic, etc.)
-- [ ] Map view with pilgrimage pins
-- [ ] Art gallery modal
-- [ ] Prayer prompt with "Mark as prayed" tracking
+## Phase 4: Content Normalization (Week 7) ✅ DONE
+- [x] Normalize fortnight + Engine B + August tracks (`tools/normalize_fixture.py`)
+- [x] Fail-closed validator: missing `weekday/calendars/artwork/mock_priority`, empty `*_vi`, `<2 sources`
+- [x] Export Swift fixture (`tools/export_swift_fixture.py`)
 
-## Phase 5: Monetization (Weeks 9-10)
-- [ ] Paywall: Premium = all calendars + deep dives
-- [ ] Paywall: Pilgrim = GPS routes
-- [ ] Paywall: Scholar = raw JSON + citations
-- [ ] Affiliate: Book links (Amazon, Ignatius Press)
-- [ ] Affiliate: Pilgrimage tour operators
+## Phase 5: v1 iOS App Build (Weeks 8-12) — REQUIRES macOS
+- [ ] Xcode project scaffolding (SwiftUI, StoreKit 2, MapKit, String Catalogs)
+- [ ] Today / Calendar / Map (pilgrimage) / Saved tabs
+- [ ] Free + Premium $49.99/yr paywall (StoreKit 2)
+- [ ] TestFlight beta → family VI validation → App Store submit
+- [ ] GitHub Actions macOS CI for automated builds
 
-## Phase 6: Scale (Ongoing)
-- [ ] Automate daily generation (cron + LLM API)
+## Phase 6: Post-Launch Content Ops (Ongoing)
+- [ ] Automate daily Engine B generation (cron + LLM API)
 - [ ] Build user feedback loop ("Was this accurate?" → human review queue)
-- [ ] Expand to Orthodox, Coptic, Ethiopian calendars
-- [ ] Add liturgical readings (Roman Rite, Byzantine Rite, Anglican)
+- [ ] Extend content to 2027-2028 (liturgical year complete)
+- [ ] **Human editorial gate** — recruit theologian/priest reviewer before scaling beyond family beta
+
+## Removed from v1 (Archived to `archive/v1-removed/`)
+- AR Reliquary (RealityKit)
+- Spatial Audio Engine (SacredSpatialAudioEngine)
+- Interfaith layer (Jewish/Islamic parallel observances beyond calendar conversions)
+- React Native / Flutter target (SwiftUI only)
+- 3-tier pricing (Premium/Pilgrim/Scholar)
+
+---
 
 ---
 

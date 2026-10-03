@@ -7,11 +7,15 @@ what: >-
   Native SwiftUI iOS app (working name "Anno") that pairs deterministic
   multi-calendar date conversion with sourced historical research and a
   Catholic-first devotional content layer, with Vietnamese localization
-  structural from v1.
+  structural from v1. v1 scope: Calendar engine (12 systems), GPS pilgrimage
+  routes (18 routes, 106 waypoints, 72 sanctuaries), daily bilingual devotional
+  content (EN/VI). Removed from v1: AR Reliquary, Spatial Audio, Interfaith layer.
 goal: >-
   Scaffold the Xcode project (requires macOS), maintain the bilingual
   content pipeline, and keep the master 182-day unified dataset normalized into
   the Swift fixture schema. Content for Jul 3–Dec 31 2026 is 100% bilingual (EN/VI) with full sources.
+  Monetization: Free tier (calendar + basic devotional) + Premium $49.99/yr
+  (pilgrimage routes + full liturgical content + devotional deep-dives).
 status: active
 stack: [swift, swiftui, python]
 entrypoints:
@@ -32,20 +36,14 @@ modules:
   - name: Localization
     path: ios/LocalizationManager.swift
     does: Swift localization manager backing the Vietnamese-ready content shape.
-  - name: Spatial Audio Engine
-    path: Anno/Services/SacredSpatialAudioEngine.swift
-    does: Multi-tier proximity-based acoustic engine combining monastic choir background loops with cathedral-reverberant hagiography.
-  - name: Reliquary AR Viewer Module
-    path: ReliquaryExplorer/
-    does: Multiplatform iOS & visionOS RealityKit AR package for 1:1 true-scale reliquary veneration and geofencing.
   - name: iOS Client Application
     path: Anno/
-    does: SwiftUI mobile app implementing Today, Calendar, Map, and Saved views.
-updated: 2026-08-25 09:00 UTC
+    does: SwiftUI mobile app implementing Today, Calendar, Map (pilgrimage), and Saved views.
+updated: 2026-10-03 00:00 UTC
 ---
 
 # Interfaith Devotional Engine — AGENTS.md
-**Last updated:** 2026-08-25 09:00 UTC
+**Last updated:** 2026-10-03 00:00 UTC
 
 ## Quick Start (Read This First)
 
@@ -53,10 +51,10 @@ updated: 2026-08-25 09:00 UTC
 |------|-------|
 | **Architecture & invariants** | `ARCHITECTURE.md` |
 | **Delivery roadmap (phases)** | `ROADMAP.md` |
-| **Current context** | Direction changed to native SwiftUI iOS, Catholic-first launch, Vietnamese-ready. Standalone monetizable app (not part of content-factory). Phase A (Server-side content expansion & 182-day archive), Phase B (StoreKit 2, 18 Pilgrimage routes with 106 waypoints, 72 Sacred Sanctuaries master catalog, High-res art dossiers, Paywall triggers, Native MapKit Spiritual Inquiry & Liturgical Temporal Proximity UX), and AR Reliquary & Spatial Audio Modules implemented (two compile bugs fixed; not buildable on Linux — Xcode/macOS required). Next: Xcode project scaffolding & build sweep on macOS. |
+| **Current context** | v1 scope narrowed: Catholic-first devotional + deterministic 12-calendar engine + GPS pilgrimage routes (18 routes, 106 waypoints, 72 sanctuaries). Removed from v1: AR Reliquary (archive/v1-removed/ReliquaryExplorer), Spatial Audio, Interfaith layer. Monetization: Free + Premium $49.99/yr (2 tiers). Editorial gate for LLM content: **known risk — no human gate in v1; family validation for VI only**. Next: Xcode project scaffolding & build sweep on macOS (CI via GitHub Actions). |
 
 ## Project
-Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversion + sourced historical research + Catholic-first content layer + later Sacred Context/interfaith expansion. Working name: Anno.
+Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversion + sourced historical research + Catholic-first content layer. Working name: Anno. v1 = Calendar + Pilgrimage + Devotional only.
 
 ## Architecture: Two-Engine + Content Layer
 - **Engine A** (Python): deterministic calendar conversion — pyluach, hijri-converter, convertdate
@@ -64,7 +62,7 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 - **Layer C** (LLM): devotional content generation from Engine B structured data
 
 ## Root
-`~/Projects/Anno/`
+`~/Projects/interfaith-devotional/`
 
 ## Setup Context
 - PRD landed at `PRD.md`
@@ -78,7 +76,7 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 - Engine A is pure Python, no LLM, no hallucination risk
 - Engine B outputs structured JSON with source citations
 - Layer C does "framing" — facts rigorous, framing inspirational
-- Interfaith connections only where genuine intersection exists
+- Interfaith connections only where genuine intersection exists (v1: Catholic-only; interfaith deferred)
 - Native iOS implementation uses SwiftUI, StoreKit 2, MapKit, and Xcode String Catalogs
 - Vietnamese localization is structural from v1; do not hard-code English-only content shapes
 
@@ -86,8 +84,13 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 - **Content Factory:** Standalone app. Independent monetization app; does not consume or produce content-factory pipelines.
 - **Engine A Shared Primitive:** Consumes `calendar_engine.py` (in this project root; infra copy archived).
 
+## Known Risks (v1)
+- **LLM content without human editorial gate** — family VI validation only; no theologian reviewer. Reputational risk for Catholic audience. Mitigation: source validation gates strict; confidence=disputed for uncertain entries.
+- **No iOS build yet** — requires macOS/Xcode. CI pipeline (GitHub Actions macOS) configured for future.
+
 ## Changelog
 
+- 2026-10-03: v1 scope narrowed — removed AR Reliquary, Spatial Audio, Interfaith layer to archive/v1-removed/. Pricing collapsed to Free + Premium $49.99/yr. Added MIT LICENSE. Engine A calendar bugs fixed (JDN, Islamic epoch, Julian boundaries, PDT/PST). Normalization pipeline fail-closed. Engine B ALLOWLIST backfill removed; inline source validation added.
 - 2026-08-24: Integrated ReliquaryExplorer multiplatform (iOS/visionOS) AR viewer and PilgrimCore package. Implemented SacredSpatialAudioEngine for distance-based acoustic bloom and cathedral reverberation. Wired 3D AR buttons and audio triggers across SacredSiteMapView and TodayView. Authored comprehensive README.md and engineering specifications.
 - 2026-08-24: Integrated SoCal Vietnamese Catholic Pilgrimage (Christ Cathedral La Vang, St. Columban, St. Barbara), Major Asian Martyr Corridors, Eucharistic Miracles, and Desert Monastic routes into 18 linear routes (106 waypoints) + 72 singular sanctuaries in `sacred_geography_master.json`. Upgraded `SacredSiteMapView.swift` with evocative spiritual inquiry header ("Whose path will you walk today?"), liturgical temporal proximity matching, spiritual calling filters, and regional curation.
 - 2026-08-24: Executed complete autonomous research, bilingual composition, coordinate verification, and schema validation for the Anno Global Sacred Geography and Pilgrimage Catalog (72 singular sanctuaries & shrines in `SacredSanctuaries/`, 14 linear pilgrimage corridors with 69 waypoints in `PilgrimageRoutes/`, and master compiled catalog `sacred_geography_master.json`). 100% schema validation gates passing.
