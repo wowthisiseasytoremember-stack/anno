@@ -341,36 +341,57 @@ struct TodayView: View {
     // MARK: - 5. Quick-Actions Bar
 
     private var quickActionsBar: some View {
+        ViewThatFits(in: .horizontal) {
             HStack(spacing: 12) {
-                Button(action: {
-                    Haptics.light()
-                    onShowSources()
-                }) {
-                    HStack(spacing: 6) {
-                        Image(systemName: AnnoSymbol.sources)
-                        Text(language == .vietnamese ? "Nguồn (\(entry.sources.count))" : "Sources (\(entry.sources.count))")
-                    }
-                    .font(Typography.captionMedium)
-                    .foregroundStyle(AnnoTheme.vellum)
-                    .padding(.horizontal, 14)
-                    .padding(.vertical, 8)
-                    .background {
-                        Capsule()
-                            .fill(AnnoTheme.choir)
-                            .strokeBorder(AnnoTheme.ash, lineWidth: 1)
-                    }
-                }
-                .buttonStyle(.plain)
+                sourcesButton
 
                 Spacer()
 
-                ConfidenceBadge(
-                    label: localizedText.confidenceLabel,
-                    confidence: entry.primary.confidence
-                )
-                .accessibilityLabel(localizedText.confidenceLabel)
+                confidenceBadge
+            }
+
+            VStack(alignment: .leading, spacing: 10) {
+                sourcesButton
+                confidenceBadge
             }
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    private var sourcesButton: some View {
+        Button(action: {
+            Haptics.light()
+            onShowSources()
+        }) {
+            HStack(spacing: 6) {
+                Image(systemName: AnnoSymbol.sources)
+                Text(
+                    language == .vietnamese
+                        ? "Nguồn (\(entry.sources.count))"
+                        : "Sources (\(entry.sources.count))"
+                )
+            }
+            .font(Typography.captionMedium)
+            .foregroundStyle(AnnoTheme.vellum)
+            .padding(.horizontal, 14)
+            .padding(.vertical, 8)
+            .background {
+                Capsule()
+                    .fill(AnnoTheme.choir)
+                    .strokeBorder(AnnoTheme.ash, lineWidth: 1)
+            }
+        }
+        .buttonStyle(.plain)
+        .annoTapTarget()
+    }
+
+    private var confidenceBadge: some View {
+        ConfidenceBadge(
+            label: localizedText.confidenceLabel,
+            confidence: entry.primary.confidence
+        )
+        .accessibilityLabel(localizedText.confidenceLabel)
+    }
     // MARK: - 6. Summary Text
 
     private var summaryCard: some View {
@@ -480,7 +501,7 @@ struct TodayView: View {
                             Text(wp.name(for: language))
                                 .font(Typography.caption2)
                                 .foregroundStyle(AnnoTheme.vellum)
-                                .lineLimit(1)
+                                .lineLimit(2)
                         }
                         .padding(.horizontal, 8)
                         .padding(.vertical, 4)
