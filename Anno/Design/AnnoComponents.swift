@@ -192,3 +192,112 @@ struct AnnoStateView: View {
         .accessibilityElement(children: .combine)
     }
 }
+
+
+struct SacredMomentBanner: View {
+    let title: String
+    var subtitle: String?
+    var symbol: String = AnnoSymbol.sacred
+    var intensity: SacredIntensity = .feast
+    var tint: Color = AnnoTheme.goldLeaf
+
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var revealed = false
+
+    var body: some View {
+        HStack(spacing: 12) {
+            ZStack {
+                if intensity == .solemnity {
+                    SacredAureole(
+                        tint: tint,
+                        intensity: .solemnity,
+                        diameter: 46
+                    )
+                }
+
+                Image(systemName: symbol)
+                    .font(Typography.iconBody)
+                    .symbolRenderingMode(.hierarchical)
+                    .foregroundStyle(intensity == .solemnity ? AnnoTheme.narthex : tint)
+                    .frame(width: 38, height: 38)
+                    .background {
+                        Circle()
+                            .fill(
+                                intensity == .solemnity
+                                    ? AnnoTheme.goldLeaf
+                                    : tint.opacity(0.14)
+                            )
+                    }
+            }
+
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title.uppercased())
+                    .font(Typography.captionBold)
+                    .foregroundStyle(
+                        intensity == .solemnity
+                            ? AnnoTheme.gilt
+                            : tint
+                    )
+                    .tracking(1.2)
+
+                if let subtitle {
+                    Text(subtitle)
+                        .font(Typography.subheadlineSemiboldSerif)
+                        .foregroundStyle(AnnoTheme.textPrimary)
+                        .lineLimit(2)
+                }
+            }
+
+            Spacer(minLength: 0)
+
+            if intensity == .solemnity {
+                Image(systemName: "sparkles")
+                    .foregroundStyle(AnnoTheme.gilt)
+                    .symbolEffect(.appear, value: revealed)
+            }
+        }
+        .padding(12)
+        .background {
+            RoundedRectangle(cornerRadius: AnnoTheme.radiusCard, style: .continuous)
+                .fill(
+                    LinearGradient(
+                        colors: intensity == .solemnity
+                            ? [
+                                AnnoTheme.goldLeaf.opacity(0.22),
+                                AnnoTheme.surfaceRaised,
+                                AnnoTheme.candleGlow.opacity(0.12)
+                            ]
+                            : [
+                                tint.opacity(0.10),
+                                AnnoTheme.surfaceRaised
+                            ],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+        }
+        .overlay {
+            RoundedRectangle(cornerRadius: AnnoTheme.radiusCard, style: .continuous)
+                .strokeBorder(
+                    intensity == .solemnity
+                        ? AnnoTheme.gilt.opacity(0.72)
+                        : tint.opacity(0.34),
+                    lineWidth: intensity == .solemnity ? 1.4 : 1
+                )
+        }
+        .shadow(
+            color: intensity == .solemnity
+                ? AnnoTheme.goldLeaf.opacity(0.28)
+                : .clear,
+            radius: intensity == .solemnity ? 14 : 0,
+            y: 4
+        )
+        .scaleEffect(reduceMotion || revealed ? 1 : 0.96)
+        .opacity(revealed ? 1 : 0)
+        .animation(reduceMotion ? nil : AnnoMotion.reveal, value: revealed)
+        .accessibilityElement(children: .combine)
+        .onAppear {
+            revealed = true
+        }
+    }
+}
