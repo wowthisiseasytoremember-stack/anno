@@ -1,0 +1,291 @@
+{
+  "schema_version": "anno.socal_exemplar_content.v1",
+  "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
+  "status": "exemplar_content_draft",
+  "translation_status": "vietnamese_needs_human_catholic_review",
+  "content_principle": "Refuge → witness → survival → institution-building → living parish → inheritance",
+  "opening": {
+    "title_en": "Our Lady of La Vang — Orange County Pilgrimage",
+    "title_vi": "Đức Mẹ La Vang — Hành Hương Quận Cam",
+    "hook_en": "Start close to home. Walk a living story of Vietnamese Catholic faith.",
+    "hook_vi": "Bắt đầu từ nơi gần nhà. Hãy bước vào một câu chuyện sống động của đức tin Công giáo Việt Nam.",
+    "primary_cta_en": "Begin Pilgrimage",
+    "primary_cta_vi": "Bắt Đầu Hành Hương",
+    "secondary_cta_en": "See the Route",
+    "secondary_cta_vi": "Xem Lộ Trình"
+  },
+  "variants": [
+    {
+      "id": "quick",
+      "title_en": "Visit La Vang",
+      "title_vi": "Viếng Đức Mẹ La Vang",
+      "chapter_ids": [
+        "christ_cathedral_la_vang"
+      ],
+      "note": "One-campus first experience. No driving between spiritual stations."
+    },
+    {
+      "id": "core",
+      "title_en": "Orange County Pilgrimage",
+      "title_vi": "Hành Hương Quận Cam",
+      "chapter_ids": [
+        "christ_cathedral_la_vang",
+        "st_columban",
+        "vietnamese_catholic_center",
+        "our_lady_of_la_vang_parish",
+        "st_barbara"
+      ],
+      "note": "Primary v1 exemplar."
+    },
+    {
+      "id": "extended",
+      "title_en": "Orange County Pilgrimage — Deeper Visit",
+      "title_vi": "Hành Hương Quận Cam — Hành Trình Sâu Hơn",
+      "chapter_ids": [
+        "christ_cathedral_la_vang",
+        "st_columban",
+        "vietnamese_catholic_center",
+        "our_lady_of_la_vang_parish",
+        "st_barbara"
+      ],
+      "include_optional_station_ids": [
+        "christ_cathedral_context"
+      ],
+      "note": "Core route plus optional deeper context. Do not advertise fixed duration until field-tested."
+    }
+  ],
+  "chapters": [
+    {
+      "id": "christ_cathedral_la_vang",
+      "order": 1,
+      "geographic_name": "Christ Cathedral / Our Lady of La Vang Shrine",
+      "city": "Garden Grove",
+      "address": "13280 Chapman Ave, Garden Grove, CA 92840",
+      "official_url": "https://www.christcathedralcalifornia.org/ollvshrine/",
+      "role_en": "Refuge, memory, and witness",
+      "role_vi": "Nơi nương náu, ký ức và chứng tá",
+      "stations": [
+        {
+          "waypoint_id": "our_lady_la_vang_shrine_christ_cathedral",
+          "station_role": "arrival",
+          "moment_level": "climax",
+          "moment_label_en": "Major Pilgrimage Moment",
+          "moment_label_vi": "Khoảnh Khắc Hành Hương Lớn",
+          "title_en": "Our Lady of La Vang",
+          "title_vi": "Đức Mẹ La Vang",
+          "arrive_en": "You have arrived at the heart of this pilgrimage.",
+          "arrive_vi": "Bạn đã đến trung tâm của cuộc hành hương này.",
+          "look_en": "Look at Mary’s Vietnamese áo dài and khăn đống, then notice the canopy recalling the forest of La Vang.",
+          "look_vi": "Hãy nhìn áo dài và khăn đóng của Đức Mẹ, rồi để ý mái che gợi nhớ khu rừng La Vang.",
+          "know_en": "The shrine links the Catholic tradition of the 1798 apparition at La Vang with the faith and history of Vietnamese Catholics in Orange County.",
+          "know_vi": "Đền thánh nối truyền thống Công giáo về biến cố La Vang năm 1798 với đức tin và lịch sử của người Công giáo Việt Nam tại Quận Cam.",
+          "pray_en": "Our Lady of La Vang, stay close to every family seeking refuge, healing, and hope.",
+          "pray_vi": "Lạy Đức Mẹ La Vang, xin ở gần mọi gia đình đang tìm nơi nương náu, sự chữa lành và niềm hy vọng.",
+          "continue_en": "Walk to the martyrs wall. Let the story move from refuge to witness.",
+          "continue_vi": "Hãy bước đến bức tường các Thánh Tử Đạo. Từ nơi nương náu, câu chuyện chuyển sang chứng tá.",
+          "official_url": "https://www.christcathedralcalifornia.org/ollvshrine/about-the-shrine/"
+        },
+        {
+          "waypoint_id": "martyrs_wall_117_vietnamese_christian",
+          "station_role": "witness",
+          "moment_level": "highlight",
+          "moment_label_en": "Pilgrimage Highlight",
+          "moment_label_vi": "Điểm Nhấn Hành Hương",
+          "title_en": "The 117 Vietnamese Martyrs",
+          "title_vi": "117 Thánh Tử Đạo Việt Nam",
+          "arrive_en": "Slow down here.",
+          "arrive_vi": "Hãy chậm lại nơi đây.",
+          "look_en": "Choose one name on the wall. Read the date and how that person died.",
+          "look_vi": "Hãy chọn một tên trên bức tường. Đọc ngày và cách người ấy đã chịu chết.",
+          "know_en": "The shrine names 117 Vietnamese Catholics canonized as martyrs. The panels make a large history personal: one name, one life, one act of fidelity at a time.",
+          "know_vi": "Đền thánh ghi tên 117 vị tử đạo Việt Nam đã được tuyên thánh. Những tấm bia biến một lịch sử lớn thành điều rất cá nhân: từng tên, từng cuộc đời, từng chứng tá trung thành.",
+          "pray_en": "Jesus, give us courage to live our faith with integrity when it costs us something.",
+          "pray_vi": "Lạy Chúa Giêsu, xin ban cho chúng con lòng can đảm để sống đức tin cách trung thành khi phải trả giá.",
+          "continue_en": "Carry one name with you into the gardens.",
+          "continue_vi": "Hãy mang theo trong lòng một tên khi bước vào khu vườn.",
+          "official_url": "https://www.christcathedralcalifornia.org/ollvshrine/pictures/"
+        },
+        {
+          "waypoint_id": "rosary_gardens_christ_cathedral_pilgrimage",
+          "station_role": "reflection",
+          "moment_level": "reflection",
+          "moment_label_en": "Reflection",
+          "moment_label_vi": "Suy Niệm",
+          "title_en": "Marian Gardens",
+          "title_vi": "Vườn Đức Mẹ",
+          "arrive_en": "The route gets quiet here.",
+          "arrive_vi": "Hành trình lắng xuống nơi đây.",
+          "look_en": "Find a place to sit or stand without rushing to the next screen.",
+          "look_vi": "Hãy tìm một chỗ ngồi hoặc đứng yên, đừng vội chuyển sang màn hình kế tiếp.",
+          "know_en": "The Marian Gardens sit behind the La Vang shrine and are intended as a place for prayer and the Rosary.",
+          "know_vi": "Vườn Đức Mẹ nằm phía sau đền Đức Mẹ La Vang và được dành cho việc cầu nguyện và lần chuỗi Mân Côi.",
+          "pray_en": "Offer one decade of the Rosary, or name one intention you are carrying today.",
+          "pray_vi": "Hãy dâng một chục kinh Mân Côi, hoặc gọi tên một ý nguyện bạn đang mang theo hôm nay.",
+          "continue_en": "When you are ready, continue from memorial space into the living Church of Orange County.",
+          "continue_vi": "Khi sẵn sàng, hãy tiếp tục từ không gian tưởng niệm đến đời sống Giáo Hội đang hiện diện tại Quận Cam.",
+          "official_url": "https://www.christcathedralcalifornia.org/event_slides/marian-gardens/"
+        },
+        {
+          "station_id": "christ_cathedral_context",
+          "station_role": "optional_context",
+          "moment_level": "context",
+          "title_en": "Christ Cathedral",
+          "title_vi": "Nhà Thờ Chính Tòa Chúa Kitô",
+          "arrive_en": "Optional deeper visit.",
+          "arrive_vi": "Điểm dừng tùy chọn để tìm hiểu sâu hơn.",
+          "look_en": "Notice how the La Vang shrine now stands within the diocesan center of Catholic life in Orange County.",
+          "look_vi": "Hãy nhìn cách đền Đức Mẹ La Vang hiện diện ngay trong trung tâm đời sống Công giáo của Giáo phận Orange.",
+          "know_en": "Christ Cathedral offers public tours and can arrange Vietnamese-language tours by reservation, subject to guide availability.",
+          "know_vi": "Christ Cathedral có các chuyến tham quan công cộng và có thể sắp xếp tour tiếng Việt khi đặt trước, tùy vào hướng dẫn viên.",
+          "pray_en": "Pray for the Church in Orange County and every community that calls it home.",
+          "pray_vi": "Hãy cầu nguyện cho Giáo Hội tại Quận Cam và mọi cộng đoàn đang gọi nơi đây là mái nhà.",
+          "continue_en": "Continue when you are ready.",
+          "continue_vi": "Hãy tiếp tục khi bạn sẵn sàng.",
+          "official_url": "https://www.christcathedralcalifornia.org/visit/"
+        }
+      ]
+    },
+    {
+      "id": "st_columban",
+      "order": 2,
+      "geographic_name": "Saint Columban Catholic Church",
+      "city": "Garden Grove",
+      "address": "10801 Stanford Ave, Garden Grove, CA 92840",
+      "official_url": "https://www.saintcolumbanchurch.org/",
+      "role_en": "Living parish life",
+      "role_vi": "Đời sống giáo xứ sống động",
+      "stations": [
+        {
+          "waypoint_id": "st_columban_church_garden_grove",
+          "station_role": "living_parish",
+          "moment_level": "highlight",
+          "moment_label_en": "Faith Becomes Community",
+          "moment_label_vi": "Đức Tin Trở Thành Cộng Đoàn",
+          "title_en": "Saint Columban",
+          "title_vi": "Giáo Xứ Thánh Columban",
+          "arrive_en": "From monument and memory, the pilgrimage moves into ordinary parish life.",
+          "arrive_vi": "Từ đài tưởng niệm và ký ức, cuộc hành hương bước vào đời sống giáo xứ thường ngày.",
+          "look_en": "Notice the signs of a parish built for weekly life: worship, formation, service, and multiple languages sharing one community.",
+          "look_vi": "Hãy để ý những dấu hiệu của một giáo xứ sống từng tuần: phụng vụ, giáo lý, phục vụ và nhiều ngôn ngữ cùng chung một cộng đoàn.",
+          "know_en": "Saint Columban describes itself as a sacramental, multicultural parish and currently maintains a substantial Vietnamese-language liturgical and formation life.",
+          "know_vi": "Thánh Columban tự mô tả là một giáo xứ bí tích và đa văn hóa, với đời sống phụng vụ và giáo lý tiếng Việt đáng kể.",
+          "pray_en": "Pray for the people who keep faith alive through ordinary weeks, not only extraordinary moments.",
+          "pray_vi": "Hãy cầu nguyện cho những người giữ đức tin sống động qua từng tuần bình thường, không chỉ trong những dịp đặc biệt.",
+          "continue_en": "Next, see what happens when a diaspora builds institutions for more than one generation.",
+          "continue_vi": "Tiếp theo, hãy nhìn điều xảy ra khi một cộng đồng di dân xây dựng những cơ sở cho nhiều thế hệ.",
+          "official_url": "https://www.saintcolumbanchurch.org/"
+        }
+      ]
+    },
+    {
+      "id": "vietnamese_catholic_center",
+      "order": 3,
+      "geographic_name": "Vietnamese Catholic Center",
+      "city": "Santa Ana",
+      "address": "1538 Century Blvd, Santa Ana, CA 92703",
+      "official_url": "https://www.rcbo.org/directories/parishes/vietnamese-catholic-center/",
+      "role_en": "Institution-building and inheritance",
+      "role_vi": "Xây dựng cộng đồng và trao truyền di sản",
+      "stations": [
+        {
+          "station_id": "vietnamese_catholic_center_santa_ana",
+          "station_role": "institution",
+          "moment_level": "highlight",
+          "moment_label_en": "Built for the Next Generation",
+          "moment_label_vi": "Xây Dựng Cho Thế Hệ Kế Tiếp",
+          "title_en": "Vietnamese Catholic Center",
+          "title_vi": "Trung Tâm Công Giáo Việt Nam",
+          "arrive_en": "This stop is about what a community builds when it plans to stay, teach, worship, and hand something forward.",
+          "arrive_vi": "Điểm dừng này nói về những gì một cộng đồng xây dựng khi quyết định ở lại, giảng dạy, thờ phượng và trao truyền cho thế hệ sau.",
+          "look_en": "Notice the Vietnamese architectural language of the center and the fact that this is more than a worship space.",
+          "look_vi": "Hãy để ý ngôn ngữ kiến trúc Việt Nam của trung tâm và nhận ra rằng đây không chỉ là một nơi thờ phượng.",
+          "know_en": "The Diocese of Orange describes the Center as a home for religious, cultural, educational, and social activity serving three generations: elders, adults, and children.",
+          "know_vi": "Giáo phận Orange mô tả Trung tâm như một mái nhà cho sinh hoạt tôn giáo, văn hóa, giáo dục và xã hội, phục vụ ba thế hệ: người cao niên, người trưởng thành và trẻ em.",
+          "pray_en": "Pray for the elders who preserved, the adults who built, and the children who will decide what to carry forward.",
+          "pray_vi": "Hãy cầu nguyện cho các bậc cao niên đã gìn giữ, người trưởng thành đã xây dựng và trẻ em sẽ quyết định điều gì được tiếp tục trao truyền.",
+          "continue_en": "Now return to La Vang—not as a monument, but as parish life.",
+          "continue_vi": "Bây giờ hãy trở lại với La Vang—không chỉ như một đài tưởng niệm, mà như đời sống giáo xứ.",
+          "official_url": "https://www.rcbo.org/directories/parishes/vietnamese-catholic-center/"
+        }
+      ]
+    },
+    {
+      "id": "our_lady_of_la_vang_parish",
+      "order": 4,
+      "geographic_name": "Our Lady of La Vang Catholic Church",
+      "city": "Santa Ana",
+      "address": "288 S Harbor Blvd, Santa Ana, CA 92704",
+      "official_url": "https://ourladyoflavang.org/",
+      "role_en": "Marian devotion as parish life",
+      "role_vi": "Lòng sùng kính Đức Mẹ trong đời sống giáo xứ",
+      "stations": [
+        {
+          "station_id": "our_lady_of_la_vang_church_santa_ana",
+          "station_role": "marian_parish",
+          "moment_level": "climax",
+          "moment_label_en": "La Vang Lives Here Too",
+          "moment_label_vi": "La Vang Vẫn Sống Nơi Đây",
+          "title_en": "Our Lady of La Vang Catholic Church",
+          "title_vi": "Giáo Xứ Đức Mẹ La Vang",
+          "arrive_en": "The same Marian name now meets you in the rhythm of parish life.",
+          "arrive_vi": "Danh hiệu Đức Mẹ ấy nay gặp bạn trong nhịp sống thường ngày của một giáo xứ.",
+          "look_en": "Look for the difference between a destination shrine and a church built around recurring sacramental life.",
+          "look_vi": "Hãy nhận ra sự khác biệt giữa một đền hành hương và một nhà thờ sống bằng nhịp điệu bí tích thường xuyên.",
+          "know_en": "Our Lady of La Vang Catholic Church in Santa Ana is an active Diocese of Orange parish. Its presence shows La Vang devotion woven into local Catholic life rather than contained at one monument.",
+          "know_vi": "Giáo Xứ Đức Mẹ La Vang tại Santa Ana là một giáo xứ đang hoạt động của Giáo phận Orange. Sự hiện diện này cho thấy lòng sùng kính Đức Mẹ La Vang được đan vào đời sống Công giáo địa phương, không chỉ nằm trong một đền tưởng niệm.",
+          "pray_en": "Mary, help every parish become a place where faith can be received, practiced, and handed forward.",
+          "pray_vi": "Lạy Mẹ Maria, xin giúp mỗi giáo xứ trở thành nơi đức tin được đón nhận, sống và trao truyền.",
+          "continue_en": "The final core stop turns from institution and identity toward family, sacraments, and ordinary continuity.",
+          "continue_vi": "Điểm dừng cuối của hành trình chính chuyển từ cơ sở và bản sắc sang gia đình, bí tích và sự tiếp nối hằng ngày.",
+          "official_url": "https://www.rcbo.org/directories/parishes/our-lady-of-la-vang-catholic-church"
+        }
+      ]
+    },
+    {
+      "id": "st_barbara",
+      "order": 5,
+      "geographic_name": "Saint Barbara Catholic Church",
+      "city": "Santa Ana",
+      "address": "730 S Euclid St, Santa Ana, CA 92704",
+      "official_url": "https://www.saintbarbarachurch.org/",
+      "role_en": "Family, sacraments, and continuity",
+      "role_vi": "Gia đình, bí tích và sự tiếp nối",
+      "stations": [
+        {
+          "waypoint_id": "st_barbara_parish_westminster",
+          "station_role": "family_parish",
+          "moment_level": "highlight",
+          "moment_label_en": "Faith Handed Forward",
+          "moment_label_vi": "Đức Tin Được Trao Lại",
+          "title_en": "Saint Barbara",
+          "title_vi": "Giáo Xứ Thánh Barbara",
+          "arrive_en": "The route ends in the kind of place where faith becomes routine enough to survive generations.",
+          "arrive_vi": "Hành trình kết thúc tại một nơi đức tin trở thành nhịp sống đủ bền để đi qua nhiều thế hệ.",
+          "look_en": "Look for signs of ordinary sacramental life: families arriving, formation, confession, Mass, school, and ministry.",
+          "look_vi": "Hãy để ý những dấu hiệu của đời sống bí tích thường ngày: gia đình đến nhà thờ, giáo lý, hòa giải, Thánh lễ, trường học và các hội đoàn.",
+          "know_en": "Saint Barbara is a multilingual Santa Ana parish with extensive Vietnamese liturgical life. Its role in this pilgrimage is not another monument—it is continuity.",
+          "know_vi": "Thánh Barbara là một giáo xứ đa ngôn ngữ tại Santa Ana với đời sống phụng vụ tiếng Việt phong phú. Vai trò của nơi này trong cuộc hành hương không phải là một đài tưởng niệm khác—mà là sự tiếp nối.",
+          "pray_en": "Pray for the faith that is handed forward quietly: through meals, rides to church, catechism, sacraments, funerals, weddings, and ordinary Sundays.",
+          "pray_vi": "Hãy cầu nguyện cho đức tin được âm thầm trao truyền: qua bữa cơm, những chuyến xe đến nhà thờ, giáo lý, bí tích, tang lễ, hôn lễ và những Chúa Nhật bình thường.",
+          "continue_en": "Complete the pilgrimage when you are ready.",
+          "continue_vi": "Hãy hoàn tất cuộc hành hương khi bạn sẵn sàng.",
+          "official_url": "https://www.saintbarbarachurch.org/"
+        }
+      ]
+    }
+  ],
+  "completion": {
+    "title_en": "Pilgrimage Complete",
+    "title_vi": "Hoàn Tất Hành Hương",
+    "body_en": "You walked through a living story of Vietnamese Catholic faith in Orange County—from refuge and witness to institutions, parishes, families, and inheritance.",
+    "body_vi": "Bạn đã bước qua một câu chuyện sống động của đức tin Công giáo Việt Nam tại Quận Cam—từ nơi nương náu và chứng tá đến cộng đồng, giáo xứ, gia đình và di sản được trao truyền.",
+    "invocation_en": "Our Lady of La Vang, pray for us.",
+    "invocation_vi": "Đức Mẹ La Vang, cầu cho chúng con.",
+    "style": "devotional_keepsake_not_game_badge"
+  },
+  "volatile_data_policy": {
+    "embed_current_schedules": false,
+    "instruction": "Mass, confession, tour, office, parking restriction, and closure details must come from current official sources or be shown as 'check current schedule'.",
+    "last_verified": "2026-10-03"
+  }
+}
