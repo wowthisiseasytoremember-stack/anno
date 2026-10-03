@@ -92,6 +92,29 @@ public struct SacredSiteMapView: View {
         return exemplarContent.content?.chapter(containing: waypoint.waypointId)
     }
 
+    private func exemplarRequiredStationIds(
+        route: PilgrimageRoute
+    ) -> [String] {
+        guard isSoCalExemplar(route) else {
+            return route.waypoints.map(\.waypointId)
+        }
+        return exemplarContent.content?.coreRequiredStationIds ?? []
+    }
+
+    private func exemplarVisitedCount(route: PilgrimageRoute) -> Int {
+        progressStore.visitedCount(
+            routeId: route.routeId,
+            requiredStationIds: exemplarRequiredStationIds(route: route)
+        )
+    }
+
+    private func exemplarIsComplete(route: PilgrimageRoute) -> Bool {
+        progressStore.hasVisitedAll(
+            routeId: route.routeId,
+            requiredStationIds: exemplarRequiredStationIds(route: route)
+        )
+    }
+
     public var body: some View {
         ZStack(alignment: .top) {
             mapLayer
@@ -766,8 +789,8 @@ public struct SacredSiteMapView: View {
                 SoCalPilgrimageHero(
                     content: content,
                     language: language,
-                    visitedCount: progressStore.visitedCount(route: route),
-                    totalCount: route.waypoints.count
+                    visitedCount: exemplarVisitedCount(route: route),
+                    totalCount: exemplarRequiredStationIds(route: route).count
                 )
             }
 
@@ -844,12 +867,10 @@ public struct SacredSiteMapView: View {
                             ),
                             language: language
                         ) {
-                            let willComplete =
-                                progressStore.visitedCount(route: route) == route.waypoints.count - 1
-
                             progressStore.markVisited(route: route, waypoint: wp)
 
-                            if willComplete {
+                            if exemplarIsComplete(route: route) {
+                                progressStore.markCompleted(routeId: route.routeId)
                                 Haptics.success()
                             } else {
                                 Haptics.medium()
@@ -975,7 +996,7 @@ public struct SacredSiteMapView: View {
             }
 
             if isSoCalExemplar(route),
-               progressStore.isComplete(route: route),
+               exemplarIsComplete(route: route),
                let content = exemplarContent.content {
                 PilgrimageCompletionKeepsake(
                     content: content,
