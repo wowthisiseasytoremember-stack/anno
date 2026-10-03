@@ -21,6 +21,42 @@ struct TodayView: View {
         AnnoTheme.liturgicalColor(named: entry.liturgical.color)
     }
 
+    private var sacredDayBanner: SacredMomentBanner? {
+        let rank = entry.liturgical.rank.lowercased()
+
+        if sacredIntensity == .solemnity {
+            return SacredMomentBanner(
+                title: language == .vietnamese ? "Lễ Trọng" : "Solemnity",
+                subtitle: localizedText.title,
+                symbol: AnnoSymbol.sacred,
+                intensity: .solemnity,
+                tint: liturgicalTint
+            )
+        }
+
+        if rank == "feast" {
+            return SacredMomentBanner(
+                title: language == .vietnamese ? "Ngày Lễ" : "Feast Day",
+                subtitle: localizedText.title,
+                symbol: "sparkles",
+                intensity: .feast,
+                tint: liturgicalTint
+            )
+        }
+
+        if rank == "sunday" {
+            return SacredMomentBanner(
+                title: language == .vietnamese ? "Chúa Nhật" : "Sunday",
+                subtitle: localizedText.title,
+                symbol: AnnoSymbol.today,
+                intensity: .feast,
+                tint: liturgicalTint
+            )
+        }
+
+        return nil
+    }
+
     private var calendarPillsData: [(label: String, value: String)] {
         [
             ("Julian", entry.calendars.julian),
@@ -36,6 +72,12 @@ struct TodayView: View {
             VStack(spacing: AnnoTheme.lg) {
                 dateBlock
                     .annoReveal(isVisible: appeared, delay: 0.00)
+
+                if let banner = sacredDayBanner {
+                    banner
+                        .annoReveal(isVisible: appeared, delay: 0.03)
+                }
+
                 headerSection
                     .annoReveal(isVisible: appeared, delay: 0.04)
                 artworkHero
