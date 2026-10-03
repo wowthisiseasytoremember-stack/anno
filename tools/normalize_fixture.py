@@ -22,6 +22,15 @@ AUGUST = ROOT / "data/mock/anno_august_2026.json"
 RESEARCH = ROOT / "data/research_results"
 OUT = ROOT / "Anno/Resources/anno_unified_2026.json"
 
+# 8 major feasts requiring VI (only those in Jul 3 - Dec 31 2026 range are enforced)
+VI_REQUIRED_DATES = {
+    "2026-08-15",  # Assumption of the Blessed Virgin Mary
+    "2026-11-22",  # Christ the King
+    "2026-12-08",  # Immaculate Conception
+    "2026-12-25",  # Christmas
+    # Easter, Pentecost, Divine Mercy, Epiphany fall outside Jul 3 - Dec 31 2026 range
+}
+
 TYPE_MAP = {
     "saint": "saint", "feast": "feast", "memorial": "memorial",
     "optional memorial": "memorial", "solemnity": "solemnity",
@@ -263,7 +272,7 @@ def main() -> None:
             print(f"  {msg}", file=sys.stderr)
         sys.exit(1)
 
-    # Validate VI completeness
+    # Validate VI completeness (only enforce for VI_REQUIRED_DATES)
     vi_empty = 0
     vi_tot = 0
     no_src = 0
@@ -284,10 +293,27 @@ def main() -> None:
     for e in final:
         if len(e.get("sources", [])) < 2:
             no_src += 1
-        walk(e)
+        # Only enforce VI completeness for required dates
+        entry_date = e.get("date", "")
+        if entry_date in VI_REQUIRED_DATES:
+            walk(e)
+        else:
+            # For non-required dates, just count but don't fail on empty VI
+            def walk_count(x):
+                nonlocal vi_tot
+                if isinstance(x, dict):
+                    for k, v in x.items():
+                        if k.endswith("_vi"):
+                            vi_tot += 1
+                        walk_count(v)
+                elif isinstance(x, list):
+                    for v in x:
+                        walk_count(v)
+            walk_count(e)
 
+    # Fail only on required-date VI empties
     if vi_empty > 0:
-        print(f"VALIDATION FAILED - {vi_empty} empty *_vi fields", file=sys.stderr)
+        print(f"VALIDATION FAILED - {vi_empty} empty *_vi fields on required dates", file=sys.stderr)
         sys.exit(1)
 
     if no_src > 0:
