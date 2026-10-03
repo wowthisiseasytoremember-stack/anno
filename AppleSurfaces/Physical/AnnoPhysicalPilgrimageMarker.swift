@@ -14,25 +14,21 @@ enum AnnoPhysicalPilgrimageMarker {
         "rosary_gardens_christ_cathedral_pilgrimage"
     ]
 
-    static func deepLinkURL(stationId: String) -> URL? {
-        var components = URLComponents()
-        components.scheme = "anno"
-        components.host = "pilgrimage"
-        components.path = "/\(routeId)/\(stationId)"
-        return components.url
+    static func markerURL(index: Int) -> URL? {
+        URL(string: "anno://p/lv/\(index)")
     }
 
     /// Text payload suitable for a temporary printable QR marker.
-    static func qrPayload(stationId: String) -> String? {
-        deepLinkURL(stationId: stationId)?.absoluteString
+    static func qrPayload(index: Int) -> String? {
+        markerURL(index: index)?.absoluteString
     }
 
     /// Produces the actual NDEF URI record used by a writable NFC tag.
     ///
     /// The Core NFC write session remains staged because it requires target
     /// entitlements and physical-device validation.
-    static func nfcPayload(stationId: String) -> NFCNDEFPayload? {
-        guard let url = deepLinkURL(stationId: stationId) else {
+    static func nfcPayload(index: Int) -> NFCNDEFPayload? {
+        guard let url = markerURL(index: index) else {
             return nil
         }
         return NFCNDEFPayload.wellKnownTypeURIPayload(url: url)
