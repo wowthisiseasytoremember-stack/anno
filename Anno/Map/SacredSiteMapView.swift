@@ -217,13 +217,33 @@ public struct SacredSiteMapView: View {
                             anchor: .bottom
                         ) {
                             Button {
-                                Haptics.light()
-                                withAnimation(AnnoMotion.selection) {
+                                let moment = PilgrimageMomentRegistry.shared.moment(
+                                    routeId: route.routeId,
+                                    waypointId: wp.waypointId
+                                )
+                                switch moment?.level {
+                                case .climax:
+                                    Haptics.success()
+                                case .highlight:
+                                    Haptics.medium()
+                                case nil:
+                                    Haptics.light()
+                                }
+
+                                withAnimation(
+                                    moment?.level == .climax
+                                        ? AnnoMotion.immersive
+                                        : AnnoMotion.selection
+                                ) {
                                     selectedWaypoint = wp
                                     sheetExpanded = true
                                 }
                             } label: {
-                                waypointPinView(waypoint: wp, isSelected: (selectedWaypoint ?? route.waypoints.first)?.id == wp.id)
+                                waypointPinView(
+                                    route: route,
+                                    waypoint: wp,
+                                    isSelected: (selectedWaypoint ?? route.waypoints.first)?.id == wp.id
+                                )
                             }
                             .buttonStyle(.plain)
                         }
@@ -435,43 +455,80 @@ public struct SacredSiteMapView: View {
 
     // MARK: - Custom Pin Views
 
-    private func waypointPinView(waypoint: PilgrimageWaypoint, isSelected: Bool) -> some View {
-        VStack(spacing: 0) {
+    private func waypointPinView(
+        route: PilgrimageRoute,
+        waypoint: PilgrimageWaypoint,
+        isSelected: Bool
+    ) -> some View {
+        let moment = PilgrimageMomentRegistry.shared.moment(
+            routeId: route.routeId,
+            waypointId: waypoint.waypointId
+        )
+        let intensity = moment?.level.sacredIntensity ?? (isSelected ? .feast : .ordinary)
+        let baseSize: CGFloat = {
+            switch moment?.level {
+            case .climax: return isSelected ? 40 : 34
+            case .highlight: return isSelected ? 36 : 30
+            case nil: return isSelected ? 32 : 26
+            }
+        }()
+
+        return VStack(spacing: 0) {
             ZStack {
-                if isSelected {
+                if intensity > .ordinary {
                     SacredAureole(
                         tint: AnnoTheme.goldLeaf,
-                        intensity: .feast,
-                        diameter: 46
+                        intensity: intensity,
+                        diameter: moment?.level == .climax ? 58 : 48
                     )
                 }
 
                 Circle()
                     .fill(isSelected ? AnnoTheme.goldLeaf : AnnoTheme.narthex)
-                    .frame(width: isSelected ? 32 : 26, height: isSelected ? 32 : 26)
-                    .overlay(Circle().stroke(AnnoTheme.goldLeaf, lineWidth: 1.5))
+                    .frame(width: baseSize, height: baseSize)
+                    .overlay(
+                        Circle()
+                            .stroke(
+                                moment?.level == .climax
+                                    ? AnnoTheme.gilt
+                                    : AnnoTheme.goldLeaf,
+                                lineWidth: moment?.level == .climax ? 2.2 : 1.5
+                            )
+                    )
                     .shadow(
-                        color: isSelected
-                            ? AnnoTheme.gilt.opacity(0.35)
+                        color: moment != nil
+                            ? AnnoTheme.gilt.opacity(isSelected ? 0.52 : 0.28)
                             : .black.opacity(0.6),
-                        radius: isSelected ? 8 : 4,
+                        radius: moment != nil ? (isSelected ? 10 : 6) : 4,
                         y: 2
                     )
 
-                Text("\\\(waypoint.order)")
-                                    .font(Typography.captionBoldSerif)
-                                    .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
-                            }
+                Text("\(waypoint.order)")
+                    .font(Typography.captionBoldSerif)
+                    .foregroundStyle(isSelected ? AnnoTheme.narthex : AnnoTheme.goldLeaf)
 
-                            Image(systemName: "triangle.fill")
-                                .font(Typography.iconTiny)
-                                .foregroundStyle(AnnoTheme.goldLeaf)
-                                .rotationEffect(.degrees(180))
-                                .offset(y: -2)
-                        }
-                    }
+                if let moment {
+                    Image(systemName: moment.level == .climax ? "sparkles" : AnnoSymbol.sacred)
+                        .font(Typography.iconTiny)
+                        .foregroundStyle(
+                            moment.level == .climax
+                                ? AnnoTheme.gilt
+                                : AnnoTheme.goldLeaf
+                        )
+                        .offset(x: baseSize * 0.45, y: -baseSize * 0.40)
+                        .symbolEffect(.appear, value: isSelected)
+                }
+            }
 
-                    private func sanctuaryPinView(sanctuary: Sanctuary, isSelected: Bool) -> some View {
+            Image(systemName: "triangle.fill")
+                .font(Typography.iconTiny)
+                .foregroundStyle(AnnoTheme.goldLeaf)
+                .rotationEffect(.degrees(180))
+                .offset(y: -2)
+        }
+    }
+
+    private func sanctuaryPinView(sanctuary: Sanctuary, isSelected: Bool) -> some View {
                         VStack(spacing: 0) {
                             ZStack {
                                 if isSelected {
@@ -687,7 +744,29 @@ public struct SacredSiteMapView: View {
             // Selected Waypoint Focus
             let currentWp = selectedWaypoint ?? route.waypoints.first
             if let wp = currentWp {
+                let moment = PilgrimageMomentRegistry.shared.moment(
+                    routeId: route.routeId,
+                    waypointId: wp.waypointId
+                )
+
                 VStack(alignment: .leading, spacing: 10) {
+                    if let moment {
+                        SacredMomentBanner(
+                            title: moment.level == .climax
+                                ? (language == .vietnamese
+                                    ? "Khoảnh Khắc Hành Hương Lớn"
+                                    : "Major Pilgrimage Moment")
+                                : (language == .vietnamese
+                                    ? "Điểm Nhấn Hành Hương"
+                                    : "Pilgrimage Highlight"),
+                            subtitle: moment.label(for: language),
+                            symbol: moment.level == .climax
+                                ? "sparkles"
+                                : AnnoSymbol.sacred,
+                            intensity: moment.level.sacredIntensity,
+                            tint: AnnoTheme.goldLeaf
+                        )
+                    }
                     HStack(alignment: .top) {
                         VStack(alignment: .leading, spacing: 2) {
                             Text("Station \(wp.order): \(wp.name(for: language))")
