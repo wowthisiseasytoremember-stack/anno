@@ -432,6 +432,16 @@ struct TodayView: View {
 
     private func liturgicalPilgrimageCard(route: PilgrimageRoute) -> some View {
             VStack(alignment: .leading, spacing: 12) {
+                SacredMomentBanner(
+                    title: language == .vietnamese
+                        ? "Gắn Liền Với Hôm Nay"
+                        : "Connected to Today",
+                    subtitle: route.title(for: language),
+                    symbol: AnnoSymbol.route,
+                    intensity: sacredIntensity == .solemnity ? .solemnity : .feast,
+                    tint: liturgicalTint
+                )
+
                 HStack(spacing: 8) {
                     Image(systemName: "sparkles")
                         .foregroundStyle(AnnoTheme.goldLeaf)
@@ -487,7 +497,7 @@ struct TodayView: View {
                 if let firstWp = route.waypoints.first, let mapsUrl = mapsURL(for: SacredPlace(name: firstWp.nameEn, latitude: firstWp.latitude, longitude: firstWp.longitude, confidence: .confirmed, sourceUrl: "")) {
                     Link(destination: mapsUrl) {
                         HStack(spacing: 6) {
-                            Image(systemName: "map.fill")
+                            Image(systemName: AnnoSymbol.route)
                             Text(language == .vietnamese ? "Xem Lộ Trình Trên Bản Đồ" : "Explore Route on Map")
                         }
                         .font(Typography.captionSemibold)
@@ -501,7 +511,7 @@ struct TodayView: View {
                                 endPoint: .bottomTrailing
                             )
                         )
-                        .clipShape(RoundedRectangle(cornerRadius: 8))
+                        .clipShape(RoundedRectangle(cornerRadius: AnnoTheme.radiusCompact, style: .continuous))
                         .shadow(color: AnnoTheme.goldLeaf.opacity(0.3), radius: 6, y: 2)
                     }
                     .buttonStyle(.plain)
