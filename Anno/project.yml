@@ -23,6 +23,7 @@ targets:
         # into the narrow fixture-driven v1 app.
         excludes:
           - AppRouter.swift
+          - Components/ShareCard.swift
           - Components/VerseActionBar.swift
           - Models/Artwork.swift
           - Models/AudioNarrationTrack.swift
