@@ -1,211 +1,179 @@
-# Interfaith Devotional Engine — Architecture
-**Last updated:** 2026-07-04
+# Anno — Architecture
 
-## Product Direction
+**Reconciled:** 2026-10-03  
+**Authority:** current architecture for the active v1 target.
 
-The implementation target is now a native SwiftUI iOS app with a Catholic-first launch wedge and an interfaith-capable data engine.
+## System shape
 
-Launch promise:
+Anno is a native SwiftUI iOS application fed by deterministic calendar data and structured devotional/pilgrimage resources.
 
-> Every day in Catholic history, mapped.
+### Engine A — deterministic calendar computation
+- no LLM date math
+- produces calendar/date context
+- validated with Python tests
+- sundown/time-sensitive presentation must use appropriate location/time context or a clearly labeled fallback
 
-The broader architecture remains useful for Jewish, Islamic, Orthodox, Coptic, Ethiopian, and other sacred-context layers, but v1 should present Catholic sacred history first unless product validation shows that interfaith-first positioning converts better.
+### Engine B — research/content pipeline
+- structured research and source collection
+- output is data, not runtime code
+- uncertainty/tradition must remain representable
+- user-facing narrative should not invent facts beyond the structured source material
 
-## Governing Invariants
+### Native app
 
-- Engine A is deterministic calendar conversion. No LLM may compute or correct calendar dates.
-- Engine B produces structured, sourced research data. It may discover claims; it may not publish claims without source metadata.
-- Layer C produces narrative devotional/history framing from Engine B data only.
-- Every factual event must expose source and confidence: `confirmed`, `traditional`, or `disputed`.
-- Interfaith or Sacred Context appears only where a genuine historical, textual, geographic, liturgical, or artistic relationship exists.
-- Production Hebrew/Islamic sundown-sensitive dates must use device timezone/location or a clearly labeled fallback, not a hardcoded Garden Grove anchor.
-- Vietnamese localization must be a first-class data shape, not an afterthought applied to rendered English strings.
-- The app sells knowledge, beauty, archive access, audio, maps, and pilgrimage utility. It must not sell salvation, indulgences, prayer outcomes, guilt relief, or spiritual authority.
+Generated from `Anno/project.yml`.
 
-## System Boundaries
+Active product surfaces:
+- Today
+- Calendar
+- Map / Pilgrimage
+- Settings / sources as supporting surfaces
 
-### Engine A: Calendar Conversion
+The current app is fixture/data-driven. Historical duplicate SwiftData models and KJV-derived architectures are excluded from the active target rather than silently treated as canonical.
 
-Pure deterministic computation.
+## Content resources
 
-Inputs:
+Primary devotional fixture:
+`Anno/Resources/anno_unified_2026.json`
 
-- Gregorian date range.
-- Location/timezone for sundown-sensitive presentation.
+Flagship route manifest:
+`Anno/Resources/flagship_routes_v1.json`
 
-Outputs:
+SoCal exemplar:
+- `Anno/Resources/PilgrimageRoutes/socal_vietnamese_catholic_pilgrimage_la_vang.json`
+- `Anno/Resources/socal_la_vang_exemplar_content_v1.json`
+- `Anno/Resources/pilgrimage_moments_v1.json`
+- `Anno/Resources/socal_la_vang_physical_markers_v1.json`
 
-- Calendar conversion rows, one per Gregorian date.
-- Calendar metadata and certainty notes.
+The SoCal route is seven spiritual stations grouped into five geographic chapters.
 
-Current artifact evidence (archived from original infrastructure bundle):
+## Pilgrimage state
 
-- `/home/ichabod/07_Backups/Anno_infrastructure_archive_2026-08-19/Anno/interfaith/calendar_engine.py`
-- `/home/ichabod/07_Backups/Anno_infrastructure_archive_2026-08-19/Anno/interfaith/calendar_2026_2029.jsonl`
+### Route content
+Stable route/station identity and devotional content.
 
-These artifacts have been reconciled into the project root (`~/Projects/Anno/calendar_engine.py` and related fixtures). The archived infrastructure bundle is preserved for reference.
+### Progress
+`PilgrimageProgressStore` persists visited station IDs and completion locally.
 
-### Engine B: Research
+### Active session
+`PilgrimageSessionStore` tracks the active route, current station, and start time.
 
-Structured research pipeline.
+Ending an active session does **not** erase progress.
 
-Inputs:
+### Location awareness
+`PilgrimageLocationService` is optional and chapter-level for the SoCal exemplar.
 
-- One Engine A date row.
-- Source policy and prompt.
+Manual **I'm Here** always remains available.
 
-Outputs:
+Inside Christ Cathedral, GPS is deliberately not asked to distinguish the Shrine, Martyrs Wall, and Marian Gardens. Exact precision belongs to QR/NFC/AR/Vision/manual selection.
 
-- Events.
-- Sources.
-- Confidence labels.
-- Artwork metadata.
-- Geography.
-- Optional Sacred Context.
+## Deep-link contract
 
-Engine B output should be reviewable before it becomes user-facing content.
+Canonical scheme:
+`anno://`
 
-### Layer C: Narrative Content
+Examples:
+- `anno://pilgrimage/<route-id>/<station-id>`
+- compact field markers: `anno://p/lv/1` through `anno://p/lv/7`
 
-Content transformation pipeline.
+The same link model should be used by ShareLink, QR, NFC, Spotlight/system entry points, future Messages flows, and future beacon/physical-marker handoffs.
 
-Inputs:
+Do not create parallel navigation identity systems.
 
-- Engine B structured data.
-- Tone/style rules.
-- Localization target.
+## Apple-native system surfaces
 
-Outputs:
+### Active/core code
+- SwiftUI
+- MapKit
+- Core Haptics
+- Core Location
+- Spotlight
+- deep links
+- native sharing
 
-- English user-facing entry.
-- Vietnamese user-facing entry when requested/reviewed.
-- Short prayer/reflection.
-- App UI captions.
+### Staged until device/Xcode activation
+Kept under `AppleSurfaces/` where appropriate:
+- WidgetKit
+- Live Activities / Dynamic Island
+- Watch
+- App Intents
+- Vision/VisionKit
+- ARKit
+- Core NFC
+- beacon monitoring
+- Image Playground / adaptive glyph
+- visionOS concepts
 
-Layer C must not introduce new facts not present in Engine B.
+Staged source is not equivalent to shipped capability. Activate one target/capability at a time and validate on real hardware.
 
-### Native iOS App
+## Visual architecture
 
-SwiftUI app with:
+Shared visual primitives live under `Anno/Design/`.
 
-- Today tab.
-- Calendar tab.
-- Map tab.
-- Saved tab.
-- StoreKit 2 subscriptions.
-- String Catalog localization.
-- Local cache/bookmarks.
-- MapKit sacred-place view.
+Important concepts:
+- semantic symbols
+- semantic surfaces
+- motion tokens
+- `SacredIntensity`
+- feast / solemnity ceremonial treatment
+- Reduce Motion-aware transitions
+- Core Haptics significance language
 
-## Localization Contract
+Product principle:
 
-UI strings:
+**quiet baseline + earned spectacle**
 
-- Managed through Xcode String Catalogs.
-- English and Vietnamese from v1.
+## Localization contract
 
-Content strings:
+English remains primary.
 
-- Stored as localized fields, for example `title_en`, `title_vi`, `body_en`, `body_vi`.
-- Vietnamese Catholic terminology requires human review before public release.
+Vietnamese:
+- is intentionally authored where supported
+- may use independent phrasing/line breaks
+- requires human Vietnamese Catholic review for the SoCal exemplar before final public claims
 
-Store metadata:
+## Monetization boundary
 
-- App Store metadata and StoreKit product metadata need separate localization review in App Store Connect.
+Current direction:
 
-## Trust and Correction Contract
+**Free + Premium $49.99/year**
 
-Every published daily entry needs:
+Old RevenueCat and mixed monthly/multi-tier code are not active architecture.
 
-- Source sheet.
-- Confidence label.
-- Report concern affordance.
-- Correction queue item when reported.
+If monetization is activated, use a small StoreKit 2 purchase/restore boundary rather than restoring old paywall architecture wholesale.
 
-High-sensitivity dates include:
+## Privacy boundary
 
-- Easter/Pascha-related dates.
-- Christmas and Marian solemnities.
-- Ramadan/Eid/Hajj context if surfaced.
-- Passover/Tisha B'Av/Yom Kippur context if surfaced.
-- Any date where local sundown may shift display.
+- location is optional
+- no mandatory GPS proof
+- no hidden location history
+- camera/Vision should prefer on-device processing
+- generated imagery requires explicit user intent/input
+- motion/sensor data must not become a spiritual score
+- do not make unsupported privacy claims in product metadata
 
-Corrections should be hotfixable without App Store release where possible by shipping content as updateable data.
+## CI / validation
 
-## Monetization Contract
+Cheap CI validates:
+- Engine A
+- Engine B
+- normalization / route integrity
+- SoCal exemplar alignment
+- physical marker identities
 
-Free:
+Native macOS CI is intentionally manual/opt-in to preserve runner minutes.
 
-- Today's full entry.
-- Today's art and source preview.
-- Today's/this-week map preview.
+Do not weaken strict concurrency or warnings-as-errors merely to make a native build pass.
 
-Premium:
+## Deferred architecture
 
-- Archive.
-- Full calendar.
-- Full map archive.
-- Art gallery.
-- Saved collections.
-- Audio.
-- Expanded source sheets.
+Historical data and code remain useful reference, but are not active runtime architecture:
+- broad sanctuary browser
+- 18-route runtime catalog
+- spatial audio
+- interfaith UI
+- old SwiftData import layer
+- old Saved/paywall surfaces
+- KJV-derived duplicate service/model stack
 
-Pilgrim:
-
-- Route packs and offline travel utility.
-
-No monetized feature may imply paid spiritual superiority.
-| No v1 monetized feature may depend on ads, rewarded ads, data resale/share, paid streak repair, Grace Tokens, XP multipliers, or guilt-based religious pressure.
-| Premium may be commercially sharp only when it sells real product value: archive, art, audio, source depth, reviewed localization, maps, and routes.
-
-## Layer D: Devotional Engine (Cloned from KJV Women's App)
-
-Files in `Anno/Services/` and `Anno/Components/` were lifted from the KJV women's devotional app (DailyDevotionKJVForWomen, built by Rork). See `CLONE_FROM_KJV.md` for the full migration plan and per-file adaptation notes.
-
-### D1 — Engine: Deterministic Rotation
-
-`AnnoDevotionalLoader.swift` + `DevotionalProvider.swift` — matches a calendar date to a devotional entry via hash-based array indexing. Same date → same content every year. Content pool loaded from `annodevotionals.json` bundle resource.
-
-### D2 — Data: Bookmark + Search
-
-`Models/Bookmark.swift` + `Services/BookmarkActions.swift` — SwiftData model with unique verse reference, per-verse bookmark toggle, and existence check. Same schema as KJV app, canon-agnostic.
-
-### D3 — UI: Card + Action Components
-
-| File | Source | Adaptation Needed |
-|---|---|---|
-| `Components/GlassCard.swift` | KJV app GlassCard | Optional — Anno has AnnoCard modifier |
-| `Components/VerseActionBar.swift` | KJV app | Swap Palette.rose → AnnoTheme.goldLeaf |
-| `Components/ShareCard.swift` | KJV app | Swap Palette colors → AnnoTheme |
-| `Components/ShareableImage.swift` | KJV app | None (Transferable wrapper) |
-
-### D4 — Services
-
-| File | Notes |
-|---|---|
-| `Services/Haptics.swift` | Same haptic wrappers |
-| `Services/SearchHistory.swift` | UserDefaults-backed recent searches |
-| `Services/NotificationService.swift` | Local notification scheduling |
-
-### D5 — Audio Pipeline (Cartesia Strategy)
-
-See `CLONE_FROM_KJV.md` and the KJV app's monetization research prompt for the full Cartesia + public-domain Gregorian chant strategy. Adaptation cost is lower than KJV: chant recordings are broadly public domain and universally understood across English/Vietnamese users.
-
-### D6 — Content Pipeline
-
-Devotional content schema (themed blocks, essays, prayers, sleep/comfort) is documented in `CLONE_FROM_KJV.md` and the Catholic research prompt. The engine is content-agnostic — produce Catholic + Vietnamese JSON, and the existing rotation logic loads it unchanged.
-
-## Canonical Planning Docs
-
-- Product bible: `docs/CATHOLIC_IOS_PRODUCT_BIBLE.md`
-- Asset rubric: `docs/ASSET_ACCEPTANCE_RUBRIC.md`
-- Asset prompts: `docs/ASSET_PRODUCTION_PROMPT_PACK.md`
-- Monetization: `docs/MONETIZATION_PAYWALL_SYSTEM.md`
-- Flagship slate: `docs/FLAGSHIP_CONTENT_SLATE.md`
-- Synthesis prompt: `docs/FRONTIER_ASSET_SYNTHESIS_PROMPT.md`
-- External feedback triage: `docs/EXTERNAL_FEEDBACK_TRIAGE.md`
-- Brand visual addendum: `docs/BRAND_VISUAL_ADDENDUM.md`
-
-## Changelog
-
-- 2026-07-03: Created architecture doc; set native SwiftUI, Catholic-first, Vietnamese-ready direction while preserving deterministic multi-calendar and sourced research invariants.
+Archive or reference these deliberately; do not revive them because a stale document mentions them.
