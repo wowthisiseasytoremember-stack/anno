@@ -117,7 +117,7 @@ public final class EntitlementService: ObservableObject {
         transactionListenerTask = Task.detached { [weak self] in
             for await result in StoreKit.Transaction.updates {
                 do {
-                    let transaction = try self?.checkVerified(result)
+                    let transaction = try await self?.checkVerified(result)
                     if let transaction = transaction {
                         await self?.updateCustomerProductStatus()
                         await transaction.finish()
