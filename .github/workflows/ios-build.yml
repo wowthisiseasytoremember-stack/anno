@@ -10,6 +10,9 @@ on:
 jobs:
   native-build:
     name: Native iOS build
+    # macOS runners are intentionally opt-in to avoid burning paid GitHub minutes.
+    # Run this job manually when we explicitly want compile + simulator screenshots.
+    if: github.event_name == 'workflow_dispatch'
     runs-on: macos-15
     timeout-minutes: 30
     steps:
