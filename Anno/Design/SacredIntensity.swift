@@ -116,3 +116,49 @@ struct SolemnityBloom: View {
         }
     }
 }
+
+
+struct SacredDivider: View {
+    let tint: Color
+    let intensity: SacredIntensity
+
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @State private var revealed = false
+
+    var body: some View {
+        HStack(spacing: 10) {
+            Rectangle()
+                .fill(
+                    LinearGradient(
+                        colors: [.clear, tint.opacity(0.7)],
+                        startPoint: .leading,
+                        endPoint: .trailing
+                    )
+                )
+                .frame(height: 1)
+                .scaleEffect(x: reduceMotion || revealed ? 1 : 0, anchor: .trailing)
+
+            Image(systemName: AnnoSymbol.sacred)
+                .font(Typography.caption2)
+                .foregroundStyle(intensity == .solemnity ? AnnoTheme.gilt : tint)
+                .symbolEffect(.appear, value: revealed)
+
+            Rectangle()
+                .fill(
+                    LinearGradient(
+                        colors: [tint.opacity(0.7), .clear],
+                        startPoint: .leading,
+                        endPoint: .trailing
+                    )
+                )
+                .frame(height: 1)
+                .scaleEffect(x: reduceMotion || revealed ? 1 : 0, anchor: .leading)
+        }
+        .opacity(revealed ? 1 : 0)
+        .animation(reduceMotion ? nil : AnnoMotion.reveal, value: revealed)
+        .accessibilityHidden(true)
+        .onAppear {
+            revealed = true
+        }
+    }
+}
