@@ -149,9 +149,9 @@ struct MonthCalendarView: View {
             .scrollContentBackground(.hidden)
             .scrollIndicators(.hidden)
         }
-        .liturgicalAtmosphere(
+        .ceremonialLiturgicalAtmosphere(
             named: selectedDayEntries.first?.liturgical.color ?? "Gold",
-            intensity: selectedSacredIntensity.atmosphereIntensity
+            rank: selectedDayEntries.first?.liturgical.rank ?? "Feria"
         )
         .navigationTitle(navigationTitle)
         .navigationBarTitleDisplayMode(.inline)
