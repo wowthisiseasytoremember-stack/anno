@@ -35,14 +35,14 @@ struct RootView: View {
                             Haptics.light()
                             showingSettings = true
                         } label: {
-                            Image(systemName: "gearshape")
+                            Image(systemName: AnnoSymbol.settings)
                                 .foregroundStyle(AnnoTheme.incense)
                         }
                         .accessibilityLabel(language == .vietnamese ? "Cài đặt" : "Settings")
                     }
                 }
             }
-            .tabItem { Label(language == .vietnamese ? "Hôm nay" : "Today", systemImage: "sun.max") }
+            .tabItem { Label(language == .vietnamese ? "Hôm nay" : "Today", systemImage: AnnoSymbol.today) }
             .tag(AppTab.today)
 
             NavigationStack {
@@ -55,7 +55,7 @@ struct RootView: View {
                     }
                 )
             }
-            .tabItem { Label(language == .vietnamese ? "Lịch" : "Calendar", systemImage: "calendar") }
+            .tabItem { Label(language == .vietnamese ? "Lịch" : "Calendar", systemImage: AnnoSymbol.calendar) }
             .tag(AppTab.calendar)
 
             NavigationStack {
@@ -65,7 +65,7 @@ struct RootView: View {
                     language: language
                 )
             }
-            .tabItem { Label(language == .vietnamese ? "Bản đồ" : "Map", systemImage: "map") }
+            .tabItem { Label(language == .vietnamese ? "Bản đồ" : "Map", systemImage: AnnoSymbol.pilgrimage) }
             .tag(AppTab.map)
         }
         .tint(AnnoTheme.goldLeaf)
