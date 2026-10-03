@@ -125,7 +125,7 @@ struct AppHooks: Codable, Hashable {
     let prayerPromptVi: String
 }
 
-enum ConfidenceLevel: String, Codable, Hashable {
+public enum ConfidenceLevel: String, Codable, Hashable {
     case confirmed
     case traditional
     case disputed
