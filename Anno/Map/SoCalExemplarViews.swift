@@ -294,6 +294,7 @@ struct PilgrimageVisitButton: View {
 
 struct PilgrimageCompletionKeepsake: View {
     let content: SoCalExemplarContent
+    let routeId: String
     let language: LanguageMode
     let completionDate: Date?
 
@@ -354,17 +355,35 @@ struct PilgrimageCompletionKeepsake: View {
                     .foregroundStyle(AnnoTheme.incense)
             }
 
-            ShareLink(item: shareText) {
-                Label(
-                    language == .vietnamese ? "Chia Sẻ Kỷ Niệm" : "Share Keepsake",
-                    systemImage: "square.and.arrow.up"
-                )
-                .font(Typography.subheadlineSemiboldSerif)
-                .foregroundStyle(AnnoTheme.narthex)
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 11)
-                .background(AnnoTheme.goldLeaf)
-                .clipShape(RoundedRectangle(cornerRadius: AnnoTheme.radiusCard, style: .continuous))
+            if let routeURL = AnnoDeepLink.pilgrimage(
+                routeId: routeId,
+                stationId: nil
+            ).url {
+                ShareLink(
+                    item: routeURL,
+                    subject: Text(
+                        language == .vietnamese
+                            ? content.opening.titleVi
+                            : content.opening.titleEn
+                    ),
+                    message: Text(shareText)
+                ) {
+                    Label(
+                        language == .vietnamese ? "Chia Sẻ Kỷ Niệm" : "Share Keepsake",
+                        systemImage: "square.and.arrow.up"
+                    )
+                    .font(Typography.subheadlineSemiboldSerif)
+                    .foregroundStyle(AnnoTheme.narthex)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 11)
+                    .background(AnnoTheme.goldLeaf)
+                    .clipShape(
+                        RoundedRectangle(
+                            cornerRadius: AnnoTheme.radiusCard,
+                            style: .continuous
+                        )
+                    )
+                }
             }
         }
         .padding(18)
