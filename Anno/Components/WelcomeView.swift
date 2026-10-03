@@ -18,7 +18,7 @@ struct WelcomeView: View {
             VStack(spacing: AnnoTheme.lg) {
                 Spacer()
 
-                Image(systemName: "cross.case.fill")
+                Image(systemName: AnnoSymbol.welcome)
                     .font(Typography.iconHeroLarge)
                     .foregroundStyle(AnnoTheme.goldLeaf)
                     .opacity(appear ? 1 : 0)
