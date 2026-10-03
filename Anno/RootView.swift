@@ -99,6 +99,46 @@ struct RootView: View {
         .onContinueUserActivity(CSSearchableItemActionType) { activity in
             handleSpotlightActivity(activity)
         }
+        .onOpenURL { url in
+            handleDeepLink(url)
+        }
+    }
+
+    private func handleDeepLink(_ url: URL) {
+        guard let deepLink = AnnoDeepLink(url: url) else {
+            return
+        }
+
+        switch deepLink {
+        case .today(let entryId):
+            if let entryId,
+               let entry = store.allEntries.first(where: { $0.id == entryId }) {
+                store.select(entry)
+            }
+            selectedTab = .today
+
+        case .pilgrimage(let routeId, let stationId):
+            let geography = SacredGeographyLoader.shared
+
+            guard let route = geography.routes.first(where: {
+                $0.routeId == routeId
+            }) else {
+                return
+            }
+
+            geography.selectedRoute = route
+
+            if let stationId,
+               let waypoint = route.waypoints.first(where: {
+                   $0.waypointId == stationId
+               }) {
+                geography.selectedWaypoint = waypoint
+            } else {
+                geography.selectedWaypoint = route.waypoints.first
+            }
+
+            selectedTab = .map
+        }
     }
 
     private func handleSpotlightActivity(_ activity: NSUserActivity) {
