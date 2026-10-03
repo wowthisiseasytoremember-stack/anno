@@ -14,7 +14,7 @@ struct WeekFixture: Codable {
     let entryIds: [String]
 }
 
-struct AnnoEntry: Codable, Identifiable, Hashable {
+public struct AnnoEntry: Codable, Identifiable, Hashable {
     var id: String
     var date: String
     var weekday: String
