@@ -5,7 +5,9 @@ struct TodayView: View {
     @Binding var language: LanguageMode
     let onShowSources: () -> Void
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var isShowingArtCanvas: Bool = false
+    @State private var appeared = false
 
     private var localizedText: LocalizedEntryText {
         LocalizedEntryText(entry: entry, language: language)
@@ -23,23 +25,32 @@ struct TodayView: View {
 
     var body: some View {
         ScrollView {
-            VStack(spacing: 28) {
+            VStack(spacing: AnnoTheme.lg) {
                 dateBlock
+                    .annoReveal(isVisible: appeared, delay: 0.00)
                 headerSection
+                    .annoReveal(isVisible: appeared, delay: 0.04)
                 artworkCard
+                    .annoReveal(isVisible: appeared, distance: 18, delay: 0.08)
                 quickActionsBar
+                    .annoReveal(isVisible: appeared, delay: 0.12)
                 summaryCard
+                    .annoReveal(isVisible: appeared, delay: 0.16)
 
                 if let place = entry.place {
                     sacredPlaceCard(place: place)
+                        .annoReveal(isVisible: appeared, delay: 0.20)
                 }
 
                 if let connectedRoute = SacredGeographyLoader.shared.routes.first(where: { $0.isLiturgicallyConnected(to: entry) }) {
                     liturgicalPilgrimageCard(route: connectedRoute)
+                        .annoReveal(isVisible: appeared, delay: 0.24)
                 }
 
                 prayerPromptCard
+                    .annoReveal(isVisible: appeared, delay: 0.28)
                 sourceConfidenceCard
+                    .annoReveal(isVisible: appeared, delay: 0.32)
             }
             .padding(.horizontal, 20)
             .padding(.top, 16)
@@ -58,6 +69,16 @@ struct TodayView: View {
                 onDismiss: { isShowingArtCanvas = false }
             )
         }
+        .onAppear {
+            appeared = true
+        }
+        .onChange(of: entry.id) {
+            guard !reduceMotion else { return }
+            appeared = false
+            withAnimation(AnnoMotion.reveal) {
+                appeared = true
+            }
+        }
     }
 
     // MARK: - 10. Language Picker
@@ -73,6 +94,7 @@ struct TodayView: View {
         .pickerStyle(.segmented)
         .frame(width: 84)
         .tint(AnnoTheme.goldLeaf)
+        .sensoryFeedback(.selection, trigger: language)
     }
 
     // MARK: - 2. Date Block
@@ -106,16 +128,8 @@ struct TodayView: View {
         }
 
     private func calendarPill(label: String, value: String) -> some View {
-            Text("\(label): \(value)")
-                .font(Typography.caption2Medium)
-                .foregroundStyle(AnnoTheme.incense)
-                .padding(.horizontal, 10)
-                .padding(.vertical, 5)
-                .background {
-                    Capsule()
-                        .strokeBorder(AnnoTheme.ash, lineWidth: 1)
-                }
-        }
+        AnnoMetadataPill(text: "\(label): \(value)")
+    }
 
     // MARK: - 3. Saint / Event Header
 
@@ -193,8 +207,8 @@ struct TodayView: View {
                                 ShimmerPlaceholder()
                             }
                         }
-                        .frame(height: 220)
-                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                        .frame(height: 240)
+                        .clipShape(RoundedRectangle(cornerRadius: AnnoTheme.radiusHero, style: .continuous))
                         .shadow(color: .black.opacity(0.4), radius: 20, y: 10)
 
                         // Zoom indicator badge
@@ -282,9 +296,9 @@ struct TodayView: View {
             Text(localizedText.summary)
                 .font(Typography.bodySerif)
                 .lineSpacing(5)
-                .foregroundStyle(AnnoTheme.vellum)
+                .foregroundStyle(AnnoTheme.textPrimary)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .annoCard()
+                .annoSurface(.base)
         }
 
     // MARK: - 7. Sacred Place Section
@@ -332,7 +346,7 @@ struct TodayView: View {
                     }
                 }
             }
-            .annoCard()
+            .annoSurface(.base)
         }
 
     private func liturgicalPilgrimageCard(route: PilgrimageRoute) -> some View {
@@ -412,7 +426,7 @@ struct TodayView: View {
                     .buttonStyle(.plain)
                 }
             }
-            .annoCard()
+            .annoSurface(.devotional)
         }
 
     private func mapsURL(for place: SacredPlace) -> URL? {
@@ -440,7 +454,7 @@ struct TodayView: View {
     private var prayerPromptCard: some View {
             VStack(alignment: .leading, spacing: 12) {
                 HStack(spacing: 8) {
-                    Image(systemName: "hands.sparkles")
+                    Image(systemName: AnnoSymbol.prayer)
                         .foregroundStyle(AnnoTheme.goldLeaf)
                     Text(language == .vietnamese ? "Lời nguyện" : "Prayer prompt")
                         .font(Typography.headlineSerif)
@@ -453,7 +467,7 @@ struct TodayView: View {
                     .foregroundStyle(AnnoTheme.vellum)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .annoCard()
+            .annoSurface(.devotional)
         }
 
     // MARK: - 9. Source Confidence Card
@@ -480,7 +494,7 @@ struct TodayView: View {
                 .buttonStyle(.plain)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            .annoCard()
+            .annoSurface(.research)
         }
 }
 
@@ -528,6 +542,7 @@ private enum TodayDateFormatter {
 
 // Enhanced shimmer placeholder – warmer gold-tinged animation that echoes the ecclesial palette.
 private struct ShimmerPlaceholder: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var phase: CGFloat = -1.0
 
     var body: some View {
@@ -560,6 +575,10 @@ private struct ShimmerPlaceholder: View {
                 .clipped()
         }
         .onAppear {
+            guard !reduceMotion else {
+                phase = 0
+                return
+            }
             withAnimation(.linear(duration: 1.8).repeatForever(autoreverses: false)) {
                 phase = 1.0
             }
