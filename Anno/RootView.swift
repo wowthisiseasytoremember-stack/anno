@@ -1,3 +1,4 @@
+import CoreSpotlight
 import Foundation
 import SwiftUI
 
@@ -87,6 +88,41 @@ struct RootView: View {
             if !settings.hasSeenWelcome && !shouldSkipWelcomeForScreenshot {
                 showWelcome = true
             }
+        }
+        .task {
+            await SpotlightIndexer.indexContent(
+                entries: store.allEntries,
+                routes: SacredGeographyLoader.shared.routes
+            )
+        }
+        .onContinueUserActivity(CSSearchableItemActionType) { activity in
+            handleSpotlightActivity(activity)
+        }
+    }
+
+    private func handleSpotlightActivity(_ activity: NSUserActivity) {
+        guard let identifier = activity.userInfo?[CSSearchableItemActivityIdentifier] as? String else {
+            return
+        }
+
+        if identifier.hasPrefix(SpotlightIndexer.entryPrefix) {
+            let entryID = String(identifier.dropFirst(SpotlightIndexer.entryPrefix.count))
+            guard let entry = store.allEntries.first(where: { $0.id == entryID }) else {
+                return
+            }
+            store.select(entry)
+            selectedTab = .today
+            return
+        }
+
+        if identifier.hasPrefix(SpotlightIndexer.routePrefix) {
+            let routeID = String(identifier.dropFirst(SpotlightIndexer.routePrefix.count))
+            let geography = SacredGeographyLoader.shared
+            if let route = geography.routes.first(where: { $0.routeId == routeID }) {
+                geography.selectedRoute = route
+                geography.selectedWaypoint = route.waypoints.first
+            }
+            selectedTab = .map
         }
     }
 
