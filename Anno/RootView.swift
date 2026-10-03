@@ -12,7 +12,6 @@ struct RootView: View {
     init(store: FixtureStore) {
         _store = StateObject(wrappedValue: store)
 
-        // Style the tab bar for the ecclesial dark theme
         let tabAppearance = UITabBarAppearance()
         tabAppearance.configureWithOpaqueBackground()
         tabAppearance.backgroundColor = UIColor(red: 0x13/255, green: 0x11/255, blue: 0x0E/255, alpha: 1)
@@ -67,12 +66,6 @@ struct RootView: View {
             }
             .tabItem { Label(language == .vietnamese ? "Bản đồ" : "Map", systemImage: "map") }
             .tag(AppTab.map)
-
-            NavigationStack {
-                SavedView(language: language)
-            }
-            .tabItem { Label(language == .vietnamese ? "Đã lưu" : "Saved", systemImage: "bookmark") }
-            .tag(AppTab.saved)
         }
         .tint(AnnoTheme.goldLeaf)
         .environment(settings)
@@ -83,12 +76,15 @@ struct RootView: View {
             SettingsView(language: $language)
         }
         .sheet(isPresented: $showWelcome) {
-            WelcomeView { showWelcome = false }
+            WelcomeView {
+                settings.hasSeenWelcome = true
+                showWelcome = false
+            }
+            .interactiveDismissDisabled()
         }
         .onAppear {
             if !settings.hasSeenWelcome {
                 showWelcome = true
-                settings.hasSeenWelcome = true
             }
         }
     }
@@ -98,7 +94,6 @@ private enum AppTab {
     case today
     case calendar
     case map
-    case saved
 }
 
 #Preview {
