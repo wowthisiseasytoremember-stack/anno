@@ -16,9 +16,11 @@ public final class SacredGeographyLoader: ObservableObject {
 
     private struct FlagshipRoutesManifest: Decodable {
         let flagshipRoutes: [FlagshipRouteReference]
+        let featuredRouteId: String?
 
         enum CodingKeys: String, CodingKey {
             case flagshipRoutes = "flagship_routes"
+            case featuredRouteId = "featured_route_id"
         }
     }
 
@@ -69,6 +71,9 @@ public final class SacredGeographyLoader: ObservableObject {
 
         if let selectedRoute, loadedRoutes.contains(where: { $0.routeId == selectedRoute.routeId }) {
             self.selectedRoute = selectedRoute
+        } else if let featuredRouteId = manifest?.featuredRouteId,
+                  let featuredRoute = loadedRoutes.first(where: { $0.routeId == featuredRouteId }) {
+            self.selectedRoute = featuredRoute
         } else {
             self.selectedRoute = loadedRoutes.first
         }
