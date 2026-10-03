@@ -70,6 +70,7 @@ struct RootView: View {
             .tag(AppTab.map)
         }
         .tint(AnnoTheme.goldLeaf)
+        .sensoryFeedback(.selection, trigger: selectedTab)
         .environment(settings)
         .sheet(isPresented: $showingSources) {
             SourceSheet(entry: store.selectedEntry, language: language)
