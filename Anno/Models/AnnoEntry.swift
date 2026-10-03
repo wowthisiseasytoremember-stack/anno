@@ -15,7 +15,7 @@ struct WeekFixture: Codable {
 }
 
 public struct AnnoEntry: Codable, Identifiable, Hashable {
-    var id: String
+    public var id: String
     var date: String
     var weekday: String
     var mockPriority: String
