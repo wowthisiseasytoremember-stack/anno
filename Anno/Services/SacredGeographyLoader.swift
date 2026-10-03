@@ -33,10 +33,10 @@ public final class SacredGeographyLoader: ObservableObject {
     }
 
     private static let fallbackFlagships: [FlagshipRouteReference] = [
+        .init(routeId: "socal_vietnamese_catholic_pilgrimage_la_vang", file: "socal_vietnamese_catholic_pilgrimage_la_vang.json"),
         .init(routeId: "holy_land_passion", file: "holy_land_passion.json"),
         .init(routeId: "rome_seven_churches", file: "rome_seven_churches.json"),
         .init(routeId: "camino_de_santiago", file: "camino_de_santiago.json"),
-        .init(routeId: "socal_vietnamese_catholic_pilgrimage_la_vang", file: "socal_vietnamese_catholic_pilgrimage_la_vang.json"),
         .init(routeId: "basilica_of_our_lady_of_guadalupe", file: "basilica_of_our_lady_of_guadalupe.json")
     ]
 
