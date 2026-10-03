@@ -4,7 +4,7 @@ import SwiftUI
 struct AnnoApp: App {
     var body: some Scene {
         WindowGroup {
-            RootView(store: FixtureStore.loadBundledOrPreview())
+            RootView(store: FixtureStore.loadBundledOrFallback())
                 .preferredColorScheme(.dark)
                 .environment(AppSettings())
         }
