@@ -8,7 +8,6 @@
     <key>CFBundleShortVersionString</key><string>1.0</string>
     <key>CFBundleVersion</key><string>1</string>
     <key>UILaunchScreen</key><dict></dict>
-    <key>NSLocationWhenInUseUsageDescription</key><string>Your location shows pilgrimage waypoints and feast sites on the map while the app is open.</string>
     <key>ITSAppUsesNonExemptEncryption</key><false/>
 </dict>
 </plist>
