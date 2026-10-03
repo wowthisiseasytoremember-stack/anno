@@ -155,6 +155,10 @@ public struct SacredSiteMapView: View {
                 geoLoader.loadData()
             }
 
+            selectedWaypoint =
+                geoLoader.selectedWaypoint
+                ?? geoLoader.selectedRoute?.waypoints.first
+
             if selectedRouteIsSoCalExemplar && !hasSeenSoCalExemplarHero {
                 selectedWaypoint = geoLoader.selectedRoute?.waypoints.first
                 sheetExpanded = true
@@ -166,8 +170,19 @@ public struct SacredSiteMapView: View {
         .onChange(of: mode) { _, _ in
             updateCameraPosition()
         }
-        .onChange(of: geoLoader.selectedRoute) { _, _ in
+        .onChange(of: geoLoader.selectedRoute) { _, route in
+            if let route,
+               geoLoader.selectedWaypoint?.waypointId != selectedWaypoint?.waypointId {
+                selectedWaypoint = geoLoader.selectedWaypoint ?? route.waypoints.first
+            }
             updateCameraPosition()
+        }
+        .onChange(of: geoLoader.selectedWaypoint) { _, waypoint in
+            if let waypoint {
+                selectedWaypoint = waypoint
+                sheetExpanded = true
+                updateCameraPosition()
+            }
         }
     }
 
@@ -896,6 +911,30 @@ public struct SacredSiteMapView: View {
                                         .foregroundStyle(AnnoTheme.goldLeaf)
                                         .padding(7)
                                         .background(Circle().fill(AnnoTheme.goldLeaf.opacity(0.15)))
+                                }
+                            }
+
+                            if let stationLink = AnnoDeepLink.pilgrimage(
+                                route: route,
+                                waypoint: wp
+                            ) {
+                                ShareLink(
+                                    item: stationLink,
+                                    subject: Text(route.title(for: language)),
+                                    message: Text(
+                                        language == .vietnamese
+                                            ? "Mở điểm hành hương này trong Anno."
+                                            : "Open this pilgrimage station in Anno."
+                                    )
+                                ) {
+                                    Image(systemName: "square.and.arrow.up")
+                                        .font(Typography.captionSerif)
+                                        .foregroundStyle(AnnoTheme.goldLeaf)
+                                        .padding(7)
+                                        .background(
+                                            Circle()
+                                                .fill(AnnoTheme.goldLeaf.opacity(0.15))
+                                        )
                                 }
                             }
                         }
