@@ -133,8 +133,18 @@ struct RootView: View {
                    $0.waypointId == stationId
                }) {
                 geography.selectedWaypoint = waypoint
+
+                let moment = PilgrimageMomentRegistry.shared.moment(
+                    routeId: route.routeId,
+                    waypointId: waypoint.waypointId
+                )
+
+                Haptics.sacredArrival(
+                    moment?.level.sacredIntensity ?? .feast
+                )
             } else {
                 geography.selectedWaypoint = route.waypoints.first
+                Haptics.sacredArrival(.feast)
             }
 
             selectedTab = .map
