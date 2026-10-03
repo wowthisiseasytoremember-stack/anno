@@ -18,12 +18,26 @@ struct WelcomeView: View {
             VStack(spacing: AnnoTheme.lg) {
                 Spacer()
 
-                Image(systemName: AnnoSymbol.welcome)
-                    .font(Typography.iconHeroLarge)
-                    .foregroundStyle(AnnoTheme.goldLeaf)
-                    .opacity(appear ? 1 : 0)
-                    .scaleEffect(appear || reduceMotion ? 1 : 0.9)
-                    .accessibilityHidden(true)
+                ZStack {
+                    SolemnityBloom(
+                        tint: AnnoTheme.goldLeaf,
+                        active: true
+                    )
+                    .frame(width: 220, height: 160)
+
+                    SacredAureole(
+                        tint: AnnoTheme.goldLeaf,
+                        intensity: .solemnity,
+                        diameter: 92
+                    )
+
+                    Image(systemName: AnnoSymbol.welcome)
+                        .font(Typography.iconHeroLarge)
+                        .foregroundStyle(AnnoTheme.goldLeaf)
+                }
+                .opacity(appear ? 1 : 0)
+                .scaleEffect(appear || reduceMotion ? 1 : 0.9)
+                .accessibilityHidden(true)
 
                 VStack(spacing: 12) {
                     Text("Welcome to Anno")
@@ -32,10 +46,11 @@ struct WelcomeView: View {
                         .multilineTextAlignment(.center)
                         .accessibilityAddTraits(.isHeader)
 
-                    Rectangle()
-                        .fill(AnnoTheme.goldLeaf)
-                        .frame(width: 88, height: 1)
-                        .accessibilityHidden(true)
+                    SacredDivider(
+                        tint: AnnoTheme.goldLeaf,
+                        intensity: .solemnity
+                    )
+                    .frame(maxWidth: 180)
 
                     Text("A Catholic daily companion for sourced devotional history, sacred art, and five flagship pilgrimage routes.")
                         .font(Typography.bodySerif)
