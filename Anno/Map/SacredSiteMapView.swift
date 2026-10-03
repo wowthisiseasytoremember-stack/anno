@@ -68,6 +68,13 @@ public struct SacredSiteMapView: View {
         ZStack(alignment: .top) {
             mapLayer
 
+            if !geoLoader.isLoading && mode == .pilgrimages && filteredRoutes.isEmpty {
+                emptyPilgrimageState
+                    .padding(.horizontal, AnnoTheme.lg)
+                    .padding(.top, 180)
+                    .transition(.opacity)
+            }
+
             // Atmospheric gradient & Inquiry Controls
             VStack(spacing: 8) {
                 atmosphereOverlay
@@ -91,6 +98,7 @@ public struct SacredSiteMapView: View {
         .background(AnnoTheme.narthex)
         .navigationTitle(language == .vietnamese ? "Bản đồ Thánh Địa" : "Sacred Geography")
         .navigationBarTitleDisplayMode(.inline)
+        .sensoryFeedback(.selection, trigger: mode)
         .onAppear {
             if geoLoader.routes.isEmpty {
                 geoLoader.loadData()
@@ -102,6 +110,27 @@ public struct SacredSiteMapView: View {
         }
         .onChange(of: geoLoader.selectedRoute) { _, _ in
             updateCameraPosition()
+        }
+    }
+
+    private var emptyPilgrimageState: some View {
+        AnnoStateView(
+            symbol: AnnoSymbol.pilgrimage,
+            title: language == .vietnamese
+                ? "Không có tuyến đường phù hợp"
+                : "No pilgrimage routes match",
+            message: language == .vietnamese
+                ? "Hãy xóa bộ lọc để xem lại năm tuyến hành hương chủ lực."
+                : "Clear the filters to return to Anno's five flagship pilgrimage routes.",
+            tint: AnnoTheme.goldLeaf,
+            actionTitle: language == .vietnamese ? "Hiển thị tất cả" : "Show all"
+        ) {
+            withAnimation(AnnoMotion.selection) {
+                selectedCalling = .all
+                selectedRegion = .all
+                geoLoader.selectedRoute = geoLoader.routes.first
+                selectedWaypoint = geoLoader.routes.first?.waypoints.first
+            }
         }
     }
 
@@ -189,7 +218,7 @@ public struct SacredSiteMapView: View {
                         ) {
                             Button {
                                 Haptics.light()
-                                withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                                withAnimation(AnnoMotion.selection) {
                                     selectedWaypoint = wp
                                     sheetExpanded = true
                                 }
@@ -210,7 +239,7 @@ public struct SacredSiteMapView: View {
                     ) {
                         Button {
                             Haptics.light()
-                            withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                            withAnimation(AnnoMotion.selection) {
                                 selectedSanctuary = sanctuary
                                 sheetExpanded = true
                             }
@@ -233,7 +262,7 @@ public struct SacredSiteMapView: View {
             ForEach(MapExplorationMode.allCases) { m in
                 Button {
                     Haptics.selection()
-                    withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
+                    withAnimation(AnnoMotion.selection) {
                         mode = m
                         sheetExpanded = false
                     }
@@ -281,7 +310,7 @@ public struct SacredSiteMapView: View {
                     let isSelected = selectedCalling == calling
                     Button {
                         Haptics.selection()
-                        withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
+                        withAnimation(AnnoMotion.selection) {
                             selectedCalling = calling
                             if let firstMatch = filteredRoutes.first {
                                 geoLoader.selectedRoute = firstMatch
@@ -290,7 +319,7 @@ public struct SacredSiteMapView: View {
                         }
                     } label: {
                         HStack(spacing: 4) {
-                            Image(systemName: calling.icon)
+                            Image(systemName: AnnoSymbol.spiritualCalling(calling))
                                 .font(Typography.iconCaption)
                             Text(calling.title(for: language))
                                 .font(Typography.caption2Medium)
@@ -322,7 +351,7 @@ public struct SacredSiteMapView: View {
 
                     Button {
                         Haptics.light()
-                        withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                        withAnimation(AnnoMotion.selection) {
                             geoLoader.selectedRoute = route
                             selectedWaypoint = route.waypoints.first
                         }
@@ -543,7 +572,7 @@ public struct SacredSiteMapView: View {
 
             Button {
                 Haptics.selection()
-                withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                withAnimation(AnnoMotion.selection) {
                     sheetExpanded.toggle()
                 }
             } label: {
