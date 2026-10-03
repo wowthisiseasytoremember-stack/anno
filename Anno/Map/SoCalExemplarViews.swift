@@ -111,6 +111,127 @@ struct SoCalPilgrimageHero: View {
     }
 }
 
+struct PilgrimageSessionControl: View {
+    let isActive: Bool
+    let startedAt: Date?
+    let language: LanguageMode
+    let onBegin: () -> Void
+    let onEnd: () -> Void
+
+    private var startedLabel: String? {
+        guard let startedAt else { return nil }
+        return startedAt.formatted(date: .omitted, time: .shortened)
+    }
+
+    var body: some View {
+        Group {
+            if isActive {
+                HStack(spacing: 10) {
+                    ZStack {
+                        Circle()
+                            .fill(AnnoTheme.verdigris.opacity(0.18))
+                            .frame(width: 38, height: 38)
+
+                        Image(systemName: "figure.walk.motion")
+                            .foregroundStyle(AnnoTheme.verdigris)
+                            .symbolEffect(.pulse)
+                    }
+
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(
+                            language == .vietnamese
+                                ? "HÀNH HƯƠNG ĐANG DIỄN RA"
+                                : "PILGRIMAGE ACTIVE"
+                        )
+                        .font(Typography.caption2Bold)
+                        .tracking(1.0)
+                        .foregroundStyle(AnnoTheme.verdigris)
+
+                        if let startedLabel {
+                            Text(
+                                language == .vietnamese
+                                    ? "Bắt đầu lúc \(startedLabel)"
+                                    : "Started \(startedLabel)"
+                            )
+                            .font(Typography.caption2)
+                            .foregroundStyle(AnnoTheme.incense)
+                        }
+                    }
+
+                    Spacer()
+
+                    Button {
+                        onEnd()
+                    } label: {
+                        Text(
+                            language == .vietnamese
+                                ? "Kết thúc lúc này"
+                                : "End for now"
+                        )
+                        .font(Typography.caption2Medium)
+                        .foregroundStyle(AnnoTheme.incense)
+                    }
+                    .buttonStyle(.plain)
+                }
+                .padding(12)
+                .background {
+                    RoundedRectangle(
+                        cornerRadius: AnnoTheme.radiusCard,
+                        style: .continuous
+                    )
+                    .fill(AnnoTheme.surfaceInset)
+                }
+                .overlay {
+                    RoundedRectangle(
+                        cornerRadius: AnnoTheme.radiusCard,
+                        style: .continuous
+                    )
+                    .strokeBorder(AnnoTheme.verdigris.opacity(0.45), lineWidth: 1)
+                }
+            } else {
+                Button {
+                    onBegin()
+                } label: {
+                    HStack(spacing: 10) {
+                        Image(systemName: "figure.walk.motion")
+                            .symbolRenderingMode(.hierarchical)
+                        Text(
+                            language == .vietnamese
+                                ? "Bắt Đầu Hành Hương"
+                                : "Begin Pilgrimage"
+                        )
+                        Spacer()
+                        Image(systemName: "sparkles")
+                    }
+                    .font(Typography.subheadlineSemiboldSerif)
+                    .foregroundStyle(AnnoTheme.narthex)
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 12)
+                    .background {
+                        LinearGradient(
+                            colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    }
+                    .clipShape(
+                        RoundedRectangle(
+                            cornerRadius: AnnoTheme.radiusCard,
+                            style: .continuous
+                        )
+                    )
+                    .shadow(
+                        color: AnnoTheme.goldLeaf.opacity(0.28),
+                        radius: 10,
+                        y: 4
+                    )
+                }
+                .buttonStyle(.plain)
+            }
+        }
+    }
+}
+
 struct SoCalChapterHeader: View {
     let chapter: SoCalExemplarContent.Chapter
     let language: LanguageMode
