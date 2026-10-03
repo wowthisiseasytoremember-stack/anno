@@ -5,8 +5,6 @@ struct TodayView: View {
     @Binding var language: LanguageMode
     let onShowSources: () -> Void
 
-    @State private var isBookmarked: Bool = false
-    @State private var bookmarkScale: CGFloat = 1.0
     @State private var isShowingArtCanvas: Bool = false
 
     private var localizedText: LocalizedEntryText {
@@ -187,7 +185,7 @@ struct TodayView: View {
                             case .failure:
                                 ZStack {
                                     AnnoTheme.choir
-                                    Image(systemName: "photo.on.rectangle.angled")
+                                    Image(systemName: AnnoSymbol.artworkUnavailable)
                                         .font(.largeTitle)
                                         .foregroundStyle(AnnoTheme.incense.opacity(0.4))
                                 }
@@ -201,7 +199,7 @@ struct TodayView: View {
 
                         // Zoom indicator badge
                         HStack(spacing: 4) {
-                            Image(systemName: "arrow.up.left.and.arrow.down.right")
+                            Image(systemName: AnnoSymbol.artworkExpand)
                                 .font(Typography.iconCaption)
                             Text(language == .vietnamese ? "Phóng to 4K" : "Zoom 4K")
                                 .font(Typography.iconCaption)
@@ -254,7 +252,7 @@ struct TodayView: View {
                     onShowSources()
                 }) {
                     HStack(spacing: 6) {
-                        Image(systemName: "books.vertical.fill")
+                        Image(systemName: AnnoSymbol.sources)
                         Text(language == .vietnamese ? "Nguồn (\(entry.sources.count))" : "Sources (\(entry.sources.count))")
                     }
                     .font(Typography.captionMedium)
@@ -276,43 +274,8 @@ struct TodayView: View {
                     confidence: entry.primary.confidence
                 )
                 .accessibilityLabel(localizedText.confidenceLabel)
-
-                Button(action: {
-                    Haptics.selection()
-                    toggleBookmark()
-                }) {
-                    Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
-                        .font(Typography.iconBody)
-                        .foregroundStyle(isBookmarked ? AnnoTheme.goldLeaf : AnnoTheme.incense)
-                        .padding(10)
-                        .background {
-                            Circle()
-                                .fill(AnnoTheme.choir)
-                                .strokeBorder(AnnoTheme.ash, lineWidth: 1)
-                        }
-                        .scaleEffect(bookmarkScale)
-                }
-                .buttonStyle(.plain)
-                .accessibilityLabel(
-                    isBookmarked
-                        ? (language == .vietnamese ? "Bỏ lưu trữ" : "Remove bookmark")
-                        : (language == .vietnamese ? "Lưu trữ" : "Bookmark")
-                )
             }
         }
-
-    private func toggleBookmark() {
-            withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
-                isBookmarked.toggle()
-                bookmarkScale = 1.3
-            }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
-                    bookmarkScale = 1.0
-                }
-            }
-        }
-
     // MARK: - 6. Summary Text
 
     private var summaryCard: some View {
