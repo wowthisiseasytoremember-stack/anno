@@ -193,7 +193,7 @@ jobs:
               )
               total_waypoints += len(route["waypoints"])
 
-          assert total_waypoints == manifest["summary"]["total_waypoints"] == 25
+          assert total_waypoints == manifest["summary"]["total_waypoints"] == 27
           print(f"flagship routes OK: {len(refs)} routes / {total_waypoints} waypoints")
           PY
 
@@ -214,7 +214,7 @@ jobs:
                   wp["waypoint_id"] for wp in route["waypoints"]
               }
 
-          assert len(moments) == 10, f"expected 10 v1 presentation moments, got {len(moments)}"
+          assert len(moments) == 14, f"expected 14 v1 presentation moments, got {len(moments)}"
           seen = set()
           for moment in moments:
               key = (moment["route_id"], moment["waypoint_id"])
@@ -229,4 +229,66 @@ jobs:
               assert moment["label_vi"].strip()
 
           print(f"pilgrimage moments OK: {len(moments)} explicit highlights/climaxes")
+          PY
+
+      - name: Verify SoCal exemplar alignment
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("Anno/Resources")
+          route_id = "socal_vietnamese_catholic_pilgrimage_la_vang"
+
+          route = json.loads(
+              (root / "PilgrimageRoutes" / f"{route_id}.json").read_text()
+          )
+          content = json.loads(
+              (root / "socal_la_vang_exemplar_content_v1.json").read_text()
+          )
+
+          assert route["route_id"] == content["route_id"] == route_id
+          assert len(route["waypoints"]) == 7
+
+          live_ids = {wp["waypoint_id"] for wp in route["waypoints"]}
+          core = next(v for v in content["variants"] if v["id"] == "core")
+          chapters = {
+              chapter["id"]: chapter
+              for chapter in content["chapters"]
+          }
+
+          required_ids = []
+          for chapter_id in core["chapter_ids"]:
+              for station in chapters[chapter_id]["stations"]:
+                  if station["station_role"] == "optional_context":
+                      continue
+                  station_id = station.get("waypoint_id") or station.get("station_id")
+                  required_ids.append(station_id)
+
+          assert len(required_ids) == 7
+          assert set(required_ids) == live_ids, (
+              f"SoCal exemplar mismatch: content={required_ids}, live={sorted(live_ids)}"
+          )
+
+          # Guard against known stale public-facing data from the pre-exemplar route.
+          public_text = " ".join([
+              route["title_en"],
+              route["region"],
+              route["overview_en"],
+              *(wp["name_en"] for wp in route["waypoints"]),
+          ]).lower()
+
+          assert "st. barbara parish in westminster" not in public_text
+          assert "rosary gardens & outdoor mass plaza" not in public_text
+          assert "mother-in-law" not in json.dumps(route).lower()
+          assert "pacific coast circuit" not in json.dumps(route).lower()
+
+          # Known official-location corrections.
+          coords = {wp["waypoint_id"]: (wp["latitude"], wp["longitude"]) for wp in route["waypoints"]}
+          assert coords["st_columban_church_garden_grove"] == (33.77812, -117.94418)
+          assert coords["vietnamese_catholic_center_santa_ana"] == (33.7589895, -117.9216506)
+          assert coords["our_lady_of_la_vang_church_santa_ana"] == (33.7428866, -117.9208725)
+          assert coords["st_barbara_parish_westminster"] == (33.737313, -117.937589)
+
+          print("SoCal exemplar alignment OK: 7 required spiritual stations")
           PY
