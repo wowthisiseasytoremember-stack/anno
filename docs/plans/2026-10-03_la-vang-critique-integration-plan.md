@@ -345,3 +345,112 @@ Promote the approved decisions from this plan into the missing Issue #28 target:
 `docs/EXEMPLAR_SOCAL_LA_VANG_RED_TEAM_SPEC.md`
 
 That file should become the concise canonical route spec. The verbatim critique remains immutable source material beside it.
+
+## 18. Evidence weighting across critique sources
+
+There are now two preserved critique sources:
+
+1. `docs/research/2026-10-03_la-vang-critique-verbatim.md` — **primary/trusted critique source**.
+2. `docs/research/2026-10-03_la-vang-critique-secondary-verbatim.md` — **secondary/lower-confidence critique source**.
+
+Use them differently.
+
+### Adoption rule
+
+A recommendation is stronger when it is supported by one or more of:
+
+- both critique sources independently converge on it;
+- current Anno product decisions already point the same way;
+- official diocesan/parish/site sources verify the factual premise;
+- field testing verifies the physical premise;
+- Vietnamese Catholic community reviewers confirm the cultural/language premise.
+
+A recommendation is weaker when it depends on:
+
+- a unique factual claim present only in the secondary critique;
+- precise attendance numbers, dimensions, materials, addresses, affiliations, histories, or personnel relationships not independently verified;
+- emotional/cultural interpretation not confirmed by the primary audience;
+- a specific site role inferred from reputation rather than field observation.
+
+Never promote those weaker claims directly into KNOW copy or canonical route structure merely because they are specific.
+
+### High-confidence convergence between both critiques
+
+These are strengthened because both sources independently argue for them and they already fit Issue #28 / current Anno direction:
+
+- Christ Cathedral should be **one geographic chapter with substations**.
+- Our Lady of La Vang Church belongs in the candidate/core route, but should be differentiated from the Shrine in naming and function.
+- St. Barbara is **provisional**, with narrative function more important than keeping that exact parish.
+- ARRIVE → SEE → KNOW → PRAY → CONTINUE should be a reusable pilgrimage grammar.
+- manual arrival must remain first-class; GPS cannot be spiritual DRM.
+- Shrine and completion can carry the strongest ceremonial treatment; Martyrs should be solemn; Gardens should be quieter.
+- the experience should be explicitly Vietnamese Catholic while welcoming others.
+- Vietnamese copy requires authored/community-reviewed treatment rather than literal machine translation.
+- exact timing, parking, dwell, accessibility, and wayfinding must come from physical testing.
+- no turn-by-turn navigation, leaderboard, XP, AR requirement, UGC route builder, or mandatory GPS in v1.
+- route success should be measured with real users, not assumed from a polished spec.
+
+### Primary-source ideas retained over secondary-source tension
+
+Where the two critiques diverge, default toward the trusted critique unless field evidence overturns it:
+
+- **Migration hinge:** keep an explicit crossing/Threshold chapter in the working architecture. The secondary critique's four-chapter route omits this as a discrete station even while praising the migration arc. Do not drop the hinge without testing whether the story still lands.
+- **Vietnamese Catholic Center:** retain as a core research candidate from Issue #28 / primary critique. The secondary critique treats it mainly as an alternative; do not demote it on that basis alone.
+- **Route variants:** keep the underlying Quick / Half Day / Full data model from the primary plan, while borrowing the secondary critique's better user-facing naming if testing prefers it. Product labels can change without changing the route model.
+- **Cathedral context:** primary critique argues the Cathedral itself should be short but non-optional; secondary calls it optional. Treat this as a testable editorial question, with the default currently **short + included** because it contributes the local-Church/diaspora story.
+
+### Secondary-source ideas worth incorporating as hypotheses
+
+These are useful, but should enter the research/test backlog rather than canon:
+
+- intent-based variant labels such as “Visit La Vang” and “La Vang + One Parish”;
+- optional respectful meal/cultural pauses outside the sacred station sequence;
+- family prompts for elders/children;
+- a final “What will you hand forward?” reflection;
+- explicit campus wayfinding notes for substations;
+- sensory SEE prompts tied to precise physical details;
+- possible healing metaphor around La Vang medicinal leaves;
+- attributed community quotes/testimony;
+- testing with elders, families, young adults, non-Vietnamese Catholics, and parish groups;
+- community_verified_date as a useful content metadata field;
+- post-completion keepsake/holy-card treatment and related prayer resurfacing.
+
+### Secondary factual claims that remain untrusted until verified
+
+Examples include, but are not limited to:
+
+- exact shrine statue height/material/design details;
+- exact Martyrs Wall construction/details and Alpha-ribbon relationship;
+- exact Marian Gardens layout/art provenance;
+- exact parish street addresses when not independently checked;
+- exact Vietnamese Mass counts or school/community statistics;
+- personnel/design relationships such as who helped design the shrine statue;
+- claims about a parish's 1975 refugee history;
+- exact 1–4 mile spacing between stops;
+- Marian Days attendance figures;
+- “largest Vietnamese population outside Vietnam” and specific clergy/community-share claims;
+- precise local feast-day practices/dates beyond universal liturgical dates.
+
+These belong in the claims register with `status: verify` until sourced.
+
+## 19. Net change from the secondary critique
+
+The second critique does **not** change the fundamental architecture already proposed in this plan. It mainly improves the research/testing brief.
+
+Adopt now at the planning level:
+
+- treat sensory specificity as a quality requirement for SEE prompts;
+- add multi-generational test cases;
+- add real campus wayfinding/accessibility observations to field research;
+- add qualitative “would I hand this to my grandparents/family?” testing;
+- consider intent-based labels over product-y duration labels in UI;
+- add `community_verified_date` as a candidate provenance field;
+- test “What will you hand forward?” as the completion reflection.
+
+Do **not** adopt yet:
+
+- any unique physical/site fact from the secondary critique;
+- the claim that St. Barbara definitively fulfills the generational chapter;
+- exact attendance/population/community statistics;
+- a route structure that removes the migration Threshold solely because the secondary critique did not include it;
+- any sensory prompt whose physical referent has not been seen/verified.
