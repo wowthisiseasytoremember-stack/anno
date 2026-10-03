@@ -10,7 +10,7 @@ The earlier concept is directionally strong but had five weaknesses:
 
 1. It treated three points on the Christ Cathedral campus as if they were separate travel destinations.
 2. It over-indexed on "church after church" without giving every geographic stop a distinct product job.
-3. It used St. Barbara as a core stop even though the Vietnamese Catholic Center tells the three-generation diaspora/community story more directly.
+3. It did not clearly distinguish the narrative job of St. Barbara from the Vietnamese Catholic Center, risking redundant "another parish" stops.
 4. It risked turning the pilgrimage into an achievement flow rather than a devotional journey.
 5. It relied on poetic copy before fully separating durable spiritual narrative from volatile practical information.
 
@@ -53,7 +53,7 @@ Narrative job:
 Moment:
 **A HOME BUILT FOR THE NEXT GENERATION**
 
-This is the clearest "diaspora continuity" stop in the route and should replace St. Barbara in the core exemplar unless user testing proves otherwise.
+This is the clearest explicit "diaspora institution / next generation" stop in the route. It complements rather than replaces St. Barbara.
 
 ### Chapter 4 — La Vang as parish life
 **Our Lady of La Vang Catholic Church, Santa Ana**
@@ -66,18 +66,18 @@ Narrative job:
 Moment:
 **LA VANG LIVES HERE TOO**
 
-## Optional extension
+### Chapter 5 — Family, parish, continuity
+**St. Barbara Catholic Church, Santa Ana**
 
-### St. Barbara Catholic Church, Santa Ana
+Narrative job:
+- strong Vietnamese parish life in an ordinary neighborhood parish context
+- family, sacraments, weekly worship, and generational continuity
+- demonstrates that Vietnamese Catholic life in Orange County is broader than one shrine, one center, or one named La Vang parish
 
-Strong Vietnamese parish life and a large multilingual community, but narratively redundant in the core route once the Vietnamese Catholic Center and Our Lady of La Vang parish are present.
+Moment:
+**FAITH HANDED FORWARD**
 
-Use as:
-- optional "community extension"
-- alternate stop if field testing shows stronger family/group resonance
-- later route branch focused on Vietnamese parish life
-
-Do not delete it from the data until field testing decides.
+St. Barbara remains a **core** exemplar stop. Its job is not to duplicate the Vietnamese Catholic Center: the Center represents institution-building and cultural continuity; St. Barbara represents lived parish/family continuity.
 
 ## Route variants
 
@@ -97,11 +97,12 @@ For:
 2. St. Columban
 3. Vietnamese Catholic Center
 4. Our Lady of La Vang parish
+5. St. Barbara
 
 This is the primary exemplar.
 
 ### Extended — Community Route
-Core route plus St. Barbara and future verified optional community stops.
+Core route plus future verified optional community stops.
 
 Do not lead with exact minute estimates until physically driven and timed.
 
@@ -333,8 +334,8 @@ A tester succeeds without coaching if they can:
 
 ## Decisions still requiring user ruling
 
-1. Approve Vietnamese Catholic Center as core and move St. Barbara to optional.
-2. Approve four geographic chapters as the Core route.
+1. Approve Vietnamese Catholic Center and St. Barbara as distinct core stops with different narrative jobs.
+2. Approve five geographic chapters as the Core route, with Christ Cathedral treated as one campus chapter.
 3. Approve "Refuge → witness → survival → institution-building → living parish → inheritance" as the narrative arc.
 4. Choose opening hook.
 5. Decide how loud the completion screen can go.
