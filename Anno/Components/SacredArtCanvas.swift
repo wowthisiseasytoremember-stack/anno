@@ -54,6 +54,7 @@ struct SacredArtCanvas: View {
     @State private var loadedImage: UIImage?
     @State private var isLoadingHighRes: Bool = true
     @State private var loadFailed: Bool = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private let minScale: CGFloat = 1.0
     private let maxScale: CGFloat = 6.0
@@ -101,7 +102,7 @@ struct SacredArtCanvas: View {
                 AnnoTheme.narthex
                     .ignoresSafeArea()
                     .onTapGesture {
-                        withAnimation(.easeInOut(duration: 0.25)) {
+                        withAnimation(reduceMotion ? nil : AnnoMotion.selection) {
                             isControlsVisible.toggle()
                         }
                     }
@@ -143,7 +144,7 @@ struct SacredArtCanvas: View {
                         handleDoubleTap()
                     }
                     .onTapGesture(count: 1) {
-                        withAnimation(.easeInOut(duration: 0.25)) {
+                        withAnimation(reduceMotion ? nil : AnnoMotion.selection) {
                             isControlsVisible.toggle()
                         }
                     }
@@ -166,7 +167,7 @@ struct SacredArtCanvas: View {
             }
             .onEnded { value in
                 let newScale = max(minScale, min(maxScale, currentScale * value))
-                withAnimation(AnnoTheme.canvasSpring) {
+                withAnimation(reduceMotion ? nil : AnnoMotion.immersive) {
                     currentScale = newScale
                     gestureScale = 1.0
                     if newScale <= 1.0 {
@@ -193,7 +194,7 @@ struct SacredArtCanvas: View {
                     currentOffset.height += value.translation.height
                     gestureOffset = .zero
 
-                    withAnimation(AnnoTheme.canvasSpring) {
+                    withAnimation(reduceMotion ? nil : AnnoMotion.immersive) {
                         clampOffset(in: geometry)
                     }
                 }
@@ -202,7 +203,7 @@ struct SacredArtCanvas: View {
 
     private func handleDoubleTap() {
         Haptics.light()
-        withAnimation(AnnoTheme.canvasSpring) {
+        withAnimation(reduceMotion ? nil : AnnoMotion.immersive) {
             if effectiveScale > 1.1 {
                 currentScale = 1.0
                 gestureScale = 1.0
@@ -239,7 +240,7 @@ struct SacredArtCanvas: View {
                         Haptics.light()
                         onDismiss()
                     }) {
-                        Image(systemName: "xmark.circle.fill")
+                        Image(systemName: AnnoSymbol.close)
                             .font(Typography.iconTitle2)
                             .foregroundStyle(AnnoTheme.vellum, AnnoTheme.choir.opacity(0.8))
                             .background(Circle().fill(AnnoTheme.choir))
@@ -283,12 +284,13 @@ struct SacredArtCanvas: View {
                 // Info / Commentary Toggle
                 Button(action: {
                     Haptics.light()
-                    withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                    withAnimation(reduceMotion ? nil : AnnoMotion.selection) {
                         isCommentaryExpanded.toggle()
                     }
                 }) {
                     Image(systemName: isCommentaryExpanded ? "info.circle.fill" : "info.circle")
                         .font(Typography.iconTitle)
+                        .symbolEffect(.bounce, value: isCommentaryExpanded)
                         .foregroundStyle(isCommentaryExpanded ? AnnoTheme.goldLeaf : AnnoTheme.vellum)
                         .padding(6)
                         .background(Circle().fill(AnnoTheme.choir.opacity(0.85)))
@@ -312,7 +314,7 @@ struct SacredArtCanvas: View {
             // Drag Handle & Header Banner
             Button(action: {
                 Haptics.light()
-                withAnimation(.spring(response: 0.35, dampingFraction: 0.8)) {
+                withAnimation(reduceMotion ? nil : AnnoMotion.selection) {
                     isCommentaryExpanded.toggle()
                 }
             }) {
@@ -355,7 +357,7 @@ struct SacredArtCanvas: View {
                     VStack(alignment: .leading, spacing: 16) {
                         // Feast Association
                         HStack(spacing: 6) {
-                            Image(systemName: "cross.fill")
+                            Image(systemName: AnnoSymbol.sacred)
                                 .font(Typography.caption2)
                                 .foregroundStyle(AnnoTheme.goldLeaf)
                             Text(dossier.feastAssociation)
@@ -444,47 +446,36 @@ struct SacredArtCanvas: View {
     // MARK: - Loading & Error States
 
     private var canvasShimmerPlaceholder: some View {
-        VStack(spacing: 16) {
-            ProgressView()
-                .tint(AnnoTheme.goldLeaf)
-                .scaleEffect(1.3)
+        VStack(spacing: AnnoTheme.md) {
+            Image(systemName: "sparkles")
+                .font(Typography.iconLarge)
+                .foregroundStyle(AnnoTheme.goldLeaf)
+                .symbolEffect(.pulse, isActive: !reduceMotion && isLoadingHighRes)
 
-            Text(language == .vietnamese ? "Đang tải tác phẩm 4K..." : "Loading sacred masterwork...")
+            Text(language == .vietnamese ? "Đang tải tác phẩm..." : "Preparing the artwork...")
                 .font(Typography.captionMedium)
                 .foregroundStyle(AnnoTheme.incense)
         }
+        .accessibilityElement(children: .combine)
     }
 
     private var errorRetryView: some View {
-        VStack(spacing: 16) {
-            Image(systemName: "exclamationmark.triangle")
-                .font(Typography.iconLarge)
-                .foregroundStyle(AnnoTheme.crimson)
-
-            Text(language == .vietnamese ? "Không thể tải ảnh độ phân giải cao" : "Unable to load high-resolution artwork")
-                .font(Typography.subheadlineSemibold)
-                .foregroundStyle(AnnoTheme.vellum)
-
-            Button(action: {
-                Task {
-                    await loadImageAsset()
-                }
-            }) {
-                HStack(spacing: 6) {
-                    Image(systemName: "arrow.clockwise")
-                    Text(language == .vietnamese ? "Thử lại" : "Retry")
-                }
-                .font(Typography.captionBoldSerif)
-                .foregroundStyle(AnnoTheme.narthex)
-                .padding(.horizontal, 16)
-                .padding(.vertical, 8)
-                .background(AnnoTheme.goldLeaf)
-                .clipShape(Capsule())
+        AnnoStateView(
+            symbol: "photo.badge.exclamationmark",
+            title: language == .vietnamese
+                ? "Không thể tải tác phẩm"
+                : "Artwork unavailable",
+            message: language == .vietnamese
+                ? "Ảnh độ phân giải cao chưa tải được. Nội dung suy niệm vẫn an toàn."
+                : "The high-resolution image could not be loaded. The devotional content is still available.",
+            tint: AnnoTheme.crimson,
+            actionTitle: language == .vietnamese ? "Thử lại" : "Retry"
+        ) {
+            Task {
+                await loadImageAsset()
             }
-            .buttonStyle(.plain)
         }
         .padding(24)
-        .annoCard()
     }
 
     // MARK: - Async Image Downloader with Cache

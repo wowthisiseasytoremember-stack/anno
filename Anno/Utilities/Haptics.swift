@@ -7,6 +7,7 @@
 import UIKit
 
 /// Centralised, lightweight haptic feedback.
+@MainActor
 enum Haptics {
     static func soft() {
         let generator = UIImpactFeedbackGenerator(style: .soft)

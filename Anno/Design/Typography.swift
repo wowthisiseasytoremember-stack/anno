@@ -1,7 +1,8 @@
 //  Typography.swift
 //  Anno
 //
-//  Typography namespace wrapping AnnoTheme font functions for semantic clarity.
+//  Semantic typography tokens. Text styles use Dynamic Type rather than
+//  hard-coded point sizes so the v1 remains readable at accessibility sizes.
 
 import SwiftUI
 
@@ -9,80 +10,59 @@ enum Typography {
 
     // MARK: - Display / Title
 
-    static let largeTitleBoldSerif = AnnoTheme.display(34, weight: .bold)
-    static let title2BoldSerif = AnnoTheme.display(22, weight: .bold)
-    static let title3ItalicSerif = AnnoTheme.display(20, weight: .regular).italic()
-    static let headlineSerif = AnnoTheme.heading(17, weight: .semibold)
+    static let largeTitleBoldSerif = Font.system(.largeTitle, design: .serif, weight: .bold)
+    static let title2BoldSerif = Font.system(.title2, design: .serif, weight: .bold)
+    static let title3ItalicSerif = Font.system(.title3, design: .serif, weight: .regular).italic()
+    static let headlineSerif = Font.system(.headline, design: .serif, weight: .semibold)
 
-    /// Dynamic display sizing for ShareCard etc.
+    /// Use only for intentionally art-directed display text.
     static func displaySerif(size: CGFloat, weight: Font.Weight = .regular) -> Font {
-        AnnoTheme.display(size, weight: weight)
+        Font.system(size: size, weight: weight, design: .serif)
     }
 
     // MARK: - Body
 
-    static let bodySerif = AnnoTheme.body(17, weight: .regular)
-    static let bodySerifItalic = AnnoTheme.body(17, weight: .regular).italic()
-    static let subheadlineSemiboldSerif = AnnoTheme.body(15, weight: .semibold)
+    static let bodySerif = Font.system(.body, design: .serif, weight: .regular)
+    static let bodySerifItalic = Font.system(.body, design: .serif, weight: .regular).italic()
+    static let subheadlineSemiboldSerif = Font.system(.subheadline, design: .serif, weight: .semibold)
+    static let subheadlineSerif = Font.system(.subheadline, design: .serif, weight: .regular)
+    static let subheadlineMediumSerif = Font.system(.subheadline, design: .serif, weight: .medium)
 
     // MARK: - Caption / Small
 
-    static let captionSemiboldSerif = AnnoTheme.caption(12, weight: .semibold)
-    static let captionSerif = AnnoTheme.caption(12, weight: .regular)
-    static let captionMedium = AnnoTheme.caption(12, weight: .medium)
-    static let captionSemibold = AnnoTheme.caption(12, weight: .semibold)
-    static let captionBold = AnnoTheme.caption(12, weight: .bold)
-    static let captionBoldSerif = AnnoTheme.caption(12, weight: .bold)
-    static let caption2Bold = AnnoTheme.caption(11, weight: .bold)
-    static let caption2Medium = AnnoTheme.caption(11, weight: .medium)
-    static let caption2 = AnnoTheme.caption(11, weight: .regular)
-    static let caption2MonospacedSemibold = AnnoTheme.caption(11, weight: .semibold).monospacedDigit()
-    static let captionItalic = AnnoTheme.caption(12, weight: .regular).italic()
+    static let captionSemiboldSerif = Font.system(.caption, design: .serif, weight: .semibold)
+    static let captionSerif = Font.system(.caption, design: .serif, weight: .regular)
+    static let captionMedium = Font.system(.caption, weight: .medium)
+    static let captionSemibold = Font.system(.caption, weight: .semibold)
+    static let captionBold = Font.system(.caption, weight: .bold)
+    static let captionBoldSerif = Font.system(.caption, design: .serif, weight: .bold)
+    static let caption2Bold = Font.system(.caption2, weight: .bold)
+    static let caption2Medium = Font.system(.caption2, weight: .medium)
+    static let caption2 = Font.system(.caption2, weight: .regular)
+    static let caption2MonospacedSemibold = Font.system(.caption2, weight: .semibold).monospacedDigit()
+    static let captionItalic = Font.system(.caption, design: .serif, weight: .regular).italic()
 
     // MARK: - Icon size tokens (SF Symbols)
 
-    /// 4pt — micro badges (calendar conversion symbols)
-    static let iconMicro = Font.system(size: 4, weight: .black)
-
-    /// 6pt — tiny map pin accent
-    static let iconTiny = Font.system(size: 6, weight: .regular)
-
-    /// 8pt — calendar conversion labels, liturgical dots
-    static let iconSmall = Font.system(size: 8, weight: .semibold)
-
-    /// 10pt — zoom badges, map labels
-    static let iconCaption = Font.system(size: 10, weight: .medium)
-
-    /// 11pt — header badges
-    static let iconCaption2 = Font.system(size: 11, weight: .semibold)
-
-    /// 16pt — day number in TodayView artwork card
+    // Keep even micro UI legible; these values are decorative symbol sizes,
+    // not body text, but the previous 4–6 pt tokens were unnecessarily tiny.
+    static let iconMicro = Font.system(size: 8, weight: .black)
+    static let iconTiny = Font.system(size: 8, weight: .regular)
+    static let iconSmall = Font.system(size: 10, weight: .semibold)
+    static let iconCaption = Font.system(size: 11, weight: .medium)
+    static let iconCaption2 = Font.system(size: 12, weight: .semibold)
     static let iconBody = Font.system(size: 16, weight: .semibold)
-
-    /// 24pt — info circle HUD button
     static let iconTitle = Font.system(size: 24, weight: .regular)
-
-    /// 28pt — close X circle HUD button
     static let iconTitle2 = Font.system(size: 28, weight: .regular)
-
-    /// 36pt — error triangle icon
     static let iconLarge = Font.system(size: 36, weight: .regular)
-
-    /// 44pt — paywall cross hero
     static let iconHero = Font.system(size: 44, weight: .light)
-
-    /// 30pt — sacred pin primary marker
-        static let iconSacredPin = Font.system(size: 30, weight: .bold)
-
-        /// 52pt — SavedView bookmark hero
-        static let iconHeroLarge = Font.system(size: 52, weight: .light)
+    static let iconSacredPin = Font.system(size: 30, weight: .bold)
+    static let iconHeroLarge = Font.system(size: 52, weight: .light)
 
     // MARK: - Non-serif utilities
 
     static let subheadlineSemibold = Font.system(.subheadline, weight: .semibold)
-    static let subheadlineSerif = AnnoTheme.body(15, weight: .regular)
-    static let subheadlineMediumSerif = AnnoTheme.body(15, weight: .medium)
 
-    /// Section title — uses heading weight for prominent labels.
-    static let title = AnnoTheme.heading(20, weight: .semibold)
+    /// Section title — uses heading semantics for Dynamic Type.
+    static let title = Font.system(.title3, design: .serif, weight: .semibold)
 }

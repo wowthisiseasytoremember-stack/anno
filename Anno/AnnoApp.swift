@@ -1,23 +1,12 @@
 import SwiftUI
-import SwiftData
 
 @main
 struct AnnoApp: App {
     var body: some Scene {
         WindowGroup {
-            RootView(store: FixtureStore.loadBundledOrPreview())
+            RootView(store: FixtureStore.loadBundledOrFallback())
                 .preferredColorScheme(.dark)
                 .environment(AppSettings())
         }
-        .modelContainer(for: [
-            AnnoEntry.self,
-            SacredPlace.self,
-            Artwork.self,
-            PilgrimageRoute.self,
-            PilgrimageWaypoint.self,
-            Journey.self,
-            Visit.self,
-            FieldNote.self
-        ])
     }
 }

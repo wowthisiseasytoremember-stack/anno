@@ -5,13 +5,11 @@ options:
   deploymentTarget:
     iOS: "17.0"
 
-packages:
-  PilgrimCore:
-    path: ../ReliquaryExplorer/Packages/PilgrimCore
-
 settings:
   base:
     SWIFT_VERSION: "5.10"
+    SWIFT_STRICT_CONCURRENCY: complete
+    SWIFT_TREAT_WARNINGS_AS_ERRORS: YES
     CODE_SIGN_STYLE: Automatic
     GENERATE_INFOPLIST_FILE: false
     ENABLE_USER_SCRIPT_SANDBOXING: true
@@ -23,8 +21,35 @@ targets:
     platform: iOS
     sources:
       - path: .
-    dependencies:
-      - package: PilgrimCore
+        # Keep unfinished/deferred architectures in-repo without compiling them
+        # into the narrow fixture-driven v1 app.
+        excludes:
+          - AppRouter.swift
+          - Components/GlassCard.swift
+          - Components/ShareableImage.swift
+          - Components/ShareCard.swift
+          - Components/VerseActionBar.swift
+          - Models/Artwork.swift
+          - Models/AudioNarrationTrack.swift
+          - Models/Devotional.swift
+          - Models/Bookmark.swift
+          - Models/FieldNote.swift
+          - Models/Journey.swift
+          - Models/SacredPlace.swift
+          - Models/Visit.swift
+          - Services/AnnoDevotionalLoader.swift
+          - Services/AudioDevotionalPlayer.swift
+          - Services/BookmarkActions.swift
+          - Services/DailyDevotionalLoader.swift
+          - Services/DevotionalProvider.swift
+          - Services/ContentImportService.swift
+          - Services/NotificationService.swift
+          - Services/SacredSpatialAudioEngine.swift
+          - Services/SearchHistory.swift
+          - Saved/SavedView.swift
+          - Paywall/ArchivePaywallView.swift
+          - Paywall/ProductCopy.swift
+          - ViewModels/StoreViewModel.swift
     resources:
       - Resources/*
     info:
@@ -40,19 +65,6 @@ targets:
           - UIInterfaceOrientationLandscapeRight
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
-        UIBackgroundModes:
-          - audio
-        NSCameraUsageDescription: >
-          The camera is used by ARKit to detect surfaces so you can place
-          3-D reliquaries and Passion textiles in your physical space.
-          No images leave your device.
-        NSLocationWhenInUseUsageDescription: >
-          Your location shows sanctuaries on the map and calibrates
-          distances while the app is open.
-        NSLocationAlwaysAndWhenInUseUsageDescription: >
-          The Pilgrim Guide monitors sanctuary geofences in the background
-          so narration begins automatically as you approach each sacred
-          site on the pilgrimage route — no continuous GPS, no map open.
         ITSAppUsesNonExemptEncryption: false
     settings:
       base:

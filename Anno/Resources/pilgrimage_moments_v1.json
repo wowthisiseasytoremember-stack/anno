@@ -1,0 +1,76 @@
+{
+  "schema_version": "anno.pilgrimage_moments.v1",
+  "description": "Explicit v1 presentation moments for flagship pilgrimage routes. These are UI emphasis levels, not theological rankings.",
+  "moments": [
+    {
+      "route_id": "holy_land_passion",
+      "waypoint_id": "garden_of_gethsemane",
+      "level": "highlight",
+      "label_en": "Garden of Vigil",
+      "label_vi": "Vườn Canh Thức"
+    },
+    {
+      "route_id": "holy_land_passion",
+      "waypoint_id": "holy_sepulchre",
+      "level": "climax",
+      "label_en": "The Empty Tomb",
+      "label_vi": "Mộ Trống"
+    },
+    {
+      "route_id": "rome_seven_churches",
+      "waypoint_id": "st_peters_basilica",
+      "level": "climax",
+      "label_en": "At the Tomb of Peter",
+      "label_vi": "Bên Mộ Thánh Phêrô"
+    },
+    {
+      "route_id": "rome_seven_churches",
+      "waypoint_id": "holy_cross_in_jerusalem",
+      "level": "highlight",
+      "label_en": "Relics of the Passion",
+      "label_vi": "Thánh Tích Cuộc Thương Khó"
+    },
+    {
+      "route_id": "camino_de_santiago",
+      "waypoint_id": "saint_jean_pied_de_port",
+      "level": "highlight",
+      "label_en": "The Pilgrimage Begins",
+      "label_vi": "Khởi Đầu Hành Hương"
+    },
+    {
+      "route_id": "camino_de_santiago",
+      "waypoint_id": "santiago_cathedral",
+      "level": "climax",
+      "label_en": "Arrival at Santiago",
+      "label_vi": "Đến Santiago"
+    },
+    {
+      "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
+      "waypoint_id": "our_lady_la_vang_shrine_christ_cathedral",
+      "level": "climax",
+      "label_en": "Our Lady of La Vang",
+      "label_vi": "Đức Mẹ La Vang"
+    },
+    {
+      "route_id": "socal_vietnamese_catholic_pilgrimage_la_vang",
+      "waypoint_id": "martyrs_wall_117_vietnamese_christian",
+      "level": "highlight",
+      "label_en": "Witness of the 117 Martyrs",
+      "label_vi": "Chứng Tá 117 Thánh Tử Đạo"
+    },
+    {
+      "route_id": "basilica_of_our_lady_of_guadalupe",
+      "waypoint_id": "tepeyac_hill_original_chapel",
+      "level": "highlight",
+      "label_en": "Tepeyac Hill",
+      "label_vi": "Đồi Tepeyac"
+    },
+    {
+      "route_id": "basilica_of_our_lady_of_guadalupe",
+      "waypoint_id": "tilma_chapel_new_basilica",
+      "level": "climax",
+      "label_en": "Before the Tilma",
+      "label_vi": "Trước Áo Choàng Tilma"
+    }
+  ]
+}
