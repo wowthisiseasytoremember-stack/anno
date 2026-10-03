@@ -68,9 +68,9 @@ struct TodayView: View {
             .padding(.top, 16)
             .padding(.bottom, 48)
         }
-        .liturgicalAtmosphere(
+        .ceremonialLiturgicalAtmosphere(
             named: entry.liturgical.color,
-            intensity: sacredIntensity.atmosphereIntensity
+            rank: entry.liturgical.rank
         )
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
