@@ -27,6 +27,18 @@ public enum MapExplorationMode: String, CaseIterable, Identifiable {
 }
 
 public struct SacredSiteMapView: View {
+    private enum PilgrimageSegmentState {
+        case future
+        case next
+        case completed
+    }
+
+    private struct PilgrimageMapSegment: Identifiable {
+        let id: String
+        let coordinates: [CLLocationCoordinate2D]
+        let state: PilgrimageSegmentState
+    }
+
     public let entries: [AnnoEntry]
     public let currentEntry: AnnoEntry?
     public let language: LanguageMode
@@ -115,6 +127,77 @@ public struct SacredSiteMapView: View {
             routeId: route.routeId,
             requiredStationIds: exemplarRequiredStationIds(route: route)
         )
+    }
+
+    private func isChapterComplete(
+        route: PilgrimageRoute,
+        chapter: SoCalExemplarContent.Chapter
+    ) -> Bool {
+        let stationIds = chapter.stations
+            .filter { $0.stationRole != "optional_context" }
+            .map(\.id)
+
+        return progressStore.hasVisitedAll(
+            routeId: route.routeId,
+            requiredStationIds: stationIds
+        )
+    }
+
+    private func soCalPilgrimageSegments(
+        route: PilgrimageRoute
+    ) -> [PilgrimageMapSegment] {
+        guard isSoCalExemplar(route),
+              let content = exemplarContent.content,
+              let core = content.variants.first(where: { $0.id == "core" }) else {
+            return []
+        }
+
+        let chapterNodes: [(chapter: SoCalExemplarContent.Chapter, waypoint: PilgrimageWaypoint)] =
+            core.chapterIds.compactMap { chapterId in
+                guard let chapter = content.chapters.first(where: {
+                    $0.id == chapterId
+                }) else {
+                    return nil
+                }
+
+                guard let stationId = chapter.stations
+                    .first(where: { $0.stationRole != "optional_context" })?
+                    .id,
+                      let waypoint = route.waypoints.first(where: {
+                          $0.waypointId == stationId
+                      }) else {
+                    return nil
+                }
+
+                return (chapter, waypoint)
+            }
+
+        guard chapterNodes.count > 1 else {
+            return []
+        }
+
+        return (0..<(chapterNodes.count - 1)).map { index in
+            let source = chapterNodes[index]
+            let destination = chapterNodes[index + 1]
+
+            let state: PilgrimageSegmentState
+            if isChapterComplete(route: route, chapter: destination.chapter) {
+                state = .completed
+            } else if isChapterComplete(route: route, chapter: source.chapter) {
+                state = .next
+            } else {
+                state = .future
+            }
+
+            return PilgrimageMapSegment(
+                id: "\(source.chapter.id)->\(destination.chapter.id)",
+                coordinates: [
+                    source.waypoint.coordinate,
+                    destination.waypoint.coordinate
+                ],
+                state: state
+            )
+        }
     }
 
     public var body: some View {
@@ -490,16 +573,71 @@ public struct SacredSiteMapView: View {
 
             case .pilgrimages:
                 if let route = geoLoader.selectedRoute {
-                    // Glowing gold pilgrimage path
-                    MapPolyline(coordinates: route.coordinates)
-                        .stroke(
-                            LinearGradient(
-                                colors: [AnnoTheme.gilt, AnnoTheme.goldLeaf, AnnoTheme.candleGlow],
-                                startPoint: .leading,
-                                endPoint: .trailing
-                            ),
-                            style: StrokeStyle(lineWidth: 4.5, lineCap: .round, lineJoin: .round)
-                        )
+                    if isSoCalExemplar(route) {
+                        ForEach(soCalPilgrimageSegments(route: route)) { segment in
+                            switch segment.state {
+                            case .completed:
+                                MapPolyline(coordinates: segment.coordinates)
+                                    .stroke(
+                                        LinearGradient(
+                                            colors: [
+                                                AnnoTheme.gilt,
+                                                AnnoTheme.goldLeaf,
+                                                AnnoTheme.candleGlow
+                                            ],
+                                            startPoint: .leading,
+                                            endPoint: .trailing
+                                        ),
+                                        style: StrokeStyle(
+                                            lineWidth: 5.5,
+                                            lineCap: .round,
+                                            lineJoin: .round
+                                        )
+                                    )
+
+                            case .next:
+                                MapPolyline(coordinates: segment.coordinates)
+                                    .stroke(
+                                        AnnoTheme.candleGlow.opacity(0.90),
+                                        style: StrokeStyle(
+                                            lineWidth: 4.5,
+                                            lineCap: .round,
+                                            lineJoin: .round,
+                                            dash: [10, 7]
+                                        )
+                                    )
+
+                            case .future:
+                                MapPolyline(coordinates: segment.coordinates)
+                                    .stroke(
+                                        AnnoTheme.incense.opacity(0.28),
+                                        style: StrokeStyle(
+                                            lineWidth: 3,
+                                            lineCap: .round,
+                                            lineJoin: .round
+                                        )
+                                    )
+                            }
+                        }
+                    } else {
+                        MapPolyline(coordinates: route.coordinates)
+                            .stroke(
+                                LinearGradient(
+                                    colors: [
+                                        AnnoTheme.gilt,
+                                        AnnoTheme.goldLeaf,
+                                        AnnoTheme.candleGlow
+                                    ],
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                ),
+                                style: StrokeStyle(
+                                    lineWidth: 4.5,
+                                    lineCap: .round,
+                                    lineJoin: .round
+                                )
+                            )
+                    }
 
                     // Numbered Waypoints with Halo
                     ForEach(route.waypoints) { wp in
