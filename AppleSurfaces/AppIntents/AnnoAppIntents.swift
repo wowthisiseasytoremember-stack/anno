@@ -64,7 +64,7 @@ struct AnnoShortcuts: AppShortcutsProvider {
             phrases: [
                 "Show today in \(.applicationName)",
                 "What's today in \(.applicationName)",
-                "Open today's devotion in \(.applicationName)"
+                "Show today's devotion in \(.applicationName)"
             ],
             shortTitle: "Today in Anno",
             systemImageName: "sun.max.fill"
