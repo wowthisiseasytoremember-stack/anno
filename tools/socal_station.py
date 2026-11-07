@@ -16,6 +16,9 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "Anno/Resources/socal_la_vang_exemplar_content_v1.json"
 ROUTE = ROOT / "Anno/Resources/PilgrimageRoutes/socal_vietnamese_catholic_pilgrimage_la_vang.json"
+MARKERS = ROOT / "Anno/Resources/socal_la_vang_physical_markers_v1.json"
+MOMENTS = ROOT / "Anno/Resources/pilgrimage_moments_v1.json"
+SOURCE_NOTES = ROOT / "docs/EXEMPLAR_SOCAL_SOURCE_NOTES.md"
 STEPS = ("arrive", "look", "know", "pray", "continue")
 LEVELS = ("reflection", "highlight", "climax", "context")
 CHECKLIST = [
@@ -74,9 +77,13 @@ def new_station(args):
     print(f"Draft station created: {path} (NOT shipping-ready)")
 
 
-def validate(content_path=CONTENT, route_path=ROUTE):
+def validate(content_path=CONTENT, route_path=ROUTE, *, markers_path=MARKERS,
+             moments_path=MOMENTS, notes_path=SOURCE_NOTES):
     content = json.loads(Path(content_path).read_text(encoding="utf-8"))
     route = json.loads(Path(route_path).read_text(encoding="utf-8"))
+    markers = json.loads(Path(markers_path).read_text(encoding="utf-8"))
+    moments = json.loads(Path(moments_path).read_text(encoding="utf-8"))
+    sources = Path(notes_path).read_text(encoding="utf-8")
     errors = []
     core = next((v for v in content.get("variants", []) if v.get("id") == "core"), None)
     chapters = content.get("chapters", [])
@@ -104,6 +111,38 @@ def validate(content_path=CONTENT, route_path=ROUTE):
         errors.append("Core station order/IDs differ from live route waypoints")
     if content.get("route_id") != route.get("route_id"):
         errors.append("Exemplar route id mismatch")
+    # Release-invariant identities: the seven live waypoints power persisted progress,
+    # deep links, QR/NFC markers, and route/presentation lookup.
+    marker_items = markers.get("markers", [])
+    marker_ids = [m.get("station_id") for m in marker_items]
+    if marker_ids != route_ids:
+        errors.append("Marker station order/IDs differ from live route waypoints")
+    if [m.get("marker_index") for m in marker_items] != list(range(1, len(route_ids) + 1)):
+        errors.append("Marker indices must be sequential from one")
+    for marker in marker_items:
+        ix = marker.get("marker_index")
+        if marker.get("payload") != f"anno://p/lv/{ix}":
+            errors.append(f"Marker {ix}: invalid deep-link payload")
+    so_cal_moments = [m for m in moments.get("moments", [])
+                      if m.get("route_id") == route.get("route_id")]
+    by_id = {m.get("waypoint_id"): m for m in so_cal_moments}
+    if len(by_id) != len(so_cal_moments):
+        errors.append("Repeated SoCal moment identifiers")
+    if set(by_id) != {s.get("waypoint_id") for s in core_stations
+                       if s.get("moment_level") in ("climax", "highlight")}:
+        errors.append("Presentation moment registry differs from core highlight/climax stations")
+    for station in core_stations:
+        sid = station.get("waypoint_id")
+        if sid in by_id and station.get("moment_level") != by_id[sid].get("level"):
+            errors.append(f"{sid}: moment level differs from presentation registry")
+    variants = {v.get("id"): v for v in content.get("variants", [])}
+    if set(variants) != {"quick", "core", "extended"}:
+        errors.append("Expected three distinct quick/core/extended variants")
+    elif (variants["quick"].get("chapter_ids") != core_ids[:1]
+          or variants["extended"].get("chapter_ids") != core_ids
+          or variants["extended"].get("include_optional_station_ids")
+          != [s.get("station_id") for s in optional_stations]):
+        errors.append("Quick/extended chapter or optional-station membership drifted")
     status = content.get("translation_status", "")
     if "needs_human_catholic_review" not in status:
         errors.append("Vietnamese copy requires explicit pending-human-review status")
@@ -126,6 +165,16 @@ def validate(content_path=CONTENT, route_path=ROUTE):
         url = urlparse(station.get("official_url") or "")
         if url.scheme != "https" or not url.hostname or url.hostname.endswith("example.org"):
             errors.append(f"{sid}: official source must use real HTTPS URL")
+        if station.get("official_url") not in sources:
+            errors.append(f"{sid}: official URL absent from canonical source notes")
+        # Programmatic time strings are an immediate red flag in durable copy.
+        # This does not establish the accuracy of other prose, which stays under human review.
+        for field, value in station.items():
+            if (field.endswith(("_en", "_vi"))
+                    and isinstance(value, str)
+                    and re.search(r"\\b(?:[01]?\\d|2[0-3]):[0-5]\\d\\s*(?:a\\.?m\\.?|p\\.?m\\.?)?\\b",
+                                  value, re.IGNORECASE)):
+                errors.append(f"{sid}: clock time in durable {field}; link live schedule instead")
         if "_editorial" in station and station["_editorial"].get("status") == "draft_do_not_ship":
             errors.append(f"{sid}: scaffold draft cannot ship")
     if content.get("opening", {}).get("title_en") != route.get("title_en"):
@@ -145,17 +194,23 @@ def main():
     audit = sub.add_parser("audit", help="Validate every SoCal station and cross-file invariants")
     audit.add_argument("--content", type=Path, default=CONTENT)
     audit.add_argument("--route", type=Path, default=ROUTE)
+    audit.add_argument("--markers", type=Path, default=MARKERS)
+    audit.add_argument("--moments", type=Path, default=MOMENTS)
+    audit.add_argument("--notes", type=Path, default=SOURCE_NOTES)
     args = parser.parse_args()
     try:
         if args.command == "new":
             new_station(args)
             return 0
-        errors, core, optional = validate(args.content, args.route)
+        errors, core, optional = validate(
+            args.content, args.route, markers_path=args.markers,
+            moments_path=args.moments, notes_path=args.notes
+        )
         if errors:
             for error in errors:
                 print("FAIL:", error, file=sys.stderr)
             return 1
-        print(f"PASS: {core} core + {optional} optional SoCal stations; sources and bilingual fields present")
+        print(f"PASS: {core} core + {optional} optional SoCal stations; sources indexed; moments and QR markers aligned")
         print("NOT VERIFIED: links alive, historical accuracy, Vietnamese localization, physical/device access")
         return 0
     except (ValueError, FileExistsError, OSError, json.JSONDecodeError) as exc:
