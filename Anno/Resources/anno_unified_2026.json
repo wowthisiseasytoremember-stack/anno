@@ -2779,13 +2779,13 @@
         "type": "solemnity",
         "title_en": "Solemnity of the Assumption of the Blessed Virgin Mary",
         "title_vi": "Lễ Trọng Đức Maria Hồn Xác Lên Trời",
-        "summary_en": "The Solemnity of the Assumption celebrates the dogmatic truth that Mary, the Mother of Jesus, was assumed body and soul into heavenly glory at the end of her earthly life.",
-        "summary_vi": "Lễ Trọng Mông Triệu mừng chân lý tín điều rằng Mẹ Maria, Mẹ của Đức Giêsu, đã được đưa lên trong vinh quang thiên quốc cả hồn lẫn xác khi kết thúc cuộc đời trần thế.",
-        "body_en": "The dogma of the Assumption of the Blessed Virgin Mary was solemnly defined by Pope Pius XII in his 1950 apostolic constitution *Munificentissimus Deus*, declaring that the Immaculate Mother of God, having completed the course of her earthly life, was assumed body and soul into heavenly glory. This feast represents the ancient, unbroken tradition of both the Eastern and Western Churches, celebrating Mary's unique participation in the Resurrection of her Son. Pope Francis has noted that Mary's Assumption shows us that heaven is within reach when we follow her path of deep humility and generous service. The liturgy features the Magnificat from the Gospel of Luke, a canticle of profound hope that prophesies the triumph of God's mercy and the exaltation of the lowly. Mary's assumed body stands as a radiant icon of hope and comfort for the pilgrim People of God, prefiguring the final resurrection of all the faithful.",
-        "body_vi": "Tín điều Mông Triệu Đức Trinh Nữ Maria được long trọng công bố bởi Giáo hoàng Piô XII qua tông hiến năm 1950 *Munificentissimus Deus*, tuyên bố rằng Mẹ Thiên Chúa Vô Nhiễm, sau khi hoàn tất hành trình trần thế, đã được đưa lên trong vinh quang thiên quốc cả hồn lẫn xác. Lễ này đại diện cho truyền thống cổ xưa liên tục của cả Giáo hội Đông và Tây, mừng sự tham dự độc đáo của Mẹ Maria vào sự Phục Sinh của Con Ngài. Giáo hoàng Phanxicô đã ghi nhận rằng Mông Triệu của Mẹ Maria cho chúng ta thấy thiên đang ở trong tầm tay khi chúng ta bước đi theo con đường khiêm tốn sâu xa và phục vụ quảng đại của Mẹ. Phụng vụ trình bày kinh Magnificat từ Tin Mừng Luca, một bài ca ngợi chứa đựng niềm hy vọng sâu thẳm loan báo chiến thắng của lòng thương xót Chúa và sự nâng cao những kẻ khiêm nhường. Thân xác được Mông Triệu của Mẹ Maria là hình ảnh rạng ngời của niềm hy vọng và an ủi cho Dân Chúa lữ hành, hình bóng tiên trưng cho sự phục sinh cuối cùng của tất cả các tín hữu.",
+        "summary_en": "On August 15, Catholics celebrate Mary's Assumption, body and soul, into heavenly glory. Pope Pius XII defined this dogma in 1950, while the feast had been celebrated long before his declaration.",
+        "summary_vi": "Ngày 15 tháng 8, người Công giáo mừng kính Đức Maria được đưa lên vinh quang thiên quốc cả hồn lẫn xác. Đức Giáo hoàng Piô XII đã định tín mầu nhiệm này năm 1950, khi ngày lễ đã được cử hành từ nhiều thế kỷ trước.",
+        "body_en": "In the apostolic constitution Munificentissimus Deus of November 1, 1950, Pope Pius XII defined the Catholic dogma that Mary was assumed body and soul into heavenly glory at the completion of her earthly life. The Church's celebration of this mystery predates its formal definition.\n\nThe August 15 Mass readings include Mary's Magnificat, a song of praise for God's mercy and care for the lowly. The Assumption offers a sign of hope in the resurrection promised to those who belong to Christ.",
+        "body_vi": "Trong tông hiến Munificentissimus Deus ngày 1 tháng 11 năm 1950, Đức Giáo hoàng Piô XII đã định tín giáo lý Công giáo rằng Đức Maria được đưa lên vinh quang thiên quốc cả hồn lẫn xác sau khi hoàn tất cuộc đời trần thế. Hội Thánh đã cử hành mầu nhiệm này từ trước khi tín điều được chính thức công bố.\n\nCác bài đọc Thánh lễ ngày 15 tháng 8 có kinh Magnificat, lời ca ngợi lòng thương xót của Thiên Chúa và sự quan tâm của Người đối với những người bé mọn. Mầu nhiệm Đức Mẹ Hồn Xác Lên Trời là dấu chỉ hy vọng về sự phục sinh mà Đức Kitô hứa ban cho những ai thuộc về Người.",
         "confidence": "confirmed",
-        "confidence_note_en": "Pius XII's ex cathedra declaration in 1950 solidified the August 15 date of the Assumption as a solemnity of the highest class.",
-        "confidence_note_vi": "Tuyên bố ex cathedra của Piô XII năm 1950 đã củng cố ngày 15 tháng 8 cho lễ Mông Triệu như lễ trọng thuộc hạng cao nhất."
+        "confidence_note_en": "Pope Pius XII defined the Assumption dogma in 1950; the observance of the August 15 feast predates that definition. See Munificentissimus Deus and USCCB 2026 readings.",
+        "confidence_note_vi": "Đức Giáo hoàng Piô XII đã định tín Đức Mẹ Hồn Xác Lên Trời năm 1950; ngày lễ 15 tháng 8 đã được cử hành trước khi tín điều được công bố. Xem tông hiến Munificentissimus Deus và các bài đọc USCCB năm 2026."
       },
       "place": {
         "name": "Tomb of the Virgin Mary, Jerusalem, Israel",
@@ -2814,8 +2814,8 @@
         }
       ],
       "app_hooks": {
-        "hero_line_en": "The heavenly coronation of the Mother of God",
-        "hero_line_vi": "Sự tôn vinh trên trời của Mẹ Thiên Chúa",
+        "hero_line_en": "Mary assumed body and soul into heavenly glory",
+        "hero_line_vi": "Đức Maria được đưa lên vinh quang thiên quốc cả hồn lẫn xác",
         "prayer_prompt_en": "Look up to Mary assumed into heaven as a sure sign of hope for your future resurrection.",
         "prayer_prompt_vi": "Ngước nhìn Mẹ Maria đã được Mông Triệu lên trời như dấu chắc chắn của niềm hy vọng cho sự phục sinh mai sau của bạn."
       }
@@ -8557,10 +8557,10 @@
       "weekday": "Sunday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Sunday",
-        "color": "green",
-        "title_en": "33th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 33 Mùa Thường Niên"
+        "rank": "Solemnity",
+        "color": "white",
+        "title_en": "Our Lord Jesus Christ, King of the Universe",
+        "title_vi": "Chúa Giêsu Kitô Vua Vũ Trụ"
       },
       "calendars": {
         "julian": "2026-11-09",
@@ -8570,42 +8570,42 @@
         "ethiopian": "13 Hidar 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "33th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 33 Mùa Thường Niên",
-        "summary_en": "This Sunday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Sunday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "solemnity",
+        "title_en": "Our Lord Jesus Christ, King of the Universe",
+        "title_vi": "Chúa Giêsu Kitô Vua Vũ Trụ",
+        "summary_en": "On the final Sunday of the liturgical year, Catholics celebrate Jesus Christ as King of the Universe. Matthew 25 connects his kingship with mercy shown to the hungry, the stranger, the sick, and the imprisoned.",
+        "summary_vi": "Vào Chúa nhật cuối năm phụng vụ, người Công giáo mừng kính Chúa Giêsu Kitô là Vua Vũ Trụ. Tin Mừng Matthêu chương 25 nối kết vương quyền của Người với lòng thương xót dành cho người đói khát, khách lạ, người đau yếu và người bị giam cầm.",
+        "body_en": "The prophet Ezekiel presents God as a shepherd who seeks the lost and tends those in need. In the First Letter to the Corinthians, Paul proclaims the risen Christ and the final defeat of death.\n\nIn Matthew 25, Jesus describes the judgment of the nations through the image of a shepherd separating sheep and goats. His followers are called to recognize him in people who need food, welcome, care, and compassion.\n\nThe solemnity of Christ the King closes the liturgical year with a practical invitation: let justice, mercy, and love shape everyday life.",
+        "body_vi": "Ngôn sứ Êdêkien nói về Thiên Chúa như vị mục tử tìm kiếm những con chiên lạc và chăm sóc người yếu đau. Trong thư gửi tín hữu Côrintô, thánh Phaolô công bố Đức Kitô phục sinh và chiến thắng sau cùng trước sự chết.\n\nTin Mừng theo thánh Matthêu chương 25 diễn tả cuộc phán xét bằng hình ảnh người mục tử phân biệt các chiên. Người môn đệ được mời gọi nhận ra Đức Kitô nơi những người cần được giúp đỡ.\n\nLễ Chúa Kitô Vua Vũ Trụ kết thúc năm phụng vụ bằng một lời mời gọi cụ thể: sống đức công chính, lòng thương xót và tình yêu thương trong đời thường.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-22.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-22."
+        "confidence_note_en": "The official USCCB readings for November 22, 2026 identify the Solemnity of Our Lord Jesus Christ, King of the Universe (Lectionary 160).",
+        "confidence_note_vi": "Các bài đọc chính thức của USCCB ngày 22 tháng 11 năm 2026 xác nhận lễ trọng Chúa Giêsu Kitô Vua Vũ Trụ (Sách Bài Đọc số 160)."
       },
       "place": null,
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": "Artwork not selected — Christ the King",
+        "maker": "Unassigned",
+        "date_label": "Pending clearance",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB November 22, 2026 — Our Lord Jesus Christ, King of the Universe",
+          "url": "https://bible.usccb.org/bible/readings/112226.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB 2026 Solemnity of Christ the King",
+          "url": "https://www.usccb.org/events/2026/solemnity-our-lord-jesus-christ-king-universe",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Sunday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Sunday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Sunday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Christ reigns by calling us to serve the least among us",
+        "hero_line_vi": "Đức Kitô là Vua, Người mời gọi chúng ta phục vụ những người bé mọn",
+        "prayer_prompt_en": "Christ our King, teach us to recognize and serve you in the hungry, the sick, the lonely, and all who need care.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu Kitô là Vua Vũ Trụ, xin dạy chúng con nhận ra và phục vụ Chúa nơi những người đói khát, đau yếu, cô đơn và cần được nâng đỡ."
       }
     },
     {
@@ -9496,13 +9496,13 @@
         "type": "solemnity",
         "title_en": "Solemnity of the Immaculate Conception of the Blessed Virgin Mary",
         "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội",
-        "summary_en": "The Solemnity of the Immaculate Conception celebrates the dogma that the Blessed Virgin Mary, by a singular grace and privilege of Almighty God in view of the merits of Jesus Christ, was preserved immune from all stain of original sin from the first instant of her conception. Defined by Pope Pius IX in 1854, this feast is the patronal solemnity of the United States and numerous dioceses worldwide.",
-        "summary_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội tuyên xưng tín điều rằng Đức Trinh Nữ Maria, nhờ đặc ân vô song của Thiên Chúa toàn năng và vì công nghiệp của Chúa Giêsu Kitô, đã được gìn giữ tinh tuyền khỏi mọi vết nhơ của tội nguyên tổ ngay từ giây phút đầu tiên tượng thai trong lòng mẹ. Được Đức Giáo hoàng Piô IX long trọng định tín năm 1854, đây là đại lễ bổn mạng của nhiều quốc gia và giáo phận trên toàn thế giới.",
-        "body_en": "On December 8, 1854, in the Apostolic Constitution *Ineffabilis Deus*, Pope Blessed Pius IX dogmatically defined the doctrine of the Immaculate Conception. Four years later in 1858, the Blessed Virgin appeared to Saint Bernadette Soubirous at Lourdes, France, confirming the dogma with the words: 'I am the Immaculate Conception.'\n\nThis solemnity recognizes that God prepared a pure and worthy vessel for His Son. Because Mary was destined to carry the Holy of Holies in her womb, she was redeemed in an exalted manner, preserved from sin from the very dawn of her existence by the anticipated grace of Calvary.\n\nCelebrated during the season of Advent, the feast shines as a radiant sign of hope, demonstrating the supreme triumph of divine grace over sin and mortality.",
-        "body_vi": "Ngày 8 tháng 12 năm 1854, qua Tông sắc *Ineffabilis Deus*, Đức Chân phước Giáo hoàng Piô IX đã long trọng định tín tín điều Đức Mẹ Vô Nhiễm Nguyên Tội. Bốn năm sau, vào năm 1858, Đức Trinh Nữ Maria đã hiện ra với Thánh Nữ Bernadette Soubirous tại Lộ Đức (Pháp), xác nhận tín điều với lời tuyên bố: 'Ta là Đấng Vô Nhiễm Nguyên Tội.'\n\nĐại lễ này tôn vinh việc Thiên Chúa đã chuẩn bị một cung điện xứng đáng và tinh tuyền cho Con Một Ngài. Vì Mẹ Maria được tiền định để cưu mang Đấng Cực Thánh, Mẹ đã được cứu chuộc một cách kỳ diệu nhất, được gìn giữ khỏi mọi tội nhơ ngay từ giây phút đầu đời nhờ công nghiệp thấy trước của hy tế Canvê.\n\nĐược cử hành trong Mùa Vọng, ngày lễ rực sáng như dấu chỉ hy vọng huy hoàng, minh chứng sự toàn thắng của ân sủng Thiên Chúa trên tội lỗi và sự chết.",
+        "summary_en": "On December 8, Catholics celebrate the Immaculate Conception: Mary was preserved from original sin from the first moment of her own conception through the grace of God and the merits of Jesus Christ. Pope Pius IX defined this dogma in 1854, and the feast is celebrated during Advent.",
+        "summary_vi": "Ngày 8 tháng 12, người Công giáo mừng kính Đức Mẹ Vô Nhiễm Nguyên Tội: nhờ ân sủng Thiên Chúa và công nghiệp Chúa Giêsu Kitô, Đức Maria được gìn giữ khỏi tội nguyên tổ ngay từ giây phút đầu tiên được thụ thai. Đức Giáo hoàng Piô IX định tín giáo lý này năm 1854, và ngày lễ được cử hành trong Mùa Vọng.",
+        "body_en": "In 1854, Pope Pius IX defined the dogma of the Immaculate Conception in Ineffabilis Deus. It concerns Mary's own conception, not the conception of Jesus, and teaches that her preservation from original sin was a gift of grace through Christ.\n\nCatholic devotion also remembers the apparitions reported by Bernadette Soubirous at Lourdes in 1858. These accounts belong to the Church's devotional tradition and are not the historical basis for the earlier dogmatic definition.\n\nCelebrated during Advent, the solemnity invites reflection on the initiative of God's grace and the hope of salvation.",
+        "body_vi": "Năm 1854, Đức Giáo hoàng Piô IX định tín Đức Mẹ Vô Nhiễm Nguyên Tội trong văn kiện Ineffabilis Deus. Tín điều nói về việc chính Đức Maria được thụ thai, không phải việc Chúa Giêsu được thụ thai, và dạy rằng Mẹ được gìn giữ khỏi tội nguyên tổ nhờ ân sủng Thiên Chúa và công nghiệp Đức Kitô.\n\nTrong truyền thống sùng kính Công giáo, tín hữu cũng tưởng nhớ những cuộc hiện ra được Bernadette Soubirous thuật lại tại Lộ Đức năm 1858. Những trình thuật này thuộc đời sống đạo đức và không phải là cơ sở lịch sử của việc định tín đã diễn ra trước đó.\n\nĐược cử hành trong Mùa Vọng, lễ trọng mời gọi suy niệm về ân sủng đi bước trước của Thiên Chúa và niềm hy vọng cứu độ.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-12-08.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-08."
+        "confidence_note_en": "The USCCB identifies December 8, 2026 as the Solemnity of the Immaculate Conception. The Catechism (§491) attributes the 1854 definition to Pius IX; Lourdes accounts are marked as devotion/tradition.",
+        "confidence_note_vi": "USCCB xác nhận ngày 8 tháng 12 năm 2026 là lễ trọng Đức Mẹ Vô Nhiễm Nguyên Tội. Sách Giáo lý (§491) ghi nhận việc Đức Piô IX định tín năm 1854; các trình thuật Lộ Đức được nêu là truyền thống sùng kính."
       },
       "place": {
         "name": "Basilica of the National Shrine of the Immaculate Conception, Washington, D.C.",
@@ -9520,26 +9520,26 @@
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar – Immaculate Conception",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB December 8, 2026 — Immaculate Conception",
+          "url": "https://bible.usccb.org/bible/readings/120826.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Pope Pius IX, Apostolic Constitution Ineffabilis Deus (1854)",
-          "url": "https://www.vatican.va/content/pius-ix/la/documents/constitutio-apostolica-ineffabilis-deus-8-decembris-1854.html",
+          "label": "Catechism of the Catholic Church 490–493 — Immaculate Conception",
+          "url": "https://www.vatican.va/content/catechism/en/part_one/section_two/chapter_two/artcile_3/paragraph_2_conceived_by_the_power_of_the_holy_spirit_and_born_of_the_virgin_mary.index.html",
           "type": "vatican"
         },
         {
-          "label": "Catholic Encyclopedia – Immaculate Conception",
+          "label": "Catholic Encyclopedia — Immaculate Conception (historical background)",
           "url": "https://www.newadvent.org/cathen/07674d.htm",
           "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Full of grace, preserved exempt from all stain of original sin from the first instant of her conception",
-        "hero_line_vi": "Đầy tràn ơn phúc, được gìn giữ tinh tuyền khỏi mọi vết nhơ tội nguyên tổ ngay từ giây phút đầu tiên thành thai",
-        "prayer_prompt_en": "O God, who by the Immaculate Conception of the Blessed Virgin prepared a worthy dwelling for Your Son, grant, we pray, that as You preserved her from every stain by the foreseen death of Your Son, so through her intercession we, too, may be cleansed and admitted to Your presence.",
-        "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã nhờ sự Vô Nhiễm Nguyên Tội của Đức Trinh Nữ mà dọn cho Con Chúa một nơi ngự xứng đáng, xin vì công nghiệp thấy trước của cái chết của Con Chúa đã gìn giữ Mẹ khỏi mọi vết nhơ, mà ban cho chúng con nhờ lời Mẹ chuyển cầu cũng được sạch tội và xứng đáng đến trước tôn nhan Chúa."
+        "hero_line_en": "Grace from the first moment of Mary's life",
+        "hero_line_vi": "Ân sủng Thiên Chúa ngay từ giây phút đầu đời Đức Maria",
+        "prayer_prompt_en": "God of grace, teach me to welcome your gifts with humility and to share your mercy with others.",
+        "prayer_prompt_vi": "Lạy Thiên Chúa giàu ân sủng, xin dạy con đón nhận hồng ân Chúa với lòng khiêm nhường và biết trao ban lòng thương xót cho người khác."
       }
     },
     {
@@ -10478,11 +10478,11 @@
         "title_vi": "Đại Lễ Giáng Sinh — Mừng Chúa Giáng Sinh",
         "summary_en": "The Solemnity of the Nativity of the Lord celebrates the profound mystery of the Incarnation, when the eternal Son of God took on human flesh and was born of the Virgin Mary in Bethlehem. In the poverty of the manger, the Light of the World shines forth, bringing peace and eternal redemption to all humanity.",
         "summary_vi": "Đại Lễ Chúa Giáng Sinh mừng mầu nhiệm khôn tả của biến cố Nhập Thể, khi Con Thiên Chúa Hằng Hữu mặc lấy xác phàm nhân loại và sinh ra bởi Đức Trinh Nữ Maria tại Bêlem. Nơi máng cỏ nghèo hèn, Ánh Sáng Thế Gian đã bừng lên chiếu rọi, mang lại bình an và ơn cứu chuộc vĩnh cửu cho toàn thể nhân loại.",
-        "body_en": "For centuries, the prophets foretold the coming of the Messiah from the line of David. In the fullness of time, Caesar Augustus decreed a census, bringing Mary and Joseph to Bethlehem, the city of David. There, in a humble stable because there was no room for them in the inn, Mary gave birth to her firstborn Son, wrapped Him in swaddling clothes, and laid Him in a manger.\n\nAngelic choirs announced the joyous tidings to poor shepherds keeping watch in the fields: 'Glory to God in the highest, and on earth peace to people of good will' (Luke 2:14). The shepherds hastened to adore the newborn King, becoming the first witnesses to the mystery of God made man.\n\nSaint Athanasius proclaimed that 'God became man so that man might become god,' expressing the breathtaking dignity bestowed upon human nature through the Incarnation. Christmas calls every heart to adoration, thanksgiving, and generous love.",
-        "body_vi": "Trải qua bao thế kỷ, các ngôn sứ đã loan báo về sự xuất hiện của Đấng Mêxia thuộc dòng dõi Đavít. Đến thời viên mãn, Hoàng đế Caesar Augustus ra chiếu chỉ kiểm tra dân số, đưa Mẹ Maria và Thánh Giuse về Bêlem, thành của vua Đavít. Tại đó, nơi một hang đá nghèo hèn vì không tìm được chỗ trong quán trọ, Mẹ Maria đã hạ sinh Con Đầu Lòng, lấy tã bọc Người và đặt nằm trong máng cỏ.\n\nCác thiên thần đã loan báo tin vui trọng đại cho các mục đồng nghèo thức đêm canh giữ đàn chiên: 'Vinh danh Thiên Chúa trên trời, bình an dưới thế cho loài người Chúa thương' (Lc 2,14). Các mục đồng vội vã đến thờ lạy Hài Nhi, trở thành những nhân chứng đầu tiên cho mầu nhiệm Thiên Chúa làm người.\n\nThánh Athanasiô đã tuyên bố rằng 'Thiên Chúa đã làm người để con người được trở nên con Thiên Chúa', diễn tả phẩm giá cao quý khôn lường mà nhân loại được lãnh nhận qua biến cố Nhập Thể. Giáng Sinh mời gọi mọi tâm hồn hãy tôn thờ, cảm tạ và trao ban tình yêu thương bác ái.",
+        "body_en": "Luke's Gospel recounts Mary and Joseph's journey to Bethlehem and the birth of Jesus, whom Mary wrapped in cloth and laid in a manger. The simplicity of this scene directs attention to God's presence among ordinary people.\n\nShepherds hear the good news and come to see the child. Their response invites believers to receive the Nativity not only as an event remembered, but as a call to share joy and peace.\n\nThe Mass readings for Christmas also proclaim the mystery of the Word becoming flesh. Christians celebrate God's nearness in Jesus Christ and are called to reflect that love in care for others.",
+        "body_vi": "Tin Mừng theo thánh Luca kể lại hành trình của Đức Maria và thánh Giuse đến Bêlem, nơi Chúa Giêsu chào đời. Đức Maria lấy khăn bọc Hài Nhi và đặt Người nằm trong máng cỏ; khung cảnh đơn sơ ấy hướng lòng người đến sự hiện diện của Thiên Chúa giữa đời thường.\n\nCác mục đồng nhận tin mừng và đến gặp Hài Nhi. Việc họ đáp lại lời loan báo mời gọi tín hữu đón nhận Giáng Sinh không chỉ như một biến cố được tưởng nhớ, mà còn như lời mời chia sẻ niềm vui và bình an.\n\nCác bài đọc Thánh lễ Giáng Sinh cũng công bố mầu nhiệm Ngôi Lời nhập thể. Người Kitô hữu mừng kính Thiên Chúa đến gần nhân loại nơi Đức Giêsu Kitô và được mời gọi thể hiện tình yêu ấy qua việc quan tâm đến người khác.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-12-25.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-25."
+        "confidence_note_en": "The USCCB identifies December 25, 2026 as the Nativity of the Lord; the liturgical readings present the manger and Incarnation. Extra details in later devotional art are not asserted as Gospel facts.",
+        "confidence_note_vi": "USCCB xác nhận ngày 25 tháng 12 năm 2026 là lễ Chúa Giáng Sinh; các bài đọc phụng vụ nói đến máng cỏ và mầu nhiệm Nhập Thể. Những chi tiết của nghệ thuật sùng kính về sau không được coi là dữ kiện trực tiếp của Tin Mừng."
       },
       "place": {
         "name": "Church of the Nativity, Bethlehem",
@@ -10500,17 +10500,17 @@
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar – The Nativity of the Lord",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB December 25, 2026 — Nativity of the Lord",
+          "url": "https://bible.usccb.org/bible/readings/122526.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Catechism of the Catholic Church: The Mystery of Christmas (525-526)",
-          "url": "https://www.vatican.va/archive/ENG0015/__P1N.HTM",
+          "label": "Vatican Rosary — The Birth of Our Lord (Luke 2:1–7, Catechism 525)",
+          "url": "https://www.vatican.va/special/rosary/documents/popup/popup03_gau_en.html",
           "type": "vatican"
         },
         {
-          "label": "Catholic Encyclopedia – Christmas",
+          "label": "Catholic Encyclopedia — Christmas (historical background)",
           "url": "https://www.newadvent.org/cathen/03724b.htm",
           "type": "encyclopedia"
         }
@@ -10518,8 +10518,8 @@
       "app_hooks": {
         "hero_line_en": "Today is born our Savior, Christ the Lord! Glory to God in the highest!",
         "hero_line_vi": "Hôm nay Đấng Cứu Độ đã sinh ra cho chúng ta, Người là Đức Kitô Chúa chúng ta!",
-        "prayer_prompt_en": "O God, who wonderfully created the dignity of human nature and still more wonderfully restored it, grant, we pray, that we may share in the divinity of Christ, who humbled Himself to share in our humanity.",
-        "prayer_prompt_vi": "Lạy Thiên Chúa, Đấng đã dựng nên phẩm giá con người một cách kỳ diệu và còn tái tạo phẩm giá ấy cách kỳ diệu hơn nữa, xin cho chúng con được thông phần vào bản tính thần linh của Đức Kitô, Đấng đã hạ mình chia sẻ thân phận làm người của chúng con."
+        "prayer_prompt_en": "Jesus, born among us, help me make room for kindness, peace, and practical care for those who need it.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu đã đến ở giữa chúng con, xin giúp con mở lòng với sự tử tế, bình an và những việc làm cụ thể để chăm sóc người cần được giúp đỡ."
       }
     },
     {
