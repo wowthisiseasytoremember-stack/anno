@@ -144,11 +144,11 @@ def validate(content_path=CONTENT, route_path=ROUTE, *, markers_path=MARKERS,
     by_id = {m.get("waypoint_id"): m for m in so_cal_moments}
     if len(by_id) != len(so_cal_moments):
         errors.append("Repeated SoCal moment identifiers")
-    if set(by_id) != {s.get("waypoint_id") for s in core_stations
+    if set(by_id) != {s.get("waypoint_id") or s.get("station_id") for s in core_stations
                        if s.get("moment_level") in ("climax", "highlight")}:
         errors.append("Presentation moment registry differs from core highlight/climax stations")
     for station in core_stations:
-        sid = station.get("waypoint_id")
+        sid = station.get("waypoint_id") or station.get("station_id")
         if sid in by_id and station.get("moment_level") != by_id[sid].get("level"):
             errors.append(f"{sid}: moment level differs from presentation registry")
     variants = {v.get("id"): v for v in content.get("variants", [])}
