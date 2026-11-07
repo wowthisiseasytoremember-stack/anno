@@ -68,3 +68,23 @@
 **Not established:** individual artwork licenses/attribution or image alt; direct support for every historic/theological clause without a full Catholic-editor review; human Vietnamese translation approval; app voiceover/contrast/render testing. Treat the four revised entries as **edited, pending human review**, not release certified.
 
 **Next area (not part of this claim):** scan every other day of the 182-entry fixture for liturgical calendar collisions, stale/placeholder URLs and generic text.
+
+
+## Implementation receipts — 2026-11-06
+
+**Disposition:** corrections implemented in upstream sources and normalized runtime artifact; automated Linux validation confirmed on PR #35. This does **not** change the open human-review state above.
+
+| Date | Upstream correction | Final status |
+| --- | --- | --- |
+| 2026-08-15 | Rewrote Assumption summary/body/confidence and hero to separate Assumption from Coronation and the ancient feast from the 1950 definition. `data/mock/anno_august_2026.json`. | Corrected, **human VI/Catholic review pending**. |
+| 2026-11-22 | Replaced incorrect 33rd-Sunday prose with Christ the King as a white Solemnity, Matthew 25/Ezekiel/1 Corinthians reflection, original prayer, day-specific USCCB source. Updated `data/research_results/2026-11-22_result.json` and `_result_vi.json`. | Corrected, **human VI/Catholic review pending**. |
+| 2026-12-08 | Distinguished defined Immaculate Conception dogma from reported Lourdes tradition, replaced Vatican URL returning 404 with official Catechism, added dated USCCB page and original prayer. Updated research `_result.json` **and** `_result_vi.json`. | Corrected, **human VI/Catholic review pending**. |
+| 2026-12-25 | Replaced unqualified art/tradition details and unsupported direct quote with Gospel-anchored text; replaced mispointed Vatican link (old URL resolved to unrelated Catechism section), used dated USCCB page and original prayer. Updated research `_result.json` **and** `_result_vi.json`. | Corrected, **human VI/Catholic review pending**. |
+
+**Critical discovery:** the normalizer has **three separate VI overlays** for Nov 22, Dec 8 and Dec 25. Editing the base `_result.json` alone silently reintroduced old VI paragraphs. The Linux before/after parity tests caught this, and all three overlays are synchronized. Do not delete the overlays casually: they are part of the existing content pipeline.
+
+**Validation path:** `tools/major_feast_editorial.py audit` checks all four records in the committed JSON before normalizer; `tools/normalize_fixture.py --year 2026` rejects English fallback as valid VI on mandatory dates; then `major_feast_editorial.py audit` and ten regression tests run again, with 182 total normalized days retained. Existing Engine B full-fixture validator remains a separately non-blocking legacy job; this focused gate is fail-closed.
+
+**Rights/accessibility:** Existing artwork remains candidate/`placeholder_only`; a placeholder is not permission to publish an image. Device-level VoiceOver/Dynamic Type/contrast has not been checked without a Mac. Written text sources do not substitute for approved liturgical-text licensing. New prayer prompts are independent paraphrases rather than copying liturgical Collects. Vietnamese language and theological review have **not** been approved.
+
+**Next issue:** audit all 178 other entries for calendrical collisions, stale/example URLs, repeated generic prose, confidence-location mismatches and rights metadata; do not treat this four-date patch as certification of all 182 days.
