@@ -319,6 +319,9 @@ jobs:
           print("SoCal exemplar alignment OK: 7 required spiritual stations")
           PY
 
+      - name: Audit all eight SoCal station records
+        run: python3 tools/socal_station.py audit
+
       - name: Verify SoCal physical marker identities
         run: |
           python3 - <<'PY'
