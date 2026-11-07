@@ -188,7 +188,7 @@ def validate(content_path=CONTENT, route_path=ROUTE, *, markers_path=MARKERS,
         for field, value in station.items():
             if (field.endswith(("_en", "_vi"))
                     and isinstance(value, str)
-                    and re.search(r"\\b(?:[01]?\\d|2[0-3]):[0-5]\\d\\s*(?:a\\.?m\\.?|p\\.?m\\.?)?\\b",
+                    and re.search(r"(?<![0-9])(?:[01]?[0-9]|2[0-3]):[0-5][0-9](?: *(?:am|pm|a.m.|p.m.))?(?![0-9])",
                                   value, re.IGNORECASE)):
                 errors.append(f"{sid}: clock time in durable {field}; link live schedule instead")
         if "_editorial" in station and station["_editorial"].get("status") == "draft_do_not_ship":
