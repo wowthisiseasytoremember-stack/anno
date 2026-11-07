@@ -140,9 +140,9 @@ def validate_fixture(fixture, upstream, vi_overlay, *,
             if (isinstance(en, str) and isinstance(vi, str)
                     and en.strip().casefold() == vi.strip().casefold()):
                 errors.append(f"{day}: English copied into {section}.{key}_vi")
-            if isinstance(en, str) and re.search(r"\\b33th\\b", en, re.I):
+            if isinstance(en, str) and re.search(r"\b33th\b", en, re.I):
                 errors.append(f"{day}: invalid English ordinal 33th")
-            if isinstance(vi, str) and re.search(r"\\b(?:Sunday|Saturday|Friday)\\b", vi, re.I):
+            if isinstance(vi, str) and re.search(r"\b(?:Sunday|Saturday|Friday)\b", vi, re.I):
                 errors.append(f"{day}: untranslated English weekday in {section}.{key}_vi")
         if "_editorial" in e:
             errors.append(f"{day}: editorial draft metadata leaked into runtime fixture")
