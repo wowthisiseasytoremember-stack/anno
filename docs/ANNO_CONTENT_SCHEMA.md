@@ -112,3 +112,29 @@ python3 -m unittest discover -s tools -p 'test_major_feast_editorial.py' -v
 The starter creates one **non-shipping** native-shape JSON record with `TODO` source-backed sections, artwork/license/alt slots and an editorial checklist under `_editorial`; clear all TODOs and remove `_editorial` before integration. It refuses to overwrite files. The `audit` and tests are stdlib Python, don't fetch URLs and run on Linux. They check authority dates, EN/VI presence and differences, official links, and upstream-to-fixture parity, but do not claim to have human-reviewed every historical sentence.
 
 The full per-entry findings, claims requiring human review, and authority URLs are in `docs/MAJOR_FEAST_2026_EDITORIAL_AUDIT.md`.
+
+
+## 2026 July 3–16 fortnight canonical editorial workflow (2026-11-06)
+
+**Owned source:** `data/mock/anno_fortnight_2026-07-03_2026-07-16.json`, fourteen records. **Compiled runtime:** `Anno/Resources/anno_unified_2026.json`, 182 records. **Per-item historical and release audit:** `docs/JULY_FORTNIGHT_2026_EDITORIAL_AUDIT.md`.
+
+The reference authority for the U.S. Catholic calendar is the [USCCB 2026 calendar, July printed pp. 31–32](https://www.usccb.org/resources/2026cal.pdf), with each day's linked dated Mass readings. Never mistake a cultural festival or optional memorial for a mandatory Roman liturgical feast. The 2026 Marian Days community celebration was **August 6–9 in Carthage, Missouri**, not a liturgical feast on July 9–11. Its site is not Christ Cathedral in California. The 14-day correction uses Gospel-anchored original prose and does not reproduce readings or copyrighted Mass prayers.
+
+Run offline on Linux (no network, Mac, or Xcode):
+```bash
+python3 tools/fortnight_editorial.py audit
+python3 tools/normalize_fixture.py --year 2026
+python3 tools/fortnight_editorial.py audit
+python3 -m unittest discover -s tools -p 'test_fortnight_editorial.py' -v
+```
+
+To start a **new one-file item** from the existing native JSON shape:
+```bash
+python3 tools/fortnight_editorial.py new --date 2027-07-03 --output /tmp/new-anno-day.json
+```
+
+This refuses overwrite and emits a **non-shipping** draft, with `_editorial.review_checklist`, bilingual placeholders, exact-source stubs and artwork/license/alt/caption slots. Resolve every TODO, then remove `_editorial` and integrate through the canonical source layer; do not ship a draft.
+
+The `audit` uses a parameterized per-day authority table (14 dates, names/ranks/colors/Gospel references) and a reusable source-vs-compiled parity check. It rejects missing or duplicated dates, stale titles, incorrect rank/colors, fake artwork clearance, fabricated places, unlocalized English weekdays in VI, copied EN fallback, duplicate daily summaries, and missing dated USCCB links.
+
+**Limit:** Machine passing means correct *pinned metadata* and source parity, not theological review, translation certification, independent claim verification, image rights, or actual app accessibility. These still require human Catholic/VI review and device testing. `placeholder_only` is an explicit no-assets-cleared state; do not publish invented rights or stock images.
