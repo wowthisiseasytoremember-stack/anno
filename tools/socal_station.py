@@ -109,6 +109,22 @@ def validate(content_path=CONTENT, route_path=ROUTE, *, markers_path=MARKERS,
     core_station_ids = [s.get("waypoint_id") or s.get("station_id") for s in core_stations]
     if core_station_ids != route_ids:
         errors.append("Core station order/IDs differ from live route waypoints")
+    # The app also reads history and prayer from the map-waypoint records.
+    # Any duplicate drifting makes the same place tell two different stories.
+    station_by_id = {s.get("waypoint_id") or s.get("station_id"): s for s in core_stations}
+    for waypoint in waypoints:
+        sid = waypoint.get("waypoint_id")
+        station = station_by_id.get(sid)
+        if station is None:
+            continue
+        for route_key, exemplar_key in (
+            ("historical_summary_en", "know_en"),
+            ("historical_summary_vi", "know_vi"),
+            ("suggested_prayer_en", "pray_en"),
+            ("suggested_prayer_vi", "pray_vi"),
+        ):
+            if waypoint.get(route_key) != station.get(exemplar_key):
+                errors.append(f"{sid}: route {route_key} differs from station {exemplar_key}")
     if content.get("route_id") != route.get("route_id"):
         errors.append("Exemplar route id mismatch")
     # Release-invariant identities: the seven live waypoints power persisted progress,
