@@ -152,6 +152,35 @@ def normalize_engine_b(en_path: Path) -> dict:
     return e
 
 
+def validate_required_feast_vi(entry: dict) -> None:
+    """Do not mask missing major-feast Vietnamese copy by copying English into it.
+
+    This intentionally validates the raw source/overlay before ensure_vi fallback,
+    because the normalizer still permits EN fallback on non-priority weekdays.
+    """
+    day = entry.get("date")
+    if day not in VI_REQUIRED_DATES:
+        return
+    for section, key in (
+        ("liturgical", "title"), ("primary", "title"),
+        ("primary", "summary"), ("primary", "body"),
+        ("primary", "confidence_note"),
+        ("app_hooks", "hero_line"), ("app_hooks", "prayer_prompt"),
+    ):
+        values = entry.get(section) or {}
+        en = values.get(f"{key}_en", "")
+        vi = values.get(f"{key}_vi", "")
+        if not isinstance(vi, str) or not vi.strip():
+            raise ValueError(f"{day}: required {section}.{key}_vi is empty")
+        if not isinstance(en, str) or not en.strip():
+            raise ValueError(f"{day}: required {section}.{key}_en is empty")
+        if vi.strip().casefold() == en.strip().casefold():
+            raise ValueError(f"{day}: English copied into required {section}.{key}_vi")
+        if re.search(r"\\b(?:Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)\\b",
+                     vi, re.IGNORECASE):
+            raise ValueError(f"{day}: untranslated weekday in {section}.{key}_vi")
+
+
 def ensure_vi(entry: dict) -> dict:
     """Guarantee every *_vi AND *_en leaf exists. If one locale is missing, fall back
     to the other so the Swift decoder never sees an empty string in either language."""
@@ -245,7 +274,14 @@ def main() -> None:
     by_id = {}
     for e in entries:
         by_id.setdefault(e["id"], e)
-    final = [ensure_vi(e) for e in sorted(by_id.values(), key=lambda e: e.get("date", ""))]
+    sorted_entries = sorted(by_id.values(), key=lambda e: e.get("date", ""))
+    if args.year == 2026:
+        observed_required = {e.get("date") for e in sorted_entries} & VI_REQUIRED_DATES
+        if observed_required != VI_REQUIRED_DATES:
+            raise ValueError(f"Missing major feast source dates: {sorted(VI_REQUIRED_DATES - observed_required)}")
+    for e in sorted_entries:
+        validate_required_feast_vi(e)
+    final = [ensure_vi(e) for e in sorted_entries]
 
     # BLOCKING VALIDATOR: fail if required fields missing
     required_fields = ["weekday", "calendars", "artwork", "mock_priority"]
