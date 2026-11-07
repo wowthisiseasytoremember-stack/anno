@@ -59,6 +59,12 @@ class SoCalStationTests(unittest.TestCase):
         errors, _, _ = self.audit_fixture(change=change)
         self.assertTrue(any("absent from canonical source notes" in e for e in errors), errors)
 
+    def test_rejects_route_content_divergence(self):
+        def change(data):
+            data["route"]["waypoints"][3]["historical_summary_en"] = "Different history in map"
+        errors, _, _ = self.audit_fixture(change=change)
+        self.assertTrue(any("route historical_summary_en differs" in e for e in errors), errors)
+
     def test_rejects_changed_marker_identity(self):
         def change(data):
             data["markers"]["markers"][0]["station_id"] = "wrong_id"
