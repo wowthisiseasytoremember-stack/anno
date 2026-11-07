@@ -371,8 +371,8 @@
         "type": "liturgical_day",
         "title_en": "Thursday of the Fourteenth Week in Ordinary Time",
         "title_vi": "Thứ Năm Tuần XIV Mùa Thường Niên",
-        "summary_en": "Jesus sends the apostles with a message of hope and asks them to give freely. The day belongs to Ordinary Time, not to the Marian Days festival, which occurred in August 2026.",
-        "summary_vi": "Chúa Giêsu sai các tông đồ đi loan báo niềm hy vọng và trao ban nhưng không. Ngày này thuộc Mùa Thường Niên, không phải ngày khai mạc Đại Hội Thánh Mẫu, được tổ chức vào tháng Tám năm 2026.",
+        "summary_en": "Jesus sends the apostles with a message of hope and asks them to give freely. The reading challenges disciples to bring peace without treating care as a transaction.",
+        "summary_vi": "Chúa Giêsu sai các tông đồ đi loan báo niềm hy vọng và trao ban nhưng không. Bài Tin Mừng mời gọi môn đệ đem bình an đến cho người khác mà không tính toán hơn thiệt.",
         "confidence": "confirmed",
         "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feria observance; Gospel Matthew 10:7-15. This label reflects the national default, not every optional local observance.",
         "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 10:7-15. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
@@ -511,6 +511,11 @@
           "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
           "url": "https://www.usccb.org/resources/2026cal.pdf",
           "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Encyclopedia — St. Benedict of Nursia and the Benedictine Rule",
+          "url": "https://www.newadvent.org/cathen/02467b.htm",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
