@@ -9,10 +9,10 @@
       "weekday": "Friday",
       "mock_priority": "real_data",
       "liturgical": {
-        "rank": "Feria",
-        "color": "verdigris",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường"
+        "rank": "Feast",
+        "color": "red",
+        "title_en": "Feast of Saint Thomas, Apostle",
+        "title_vi": "Lễ kính Thánh Tôma Tông đồ"
       },
       "calendars": {
         "julian": "2026-06-20",
@@ -22,48 +22,42 @@
         "ethiopian": "26 Sene 2018"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "type": "feast",
+        "title_en": "Feast of Saint Thomas, Apostle",
+        "title_vi": "Lễ kính Thánh Tôma Tông đồ",
+        "summary_en": "Thomas wanted to encounter the risen Jesus for himself before accepting the other disciples' testimony. His feast turns uncertainty into an invitation to a more honest confession of faith.",
+        "summary_vi": "Thánh Tôma muốn tự mình gặp Chúa Giêsu phục sinh trước khi tin lời các môn đệ khác. Ngày lễ của ngài mời gọi chúng ta đem những nghi vấn chân thành đến với Chúa.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Friday of Ordinary Time (Feria in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Friday này trong Mùa Thường Niên (Ngày Thường), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feast observance; Gospel John 20:24-29. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Gioan 20:24-29. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "The Gospel for Saint Thomas recounts a disciple who was absent when Jesus first appeared to the others. Thomas struggled to believe their witness, yet the risen Christ came to meet him and offered a path toward faith.\n\nThomas then recognized Jesus as his Lord and God. The feast does not demand that questions be hidden; it asks what we do with them. A truthful search can lead beyond suspicion toward trust and a willingness to bear witness.",
+        "body_vi": "Tin Mừng lễ Thánh Tôma kể về một môn đệ vắng mặt khi Chúa Giêsu hiện đến với các môn đệ khác. Ông khó đón nhận lời chứng của họ, nhưng Đức Kitô phục sinh lại đến gặp ông và mở lối cho lòng tin.\n\nKhi nhận ra Chúa, Tôma tuyên xưng đức tin của mình. Ngày lễ không yêu cầu chúng ta che giấu những câu hỏi, nhưng mời gọi đặt chúng trước mặt Chúa và can đảm bước từ nghi nan đến tín thác."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Feria in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Feast of Saint Thomas, Apostle",
+          "label": "USCCB Mass readings — Feast of Saint Thomas, Apostle, 2026-07-03",
           "url": "https://bible.usccb.org/bible/readings/070326.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Alban Butler, The Lives of the Fathers, Martyrs, and Other Principal Saints: St. Thomas, Apostle (1866)",
-          "url": "https://www.newadvent.org/cathen/14658b.htm",
-          "type": "encyclopedia"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Faith that can face an honest question",
+        "hero_line_vi": "Đức tin can đảm đối diện với những câu hỏi",
+        "prayer_prompt_en": "Risen Christ, meet me in my questions and make me a faithful witness to your peace.",
+        "prayer_prompt_vi": "Lạy Đức Kitô phục sinh, xin đến với con giữa những nghi nan và giúp con làm chứng cho bình an của Chúa."
       }
     },
     {
@@ -73,9 +67,9 @@
       "mock_priority": "real_data",
       "liturgical": {
         "rank": "Feria",
-        "color": "verdigris",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường"
+        "color": "green",
+        "title_en": "Saturday of the Thirteenth Week in Ordinary Time",
+        "title_vi": "Thứ Bảy Tuần XIII Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-21",
@@ -86,47 +80,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "title_en": "Saturday of the Thirteenth Week in Ordinary Time",
+        "title_vi": "Thứ Bảy Tuần XIII Mùa Thường Niên",
+        "summary_en": "Jesus answers a question about fasting with an image of a wedding celebration. The reading asks when inherited habits serve love and when they need to make room for renewal.",
+        "summary_vi": "Chúa Giêsu trả lời câu hỏi về việc ăn chay bằng hình ảnh tiệc cưới. Bài Tin Mừng mời gọi chúng ta xem lại những thói quen đạo đức để biết đón nhận sự đổi mới.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Saturday of Ordinary Time (Feria in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Saturday này trong Mùa Thường Niên (Ngày Thường), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feria observance; Gospel Matthew 9:14-17. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 9:14-17. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "In Matthew's Gospel, disciples ask Jesus why his followers do not fast in the same way that others do. His answer places religious practice within the relationship between the bridegroom and the guests.\n\nJesus also speaks of new cloth and new wineskins. These images invite reflection on whether habits still express their original purpose. This is not an excuse to abandon discipline; it is a call to let prayer and sacrifice remain open to the living presence of God.",
+        "body_vi": "Trong Tin Mừng theo thánh Mátthêu, các môn đệ hỏi vì sao những người theo Chúa Giêsu không ăn chay như người khác. Câu trả lời của Người đặt việc thực hành đạo trong mối tương quan giữa chàng rể và khách dự tiệc.\n\nChúa cũng nói đến vải mới và bầu da mới. Những hình ảnh ấy mời gọi chúng ta xét xem thói quen của mình còn giúp nuôi dưỡng tình yêu và lòng trung tín hay không. Việc cầu nguyện và hy sinh cần luôn hướng về Thiên Chúa đang hiện diện."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Feria in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Saturday of the 13th Week in Ordinary Time",
+          "label": "USCCB Mass readings — Saturday of the Thirteenth Week in Ordinary Time, 2026-07-04",
           "url": "https://bible.usccb.org/bible/readings/070426.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Alban Butler, The Lives of the Saints: St. Elizabeth of Portugal (1866)",
-          "url": "https://www.newadvent.org/cathen/05391a.htm",
-          "type": "encyclopedia"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Make room for renewal without losing faithfulness",
+        "hero_line_vi": "Mở lòng đón nhận đổi mới trong sự trung tín",
+        "prayer_prompt_en": "Lord, renew the purpose of my prayers and help my habits serve love rather than pride.",
+        "prayer_prompt_vi": "Lạy Chúa, xin đổi mới lòng con để những việc đạo đức luôn dẫn con đến tình yêu và sự khiêm nhường."
       }
     },
     {
@@ -136,9 +124,9 @@
       "mock_priority": "real_data",
       "liturgical": {
         "rank": "Sunday",
-        "color": "verdigris",
-        "title_en": "Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật Thường Niên"
+        "color": "green",
+        "title_en": "Fourteenth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật XIV Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-22",
@@ -149,47 +137,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật Thường Niên",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "title_en": "Fourteenth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật XIV Mùa Thường Niên",
+        "summary_en": "On the Fourteenth Sunday, Jesus offers rest to people weighed down by life's demands. The invitation joins humility with a gentler way of carrying responsibility.",
+        "summary_vi": "Trong Chúa Nhật XIV, Chúa Giêsu mời những người đang gánh nặng tìm đến Người để được nghỉ ngơi. Lời mời ấy gắn sự khiêm nhường với cách sống hiền lành và bền bỉ.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Sunday of Ordinary Time (Sunday in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Sunday này trong Mùa Thường Niên (Chúa Nhật Thường Niên), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Sunday observance; Gospel Matthew 11:25-30. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 11:25-30. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "The Sunday Gospel presents Jesus praising the Father and inviting burdened people to come near. His words move attention away from achievement and toward a relationship founded on trust.\n\nThe image of a yoke does not promise a life without effort. It suggests that discipleship can change how a person bears work, grief and obligation. Consider one burden that can be shared rather than carried alone, and one person whose burden you might help lighten.",
+        "body_vi": "Tin Mừng Chúa Nhật kể rằng Chúa Giêsu ca ngợi Chúa Cha và mời những người đang vất vả đến gần Người. Những lời ấy hướng chúng ta từ việc tự chứng tỏ mình đến mối tương quan tín thác.\n\nHình ảnh cái ách không hứa một cuộc sống không còn khó nhọc. Nhưng việc theo Chúa có thể thay đổi cách chúng ta mang lấy trách nhiệm và nỗi buồn. Hãy nghĩ đến một gánh nặng cần được chia sẻ và một người mà mình có thể nâng đỡ."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Sunday in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – 14th Sunday in Ordinary Time",
+          "label": "USCCB Mass readings — Fourteenth Sunday in Ordinary Time, 2026-07-05",
           "url": "https://bible.usccb.org/bible/readings/070526.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
-          "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
-          "type": "vatican"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Rest is an invitation, not a reward",
+        "hero_line_vi": "Nghỉ ngơi trong Chúa là lời mời dành cho mọi người",
+        "prayer_prompt_en": "Jesus, gentle of heart, help me carry today's burdens with you and ease another person's load.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu hiền lành, xin cùng con mang những gánh nặng hôm nay và dạy con nâng đỡ người khác."
       }
     },
     {
@@ -199,9 +181,9 @@
       "mock_priority": "real_data",
       "liturgical": {
         "rank": "Feria",
-        "color": "verdigris",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường"
+        "color": "green",
+        "title_en": "Monday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Hai Tuần XIV Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-23",
@@ -212,47 +194,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "title_en": "Monday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Hai Tuần XIV Mùa Thường Niên",
+        "summary_en": "Two people in Matthew's Gospel approach Jesus amid grief and illness. Their stories make today's reflection about courage, attention, and the dignity of those who suffer.",
+        "summary_vi": "Hai con người trong Tin Mừng Mátthêu tìm đến Chúa Giêsu giữa cảnh đau buồn và bệnh tật. Những câu chuyện ấy mời gọi chúng ta sống can đảm và quan tâm đến phẩm giá của người đau khổ.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Monday of Ordinary Time (Feria in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Monday này trong Mùa Thường Niên (Ngày Thường), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feria observance; Gospel Matthew 9:18-26. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 9:18-26. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "A father pleads for his daughter, while a woman who has endured years of illness quietly reaches toward Jesus. Matthew sets their encounters alongside each other, showing different ways that need and hope can bring people forward.\n\nJesus stops to address suffering rather than passing by. Faith here is not presented as control over an outcome. It is an invitation to approach with honesty and to respond to another person's distress with care rather than impatience.",
+        "body_vi": "Một người cha cầu xin cho con gái mình, trong khi một phụ nữ mang bệnh lâu năm âm thầm tìm đến Chúa Giêsu. Thánh Mátthêu đặt hai cuộc gặp gỡ bên nhau để cho thấy đau khổ và hy vọng có thể đưa con người tiến về phía Chúa.\n\nChúa Giêsu không bỏ qua nỗi đau của họ. Đức tin không phải là khả năng điều khiển mọi kết quả, nhưng là can đảm đến gần Chúa và biết quan tâm đến người đang cần sự giúp đỡ."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Feria in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Monday of the 14th Week in Ordinary Time",
+          "label": "USCCB Mass readings — Monday of the Fourteenth Week in Ordinary Time, 2026-07-06",
           "url": "https://bible.usccb.org/bible/readings/070626.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Vatican – Homily of Pope Pius XII at the Canonization of Saint Maria Goretti (1950)",
-          "url": "https://www.vatican.va/content/pius-xii/en/homilies/documents/hf_p-xii_hom_19500624_maria-goretti.html",
-          "type": "vatican"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Do not overlook the person who is hurting",
+        "hero_line_vi": "Đừng đi qua người đang đau khổ",
+        "prayer_prompt_en": "Lord, give me courage to ask for help and the attention to notice someone else's pain.",
+        "prayer_prompt_vi": "Lạy Chúa, xin ban cho con can đảm xin được giúp đỡ và đôi mắt biết nhìn thấy nỗi đau của người khác."
       }
     },
     {
@@ -262,9 +238,9 @@
       "mock_priority": "real_data",
       "liturgical": {
         "rank": "Feria",
-        "color": "verdigris",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường"
+        "color": "green",
+        "title_en": "Tuesday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Ba Tuần XIV Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-24",
@@ -275,47 +251,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "title_en": "Tuesday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Ba Tuần XIV Mùa Thường Niên",
+        "summary_en": "Jesus sees crowds who need guidance and care, not merely another audience. The Gospel moves from compassion to a call for people willing to serve.",
+        "summary_vi": "Chúa Giêsu nhìn thấy đám đông đang cần được hướng dẫn và chăm sóc. Tin Mừng dẫn chúng ta từ lòng thương xót đến lời mời dấn thân phục vụ.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Tuesday of Ordinary Time (Feria in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Tuesday này trong Mùa Thường Niên (Ngày Thường), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feria observance; Gospel Matthew 9:32-38. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 9:32-38. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "Matthew describes Jesus teaching and healing while seeing the crowds as vulnerable and without adequate guidance. His response is compassion before any plan of action.\n\nThe Gospel then speaks of a great harvest and a need for workers. The image asks who is prepared to show up. Compassion is more than noticing a problem; it can become a concrete act of listening, accompaniment or service where people have been overlooked.",
+        "body_vi": "Thánh Mátthêu kể rằng Chúa Giêsu giảng dạy, chữa lành và nhìn đám đông bằng lòng thương xót, vì họ đang thiếu người hướng dẫn. Người bắt đầu bằng sự cảm thông trước khi nói đến việc phải làm.\n\nHình ảnh mùa gặt và những người thợ mời gọi chúng ta đáp lại nhu cầu chung quanh. Lòng thương xót không dừng lại ở việc nhận ra vấn đề, nhưng được thể hiện qua lắng nghe, đồng hành và phục vụ."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Feria in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Tuesday of the 14th Week in Ordinary Time",
+          "label": "USCCB Mass readings — Tuesday of the Fourteenth Week in Ordinary Time, 2026-07-07",
           "url": "https://bible.usccb.org/bible/readings/070726.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
-          "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
-          "type": "vatican"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Compassion becomes real when someone shows up",
+        "hero_line_vi": "Lòng thương xót trở nên cụ thể qua việc phục vụ",
+        "prayer_prompt_en": "Jesus, let me see people with compassion and respond to one need I can truly meet.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho con biết nhìn mọi người bằng lòng thương xót và đáp lại một nhu cầu cụ thể hôm nay."
       }
     },
     {
@@ -325,9 +295,9 @@
       "mock_priority": "real_data",
       "liturgical": {
         "rank": "Feria",
-        "color": "verdigris",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường"
+        "color": "green",
+        "title_en": "Wednesday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Tư Tuần XIV Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-25",
@@ -338,47 +308,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "title_en": "Wednesday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Tư Tuần XIV Mùa Thường Niên",
+        "summary_en": "Jesus calls the Twelve by name and sends them to announce the nearness of God's kingdom. Their mission begins with being called together, not with individual prestige.",
+        "summary_vi": "Chúa Giêsu gọi đích danh Nhóm Mười Hai và sai họ loan báo Nước Thiên Chúa đã gần đến. Sứ mạng của họ bắt đầu từ lời mời cùng bước đi chứ không phải danh tiếng cá nhân.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Wednesday of Ordinary Time (Feria in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Wednesday này trong Mùa Thường Niên (Ngày Thường), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feria observance; Gospel Matthew 10:1-7. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 10:1-7. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "The Gospel names the Twelve apostles as Jesus sends them to share in his work. The list contains different people with different stories, gathered around a mission none of them invented alone.\n\nFor today's reader, the names are a reminder that faith is lived by particular people in ordinary places. Consider the gifts you can offer to a community without needing to become its center. A shared mission calls for responsibility and cooperation.",
+        "body_vi": "Tin Mừng kể tên mười hai tông đồ được Chúa Giêsu sai đi cộng tác trong sứ mạng của Người. Đó là những con người khác nhau, được quy tụ để thực hiện một công việc không ai tự mình tạo ra.\n\nNhững tên gọi ấy nhắc chúng ta rằng đức tin được sống bằng những con người cụ thể giữa đời thường. Hãy nghĩ đến khả năng mình có thể trao tặng cộng đoàn mà không cần đặt bản thân ở vị trí trung tâm."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Feria in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Wednesday of the 14th Week in Ordinary Time",
+          "label": "USCCB Mass readings — Wednesday of the Fourteenth Week in Ordinary Time, 2026-07-08",
           "url": "https://bible.usccb.org/bible/readings/070826.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
-          "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
-          "type": "vatican"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Called by name, sent to serve together",
+        "hero_line_vi": "Được gọi đích danh và cùng nhau phục vụ",
+        "prayer_prompt_en": "Lord, help me use my gifts faithfully and work well with people whose paths differ from mine.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con trung thành dùng những ơn đã nhận và biết cộng tác với những người khác mình."
       }
     },
     {
@@ -387,10 +351,10 @@
       "weekday": "Thursday",
       "mock_priority": "real_data",
       "liturgical": {
-        "rank": "Feast",
-        "color": "white",
-        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
-        "title_vi": "Đại Hội Thánh Mẫu"
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Thursday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Năm Tuần XIV Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-26",
@@ -401,47 +365,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
-        "title_vi": "Đại Hội Thánh Mẫu",
-        "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "summary_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
+        "title_en": "Thursday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Năm Tuần XIV Mùa Thường Niên",
+        "summary_en": "Jesus sends the apostles with a message of hope and asks them to give freely. The reading challenges disciples to bring peace without treating care as a transaction.",
+        "summary_vi": "Chúa Giêsu sai các tông đồ đi loan báo niềm hy vọng và trao ban nhưng không. Bài Tin Mừng mời gọi môn đệ đem bình an đến cho người khác mà không tính toán hơn thiệt.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Thursday of Ordinary Time (Marian Days (Đại Hội Thánh Mẫu)), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Thursday này trong Mùa Thường Niên (Đại Hội Thánh Mẫu), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feria observance; Gospel Matthew 10:7-15. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 10:7-15. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "In Matthew's account, Jesus gives the apostles a mission that includes healing, welcome and an announcement of God's kingdom. They are told to share what has been given to them without treating it as something to sell.\n\nThe U.S. calendar also allows the optional memorial of Saint Augustine Zhao Rong and his companions, martyrs. The ordinary weekday remains the default liturgical label here. In either observance, the invitation to generous, uncalculating care is a practical challenge.",
+        "body_vi": "Theo Tin Mừng Mátthêu, Chúa Giêsu sai các tông đồ đi chữa lành, đem bình an và loan báo Nước Thiên Chúa. Các ông được mời trao ban điều đã nhận mà không tính toán lợi ích cho mình.\n\nLịch phụng vụ Hoa Kỳ cũng cho phép cử hành lễ nhớ tùy chọn các thánh tử đạo Augustinô Triệu Vinh và các bạn. Ở đây, ngày thường vẫn là tên mặc định. Dù theo cách cử hành nào, lời mời sống quảng đại vẫn rất gần với đời sống hôm nay."
       },
-      "place": {
-        "name": "Christ Cathedral, Garden Grove",
-        "latitude": 33.7878,
-        "longitude": -117.8986,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Marian Days (Đại Hội Thánh Mẫu)",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "Congregation of the Mother of the Redeemer – Đại Hội Thánh Mẫu Official Archive",
-          "url": "https://dongcong.org/dai-hoi-thanh-mau",
-          "type": "academic"
+          "label": "USCCB Mass readings — Thursday of the Fourteenth Week in Ordinary Time, 2026-07-09",
+          "url": "https://bible.usccb.org/bible/readings/070926.cfm",
+          "type": "liturgical_calendar"
         },
         {
-          "label": "USCCB Secretariat of Cultural Diversity in the Church – Asian and Pacific Island Catholics",
-          "url": "https://www.usccb.org/committees/cultural-diversity-church",
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
           "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "hero_line_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Give freely what you have received",
+        "hero_line_vi": "Hãy trao ban quảng đại điều mình đã nhận",
+        "prayer_prompt_en": "Lord, loosen my grip on what I have received and make my help generous and sincere.",
+        "prayer_prompt_vi": "Lạy Chúa, xin cho con biết chia sẻ quảng đại những ơn lành đã nhận và giúp người khác với lòng chân thành."
       }
     },
     {
@@ -450,10 +408,10 @@
       "weekday": "Friday",
       "mock_priority": "real_data",
       "liturgical": {
-        "rank": "Feast",
-        "color": "white",
-        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
-        "title_vi": "Đại Hội Thánh Mẫu"
+        "rank": "Feria",
+        "color": "green",
+        "title_en": "Friday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Sáu Tuần XIV Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-27",
@@ -464,47 +422,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
-        "title_vi": "Đại Hội Thánh Mẫu",
-        "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "summary_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
+        "title_en": "Friday of the Fourteenth Week in Ordinary Time",
+        "title_vi": "Thứ Sáu Tuần XIV Mùa Thường Niên",
+        "summary_en": "Jesus warns that bearing witness can meet resistance, and he tells the apostles to remain thoughtful and steadfast. Courage in today's Gospel is paired with discernment rather than recklessness.",
+        "summary_vi": "Chúa Giêsu báo trước rằng việc làm chứng có thể gặp chống đối và dạy các tông đồ sống khôn ngoan, bền lòng. Lòng can đảm trong Tin Mừng hôm nay luôn đi cùng sự phân định.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Friday of Ordinary Time (Marian Days (Đại Hội Thánh Mẫu)), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Friday này trong Mùa Thường Niên (Đại Hội Thánh Mẫu), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feria observance; Gospel Matthew 10:16-23. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 10:16-23. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "Jesus prepares his followers for conflict and misunderstanding. The point is not to seek danger or treat every disagreement as persecution, but to stay truthful without becoming cruel or careless.\n\nIn the same passage, the apostles are told not to give in to fear about speaking when they are put to the test. Faithfulness can be quiet: refusing a falsehood, supporting someone isolated, or choosing words that preserve another person's dignity.",
+        "body_vi": "Chúa Giêsu chuẩn bị cho các môn đệ đối diện với xung đột và sự hiểu lầm. Điều đó không có nghĩa là tìm kiếm hiểm nguy hay coi mọi bất đồng là bách hại, nhưng là sống chân thật mà không trở nên tàn nhẫn hoặc hấp tấp.\n\nTin Mừng cũng khích lệ các môn đệ đừng để nỗi sợ làm họ im tiếng trước thử thách. Lòng trung tín có thể được thể hiện rất âm thầm: không nói điều sai, bênh vực người cô thế và gìn giữ phẩm giá của nhau."
       },
-      "place": {
-        "name": "Christ Cathedral, Garden Grove",
-        "latitude": 33.7878,
-        "longitude": -117.8986,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Marian Days (Đại Hội Thánh Mẫu)",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "Congregation of the Mother of the Redeemer – Đại Hội Thánh Mẫu Historical Records",
-          "url": "https://dongcong.org/dai-hoi-thanh-mau",
-          "type": "academic"
+          "label": "USCCB Mass readings — Friday of the Fourteenth Week in Ordinary Time, 2026-07-10",
+          "url": "https://bible.usccb.org/bible/readings/071026.cfm",
+          "type": "liturgical_calendar"
         },
         {
-          "label": "National Catholic Register – The Pilgrimage of Faith: Marian Days in Carthage",
-          "url": "https://www.ncregister.com/news/marian-days-vietnamese-catholic-pilgrimage",
-          "type": "news"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "hero_line_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Courage with discernment, not bravado",
+        "hero_line_vi": "Can đảm và phân định, không liều lĩnh",
+        "prayer_prompt_en": "Lord, help me speak truth with care and stay faithful when doing right is difficult.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con nói sự thật với lòng nhân ái và trung thành làm điều đúng khi gặp khó khăn."
       }
     },
     {
@@ -513,10 +465,10 @@
       "weekday": "Saturday",
       "mock_priority": "real_data",
       "liturgical": {
-        "rank": "Feast",
+        "rank": "Memorial",
         "color": "white",
-        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
-        "title_vi": "Đại Hội Thánh Mẫu"
+        "title_en": "Memorial of Saint Benedict, Abbot",
+        "title_vi": "Lễ nhớ Thánh Biển Đức, viện phụ"
       },
       "calendars": {
         "julian": "2026-06-28",
@@ -526,48 +478,47 @@
         "ethiopian": "4 Hamle 2018"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Marian Days (Đại Hội Thánh Mẫu)",
-        "title_vi": "Đại Hội Thánh Mẫu",
-        "summary_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "summary_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
+        "type": "memorial",
+        "title_en": "Memorial of Saint Benedict, Abbot",
+        "title_vi": "Lễ nhớ Thánh Biển Đức, viện phụ",
+        "summary_en": "The Church remembers Saint Benedict, whose monastic tradition places prayer and daily work within a shared rule of life. The day's Gospel invites disciples to resist fear and remain faithful.",
+        "summary_vi": "Hội Thánh kính nhớ Thánh Biển Đức, người có truyền thống đan tu kết hợp cầu nguyện, lao động và đời sống cộng đoàn. Tin Mừng trong ngày mời gọi môn đệ đừng để nỗi sợ lấn át lòng trung tín.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Saturday of Ordinary Time (Marian Days (Đại Hội Thánh Mẫu)), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Saturday này trong Mùa Thường Niên (Đại Hội Thánh Mẫu), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Memorial observance; Gospel Matthew 10:24-33. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 10:24-33. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "Saint Benedict's memorial draws attention to the practice of building a faithful life through repeated, ordinary commitments. A shared rhythm of prayer, work and hospitality offers one model of spiritual perseverance.\n\nIn Matthew's Gospel, Jesus prepares the disciples to face the pressure of public witness. The two themes belong together: courage is rarely improvised in a single dramatic moment. It grows through habits of honesty, prayer and care for neighbors.",
+        "body_vi": "Lễ nhớ Thánh Biển Đức hướng lòng chúng ta đến đời sống đức tin được nuôi dưỡng bằng những việc làm đều đặn. Nhịp sống cầu nguyện, lao động và hiếu khách trong truyền thống đan tu là một cách thực hành sự bền đỗ.\n\nTrong Tin Mừng Mátthêu, Chúa Giêsu chuẩn bị cho các môn đệ đối diện với thử thách khi làm chứng. Lòng can đảm không chỉ xuất hiện trong khoảnh khắc lớn lao, nhưng được vun đắp mỗi ngày bằng sự chân thật, cầu nguyện và chăm sóc tha nhân."
       },
-      "place": {
-        "name": "Christ Cathedral, Garden Grove",
-        "latitude": 33.7878,
-        "longitude": -117.8986,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Marian Days (Đại Hội Thánh Mẫu)",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Memorial of Saint Benedict, Abbot",
+          "label": "USCCB Mass readings — Memorial of Saint Benedict, Abbot, 2026-07-11",
           "url": "https://bible.usccb.org/bible/readings/071126.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Catholic Encyclopedia: Saint Benedict of Nursia",
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
+        },
+        {
+          "label": "Catholic Encyclopedia — St. Benedict of Nursia and the Benedictine Rule",
           "url": "https://www.newadvent.org/cathen/02467b.htm",
           "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Annual Marian Days festival gathering thousands for Eucharistic procession.",
-        "hero_line_vi": "Đại Hội Thánh Mẫu hàng năm quy tụ hàng ngàn người rước kiệu Thánh Thể.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Faithfulness is practiced before it is tested",
+        "hero_line_vi": "Lòng trung tín được rèn luyện mỗi ngày",
+        "prayer_prompt_en": "Lord, bless my ordinary work and teach me steady courage, hospitality and prayer.",
+        "prayer_prompt_vi": "Lạy Chúa, xin chúc lành cho công việc thường ngày và dạy con sống can đảm, hiếu khách và cầu nguyện bền bỉ."
       }
     },
     {
@@ -577,9 +528,9 @@
       "mock_priority": "real_data",
       "liturgical": {
         "rank": "Sunday",
-        "color": "verdigris",
-        "title_en": "Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật Thường Niên"
+        "color": "green",
+        "title_en": "Fifteenth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật XV Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-29",
@@ -590,47 +541,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật Thường Niên",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "title_en": "Fifteenth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật XV Mùa Thường Niên",
+        "summary_en": "The parable of the sower asks what happens when a good word lands in very different conditions. This Sunday invites patient attention to the soil of our own habits and relationships.",
+        "summary_vi": "Dụ ngôn người gieo giống cho thấy cùng một hạt giống có thể gặp những mảnh đất rất khác nhau. Chúa Nhật này mời gọi chúng ta kiên nhẫn chăm sóc tâm hồn và các mối tương quan.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Sunday of Ordinary Time (Sunday in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Sunday này trong Mùa Thường Niên (Chúa Nhật Thường Niên), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Sunday observance; Gospel Matthew 13:1-23. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 13:1-23. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "Jesus tells the crowd about seeds landing on a path, rocky ground, among thorns and in good soil. The focus is not only on the seed but on the conditions that help life take root.\n\nIsaiah's image of God's word nourishing the earth offers another way to hear the parable. Instead of demanding instant results, ask what small practice makes room for growth: time to listen, a repaired relationship, or patient attention to someone learning slowly.",
+        "body_vi": "Chúa Giêsu kể dụ ngôn hạt giống rơi trên lối đi, nơi sỏi đá, giữa bụi gai và trên đất tốt. Câu chuyện không chỉ nói về hạt giống, nhưng còn về những điều kiện giúp sự sống bén rễ.\n\nNgôn sứ Isaia cũng dùng hình ảnh lời Chúa tưới mát mặt đất. Thay vì đòi kết quả ngay, chúng ta có thể tự hỏi mình cần chăm sóc điều nhỏ bé nào: lắng nghe lâu hơn, hàn gắn một mối quan hệ hay kiên nhẫn với người đang học hỏi."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Sunday in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – 15th Sunday in Ordinary Time",
+          "label": "USCCB Mass readings — Fifteenth Sunday in Ordinary Time, 2026-07-12",
           "url": "https://bible.usccb.org/bible/readings/071226.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Norms for the Liturgical Year and the Calendar (Vatican)",
-          "url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
-          "type": "vatican"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "What kind of ground will your actions prepare?",
+        "hero_line_vi": "Hôm nay con đang chuẩn bị mảnh đất nào?",
+        "prayer_prompt_en": "God of patience, clear what chokes compassion in me and help your word take root.",
+        "prayer_prompt_vi": "Lạy Thiên Chúa kiên nhẫn, xin dọn đi những điều cản trở lòng thương xót và cho lời Chúa bén rễ trong con."
       }
     },
     {
@@ -640,9 +585,9 @@
       "mock_priority": "real_data",
       "liturgical": {
         "rank": "Feria",
-        "color": "verdigris",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường"
+        "color": "green",
+        "title_en": "Monday of the Fifteenth Week in Ordinary Time",
+        "title_vi": "Thứ Hai Tuần XV Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-06-30",
@@ -653,47 +598,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "title_en": "Monday of the Fifteenth Week in Ordinary Time",
+        "title_vi": "Thứ Hai Tuần XV Mùa Thường Niên",
+        "summary_en": "Jesus speaks plainly about the cost of discipleship, even when loyalties become difficult. The day's readings pair conviction with a demand for justice rather than empty religious performance.",
+        "summary_vi": "Chúa Giêsu nói thẳng về cái giá của việc theo Người, nhất là khi những mối liên hệ trở nên khó khăn. Các bài đọc trong ngày đặt lòng xác tín bên cạnh đòi hỏi sống công chính.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Monday of Ordinary Time (Feria in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Monday này trong Mùa Thường Niên (Ngày Thường), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feria observance; Gospel Matthew 10:34-11:1. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 10:34-11:1. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "The Gospel does not present discipleship as a promise that every relationship will remain comfortable. Jesus asks his followers to weigh their loyalties honestly and to welcome those who carry out his mission.\n\nIsaiah's first reading challenges worship disconnected from justice for people who are vulnerable. Together, these texts discourage easy religious slogans. A faithful choice should be tested by whether it increases honesty, responsibility and care for the people affected.",
+        "body_vi": "Tin Mừng không hứa rằng việc theo Chúa sẽ khiến mọi mối quan hệ luôn thuận hòa. Chúa Giêsu mời các môn đệ thành thật xét lại những ưu tiên của mình và biết đón tiếp người thi hành sứ mạng của Người.\n\nBài đọc Isaia cảnh báo việc phụng tự tách rời công lý đối với người yếu thế. Những lời ấy chống lại khẩu hiệu đạo đức dễ dãi. Một lựa chọn trung tín cần dẫn đến trách nhiệm, sự chân thật và quan tâm đến người chịu ảnh hưởng."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Feria in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Monday of the 15th Week in Ordinary Time",
+          "label": "USCCB Mass readings — Monday of the Fifteenth Week in Ordinary Time, 2026-07-13",
           "url": "https://bible.usccb.org/bible/readings/071326.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Catholic Encyclopedia: Saint Henry II",
-          "url": "https://www.newadvent.org/cathen/07229a.htm",
-          "type": "encyclopedia"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Conviction should lead to responsibility",
+        "hero_line_vi": "Lòng xác tín phải dẫn đến trách nhiệm",
+        "prayer_prompt_en": "Lord, help me follow you without neglecting justice, honesty or the needs of others.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con bước theo Chúa mà vẫn sống công chính, chân thật và quan tâm đến tha nhân."
       }
     },
     {
@@ -702,10 +641,10 @@
       "weekday": "Tuesday",
       "mock_priority": "real_data",
       "liturgical": {
-        "rank": "Feria",
-        "color": "verdigris",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường"
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Memorial of Saint Kateri Tekakwitha, Virgin",
+        "title_vi": "Lễ nhớ Thánh Kateri Tekakwitha, trinh nữ"
       },
       "calendars": {
         "julian": "2026-07-01",
@@ -715,48 +654,42 @@
         "ethiopian": "7 Hamle 2018"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "type": "memorial",
+        "title_en": "Memorial of Saint Kateri Tekakwitha, Virgin",
+        "title_vi": "Lễ nhớ Thánh Kateri Tekakwitha, trinh nữ",
+        "summary_en": "The U.S. Church remembers Saint Kateri Tekakwitha on July 14. The day's Gospel calls hearers to respond to what they have seen and to examine what genuine change looks like.",
+        "summary_vi": "Hội Thánh tại Hoa Kỳ kính nhớ Thánh Kateri Tekakwitha vào ngày 14 tháng 7. Tin Mừng trong ngày mời người nghe đáp lại những điều đã thấy bằng sự hoán cải thật sự.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Tuesday of Ordinary Time (Feria in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Tuesday này trong Mùa Thường Niên (Ngày Thường), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Memorial observance; Gospel Matthew 11:20-24. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 11:20-24. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "Saint Kateri's memorial has particular significance in the U.S. calendar. Remembering a saint should not reduce a life to a symbol or erase the complexity of the person's culture and history.\n\nIn Matthew's Gospel, Jesus challenges communities that have witnessed his works yet remain unchanged. The passage invites a question for today: what evidence of care or truth have we already encountered, and what response is still missing? A genuine response becomes visible in how we treat others.",
+        "body_vi": "Lễ nhớ Thánh Kateri có vị trí đặc biệt trong lịch phụng vụ tại Hoa Kỳ. Việc kính nhớ một vị thánh không nên biến cuộc đời của người ấy thành một biểu tượng đơn giản hoặc bỏ qua chiều sâu văn hóa và lịch sử.\n\nTrong Tin Mừng Mátthêu, Chúa Giêsu nhắc nhở những cộng đoàn đã thấy việc Người làm nhưng chưa thay đổi. Lời ấy mời chúng ta hỏi: điều tốt lành nào mình đã chứng kiến, và mình còn thiếu hành động đáp lại nào? Sự hoán cải được thể hiện qua cách đối xử với người khác."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Feria in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Memorial of Saint Kateri Tekakwitha, Virgin",
+          "label": "USCCB Mass readings — Memorial of Saint Kateri Tekakwitha, Virgin, 2026-07-14",
           "url": "https://bible.usccb.org/bible/readings/071426.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Catholic Encyclopedia: Saint Camillus de Lellis",
-          "url": "https://www.newadvent.org/cathen/03217b.htm",
-          "type": "encyclopedia"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Let what you have witnessed change your actions",
+        "hero_line_vi": "Hãy để điều đã thấy đổi mới cách sống",
+        "prayer_prompt_en": "Lord, help me honor each person's story and respond to your gifts with real change.",
+        "prayer_prompt_vi": "Lạy Chúa, xin giúp con tôn trọng câu chuyện của mỗi người và đáp lại hồng ân Chúa bằng sự đổi mới thật sự."
       }
     },
     {
@@ -765,10 +698,10 @@
       "weekday": "Wednesday",
       "mock_priority": "real_data",
       "liturgical": {
-        "rank": "Feria",
-        "color": "verdigris",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường"
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Memorial of Saint Bonaventure, Bishop and Doctor of the Church",
+        "title_vi": "Lễ nhớ Thánh Bônaventura, giám mục và tiến sĩ Hội Thánh"
       },
       "calendars": {
         "julian": "2026-07-02",
@@ -778,48 +711,42 @@
         "ethiopian": "8 Hamle 2018"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "type": "memorial",
+        "title_en": "Memorial of Saint Bonaventure, Bishop and Doctor of the Church",
+        "title_vi": "Lễ nhớ Thánh Bônaventura, giám mục và tiến sĩ Hội Thánh",
+        "summary_en": "Saint Bonaventure's memorial honors a teacher who brought learning into conversation with Christian faith. The Gospel praises the openness of those who listen with childlike trust.",
+        "summary_vi": "Lễ nhớ Thánh Bônaventura tôn vinh một vị thầy kết nối việc học hỏi với đời sống đức tin Kitô giáo. Tin Mừng ca ngợi tâm hồn rộng mở của người biết lắng nghe với lòng đơn sơ.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Wednesday of Ordinary Time (Feria in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Wednesday này trong Mùa Thường Niên (Ngày Thường), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Memorial observance; Gospel Matthew 11:25-27. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 11:25-27. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "On Saint Bonaventure's memorial, the Church remembers a bishop and teacher. Study can serve faith when it leads toward humility and clearer love rather than mere status.\n\nThe day's Gospel describes a wisdom not guaranteed by social standing or learning alone. The invitation is not to reject knowledge; it is to let knowledge remain teachable. Choose one question worth exploring carefully, while leaving room to be surprised by what another person can teach.",
+        "body_vi": "Trong lễ nhớ Thánh Bônaventura, Hội Thánh tưởng nhớ một vị giám mục và nhà giáo dục. Việc học hỏi có thể phục vụ đức tin khi dẫn chúng ta đến lòng khiêm nhường và tình yêu sâu sắc hơn, thay vì chỉ tìm danh tiếng.\n\nTin Mừng nói đến sự khôn ngoan không tự động đến từ địa vị hay học vấn. Lời mời không phải là từ bỏ tri thức, nhưng là giữ một tâm hồn biết học hỏi. Hãy tìm hiểu một câu hỏi cách cẩn trọng và sẵn sàng đón nhận điều người khác có thể dạy mình."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Feria in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Memorial of Saint Bonaventure, Bishop and Doctor",
+          "label": "USCCB Mass readings — Memorial of Saint Bonaventure, Bishop and Doctor of the Church, 2026-07-15",
           "url": "https://bible.usccb.org/bible/readings/071526.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Catholic Encyclopedia: Saint Bonaventure",
-          "url": "https://www.newadvent.org/cathen/02648c.htm",
-          "type": "encyclopedia"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Learn deeply; stay open to being taught",
+        "hero_line_vi": "Học hỏi sâu xa và giữ lòng khiêm nhường",
+        "prayer_prompt_en": "Lord, make my learning humble and turn what I know into service and understanding.",
+        "prayer_prompt_vi": "Lạy Chúa, xin cho việc học hỏi của con đi cùng lòng khiêm nhường và trở nên ích lợi cho người khác."
       }
     },
     {
@@ -829,9 +756,9 @@
       "mock_priority": "real_data",
       "liturgical": {
         "rank": "Feria",
-        "color": "verdigris",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường"
+        "color": "green",
+        "title_en": "Thursday of the Fifteenth Week in Ordinary Time",
+        "title_vi": "Thứ Năm Tuần XV Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-07-03",
@@ -842,47 +769,41 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Feria in Ordinary Time",
-        "title_vi": "Ngày Thường",
-        "summary_en": "A day of ordinary time to grow in daily faith.",
-        "summary_vi": "Một ngày thường niên để thăng tiến đức tin.",
+        "title_en": "Thursday of the Fifteenth Week in Ordinary Time",
+        "title_vi": "Thứ Năm Tuần XV Mùa Thường Niên",
+        "summary_en": "Jesus speaks directly to the weary and offers an invitation to rest and learn from him. Ordinary Time makes space for this promise in the middle of a working week.",
+        "summary_vi": "Chúa Giêsu nói với những người mệt mỏi và mời họ đến nghỉ ngơi, học nơi Người. Mùa Thường Niên dành chỗ cho lời hứa ấy ngay giữa những ngày lao động.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical calendar verified.",
-        "confidence_note_vi": "Lịch phụng vụ đã được xác minh.",
-        "body_en": "On this Thursday of Ordinary Time (Feria in Ordinary Time), the Church invites the faithful to enter deeply into the sacred rhythm of prayer and daily sanctification. Through the liturgical readings and the continuous contemplation of the Gospel, believers encounter Christ in both ordinary labors and quiet moments of contemplation.\n\nThe liturgy reminds us that every circumstance of life presents an occasion for spiritual growth and authentic discipleship. By offering our daily duties to God with pure intentions, we participate in the ongoing sanctification of the world.\n\nLet us remain rooted in the hope of the Resurrection and seek the guidance of the Holy Spirit throughout this day.",
-        "body_vi": "Vào ngày Thursday này trong Mùa Thường Niên (Ngày Thường), Giáo hội mời gọi các tín hữu bước sâu vào nhịp sống thánh thiện của việc cầu nguyện và thánh hóa bản thân mỗi ngày. Qua các bài đọc phụng vụ và việc liên lỉ chiêm niệm Tin Mừng, người tín hữu được gặp gỡ Đức Kitô nơi những công việc thường nhật cũng như trong những giây phút thinh lặng nguyện cầu.\n\nPhụng vụ nhắc nhở chúng ta rằng mọi hoàn cảnh của cuộc sống đều là cơ hội để tăng trưởng tâm linh và trở nên môn đệ đích thực của Chúa. Khi dâng những bổn phận thường ngày lên Thiên Chúa với ý hướng ngay lành, chúng ta tham gia vào công trình thánh hóa trần gian.\n\nChúng ta hãy luôn vững lòng cậy trông vào mầu nhiệm Phục Sinh và tìm kiếm sự dẫn dắt của Chúa Thánh Thần trong suốt ngày hôm nay."
+        "confidence_note_en": "The USCCB 2026 U.S. liturgical calendar identifies this day's Feria observance; Gospel Matthew 11:28-30. This label reflects the national default, not every optional local observance.",
+        "confidence_note_vi": "Lịch phụng vụ Hoa Kỳ năm 2026 xác nhận bậc lễ trong ngày. Bài Tin Mừng được ghi trong Sách Bài Đọc, theo Mátthêu 11:28-30. Các lễ nhớ tùy chọn có thể khác theo địa phương.",
+        "body_en": "The Thursday Gospel offers a short but demanding invitation: bring life's burdens to Jesus and learn his way of gentleness. Rest is not portrayed as withdrawal from responsibility but as a different relationship to it.\n\nThe U.S. calendar also permits the optional memorial of Our Lady of Mount Carmel on this date. The weekday readings remain a legitimate default. For today, consider the difference between needed effort and burdens added by fear, pride or the expectation of never asking for help.",
+        "body_vi": "Tin Mừng thứ Năm đưa ra một lời mời ngắn gọn nhưng sâu sắc: mang những gánh nặng đến với Chúa Giêsu và học nơi Người sự hiền lành. Nghỉ ngơi không phải là trốn trách nhiệm, nhưng là học cách mang trách nhiệm trong niềm tín thác.\n\nLịch phụng vụ Hoa Kỳ cũng cho phép cử hành lễ nhớ tùy chọn Đức Mẹ Núi Cát Minh trong ngày này. Bài đọc ngày thường vẫn là lựa chọn thích hợp. Hôm nay, hãy phân biệt nỗ lực cần thiết với những gánh nặng do sợ hãi hoặc kiêu căng tự đặt lên mình."
       },
-      "place": {
-        "name": "Universal Church",
-        "latitude": 41.9029,
-        "longitude": 12.4534,
-        "confidence": "confirmed",
-        "source_url": "https://example.com"
-      },
+      "place": null,
       "artwork": {
-        "title": "Depiction for Feria in Ordinary Time",
-        "maker": "Various Artists",
-        "date_label": "Historic",
-        "source_url": "https://example.com/placeholder.jpg",
-        "status": "cleared"
+        "title": "Artwork not selected (editorial placeholder)",
+        "maker": "Unassigned",
+        "date_label": "Pending license",
+        "source_url": "",
+        "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Daily Readings – Optional Memorial of Our Lady of Mount Carmel",
+          "label": "USCCB Mass readings — Thursday of the Fifteenth Week in Ordinary Time, 2026-07-16",
           "url": "https://bible.usccb.org/bible/readings/071626.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "Catholic Encyclopedia: Feast of Our Lady of Mount Carmel",
-          "url": "https://www.newadvent.org/cathen/10604b.htm",
-          "type": "encyclopedia"
+          "label": "USCCB Liturgical Calendar for the Dioceses of the United States of America — 2026, July pages 31–32",
+          "url": "https://www.usccb.org/resources/2026cal.pdf",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "A day of ordinary time to grow in daily faith.",
-        "hero_line_vi": "Một ngày thường niên để thăng tiến đức tin.",
-        "prayer_prompt_en": "Reflect on this day's grace.",
-        "prayer_prompt_vi": "Suy niệm về ân sủng ngày hôm nay."
+        "hero_line_en": "Come with your real burdens, not a perfect record",
+        "hero_line_vi": "Hãy mang đến với Chúa những gánh nặng thật",
+        "prayer_prompt_en": "Jesus, teach me the rest that makes me patient, humble and willing to receive help.",
+        "prayer_prompt_vi": "Lạy Chúa Giêsu, xin dạy con biết nghỉ ngơi trong Chúa để sống kiên nhẫn, khiêm nhường và biết nhận sự giúp đỡ."
       }
     },
     {

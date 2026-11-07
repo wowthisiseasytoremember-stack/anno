@@ -170,6 +170,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Audit the complete committed July 3–16 fortnight against official calendar
+        run: python3 tools/fortnight_editorial.py audit
+
       - name: Check committed high-priority feast fixture against source records
         run: python3 tools/major_feast_editorial.py audit
 
@@ -180,6 +183,11 @@ jobs:
         run: |
           python3 tools/major_feast_editorial.py audit
           python3 -m unittest discover -s tools -p 'test_major_feast_editorial.py' -v
+
+      - name: Audit regenerated July fortnight and run regression tests
+        run: |
+          python3 tools/fortnight_editorial.py audit
+          python3 -m unittest discover -s tools -p 'test_fortnight_editorial.py' -v
 
       - name: Verify normalized fixture
         run: |
