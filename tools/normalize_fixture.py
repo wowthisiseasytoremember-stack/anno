@@ -176,7 +176,7 @@ def validate_required_feast_vi(entry: dict) -> None:
             raise ValueError(f"{day}: required {section}.{key}_en is empty")
         if vi.strip().casefold() == en.strip().casefold():
             raise ValueError(f"{day}: English copied into required {section}.{key}_vi")
-        if re.search(r"\\b(?:Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)\\b",
+        if re.search(r"\b(?:Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)\b",
                      vi, re.IGNORECASE):
             raise ValueError(f"{day}: untranslated weekday in {section}.{key}_vi")
 
