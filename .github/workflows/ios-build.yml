@@ -170,8 +170,16 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Check committed high-priority feast fixture against source records
+        run: python3 tools/major_feast_editorial.py audit
+
       - name: Run normalizer
         run: python3 tools/normalize_fixture.py --year 2026
+
+      - name: Validate regenerated major-feast data and regression tests
+        run: |
+          python3 tools/major_feast_editorial.py audit
+          python3 -m unittest discover -s tools -p 'test_major_feast_editorial.py' -v
 
       - name: Verify normalized fixture
         run: |

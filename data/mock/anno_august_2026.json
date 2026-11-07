@@ -908,13 +908,13 @@
       "type": "solemnity",
       "title_en": "Solemnity of the Assumption of the Blessed Virgin Mary",
       "title_vi": "Lễ Trọng Đức Maria Hồn Xác Lên Trời",
-      "summary_en": "The Solemnity of the Assumption celebrates the dogmatic truth that Mary, the Mother of Jesus, was assumed body and soul into heavenly glory at the end of her earthly life.",
-      "summary_vi": "Lễ Trọng Mông Triệu mừng chân lý tín điều rằng Mẹ Maria, Mẹ của Đức Giêsu, đã được đưa lên trong vinh quang thiên quốc cả hồn lẫn xác khi kết thúc cuộc đời trần thế.",
-      "body_en": "The dogma of the Assumption of the Blessed Virgin Mary was solemnly defined by Pope Pius XII in his 1950 apostolic constitution *Munificentissimus Deus*, declaring that the Immaculate Mother of God, having completed the course of her earthly life, was assumed body and soul into heavenly glory. This feast represents the ancient, unbroken tradition of both the Eastern and Western Churches, celebrating Mary's unique participation in the Resurrection of her Son. Pope Francis has noted that Mary's Assumption shows us that heaven is within reach when we follow her path of deep humility and generous service. The liturgy features the Magnificat from the Gospel of Luke, a canticle of profound hope that prophesies the triumph of God's mercy and the exaltation of the lowly. Mary's assumed body stands as a radiant icon of hope and comfort for the pilgrim People of God, prefiguring the final resurrection of all the faithful.",
-      "body_vi": "Tín điều Mông Triệu Đức Trinh Nữ Maria được long trọng công bố bởi Giáo hoàng Piô XII qua tông hiến năm 1950 *Munificentissimus Deus*, tuyên bố rằng Mẹ Thiên Chúa Vô Nhiễm, sau khi hoàn tất hành trình trần thế, đã được đưa lên trong vinh quang thiên quốc cả hồn lẫn xác. Lễ này đại diện cho truyền thống cổ xưa liên tục của cả Giáo hội Đông và Tây, mừng sự tham dự độc đáo của Mẹ Maria vào sự Phục Sinh của Con Ngài. Giáo hoàng Phanxicô đã ghi nhận rằng Mông Triệu của Mẹ Maria cho chúng ta thấy thiên đang ở trong tầm tay khi chúng ta bước đi theo con đường khiêm tốn sâu xa và phục vụ quảng đại của Mẹ. Phụng vụ trình bày kinh Magnificat từ Tin Mừng Luca, một bài ca ngợi chứa đựng niềm hy vọng sâu thẳm loan báo chiến thắng của lòng thương xót Chúa và sự nâng cao những kẻ khiêm nhường. Thân xác được Mông Triệu của Mẹ Maria là hình ảnh rạng ngời của niềm hy vọng và an ủi cho Dân Chúa lữ hành, hình bóng tiên trưng cho sự phục sinh cuối cùng của tất cả các tín hữu.",
+      "summary_en": "On August 15, Catholics celebrate Mary's Assumption, body and soul, into heavenly glory. Pope Pius XII defined this dogma in 1950, while the feast had been celebrated long before his declaration.",
+      "summary_vi": "Ngày 15 tháng 8, người Công giáo mừng kính Đức Maria được đưa lên vinh quang thiên quốc cả hồn lẫn xác. Đức Giáo hoàng Piô XII đã định tín mầu nhiệm này năm 1950, khi ngày lễ đã được cử hành từ nhiều thế kỷ trước.",
+      "body_en": "In the apostolic constitution Munificentissimus Deus of November 1, 1950, Pope Pius XII defined the Catholic dogma that Mary was assumed body and soul into heavenly glory at the completion of her earthly life. The Church's celebration of this mystery predates its formal definition.\n\nThe August 15 Mass readings include Mary's Magnificat, a song of praise for God's mercy and care for the lowly. The Assumption offers a sign of hope in the resurrection promised to those who belong to Christ.",
+      "body_vi": "Trong tông hiến Munificentissimus Deus ngày 1 tháng 11 năm 1950, Đức Giáo hoàng Piô XII đã định tín giáo lý Công giáo rằng Đức Maria được đưa lên vinh quang thiên quốc cả hồn lẫn xác sau khi hoàn tất cuộc đời trần thế. Hội Thánh đã cử hành mầu nhiệm này từ trước khi tín điều được chính thức công bố.\n\nCác bài đọc Thánh lễ ngày 15 tháng 8 có kinh Magnificat, lời ca ngợi lòng thương xót của Thiên Chúa và sự quan tâm của Người đối với những người bé mọn. Mầu nhiệm Đức Mẹ Hồn Xác Lên Trời là dấu chỉ hy vọng về sự phục sinh mà Đức Kitô hứa ban cho những ai thuộc về Người.",
       "confidence": "confirmed",
-      "confidence_note_en": "Pius XII's ex cathedra declaration in 1950 solidified the August 15 date of the Assumption as a solemnity of the highest class.",
-      "confidence_note_vi": "Tuyên bố ex cathedra của Piô XII năm 1950 đã củng cố ngày 15 tháng 8 cho lễ Mông Triệu như lễ trọng thuộc hạng cao nhất."
+      "confidence_note_en": "Pope Pius XII defined the Assumption dogma in 1950; the observance of the August 15 feast predates that definition. See Munificentissimus Deus and USCCB 2026 readings.",
+      "confidence_note_vi": "Đức Giáo hoàng Piô XII đã định tín Đức Mẹ Hồn Xác Lên Trời năm 1950; ngày lễ 15 tháng 8 đã được cử hành trước khi tín điều được công bố. Xem tông hiến Munificentissimus Deus và các bài đọc USCCB năm 2026."
     },
     "place": {
       "name": "Tomb of the Virgin Mary, Jerusalem, Israel",
@@ -943,8 +943,8 @@
       }
     ],
     "app_hooks": {
-      "hero_line_en": "The heavenly coronation of the Mother of God",
-      "hero_line_vi": "Sự tôn vinh trên trời của Mẹ Thiên Chúa",
+      "hero_line_en": "Mary assumed body and soul into heavenly glory",
+      "hero_line_vi": "Đức Maria được đưa lên vinh quang thiên quốc cả hồn lẫn xác",
       "prayer_prompt_en": "Look up to Mary assumed into heaven as a sure sign of hope for your future resurrection.",
       "prayer_prompt_vi": "Ngước nhìn Mẹ Maria đã được Mông Triệu lên trời như dấu chắc chắn của niềm hy vọng cho sự phục sinh mai sau của bạn."
     }

@@ -86,3 +86,29 @@ Swift should decode snake_case with `JSONDecoder.keyDecodingStrategy = .convertF
 ## Do Not Flatten
 
 Do not merge `confidence_note_*` into the summary. The note belongs in a source/confidence sheet, because it is exactly the kind of scholarly honesty that differentiates Anno from generic devotional apps.
+
+
+## High-priority 2026 feast editorial contract (2026-11-06)
+
+**Scope:** the four mandatory bilingual dates inside the Jul 3–Dec 31 normalized fixture: **Aug 15 (Assumption), Nov 22 (Christ the King), Dec 8 (Immaculate Conception), Dec 25 (Christmas)**. The four other designated 2026 feasts fall outside this fixture window.
+
+- A native `AnnoEntry` combines liturgical identity, sourced primary devotional text, one optional sacred place, artwork candidate metadata, source references, and app hooks.
+- **Canonical edit locations:** August source array `data/mock/anno_august_2026.json`; September–December research input `data/research_results/YYYY-MM-DD_result.json`; and any matching `_result_vi.json` language overlay.
+- **Generated app fixture:** `Anno/Resources/anno_unified_2026.json`. Modify upstream first and regenerate; never make a fixture-only edit.
+- Required feast dates must carry rank `Solemnity`, color `white`, correctly dated names, direct USCCB references, meaningful EN/VI summaries and hooks, and no EN fallback masquerading as VI translation.
+- Source URLs and primary claims do not prove image rights. A `placeholder_only` artwork is **not** an approved asset. Keep art/title metadata and citation UI accessible, not hidden in a decoration.
+- Liturgical rank/date is a documented fact; apparition narratives and traditional locations are not presented as empirically proven. Human Catholic theology and Vietnamese language sign-off remain required.
+- Not a Snowfall/web editorial stack: the native UX owns VoiceOver, Dynamic Type, contrast, and preview performance.
+
+### Single-file starter / offline checks
+
+```bash
+python3 tools/major_feast_editorial.py new --date 2027-01-06 --output /tmp/feast.json
+python3 tools/normalize_fixture.py --year 2026
+python3 tools/major_feast_editorial.py audit
+python3 -m unittest discover -s tools -p 'test_major_feast_editorial.py' -v
+```
+
+The starter creates one **non-shipping** native-shape JSON record with `TODO` source-backed sections, artwork/license/alt slots and an editorial checklist under `_editorial`; clear all TODOs and remove `_editorial` before integration. It refuses to overwrite files. The `audit` and tests are stdlib Python, don't fetch URLs and run on Linux. They check authority dates, EN/VI presence and differences, official links, and upstream-to-fixture parity, but do not claim to have human-reviewed every historical sentence.
+
+The full per-entry findings, claims requiring human review, and authority URLs are in `docs/MAJOR_FEAST_2026_EDITORIAL_AUDIT.md`.
