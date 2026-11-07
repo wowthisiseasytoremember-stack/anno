@@ -1,15 +1,15 @@
 {
   "liturgical": {
-    "title_vi": "Chúa Nhật tuần 33 Mùa Thường Niên"
+    "title_vi": "Chúa Giêsu Kitô Vua Vũ Trụ"
   },
   "primary": {
-    "title_vi": "Chúa Nhật tuần 33 Mùa Thường Niên",
-    "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-    "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
-    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-22."
+    "title_vi": "Chúa Giêsu Kitô Vua Vũ Trụ",
+    "summary_vi": "Vào Chúa nhật cuối năm phụng vụ, người Công giáo mừng kính Chúa Giêsu Kitô là Vua Vũ Trụ. Tin Mừng Matthêu chương 25 nối kết vương quyền của Người với lòng thương xót dành cho người đói khát, khách lạ, người đau yếu và người bị giam cầm.",
+    "body_vi": "Ngôn sứ Êdêkien nói về Thiên Chúa như vị mục tử tìm kiếm những con chiên lạc và chăm sóc người yếu đau. Trong thư gửi tín hữu Côrintô, thánh Phaolô công bố Đức Kitô phục sinh và chiến thắng sau cùng trước sự chết.\n\nTin Mừng theo thánh Matthêu chương 25 diễn tả cuộc phán xét bằng hình ảnh người mục tử phân biệt các chiên. Người môn đệ được mời gọi nhận ra Đức Kitô nơi những người cần được giúp đỡ.\n\nLễ Chúa Kitô Vua Vũ Trụ kết thúc năm phụng vụ bằng một lời mời gọi cụ thể: sống đức công chính, lòng thương xót và tình yêu thương trong đời thường.",
+    "confidence_note_vi": "Các bài đọc chính thức của USCCB ngày 22 tháng 11 năm 2026 xác nhận lễ trọng Chúa Giêsu Kitô Vua Vũ Trụ (Sách Bài Đọc số 160)."
   },
   "app_hooks": {
-    "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Sunday",
-    "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+    "hero_line_vi": "Đức Kitô là Vua, Người mời gọi chúng ta phục vụ những người bé mọn",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu Kitô là Vua Vũ Trụ, xin dạy chúng con nhận ra và phục vụ Chúa nơi những người đói khát, đau yếu, cô đơn và cần được nâng đỡ."
   }
 }
