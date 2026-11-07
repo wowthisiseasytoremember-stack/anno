@@ -172,3 +172,34 @@ The severity ranks are for the **shipped content risk**, not claims about indivi
 ## Review status before editing
 14 of 14 inspected. **None is release approved**. Pending Catholic editorial review for each day's religious wording, EN↔VI cultural accuracy, source-to-claim audit, artwork/asset licensing if assets are ever added, native VoiceOver/Dynamic Type/contrast on a Mac. The audit and status belong here (existing `docs/` convention).
 
+
+
+## Implementation and verification receipts — 2026-11-06
+
+**Changes implemented for all 14 source records and all 14 corresponding entries inside the 182-day runtime fixture.** Audited before edits in this document. This status is a GitHub implementation receipt, **not** a theological, linguistic, asset-rights or App Store sign-off.
+
+| Date 2026-07 | Revised item | Implementation |
+| --- | --- | --- |
+| 03 | Saint Thomas, Apostle | Feast/red; original EN/VI reading-based narrative and prayer; pseudo-place/false art clearance removed. |
+| 04 | Saturday, Thirteenth Week | Feria/green; new cloth/wineskins reflection and original bilingual prayer. |
+| 05 | Fourteenth Sunday | Sunday/green; Jesus's rest for the weary replaces generic day label. |
+| 06 | Monday, Fourteenth Week | Feria/green; Matthew's interwoven healing encounters with distinct EN/VI reflection. |
+| 07 | Tuesday, Fourteenth Week | Feria/green; compassion for crowds and concrete service. |
+| 08 | Wednesday, Fourteenth Week | Feria/green; calling and mission of the Twelve. |
+| 09 | Thursday, Fourteenth Week | Feria/green; removed Marian Days impostor and replaced with the apostles' free gift of peace; optional Chinese martyrs correctly labeled optional. |
+| 10 | Friday, Fourteenth Week | Feria/green; removed Marian Days impostor and added faithful-witness under pressure theme. |
+| 11 | Saint Benedict, Abbot | Memorial/white; restored saint's celebration over Marian Days, with supported monastic-rule context. |
+| 12 | Fifteenth Sunday | Sunday/green; parable of the sower and the conditions for lasting growth. |
+| 13 | Monday, Fifteenth Week | Feria/green; discipleship and social justice reading; Saint Henry optional, not forced. |
+| 14 | Saint Kateri Tekakwitha | Memorial/white for USA; contextualized faithful witness without invented historical specifics. |
+| 15 | Saint Bonaventure | Memorial/white; learning and humility with original prayer. |
+| 16 | Thursday, Fifteenth Week | Feria/green; rest for the burdened, Mount Carmel optional observance preserved as context. |
+
+**Every item:** corrected U.S. Catholic calendar rank/color and exact daily display title, replaced repeated English/Vietnamese body and prayers with distinct Bible-reading-based original text, added day-specific USCCB Mass readings plus the USCCB 2026 national calendar citation, set artwork `placeholder_only` with no claim of existing art, and removed invented site coordinates.
+
+**Source architecture:** `data/mock/anno_fortnight_2026-07-03_2026-07-16.json` is the sole editable source of the 14 dates. `tools/normalize_fixture.py --year 2026` generates corresponding entries of `Anno/Resources/anno_unified_2026.json`. `tools/fortnight_editorial.py audit` compares all 14 pairs and checks pinned facts. `tools/test_fortnight_editorial.py` contains 15 regression scenarios. The Linux content-integrity job enforces the audit **before and after** the normalizer.
+
+**Special clarification:** Marian Days **Aug 6–9** belongs to an event/calendar feature, not the July 9–11 liturgical feast data. The dated historical evidence remains cited above. It has been removed from the July 9 daily devotional as irrelevant, not moved silently into another unreviewed day. July 6, 9, 13, and 16 have optional observances; the default U.S. weekday rank remains `Feria`.
+
+**Open human review** on all 14 items: theological implications of paraphrase; Vietnamese Catholic style and terminology (present in JSON but never described as signed off); suitability of U.S.-proper calendar for non-U.S. users; native VoiceOver, Dynamic Type, keyboard and contrast; any future rights-cleared artwork with real artist credit, alt, caption, and permission. **No photos, fabricated geocodes, or rights claims are shipped by this tranche.** The existing 164 remaining daily records are still covered by issue #36 and require their own audit.
+
