@@ -311,43 +311,74 @@ struct SoCalStationRitualView: View {
                 )
             }
 
-            ritualRow(
+            SoCalRitualStepRow(
                 label: language == .vietnamese ? "ĐẾN" : "ARRIVE",
                 symbol: "location.fill",
-                text: station.arrive(for: language)
+                text: station.arrive(for: language),
+                tint: tint
             )
-            ritualRow(
+            SoCalRitualStepRow(
                 label: language == .vietnamese ? "NHÌN" : "LOOK",
                 symbol: "eye.fill",
-                text: station.look(for: language)
+                text: station.look(for: language),
+                tint: tint
             )
-            ritualRow(
+            SoCalRitualStepRow(
                 label: language == .vietnamese ? "BIẾT" : "KNOW",
                 symbol: "book.closed.fill",
-                text: station.know(for: language)
+                text: station.know(for: language),
+                tint: tint
             )
-            ritualRow(
+            SoCalRitualStepRow(
                 label: language == .vietnamese ? "CẦU NGUYỆN" : "PRAY",
                 symbol: AnnoSymbol.prayer,
                 text: station.pray(for: language),
+                tint: tint,
                 emphasized: true
             )
-            ritualRow(
+            SoCalRitualStepRow(
                 label: language == .vietnamese ? "TIẾP TỤC" : "CONTINUE",
                 symbol: "arrow.right",
-                text: station.continueText(for: language)
+                text: station.continueText(for: language),
+                tint: tint
             )
+
+            // Make the source for the station's claim discoverable in the ritual.
+            if let source = URL(string: station.officialUrl),
+               source.scheme?.lowercased() == "https",
+               source.host != nil {
+                Link(destination: source) {
+                    Label(
+                        language == .vietnamese
+                            ? "Nguồn chính thức và thông tin thăm viếng"
+                            : "Official source and visit information",
+                        systemImage: "link"
+                    )
+                    .font(Typography.caption2Medium)
+                    .foregroundStyle(AnnoTheme.gilt)
+                    .fixedSize(horizontal: false, vertical: true)
+                }
+                .accessibilityHint(
+                    language == .vietnamese
+                        ? "Mở trang thông tin chính thức"
+                        : "Opens the official site"
+                )
+            }
         }
         .annoSurface(.devotional)
     }
 
-    @ViewBuilder
-    private func ritualRow(
-        label: String,
-        symbol: String,
-        text: String,
-        emphasized: Bool = false
-    ) -> some View {
+}
+
+// Reusable, parameterized native row for the five ARRIVE/LOOK/KNOW/PRAY/CONTINUE steps.
+struct SoCalRitualStepRow: View {
+    let label: String
+    let symbol: String
+    let text: String
+    let tint: Color
+    var emphasized: Bool = false
+
+    var body: some View {
         HStack(alignment: .top, spacing: 10) {
             AnnoIconBadge(
                 symbol: symbol,

@@ -319,6 +319,12 @@ jobs:
           print("SoCal exemplar alignment OK: 7 required spiritual stations")
           PY
 
+      - name: Audit all eight SoCal station records
+        run: python3 tools/socal_station.py audit
+
+      - name: Regression-test SoCal station data and scaffold
+        run: python3 -m unittest discover -s tools -p 'test_socal_station.py' -v
+
       - name: Verify SoCal physical marker identities
         run: |
           python3 - <<'PY'

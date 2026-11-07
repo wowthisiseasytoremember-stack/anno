@@ -4,6 +4,23 @@
 **Scope:** official-source facts used by the Orange County exemplar.  
 **Rule:** devotional narrative may be durable; schedules/hours/parking/tours are volatile and must be rechecked.
 
+## Recheck of official pages — 2026-11-06 (remote, not on-site)
+
+**Scope:** Desktop-readable official-page claims and public links; this is not a certificate of accessibility, legal permission to enter, translation accuracy, or field conditions. The original 2026-10-03 audit remains the baseline for other claims. These pages can change; do not copy live hours into durable JSON.
+
+| Live station ID | Checked claim or verification outcome | Source | Status / remaining review |
+| --- | --- | --- | --- |
+| `our_lady_la_vang_shrine_christ_cathedral` | Christ Cathedral identifies the shrine, its 2021 opening, Vietnamese Marian clothing/canopy, and the **Catholic tradition** of La Vang in 1798. | https://www.christcathedralcalifornia.org/ollvshrine/about-the-shrine/ | Official page present; outdoor visibility and devotional wording still require field/cultural review. |
+| `martyrs_wall_117_vietnamese_christian` | Christ Cathedral describes the names of 117 martyrs and inscriptions recording dates/manner of death. | https://www.christcathedralcalifornia.org/ollvshrine/pictures/ | Official page present; do not claim inscriptions are readable to every visitor. |
+| `rosary_gardens_christ_cathedral_pilgrimage` | Christ Cathedral presents Marian Gardens behind the shrine as a place for the Rosary. | https://www.christcathedralcalifornia.org/event_slides/marian-gardens/ | Official page present; entrances, seating, accessibility and open status still require visit-day check. |
+| `christ_cathedral_context` (optional) | Christ Cathedral publishes visitor/tour information and offers requested languages subject to availability. | https://www.christcathedralcalifornia.org/visit/ | Live tour offerings are volatile: app copy now links out rather than freezing the offerings. |
+| `st_columban_church_garden_grove` | Diocese confirms Saint Columban at 10801 Stanford Ave, Garden Grove, and describes its multicultural identity. | https://www.rcbo.org/directories/parishes/saint-columban-catholic-church/ | Actual programs, Vietnamese schedule and physical access still need live/local verification. |
+| `vietnamese_catholic_center_santa_ana` | Diocese confirms 1538 Century Blvd, Santa Ana, Vietnamese architectural features, and a three-generation religious/cultural/educational/social mission. | https://www.rcbo.org/directories/parishes/vietnamese-catholic-center/ | Official page present; cannot infer public entry or current programs. |
+| `our_lady_of_la_vang_church_santa_ana` | Diocese confirms the active parish at 288 S Harbor Blvd, Santa Ana. | https://www.rcbo.org/directories/parishes/our-lady-of-la-vang-catholic-church/ | Official page present; current parish/language schedules and site access need review. |
+| `st_barbara_parish_westminster` | Diocese confirms **Saint Barbara is in Santa Ana**, at 730 S Euclid St. The legacy ID is not the visitor label. | https://www.rcbo.org/directories/parishes/saint-barbara-catholic-church/ | Keep stable ID for progress/markers; current parish programming/access require review. |
+
+**Editorial handling:** A canonical link's presence is not a full fact-check of every clause; link reachability changes and could not be proven by an offline validator. The Linux gate checks that each of the eight station links is indexed here and matches content data, while historical-source judgment remains editorial. The normalized route's `distance_km=0` currently suppresses distance UI; treat this as **unknown pending field measurement**, not literal zero distance.
+
 ## Christ Cathedral / Our Lady of La Vang Shrine
 
 Official:
