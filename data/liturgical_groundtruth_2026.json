@@ -1,0 +1,7479 @@
+{
+  "schema_version": "1.0",
+  "source_url": "https://www.usccb.org/resources/2026cal.pdf",
+  "source_sha256": "4bd9add07512396a2323aa977bc4816a5fad6348262e12740bcee97c77372d02",
+  "generated_by": "tools/parse_usccb_calendar.py",
+  "authority": "USCCB Secretariat of Divine Worship — official liturgical calendar",
+  "color_note": "violet maps to fixture 'purple'; multi-colors keep the primary (first listed). 'violet or white or black' (All Souls) pins violet->purple.",
+  "rows": [
+    {
+      "date": "2026-01-01",
+      "weekday": "Thursday",
+      "title_en": "SOLEMNITY OF MARY, THE HOLY MOTHER OF GOD The Octave Day of the Nativity of the Lord",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": true,
+      "color": "white",
+      "name_core": "SOLEMNITY OF MARY, THE HOLY MOTHER OF GOD The Octave Day of the Nativity of the Lord",
+      "celebration_id": "solemnity_of_mary_the_holy_mother_of_god_the_octave_day_of_the_nativity_of_the_l",
+      "disambiguation_tokens": [
+        "solemnity",
+        "mary",
+        "holy",
+        "mother",
+        "octave",
+        "nativity",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-01-02",
+      "weekday": "Friday",
+      "title_en": "Saints Basil the Great and Gregory Nazianzen, Bishops and Doctors of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saints Basil the Great and Gregory Nazianzen, Bishops and Doctors of the Church",
+      "celebration_id": "saints_basil_the_great_and_gregory_nazianzen_bishops_and_doctors_of_the_church",
+      "disambiguation_tokens": [
+        "saints",
+        "basil",
+        "great",
+        "gregory",
+        "nazianzen",
+        "bishops",
+        "doctors"
+      ]
+    },
+    {
+      "date": "2026-01-03",
+      "weekday": "Saturday",
+      "title_en": "Christmas Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Christmas Weekday",
+      "celebration_id": "christmas_weekday",
+      "disambiguation_tokens": [
+        "christmas",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-04",
+      "weekday": "Sunday",
+      "title_en": "The Epiphany of the Lord",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Epiphany of the Lord",
+      "celebration_id": "the_epiphany_of_the_lord",
+      "disambiguation_tokens": [
+        "epiphany",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-01-05",
+      "weekday": "Monday",
+      "title_en": "Saint John Neumann, Bishop",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint John Neumann, Bishop",
+      "celebration_id": "saint_john_neumann_bishop",
+      "disambiguation_tokens": [
+        "john",
+        "neumann"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "weekday": "Tuesday",
+      "title_en": "Christmas Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Christmas Weekday",
+      "celebration_id": "christmas_weekday",
+      "disambiguation_tokens": [
+        "christmas",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "weekday": "Wednesday",
+      "title_en": "Christmas Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Christmas Weekday",
+      "celebration_id": "christmas_weekday",
+      "disambiguation_tokens": [
+        "christmas",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-08",
+      "weekday": "Thursday",
+      "title_en": "Christmas Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Christmas Weekday",
+      "celebration_id": "christmas_weekday",
+      "disambiguation_tokens": [
+        "christmas",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-09",
+      "weekday": "Friday",
+      "title_en": "Christmas Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Christmas Weekday",
+      "celebration_id": "christmas_weekday",
+      "disambiguation_tokens": [
+        "christmas",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-10",
+      "weekday": "Saturday",
+      "title_en": "Christmas Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Christmas Weekday",
+      "celebration_id": "christmas_weekday",
+      "disambiguation_tokens": [
+        "christmas",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-11",
+      "weekday": "Sunday",
+      "title_en": "The Baptism of the Lord",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Baptism of the Lord",
+      "celebration_id": "the_baptism_of_the_lord",
+      "disambiguation_tokens": [
+        "baptism",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-01-12",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-13",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-16",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-17",
+      "weekday": "Saturday",
+      "title_en": "Saint Anthony, Abbot",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Anthony, Abbot",
+      "celebration_id": "saint_anthony_abbot",
+      "disambiguation_tokens": [
+        "anthony"
+      ]
+    },
+    {
+      "date": "2026-01-18",
+      "weekday": "Sunday",
+      "title_en": "Second Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Second Sunday in Ordinary Time",
+      "celebration_id": "second_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "second",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-01-19",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-20",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-21",
+      "weekday": "Wednesday",
+      "title_en": "Saint Agnes, Virgin and Martyr",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Agnes, Virgin and Martyr",
+      "celebration_id": "saint_agnes_virgin_and_martyr",
+      "disambiguation_tokens": [
+        "agnes",
+        "martyr"
+      ]
+    },
+    {
+      "date": "2026-01-22",
+      "weekday": "Thursday",
+      "title_en": "Day of Prayer for the Legal Protection of Unborn Children or, for the Day of Prayer, any readings from the Mass “For Giving Thanks to God",
+      "rank": "Commemoration",
+      "kind": "commemoration",
+      "color_raw": [
+        "white",
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Day of Prayer for the Legal Protection of Unborn Children or, for the Day of Prayer, any readings from the Mass “For Giving Thanks to God",
+      "celebration_id": "day_of_prayer_for_the_legal_protection_of_unborn_children_or_for_the_day_of_pray",
+      "disambiguation_tokens": [
+        "prayer",
+        "legal",
+        "protection",
+        "unborn",
+        "children",
+        "prayer",
+        "readings",
+        "from",
+        "mass",
+        "“for",
+        "giving",
+        "thanks"
+      ]
+    },
+    {
+      "date": "2026-01-23",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-24",
+      "weekday": "Saturday",
+      "title_en": "Saint Francis de Sales, Bishop and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Francis de Sales, Bishop and Doctor of the Church",
+      "celebration_id": "saint_francis_de_sales_bishop_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "francis",
+        "sales"
+      ]
+    },
+    {
+      "date": "2026-01-25",
+      "weekday": "Sunday",
+      "title_en": "Third Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Third Sunday in Ordinary Time",
+      "celebration_id": "third_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "third",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-01-26",
+      "weekday": "Monday",
+      "title_en": "Saints Timothy and Titus, Bishops",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saints Timothy and Titus, Bishops",
+      "celebration_id": "saints_timothy_and_titus_bishops",
+      "disambiguation_tokens": [
+        "saints",
+        "timothy",
+        "titus",
+        "bishops"
+      ]
+    },
+    {
+      "date": "2026-01-27",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-28",
+      "weekday": "Wednesday",
+      "title_en": "Saint Thomas Aquinas, Priest and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Thomas Aquinas, Priest and Doctor of the Church",
+      "celebration_id": "saint_thomas_aquinas_priest_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "thomas",
+        "aquinas"
+      ]
+    },
+    {
+      "date": "2026-01-29",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "weekday": "Saturday",
+      "title_en": "Saint John Bosco, Priest",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint John Bosco, Priest",
+      "celebration_id": "saint_john_bosco_priest",
+      "disambiguation_tokens": [
+        "john",
+        "bosco"
+      ]
+    },
+    {
+      "date": "2026-02-01",
+      "weekday": "Sunday",
+      "title_en": "Fourth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Fourth Sunday in Ordinary Time",
+      "celebration_id": "fourth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "fourth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-02-02",
+      "weekday": "Monday",
+      "title_en": "The Presentation of the Lord",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Presentation of the Lord",
+      "celebration_id": "the_presentation_of_the_lord",
+      "disambiguation_tokens": [
+        "presentation",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "weekday": "Thursday",
+      "title_en": "Saint Agatha, Virgin and Martyr",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Agatha, Virgin and Martyr",
+      "celebration_id": "saint_agatha_virgin_and_martyr",
+      "disambiguation_tokens": [
+        "agatha",
+        "martyr"
+      ]
+    },
+    {
+      "date": "2026-02-06",
+      "weekday": "Friday",
+      "title_en": "Saint Paul Miki and Companions, Martyrs",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Paul Miki and Companions, Martyrs",
+      "celebration_id": "saint_paul_miki_and_companions_martyrs",
+      "disambiguation_tokens": [
+        "paul",
+        "miki",
+        "companions",
+        "martyrs"
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-08",
+      "weekday": "Sunday",
+      "title_en": "Fifth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Fifth Sunday in Ordinary Time",
+      "celebration_id": "fifth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "fifth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-02-09",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "weekday": "Tuesday",
+      "title_en": "Saint Scholastica, Virgin",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Scholastica, Virgin",
+      "celebration_id": "saint_scholastica_virgin",
+      "disambiguation_tokens": [
+        "scholastica"
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-13",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-14",
+      "weekday": "Saturday",
+      "title_en": "Saints Cyril, Monk, and Methodius, Bishop",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saints Cyril, Monk, and Methodius, Bishop",
+      "celebration_id": "saints_cyril_monk_and_methodius_bishop",
+      "disambiguation_tokens": [
+        "saints",
+        "cyril",
+        "monk",
+        "methodius"
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "weekday": "Sunday",
+      "title_en": "Sixth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Sixth Sunday in Ordinary Time",
+      "celebration_id": "sixth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "sixth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "weekday": "Wednesday",
+      "title_en": "Ash Wednesday",
+      "rank": "Commemoration",
+      "kind": "commemoration",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Ash Wednesday",
+      "celebration_id": "ash_wednesday",
+      "disambiguation_tokens": [
+        "wednesday"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "weekday": "Thursday",
+      "title_en": "Thursday after Ash Wednesday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Thursday after Ash Wednesday",
+      "celebration_id": "thursday_after_ash_wednesday",
+      "disambiguation_tokens": [
+        "thursday",
+        "after",
+        "wednesday"
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "weekday": "Friday",
+      "title_en": "Friday after Ash Wednesday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Friday after Ash Wednesday",
+      "celebration_id": "friday_after_ash_wednesday",
+      "disambiguation_tokens": [
+        "friday",
+        "after",
+        "wednesday"
+      ]
+    },
+    {
+      "date": "2026-02-21",
+      "weekday": "Saturday",
+      "title_en": "Saturday after Ash Wednesday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Saturday after Ash Wednesday",
+      "celebration_id": "saturday_after_ash_wednesday",
+      "disambiguation_tokens": [
+        "saturday",
+        "after",
+        "wednesday"
+      ]
+    },
+    {
+      "date": "2026-02-22",
+      "weekday": "Sunday",
+      "title_en": "First Sunday of Lent",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "First Sunday of Lent",
+      "celebration_id": "first_sunday_of_lent",
+      "disambiguation_tokens": [
+        "first",
+        "sunday",
+        "lent"
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "weekday": "Monday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "weekday": "Tuesday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "weekday": "Wednesday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "weekday": "Thursday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-27",
+      "weekday": "Friday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-02-28",
+      "weekday": "Saturday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-01",
+      "weekday": "Sunday",
+      "title_en": "Second Sunday of Lent",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Second Sunday of Lent",
+      "celebration_id": "second_sunday_of_lent",
+      "disambiguation_tokens": [
+        "second",
+        "sunday",
+        "lent"
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "weekday": "Monday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "weekday": "Tuesday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "weekday": "Wednesday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-05",
+      "weekday": "Thursday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "weekday": "Friday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "weekday": "Saturday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-08",
+      "weekday": "Sunday",
+      "title_en": "Third Sunday of Lent",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Third Sunday of Lent",
+      "celebration_id": "third_sunday_of_lent",
+      "disambiguation_tokens": [
+        "third",
+        "sunday",
+        "lent"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "weekday": "Monday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "weekday": "Tuesday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-11",
+      "weekday": "Wednesday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "weekday": "Thursday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "weekday": "Friday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "weekday": "Saturday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-15",
+      "weekday": "Sunday",
+      "title_en": "Fourth Sunday of Lent",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "violet",
+        "rose"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Fourth Sunday of Lent",
+      "celebration_id": "fourth_sunday_of_lent",
+      "disambiguation_tokens": [
+        "fourth",
+        "sunday",
+        "lent"
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "weekday": "Monday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "weekday": "Tuesday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "weekday": "Wednesday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "weekday": "Thursday",
+      "title_en": "Saint Joseph, Spouse of the Blessed Virgin Mary",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Joseph, Spouse of the Blessed Virgin Mary",
+      "celebration_id": "saint_joseph_spouse_of_the_blessed_virgin_mary",
+      "disambiguation_tokens": [
+        "joseph",
+        "spouse",
+        "mary"
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "weekday": "Friday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-21",
+      "weekday": "Saturday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "weekday": "Sunday",
+      "title_en": "Fifth Sunday of Lent",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Fifth Sunday of Lent",
+      "celebration_id": "fifth_sunday_of_lent",
+      "disambiguation_tokens": [
+        "fifth",
+        "sunday",
+        "lent"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "weekday": "Monday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "weekday": "Tuesday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "weekday": "Wednesday",
+      "title_en": "The Annunciation of the Lord",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Annunciation of the Lord",
+      "celebration_id": "the_annunciation_of_the_lord",
+      "disambiguation_tokens": [
+        "annunciation",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "weekday": "Thursday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "weekday": "Friday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-28",
+      "weekday": "Saturday",
+      "title_en": "Lenten Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Lenten Weekday",
+      "celebration_id": "lenten_weekday",
+      "disambiguation_tokens": [
+        "lenten",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "weekday": "Sunday",
+      "title_en": "PALM SUNDAY OF THE PASSION OF THE LORD The following readings may be used on any Lenten day this week, especially in Years B and C when the Gospel of Lazarus",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "PALM SUNDAY OF THE PASSION OF THE LORD The following readings may be used on any Lenten day this week, especially in Years B and C when the Gospel of Lazarus",
+      "celebration_id": "palm_sunday_of_the_passion_of_the_lord_the_following_readings_may_be_used_on_any",
+      "disambiguation_tokens": [
+        "palm",
+        "sunday",
+        "passion",
+        "lord",
+        "following",
+        "readings",
+        "used",
+        "lenten",
+        "this",
+        "week",
+        "especially",
+        "years",
+        "when",
+        "gospel",
+        "lazarus"
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "weekday": "Monday",
+      "title_en": "Monday of Holy Week",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Monday of Holy Week",
+      "celebration_id": "monday_of_holy_week",
+      "disambiguation_tokens": [
+        "monday",
+        "holy",
+        "week"
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "weekday": "Tuesday",
+      "title_en": "Tuesday of Holy Week",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Tuesday of Holy Week",
+      "celebration_id": "tuesday_of_holy_week",
+      "disambiguation_tokens": [
+        "tuesday",
+        "holy",
+        "week"
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "weekday": "Wednesday",
+      "title_en": "Wednesday of Holy Week",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Wednesday of Holy Week",
+      "celebration_id": "wednesday_of_holy_week",
+      "disambiguation_tokens": [
+        "wednesday",
+        "holy",
+        "week"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "weekday": "Thursday",
+      "title_en": "Thursday of Holy Week (Holy Thursday)8",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Thursday of Holy Week 8",
+      "celebration_id": "thursday_of_holy_week_8",
+      "disambiguation_tokens": [
+        "thursday",
+        "holy",
+        "week"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "weekday": "Friday",
+      "title_en": "Friday of the Passion of the Lord (Good Friday)",
+      "rank": "Commemoration",
+      "kind": "commemoration",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Friday of the Passion of the Lord",
+      "celebration_id": "friday_of_the_passion_of_the_lord",
+      "disambiguation_tokens": [
+        "friday",
+        "passion",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-04-04",
+      "weekday": "Saturday",
+      "title_en": "Holy Saturday",
+      "rank": "Commemoration",
+      "kind": "commemoration",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Holy Saturday",
+      "celebration_id": "holy_saturday",
+      "disambiguation_tokens": [
+        "holy",
+        "saturday"
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "weekday": "Sunday",
+      "title_en": "Easter Sunday of the Resurrection of the Lord",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Sunday of the Resurrection of the Lord",
+      "celebration_id": "easter_sunday_of_the_resurrection_of_the_lord",
+      "disambiguation_tokens": [
+        "easter",
+        "sunday",
+        "resurrection",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "weekday": "Monday",
+      "title_en": "Monday within the Octave of Easter10 If necessary, the Chrism Mass may be celebrated on a suitable day before Holy Thursday. Nine readings are assigned to the Easter Vigil: seven from the Old Testament and two from the New. If circumstances demand in individual cases, the number of prescribed readings may be reduced. Three selections from the Old Testament, both from the Law and the Prophets, should be read before the Epistle and Gospel. In any case, the reading from Exodus Although not given the title of Solemnity, “[t]he first eight days of Easter Time constitute the Octave of Easter and are",
+      "rank": "Commemoration",
+      "kind": "commemoration",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Monday within the Octave of Easter10 If necessary, the Chrism Mass may be celebrated on a suitable day before Holy Thursday. Nine readings are assigned to the Easter Vigil: seven from the Old Testament and two from the New. If circumstances demand in individual cases, the number of prescribed readings may be reduced. Three selections from the Old Testament, both from the Law and the Prophets, should be read before the Epistle and Gospel. In any case, the reading from Exodus Although not given the title of Solemnity, “[t]he first eight days of Easter Time constitute the Octave of Easter and are",
+      "celebration_id": "monday_within_the_octave_of_easter10_if_necessary_the_chrism_mass_may_be_celebra",
+      "disambiguation_tokens": [
+        "monday",
+        "within",
+        "octave",
+        "easter10",
+        "necessary",
+        "chrism",
+        "mass",
+        "celebrated",
+        "suitable",
+        "before",
+        "holy",
+        "thursday",
+        "nine",
+        "readings",
+        "assigned",
+        "easter",
+        "vigil",
+        "seven",
+        "from",
+        "testament",
+        "from",
+        "circumstances",
+        "demand",
+        "individual",
+        "cases",
+        "number",
+        "prescribed",
+        "readings",
+        "reduced",
+        "three",
+        "selections",
+        "from",
+        "testament",
+        "both",
+        "from",
+        "prophets",
+        "should",
+        "read",
+        "before",
+        "epistle",
+        "gospel",
+        "case",
+        "reading",
+        "from",
+        "exodus",
+        "although",
+        "given",
+        "title",
+        "solemnity",
+        "“[t]he",
+        "first",
+        "eight",
+        "days",
+        "easter",
+        "time",
+        "constitute",
+        "octave",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "weekday": "Tuesday",
+      "title_en": "Tuesday within the Octave of Easter",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Tuesday within the Octave of Easter",
+      "celebration_id": "tuesday_within_the_octave_of_easter",
+      "disambiguation_tokens": [
+        "tuesday",
+        "within",
+        "octave",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "weekday": "Wednesday",
+      "title_en": "Wednesday within the Octave of Easter",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Wednesday within the Octave of Easter",
+      "celebration_id": "wednesday_within_the_octave_of_easter",
+      "disambiguation_tokens": [
+        "wednesday",
+        "within",
+        "octave",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "weekday": "Thursday",
+      "title_en": "Thursday within the Octave of Easter",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Thursday within the Octave of Easter",
+      "celebration_id": "thursday_within_the_octave_of_easter",
+      "disambiguation_tokens": [
+        "thursday",
+        "within",
+        "octave",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "weekday": "Friday",
+      "title_en": "Friday within the Octave of Easter",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Friday within the Octave of Easter",
+      "celebration_id": "friday_within_the_octave_of_easter",
+      "disambiguation_tokens": [
+        "friday",
+        "within",
+        "octave",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "weekday": "Saturday",
+      "title_en": "Saturday within the Octave of Easter",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saturday within the Octave of Easter",
+      "celebration_id": "saturday_within_the_octave_of_easter",
+      "disambiguation_tokens": [
+        "saturday",
+        "within",
+        "octave",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "weekday": "Sunday",
+      "title_en": "Second Sunday of Easter (or Sunday of Divine Mercy)",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Second Sunday of Easter",
+      "celebration_id": "second_sunday_of_easter",
+      "disambiguation_tokens": [
+        "second",
+        "sunday",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "weekday": "Monday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "weekday": "Tuesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "weekday": "Wednesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "weekday": "Thursday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-17",
+      "weekday": "Friday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-18",
+      "weekday": "Saturday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-19",
+      "weekday": "Sunday",
+      "title_en": "Third Sunday of Easter",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Third Sunday of Easter",
+      "celebration_id": "third_sunday_of_easter",
+      "disambiguation_tokens": [
+        "third",
+        "sunday",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-04-20",
+      "weekday": "Monday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "weekday": "Tuesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "weekday": "Wednesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "weekday": "Thursday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "red",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "weekday": "Friday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "weekday": "Saturday",
+      "title_en": "Saint Mark, Evangelist",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Mark, Evangelist",
+      "celebration_id": "saint_mark_evangelist",
+      "disambiguation_tokens": [
+        "mark",
+        "evangelist"
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "weekday": "Sunday",
+      "title_en": "Fourth Sunday of Easter",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Fourth Sunday of Easter",
+      "celebration_id": "fourth_sunday_of_easter",
+      "disambiguation_tokens": [
+        "fourth",
+        "sunday",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "weekday": "Monday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "weekday": "Tuesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "red",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-04-29",
+      "weekday": "Wednesday",
+      "title_en": "Saint Catherine of Siena, Virgin and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Catherine of Siena, Virgin and Doctor of the Church",
+      "celebration_id": "saint_catherine_of_siena_virgin_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "catherine",
+        "siena"
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "weekday": "Thursday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "weekday": "Friday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-02",
+      "weekday": "Saturday",
+      "title_en": "Saint Athanasius, Bishop and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Athanasius, Bishop and Doctor of the Church",
+      "celebration_id": "saint_athanasius_bishop_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "athanasius"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "weekday": "Sunday",
+      "title_en": "Fifth Sunday of Easter",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Fifth Sunday of Easter",
+      "celebration_id": "fifth_sunday_of_easter",
+      "disambiguation_tokens": [
+        "fifth",
+        "sunday",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "weekday": "Monday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "weekday": "Tuesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "weekday": "Wednesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "weekday": "Thursday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-08",
+      "weekday": "Friday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-09",
+      "weekday": "Saturday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "weekday": "Sunday",
+      "title_en": "Sixth Sunday of Easter",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Sixth Sunday of Easter",
+      "celebration_id": "sixth_sunday_of_easter",
+      "disambiguation_tokens": [
+        "sixth",
+        "sunday",
+        "easter"
+      ]
+    },
+    {
+      "date": "2026-05-11",
+      "weekday": "Monday",
+      "title_en": "Easter Weekday When the Ascension of the Lord is celebrated on the following Sunday, the Second Reading and Gospel from the",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday When the Ascension of the Lord is celebrated on the following Sunday, the Second Reading and Gospel from the",
+      "celebration_id": "easter_weekday_when_the_ascension_of_the_lord_is_celebrated_on_the_following_sun",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday",
+        "when",
+        "ascension",
+        "lord",
+        "celebrated",
+        "following",
+        "sunday",
+        "second",
+        "reading",
+        "gospel",
+        "from"
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "weekday": "Tuesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "red",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "weekday": "Wednesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "weekday": "Thursday",
+      "title_en": "Saint Matthias, Apostle",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Matthias, Apostle",
+      "celebration_id": "saint_matthias_apostle",
+      "disambiguation_tokens": [
+        "matthias",
+        "apostle"
+      ]
+    },
+    {
+      "date": "2026-05-15",
+      "weekday": "Friday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-16",
+      "weekday": "Saturday",
+      "title_en": "Easter Weekday Ecclesiastical Provinces of Boston, Hartford, New York, Omaha, Philadelphia:",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday Ecclesiastical Provinces of Boston, Hartford, New York, Omaha, Philadelphia:",
+      "celebration_id": "easter_weekday_ecclesiastical_provinces_of_boston_hartford_new_york_omaha_philad",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday",
+        "ecclesiastical",
+        "provinces",
+        "boston",
+        "hartford",
+        "york",
+        "omaha",
+        "philadelphia"
+      ]
+    },
+    {
+      "date": "2026-05-17",
+      "weekday": "Sunday",
+      "title_en": "The Ascension of the Lord",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Ascension of the Lord",
+      "celebration_id": "the_ascension_of_the_lord",
+      "disambiguation_tokens": [
+        "ascension",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "weekday": "Monday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "weekday": "Tuesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "weekday": "Wednesday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "weekday": "Thursday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "weekday": "Friday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-23",
+      "weekday": "Saturday",
+      "title_en": "Easter Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Easter Weekday",
+      "celebration_id": "easter_weekday",
+      "disambiguation_tokens": [
+        "easter",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "weekday": "Sunday",
+      "title_en": "Pentecost Sunday",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Pentecost Sunday",
+      "celebration_id": "pentecost_sunday",
+      "disambiguation_tokens": [
+        "pentecost",
+        "sunday"
+      ]
+    },
+    {
+      "date": "2026-05-25",
+      "weekday": "Monday",
+      "title_en": "The Blessed Virgin Mary, Mother of the Church (Eighth Week in Ordinary Time)",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Blessed Virgin Mary, Mother of the Church",
+      "celebration_id": "the_blessed_virgin_mary_mother_of_the_church",
+      "disambiguation_tokens": [
+        "mary",
+        "mother"
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "weekday": "Tuesday",
+      "title_en": "Saint Philip Neri, Priest",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Philip Neri, Priest",
+      "celebration_id": "saint_philip_neri_priest",
+      "disambiguation_tokens": [
+        "philip",
+        "neri"
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-28",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-05-31",
+      "weekday": "Sunday",
+      "title_en": "The Most Holy Trinity",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Most Holy Trinity",
+      "celebration_id": "the_most_holy_trinity",
+      "disambiguation_tokens": [
+        "most",
+        "holy",
+        "trinity"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "weekday": "Monday",
+      "title_en": "Saint Justin, Martyr (Ninth Week in Ordinary Time)",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Justin, Martyr",
+      "celebration_id": "saint_justin_martyr",
+      "disambiguation_tokens": [
+        "justin",
+        "martyr"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "weekday": "Wednesday",
+      "title_en": "Saint Charles Lwanga and Companions, Martyrs",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Charles Lwanga and Companions, Martyrs",
+      "celebration_id": "saint_charles_lwanga_and_companions_martyrs",
+      "disambiguation_tokens": [
+        "charles",
+        "lwanga",
+        "companions",
+        "martyrs"
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "weekday": "Friday",
+      "title_en": "Saint Boniface, Bishop and Martyr",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Boniface, Bishop and Martyr",
+      "celebration_id": "saint_boniface_bishop_and_martyr",
+      "disambiguation_tokens": [
+        "boniface",
+        "martyr"
+      ]
+    },
+    {
+      "date": "2026-06-06",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-07",
+      "weekday": "Sunday",
+      "title_en": "THE MOST HOLY BODY AND BLOOD OF CHRIST (Corpus Christi)",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "THE MOST HOLY BODY AND BLOOD OF CHRIST",
+      "celebration_id": "the_most_holy_body_and_blood_of_christ",
+      "disambiguation_tokens": [
+        "most",
+        "holy",
+        "body",
+        "blood",
+        "christ"
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "weekday": "Monday",
+      "title_en": "Weekday (Tenth Week in Ordinary Time)",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-10",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "weekday": "Thursday",
+      "title_en": "Saint Barnabas, Apostle",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Barnabas, Apostle",
+      "celebration_id": "saint_barnabas_apostle",
+      "disambiguation_tokens": [
+        "barnabas",
+        "apostle"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "weekday": "Friday",
+      "title_en": "The Most Sacred Heart of Jesus",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Most Sacred Heart of Jesus",
+      "celebration_id": "the_most_sacred_heart_of_jesus",
+      "disambiguation_tokens": [
+        "most",
+        "sacred",
+        "heart",
+        "jesus"
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [
+        "[The Immaculate Heart of the Blessed Virgin Mary; Saint Anthony of Padua, Priest and Doctor of the Church; BVM]"
+      ],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-14",
+      "weekday": "Sunday",
+      "title_en": "Eleventh Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Eleventh Sunday in Ordinary Time",
+      "celebration_id": "eleventh_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "eleventh",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-20",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "weekday": "Sunday",
+      "title_en": "Twelfth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twelfth Sunday in Ordinary Time",
+      "celebration_id": "twelfth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twelfth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "red"
+      ],
+      "optional_memorials": [
+        "[Saint Paulinus of Nola, Bishop; Saints John Fisher, Bishop, and Thomas More, Martyrs]"
+      ],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "weekday": "Wednesday",
+      "title_en": "The Nativity of Saint John the Baptist",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Nativity of Saint John the Baptist",
+      "celebration_id": "the_nativity_of_saint_john_the_baptist",
+      "disambiguation_tokens": [
+        "nativity",
+        "john",
+        "baptist"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "weekday": "Sunday",
+      "title_en": "Thirteenth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Thirteenth Sunday in Ordinary Time",
+      "celebration_id": "thirteenth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "thirteenth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "weekday": "Monday",
+      "title_en": "Saints Peter and Paul, Apostles",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saints Peter and Paul, Apostles",
+      "celebration_id": "saints_peter_and_paul_apostles",
+      "disambiguation_tokens": [
+        "saints",
+        "peter",
+        "paul",
+        "apostles"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-02",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "weekday": "Friday",
+      "title_en": "Saint Thomas, Apostle",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Thomas, Apostle",
+      "celebration_id": "saint_thomas_apostle",
+      "disambiguation_tokens": [
+        "thomas",
+        "apostle"
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "weekday": "Sunday",
+      "title_en": "Fourteenth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Fourteenth Sunday in Ordinary Time",
+      "celebration_id": "fourteenth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "fourteenth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "weekday": "Saturday",
+      "title_en": "Saint Benedict, Abbot",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Benedict, Abbot",
+      "celebration_id": "saint_benedict_abbot",
+      "disambiguation_tokens": [
+        "benedict"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "weekday": "Sunday",
+      "title_en": "Fifteenth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Fifteenth Sunday in Ordinary Time",
+      "celebration_id": "fifteenth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "fifteenth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "weekday": "Tuesday",
+      "title_en": "Saint Kateri Tekakwitha, Virgin",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Kateri Tekakwitha, Virgin",
+      "celebration_id": "saint_kateri_tekakwitha_virgin",
+      "disambiguation_tokens": [
+        "kateri",
+        "tekakwitha"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "weekday": "Wednesday",
+      "title_en": "Saint Bonaventure, Bishop and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Bonaventure, Bishop and Doctor of the Church",
+      "celebration_id": "saint_bonaventure_bishop_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "bonaventure"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "weekday": "Sunday",
+      "title_en": "Sixteenth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Sixteenth Sunday in Ordinary Time",
+      "celebration_id": "sixteenth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "sixteenth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "weekday": "Wednesday",
+      "title_en": "Saint Mary Magdalene",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Mary Magdalene",
+      "celebration_id": "saint_mary_magdalene",
+      "disambiguation_tokens": [
+        "mary",
+        "magdalene"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "weekday": "Saturday",
+      "title_en": "Saint James, Apostle",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint James, Apostle",
+      "celebration_id": "saint_james_apostle",
+      "disambiguation_tokens": [
+        "james",
+        "apostle"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "weekday": "Sunday",
+      "title_en": "Seventeenth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Seventeenth Sunday in Ordinary Time",
+      "celebration_id": "seventeenth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "seventeenth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "weekday": "Wednesday",
+      "title_en": "Saints Martha, Mary, and Lazarus",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saints Martha, Mary, and Lazarus",
+      "celebration_id": "saints_martha_mary_and_lazarus",
+      "disambiguation_tokens": [
+        "saints",
+        "martha",
+        "mary",
+        "lazarus"
+      ]
+    },
+    {
+      "date": "2026-07-30",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-07-31",
+      "weekday": "Friday",
+      "title_en": "Saint Ignatius of Loyola, Priest",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Ignatius of Loyola, Priest",
+      "celebration_id": "saint_ignatius_of_loyola_priest",
+      "disambiguation_tokens": [
+        "ignatius",
+        "loyola"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "weekday": "Saturday",
+      "title_en": "Saint Alphonsus Liguori, Bishop and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Alphonsus Liguori, Bishop and Doctor of the Church",
+      "celebration_id": "saint_alphonsus_liguori_bishop_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "alphonsus",
+        "liguori"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "weekday": "Sunday",
+      "title_en": "Eighteenth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Eighteenth Sunday in Ordinary Time",
+      "celebration_id": "eighteenth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "eighteenth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "weekday": "Tuesday",
+      "title_en": "Saint John Vianney, Priest",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint John Vianney, Priest",
+      "celebration_id": "saint_john_vianney_priest",
+      "disambiguation_tokens": [
+        "john",
+        "vianney"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "weekday": "Thursday",
+      "title_en": "The Transfiguration of the Lord",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Transfiguration of the Lord",
+      "celebration_id": "the_transfiguration_of_the_lord",
+      "disambiguation_tokens": [
+        "transfiguration",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "weekday": "Saturday",
+      "title_en": "Saint Dominic, Priest",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Dominic, Priest",
+      "celebration_id": "saint_dominic_priest",
+      "disambiguation_tokens": [
+        "dominic"
+      ]
+    },
+    {
+      "date": "2026-08-09",
+      "weekday": "Sunday",
+      "title_en": "Nineteenth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Nineteenth Sunday in Ordinary Time",
+      "celebration_id": "nineteenth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "nineteenth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "weekday": "Monday",
+      "title_en": "Saint Lawrence, Deacon and Martyr",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Lawrence, Deacon and Martyr",
+      "celebration_id": "saint_lawrence_deacon_and_martyr",
+      "disambiguation_tokens": [
+        "lawrence",
+        "martyr"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "weekday": "Tuesday",
+      "title_en": "Saint Clare, Virgin",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Clare, Virgin",
+      "celebration_id": "saint_clare_virgin",
+      "disambiguation_tokens": [
+        "clare"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "weekday": "Friday",
+      "title_en": "Saint Maximilian Kolbe, Priest and Martyr",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Maximilian Kolbe, Priest and Martyr",
+      "celebration_id": "saint_maximilian_kolbe_priest_and_martyr",
+      "disambiguation_tokens": [
+        "maximilian",
+        "kolbe",
+        "martyr"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "weekday": "Saturday",
+      "title_en": "The Assumption of the Blessed Virgin Mary",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": true,
+      "color": "white",
+      "name_core": "The Assumption of the Blessed Virgin Mary",
+      "celebration_id": "the_assumption_of_the_blessed_virgin_mary",
+      "disambiguation_tokens": [
+        "assumption",
+        "mary"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "weekday": "Sunday",
+      "title_en": "Twentieth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twentieth Sunday in Ordinary Time",
+      "celebration_id": "twentieth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twentieth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "weekday": "Thursday",
+      "title_en": "Saint Bernard, Abbot and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Bernard, Abbot and Doctor of the Church",
+      "celebration_id": "saint_bernard_abbot_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "bernard"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "weekday": "Friday",
+      "title_en": "Saint Pius X, Pope",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Pius X, Pope",
+      "celebration_id": "saint_pius_x_pope",
+      "disambiguation_tokens": [
+        "pius"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "weekday": "Saturday",
+      "title_en": "The Queenship of the Blessed Virgin Mary",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Queenship of the Blessed Virgin Mary",
+      "celebration_id": "the_queenship_of_the_blessed_virgin_mary",
+      "disambiguation_tokens": [
+        "queenship",
+        "mary"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "weekday": "Sunday",
+      "title_en": "Twenty-first Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twenty-first Sunday in Ordinary Time",
+      "celebration_id": "twenty_first_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twenty",
+        "first",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "weekday": "Monday",
+      "title_en": "Saint Bartholomew, Apostle",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Bartholomew, Apostle",
+      "celebration_id": "saint_bartholomew_apostle",
+      "disambiguation_tokens": [
+        "bartholomew",
+        "apostle"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "weekday": "Thursday",
+      "title_en": "Saint Monica",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Monica",
+      "celebration_id": "saint_monica",
+      "disambiguation_tokens": [
+        "monica"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "weekday": "Friday",
+      "title_en": "Saint Augustine, Bishop and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Augustine, Bishop and Doctor of the Church",
+      "celebration_id": "saint_augustine_bishop_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "augustine"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "weekday": "Saturday",
+      "title_en": "The Passion of Saint John the Baptist",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "The Passion of Saint John the Baptist",
+      "celebration_id": "the_passion_of_saint_john_the_baptist",
+      "disambiguation_tokens": [
+        "passion",
+        "john",
+        "baptist"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "weekday": "Sunday",
+      "title_en": "Twenty-second Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twenty-second Sunday in Ordinary Time",
+      "celebration_id": "twenty_second_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twenty",
+        "second",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "weekday": "Thursday",
+      "title_en": "Saint Gregory the Great, Pope and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Gregory the Great, Pope and Doctor of the Church",
+      "celebration_id": "saint_gregory_the_great_pope_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "gregory",
+        "great"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "weekday": "Sunday",
+      "title_en": "Twenty-third Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twenty-third Sunday in Ordinary Time",
+      "celebration_id": "twenty_third_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twenty",
+        "third",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "weekday": "Tuesday",
+      "title_en": "The Nativity of the Blessed Virgin Mary",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Nativity of the Blessed Virgin Mary",
+      "celebration_id": "the_nativity_of_the_blessed_virgin_mary",
+      "disambiguation_tokens": [
+        "nativity",
+        "mary"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "weekday": "Wednesday",
+      "title_en": "Saint Peter Claver, Priest",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Peter Claver, Priest",
+      "celebration_id": "saint_peter_claver_priest",
+      "disambiguation_tokens": [
+        "peter",
+        "claver"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "weekday": "Sunday",
+      "title_en": "Twenty-fourth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twenty-fourth Sunday in Ordinary Time",
+      "celebration_id": "twenty_fourth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twenty",
+        "fourth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "weekday": "Monday",
+      "title_en": "The Exaltation of the Holy Cross",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "The Exaltation of the Holy Cross",
+      "celebration_id": "the_exaltation_of_the_holy_cross",
+      "disambiguation_tokens": [
+        "exaltation",
+        "holy",
+        "cross"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "weekday": "Tuesday",
+      "title_en": "Our Lady of Sorrows",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Our Lady of Sorrows",
+      "celebration_id": "our_lady_of_sorrows",
+      "disambiguation_tokens": [
+        "lady",
+        "sorrows"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "weekday": "Wednesday",
+      "title_en": "Saints Cornelius, Pope, and Cyprian, Bishop, Martyrs",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saints Cornelius, Pope, and Cyprian, Bishop, Martyrs",
+      "celebration_id": "saints_cornelius_pope_and_cyprian_bishop_martyrs",
+      "disambiguation_tokens": [
+        "saints",
+        "cornelius",
+        "pope",
+        "cyprian",
+        "bishop",
+        "martyrs"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [
+        "[Saint Robert Bellarmine, Bishop and Doctor of the Church; Saint Hildegard of Bingen, Virgin and Doctor of the Church]"
+      ],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "weekday": "Sunday",
+      "title_en": "Twenty-fifth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twenty-fifth Sunday in Ordinary Time",
+      "celebration_id": "twenty_fifth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twenty",
+        "fifth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "weekday": "Monday",
+      "title_en": "Saint Matthew, Apostle and Evangelist",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Matthew, Apostle and Evangelist",
+      "celebration_id": "saint_matthew_apostle_and_evangelist",
+      "disambiguation_tokens": [
+        "matthew",
+        "apostle",
+        "evangelist"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "weekday": "Wednesday",
+      "title_en": "Saint Pius of Pietrelcina, Priest",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Pius of Pietrelcina, Priest",
+      "celebration_id": "saint_pius_of_pietrelcina_priest",
+      "disambiguation_tokens": [
+        "pius",
+        "pietrelcina"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "weekday": "Sunday",
+      "title_en": "Twenty-sixth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twenty-sixth Sunday in Ordinary Time",
+      "celebration_id": "twenty_sixth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twenty",
+        "sixth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "weekday": "Tuesday",
+      "title_en": "Saints Michael, Gabriel and Raphael, Archangels",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saints Michael, Gabriel and Raphael, Archangels",
+      "celebration_id": "saints_michael_gabriel_and_raphael_archangels",
+      "disambiguation_tokens": [
+        "saints",
+        "michael",
+        "gabriel",
+        "raphael",
+        "archangels"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "weekday": "Wednesday",
+      "title_en": "Saint Jerome, Priest and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Jerome, Priest and Doctor of the Church",
+      "celebration_id": "saint_jerome_priest_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "jerome"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "weekday": "Thursday",
+      "title_en": "Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
+      "celebration_id": "saint_th_r_se_of_the_child_jesus_virgin_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "thérèse",
+        "child",
+        "jesus"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "weekday": "Friday",
+      "title_en": "The Holy Guardian Angels",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Holy Guardian Angels",
+      "celebration_id": "the_holy_guardian_angels",
+      "disambiguation_tokens": [
+        "holy",
+        "guardian",
+        "angels"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "weekday": "Sunday",
+      "title_en": "Twenty-seventh Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twenty-seventh Sunday in Ordinary Time",
+      "celebration_id": "twenty_seventh_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twenty",
+        "seventh",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [
+        "[Saint Faustina Kowalska, Virgin; USA: Blessed Francis Xavier Seelos, Priest]"
+      ],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "weekday": "Wednesday",
+      "title_en": "Our Lady of the Rosary",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Our Lady of the Rosary",
+      "celebration_id": "our_lady_of_the_rosary",
+      "disambiguation_tokens": [
+        "lady",
+        "rosary"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [
+        "[Saint Denis, Bishop, and Companions, Martyrs; Saint John Leonardi, Priest; Saint John Henry Newman, Priest and Doctor of the Church]"
+      ],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "weekday": "Sunday",
+      "title_en": "Twenty-eighth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twenty-eighth Sunday in Ordinary Time",
+      "celebration_id": "twenty_eighth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twenty",
+        "eighth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "weekday": "Thursday",
+      "title_en": "Saint Teresa of Jesus, Virgin and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Teresa of Jesus, Virgin and Doctor of the Church",
+      "celebration_id": "saint_teresa_of_jesus_virgin_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "teresa",
+        "jesus"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "weekday": "Saturday",
+      "title_en": "Saint Ignatius of Antioch, Bishop and Martyr",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Ignatius of Antioch, Bishop and Martyr",
+      "celebration_id": "saint_ignatius_of_antioch_bishop_and_martyr",
+      "disambiguation_tokens": [
+        "ignatius",
+        "antioch",
+        "martyr"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "weekday": "Sunday",
+      "title_en": "Twenty-ninth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Twenty-ninth Sunday in Ordinary Time",
+      "celebration_id": "twenty_ninth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "twenty",
+        "ninth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "weekday": "Monday",
+      "title_en": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+      "celebration_id": "saints_john_de_br_beuf_and_isaac_jogues_priests_and_companions_martyrs",
+      "disambiguation_tokens": [
+        "saints",
+        "john",
+        "brébeuf",
+        "isaac",
+        "jogues",
+        "priests",
+        "companions",
+        "martyrs"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "weekday": "Sunday",
+      "title_en": "Thirtieth Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Thirtieth Sunday in Ordinary Time",
+      "celebration_id": "thirtieth_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "thirtieth",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "weekday": "Wednesday",
+      "title_en": "Saints Simon and Jude, Apostles",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saints Simon and Jude, Apostles",
+      "celebration_id": "saints_simon_and_jude_apostles",
+      "disambiguation_tokens": [
+        "saints",
+        "simon",
+        "jude",
+        "apostles"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "weekday": "Sunday",
+      "title_en": "All Saints",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "All Saints",
+      "celebration_id": "all_saints",
+      "disambiguation_tokens": [
+        "saints"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "weekday": "Monday",
+      "title_en": "The Commemoration of All the Faithful Departed (All Souls’ Day)",
+      "rank": "Commemoration",
+      "kind": "commemoration",
+      "color_raw": [
+        "violet",
+        "white",
+        "black"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "The Commemoration of All the Faithful Departed",
+      "celebration_id": "the_commemoration_of_all_the_faithful_departed",
+      "disambiguation_tokens": [
+        "commemoration",
+        "faithful",
+        "departed"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "weekday": "Tuesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "weekday": "Wednesday",
+      "title_en": "Saint Charles Borromeo, Bishop",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Charles Borromeo, Bishop",
+      "celebration_id": "saint_charles_borromeo_bishop",
+      "disambiguation_tokens": [
+        "charles",
+        "borromeo"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "weekday": "Sunday",
+      "title_en": "Thirty-second Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Thirty-second Sunday in Ordinary Time",
+      "celebration_id": "thirty_second_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "thirty",
+        "second",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "weekday": "Monday",
+      "title_en": "The Dedication of the Lateran Basilica",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Dedication of the Lateran Basilica",
+      "celebration_id": "the_dedication_of_the_lateran_basilica",
+      "disambiguation_tokens": [
+        "dedication",
+        "lateran",
+        "basilica"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "weekday": "Tuesday",
+      "title_en": "Saint Leo the Great, Pope and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Leo the Great, Pope and Doctor of the Church",
+      "celebration_id": "saint_leo_the_great_pope_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "great"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "weekday": "Wednesday",
+      "title_en": "Saint Martin of Tours, Bishop",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Martin of Tours, Bishop",
+      "celebration_id": "saint_martin_of_tours_bishop",
+      "disambiguation_tokens": [
+        "martin",
+        "tours"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "weekday": "Thursday",
+      "title_en": "Saint Josaphat, Bishop and Martyr",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Josaphat, Bishop and Martyr",
+      "celebration_id": "saint_josaphat_bishop_and_martyr",
+      "disambiguation_tokens": [
+        "josaphat",
+        "martyr"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "weekday": "Friday",
+      "title_en": "Saint Frances Xavier Cabrini, Virgin",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Frances Xavier Cabrini, Virgin",
+      "celebration_id": "saint_frances_xavier_cabrini_virgin",
+      "disambiguation_tokens": [
+        "frances",
+        "xavier",
+        "cabrini"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "weekday": "Sunday",
+      "title_en": "Thirty-third Sunday in Ordinary Time",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Thirty-third Sunday in Ordinary Time",
+      "celebration_id": "thirty_third_sunday_in_ordinary_time",
+      "disambiguation_tokens": [
+        "thirty",
+        "third",
+        "sunday",
+        "ordinary",
+        "time"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "weekday": "Tuesday",
+      "title_en": "Saint Elizabeth of Hungary, Religious",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Elizabeth of Hungary, Religious",
+      "celebration_id": "saint_elizabeth_of_hungary_religious",
+      "disambiguation_tokens": [
+        "elizabeth",
+        "hungary"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white",
+        "white"
+      ],
+      "optional_memorials": [
+        "[The Dedication of the Basilicas of Saints Peter and Paul, Apostles; USA: Saint Rose Philippine Duchesne, Virgin]"
+      ],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "weekday": "Saturday",
+      "title_en": "The Presentation of the Blessed Virgin Mary",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Presentation of the Blessed Virgin Mary",
+      "celebration_id": "the_presentation_of_the_blessed_virgin_mary",
+      "disambiguation_tokens": [
+        "presentation",
+        "mary"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "weekday": "Sunday",
+      "title_en": "Our Lord Jesus Christ, King of the Universe",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Our Lord Jesus Christ, King of the Universe",
+      "celebration_id": "our_lord_jesus_christ_king_of_the_universe",
+      "disambiguation_tokens": [
+        "lord",
+        "jesus",
+        "christ",
+        "universe"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "weekday": "Monday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red",
+        "white",
+        "red"
+      ],
+      "optional_memorials": [
+        "[Saint Clement I, Pope and Martyr; Saint Columban, Abbot; USA: Blessed Miguel Agustín Pro, Priest and Martyr]"
+      ],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "Tuesday",
+      "title_en": "Saint Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+      "celebration_id": "saint_andrew_d_ng_l_c_priest_and_companions_martyrs",
+      "disambiguation_tokens": [
+        "andrew",
+        "dũng",
+        "priest",
+        "companions",
+        "martyrs"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "Wednesday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "Thursday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "Friday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "weekday": "Saturday",
+      "title_en": "Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "green",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "green",
+      "name_core": "Weekday",
+      "celebration_id": "weekday",
+      "disambiguation_tokens": [
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "weekday": "Sunday",
+      "title_en": "First Sunday of Advent",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "First Sunday of Advent",
+      "celebration_id": "first_sunday_of_advent",
+      "disambiguation_tokens": [
+        "first",
+        "sunday",
+        "advent"
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "weekday": "Monday",
+      "title_en": "Saint Andrew, Apostle",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Andrew, Apostle",
+      "celebration_id": "saint_andrew_apostle",
+      "disambiguation_tokens": [
+        "andrew",
+        "apostle"
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "weekday": "Tuesday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "weekday": "Wednesday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "weekday": "Thursday",
+      "title_en": "Saint Francis Xavier, Priest",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Francis Xavier, Priest",
+      "celebration_id": "saint_francis_xavier_priest",
+      "disambiguation_tokens": [
+        "francis",
+        "xavier"
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "weekday": "Friday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-05",
+      "weekday": "Saturday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-06",
+      "weekday": "Sunday",
+      "title_en": "Second Sunday of Advent",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Second Sunday of Advent",
+      "celebration_id": "second_sunday_of_advent",
+      "disambiguation_tokens": [
+        "second",
+        "sunday",
+        "advent"
+      ]
+    },
+    {
+      "date": "2026-12-07",
+      "weekday": "Monday",
+      "title_en": "Saint Ambrose, Bishop and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint Ambrose, Bishop and Doctor of the Church",
+      "celebration_id": "saint_ambrose_bishop_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "ambrose"
+      ]
+    },
+    {
+      "date": "2026-12-08",
+      "weekday": "Tuesday",
+      "title_en": "THE IMMACULATE CONCEPTION OF THE BLESSED VIRGIN MARY (Patronal Feastday of the United States of America)",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": true,
+      "color": "white",
+      "name_core": "THE IMMACULATE CONCEPTION OF THE BLESSED VIRGIN MARY",
+      "celebration_id": "the_immaculate_conception_of_the_blessed_virgin_mary",
+      "disambiguation_tokens": [
+        "immaculate",
+        "conception",
+        "mary"
+      ]
+    },
+    {
+      "date": "2026-12-09",
+      "weekday": "Wednesday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-10",
+      "weekday": "Thursday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-11",
+      "weekday": "Friday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet",
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "weekday": "Saturday",
+      "title_en": "Our Lady of Guadalupe",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Our Lady of Guadalupe",
+      "celebration_id": "our_lady_of_guadalupe",
+      "disambiguation_tokens": [
+        "lady",
+        "guadalupe"
+      ]
+    },
+    {
+      "date": "2026-12-13",
+      "weekday": "Sunday",
+      "title_en": "Third Sunday of Advent",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "violet",
+        "rose"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Third Sunday of Advent",
+      "celebration_id": "third_sunday_of_advent",
+      "disambiguation_tokens": [
+        "third",
+        "sunday",
+        "advent"
+      ]
+    },
+    {
+      "date": "2026-12-14",
+      "weekday": "Monday",
+      "title_en": "Saint John of the Cross, Priest and Doctor of the Church",
+      "rank": "Memorial",
+      "kind": "memorial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Saint John of the Cross, Priest and Doctor of the Church",
+      "celebration_id": "saint_john_of_the_cross_priest_and_doctor_of_the_church",
+      "disambiguation_tokens": [
+        "john",
+        "cross"
+      ]
+    },
+    {
+      "date": "2026-12-15",
+      "weekday": "Tuesday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-16",
+      "weekday": "Wednesday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-17",
+      "weekday": "Thursday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-18",
+      "weekday": "Friday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-19",
+      "weekday": "Saturday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-20",
+      "weekday": "Sunday",
+      "title_en": "Fourth Sunday of Advent",
+      "rank": "Sunday",
+      "kind": "sunday",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Fourth Sunday of Advent",
+      "celebration_id": "fourth_sunday_of_advent",
+      "disambiguation_tokens": [
+        "fourth",
+        "sunday",
+        "advent"
+      ]
+    },
+    {
+      "date": "2026-12-21",
+      "weekday": "Monday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-22",
+      "weekday": "Tuesday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-23",
+      "weekday": "Wednesday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-24",
+      "weekday": "Thursday",
+      "title_en": "Advent Weekday",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "violet"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "purple",
+      "name_core": "Advent Weekday",
+      "celebration_id": "advent_weekday",
+      "disambiguation_tokens": [
+        "advent",
+        "weekday"
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "weekday": "Friday",
+      "title_en": "THE NATIVITY OF THE LORD (Christmas)",
+      "rank": "Solemnity",
+      "kind": "solemnity",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": true,
+      "color": "white",
+      "name_core": "THE NATIVITY OF THE LORD",
+      "celebration_id": "the_nativity_of_the_lord",
+      "disambiguation_tokens": [
+        "nativity",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-12-26",
+      "weekday": "Saturday",
+      "title_en": "Saint Stephen, The First Martyr",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "Saint Stephen, The First Martyr",
+      "celebration_id": "saint_stephen_the_first_martyr",
+      "disambiguation_tokens": [
+        "stephen",
+        "first",
+        "martyr"
+      ]
+    },
+    {
+      "date": "2026-12-27",
+      "weekday": "Sunday",
+      "title_en": "The Holy Family of Jesus, Mary and Joseph",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "The Holy Family of Jesus, Mary and Joseph",
+      "celebration_id": "the_holy_family_of_jesus_mary_and_joseph",
+      "disambiguation_tokens": [
+        "holy",
+        "family",
+        "jesus",
+        "mary",
+        "joseph"
+      ]
+    },
+    {
+      "date": "2026-12-28",
+      "weekday": "Monday",
+      "title_en": "The Holy Innocents, Martyrs",
+      "rank": "Feast",
+      "kind": "feast",
+      "color_raw": [
+        "red"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "red",
+      "name_core": "The Holy Innocents, Martyrs",
+      "celebration_id": "the_holy_innocents_martyrs",
+      "disambiguation_tokens": [
+        "holy",
+        "innocents",
+        "martyrs"
+      ]
+    },
+    {
+      "date": "2026-12-29",
+      "weekday": "Tuesday",
+      "title_en": "Fifth Day within the Octave of the Nativity of the Lord",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Fifth Day within the Octave of the Nativity of the Lord",
+      "celebration_id": "fifth_day_within_the_octave_of_the_nativity_of_the_lord",
+      "disambiguation_tokens": [
+        "fifth",
+        "within",
+        "octave",
+        "nativity",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-12-30",
+      "weekday": "Wednesday",
+      "title_en": "Sixth Day within the Octave of the Nativity of the Lord",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Sixth Day within the Octave of the Nativity of the Lord",
+      "celebration_id": "sixth_day_within_the_octave_of_the_nativity_of_the_lord",
+      "disambiguation_tokens": [
+        "sixth",
+        "within",
+        "octave",
+        "nativity",
+        "lord"
+      ]
+    },
+    {
+      "date": "2026-12-31",
+      "weekday": "Thursday",
+      "title_en": "Seventh Day within the Octave of the Nativity of the Lord conmemoraciones de santos y beatos que se incluyen en esos calendarios particulares. Más información está disponible en las Normas universales sobre el año litúrgico y sobre el calendario, particularmente en el capítulo II. puede hacer memoria libre de la Virgen María” (Normas universales sobre el año litúrgico y sobre el oraciones pueden ser seleccionadas del Común de la Bienaventurada Virgen María o las Misas votivas de la Bienaventurada Virgen María en el Misal Romano, o en las Misas de la Virgen María, vols. I y II. Inmaculada Concepción como las dos únicas fiestas de precepto para el estado de Hawái. Esto implementa el indulto recibido por la Congregación para el Culto Divino y la Disciplina de los Obispos Católicos que permite a Hawái legislar sobre este asunto de acuerdo con las normas de la Conferencia Episcopal del Pacífico (CEPAC). Día de Acción de Gracias, ya que están inscritos en el Calendario propio para las diócesis de los Estados Unidos de América, pero no incluye otros días cívicos festivos comúnmente celebrados en este país (por ejemplo, Día de Martin Luther King Jr., Día de los Caídos, Día del Trabajo, etc.). apropiadas, pero este calendario no hace ninguna recomendación para esas fiestas. de Boston, Hartford, Nueva York, Omaha y Filadelfia. Todas las demás provincias eclesiásticas Corazón Inmaculado de la Bienaventurada Virgen María se convierte en una memoria libre un día de la semana del Tiempo Ordinario, así como las memorias libres del Corazón Inmaculado de la Bienaventurada Virgen María, de san Antonio de Padua, presbítero y doctor de la Iglesia, y de la Bienaventurada Virgen María en sábado. Estados Unidos de América, porque es sábado, este año se abroga la obligación de asistir a Misa en esta fecha. CALENDARIO PROPIO PARA LAS DIÓCESIS DE LOS ESTADOS UNIDOS DE AMÉRICA en el vientre materno Santa Mariana Cope, virgen y compañeros, mártires Cuarto jueves Día de Acción de Gracias de noviembre BIENAVENTURADA VIRGEN MARÍA (Fiesta Patronal de los Estados Unidos de América) EPIFANÍA DEL SEÑOR Solemnidad Domingo después de la Santísima Trinidad: SANTÍSIMO CUERPO Y SANGRE DE CRISTO Solemnidad (Corpus Christi) * Cuando no se indica el grado de la celebración, significa “memoria libre”. ** TÍTULOS LITÚRGICOS PROPIO DEL TIEMPO Tiempo de Adviento y Tiempo de Navidad Santísima Trinidad Santísimo Cuerpo y Sangre de Cristo (Corpus Christi) Sagrado Corazón de Jesús Nuestro Señor Jesucristo, Rey del Universo PROPIO DE LOS SANTOS Virgen María presbítero presbítero Santa María Magdalena de Pazzi, virgen Lunes después del Pentecostés Bienaventurada Virgen María, Madre de la Iglesia Sábado siguiente al segundo domingo después de Pentecostés Corazón Inmaculado de la Bienaventurada Virgen María virgen y doctora de la Iglesia mártires San Juan Enrique Newman, presbítero y doctor de la Iglesia Filipina Duchesne, virgen presbítero y mártir Cuarto jueves Día de Acción de Gracias los Estados Unidos de América) FIESTAS PATRONALES Although not inscribed in the Proper Calendar for the Dioceses of the United States of America, the following patronal feasts appear in Appendix I of the U.S. edition of the Misal Romano, Tercera Votive Masses are permitted. Aunque no están inscritas en el Calendario propio para las diócesis de los Estados Unidos de América, las siguientes fiestas patronales aparecen en el apéndice I de la edición estadounidense del Misal Romano, siempre que estén permitidas las Misas votivas.",
+      "rank": "Feria",
+      "kind": "ferial",
+      "color_raw": [
+        "white"
+      ],
+      "optional_memorials": [
+        "[Saint Sylvester I, Pope] 1 Jn 2:18-21/Jn 1:1-18 (204) Pss Prop      APPENDIX / APÉNDICE  For the benefit of those who prepare Spanish-language liturgical calendars and ordines, the following sections of the Liturgical Calendar are presented here in Spanish: Miscellaneous Notes, Proper Calendar for the Dioceses of the United States of America, and the titles of the liturgical days, as given in the U.S. edition of the Misal Romano, Tercera Edición (2018).  Para el beneficio de aquellos que preparan calendarios litúrgicos y ordines en español, las siguientes secciones del Liturgical Calendar se presentan aquí en español: Notas misceláneas, Calendario propio para las diócesis de los Estados Unidos de América y los títulos de los días litúrgicos, según se ofrece en la edición estadounidense del Misal Romano, Tercera Edición (2018).  NOTAS MISCELÁNEAS  1. Las citas de las escrituras en inglés se basan en New American Bible con el Nuevo Testamento revisado y pueden diferir ligeramente de las citas dadas en el Ordo Lectionum Missae (1981) debido a diferencias en la versificación.  2. En la preparación de los calendarios diocesanos y provinciales y ordines, deben añadirse la dedicación de las catedrales diocesanas, la dedicación de las iglesias parroquiales y los días especiales de oración (cfr. Institución General del Misal Romano [IGMR], n. 373), junto con otras",
+        "[II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, XIII, XIV, XV, XVI, XVII, XVIII, XIX, XX, XXI, XXII, XXIII, XXIV, XXV, XXVI, XXVII, XXVIII, XXIX, XXX, XXXI, XXXII, XXXIII] Domingo del Tiempo Ordinario"
+      ],
+      "holyday_of_obligation": false,
+      "color": "white",
+      "name_core": "Seventh Day within the Octave of the Nativity of the Lord conmemoraciones de santos y beatos que se incluyen en esos calendarios particulares. Más información está disponible en las Normas universales sobre el año litúrgico y sobre el calendario, particularmente en el capítulo II. puede hacer memoria libre de la Virgen María” . Día de Acción de Gracias, ya que están inscritos en el Calendario propio para las diócesis de los Estados Unidos de América, pero no incluye otros días cívicos festivos comúnmente celebrados en este país . apropiadas, pero este calendario no hace ninguna recomendación para esas fiestas. de Boston, Hartford, Nueva York, Omaha y Filadelfia. Todas las demás provincias eclesiásticas Corazón Inmaculado de la Bienaventurada Virgen María se convierte en una memoria libre un día de la semana del Tiempo Ordinario, así como las memorias libres del Corazón Inmaculado de la Bienaventurada Virgen María, de san Antonio de Padua, presbítero y doctor de la Iglesia, y de la Bienaventurada Virgen María en sábado. Estados Unidos de América, porque es sábado, este año se abroga la obligación de asistir a Misa en esta fecha. CALENDARIO PROPIO PARA LAS DIÓCESIS DE LOS ESTADOS UNIDOS DE AMÉRICA en el vientre materno Santa Mariana Cope, virgen y compañeros, mártires Cuarto jueves Día de Acción de Gracias de noviembre BIENAVENTURADA VIRGEN MARÍA EPIFANÍA DEL SEÑOR Solemnidad Domingo después de la Santísima Trinidad: SANTÍSIMO CUERPO Y SANGRE DE CRISTO Solemnidad * Cuando no se indica el grado de la celebración, significa “memoria libre”. ** TÍTULOS LITÚRGICOS PROPIO DEL TIEMPO Tiempo de Adviento y Tiempo de Navidad Santísima Trinidad Santísimo Cuerpo y Sangre de Cristo Sagrado Corazón de Jesús Nuestro Señor Jesucristo, Rey del Universo PROPIO DE LOS SANTOS Virgen María presbítero presbítero Santa María Magdalena de Pazzi, virgen Lunes después del Pentecostés Bienaventurada Virgen María, Madre de la Iglesia Sábado siguiente al segundo domingo después de Pentecostés Corazón Inmaculado de la Bienaventurada Virgen María virgen y doctora de la Iglesia mártires San Juan Enrique Newman, presbítero y doctor de la Iglesia Filipina Duchesne, virgen presbítero y mártir Cuarto jueves Día de Acción de Gracias los Estados Unidos de América) FIESTAS PATRONALES Although not inscribed in the Proper Calendar for the Dioceses of the United States of America, the following patronal feasts appear in Appendix I of the U.S. edition of the Misal Romano, Tercera Votive Masses are permitted. Aunque no están inscritas en el Calendario propio para las diócesis de los Estados Unidos de América, las siguientes fiestas patronales aparecen en el apéndice I de la edición estadounidense del Misal Romano, siempre que estén permitidas las Misas votivas.",
+      "celebration_id": "seventh_day_within_the_octave_of_the_nativity_of_the_lord_conmemoraciones_de_san",
+      "disambiguation_tokens": [
+        "seventh",
+        "within",
+        "octave",
+        "nativity",
+        "lord",
+        "conmemoraciones",
+        "santos",
+        "beatos",
+        "incluyen",
+        "esos",
+        "calendarios",
+        "particulares",
+        "información",
+        "está",
+        "disponible",
+        "normas",
+        "universales",
+        "sobre",
+        "litúrgico",
+        "sobre",
+        "calendario",
+        "particularmente",
+        "capítulo",
+        "puede",
+        "hacer",
+        "memoria",
+        "libre",
+        "virgen",
+        "maría”",
+        "acción",
+        "gracias",
+        "están",
+        "inscritos",
+        "calendario",
+        "propio",
+        "para",
+        "diócesis",
+        "estados",
+        "unidos",
+        "américa",
+        "pero",
+        "incluye",
+        "otros",
+        "días",
+        "cívicos",
+        "festivos",
+        "comúnmente",
+        "celebrados",
+        "este",
+        "país",
+        "apropiadas",
+        "pero",
+        "este",
+        "calendario",
+        "hace",
+        "ninguna",
+        "recomendación",
+        "para",
+        "esas",
+        "fiestas",
+        "boston",
+        "hartford",
+        "nueva",
+        "york",
+        "omaha",
+        "filadelfia",
+        "todas",
+        "demás",
+        "provincias",
+        "eclesiásticas",
+        "corazón",
+        "inmaculado",
+        "bienaventurada",
+        "virgen",
+        "maría",
+        "convierte",
+        "memoria",
+        "libre",
+        "semana",
+        "tiempo",
+        "ordinario",
+        "como",
+        "memorias",
+        "libres",
+        "corazón",
+        "inmaculado",
+        "bienaventurada",
+        "virgen",
+        "maría",
+        "antonio",
+        "padua",
+        "presbítero",
+        "iglesia",
+        "bienaventurada",
+        "virgen",
+        "maría",
+        "sábado",
+        "estados",
+        "unidos",
+        "américa",
+        "porque",
+        "sábado",
+        "este",
+        "abroga",
+        "obligación",
+        "asistir",
+        "misa",
+        "esta",
+        "fecha",
+        "calendario",
+        "propio",
+        "para",
+        "diócesis",
+        "estados",
+        "unidos",
+        "américa",
+        "vientre",
+        "materno",
+        "santa",
+        "mariana",
+        "cope",
+        "virgen",
+        "compañeros",
+        "mártires",
+        "cuarto",
+        "jueves",
+        "acción",
+        "gracias",
+        "noviembre",
+        "bienaventurada",
+        "virgen",
+        "maría",
+        "epifanía",
+        "señor",
+        "solemnidad",
+        "domingo",
+        "después",
+        "santísima",
+        "trinidad",
+        "santísimo",
+        "cuerpo",
+        "sangre",
+        "cristo",
+        "solemnidad",
+        "cuando",
+        "indica",
+        "grado",
+        "celebración",
+        "significa",
+        "“memoria",
+        "libre”",
+        "títulos",
+        "litúrgicos",
+        "propio",
+        "tiempo",
+        "tiempo",
+        "adviento",
+        "tiempo",
+        "navidad",
+        "santísima",
+        "trinidad",
+        "santísimo",
+        "cuerpo",
+        "sangre",
+        "cristo",
+        "sagrado",
+        "corazón",
+        "jesús",
+        "nuestro",
+        "señor",
+        "jesucristo",
+        "universo",
+        "propio",
+        "santos",
+        "virgen",
+        "maría",
+        "presbítero",
+        "presbítero",
+        "santa",
+        "maría",
+        "magdalena",
+        "pazzi",
+        "virgen",
+        "lunes",
+        "después",
+        "pentecostés",
+        "bienaventurada",
+        "virgen",
+        "maría",
+        "madre",
+        "iglesia",
+        "sábado",
+        "siguiente",
+        "segundo",
+        "domingo",
+        "después",
+        "pentecostés",
+        "corazón",
+        "inmaculado",
+        "bienaventurada",
+        "virgen",
+        "maría",
+        "virgen",
+        "doctora",
+        "iglesia",
+        "mártires",
+        "juan",
+        "enrique",
+        "newman",
+        "presbítero",
+        "iglesia",
+        "filipina",
+        "duchesne",
+        "virgen",
+        "presbítero",
+        "mártir",
+        "cuarto",
+        "jueves",
+        "acción",
+        "gracias",
+        "estados",
+        "unidos",
+        "américa)",
+        "fiestas",
+        "patronales",
+        "although",
+        "inscribed",
+        "proper",
+        "calendar",
+        "dioceses",
+        "united",
+        "states",
+        "america",
+        "following",
+        "patronal",
+        "feasts",
+        "appear",
+        "appendix",
+        "edition",
+        "misal",
+        "romano",
+        "tercera",
+        "votive",
+        "masses",
+        "permitted",
+        "aunque",
+        "están",
+        "inscritas",
+        "calendario",
+        "propio",
+        "para",
+        "diócesis",
+        "estados",
+        "unidos",
+        "américa",
+        "siguientes",
+        "fiestas",
+        "patronales",
+        "aparecen",
+        "apéndice",
+        "edición",
+        "estadounidense",
+        "misal",
+        "romano",
+        "siempre",
+        "estén",
+        "permitidas",
+        "misas",
+        "votivas"
+      ]
+    }
+  ]
+}
