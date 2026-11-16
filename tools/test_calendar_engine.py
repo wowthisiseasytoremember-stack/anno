@@ -13,6 +13,7 @@ Validates:
 
 from __future__ import annotations
 
+import importlib.util
 import json
 import re
 import sys
@@ -20,12 +21,28 @@ import unittest
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
-# Add project root and tools to sys.path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+TOOLS_DIR = PROJECT_ROOT / "tools"
 sys.path.insert(0, str(PROJECT_ROOT))
-sys.path.insert(0, str(PROJECT_ROOT / "tools"))
 
-from calendar_engine import convert_date, compute_julian_offset
+# Load the ROOT calendar_engine.py deterministically via an explicit file
+# path. tools/calendar_engine.py is a stale, unimported duplicate still
+# carrying the pre-fix calendar bugs (wrong Islamic epoch, Gregorian-month
+# boundaries, hardcoded PDT, sinusoidal sundown fallback); with tools/ on
+# sys.path a plain `import calendar_engine` resolves to it. Pin the root
+# module in sys.modules BEFORE tools/ is added to sys.path so nothing can
+# shadow it.
+_spec = importlib.util.spec_from_file_location(
+    "calendar_engine", PROJECT_ROOT / "calendar_engine.py"
+)
+calendar_engine = importlib.util.module_from_spec(_spec)
+sys.modules["calendar_engine"] = calendar_engine
+_spec.loader.exec_module(calendar_engine)
+
+convert_date = calendar_engine.convert_date
+compute_julian_offset = calendar_engine.compute_julian_offset
+
+sys.path.insert(0, str(TOOLS_DIR))
 from computus_engine import (
     compute_gregorian_easter,
     compute_julian_easter,
@@ -308,7 +325,7 @@ class TestConvertDateFutureYears(unittest.TestCase):
 
     def test_islamic_tabular_matches_known_2027_01_01(self) -> None:
         r = convert_date(date(2027, 1, 1))
-        self.assertEqual(r["islamic_tabular"]["date"], "25 Rajab 1448 AH")
+        self.assertEqual(r["islamic_tabular"]["date"], "22 Rajab 1448 AH")
 
 
 def main() -> None:
