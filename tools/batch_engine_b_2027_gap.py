@@ -231,7 +231,7 @@ def _url_live(url: str) -> bool:
             return r.status in (200, 401, 403, 405, 429)
     except urllib.error.HTTPError as e:
         return e.code in (401, 403, 405, 429)
-except Exception:
+    except Exception:
         return False
 
 
