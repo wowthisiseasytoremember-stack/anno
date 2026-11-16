@@ -160,6 +160,28 @@ jobs:
         run: python3 tools/validate_engine_b_output.py --fixture Anno/Resources/anno_unified_2026.json --check-sources
         continue-on-error: true
 
+  liturgical-audit:
+    name: 2026 liturgical audit (report-only until repairs land)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run offline all-days audit against pinned USCCB ground truth
+        # A5: report-only during the A4 repair batches. Flip to the fail-closed
+        # command (remove --report-only) once all 47 defects are cleared.
+        run: python3 tools/all_days_editorial.py audit --year 2026 --report-only
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: anno-audit-2026
+          path: build/audit_2026.json
+          if-no-files-found: warn
+          retention-days: 30
+
   content-integrity:
     name: Normalization + v1 route integrity
     runs-on: ubuntu-latest

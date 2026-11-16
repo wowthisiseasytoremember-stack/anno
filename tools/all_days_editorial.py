@@ -19,6 +19,7 @@ finding at the listed severities in range and no unverified rows in range.
 from __future__ import annotations
 
 import argparse
+import calendar
 import json
 import re
 import subprocess
@@ -499,7 +500,7 @@ def main() -> None:
     if args.month:
         y, m = (int(x) for x in args.month.split("-")[:2])
         since = date(y, m, 1)
-        until = date(y + (m == 12), 12 if m == 12 else m + 1, 31 if m == 12 else (date(y, m, 28) + timedelta(days=4)).replace(day=1) - timedelta(days=1))
+        until = date(y, m, calendar.monthrange(y, m)[1])
     elif args.since or args.until:
         since = date.fromisoformat(args.since) if args.since else None
         until = date.fromisoformat(args.until) if args.until else None
