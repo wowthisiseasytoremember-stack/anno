@@ -23,10 +23,12 @@ ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "data" / "research_results"
 RESEARCH.mkdir(parents=True, exist_ok=True)
 
-# opencode-zen free provider (deepseek-v4-flash) — yolo-auto now only serves qwen;
-# deepseek moved here. Verified 2026-08-27: deepseek-v4-flash HTTP 200 on this endpoint.
-YOLO_URL = "https://opencode.ai/zen/go/v1/chat/completions"
-YOLO_MODEL = "deepseek-v4-flash"
+# yolo-auto free tier (qwen3.8-27b). The former opencode.ai/zen/go endpoint is
+# dead: the key is expired and /zen/go requires an x-opencode-session header.
+# Verified 2026-11-16: https://yolo-auto.com/v1/models + chat/completions both
+# return 200 with the qwen3.8-27b model and YOLO_AUTO_API_KEY.
+YOLO_URL = "https://yolo-auto.com/v1/chat/completions"
+YOLO_MODEL = "qwen3.8-27b"
 
 
 def load_key() -> str:
@@ -34,9 +36,9 @@ def load_key() -> str:
                  Path("/home/ichabod/.hermes/.env")):
         if cand.exists():
             for line in cand.read_text().splitlines():
-                if line.startswith("OPENCODE_ZEN_API_KEY="):
+                if line.startswith("YOLO_AUTO_API_KEY="):
                     return line.strip().split("=", 1)[1]
-    raise SystemExit("NO_OPENCODE_ZEN_KEY")
+    raise SystemExit("NO_YOLO_AUTO_KEY")
 
 
 KEY = load_key()
