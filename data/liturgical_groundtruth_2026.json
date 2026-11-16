@@ -64,7 +64,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[The Most Holy Name of Jesus]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Christmas Weekday",
@@ -122,7 +124,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[USA: Saint André Bessette, Religious]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Christmas Weekday",
@@ -142,7 +146,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Raymond of Penyafort, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Christmas Weekday",
@@ -256,7 +262,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Hilary, Bishop and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -387,7 +395,9 @@
         "red",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Fabian, Pope and Martyr; Saint Sebastian, Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -456,7 +466,9 @@
         "red",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[USA: Saint Vincent, Deacon and Martyr; USA: Saint Marianne Cope, Virgin]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -536,7 +548,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Angela Merici, Virgin]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -670,7 +684,9 @@
         "red",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Blaise, Bishop and Martyr; Saint Ansgar, Bishop]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -747,7 +763,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -823,7 +841,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Our Lady of Lourdes]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -938,7 +958,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[The Seven Holy Founders of the Servite Order]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -1014,7 +1036,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Peter Damian, Bishop and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Saturday after Ash Wednesday",
@@ -1054,7 +1078,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Polycarp, Bishop and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Lenten Weekday",
@@ -1130,7 +1156,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Gregory of Narek, Abbot and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Lenten Weekday",
@@ -1207,7 +1235,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[USA: Saint Katharine Drexel, Virgin]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Lenten Weekday",
@@ -1226,7 +1256,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Casimir]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Lenten Weekday",
@@ -1283,7 +1315,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saints Perpetua and Felicity, Martyrs]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Lenten Weekday",
@@ -1322,7 +1356,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Frances of Rome, Religious]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Lenten Weekday",
@@ -1476,7 +1512,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Patrick, Bishop]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Lenten Weekday",
@@ -1489,20 +1527,42 @@
     {
       "date": "2026-03-18",
       "weekday": "Wednesday",
-      "title_en": "Lenten Weekday",
+      "title_en": "Lenten Weekday The following readings may be used on any day this week, especially in Years B and C when the Gospel of the Samaritan The following readings may be used on any Lenten day this week, especially in Years B and C when the Gospel of the",
       "rank": "Feria",
       "kind": "ferial",
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Cyril of Jerusalem, Bishop and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
-      "name_core": "Lenten Weekday",
-      "celebration_id": "lenten_weekday",
+      "name_core": "Lenten Weekday The following readings may be used on any day this week, especially in Years B and C when the Gospel of the Samaritan The following readings may be used on any Lenten day this week, especially in Years B and C when the Gospel of the",
+      "celebration_id": "lenten_weekday_the_following_readings_may_be_used_on_any_day_this_week_especiall",
       "disambiguation_tokens": [
         "lenten",
-        "weekday"
+        "weekday",
+        "following",
+        "readings",
+        "used",
+        "this",
+        "week",
+        "especially",
+        "years",
+        "when",
+        "gospel",
+        "samaritan",
+        "following",
+        "readings",
+        "used",
+        "lenten",
+        "this",
+        "week",
+        "especially",
+        "years",
+        "when",
+        "gospel"
       ]
     },
     {
@@ -1592,7 +1652,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Turibius of Mogrovejo, Bishop]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Lenten Weekday",
@@ -2079,7 +2141,9 @@
         "white",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Martin I, Pope and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2233,7 +2297,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Anselm, Bishop and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2273,7 +2339,9 @@
         "red",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint George, Martyr; Saint Adalbert, Bishop and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2293,7 +2361,9 @@
         "white",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Fidelis of Sigmaringen, Priest and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2372,7 +2442,9 @@
         "red",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Peter Chanel, Priest and Martyr; Saint Louis Grignion de Montfort, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2411,7 +2483,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Pius V, Pope]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2431,7 +2505,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Joseph the Worker]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2653,7 +2729,9 @@
         "red",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saints Nereus and Achilleus, Martyrs; Saint Pancras, Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2666,21 +2744,30 @@
     {
       "date": "2026-05-13",
       "weekday": "Wednesday",
-      "title_en": "Easter Weekday",
+      "title_en": "Easter Weekday Ecclesiastical Provinces of Boston, Hartford, New York, Omaha, Philadelphia:",
       "rank": "Feria",
       "kind": "ferial",
       "color_raw": [
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Our Lady of Fatima]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
-      "name_core": "Easter Weekday",
-      "celebration_id": "easter_weekday",
+      "name_core": "Easter Weekday Ecclesiastical Provinces of Boston, Hartford, New York, Omaha, Philadelphia:",
+      "celebration_id": "easter_weekday_ecclesiastical_provinces_of_boston_hartford_new_york_omaha_philad",
       "disambiguation_tokens": [
         "easter",
-        "weekday"
+        "weekday",
+        "ecclesiastical",
+        "provinces",
+        "boston",
+        "hartford",
+        "york",
+        "omaha",
+        "philadelphia"
       ]
     },
     {
@@ -2712,7 +2799,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[USA: Saint Isidore]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2777,7 +2866,9 @@
         "white",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint John I, Pope and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2816,7 +2907,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Bernardine of Siena, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2836,7 +2929,9 @@
         "white",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Christopher Magallanes, Priest, and Companions, Martyrs]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2856,7 +2951,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Rita of Cascia, Religious]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Easter Weekday",
@@ -2952,7 +3049,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Augustine of Canterbury, Bishop]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -2989,7 +3088,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Paul VI, Pope]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3008,7 +3109,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3066,7 +3169,9 @@
         "green",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saints Marcellinus and Peter, Martyrs]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3144,7 +3249,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Norbert, Bishop; BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3203,7 +3310,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Ephrem, Deacon and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3396,7 +3505,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Romuald, Abbot]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3415,7 +3526,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3552,7 +3665,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Cyril of Alexandria, Bishop and Doctor of the Church; BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3613,7 +3728,9 @@
         "green",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[The First Martyrs of the Holy Roman Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3632,7 +3749,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[USA: Saint Junípero Serra, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3681,7 +3800,7 @@
     {
       "date": "2026-07-04",
       "weekday": "Saturday",
-      "title_en": "Weekday",
+      "title_en": "Weekday or, for Independence Day, any readings from the Mass “For the Country",
       "rank": "Feria",
       "kind": "ferial",
       "color_raw": [
@@ -3689,13 +3808,21 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[USA: Independence Day; BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
-      "name_core": "Weekday",
-      "celebration_id": "weekday",
+      "name_core": "Weekday or, for Independence Day, any readings from the Mass “For the Country",
+      "celebration_id": "weekday_or_for_independence_day_any_readings_from_the_mass_for_the_country",
       "disambiguation_tokens": [
-        "weekday"
+        "weekday",
+        "independence",
+        "readings",
+        "from",
+        "mass",
+        "“for",
+        "country"
       ]
     },
     {
@@ -3729,7 +3856,9 @@
         "green",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Maria Goretti, Virgin and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3784,7 +3913,9 @@
         "green",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Augustine Zhao Rong, Priest, and Companions, Martyrs]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3860,7 +3991,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Henry]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3916,7 +4049,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Our Lady of Mount Carmel]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3954,7 +4089,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[USA: Saint Camillus de Lellis, Priest; BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -3994,7 +4131,9 @@
         "green",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Apollinaris, Bishop and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4013,7 +4152,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Lawrence of Brindisi, Priest and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4051,7 +4192,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Bridget, Religious]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4070,7 +4213,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Sharbel Makhlūf, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4186,7 +4331,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Peter Chrysologus, Bishop and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4301,7 +4448,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[The Dedication of the Basilica of Saint Mary Major]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4340,7 +4489,9 @@
         "red",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Sixtus II, Pope, and Companions, Martyrs; Saint Cajetan, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4435,7 +4586,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Jane Frances de Chantal, Religious]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4454,7 +4607,9 @@
         "green",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saints Pontian, Pope, and Hippolytus, Priest, Martyrs]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4569,7 +4724,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint John Eudes, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4685,7 +4842,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Louis; Saint Joseph Calasanz, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -4892,7 +5051,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Teresa of Calcutta, Virgin; BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5026,7 +5187,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[The Most Holy Name of Mary; BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5170,7 +5333,9 @@
         "red",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Januarius, Bishop and Martyr; BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5305,7 +5470,9 @@
         "red",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saints Cosmas and Damian, Martyrs; BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5347,7 +5514,9 @@
         "red",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Wenceslaus, Martyr; Saint Lawrence Ruiz and Companions, Martyrs]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5446,7 +5615,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5510,7 +5681,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Bruno, Priest; USA: Blessed Marie Rose Durocher, Virgin]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5589,7 +5762,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5666,7 +5841,9 @@
         "green",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Callistus I, Pope and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5705,7 +5882,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Hedwig, Religious; Saint Margaret Mary Alacoque, Virgin]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5791,7 +5970,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[USA: Saint Paul of the Cross, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5828,7 +6009,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint John Paul II, Pope]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5847,7 +6030,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint John of Capistrano, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -5867,7 +6052,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Anthony Mary Claret, Bishop; BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -6000,7 +6187,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -6059,7 +6248,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Martin de Porres, Religious]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -6133,7 +6324,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -6270,7 +6463,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -6312,7 +6507,9 @@
         "white",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Margaret of Scotland; Saint Gertrude, Virgin]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -6493,7 +6690,9 @@
         "green",
         "red"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Catherine of Alexandria, Virgin and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -6512,7 +6711,9 @@
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[USA: Thanksgiving Day]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
       "name_core": "Weekday",
@@ -6542,20 +6743,24 @@
     {
       "date": "2026-11-28",
       "weekday": "Saturday",
-      "title_en": "Weekday",
+      "title_en": "Weekday YEAR B – WEEKDAYS I",
       "rank": "Feria",
       "kind": "ferial",
       "color_raw": [
         "green",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[BVM]"
+      ],
       "holyday_of_obligation": false,
       "color": "green",
-      "name_core": "Weekday",
-      "celebration_id": "weekday",
+      "name_core": "Weekday YEAR B – WEEKDAYS I",
+      "celebration_id": "weekday_year_b_weekdays_i",
       "disambiguation_tokens": [
-        "weekday"
+        "weekday",
+        "year",
+        "weekdays"
       ]
     },
     {
@@ -6664,7 +6869,9 @@
         "violet",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint John Damascene, Priest and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Advent Weekday",
@@ -6761,7 +6968,9 @@
         "violet",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Juan Diego Cuauhtlatoatzin]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Advent Weekday",
@@ -6781,7 +6990,9 @@
         "violet",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Our Lady of Loreto]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Advent Weekday",
@@ -6801,7 +7012,9 @@
         "violet",
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Damasus I, Pope]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Advent Weekday",
@@ -6994,7 +7207,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Peter Canisius, Priest and Doctor of the Church]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Advent Weekday",
@@ -7032,7 +7247,9 @@
       "color_raw": [
         "violet"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint John of Kanty, Priest]"
+      ],
       "holyday_of_obligation": false,
       "color": "purple",
       "name_core": "Advent Weekday",
@@ -7151,7 +7368,9 @@
       "color_raw": [
         "white"
       ],
-      "optional_memorials": [],
+      "optional_memorials": [
+        "[Saint Thomas Becket, Bishop and Martyr]"
+      ],
       "holyday_of_obligation": false,
       "color": "white",
       "name_core": "Fifth Day within the Octave of the Nativity of the Lord",
@@ -7189,26 +7408,101 @@
     {
       "date": "2026-12-31",
       "weekday": "Thursday",
-      "title_en": "Seventh Day within the Octave of the Nativity of the Lord conmemoraciones de santos y beatos que se incluyen en esos calendarios particulares. Más información está disponible en las Normas universales sobre el año litúrgico y sobre el calendario, particularmente en el capítulo II. puede hacer memoria libre de la Virgen María” (Normas universales sobre el año litúrgico y sobre el oraciones pueden ser seleccionadas del Común de la Bienaventurada Virgen María o las Misas votivas de la Bienaventurada Virgen María en el Misal Romano, o en las Misas de la Virgen María, vols. I y II. Inmaculada Concepción como las dos únicas fiestas de precepto para el estado de Hawái. Esto implementa el indulto recibido por la Congregación para el Culto Divino y la Disciplina de los Obispos Católicos que permite a Hawái legislar sobre este asunto de acuerdo con las normas de la Conferencia Episcopal del Pacífico (CEPAC). Día de Acción de Gracias, ya que están inscritos en el Calendario propio para las diócesis de los Estados Unidos de América, pero no incluye otros días cívicos festivos comúnmente celebrados en este país (por ejemplo, Día de Martin Luther King Jr., Día de los Caídos, Día del Trabajo, etc.). apropiadas, pero este calendario no hace ninguna recomendación para esas fiestas. de Boston, Hartford, Nueva York, Omaha y Filadelfia. Todas las demás provincias eclesiásticas Corazón Inmaculado de la Bienaventurada Virgen María se convierte en una memoria libre un día de la semana del Tiempo Ordinario, así como las memorias libres del Corazón Inmaculado de la Bienaventurada Virgen María, de san Antonio de Padua, presbítero y doctor de la Iglesia, y de la Bienaventurada Virgen María en sábado. Estados Unidos de América, porque es sábado, este año se abroga la obligación de asistir a Misa en esta fecha. CALENDARIO PROPIO PARA LAS DIÓCESIS DE LOS ESTADOS UNIDOS DE AMÉRICA en el vientre materno Santa Mariana Cope, virgen y compañeros, mártires Cuarto jueves Día de Acción de Gracias de noviembre BIENAVENTURADA VIRGEN MARÍA (Fiesta Patronal de los Estados Unidos de América) EPIFANÍA DEL SEÑOR Solemnidad Domingo después de la Santísima Trinidad: SANTÍSIMO CUERPO Y SANGRE DE CRISTO Solemnidad (Corpus Christi) * Cuando no se indica el grado de la celebración, significa “memoria libre”. ** TÍTULOS LITÚRGICOS PROPIO DEL TIEMPO Tiempo de Adviento y Tiempo de Navidad Santísima Trinidad Santísimo Cuerpo y Sangre de Cristo (Corpus Christi) Sagrado Corazón de Jesús Nuestro Señor Jesucristo, Rey del Universo PROPIO DE LOS SANTOS Virgen María presbítero presbítero Santa María Magdalena de Pazzi, virgen Lunes después del Pentecostés Bienaventurada Virgen María, Madre de la Iglesia Sábado siguiente al segundo domingo después de Pentecostés Corazón Inmaculado de la Bienaventurada Virgen María virgen y doctora de la Iglesia mártires San Juan Enrique Newman, presbítero y doctor de la Iglesia Filipina Duchesne, virgen presbítero y mártir Cuarto jueves Día de Acción de Gracias los Estados Unidos de América) FIESTAS PATRONALES Although not inscribed in the Proper Calendar for the Dioceses of the United States of America, the following patronal feasts appear in Appendix I of the U.S. edition of the Misal Romano, Tercera Votive Masses are permitted. Aunque no están inscritas en el Calendario propio para las diócesis de los Estados Unidos de América, las siguientes fiestas patronales aparecen en el apéndice I de la edición estadounidense del Misal Romano, siempre que estén permitidas las Misas votivas.",
+      "title_en": "Seventh Day within the Octave of the Nativity of the Lord APPENDIX / APÉNDICE For the benefit of those who prepare Spanish-language liturgical calendars and ordines, the following sections of the Liturgical Calendar are presented here in Spanish: Miscellaneous Notes, Proper Calendar for the Dioceses of the United States of America, and the titles of the liturgical days, as given Para el beneficio de aquellos que preparan calendarios litúrgicos y ordines en español, las siguientes secciones del Liturgical Calendar se presentan aquí en español: Notas misceláneas, Calendario propio para las diócesis de los Estados Unidos de América y los títulos de los días litúrgicos, según se ofrece en la NOTAS MISCELÁNEAS a diferencias en la versificación. dedicación de las catedrales diocesanas, la dedicación de las iglesias parroquiales y los días especiales conmemoraciones de santos y beatos que se incluyen en esos calendarios particulares. Más información está disponible en las Normas universales sobre el año litúrgico y sobre el calendario, particularmente en el capítulo II. puede hacer memoria libre de la Virgen María” (Normas universales sobre el año litúrgico y sobre el oraciones pueden ser seleccionadas del Común de la Bienaventurada Virgen María o las Misas votivas de la Bienaventurada Virgen María en el Misal Romano, o en las Misas de la Virgen María, vols. I y II. Inmaculada Concepción como las dos únicas fiestas de precepto para el estado de Hawái. Esto implementa el indulto recibido por la Congregación para el Culto Divino y la Disciplina de los Obispos Católicos que permite a Hawái legislar sobre este asunto de acuerdo con las normas de la Conferencia Episcopal del Pacífico (CEPAC). Día de Acción de Gracias, ya que están inscritos en el Calendario propio para las diócesis de los Estados Unidos de América, pero no incluye otros días cívicos festivos comúnmente celebrados en este país (por ejemplo, Día de Martin Luther King Jr., Día de los Caídos, Día del Trabajo, etc.). apropiadas, pero este calendario no hace ninguna recomendación para esas fiestas. de Boston, Hartford, Nueva York, Omaha y Filadelfia. Todas las demás provincias eclesiásticas Corazón Inmaculado de la Bienaventurada Virgen María se convierte en una memoria libre un día de la semana del Tiempo Ordinario, así como las memorias libres del Corazón Inmaculado de la Bienaventurada Virgen María, de san Antonio de Padua, presbítero y doctor de la Iglesia, y de la Bienaventurada Virgen María en sábado. Estados Unidos de América, porque es sábado, este año se abroga la obligación de asistir a Misa en esta fecha. CALENDARIO PROPIO PARA LAS DIÓCESIS DE LOS ESTADOS UNIDOS DE AMÉRICA en el vientre materno Santa Mariana Cope, virgen y compañeros, mártires Cuarto jueves Día de Acción de Gracias de noviembre BIENAVENTURADA VIRGEN MARÍA (Fiesta Patronal de los Estados Unidos de América) EPIFANÍA DEL SEÑOR Solemnidad Domingo después de la Santísima Trinidad: SANTÍSIMO CUERPO Y SANGRE DE CRISTO Solemnidad (Corpus Christi) * Cuando no se indica el grado de la celebración, significa “memoria libre”. ** TÍTULOS LITÚRGICOS PROPIO DEL TIEMPO Tiempo de Adviento y Tiempo de Navidad Natividad del Señor Sagrada Familia de Jesús, María y José Solemnidad de Santa María, Madre de Dios Epifanía del Señor Bautismo del Señor Tiempo de Cuaresma, Semana Santa y Sagrado Triduo Pascual Miércoles de Ceniza Domingo de Ramos de la Pasión del Señor Viernes Santo de la Pasión del Señor Sábado Santo Tiempo Pascual Domingo de Pascua de la Resurrección del Señor II Domingo de Pascua (Domingo de la Divina Misericordia) Ascensión del Señor Domingo de Pentecostés Tiempo Ordinario Santísima Trinidad Santísimo Cuerpo y Sangre de Cristo (Corpus Christi) Sagrado Corazón de Jesús Nuestro Señor Jesucristo, Rey del Universo PROPIO DE LOS SANTOS Virgen María presbítero presbítero Santa María Magdalena de Pazzi, virgen Lunes después del Pentecostés Bienaventurada Virgen María, Madre de la Iglesia Sábado siguiente al segundo domingo después de Pentecostés Corazón Inmaculado de la Bienaventurada Virgen María virgen y doctora de la Iglesia mártires San Juan Enrique Newman, presbítero y doctor de la Iglesia Filipina Duchesne, virgen presbítero y mártir Cuarto jueves Día de Acción de Gracias los Estados Unidos de América) FIESTAS PATRONALES Although not inscribed in the Proper Calendar for the Dioceses of the United States of America, the following patronal feasts appear in Appendix I of the U.S. edition of the Misal Romano, Tercera Votive Masses are permitted. Aunque no están inscritas en el Calendario propio para las diócesis de los Estados Unidos de América, las siguientes fiestas patronales aparecen en el apéndice I de la edición estadounidense del Misal Romano, siempre que estén permitidas las Misas votivas.",
       "rank": "Feria",
       "kind": "ferial",
       "color_raw": [
         "white"
       ],
       "optional_memorials": [
-        "[Saint Sylvester I, Pope] 1 Jn 2:18-21/Jn 1:1-18 (204) Pss Prop      APPENDIX / APÉNDICE  For the benefit of those who prepare Spanish-language liturgical calendars and ordines, the following sections of the Liturgical Calendar are presented here in Spanish: Miscellaneous Notes, Proper Calendar for the Dioceses of the United States of America, and the titles of the liturgical days, as given in the U.S. edition of the Misal Romano, Tercera Edición (2018).  Para el beneficio de aquellos que preparan calendarios litúrgicos y ordines en español, las siguientes secciones del Liturgical Calendar se presentan aquí en español: Notas misceláneas, Calendario propio para las diócesis de los Estados Unidos de América y los títulos de los días litúrgicos, según se ofrece en la edición estadounidense del Misal Romano, Tercera Edición (2018).  NOTAS MISCELÁNEAS  1. Las citas de las escrituras en inglés se basan en New American Bible con el Nuevo Testamento revisado y pueden diferir ligeramente de las citas dadas en el Ordo Lectionum Missae (1981) debido a diferencias en la versificación.  2. En la preparación de los calendarios diocesanos y provinciales y ordines, deben añadirse la dedicación de las catedrales diocesanas, la dedicación de las iglesias parroquiales y los días especiales de oración (cfr. Institución General del Misal Romano [IGMR], n. 373), junto con otras",
+        "[Saint Sylvester I, Pope]",
+        "[I, II, III, IV] Domingo de Adviento",
+        "[I, II, III, IV, V] Domingo de Cuaresma",
+        "[Lunes, Martes, Miércoles, Jueves] Santo",
+        "[Lunes, Martes, Miércoles, Jueves, Viernes, Sábado] de la Octava de Pascua",
+        "[III, IV, V, VI, VII] Domingo de Pascua",
         "[II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, XIII, XIV, XV, XVI, XVII, XVIII, XIX, XX, XXI, XXII, XXIII, XXIV, XXV, XXVI, XXVII, XXVIII, XXIX, XXX, XXXI, XXXII, XXXIII] Domingo del Tiempo Ordinario"
       ],
       "holyday_of_obligation": false,
       "color": "white",
-      "name_core": "Seventh Day within the Octave of the Nativity of the Lord conmemoraciones de santos y beatos que se incluyen en esos calendarios particulares. Más información está disponible en las Normas universales sobre el año litúrgico y sobre el calendario, particularmente en el capítulo II. puede hacer memoria libre de la Virgen María” . Día de Acción de Gracias, ya que están inscritos en el Calendario propio para las diócesis de los Estados Unidos de América, pero no incluye otros días cívicos festivos comúnmente celebrados en este país . apropiadas, pero este calendario no hace ninguna recomendación para esas fiestas. de Boston, Hartford, Nueva York, Omaha y Filadelfia. Todas las demás provincias eclesiásticas Corazón Inmaculado de la Bienaventurada Virgen María se convierte en una memoria libre un día de la semana del Tiempo Ordinario, así como las memorias libres del Corazón Inmaculado de la Bienaventurada Virgen María, de san Antonio de Padua, presbítero y doctor de la Iglesia, y de la Bienaventurada Virgen María en sábado. Estados Unidos de América, porque es sábado, este año se abroga la obligación de asistir a Misa en esta fecha. CALENDARIO PROPIO PARA LAS DIÓCESIS DE LOS ESTADOS UNIDOS DE AMÉRICA en el vientre materno Santa Mariana Cope, virgen y compañeros, mártires Cuarto jueves Día de Acción de Gracias de noviembre BIENAVENTURADA VIRGEN MARÍA EPIFANÍA DEL SEÑOR Solemnidad Domingo después de la Santísima Trinidad: SANTÍSIMO CUERPO Y SANGRE DE CRISTO Solemnidad * Cuando no se indica el grado de la celebración, significa “memoria libre”. ** TÍTULOS LITÚRGICOS PROPIO DEL TIEMPO Tiempo de Adviento y Tiempo de Navidad Santísima Trinidad Santísimo Cuerpo y Sangre de Cristo Sagrado Corazón de Jesús Nuestro Señor Jesucristo, Rey del Universo PROPIO DE LOS SANTOS Virgen María presbítero presbítero Santa María Magdalena de Pazzi, virgen Lunes después del Pentecostés Bienaventurada Virgen María, Madre de la Iglesia Sábado siguiente al segundo domingo después de Pentecostés Corazón Inmaculado de la Bienaventurada Virgen María virgen y doctora de la Iglesia mártires San Juan Enrique Newman, presbítero y doctor de la Iglesia Filipina Duchesne, virgen presbítero y mártir Cuarto jueves Día de Acción de Gracias los Estados Unidos de América) FIESTAS PATRONALES Although not inscribed in the Proper Calendar for the Dioceses of the United States of America, the following patronal feasts appear in Appendix I of the U.S. edition of the Misal Romano, Tercera Votive Masses are permitted. Aunque no están inscritas en el Calendario propio para las diócesis de los Estados Unidos de América, las siguientes fiestas patronales aparecen en el apéndice I de la edición estadounidense del Misal Romano, siempre que estén permitidas las Misas votivas.",
-      "celebration_id": "seventh_day_within_the_octave_of_the_nativity_of_the_lord_conmemoraciones_de_san",
+      "name_core": "Seventh Day within the Octave of the Nativity of the Lord APPENDIX / APÉNDICE For the benefit of those who prepare Spanish-language liturgical calendars and ordines, the following sections of the Liturgical Calendar are presented here in Spanish: Miscellaneous Notes, Proper Calendar for the Dioceses of the United States of America, and the titles of the liturgical days, as given Para el beneficio de aquellos que preparan calendarios litúrgicos y ordines en español, las siguientes secciones del Liturgical Calendar se presentan aquí en español: Notas misceláneas, Calendario propio para las diócesis de los Estados Unidos de América y los títulos de los días litúrgicos, según se ofrece en la NOTAS MISCELÁNEAS a diferencias en la versificación. dedicación de las catedrales diocesanas, la dedicación de las iglesias parroquiales y los días especiales conmemoraciones de santos y beatos que se incluyen en esos calendarios particulares. Más información está disponible en las Normas universales sobre el año litúrgico y sobre el calendario, particularmente en el capítulo II. puede hacer memoria libre de la Virgen María” . Día de Acción de Gracias, ya que están inscritos en el Calendario propio para las diócesis de los Estados Unidos de América, pero no incluye otros días cívicos festivos comúnmente celebrados en este país . apropiadas, pero este calendario no hace ninguna recomendación para esas fiestas. de Boston, Hartford, Nueva York, Omaha y Filadelfia. Todas las demás provincias eclesiásticas Corazón Inmaculado de la Bienaventurada Virgen María se convierte en una memoria libre un día de la semana del Tiempo Ordinario, así como las memorias libres del Corazón Inmaculado de la Bienaventurada Virgen María, de san Antonio de Padua, presbítero y doctor de la Iglesia, y de la Bienaventurada Virgen María en sábado. Estados Unidos de América, porque es sábado, este año se abroga la obligación de asistir a Misa en esta fecha. CALENDARIO PROPIO PARA LAS DIÓCESIS DE LOS ESTADOS UNIDOS DE AMÉRICA en el vientre materno Santa Mariana Cope, virgen y compañeros, mártires Cuarto jueves Día de Acción de Gracias de noviembre BIENAVENTURADA VIRGEN MARÍA EPIFANÍA DEL SEÑOR Solemnidad Domingo después de la Santísima Trinidad: SANTÍSIMO CUERPO Y SANGRE DE CRISTO Solemnidad * Cuando no se indica el grado de la celebración, significa “memoria libre”. ** TÍTULOS LITÚRGICOS PROPIO DEL TIEMPO Tiempo de Adviento y Tiempo de Navidad Natividad del Señor Sagrada Familia de Jesús, María y José Solemnidad de Santa María, Madre de Dios Epifanía del Señor Bautismo del Señor Tiempo de Cuaresma, Semana Santa y Sagrado Triduo Pascual Miércoles de Ceniza Domingo de Ramos de la Pasión del Señor Viernes Santo de la Pasión del Señor Sábado Santo Tiempo Pascual Domingo de Pascua de la Resurrección del Señor II Domingo de Pascua Ascensión del Señor Domingo de Pentecostés Tiempo Ordinario Santísima Trinidad Santísimo Cuerpo y Sangre de Cristo Sagrado Corazón de Jesús Nuestro Señor Jesucristo, Rey del Universo PROPIO DE LOS SANTOS Virgen María presbítero presbítero Santa María Magdalena de Pazzi, virgen Lunes después del Pentecostés Bienaventurada Virgen María, Madre de la Iglesia Sábado siguiente al segundo domingo después de Pentecostés Corazón Inmaculado de la Bienaventurada Virgen María virgen y doctora de la Iglesia mártires San Juan Enrique Newman, presbítero y doctor de la Iglesia Filipina Duchesne, virgen presbítero y mártir Cuarto jueves Día de Acción de Gracias los Estados Unidos de América) FIESTAS PATRONALES Although not inscribed in the Proper Calendar for the Dioceses of the United States of America, the following patronal feasts appear in Appendix I of the U.S. edition of the Misal Romano, Tercera Votive Masses are permitted. Aunque no están inscritas en el Calendario propio para las diócesis de los Estados Unidos de América, las siguientes fiestas patronales aparecen en el apéndice I de la edición estadounidense del Misal Romano, siempre que estén permitidas las Misas votivas.",
+      "celebration_id": "seventh_day_within_the_octave_of_the_nativity_of_the_lord_appendix_ap_ndice_for_",
       "disambiguation_tokens": [
         "seventh",
         "within",
         "octave",
         "nativity",
         "lord",
+        "appendix",
+        "apéndice",
+        "benefit",
+        "those",
+        "prepare",
+        "spanish",
+        "language",
+        "liturgical",
+        "calendars",
+        "ordines",
+        "following",
+        "sections",
+        "liturgical",
+        "calendar",
+        "presented",
+        "here",
+        "spanish",
+        "miscellaneous",
+        "notes",
+        "proper",
+        "calendar",
+        "dioceses",
+        "united",
+        "states",
+        "america",
+        "titles",
+        "liturgical",
+        "days",
+        "given",
+        "para",
+        "beneficio",
+        "aquellos",
+        "preparan",
+        "calendarios",
+        "litúrgicos",
+        "ordines",
+        "español",
+        "siguientes",
+        "secciones",
+        "liturgical",
+        "calendar",
+        "presentan",
+        "aquí",
+        "español",
+        "notas",
+        "misceláneas",
+        "calendario",
+        "propio",
+        "para",
+        "diócesis",
+        "estados",
+        "unidos",
+        "américa",
+        "títulos",
+        "días",
+        "litúrgicos",
+        "según",
+        "ofrece",
+        "notas",
+        "misceláneas",
+        "diferencias",
+        "versificación",
+        "dedicación",
+        "catedrales",
+        "diocesanas",
+        "dedicación",
+        "iglesias",
+        "parroquiales",
+        "días",
+        "especiales",
         "conmemoraciones",
         "santos",
         "beatos",
@@ -7363,6 +7657,55 @@
         "adviento",
         "tiempo",
         "navidad",
+        "natividad",
+        "señor",
+        "sagrada",
+        "familia",
+        "jesús",
+        "maría",
+        "josé",
+        "solemnidad",
+        "santa",
+        "maría",
+        "madre",
+        "dios",
+        "epifanía",
+        "señor",
+        "bautismo",
+        "señor",
+        "tiempo",
+        "cuaresma",
+        "semana",
+        "santa",
+        "sagrado",
+        "triduo",
+        "pascual",
+        "miércoles",
+        "ceniza",
+        "domingo",
+        "ramos",
+        "pasión",
+        "señor",
+        "viernes",
+        "santo",
+        "pasión",
+        "señor",
+        "sábado",
+        "santo",
+        "tiempo",
+        "pascual",
+        "domingo",
+        "pascua",
+        "resurrección",
+        "señor",
+        "domingo",
+        "pascua",
+        "ascensión",
+        "señor",
+        "domingo",
+        "pentecostés",
+        "tiempo",
+        "ordinario",
         "santísima",
         "trinidad",
         "santísimo",

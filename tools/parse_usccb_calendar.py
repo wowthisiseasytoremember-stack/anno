@@ -160,7 +160,10 @@ def parse_months(txt_path: Path, year: int, start: date, end: date) -> dict:
                         j += 1
                         continue
                     if nxt.strip().startswith("["):
-                        bracket_buf = [nxt.strip()]
+                        if "]" in nxt:
+                            opt_memorials.append(nxt.strip())
+                        else:
+                            bracket_buf = [nxt.strip()]
                     elif bracket_buf is not None:
                         if "]" in nxt:
                             bracket_buf.append(nxt.strip())
