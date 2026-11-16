@@ -111,6 +111,24 @@ def rank_from_line(line: str) -> str | None:
     return None
 
 
+# Official readings citation: "Am 5:14-15, 21-24/Mt 8:28-34 (379) Pss Prop"
+READINGS_RE = re.compile(
+    r"^[A-Z][A-Za-z]{0,14}\s+[\d:]+[a-z]?(?:[,\-–][\s\w:]+)*"
+    r"(?:/[A-Z][A-Za-z]{0,14}\s+[\d:]+[a-z]?(?:[,\-–][\s\w:]+)*)+")
+
+
+def clean_readings(parts: list[str]) -> str:
+    """Join citation lines, dropping Lectionary page numbers and psalm labels."""
+    out = []
+    for p in parts:
+        s = re.sub(r"\s*\(\d+\)\s*", " ", p)
+        s = re.sub(r"\s+Pss(?:alter)?\s+[IVXLC]+\s*$", "", s)
+        s = re.sub(r"\s+", " ", s).strip()
+        if s:
+            out.append(s)
+    return " / ".join(out)
+
+
 def parse_months(txt_path: Path, year: int, start: date, end: date) -> dict:
     """Parse the layout text into {date_iso: row} for dates in [start, end]."""
     lines = txt_path.read_text(encoding="utf-8").splitlines()
@@ -150,12 +168,15 @@ def parse_months(txt_path: Path, year: int, start: date, end: date) -> dict:
                 opt_memorials: list[str] = []
                 bracket_buf: list[str] | None = None
                 title_parts = [title_raw] if title_raw else []
+                readings_parts: list[str] = []
                 holyday = False
                 j = i + 1
                 while j < len(lines):
                     nxt = lines[j]
                     if pat.match(nxt) or re.match(r"^\s*([A-Z]+)\s+\d{4}\s*$", nxt):
                         break
+                    if "APPENDIX" in nxt or "APÉNDICE" in nxt:
+                        break  # end of the English calendar; appendix follows
                     if re.match(r"^\s*\d+\s*$", nxt):
                         j += 1
                         continue
@@ -183,6 +204,9 @@ def parse_months(txt_path: Path, year: int, start: date, end: date) -> dict:
                         if stripped and not rank_from_line(stripped) \
                                 and not re.match(r"^(Pss|Psalter)\b", stripped):
                             title_parts.append(stripped)
+                    elif READINGS_RE.match(nxt.strip()):
+                        # Official readings citation line for this day.
+                        readings_parts.append(nxt.strip())
                     j += 1
                 title = " ".join(title_parts)
                 title = re.sub(r"\s+", " ", title).strip()
@@ -200,6 +224,7 @@ def parse_months(txt_path: Path, year: int, start: date, end: date) -> dict:
                     "kind": None,  # filled below
                     "color_raw": colors_raw,
                     "optional_memorials": opt_memorials,
+                    "readings": clean_readings(readings_parts),
                     "holyday_of_obligation": holyday,
                 }
                 i = j
