@@ -146,7 +146,8 @@ def normalize_engine_b(en_path: Path) -> dict:
         e["place"]["confidence"] = map_confidence(e["place"]["confidence"])
     color = e.get("liturgical", {}).get("color", "")
     if color and color.lower() not in COLOR_OK:
-        e["liturgical"]["color"] = color.lower()
+        raise ValueError(f"unknown liturgical color {color!r} for {date_str}")
+    e["liturgical"]["color"] = color.strip().lower()
     if "sources" in e and isinstance(e["sources"], list):
         e["sources"] = normalize_sources(e["sources"])
     return e
@@ -234,7 +235,8 @@ def normalize_generic_entry(entry: dict, date_str: str) -> dict:
         e["place"]["confidence"] = map_confidence(e["place"]["confidence"])
     color = e.get("liturgical", {}).get("color", "")
     if color and color.lower() not in COLOR_OK:
-        e["liturgical"]["color"] = color.lower()
+        raise ValueError(f"unknown liturgical color {color!r} for {date_str}")
+    e["liturgical"]["color"] = color.strip().lower()
     if "sources" in e and isinstance(e["sources"], list):
         e["sources"] = normalize_sources(e["sources"])
     return e

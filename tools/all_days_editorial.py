@@ -264,7 +264,8 @@ def audit_entry(entry: dict, gt_row: dict, year: int) -> list[dict]:
     # color
     fc = (lit.get("color") or "")
     if matched is not None and not matched["required"]:
-        exp_color_eff = "white"  # displayed optional memorial carries its own color
+        # an optional memorial carries its own color: red for martyrs, else white
+        exp_color_eff = "red" if re.search(r"martyr", matched["name_core"], re.I) else "white"
     elif matched is not None:
         exp_color_eff = exp_color or gt_row["color"]
     else:

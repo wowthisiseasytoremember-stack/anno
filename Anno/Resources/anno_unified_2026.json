@@ -875,7 +875,7 @@
       "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Optional Memorial",
-        "color": "White",
+        "color": "white",
         "title_en": "Optional Memorial of the Blessed Virgin Mary",
         "title_vi": "Kỷ niệm Tùy chọn của Đức Trinh Nữ Maria"
       },
@@ -938,7 +938,7 @@
       "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Sunday",
-        "color": "Green",
+        "color": "green",
         "title_en": "Sixteenth Sunday in Ordinary Time",
         "title_vi": "Chúa Nhật thứ 16 Mùa Thường Niên"
       },
@@ -1006,7 +1006,7 @@
       "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Optional Memorial",
-        "color": "Red",
+        "color": "red",
         "title_en": "St. Apollinaris, Bishop and Martyr",
         "title_vi": "Thánh Apollinaris, Giám mục và Tử đạo"
       },
@@ -1074,7 +1074,7 @@
       "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Optional Memorial",
-        "color": "White",
+        "color": "white",
         "title_en": "St. Lawrence of Brindisi, Doctor of the Church",
         "title_vi": "Thánh Laurensô Brindisi, Tiến sĩ Hội Thánh"
       },
@@ -1142,7 +1142,7 @@
       "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Feast",
-        "color": "White",
+        "color": "white",
         "title_en": "Feast of St. Mary Magdalene, Apostle to the Apostles",
         "title_vi": "Lễ Kính Thánh Maria Mađalêna, Tông đồ của các Tông đồ"
       },
@@ -1205,7 +1205,7 @@
       "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Optional Memorial",
-        "color": "White",
+        "color": "white",
         "title_en": "St. Bridget of Sweden",
         "title_vi": "Thánh Brigitta Thụy Điển"
       },
