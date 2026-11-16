@@ -359,13 +359,22 @@ def main() -> None:
     OUT = Path(args.out) if args.out else (ROOT / f"Anno/Resources/anno_unified_{args.year}.json")
     out = {
         "schema_version": "1.0",
-        "generated_on": date.today().isoformat(),
         "total_entries": len(final),
         "entries": final,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+    # Determinism: build metadata (incl. any volatile timestamp) lives in a sidecar
+    # so the fixture itself regenerates byte-identically.
+    meta_path = OUT.parent / (OUT.stem + ".meta.json")
+    meta = {"generated_on": date.today().isoformat(), "total_entries": len(final),
+            "source": OUT.name}
+    with open(meta_path, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=2)
+        f.write("\n")
 
     span = f"{final[0].get('date','?')} -> {final[-1].get('date','?')}" if final else "n/a"
     print(f"Master Unified Fixture ({args.year}): {len(final)} entries ({span})")

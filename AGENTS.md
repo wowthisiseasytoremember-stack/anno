@@ -1,6 +1,6 @@
 ---
 schema: agents-md/v1
-project: interfaith-devotional
+project: anno
 initiative: monetization
 family: apps
 what: >-
