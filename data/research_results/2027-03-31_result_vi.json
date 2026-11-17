@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Thường Niên",
+    "summary_vi": "Ngày 31 tháng 3 năm 2027 rơi vào Thứ Tư trong Tuần IV Mùa Thường Niên theo lịch phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của Hội Thánh. Trong ngày này, không có lễ kính thánh nào ưu tiên, nên các bài đọc và lời nguyện của Thứ Tư Tuần IV được áp dụng.",
+    "body_vi": "Là một ngày trong tuần thuộc Mùa Thường Niên, Thứ Tư này tuân theo chu kỳ sách bài đọc tiêu chuẩn cho Tuần IV. Trọng tâm là việc đọc Sách Thánh liên tục và sự tăng trưởng trong nhân đức Kitô giáo. Các Kinh Nhật Tụng, Kinh Sáng và Kinh Chiều sẽ sử dụng các văn bản riêng của Thứ Tư Tuần IV Mùa Thường Niên, nhấn mạnh các chủ đề về đức tin và sự kiên trì.",
+    "confidence_note_vi": "Ngày này được xác nhận là một ngày trong tuần Mùa Thường Niên bởi lịch phụng vụ năm 2027 của Nghi lễ La Mã."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Hy Vọng: Thứ Tư Tuần IV",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự kiên trì để tăng trưởng trong đức tin và hy vọng hôm nay."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh",
+    "summary_vi": "Ngày này rơi vào Mùa Phục Sinh, khoảng thời gian 50 ngày mừng kính sự Phục Sinh của Chúa. Trong Hình thức Thông thường của Nghi thức Rôma, các ngày thường lệ thường là 'Thứ Tư' (feria) trừ khi có bậc cao hơn như Lễ kính hoặc Lễ trọng. Ngày 19 tháng 5 không có lễ nhớ buộc nào trong Lịch Rôma Chung, do đó các bản văn phụng vụ tập trung vào mầu nhiệm Vượt Qua và sự phát triển của Giáo hội sơ khai như được kể trong sách Công vụ. Màu phụng vụ là xanh lục, báo hiệu thời kỳ tăng trưởng thiêng liêng và đời sống môn đệ.",
+    "body_vi": "Việc cử hành phụng vụ vào Thứ Tư, ngày 19 tháng 5 năm 2027, là một ngày thường lệ trong Tuần IV Mùa Phục Sinh. Các bài đọc trong ngày này tiếp tục phản ánh các lần hiện ra sau khi Phục Sinh và cộng đoàn tín hữu sơ khai. Linh mục thường mặc áo lễ màu xanh lá cây, và các bài đọc được trích từ các đoạn Tân Ước liên quan đến Giáo hội sơ khai và các trình thuật Tin Mừng về sự hiện diện của Chúa Kitô sau khi Người sống lại. Không có vị thánh nào được kính nhớ trong ngày này.",
+    "confidence_note_vi": ""
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Ánh Sáng Phục Sinh",
+    "prayer_prompt_vi": "Hãy xin ơn để sống như một nhân chứng của Đức Kitô Phục Sinh trong cuộc sống hằng ngày."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần XI Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần XI Mùa Thường Niên",
+    "summary_vi": "Vào ngày Thứ Bảy này, Giáo hội cử hành Tuần XI Mùa Thường Niên. Trọng tâm phụng vụ là sự tăng trưởng tâm linh và việc sống đức tin Kitô giáo một cách tích cực trong đời sống hàng ngày. Không có lễ trọng hay lễ nhớ buộc nào thay thế ngày này, do đó các bài đọc và lời nguyện trong chu kỳ ngày thường được áp dụng.",
+    "body_vi": "Mùa Thường Niên đóng vai trò là trụ cột của năm phụng vụ, mời gọi các tín hữu suy niệm về toàn bộ cuộc đời và lời dạy của Chúa Kitô. Là Thứ Bảy trong tuần XI, trọng tâm là lắng nghe Lời Chúa và sinh hoa trái qua các việc lành, nhất quán với các chủ đề về sự kiên nhẫn và bền bỉ thường thấy trong các bài đọc của mùa này. Áo lễ màu xanh lá cây tượng trưng cho niềm hy vọng và hành trình liên tục của Giáo hội.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên trong lịch Novus Ordo. Không có lễ trọng hay lễ chung nào được liệt kê cho ngày 19 tháng 6 trong Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Thần Khí của Mùa Thường Niên",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho con sự kiên nhẫn để lắng nghe và lòng can đảm để hành động."
+  }
+}

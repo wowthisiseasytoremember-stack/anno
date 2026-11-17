@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Thánh Gioan Tẩy Giả Sinh Nhật (Lễ trọng)"
+  },
+  "primary": {
+    "title_vi": "Lễ Thánh Gioan Tẩy Giả Sinh Nhật",
+    "summary_vi": "Lễ Sinh Nhật Thánh Gioan Tẩy Giả là một lễ trọng trong lịch phụng vụ Công giáo Rôma, được cử hành vào ngày 24 tháng Sáu. Lễ này kỷ niệm ngày sinh của Gioan Tẩy Giả, người đi trước Đức Giêsu, và là một trong số ít các ngày sinh nhật được cử hành trong lịch phụng vụ ngoài ngày sinh của Chúa Giêsu và Đức Maria. Năm nay, ngày này rơi vào Thứ Năm trong Mùa Thường Niên nhưng vẫn giữ cấp bậc Lễ trọng.",
+    "body_vi": "Lễ trọng này mừng ngày sinh của Gioan Tẩy Giả, sáu tháng trước ngày sinh của Chúa Giêsu. Thánh Augustinô đã từng nói nổi tiếng rằng trong khi chúng ta mừng sinh nhật của Chúa Giêsu và Đức Maria, thì đối với Gioan, chúng ta mừng ngày sinh của ngài như một sự kiện lịch sử. Các bản văn phụng vụ nhấn mạnh vai trò của Gioan như là ngôn sứ dọn đường, nối kết giữa Cũ và Tân Ước.",
+    "confidence_note_vi": "Ngày và cấp bậc được quy định rõ ràng trong Lịch Phụng vụ chung Rôma năm 1969."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ngài phải lớn lên, còn tôi phải nhỏ lại.",
+    "prayer_prompt_vi": "Cầu nguyện cho đức khiêm nhường và lòng can đảm để chỉ dẫn người khác đến với Chúa Kitô, như Gioan Tẩy Giả."
+  }
+}

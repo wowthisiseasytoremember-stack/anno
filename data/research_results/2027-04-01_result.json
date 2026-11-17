@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-01",
+  "date": "2027-04-01",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Mass of the Lord's Supper",
+    "title_vi": "Thánh Lễ Tiệc Ly"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Maundy Thursday",
+    "title_vi": "Thứ Năm Tuần Thánh",
+    "summary_en": "On the evening of Maundy Thursday, the Church celebrates the Mass of the Lord's Supper, commemorating the institution of the Eucharist and the ministerial priesthood. This evening begins the Sacred Triduum, marking the passage of Christ from death to life. The liturgy emphasizes the commandment of love and the service of one another.",
+    "summary_vi": "Vào chiều Thứ Năm Tuần Thánh, Giáo Hội cử hành Thánh Lễ Tiệc Ly, tưởng niệm việc thiết lập Bí tích Thánh Thể và chức tư tế thừa tác. Phụng vụ chiều này khai mạc Tam Nhật Vượt Qua, đánh dấu cuộc vượt qua của Chúa Kitô từ cõi chết đến sự sống. Phụng vụ nhấn mạnh đến giới luật yêu thương và phục vụ lẫn nhau.",
+    "body_en": "The Mass of the Lord's Supper is unique in that it does not begin with a penitential act, and the hymn Gloria in excelsis is sung, after which the bells fall silent until the Easter Vigil. The Gospel reading recounts Jesus washing the feet of his disciples, an act of humble service that defines the Christian life. The faithful are invited to stay awake with Christ, entering into the mystery of his self-giving love.",
+    "body_vi": "Thánh Lễ Tiệc Ly có nét độc đáo là không bắt đầu bằng nghi thức thống hối, và bài hát Vinh danh (Gloria) được hát lên, sau đó chuông nhà thờ im lặng cho đến khi bắt đầu đêm vọng Phục Sinh. Bài Tin Mừng kể lại việc Chúa Giêsu rửa chân cho các môn đệ, hành vi phục vụ khiêm tốn định hình đời sống Kitô hữu. Các tín hữu được mời gọi ở lại với Chúa Kitô, đi vào mầu nhiệm tình yêu tự hiến của Người.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Maundy Thursday is a fixed solemnity in the General Roman Calendar.",
+    "confidence_note_vi": "Thứ Năm Tuần Thánh là lễ trọng cố định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Love one another as I have loved you.",
+    "hero_line_vi": "Anh em hãy yêu thương nhau như Thầy đã yêu thương anh em.",
+    "prayer_prompt_en": "Pray for the grace to serve others with humility and to remain in the presence of the Lord.",
+    "prayer_prompt_vi": "Hãy cầu xin ân sủng để phục vụ người khác cách khiêm nhường và ở lại trong sự hiện diện của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Liturgical Calendar",
+      "url": "https://www.usccb.org/cecc/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-19",
+    "hebrew": "23 Adar II 5787",
+    "islamic_umm_al_qura": "23 Shawwal 1448 AH",
+    "coptic": "23 Baramhat 1743",
+    "ethiopian": "23 Baramhat 1743"
+  }
+}

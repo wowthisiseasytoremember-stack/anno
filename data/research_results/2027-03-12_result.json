@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-12",
+  "date": "2027-03-12",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Sixth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần VI Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Sixth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần VI Mùa Thường Niên",
+    "summary_en": "This day falls within the period of Ordinary Time, specifically the sixth week. The liturgical color is green, symbolizing hope and the growth of the Church. No major solemnity or feast interrupts the weekday cycle in the General Roman Calendar for this specific date.",
+    "summary_vi": "Ngày này thuộc Mùa Thường Niên, cụ thể là tuần thứ sáu. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của Giáo Hội. Không có lễ trọng hay lễ kính lớn nào xen vào chu kỳ tuần trong Lịch Phụng vụ Rôma tổng quát vào ngày cụ thể này.",
+    "body_en": "On this Friday, the Church invites the faithful to continue their journey in faith through the steady observance of the liturgy of the Word. The readings typically focus on themes of Christian living, patience, and the practical application of the Gospel teachings in daily life. As a feria, the focus remains on the ongoing mystery of Christ's life and the Church's mission in the world.",
+    "body_vi": "Trong ngày Thứ Sáu này, Giáo Hội mời gọi các tín hữu tiếp tục hành trình đức tin qua việc cử hành phụng vụ Lời Chúa một cách đều đặn. Các bài đọc thường tập trung vào các chủ đề về đời sống Kitô hữu, sự kiên nhẫn, và việc áp dụng những lời dạy của Tin Mừng vào cuộc sống hàng ngày. Là một ngày trong tuần (feria), trọng tâm vẫn là mầu nhiệm liên tục về đời sống của Chúa Kitô và sứ mạng của Giáo Hội trong thế giới.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a standard weekday in Ordinary Time with no conflicting feasts in the universal calendar.",
+    "confidence_note_vi": "Ngày này là một ngày thường tiêu chuẩn trong Mùa Thường Niên và không có lễ nào xung đột trong lịch phụng vụ toàn cầu."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast in Faith, Growing in Grace",
+    "hero_line_vi": "Vững Tin, Tăng Trưởng Trong Ân Sủng",
+    "prayer_prompt_en": "Lord, help us to live our faith visibly in the ordinary moments of this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con sống đức tin cách hữu hình trong những khoảnh khắc bình thường của ngày hôm nay."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops - Daily Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/02753a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-27",
+    "hebrew": "3 Adar II 5787",
+    "islamic_umm_al_qura": "3 Shawwal 1448 AH",
+    "coptic": "3 Baramhat 1743",
+    "ethiopian": "3 Baramhat 1743"
+  }
+}

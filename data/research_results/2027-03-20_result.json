@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-20",
+  "date": "2027-03-20",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Fourth Week of Lent",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fourth Week of Lent",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Chay",
+    "summary_en": "This day is a feria of the Fourth Week of Lent, observing the penitential spirit of the season in Ordinary Time. The liturgical color is green, marking the weekday status within the Lenten fast. There is no obligatory saint memorial superseding the Lenten weekday on this specific Saturday in the 2027 calendar.",
+    "summary_vi": "Ngày này là ngày thường Tuần IV Mùa Chay, tuân giữ tinh thần sám hối của mùa phụng vụ trong thời kỳ Thường Niên. Màu phụng vụ là màu xanh lục, đánh dấu vị thế ngày trong tuần của mùa chay. Không có lễ kính thánh nhân nào bắt buộc thay thế ngày thường Mùa Chay vào Thứ Bảy cụ thể này trong lịch 2027.",
+    "body_en": "The liturgy for Saturday of the Fourth Week of Lent focuses on the continued conversion of heart and the preparation for Easter. As a weekday, it follows the standard readings for the season, emphasizing repentance and the Word of God without the solemnity of a feast or memorial. The faithful are invited to deepen their Lenten practices through prayer and almsgiving.",
+    "body_vi": "Phụng vụ Thứ Bảy Tuần IV Mùa Chay tập trung vào sự hoán cải tâm trí liên tục và sự chuẩn bị cho lễ Phục Sinh. Là một ngày thường, nó tuân theo các bài đọc chuẩn của mùa, nhấn mạnh vào sự sám hối và Lời Chúa mà không có tính long trọng của một lễ trọng hoặc lễ kính. Các tín hữu được mời gọi đào sâu các thực hành Mùa Chay qua việc cầu nguyện và bố thí.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed via the General Roman Calendar for 2027. St. Joseph is celebrated on March 19, making March 20 a standard Lenten weekday.",
+    "confidence_note_vi": "Đã xác nhận qua Lịch Rôma Tổng Quát năm 2027. Thánh Giuse được mừng vào ngày 19 tháng 3, do đó ngày 20 tháng 3 là ngày thường Mùa Chay tiêu chuẩn."
+  },
+  "app_hooks": {
+    "hero_line_en": "A Saturday of Lenten Preparation and Quiet Reflection",
+    "hero_line_vi": "Thứ Bảy của Sự Chuẩn Bị Mùa Chay và Suy Niệm Tĩnh Lặng",
+    "prayer_prompt_en": "Lord, grant me the patience to continue my Lenten journey with humility and renewed heart.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn để tiếp tục hành trình Mùa Chay với sự khiêm nhường và tâm hồn mới."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/032027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/02050a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-07",
+    "hebrew": "11 Adar II 5787",
+    "islamic_umm_al_qura": "11 Shawwal 1448 AH",
+    "coptic": "11 Baramhat 1743",
+    "ethiopian": "11 Baramhat 1743"
+  }
+}

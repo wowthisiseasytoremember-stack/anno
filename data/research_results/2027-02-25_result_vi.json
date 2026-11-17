@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần V mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần V mùa Thường Niên",
+    "summary_vi": "Ngày này nằm trong Mùa Thường Niên, thời gian dành cho sự tăng trưởng chung của Hội Thánh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và chu kỳ liên tục của đời sống tâm linh. Không có lễ kính trọng thể hay lễ nhớ bắt buộc nào chiếm ưu tiên vào ngày này trong Lịch Phụng vụ Rôma.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, phụng vụ tập trung vào sự thánh hóa hằng ngày của các tín hữu qua việc đọc Kinh Thánh và cử hành Bí tích Thánh Thể. Các bài đọc thường tiếp tục đọc liên tục các sách Tin Mừng, mời gọi người tín hữu suy ngẫm về lời dạy của Đức Kitô trong cuộc sống hằng ngày. Việc không có danh hiệu thánh cụ thể nhấn mạnh tính phổ quát của mùa phụng vụ này.",
+    "confidence_note_vi": "Được xác nhận là ngày thường trong Mùa Thường Niên dựa trên Lịch Phụng vụ chuẩn cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng của những ngày bình thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để tìm thấy Chúa trong sự lặp lại của đời sống hằng ngày."
+  }
+}

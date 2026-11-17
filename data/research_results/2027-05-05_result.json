@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-05",
+  "date": "2027-05-05",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Fifth Week of Easter",
+    "title_vi": "Thứ Tư Tuần V Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Ferial Day in Easter Season",
+    "title_vi": "Ngày Thường Nhật Trong Mùa Phục Sinh",
+    "summary_en": "This Wednesday falls within the Fifth Week of the Easter Season. The liturgical focus is on the living witness of the Apostles and the growth of the early Church as recorded in the Acts of the Apostles. There are no obligatory saints' memorials for this day in the General Roman Calendar.",
+    "summary_vi": "Thứ Tư này thuộc Tuần V của Mùa Phục Sinh. Trọng tâm phụng vụ là chứng tá sống động của các Tông Đồ và sự tăng trưởng của Giáo Hội sơ khai được ghi chép trong sách Công Vụ Tông Đồ. Không có thánh lễ kính các thánh nào bắt buộc trong Ngày này theo Lịch Chung Roma.",
+    "body_en": "The readings for this day typically reflect the missionary journeys of the Apostles, emphasizing the universal call to salvation. The faithful are invited to contemplate the role of the Holy Spirit in guiding the Church's expansion beyond Israel. As a ferial day, it retains the proper texts of the Easter Season rather than introducing new thematic elements.",
+    "body_vi": "Các bài đọc trong ngày này thường phản ánh các cuộc truyền giáo của các Tông Đồ, nhấn mạnh lời mời gọi phổ quát đến ơn cứu độ. Các tín hữu được mời gọi suy niệm về vai trò của Chúa Thánh Thần trong việc hướng dẫn Giáo Hội mở rộng ra ngoài Israel. Vì là ngày thường, nên nó giữ lại các văn bản riêng của Mùa Phục Sinh thay vì giới thiệu các yếu tố chủ đề mới.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed as a ferial day in Easter Season with no conflicting saints' memorials in the universal calendar for May 5, 2027.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường trong Mùa Phục Sinh, không có lễ kính thánh nào xung đột trong lịch chung vào ngày 5 tháng 5 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the Spirit, witness to the Resurrection.",
+    "hero_line_vi": "Bước đi trong Thần Khí, làm chứng cho sự Phục Sinh.",
+    "prayer_prompt_en": "Ask the Holy Spirit to deepen your understanding of the Apostolic witness today.",
+    "prayer_prompt_vi": "Cầu xin Chúa Thánh Thần làm sâu sắc sự hiểu biết của bạn về chứng tá Tông Đồ hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings Calendar",
+      "url": "https://www.usccb.org/bible/readings/050527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/15751a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-22",
+    "hebrew": "28 Nisan 5787",
+    "islamic_umm_al_qura": "28 Dhu al-Qidah 1448 AH",
+    "coptic": "27 Baramouda 1743",
+    "ethiopian": "27 Baramouda 1743"
+  }
+}

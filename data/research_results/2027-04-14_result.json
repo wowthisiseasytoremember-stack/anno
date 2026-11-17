@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-14",
+  "date": "2027-04-14",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Fourth Week of Easter",
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Fourth Week of Easter",
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh",
+    "summary_en": "This Wednesday falls within the Fourth Week of the Easter Season. The liturgical color is white, signifying the joy of the Resurrection. There are no obligatory memorials for saints on this day in the General Roman Calendar, allowing the focus to remain on the Paschal Mystery and the readings assigned to the weekday.",
+    "summary_vi": "Thứ Tư này rơi vào Tuần IV của Mùa Phục Sinh. Màu phụng vụ là màu trắng, tượng trưng cho niềm vui của sự Phục Sinh. Không có lễ nhớ buộc nào của các thánh trong Ngày này theo Lịch Rôma chung, cho phép trọng tâm vẫn còn ở Mầu nhiệm Vượt Qua và các bài đọc được chỉ định cho ngày thường.",
+    "body_en": "The readings for this day, drawn from the Acts of the Apostles and the Gospels, continue to narrate the early growth of the Church and the teachings of Jesus, now illuminated by the light of the Resurrection. The liturgy invites the faithful to reflect on their baptismal identity and to carry the light of Christ into their daily lives.",
+    "body_vi": "Các bài đọc trong ngày này, trích từ Sách Công vụ Tông đồ và các sách Tin Mừng, tiếp tục kể về sự tăng trưởng ban đầu của Hội Thánh và lời dạy của Chúa Giêsu, giờ đây được chiếu sáng bởi ánh sáng của sự Phục Sinh. Phụng vụ mời gọi các tín hữu suy gẫm về căn tính phép Rửa của mình và mang ánh sáng của Chúa Kitô vào cuộc sống hàng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The liturgical status is determined by the universal calendar rules for the Easter season; no specific saint is universally required to be celebrated.",
+    "confidence_note_vi": "Trạng thái phụng vụ được xác định bởi các quy tắc lịch phụng vụ chung cho Mùa Phục Sinh; không có vị thánh cụ thể nào buộc phải cử hành theo lịch chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Carry the light of the Resurrection into your daily work.",
+    "hero_line_vi": "Hãy mang ánh sáng của sự Phục Sinh vào công việc hàng ngày của bạn.",
+    "prayer_prompt_en": "Lord, let my actions today be a witness to your risen presence.",
+    "prayer_prompt_vi": "Lạy Chúa, xin cho hành động của con hôm nay là một chứng tá cho sự hiện diện Phục Sinh của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/041427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican Apostolic Archive - General Roman Calendar",
+      "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-01",
+    "hebrew": "7 Nisan 5787",
+    "islamic_umm_al_qura": "7 Dhu al-Qidah 1448 AH",
+    "coptic": "6 Baramouda 1743",
+    "ethiopian": "6 Baramouda 1743"
+  }
+}

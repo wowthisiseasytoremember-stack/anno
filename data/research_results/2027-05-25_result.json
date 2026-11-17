@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-25",
+  "date": "2027-05-25",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Seventh Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần VII Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Seventh Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần VII Mùa Thường Niên",
+    "summary_en": "This Tuesday is a feria in Ordinary Time, the seventh week of which falls shortly before the Feast of the Ascension. The readings for the day typically focus on the perseverance of the Church and the continued growth of the early Christian community as recorded in the Acts of the Apostles. The Gospel pericopes continue to reflect on the teachings of Jesus regarding faith, humility, and the proper disposition of the heart in prayer.",
+    "summary_vi": "Thứ Ba này là ngày thường nhật trong Mùa Thường Niên, thuộc tuần thứ bảy, rơi vào khoảng thời gian ngắn trước Lễ Thăng Thiên. Các bài đọc trong ngày thường tập trung vào sự kiên trì của Hội Thánh và sự tăng trưởng liên tục của cộng đoàn Kitô hữu sơ khai được ghi lại trong sách Công Vụ Tông Đồ. Các đoạn Tin Mừng tiếp tục suy tư về những lời dạy của Chúa Giêsu liên quan đến đức tin, sự khiêm nhường, và thái độ đúng đắn của tâm hồn khi cầu nguyện.",
+    "body_en": "As a weekday of Ordinary Time, this day invites the faithful to integrate the mysteries of Christ's life into their daily routine. The liturgical color is green, symbolizing hope and the steady growth of the Church. Unless a saint of higher rank is specifically celebrated in a local calendar, the universal calendar prescribes the readings for Tuesday of Week 7. The focus remains on the ongoing mission of the disciples to spread the Gospel to the ends of the earth, emphasizing patience and trust in divine timing.",
+    "body_vi": "Là một ngày thường nhật trong Mùa Thường Niên, ngày này mời gọi các tín hữu hòa nhập các mầu nhiệm trong cuộc đời Chúa Kitô vào thói quen hàng ngày của họ. Màu sắc phụng vụ là màu xanh lá cây, biểu tượng cho niềm hy vọng và sự phát triển vững chắc của Hội Thánh. Trừ khi một vị thánh có bậc lễ cao hơn được cử hành cách riêng trong lịch địa phương, lịch phụng vụ chung quy định các bài đọc cho Thứ Ba Tuần VII. Trọng tâm vẫn là sứ vụ liên lụy của các môn đệ trong việc loan báo Tin Mừng đến tận cùng trái đất, nhấn mạnh vào sự kiên nhẫn và tin tưởng vào thời điểm của Thiên Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "General Roman Calendar standard weekday for this date.",
+    "confidence_note_vi": "Ngày thường nhật tiêu chuẩn trong Lịch Phụng vụ Rôma cho ngày này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast in Faith, Growing in Grace",
+    "hero_line_vi": "Vững Vàng trong Đức Tin, Nảy Mỉm trong Ân Sủng",
+    "prayer_prompt_en": "Lord, grant me the patience to grow in virtue and the strength to remain faithful in the quiet moments of daily life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn để tăng trưởng trong nhân đức và sức mạnh để trung tín trong những khoảnh khắc tĩnh lặng của cuộc sống hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://www.usccb.org/bible/readings/052527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints",
+      "url": "https://catholic.org/saints/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-12",
+    "hebrew": "18 Iyar 5787",
+    "islamic_umm_al_qura": "18 Dhu al-Hijjah 1448 AH",
+    "coptic": "17 Bashans 1743",
+    "ethiopian": "17 Bashans 1743"
+  }
+}

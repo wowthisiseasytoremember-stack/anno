@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần V Mùa Thường Niên",
+    "summary_vi": "Ngày này thuộc Tuần V Mùa Thường Niên. Không có lễ kính nào trên toàn Giáo hội vào ngày này, nên đây là ngày thường theo lịch phụng vụ. Các bài đọc phản ánh sự tăng trưởng liên tục của cộng đoàn trong việc hiểu biết các mầu nhiệm đức tin.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, trọng tâm là sự diễn tiến từ từ của sứ vụ Chúa Kitô và việc áp dụng những giáo huấn của Người vào đời sống hằng ngày. Không có vị thánh nào được kính nhớ, cho phép phụng vụ tập trung hoàn toàn vào tiến trình tuần hoàn của bài đọc trong Mùa Thường Niên.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên mà không có lễ nào cao hơn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Vững vàng trong đời thường",
+    "prayer_prompt_vi": "Cầu nguyện cho sự bền đỗ trong đức tin hằng ngày"
+  }
+}

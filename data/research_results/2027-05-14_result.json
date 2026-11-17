@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-14",
+  "date": "2027-05-14",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần Thánh Thứ Năm Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần Thánh Thứ Năm Mùa Thường Niên",
+    "summary_en": "This date falls on a weekday of Ordinary Time, specifically the fifth week. No major solemnities or feasts are observed. The liturgical color is green, symbolizing hope and growth in faith. The readings focus on the ongoing spiritual growth of the faithful during the middle of the year.",
+    "summary_vi": "Ngày này rơi vào một ngày thường nhật trong Mùa Thường Niên, cụ thể là tuần thứ năm. Không có lễ trọng hay lễ kính nào được cử hành. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin. Các bài đọc tập trung vào sự tăng trưởng thiêng liêng liên tục của các tín hữu giữa năm.",
+    "body_en": "As a weekday in Ordinary Time, this Friday does not have a dedicated saint or event with universal commemoration that overrides the weekday liturgy. The focus remains on the Gospel and Epistle readings appointed for the current week, which guide the faithful in practical holiness and doctrinal understanding. The Church encourages prayer and reflection during this time, emphasizing the quiet accumulation of grace through daily duties and the sacramental life.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, Thứ Sáu này không có một vị thánh hay sự kiện nào được tưởng niệm phổ quát để thay thế phụng vụ ngày thường. Trọng tâm vẫn là các bài Tin Mừng và Thư Tông Đồ được chỉ định cho tuần hiện tại, hướng dẫn các tín hữu về sự thánh thiện thực tế và hiểu biết giáo lý. Giáo hội khuyến khích cầu nguyện và suy gẫm trong thời gian này, nhấn mạnh vào sự tích lũy ân sủng qua bổn phận hàng ngày và đời sống bí tích.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Deterministic calculation of the General Roman Calendar for 2027-05-14.",
+    "confidence_note_vi": "Tính toán xác định của Lịch Rôma Chung cho ngày 14/05/2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in Faith",
+    "hero_line_vi": "Tăng Trưởng Trong Đức Tin",
+    "prayer_prompt_en": "Lord, grant me the grace to grow in holiness through my daily duties and quiet moments of prayer this Friday.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn sủng để tăng trưởng trong sự thánh thiện qua các bổn phận hàng ngày và những khoảnh khắc cầu nguyện thinh lặng trong ngày Thứ Sáu này."
+  },
+  "sources": [
+    {
+      "label": "Universal Calendar of the Church - Vatican",
+      "url": "https://www.vatican.va/calendar_2027/month.php",
+      "type": "vatican"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia - Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-01",
+    "hebrew": "7 Iyar 5787",
+    "islamic_umm_al_qura": "7 Dhu al-Hijjah 1448 AH",
+    "coptic": "6 Bashans 1743",
+    "ethiopian": "6 Bashans 1743"
+  }
+}

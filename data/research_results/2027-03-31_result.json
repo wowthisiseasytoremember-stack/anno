@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-31",
+  "date": "2027-03-31",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Fourth Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần IV Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Fourth Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần IV Mùa Thường Niên",
+    "summary_en": "March 31, 2027, falls on a Wednesday during the Fourth Week of Ordinary Time in the liturgical calendar. The liturgical color is green, symbolizing hope and the growth of the Church. On this day, no specific saint memorial takes precedence, so the weekday readings and prayers from the Fourth Week apply.",
+    "summary_vi": "Ngày 31 tháng 3 năm 2027 rơi vào Thứ Tư trong Tuần IV Mùa Thường Niên theo lịch phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của Hội Thánh. Trong ngày này, không có lễ kính thánh nào ưu tiên, nên các bài đọc và lời nguyện của Thứ Tư Tuần IV được áp dụng.",
+    "body_en": "As a weekday of Ordinary Time, this Wednesday follows the standard lectionary cycle for the Fourth Week. The focus is on the continuous reading of Scripture and the growth in Christian virtue. The Office of Readings, Lauds, and Vespers will use the texts proper to the Fourth Week of Ordinary Time, emphasizing themes of faith and perseverance.",
+    "body_vi": "Là một ngày trong tuần thuộc Mùa Thường Niên, Thứ Tư này tuân theo chu kỳ sách bài đọc tiêu chuẩn cho Tuần IV. Trọng tâm là việc đọc Sách Thánh liên tục và sự tăng trưởng trong nhân đức Kitô giáo. Các Kinh Nhật Tụng, Kinh Sáng và Kinh Chiều sẽ sử dụng các văn bản riêng của Thứ Tư Tuần IV Mùa Thường Niên, nhấn mạnh các chủ đề về đức tin và sự kiên trì.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is confirmed as a weekday in Ordinary Time by the 2027 liturgical calendar for the Roman Rite.",
+    "confidence_note_vi": "Ngày này được xác nhận là một ngày trong tuần Mùa Thường Niên bởi lịch phụng vụ năm 2027 của Nghi lễ La Mã."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in Hope: Wednesday of the Fourth Week",
+    "hero_line_vi": "Tăng trưởng trong Hy Vọng: Thứ Tư Tuần IV",
+    "prayer_prompt_en": "Lord, grant us the perseverance to grow in faith and hope today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự kiên trì để tăng trưởng trong đức tin và hy vọng hôm nay."
+  },
+  "sources": [
+    {
+      "label": "Universal Roman Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-18",
+    "hebrew": "22 Adar II 5787",
+    "islamic_umm_al_qura": "22 Shawwal 1448 AH",
+    "coptic": "22 Baramhat 1743",
+    "ethiopian": "22 Baramhat 1743"
+  }
+}

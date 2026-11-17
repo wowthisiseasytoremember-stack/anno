@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-22",
+  "date": "2027-04-22",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "white",
+    "title_en": "Thursday of the Third Week of Easter",
+    "title_vi": "Thứ Năm Tuần III Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Third Week of Easter",
+    "title_vi": "Thứ Năm Tuần III Phục Sinh",
+    "summary_en": "This day falls within the Easter season, observing the resurrection of Christ. It is a Feria (weekday) with no mandatory saint's feast, allowing the liturgical focus to remain on the Paschal Mystery. The readings typically emphasize the continuing life of the early Church or teachings on faith.",
+    "summary_vi": "Ngày này nằm trong Mùa Phục Sinh, tưởng niệm sự phục sinh của Đức Kitô. Đây là ngày thường (Feria) không có lễ kính bắt buộc của một vị thánh, do đó trọng tâm phụng vụ vẫn là Mầu Nhiệm Vượt Qua. Các bài đọc thường nhấn mạnh đời sống tiếp nối của Giáo hội sơ khai hoặc giáo huấn về đức tin.",
+    "body_en": "In the General Roman Calendar, this Thursday in the third week after Easter is celebrated as a Feria in the Easter season. The liturgical color is white, reflecting the joy of the Resurrection. While specific saints may be commemorated in local calendars or religious orders, they are optional, and the primary celebration remains the Paschal mystery through the proper texts of the day.",
+    "body_vi": "Trong Lịch Rôma Tổng Quát, Thứ Năm Tuần III Phục Sinh được cử hành như một ngày thường trong Mùa Phục Sinh. Màu sắc phụng vụ là trắng, phản ánh niềm vui của sự Phục Sinh. Mặc dù một số vị thánh có thể được kính nhớ trong lịch địa phương hoặc các dòng tu, nhưng những điều này là tùy chọn, và việc cử hành chính vẫn tập trung vào mầu nhiệm Vượt Qua qua các bản văn riêng trong ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The day is a confirmed Feria within the Easter Octave extension period in the General Roman Calendar. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Ngày này được xác nhận là ngày thường (Feria) trong thời gian sau Tuần Bát Nhật Phục Sinh theo Lịch Rôma Tổng Quát. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the Light of the Risen Lord.",
+    "hero_line_vi": "Bước đi trong Ánh Sáng của Chúa Phục Sinh.",
+    "prayer_prompt_en": "Lord Jesus, let the reality of your Resurrection transform my daily life and actions.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho thực tại Phục Sinh của Chúa biến đổi cuộc sống và hành động hằng ngày của con."
+  },
+  "sources": [
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-09",
+    "hebrew": "15 Nisan 5787",
+    "islamic_umm_al_qura": "15 Dhu al-Qidah 1448 AH",
+    "coptic": "14 Baramouda 1743",
+    "ethiopian": "14 Baramouda 1743"
+  }
+}

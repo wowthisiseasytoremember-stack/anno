@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-23",
+  "date": "2027-05-23",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "red",
+    "title_en": "Pentecost Sunday",
+    "title_vi": "Chúa Nhật Lễ Chúa Thánh Thần Hiện Xuống"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Pentecost Sunday",
+    "title_vi": "Chúa Nhật Lễ Chúa Thánh Thần Hiện Xuống",
+    "summary_en": "Pentecost marks the descent of the Holy Spirit upon the Apostles, fifty days after Easter. It celebrates the birth of the Church and the empowerment of believers through the Holy Spirit. The liturgical color is red, symbolizing the fire of the Spirit.",
+    "summary_vi": "Lễ Ngũ Tuần đánh dấu biến cố Chúa Thánh Thần hiện xuống trên các Tông Đồ, năm mươi ngày sau lễ Phục Sinh. Đây là ngày mừng kính sự ra đời của Giáo Hội và quyền năng của Chúa Thánh Thần ban cho các tín hữu. Màu phụng vụ là màu đỏ, tượng trưng cho lửa của Thần Khí.",
+    "body_en": "On this solemnity, the Church commemorates the event where the Holy Spirit descended upon the Apostles in Jerusalem, transforming them into bold witnesses of the Gospel. This day is considered the birthday of the Church, where the diversity of languages was harmonized by the single truth of Christ. The faithful are invited to renew their baptismal promises and open their hearts to the guidance of the Holy Spirit in daily life.",
+    "body_vi": "Trong ngày đại lễ này, Giáo Hội tưởng nhớ biến cố Chúa Thánh Thần hiện xuống trên các Tông Đồ tại Giêrusalem, biến đổi các ngài thành những chứng nhân can trường cho Tin Mừng. Ngày này được coi là ngày sinh nhật của Giáo Hội, nơi sự đa dạng ngôn ngữ được hòa hợp bởi chân lý duy nhất của Đức Kitô. Cộng đoàn tín hữu được mời gọi canh lại lời hứa Bí tích Rửa Tội và mở lòng ra với sự hướng dẫn của Chúa Thánh Thần trong đời sống hàng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Fixed date in the liturgical calendar based on Easter Sunday calculation for 2027.",
+    "confidence_note_vi": "Ngày cố định trong lịch phụng vụ dựa trên việc tính toán lễ Phục Sinh năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Receive the Holy Spirit and be witnesses.",
+    "hero_line_vi": "Hãy nhận lấy Chúa Thánh Thần và làm chứng nhân.",
+    "prayer_prompt_en": "Come, Holy Spirit, fill the hearts of Your faithful and kindle in them the fire of Your love.",
+    "prayer_prompt_vi": "Lạy Chúa Thánh Thần, xin Ngài ngự đến, biến đổi tâm hồn các tín hữu, và đốt lên ngọn lửa yêu thương của Ngài."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Readings for 2027",
+      "url": "https://www.usccb.org/bible/readings/052327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican - Liturgical Calendar",
+      "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-10",
+    "hebrew": "16 Iyar 5787",
+    "islamic_umm_al_qura": "16 Dhu al-Hijjah 1448 AH",
+    "coptic": "15 Bashans 1743",
+    "ethiopian": "15 Bashans 1743"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-16",
+  "date": "2027-04-16",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Fourth Week of Easter",
+    "title_vi": "Thứ Sáu Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Feria of the Fourth Week of Easter",
+    "title_vi": "Ngày Thứ Sáu Tuần IV Mùa Phục Sinh",
+    "summary_en": "April 16, 2027, falls on a Friday within the Fourth Week of Eastertide in the liturgical calendar. This day continues the post-resurrectional period, emphasizing the ongoing presence of the Risen Christ among the faithful. As a weekday of Ordinary Time in Eastertide, it is marked by the liturgical color green, symbolizing hope and growth in the Christian life.",
+    "summary_vi": "Ngày 16 tháng 4 năm 2027 rơi vào Thứ Sáu trong Tuần IV của Mùa Phục Sinh theo lịch phụng vụ. Ngày này tiếp tục giai đoạn hậu Phục Sinh, nhấn mạnh sự hiện diện liên lỉ của Đức Kitô Phục Sinh giữa các tín hữu. Là một ngày trong tuần của Mùa Phục Sinh, ngày này được đánh dấu bằng màu xanh lá cây trong phụng vụ, biểu tượng cho niềm hy vọng và sự tăng trưởng trong đời sống Kitô giáo.",
+    "body_en": "The liturgical observance of this Friday focuses on the continued celebration of the Paschal Mystery. While specific saints may be commemorated in the local calendar or the calendar of saints, the primary liturgical context remains that of the Eastertide season. The readings and prayers for this day reflect the themes of spiritual growth and the testimony of the early Church.",
+    "body_vi": "Việc cử hành phụng vụ Thứ Sáu này tập trung vào việc tiếp tục cử hành Mầu Nhiệm Vượt Qua. Mặc dù có thể có các vị thánh cụ thể được tưởng nhớ trong lịch phụng vụ địa phương hoặc lịch các thánh, nhưng bối cảnh phụng vụ chính vẫn là Mùa Phục Sinh. Các bài đọc và lời nguyện cho ngày này phản ánh các chủ đề về sự tăng trưởng thiêng liêng và lời chứng của Giáo Hội sơ khai.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is deterministically calculated to be a Friday in the Fourth Week of Eastertide.",
+    "confidence_note_vi": "Ngày này được tính toán xác định là Thứ Sáu trong Tuần IV của Mùa Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_en": "Rise in Hope on this Friday of Eastertide.",
+    "hero_line_vi": "Hãy chỗi dậy trong niềm hy vọng của Mùa Phục Sinh.",
+    "prayer_prompt_en": "Lord, let the light of the Resurrection guide our actions on this day.",
+    "prayer_prompt_vi": "Chúa ơi, xin cho ánh sáng Phục Sinh dẫn dắt mọi hành động của chúng con trong ngày này."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/12350a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-03",
+    "hebrew": "9 Nisan 5787",
+    "islamic_umm_al_qura": "9 Dhu al-Qidah 1448 AH",
+    "coptic": "8 Baramouda 1743",
+    "ethiopian": "8 Baramouda 1743"
+  }
+}

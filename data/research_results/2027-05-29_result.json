@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-29",
+  "date": "2027-05-29",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Seventh Week in Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần VII Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Seventh Week in Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần VII Mùa Thường Niên",
+    "summary_en": "This date falls on a weekday in the seventh week of Ordinary Time in the liturgical calendar. The liturgical color is green, symbolizing growth and the journey of faith. As a feria, it is a day of quiet reflection and prayer within the sequence of the year, leading towards the end of the liturgical season before Pentecost. The readings typically focus on the ongoing discipleship and teachings of Christ found in the Gospel of Mark and the Epistles.",
+    "summary_vi": "Ngày này rơi vào ngày thường trong tuần thứ bảy của Mùa Thường Niên trong lịch phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và hành trình đức tin. Là một ngày thường (feria), đây là ngày thinh lặng suy niệm và cầu nguyện trong chu kỳ năm phụng vụ, hướng tới cuối mùa trước lễ Ngũ Tuần. Các bài đọc thường tập trung vào sự môn đệ liên lỉ và giáo huấn của Chúa Kitô được tìm thấy trong Tin Mừng Máccô và các Thư.",
+    "body_en": "Ordinary Time, represented by the color green, is the time of the church year focused on the life and teachings of Jesus, distinct from the seasons of Advent, Christmas, Lent, and Eastertide. On this Saturday, the Church invites the faithful to listen to the Word of God and to let it bear fruit in daily life. While not a feast or solemnity, the day carries the weight of ordinary holiness, where sanctity is found in duty and quiet trust in God's providence. The readings from Mark 9:38-40 remind us that whoever is not against us is for us, encouraging openness and unity among believers.",
+    "body_vi": "Mùa Thường Niên, được biểu tượng bằng màu xanh lá cây, là thời gian của năm phụng vụ tập trung vào cuộc đời và giáo huấn của Chúa Giêsu, tách biệt khỏi các mùa Vọng, Giáng Sinh, Chay Thánh và Phục Sinh. Vào Thứ Bảy này, Giáo Hội mời gọi các tín hữu lắng nghe Lời Chúa và để Lời ấy sinh hoa trái trong đời sống hàng ngày. Mặc dù không phải là lễ hay lễ trọng, ngày này mang sức nặng của sự thánh thiện đời thường, nơi sự thánh thiện được tìm thấy trong bổn phận và sự tin tưởng thầm lặng vào sự quan phòng của Thiên Chúa. Bài đọc từ Máccô 9:38-40 nhắc nhở chúng ta rằng ai không chống lại chúng ta, là ủng hộ chúng ta, khuyến khích sự cởi mở và hiệp nhất giữa các tín hữu.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a standard weekday in Ordinary Time according to the General Roman Calendar for the year 2027.",
+    "confidence_note_vi": "Ngày này là ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Phụng Vụ La Mã Chung cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growth in the Quiet",
+    "hero_line_vi": "Tăng trưởng trong Thinh lặng",
+    "prayer_prompt_en": "Lord, help me to find You in the ordinary moments of my day and to bear fruit through patience and faith.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong những khoảnh khắc bình thường của ngày sống và sinh hoa trái qua sự kiên nhẫn và đức tin."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/052927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-16",
+    "hebrew": "22 Iyar 5787",
+    "islamic_umm_al_qura": "22 Dhu al-Hijjah 1448 AH",
+    "coptic": "21 Bashans 1743",
+    "ethiopian": "21 Bashans 1743"
+  }
+}

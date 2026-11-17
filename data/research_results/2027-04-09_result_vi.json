@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần V Mùa Thường Niên",
+    "summary_vi": "Giáo Hội cử hành nhịp điệu thông thường của năm phụng vụ trong tuần này thuộc Mùa Thường Niên. Màu sắc phụng vụ là màu xanh lá cây, biểu tượng cho niềm hy vọng và sự tăng trưởng nhân đức của các tín hữu. Ngày này mời gọi tín hữu suy gẫm các bài Tin Mừng và áp dụng vào đời sống hằng ngày qua các việc làm của lòng thương xót và cầu nguyện.",
+    "body_vi": "Trong Thứ Sáu Tuần V Mùa Thường Niên, Giáo Hội tập trung vào sự tăng trưởng đều đặn của Nước Thiên Chúa trong tâm hồn các tín hữu. Các bài đọc của Tuần V khuyến khích lòng kiên nhẫn và niềm tin vào Quan Phòng của Thiên Chúa, nhắc nhở chúng ta rằng sự trưởng thành tâm linh đến từ việc tuân thủ nhất quán các mệnh lệnh của Chúa Kitô. Ngày trong tuần này nhắc nhở rằng sự thánh thiện được tìm thấy trong những khoảnh khắc đời thường khi chúng ta tìm cách yêu mến Thiên Chúa và tha nhân với lòng chân thành và khiêm tốn.",
+    "confidence_note_vi": "Ngày này thuộc Mùa Thường Niên sau Tuần Bát Nhật Phục Sinh; không có lễ trọng nào được cử hành."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong nhân đức qua lời cầu nguyện trung thành.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khôn ngoan để nhận ra sự hiện diện của Chúa trong các công việc hằng ngày."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày thường trong Mùa Quanh Năm (hoặc Thánh Bonifacio, Giám mục Tử đạo, nếu được cử hành trong lịch địa phương)"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần Chín Mùa Quanh Năm",
+    "summary_vi": "Vào ngày 5 tháng 6 năm 2027, Giáo hội cử hành Thứ Bảy Tuần Chín Mùa Quanh Năm theo Lịch Rôma Chung. Ngày này là một ngày thường, nhấn mạnh sự phát triển ổn định của các tín hữu trong đời sống Kitô hữu. Mặc dù Thánh Bonifacio là một lễ tùy chọn phổ biến vào ngày này, phụng vụ ngày thường chiếm ưu thế trong lịch chung trừ khi có đặc quyền cụ thể của giáo phận áp dụng.",
+    "body_vi": "Trọng tâm phụng vụ của Thứ Bảy Tuần Chín Mùa Quanh Năm là sự kiên tâm và sự thánh thiện khiêm nhường trong đời sống hằng ngày. Các bài đọc thường phản ánh sự phát triển của Nước Trời qua những khởi đầu nhỏ bé và lời mời gọi kiên định trong đức tin. Là một ngày thường, không có vị thánh cụ thể nào là bắt buộc trong lịch chung, mặc dù các nhà thờ địa phương có thể tôn kính Thánh Bonifacio như một lễ tùy chọn.",
+    "confidence_note_vi": "Dựa trên Lịch Rôma Chung tiêu chuẩn năm 2027, trong đó ngày 5 tháng 6 rơi vào Thứ Bảy Mùa Quanh Năm."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Kiên định trong Ánh sáng Tĩnh lặng",
+    "prayer_prompt_vi": "Cầu nguyện cho sự kiên tâm trong các bổn phận hằng ngày."
+  }
+}

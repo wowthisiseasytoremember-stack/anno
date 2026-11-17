@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần Thường Niên",
+    "summary_vi": "Ngày này rơi vào Thứ Ba trong Mùa Thường Niên, với màu phụng vụ chủ đạo là xanh lá. Trọng tâm là sự tăng trưởng từ từ của các tín hữu trong việc hiểu trọn vẹn ý nghĩa của mầu nhiệm Đức Kitô. Không có lễ buộc nào ưu tiên, vì vậy áp dụng bài đọc của ngày thường trừ khi lịch địa phương hoặc quốc gia có quy định khác.",
+    "body_vi": "Trong Lịch Phụng vụ Rôma chung, các ngày Thứ Ba trong Mùa Thường Niên được coi là ngày thường, nghĩa là phụng vụ tuân theo chu kỳ ngày thường trừ khi có ngày kính nhớ xảy ra. Các bài đọc được lấy từ chu kỳ sách bài đọc ngày thường, mời gọi suy niệm Tin Mừng và Thư Thánh Phaolô hằng ngày. Màu xanh lá tượng trưng cho niềm hy vọng và sự tiến triển vững chắc của đời sống Kitô hữu.",
+    "confidence_note_vi": "Không có lễ hay ngày kính nhớ lớn nào được công nhận phổ biến vào ngày 8 tháng 6 trong Lịch Phụng vụ Rôma chung, nên đây là ngày thường tiêu chuẩn trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi vững chãi trong ánh sáng Đức Kitô hôm nay.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tăng trưởng trong sự hiểu biết và yêu mến Chúa qua các bổn phận hằng ngày."
+  }
+}

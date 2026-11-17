@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần VII Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần VII Mùa Thường Niên",
+    "summary_vi": "Ngày này thuộc Tuần VII Mùa Thường Niên, tập trung vào lời dạy của Chúa Giêsu về đức tin và sự khiêm nhường trong các bài Tin Mừng. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Giáo Hội. Là một ngày thường tuần, trọng tâm vẫn là sự tiến triển hàng tuần qua các bài đọc Tin Mừng.",
+    "body_vi": "Trong Mùa Thường Niên, Giáo Hội khuyến khích các tín hữu lắng nghe lời Chúa Kitô với sự chú tâm và áp dụng vào cuộc sống hằng ngày. Các bài đọc trong giai đoạn này thường thách thức những người tin đi sâu hơn vào sự hoán cải và cam kết trên con đường môn đệ.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường trong Lịch Rôma ngày 24 tháng 2 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng lời dạy của Ngài.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con sống Tin Mừng của Ngài trong những khoảnh khắc thường nhật của đời con."
+  }
+}

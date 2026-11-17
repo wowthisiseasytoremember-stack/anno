@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật Thứ Năm Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật Thứ Năm Mùa Chay",
+    "summary_vi": "Chúa Nhật Thứ Năm Mùa Chay đánh dấu bước chuyển quan trọng trong hành trình phụng vụ tiến tới lễ Phục Sinh. Ngày này nhấn mạnh chủ đề hoán cải và hồng ân sự sống mới qua Bí tích Rửa Tội, thường sử dụng bài Tin Mừng về sự sống lại của ông Lazarô để báo trước việc Đức Kitô sống lại. Phụng vụ kêu gọi các tín hữu ăn năn sâu xa hơn và cam kết lại với những lời hứa khi Rửa Tội.",
+    "body_vi": "Trong chu kỳ Năm B, các bài đọc thường tập trung vào sự sống lại của ông Lazarô (Ga 11,1-45) như một dấu chỉ về quyền năng của Đức Giêsu trên sự chết. Bài đọc Cựu Ước thường là lời tiên tri của ngôn sứ Êdêkien về những bộ xương khô được hồi sinh, biểu trưng cho sự khôi phục Israel và sự sống lại thiêng liêng được ban cho những người tin. Màu sắc phụng vụ vẫn là màu tím, tượng trưng cho sự ăn năn và vương quyền, trong khi bàn thờ và trang trí vẫn giữ sự đơn giản để duy trì sự tập trung vào hoán cải nội tâm thay vì hình thức bên ngoài.",
+    "confidence_note_vi": "Đây là Chúa Nhật tiêu chuẩn trong Mùa Chay theo lịch phụng vụ Rôma. Các bài Tin Mừng cho Năm B phù hợp với chu kỳ sách bài đọc."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lạy Chúa, chúng con tin vào Ngài. Xin hãy làm cho chúng con sống lại trong Đức Kitô.",
+    "prayer_prompt_vi": "Hãy suy nghĩ về một khía cạnh 'chết chóc' trong đời sống thiêng liêng của bạn. Lời hứa về sự sống lại mang lại cho bạn niềm hy vọng nào hôm nay?"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-02-20",
+  "date": "2027-02-20",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Bảy tuần V Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Bảy tuần V Thường Niên",
+    "summary_en": "This is a weekday (feria) during Ordinary Time. The liturgical color is green, signifying the growth and time of the Church. No specific universal feast takes precedence, so the Mass follows the weekday lectionary.",
+    "summary_vi": "Đây là ngày trong tuần (feria) trong Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và thời kỳ của Giáo Hội. Không có lễ kính nào cụ thể được ưu tiên, do đó Thánh lễ tuân theo sách bài đọc ngày trong tuần.",
+    "body_en": "As a weekday in the Fifth Week of Ordinary Time, the focus is on the continued reading of Scripture and the application of Christian virtue to daily life. The Mass readings are selected to guide the faithful in their ongoing conversion. The color green reflects hope and the steady growth of the Kingdom of God during this non-festive period.",
+    "body_vi": "Là một ngày trong tuần của Tuần Thứ Năm Mùa Thường Niên, trọng tâm là việc tiếp tục đọc Kinh Thánh và áp dụng nhân đức Kitô giáo vào cuộc sống hàng ngày. Các bài đọc Thánh lễ được chọn để hướng dẫn người tín hữu trong cuộc hoán cải liên lỉ. Màu xanh lá cây phản ánh niềm hy vọng và sự tăng trưởng vững chắc của Nước Trời trong thời kỳ không phải lễ trọng này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time per the General Roman Calendar. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Ngày trong tuần tiêu chuẩn trong Mùa Thường Niên theo Lịch Rôma Chung. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Green is the color of growth. Let your faith deepen in the quiet of this Ordinary Time.",
+    "hero_line_vi": "Xanh là màu sắc của sự tăng trưởng. Hãy để đức tin của bạn đào sâu trong sự tĩnh lặng của Mùa Thường Niên này.",
+    "prayer_prompt_en": "Lord, help me to grow in holiness today through small, faithful actions.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lớn lên trong sự thánh thiện hôm nay qua những hành động nhỏ bé và trung tín."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/022027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "reference"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-07",
+    "hebrew": "13 Adar 5787",
+    "islamic_umm_al_qura": "13 Ramadan 1448 AH",
+    "coptic": "13 Amshir 1743",
+    "ethiopian": "13 Amshir 1743"
+  }
+}

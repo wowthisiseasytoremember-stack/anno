@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-19",
+  "date": "2027-06-19",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Eleventh Week in Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần XI Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Eleventh Week in Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần XI Mùa Thường Niên",
+    "summary_en": "On this Saturday, the Church observes the Eleventh Week in Ordinary Time. The liturgical focus is on spiritual growth and the active living of the Christian faith in daily life. There are no major feasts or obligatory memorials that supersede this feria, so the readings and prayers from the weekday cycle apply.",
+    "summary_vi": "Vào ngày Thứ Bảy này, Giáo hội cử hành Tuần XI Mùa Thường Niên. Trọng tâm phụng vụ là sự tăng trưởng tâm linh và việc sống đức tin Kitô giáo một cách tích cực trong đời sống hàng ngày. Không có lễ trọng hay lễ nhớ buộc nào thay thế ngày này, do đó các bài đọc và lời nguyện trong chu kỳ ngày thường được áp dụng.",
+    "body_en": "Ordinary Time serves as the backbone of the liturgical year, inviting the faithful to reflect on the entirety of Christ's life and teaching. As a Saturday in the eleventh week, the emphasis is on listening to the Word and bearing fruit through good works, consistent with the themes of patience and perseverance often found in the readings of this season. The green vestments symbolize hope and the ongoing journey of the Church.",
+    "body_vi": "Mùa Thường Niên đóng vai trò là trụ cột của năm phụng vụ, mời gọi các tín hữu suy niệm về toàn bộ cuộc đời và lời dạy của Chúa Kitô. Là Thứ Bảy trong tuần XI, trọng tâm là lắng nghe Lời Chúa và sinh hoa trái qua các việc lành, nhất quán với các chủ đề về sự kiên nhẫn và bền bỉ thường thấy trong các bài đọc của mùa này. Áo lễ màu xanh lá cây tượng trưng cho niềm hy vọng và hành trình liên tục của Giáo hội.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This date falls within Ordinary Time in the Novus Ordo calendar. No universal solemnities or feasts are listed for June 19 in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên trong lịch Novus Ordo. Không có lễ trọng hay lễ chung nào được liệt kê cho ngày 19 tháng 6 trong Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the Spirit of Ordinary Time",
+    "hero_line_vi": "Bước đi trong Thần Khí của Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, grant me the patience to listen and the courage to act.",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho con sự kiên nhẫn để lắng nghe và lòng can đảm để hành động."
+  },
+  "sources": [
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/10154a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-06",
+    "hebrew": "14 Sivan 5787",
+    "islamic_umm_al_qura": "14 Muharram 1449 AH",
+    "coptic": "12 Paona 1743",
+    "ethiopian": "12 Paona 1743"
+  }
+}

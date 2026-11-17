@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần XI Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần XI Thường Niên",
+    "summary_vi": "Ngày này rơi vào Mùa Thường Niên, cụ thể là Thứ Năm Tuần XI. Không có lễ nhớ bắt buộc hay lễ trọng nào được gán cho ngày cụ thể này trong Lịch Rôma Tổng Quát. Trọng tâm phụng vụ là các bài đọc ngày thường và chu kỳ Kinh Nhật Tụng.",
+    "body_vi": "Trong Mùa Thường Niên, Giáo hội mời gọi các tín hữu bước đi trong đời sống của Chúa Kitô và lời dạy của các Tông Đồ một cách liên tục, dù không mang tính lễ hội. Là một ngày thường, ngày này nhấn mạnh việc thánh hóa đời sống hằng ngày và sự vâng phục thánh ý Chúa trong những điều bình thường. Phụng vụ hướng sự chú ý vào các mầu nhiệm đức tin được trình bày trong chu kỳ bài đọc Năm I (2027).",
+    "confidence_note_vi": "Lịch xác nhận cho năm 2027. Không có lễ nhớ thánh nào thay thế ngày thường."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thánh hóa điều bình thường qua ân sủng hằng ngày.",
+    "prayer_prompt_vi": "Hãy xin Chúa ơn nhìn thấy sự hiện diện của Ngài trong những công việc tầm thường của ngày sống, biến thói quen thành con đường nên thánh."
+  }
+}

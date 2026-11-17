@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần V Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào Thứ Sáu của Tuần V Mùa Thường Niên, với màu phụng vụ xanh lá cây. Giáo Hội mời gọi các tín hữu suy gẫm về lời dạy của Chúa Kitô qua các bài đọc Tin Mừng hằng ngày, tuân theo chu kỳ của sách Luca trong năm này. Không có ngày kính nhớ thánh nhân cụ thể nào thay thế trạng thái tuần nhật trong Lịch Rôma Tổng Quát.",
+    "body_vi": "Vào Thứ Sáu này, phụng vụ tập trung vào sự biến đổi dần dần của tâm hồn qua sự tuân giữ Lời Chúa. Các bài đọc thường nhấn mạnh sự cần thiết của đức tin và phản ứng với ơn thánh, đóng vai trò là sự chuẩn bị tinh thần cho Tam Nhật Vượt Qua sắp tới. Việc thiếu các lễ trọng cho phép cử hành suy niệm cuộc sống thường nhật của Giáo Hội.",
+    "confidence_note_vi": "Ngày này là tuần nhật tiêu chuẩn trong Mùa Thường Niên dựa trên tính toán lịch phụng vụ năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lắng nghe Lời Chúa, và để Lời biến đổi tâm hồn bạn.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban ơn cho con biết nghe tiếng Chúa rõ ràng giữa ồn ào của thế gian."
+  }
+}

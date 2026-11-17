@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Trọng Mình Máu Thánh Chúa Ki-tô"
+  },
+  "primary": {
+    "title_vi": "Mình Máu Thánh Chúa Ki-tô (Lễ Mình Thánh Chúa)",
+    "summary_vi": "Lễ Trọng này tôn vinh sự hiện diện thật sự của Chúa Giê-su Ki-tô trong Bí tích Thánh Thể, cử hành bí tích hiệp lễ. Được thiết lập vào thế kỷ 13 và mở rộng cho toàn Hội Thánh bởi Giáo hoàng Urban IV, ngày này mời gọi các tín hữu tôn thờ mầu nhiệm đức tin. Vào Chúa nhật này, thường được chuyển từ Thứ Năm sang ở một số vùng, sự tập trung vẫn hướng về mầu nhiệm Thánh Thể.",
+    "body_vi": "Phụng vụ tập trung vào việc thiết lập Bí tích Thánh Thể và ý nghĩa sâu xa của việc 'ăn thịt và uống máu' Chúa. Các bài đọc nhắc lại lễ Vượt Qua, giao ước mới, và lời hứa ban sự sống đời đời cho những ai rước lễ. Đây là ngày tôn kính sâu sắc, thường được đánh dấu bằng các cuộc rước kiệu Thánh Thể, nơi Mình Thánh Chúa được tôn kính trước thế gian như dấu chỉ tình yêu bền vững và sự hiện diện của Đức Ki-tô.",
+    "confidence_note_vi": "Lễ Mình Thánh Chúa là một lễ trọng theo Lịch Phụng vụ Rôma. Tại những vùng mà ngày này không phải là ngày lễ buộc, thường được cử hành vào Chúa nhật sau Chúa nhật lễ Chúa Ba Ngôi."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy Tôn Thờ Mầu Nhiệm Đức Tin",
+    "prayer_prompt_vi": "Chúa Giê-su ơi, chúng con tin vào sự hiện diện thật sự của Chúa trong Bí tích Thánh Thể. Xin củng cố đức tin của chúng con khi chúng con tiến đến bàn tiệc thánh của Ngài."
+  }
+}

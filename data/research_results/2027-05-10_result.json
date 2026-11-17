@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-10",
+  "date": "2027-05-10",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Sixth Week of Easter",
+    "title_vi": "Thứ Hai Tuần Sáu Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Sixth Week of Easter",
+    "title_vi": "Thứ Hai Tuần Sáu Mùa Phục Sinh",
+    "summary_en": "This day falls within the Easter Season, a time of joy and celebration of the Resurrection. It is observed as a feria, maintaining the paschal character of the liturgy. The readings focus on the mission of the Church and the witness to the Truth.",
+    "summary_vi": "Ngày này rơi vào Mùa Phục Sinh, thời gian hân hoan và tôn vinh Sự Phục Sinh. Đây là ngày trong tuần, duy trì đặc tính phục sinh của phụng vụ. Các bài đọc tập trung vào sứ mạng của Giáo Hội và lời chứng cho Chân Lý.",
+    "body_en": "As a Monday in the Sixth Week of Easter, the liturgy continues to proclaim the risen Christ. The color green signifies hope and life, consistent with Ordinary Time principles, but the season is explicitly Easter. No major feast interrupts the weekday flow, allowing for personal reflection on the paschal mystery.",
+    "body_vi": "Là Thứ Hai trong Tuần Sáu Mùa Phục Sinh, phụng vụ tiếp tục loan báo Đức Kitô Phục Sinh. Màu xanh lá cây tượng trưng cho niềm hy vọng và sự sống, phù hợp với các nguyên tắc của Mùa Thường Niên, nhưng mùa phụng vụ được xác định rõ là Mùa Phục Sinh. Không có lễ trọng nào gián đoạn dòng chảy của ngày thường, cho phép suy tư cá nhân về mầu nhiệm Vượt Qua.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Deterministic calculation for 2027-05-10.",
+    "confidence_note_vi": "Tính toán xác suất cho ngày 10/05/2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Joy in the Risen Lord",
+    "hero_line_vi": "Niềm vui trong Chúa Phục Sinh",
+    "prayer_prompt_en": "Ask the Holy Spirit to guide your week in truth.",
+    "prayer_prompt_vi": "Cầu xin Chúa Thánh Thần hướng dẫn tuần mới của bạn trong chân lý."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/bible/readings/051027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-27",
+    "hebrew": "3 Iyar 5787",
+    "islamic_umm_al_qura": "3 Dhu al-Hijjah 1448 AH",
+    "coptic": "2 Bashans 1743",
+    "ethiopian": "2 Bashans 1743"
+  }
+}

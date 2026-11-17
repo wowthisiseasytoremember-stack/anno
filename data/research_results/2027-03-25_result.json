@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-25",
+  "date": "2027-03-25",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "The Annunciation of the Lord",
+    "title_vi": "Lễ Đức Mẹ Truyền Tin"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Annunciation of the Lord",
+    "title_vi": "Lễ Đức Mẹ Truyền Tin",
+    "summary_en": "The Church celebrates the moment when the Angel Gabriel announced to the Virgin Mary that she would conceive and bear the Son of God. This solemnity marks the beginning of the Incarnation, occurring exactly nine months before Christmas. It is a day of profound joy and humility, honoring Mary's fiat.",
+    "summary_vi": "Hội Thánh cử hành khoảnh khắc khi Tổng Thần Gabriel loan báo cho Trinh Nữ Maria rằng Mẹ sẽ thụ thai và sinh hạ Con Thiên Chúa. Lễ trọng thể này đánh dấu khởi đầu của Mầu Nhiệm Nhập Thể, xảy ra chính xác chín tháng trước Lễ Giáng Sinh. Đây là ngày vui mừng và khiêm nhường sâu sắc, tôn vinh lời 'xin vâng' của Mẹ Maria.",
+    "body_en": "On March 25, the Church pauses the Lenten journey to celebrate the moment of the Incarnation. The Annunciation is not merely a historical event but a continuing invitation to welcome Christ into our lives through faith and obedience. The liturgical color is white, signifying purity and the glory of God entering the world. Mary's response, 'Let it be done to me according to your word,' serves as the model of Christian discipleship and humility before the Divine Will.",
+    "body_vi": "Vào ngày 25 tháng 3, Hội Thánh tạm dừng hành trình Mùa Chay để cử hành khoảnh khắc Nhập Thể. Lễ Truyền Tin không chỉ là một biến cố lịch sử mà còn là lời mời gọi liên lỉ để đón nhận Đức Kitô vào đời sống của chúng ta qua đức tin và sự vâng phục. Màu phụng vụ là màu trắng, tượng trưng cho sự tinh tuyền và vinh quang của Thiên Chúa bước vào thế gian. Lời đáp trả của Mẹ Maria, 'Xin hãy xảy ra cho tôi theo lời Ngài,' là khuôn mẫu của đời sống môn đệ Kitô giáo và sự khiêm nhường trước Ý Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Fixed date in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày cố định trong Lịch Phụng vụ Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Let it be done to me according to your word.",
+    "hero_line_vi": "Xin hãy xảy ra cho tôi theo lời Ngài.",
+    "prayer_prompt_en": "Lord, help me to accept your will with the humility and faith of Mary.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con đón nhận ý Chúa với sự khiêm nhường và đức tin của Mẹ Maria."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Solemnity of the Annunciation of the Lord",
+      "url": "https://www.usccb.org/bible/calendar/2027-03-25",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - The Annunciation",
+      "url": "https://www.newadvent.org/cathen/01575a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-12",
+    "hebrew": "16 Adar II 5787",
+    "islamic_umm_al_qura": "16 Shawwal 1448 AH",
+    "coptic": "16 Baramhat 1743",
+    "ethiopian": "16 Baramhat 1743"
+  }
+}

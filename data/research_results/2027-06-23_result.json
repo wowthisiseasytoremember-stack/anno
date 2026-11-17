@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-23",
+  "date": "2027-06-23",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Week of Ordinary Time",
+    "title_vi": "Thứ Tư tuần Thường niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Week of Ordinary Time",
+    "title_vi": "Thứ Tư tuần Thường niên",
+    "summary_en": "June 23, 2027, falls on a Wednesday during the period known as Ordinary Time in the General Roman Calendar. This day is marked by the liturgical color green, which symbolizes hope and growth. The focus is on the daily progression of the liturgical year, emphasizing the faithful's journey in faith and the sanctification of time through the Liturgy of the Hours and the Holy Mass.",
+    "summary_vi": "Ngày 23 tháng 6 năm 2027 rơi vào Thứ Tư trong thời kỳ thường niên của Lịch Phụng vụ La Mã thông thường. Ngày này được đánh dấu bằng màu phụng vụ xanh lục, tượng trưng cho niềm hy vọng và sự tăng trưởng. Trọng tâm là sự tiến triển hàng ngày của năm phụng vụ, nhấn mạnh hành trình đức tin của các tín hữu và việc thánh hóa thời gian qua Phụng vụ các Giờ kinh và Thánh lễ.",
+    "body_en": "As a weekday of Ordinary Time, June 23, 2027, invites the faithful to contemplate the teachings of Christ and the mysteries of the faith within the context of everyday life. The green vestments reflect a time of spiritual maturation and the steady growth of the Church. During this period, the readings and prayers offered during the Liturgy of the Hours and the Mass serve to deepen the believer's understanding of divine revelation and foster a life of charity and service to others.",
+    "body_vi": "Là một ngày trong tuần của mùa Thường niên, ngày 23 tháng 6 năm 2027 mời gọi các tín hữu suy ngắm những lời dạy của Chúa Kitô và các mầu nhiệm đức tin trong bối cảnh của cuộc sống hàng ngày. Áo lễ màu xanh lục phản ánh thời kỳ chín muồi trong đời sống tâm linh và sự tăng trưởng vững chắc của Giáo hội. Trong thời kỳ này, các bài đọc và lời cầu nguyện được dâng lên trong Phụng vụ các Giờ kinh và Thánh lễ nhằm đào sâu sự hiểu biết của người tin mặc khải thần linh và nuôi dưỡng đời sống bác ái, phục vụ tha nhân.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a standard weekday in Ordinary Time according to the 2027 liturgical calendar, with no major solemnities or feasts of universal precept overriding the feria rank.",
+    "confidence_note_vi": "Ngày này là một ngày thường tiêu chuẩn trong mùa Thường niên theo lịch phụng vụ năm 2027, không có lễ trọng hay lễ kính lớn nào có bổn phận xem lễ ghi nhận để thay thế bậc lễ ngày trong tuần này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Hope: Ordinary Time",
+    "hero_line_vi": "Bước đi trong Hy Vọng: Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, grant that I may walk steadily in the path of Your truth today, allowing Your grace to transform my daily life into a testament of Your love. May my actions reflect the growth of Your Kingdom in my heart.",
+    "prayer_prompt_vi": "Chúa ơi, xin cho con bước đi vững chắc trên con đường sự thật của Chúa hôm nay, để ân sủng của Chúa biến đổi cuộc sống hàng ngày của con thành lời chứng cho tình yêu của Chúa. Xin cho hành động của con phản chiếu sự tăng trưởng của Nước Chúa trong lòng con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/11048a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-10",
+    "hebrew": "18 Sivan 5787",
+    "islamic_umm_al_qura": "18 Muharram 1449 AH",
+    "coptic": "16 Paona 1743",
+    "ethiopian": "16 Paona 1743"
+  }
+}

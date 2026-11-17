@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-26",
+  "date": "2027-02-26",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday in Ordinary Time",
+    "title_vi": "Thứ Sáu Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday in Ordinary Time",
+    "title_vi": "Thứ Sáu Thường Niên",
+    "summary_en": "The liturgical day is a Friday of Ordinary Time, celebrated in green vestments. The readings typically focus on the Gospel of Mark and the Epistles, emphasizing conversion and humility. There is no obligatory memorial for a specific saint on this date in the Universal Calendar.",
+    "summary_vi": "Ngày phụng vụ là Thứ Sáu tuần Thường Niên, cử hành với lễ phục màu xanh. Các bài đọc thường tập trung vào Phúc Âm Maccô và các Thư Thánh, nhấn mạnh sự hoán cải và khiêm nhường. Không có lễ nhớ buộc cho một vị thánh cụ thể vào ngày này trong Lịch Phụng Vụ Rôma.",
+    "body_en": "As a weekday in Ordinary Time, the Church encourages prayer for peace and the faithful departed, alongside personal devotion and meditation on the Word of God. The liturgy invites believers to live out the Gospel in daily life, reflecting on the teachings of Christ through the weekly lectionary cycle.",
+    "body_vi": "Là một ngày thường trong mùa Thường Niên, Hội Thánh khuyến khích cầu nguyện cho hòa bình và các tín hữu đã qua đời, cùng với lòng đạo đức cá nhân và suy niệm Lời Chúa. Phụng vụ mời gọi các tín hữu sống Phúc Âm trong đời sống hằng ngày, suy tư về giáo huấn của Đức Kitô qua chu kỳ bài đọc tuần lễ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time with no major universal feast.",
+    "confidence_note_vi": "Ngày thường tuần Thường Niên tiêu chuẩn, không có lễ lớn phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Live the Gospel Today",
+    "hero_line_vi": "Sống Phúc Âm Hôm Nay",
+    "prayer_prompt_en": "Lord, help me to listen to Your Word and put it into practice in my daily life. Amen.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe Lời Chúa và thi hành trong đời sống hằng ngày. Amen."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops - Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-13",
+    "hebrew": "19 Adar 5787",
+    "islamic_umm_al_qura": "19 Ramadan 1448 AH",
+    "coptic": "19 Amshir 1743",
+    "ethiopian": "19 Amshir 1743"
+  }
+}

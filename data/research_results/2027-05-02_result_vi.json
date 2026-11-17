@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật V Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật V Mùa Phục Sinh",
+    "summary_vi": "Chúa Nhật này tiếp tục suy niệm về mầu nhiệm Chúa Kitô Phục Sinh và những hệ luận cho đời sống Kitô hữu. Phụng vụ tập trung vào các chủ đề ánh sáng, cộng đoàn và cây nho, thường sử dụng các đoạn Tin Mừng về cây nho thật. Ngày này nhấn mạnh việc người tín hữu ở trong Chúa Kitô để sinh hoa trái.",
+    "body_vi": "Chúa Nhật V Mùa Phục Sinh mời gọi các tín hữu đào sâu hiểu biết về Mầu nhiệm Vượt Qua, tiến từ sự sửng sốt ban đầu trước ngôi mộ trống đến thực tại vững chắc về sự hiện diện của Chúa Phục Sinh. Trong Phụng vụ Lời Chúa, đặc biệt trong bài đọc Năm B, hình ảnh cây nho và cành nho là trọng tâm, dạy rằng sức sống tâm linh phát xuất từ sự kết hợp với Chúa Kitô. Tuần này thách đố các Kitô hữu xem xét sự trung thành và hiệu quả của đời sống mình, đảm bảo rằng họ luôn kết nối với nguồn mạch sự sống. Lễ phục trắng và lời Alleluia tiếp tục diễn tả niềm vui Phục Sinh.",
+    "confidence_note_vi": "Ngày này rơi vào mùa Phục Sinh, và việc xác định Chúa Nhật được tính toán dựa trên các quy tắc của Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy ở lại trong Thầy, và Thầy ở trong anh em.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con ở lại trong tình yêu của Chúa để đời sống con sinh nhiều hoa trái cho Nước Trời."
+  }
+}

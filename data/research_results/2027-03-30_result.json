@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-30",
+  "date": "2027-03-30",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Fifth Week of Lent",
+    "title_vi": "Thứ Ba tuần 5 Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Fifth Week of Lent",
+    "title_vi": "Thứ Ba tuần 5 Mùa Chay",
+    "summary_en": "This day is a Feria of the Fifth Week of Lent. The liturgy is characterized by a penitential atmosphere and the color green, marking the final steps toward the Easter Triduum. While specific saints may be commemorated in the Martyrology, the primary focus remains on the Lenten journey.",
+    "summary_vi": "Ngày này là Thứ Tư tuần 5 Mùa Chay (lưu ý: trong năm phụng vụ thường tính Thứ 2). Phụng vụ mang đặc tính thống hối với màu xanh, đánh dấu những bước cuối cùng hướng tới Tam Nhật Vượt Qua. Trong khi các vị Thánh có thể được tưởng niệm trong Tử đạo thư, trọng tâm chính vẫn là hành trình Mùa Chay.",
+    "body_en": "During the Fifth Week of Lent, the faithful are encouraged to deepen their prayer and reflection on the Gospel readings, particularly those concerning Jesus' journey to Jerusalem. The 'Alleluia' and 'Gloria' remain absent, preserving the solemnity of the season until the Easter Vigil. The readings typically highlight themes of conversion, the light of Christ, and the necessity of spiritual renewal.",
+    "body_vi": "Trong tuần 5 Mùa Chay, các tín hữu được khuyến khích đào sâu lời cầu nguyện và suy niệm các bài đọc Tin Mừng, đặc biệt là những đoạn về hành trình của Chúa Giêsu lên Giêrusalem. 'Alleluia' và 'Gloria' vẫn vắng mặt, giữ gìn sự trang nghiêm của mùa cho tới Vọng Phục Sinh. Các bài đọc thường làm nổi bật các chủ đề hoán cải, ánh sáng của Chúa Kitô và sự cần thiết của việc đổi mới đời sống thiêng liêng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "According to the General Roman Calendar, this date falls on a weekday of Lent (Year B/A cycle depending on specific implementation, but generally a weekday in the 5th week). Only 0 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Theo Lịch Rôma Chung, ngày này rơi vào một ngày trong tuần của Mùa Chay. Only 0 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk humbly with your God as Lent reaches its crescendo.",
+    "hero_line_vi": "Bước đi khiêm nhường cùng Thiên Chúa khi Mùa Chay đạt đến cao trào.",
+    "prayer_prompt_en": "Lord, grant me the perseverance to finish the race of Lent in faith.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng kiên trì để hoàn tất cuộc đua Mùa Chay trong đức tin."
+  },
+  "sources": [
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "reference"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-17",
+    "hebrew": "21 Adar II 5787",
+    "islamic_umm_al_qura": "21 Shawwal 1448 AH",
+    "coptic": "21 Baramhat 1743",
+    "ethiopian": "21 Baramhat 1743"
+  }
+}

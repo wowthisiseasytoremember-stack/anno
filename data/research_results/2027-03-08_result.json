@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-08",
+  "date": "2027-03-08",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Fifth Week of Lent",
+    "title_vi": "Thứ Hai Tuần V Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Fifth Week of Lent",
+    "title_vi": "Thứ Hai Tuần V Mùa Chay",
+    "summary_en": "This day falls within the Fifth Week of Lent, a period characterized by spiritual preparation and penance leading up to the Holy Week. The liturgical color is violet (or purple), symbolizing penance and royalty. It is a weekday feria, meaning no specific saint's feast overrides the daily office unless otherwise noted in local calendars, but the Lenten theme prevails.",
+    "summary_vi": "Ngày này rơi vào Tuần V Mùa Chay, thời kỳ chuẩn bị tâm hồn và thống hối trước Tuần Thánh. Màu phụng vụ là tím (hoặc tía), tượng trưng cho sự thống hối và vương quyền. Đây là ngày thường (feria), không có lễ kính thánh nào lấn át kinh nhật tụng trừ khi được ghi rõ trong lịch địa phương, nhưng chủ đề Mùa Chay vẫn chiếm ưu thế.",
+    "body_en": "In the General Roman Calendar, 2027-03-08 is a Monday in the Fifth Week of Lent. The readings and prayers reflect the journey towards Easter, focusing on repentance and the call to holiness. No major solemnity or feast falls on this date globally, so the Lenten observance dictates the liturgical rank and color.",
+    "body_vi": "Trong Lịch La Mã Tổng Quát, ngày 8/3/2027 là Thứ Hai của Tuần V Mùa Chay. Các bài đọc và lời nguyện phản ánh hành trình hướng tới Phục Sinh, tập trung vào sự sám hối và lời kêu gọi nên thánh. Không có lễ trọng hay lễ kính lớn nào xảy ra vào ngày này trên phạm vi toàn cầu, vì vậy việc tuân giữ Mùa Chay chi phối bậc phụng vụ và màu sắc.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Lent dates for 2027 are calculated based on Easter being March 28, 2027.",
+    "confidence_note_vi": "Ngày Mùa Chay năm 2027 được tính toán dựa trên lễ Phục Sinh là ngày 28 tháng 3 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk humbly with God this Lenten Monday.",
+    "hero_line_vi": "Hãy bước đi khiêm nhường cùng Chúa trong Thứ Hai Mùa Chay này.",
+    "prayer_prompt_en": "Lord, grant me a spirit of contrition.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con một thần trí thống hối."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops - 2027 Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org - Saints Index for March 8",
+      "url": "https://catholic.org/saints/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-23",
+    "hebrew": "29 Adar 5787",
+    "islamic_umm_al_qura": "29 Ramadan 1448 AH",
+    "coptic": "29 Amshir 1743",
+    "ethiopian": "29 Amshir 1743"
+  }
+}

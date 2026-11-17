@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-06",
+  "date": "2027-03-06",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Feria of Ordinary Time",
+    "title_vi": "Ngày thường trong Mùa Quanh Năm"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fifth Week of Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần V Mùa Quanh Năm",
+    "summary_en": "This day is a feria of the Fifth Week of Ordinary Time, focusing on the steady growth of the Christian life. The liturgical color is green, symbolizing hope and perseverance. There are no major feasts or mandatory memorials, allowing for private devotion and adherence to the weekday cycle.",
+    "summary_vi": "Đây là ngày thường Tuần V Mùa Quanh Năm, tập trung vào sự tăng trưởng bền vững của đời sống Kitô giáo. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự kiên nhẫn. Không có lễ lớn hay lễ nhớ bắt buộc, cho phép thực hành đạo đức cá nhân và tuân theo chu kỳ ngày trong tuần.",
+    "body_en": "As a feria in Ordinary Time, the focus is on the ordinary life of the Church and the faithful. The readings from the Lectionary for Weekday Masses of the Fifth Week will be used, reflecting on the Gospel of Mark or Luke depending on the specific day's assignment. The Liturgy of the Hours follows the weekday cycle of the Fifth Week, with psalms and readings chosen to foster meditation on the scriptures.",
+    "body_vi": "Là một ngày thường trong Mùa Quanh Năm, trọng tâm là đời sống bình thường của Giáo hội và các tín hữu. Các bài đọc từ Sách Bài đọc cho các Thánh lễ trong tuần của Tuần V sẽ được sử dụng, suy niệm về Phúc Âm Marcô hoặc Luca tùy theo phân bổ cụ thể của ngày. Phụng vụ Giờ kinh tuân theo chu kỳ ngày trong tuần của Tuần V, với các thánh vịnh và bài đọc được chọn để khơi gợi việc suy gẫm Kinh Thánh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed by the General Roman Calendar for 2027, no conflicting feast.",
+    "confidence_note_vi": "Được xác nhận bởi Lịch Phụng vụ Rôma năm 2027, không có lễ kỷ niệm mâu thuẫn."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast in the ordinary, open to the extraordinary.",
+    "hero_line_vi": "Vững vàng trong điều bình thường, mở lòng cho điều phi thường.",
+    "prayer_prompt_en": "Lord, grant me the grace to serve you faithfully in the daily routines of my life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn trung thành phụng sự Chúa trong những thói quen hàng ngày của đời con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/030627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendars/2027.cfm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-21",
+    "hebrew": "27 Adar 5787",
+    "islamic_umm_al_qura": "27 Ramadan 1448 AH",
+    "coptic": "27 Amshir 1743",
+    "ethiopian": "27 Amshir 1743"
+  }
+}

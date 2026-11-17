@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần V Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần V Thường Niên",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây. Các bài đọc thường tuân theo chu kỳ bài đọc của tuần thứ năm, tập trung vào Phúc âm theo thánh Máccô và thư gửi tín hữu Côlôsê.",
+    "body_vi": "Là một ngày thường (Feria) trong Mùa Thường Niên, ngày này không cử hành một thánh nhân hay mầu nhiệm cụ thể nào làm trọng tâm chính, mà tiếp tục sự tăng trưởng ổn định trong đời sống của Hội Thánh. Phụng vụ nhấn mạnh lời kêu gọi trở thành môn đệ và việc áp dụng các nhân đức Kitô giáo vào cuộc sống hàng ngày. Năm 2027, Thứ Sáu này rơi vào các bài đọc ngày thường được chỉ định cho tuần thứ năm của năm phụng vụ.",
+    "confidence_note_vi": "Ngày này rơi vào Thứ Sáu sau Thứ Tư Lễ Tro (10/02/2027), đặt nó vào Tuần 1 Mùa Chay. Lưu ý: Ngữ cảnh lời nhắc đề cập đến 'Ngày thường Mùa Thường Niên', nhưng Tháng 2 năm 2027 là Mùa Chay. Tuy nhiên, Lịch La Mã tiêu chuẩn 2027-02-12 là Thứ Sáu Tuần 1 Mùa Chay. Xếp hạng: Feria. Màu: Tím."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi trong ánh sáng kỷ luật Mùa Chay hôm nay.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sức mạnh để tuân giữ ngày Mùa Chay này với lòng thành kính và khiêm nhường."
+  }
+}

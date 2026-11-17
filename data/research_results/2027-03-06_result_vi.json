@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày thường trong Mùa Quanh Năm"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần V Mùa Quanh Năm",
+    "summary_vi": "Đây là ngày thường Tuần V Mùa Quanh Năm, tập trung vào sự tăng trưởng bền vững của đời sống Kitô giáo. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự kiên nhẫn. Không có lễ lớn hay lễ nhớ bắt buộc, cho phép thực hành đạo đức cá nhân và tuân theo chu kỳ ngày trong tuần.",
+    "body_vi": "Là một ngày thường trong Mùa Quanh Năm, trọng tâm là đời sống bình thường của Giáo hội và các tín hữu. Các bài đọc từ Sách Bài đọc cho các Thánh lễ trong tuần của Tuần V sẽ được sử dụng, suy niệm về Phúc Âm Marcô hoặc Luca tùy theo phân bổ cụ thể của ngày. Phụng vụ Giờ kinh tuân theo chu kỳ ngày trong tuần của Tuần V, với các thánh vịnh và bài đọc được chọn để khơi gợi việc suy gẫm Kinh Thánh.",
+    "confidence_note_vi": "Được xác nhận bởi Lịch Phụng vụ Rôma năm 2027, không có lễ kỷ niệm mâu thuẫn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Vững vàng trong điều bình thường, mở lòng cho điều phi thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn trung thành phụng sự Chúa trong những thói quen hàng ngày của đời con."
+  }
+}

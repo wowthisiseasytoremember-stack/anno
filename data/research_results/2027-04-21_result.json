@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-21",
+  "date": "2027-04-21",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Fourth Week of Easter",
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Fourth Week of Easter",
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh",
+    "summary_en": "This day falls within the season of Easter, specifically the Wednesday of the Fourth Week of Easter. The liturgical focus is on the resurrection of Christ and the ongoing joy of the Christian community. No specific saint or solemnity takes precedence on this weekday, marking it as a Feria in green vestments.",
+    "summary_vi": "Ngày này rơi vào Mùa Phục Sinh, cụ thể là Thứ Tư của Tuần IV Mùa Phục Sinh. Trọng tâm phụng vụ hướng về sự phục sinh của Đức Kitô và niềm vui liên lỉ của cộng đoàn Kitô hữu. Không có thánh hay lễ trọng nào chiếm ưu thế trong ngày trong tuần này, đánh dấu nó là ngày thường với vestu xanh.",
+    "body_en": "The Liturgy of the Word for this day typically continues readings from the Acts of the Apostles and the Gospels, reflecting on the early Church's growth after the Resurrection. As a Feria, it offers a moment for quiet reflection on the Paschal Mystery amidst daily life. The prayer of the Church remains centered on the light of Christ, who has conquered death.",
+    "body_vi": "Phụng vụ Lời Chúa cho ngày này thường tiếp tục các bài đọc từ Sách Công Vụ Tông Đồ và các Tin Mừng, suy niệm về sự tăng trưởng của Giáo Hội sơ khai sau Biến cố Phục Sinh. Là một ngày thường, đây là thời điểm để thinh lặng suy niệm về Mầu nhiệm Vượt Qua giữa đời sống hàng ngày. Lời cầu nguyện của Giáo Hội vẫn hướng về ánh sáng của Đức Kitô, Đấng đã chiến thắng sự chết.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date and liturgical status confirmed by the current General Roman Calendar.",
+    "confidence_note_vi": "Ngày và bậc phụng vụ được xác nhận theo Lịch Roma Chung hiện hành."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the Light of the Risen Lord",
+    "hero_line_vi": "Bước đi trong Ánh Sáng của Chúa Phục Sinh",
+    "prayer_prompt_en": "Lord, help us to live as people of the light.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con sống như những người của ánh sáng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Reflections",
+      "url": "https://www.usccb.org/prayer/daily-reflections",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News Liturgical Calendar",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-08",
+    "hebrew": "14 Nisan 5787",
+    "islamic_umm_al_qura": "14 Dhu al-Qidah 1448 AH",
+    "coptic": "13 Baramouda 1743",
+    "ethiopian": "13 Baramouda 1743"
+  }
+}

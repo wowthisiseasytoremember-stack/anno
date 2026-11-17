@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-07",
+  "date": "2027-06-07",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Tenth Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần X Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Tenth Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần X Thường Niên",
+    "summary_en": "This day is a weekday (feria) in Ordinary Time, specifically in the tenth week. There are no mandatory universal memorials on this date in the General Roman Calendar. The liturgical color is green, signifying the time of growth and common life in the Church.",
+    "summary_vi": "Ngày này là ngày trong tuần (ngày thường) trong Mùa Thường Niên, cụ thể là tuần thứ X. Không có lễ nhớ bắt buộc nào trong Lịch chung Rôma vào ngày này. Màu phụng vụ là màu xanh lục, tượng trưng cho thời kỳ tăng trưởng và đời sống chung của Hội Thánh.",
+    "body_en": "The Church observes this Monday in Ordinary Time with readings focused on the ongoing growth of the faithful. While local calendars may have specific patronal feasts, the universal celebration remains simple. The focus is on the daily sanctification of work and prayer.",
+    "body_vi": "Giáo hội cử hành Thứ Hai này trong Mùa Thường Niên với các bài đọc tập trung vào sự tăng trưởng liên lỉ của các tín hữu. Mặc dù các lịch địa phương có thể có các lễ bổn mạng riêng, nhưng việc cử hành phổ quát vẫn đơn giản. Trọng tâm là việc thánh hóa công việc và cầu nguyện hằng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time per the General Roman Calendar.",
+    "confidence_note_vi": "Ngày thường chuẩn trong Mùa Thường Niên theo Lịch chung Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in Faith",
+    "hero_line_vi": "Lớn lên trong Đức Tin",
+    "prayer_prompt_en": "Help us to grow in love and truth as we go about our daily duties.",
+    "prayer_prompt_vi": "Xin cho chúng con lớn lên trong tình yêu và chân lý khi thực thi bổn phận hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/01001a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-25",
+    "hebrew": "2 Sivan 5787",
+    "islamic_umm_al_qura": "2 Muharram 1449 AH",
+    "coptic": "30 Bashans 1743",
+    "ethiopian": "30 Bashans 1743"
+  }
+}

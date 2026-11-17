@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-23",
+  "date": "2027-02-23",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần Thường Niên",
+    "summary_en": "This date falls on a Tuesday during Ordinary Time in the Roman Catholic liturgical calendar. No major saint or feast day is universally celebrated on this specific day, so the focus remains on the weekly progression of Ordinary Time. The liturgical color is green, symbolizing hope and growth in faith.",
+    "summary_vi": "Ngày này rơi vào Thứ Ba trong Mùa Thường Niên theo lịch phụng vụ Công giáo Rôma. Không có thánh lễ lớn hay ngày lễ thánh nào được cử hành phổ quát vào ngày này, vì vậy trọng tâm vẫn là sự tiến triển hàng tuần của Mùa Thường Niên. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng trong đức tin.",
+    "body_en": "On February 23, 2027, the Church observes a Tuesday in Ordinary Time. While some local calendars may mention minor saints, the General Roman Calendar does not designate a solemnity or feast for this date. The liturgical texts emphasize the faithful's journey through the year, reflecting on the teachings of Christ in a context of stability and growth.",
+    "body_vi": "Vào ngày 23 tháng 2 năm 2027, Giáo hội cử hành Thứ Ba trong Mùa Thường Niên. Mặc dù một số lịch địa phương có thể đề cập đến các thánh nhỏ, Lịch Rôma Chung không chỉ định ngày trọng thể hay lễ kính vào ngày này. Các văn bản phụng vụ nhấn mạnh hành trình của các tín hữu qua năm, suy gẫm về lời dạy của Chúa Kitô trong bối cảnh ổn định và phát triển.",
+    "confidence": "confirmed",
+    "confidence_note_en": "General Roman Calendar indicates a standard weekday in Ordinary Time.",
+    "confidence_note_vi": "Lịch Rôma Chung chỉ ra một ngày trong tuần tiêu chuẩn của Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast in Faith, Growing in Grace",
+    "hero_line_vi": "Vững Tin, Tăng Trưởng Ơn Thánh",
+    "prayer_prompt_en": "Lord, help us to grow in our daily walk with You.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong hành trình hằng ngày cùng Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/022327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - Saint of the Day",
+      "url": "https://catholicculture.org/calendar/liturgical_day.cfm?year=2027&month=02&day=23",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-10",
+    "hebrew": "16 Adar 5787",
+    "islamic_umm_al_qura": "16 Ramadan 1448 AH",
+    "coptic": "16 Amshir 1743",
+    "ethiopian": "16 Amshir 1743"
+  }
+}

@@ -1,15 +1,15 @@
 {
   "liturgical": {
-    "title_vi": ""
+    "title_vi": "Chúa nhật thường niên tuần thứ 10"
   },
   "primary": {
-    "title_vi": "",
-    "summary_vi": "",
-    "body_vi": "",
-    "confidence_note_vi": ""
+    "title_vi": "Chúa nhật thường niên tuần thứ 10",
+    "summary_vi": "Ngày này rơi vào Chúa nhật trước Thứ Tư Lễ Tro, kết thúc mùa Thường niên. Trong Nghi lễ Rôma, các Chúa nhật ưu tiên hơn các lễ kính thánh nhân; do đó, Thánh Valentine và các thánh tử đạo khác được tưởng nhớ trong Thánh lễ nhưng không định hình đặc tính phụng vụ chính của ngày. Hội Thánh cử hành Chúa nhật thường niên tuần thứ 10, chuẩn bị cho mùa Chay.",
+    "body_vi": "Năm 2027, ngày 14 tháng 2 là Chúa nhật cuối cùng của mùa Thường niên. Mặc dù trong lịch sử có liên quan đến lễ kính Thánh Valentine, quy tắc phổ quát cho các Chúa nhật quy định rằng cử hành phụng vụ tuân theo Chúa nhật thường niên. Các bài đọc thường tập trung vào Vương quốc Thiên Chúa và sự đáp trả lời mời gọi của Thiên Chúa, tạo nên giọng điệu cho sự chuẩn bị tâm linh dẫn vào mùa Chay. Màu sắc là xanh lá cây, phân biệt với màu tím của mùa Chay sắp tới.",
+    "confidence_note_vi": "Việc cử hành Chúa nhật ưu tiên hơn các lễ nhớ thánh nhân trong Lịch Rôma hiện hành (sau các cải cách năm 1960/1969)."
   },
   "app_hooks": {
-    "hero_line_vi": "",
-    "prayer_prompt_vi": ""
+    "hero_line_vi": "Bước đi trong ánh sáng mùa Thường niên trước khi hành trình mùa Chay bắt đầu.",
+    "prayer_prompt_vi": "Lạy Chúa, xin chuẩn bị tâm hồn chúng con qua Lời Chúa trước khi chúng con bước vào hoang địa mùa Chay."
   }
 }

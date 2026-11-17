@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần IX Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần IX Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày trong tuần Mùa Thường Niên, cụ thể là Tuần IX. Trong trường hợp không có đài tưởng niệm các thánh nào ưu tiên trong lịch chung, trọng tâm vẫn là sự tiến triển phụng vụ đang diễn ra. Màu phụng vụ là màu xanh lục, tượng trưng cho sự tăng trưởng và dòng chảy bình thường của đời sống Kitô hữu. Các bài đọc và kinh nguyện tuân theo chu kỳ ngày trong tuần của Tuần IX.",
+    "body_vi": "Là Thứ Năm Tuần IX Mùa Thường Niên, ngày này mời gọi các tín hữu tiếp cận Kinh Thánh và Phụng vụ Giờ Kinh với tinh thần hoán cải đều đặn. Không có thánh lễ trọng thể hay lễ kính phổ quát nào vào ngày cụ thể này của năm 2027 thay thế chu kỳ ngày trong tuần. Giáo hội cầu nguyện cho sự kiên trì trong các bổn phận hằng ngày, được dẫn dắt bởi Chúa Thánh Thần, khi cộng đoàn tiếp tục hành trình qua các mùa bình thường của năm phụng vụ. Màu xanh lục biểu thị hy vọng và sự tăng trưởng vững chắc của đức tin.",
+    "confidence_note_vi": "Ngày và bậc lễ được xác nhận bởi Lịch Phụng Vụ Roma (1969/2002). Không có lễ lớn phổ quát nào vào ngày 10 tháng 6 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi trong ân sủng bền vững của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn trong các bổn phận hằng ngày và sự sẵn sàng đón nhận Lời Chúa hôm nay."
+  }
+}

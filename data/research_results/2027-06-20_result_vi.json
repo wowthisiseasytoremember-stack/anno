@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật Thứ Mười Hai Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật Thứ Mười Hai Thường Niên",
+    "summary_vi": "Chúa Nhật Thứ Mười Hai Thường Niên tập trung vào lời đáp trả Kitô giáo đối với tiếng gọi của Thiên Chúa, nhấn mạnh sự khiêm nhường và lòng tin cậy vào Quan Phòng. Trong chu kỳ phụng vụ, thời gian này tiếp tục các chủ đề tăng trưởng đức tin và việc áp dụng những giáo huấn của Tin Mừng vào đời sống hàng ngày.",
+    "body_vi": "Trong Chúa Nhật Thứ Mười Hai Thường Niên, Giáo Hội mời gọi các tín hữu suy gẫm về tâm thế cần có để lắng nghe lời Chúa. Dù qua các dụ ngôn về Nước Trời hay những giáo huấn của các Tông Đồ, phụng vụ hướng dẫn các tín hữu ưu tiên Nước Thiên Chúa hơn những bận tâm thế gian. Chúa Nhật này đóng vai trò như một điểm kiểm tra tâm linh trong mùa hè của năm phụng vụ, khuyến khích sự phát triển vững chắc trong đức bác ái và lời cầu nguyện.",
+    "confidence_note_vi": "Chúa Nhật Thường Niên theo Lịch Phụng Vụ Rôma 1969."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tin tưởng vào thời điểm của Thiên Chúa và lớn lên trong đức tin bình lặng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe với tâm hồn khiêm nhường và tin cậy vào Quan Phòng của Chúa trong mọi sự."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần IV Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần IV Phục Sinh",
+    "summary_vi": "Ngày này rơi vào Mùa Phục Sinh, cụ thể là Tuần IV Phục Sinh trong phụng vụ Thường Niên. Trọng tâm là sự Phục Sinh của Đức Kitô và đời sống của Giáo hội sơ khai được mô tả trong Sách Tông Đồ Công Vụ. Không có lễ kính các thánh nào buộc phải cử hành thay thế giờ kinh nhật tụng ngày trong tuần.",
+    "body_vi": "Các bài đọc phụng vụ cho Thứ Ba tuần IV Phục Sinh thường tiếp tục tường thuật từ Sách Tông Đồ Công Vụ, nhấn mạnh sự tăng trưởng của cộng đoàn Kitô hữu sơ khai và việc rao giảng của các Tông Đồ. Bài Tin Mừng thường phản ánh về các lần hiện ra sau Phục Sinh hoặc những giáo huấn của Chúa Giêsu trong thời gian hoạt động công khai, được giải thích qua lăng kính của sự Phục Sinh. Màu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng liên tục của Giáo hội.",
+    "confidence_note_vi": "Ngày này là ngày thường tiêu chuẩn trong Mùa Thường Niên theo các quy tắc của Lịch Phụng vụ Rôma cho thời kỳ hậu Vatican II."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng Phục Sinh ngày thứ Ba này.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con sống như những chứng nhân của sự Phục Sinh của Chúa trong đời sống hàng ngày."
+  }
+}

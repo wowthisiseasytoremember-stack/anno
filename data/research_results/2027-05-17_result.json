@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-17",
+  "date": "2027-05-17",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần V Mùa Thường Niên",
+    "summary_en": "May 17, 2027, is celebrated as Monday of the Fifth Week in Ordinary Time in the Roman Rite. This is a weekday celebration, marked by the liturgical color green, symbolizing the hope of the Christian faithful as they journey through Ordinary Time.",
+    "summary_vi": "Ngày 17 tháng 5 năm 2027 được cử hành là Thứ Hai Tuần V Mùa Thường Niên theo Nghi thức Rôma. Đây là ngày trong tuần, mang màu xanh lá cây, biểu tượng cho niềm hy vọng của các tín hữu kitô hữu trong hành trình Mùa Thường Niên.",
+    "body_en": "During the Fifth Week in Ordinary Time, the Church encourages the faithful to deepen their understanding of the Gospel teachings through the weekday readings, which often focus on moral formation and the practical application of faith. The liturgical focus is on personal conversion and the steady growth of the Kingdom of God in the hearts of the people. The readings for this Monday may include passages emphasizing mercy, prayer, and the response to God's call in daily life. The celebration is modest in rank compared to solemnities and feasts, serving as a reminder of the sanctity of ordinary time.",
+    "body_vi": "Trong Tuần V Mùa Thường Niên, Giáo Hội khuyến khích các tín hữu đào sâu sự hiểu biết về các bài Tin Mừng qua các bài đọc trong tuần, thường tập trung vào việc hình thành luân lý và áp dụng đức tin vào đời sống thực tế. Trọng tâm phụng vụ là sự hoán cải cá nhân và sự tăng trưởng bền vững của Nước Thiên Chúa trong tâm hồn dân chúng. Các bài đọc cho ngày Thứ Hai này có thể bao gồm các đoạn văn nhấn mạnh lòng thương xót, kinh nguyện và sự đáp trả lời kêu gọi của Thiên Chúa trong đời sống hàng ngày. Nghi thức cử hành này ít trọng thể hơn so với các lễ trọng và lễ kính, nhắc nhở về sự thánh thiện của thời gian thường nhật.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Feria in Ordinary Time, confirmed by Roman Calendar.",
+    "confidence_note_vi": "Ngày thường Mùa Thường Niên, xác nhận theo Lịch Phụng Vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the Hope of Ordinary Time",
+    "hero_line_vi": "Bước Đi trong Niềm Hy Vọng Mùa Thường Niên",
+    "prayer_prompt_en": "Grant me grace to listen to Your word in the quiet of my daily life.",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để lắng nghe Lời Chúa trong sự tĩnh lặng của đời sống hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic News Agency",
+      "url": "https://www.aciprensa.com/calendario",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-04",
+    "hebrew": "10 Iyar 5787",
+    "islamic_umm_al_qura": "10 Dhu al-Hijjah 1448 AH",
+    "coptic": "9 Bashans 1743",
+    "ethiopian": "9 Bashans 1743"
+  }
+}

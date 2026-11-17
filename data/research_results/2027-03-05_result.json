@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-05",
+  "date": "2027-03-05",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần 5 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần 5 Mùa Thường Niên",
+    "summary_en": "This day falls within the Fifth Week of Ordinary Time, a period dedicated to the growth of faith and the teaching of Christ. The liturgical color is green, symbolizing hope and ongoing life in the Church. As a weekday feria, it emphasizes daily conversion and the listening to God's Word without the specific celebration of a saint unless a local calendar dictates otherwise.",
+    "summary_vi": "Ngày này thuộc Tuần 5 Mùa Thường Niên, thời gian dành cho sự tăng trưởng đức tin và những lời giáo huấn của Đức Kitô. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự sống liên lỉ của Hội Thánh. Là một ngày trong tuần (feria), ngày nhấn mạnh sự hoán cải hằng ngày và việc lắng nghe Lời Chúa, trừ khi lịch địa phương quy định cách khác.",
+    "body_en": "In the Roman Rite, Friday of the Fifth Week in Ordinary Time is a day of ordinary observance, marked by the green vestments that signify the season's focus on the life of the Church in the world. The readings from the Lectionary continue to provide instruction through the Old Testament and the Gospels, calling the faithful to repentance and faith. There is no universal saint assigned to this date in the General Roman Calendar that overrides the day's ordinary character; thus, the focus remains on the paschal mystery as unfolded in the daily liturgy.",
+    "body_vi": "Trong Nghi thức Rôma, Thứ Sáu Tuần 5 Mùa Thường Niên là ngày cử hành bình thường, đánh dấu bằng lễ phục màu xanh diễn tả trọng tâm của mùa phụng vụ là sự sống của Hội Thánh giữa lòng thế giới. Các bài đọc từ Sách Bài Đọc tiếp tục cung cấp giáo huấn qua sách Cựu Ước và Tin Mừng, kêu gọi cộng đoàn đức tin hoán cải và tin tưởng. Không có vị thánh nào được gán cho ngày này trong Lịch Phụng Vụ Rôma mà làm lu mờ tính chất bình thường của ngày; do đó, trọng tâm vẫn là mầu nhiệm Vượt Qua được bày tỏ trong phụng vụ hằng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This date is a standard weekday in Ordinary Time in the 2027 liturgical calendar. No solemnity or feast universally displaces the weekday on this Friday.",
+    "confidence_note_vi": "Ngày này là ngày trong tuần tiêu chuẩn trong Mùa Thường Niên theo lịch phụng vụ 2027. Không có lễ trọng hay lễ kính phổ quát nào thay thế ngày trong tuần vào Thứ Sáu này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith during Ordinary Time.",
+    "hero_line_vi": "Tăng trưởng đức tin trong Mùa Thường Niên.",
+    "prayer_prompt_en": "Ask for the grace to listen carefully to God's Word today.",
+    "prayer_prompt_vi": "Hãy xin ơn để lắng nghe Lời Chúa cách cẩn thận hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/030527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Liturgical Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-20",
+    "hebrew": "26 Adar 5787",
+    "islamic_umm_al_qura": "26 Ramadan 1448 AH",
+    "coptic": "26 Amshir 1743",
+    "ethiopian": "26 Amshir 1743"
+  }
+}

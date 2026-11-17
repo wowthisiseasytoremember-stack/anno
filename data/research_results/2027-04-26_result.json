@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-26",
+  "date": "2027-04-26",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Fourth Week of Easter",
+    "title_vi": "Thứ Hai Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Fourth Week of Easter",
+    "title_vi": "Thứ Hai Tuần IV Mùa Phục Sinh",
+    "summary_en": "This day falls within the Easter season, specifically the Fourth Week. It is a feria, meaning there is no obligatory saint's feast overriding the weekday liturgy in the Universal Calendar. The liturgical focus remains on the Risen Christ and the ongoing catechesis of the Paschal mystery.",
+    "summary_vi": "Ngày này thuộc Mùa Phục Sinh, cụ thể là Tuần IV. Đây là ngày thường (feria), nghĩa là không có lễ thánh bổn mạng nào buộc phải cử hành thay thế phụng vụ ngày thường trong Lịch Phụng vụ Rôma. Trọng tâm phụng vụ vẫn là Chúa Kitô Phục Sinh và việc dạy giáo lý liên tục về mầu nhiệm Vượt Qua.",
+    "body_en": "The readings for this Monday emphasize the continuing witness of the Church after the Resurrection. In the First Reading from Acts, the apostles continue to preach the Word with boldness. The Gospel pericope typically addresses themes of faith, community, or the mission of the disciples. As a weekday in Ordinary Time's Easter extension, the color is green, though the Paschal candle remains lit.",
+    "body_vi": "Các bài đọc trong Thứ Hai này nhấn mạnh vào chứng tá liên tục của Giáo Hội sau biến cố Phục Sinh. Trong Bài đọc I từ sách Công vụ Tông đồ, các Tông đồ tiếp tục rao giảng Lời Chúa với sự mạnh dạn. Bài Tin Mừng thường đề cập đến các chủ đề về đức tin, cộng đoàn hoặc sứ mệnh của các môn đệ. Là một ngày thường trong thời gian Mùa Phục Sinh, màu sắc phụng vụ là xanh lá, mặc dù nến Phục Sinh vẫn được thắp sáng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "No major saint or feast overrides the weekday in the General Roman Calendar for this date.",
+    "confidence_note_vi": "Không có thánh hay lễ lớn nào ghi trong Lịch Rôma buộc thay thế phụng vụ ngày thường cho ngày này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the Light of the Risen Lord",
+    "hero_line_vi": "Bước đi trong Ánh sáng Chúa Phục Sinh",
+    "prayer_prompt_en": "Lord, grant us the boldness of the Apostles to speak Your Truth.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự mạnh dạn của các Tông đồ để rao giảng Chân Lý của Ngài."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/042627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Online Calendar",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-13",
+    "hebrew": "19 Nisan 5787",
+    "islamic_umm_al_qura": "19 Dhu al-Qidah 1448 AH",
+    "coptic": "18 Baramouda 1743",
+    "ethiopian": "18 Baramouda 1743"
+  }
+}

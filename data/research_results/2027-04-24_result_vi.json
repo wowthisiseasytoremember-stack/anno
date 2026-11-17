@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần V Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần V Phục Sinh",
+    "summary_vi": "Trong ngày này, Giáo Hội tiếp tục mùa phụng vụ Phục Sinh, tập trung vào sự sống lại của Chúa và đời sống của tạo vật mới. Là ngày thường của Tuần V Phục Sinh, các bài đọc và lời cầu nguyện phản ánh việc cử hành mầu nhiệm Vượt Qua đang tiếp diễn. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho thời gian tăng trưởng và làm chứng sau niềm vui lớn lao của sự Phục Sinh.",
+    "body_vi": "Buổi cử hành phụng vụ vào Thứ Bảy, ngày 24 tháng 4 năm 2027, rơi vào mùa Phục Sinh, cụ thể là tuần thứ năm. Mặc dù là một ngày thường, nó vẫn giữ đặc tính riêng biệt của mùa Vượt Qua. Các tín hữu được mời gọi suy niệm về những lần hiện ra sau Phục Sinh và đời sống sơ khai của Giáo Hội, thường được ghi trong sách Công Vụ Tông Đồ, thường được đọc trong mùa Phục Sinh. Không có lễ trọng hay lễ nhớ nào thay thế văn phòng ngày thường trong Lịch Phụng vụ Rôma cho ngày cụ thể này, do đó, các bài đọc của Giờ Kinh Phụng Vụ và các bài đọc Thánh Lễ từ Sách Bài Đọc Phục Sinh là trọng tâm chính.",
+    "confidence_note_vi": "Ngày là một ngày thường hợp lệ trong lịch Gregory, rơi vào Tuần V Phục Sinh năm 2027. Không có lễ nhớ các thánh nào được xếp hạng cao hơn ngày thường trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Trong ánh sáng của Chúa Kitô Phục Sinh, chúng ta bước đi trong hy vọng và chân lý.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu Phục Sinh và Vinh Quang, xin ban cho chúng ta sự kiên trì của các Tông Đồ để làm chứng cho Tình Yêu của Chúa trong cuộc sống hàng ngày của chúng ta trong tuần này."
+  }
+}

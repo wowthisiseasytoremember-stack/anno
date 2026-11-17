@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 5 Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 5 Mùa Chay",
+    "summary_vi": "Ngày này là Thứ Tư tuần 5 Mùa Chay (lưu ý: trong năm phụng vụ thường tính Thứ 2). Phụng vụ mang đặc tính thống hối với màu xanh, đánh dấu những bước cuối cùng hướng tới Tam Nhật Vượt Qua. Trong khi các vị Thánh có thể được tưởng niệm trong Tử đạo thư, trọng tâm chính vẫn là hành trình Mùa Chay.",
+    "body_vi": "Trong tuần 5 Mùa Chay, các tín hữu được khuyến khích đào sâu lời cầu nguyện và suy niệm các bài đọc Tin Mừng, đặc biệt là những đoạn về hành trình của Chúa Giêsu lên Giêrusalem. 'Alleluia' và 'Gloria' vẫn vắng mặt, giữ gìn sự trang nghiêm của mùa cho tới Vọng Phục Sinh. Các bài đọc thường làm nổi bật các chủ đề hoán cải, ánh sáng của Chúa Kitô và sự cần thiết của việc đổi mới đời sống thiêng liêng.",
+    "confidence_note_vi": "Theo Lịch Rôma Chung, ngày này rơi vào một ngày trong tuần của Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi khiêm nhường cùng Thiên Chúa khi Mùa Chay đạt đến cao trào.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng kiên trì để hoàn tất cuộc đua Mùa Chay trong đức tin."
+  }
+}

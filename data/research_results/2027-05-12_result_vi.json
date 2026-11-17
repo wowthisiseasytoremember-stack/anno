@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần VII mùa Thường niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần VII mùa Thường niên",
+    "summary_vi": "Thứ Tư này nằm trong tuần VII mùa Thường niên, theo lịch phụng vụ năm 2027. Mùa phụng vụ tiếp tục tiến trình trong chu kỳ thời gian, nhấn mạnh sự tăng trưởng và thánh hóa của các tín hữu. Không có ngày lễ trọng hay lễ kính đặc biệt nào được quy định cho ngày này trong Lịch phụng vụ Rôma.",
+    "body_vi": "Trong tuần VII mùa Thường niên, Giáo hội mời gọi các tín hữu suy gẫm lời giáo huấn của Đức Kitô và việc áp dụng những giáo huấn này vào cuộc sống hằng ngày. Các bài đọc và lời nguyện phụng vụ của Thứ Tư này tập trung vào các chủ đề đức tin, vâng phục và Nước Thiên Chúa. Các linh mục và giáo dân được khuyến khích dùng thời gian này để đổi mới đời sống thiêng liêng, dưới màu phụng vụ xanh tượng trưng cho niềm hy vọng và sự sống. Việc không có lễ trọng nào cao hơn nhấn mạnh nhịp điệu thường nhật của năm phụng vụ, nơi sự thánh thiện được tìm thấy trong sự trung thành với bổn phận và cầu nguyện hằng ngày.",
+    "confidence_note_vi": "Tính toán ngày dựa trên chu kỳ Lịch phụng vụ Rôma năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hy vọng nơi Chúa",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để bước đi trung tín trong ánh sáng của Ngài hôm nay, lạy Chúa."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Thường Niên",
+    "summary_vi": "Thứ Bảy này là ngày thường trong Mùa Thường Niên. Không có lễ kính thánh bổn mạng nào có quyền ưu tiên vượt qua. Màu phụng vụ là màu xanh. Cộng đoàn được mời gọi suy niệm các bài đọc trong ngày.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, ngày này mời gọi sự suy niệm trầm lặng trong nhịp điệu của năm phụng vụ. Giáo hội mời gọi tín hữu đào sâu sự hiểu biết về mầu nhiệm Kitô giáo qua Kinh Thánh hằng ngày và lời cầu nguyện. Không có cử hành lễ kính thánh hay lễ kính cụ thể, trọng tâm vẫn là hành trình đức tin đang tiếp diễn.",
+    "confidence_note_vi": "Không có lễ nhớ bắt buộc nào được liệt kê cho ngày này trong Lịch Phụng vụ Rôma cho chu kỳ hiện tại."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi nhẹ nhàng trong Mùa Thường Niên.",
+    "prayer_prompt_vi": "Xin cho chúng con biết lắng nghe Lời Chúa hôm nay."
+  }
+}

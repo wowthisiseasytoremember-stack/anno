@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần VI Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần VI Thường Niên",
+    "summary_vi": "Đây là ngày thường (feria) trong Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây. Trọng tâm phụng vụ là sự tăng trưởng liên lỷ của các tín hữu trong đời sống của Giáo Hội, ngoài các chu kỳ lễ trọng.",
+    "body_vi": "Là một ngày Thứ Bảy trong Mùa Thường Niên, phụng vụ tuân theo các bài đọc riêng cho ngày thường trừ khi có một lễ cao cấp hơn xen vào. Các bài đọc từ Sách Bài Đọc tiếp tục tiến trình tuần tự, mời gọi các tín hữu đào sâu sự hiểu biết về Kinh Thánh. Màu xanh lá cây của áo lễ tượng trưng cho niềm hy vọng và sự tăng trưởng ổn định của đời sống Kitô hữu.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn của Mùa Thường Niên theo Lịch Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong điều thường nhật",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con tìm thấy Ngài trong nhịp sống thường ngày."
+  }
+}

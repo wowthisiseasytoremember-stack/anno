@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh",
+    "summary_vi": "Ngày này thuộc Tuần IV Mùa Phục Sinh, thời gian suy niệm về các lần hiện ra sau khi sống lại và đời sống sơ khai của Hội Thánh. Màu phụng vụ là trắng, tượng trưng cho niềm vui và sự tinh tuyền của sự Phục Sinh. Không có vị thánh nào được mừng kính bắt buộc vào ngày này trong Lịch Rôma Tổng Quát, vì đây là ngày thường của mùa phụng vụ hiện tại.",
+    "body_vi": "Trọng tâm phụng vụ trong Thứ Tư này được rút ra từ các bài đọc của Tuần IV Mùa Phục Sinh, nhấn mạnh sự tăng trưởng của cộng đoàn Kitô hữu sơ khai và sứ mệnh đến với dân ngoại. Là một ngày thường trong Mùa Phục Sinh, kinh nhật tụng theo chu kỳ ngày thường hiện tại, mời gọi các tín hữu suy niệm mầu nhiệm Chúa Phục Sinh trong đời sống hằng ngày.",
+    "confidence_note_vi": "Ngày và cấp bậc phụng vụ được xác định bởi lịch phụng vụ chung cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng Phục Sinh trong Thứ Tư này.",
+    "prayer_prompt_vi": "Nguyện cho niềm vui của Chúa Phục Sinh nâng đỡ bước chân bạn hôm nay."
+  }
+}

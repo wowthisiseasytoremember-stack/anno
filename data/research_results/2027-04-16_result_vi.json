@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Ngày Thứ Sáu Tuần IV Mùa Phục Sinh",
+    "summary_vi": "Ngày 16 tháng 4 năm 2027 rơi vào Thứ Sáu trong Tuần IV của Mùa Phục Sinh theo lịch phụng vụ. Ngày này tiếp tục giai đoạn hậu Phục Sinh, nhấn mạnh sự hiện diện liên lỉ của Đức Kitô Phục Sinh giữa các tín hữu. Là một ngày trong tuần của Mùa Phục Sinh, ngày này được đánh dấu bằng màu xanh lá cây trong phụng vụ, biểu tượng cho niềm hy vọng và sự tăng trưởng trong đời sống Kitô giáo.",
+    "body_vi": "Việc cử hành phụng vụ Thứ Sáu này tập trung vào việc tiếp tục cử hành Mầu Nhiệm Vượt Qua. Mặc dù có thể có các vị thánh cụ thể được tưởng nhớ trong lịch phụng vụ địa phương hoặc lịch các thánh, nhưng bối cảnh phụng vụ chính vẫn là Mùa Phục Sinh. Các bài đọc và lời nguyện cho ngày này phản ánh các chủ đề về sự tăng trưởng thiêng liêng và lời chứng của Giáo Hội sơ khai.",
+    "confidence_note_vi": "Ngày này được tính toán xác định là Thứ Sáu trong Tuần IV của Mùa Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy chỗi dậy trong niềm hy vọng của Mùa Phục Sinh.",
+    "prayer_prompt_vi": "Chúa ơi, xin cho ánh sáng Phục Sinh dẫn dắt mọi hành động của chúng con trong ngày này."
+  }
+}

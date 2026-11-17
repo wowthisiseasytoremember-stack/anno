@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần V Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần V Thường Niên",
+    "summary_vi": "Thứ Sáu này đánh dấu tuần thứ năm của Mùa Thường Niên, một thời gian dành cho sự tăng trưởng đức tin trong cuộc sống hằng ngày. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và hành trình tiến về của Giáo Hội. Không có lễ trọng hay lễ kính nào được gán cho ngày cụ thể này trong Lịch Rôma Chung, do đó các bài đọc và lời nguyện sẽ tập trung vào ngày thường.",
+    "body_vi": "Trong ngày thường này của Mùa Thường Niên, tín hữu được mời gọi suy niệm giáo huấn của Chúa Kitô qua các bài đọc sách bài đọc được quy định, thường tập trung vào lời Chúa trong Tin Mừng mô tả sứ vụ và các phép lạ của Ngài. Phụng vụ nhấn mạnh sự khiêm nhường và phục vụ, rút ra những bài học tương đồng với các thánh như Thánh Beda Venerabilis hoặc Thánh Gregory VII, những vị được nhớ đến trong khoảng thời gian này nhưng không thay thế vị thế ngày thường nếu không có lễ cụ thể được thiết lập. Cầu nguyện và suy niệm trong những ngày này phục vụ việc tích hợp những hiểu biết thiêng liêng vào thói quen làm việc và nghỉ ngơi.",
+    "confidence_note_vi": "Ngày này là một ngày thường tiêu chuẩn của Tuần V Mùa Thường Niên, được xác nhận bởi cấu trúc Lịch Rôma năm 2027. Không có lễ lớn nào thay thế vị thế này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Hy vọng giữa Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khiêm nhường để phục vụ người khác và niềm hy vọng để tiếp tục tiến bước trong đức tin."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-21",
+  "date": "2027-02-21",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "purple",
+    "title_en": "First Sunday of Lent",
+    "title_vi": "Chúa Nhật I Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "First Sunday of Lent",
+    "title_vi": "Chúa Nhật I Mùa Chay",
+    "summary_en": "The First Sunday of Lent initiates the forty-day penitential season leading to Easter. It focuses on the mystery of Christ's temptation in the desert and the beginning of the conversion of heart. The liturgical color is violet, signifying penance and hope. No saints are commemorated unless a solemnity or feast coincides.",
+    "summary_vi": "Chúa Nhật I Mùa Chay khai mạc mùa chay thánh bốn mươi ngày dẫn tới lễ Phục Sinh. Trọng tâm là mầu nhiệm Chúa Giêsu chịu cám dỗ trong sa mạc và sự khởi đầu của việc hoán cải tâm hồn. Màu phụng vụ là tím, tượng trưng cho sự sám hối và niềm hy vọng. Không có thánh nào được kính trừ khi trùng với lễ trọng hay lễ kính.",
+    "body_en": "On this First Sunday of Lent, the Church enters the desert of conversion with Christ. The readings typically recount Israel's exodus and Jesus's victory over Satan, inviting the faithful to renew their baptismal promises. It is a time for increased prayer, fasting, and almsgiving.",
+    "body_vi": "Trong Chúa Nhật I Mùa Chay này, Giáo Hội bước vào sa mạc hoán cải cùng với Chúa Kitô. Bài đọc thường kể lại cuộc xuất hành của Israel và chiến thắng của Chúa Giêsu trên Satan, mời gọi các tín hữu đổi mới lời hứa rửa tội. Đây là thời gian để gia tăng cầu nguyện, ăn chay và bố thí.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical date confirmed by the General Roman Calendar for 2027.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận bởi Lịch Phụng vụ Rôma năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Enter the desert with Christ to renew your heart.",
+    "hero_line_vi": "Bước vào sa mạc cùng Chúa Kitô để đổi mới tâm hồn.",
+    "prayer_prompt_en": "Lord, grant me the strength to fast from sin and feast on Your Word.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sức mạnh để chay tội lỗi và tiệc Lời Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar 2027",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Encyclopedia - Lent",
+      "url": "https://www.newadvent.org/cathen/09253a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-08",
+    "hebrew": "14 Adar 5787",
+    "islamic_umm_al_qura": "14 Ramadan 1448 AH",
+    "coptic": "14 Amshir 1743",
+    "ethiopian": "14 Amshir 1743"
+  }
+}

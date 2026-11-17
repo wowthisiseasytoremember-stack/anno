@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-13",
+  "date": "2027-03-13",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Fourth Week of Lent",
+    "title_vi": "Thứ Bảy tuần IV Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fourth Week of Lent",
+    "title_vi": "Thứ Bảy tuần IV Mùa Chay",
+    "summary_en": "The Saturday of the Fourth Week of Lent is a weekday within the Lenten season. The Church invites the faithful to deepen their conversion and prepare for Easter through prayer, fasting, and almsgiving. The liturgy emphasizes the journey towards the Paschal Mystery.",
+    "summary_vi": "Thứ Bảy tuần IV Mùa Chay là ngày thường trong mùa Chay. Hội Thánh mời gọi cộng đoàn đào sâu sự hoán cải và chuẩn bị cho lễ Vượt Qua qua việc cầu nguyện, ăn chay và làm việc bác ái. Phụng vụ nhấn mạnh hành trình hướng tới Mầu nhiệm Vượt Qua.",
+    "body_en": "On this day, the Church continues the Lenten journey, focusing on the interior renewal of the faithful. The readings and prayers reflect the themes of light and life, urging believers to move from darkness to the light of Christ. While no solemnity or major feast takes precedence, the weekday liturgy serves to sanctify the ordinary time of the season, reminding us that every day is a step closer to the Resurrection.",
+    "body_vi": "Trong ngày này, Hội Thánh tiếp tục hành trình Mùa Chay, tập trung vào sự đổi mới nội tâm của các tín hữu. Các bài đọc và lời cầu nguyện phản ánh chủ đề ánh sáng và sự sống, thúc đẩy người tin bước ra khỏi bóng tối để đến với ánh sáng của Đức Kitô. Dù không có lễ trọng hay lễ lớn nào ưu tiên, phụng vụ ngày thường vẫn thánh hóa thời gian thường lệ của mùa phụng vụ, nhắc nhở rằng mỗi ngày là một bước tiến gần hơn tới sự Phục Sinh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This date falls on a Saturday in Lent, observed as a feria (weekday) in the General Roman Calendar. No general calendar saint's memorial has precedence over the Lenten weekday in the current universal norms.",
+    "confidence_note_vi": "Ngày này rơi vào Thứ Bảy trong Mùa Chay, được cử hành như ngày thường (feria) theo Lịch Rôma chung. Theo quy định hiện hành, không có lễ kính nào của các thánh chiếm ưu tiên hơn phụng vụ ngày thường Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk gently in the light of Lent.",
+    "hero_line_vi": "Bước đi dịu dàng trong ánh sáng Mùa Chay.",
+    "prayer_prompt_en": "Lord, grant me the strength to persevere in my Lenten journey today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sức mạnh để kiên trì trong hành trình Mùa Chay hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/031327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints & Calendar",
+      "url": "https://www.catholic.org/saints/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-28",
+    "hebrew": "4 Adar II 5787",
+    "islamic_umm_al_qura": "4 Shawwal 1448 AH",
+    "coptic": "4 Baramhat 1743",
+    "ethiopian": "4 Baramhat 1743"
+  }
+}

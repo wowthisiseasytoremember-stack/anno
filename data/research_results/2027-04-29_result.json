@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-29",
+  "date": "2027-04-29",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "memorial",
+    "color": "white",
+    "title_en": "Memorial of Saint Catherine of Siena",
+    "title_vi": "Lễ nhớ Thánh Catarina Siêna"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saint Catherine of Siena",
+    "title_vi": "Thánh Catarina Siêna",
+    "summary_en": "Saint Catherine of Siena (1347–1380) was a Dominican tertiary, mystic, and Doctor of the Church. She is renowned for her theological writings, particularly 'The Dialogue', and her active role in the papal court and the return of the Papacy to Rome. Her feast day is celebrated as an obligatory memorial in the General Roman Calendar.",
+    "summary_vi": "Thánh Catarina Siêna (1347–1380) là một nữ tu Dòng Đa Minh, nhà thần bí và Tiến sĩ Hội Thánh. Bà nổi tiếng với các tác phẩm thần học, đặc biệt là 'Cuộc Đối Thoại', và vai trò tích cực trong triều đình giáo hoàng cùng việc đưa Giáo hoàng trở lại Rôma. Lễ kính của bà được cử hành như một lễ nhớ buộc trong Lịch Phụng vụ Rôma Tổng quát.",
+    "body_en": "Born in Siena, Italy, Catherine dedicated her life to prayer and service to the poor and sick. Despite having no formal theological training, she wrote extensively on the nature of God and the role of the Church. Her influence extended to political and religious unity in Europe during the 14th century.",
+    "body_vi": "Sinh ra tại Siena, nước Ý, Catarina đã dâng hiến cuộc đời cho việc cầu nguyện và phục vụ người nghèo, người bệnh. Mặc dù không được đào tạo thần học chính quy, bà đã viết nhiều tác phẩm về bản tính của Thiên Chúa và vai trò của Hội Thánh. Ảnh hưởng của bà lan rộng đến sự thống nhất chính trị và tôn giáo ở châu Âu trong thế kỷ 14.",
+    "confidence": "confirmed",
+    "confidence_note_en": "St. Catherine of Siena is a confirmed Doctor of the Church with a fixed memorial date in the General Roman Calendar.",
+    "confidence_note_vi": "Thánh Catarina Siêna là Tiến sĩ Hội Thánh đã được xác nhận với ngày lễ nhớ cố định trong Lịch Phụng vụ Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Truth is a light that reveals reality.",
+    "hero_line_vi": "Chân lý là ánh sáng soi tỏ thực tại.",
+    "prayer_prompt_en": "Ask for the courage to speak truth in love, as St. Catherine did.",
+    "prayer_prompt_vi": "Hãy xin sự can đảm để nói lời chân lý trong tình yêu, như Thánh Catarina đã làm."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Saint Catherine of Siena",
+      "url": "https://www.usccb.org/saints/catherine-siena",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Saint Catherine of Siena",
+      "url": "https://www.newadvent.org/cathen/03414b.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-16",
+    "hebrew": "22 Nisan 5787",
+    "islamic_umm_al_qura": "22 Dhu al-Qidah 1448 AH",
+    "coptic": "21 Baramouda 1743",
+    "ethiopian": "21 Baramouda 1743"
+  }
+}

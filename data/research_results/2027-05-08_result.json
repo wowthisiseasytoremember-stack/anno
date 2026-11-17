@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-08",
+  "date": "2027-05-08",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Fourth Week of Easter",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fourth Week of Easter",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Phục Sinh",
+    "summary_en": "This day falls within the Easter season, continuing the celebration of the Resurrection during Ordinary Time weekdays. There are no obligatory memorials for this date, making the liturgical color green. The focus remains on the paschal mystery and the growth of the Christian community.",
+    "summary_vi": "Ngày này rơi vào mùa Phục Sinh, tiếp nối việc cử hành mầu nhiệm Phục Sinh trong các ngày trong tuần Mùa Thường Niên. Không có lễ nhớ buộc cho ngày này, nên màu phụng vụ là xanh lục. Trọng tâm vẫn là mầu nhiệm Vượt Qua và sự tăng trưởng của cộng đoàn Kitô hữu.",
+    "body_en": "The Church prays with the Psalmody of the Fourth Week of Easter, reflecting on the light of the Resurrection. Without a specific saint's feast, the liturgy emphasizes the daily fidelity of believers to the Paschal Mystery.",
+    "body_vi": "Hội Thánh cầu nguyện với các Thánh vịnh của Tuần IV Mùa Phục Sinh, suy ngắm ánh sáng Phục Sinh. Không có lễ kính một vị thánh cụ thể, phụng vụ nhấn mạnh sự trung tín hàng ngày của tín hữu với Mầu nhiệm Vượt Qua.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Feria in the Fourth Week of Easter according to the General Roman Calendar.",
+    "confidence_note_vi": "Ngày trong tuần Tuần IV Mùa Phục Sinh theo Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of the Resurrection.",
+    "hero_line_vi": "Bước đi trong ánh sáng Phục Sinh.",
+    "prayer_prompt_en": "Lord, help me to live each day as a witness of Your Risen Love.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con sống mỗi ngày như một chứng nhân của Tình Yêu Phục Sinh."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/bible/readings/050827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/01474a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-25",
+    "hebrew": "1 Iyar 5787",
+    "islamic_umm_al_qura": "1 Dhu al-Hijjah 1448 AH",
+    "coptic": "30 Baramouda 1743",
+    "ethiopian": "30 Baramouda 1743"
+  }
+}

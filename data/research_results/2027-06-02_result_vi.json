@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần VIII Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần VIII Mùa Thường Niên",
+    "summary_vi": "Hội Thánh cử hành ngày thường trong Tuần VIII Mùa Thường Niên, tập trung vào sự tăng trưởng của đời sống Kitô hữu trong nếp sống hằng ngày. Màu phụng vụ là xanh lá, tượng trưng cho niềm hy vọng và sự phát triển vững chắc của các tín hữu. Không có vị thánh hay lễ trọng nào được cử hành đặc biệt vào ngày này theo Lịch phụng vụ Roma.",
+    "body_vi": "Trong ngày Thứ Tư này của Mùa Thường Niên, các bài đọc trong sách bài đọc hướng dẫn các tín hữu qua tiến trình phát triển ổn định của đời sống Kitô hữu, nhấn mạnh sự kiên nhẫn và sự hoán cải hằng ngày. Áo lễ màu xanh nhắc nhở rằng đời sống trong Thần Khí là một hành trình tăng trưởng dần dần, được đánh dấu bởi cả những thành công lẫn những thử thách. Các tín hữu được mời gọi dừng lại để cầu nguyện, tìm cách quy hướng những hành động hằng ngày của mình theo lời dạy của Chúa Kitô.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên mà không có lễ trọng hay lễ kính nào cạnh tranh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lớn lên vững chắc trong ân sủng của những ngày thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong nhịp sống thường nhật của ngày hôm nay."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật Phục Sinh",
+    "summary_vi": "Chúa Nhật Phục Sinh là ngày lễ trọng nhất trong lịch phụng vụ Kitô giáo, kỷ niệm sự Phục Sinh của Đức Giêsu Kitô từ cõi chết. Ngày này đánh dấu sự kết thúc mùa Chay và cao điểm của Tam Nhật Vượt Qua. Màu phụng vụ là màu trắng, tượng trưng cho ánh sáng của Đức Kitô. Ngày này được coi là 'Mẹ của các ngày Chúa Nhật', trung tâm của cả năm phụng vụ.",
+    "body_vi": "Sự Phục Sinh của Đức Giêsu Kitô là chân lý nền tảng của đức tin vào Đức Kitô và vẫn là mầu nhiệm trung tâm của đức tin Kitô giáo được cử hành trong ngày hôm nay. Tất cả các bản văn phụng vụ, bài thánh ca và bài đọc đều hướng về chiến thắng của sự sống trên sự chết và niềm hy vọng về sự sống đời đời cho các tín hữu. Bài Công Bố Tin Mừng Phục Sinh (Exsultet) hân hoan trong ánh sáng của Đức Kitô phục sinh, soi sáng thế gian và ban bình an cho tất cả những ai tin.",
+    "confidence_note_vi": "Ngày Chúa Nhật Phục Sinh năm 2027 rơi vào ngày 4 tháng 4. Phục Sinh là lễ di động nhưng ngày của nó được xác định bởi chu kỳ trăng và quy tắc xuân phân do Công đồng Nicêa thiết lập."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức Kitô đã phục sinh! Alleluia!",
+    "prayer_prompt_vi": "Hãy suy niệm về niềm hy vọng Phục Sinh. Đức Kitô đang mời gọi bạn bước vào sự sống mới nào hôm nay?"
+  }
+}

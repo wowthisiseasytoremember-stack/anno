@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Thánh Giuse, Bạn Trăm Năm Đức Maria"
+  },
+  "primary": {
+    "title_vi": "Lễ Thánh Giuse",
+    "summary_vi": "Lễ này kính nhớ Thánh Giuse, cha nuôi của Chúa Giêsu và bạn trăm năm của Đức Maria. Lễ nhấn mạnh vai trò của Ngài là Đấng bảo vệ Gia đình Thánh và sự vâng phục Ý Chúa. Ngày lễ mời gọi suy niệm về đức khiêm nhường, sự thinh lặng và lòng trung tín phục vụ trong Giáo hội tại gia.",
+    "body_vi": "Thánh Giuse, thuộc dòng dõi Đavít, được tôn kính vì đức tin sâu xa và sự vâng phục thinh lặng đối với kế hoạch của Thiên Chúa. Là chủ gia đình Thánh, Ngài đã dạy Chúa Giêsu bằng gương mẫu về đức lao động và đạo hạnh. Giáo hội tôn vinh Ngài là Bổn mạng Giáo hội Hoàn vũ và là mẫu gương cho các người cha cùng mọi người lao động.",
+    "confidence_note_vi": "Lễ Thánh Giuse là ngày cố định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đấng Bảo Vệ Thinh Lặng, Tôi Trung Vâng Phục",
+    "prayer_prompt_vi": "Xin sự chuyển cầu của Thánh Giuse cho gia đình và công việc của bạn."
+  }
+}

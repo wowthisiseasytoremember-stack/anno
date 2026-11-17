@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-24",
+  "date": "2027-02-24",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Seventh Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần VII Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Seventh Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần VII Mùa Thường Niên",
+    "summary_en": "This date falls within the Seventh Week of Ordinary Time, focusing on the teachings of Jesus regarding faith and humility in the Gospels. The liturgical color is green, symbolizing hope and growth in the life of the Church. As a weekday feria, the focus remains on the weekly progression through the Gospel readings.",
+    "summary_vi": "Ngày này thuộc Tuần VII Mùa Thường Niên, tập trung vào lời dạy của Chúa Giêsu về đức tin và sự khiêm nhường trong các bài Tin Mừng. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Giáo Hội. Là một ngày thường tuần, trọng tâm vẫn là sự tiến triển hàng tuần qua các bài đọc Tin Mừng.",
+    "body_en": "In Ordinary Time, the Church encourages the faithful to listen attentively to Christ's words and apply them to daily life. The readings for this period often challenge believers to deepen their conversion and commit to the path of discipleship.",
+    "body_vi": "Trong Mùa Thường Niên, Giáo Hội khuyến khích các tín hữu lắng nghe lời Chúa Kitô với sự chú tâm và áp dụng vào cuộc sống hằng ngày. Các bài đọc trong giai đoạn này thường thách thức những người tin đi sâu hơn vào sự hoán cải và cam kết trên con đường môn đệ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Feria status confirmed for Feb 24, 2027, in the Roman Calendar.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường trong Lịch Rôma ngày 24 tháng 2 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of His teachings.",
+    "hero_line_vi": "Bước đi trong ánh sáng lời dạy của Ngài.",
+    "prayer_prompt_en": "Lord, help me to live out Your Gospel in the ordinary moments of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con sống Tin Mừng của Ngài trong những khoảnh khắc thường nhật của đời con."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/07235a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-11",
+    "hebrew": "17 Adar 5787",
+    "islamic_umm_al_qura": "17 Ramadan 1448 AH",
+    "coptic": "17 Amshir 1743",
+    "ethiopian": "17 Amshir 1743"
+  }
+}

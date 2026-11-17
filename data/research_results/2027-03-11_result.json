@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-03-11",
+  "date": "2027-03-11",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm Tuần V Mùa Thường Niên",
+    "summary_en": "On Thursday of the Fifth Week in Ordinary Time, the Church reflects on the teachings of Jesus as recorded in the Gospels. The liturgical color is green, symbolizing hope and growth in the Christian life. There is no obligatory memorial or feast for this day in the General Roman Calendar, making it a standard weekday observance.",
+    "summary_vi": "Vào ngày Thứ Năm Tuần V Mùa Thường Niên, Giáo hội suy niệm lời giảng dạy của Chúa Giêsu được ghi chép trong các sách Tin Mừng. Màu xanh lá cây phụng vụ tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Kitô hữu. Không có lễ nhớ buộc hay lễ trọng nào được cử hành vào ngày này trong Lịch Phụng Vụ Rôma, vì vậy đây là ngày thường lệ.",
+    "body_en": "As a feria in Ordinary Time, the focus remains on the progressive reading of Scripture. The readings typically draw from the Epistles and the Gospels, encouraging the faithful to integrate faith into daily actions. Priests and faithful are reminded to maintain a spirit of conversion and humility.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, trọng tâm vẫn là việc đọc Sách Thánh một cách tiệm tiến. Các bài đọc thường trích dẫn từ các Thư và các sách Tin Mừng, khuyến khích các tín hữu hòa nhập đức tin vào các hành động hàng ngày. Các linh mục và giáo dân được nhắc nhở duy trì tinh thần hoán cải và khiêm nhường.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time with no major saint feast. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Ngày thường thông thường trong Mùa Thường Niên, không có lễ kính thánh lớn. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in Hope",
+    "hero_line_vi": "Lớn lên trong Hy Vọng",
+    "prayer_prompt_en": "Ask for the grace to grow in virtue today.",
+    "prayer_prompt_vi": "Cầu xin ơn sủng để tăng trưởng trong nhân đức hôm nay."
+  },
+  "sources": [
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/11305b.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "reference"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-26",
+    "hebrew": "2 Adar II 5787",
+    "islamic_umm_al_qura": "2 Shawwal 1448 AH",
+    "coptic": "2 Baramhat 1743",
+    "ethiopian": "2 Baramhat 1743"
+  }
+}

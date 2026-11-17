@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-05-01",
+  "date": "2027-05-01",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "memorial",
+    "color": "white",
+    "title_en": "Saint Joseph the Worker",
+    "title_vi": "Thánh Giuse Thợ"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saint Joseph the Worker",
+    "title_vi": "Thánh Giuse Thợ",
+    "summary_en": "On May 1st, the Church celebrates Saint Joseph the Worker, the foster father of Jesus and husband of Mary. This feast highlights the dignity of human labor and the Christian vocation to work as a means of sanctification. Saint Joseph serves as the patron of workers and families, exemplifying humility and obedience in his daily craft.",
+    "summary_vi": "Vào ngày 1 tháng 5, Giáo Hội mừng kính Thánh Giuse Thợ, cha nuôi của Chúa Giêsu và bạn đường của Đức Maria. Lễ này nhấn mạnh phẩm giá của lao động và ơn gọi Kitô hữu trong việc lao động như một phương tiện thánh hóa. Thánh Giuse là bổn mạng của những người lao động và các gia đình, noi gương khiêm nhường và vâng phục trong nghề nghiệp hằng ngày của ngài.",
+    "body_en": "The feast of Saint Joseph the Worker was established by Pope Pius XII in 1955 to counter secular celebrations of labor and to provide a Christian example of work. It emphasizes that work is a participation in God's creation and a service to the common good. The liturgy invites the faithful to unite their daily labor with the prayers of the Church, seeking justice and peace for workers everywhere.",
+    "body_vi": "Lễ Thánh Giuse Thợ được Đức Giáo Hoàng Piô XII thiết lập năm 1955 để đáp lại các lễ hội lao động thế tục và cung cấp một gương mẫu Kitô giáo về lao động. Lễ này nhấn mạnh rằng lao động là sự tham gia vào công trình sáng tạo của Thiên Chúa và là phục vụ cho công ích. Phụng vụ mời gọi các tín hữu kết hợp công việc hằng ngày với lời cầu nguyện của Giáo Hội, tìm kiếm công lý và bình an cho mọi người lao động.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The celebration of Saint Joseph the Worker on May 1st is a fixed memorial in the General Roman Calendar, instituted by Pope Pius XII.",
+    "confidence_note_vi": "Việc mừng kính Thánh Giuse Thợ vào ngày 1 tháng 5 là một lễ ghi nhớ cố định trong Lịch Rôma Chung, được Đức Giáo Hoàng Piô XII thiết lập."
+  },
+  "app_hooks": {
+    "hero_line_en": "Blessed be the work of our hands.",
+    "hero_line_vi": "Xin chúc lành cho công việc tay làm của chúng con.",
+    "prayer_prompt_en": "Ask for the grace to find purpose and holiness in your daily tasks.",
+    "prayer_prompt_vi": "Hãy cầu xin ơn tìm thấy mục đích và sự thánh thiện trong các công việc hằng ngày của bạn."
+  },
+  "sources": [
+    {
+      "label": "Universalis Calendar",
+      "url": "https://universalis.com/calendar.php?d=20270501",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Saints and Feasts - May 1st",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=365",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "New Advent Saints",
+      "url": "https://www.newadvent.org/cathen/08545a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-18",
+    "hebrew": "24 Nisan 5787",
+    "islamic_umm_al_qura": "24 Dhu al-Qidah 1448 AH",
+    "coptic": "23 Baramouda 1743",
+    "ethiopian": "23 Baramouda 1743"
+  }
+}

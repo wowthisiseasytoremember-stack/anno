@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Chay",
+    "summary_vi": "Ngày này được cử hành như ngày thường trong Tuần IV Mùa Chay. Các bài đọc phụng vụ tập trung vào các chủ đề hoán cải và chuẩn bị cho lễ Phục Sinh. Màu sắc phụng vụ là tím, phản ánh tính chất sám hối của mùa này.",
+    "body_vi": "Vào Thứ Bảy Tuần IV Mùa Chay, Giáo Hội tiếp tục hành trình sám hối và canh tân qua kinh nguyện, chay tịnh và bố thí. Trọng tâm vẫn là sự hoán cải nội tâm và lắng nghe Lời Chúa, khi các tín hữu chuẩn bị cử hành Mầu Nhiệm Vượt Qua. Không có lễ kính thánh nào được ưu tiên hơn việc cử hành ngày thường Mùa Chay.",
+    "confidence_note_vi": "Dựa trên Sách Lễ Rôma 1969 và các quy tắc phụng vụ hiện hành cho các ngày thường Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chuẩn bị tâm hồn đón nhận Ánh Sáng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con kiên vững trong các việc đạo đức Mùa Chay."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật Thứ XI Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật Thứ XI Mùa Thường Niên",
+    "summary_vi": "Chúa Nhật Thứ XI Mùa Thường Niên tập trung vào mầu nhiệm ân sủng kiên nhẫn của Thiên Chúa và sự tăng trưởng của Nước Trời. Các bài đọc phụng vụ thường nhắc đến dụ ngôn hạt giống âm thầm lớn lên hoặc người gieo giống, nhấn mạnh sự tín thác vào thời điểm của Thiên Chúa. Màu sắc phụng vụ là Màu Xanh Lá, biểu tượng cho niềm hy vọng và sự tăng trưởng vững chắc của Hội Thánh giữa lòng thế giới.",
+    "body_vi": "Trong các Chúa Nhật Mùa Thường Niên vào tháng Sáu, Hội Thánh suy tư về hành trình đức tin đang tiếp diễn. Chúa Nhật cụ thể này mời gọi cộng đoàn suy ngắm sự khiêm nhường và kiên nhẫn cần thiết trong đời sống tâm linh. Mặc dù các thánh như Thánh Antôn Pađôva (ngày 13 tháng Sáu) được mừng kính trong lịch chung, nhưng bản thân ngày Chúa Nhật vẫn giữ vị trí ưu tiên trong phẩm trật phụng vụ, tập trung vào Lời Chúa và việc cử hành Thánh Lễ như nguồn mạch sự sống.",
+    "confidence_note_vi": "Chúa Nhật Mùa Thường Niên là ngày phụng vụ chính; sự ưu tiên trước các lễ nhớ tùy ý được xác nhận bởi các Quy Định Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tín thác vào sự lớn lên âm thầm của Nước Chúa.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con kiên nhẫn với chính mình và người khác, tin tưởng vào thời điểm của Chúa."
+  }
+}

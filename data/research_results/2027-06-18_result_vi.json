@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Mùa Thường Niên",
+    "summary_vi": "Hội Thánh cử hành một ngày thường trong Mùa Thường Niên. Trọng tâm là việc thánh hóa qua đời sống hằng ngày, cầu nguyện và tuân giữ các huấn lệnh của Chúa, với các bài đọc nằm trong chu kỳ đang tiến hành của sách Old Testament và Tin Mừng.",
+    "body_vi": "Ngày này được xác định là ngày thường (feria) trong lịch phụng vụ của Nghi lễ Rôma. Không có lễ kính hoặc lễ trọng buộc của các thánh thay thế cho giờ kinh nhật khóa của ngày thường. Màu sắc phụng vụ là màu xanh lá cây, biểu tượng của niềm hy vọng và sự sống. Các bài đọc được chọn từ chu kỳ bài đọc ngày thường (thường là các bài đọc ngày thường từ Tuần 11 Mùa Thường Niên, trừ khi bị gián đoạn bởi một lễ kính có thứ hạng cao hơn).",
+    "confidence_note_vi": "Dựa trên các quy tắc của Lịch Phụng vụ Rôma Tổng quát (bản sửa đổi 1969) cho các ngày thường trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Thánh Thần, bước đi trong Hy Vọng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn sủng để sống ngày này trung thành với ý Chúa."
+  }
+}

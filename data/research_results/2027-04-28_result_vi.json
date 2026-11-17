@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần III Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần III Mùa Phục Sinh",
+    "summary_vi": "Ngày 28 tháng 4 năm 2027 rơi vào Thứ Tư trong tuần thứ ba của Mùa Phục Sinh. Là một ngày trong tuần của Thời gian Thường niên, ngày này có phẩm bậc là ngày thường (feria) và được đánh dấu bằng màu xanh lá cây phụng vụ, tượng trưng cho sự tăng trưởng và hy vọng trong sự phục sinh. Không có lễ trọng hay lễ kính phổ quát nào chiếm vị trí ưu tiên trong ngày này.",
+    "body_vi": "Phụng vụ ngày này tập trung vào hành trình tiếp diễn của các tín hữu trong Mùa Phục Sinh, nhấn mạnh sức mạnh biến đổi của sự Phục Sinh trong đời sống hàng ngày. Các bài đọc thường phản ánh các chủ đề về sự môn đệ và sự hiện diện liên lỉ của Đức Kitô giữa dân Người. Là một ngày thường, các lời cầu nguyện được rút ra từ các ngày trong tuần tiêu chuẩn của Mùa Phục Sinh trừ khi có kỷ niệm của một vị thánh cụ thể, điều mà trong trường hợp này không làm thay đổi tính chất ngày thường.",
+    "confidence_note_vi": "Đã xác nhận qua Lịch Rôma Chung cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Ánh Sáng Phục Sinh",
+    "prayer_prompt_vi": "Hãy cầu xin ân sủng để sống niềm vui phục sinh trong các công việc hàng ngày."
+  }
+}

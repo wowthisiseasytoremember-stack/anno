@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay",
+    "summary_vi": "Đây là ngày trong tuần trong mùa Mùa Chay. Không có vị thánh nào được ấn định làm lễ nhớ bắt buộc phổ quát, nên trọng tâm phụng vụ vẫn là các bài đọc và lời nguyện của Mùa Chay. Màu sắc phụng vụ là tím (hoặc xanh lá nếu được phép trong một số bối cảnh địa phương cụ thể, mặc dù tím là tiêu chuẩn cho Mùa Chay).",
+    "body_vi": "Các văn bản phụng vụ cho Thứ Ba Tuần IV Mùa Chay nhấn mạnh vào sự hoán cải, ăn chay và cầu nguyện. Các bài đọc thường tiếp tục mặc khải tiến triển về lòng thương xót của Thiên Chúa và lời kêu gọi sám hối, những chủ đề trung tâm của mùa Mùa Chay. Là một ngày thường, linh mục cử hành Thánh lễ theo các công thức phụng vụ của Thứ Tư Tuần IV Mùa Chay.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Hình thức Thường xuyên của Nghi lễ Rôma trong Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tái sinh qua thống hối và cầu nguyện.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng của sự hoán cải chân thành và cầu nguyện bền bỉ."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Ngày thường trong Mùa Thường Niên",
+    "summary_vi": "Ngày 17 tháng 3 năm 2027 rơi vào Thứ Tư Tuần V Mùa Thường Niên. Mặc dù Thánh Patrick thường được tưởng nhớ vào ngày này, nhưng theo Lịch Rôma Chung hiện hành, Thánh Patrick không có lễ phổ quát, nên đây vẫn là ngày thường phụng vụ. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của cộng đoàn tín hữu trong giai đoạn Mùa Thường Niên.",
+    "body_vi": "Với tư cách là một ngày thường của Tuần V Mùa Thường Niên, trọng tâm của ngày là các bài học về Chúa Giêsu và đời sống Giáo Hội trong phần 'thường niên' của năm phụng vụ. Các bài đọc tuân theo thứ tự đã được thiết lập cho Tuần V Mùa Thường Niên, nhấn mạnh đến lời mời gọi hoán cải và bản chất của việc môn đệ hóa. Trong lịch phụng vụ phổ quát, không có đời sống của vị thánh nào được ưu tiên hơn phụng vụ ngày thường vào ngày này.",
+    "confidence_note_vi": "Bản tu chính Lịch Rôma Chung năm 1969 đã loại bỏ ngày lễ Thánh Patrick (17 tháng 3) khỏi danh sách các lễ phổ quát bắt buộc. Do đó, ngày này mặc định là Ngày thường Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Niềm hy vọng đồng hành với chúng ta trong những ngày thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con tìm thấy Chúa trong sự thường nhật của ngày hôm nay."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần VII Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần VII Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào ngày thường trong tuần thứ bảy của Mùa Thường Niên trong lịch phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và hành trình đức tin. Là một ngày thường (feria), đây là ngày thinh lặng suy niệm và cầu nguyện trong chu kỳ năm phụng vụ, hướng tới cuối mùa trước lễ Ngũ Tuần. Các bài đọc thường tập trung vào sự môn đệ liên lỉ và giáo huấn của Chúa Kitô được tìm thấy trong Tin Mừng Máccô và các Thư.",
+    "body_vi": "Mùa Thường Niên, được biểu tượng bằng màu xanh lá cây, là thời gian của năm phụng vụ tập trung vào cuộc đời và giáo huấn của Chúa Giêsu, tách biệt khỏi các mùa Vọng, Giáng Sinh, Chay Thánh và Phục Sinh. Vào Thứ Bảy này, Giáo Hội mời gọi các tín hữu lắng nghe Lời Chúa và để Lời ấy sinh hoa trái trong đời sống hàng ngày. Mặc dù không phải là lễ hay lễ trọng, ngày này mang sức nặng của sự thánh thiện đời thường, nơi sự thánh thiện được tìm thấy trong bổn phận và sự tin tưởng thầm lặng vào sự quan phòng của Thiên Chúa. Bài đọc từ Máccô 9:38-40 nhắc nhở chúng ta rằng ai không chống lại chúng ta, là ủng hộ chúng ta, khuyến khích sự cởi mở và hiệp nhất giữa các tín hữu.",
+    "confidence_note_vi": "Ngày này là ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Phụng Vụ La Mã Chung cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Thinh lặng",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong những khoảnh khắc bình thường của ngày sống và sinh hoa trái qua sự kiên nhẫn và đức tin."
+  }
+}

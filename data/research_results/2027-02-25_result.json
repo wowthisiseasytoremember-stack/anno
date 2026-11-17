@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-25",
+  "date": "2027-02-25",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần V mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần V mùa Thường Niên",
+    "summary_en": "This day falls within Ordinary Time, a period dedicated to the general growth of the Church. The liturgical color is green, symbolizing hope and the continuous cycle of spiritual life. No major feast or specific saint's obligatory memorial takes precedence on this date in the General Roman Calendar.",
+    "summary_vi": "Ngày này nằm trong Mùa Thường Niên, thời gian dành cho sự tăng trưởng chung của Hội Thánh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và chu kỳ liên tục của đời sống tâm linh. Không có lễ kính trọng thể hay lễ nhớ bắt buộc nào chiếm ưu tiên vào ngày này trong Lịch Phụng vụ Rôma.",
+    "body_en": "As a weekday of Ordinary Time, the liturgy focuses on the daily sanctification of the faithful through the reading of Scripture and the Eucharistic celebration. The readings typically continue a sequential reading of the Gospels, inviting believers to reflect on the teachings of Christ in their everyday lives. The absence of a specific saint's title emphasizes the universal nature of this season.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, phụng vụ tập trung vào sự thánh hóa hằng ngày của các tín hữu qua việc đọc Kinh Thánh và cử hành Bí tích Thánh Thể. Các bài đọc thường tiếp tục đọc liên tục các sách Tin Mừng, mời gọi người tín hữu suy ngẫm về lời dạy của Đức Kitô trong cuộc sống hằng ngày. Việc không có danh hiệu thánh cụ thể nhấn mạnh tính phổ quát của mùa phụng vụ này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed as a weekday in Ordinary Time based on the standard Liturgical Calendar for the year 2027.",
+    "confidence_note_vi": "Được xác nhận là ngày thường trong Mùa Thường Niên dựa trên Lịch Phụng vụ chuẩn cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the light of ordinary days.",
+    "hero_line_vi": "Bước đi trong ánh sáng của những ngày bình thường.",
+    "prayer_prompt_en": "Lord, grant me the grace to find You in the routine of daily life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để tìm thấy Chúa trong sự lặp lại của đời sống hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/022527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Liturgical Calendar",
+      "url": "https://catholicculture.org/culture/liturgical-calendar/view.cfm?year=2027&month=2&day=25",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-12",
+    "hebrew": "18 Adar 5787",
+    "islamic_umm_al_qura": "18 Ramadan 1448 AH",
+    "coptic": "18 Amshir 1743",
+    "ethiopian": "18 Amshir 1743"
+  }
+}

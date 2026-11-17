@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần V Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần V Mùa Phục Sinh",
+    "summary_vi": "Ngày phụng vụ nằm trong Mùa Phục Sinh, cụ thể là Tuần V. Trọng tâm là việc cử hành tiếp diễn mầu nhiệm Phục Sinh và sự phát triển của Giáo Hội sơ khai. Các bài đọc phản ánh những lần hiện ra sau Phục Sinh và việc Tin Mừng lan rộng đến dân ngoại, nhấn mạnh sứ mạng của Giáo Hội.",
+    "body_vi": "Vào Thứ Bảy Tuần V Mùa Phục Sinh, Giáo Hội tiếp tục suy niệm về mầu nhiệm Phục Sinh của Chúa. Sách bài đọc thường trình bày các đoạn từ Sách Tông Đồ Công Vụ, minh họa cách các môn đệ, được quyền năng Chúa Thánh Thần nâng đỡ, bắt đầu làm chứng cho Đức Kitô. Ngày này là một khoảnh khắc tĩnh lặng suy tư trong 'Năm Mươi Ngày' Phục Sinh, mời gọi các tín hữu để ánh sáng Phục Sinh biến đổi đời sống hằng ngày. Không có lễ kính thánh nào vượt qua tính chất phụng vụ của Mùa Phục Sinh vào ngày này.",
+    "confidence_note_vi": "Ngày này là ngày trong tuần Thứ Bảy Tuần V Mùa Phục Sinh, được ưu tiên hơn các nghi thức kỷ niệm thông thường trừ khi có một lễ trọng."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước Đi Trong Ánh Sáng Chúa Phục Sinh",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con mang bình an Phục Sinh của Chúa vào công việc và sự nghỉ ngơi hôm nay."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-19",
+  "date": "2027-04-19",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of Week 3 in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần III Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of Week 3 in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần III Mùa Thường Niên",
+    "summary_en": "On this Monday in Ordinary Time, the Church reflects on the teachings of Christ and the call to daily discipleship. The liturgy focuses on the gradual growth of faith through consistent prayer and adherence to God's word. This feria invites the faithful to integrate spiritual truths into everyday life.",
+    "summary_vi": "Vào ngày Thứ Hai trong Mùa Thường Niên này, Hội Thánh suy tư về những lời giáo huấn của Chúa Kitô và lời mời gọi làm môn đệ hằng ngày. Phụng vụ tập trung vào sự tăng trưởng dần dần của đức tin qua cầu nguyện nhất quán và tuân giữ Lời Chúa. Ngày lễ này mời gọi các tín hữu tích hợp những chân lý tâm linh vào cuộc sống hàng ngày.",
+    "body_en": "The readings for Monday of Week 3 in Ordinary Time typically emphasize the importance of listening to God's word and responding with humility. Whether focusing on the Gospel of Mark or relevant Old Testament passages, the theme is consistent: faith is not merely a passive reception but an active participation in the life of Christ. The green color of the vestments symbolizes hope and the steady growth of the Church.",
+    "body_vi": "Các bài đọc cho Thứ Hai Tuần III Mùa Thường Niên thường nhấn mạnh tầm quan trọng của việc lắng nghe Lời Chúa và đáp lại với sự khiêm tốn. Dù tập trung vào Tin Mừng Maccô hay các đoạn văn Cựu Ước liên quan, chủ đề vẫn nhất quán: đức tin không chỉ là sự tiếp nhận thụ động mà là sự tham gia tích cực vào đời sống của Chúa Kitô. Màu xanh lá cây của y phục phụng vụ tượng trưng cho niềm hy vọng và sự phát triển vững chắc của Hội Thánh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This is a standard weekday feria in Ordinary Time as per the General Roman Calendar.",
+    "confidence_note_vi": "Đây là ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Phụng Vụ Rôma Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith through daily devotion.",
+    "hero_line_vi": "Lớn lên trong đức tin qua lòng đạo đức hàng ngày.",
+    "prayer_prompt_en": "Lord, help me to listen to Your word and live it faithfully today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe Lời Chúa và sống trung thành hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/041927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Saints and Calendar",
+      "url": "https://www.newadvent.org/cathen/11266a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-06",
+    "hebrew": "12 Nisan 5787",
+    "islamic_umm_al_qura": "12 Dhu al-Qidah 1448 AH",
+    "coptic": "11 Baramouda 1743",
+    "ethiopian": "11 Baramouda 1743"
+  }
+}

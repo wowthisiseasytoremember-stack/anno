@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào Mùa Thường Niên, cụ thể là tuần sau Lễ Chúa Ba Ngôi. Là một ngày thường (feria) không có lễ nhớ bắt buộc hay thánh nào trong Lịch Rôma Chung năm 2027. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và niềm hy vọng trong đời sống Kitô hữu. Các tín hữu được mời gọi suy gẫm lời Chúa qua các bài đọc trong Sách Bài Đọc hàng ngày.",
+    "body_vi": "Vì không có thánh hay lễ cụ thể nào được gán cho ngày 16 tháng 6 năm 2027 trong Lịch Rôma Chung tiêu chuẩn, trọng tâm phụng vụ vẫn tập trung vào mầu nhiệm liên tục về đời sống của Chúa Kitô và sứ mệnh của Hội Thánh trên thế giới. Các bài đọc trong ngày, được xác định theo chu kỳ Sách Bài Đọc của Mùa Thường Niên, cung cấp hướng dẫn cho sự tăng trưởng tâm linh và đời sống đạo đức. Sự vắng mặt của một đại lễ không làm giảm đi sự thánh thiêng của ngày, vốn được tuân giữ như một thời gian cho lời cầu nguyện cá nhân, các việc bác ái và việc tuân giữ giáo huấn của Hội Thánh.",
+    "confidence_note_vi": "Đã xác minh là một ngày thường tiêu chuẩn của Mùa Thường Niên trong Lịch Rôma Chung năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước Đi Trong Hy Vọng: Thứ Tư Mùa Thường Niên",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con sống ngày thường này với tình yêu phi thường, bén rễ trong ân sủng của Chúa và rộng mở với tha nhân."
+  }
+}

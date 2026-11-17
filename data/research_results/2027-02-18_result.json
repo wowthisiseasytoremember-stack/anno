@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-18",
+  "date": "2027-02-18",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần thứ V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần thứ V Mùa Thường Niên",
+    "summary_en": "This day falls within the weekday cycle of Ordinary Time, specifically in the Fifth Week. The liturgical color is green, symbolizing hope and the steady growth of the Church. As a feria, it takes precedence over optional memorials, focusing on the daily Mass readings and the sanctification of ordinary life.",
+    "summary_vi": "Ngày này thuộc chu kỳ ngày thường trong Mùa Thường Niên, cụ thể là tuần thứ V. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Hội Thánh. Là ngày lễ trọng ít (feria), ngày này ưu tiên hơn các lễ nhớ tùy chọn, tập trung vào các bài đọc Thánh lễ hàng ngày và việc thánh hóa đời sống thường nhật.",
+    "body_en": "In the General Roman Calendar, weekdays in Ordinary Time are dedicated to the sanctification of the daily routine through prayer and the Word of God. No specific saint's memorial displaces the office for this particular Thursday in the Fifth Week, unless a particular calendar applies locally, which would still maintain the weekday character of Ordinary Time. The focus remains on the progression of salvation history as presented in the lectionary readings for the week.",
+    "body_vi": "Trong Lịch Phụng vụ Rôma, các ngày trong tuần của Mùa Thường Niên được dành để thánh hóa nếp sống hằng ngày qua cầu nguyện và Lời Chúa. Không có lễ nhớ của vị thánh nào thay thế phận vụ phụng vụ của Thứ Năm này trong tuần thứ V, trừ khi áp dụng lịch địa phương, nhưng vẫn giữ đặc tính ngày thường của Mùa Thường Niên. Trọng tâm vẫn là tiến trình lịch sử cứu độ được trình bày trong các bài đọc Sách Bài Đọc của tuần.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed as a weekday of Ordinary Time in the current Universal Calendar.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường trong Mùa Thường Niên theo Lịch Phổ Quát hiện hành."
+  },
+  "app_hooks": {
+    "hero_line_en": "Find God in the ordinary moments of the week.",
+    "hero_line_vi": "Tìm thấy Thiên Chúa trong những khoảnh khắc bình thường của tuần sống.",
+    "prayer_prompt_en": "Lord, help me see Your face in my daily duties.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhìn thấy khuôn mặt Ngài trong những bổn phận hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia - Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-05",
+    "hebrew": "11 Adar 5787",
+    "islamic_umm_al_qura": "11 Ramadan 1448 AH",
+    "coptic": "11 Amshir 1743",
+    "ethiopian": "11 Amshir 1743"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-30",
+  "date": "2027-05-30",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "The Solemnity of the Most Holy Trinity",
+    "title_vi": "Lễ Chúa Ba Ngôi"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "The Solemnity of the Most Holy Trinity",
+    "title_vi": "Lễ Chúa Ba Ngôi",
+    "summary_en": "Celebrated on the Sunday after Pentecost, this Solemnity honors the mystery of the One God in three Divine Persons: Father, Son, and Holy Spirit. It is a feast of adoration and theological reflection on the inner life of God. The liturgy emphasizes the Trinitarian formula used in baptism and the daily praise of the Church.",
+    "summary_vi": "Được cử hành vào Chúa nhật sau lễ Ngũ Tuần, lễ trọng này tôn vinh mầu nhiệm Thiên Chúa duy nhất trong ba Ngôi Vị: Cha, Con và Thánh Thần. Đây là ngày lễ để thờ lạy và suy tư thần học về đời sống nội tại của Thiên Chúa. Phụng vụ nhấn mạnh vào công thức Ba Ngôi được sử dụng trong bí tích Rửa tội và lời ca tụng hằng ngày của Giáo Hội.",
+    "body_en": "The Solemnity of the Most Holy Trinity invites the faithful to contemplate the central mystery of Christian faith and life. In the General Roman Calendar, it marks the return to Ordinary Time after the Easter cycle, yet it remains a high point of worship. The readings typically include the vision of Ezekiel, the hymn in Philippians, or the Gospel accounts of the Trinity's revelation, such as the baptism of Jesus or the sending of the Apostles. Worshipers are called to acknowledge the presence of the Trinity in the creation, in the history of salvation, and in the personal life of each believer.",
+    "body_vi": "Lễ Chúa Ba Ngôi mời gọi các tín hữu suy niệm về mầu nhiệm trung tâm của đức tin và đời sống Kitô hữu. Trong Lịch Phụng vụ Rôma, lễ này đánh dấu sự trở lại với Mùa Thường niên sau chu kỳ Phục Sinh, nhưng vẫn là một đỉnh cao của sự thờ phượng. Các bài đọc thường bao gồm thị kiến của Êdêkien, bài thánh thi trong thư Philípphê, hoặc các Tin Mừng về sự mặc khải của Ba Ngôi, chẳng hạn như việc Chúa Giêsu chịu phép rửa hoặc việc các Tông đồ được sai đi. Các tín hữu được mời gọi nhìn nhận sự hiện diện của Ba Ngôi trong công trình tạo dựng, trong lịch sử cứu độ, và trong đời sống cá nhân của mỗi người.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is fixed by the rule 'Sunday after Pentecost' in the current General Roman Calendar.",
+    "confidence_note_vi": "Ngày tháng được cố định bởi quy tắc 'Chúa nhật sau lễ Ngũ Tuần' trong Lịch Phụng vụ Rôma hiện hành."
+  },
+  "app_hooks": {
+    "hero_line_en": "Praised be God, Father, Son, and Holy Spirit.",
+    "hero_line_vi": "Xin ca ngợi Thiên Chúa, Cha, Con và Thánh Thần.",
+    "prayer_prompt_en": "Pray the Sign of the Cross slowly, contemplating the three Persons who love you.",
+    "prayer_prompt_vi": "Hãy làm dấu Thánh Giá chậm rãi, suy niệm về Ba Ngôi Vị đang yêu thương bạn."
+  },
+  "sources": [
+    {
+      "label": "Vatican News - Liturgical Calendar",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-17",
+    "hebrew": "23 Iyar 5787",
+    "islamic_umm_al_qura": "23 Dhu al-Hijjah 1448 AH",
+    "coptic": "22 Bashans 1743",
+    "ethiopian": "22 Bashans 1743"
+  }
+}

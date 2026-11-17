@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần Thường niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần Thường niên",
+    "summary_vi": "Thứ Hai này nằm trong Mùa Thường niên, thời gian dành cho sự tăng trưởng của các tín hữu trong giáo huấn của Chúa Kitô. Đây là ngày thường bậc thường, nhấn mạnh việc thánh hóa đời sống hằng ngày và bổn phận bình thường. Không có lễ trọng hay lễ nhớ buộc nào thay thế ngày này trong Lịch phụng vụ Rôma tổng quát.",
+    "body_vi": "Là ngày thường trong Mùa Thường niên, Hội Thánh mời gọi các tín hữu suy gẫm Tin Mừng trong ngày, thường tập trung vào các giáo huấn của Chúa Giêsu được ghi trong sách Luca (năm C) hoặc Mát-thêu/Mác-cô tùy theo điều chỉnh chu kỳ cụ thể. Màu phụng vụ là xanh lá cây, biểu tượng cho niềm hy vọng và hành trình không ngừng của Hội Thánh. Các tín hữu được khuyến khích hòa nhập đức tin vào công việc và các tương tác hằng ngày, tìm kiếm sự thánh thiện trong những điều bình thường.",
+    "confidence_note_vi": "Ngày 14/06/2027 được xác nhận là ngày thường trong Mùa Thường niên theo Lịch Rôma tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thánh thiện trong đời thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những sinh hoạt hằng ngày và dâng lên công việc bình thường của con như một lời cầu nguyện."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần V Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, được cử hành với áo lễ màu xanh. Không có lễ trọng hay lễ kính phổ quát nào trong Lịch Rôma Chung vào ngày này. Trọng tâm phụng vụ vẫn là sự tiến triển liên tục qua các bài đọc Kinh Thánh dành cho chu kỳ các ngày trong tuần.",
+    "body_vi": "Là một Thứ Ba trong Mùa Thường Niên, Hội Thánh mời gọi các tín hữu suy ngẫm về các bài đọc Tin Mừng nhấn mạnh đến sự hoán cải hàng ngày và giáo huấn của Chúa Kitô, mà không bị gián đoạn bởi một lễ nghi có cấp bậc cao hơn. Màu xanh tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của đời sống Kitô hữu. Về mặt phụng vụ, đây là thời gian của sự thánh hóa thầm lặng, nhắc nhở các tín hữu rằng sự thánh thiện được tìm thấy trong nhịp điệu bình thường của cuộc sống cũng như trong các lễ hội lớn của đức tin.",
+    "confidence_note_vi": "Được xác nhận là ngày thường trong Mùa Thường Niên theo cấu trúc Lịch Rôma Chung hiện hành cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sự Trung Tín Trong Điều Bình Thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn để tìm thấy Chúa trong những khoảnh khắc tĩnh lặng của ngày sống và lớn lên vững chắc trong tình yêu của Ngài."
+  }
+}

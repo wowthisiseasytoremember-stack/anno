@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần IV Mùa Phục Sinh",
+    "summary_vi": "Phụng vụ Tuần IV Mùa Phục Sinh tiếp tục suy niệm về đời sống của Giáo Hội sơ khai được mô tả trong Sách Công Vụ Tông Đồ. Vào thứ Năm này, trọng tâm thường là sự lan truyền của Tin Mừng và lòng can đảm của các môn đệ, đặc biệt là Thánh Philipphê hoặc các biến cố ở Samaria và Damascus tùy theo chu kỳ bài đọc cụ thể. Mùa Phục Sinh nhấn mạnh niềm vui của sự Phục Sinh và sứ mạng của Giáo Hội. Đây là ngày thường trong Mùa Phục Sinh, không phải là lễ kính một vị thánh cụ thể, mặc dù các thánh vẫn được tưởng nhớ.",
+    "body_vi": "Trong Tuần IV Mùa Phục Sinh, Giáo Hội suy niệm về nhiệt huyết truyền giáo của các Kitô hữu tiên khởi. Các bài đọc thường trích từ Sách Công Vụ Tông Đồ, làm nổi bật cách Chúa Thánh Thần hướng dẫn sự mở rộng của Giáo Hội. Màu xanh lá cây chỉ ra các yếu tố thường lệ trong mùa này, nhưng giọng điệu vẫn vui tươi và Alleluia, nhắc nhở các tín hữu về ơn gọi bí tích Rửa Tội. Là một ngày thường, nó mời gọi suy tư cá nhân về việc sống mầu nhiệm Phục Sinh trong đời sống hàng ngày.",
+    "confidence_note_vi": "Ngày này là ngày thường trong Mùa Thường Niên thuộc Mùa Phục Sinh. Không có lễ lớn nào được liệt kê trong Lịch Phụng Vụ Rôma cho ngày 6 tháng 5."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sống niềm vui Phục Sinh trong sứ mạng hàng ngày của bạn.",
+    "prayer_prompt_vi": "Cầu nguyện cho lòng can đảm để chứng nhân cho Chân Lý."
+  }
+}

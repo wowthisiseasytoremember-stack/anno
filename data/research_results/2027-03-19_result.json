@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-19",
+  "date": "2027-03-19",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Solemnity of Saint Joseph, Husband of the Blessed Virgin Mary",
+    "title_vi": "Lễ Thánh Giuse, Bạn Trăm Năm Đức Maria"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Solemnity of Saint Joseph",
+    "title_vi": "Lễ Thánh Giuse",
+    "summary_en": "This feast celebrates St. Joseph, the foster father of Jesus and husband of Mary. It emphasizes his role as the protector of the Holy Family and his obedience to God's will. The day encourages reflection on humility, silence, and faithful service in the domestic church.",
+    "summary_vi": "Lễ này kính nhớ Thánh Giuse, cha nuôi của Chúa Giêsu và bạn trăm năm của Đức Maria. Lễ nhấn mạnh vai trò của Ngài là Đấng bảo vệ Gia đình Thánh và sự vâng phục Ý Chúa. Ngày lễ mời gọi suy niệm về đức khiêm nhường, sự thinh lặng và lòng trung tín phục vụ trong Giáo hội tại gia.",
+    "body_en": "St. Joseph, a descendant of David, is venerated for his profound faith and silent adherence to God's plan. As the head of the Holy Family, he taught Jesus by example the virtue of labor and piety. The Church honors him as Patron of the Universal Church and a model for fathers and all workers.",
+    "body_vi": "Thánh Giuse, thuộc dòng dõi Đavít, được tôn kính vì đức tin sâu xa và sự vâng phục thinh lặng đối với kế hoạch của Thiên Chúa. Là chủ gia đình Thánh, Ngài đã dạy Chúa Giêsu bằng gương mẫu về đức lao động và đạo hạnh. Giáo hội tôn vinh Ngài là Bổn mạng Giáo hội Hoàn vũ và là mẫu gương cho các người cha cùng mọi người lao động.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The Solemnity of St. Joseph is a fixed date in the General Roman Calendar.",
+    "confidence_note_vi": "Lễ Thánh Giuse là ngày cố định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Silent Guardian, Obedient Servant",
+    "hero_line_vi": "Đấng Bảo Vệ Thinh Lặng, Tôi Trung Vâng Phục",
+    "prayer_prompt_en": "Ask for St. Joseph's intercession for your family and work.",
+    "prayer_prompt_vi": "Xin sự chuyển cầu của Thánh Giuse cho gia đình và công việc của bạn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/031927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=28",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-06",
+    "hebrew": "10 Adar II 5787",
+    "islamic_umm_al_qura": "10 Shawwal 1448 AH",
+    "coptic": "10 Baramhat 1743",
+    "ethiopian": "10 Baramhat 1743"
+  }
+}

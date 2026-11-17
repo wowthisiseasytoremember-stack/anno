@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Trọng Thánh Tâm Chúa Giêsu"
+  },
+  "primary": {
+    "title_vi": "Thánh Tâm Chúa Giêsu",
+    "summary_vi": "Lễ Trọng Thánh Tâm Chúa Giêsu là một ngày lễ bậc cao trong Giáo hội Công giáo, được cử hành vào thứ Sáu sau Tuần Bát nhật Lễ Mình Máu Thánh Chúa. Lễ này tập trung vào ngôi vị của Chúa Giêsu, tình yêu thương mà Ngài dành cho nhân loại, và biểu tượng trái tim thể lý của Ngài. Lòng đạo đức này nhấn mạnh tình yêu vô hạn của Chúa Kitô dành cho con người, được mặc khải qua nhân tính và cuộc thương khó của Ngài.",
+    "body_vi": "Lễ Trọng Thánh Tâm Chúa Giêsu mời gọi các tín hữu suy niệm tình yêu vô biên của Chúa Kitô. Đây là ngày dành riêng để tôn kính trái tim thể lý của Chúa Giêsu như là biểu tượng tự nhiên cho ba chiều kích tình yêu của Ngài: tình yêu thần linh với tư cách là Ngôi Hai Thiên Chúa, tình yêu nhân loại với tư cách là Ngôi Lời nhập thể, và tình yêu cảm xúc được trải nghiệm trong sứ vụ dương thế. Các bài đọc phụng vụ, đặc biệt là từ Tin Mừng Gioan về việc cạnh sườn Chúa Giêsu bị đâm thâu, làm nổi bật sự tuôn trào ân sủng và chân lý từ trái tim rộng mở của Ngài.",
+    "confidence_note_vi": "Ngày và bậc lễ được quy định rõ ràng theo các quy tắc của Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy ngắm nhìn Trái Tim đã yêu thương chúng ta và đổ máu ra cho phần rỗi của chúng ta.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu hiền lành và khiêm nhường trong lòng, xin hãy làm cho lòng chúng con nên giống lòng Chúa."
+  }
+}

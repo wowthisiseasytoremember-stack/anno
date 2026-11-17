@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-12",
+  "date": "2027-05-12",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Seventh Week of the Year",
+    "title_vi": "Thứ Tư tuần VII mùa Thường niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Seventh Week in Ordinary Time",
+    "title_vi": "Thứ Tư tuần VII mùa Thường niên",
+    "summary_en": "This Wednesday falls within the Seventh Week of Ordinary Time, as determined by the liturgical calendar for the year 2027. The season continues the progression through the temporal cycle, emphasizing the growth and sanctification of the faithful. No specific major feast day or solemnity is designated for this date in the General Roman Calendar.",
+    "summary_vi": "Thứ Tư này nằm trong tuần VII mùa Thường niên, theo lịch phụng vụ năm 2027. Mùa phụng vụ tiếp tục tiến trình trong chu kỳ thời gian, nhấn mạnh sự tăng trưởng và thánh hóa của các tín hữu. Không có ngày lễ trọng hay lễ kính đặc biệt nào được quy định cho ngày này trong Lịch phụng vụ Rôma.",
+    "body_en": "During the Seventh Week of Ordinary Time, the Church invites the faithful to reflect on the teachings of Christ and their application in daily life. The readings and liturgical texts for this Wednesday focus on themes of faith, obedience, and the Kingdom of God. Priests and laypeople are encouraged to use this time for spiritual renewal, guided by the green liturgical color which symbolizes hope and life. The absence of a higher-ranking feast underscores the ordinary rhythm of the liturgical year, where holiness is found in fidelity to daily duties and prayer.",
+    "body_vi": "Trong tuần VII mùa Thường niên, Giáo hội mời gọi các tín hữu suy gẫm lời giáo huấn của Đức Kitô và việc áp dụng những giáo huấn này vào cuộc sống hằng ngày. Các bài đọc và lời nguyện phụng vụ của Thứ Tư này tập trung vào các chủ đề đức tin, vâng phục và Nước Thiên Chúa. Các linh mục và giáo dân được khuyến khích dùng thời gian này để đổi mới đời sống thiêng liêng, dưới màu phụng vụ xanh tượng trưng cho niềm hy vọng và sự sống. Việc không có lễ trọng nào cao hơn nhấn mạnh nhịp điệu thường nhật của năm phụng vụ, nơi sự thánh thiện được tìm thấy trong sự trung thành với bổn phận và cầu nguyện hằng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date calculation based on the General Roman Calendar cycle for 2027.",
+    "confidence_note_vi": "Tính toán ngày dựa trên chu kỳ Lịch phụng vụ Rôma năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Hope in the Lord",
+    "hero_line_vi": "Hy vọng nơi Chúa",
+    "prayer_prompt_en": "Grant me the grace to walk faithfully in your light today, Lord.",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để bước đi trung tín trong ánh sáng của Ngài hôm nay, lạy Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/051227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Calendar",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-29",
+    "hebrew": "5 Iyar 5787",
+    "islamic_umm_al_qura": "5 Dhu al-Hijjah 1448 AH",
+    "coptic": "4 Bashans 1743",
+    "ethiopian": "4 Bashans 1743"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần Ba Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần Ba Mùa Phục Sinh",
+    "summary_vi": "Ngày này là một ngày trong tuần của Tuần Ba Mùa Phục Sinh. Trọng tâm phụng vụ vẫn là mầu nhiệm Phục Sinh và sứ mạng của Giáo Hội. Màu sắc là trắng, tượng trưng cho niềm vui của Chúa Kitô Phục Sinh.",
+    "body_vi": "Các bài đọc của Thứ Sáu Tuần Ba Mùa Phục Sinh thường tập trung vào sự phát triển của Giáo Hội sơ khai và lời chứng tiếp tục của các Tông Đồ. Là một ngày trong tuần, ngày này chia sẻ sự trang trọng của Chúa Nhật nhưng không có một vị thánh cụ thể nào vượt lên trên bối cảnh Vượt Qua. Đời sống cầu nguyện của Giáo Hội tiếp tục suy tư về những lần hiện ra sau Phục Sinh và việc các môn đệ được sai đi.",
+    "confidence_note_vi": "Lịch phụng vụ tiêu chuẩn cho các ngày trong tuần Mùa Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Ánh Sáng Phục Sinh",
+    "prayer_prompt_vi": "Hãy xin ơn can đảm để làm chứng cho Chúa Kitô Phục Sinh trong cuộc sống hàng ngày của bạn."
+  }
+}

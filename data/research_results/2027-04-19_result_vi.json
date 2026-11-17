@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần III Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần III Mùa Thường Niên",
+    "summary_vi": "Vào ngày Thứ Hai trong Mùa Thường Niên này, Hội Thánh suy tư về những lời giáo huấn của Chúa Kitô và lời mời gọi làm môn đệ hằng ngày. Phụng vụ tập trung vào sự tăng trưởng dần dần của đức tin qua cầu nguyện nhất quán và tuân giữ Lời Chúa. Ngày lễ này mời gọi các tín hữu tích hợp những chân lý tâm linh vào cuộc sống hàng ngày.",
+    "body_vi": "Các bài đọc cho Thứ Hai Tuần III Mùa Thường Niên thường nhấn mạnh tầm quan trọng của việc lắng nghe Lời Chúa và đáp lại với sự khiêm tốn. Dù tập trung vào Tin Mừng Maccô hay các đoạn văn Cựu Ước liên quan, chủ đề vẫn nhất quán: đức tin không chỉ là sự tiếp nhận thụ động mà là sự tham gia tích cực vào đời sống của Chúa Kitô. Màu xanh lá cây của y phục phụng vụ tượng trưng cho niềm hy vọng và sự phát triển vững chắc của Hội Thánh.",
+    "confidence_note_vi": "Đây là ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Phụng Vụ Rôma Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong đức tin qua lòng đạo đức hàng ngày.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe Lời Chúa và sống trung thành hôm nay."
+  }
+}

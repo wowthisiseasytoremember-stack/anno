@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần VI Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần VI Thường Niên",
+    "summary_vi": "Ngày 21 tháng 5 năm 2027 rơi vào Thứ Sáu của Tuần VI Mùa Thường Niên. Màu phụng vụ là xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng trong đời sống Kitô hữu. Không có lễ trọng hay lễ kính nào thay thế việc cử hành ngày thường trong Lịch Phụng vụ Rôma vào ngày này. Trọng tâm là sự tiến triển vững chắc của đức tin và tuân thủ các bài đọc phụng vụ hàng ngày.",
+    "body_vi": "Tuần VI Mùa Thường Niên là thời gian dành cho việc suy gẫm về lời giảng dạy của Chúa Giêsu và Hội Thánh sơ khai được trình bày trong các bài đọc Sách Bài Đọc hàng tuần. Vào Thứ Sáu này, cộng đoàn được mời gọi hòa nhập những hiểu biết tâm linh của cả tuần vào các hành động bác ái và công bằng thực tiễn. Phụng vụ nhấn mạnh sự khiêm nhường và phục vụ, rút ra từ các đoạn Tin Mừng được chỉ định trong ngày, thường nêu bật bổn phận phục vụ Thiên Chúa và tha nhân mà không tìm kiếm lời khen ngợi.",
+    "confidence_note_vi": "Theo Lịch Phụng vụ Rôma chung, ngày 21 tháng 5 là ngày thường trong Mùa Thường Niên trừ khi trùng với lễ bổn mạng quốc gia hay địa phương cụ thể, nhưng lịch chung liệt kê đây là ngày thường (feria)."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Ơn Sủng: Sức mạnh thầm lặng của Đức Tin Thường Nhật",
+    "prayer_prompt_vi": "Hãy cầu xin ơn được nhìn thấy Chúa trong những công việc bình thường của ngày sống và phục vụ người khác với lòng khiêm nhường chân thành."
+  }
+}

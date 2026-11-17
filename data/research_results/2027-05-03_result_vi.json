@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Philipphê và Thánh Giacôbê, Tông Đồ"
+  },
+  "primary": {
+    "title_vi": "Thánh Philipphê và Thánh Giacôbê, Tông Đồ",
+    "summary_vi": "Vào ngày 3 tháng 5, Hội Thánh cử hành lễ kính Thánh Philipphê và Thánh Giacôbê, Tông Đồ. Philipphê là một trong những môn đệ đầu tiên được Chúa Giêsu kêu gọi và được nhớ đến vì đã xin được thấy Chúa Cha. Giacôbê, thường được cho là Giacôbê Con, là bà con với Chúa Giêsu và là người lãnh đạo đầu tiên của Hội Thánh tại Giêrusalem.",
+    "body_vi": "Việc cử hành chung hai tông đồ này làm nổi bật những vai trò khác biệt của các ngài trong cộng đoàn Kitô hữu sơ khai. Philipphê đại diện cho người tìm kiếm mong muốn gặp gỡ trực tiếp với Thiên Chúa, dẫn đến việc mặc khải Chúa Giêsu là hình ảnh của Chúa Cha. Giacôbê, nổi tiếng với sự công chính và đời sống khổ hạnh, đã trở thành một cột trụ của cộng đoàn Giêrusalem và là tác giả của một thư nhấn mạnh đức tin đi đôi với việc làm. Cùng nhau, các ngài minh họa những phản hồi khác nhau đối với lời mời gọi của Đức Kitô: một đàng là thông qua việc chất vấn và khám phá, đàng khác là qua sự lãnh đạo kiên định và truyền thống. Lễ kính của các ngài là lời nhắc nhở về những nền tảng đa dạng mà Hội Thánh được xây dựng trên đó.",
+    "confidence_note_vi": "Ngày cố định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Xin Thầy chỉ cho chúng con thấy Chúa Cha, và như thế là đủ cho chúng con.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con lòng can đảm để tìm kiếm Chúa và sự khôn ngoan để vâng phục Chúa."
+  }
+}

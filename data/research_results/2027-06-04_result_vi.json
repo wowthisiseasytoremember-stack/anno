@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần IX Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần IX Thường Niên",
+    "summary_vi": "Ngày này rơi vào thời kỳ Thường Niên, cụ thể là Thứ Sáu tuần IX. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của các tín hữu trong hành trình hằng ngày với Đức Kitô. Không có lễ kính thánh tử đạo nào chiếm ưu thế, cho phép tập trung vào chu kỳ cầu nguyện hằng ngày và các bài đọc của ngày.",
+    "body_vi": "Trong Lịch Phụng vụ Roma Tổng quát, ngày này được xác định là ngày trong tuần của Mùa Thường Niên. Trọng tâm phụng vụ là sự liên tục của đời sống Kitô hữu trong mùa không thuộc các chu kỳ chính yếu của Mùa Vọng và Mùa Chay hay Mùa Phục Sinh. Các bài đọc, thường là từ sách bài đọc ngày thường, hướng dẫn các tín hữu qua các giáo huấn của Đức Kitô và các Tông đồ.",
+    "confidence_note_vi": "Ngày trong tuần chuẩn của Mùa Thường Niên; không có lễ trọng phổ quát hay lễ kính bắt buộc nào chiếm ưu thế."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi trong màu xanh của hy vọng suốt Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con ân sủng để lắng nghe Lời Chúa hôm nay."
+  }
+}

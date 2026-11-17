@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-25",
+  "date": "2027-06-25",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần Thường Niên",
+    "summary_en": "This Friday falls in Ordinary Time, a season of growth and faithfulness for the Catholic Church. The liturgical color is green, symbolizing hope and the journey of faith. As a weekday (feria), it does not celebrate a major saint or feast unless otherwise specified in local calendars, focusing instead on the everyday sanctification of daily life.",
+    "summary_vi": "Thứ Sáu này thuộc Mùa Thường Niên, thời kỳ tăng trưởng và trung tín của Giáo hội Công giáo. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và hành trình đức tin. Vì là ngày thường (feria), nên không kỷ niệm một vị thánh hay lễ trọng lớn nào trừ khi được quy định khác trong lịch phụng vụ địa phương, mà tập trung vào việc thánh hóa đời sống hằng ngày.",
+    "body_en": "In the General Roman Calendar, June 25, 2027, is a Friday during Ordinary Time. The readings for the day focus on the teachings of Jesus regarding the Kingdom of God and the necessity of humility and service. The Church calls the faithful to prayer, fasting, and almsgiving in the quiet of the ordinary days, reminding them that holiness is found in faithful daily duties.",
+    "body_vi": "Trong Lịch Rôma chung, ngày 25 tháng 6 năm 2027 là một Thứ Sáu trong Mùa Thường Niên. Các bài đọc trong ngày tập trung vào giáo huấn của Chúa Giêsu về Nước Trời và sự cần thiết của khiêm tốn và phục vụ. Giáo hội kêu gọi các tín hữu cầu nguyện, ăn chay và bố thí trong sự tĩnh lặng của những ngày thường, nhắc nhở họ rằng sự thánh thiện được tìm thấy trong những bổn phận hằng ngày một cách trung tín.",
+    "confidence": "confirmed",
+    "confidence_note_en": "June 25 is a standard feria in Ordinary Time in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày 25 tháng 6 là một ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Rôma chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Find holiness in the ordinary",
+    "hero_line_vi": "Tìm thấy sự thánh thiện trong những điều bình thường",
+    "prayer_prompt_en": "Lord, grant me the grace to serve You faithfully in the mundane moments of today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban ơn cho con để phục vụ Chúa trung tín trong những khoảnh khắc bình thường của ngày hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/062527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/08606a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-12",
+    "hebrew": "20 Sivan 5787",
+    "islamic_umm_al_qura": "20 Muharram 1449 AH",
+    "coptic": "18 Paona 1743",
+    "ethiopian": "18 Paona 1743"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần V Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Ngày Thường Nhật Trong Mùa Phục Sinh",
+    "summary_vi": "Thứ Tư này thuộc Tuần V của Mùa Phục Sinh. Trọng tâm phụng vụ là chứng tá sống động của các Tông Đồ và sự tăng trưởng của Giáo Hội sơ khai được ghi chép trong sách Công Vụ Tông Đồ. Không có thánh lễ kính các thánh nào bắt buộc trong Ngày này theo Lịch Chung Roma.",
+    "body_vi": "Các bài đọc trong ngày này thường phản ánh các cuộc truyền giáo của các Tông Đồ, nhấn mạnh lời mời gọi phổ quát đến ơn cứu độ. Các tín hữu được mời gọi suy niệm về vai trò của Chúa Thánh Thần trong việc hướng dẫn Giáo Hội mở rộng ra ngoài Israel. Vì là ngày thường, nên nó giữ lại các văn bản riêng của Mùa Phục Sinh thay vì giới thiệu các yếu tố chủ đề mới.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường trong Mùa Phục Sinh, không có lễ kính thánh nào xung đột trong lịch chung vào ngày 5 tháng 5 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Thần Khí, làm chứng cho sự Phục Sinh.",
+    "prayer_prompt_vi": "Cầu xin Chúa Thánh Thần làm sâu sắc sự hiểu biết của bạn về chứng tá Tông Đồ hôm nay."
+  }
+}

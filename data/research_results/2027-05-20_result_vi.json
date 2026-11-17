@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần V Mùa Thường Niên",
+    "summary_vi": "Trong ngày Thứ Năm tuần V Mùa Thường Niên, Giáo hội mời gọi các tín hữu duy trì lời chứng vững vàng và giản dị trong đời sống hằng ngày. Không có lễ trọng hay lễ kính đặc biệt nào được ghi nhận trong Lịch Rôma Tổng Quát cho ngày này. Trọng tâm vẫn là sự tăng trưởng của Nước Trời qua những hành vi bác ái và cầu nguyện thường nhật.",
+    "body_vi": "Ngày này thuộc Mùa Thường Niên kéo dài, trong đó phụng vụ sử dụng màu xanh lá cây để tượng trưng cho niềm hy vọng và sự tăng trưởng. Các bài đọc dành cho ngày Thứ Năm tuần V, theo chu kỳ hai năm, mang đến một cửa sổ đặc biệt để nhìn vào Kinh Thánh mà không bị gián đoạn bởi các lễ lớn. Nhiệm vụ chính yếu của ngày này là sự thánh hóa bản thân giữa những thói quen thường ngày của thế giới.",
+    "confidence_note_vi": "Lịch Rôma Tổng Quát ghi nhận ngày này là ngày thường nếu không có lịch địa phương hay vị thánh nào được cử hành đặc biệt; không có lễ phổ quát nào gắn liền với ngày này trong chu kỳ lịch năm 2027 tiêu chuẩn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sự trung tín trong điều bình thường là con đường dẫn đến điều phi thường.",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng con ân sủng để trung thành phục vụ Ngài trong những thói quen của đời sống."
+  }
+}

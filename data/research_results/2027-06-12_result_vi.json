@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần X Mùa Thường Niên",
+    "summary_vi": "Đây là ngày trong Tuần Thường Niên. Các bài đọc tập trung vào giáo huấn của Chúa Kitô và sự tăng trưởng của Giáo hội sơ khai. Không có lễ kính thánh cụ thể nào thay thế phụng vụ ngày thường trong Lịch Phụng vụ Rôma.",
+    "body_vi": "Là một ngày trong Tuần Thường Niên, màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và hành trình đức tin đang diễn ra. Ngày này mời gọi các tín hữu suy niệm các giáo huấn Tin Mừng và áp dụng vào cuộc sống hàng ngày. Các bài vịnh và bài đọc tuân theo chu kỳ ngày thường, nhấn mạnh đến sự sám hối, đức tin và nước Thiên Chúa.",
+    "confidence_note_vi": "Dựa trên Lịch Phụng vụ Rôma cho Thứ Bảy trong Tuần Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Ánh sáng của Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con lắng nghe Lời Chúa và sống theo đó mỗi ngày."
+  }
+}

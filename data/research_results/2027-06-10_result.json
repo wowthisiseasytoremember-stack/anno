@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-10",
+  "date": "2027-06-10",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Thursday of the Ninth Week in Ordinary Time",
+    "title_vi": "Thứ Năm Tuần IX Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Ninth Week in Ordinary Time",
+    "title_vi": "Thứ Năm Tuần IX Mùa Thường Niên",
+    "summary_en": "This day is a weekday of Ordinary Time, specifically the Ninth Week. In the absence of specific saints' memorials that take precedence in the general calendar, the focus remains on the ongoing liturgical progression. The liturgical color is green, symbolizing growth and the ordinary flow of Christian life. The readings and prayers follow the weekday cycle of the Ninth Week.",
+    "summary_vi": "Ngày này là ngày trong tuần Mùa Thường Niên, cụ thể là Tuần IX. Trong trường hợp không có đài tưởng niệm các thánh nào ưu tiên trong lịch chung, trọng tâm vẫn là sự tiến triển phụng vụ đang diễn ra. Màu phụng vụ là màu xanh lục, tượng trưng cho sự tăng trưởng và dòng chảy bình thường của đời sống Kitô hữu. Các bài đọc và kinh nguyện tuân theo chu kỳ ngày trong tuần của Tuần IX.",
+    "body_en": "As a Thursday of the Ninth Week in Ordinary Time, this day invites the faithful to engage with the Scriptures and the Liturgy of the Hours in a spirit of steady conversion. There are no universal solemnities or feasts on this specific date in 2027 that would displace the weekday cycle. The Church prays for perseverance in daily duties, guided by the Holy Spirit, as the community continues its journey through the ordinary seasons of the liturgical year. The color green signifies hope and the steady growth of faith.",
+    "body_vi": "Là Thứ Năm Tuần IX Mùa Thường Niên, ngày này mời gọi các tín hữu tiếp cận Kinh Thánh và Phụng vụ Giờ Kinh với tinh thần hoán cải đều đặn. Không có thánh lễ trọng thể hay lễ kính phổ quát nào vào ngày cụ thể này của năm 2027 thay thế chu kỳ ngày trong tuần. Giáo hội cầu nguyện cho sự kiên trì trong các bổn phận hằng ngày, được dẫn dắt bởi Chúa Thánh Thần, khi cộng đoàn tiếp tục hành trình qua các mùa bình thường của năm phụng vụ. Màu xanh lục biểu thị hy vọng và sự tăng trưởng vững chắc của đức tin.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date and rank confirmed by the General Roman Calendar (1969/2002). No major universal feast on June 10, 2027.",
+    "confidence_note_vi": "Ngày và bậc lễ được xác nhận bởi Lịch Phụng Vụ Roma (1969/2002). Không có lễ lớn phổ quát nào vào ngày 10 tháng 6 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the steady grace of Ordinary Time.",
+    "hero_line_vi": "Hãy bước đi trong ân sủng bền vững của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, grant me patience in my daily duties and openness to Your word today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn trong các bổn phận hằng ngày và sự sẵn sàng đón nhận Lời Chúa hôm nay."
+  },
+  "sources": [
+    {
+      "label": "Vatican News - Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "New Advent - Catholic Saints",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-28",
+    "hebrew": "5 Sivan 5787",
+    "islamic_umm_al_qura": "5 Muharram 1449 AH",
+    "coptic": "3 Paona 1743",
+    "ethiopian": "3 Paona 1743"
+  }
+}

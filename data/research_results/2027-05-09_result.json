@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-09",
+  "date": "2027-05-09",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Sixth Sunday of Easter",
+    "title_vi": "Chúa Nhật VI Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Sixth Sunday of Easter",
+    "title_vi": "Chúa Nhật VI Mùa Phục Sinh",
+    "summary_en": "This Sunday continues the celebration of the Resurrection, focusing on the theme of remaining in Christ's love through obedience to His commandments. The readings emphasize the connection between love, obedience, and the joy that comes from living according to the Gospel. It serves as a final step before the Ascension, inviting the faithful to deepen their commitment to Christian discipleship.",
+    "summary_vi": "Chúa Nhật này tiếp tục cử hành Mầu nhiệm Phục Sinh, tập trung vào chủ đề ở lại trong tình yêu của Đức Kitô bằng việc tuân giữ các giới răn của Người. Các bài đọc nhấn mạnh mối liên hệ giữa tình yêu, sự vâng phục và niềm vui phát sinh từ đời sống theo Tin Mừng. Đây là bước chuẩn bị cuối cùng trước lễ Thăng Thiên, mời gọi các tín hữu đào sâu cam kết đối với ơn gọi môn đệ Kitô giáo.",
+    "body_en": "In the liturgical progression of Eastertide, the Sixth Sunday shifts the focus from the initial shock of the empty tomb to the sustained life of the Church. Drawing from the Johannine tradition in the Gospel, Jesus instructs His disciples that keeping His commandments is the surest way to remain in His love. This obedience is not legalistic but is born from love and leads to perfect joy. The Church prays for the grace to understand that true freedom is found in this loving submission to Christ, which transforms believers into friends of God rather than servants.",
+    "body_vi": "Trong tiến trình phụng vụ Mùa Phục Sinh, Chúa Nhật VI chuyển trọng tâm từ sự chấn thương ban đầu trước ngôi mộ trống sang đời sống bền vững của Hội Thánh. Kế thừa truyền thống Gioan trong Tin Mừng, Chúa Giêsu chỉ dạy các môn đệ rằng tuân giữ các giới răn của Người là cách chắc chắn nhất để ở lại trong tình yêu của Người. Sự vâng phục này không phải là hình thức pháp lý mà xuất phát từ tình yêu và dẫn đến niềm vui trọn vẹn. Hội Thánh cầu xin ơn hiểu rằng sự tự do đích thực được tìm thấy trong sự tuân phục đầy tình yêu này đối với Đức Kitô, điều biến đổi các tín hữu trở thành bạn hữu của Thiên Chúa chứ không phải là tôi tớ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Fixed date in the General Roman Calendar for a Sunday falling on May 9, 2027.",
+    "confidence_note_vi": "Ngày cố định trong Lịch Phụng vụ Rôma cho Chúa Nhật rơi vào ngày 9 tháng 5 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Remain in my love: the path to perfect joy.",
+    "hero_line_vi": "Hãy ở lại trong tình yêu của Thầy: con đường dẫn đến niềm vui trọn vẹn.",
+    "prayer_prompt_en": "Lord, help me to keep your commandments not out of duty, but out of love, so that my joy may be complete.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tuân giữ giới răn của Chúa không phải vì bổn phận, nhưng vì tình yêu, để niềm vui của con được trọn vẹn."
+  },
+  "sources": [
+    {
+      "label": "New Advent - Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB - Daily Readings",
+      "url": "https://bible.usccb.org/daily/bible-reading",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-26",
+    "hebrew": "2 Iyar 5787",
+    "islamic_umm_al_qura": "2 Dhu al-Hijjah 1448 AH",
+    "coptic": "1 Bashans 1743",
+    "ethiopian": "1 Bashans 1743"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật III Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật III Phục Sinh",
+    "summary_vi": "Chúa Nhật III Phục Sinh là ngày cao điểm của Mùa Phục Sinh. Các bài đọc và lời cầu nguyện tập trung vào Đức Kitô Phục Sinh và lời chứng của các tông đồ, đặc biệt là những lần Đức Giêsu hiện ra với các môn đệ và vai trò của các tông đồ trong việc làm chứng cho sự Phục Sinh.",
+    "body_vi": "Vào Chúa Nhật III Phục Sinh, Giáo Hội tiếp tục cử hành mầu nhiệm Chúa Phục Sinh. Ngày này mời gọi các tín hữu đào sâu đức tin qua lời chứng của các tông đồ. Trong các bài Tin Mừng, đặc biệt là Năm C, trọng tâm thường là việc Đức Giêsu hiện ra với các môn đệ bên hồ Tibêria, củng cố thực tại sự hiện diện của Chúa Phục Sinh giữa dân Người.",
+    "confidence_note_vi": "Chúa Nhật III Phục Sinh là ngày cố định trong lịch phụng vụ và không phải là ngày lễ của một vị thánh. Nó là một ngày lễ có giá trị riêng trong Mùa Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chứng nhân của Chúa Phục Sinh",
+    "prayer_prompt_vi": "Xin cho chúng ta, như các tông đồ, nhận biết và làm chứng cho sự hiện diện của Đức Kitô Phục Sinh trong cuộc đời mình."
+  }
+}

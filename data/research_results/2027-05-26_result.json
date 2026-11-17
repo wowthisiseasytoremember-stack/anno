@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-26",
+  "date": "2027-05-26",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Week 6 in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần VI Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Week 6 in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần VI Thường Niên",
+    "summary_en": "This day is celebrated as a weekday (feria) in Ordinary Time, specifically in Week 6. The liturgical color is green, symbolizing hope and growth in faith. There are no obligatory memorials that supersede this day in the General Roman Calendar for 2027.",
+    "summary_vi": "Ngày này được cử hành như một ngày thường (feria) trong Mùa Thường Niên, cụ thể là Tuần VI. Màu phụng vụ là màu xanh lục, tượng trưng cho hy vọng và sự tăng trưởng trong đức tin. Không có lễ tưởng nhớ bắt buộc nào thay thế ngày này trong Lịch Rôma Chung năm 2027.",
+    "body_en": "The readings for this day typically focus on the ongoing life of the Church and the moral teachings of the Gospel of Mark, chapter 8, or similar pericopes depending on the specific lectionary cycle in effect for Year 2027. The faithful are invited to reflect on their daily walk with Christ.",
+    "body_vi": "Các bài đọc trong ngày này thường tập trung vào đời sống liên tục của Giáo hội và những giáo huấn đạo đức từ Tin Mừng theo thánh Máccô, chương 8, hoặc các đoạn sách tương tự tùy thuộc vào chu kỳ sách Bài đọc hiệu lực cho năm 2027. Các tín hữu được mời gọi suy gẫm về cuộc đồng hành hàng ngày với Đức Kitô.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Deterministic calculation based on the General Roman Calendar.",
+    "confidence_note_vi": "Tính toán xác định dựa trên Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Hope during Ordinary Time",
+    "hero_line_vi": "Bước đi trong Hy vọng giữa Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, grant us the humility to follow You in the ordinary moments of our lives.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khiêm nhường để bước theo Chúa trong những khoảnh khắc thường nhật của đời sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/052627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Online - 2027 Calendar",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-13",
+    "hebrew": "19 Iyar 5787",
+    "islamic_umm_al_qura": "19 Dhu al-Hijjah 1448 AH",
+    "coptic": "18 Bashans 1743",
+    "ethiopian": "18 Bashans 1743"
+  }
+}

@@ -1,15 +1,15 @@
 {
   "liturgical": {
-    "title_vi": ""
+    "title_vi": "Thứ Bảy Tuần V Mùa Thường Niên"
   },
   "primary": {
-    "title_vi": "",
-    "summary_vi": "",
-    "body_vi": "",
-    "confidence_note_vi": ""
+    "title_vi": "Thứ Bảy Tuần V Mùa Thường Niên",
+    "summary_vi": "Ngày này thuộc Mùa Thường Niên, cụ thể là Tuần V. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng. Không có lễ kính thánh nào bắt buộc vào ngày này theo Lịch phụng vụ Roma, do đó trọng tâm vẫn là các bài đọc trong tuần và chu kỳ chung của Mùa Thường Niên.",
+    "body_vi": "Thứ Bảy Tuần V Mùa Thường Niên là một ngày tuân giữ tĩnh lặng, tuân theo các Thánh lễ ngày thường nơi các bài đọc được xác định bởi chu kỳ ngày Chủ nhật. Giáo hội mời gọi các tín hữu suy niệm về những lời giảng dạy trong Tin Mừng đã được công bố trước đó trong tuần, thường tập trung vào các phép lạ hoặc lời dạy của Chúa Giêsu được ghi nhận trong Tin Mừng Máccô hoặc Matthêu tùy thuộc vào chu kỳ năm phụng vụ cụ thể. Không có vị thánh cụ thể nào được tưởng niệm bằng một lễ kính phổ quát, cho phép trọng tâm vẫn còn trên hành trình đức tin tiến triển qua các mùa bình thường của năm Giáo hội.",
+    "confidence_note_vi": "Ngày này rõ ràng thuộc Mùa Thường Niên trong Lịch phụng vụ Roma."
   },
   "app_hooks": {
-    "hero_line_vi": "",
-    "prayer_prompt_vi": ""
+    "hero_line_vi": "Bước đi trong Đức Tin giữa Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong nhân đức và đức tin giữa những ngày thường này, giữ cho tâm hồn chúng con hướng về những lời hứa vĩnh cửu của Chúa."
   }
 }

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần X Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần X Thường Niên",
+    "summary_vi": "Ngày này là ngày trong tuần (ngày thường) trong Mùa Thường Niên, cụ thể là tuần thứ X. Không có lễ nhớ bắt buộc nào trong Lịch chung Rôma vào ngày này. Màu phụng vụ là màu xanh lục, tượng trưng cho thời kỳ tăng trưởng và đời sống chung của Hội Thánh.",
+    "body_vi": "Giáo hội cử hành Thứ Hai này trong Mùa Thường Niên với các bài đọc tập trung vào sự tăng trưởng liên lỉ của các tín hữu. Mặc dù các lịch địa phương có thể có các lễ bổn mạng riêng, nhưng việc cử hành phổ quát vẫn đơn giản. Trọng tâm là việc thánh hóa công việc và cầu nguyện hằng ngày.",
+    "confidence_note_vi": "Ngày thường chuẩn trong Mùa Thường Niên theo Lịch chung Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong Đức Tin",
+    "prayer_prompt_vi": "Xin cho chúng con lớn lên trong tình yêu và chân lý khi thực thi bổn phận hằng ngày."
+  }
+}

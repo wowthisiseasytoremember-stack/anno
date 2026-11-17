@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-23",
+  "date": "2027-03-23",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay",
+    "summary_en": "This day is a weekday of the Fourth Week of Lent. The liturgical color is violet, reflecting the penitential nature of the season. There are no mandatory solemnities or feasts assigned to this specific date in the General Roman Calendar.",
+    "summary_vi": "Ngày này là ngày thường tuần IV Mùa Chay. Màu phụng vụ là tím, phản ánh tính chất sám hối của mùa này. Không có lễ trọng hay lễ kính nào bắt buộc được ấn định cho ngày này trong Lịch Phụng vụ Rôma.",
+    "body_en": "The liturgical focus remains on the conversion of hearts and the preparation for Easter through prayer, fasting, and almsgiving. The readings and prayers for the day emphasize faith and the gradual unfolding of Christ's divine mission.",
+    "body_vi": "Trọng tâm phụng vụ vẫn là sự hoán cải tâm hồn và việc chuẩn bị cho lễ Vượt Qua qua kinh nguyện, ăn chay và bố thí. Các bài đọc và lời nguyện trong ngày nhấn mạnh vào đức tin và sự mặc khải dần dần về sứ vụ thần linh của Đức Kitô.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date falls on a Tuesday in the Fourth Week of Lent.",
+    "confidence_note_vi": "Ngày rơi vào Thứ Ba tuần IV Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faithful in the Desert",
+    "hero_line_vi": "Trung Thành Trong Hoang Địa",
+    "prayer_prompt_en": "Grant us the strength to walk the path of conversion.",
+    "prayer_prompt_vi": "Xin ban cho chúng con sức mạnh để bước đi trên con đường hoán cải."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-10",
+    "hebrew": "14 Adar II 5787",
+    "islamic_umm_al_qura": "14 Shawwal 1448 AH",
+    "coptic": "14 Baramhat 1743",
+    "ethiopian": "14 Baramhat 1743"
+  }
+}

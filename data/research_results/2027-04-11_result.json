@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-11",
+  "date": "2027-04-11",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feast",
+    "color": "white",
+    "title_en": "Second Sunday of Easter (Divine Mercy Sunday)",
+    "title_vi": "Chúa Nhật II Mùa Phục Sinh (Lòng Chúa Thương Xót)"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Second Sunday of Easter (Divine Mercy Sunday)",
+    "title_vi": "Chúa Nhật II Mùa Phục Sinh (Lòng Chúa Thương Xót)",
+    "summary_en": "The Second Sunday of Easter is celebrated as Divine Mercy Sunday, a tradition established by Saint John Paul II. The liturgical focus is on the appearance of the Risen Christ to the disciples and the encounter with Thomas, emphasizing the themes of faith and divine mercy.",
+    "summary_vi": "Chúa Nhật II Mùa Phục Sinh được cử hành là Chúa Nhật Lòng Chúa Thương Xót, một truyền thống do Thánh Gioan Phaolô II thiết lập. Trọng tâm phụng vụ là cuộc hiện ra của Chúa Giêsu Phục Sinh với các môn đệ và cuộc gặp gỡ với Tôma, nhấn mạnh các chủ đề về đức tin và lòng thương xót của Thiên Chúa.",
+    "body_en": "The Gospel reading for this day, typically John 20:19-31, recounts the appearance of Jesus to the disciples behind locked doors and his dialogue with Thomas, who demands physical proof of the Resurrection. Jesus' offer of peace and the invitation to touch his wounds highlight the reality of the Incarnation and the depth of Divine Mercy. The liturgy invites the faithful to move from the doubts of Thomas to the profound faith expressed in his confession, 'My Lord and my God,' thereby celebrating the mercy that flows from the paschal mystery.",
+    "body_vi": "Bài Tin Mừng cho ngày này, thường là Gioan 20:19-31, kể lại cuộc hiện ra của Chúa Giêsu với các môn đệ sau cánh cửa đóng kín và cuộc đối thoại với Tôma, người đòi hỏi bằng chứng vật lý về sự Phục Sinh. Lời chúc bình an của Chúa Giêsu và lời mời chạm vào các vết thương của Ngài làm nổi bật thực tại của Mầu nhiệm Nhập Thể và chiều sâu của Lòng Thương Xót Chúa. Phụng vụ mời gọi các tín hữu đi từ sự nghi ngờ của Tôma đến đức tin sâu sắc được thể hiện qua lời tuyên xưng: 'Lạy Chúa con là Chúa và là Thiên Chúa của con', qua đó cử hành lòng thương xót tuôn tràn từ mầu nhiệm Vượt Qua.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Divine Mercy Sunday is a confirmed feast in the General Roman Calendar since 2000.",
+    "confidence_note_vi": "Chúa Nhật Lòng Chúa Thương Xót là một lễ trọng đã được xác nhận trong Lịch Rôma Chung kể từ năm 2000."
+  },
+  "app_hooks": {
+    "hero_line_en": "Blessed are they who have not seen and yet believe.",
+    "hero_line_vi": "Phúc cho những ai không thấy mà tin.",
+    "prayer_prompt_en": "Jesus, I trust in you.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, con tín thác nơi Chúa."
+  },
+  "sources": [
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/041127.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-29",
+    "hebrew": "4 Nisan 5787",
+    "islamic_umm_al_qura": "4 Dhu al-Qidah 1448 AH",
+    "coptic": "3 Baramouda 1743",
+    "ethiopian": "3 Baramouda 1743"
+  }
+}

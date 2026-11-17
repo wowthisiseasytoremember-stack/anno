@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-04",
+  "date": "2027-06-04",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Ninth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần IX Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Ninth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần IX Thường Niên",
+    "summary_en": "This day falls within the period of Ordinary Time, specifically the Friday of the Ninth Week. The liturgical color is green, symbolizing hope and the growth of the faithful in their daily walk with Christ. No specific saint's memorial has precedence, allowing for the focus to remain on the daily cycle of prayer and the readings of the day.",
+    "summary_vi": "Ngày này rơi vào thời kỳ Thường Niên, cụ thể là Thứ Sáu tuần IX. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của các tín hữu trong hành trình hằng ngày với Đức Kitô. Không có lễ kính thánh tử đạo nào chiếm ưu thế, cho phép tập trung vào chu kỳ cầu nguyện hằng ngày và các bài đọc của ngày.",
+    "body_en": "In the General Roman Calendar, this date is designated as a feria of Ordinary Time. The focus of the liturgy is on the continuity of the Christian life during the season outside of the primary cycles of Advent and Lent or Easter. The readings, typically from the weekday lectionary, guide the faithful through the teachings of Christ and the apostles.",
+    "body_vi": "Trong Lịch Phụng vụ Roma Tổng quát, ngày này được xác định là ngày trong tuần của Mùa Thường Niên. Trọng tâm phụng vụ là sự liên tục của đời sống Kitô hữu trong mùa không thuộc các chu kỳ chính yếu của Mùa Vọng và Mùa Chay hay Mùa Phục Sinh. Các bài đọc, thường là từ sách bài đọc ngày thường, hướng dẫn các tín hữu qua các giáo huấn của Đức Kitô và các Tông đồ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time; no major universal feast or obligatory memorial takes precedence.",
+    "confidence_note_vi": "Ngày trong tuần chuẩn của Mùa Thường Niên; không có lễ trọng phổ quát hay lễ kính bắt buộc nào chiếm ưu thế."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the green of hope during Ordinary Time.",
+    "hero_line_vi": "Hãy bước đi trong màu xanh của hy vọng suốt Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, grant us the grace to listen to Your Word today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con ân sủng để lắng nghe Lời Chúa hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Calendar",
+      "url": "https://www.usccb.org/calendar/daily",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/09580a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-22",
+    "hebrew": "28 Iyar 5787",
+    "islamic_umm_al_qura": "28 Dhu al-Hijjah 1448 AH",
+    "coptic": "27 Bashans 1743",
+    "ethiopian": "27 Bashans 1743"
+  }
+}

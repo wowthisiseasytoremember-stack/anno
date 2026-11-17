@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần VI Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần VI Thường Niên",
+    "summary_vi": "Ngày này rơi vào Tuần VI Mùa Thường Niên, một thời gian tăng trưởng và suy ngẫm về giáo huấn của Chúa Kitô. Trong Phụng vụ Lời Chúa, Hội Thánh thường công bố đoạn Tin Mừng theo Thánh Máccô về việc chữa lành người có bàn tay khô và cuộc tranh luận về ngày Sabbat. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng bền vững của cộng đoàn trong mùa này.",
+    "body_vi": "Là một ngày trong tuần của Mùa Thường Niên, trọng tâm phụng vụ là sự hình thành liên tục của người tín hữu qua việc công bố Thánh Kinh và cử hành Thánh Thể. Các bài đọc cho Thứ Tư cụ thể này trong Tuần VI thách đố người tín hữu đặt nhu cầu con người và lòng thương xót lên trên sự tuân thủ luật lệ cứng nhắc, như được thể hiện qua hành động của Chúa Giêsu trong ngày Sabbat. Người tín hữu được mời gọi quan sát những nhịp cầu nguyện hằng ngày, tích hợp những bài học từ Tin Mừng vào cuộc sống thường nhật, được đánh dấu bằng niềm hy vọng và sự kiên trì được tượng trưng qua phẩm phục màu xanh lá cây.",
+    "confidence_note_vi": "Ngày thường trong Mùa Thường Niên; bậc được xác định bởi Chúa Nhật trước Chúa Nhật I Mùa Chay. Không có thánh cụ thể nào được tưởng nhớ với bậc cao hơn bản thân ngày thường."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy chữa lành bàn tay khô héo của tính luật pháp bằng nước sống của lòng thương xót.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm để đặt lòng thương xót lên trên các quy tắc cứng nhắc, noi theo gương mẫu của Chúa trong việc quan tâm đến những người thiếu thốn."
+  }
+}

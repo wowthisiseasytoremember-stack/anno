@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần VI Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần VI Mùa Thường Niên",
+    "summary_vi": "Ngày này thuộc Mùa Thường Niên, cụ thể là tuần thứ sáu. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của Giáo Hội. Không có lễ trọng hay lễ kính lớn nào xen vào chu kỳ tuần trong Lịch Phụng vụ Rôma tổng quát vào ngày cụ thể này.",
+    "body_vi": "Trong ngày Thứ Sáu này, Giáo Hội mời gọi các tín hữu tiếp tục hành trình đức tin qua việc cử hành phụng vụ Lời Chúa một cách đều đặn. Các bài đọc thường tập trung vào các chủ đề về đời sống Kitô hữu, sự kiên nhẫn, và việc áp dụng những lời dạy của Tin Mừng vào cuộc sống hàng ngày. Là một ngày trong tuần (feria), trọng tâm vẫn là mầu nhiệm liên tục về đời sống của Chúa Kitô và sứ mạng của Giáo Hội trong thế giới.",
+    "confidence_note_vi": "Ngày này là một ngày thường tiêu chuẩn trong Mùa Thường Niên và không có lễ nào xung đột trong lịch phụng vụ toàn cầu."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Vững Tin, Tăng Trưởng Trong Ân Sủng",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con sống đức tin cách hữu hình trong những khoảnh khắc bình thường của ngày hôm nay."
+  }
+}

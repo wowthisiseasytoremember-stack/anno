@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay",
+    "summary_vi": "Ngày này thuộc Mùa Chay, cụ thể là Tuần thứ IV. Phụng vụ nhấn mạnh việc hoán cải, sám hối và chuẩn bị cho Mầu nhiệm Vượt Qua qua cầu nguyện, ăn chay và bố thí. Không có ngày kính nhớ bắt buộc nào của các thánh thay thế cho ngày thường Mùa Chay trong Lịch Rôma Chung.",
+    "body_vi": "Vào các ngày Thứ Ba Mùa Chay, Giáo hội mời gọi các tín hữu đi sâu vào việc hoán cải nội tâm và suy niệm về hành trình của Chúa Giêsu tiến về Jerusalem. Các bài đọc cho tuần và ngày cụ thể này thường tập trung vào lòng tin tưởng vào quan phòng của Thiên Chúa và việc loại bỏ sự thờ phượng hời hợt. Màu phụng vụ là tím, tượng trưng cho sự sám hối và phẩm giá vương giả.",
+    "confidence_note_vi": "Ngày 02-03-2027 rơi rõ ràng vào Mùa Chay trước lễ Phục Sinh. Trong Lịch Rôma Chung, các ngày thường Mùa Chay (feria) ưu tiên hơn các ngày kính nhớ chung trừ khi có lễ kính của một vị thánh cụ thể được chuyển dời hoặc cho phép. Không có lễ trọng hay lễ kính lớn phổ quát nào vào thứ Ba cụ thể này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi nhẹ nhàng trong bóng Thập Giá.",
+    "prayer_prompt_vi": "Lạy Chúa, xin đào sâu sự hoán cải của con trong Mùa Chay này."
+  }
+}

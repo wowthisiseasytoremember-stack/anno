@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần Thường Niên",
+    "summary_vi": "Thứ Sáu này thuộc Mùa Thường Niên, thời kỳ tăng trưởng và trung tín của Giáo hội Công giáo. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và hành trình đức tin. Vì là ngày thường (feria), nên không kỷ niệm một vị thánh hay lễ trọng lớn nào trừ khi được quy định khác trong lịch phụng vụ địa phương, mà tập trung vào việc thánh hóa đời sống hằng ngày.",
+    "body_vi": "Trong Lịch Rôma chung, ngày 25 tháng 6 năm 2027 là một Thứ Sáu trong Mùa Thường Niên. Các bài đọc trong ngày tập trung vào giáo huấn của Chúa Giêsu về Nước Trời và sự cần thiết của khiêm tốn và phục vụ. Giáo hội kêu gọi các tín hữu cầu nguyện, ăn chay và bố thí trong sự tĩnh lặng của những ngày thường, nhắc nhở họ rằng sự thánh thiện được tìm thấy trong những bổn phận hằng ngày một cách trung tín.",
+    "confidence_note_vi": "Ngày 25 tháng 6 là một ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Rôma chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm thấy sự thánh thiện trong những điều bình thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban ơn cho con để phục vụ Chúa trung tín trong những khoảnh khắc bình thường của ngày hôm nay."
+  }
+}

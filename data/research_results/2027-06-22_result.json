@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-22",
+  "date": "2027-06-22",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time",
+    "title_vi": "Thứ Ba trong Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Twelfth Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần XII Mùa Thường Niên",
+    "summary_en": "This Tuesday falls within the Twelfth Week of Ordinary Time in the Roman Rite. The liturgical color is green, symbolizing hope and growth in the life of the Church. No major feast or mandatory memorial is assigned to this specific day in the current General Roman Calendar, allowing for the observance of a Feria.",
+    "summary_vi": "Thứ Ba này rơi vào Tuần XII Mùa Thường Niên trong Nghi lễ Rôma. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Giáo hội. Không có lễ trọng hay lễ nhớ bắt buộc nào được gán cho ngày cụ thể này trong Lịch Rôma Tổng quát hiện hành, cho phép cử hành như một ngày thường (Feria).",
+    "body_en": "During the weekdays of Ordinary Time, the liturgy focuses on the gradual sanctification of the faithful and the proclamation of the Gospel in the context of daily life. On this Tuesday, the readings will follow the ferial cycle, emphasizing the teachings of Christ and the moral implications of Christian living. The Church invites the faithful to integrate their faith into the ordinary rhythms of work and rest.",
+    "body_vi": "Trong các ngày trong tuần của Mùa Thường Niên, phụng vụ tập trung vào sự thánh hóa từ từ của các tín hữu và việc công bố Tin Mừng trong bối cảnh đời sống hằng ngày. Vào Thứ Ba này, các bài đọc sẽ theo chu kỳ ngày thường, nhấn mạnh vào lời dạy của Chúa Kitô và những hàm ý đạo đức của đời sống Kitô hữu. Giáo hội mời gọi các tín hữu hội nhập đức tin vào những nhịp điệu bình thường của lao động và nghỉ ngơi.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is verified against the standard Gregorian calendar and the Roman Calendar rules for Ordinary Time ferias.",
+    "confidence_note_vi": "Ngày này được xác minh theo lịch Gregory tiêu chuẩn và các quy tắc của Lịch Rôma đối với các ngày thường trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Hope during Ordinary Time",
+    "hero_line_vi": "Bước đi trong Hy vọng giữa Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, grant me the grace to see Your presence in the ordinary moments of this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn nhìn thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày hôm nay."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/bible/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-09",
+    "hebrew": "17 Sivan 5787",
+    "islamic_umm_al_qura": "17 Muharram 1449 AH",
+    "coptic": "15 Paona 1743",
+    "ethiopian": "15 Paona 1743"
+  }
+}

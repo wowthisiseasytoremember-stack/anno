@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần Thánh Thứ Năm Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần Thánh Thứ Năm Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào một ngày thường nhật trong Mùa Thường Niên, cụ thể là tuần thứ năm. Không có lễ trọng hay lễ kính nào được cử hành. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin. Các bài đọc tập trung vào sự tăng trưởng thiêng liêng liên tục của các tín hữu giữa năm.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, Thứ Sáu này không có một vị thánh hay sự kiện nào được tưởng niệm phổ quát để thay thế phụng vụ ngày thường. Trọng tâm vẫn là các bài Tin Mừng và Thư Tông Đồ được chỉ định cho tuần hiện tại, hướng dẫn các tín hữu về sự thánh thiện thực tế và hiểu biết giáo lý. Giáo hội khuyến khích cầu nguyện và suy gẫm trong thời gian này, nhấn mạnh vào sự tích lũy ân sủng qua bổn phận hàng ngày và đời sống bí tích.",
+    "confidence_note_vi": "Tính toán xác định của Lịch Rôma Chung cho ngày 14/05/2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng Trưởng Trong Đức Tin",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn sủng để tăng trưởng trong sự thánh thiện qua các bổn phận hàng ngày và những khoảnh khắc cầu nguyện thinh lặng trong ngày Thứ Sáu này."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 3 Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 3 Mùa Phục Sinh",
+    "summary_vi": "Ngày này là một ngày trong tuần thuộc Mùa Phục Sinh, cụ thể là tuần thứ ba. Trong Lịch phụng vụ chung Rôma, không có ngày lễ hay lễ kính nào buộc trọng thể được liệt kê cho ngày này, nên ngày được cử hành như một ngày thường. Màu phụng vụ là màu trắng, phản ánh niềm vui của sự Phục Sinh.",
+    "body_vi": "Là một ngày thường trong Mùa Phục Sinh, phụng vụ tập trung vào mầu nhiệm Phục Sinh đang diễn ra và những lời giáo huấn của Chúa. Vì không có vị thánh hay ngày lễ nào cụ thể chiếm ưu tiên, linh mục sử dụng các bản văn ngày thường trong Sách Bài Đọc cho tuần hiện tại. Các bài đọc và lời cầu nguyện phục vụ để làm sâu sắc thêm sự hiểu biết của các tín hữu về mầu nhiệm Vượt Qua trong năm mươi ngày Mùa Phục Sinh.",
+    "confidence_note_vi": "Lịch phụng vụ chung Rôma chỉ ra rằng không có ngày lễ buộc nào vào ngày này, dẫn đến một ngày thường tiêu chuẩn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng Phục Sinh",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con sống niềm vui Phục Sinh trong những công việc hàng ngày."
+  }
+}

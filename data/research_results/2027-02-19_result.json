@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-19",
+  "date": "2027-02-19",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần X (hoặc tùy tuần) Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Feria of the Week in Ordinary Time",
+    "title_vi": "Ngày thường Tuần Mùa Thường Niên",
+    "summary_en": "This is a standard weekday in Ordinary Time, characterized by the liturgical color green which symbolizes hope and growth. No universal saint feast or solemnity supersedes the weekday office on this date in the General Roman Calendar. The liturgical focus is on the continuous journey of faith and the sanctification of daily life.",
+    "summary_vi": "Đây là một ngày thường trong Mùa Thường Niên, được đặc trưng bởi màu phụng vụ xanh lá cây tượng trưng cho hy vọng và sự tăng trưởng. Không có lễ kính thánh hay long trọng nào thay thế giờ kinh của ngày thường vào ngày này trong Lịch phụng vụ La Mã chung. Trọng tâm phụng vụ là hành trình đức tin liên lỉ và việc thánh hóa đời sống hằng ngày.",
+    "body_en": "As a feria of the week, the liturgy directs the faithful to reflect on the readings provided by the Lectionary cycle, emphasizing patience, trust in God's providence, and the moral imperatives of Christian living. The community gathers in humility, not for a specific historical commemoration, but for the sanctification of the present moment through the Word and the Eucharist.",
+    "body_vi": "Là ngày thường trong tuần, phụng vụ hướng dẫn các tín hữu suy ngẫm các bài đọc được cung cấp bởi chu kỳ Sách Bài Đọc, nhấn mạnh vào sự kiên nhẫn, tín thác vào sự quan phòng của Thiên Chúa, và các bổn phận luân lý của đời sống Kitô giáo. Cộng đoàn tụ họp trong khiêm nhường, không phải để tưởng nhớ một sự kiện lịch sử cụ thể, mà là để thánh hóa thời điểm hiện tại qua Lời Chúa và Bí tích Thánh Thể.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed as a feria based on the General Roman Calendar for 2027, February 19. No competing universal feast is listed.",
+    "confidence_note_vi": "Được xác nhận là ngày thường dựa trên Lịch phụng vụ La Mã chung năm 2027, ngày 19 tháng 2. Không có lễ phổ quát nào cạnh tranh được ghi nhận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith through the ordinary days.",
+    "hero_line_vi": "Lớn lên trong đức tin qua những ngày thường.",
+    "prayer_prompt_en": "Lord, grant me the grace to find You in the mundane details of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để tìm thấy Chúa trong những chi tiết bình thường của ngày sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Calendar of Feasts",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican.va - Liturgical Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-06",
+    "hebrew": "12 Adar 5787",
+    "islamic_umm_al_qura": "12 Ramadan 1448 AH",
+    "coptic": "12 Amshir 1743",
+    "ethiopian": "12 Amshir 1743"
+  }
+}

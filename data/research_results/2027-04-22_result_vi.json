@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần III Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần III Phục Sinh",
+    "summary_vi": "Ngày này nằm trong Mùa Phục Sinh, tưởng niệm sự phục sinh của Đức Kitô. Đây là ngày thường (Feria) không có lễ kính bắt buộc của một vị thánh, do đó trọng tâm phụng vụ vẫn là Mầu Nhiệm Vượt Qua. Các bài đọc thường nhấn mạnh đời sống tiếp nối của Giáo hội sơ khai hoặc giáo huấn về đức tin.",
+    "body_vi": "Trong Lịch Rôma Tổng Quát, Thứ Năm Tuần III Phục Sinh được cử hành như một ngày thường trong Mùa Phục Sinh. Màu sắc phụng vụ là trắng, phản ánh niềm vui của sự Phục Sinh. Mặc dù một số vị thánh có thể được kính nhớ trong lịch địa phương hoặc các dòng tu, nhưng những điều này là tùy chọn, và việc cử hành chính vẫn tập trung vào mầu nhiệm Vượt Qua qua các bản văn riêng trong ngày.",
+    "confidence_note_vi": "Ngày này được xác nhận là ngày thường (Feria) trong thời gian sau Tuần Bát Nhật Phục Sinh theo Lịch Rôma Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Ánh Sáng của Chúa Phục Sinh.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin cho thực tại Phục Sinh của Chúa biến đổi cuộc sống và hành động hằng ngày của con."
+  }
+}

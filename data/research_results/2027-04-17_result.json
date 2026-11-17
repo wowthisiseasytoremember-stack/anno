@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-17",
+  "date": "2027-04-17",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Fifth Week of Easter",
+    "title_vi": "Thứ Bảy Tuần V Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fifth Week of Easter",
+    "title_vi": "Thứ Bảy Tuần V Mùa Phục Sinh",
+    "summary_en": "The liturgical day falls within the Easter season, specifically the Fifth Week. The focus is on the ongoing celebration of the Resurrection and the growth of the early Church. The readings reflect the post-Resurrection appearances and the spread of the Gospel to the Gentiles, emphasizing the mission of the Church.",
+    "summary_vi": "Ngày phụng vụ nằm trong Mùa Phục Sinh, cụ thể là Tuần V. Trọng tâm là việc cử hành tiếp diễn mầu nhiệm Phục Sinh và sự phát triển của Giáo Hội sơ khai. Các bài đọc phản ánh những lần hiện ra sau Phục Sinh và việc Tin Mừng lan rộng đến dân ngoại, nhấn mạnh sứ mạng của Giáo Hội.",
+    "body_en": "On this Saturday of the Fifth Week of Easter, the Church continues its meditation on the Lord's Resurrection. The lectionary typically presents passages from the Acts of the Apostles, illustrating how the disciples, empowered by the Holy Spirit, began to bear witness to Christ. This day serves as a quiet moment of reflection within the 'Fifty Days' of Easter, inviting the faithful to allow the light of the Resurrection to transform their daily lives. No specific saint's feast supersedes the liturgical character of the Easter season on this date.",
+    "body_vi": "Vào Thứ Bảy Tuần V Mùa Phục Sinh, Giáo Hội tiếp tục suy niệm về mầu nhiệm Phục Sinh của Chúa. Sách bài đọc thường trình bày các đoạn từ Sách Tông Đồ Công Vụ, minh họa cách các môn đệ, được quyền năng Chúa Thánh Thần nâng đỡ, bắt đầu làm chứng cho Đức Kitô. Ngày này là một khoảnh khắc tĩnh lặng suy tư trong 'Năm Mươi Ngày' Phục Sinh, mời gọi các tín hữu để ánh sáng Phục Sinh biến đổi đời sống hằng ngày. Không có lễ kính thánh nào vượt qua tính chất phụng vụ của Mùa Phục Sinh vào ngày này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a weekday in the Octave/Week 5 of Easter, which takes precedence over ordinary weekday commemorations unless a solemnity occurs.",
+    "confidence_note_vi": "Ngày này là ngày trong tuần Thứ Bảy Tuần V Mùa Phục Sinh, được ưu tiên hơn các nghi thức kỷ niệm thông thường trừ khi có một lễ trọng."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the Light of the Risen Lord",
+    "hero_line_vi": "Bước Đi Trong Ánh Sáng Chúa Phục Sinh",
+    "prayer_prompt_en": "Lord, help us to carry the peace of Your Resurrection into our work and rest today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con mang bình an Phục Sinh của Chúa vào công việc và sự nghỉ ngơi hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Calendar",
+      "url": "https://www.usccb.org/calendars",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-04",
+    "hebrew": "10 Nisan 5787",
+    "islamic_umm_al_qura": "10 Dhu al-Qidah 1448 AH",
+    "coptic": "9 Baramouda 1743",
+    "ethiopian": "9 Baramouda 1743"
+  }
+}

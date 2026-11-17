@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật Lễ Chúa Thánh Thần Hiện Xuống"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật Lễ Chúa Thánh Thần Hiện Xuống",
+    "summary_vi": "Lễ Ngũ Tuần đánh dấu biến cố Chúa Thánh Thần hiện xuống trên các Tông Đồ, năm mươi ngày sau lễ Phục Sinh. Đây là ngày mừng kính sự ra đời của Giáo Hội và quyền năng của Chúa Thánh Thần ban cho các tín hữu. Màu phụng vụ là màu đỏ, tượng trưng cho lửa của Thần Khí.",
+    "body_vi": "Trong ngày đại lễ này, Giáo Hội tưởng nhớ biến cố Chúa Thánh Thần hiện xuống trên các Tông Đồ tại Giêrusalem, biến đổi các ngài thành những chứng nhân can trường cho Tin Mừng. Ngày này được coi là ngày sinh nhật của Giáo Hội, nơi sự đa dạng ngôn ngữ được hòa hợp bởi chân lý duy nhất của Đức Kitô. Cộng đoàn tín hữu được mời gọi canh lại lời hứa Bí tích Rửa Tội và mở lòng ra với sự hướng dẫn của Chúa Thánh Thần trong đời sống hàng ngày.",
+    "confidence_note_vi": "Ngày cố định trong lịch phụng vụ dựa trên việc tính toán lễ Phục Sinh năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy nhận lấy Chúa Thánh Thần và làm chứng nhân.",
+    "prayer_prompt_vi": "Lạy Chúa Thánh Thần, xin Ngài ngự đến, biến đổi tâm hồn các tín hữu, và đốt lên ngọn lửa yêu thương của Ngài."
+  }
+}

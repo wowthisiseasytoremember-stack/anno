@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-04-06",
+  "date": "2027-04-06",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay",
+    "summary_en": "On April 6, 2027, the Church observes the Tuesday of the Fourth Week of Lent. This day falls within the season of penance and renewal leading up to Easter. The liturgical color is violet, reflecting the somber tone of the Lenten season. No major saint is universally commemorated on this date in the General Roman Calendar, so the focus remains on the Lenten mysteries.",
+    "summary_vi": "Vào ngày 6 tháng 4 năm 2027, Giáo hội cử hành Thứ Ba Tuần IV Mùa Chay. Ngày này nằm trong mùa thống hối và đổi mới dẫn đến lễ Vượt Qua. Màu phụng vụ là tím, phản ánh tính chất trầm buồn của mùa Chay. Không có vị thánh nào được cử hành phổ biến trên toàn thế giới vào ngày này trong Lịch phụng vụ Rôma, vì vậy trọng tâm vẫn là các mầu nhiệm Mùa Chay.",
+    "body_en": "As a weekday of Lent, the liturgy emphasizes conversion, fasting, and prayer. The readings from the Old Testament often highlight the history of Israel's journey, while the Gospel passages focus on Christ's teachings regarding faith and obedience. The faithful are invited to deepen their spiritual preparation through the examination of conscience and acts of charity.",
+    "body_vi": "Là một ngày thường trong Mùa Chay, phụng vụ nhấn mạnh đến sự hoán cải, ăn chay và cầu nguyện. Các bài đọc từ Cựu Ước thường làm nổi bật hành trình lịch sử của dân Israel, trong khi các đoạn Tin Mừng tập trung vào những lời dạy của Chúa Kitô về đức tin và sự vâng phục. Tín hữu được mời gọi đào sâu sự chuẩn bị tinh thần của họ thông qua việc xét mình và các hành động bác ái.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date falls within Lent 2027 (Ash Wed Feb 10 - Holy Thu Mar 25), specifically the 4th week. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Ngày nằm trong Mùa Chay 2027 (Thứ Tư Lễ Tro 10/2 - Thứ Năm Tuần Thánh 25/3), cụ thể là tuần thứ 4. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the shadows of the Cross to rise with the Light.",
+    "hero_line_vi": "Hãy bước đi trong bóng tối của Thập Giá để được sống lại trong Ánh Sáng.",
+    "prayer_prompt_en": "Lord, grant me the humility to accept my weaknesses and the courage to transform them into opportunities for grace.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khiêm tốn để chấp nhận những yếu đuối của mình và lòng can đảm để biến chúng thành cơ hội cho ân sủng."
+  },
+  "sources": [
+    {
+      "label": "New Advent - Liturgical Calendar for 2027",
+      "url": "https://www.newadvent.org/cathen/09141a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "reference"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-24",
+    "hebrew": "28 Adar II 5787",
+    "islamic_umm_al_qura": "28 Shawwal 1448 AH",
+    "coptic": "28 Baramhat 1743",
+    "ethiopian": "28 Baramhat 1743"
+  }
+}

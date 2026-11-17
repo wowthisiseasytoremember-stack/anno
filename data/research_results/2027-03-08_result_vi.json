@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần V Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần V Mùa Chay",
+    "summary_vi": "Ngày này rơi vào Tuần V Mùa Chay, thời kỳ chuẩn bị tâm hồn và thống hối trước Tuần Thánh. Màu phụng vụ là tím (hoặc tía), tượng trưng cho sự thống hối và vương quyền. Đây là ngày thường (feria), không có lễ kính thánh nào lấn át kinh nhật tụng trừ khi được ghi rõ trong lịch địa phương, nhưng chủ đề Mùa Chay vẫn chiếm ưu thế.",
+    "body_vi": "Trong Lịch La Mã Tổng Quát, ngày 8/3/2027 là Thứ Hai của Tuần V Mùa Chay. Các bài đọc và lời nguyện phản ánh hành trình hướng tới Phục Sinh, tập trung vào sự sám hối và lời kêu gọi nên thánh. Không có lễ trọng hay lễ kính lớn nào xảy ra vào ngày này trên phạm vi toàn cầu, vì vậy việc tuân giữ Mùa Chay chi phối bậc phụng vụ và màu sắc.",
+    "confidence_note_vi": "Ngày Mùa Chay năm 2027 được tính toán dựa trên lễ Phục Sinh là ngày 28 tháng 3 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi khiêm nhường cùng Chúa trong Thứ Hai Mùa Chay này.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con một thần trí thống hối."
+  }
+}

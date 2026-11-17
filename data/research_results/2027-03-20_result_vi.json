@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Chay",
+    "summary_vi": "Ngày này là ngày thường Tuần IV Mùa Chay, tuân giữ tinh thần sám hối của mùa phụng vụ trong thời kỳ Thường Niên. Màu phụng vụ là màu xanh lục, đánh dấu vị thế ngày trong tuần của mùa chay. Không có lễ kính thánh nhân nào bắt buộc thay thế ngày thường Mùa Chay vào Thứ Bảy cụ thể này trong lịch 2027.",
+    "body_vi": "Phụng vụ Thứ Bảy Tuần IV Mùa Chay tập trung vào sự hoán cải tâm trí liên tục và sự chuẩn bị cho lễ Phục Sinh. Là một ngày thường, nó tuân theo các bài đọc chuẩn của mùa, nhấn mạnh vào sự sám hối và Lời Chúa mà không có tính long trọng của một lễ trọng hoặc lễ kính. Các tín hữu được mời gọi đào sâu các thực hành Mùa Chay qua việc cầu nguyện và bố thí.",
+    "confidence_note_vi": "Đã xác nhận qua Lịch Rôma Tổng Quát năm 2027. Thánh Giuse được mừng vào ngày 19 tháng 3, do đó ngày 20 tháng 3 là ngày thường Mùa Chay tiêu chuẩn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thứ Bảy của Sự Chuẩn Bị Mùa Chay và Suy Niệm Tĩnh Lặng",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn để tiếp tục hành trình Mùa Chay với sự khiêm nhường và tâm hồn mới."
+  }
+}

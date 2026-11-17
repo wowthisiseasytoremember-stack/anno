@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần 5 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần 5 Mùa Thường Niên",
+    "summary_vi": "Ngày 11 tháng 5 năm 2027 rơi vào Thứ Ba trong Tuần 5 Mùa Thường Niên. Là ngày thường (feria), phụng vụ tập trung vào sự tiến triển của đức tin Kitô giáo trong đời sống hằng ngày, tuân theo các bài Tin Mừng được chỉ định cho thời gian này. Không có lễ nhớ bắt buộc về các thánh vào ngày cụ thể này trong Lịch Rôma Chung, cho phép tuân giữ ngày thường mặc định.",
+    "body_vi": "Vào ngày Thứ Ba này trong Mùa Thường Niên, Hội Thánh mời gọi các tín hữu đào sâu hiểu biết về các mầu nhiệm của Chúa Kitô qua chu kỳ Kinh Thánh thường lệ. Các bài đọc cho tuần 5 thường hướng dẫn các tín hữu qua những lời dạy ban đầu của Chúa Giêsu hoặc đời sống của Hội Thánh sơ khai, tùy thuộc vào năm cụ thể trong chu kỳ phụng vụ. Không có lễ kính trọng thể của vị thánh nào, trọng tâm vẫn là sự thánh hóa khiêm tốn và đều đặn của những ngày bình thường, thúc đẩy việc cầu nguyện và sự nhất quán về đạo đức.",
+    "confidence_note_vi": "Ngày rơi hoàn toàn vào Mùa Thường Niên mà không có lễ nhớ bắt buộc phổ quát trong năm phụng vụ 2027 theo Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Kiên định trong những điều bình thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con tìm thấy Ngài trong những công việc thường nhật của ngày này, biến thói quen thành lòng kính tôn."
+  }
+}

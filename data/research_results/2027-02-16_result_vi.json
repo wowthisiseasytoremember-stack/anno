@@ -1,15 +1,15 @@
 {
   "liturgical": {
-    "title_vi": ""
+    "title_vi": "Thứ Ba Tuần V Mùa Thường Niên"
   },
   "primary": {
-    "title_vi": "",
-    "summary_vi": "",
-    "body_vi": "",
-    "confidence_note_vi": ""
+    "title_vi": "Thứ Ba Tuần V Mùa Thường Niên",
+    "summary_vi": "Giáo Hội cử hành sự tiến triển thông thường của năm phụng vụ trong Tuần Thứ Năm Mùa Thường Niên. Vào Thứ Ba này, trọng tâm phụng vụ vẫn là những lời dạy và mầu nhiệm về sứ vụ công khai của Chúa Kitô được trình bày trong các Tin Mừng. Áo lễ màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của các tín hữu trong mùa này.",
+    "body_vi": "Là một ngày trong tuần của Mùa Thường Niên, Thứ Ba không có lễ trọng hay lễ kính phổ quát nào cụ thể thay thế chu kỳ thời gian. Các bài đọc thường tuân theo chu kỳ bài đọc của tuần thứ năm, cung cấp các đoạn Kinh Thánh mời gọi suy niệm về sự khiêm nhường, cầu nguyện và Nước Thiên Chúa. Các tín hữu được khuyến khích tích hợp những hiểu biết Kinh Thánh này vào cuộc sống hàng ngày, phát triển trong nhân đức và sự hiểu biết về sứ mệnh Kitô giáo.",
+    "confidence_note_vi": "Theo Lịch Rôma Phổ Quát, ngày 16 tháng Hai là ngày trong tuần (Feria) trong Mùa Thường Niên trừ khi một lễ kính thánh cụ thể của địa phương được cử hành, điều này không phải là phổ quát."
   },
   "app_hooks": {
-    "hero_line_vi": "",
-    "prayer_prompt_vi": ""
+    "hero_line_vi": "Đi trong Hy Vọng: Những Nhịp Điệu Bình Thường Của Ơn Sủng",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhìn thấy sự hiện diện của Ngài trong những khoảnh khắc bình thường của cuộc sống chúng con. Xin ban cho chúng con sự khôn ngoan để tăng trưởng trong đức tin và lòng can đảm để sống Tin Mừng của Ngài hôm nay."
   }
 }

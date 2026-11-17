@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Trọng Kính Thánh Phêrô và Thánh Phaolô"
+  },
+  "primary": {
+    "title_vi": "Lễ Trọng Kính Thánh Phêrô và Thánh Phaolô",
+    "summary_vi": "Lễ trọng này tưởng nhớ cuộc tử đạo của Thánh Phêrô và Thánh Phaolô, những trụ cột của Giáo hội tại Rôma. Thánh Phêrô, Đức Giáo Hoàng tiên khởi, và Thánh Phaolô, Tông đồ của dân ngoại, được hợp nhất trong lễ này như những mẫu gương đức tin và lòng nhiệt thành truyền giáo. Đây là một trong những lễ cổ kính và quan trọng nhất trong phụng vụ Rôma.",
+    "body_vi": "Lễ Trọng Kính Thánh Phêrô và Thánh Phaolô được cử hành vào ngày 29 tháng 6, đánh dấu ngày tử đạo của các ngài tại Rôma. Trong khi Phêrô là tảng đá xây dựng Giáo hội, thì Phaolô là vị Tông đồ lớn của dân ngoại; cùng nhau, các ngài thể hiện tính phổ quát và nền tảng tông truyền của đức tin Công giáo. Phụng vụ làm nổi bật các vai trò bổ sung của các ngài: Phêrô là đầu phẩm trật, còn Phaolô là thầy dạy các dân tộc, cả hai đều được ràng buộc bởi cùng một lời tuyên xưng Đức Kitô.",
+    "confidence_note_vi": "Ngày cố định trong Lịch Rôma Tổng quát với cấp bậc cao nhất (Lễ Trọng)."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hợp nhất trong đức tin, chia sẻ trong tử đạo, vĩnh hằng trong vinh quang: Thánh Phêrô & Phaolô.",
+    "prayer_prompt_vi": "Hãy cầu xin lòng can đảm để làm chứng cho đức tin như Thánh Phaolô và sự kiên định của Thánh Phêrô."
+  }
+}

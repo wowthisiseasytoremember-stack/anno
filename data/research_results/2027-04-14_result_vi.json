@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh",
+    "summary_vi": "Thứ Tư này rơi vào Tuần IV của Mùa Phục Sinh. Màu phụng vụ là màu trắng, tượng trưng cho niềm vui của sự Phục Sinh. Không có lễ nhớ buộc nào của các thánh trong Ngày này theo Lịch Rôma chung, cho phép trọng tâm vẫn còn ở Mầu nhiệm Vượt Qua và các bài đọc được chỉ định cho ngày thường.",
+    "body_vi": "Các bài đọc trong ngày này, trích từ Sách Công vụ Tông đồ và các sách Tin Mừng, tiếp tục kể về sự tăng trưởng ban đầu của Hội Thánh và lời dạy của Chúa Giêsu, giờ đây được chiếu sáng bởi ánh sáng của sự Phục Sinh. Phụng vụ mời gọi các tín hữu suy gẫm về căn tính phép Rửa của mình và mang ánh sáng của Chúa Kitô vào cuộc sống hàng ngày.",
+    "confidence_note_vi": "Trạng thái phụng vụ được xác định bởi các quy tắc lịch phụng vụ chung cho Mùa Phục Sinh; không có vị thánh cụ thể nào buộc phải cử hành theo lịch chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy mang ánh sáng của sự Phục Sinh vào công việc hàng ngày của bạn.",
+    "prayer_prompt_vi": "Lạy Chúa, xin cho hành động của con hôm nay là một chứng tá cho sự hiện diện Phục Sinh của Chúa."
+  }
+}

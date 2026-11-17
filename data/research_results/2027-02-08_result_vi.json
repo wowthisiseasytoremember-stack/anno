@@ -1,15 +1,15 @@
 {
   "liturgical": {
-    "title_vi": ""
+    "title_vi": "Thứ Hai Tuần V Thường Niên"
   },
   "primary": {
-    "title_vi": "",
-    "summary_vi": "",
-    "body_vi": "",
-    "confidence_note_vi": ""
+    "title_vi": "Thứ Hai Tuần V Thường Niên",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, tiếp sau ngày Chúa Nhật. Trọng tâm phụng vụ vẫn là sự tăng trưởng đời sống Kitô hữu và những lời giáo huấn của Chúa Giêsu được ghi lại trong Tin Mừng. Màu sắc phụng vụ xanh lá cây biểu trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Hội Thánh.",
+    "body_vi": "Là ngày thường (Feria) trong Mùa Thường Niên, Hội Thánh không cử hành một lễ lớn hay lễ nhớ buộc. Các bài đọc trong ngày, thường bao gồm các đoạn từ Cựu Ước và Tin Mừng, hướng dẫn các tín hữu hiểu biết về mầu nhiệm Đức Kitô. Phụng vụ Kinh Nhật Tụng và Thánh Lễ cung cấp cơ hội cho lời cầu nguyện cá nhân và cộng đồng, đồng bộ hóa đời sống người tín hữu với nhịp điệu của năm phụng vụ.",
+    "confidence_note_vi": "Không có lễ thánh bắt buộc nào rơi vào ngày này trong Lịch Rôma Chung, do đó đây là ngày thường tiêu chuẩn của Mùa Thường Niên."
   },
   "app_hooks": {
-    "hero_line_vi": "",
-    "prayer_prompt_vi": ""
+    "hero_line_vi": "Tăng trưởng trong đức tin qua sức mạnh tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tăng trưởng trong ân sủng và hiểu biết Lời Chúa sâu xa hơn trong ngày này."
   }
 }

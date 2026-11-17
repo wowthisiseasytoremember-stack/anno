@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật III Mùa Chay (Năm B)"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật III Mùa Chay",
+    "summary_vi": "Vào Chúa Nhật này, Giáo Hội tập trung vào cuộc gặp gỡ với người phụ nữ Samari và việc thanh tẩy Đền Thờ. Đây là khoảnh khắc then chốt trong Mùa Chay, thúc giục các tín hữu xét mình và đào sâu đức tin qua các trình thuật Tin Mừng.",
+    "body_vi": "Các bài đọc Chúa Nhật III Mùa Chay mời gọi các tín hữu suy gẫm về việc thờ phượng Thiên Chúa đích thực và nước hằng sống của đức tin. Tin Mừng Gioan trình bày cuộc đối thoại với người phụ nữ Samari, làm nổi bật sự cần thiết của việc thờ phượng trong tinh thần và sự thật, trong khi Bài Đọc 1 và Thánh Vịnh kêu gọi một tâm hồn mở ra với luật Chúa. Ngày phụng vụ này nhấn mạnh sự hoán cải, cơn khát thiêng liêng và việc nhận ra Chúa Giêsu là Đấng Messiah kiện toàn Lề Luật.",
+    "confidence_note_vi": "Dựa trên Sách Lễ Roma 2018 và hướng dẫn của USCCB cho Năm B."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy đến với nguồn nước hằng sống.",
+    "prayer_prompt_vi": "Lạy Chúa, xin thanh tẩy tâm hồn chúng con để chúng con có thể thờ phượng Chúa trong tinh thần và chân lý."
+  }
+}

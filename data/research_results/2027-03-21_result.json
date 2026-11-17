@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-21",
+  "date": "2027-03-21",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "purple",
+    "title_en": "Fifth Sunday of Lent",
+    "title_vi": "Chúa Nhật Thứ Năm Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Fifth Sunday of Lent",
+    "title_vi": "Chúa Nhật Thứ Năm Mùa Chay",
+    "summary_en": "The Fifth Sunday of Lent marks a pivotal moment in the liturgical journey towards Easter. It emphasizes the theme of conversion and the gift of new life through baptism, often using the Gospel of Lazarus' resurrection to foreshadow Christ's own rising. The liturgy calls the faithful to deeper penance and renewed commitment to their baptismal promises.",
+    "summary_vi": "Chúa Nhật Thứ Năm Mùa Chay đánh dấu bước chuyển quan trọng trong hành trình phụng vụ tiến tới lễ Phục Sinh. Ngày này nhấn mạnh chủ đề hoán cải và hồng ân sự sống mới qua Bí tích Rửa Tội, thường sử dụng bài Tin Mừng về sự sống lại của ông Lazarô để báo trước việc Đức Kitô sống lại. Phụng vụ kêu gọi các tín hữu ăn năn sâu xa hơn và cam kết lại với những lời hứa khi Rửa Tội.",
+    "body_en": "In the Year B cycle, the readings typically focus on the resurrection of Lazarus (John 11:1-45) as a sign of Jesus' power over death. The Old Testament reading often features Ezekiel's prophecy of dry bones coming to life, symbolizing the restoration of Israel and the spiritual resurrection offered to believers. The liturgical color remains purple, signifying penance and royalty, while the altar and decorations remain simple to maintain the focus on internal conversion rather than external display.",
+    "body_vi": "Trong chu kỳ Năm B, các bài đọc thường tập trung vào sự sống lại của ông Lazarô (Ga 11,1-45) như một dấu chỉ về quyền năng của Đức Giêsu trên sự chết. Bài đọc Cựu Ước thường là lời tiên tri của ngôn sứ Êdêkien về những bộ xương khô được hồi sinh, biểu trưng cho sự khôi phục Israel và sự sống lại thiêng liêng được ban cho những người tin. Màu sắc phụng vụ vẫn là màu tím, tượng trưng cho sự ăn năn và vương quyền, trong khi bàn thờ và trang trí vẫn giữ sự đơn giản để duy trì sự tập trung vào hoán cải nội tâm thay vì hình thức bên ngoài.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This is a standard Sunday in Lent under the Roman Rite calendar. The Gospel readings for Year B are consistent with the lectionary cycle.",
+    "confidence_note_vi": "Đây là Chúa Nhật tiêu chuẩn trong Mùa Chay theo lịch phụng vụ Rôma. Các bài Tin Mừng cho Năm B phù hợp với chu kỳ sách bài đọc."
+  },
+  "app_hooks": {
+    "hero_line_en": "Lord, we believe in You. Raise us to new life in Christ.",
+    "hero_line_vi": "Lạy Chúa, chúng con tin vào Ngài. Xin hãy làm cho chúng con sống lại trong Đức Kitô.",
+    "prayer_prompt_en": "Reflect on a 'dead' area in your spiritual life. How does the promise of resurrection give you hope today?",
+    "prayer_prompt_vi": "Hãy suy nghĩ về một khía cạnh 'chết chóc' trong đời sống thiêng liêng của bạn. Lời hứa về sự sống lại mang lại cho bạn niềm hy vọng nào hôm nay?"
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/032127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Fifth Sunday in Lent",
+      "url": "https://www.newadvent.org/cathen/09578a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-08",
+    "hebrew": "12 Adar II 5787",
+    "islamic_umm_al_qura": "12 Shawwal 1448 AH",
+    "coptic": "12 Baramhat 1743",
+    "ethiopian": "12 Baramhat 1743"
+  }
+}
