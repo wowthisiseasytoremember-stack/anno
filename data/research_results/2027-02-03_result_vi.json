@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": ""
+  },
+  "primary": {
+    "title_vi": "",
+    "summary_vi": "",
+    "body_vi": "",
+    "confidence_note_vi": ""
+  },
+  "app_hooks": {
+    "hero_line_vi": "",
+    "prayer_prompt_vi": ""
+  }
+}

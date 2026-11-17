@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Đức Giêsu Dâng Trong Đền Thánh"
+  },
+  "primary": {
+    "title_vi": "Lễ Đức Giêsu Dâng Trong Đền Thánh",
+    "summary_vi": "Lễ Đức Giêsu Dâng Trong Đền Thánh được cử hành bốn mươi ngày sau lễ Giáng Sinh. Lễ này tưởng niệm việc Đức Maria và Thánh Giuse dâng Đức Giêsu con trẻ trong Đền Thánh Giêrusalem cho Thiên Chúa, theo luật Môsê. Ngày lễ cũng gợi lại lời tiên tri của cụ Simêon và bà Anna, những người đã nhận ra Đức Giêsu là Đấng Mêsia. Trong thực hành Công giáo hiện đại, ngày này còn được gọi là lễ Nến (Candlemas), khi nến được làm phép để tượng trưng Đức Kitô là ánh sáng thế gian.",
+    "body_vi": "Lễ Đức Giêsu Dâng Trong Đền Thánh đánh dấu sự kết thúc mùa Giáng sinh trong nhiều truyền thống, xảy ra chính xác bốn mươi ngày sau ngày 25 tháng 12. Thuật ngữ Tin Mừng trong Luca 2:22-40 mô tả sự hoàn tất Luật Môsê liên quan đến việc thanh tẩy người mẹ và chuộc con đầu lòng. Lễ này quan trọng vì bài ca 'Nunc Dimittis' của cụ Simêon, trong đó ông ca tụng Thiên Chúa vì đã thấy Ơn Cứu Độ Người đã chuẩn bị cho mọi dân tộc. Việc làm phép nến truyền thống liên quan đến ngày này nhấn mạnh chủ đề ánh sáng thần linh bước vào đền thánh, nhắc nhở các tín hữu về ơn gọi trở thành ánh sáng cho thế giới.",
+    "confidence_note_vi": "Đây là lễ cố định trong Lịch phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Này là Ánh Sáng soi đường cho dân ngoại.",
+    "prayer_prompt_vi": "Xin ban cho chúng con biết dâng hiến cuộc đời cho Ngài với tâm hồn trong sạch, trở thành ánh sáng dẫn đưa người khác đến chân lý của Ngài."
+  }
+}

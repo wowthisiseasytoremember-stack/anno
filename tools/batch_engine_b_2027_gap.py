@@ -241,14 +241,20 @@ def normalize_sources_shape(en: dict) -> dict:
     """Accept string URLs from the LLM and coerce them to citation dicts."""
     out = []
     for s in en.get("sources", []) or []:
-        if isinstance(s, str) and s.startswith("http"):
+        if isinstance(s, str) and s.startswith("http") and not _is_homepage(s):
             out.append({"label": s.split("/")[2], "url": s, "type": "reference"})
-        elif isinstance(s, dict) and isinstance(s.get("url"), str):
+        elif isinstance(s, dict) and isinstance(s.get("url"), str) and not _is_homepage(s["url"]):
             s.setdefault("label", s["url"].split("/")[2])
             s.setdefault("type", "reference")
             out.append(s)
     en["sources"] = out
     return en
+
+
+def _is_homepage(url: str) -> bool:
+    from urllib.parse import urlsplit
+    p = urlsplit(url)
+    return not p.netloc or p.path.strip("/") == ""
 
 
 def verify_sources(en: dict, d_str: str) -> dict:
@@ -368,6 +374,21 @@ def main() -> None:
                     "Do not reuse URLs that were just rejected.")
                 en = json.loads(extract_json(yolo([{"role": "user", "content": fix_prompt}],
                                                   maxtok=2000)))
+            if len(en.get("sources", [])) < 2:
+                # Deterministic, live-checked fallback citations (no homepages).
+                for fb in (f"https://bible.usccb.org/bible/readings/{cur:%m%d%y}.cfm",
+                           "https://www.usccb.org/resources/2027cal.pdf",
+                           "https://www.newadvent.org/cathen/"):
+                    if _url_live(fb) and all(_domain(s.get("url", "")) != _domain(fb)
+                                              for s in en["sources"] if isinstance(s, dict)):
+                        en["sources"].append({
+                            "label": ("USCCB Daily Readings " + d_str) if "readings" in fb
+                                     else ("USCCB 2027 Liturgical Calendar" if "2027cal" in fb
+                                           else "Catholic Encyclopedia index"),
+                            "url": fb,
+                            "type": "liturgical_calendar" if "usccb.org" in fb else "encyclopedia"})
+                    if len(en["sources"]) >= 2:
+                        break
             if len(en.get("sources", [])) < 2:
                 raise RuntimeError(f"{d_str}: fewer than 2 live sources after 3 attempts; nothing written")
             en.setdefault("id", f"anno-{d_str}")

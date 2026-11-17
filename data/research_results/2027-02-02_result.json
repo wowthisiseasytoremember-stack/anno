@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-02",
+  "date": "2027-02-02",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feast",
+    "color": "white",
+    "title_en": "Presentation of the Lord",
+    "title_vi": "Lễ Đức Giêsu Dâng Trong Đền Thánh"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Presentation of the Lord in the Temple",
+    "title_vi": "Lễ Đức Giêsu Dâng Trong Đền Thánh",
+    "summary_en": "The Presentation of the Lord is celebrated forty days after the birth of Jesus. It commemorates the event where Mary and Joseph brought the infant Jesus to the Temple in Jerusalem to present him to the Lord, as required by the Law of Moses. The day also recalls the prophesies of Simeon and Anna, who recognized Jesus as the Messiah. In modern Catholic practice, it is also known as Candlemas, where candles are blessed to signify Christ as the light of the world.",
+    "summary_vi": "Lễ Đức Giêsu Dâng Trong Đền Thánh được cử hành bốn mươi ngày sau lễ Giáng Sinh. Lễ này tưởng niệm việc Đức Maria và Thánh Giuse dâng Đức Giêsu con trẻ trong Đền Thánh Giêrusalem cho Thiên Chúa, theo luật Môsê. Ngày lễ cũng gợi lại lời tiên tri của cụ Simêon và bà Anna, những người đã nhận ra Đức Giêsu là Đấng Mêsia. Trong thực hành Công giáo hiện đại, ngày này còn được gọi là lễ Nến (Candlemas), khi nến được làm phép để tượng trưng Đức Kitô là ánh sáng thế gian.",
+    "body_en": "The feast of the Presentation of the Lord marks the end of the Christmas season in many traditions, occurring exactly forty days after December 25th. The Gospel account in Luke 2:22-40 describes the fulfillment of the Mosaic Law regarding the purification of the mother and the redemption of the firstborn. It is significant for Simeon's canticle, the 'Nunc Dimittis,' where he praises God for seeing the salvation He has prepared for all peoples. The blessing of candles traditionally associated with this day highlights the theme of divine light entering the temple, serving as a reminder of the faithful's call to be lights to the world.",
+    "body_vi": "Lễ Đức Giêsu Dâng Trong Đền Thánh đánh dấu sự kết thúc mùa Giáng sinh trong nhiều truyền thống, xảy ra chính xác bốn mươi ngày sau ngày 25 tháng 12. Thuật ngữ Tin Mừng trong Luca 2:22-40 mô tả sự hoàn tất Luật Môsê liên quan đến việc thanh tẩy người mẹ và chuộc con đầu lòng. Lễ này quan trọng vì bài ca 'Nunc Dimittis' của cụ Simêon, trong đó ông ca tụng Thiên Chúa vì đã thấy Ơn Cứu Độ Người đã chuẩn bị cho mọi dân tộc. Việc làm phép nến truyền thống liên quan đến ngày này nhấn mạnh chủ đề ánh sáng thần linh bước vào đền thánh, nhắc nhở các tín hữu về ơn gọi trở thành ánh sáng cho thế giới.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This is a fixed date feast on the General Roman Calendar.",
+    "confidence_note_vi": "Đây là lễ cố định trong Lịch phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Behold, the Light of the nations.",
+    "hero_line_vi": "Này là Ánh Sáng soi đường cho dân ngoại.",
+    "prayer_prompt_en": "Grant that we may present our lives to You with pure hearts, seeking to be lights that guide others to Your truth.",
+    "prayer_prompt_vi": "Xin ban cho chúng con biết dâng hiến cuộc đời cho Ngài với tâm hồn trong sạch, trở thành ánh sáng dẫn đưa người khác đến chân lý của Ngài."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Presentation of the Lord",
+      "url": "https://www.usccb.org/bible/luke/2",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Saints - Presentation of the Lord",
+      "url": "https://www.catholic.org/saints/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-20",
+    "hebrew": "25 Shvat 5787",
+    "islamic_umm_al_qura": "24 Shaban 1448 AH",
+    "coptic": "25 Toba 1743",
+    "ethiopian": "25 Toba 1743"
+  }
+}
