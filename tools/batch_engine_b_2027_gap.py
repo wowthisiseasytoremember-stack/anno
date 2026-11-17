@@ -237,6 +237,20 @@ def _url_live(url: str) -> bool:
         return False
 
 
+def normalize_sources_shape(en: dict) -> dict:
+    """Accept string URLs from the LLM and coerce them to citation dicts."""
+    out = []
+    for s in en.get("sources", []) or []:
+        if isinstance(s, str) and s.startswith("http"):
+            out.append({"label": s.split("/")[2], "url": s, "type": "reference"})
+        elif isinstance(s, dict) and isinstance(s.get("url"), str):
+            s.setdefault("label", s["url"].split("/")[2])
+            s.setdefault("type", "reference")
+            out.append(s)
+    en["sources"] = out
+    return en
+
+
 def verify_sources(en: dict, d_str: str) -> dict:
     """Rule #2: DROP every dead citation URL unconditionally; if fewer than 2 survive,
     mark entry as needing manual verification. NO homepage URL backfill."""
@@ -244,7 +258,7 @@ def verify_sources(en: dict, d_str: str) -> dict:
     if not srcs:
         return en
     # Always strip dead URLs — never leave a 404 citation behind.
-    kept = [s for s in srcs if _url_live(s.get("url", ""))]
+    kept = [s for s in srcs if isinstance(s, dict) and _url_live(s.get("url", ""))]
     if len(kept) < 2:
         # Mark for manual review instead of backfilling homepage URLs
         note = f"Only {len(kept)} live citation(s) found; manual source verification required before publishing."
@@ -340,6 +354,22 @@ def main() -> None:
             en_raw = yolo([{"role": "system", "content": SYSTEM_EN},
                            {"role": "user", "content": prompt}], maxtok=2000)
             en = json.loads(extract_json(en_raw))
+            # Source gate: retry with feedback until >=2 live URLs survive.
+            for _attempt in range(3):
+                en = normalize_sources_shape(en)
+                probe = verify_sources(json.loads(json.dumps(en)), d_str)
+                if len(probe.get("sources", [])) >= 2:
+                    en["sources"] = probe["sources"]
+                    break
+                fix_prompt = prompt + (
+                    f"\nCORRECTION: only {len(probe.get('sources', []))} source URL(s) were live. "
+                    "Return the SAME JSON with at least 2 NEW real, live URLs from different "
+                    "domains. Prefer vatican.va, usccb.org, newadvent.org, catholicculture.org. "
+                    "Do not reuse URLs that were just rejected.")
+                en = json.loads(extract_json(yolo([{"role": "user", "content": fix_prompt}],
+                                                  maxtok=2000)))
+            if len(en.get("sources", [])) < 2:
+                raise RuntimeError(f"{d_str}: fewer than 2 live sources after 3 attempts; nothing written")
             en.setdefault("id", f"anno-{d_str}")
             en.setdefault("date", d_str)
             en["weekday"] = cur.strftime("%A")
@@ -386,7 +416,8 @@ def main() -> None:
                     json.dump(vi, f, ensure_ascii=False, indent=2)
                 print(f"  VI-repaired {d_str}")
 
-            # Rule #2: drop dead citation URLs; backfill confirmed-live if <2 survive.
+            # Rule #2: drop dead citation URLs; never backfill homepage URLs.
+            en = normalize_sources_shape(en)
             en = verify_sources(en, d_str)
             with open(en_path, "w", encoding="utf-8") as f:
                 json.dump(en, f, ensure_ascii=False, indent=2)
