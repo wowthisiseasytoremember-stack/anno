@@ -161,7 +161,7 @@ jobs:
         continue-on-error: true
 
   liturgical-audit:
-    name: 2026 liturgical audit (report-only until repairs land)
+    name: 2026 liturgical audit (fail-closed)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
