@@ -1,0 +1,52 @@
+{
+  "date": "2027-02-04",
+  "weekday": "Thursday",
+  "lunar_calendar": {
+    "day": 22,
+    "month": "January",
+    "year": 2027
+  },
+  "hebrew_calendar": {
+    "day": 27,
+    "month": "Shvat",
+    "year": 5787
+  },
+  "islamic_calendar": {
+    "day": 26,
+    "month": "Shaban",
+    "year": 1448,
+    "era": "AH"
+  },
+  "coptic_calendar": {
+    "day": 27,
+    "month": "Toba",
+    "year": 1743
+  },
+  "ethiopian_calendar": {
+    "day": 27,
+    "month": "Toba",
+    "year": 1743
+  },
+  "liturgical_context": "Weekday of Ordinary Time",
+  "liturgical_language": "Bilingual JSON",
+  "sources": [
+    {
+      "label": "www.vatican.va",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "reference"
+    },
+    {
+      "label": "www.usccb.org",
+      "url": "https://www.usccb.org/bible/readings/020427.cfm",
+      "type": "reference"
+    }
+  ],
+  "id": "anno-2027-02-04",
+  "calendars": {
+    "julian": "2027-01-22",
+    "hebrew": "27 Shvat 5787",
+    "islamic_umm_al_qura": "26 Shaban 1448 AH",
+    "coptic": "27 Toba 1743",
+    "ethiopian": "27 Toba 1743"
+  }
+}

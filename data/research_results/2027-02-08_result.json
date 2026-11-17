@@ -1,0 +1,37 @@
+{
+  "date": "2027-02-08",
+  "weekday": "Monday",
+  "liturgical_season": "Ordinary Time",
+  "calendar_conversions": {
+    "gregorian": "2027-02-08",
+    "julian": "2027-01-26",
+    "hebrew": "1 Adar 5787",
+    "islamic": "1 Ramadan 1448 AH",
+    "coptic": "1 Amshir 1743",
+    "ethiopian": "1 Amshir 1743"
+  },
+  "sources": [
+    {
+      "description": "USCCB Daily Mass Readings - Official liturgical calendar and readings for February 2027",
+      "url": "https://www.usccb.org/bible/readings/020827.cfm",
+      "domain": "usccb.org",
+      "label": "www.usccb.org",
+      "type": "reference"
+    },
+    {
+      "description": "New Advent - Liturgical Calendar and Saint's Day information for February 8",
+      "url": "https://www.newadvent.org/cathen/02032a.htm",
+      "domain": "newadvent.org",
+      "label": "www.newadvent.org",
+      "type": "reference"
+    }
+  ],
+  "id": "anno-2027-02-08",
+  "calendars": {
+    "julian": "2027-01-26",
+    "hebrew": "1 Adar 5787",
+    "islamic_umm_al_qura": "1 Ramadan 1448 AH",
+    "coptic": "1 Amshir 1743",
+    "ethiopian": "1 Amshir 1743"
+  }
+}

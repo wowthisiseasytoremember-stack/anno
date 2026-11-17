@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-10",
+  "date": "2027-02-10",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Fourth Week of Ordinary Time",
+    "title_vi": "Thứ Tư Tuần IV Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Fourth Week of Ordinary Time",
+    "title_vi": "Thứ Tư Tuần IV Mùa Thường Niên",
+    "summary_en": "This day falls within the Fourth Week of Ordinary Time, marking the period of growth in the life of the Church following the Christmas season. The liturgical color is green, symbolizing hope and the ongoing journey of faith. As a weekday feria, it emphasizes the ordinary rhythm of Christian life and prayer.",
+    "summary_vi": "Ngày này thuộc Tuần IV Mùa Thường Niên, đánh dấu giai đoạn tăng trưởng trong đời sống Giáo Hội sau mùa Giáng Sinh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và hành trình đức tin đang diễn tiến. Là một ngày thường nhật (feria), ngày này nhấn mạnh đến nhịp điệu thông thường của đời sống và lời cầu nguyện Kitô hữu.",
+    "body_en": "In the General Roman Calendar, Wednesdays in Ordinary Time that do not have specific obligatory memorials or feasts are observed as ferial days. The focus shifts to the continuous sanctification of time through the Liturgy of the Hours and the Mass, reminding the faithful of the call to holiness in daily life.",
+    "body_vi": "Trong Lịch Rôma Tổng Quát, các ngày Thứ Tư trong Mùa Thường Niên không có lễ nhớ bắt buộc hay lễ trọng được cử hành như các ngày thường. Trọng tâm chuyển sang việc thánh hóa thời gian liên tục qua Phụng vụ Giờ Kinh và Thánh Lễ, nhắc nhở các tín hữu về lời mời gọi nên thánh trong đời sống hằng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Calendar calculation confirms Ordinary Time Week 4, Day 3 (Wednesday). No major saint's feast is ranked above this feria in the General Roman Calendar for this date.",
+    "confidence_note_vi": "Phép tính lịch xác nhận Thứ Tư Tuần IV Mùa Thường Niên. Không có lễ thánh nào có bậc cao hơn ngày này trong Lịch Rôma Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Finding Holiness in the Ordinary",
+    "hero_line_vi": "Tìm sự Thánh thiện trong Điều Bình Dị",
+    "prayer_prompt_en": "Lord, help me to find You in the routine of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong nhịp điệu thường nhật."
+  },
+  "sources": [
+    {
+      "label": "USCCB Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-28",
+    "hebrew": "3 Adar 5787",
+    "islamic_umm_al_qura": "3 Ramadan 1448 AH",
+    "coptic": "3 Amshir 1743",
+    "ethiopian": "3 Amshir 1743"
+  }
+}

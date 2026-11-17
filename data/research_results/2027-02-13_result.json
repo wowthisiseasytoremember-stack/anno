@@ -1,0 +1,31 @@
+{
+  "date": "2027-02-13",
+  "day_of_week": "Saturday",
+  "weekday_of_ordinary_time": true,
+  "calendar_conversions": {
+    "gregorian": "2027-02-13",
+    "julian": "2027-01-31",
+    "hebrew": "6 Adar 5787",
+    "islamic": "6 Ramadan 1448 AH",
+    "coptic": "6 Amshir 1743",
+    "ethiopian": "6 Amshir 1743"
+  },
+  "sources": [
+    {
+      "url": "https://www.newadvent.org/cathen/",
+      "domain": "newadvent.org",
+      "description": "Catholic Encyclopedia and liturgical calendar resources",
+      "label": "www.newadvent.org",
+      "type": "reference"
+    }
+  ],
+  "id": "anno-2027-02-13",
+  "weekday": "Saturday",
+  "calendars": {
+    "julian": "2027-01-31",
+    "hebrew": "6 Adar 5787",
+    "islamic_umm_al_qura": "6 Ramadan 1448 AH",
+    "coptic": "6 Amshir 1743",
+    "ethiopian": "6 Amshir 1743"
+  }
+}

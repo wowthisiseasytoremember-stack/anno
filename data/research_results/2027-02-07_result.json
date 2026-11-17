@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-07",
+  "date": "2027-02-07",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Fifth Sunday in Ordinary Time",
+    "title_vi": "Chúa nhật V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Fifth Sunday in Ordinary Time",
+    "title_vi": "Chúa nhật V Mùa Thường Niên",
+    "summary_en": "The Fifth Sunday in Ordinary Time focuses on the call to discipleship and the role of Christians as the 'light of the world' and 'salt of the earth.' The readings typically draw from Isaiah, where the prophet responds to God's call with 'Here am I, send me,' and from the Gospel where Jesus instructs his disciples about their influence in the world. It is a time to reflect on how personal vocation intersects with communal service and moral responsibility.",
+    "summary_vi": "Chúa nhật V Mùa Thường Niên tập trung vào lời kêu gọi làm môn đệ và vai trò của người Kitô hữu là 'muối đất' và 'ánh sáng thế gian.' Các bài đọc thường trích dẫn sách Isaia, nơi ngôn sứ đáp lại lời kêu gọi của Thiên Chúa rằng 'Lạy Chúa, này con đây, xin hãy sai con,' và từ Tin Mừng nơi Chúa Giêsu dạy các môn đệ về ảnh hưởng của họ trong thế giới. Đây là thời điểm suy niệm về cách tiếng gọi cá nhân kết hợp với trách nhiệm phục vụ cộng đoàn.",
+    "body_en": "In the context of Ordinary Time, which follows the Christmas and Easter seasons, the Church turns its attention to the public ministry of Jesus and the formation of the early Church. The Fifth Sunday serves as a spiritual checkpoint, asking the faithful to examine their fidelity to the Gospel and their commitment to bearing fruit in their daily lives. The liturgical color green symbolizes hope and the steady growth of faith.",
+    "body_vi": "Trong bối cảnh Mùa Thường Niên, vốn theo sau các mùa Giáng Sinh và Phục Sinh, Giáo hội chú ý đến sứ vụ công khai của Chúa Giêsu và việc hình thành Giáo hội sơ khai. Chúa nhật V đóng vai trò như một điểm kiểm tra tâm linh, mời gọi các tín hữu xem xét lòng trung thành của họ đối với Tin Mừng và cam kết kết trái trong đời sống hàng ngày. Màu sắc phụng vụ xanh lục biểu tượng cho niềm hy vọng và sự phát triển vững chắc của đức tin.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Deterministic calculation based on the Roman Missal and the liturgical calendar rules for the Year of the Church.",
+    "confidence_note_vi": "Tính toán tất định dựa trên Sách Lễ Rôma và các quy tắc lịch phụng vụ cho Năm Phụng vụ."
+  },
+  "app_hooks": {
+    "hero_line_en": "Let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven.",
+    "hero_line_vi": "Hãy để ánh sáng của các con chiếu sáng trước mặt người ta, để họ thấy các việc lành của các con mà tôn vinh Cha các con, Đấng ngự trên trời.",
+    "prayer_prompt_en": "Lord, make me a witness of your love and truth in my daily interactions.",
+    "prayer_prompt_vi": "Lạy Chúa, xin biến con thành nhân chứng cho tình yêu và chân lý của Ngài trong các cuộc gặp gỡ hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/bible/readings/020727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia - Liturgical Year",
+      "url": "https://www.newadvent.org/cathen/16048a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-25",
+    "hebrew": "30 Shvat 5787",
+    "islamic_umm_al_qura": "29 Shaban 1448 AH",
+    "coptic": "30 Toba 1743",
+    "ethiopian": "30 Toba 1743"
+  }
+}

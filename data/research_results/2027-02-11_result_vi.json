@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đức Mẹ Lộ Đức"
+  },
+  "primary": {
+    "title_vi": "Đức Mẹ Lộ Đức",
+    "summary_vi": "Lễ kính Đức Mẹ Lộ Đức được cử hành vào ngày 11 tháng Hai. Lễ này tưởng nhớ những lần Đức Trinh Nữ Maria hiện ra với Thánh Bernadette Soubirous vào năm 1858. Giáo hội tôn vinh Đức Trinh Nữ Maria dưới tước hiệu này và khuyến khích các tín hữu cầu nguyện xin ơn chữa lành.",
+    "body_vi": "Lễ này được cử hành trong Mùa Thường Niên vào ngày Thứ Năm. Với tư cách là lễ kính nhớ Đức Mẹ hoặc một lòng sùng kính quan trọng, nó ưu tiên hơn ngày trong tuần thường lệ. Màu phụng vụ là trắng, biểu thị sự trong sạch của Đức Trinh Nữ Maria. Trọng tâm của ngày này là sự chuyển cầu của Đức Mẹ và sự thánh thiêng của thể xác và linh hồn, thường gắn liền với những người bệnh.",
+    "confidence_note_vi": "Đức Mẹ Lộ Đức là Lễ kính nhớ cố định trong Lịch Phụng vụ Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ơn chữa lành chảy qua dòng nước Lộ Đức, và ân sủng qua trái tim Đức Mẹ.",
+    "prayer_prompt_vi": "Chúa ơi, nhờ lời chuyển cầu của Đức Mẹ Lộ Đức, xin ban cho con sức khỏe thể xác và sức mạnh linh hồn để phục vụ Chúa trung tín hơn."
+  }
+}
