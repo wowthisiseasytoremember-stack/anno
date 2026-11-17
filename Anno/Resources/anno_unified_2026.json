@@ -10594,8 +10594,8 @@
       "liturgical": {
         "rank": "Feast",
         "color": "white",
-        "title_en": "3th Day within the Octave of the Nativity of the Lord",
-        "title_vi": "Ngày thứ 3 trong Tuần Bát Nhật Giáng Sinh"
+        "title_en": "The Holy Family of Jesus, Mary and Joseph",
+        "title_vi": "The Holy Family of Jesus, Mary and Joseph"
       },
       "calendars": {
         "julian": "2026-12-14",
@@ -10605,42 +10605,44 @@
         "ethiopian": "18 Tahsas 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "3th Day within the Octave of the Nativity of the Lord",
-        "title_vi": "Ngày thứ 3 trong Tuần Bát Nhật Giáng Sinh",
-        "summary_en": "This Sunday falls within the sacred liturgical season of Christmas Octave. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Tuần Bát Nhật Giáng Sinh. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Christmas Octave, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Sunday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Tuần Bát Nhật Giáng Sinh, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "feast",
+        "title_en": "The Holy Family of Jesus, Mary and Joseph",
+        "title_vi": "The Holy Family of Jesus, Mary and Joseph",
+        "summary_en": "This Feast honors the domestic life of Jesus, Mary, and Joseph as the model for Christian households. It typically falls on the Sunday after Christmas, emphasizing the sanctity of family bonds through faith and obedience. The liturgy centers on the Presentation in the Temple and the early life of Jesus in Nazareth.",
+        "summary_vi": "This Feast honors the domestic life of Jesus, Mary, and Joseph as the model for Christian households. It typically falls on the Sunday after Christmas, emphasizing the sanctity of family bonds through faith and obedience. The liturgy centers on the Presentation in the Temple and the early life of Jesus in Nazareth.",
+        "body_en": "The Feast of the Holy Family celebrates the hidden life of Jesus in Nazareth, highlighting the roles of Joseph as the guardian and Mary as the loving mother within a holy household. Established in the nineteenth century and formalized in the universal calendar, this feast invites the faithful to reflect on the virtues of humility, prayer, and mutual charity that defined the Holy House. The readings for this day often include the Presentation of the Lord, where Simeon and Anna recognize the child Jesus, illustrating how the family operated within the broader context of Israel's faith. The feast was placed on a moveable Sunday to ensure that the entire family could gather together in worship, reinforcing its status as the domestic church.",
+        "body_vi": "The Feast of the Holy Family celebrates the hidden life of Jesus in Nazareth, highlighting the roles of Joseph as the guardian and Mary as the loving mother within a holy household. Established in the nineteenth century and formalized in the universal calendar, this feast invites the faithful to reflect on the virtues of humility, prayer, and mutual charity that defined the Holy House. The readings for this day often include the Presentation of the Lord, where Simeon and Anna recognize the child Jesus, illustrating how the family operated within the broader context of Israel's faith. The feast was placed on a moveable Sunday to ensure that the entire family could gather together in worship, reinforcing its status as the domestic church.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-12-27.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-27."
+        "confidence_note_en": "The date is confirmed by the USCCB 2026 calendar; the feast is a confirmed universal feast.",
+        "confidence_note_vi": "The date is confirmed by the USCCB 2026 calendar; the feast is a confirmed universal feast."
       },
-      "place": null,
+      "place": {
+        "name": "Nazareth, Israel"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Christmas Octave",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB 2026 Liturgical Calendar",
+          "url": "https://www.usccb.org/calendar/2026",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Daily Readings 2026-12-27",
+          "url": "https://bible.usccb.org/bible/readings/122726.cfm",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Christmas Octave on this Sunday",
-        "hero_line_vi": "Sống ân sủng Tuần Bát Nhật Giáng Sinh trong ngày Sunday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Sunday of Christmas Octave, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Tuần Bát Nhật Giáng Sinh, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Holy Family, pray for our families.",
+        "hero_line_vi": "Holy Family, pray for our families.",
+        "prayer_prompt_en": "Ask the Holy Family for intercession for unity, peace, and faithfulness in your household.",
+        "prayer_prompt_vi": "Ask the Holy Family for intercession for unity, peace, and faithfulness in your household."
       }
     },
     {
@@ -10650,9 +10652,9 @@
       "mock_priority": "engine_b_v1",
       "liturgical": {
         "rank": "Feast",
-        "color": "white",
-        "title_en": "4th Day within the Octave of the Nativity of the Lord",
-        "title_vi": "Ngày thứ 4 trong Tuần Bát Nhật Giáng Sinh"
+        "color": "red",
+        "title_en": "The Holy Innocents, Martyrs",
+        "title_vi": "The Holy Innocents, Martyrs"
       },
       "calendars": {
         "julian": "2026-12-15",
@@ -10662,42 +10664,44 @@
         "ethiopian": "19 Tahsas 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "4th Day within the Octave of the Nativity of the Lord",
-        "title_vi": "Ngày thứ 4 trong Tuần Bát Nhật Giáng Sinh",
-        "summary_en": "This Monday falls within the sacred liturgical season of Christmas Octave. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Monday này nằm trong mùa phụng vụ thánh thiện Tuần Bát Nhật Giáng Sinh. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Christmas Octave, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Monday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Tuần Bát Nhật Giáng Sinh, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Monday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "feast",
+        "title_en": "The Holy Innocents, Martyrs",
+        "title_vi": "The Holy Innocents, Martyrs",
+        "summary_en": "The Feast of the Holy Innocents, observed on December 28 in the Roman Rite, commemorates the massacre of the young boys in Bethlehem ordered by King Herod. This day honors the infants as the first martyrs for Christ, celebrating their sacrifice and their baptism of blood.",
+        "summary_vi": "The Feast of the Holy Innocents, observed on December 28 in the Roman Rite, commemorates the massacre of the young boys in Bethlehem ordered by King Herod. This day honors the infants as the first martyrs for Christ, celebrating their sacrifice and their baptism of blood.",
+        "body_en": "The liturgy for the Feast of the Holy Innocents focuses on the infant martyrs killed by Herod the Great, as recorded in the Gospel of Matthew. These children, unable to speak in defense of their faith, are venerated as the earliest witnesses to Christ, symbolizing the cost of the Incarnation. In the 2026 liturgical calendar, this Feast is designated with the liturgical color red, signifying martyrdom.\n\nAs a Feast of the Lord and of the Blessed Virgin Mary, this day highlights the divine plan unfolding in infancy. The readings, though not explicitly cited in the simplified daily calendar, traditionally include the prophecy of Rachel weeping for her children. The Church presents these innocents as examples of pure innocence and sacrificial love, inviting the faithful to reflect on the mystery of innocent suffering and the sovereignty of God.",
+        "body_vi": "The liturgy for the Feast of the Holy Innocents focuses on the infant martyrs killed by Herod the Great, as recorded in the Gospel of Matthew. These children, unable to speak in defense of their faith, are venerated as the earliest witnesses to Christ, symbolizing the cost of the Incarnation. In the 2026 liturgical calendar, this Feast is designated with the liturgical color red, signifying martyrdom.\n\nAs a Feast of the Lord and of the Blessed Virgin Mary, this day highlights the divine plan unfolding in infancy. The readings, though not explicitly cited in the simplified daily calendar, traditionally include the prophecy of Rachel weeping for her children. The Church presents these innocents as examples of pure innocence and sacrificial love, inviting the faithful to reflect on the mystery of innocent suffering and the sovereignty of God.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-12-28.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-28."
+        "confidence_note_en": "The identity, date, and liturgical status are fixed in the 2026 USCCB calendar. The liturgical color red and the rank as Feast are officially confirmed.",
+        "confidence_note_vi": "The identity, date, and liturgical status are fixed in the 2026 USCCB calendar. The liturgical color red and the rank as Feast are officially confirmed."
       },
-      "place": null,
+      "place": {
+        "name": "Bethlehem, West Bank"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Christmas Octave",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Readings",
+          "url": "https://bible.usccb.org/",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "Catholic Culture - The Holy Innocents",
+          "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-12-28",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Christmas Octave on this Monday",
-        "hero_line_vi": "Sống ân sủng Tuần Bát Nhật Giáng Sinh trong ngày Monday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Monday of Christmas Octave, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Monday của Tuần Bát Nhật Giáng Sinh, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Honoring the First Martyrs: The Holy Innocents",
+        "hero_line_vi": "Honoring the First Martyrs: The Holy Innocents",
+        "prayer_prompt_en": "Lord, we honor the Holy Innocents who died for Christ; teach us to offer our own innocence and sacrifice in love of You.",
+        "prayer_prompt_vi": "Lord, we honor the Holy Innocents who died for Christ; teach us to offer our own innocence and sacrifice in love of You."
       }
     },
     {
@@ -10706,9 +10710,9 @@
       "weekday": "Tuesday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feast",
+        "rank": "Feria",
         "color": "white",
-        "title_en": "5th Day within the Octave of the Nativity of the Lord",
+        "title_en": "Fifth Day within the Octave of the Nativity of the Lord",
         "title_vi": "Ngày thứ 5 trong Tuần Bát Nhật Giáng Sinh"
       },
       "calendars": {
@@ -10720,40 +10724,42 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "5th Day within the Octave of the Nativity of the Lord",
+        "title_en": "Fifth Day within the Octave of the Nativity of the Lord",
         "title_vi": "Ngày thứ 5 trong Tuần Bát Nhật Giáng Sinh",
-        "summary_en": "This Tuesday falls within the sacred liturgical season of Christmas Octave. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Tuesday này nằm trong mùa phụng vụ thánh thiện Tuần Bát Nhật Giáng Sinh. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Christmas Octave, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Tuesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+        "summary_en": "The Fifth Day within the Octave of the Nativity of the Lord on December 29, 2026, is a Feria observing the birth of Christ. The optional memorial for Saint Thomas Becket is noted, though the primary focus remains the Christmas season. Liturgical colors are white, reflecting the joy of the Nativity.",
+        "summary_vi": "Ngày Thứ Ba này nằm trong mùa phụng vụ thánh thiện Tuần Bát Nhật Giáng Sinh. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+        "body_en": "During the Fifth Day of the Octave of the Nativity, the Church continues to meditate on the mystery of the Incarnation. The liturgy maintains the white color associated with Christmas, emphasizing the light of Christ entering the world. While the official calendar does not print specific daily readings for this feria, the traditional texts focus on the genealogy of Christ and the early life of Jesus, often paired with the commemoration of Saint Thomas Becket, Bishop and Martyr, when the memorial is observed.",
         "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Tuần Bát Nhật Giáng Sinh, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Tuesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-12-29.",
+        "confidence_note_en": "The rank as Feria and the optional memorial of Saint Thomas Becket are consistent with the USCCB calendar guidelines for this period.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-29."
       },
-      "place": null,
+      "place": {
+        "name": "St. Peter's Basilica, Vatican City"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Christmas Octave",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Readings Calendar",
+          "url": "https://www.usccb.org/bible/readings/122926.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Daily Readings 2026-12-29",
+          "url": "https://bible.usccb.org/bible/readings/122926.cfm",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Christmas Octave on this Tuesday",
+        "hero_line_en": "Contemplating the Mystery of the Incarnation in the Fifth Day of Christmas",
         "hero_line_vi": "Sống ân sủng Tuần Bát Nhật Giáng Sinh trong ngày Tuesday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Tuesday of Christmas Octave, and draw me ever closer to Your Sacred Heart.",
+        "prayer_prompt_en": "Lord Jesus, Son of God, who was born of the Virgin Mary, grant us the grace to live the light of your Nativity in our daily lives.",
         "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Tuesday của Tuần Bát Nhật Giáng Sinh, và kéo con lại gần Thánh Tâm Chúa."
       }
     },
@@ -10763,9 +10769,9 @@
       "weekday": "Wednesday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feast",
+        "rank": "Feria",
         "color": "white",
-        "title_en": "6th Day within the Octave of the Nativity of the Lord",
+        "title_en": "Sixth Day within the Octave of the Nativity of the Lord",
         "title_vi": "Ngày thứ 6 trong Tuần Bát Nhật Giáng Sinh"
       },
       "calendars": {
@@ -10777,40 +10783,42 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "6th Day within the Octave of the Nativity of the Lord",
+        "title_en": "Sixth Day within the Octave of the Nativity of the Lord",
         "title_vi": "Ngày thứ 6 trong Tuần Bát Nhật Giáng Sinh",
-        "summary_en": "This Wednesday falls within the sacred liturgical season of Christmas Octave. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Wednesday này nằm trong mùa phụng vụ thánh thiện Tuần Bát Nhật Giáng Sinh. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Christmas Octave, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Wednesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+        "summary_en": "This day marks the sixth day within the Octave of the Nativity of the Lord, a period of joyful contemplation dedicated to the mystery of the Incarnation. As a feria, it emphasizes the continuity of the Christmas mystery through the liturgical week.",
+        "summary_vi": "Ngày Thứ Tư này nằm trong mùa phụng vụ thánh thiện Tuần Bát Nhật Giáng Sinh. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+        "body_en": "The Sixth Day within the Octave of the Nativity of the Lord continues the profound meditation on the Word made flesh, a central tenet of the Catholic faith celebrated during the Christmas season. In the absence of a specific saint's memorial, the liturgy focuses on the temporal celebration of Christ's birth, inviting the faithful to deepen their understanding of the divine humility manifested in Bethlehem. The readings and prayers for this Wednesday serve as a spiritual bridge, maintaining the festive spirit of the Nativity while preparing the Church for the imminent Feast of the Holy Name of Jesus. This day is traditionally observed with white vestments, symbolizing purity and the light of Christ entering the world.",
         "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Tuần Bát Nhật Giáng Sinh, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Wednesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-12-30.",
+        "confidence_note_en": "The day is confirmed as a feria within the Octave of the Nativity, with no optional memorials printed in the 2026 USCCB calendar.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-30."
       },
-      "place": null,
+      "place": {
+        "name": "Bethlehem, West Bank, Palestine"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Christmas Octave",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Readings Calendar 2026",
+          "url": "https://www.usccb.org/calendar",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Daily Readings 2026-12-30",
+          "url": "https://bible.usccb.org/bible/readings/123026.cfm",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Christmas Octave on this Wednesday",
+        "hero_line_en": "Contemplating the humility of God who became man.",
         "hero_line_vi": "Sống ân sủng Tuần Bát Nhật Giáng Sinh trong ngày Wednesday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Wednesday of Christmas Octave, and draw me ever closer to Your Sacred Heart.",
+        "prayer_prompt_en": "Lord, help us to see Your light in the silence of this day.",
         "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Wednesday của Tuần Bát Nhật Giáng Sinh, và kéo con lại gần Thánh Tâm Chúa."
       }
     },
@@ -10820,9 +10828,9 @@
       "weekday": "Thursday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feast",
+        "rank": "Feria",
         "color": "white",
-        "title_en": "7th Day within the Octave of the Nativity of the Lord",
+        "title_en": "Seventh Day within the Octave of the Nativity of the Lord",
         "title_vi": "Ngày thứ 7 trong Tuần Bát Nhật Giáng Sinh"
       },
       "calendars": {
@@ -10834,40 +10842,42 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "7th Day within the Octave of the Nativity of the Lord",
+        "title_en": "Seventh Day within the Octave of the Nativity of the Lord",
         "title_vi": "Ngày thứ 7 trong Tuần Bát Nhật Giáng Sinh",
-        "summary_en": "This Thursday falls within the sacred liturgical season of Christmas Octave. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Thursday này nằm trong mùa phụng vụ thánh thiện Tuần Bát Nhật Giáng Sinh. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Christmas Octave, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Thursday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+        "summary_en": "December 31 marks the Seventh Day within the Octave of the Nativity of the Lord, a feria day traditionally commemorating the Holy Family and the transition into the New Year. While it falls within the Christmas Octave, the optional memorial of Saint Sylvester I, Pope, is often celebrated. The liturgical focus remains on the Incarnation and the Holy Name of Jesus, particularly in the context of the year's end.",
+        "summary_vi": "Ngày Thứ Năm này nằm trong mùa phụng vụ thánh thiện Tuần Bát Nhật Giáng Sinh. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+        "body_en": "As the Seventh Day of the Christmas Octave approaches its conclusion, the Church reflects on the hidden life of the Holy Family in Nazareth and the significance of the Incarnation entering human time. Although it is technically a feria day with the color white, many communities also honor the memory of Saint Sylvester I, who served as Pope during a pivotal moment for the early Church. The readings typically drawn from this period emphasize the light of Christ dawning upon the world, urging the faithful to contemplate the mystery of God becoming man. Since specific daily readings are not always printed in the short-form USCCB calendar for this feria, liturgical planners often rely on the Lectionary for Weekdays of the Christmas Season, focusing on passages about the Holy Name and the obedience of faith exemplified by Joseph and Mary.",
         "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Tuần Bát Nhật Giáng Sinh, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Thursday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-12-31.",
+        "confidence_note_en": "Identity as Seventh Day of the Octave is confirmed by USCCB calendar; readings are 'not printed' in the short-form daily PDF, implying reliance on the standard weekday lectionary for the Christmas season. Sylvester I is an optional memorial.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-31."
       },
-      "place": null,
+      "place": {
+        "name": "Jerusalem"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Christmas Octave",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Calendar",
+          "url": "https://www.usccb.org/calendar/daily",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Daily Readings 2026-12-31",
+          "url": "https://bible.usccb.org/bible/readings/123126.cfm",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Christmas Octave on this Thursday",
+        "hero_line_en": "In the quiet of the final day, we gaze upon the Holy Family and the name that saves.",
         "hero_line_vi": "Sống ân sủng Tuần Bát Nhật Giáng Sinh trong ngày Thursday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Thursday of Christmas Octave, and draw me ever closer to Your Sacred Heart.",
+        "prayer_prompt_en": "Lord, as the year closes, teach us to call upon the Holy Name of Jesus with the faith of Joseph and Mary.",
         "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Thursday của Tuần Bát Nhật Giáng Sinh, và kéo con lại gần Thánh Tâm Chúa."
       }
     }
