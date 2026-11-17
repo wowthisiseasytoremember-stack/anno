@@ -4,10 +4,10 @@
   "weekday": "Saturday",
   "mock_priority": "engine_b_v1",
   "liturgical": {
-    "rank": "Feria",
-    "color": "green",
-    "title_en": "Saturday of the 28th Week in Ordinary Time",
-    "title_vi": "Thứ Bảy tuần 28 Mùa Thường Niên"
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "Saint Ignatius of Antioch, Bishop and Martyr",
+    "title_vi": ""
   },
   "calendars": {
     "julian": "2026-10-04",
@@ -17,41 +17,43 @@
     "ethiopian": "7 Tikemet 2019"
   },
   "primary": {
-    "type": "liturgical_day",
-    "title_en": "Saturday of the 28th Week in Ordinary Time",
-    "title_vi": "Thứ Bảy tuần 28 Mùa Thường Niên",
-    "summary_en": "This Saturday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-    "summary_vi": "Ngày Saturday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-    "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Saturday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-    "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Saturday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+    "type": "memorial",
+    "title_en": "Saint Ignatius of Antioch, Bishop and Martyr",
+    "title_vi": "",
+    "summary_en": "Saint Ignatius of Antioch, Bishop and Martyr, is commemorated on October 17 as a memorial of a pivotal figure in early Church history and apostolic tradition. Celebrated in red vestments, the liturgy highlights his martyrdom and his profound theological writings composed during his journey to Rome. The day's official readings, Ephesians 1:15-23 and Luke 12:8-12, resonate with his emphasis on unity and faith. This observance honors his witness as the third bishop of Antioch and a student of the Apostle John.",
+    "summary_vi": "",
+    "body_en": "Saint Ignatius, often called Theophorus, served as the bishop of Antioch in Syria during the late first and early second centuries. According to tradition, he was instructed by the Apostle John and later succeeded Evodius. During the reign of Emperor Trajan, Ignatius was arrested and transported to Rome to be martyred by wild beasts in the Colosseum. Along his journey, he wrote seven concise letters to various churches and individuals, including the Church of Ephesus. These writings are crucial sources for understanding early Christian ecclesiology, particularly the doctrine of the episcopacy and the rejection of Docetism. His letters serve as a bridge between the apostolic age and the developing patristic theology.\n\nThe liturgical readings for this day include Ephesians 1:15-23 and Luke 12:8-12, chosen for their thematic resonance with Ignatian theology. The Epistle reading from Ephesians, which Ignatius himself wrote to during his journey, emphasizes the supremacy of Christ over all creation and the Church as His body. This aligns with Ignatius's own teachings on the necessity of unity with the bishop. The Gospel from Luke, where Jesus speaks of acknowledging Him before men, mirrors the courage Ignatius displayed in facing martyrdom. His famous desire to be 'wheat of Christ, ground by the teeth of beasts' reflects the steadfastness called for in the Gospel. The memorial thus invites the faithful to contemplate the cost of discipleship and the centrality of Christ in the life of the Church.",
+    "body_vi": "",
     "confidence": "confirmed",
-    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-17.",
-    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-17."
+    "confidence_note_en": "The date, rank, and readings are strictly according to the USCCB 2026 Liturgical Calendar. Historical details regarding Ignatius are widely accepted, though precise dates of his martyrdom vary slightly among scholars.",
+    "confidence_note_vi": ""
   },
-  "place": null,
+  "place": {
+    "name": "Antioch, Turkey"
+  },
   "artwork": {
-    "title": "Liturgical Meditation for Ordinary Time",
-    "maker": "Christian Sacred Art",
-    "date_label": "Historical",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+    "title": null,
+    "maker": null,
+    "date_label": null,
+    "source_url": null,
     "status": "placeholder_only"
   },
   "sources": [
     {
-      "label": "USCCB Liturgical Calendar 2026",
-      "url": "https://bible.usccb.org/daily-bible-reading",
-      "type": "liturgical_calendar"
+      "label": "New Advent: Catholic Encyclopedia - St. Ignatius",
+      "url": "https://www.newadvent.org/cathen/07644a.htm",
+      "type": "encyclopedia"
     },
     {
-      "label": "General Roman Calendar 2026",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-      "type": "vatican"
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
     }
   ],
   "app_hooks": {
-    "hero_line_en": "Live the grace of Ordinary Time on this Saturday",
-    "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Saturday",
-    "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Saturday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-    "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Saturday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+    "hero_line_en": "Ignatius of Antioch: Bishop, Martyr, and Voice of Apostolic Unity",
+    "hero_line_vi": "",
+    "prayer_prompt_en": "Grant us, O God, the faith of St. Ignatius, who sought union with Christ above all earthly things.",
+    "prayer_prompt_vi": ""
   }
 }

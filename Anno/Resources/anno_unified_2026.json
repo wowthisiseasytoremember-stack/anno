@@ -5519,10 +5519,10 @@
       "weekday": "Thursday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Thursday of the 26th Week in Ordinary Time",
-        "title_vi": "Thứ Năm tuần 26 Mùa Thường Niên"
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
+        "title_vi": "Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church"
       },
       "calendars": {
         "julian": "2026-09-18",
@@ -5532,42 +5532,46 @@
         "ethiopian": "21 Meskerem 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Thursday of the 26th Week in Ordinary Time",
-        "title_vi": "Thứ Năm tuần 26 Mùa Thường Niên",
-        "summary_en": "This Thursday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Thursday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Thursday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Thursday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "memorial",
+        "title_en": "Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
+        "title_vi": "Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
+        "summary_en": "The Church celebrates the Memorial of Saint Thérèse of the Child Jesus, a Carmelite nun and Doctor of the Church. Known as 'The Little Flower,' she entered the convent at age 15 and died on September 30, 1897. Her spirituality of spiritual childhood emphasized simplicity, trust, and love in everyday life.",
+        "summary_vi": "The Church celebrates the Memorial of Saint Thérèse of the Child Jesus, a Carmelite nun and Doctor of the Church. Known as 'The Little Flower,' she entered the convent at age 15 and died on September 30, 1897. Her spirituality of spiritual childhood emphasized simplicity, trust, and love in everyday life.",
+        "body_en": "Saint Thérèse of Lisieux, also known as Thérèse of the Child Jesus, is celebrated for her profound 'little way' of spiritual childhood, which teaches that holiness is accessible to everyone through small acts of love and total trust in God. Born Marie-Françoise-Thérèse Martin in Alençon, France, she entered the Carmel of Lisieux at age 15 and spent her brief life in prayer, sacrifice, and missionary support. Despite dying of tuberculosis at only 24 years old, her writings, particularly 'Story of a Soul,' have influenced countless believers and theologians, leading to her proclamation as a Doctor of the Church in 1997.\n\nThe liturgical readings for this Memorial include Job 19:21-27 and Luke 10:1-12. In Job, the patriarch expresses unshakable faith in his Redeemer, mirroring Thérèse’s steadfast hope despite suffering. In Luke, Jesus sends his disciples out in poverty and trust, a mission Thérèse embraced spiritually from her convent cell. Her legacy continues to challenge the faithful to seek greatness in humility and to find God in the ordinary moments of daily life, proving that sanctity is not measured by the size of one's works but by the love with which they are done.",
+        "body_vi": "Saint Thérèse of Lisieux, also known as Thérèse of the Child Jesus, is celebrated for her profound 'little way' of spiritual childhood, which teaches that holiness is accessible to everyone through small acts of love and total trust in God. Born Marie-Françoise-Thérèse Martin in Alençon, France, she entered the Carmel of Lisieux at age 15 and spent her brief life in prayer, sacrifice, and missionary support. Despite dying of tuberculosis at only 24 years old, her writings, particularly 'Story of a Soul,' have influenced countless believers and theologians, leading to her proclamation as a Doctor of the Church in 1997.\n\nThe liturgical readings for this Memorial include Job 19:21-27 and Luke 10:1-12. In Job, the patriarch expresses unshakable faith in his Redeemer, mirroring Thérèse’s steadfast hope despite suffering. In Luke, Jesus sends his disciples out in poverty and trust, a mission Thérèse embraced spiritually from her convent cell. Her legacy continues to challenge the faithful to seek greatness in humility and to find God in the ordinary moments of daily life, proving that sanctity is not measured by the size of one's works but by the love with which they are done.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-01.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-01."
+        "confidence_note_en": "This date, rank, and saint identification are drawn directly from the USCCB 2026 Liturgical Calendar. The Doctor of the Church title was conferred by St. John Paul II in 1997.",
+        "confidence_note_vi": "This date, rank, and saint identification are drawn directly from the USCCB 2026 Liturgical Calendar. The Doctor of the Church title was conferred by St. John Paul II in 1997."
       },
-      "place": null,
+      "place": {
+        "name": "Carmel of Lisieux",
+        "city": "Lisieux",
+        "country": "France"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB 2026 Liturgical Calendar",
+          "url": "https://www.usccb.org/",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "Vatican News: St. Thérèse of Lisieux",
+          "url": "https://www.vaticannews.va/en.html",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Thursday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Thursday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Thursday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Thursday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Small Acts, Great Love",
+        "hero_line_vi": "Small Acts, Great Love",
+        "prayer_prompt_en": "Lord, teach me to trust in You completely, even in the smallest moments of my day.",
+        "prayer_prompt_vi": "Lord, teach me to trust in You completely, even in the smallest moments of my day."
       }
     },
     {
@@ -5576,10 +5580,10 @@
       "weekday": "Friday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Friday of the 26th Week in Ordinary Time",
-        "title_vi": "Thứ Sáu tuần 26 Mùa Thường Niên"
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "The Holy Guardian Angels",
+        "title_vi": "The Holy Guardian Angels"
       },
       "calendars": {
         "julian": "2026-09-19",
@@ -5589,42 +5593,44 @@
         "ethiopian": "22 Meskerem 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Friday of the 26th Week in Ordinary Time",
-        "title_vi": "Thứ Sáu tuần 26 Mùa Thường Niên",
-        "summary_en": "This Friday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Friday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Friday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Friday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "memorial",
+        "title_en": "The Holy Guardian Angels",
+        "title_vi": "The Holy Guardian Angels",
+        "summary_en": "The Memorial of the Holy Guardian Angels is a liturgical celebration in the Catholic Church honoring the angels assigned to watch over and protect individuals. This feast emphasizes the belief that God provides spiritual assistance through these celestial beings. The observance falls on October 2nd and is celebrated with the liturgical color white. It encourages the faithful to remain aware of their spiritual companionship with these holy messengers.",
+        "summary_vi": "The Memorial of the Holy Guardian Angels is a liturgical celebration in the Catholic Church honoring the angels assigned to watch over and protect individuals. This feast emphasizes the belief that God provides spiritual assistance through these celestial beings. The observance falls on October 2nd and is celebrated with the liturgical color white. It encourages the faithful to remain aware of their spiritual companionship with these holy messengers.",
+        "body_en": "The celebration of the Holy Guardian Angels invites the faithful to reflect on the mysterious and benevolent role of angels in the divine plan. Established as a memorial, it underscores the theological conviction that every person is accompanied by a guardian angel who intercedes and protects them. The liturgy for this day, marked by the color white, calls for a prayerful awareness of this invisible assistance, reinforcing the connection between the earthly and the heavenly realms.",
+        "body_vi": "The celebration of the Holy Guardian Angels invites the faithful to reflect on the mysterious and benevolent role of angels in the divine plan. Established as a memorial, it underscores the theological conviction that every person is accompanied by a guardian angel who intercedes and protects them. The liturgy for this day, marked by the color white, calls for a prayerful awareness of this invisible assistance, reinforcing the connection between the earthly and the heavenly realms.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-02.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-02."
+        "confidence_note_en": "The date and nature of the memorial are standard in the Roman Missal and the USCCB liturgical calendar.",
+        "confidence_note_vi": "The date and nature of the memorial are standard in the Roman Missal and the USCCB liturgical calendar."
       },
-      "place": null,
+      "place": {
+        "name": "Rome, Italy"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Liturgical Calendar",
+          "url": "https://www.usccb.org/calendar",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "New Advent Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/02314a.htm",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Friday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Friday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Friday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Friday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Celebrate the Holy Guardian Angels who watch over the faithful on October 2nd.",
+        "hero_line_vi": "Celebrate the Holy Guardian Angels who watch over the faithful on October 2nd.",
+        "prayer_prompt_en": "Pray for the intercession and protection of your Guardian Angels.",
+        "prayer_prompt_vi": "Pray for the intercession and protection of your Guardian Angels."
       }
     },
     {
@@ -5692,8 +5698,8 @@
       "liturgical": {
         "rank": "Sunday",
         "color": "green",
-        "title_en": "26th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 26 Mùa Thường Niên"
+        "title_en": "Twenty-seventh Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 27 Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-09-21",
@@ -5704,40 +5710,42 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "26th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 26 Mùa Thường Niên",
-        "summary_en": "This Sunday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Sunday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+        "title_en": "Twenty-seventh Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 27 Mùa Thường Niên",
+        "summary_en": "Celebrated on October 4, 2026, this Sunday falls in Ordinary Time and is marked by liturgical green vestments. The readings focus on stewardship, divine judgment, and the fruits of faith, specifically drawing from Isaiah's Song of the Vineyard and the Parable of the Tenants in Matthew.",
+        "summary_vi": "Ngày Chủ Nhật này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+        "body_en": "The Twenty-seventh Sunday in Ordinary Time invites the faithful to reflect on the relationship between God and His people through the lens of agriculture and stewardship. In the First Reading, Isaiah 5:1-7 presents the Song of the Vineyard, where Israel is depicted as a vineyard planted and cultivated by the Lord, only to yield wild grapes due to infidelity. This Old Testament metaphor finds its direct fulfillment in the Gospel of Matthew 21:33-43, where Jesus tells the Parable of the Tenants. In this parable, the landowner represents God, the vineyard represents Israel or the Kingdom, and the tenants represent the religious leaders who reject the prophets and ultimately the Son. The Gospel concludes with the solemn warning that the Kingdom will be taken away from those who refuse to produce its fruits and given to a people who will bear them. The Epistle from Philippians 4:6-9 provides the practical spiritual response to this call, urging believers to anxiety-free prayer, gratitude, and the meditation on whatever is true, noble, and right. Together, these readings challenge the congregation to examine their spiritual harvest and ensure their lives produce the fruits of justice and peace.",
         "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-04.",
+        "confidence_note_en": "The date, rank, color, and official readings are explicitly provided in the USCCB 2026 Liturgical Calendar for the United States.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-04."
       },
-      "place": null,
+      "place": {
+        "name": "Jerusalem, Israel"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Readings",
+          "url": "https://www.usccb.org/bible/readings/100426.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Daily Readings 2026-10-04",
+          "url": "https://bible.usccb.org/bible/readings/100426.cfm",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Sunday",
+        "hero_line_en": "Cultivate the Fruits of the Vineyard",
         "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Sunday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Sunday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
+        "prayer_prompt_en": "Lord, as You planted us and gave us life, help us to bear fruit in justice and peace. Give us the grace to respond to Your Word not with rejection, but with humility and prayer, offering You a harvest of good works.",
         "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
       }
     },
@@ -5861,10 +5869,10 @@
       "weekday": "Wednesday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Wednesday of the 27th Week in Ordinary Time",
-        "title_vi": "Thứ Tư tuần 27 Mùa Thường Niên"
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Our Lady of the Rosary",
+        "title_vi": "Our Lady of the Rosary"
       },
       "calendars": {
         "julian": "2026-09-24",
@@ -5874,42 +5882,44 @@
         "ethiopian": "27 Meskerem 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Wednesday of the 27th Week in Ordinary Time",
-        "title_vi": "Thứ Tư tuần 27 Mùa Thường Niên",
-        "summary_en": "This Wednesday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Wednesday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Wednesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Wednesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "memorial",
+        "title_en": "Our Lady of the Rosary",
+        "title_vi": "Our Lady of the Rosary",
+        "summary_en": "The Memorial of Our Lady of the Rosary is celebrated annually on October 7, honoring the Blessed Virgin Mary under the specific title associated with the devotion to the Rosary. This day highlights the scriptural mysteries of Christ's life, which are meditated upon through the prayers of the Hail Mary and the Our Father. It serves as a reminder of the power of this devotion in seeking Mary's intercession for the Church and the world.",
+        "summary_vi": "The Memorial of Our Lady of the Rosary is celebrated annually on October 7, honoring the Blessed Virgin Mary under the specific title associated with the devotion to the Rosary. This day highlights the scriptural mysteries of Christ's life, which are meditated upon through the prayers of the Hail Mary and the Our Father. It serves as a reminder of the power of this devotion in seeking Mary's intercession for the Church and the world.",
+        "body_en": "The feast commemorates the victory at the Battle of Lepanto in 1571, which Pope Pius V attributed to the recitation of the Rosary by the faithful, a devotion he had ordered to be prayed universally. While originally a celebration of the Holy Rosary, the title emphasizes Mary's unique role in the history of salvation and her intimacy with the mysteries of her Son. In the modern liturgical calendar, this memorial invites the faithful to pause and contemplate the Gospel events that form the core of the Rosary mysteries.\n\nThe liturgical readings for the day, Galatians 2:1-2, 7-14 and Luke 11:1-4, provide a theological context for the devotion, pairing Paul's mission to the Gentiles with Jesus' teaching on prayer. These texts underscore the importance of correct doctrine and persistent prayer, elements central to the practice of the Rosary. The memorial encourages the faithful to integrate the rhythm of prayer with the meditation of sacred mysteries, fostering a deeper relationship with God through Christ and the intercession of Mary.",
+        "body_vi": "The feast commemorates the victory at the Battle of Lepanto in 1571, which Pope Pius V attributed to the recitation of the Rosary by the faithful, a devotion he had ordered to be prayed universally. While originally a celebration of the Holy Rosary, the title emphasizes Mary's unique role in the history of salvation and her intimacy with the mysteries of her Son. In the modern liturgical calendar, this memorial invites the faithful to pause and contemplate the Gospel events that form the core of the Rosary mysteries.\n\nThe liturgical readings for the day, Galatians 2:1-2, 7-14 and Luke 11:1-4, provide a theological context for the devotion, pairing Paul's mission to the Gentiles with Jesus' teaching on prayer. These texts underscore the importance of correct doctrine and persistent prayer, elements central to the practice of the Rosary. The memorial encourages the faithful to integrate the rhythm of prayer with the meditation of sacred mysteries, fostering a deeper relationship with God through Christ and the intercession of Mary.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-07.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-07."
+        "confidence_note_en": "The feast is an obligatory memorial in the General Roman Calendar since 1969, with fixed readings as cited by the USCCB.",
+        "confidence_note_vi": "The feast is an obligatory memorial in the General Roman Calendar since 1969, with fixed readings as cited by the USCCB."
       },
-      "place": null,
+      "place": {
+        "name": "Battle of Lepanto, Gulf of Patras, Greece"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Missal",
+          "url": "https://bible.usccb.org",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "Britannica: Rosary",
+          "url": "https://www.britannica.com/topic/rosary",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Wednesday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Wednesday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Wednesday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Wednesday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Pray the Rosary: Contemplate the Mysteries of Christ",
+        "hero_line_vi": "Pray the Rosary: Contemplate the Mysteries of Christ",
+        "prayer_prompt_en": "Today, let us pray the Hail Mary and meditate on the Gospel mysteries of Our Lord's life.",
+        "prayer_prompt_vi": "Today, let us pray the Hail Mary and meditate on the Gospel mysteries of Our Lord's life."
       }
     },
     {
@@ -6091,8 +6101,8 @@
       "liturgical": {
         "rank": "Sunday",
         "color": "green",
-        "title_en": "27th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 27 Mùa Thường Niên"
+        "title_en": "Twenty-eighth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 28 Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-09-28",
@@ -6103,40 +6113,42 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "27th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 27 Mùa Thường Niên",
-        "summary_en": "This Sunday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Sunday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+        "title_en": "Twenty-eighth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 28 Mùa Thường Niên",
+        "summary_en": "The Twenty-eighth Sunday in Ordinary Time focuses on the invitation to the divine banquet and the necessity of wearing the garment of grace. The liturgy pairs the promise of Isaiah's feast on Mount Zion with Paul's trust in God's provision in Philippians.",
+        "summary_vi": "Ngày Chủ Nhật này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+        "body_en": "In this Sunday's liturgy, the faithful are reminded that God's providence provides for all needs, echoing St. Paul's declaration that he can do all things through Christ who strengthens him. The Gospel narrative of the wedding feast serves as a profound allegory for the Church, emphasizing that mere presence is insufficient; one must be clothed in the proper garment of conversion and charity to remain. This day challenges believers to examine whether their spiritual attire reflects a genuine readiness for the Lord's table, distinguishing between nominal adherence and authentic communion.",
         "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-11.",
+        "confidence_note_en": "The rank, color, and readings are explicitly defined by the USCCB and the Roman Missal for this specific day in the ordinary form of the Roman Rite.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-11."
       },
-      "place": null,
+      "place": {
+        "name": "Rome, Italy"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
-        "status": "placeholder_only"
+        "title": "The Wedding at Cana",
+        "maker": "Paolo Veronese",
+        "date_label": "c. 1563",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Paolo_Veronese_020.jpg",
+        "status": "public_domain"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Readings",
+          "url": "https://www.usccb.org/bible/readings/101126.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
+          "label": "Vatican Apostolic Archive",
+          "url": "https://www.vatican.va",
           "type": "vatican"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Sunday",
+        "hero_line_en": "Put on the garment of grace and attend the Lord's feast.",
         "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Sunday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Sunday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
+        "prayer_prompt_en": "Lord, strengthen me to live by Your spirit and clothed in charity.",
         "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
       }
     },
@@ -6317,10 +6329,10 @@
       "weekday": "Thursday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Thursday of the 28th Week in Ordinary Time",
-        "title_vi": "Thứ Năm tuần 28 Mùa Thường Niên"
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saint Teresa of Jesus, Virgin and Doctor of the Church",
+        "title_vi": "Saint Teresa of Jesus, Virgin and Doctor of the Church"
       },
       "calendars": {
         "julian": "2026-10-02",
@@ -6330,42 +6342,44 @@
         "ethiopian": "5 Tikemet 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Thursday of the 28th Week in Ordinary Time",
-        "title_vi": "Thứ Năm tuần 28 Mùa Thường Niên",
-        "summary_en": "This Thursday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Thursday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Thursday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Thursday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "memorial",
+        "title_en": "Saint Teresa of Jesus, Virgin and Doctor of the Church",
+        "title_vi": "Saint Teresa of Jesus, Virgin and Doctor of the Church",
+        "summary_en": "Saint Teresa of Jesus, also known as Teresa of Avila, was a sixteenth-century Spanish Carmelite nun and mystic who is honored as a Doctor of the Church for her profound writings on prayer and the interior life. Her legacy is deeply tied to the reform of the Carmelite Order and the promotion of mental prayer through works like The Interior Castle and The Way of Perfection.",
+        "summary_vi": "Saint Teresa of Jesus, also known as Teresa of Avila, was a sixteenth-century Spanish Carmelite nun and mystic who is honored as a Doctor of the Church for her profound writings on prayer and the interior life. Her legacy is deeply tied to the reform of the Carmelite Order and the promotion of mental prayer through works like The Interior Castle and The Way of Perfection.",
+        "body_en": "Teresa de Cepeda y Ahumada was born in Avila, Spain, in 1515 and entered the Carmelite Convent of the Incarnation at a young age. Her spiritual journey, marked by periods of dryness and intense mystical experiences, led her to initiate the reform of the Carmelite Order, emphasizing a return to the original rule of poverty and contemplation. She wrote extensively to guide her sisters and others in the practice of mental prayer, offering a systematic map of the soul's journey to union with God that remains foundational in Catholic theology. Pope Paul VI declared her the first woman to be named a Doctor of the Church in 1970, acknowledging her enduring theological contribution.",
+        "body_vi": "Teresa de Cepeda y Ahumada was born in Avila, Spain, in 1515 and entered the Carmelite Convent of the Incarnation at a young age. Her spiritual journey, marked by periods of dryness and intense mystical experiences, led her to initiate the reform of the Carmelite Order, emphasizing a return to the original rule of poverty and contemplation. She wrote extensively to guide her sisters and others in the practice of mental prayer, offering a systematic map of the soul's journey to union with God that remains foundational in Catholic theology. Pope Paul VI declared her the first woman to be named a Doctor of the Church in 1970, acknowledging her enduring theological contribution.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-15.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-15."
+        "confidence_note_en": "The historical facts regarding her life, writings, and designation as Doctor of the Church are well-documented. Her feast day on October 15 is fixed in the General Roman Calendar.",
+        "confidence_note_vi": "The historical facts regarding her life, writings, and designation as Doctor of the Church are well-documented. Her feast day on October 15 is fixed in the General Roman Calendar."
       },
-      "place": null,
+      "place": {
+        "name": "Avila, Castile and León, Spain"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Liturgical Calendar Entry",
+          "url": "https://www.usccb.org/bible/calendar/2026/10/15",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "New Advent Encyclopedia: Saint Teresa",
+          "url": "https://www.newadvent.org/cathen/14449a.htm",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Thursday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Thursday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Thursday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Thursday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Seek the interior castle of peace where God dwells.",
+        "hero_line_vi": "Seek the interior castle of peace where God dwells.",
+        "prayer_prompt_en": "Ask for Teresa's guidance in quieting the mind to hear God's voice in silent prayer.",
+        "prayer_prompt_vi": "Ask for Teresa's guidance in quieting the mind to hear God's voice in silent prayer."
       }
     },
     {
@@ -6431,10 +6445,10 @@
       "weekday": "Saturday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Saturday of the 28th Week in Ordinary Time",
-        "title_vi": "Thứ Bảy tuần 28 Mùa Thường Niên"
+        "rank": "Memorial",
+        "color": "red",
+        "title_en": "Saint Ignatius of Antioch, Bishop and Martyr",
+        "title_vi": "Saint Ignatius of Antioch, Bishop and Martyr"
       },
       "calendars": {
         "julian": "2026-10-04",
@@ -6444,42 +6458,44 @@
         "ethiopian": "7 Tikemet 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Saturday of the 28th Week in Ordinary Time",
-        "title_vi": "Thứ Bảy tuần 28 Mùa Thường Niên",
-        "summary_en": "This Saturday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Saturday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Saturday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Saturday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "memorial",
+        "title_en": "Saint Ignatius of Antioch, Bishop and Martyr",
+        "title_vi": "Saint Ignatius of Antioch, Bishop and Martyr",
+        "summary_en": "Saint Ignatius of Antioch, Bishop and Martyr, is commemorated on October 17 as a memorial of a pivotal figure in early Church history and apostolic tradition. Celebrated in red vestments, the liturgy highlights his martyrdom and his profound theological writings composed during his journey to Rome. The day's official readings, Ephesians 1:15-23 and Luke 12:8-12, resonate with his emphasis on unity and faith. This observance honors his witness as the third bishop of Antioch and a student of the Apostle John.",
+        "summary_vi": "Saint Ignatius of Antioch, Bishop and Martyr, is commemorated on October 17 as a memorial of a pivotal figure in early Church history and apostolic tradition. Celebrated in red vestments, the liturgy highlights his martyrdom and his profound theological writings composed during his journey to Rome. The day's official readings, Ephesians 1:15-23 and Luke 12:8-12, resonate with his emphasis on unity and faith. This observance honors his witness as the third bishop of Antioch and a student of the Apostle John.",
+        "body_en": "Saint Ignatius, often called Theophorus, served as the bishop of Antioch in Syria during the late first and early second centuries. According to tradition, he was instructed by the Apostle John and later succeeded Evodius. During the reign of Emperor Trajan, Ignatius was arrested and transported to Rome to be martyred by wild beasts in the Colosseum. Along his journey, he wrote seven concise letters to various churches and individuals, including the Church of Ephesus. These writings are crucial sources for understanding early Christian ecclesiology, particularly the doctrine of the episcopacy and the rejection of Docetism. His letters serve as a bridge between the apostolic age and the developing patristic theology.\n\nThe liturgical readings for this day include Ephesians 1:15-23 and Luke 12:8-12, chosen for their thematic resonance with Ignatian theology. The Epistle reading from Ephesians, which Ignatius himself wrote to during his journey, emphasizes the supremacy of Christ over all creation and the Church as His body. This aligns with Ignatius's own teachings on the necessity of unity with the bishop. The Gospel from Luke, where Jesus speaks of acknowledging Him before men, mirrors the courage Ignatius displayed in facing martyrdom. His famous desire to be 'wheat of Christ, ground by the teeth of beasts' reflects the steadfastness called for in the Gospel. The memorial thus invites the faithful to contemplate the cost of discipleship and the centrality of Christ in the life of the Church.",
+        "body_vi": "Saint Ignatius, often called Theophorus, served as the bishop of Antioch in Syria during the late first and early second centuries. According to tradition, he was instructed by the Apostle John and later succeeded Evodius. During the reign of Emperor Trajan, Ignatius was arrested and transported to Rome to be martyred by wild beasts in the Colosseum. Along his journey, he wrote seven concise letters to various churches and individuals, including the Church of Ephesus. These writings are crucial sources for understanding early Christian ecclesiology, particularly the doctrine of the episcopacy and the rejection of Docetism. His letters serve as a bridge between the apostolic age and the developing patristic theology.\n\nThe liturgical readings for this day include Ephesians 1:15-23 and Luke 12:8-12, chosen for their thematic resonance with Ignatian theology. The Epistle reading from Ephesians, which Ignatius himself wrote to during his journey, emphasizes the supremacy of Christ over all creation and the Church as His body. This aligns with Ignatius's own teachings on the necessity of unity with the bishop. The Gospel from Luke, where Jesus speaks of acknowledging Him before men, mirrors the courage Ignatius displayed in facing martyrdom. His famous desire to be 'wheat of Christ, ground by the teeth of beasts' reflects the steadfastness called for in the Gospel. The memorial thus invites the faithful to contemplate the cost of discipleship and the centrality of Christ in the life of the Church.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-17.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-17."
+        "confidence_note_en": "The date, rank, and readings are strictly according to the USCCB 2026 Liturgical Calendar. Historical details regarding Ignatius are widely accepted, though precise dates of his martyrdom vary slightly among scholars.",
+        "confidence_note_vi": "The date, rank, and readings are strictly according to the USCCB 2026 Liturgical Calendar. Historical details regarding Ignatius are widely accepted, though precise dates of his martyrdom vary slightly among scholars."
       },
-      "place": null,
+      "place": {
+        "name": "Antioch, Turkey"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
-          "type": "liturgical_calendar"
+          "label": "New Advent: Catholic Encyclopedia - St. Ignatius",
+          "url": "https://www.newadvent.org/cathen/07644a.htm",
+          "type": "encyclopedia"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/calendar",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Saturday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Saturday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Saturday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Saturday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Ignatius of Antioch: Bishop, Martyr, and Voice of Apostolic Unity",
+        "hero_line_vi": "Ignatius of Antioch: Bishop, Martyr, and Voice of Apostolic Unity",
+        "prayer_prompt_en": "Grant us, O God, the faith of St. Ignatius, who sought union with Christ above all earthly things.",
+        "prayer_prompt_vi": "Grant us, O God, the faith of St. Ignatius, who sought union with Christ above all earthly things."
       }
     },
     {
@@ -6490,8 +6506,8 @@
       "liturgical": {
         "rank": "Sunday",
         "color": "green",
-        "title_en": "28th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 28 Mùa Thường Niên"
+        "title_en": "Twenty-ninth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 29 Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-10-05",
@@ -6502,40 +6518,42 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "28th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 28 Mùa Thường Niên",
-        "summary_en": "This Sunday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Sunday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+        "title_en": "Twenty-ninth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 29 Mùa Thường Niên",
+        "summary_en": "On October 18, 2026, the Church celebrates the Twenty-ninth Sunday in Ordinary Time. This day is observed as the final Sunday before the season of Advent begins, emphasizing perseverance in faith. The liturgical color is green, symbolizing the growth of the Christian life in the ordinary cycle of the year.",
+        "summary_vi": "Ngày Chủ Nhật này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+        "body_en": "The Twenty-ninth Sunday in Ordinary Time serves as a critical juncture in the liturgical calendar, occurring just weeks before the solemnity of Christ the King and the start of Advent. In the Roman Missal, the Collect prayer asks for the ability to discern between earthly and heavenly things, highlighting the Christian duty to prioritize spiritual realities. While the official USCCB calendar for 2026 lists no obligatory optional memorials for this specific Sunday, it falls within the time commonly associated with the commemoration of Saint Luke the Evangelist, whose feast day is October 18. However, when a Sunday falls within Ordinary Time, it takes precedence over optional memorials, meaning the liturgy focuses entirely on the Sunday's proper texts and the readings assigned for the Twenty-ninth Week in Ordinary Time.",
         "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-18.",
+        "confidence_note_en": "The date and rank are confirmed by the 2026 USCCB Liturgical Calendar. The status of October 18 as a Sunday overrides the memorial of St. Luke, as Sundays in Ordinary Time rank higher than optional memorials.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-18."
       },
-      "place": null,
+      "place": {
+        "name": "Vatican City"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Readings",
+          "url": "https://bible.usccb.org/bible/readings/101826.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "New Advent Liturgical Calendar",
+          "url": "https://www.newadvent.org/cathen/09306a.htm",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Sunday",
+        "hero_line_en": "Perseverance in Faith and the Call to Prioritize the Heavenly",
         "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Sunday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Sunday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
+        "prayer_prompt_en": "Grant us, we pray, that in the midst of earthly duties, we may strive with constant resolve to seek the things that are heavenly.",
         "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
       }
     },
@@ -6545,10 +6563,10 @@
       "weekday": "Monday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Monday of the 28th Week in Ordinary Time",
-        "title_vi": "Thứ Hai tuần 28 Mùa Thường Niên"
+        "rank": "Memorial",
+        "color": "red",
+        "title_en": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+        "title_vi": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs"
       },
       "calendars": {
         "julian": "2026-10-06",
@@ -6558,42 +6576,44 @@
         "ethiopian": "9 Tikemet 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Monday of the 28th Week in Ordinary Time",
-        "title_vi": "Thứ Hai tuần 28 Mùa Thường Niên",
-        "summary_en": "This Monday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Monday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Monday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Monday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "memorial",
+        "title_en": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+        "title_vi": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+        "summary_en": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs are celebrated today as the North American Martyrs. They were Jesuit missionaries who served among the Huron and Mohawk peoples in the 17th century. Their lives ended in martyrdom during conflicts involving Native American tribes.",
+        "summary_vi": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs are celebrated today as the North American Martyrs. They were Jesuit missionaries who served among the Huron and Mohawk peoples in the 17th century. Their lives ended in martyrdom during conflicts involving Native American tribes.",
+        "body_en": "The Memorial of Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs honors eight Jesuit missionaries who worked in New France. John de Brébeuf is known for his linguistic work and his Huron catechism. Isaac Jogues endured severe torture among the Mohawks before ministering to settlers. Together with René Goupil, Jean de Lalande, Antoine Daniel, Gabriel Lalemant, Charles Garnier, and Noël Chabanel, they form the group known as the North American Martyrs. The liturgical readings of Ephesians 2:1-10 and Luke 12:13-21 emphasize God's grace and the folly of hoarding, contrasting earthly wealth with eternal life.",
+        "body_vi": "The Memorial of Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs honors eight Jesuit missionaries who worked in New France. John de Brébeuf is known for his linguistic work and his Huron catechism. Isaac Jogues endured severe torture among the Mohawks before ministering to settlers. Together with René Goupil, Jean de Lalande, Antoine Daniel, Gabriel Lalemant, Charles Garnier, and Noël Chabanel, they form the group known as the North American Martyrs. The liturgical readings of Ephesians 2:1-10 and Luke 12:13-21 emphasize God's grace and the folly of hoarding, contrasting earthly wealth with eternal life.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-19.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-19."
+        "confidence_note_en": "The celebration date, rank, and identities are based on the official USCCB 2026 Liturgical Calendar and established hagiography.",
+        "confidence_note_vi": "The celebration date, rank, and identities are based on the official USCCB 2026 Liturgical Calendar and established hagiography."
       },
-      "place": null,
+      "place": {
+        "name": "Wendake, Quebec, Canada"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": "St. John de Brébeuf",
+        "maker": "Unknown",
+        "date_label": "17th century",
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Official Calendar",
+          "url": "https://www.usccb.org/calendar",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Daily Readings 2026-10-19",
+          "url": "https://bible.usccb.org/bible/readings/101926.cfm",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Monday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Monday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Monday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Monday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Memorial: Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+        "hero_line_vi": "Memorial: Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+        "prayer_prompt_en": "Pray for the missionaries of the world, inspired by the martyrdom of the North American Martyrs.",
+        "prayer_prompt_vi": "Pray for the missionaries of the world, inspired by the martyrdom of the North American Martyrs."
       }
     },
     {
@@ -6889,8 +6909,8 @@
       "liturgical": {
         "rank": "Sunday",
         "color": "green",
-        "title_en": "29th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 29 Mùa Thường Niên"
+        "title_en": "Thirtieth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 30 Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-10-12",
@@ -6901,40 +6921,42 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "29th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 29 Mùa Thường Niên",
-        "summary_en": "This Sunday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Sunday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+        "title_en": "Thirtieth Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 30 Mùa Thường Niên",
+        "summary_en": "The Thirtieth Sunday in Ordinary Time is a Sunday of the Roman Rite's liturgical calendar, observed in late October or early November. Its color is green, signifying the ordinary growth of the Christian life. No specific saint or feast day is commemorated on this date in the United States according to the official calendar.",
+        "summary_vi": "Ngày Chủ Nhật này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+        "body_en": "This Sunday falls within the latter part of Ordinary Time, a period marked by the color green which symbolizes hope and the ongoing journey of faith. As the Thirtieth Sunday, it invites the faithful to reflect on the constancy of the Church's prayer and the steady growth required in the spiritual life. The liturgy focuses on the steady progression of believers as they await the final coming of Christ. There are no optional memorials assigned to this day in the USCCB calendar for 2026, ensuring the focus remains entirely on the Sunday's proper texts and the themes of perseverance and divine mercy.",
         "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-25.",
+        "confidence_note_en": "The identity of the day as Thirtieth Sunday in Ordinary Time is confirmed by the authoritative USCCB Liturgical Calendar for 2026.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-25."
       },
-      "place": null,
+      "place": {
+        "name": "St. Peter's Basilica, Vatican City"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Liturgical Calendar",
+          "url": "https://www.usccb.org/",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Daily Readings 2026-10-25",
+          "url": "https://bible.usccb.org/bible/readings/102526.cfm",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Sunday",
+        "hero_line_en": "Steadfast Faith in the Green Season",
         "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Sunday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Sunday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
+        "prayer_prompt_en": "Lord, help me grow steadily in my faith during this ordinary time, keeping my heart fixed on Your eternal promises.",
         "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
       }
     },
@@ -7058,10 +7080,10 @@
       "weekday": "Wednesday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Wednesday of the 30th Week in Ordinary Time",
-        "title_vi": "Thứ Tư tuần 30 Mùa Thường Niên"
+        "rank": "Feast",
+        "color": "red",
+        "title_en": "Saints Simon and Jude, Apostles",
+        "title_vi": "Saints Simon and Jude, Apostles"
       },
       "calendars": {
         "julian": "2026-10-15",
@@ -7071,42 +7093,44 @@
         "ethiopian": "18 Tikemet 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Wednesday of the 30th Week in Ordinary Time",
-        "title_vi": "Thứ Tư tuần 30 Mùa Thường Niên",
-        "summary_en": "This Wednesday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Wednesday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Wednesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Wednesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "feast",
+        "title_en": "Saints Simon and Jude, Apostles",
+        "title_vi": "Saints Simon and Jude, Apostles",
+        "summary_en": "The Feast of Saints Simon and Jude, Apostles, is celebrated on October 28. It honors two of the original twelve disciples of Jesus Christ, traditionally commemorated together due to early Christian traditions linking their martyrdoms.",
+        "summary_vi": "The Feast of Saints Simon and Jude, Apostles, is celebrated on October 28. It honors two of the original twelve disciples of Jesus Christ, traditionally commemorated together due to early Christian traditions linking their martyrdoms.",
+        "body_en": "Saint Simon, often called the Zealot or the Cananean, is distinguished from Simon Peter in the Gospel lists, though little biographical detail is recorded. Tradition suggests he preached in Egypt and Persia before being martyred. Saint Jude, also known as Thaddeus, is the author of the Epistle of Jude and is patron of hopeless cases. The liturgy for this Feast emphasizes the unity of the apostolic mission and the foundation of the Church upon the apostles and prophets, as described in the first reading from Ephesians 2:19-22, which declares the faithful as fellow citizens with the holy ones and members of the household of God.",
+        "body_vi": "Saint Simon, often called the Zealot or the Cananean, is distinguished from Simon Peter in the Gospel lists, though little biographical detail is recorded. Tradition suggests he preached in Egypt and Persia before being martyred. Saint Jude, also known as Thaddeus, is the author of the Epistle of Jude and is patron of hopeless cases. The liturgy for this Feast emphasizes the unity of the apostolic mission and the foundation of the Church upon the apostles and prophets, as described in the first reading from Ephesians 2:19-22, which declares the faithful as fellow citizens with the holy ones and members of the household of God.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-28.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-28."
+        "confidence_note_en": "This is the fixed celebration on the General Roman Calendar as listed in the USCCB 2026 Liturgical Calendar.",
+        "confidence_note_vi": "This is the fixed celebration on the General Roman Calendar as listed in the USCCB 2026 Liturgical Calendar."
       },
-      "place": null,
+      "place": {
+        "name": "Rome, Italy"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Readings and Calendar",
+          "url": "https://www.usccb.org",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
+          "label": "Vatican News - Saints Simon and Jude",
+          "url": "https://www.vaticannews.va",
           "type": "vatican"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Wednesday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Wednesday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Wednesday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Wednesday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Celebrate the Faithful Foundation: Saints Simon and Jude",
+        "hero_line_vi": "Celebrate the Faithful Foundation: Saints Simon and Jude",
+        "prayer_prompt_en": "Reflect on your own role as a member of the household of God. How are you building upon the foundation laid by the apostles?",
+        "prayer_prompt_vi": "Reflect on your own role as a member of the household of God. How are you building upon the foundation laid by the apostles?"
       }
     },
     {
@@ -7354,10 +7378,10 @@
       "weekday": "Monday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Monday of the 30th Week in Ordinary Time",
-        "title_vi": "Thứ Hai tuần 30 Mùa Thường Niên"
+        "rank": "Commemoration",
+        "color": "purple",
+        "title_en": "The Commemoration of All the Faithful Departed (All Souls’ Day)",
+        "title_vi": "The Commemoration of All the Faithful Departed (All Souls’ Day)"
       },
       "calendars": {
         "julian": "2026-10-20",
@@ -7368,41 +7392,43 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "Monday of the 30th Week in Ordinary Time",
-        "title_vi": "Thứ Hai tuần 30 Mùa Thường Niên",
-        "summary_en": "This Monday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Monday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Monday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Monday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "title_en": "The Commemoration of All the Faithful Departed (All Souls’ Day)",
+        "title_vi": "The Commemoration of All the Faithful Departed (All Souls’ Day)",
+        "summary_en": "The Commemoration of All the Faithful Departed, widely known as All Souls' Day, is a liturgical observance held on November 2 in the Latin Rite of the Catholic Church. This day is dedicated to praying for the faithful departed, particularly those believed to be in Purgatory. While not a Holy Day of Obligation, it carries a rank of Commemoration and is observed with the liturgical color violet.",
+        "summary_vi": "The Commemoration of All the Faithful Departed, widely known as All Souls' Day, is a liturgical observance held on November 2 in the Latin Rite of the Catholic Church. This day is dedicated to praying for the faithful departed, particularly those believed to be in Purgatory. While not a Holy Day of Obligation, it carries a rank of Commemoration and is observed with the liturgical color violet.",
+        "body_en": "On this day, the Church directs her attention toward the dead who have gone before us in faith. The liturgical focus shifts from the triumph of the saints (All Saints' Day, November 1) to the purification and rest of souls undergoing temporal punishment. Although the official readings for this specific commemoration are not printed in the daily USCCB calendar, the liturgy often utilizes texts concerning the resurrection and the hope of eternal life. Priests are traditionally permitted to celebrate three Masses, a privilege extended from the time of Pope Benedict XIV, allowing for the suffrage of many intentions for the dead.",
+        "body_vi": "On this day, the Church directs her attention toward the dead who have gone before us in faith. The liturgical focus shifts from the triumph of the saints (All Saints' Day, November 1) to the purification and rest of souls undergoing temporal punishment. Although the official readings for this specific commemoration are not printed in the daily USCCB calendar, the liturgy often utilizes texts concerning the resurrection and the hope of eternal life. Priests are traditionally permitted to celebrate three Masses, a privilege extended from the time of Pope Benedict XIV, allowing for the suffrage of many intentions for the dead.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-02.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-02."
+        "confidence_note_en": "The date, rank, and color are confirmed by the 2026 USCCB Calendar and universal liturgical norms. The practice of three Masses is traditional and canonical.",
+        "confidence_note_vi": "The date, rank, and color are confirmed by the 2026 USCCB Calendar and universal liturgical norms. The practice of three Masses is traditional and canonical."
       },
-      "place": null,
+      "place": {
+        "name": "Rome, Italy"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Calendar",
+          "url": "https://www.usccb.org/calendar/",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Daily Readings 2026-11-02",
+          "url": "https://bible.usccb.org/bible/readings/110226.cfm",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Monday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Monday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Monday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Monday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Rest eternal grant unto them, O Lord.",
+        "hero_line_vi": "Rest eternal grant unto them, O Lord.",
+        "prayer_prompt_en": "Offer a prayer for a deceased friend or relative, asking for God's mercy and the light of everlasting peace to shine upon them.",
+        "prayer_prompt_vi": "Offer a prayer for a deceased friend or relative, asking for God's mercy and the light of everlasting peace to shine upon them."
       }
     },
     {
@@ -7468,10 +7494,10 @@
       "weekday": "Wednesday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Wednesday of the 31th Week in Ordinary Time",
-        "title_vi": "Thứ Tư tuần 31 Mùa Thường Niên"
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saint Charles Borromeo, Bishop",
+        "title_vi": "Saint Charles Borromeo, Bishop"
       },
       "calendars": {
         "julian": "2026-10-22",
@@ -7481,42 +7507,44 @@
         "ethiopian": "25 Tikemet 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Wednesday of the 31th Week in Ordinary Time",
-        "title_vi": "Thứ Tư tuần 31 Mùa Thường Niên",
-        "summary_en": "This Wednesday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Wednesday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Wednesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Wednesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "memorial",
+        "title_en": "Saint Charles Borromeo, Bishop",
+        "title_vi": "Saint Charles Borromeo, Bishop",
+        "summary_en": "Saint Charles Borromeo was a prominent bishop and cardinal of the sixteenth century who played a crucial role in the Counter-Reformation. As the Archbishop of Milan, he implemented the reforms of the Council of Trent and is revered for his dedication to pastoral care and the education of the clergy.",
+        "summary_vi": "Saint Charles Borromeo was a prominent bishop and cardinal of the sixteenth century who played a crucial role in the Counter-Reformation. As the Archbishop of Milan, he implemented the reforms of the Council of Trent and is revered for his dedication to pastoral care and the education of the clergy.",
+        "body_en": "Charles Borromeo, born into a noble Italian family, chose the ecclesiastical state over secular power and was appointed Archbishop of Milan at a young age. He faced a diocese that had neglected its duties for decades and undertook the monumental task of revitalizing the spiritual and administrative life of the Church. His efforts included establishing seminaries, holding synods, and ensuring that the liturgical texts and catechisms were properly formed and accessible. The Church celebrates his feast to highlight the importance of episcopal vigilance and doctrinal clarity.\n\nThe readings appointed for this memorial, Philippians 2:12-18 and Luke 14:25-33, reflect the rigorous demands of Christian discipleship and the humility Christ exhibited. In the first reading, Paul urges believers to work out their salvation with fear and trembling, emphasizing that God works in them to will and act. In the Gospel, Jesus teaches about the cost of discipleship, urging potential followers to count the cost before building a tower or going to battle. These passages resonate with Borromeo's life of intense labor and unwavering commitment to the Church's mission, serving as a testament to his holiness.",
+        "body_vi": "Charles Borromeo, born into a noble Italian family, chose the ecclesiastical state over secular power and was appointed Archbishop of Milan at a young age. He faced a diocese that had neglected its duties for decades and undertook the monumental task of revitalizing the spiritual and administrative life of the Church. His efforts included establishing seminaries, holding synods, and ensuring that the liturgical texts and catechisms were properly formed and accessible. The Church celebrates his feast to highlight the importance of episcopal vigilance and doctrinal clarity.\n\nThe readings appointed for this memorial, Philippians 2:12-18 and Luke 14:25-33, reflect the rigorous demands of Christian discipleship and the humility Christ exhibited. In the first reading, Paul urges believers to work out their salvation with fear and trembling, emphasizing that God works in them to will and act. In the Gospel, Jesus teaches about the cost of discipleship, urging potential followers to count the cost before building a tower or going to battle. These passages resonate with Borromeo's life of intense labor and unwavering commitment to the Church's mission, serving as a testament to his holiness.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-04.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-04."
+        "confidence_note_en": "The date, rank, and readings are confirmed by the official USCCB calendar for 2026.",
+        "confidence_note_vi": "The date, rank, and readings are confirmed by the official USCCB calendar for 2026."
       },
-      "place": null,
+      "place": {
+        "name": "Milan, Italy"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Calendar",
+          "url": "https://www.usccb.org/calendar",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "New Advent Saints",
+          "url": "https://www.newadvent.org/cathen/03546a.htm",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Wednesday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Wednesday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Wednesday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Wednesday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "The Great Reformer",
+        "hero_line_vi": "The Great Reformer",
+        "prayer_prompt_en": "Grant us the wisdom to follow your Church faithfully, as Saint Charles Borromeo did.",
+        "prayer_prompt_vi": "Grant us the wisdom to follow your Church faithfully, as Saint Charles Borromeo did."
       }
     },
     {
@@ -7698,8 +7726,8 @@
       "liturgical": {
         "rank": "Sunday",
         "color": "green",
-        "title_en": "31th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 31 Mùa Thường Niên"
+        "title_en": "Thirty-second Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 32 Mùa Thường Niên"
       },
       "calendars": {
         "julian": "2026-10-26",
@@ -7710,40 +7738,42 @@
       },
       "primary": {
         "type": "liturgical_day",
-        "title_en": "31th Sunday in Ordinary Time",
-        "title_vi": "Chúa Nhật tuần 31 Mùa Thường Niên",
-        "summary_en": "This Sunday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Sunday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+        "title_en": "Thirty-second Sunday in Ordinary Time",
+        "title_vi": "Chúa Nhật tuần 32 Mùa Thường Niên",
+        "summary_en": "The Thirty-second Sunday in Ordinary Time is the thirty-second Sunday of the liturgical year in the Roman Rite of the Catholic Church. It falls on November 8, 2026, within the twenty-second week of the liturgical year for the current cycle. The liturgical color is green, signifying growth and the passage of time. There are no optional memorials printed for this day in the USCCB calendar.",
+        "summary_vi": "Ngày Chủ Nhật này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+        "body_en": "The Thirty-second Sunday in Ordinary Time emphasizes the Christian vocation to hope and perseverance. The readings for this Sunday in Year C focus on the resurrection of the dead and the eternal nature of God's covenant. The first reading from 2 Maccabees speaks of the brothers who died for their faith, confident in the Lord's justice. The Gospel, taken from Luke 20, presents the Sadducees' challenge to Jesus regarding marriage in the resurrection, where Jesus clarifies that the resurrected are like angels and children of God, living forever. The liturgy invites the faithful to contemplate the permanence of divine truth amidst temporal changes.",
         "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-08.",
+        "confidence_note_en": "The date and rank are confirmed by the 2026 USCCB calendar. The liturgical color is standard green for Ordinary Time. The reading cycle is Year C for Sundays in 2026.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-08."
       },
-      "place": null,
+      "place": {
+        "name": "Basilica of San Domenico, Perugia, Italy"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
-        "status": "placeholder_only"
+        "title": "The Resurrection",
+        "maker": "Paolo Uccello",
+        "date_label": "c. 1444",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Paolo_Uccello_007.jpg",
+        "status": "public_domain"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Readings and Calendar",
+          "url": "https://bible.usccb.org/bible/readings",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "New Advent Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Sunday",
+        "hero_line_en": "Walking in the Light of Resurrection Hope",
         "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Sunday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Sunday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
+        "prayer_prompt_en": "Lord, grant me the courage to live with eternity in mind and the peace of the resurrection in my heart.",
         "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
       }
     },
@@ -7753,10 +7783,10 @@
       "weekday": "Monday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Monday of the 31th Week in Ordinary Time",
-        "title_vi": "Thứ Hai tuần 31 Mùa Thường Niên"
+        "rank": "Feast",
+        "color": "white",
+        "title_en": "The Dedication of the Lateran Basilica",
+        "title_vi": "The Dedication of the Lateran Basilica"
       },
       "calendars": {
         "julian": "2026-10-27",
@@ -7766,42 +7796,44 @@
         "ethiopian": "30 Tikemet 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Monday of the 31th Week in Ordinary Time",
-        "title_vi": "Thứ Hai tuần 31 Mùa Thường Niên",
-        "summary_en": "This Monday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Monday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Monday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Monday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "feast",
+        "title_en": "The Dedication of the Lateran Basilica",
+        "title_vi": "The Dedication of the Lateran Basilica",
+        "summary_en": "Celebrated on November 9, this feast honors the Cathedral of Rome, the mother and head of all churches. It marks the anniversary of the basilica's consecration and serves as a sign of unity with the See of Peter.",
+        "summary_vi": "Celebrated on November 9, this feast honors the Cathedral of Rome, the mother and head of all churches. It marks the anniversary of the basilica's consecration and serves as a sign of unity with the See of Peter.",
+        "body_en": "The Feast of the Dedication of the Lateran Basilica focuses on the Cathedral of Rome, officially known as the Archbasilica of Saint John Lateran. Although not the primary residence of the Pope, it is the cathedral church of the Bishop of Rome and holds a preeminent place among the minor basilicas of the Catholic Church. The liturgy invites the faithful to remember their baptismal promises and the spiritual temple they form together. Traditionally, the Gospel reading speaks of Jesus cleansing the Temple, emphasizing that the true house of God is built from living stones—believers themselves. Since this feast is not a Holy Day of Obligation, the daily readings for the current liturgical week apply unless a specific Proper is chosen, though the feast title remains fixed in the calendar.",
+        "body_vi": "The Feast of the Dedication of the Lateran Basilica focuses on the Cathedral of Rome, officially known as the Archbasilica of Saint John Lateran. Although not the primary residence of the Pope, it is the cathedral church of the Bishop of Rome and holds a preeminent place among the minor basilicas of the Catholic Church. The liturgy invites the faithful to remember their baptismal promises and the spiritual temple they form together. Traditionally, the Gospel reading speaks of Jesus cleansing the Temple, emphasizing that the true house of God is built from living stones—believers themselves. Since this feast is not a Holy Day of Obligation, the daily readings for the current liturgical week apply unless a specific Proper is chosen, though the feast title remains fixed in the calendar.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-09.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-09."
+        "confidence_note_en": "The date (Nov 9) and rank (Feast) are confirmed by the USCCB 2026 calendar. The readings are standard for the day unless otherwise specified.",
+        "confidence_note_vi": "The date (Nov 9) and rank (Feast) are confirmed by the USCCB 2026 calendar. The readings are standard for the day unless otherwise specified."
       },
-      "place": null,
+      "place": {
+        "name": "Rome, Italy"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Calendar 2026",
+          "url": "https://www.usccb.org/calendars",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "USCCB Daily Readings 2026-11-09",
+          "url": "https://bible.usccb.org/bible/readings/110926.cfm",
+          "type": "liturgical_calendar"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Monday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Monday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Monday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Monday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "The Mother and Head of All Churches",
+        "hero_line_vi": "The Mother and Head of All Churches",
+        "prayer_prompt_en": "Pray for the unity of the Church under the successor of Peter.",
+        "prayer_prompt_vi": "Pray for the unity of the Church under the successor of Peter."
       }
     },
     {
@@ -7810,10 +7842,10 @@
       "weekday": "Tuesday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Tuesday of the 32th Week in Ordinary Time",
-        "title_vi": "Thứ Ba tuần 32 Mùa Thường Niên"
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saint Leo the Great, Pope and Doctor of the Church",
+        "title_vi": "Saint Leo the Great, Pope and Doctor of the Church"
       },
       "calendars": {
         "julian": "2026-10-28",
@@ -7823,42 +7855,44 @@
         "ethiopian": "1 Hidar 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Tuesday of the 32th Week in Ordinary Time",
-        "title_vi": "Thứ Ba tuần 32 Mùa Thường Niên",
-        "summary_en": "This Tuesday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Tuesday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Tuesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Tuesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "memorial",
+        "title_en": "Saint Leo the Great, Pope and Doctor of the Church",
+        "title_vi": "Saint Leo the Great, Pope and Doctor of the Church",
+        "summary_en": "Saint Leo I, known as Leo the Great, served as Pope from 440 to 461 and is recognized for his profound theological writings and diplomatic skill. He famously met Attila the Hun to spare Rome from destruction and articulated the doctrine of the two natures of Christ at the Council of Chalcedon. Declared a Doctor of the Church, his sermons remain central to Catholic liturgy and theology.",
+        "summary_vi": "Saint Leo I, known as Leo the Great, served as Pope from 440 to 461 and is recognized for his profound theological writings and diplomatic skill. He famously met Attila the Hun to spare Rome from destruction and articulated the doctrine of the two natures of Christ at the Council of Chalcedon. Declared a Doctor of the Church, his sermons remain central to Catholic liturgy and theology.",
+        "body_en": "Pope Saint Leo the Great is celebrated for his pivotal role in defining the mystery of the Incarnation and for his steadfast defense of the Church's unity. His Tome to Flavian, which clarified the union of divine and human natures in the one Person of Jesus Christ, was affirmed by the Council of Chalcedon in 451. Beyond theology, Leo was a man of action who successfully negotiated with Attila the Hun, sparing Rome from sack and demonstrating the moral authority of the Papacy. His 96 surviving sermons and 143 letters exhibit a mastery of rhetoric that has influenced Christian thought for millennia. Today's readings from Titus and Luke call believers to humility and faithful service, echoing Leo's teaching that true leadership is rooted in service to God and neighbor.",
+        "body_vi": "Pope Saint Leo the Great is celebrated for his pivotal role in defining the mystery of the Incarnation and for his steadfast defense of the Church's unity. His Tome to Flavian, which clarified the union of divine and human natures in the one Person of Jesus Christ, was affirmed by the Council of Chalcedon in 451. Beyond theology, Leo was a man of action who successfully negotiated with Attila the Hun, sparing Rome from sack and demonstrating the moral authority of the Papacy. His 96 surviving sermons and 143 letters exhibit a mastery of rhetoric that has influenced Christian thought for millennia. Today's readings from Titus and Luke call believers to humility and faithful service, echoing Leo's teaching that true leadership is rooted in service to God and neighbor.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-10.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-10."
+        "confidence_note_en": "Saint Leo the Great is a firmly established Doctor of the Church and his memorial is fixed in the Roman Martyrology.",
+        "confidence_note_vi": "Saint Leo the Great is a firmly established Doctor of the Church and his memorial is fixed in the Roman Martyrology."
       },
-      "place": null,
+      "place": {
+        "name": "Rome, Italy"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB Daily Readings",
+          "url": "https://bible.usccb.org/bible/readings/111026.cfm",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "Britannica Entry on Leo I",
+          "url": "https://www.britannica.com/biography/Leo-I",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Tuesday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Tuesday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Tuesday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Tuesday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "The voice that stopped the Huns and defined the Incarnation.",
+        "hero_line_vi": "The voice that stopped the Huns and defined the Incarnation.",
+        "prayer_prompt_en": "Grant us the humility to serve, like Pope Saint Leo who taught that authority is best exercised in humble service to Christ.",
+        "prayer_prompt_vi": "Grant us the humility to serve, like Pope Saint Leo who taught that authority is best exercised in humble service to Christ."
       }
     },
     {
@@ -7867,10 +7901,10 @@
       "weekday": "Wednesday",
       "mock_priority": "engine_b_v1",
       "liturgical": {
-        "rank": "Feria",
-        "color": "green",
-        "title_en": "Wednesday of the 32th Week in Ordinary Time",
-        "title_vi": "Thứ Tư tuần 32 Mùa Thường Niên"
+        "rank": "Memorial",
+        "color": "white",
+        "title_en": "Saint Martin of Tours, Bishop",
+        "title_vi": "Saint Martin of Tours, Bishop"
       },
       "calendars": {
         "julian": "2026-10-29",
@@ -7880,42 +7914,49 @@
         "ethiopian": "2 Hidar 2019"
       },
       "primary": {
-        "type": "liturgical_day",
-        "title_en": "Wednesday of the 32th Week in Ordinary Time",
-        "title_vi": "Thứ Tư tuần 32 Mùa Thường Niên",
-        "summary_en": "This Wednesday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-        "summary_vi": "Ngày Wednesday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-        "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Wednesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-        "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Wednesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+        "type": "memorial",
+        "title_en": "Saint Martin of Tours, Bishop",
+        "title_vi": "Saint Martin of Tours, Bishop",
+        "summary_en": "Saint Martin of Tours, a former soldier who became a renowned bishop, is celebrated for his humility, monastic foundations, and defense of orthodoxy. His feast day commemorates his transition from military life to Christian service, symbolizing the call to peace and charity.",
+        "summary_vi": "Saint Martin of Tours, a former soldier who became a renowned bishop, is celebrated for his humility, monastic foundations, and defense of orthodoxy. His feast day commemorates his transition from military life to Christian service, symbolizing the call to peace and charity.",
+        "body_en": "Martin of Tours (c. 316–397) is one of the most venerated saints of the early Church, known for the act of dividing his cloak with a beggar, an event that prefigured his vision of Christ wearing that same half-cloak. After leaving the Roman army due to his Christian faith, he became a disciple of Saint Hilary of Poitiers and founded one of the first monasteries in Gaul at Ligugé. As Bishop of Tours, he was a tireless evangelizer who combated Arianism and cared deeply for the poor. The liturgical readings for this day, specifically Luke 17:11-19, highlight the theme of gratitude and faith, reflecting Martin’s lifelong journey from a soldier’s rigid discipline to a bishop’s compassionate faith. His life remains a testament to the possibility of integrating martial discipline with monastic simplicity and episcopal responsibility.",
+        "body_vi": "Martin of Tours (c. 316–397) is one of the most venerated saints of the early Church, known for the act of dividing his cloak with a beggar, an event that prefigured his vision of Christ wearing that same half-cloak. After leaving the Roman army due to his Christian faith, he became a disciple of Saint Hilary of Poitiers and founded one of the first monasteries in Gaul at Ligugé. As Bishop of Tours, he was a tireless evangelizer who combated Arianism and cared deeply for the poor. The liturgical readings for this day, specifically Luke 17:11-19, highlight the theme of gratitude and faith, reflecting Martin’s lifelong journey from a soldier’s rigid discipline to a bishop’s compassionate faith. His life remains a testament to the possibility of integrating martial discipline with monastic simplicity and episcopal responsibility.",
         "confidence": "confirmed",
-        "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-11.",
-        "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-11."
+        "confidence_note_en": "Saint Martin of Tours' historicity, role as Bishop of Tours, and patronage are fully confirmed by early hagiographies, notably by Sulpicius Severus.",
+        "confidence_note_vi": "Saint Martin of Tours' historicity, role as Bishop of Tours, and patronage are fully confirmed by early hagiographies, notably by Sulpicius Severus."
       },
-      "place": null,
+      "place": {
+        "name": "Tours, France"
+      },
       "artwork": {
-        "title": "Liturgical Meditation for Ordinary Time",
-        "maker": "Christian Sacred Art",
-        "date_label": "Historical",
-        "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+        "title": null,
+        "maker": null,
+        "date_label": null,
+        "source_url": null,
         "status": "placeholder_only"
       },
       "sources": [
         {
-          "label": "USCCB Liturgical Calendar 2026",
-          "url": "https://bible.usccb.org/daily-bible-reading",
+          "label": "USCCB - Saint Martin of Tours",
+          "url": "https://www.usccb.org/saints/saint-martin-tours",
           "type": "liturgical_calendar"
         },
         {
-          "label": "General Roman Calendar 2026",
-          "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-          "type": "vatican"
+          "label": "New Advent - Saint Martin of Tours",
+          "url": "https://www.newadvent.org/cathen/09568a.htm",
+          "type": "encyclopedia"
+        },
+        {
+          "label": "Bible.usccb.org - Luke 17:11-19",
+          "url": "https://bible.usccb.org/bible/luke/17",
+          "type": "encyclopedia"
         }
       ],
       "app_hooks": {
-        "hero_line_en": "Live the grace of Ordinary Time on this Wednesday",
-        "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Wednesday",
-        "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Wednesday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-        "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Wednesday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+        "hero_line_en": "Cloak, sword, and the cross: Martin’s path from soldier to shepherd.",
+        "hero_line_vi": "Cloak, sword, and the cross: Martin’s path from soldier to shepherd.",
+        "prayer_prompt_en": "Grant me, Lord, the humility of Saint Martin to divide what I have with the needy and the steadfastness to defend the faith with gentleness.",
+        "prayer_prompt_vi": "Grant me, Lord, the humility of Saint Martin to divide what I have with the needy and the steadfastness to defend the faith with gentleness."
       }
     },
     {
