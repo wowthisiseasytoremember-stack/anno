@@ -4,10 +4,10 @@
   "weekday": "Wednesday",
   "mock_priority": "engine_b_v1",
   "liturgical": {
-    "rank": "Feria",
-    "color": "green",
-    "title_en": "Wednesday of the 32th Week in Ordinary Time",
-    "title_vi": "Thứ Tư tuần 32 Mùa Thường Niên"
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Saint Martin of Tours, Bishop",
+    "title_vi": ""
   },
   "calendars": {
     "julian": "2026-10-29",
@@ -17,41 +17,48 @@
     "ethiopian": "2 Hidar 2019"
   },
   "primary": {
-    "type": "liturgical_day",
-    "title_en": "Wednesday of the 32th Week in Ordinary Time",
-    "title_vi": "Thứ Tư tuần 32 Mùa Thường Niên",
-    "summary_en": "This Wednesday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-    "summary_vi": "Ngày Wednesday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-    "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Wednesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-    "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Wednesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+    "type": "memorial",
+    "title_en": "Saint Martin of Tours, Bishop",
+    "title_vi": "",
+    "summary_en": "Saint Martin of Tours, a former soldier who became a renowned bishop, is celebrated for his humility, monastic foundations, and defense of orthodoxy. His feast day commemorates his transition from military life to Christian service, symbolizing the call to peace and charity.",
+    "summary_vi": "",
+    "body_en": "Martin of Tours (c. 316–397) is one of the most venerated saints of the early Church, known for the act of dividing his cloak with a beggar, an event that prefigured his vision of Christ wearing that same half-cloak. After leaving the Roman army due to his Christian faith, he became a disciple of Saint Hilary of Poitiers and founded one of the first monasteries in Gaul at Ligugé. As Bishop of Tours, he was a tireless evangelizer who combated Arianism and cared deeply for the poor. The liturgical readings for this day, specifically Luke 17:11-19, highlight the theme of gratitude and faith, reflecting Martin’s lifelong journey from a soldier’s rigid discipline to a bishop’s compassionate faith. His life remains a testament to the possibility of integrating martial discipline with monastic simplicity and episcopal responsibility.",
+    "body_vi": "",
     "confidence": "confirmed",
-    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-11.",
-    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-11."
+    "confidence_note_en": "Saint Martin of Tours' historicity, role as Bishop of Tours, and patronage are fully confirmed by early hagiographies, notably by Sulpicius Severus.",
+    "confidence_note_vi": ""
   },
-  "place": null,
+  "place": {
+    "name": "Tours, France"
+  },
   "artwork": {
-    "title": "Liturgical Meditation for Ordinary Time",
-    "maker": "Christian Sacred Art",
-    "date_label": "Historical",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+    "title": null,
+    "maker": null,
+    "date_label": null,
+    "source_url": null,
     "status": "placeholder_only"
   },
   "sources": [
     {
-      "label": "USCCB Liturgical Calendar 2026",
-      "url": "https://bible.usccb.org/daily-bible-reading",
+      "label": "USCCB - Saint Martin of Tours",
+      "url": "https://www.usccb.org/saints/saint-martin-tours",
       "type": "liturgical_calendar"
     },
     {
-      "label": "General Roman Calendar 2026",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-      "type": "vatican"
+      "label": "New Advent - Saint Martin of Tours",
+      "url": "https://www.newadvent.org/cathen/09568a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Bible.usccb.org - Luke 17:11-19",
+      "url": "https://bible.usccb.org/bible/luke/17",
+      "type": "reference"
     }
   ],
   "app_hooks": {
-    "hero_line_en": "Live the grace of Ordinary Time on this Wednesday",
-    "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Wednesday",
-    "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Wednesday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-    "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Wednesday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+    "hero_line_en": "Cloak, sword, and the cross: Martin’s path from soldier to shepherd.",
+    "hero_line_vi": "",
+    "prayer_prompt_en": "Grant me, Lord, the humility of Saint Martin to divide what I have with the needy and the steadfastness to defend the faith with gentleness.",
+    "prayer_prompt_vi": ""
   }
 }
