@@ -342,9 +342,18 @@ def main() -> None:
         en_path = RESEARCH / f"{d_str}_result.json"
         vi_path = RESEARCH / f"{d_str}_result_vi.json"
         if en_path.exists() and vi_path.exists():
-            skip += 1
-            cur += timedelta(days=1)
-            continue
+            try:
+                existing = json.loads(en_path.read_text(encoding="utf-8"))
+                if (isinstance(existing, dict)
+                        and isinstance(existing.get("liturgical"), dict)
+                        and isinstance(existing.get("primary"), dict)
+                        and len(existing.get("sources", [])) >= 2):
+                    skip += 1
+                    cur += timedelta(days=1)
+                    continue
+            except Exception:  # noqa: BLE001
+                pass  # malformed file: fall through and regenerate it
+            print(f"REPAIR {d_str}: invalid existing entry, regenerating")
         try:
             cs = cal_strings(cur)
             feast_note = FEAST_NOTES_2027.get(d_str, "")
