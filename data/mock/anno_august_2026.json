@@ -5,10 +5,10 @@
     "weekday": "Saturday",
     "mock_priority": "engine_b_v1",
     "liturgical": {
-      "rank": "Optional Memorial",
+      "rank": "Memorial",
       "color": "white",
       "title_en": "Saint Alphonsus Liguori, Bishop and Doctor of the Church",
-      "title_vi": "Thánh Anphongsô Liguori, Giám mục và Tiến sĩ Hội Thánh"
+      "title_vi": ""
     },
     "calendars": {
       "julian": "2026-07-19",
@@ -18,48 +18,46 @@
       "ethiopian": "25 Hamle 2018"
     },
     "primary": {
-      "type": "saint",
-      "title_en": "Saint Alphonsus Liguori",
-      "title_vi": "Thánh Anphongsô Liguori",
-      "summary_en": "Saint Alphonsus Liguori was an Italian bishop, a profoundly influential moral theologian, and the founder of the Congregation of the Most Holy Redeemer, commonly known as the Redemptorists.",
-      "summary_vi": "Thánh Anphongsô Liguori là một giám mục người Ý, một nhà thần học luân lý vô cùng có ảnh hưởng, và là người sáng lập Hội Cứu Chuộc (Redemptorists).",
-      "body_en": "Saint Alphonsus Liguori (1696–1787) was an Italian bishop, spiritual writer, and founder of the Redemptorists. His seminal work, *Theologia Moralis*, revolutionized Catholic moral theology by championing pastoral compassion and avoiding the extremes of rigorism and laxity. He retired to Pagani, where his treatises, including *The Glories of Mary*, remain highly influential.",
-      "body_vi": "Thánh Anphongsô Liguori (1696–1787) là một giám mục người Ý, nhà văn thiêng liêng, và người sáng lập Hội Cứu Chuộc. Tác phẩm để đời *Theologia Moralis* của ngài đã cách mạng hóa thần học luân lý Công giáo bằng cách đề cao lòng thương xót mục vụ và tránh hai thái cực quá nghiêm khắc hoặc quá dễ dãi. Ngài về hưu tại Pagani, nơi các luận thuyết của ngài, gồm *Sự Vinh Quang của Đức Maria*, vẫn có ảnh hưởng sâu rộng.",
+      "type": "memorial",
+      "title_en": "Saint Alphonsus Liguori, Bishop and Doctor of the Church",
+      "title_vi": "",
+      "summary_en": "Saint Alphonsus Maria de Liguori, born in 1696 in Naples, was a Bishop, Founder of the Redemptorists, and declared a Doctor of the Church for his profound contributions to moral theology and spiritual direction. His feast day is celebrated on August 1.",
+      "summary_vi": "",
+      "body_en": "Alphonsus Liguori was a Neapolitan polymath who transitioned from a successful legal career to the priesthood, becoming a renowned preacher, missionary, and writer. He founded the Congregation of the Most Holy Redeemer (Redemptorists) to minister to the poor and rural populations, emphasizing accessible preaching and pastoral care. His theological works, particularly The Moral Theology and The Glories of Mary, synthesized scholastic rigor with pastoral sensitivity, advocating for a spirituality centered on love and devotion rather than rigid asceticism. He was canonized in 1839 and declared a Doctor of the Church in 1871.",
+      "body_vi": "",
       "confidence": "confirmed",
-      "confidence_note_en": "Universal Roman Calendar maintains his optional memorial on August 1, corresponding to the date of his death in Pagani in 1787.",
-      "confidence_note_vi": "Lịch Roma phổ quát duy trì kỷ niệm tùy chọn của ngài vào ngày 1 tháng 8, tương ứng với ngày ngài qua đời tại Pagani năm 1787."
+      "confidence_note_en": "The feast date, title, and historical details are confirmed by the USCCB and Vatican records.",
+      "confidence_note_vi": ""
     },
     "place": {
-      "name": "Basilica of Sant'Alfonso, Pagani, Italy",
-      "latitude": 40.74236,
-      "longitude": 14.61096,
-      "confidence": "confirmed",
-      "source_url": "https://www.alamy.com/the-urn-containing-the-remains-of-santalfonso-maria-de-liguori-image368108368.html"
+      "name": "Santuari di Sant'Alfonso Maria de' Liguori",
+      "city": "Pagani",
+      "country": "Italy"
     },
     "artwork": {
-      "title": "Scultura bronzea di Sant'Alfonso Maria de Liguori",
-      "maker": "IgnazioWiki",
-      "date_label": "2018",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Scultura_bronzea_di_Sant%27Alfonso_Maria_de_Liguori.jpg",
+      "title": null,
+      "maker": null,
+      "date_label": null,
+      "source_url": null,
       "status": "placeholder_only"
     },
     "sources": [
       {
-        "label": "USCCB Daily Readings – Memorial of Saint Alphonsus Liguori",
-        "url": "https://bible.usccb.org/bible/readings/080126",
+        "label": "USCCB Calendar of Saints",
+        "url": "https://www.usccb.org/saints/alphonsus-liguori",
         "type": "liturgical_calendar"
       },
       {
-        "label": "Catholic Encyclopedia: Saint Alphonsus Liguori",
-        "url": "https://www.newadvent.org/cathen/013341.htm",
+        "label": "Britannica: Saint Alphonsus Maria de Liguori",
+        "url": "https://www.britannica.com/biography/Saint-Alphonsus-Maria-de-Liguori",
         "type": "encyclopedia"
       }
     ],
     "app_hooks": {
-      "hero_line_en": "Patron of moral theologians and confessors",
-      "hero_line_vi": "Bổn mạng các nhà thần học luân lý và linh mục giải tội",
-      "prayer_prompt_en": "Pray for ethical clarity and compassion in your decisions today.",
-      "prayer_prompt_vi": "Cầu xin sự sáng suốt đạo đức và lòng thương xót trong các quyết định của bạn hôm nay."
+      "hero_line_en": "Doctor of the Church, Alphonsus Liguori",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Pray: St. Alphonsus Liguori, Bishop and Doctor of the Church, pray for us.",
+      "prayer_prompt_vi": ""
     }
   },
   {
@@ -766,10 +764,10 @@
     "weekday": "Thursday",
     "mock_priority": "engine_b_v1",
     "liturgical": {
-      "rank": "Memorial",
+      "rank": "Optional Memorial",
       "color": "red",
       "title_en": "Saints Pontian, Pope, and Hippolytus, Priest, Martyrs",
-      "title_vi": "Các Thánh Pontiano, Giáo hoàng, và Hippolytus, Linh mục, Tử đạo"
+      "title_vi": ""
     },
     "calendars": {
       "julian": "2026-07-31",
@@ -780,22 +778,18 @@
     },
     "primary": {
       "type": "saint",
-      "title_en": "Saints Pontian and Hippolytus",
-      "title_vi": "Các Thánh Pontiano và Hippolytus",
-      "summary_en": "Pope Saint Pontian and the brilliant theologian Saint Hippolytus were third-century martyrs who, despite prior division, reconciled during their brutal exile in the mines of Sardinia.",
-      "summary_vi": "Giáo hoàng Thánh Pontiano và nhà thần học lỗi lạc Thánh Hippolytus là những vị tử đạo thế kỷ thứ ba, bất chấp những bất đồng trước đó, đã hoà giải với nhau trong cuộc lưu đày khắc nghiệt tại các mỏ Sardinia.",
-      "body_en": "Pope Saint Pontian and the priest Saint Hippolytus were third-century Roman leaders exiled to the brutal mines of Sardinia during imperial persecutions. Despite prior theological disputes and divisions, they reconciled in exile. Pontian resigned his papal office to ensure church unity, and both died as martyrs of charity, representing the triumph of ecclesiastical peace over discord.",
-      "body_vi": "Giáo hoàng Thánh Pontiano và linh mục Thánh Hippolytus là những lãnh đạo người Rôma thế kỷ thứ ba, bị lưu đày đến các mỏ khắc nghiệt của Sardinia trong các cuộc bách hại của đế quốc. Bất chấp những tranh luận thần học và chia rẽ trước đó, hai ngài đã hoà giải trong cảnh lưu đày. Pontiano từ chức giáo hoàng để bảo đảm sự hiệp nhất của Giáo hội, và cả hai qua đời như những vị tử đạo của lòng mến, biểu trưng cho chiến thắng của hoà bình Giáo hội trên sự bất hoà.",
+      "title_en": "Saints Pontian, Pope, and Hippolytus, Priest, Martyrs",
+      "title_vi": "",
+      "summary_en": "Saint Pontian, the first pope to resign, and Saint Hippolytus, a prominent priest and theologian, were martyred together in Sardinia. Their joint memorial highlights their reconciliation and shared suffering for the faith during the persecution of Maximinus Thrax.",
+      "summary_vi": "",
+      "body_en": "Saint Pontian, Pope, served from 230 to 235 AD, becoming the first pope to voluntarily abdicate due to severe persecution under Emperor Maximinus Thrax. Shortly after his resignation, he was arrested along with Saint Hippolytus, a celebrated priest and rival theologian who had previously challenged Pontian's predecessor. Both men were exiled to the mines of Sardinia, where the harsh conditions led to their martyrdom.\n\nThe liturgical readings for this day, Ez 12:1-12 and Mt 18:21—19:1, resonate with themes of divine warning and the call to profound reconciliation. Hippolytus, known for his extensive writings and establishment of the 26-year Easter cycle, found unity with Pontian in their final exile, bridging the theological divide that had separated them. This Optional Memorial in the Universal Calendar honors their witness and the unexpected unity born of martyrdom.",
+      "body_vi": "",
       "confidence": "confirmed",
-      "confidence_note_en": "Consensus calendar date of August 13 aligns with their translation to Rome in the fourth century.",
-      "confidence_note_vi": "Ngày 13 tháng 8 trong lịch phụng vụ thống nhất với ngày di cốt của các ngài được đưa về Rôma vào thế kỷ thứ tư."
+      "confidence_note_en": "The historical record confirms Pontian's resignation as unique in papal history until modern times, and their joint martyrdom is attested by early chronologies and the Liber Pontificalis.",
+      "confidence_note_vi": ""
     },
     "place": {
-      "name": "Catacomb of Callixtus, Rome, Italy",
-      "latitude": 41.8611,
-      "longitude": 12.5083,
-      "confidence": "traditional",
-      "source_url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-13"
+      "name": "Rome and Sardinia, Italy"
     },
     "artwork": {
       "title": null,
@@ -806,21 +800,21 @@
     },
     "sources": [
       {
-        "label": "Catholic Culture – Saints Pontian and Hippolytus",
-        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-13",
+        "label": "USCCB Liturgical Calendar 2026",
+        "url": "https://www.usccb.org/",
         "type": "liturgical_calendar"
       },
       {
-        "label": "Catholic Encyclopedia: Saint Hippolytus of Rome",
-        "url": "https://www.newadvent.org/cathen/07360b.htm",
+        "label": "New Advent - Saint Pontian",
+        "url": "https://www.newadvent.org/cathen/12272a.htm",
         "type": "encyclopedia"
       }
     ],
     "app_hooks": {
-      "hero_line_en": "Martyrs of reconciliation and unity",
-      "hero_line_vi": "Các vị tử đạo của hoà giải và hiệp nhất",
-      "prayer_prompt_en": "Seek the courage to forgive and reconcile with those from whom you are divided.",
-      "prayer_prompt_vi": "Xin được can đảm tha thứ và hoà giải với những ai mà bạn đang chia rẽ."
+      "hero_line_en": "United in Exile, United in Martyrdom",
+      "hero_line_vi": "",
+      "prayer_prompt_en": "Lord, as Pontian and Hippolytus found unity in suffering, grant us the humility to forgive and reconcile, transforming our divisions into a testament of love and truth.",
+      "prayer_prompt_vi": ""
     }
   },
   {
@@ -1905,9 +1899,9 @@
     "weekday": "Monday",
     "mock_priority": "engine_b_v1",
     "liturgical": {
-      "rank": "Optional Memorial",
-      "color": "white",
-      "title_en": "Saint Raymond Nonnatus, Religious",
+      "rank": "Feria",
+      "color": "green",
+      "title_en": "Monday of the 22nd Week in Ordinary Time",
       "title_vi": "Thánh Raymundô Nonnatô, Tu Sĩ"
     },
     "calendars": {
@@ -1918,47 +1912,43 @@
       "ethiopian": "25 Nehase 2018"
     },
     "primary": {
-      "type": "saint",
-      "title_en": "Saint Raymond Nonnatus",
+      "type": "liturgical_day",
+      "title_en": "Monday of the 22nd Week in Ordinary Time",
       "title_vi": "Thánh Raymundô Nonnatô",
-      "summary_en": "Saint Raymond was a Spanish Mercedarian priest who offered himself as a hostage to ransom Christian captives in North Africa and is celebrated as the patron of expectant mothers and the unborn.",
+      "summary_en": "This day is observed as a Feria of the 22nd Week in Ordinary Time, with the liturgical color green. The readings from the previous Sunday cycle are continued, as no specific memorial or feast day is assigned to this date in the USCCB calendar.",
       "summary_vi": "Thánh Raymundô là linh mục Dòng Cứu Chốn (Mercedarians) người Tây Ban Nha, đã tình nguyện làm con tin để chuộc những Kitô hữu bị bắt làm tù binh ở Bắc Phi và được tôn kính làm quan thầy của các bà mẹ mang thai và các thai nhi.",
-      "body_en": "Saint Raymond Nonnatus was a thirteenth-century Spanish Mercedarian priest who dedicated his life to ransoming Christian captives in North Africa, offering himself as a hostage. He is celebrated as the patron saint of expectant mothers, midwives, and the unborn because of his own miraculous delivery.",
+      "body_en": "The Monday of the 22nd Week in Ordinary Time falls within the latter part of the liturgical year, emphasizing the steady growth of faith and daily obedience. As a Feria, it does not feature a unique proper mass but rather continues the thematic progression of the 22nd Sunday's texts. The focus remains on the faithful's journey toward God amidst the ordinary circumstances of daily life.",
       "body_vi": "Thánh Raymundô Nonnatô là một linh mục Dòng Cứu Chốn người Tây Ban Nha thế kỷ 13, đã cống hiến cả đời mình để chuộc những Kitô hữu bị bắt làm tù binh ở Bắc Phi, tự nguyện làm con tin. Ngài được tôn kính là quan thầy của các bà mẹ mang thai, các bà đỡ đẻ và các thai nhi vì chính cuộc sinh nở kỳ diệu của ngài.",
       "confidence": "confirmed",
-      "confidence_note_en": "Mercedarian records and Spanish liturgical calendars confirm his feast on August 31, marking his death in 1240.",
+      "confidence_note_en": "The status of this day as a Feria in the 22nd Week is confirmed by the universal norms of the Roman Calendar and the USCCB liturgical calendar.",
       "confidence_note_vi": "Các hồ sơ của Dòng Cứu Chốn và lịch phụng vụ Tây Ban Nha xác nhận lễ kính của ngài vào ngày 31 tháng 8, đánh dấu ngày ngài qua đời năm 1240."
     },
     "place": {
-      "name": "Convent of Sant Ramon de Portell, Lleida, Catalonia, Spain",
-      "latitude": 41.7275,
-      "longitude": 1.3628,
-      "confidence": "traditional",
-      "source_url": "https://www.monestirs.cat/monst/segar/esa17port.htm"
+      "name": "Rome, Italy"
     },
     "artwork": {
-      "title": "Saint Raymond Nonnatus",
-      "maker": "Unknown",
-      "date_label": "18th Century",
-      "source_url": "https://commons.wikimedia.org/wiki/File:San_Ram%C3%B3n_Nonato_-_An%C3%B3nimo.jpg",
+      "title": null,
+      "maker": null,
+      "date_label": null,
+      "source_url": null,
       "status": "placeholder_only"
     },
     "sources": [
       {
-        "label": "Monestirs de Catalunya – Sant Ramon Nonat Monographic Dossier",
-        "url": "https://www.monestirs.cat/monst/segar/esa17port.htm",
-        "type": "academic"
+        "label": "USCCB Daily Readings",
+        "url": "https://bible.usccb.org/",
+        "type": "liturgical_calendar"
       },
       {
-        "label": "Catholic Encyclopedia: Saint Raymond Nonnatus",
-        "url": "https://www.newadvent.org/cathen/12671b.htm",
+        "label": "New Advent Catholic Encyclopedia - Ordinary Time",
+        "url": "https://www.newadvent.org/cathen/11172c.htm",
         "type": "encyclopedia"
       }
     ],
     "app_hooks": {
-      "hero_line_en": "The patron of expectant mothers and the unborn",
+      "hero_line_en": "Finding God in the Everyday",
       "hero_line_vi": "Quan thầy của các bà mẹ mang thai và các thai nhi",
-      "prayer_prompt_en": "Pray for expectant mothers, safe deliveries, and the protection of the unborn.",
+      "prayer_prompt_en": "Lord, help me see Your presence in the ordinary moments of my week.",
       "prayer_prompt_vi": "Cầu nguyện cho các bà mẹ mang thai, cho các cuộc sinh nở an toàn và cho sự bảo vệ các thai nhi."
     }
   }
