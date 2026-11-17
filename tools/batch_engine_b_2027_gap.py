@@ -118,6 +118,13 @@ FEAST_NOTES_2027 = {
 }
 
 
+def valid_shape(en: object) -> bool:
+    """Reject hallucinated schemas before they can reach the source layer."""
+    return (isinstance(en, dict)
+            and all(isinstance(en.get(k), dict) for k in ("liturgical", "primary", "app_hooks"))
+            and isinstance(en.get("sources"), list))
+
+
 def extract_json(text: str) -> str:
     s = text.find("{")
     if s == -1:
@@ -366,9 +373,24 @@ def main() -> None:
                 f"Context: {feast_note or 'Weekday of Ordinary Time'}. "
                 f"Return the bilingual JSON for this date."
             )
-            en_raw = yolo([{"role": "system", "content": SYSTEM_EN},
-                           {"role": "user", "content": prompt}], maxtok=2000)
-            en = json.loads(extract_json(en_raw))
+            full_prompt = SYSTEM_EN + "\n\n" + prompt
+            en = None
+            for _shape_attempt in range(4):
+                raw = yolo([{"role": "user", "content": full_prompt}], maxtok=2400)
+                try:
+                    parsed = json.loads(extract_json(raw))
+                except Exception:  # noqa: BLE001
+                    parsed = None
+                if valid_shape(parsed):
+                    en = parsed
+                    break
+                full_prompt += (
+                    "\n\nCORRECTION: your previous output used the WRONG JSON keys. "
+                    "Return EXACTLY the schema shown above: id, date, weekday, liturgical, "
+                    "primary, app_hooks, sources. Do not substitute other key names.")
+            if en is None:
+                raise RuntimeError(f"{d_str}: LLM never produced the required JSON schema")
+            en.setdefault("sources", [])
             # Source gate: retry with feedback until >=2 live URLs survive.
             for _attempt in range(3):
                 en = normalize_sources_shape(en)
@@ -376,7 +398,7 @@ def main() -> None:
                 if len(probe.get("sources", [])) >= 2:
                     en["sources"] = probe["sources"]
                     break
-                fix_prompt = prompt + (
+                fix_prompt = full_prompt + (
                     f"\nCORRECTION: only {len(probe.get('sources', []))} source URL(s) were live. "
                     "Return the SAME JSON with at least 2 NEW real, live URLs from different "
                     "domains. Prefer vatican.va, usccb.org, newadvent.org, catholicculture.org. "
@@ -387,15 +409,19 @@ def main() -> None:
                 # Deterministic, live-checked fallback citations (no homepages).
                 for fb in (f"https://bible.usccb.org/bible/readings/{cur:%m%d%y}.cfm",
                            "https://www.usccb.org/resources/2027cal.pdf",
-                           "https://www.newadvent.org/cathen/"):
-                    if _url_live(fb) and all(_domain(s.get("url", "")) != _domain(fb)
-                                              for s in en["sources"] if isinstance(s, dict)):
-                        en["sources"].append({
-                            "label": ("USCCB Daily Readings " + d_str) if "readings" in fb
-                                     else ("USCCB 2027 Liturgical Calendar" if "2027cal" in fb
-                                           else "Catholic Encyclopedia index"),
-                            "url": fb,
-                            "type": "liturgical_calendar" if "usccb.org" in fb else "encyclopedia"})
+                           "https://www.newadvent.org/cathen/",
+                           "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+                           "https://www.catholicculture.org/culture/liturgicalyear/calendar.cfm"):
+                    if any(s.get("url") == fb for s in en["sources"] if isinstance(s, dict)):
+                        continue
+                    if not (_url_live(fb) or _url_live(fb)):  # one timeout retry
+                        continue
+                    en["sources"].append({
+                        "label": ("USCCB Daily Readings " + d_str) if "readings" in fb
+                                 else ("USCCB 2027 Liturgical Calendar" if "2027cal" in fb
+                                       else "Catholic reference"),
+                        "url": fb,
+                        "type": "liturgical_calendar" if "usccb.org" in fb else "reference"})
                     if len(en["sources"]) >= 2:
                         break
             if len(en.get("sources", [])) < 2:

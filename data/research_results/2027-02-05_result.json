@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-05",
+  "date": "2027-02-05",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the 5th Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần 5 Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saint Agatha, Virgin and Martyr",
+    "title_vi": "Thánh Agatha, Trinh nữ, Tử đạo",
+    "summary_en": "Friday, February 5th, is the Memorial of Saint Agatha, a virgin and martyr from Sicily. While she is a saint, the liturgical rank for this specific Friday in Ordinary Time is a Feria. The day invites reflection on her witness to Christ through faith and purity.",
+    "summary_vi": "Thứ Sáu, ngày 5 tháng Hai, là Ngày kính Thánh Agatha, Trinh nữ, Tử đạo. Mặc dù là lễ kính thánh nhân, phụng vụ cho ngày này là Thứ thường lệ. Ngày này mời gọi suy niệm chứng tá của ngài cho Chúa Kitô qua đức tin và sự trong sạch.",
+    "body_en": "Saint Agatha is one of the most popular of the virgin martyrs, and her name is included in the Canon of the Mass. She suffered martyrdom at Catania in Sicily, during the Decian persecution (251 AD). The readings for the Friday of the 5th Week in Ordinary Time often highlight themes of humility and service, complementing the witness of Agatha who offered her life for her faith.",
+    "body_vi": "Thánh Agatha là một trong những trinh nữ tử đạo nổi tiếng nhất, và tên của ngài được đưa vào Kinh Nguyện Thánh Thể. Ngài đã chịu tử đạo tại Catania ở Sicily, trong cuộc bách hại của Decius (năm 251). Các bài đọc cho Thứ Sáu Tuần 5 Thường Niên thường làm nổi bật các chủ đề khiêm nhường và phục vụ, bổ sung cho chứng tá của Agatha, người đã dâng hiến mạng sống mình cho đức tin.",
+    "confidence": "confirmed",
+    "confidence_note_en": "February 5 is a fixed feast day (Memorial) in the General Roman Calendar, but the liturgical rank for the weekday is a Feria.",
+    "confidence_note_vi": "Ngày 5 tháng Hai là ngày lễ cố định (Lễ nhớ) trong Lịch Phụng vụ La Mã, nhưng thứ hạng phụng vụ cho ngày trong tuần là Thứ thường lệ."
+  },
+  "app_hooks": {
+    "hero_line_en": "Like Saint Agatha, remain steadfast in your faith.",
+    "hero_line_vi": "Như Thánh Agatha, hãy kiên vững trong đức tin.",
+    "prayer_prompt_en": "Pray for the courage to witness to your faith in daily life.",
+    "prayer_prompt_vi": "Cầu nguyện để có lòng can đảm làm chứng cho đức tin trong cuộc sống hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "Universal Calendar (2027-02-05)",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=55",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB Calendar (2027-02-05)",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-23",
+    "hebrew": "28 Shvat 5787",
+    "islamic_umm_al_qura": "27 Shaban 1448 AH",
+    "coptic": "28 Toba 1743",
+    "ethiopian": "28 Toba 1743"
+  }
+}

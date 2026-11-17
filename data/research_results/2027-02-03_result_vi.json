@@ -1,15 +1,15 @@
 {
   "liturgical": {
-    "title_vi": ""
+    "title_vi": "Thứ Tư Tuần V Mùa Thường Niên"
   },
   "primary": {
-    "title_vi": "",
-    "summary_vi": "",
-    "body_vi": "",
-    "confidence_note_vi": ""
+    "title_vi": "Thứ Tư Tuần V Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày thường (feria) trong Mùa Thường Niên, với màu xanh lá cây trong phụng vụ. Các bài đọc thường tập trung vào Tin Mừng theo Thánh Mác-cô hoặc Luca tùy theo chu kỳ, cùng với các bài đọc Epistle. Không có vị thánh nào bắt buộc phải mừng kính phổ quát vào ngày này.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, phụng vụ nhấn mạnh sự tăng trưởng ổn định của các tín hữu trong việc hiểu biết sứ điệp Tin Mừng. Trọng tâm là đời sống Kitô hữu được sống giữa thế gian, không có cường độ cao như các ngày lễ. Hàng giáo sĩ và giáo dân đều được mời gọi suy niệm về nhịp điệu đều đặn của đức tin và phục vụ.",
+    "confidence_note_vi": "Ngày thường theo Lịch Phụng vụ Rôma trong Mùa Thường Niên."
   },
   "app_hooks": {
-    "hero_line_vi": "",
-    "prayer_prompt_vi": ""
+    "hero_line_vi": "Sống trong nhịp điệu đều đặn của đức tin.",
+    "prayer_prompt_vi": "Xin ơn để trung tín trong những khoảnh khắc bình thường."
   }
 }
