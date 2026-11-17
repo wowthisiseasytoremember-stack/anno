@@ -4,10 +4,10 @@
   "weekday": "Tuesday",
   "mock_priority": "engine_b_v1",
   "liturgical": {
-    "rank": "Feria",
-    "color": "green",
-    "title_en": "Tuesday of the 24th Week in Ordinary Time",
-    "title_vi": "Thứ Ba tuần 24 Mùa Thường Niên"
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Our Lady of Sorrows",
+    "title_vi": ""
   },
   "calendars": {
     "julian": "2026-09-02",
@@ -17,41 +17,43 @@
     "ethiopian": "5 Meskerem 2019"
   },
   "primary": {
-    "type": "liturgical_day",
-    "title_en": "Tuesday of the 24th Week in Ordinary Time",
-    "title_vi": "Thứ Ba tuần 24 Mùa Thường Niên",
-    "summary_en": "This Tuesday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-    "summary_vi": "Ngày Tuesday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-    "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Tuesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-    "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Tuesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+    "type": "memorial",
+    "title_en": "Our Lady of Sorrows",
+    "title_vi": "",
+    "summary_en": "This memorial honors the Blessed Virgin Mary's profound participation in the Passion of Christ, specifically commemorating the seven sorrows she endured throughout her life. Observed on September 15, the feast invites the faithful to contemplate Mary's steadfast faith amidst suffering and her unique role as Co-Redemptrix in salvation history. The liturgy emphasizes her compassion and endurance, linking her grief directly to the saving work of her Son.",
+    "summary_vi": "",
+    "body_en": "The memorial of Our Lady of Sorrows invites the faithful to stand at the foot of the Cross, reflecting on the prophecy of Simeon that a sword would pierce Mary's soul. This day, traditionally linked to the Exaltation of the Holy Cross, highlights the intimate connection between Christ's suffering and Mary's compassionate endurance. Liturgical prayers for this day emphasize her role as the Mother of Mercy who, through her sorrow, became the Mother of the faithful.\nThe readings for this day are not printed in the USCCB daily calendar, but the liturgy universally directs attention to the Gospel of John and the prophecy of Zechariah, highlighting Mary's faithful presence at the Crucifixion. This memorial serves as a reminder of the power of redemptive suffering when united with Christ's passion. The white vestments used in this celebration signify the purity and glory of Mary's soul, shining brightest in the darkness of the Passion. By honoring her sorrows, the Church affirms the dignity of human suffering transformed by grace.",
+    "body_vi": "",
     "confidence": "confirmed",
-    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-09-15.",
-    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-15."
+    "confidence_note_en": "The memorial status and date are confirmed by the 2026 USCCB Liturgical Calendar.",
+    "confidence_note_vi": ""
   },
-  "place": null,
+  "place": {
+    "name": "Jerusalem"
+  },
   "artwork": {
-    "title": "Liturgical Meditation for Ordinary Time",
-    "maker": "Christian Sacred Art",
-    "date_label": "Historical",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
-    "status": "placeholder_only"
+    "title": "Madonna and Child with Saints",
+    "maker": "Raphael",
+    "date_label": "c. 1500",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Madonna_del_Baldacchino.jpg",
+    "status": "public_domain"
   },
   "sources": [
     {
-      "label": "USCCB Liturgical Calendar 2026",
-      "url": "https://bible.usccb.org/daily-bible-reading",
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/",
       "type": "liturgical_calendar"
     },
     {
-      "label": "General Roman Calendar 2026",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-      "type": "vatican"
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?date=2026-09-15",
+      "type": "reference"
     }
   ],
   "app_hooks": {
-    "hero_line_en": "Live the grace of Ordinary Time on this Tuesday",
-    "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Tuesday",
-    "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Tuesday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-    "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Tuesday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+    "hero_line_en": "Mary at the Cross",
+    "hero_line_vi": "",
+    "prayer_prompt_en": "Lord, grant me the grace to stand with Mary in suffering and faith.",
+    "prayer_prompt_vi": ""
   }
 }

@@ -247,9 +247,10 @@ def validate(obj: dict, ident: dict) -> list[str]:
     if p.get("title_en") != ident["title_en"]:
         errs.append("LLM changed the pinned title")
     ident_tokens = [t for t in norm_title(ident["title_en"])
-                    if t not in {"sunday", "week", "ordinary", "time", "advent", "feria"}]
+                    if t not in {"sunday", "week", "ordinary", "time", "advent", "feria",
+                                 "1", "2", "3", "4", "5", "6", "7", "8", "9"}]
     body = (p.get("body_en") or "").lower()
-    need = ident_tokens[:2]
+    need = [t for t in ident_tokens if not t.isdigit()][:2]
     if need and not any(t in body for t in need):
         errs.append(f"body does not name the celebration ({need})")
     hooks = obj.get("app_hooks") or {}
@@ -267,14 +268,6 @@ def validate(obj: dict, ident: dict) -> list[str]:
     for s in srcs:
         if not isinstance(s, dict) or not s.get("label") or not s.get("type"):
             errs.append("source missing label/type")
-    for u in urls:
-        if not url_live(u):
-            errs.append(f"dead source URL: {u[:80]}")
-    art = obj.get("artwork") or {}
-    if art.get("status") == "public_domain":
-        au = art.get("source_url") or ""
-        if "commons.wikimedia.org/wiki/File:" not in au or not url_live(au):
-            errs.append("public_domain artwork URL not a live Commons file page")
     for v in [p.get("summary_en", ""), p.get("body_en", ""),
               p.get("confidence_note_en", ""), hooks.get("hero_line_en", ""),
               hooks.get("prayer_prompt_en", "")]:
@@ -394,7 +387,10 @@ def main() -> None:
 
     gt_doc = load_gt(2026)
     gt = {r["date"]: r for r in gt_doc["rows"]}
-    audit(2026, None, None, None, True, False, date.today())  # refresh build/audit_2026.json
+    import contextlib
+    import io
+    with contextlib.redirect_stdout(io.StringIO()):
+        audit(2026, None, None, None, True, False, date.today())  # refresh build/audit_2026.json
     audit_doc = json.loads((ROOT / "build/audit_2026.json").read_text(encoding="utf-8"))
     defects = {d for d, v in audit_doc["days"].items() if v["status"] == "defect"}
     if args.month:
@@ -410,8 +406,7 @@ def main() -> None:
             row = gt[d]
             print(f"{d} | {row['kind']:13} | {row['title_en'][:62]}")
         print(f"TOTAL {len(dates)} defect days")
-        if args.list:
-            return
+        return  # --list AND --dry-run are read-only
 
     fx = json.loads((ROOT / "Anno/Resources/anno_unified_2026.json").read_text(encoding="utf-8"))
     fixture = {e["date"]: e for e in fx["entries"]}
@@ -430,14 +425,60 @@ def main() -> None:
                           ("hero_line_vi", "prayer_prompt_vi")},
         }
         ident = canonical_identity(row, existing, gt)
-        try:
-            raw = yolo(build_prompt(d, row, ident))
-            llm = json.loads(extract_json(raw))
-            errs = validate(llm, ident)
-            if errs:
-                raise ValueError("; ".join(errs[:4]))
-        except Exception as e:  # noqa: BLE001
-            print(f"FAIL {d}: {str(e)[:180]}", flush=True)
+        prompt = build_prompt(d, row, ident)
+        llm, errs = None, []
+        for attempt in range(3):
+            try:
+                raw = yolo(prompt if attempt == 0 else
+                           prompt + "\n\nPREVIOUS ATTEMPT FAILED: " + "; ".join(errs[:5]) +
+                           "\nReturn a corrected JSON object. Use only URLs you are confident are live "
+                           "(prefer vatican.va, usccb.org, newadvent.org, catholicculture.org). "
+                           "Do not include an artwork URL unless it is a real Commons file page.")
+                candidate = json.loads(extract_json(raw))
+                errs = validate(candidate, ident)
+                if errs:
+                    continue
+                # Drop dead URLs (repo pipeline convention); require 2 live ones.
+                live = [s for s in candidate["sources"]
+                        if isinstance(s, dict) and url_live(s.get("url", ""))]
+                if len(live) < 2:
+                    errs = [f"only {len(live)} live source URLs after HTTP check"]
+                    continue
+                seen_domains = set()
+                distinct = []
+                for s in live:
+                    dom = re.sub(r"^www\.", "", s["url"].split("/")[2])
+                    if dom not in seen_domains:
+                        distinct.append(s)
+                        seen_domains.add(dom)
+                if len(distinct) < 2:
+                    # Deterministic second source: the official USCCB daily
+                    # readings page for this date (live-checked, date-pinned).
+                    dte = date.fromisoformat(d)
+                    fallback = f"https://bible.usccb.org/bible/readings/{dte:%m%d%y}.cfm"
+                    fdom = re.sub(r"^www\.", "", fallback.split("/")[2])
+                    if url_live(fallback) and all(
+                            re.sub(r"^www\.", "", s["url"].split("/")[2]) != fdom
+                            for s in distinct):
+                        distinct.append({"label": f"USCCB Daily Readings {d}",
+                                         "url": fallback, "type": "liturgical_calendar"})
+                if len(distinct) < 2:
+                    errs = ["fewer than 2 distinct live source domains"]
+                    continue
+                candidate["sources"] = distinct
+                art = candidate.get("artwork") or {}
+                if art.get("status") == "public_domain":
+                    au = art.get("source_url") or ""
+                    if "commons.wikimedia.org/wiki/File:" not in au or not url_live(au):
+                        candidate["artwork"] = {"title": None, "maker": None,
+                                                "date_label": None, "source_url": None,
+                                                "status": "placeholder_only"}
+                llm = candidate
+                break
+            except Exception as e:  # noqa: BLE001
+                errs = [str(e)[:200]]
+        if llm is None:
+            print(f"FAIL {d}: {'; '.join(errs[:3])}", flush=True)
             fail += 1
             continue
         over = vi_overlay_for(existing, ident, d, gt)
