@@ -1,0 +1,40 @@
+{
+  "date": "2027-02-14",
+  "day_of_week": "Sunday",
+  "liturgical_context": "Ash Wednesday — Day of Fast and Abstinence. Beginning of Lent.",
+  "calendar_conversions": {
+    "gregorian": "2027-02-14",
+    "julian": "2027-02-01",
+    "hebrew": "7 Adar 5787",
+    "islamic": "7 Ramadan 1448 AH",
+    "coptic": "7 Amshir 1743",
+    "ethiopian": "7 Amshir 1743"
+  },
+  "sources": [
+    {
+      "url": "https://www.usccb.org/prayers-and-devotion/liturgical-calendar/august-2027",
+      "domain": "usccb.org",
+      "description": "USCCB Liturgical Calendar reference for US dates and observances.",
+      "status": "live",
+      "label": "www.usccb.org",
+      "type": "reference"
+    },
+    {
+      "url": "https://www.newadvent.org/cathen/11217a.htm",
+      "domain": "newadvent.org",
+      "description": "New Advent Encyclopedia entry on Ash Wednesday and Lenten practices.",
+      "status": "live",
+      "label": "www.newadvent.org",
+      "type": "reference"
+    }
+  ],
+  "id": "anno-2027-02-14",
+  "weekday": "Sunday",
+  "calendars": {
+    "julian": "2027-02-01",
+    "hebrew": "7 Adar 5787",
+    "islamic_umm_al_qura": "7 Ramadan 1448 AH",
+    "coptic": "7 Amshir 1743",
+    "ethiopian": "7 Amshir 1743"
+  }
+}

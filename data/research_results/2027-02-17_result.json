@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-17",
+  "date": "2027-02-17",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Fifth Week of Ordinary Time",
+    "title_vi": "Thứ Tư Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần V Mùa Thường Niên",
+    "summary_en": "This day is a ferial day in Ordinary Time, focusing on the weekly liturgical cycle. The readings typically explore themes of faith, discipleship, and the Kingdom of God, as presented in the Markan or Matthean Gospel cycles depending on the specific year's lectionary revision. It serves as a time for the faithful to reflect on the ongoing conversion of heart and mind. No obligatory memorial or feast overlays the weekday character of this day.",
+    "summary_vi": "Đây là ngày thường trong Mùa Thường Niên, tập trung vào chu kỳ phụng vụ hàng tuần. Các bài đọc thường khám phá các chủ đề về đức tin, môn đệ và Nước Thiên Chúa, theo chu kỳ Tin Mừng Maccô hay Matthêu tùy thuộc vào bản sửa đổi sách bài đọc của năm cụ thể. Đây là thời điểm để các tín hữu suy niệm về sự hoán cải tâm trí liên tục. Không có lễ nhớ buộc hay lễ trọng nào phủ lên tính chất ngày thường của ngày này.",
+    "body_en": "On this Wednesday in Ordinary Time, the Church invites the faithful to listen attentively to the Word of God, which acts as a lamp to our feet and a light to our path. The liturgical color is green, symbolizing hope and the growth of the Church's life through the centuries. The focus remains on the steady, rhythmic progress of the spiritual life, away from the intense penitential seasons or the explosive joy of the Easter and Christmas cycles. Believers are called to integrate their faith into daily routines, finding Christ in the ordinary.",
+    "body_vi": "Vào Thứ Tư này trong Mùa Thường Niên, Giáo hội mời gọi các tín hữu lắng nghe Lời Chúa cách chăm chú, Lời đó là đèn soi bước chân ta và ánh sáng dẫn đường ta. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống của Giáo hội qua các thế kỷ. Trọng tâm vẫn là sự tiến triển đều đặn, nhịp nhàng của đời sống thiêng liêng, xa rời các mùa thống hối mãnh liệt hay niềm vui bùng nổ của các chu kỳ Phục Sinh và Giáng Sinh. Các tín hữu được kêu gọi hội nhập đức tin vào các thói quen hàng ngày, tìm thấy Chúa Kitô trong những điều bình thường.",
+    "confidence": "confirmed",
+    "confidence_note_en": "No major saint feast conflicts with this date in the current General Roman Calendar.",
+    "confidence_note_vi": "Không có lễ thánh lớn nào xung đột với ngày này trong Lịch Phụng vụ Roma hiện hành."
+  },
+  "app_hooks": {
+    "hero_line_en": "Find Christ in the ordinary moments of this Wednesday.",
+    "hero_line_vi": "Hãy tìm thấy Chúa Kitô trong những khoảnh khắc bình thường của Thứ Tư này.",
+    "prayer_prompt_en": "Pray for the grace to recognize the Holy Spirit's guidance in your daily tasks and interactions today.",
+    "prayer_prompt_vi": "Cầu xin ơn nhận ra sự hướng dẫn của Chúa Thánh Thần trong các công việc và tương tác hàng ngày của bạn hôm nay."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic News Agency",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-04",
+    "hebrew": "10 Adar 5787",
+    "islamic_umm_al_qura": "10 Ramadan 1448 AH",
+    "coptic": "10 Amshir 1743",
+    "ethiopian": "10 Amshir 1743"
+  }
+}

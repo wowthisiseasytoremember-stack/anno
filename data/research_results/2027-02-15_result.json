@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-15",
+  "date": "2027-02-15",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần V Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần V Thường Niên",
+    "summary_en": "This day falls on a Monday of the Fifth Week in Ordinary Time. The liturgical color is green, symbolizing the growth and hope of the faithful as they continue their journey through the season of Ordinary Time. No obligatory feast or saint's memorial with universal rank takes precedence over the weekday readings.",
+    "summary_vi": "Ngày này rơi vào Thứ Hai của Tuần V Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và niềm hy vọng của cộng đoàn tín hữu khi tiếp tục hành trình trong Mùa Thường Niên. Không có lễ trọng hay lễ kính buộc nào có vị trí phổ quát ưu tiên hơn các bài đọc trong ngày.",
+    "body_en": "The liturgical focus for Monday, February 15, 2027, remains on the ordinary progression of the church year. The readings will be drawn from the weekday cycle, emphasizing daily conversion and the teachings of Christ as recorded in the Gospels. The absence of a higher-ranking feast allows for a quiet reflection on the everyday sanctification of time.",
+    "body_vi": "Trọng tâm phụng vụ cho ngày Thứ Hai, 15 tháng 2 năm 2027, vẫn là sự tiến triển bình thường của niên lịch Giáo hội. Các bài đọc sẽ được rút ra từ chu kỳ trong tuần, nhấn mạnh sự hoán cải hằng ngày và những lời dạy của Chúa Kitô được ghi chép trong các Tin Mừng. Việc không có lễ kính nào có thứ hạng cao hơn cho phép một sự suy niệm tĩnh lặng về việc thánh hóa thời gian trong đời sống hằng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a confirmed weekday in Ordinary Time according to the Roman Calendar.",
+    "confidence_note_vi": "Ngày này được xác nhận là một ngày trong tuần Mùa Thường Niên theo Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk gently in Ordinary Time.",
+    "hero_line_vi": "Bước đi nhẹ nhàng trong Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me to see Your presence in the ordinary moments of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày sống."
+  },
+  "sources": [
+    {
+      "label": "Universal Roman Calendar",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-02",
+    "hebrew": "8 Adar 5787",
+    "islamic_umm_al_qura": "8 Ramadan 1448 AH",
+    "coptic": "8 Amshir 1743",
+    "ethiopian": "8 Amshir 1743"
+  }
+}

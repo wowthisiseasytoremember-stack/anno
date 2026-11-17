@@ -1,0 +1,69 @@
+{
+  "date_input": "2027-02-16",
+  "day_of_week": "Tuesday",
+  "calendar_conversions": {
+    "gregorian": {
+      "year": 2027,
+      "month": 2,
+      "day": 16,
+      "era": "AD",
+      "weekday_en": "Tuesday",
+      "weekday_zh": "星期二"
+    },
+    "julian": {
+      "year": 2027,
+      "month": 2,
+      "day": 3,
+      "weekday_en": "Tuesday",
+      "weekday_zh": "星期二"
+    },
+    "hebrew": {
+      "year": 5787,
+      "month": "Adar",
+      "day": 9,
+      "month_zh": "阿达尔月",
+      "weekday_en": "Tuesday",
+      "weekday_zh": "星期二"
+    },
+    "islamic": {
+      "year": 1448,
+      "month": "Ramadan",
+      "day": 9,
+      "era": "AH",
+      "month_zh": "赖买丹月",
+      "weekday_en": "Tuesday",
+      "weekday_zh": "星期二"
+    },
+    "coptic": {
+      "year": 1743,
+      "month": "Amshir",
+      "day": 9,
+      "month_zh": "阿姆希尔月",
+      "weekday_en": "Tuesday",
+      "weekday_zh": "星期二"
+    },
+    "ethiopian": {
+      "year": 1743,
+      "month": "Amshir",
+      "day": 9,
+      "month_zh": "阿姆希尔月",
+      "weekday_en": "Tuesday",
+      "weekday_zh": "星期二"
+    }
+  },
+  "liturgical_context": {
+    "en": "Weekday in Ordinary Time",
+    "zh": "常年期平日"
+  },
+  "sources": [],
+  "id": "anno-2027-02-16",
+  "date": "2027-02-16",
+  "weekday": "Tuesday",
+  "calendars": {
+    "julian": "2027-02-03",
+    "hebrew": "9 Adar 5787",
+    "islamic_umm_al_qura": "9 Ramadan 1448 AH",
+    "coptic": "9 Amshir 1743",
+    "ethiopian": "9 Amshir 1743"
+  }
+}
