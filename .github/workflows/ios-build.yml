@@ -170,9 +170,8 @@ jobs:
         with:
           python-version: "3.11"
       - name: Run offline all-days audit against pinned USCCB ground truth
-        # A5: report-only during the A4 repair batches. Flip to the fail-closed
-        # command (remove --report-only) once all 47 defects are cleared.
-        run: python3 tools/all_days_editorial.py audit --year 2026 --report-only
+        # Fail-closed: all 47 defects repaired; full audit is 182/182 conform.
+        run: python3 tools/all_days_editorial.py audit --year 2026
       - name: Upload audit report
         if: always()
         uses: actions/upload-artifact@v4
