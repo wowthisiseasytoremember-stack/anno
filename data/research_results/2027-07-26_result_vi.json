@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Gioakim và Thánh Anna, Thân Phụ Mẫu Đức Mẹ"
+  },
+  "primary": {
+    "title_vi": "Thánh Gioakim và Thánh Anna, Thân mẫu của Đức Trinh Nữ Maria",
+    "summary_vi": "Giáo Hội cử hành lễ nhớ Thánh Gioakim và Thánh Anna, Thân phụ và Thân mẫu của Đức Trinh Nữ Maria, và là ông bà của Chúa Giêsu. Lễ này nhấn mạnh tầm quan trọng của đời sống gia đình và việc truyền thụ đức tin qua các thế hệ. Họ được tôn kính vì vai trò chuẩn bị cho thế giới đón Đấng Mêsia qua con gái của họ là Maria.",
+    "body_vi": "Thánh Gioakim và Thánh Anna được truyền thống tôn kính là Thân phụ và Thân mẫu của Đức Maria, và do đó là ông bà của Chúa Giêsu. Mặc dù không được đề cập rõ ràng trong các Tin Mừng quy điển, tên và câu chuyện của họ được lưu giữ trong Phúc Âm Tieng James và được truyền thống Giáo Hội duy trì. Ngày lễ của họ, cử hành vào ngày 26 tháng 7, mời gọi các tín hữu suy niệm về tính thánh thiện của gia đình và công việc khiêm tốn, thường ẩn giấu, của các bậc tổ tiên trong kế hoạch của Thiên Chúa.\n\nTrong những năm gần đây, Đức Giáo Hoàng Phanxicô đã nhấn mạnh vai trò của ông bà trong việc truyền thụ đức tin, phù hợp với tấm gương của Gioakim và Anna. Họ là những mẫu gương về sự kiên nhẫn, cầu nguyện và trung thành, chờ đợi với niềm hy vọng sự hoàn thành lời hứa của Thiên Chúa. Màu sắc phụng vụ trắng tượng trưng cho niềm vui và sự tinh khiết liên quan đến vai trò thánh thiện của họ trong dòng dõi của Chúa Kitô.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tôn vinh ông bà của Chúa Giêsu, những người đã dạy chúng ta sức mạnh của đức tin gia đình.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn và đức tin của Thánh Gioakim và Thánh Anna để nuôi dưỡng gia đình con trong sự thánh thiện."
+  }
+}

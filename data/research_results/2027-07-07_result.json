@@ -1,0 +1,51 @@
+{
+  "id": "anno-2027-07-07",
+  "date": "2027-07-07",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 12",
+    "title_vi": "Thứ Tư tuần 12 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time, Week 12",
+    "title_vi": "Thứ Tư tuần 12 Mùa Thường Niên",
+    "summary_en": "This day is observed as a weekday in Ordinary Time, Week 12, within the liturgical calendar of the Roman Rite. The liturgical color is green, signifying the season of growth and discipleship during this period. As a feria, it does not replace the daily cycle with a solemnity or feast, maintaining the standard weekday readings and prayers.",
+    "summary_vi": "Ngày này được cử hành như một ngày thường trong Mùa Thường Niên, Tuần 12, trong lịch phụng vụ của Nghi lễ Rôma. Màu phụng vụ là màu xanh lá cây, biểu thị mùa tăng trưởng và ơn gọi trong giai đoạn này. Là một ngày thường, nó không thay thế chu kỳ hằng ngày bằng một lễ trọng hay lễ kính, mà duy trì các bài đọc và lời cầu nguyện thông thường của ngày thường.",
+    "body_en": "In the General Roman Calendar, weekdays in Ordinary Time are characterized by a focus on the growth of the Church and the discipleship of believers. Green, as the liturgical color, symbolizes hope and spiritual maturity. On Wednesday of Week 12, the faithful are invited to reflect on the teachings of Christ and their application to daily life, emphasizing the virtues of patience and faithfulness.\n\nThe liturgy for this day typically follows the weekday Mass formulary unless a specific local celebration interferes. The readings from the Old and New Testaments, along with the Psalm and Gospel, are selected to reinforce the themes of Ordinary Time. This period encourages Christians to deepen their understanding of the faith and to live out the Gospel message in their everyday interactions and responsibilities.",
+    "body_vi": "Trong Lịch Rôma Tổng Quát, các ngày thường trong Mùa Thường Niên đặc trưng bởi sự tập trung vào sự tăng trưởng của Hội Thánh và ơn gọi của các tín hữu. Màu xanh lá cây, với tư cách là màu phụng vụ, tượng trưng cho niềm hy vọng và sự trưởng thành tâm linh. Vào Thứ Tư Tuần 12, các tín hữu được mời gọi suy ngẫm về những lời dạy của Chúa Kitô và việc áp dụng chúng vào đời sống hằng ngày, nhấn mạnh vào các nhân đức kiên nhẫn và trung tín.\n\nPhụng vụ cho ngày này thường tuân theo thể thức Thánh lễ ngày thường, trừ khi có một lễ kỷ niệm địa phương cụ thể xen vào. Các bài đọc từ Cựu Ước và Tân Ước, cùng với Thánh vịnh và Tin Mừng, được chọn để củng cố các chủ đề của Mùa Thường Niên. Giai đoạn này khuyến khích các Kitô hữu đào sâu hiểu biết về đức tin và sống sứ điệp Tin Mừng trong các tương tác và trách nhiệm hàng ngày của họ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is verified as a weekday in Ordinary Time (Week 12) according to the standard liturgical calendar structure. No universal feast or solemnity is assigned to this date in the General Roman Calendar.",
+  "confidence_note_vi": "Ngày này được xác minh là một ngày thường trong Mùa Thường Niên (Tuần 12) theo cấu trúc lịch phụng vụ tiêu chuẩn. Không có lễ kính hoặc lễ trọng phổ quát nào được gán cho ngày này trong Lịch Rôma Tổng Quát.",
+  "app_hooks": {
+    "hero_line_en": "Grow in faith during the green season of Ordinary Time.",
+    "hero_line_vi": "Tăng trưởng trong đức tin giữa mùa xanh của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help us to grow in virtue and faith in our daily lives.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong nhân đức và đức tin trong cuộc sống hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/070727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Liturgical Calendar",
+      "url": "https://catholicculture.org/culture/liturgical-calendar/year-view.cfm?year=2027",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-24",
+    "hebrew": "2 Tamuz 5787",
+    "islamic_umm_al_qura": "3 Safar 1449 AH",
+    "coptic": "30 Paoni 1743",
+    "ethiopian": "30 Sene 2019"
+  }
+}

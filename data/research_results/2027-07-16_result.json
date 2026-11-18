@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-07-16",
+  "date": "2027-07-16",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 13",
+    "title_vi": "Thứ Sáu tuần 13 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time, Week 13",
+    "title_vi": "Thứ Sáu tuần 13 Mùa Thường Niên",
+    "summary_en": "This date falls on a Friday within the thirteenth week of Ordinary Time in the liturgical calendar. It is observed as a feria, with the liturgical color green, signifying growth and hope. While some local calendars may note the memorial of Our Lady of Mount Carmel on this date, the universal norm treats it as a standard weekday unless specified otherwise by particular law.",
+    "summary_vi": "Ngày này rơi vào Thứ Sáu của tuần thứ mười ba trong Mùa Thường Niên theo lịch phụng vụ. Ngày này được cử hành như một ngày thường, với màu phụng vụ là xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng. Mặc dù một số lịch địa phương có thể ghi nhớ lễ Đức Bà Núi Cát Minh vào ngày này, nhưng quy tắc chung coi đây là một ngày bình thường trừ khi luật riêng quy định khác.",
+    "body_en": "The liturgical observance on this Friday centers on the readings appointed for the weekday of the thirteenth week in Ordinary Time. The faithful are invited to reflect on the Gospel message, which typically addresses themes of conversion, prayer, or the nature of discipleship in the daily context. The green vestments remind the Church of its ongoing journey through the year, emphasizing the steady pace of spiritual growth rather than the intensity of feast days or seasons like Lent and Advent.\n\nIn the context of the universal calendar, unless a particular region or religious order has adopted a higher rank for the memorial of Our Lady of Mount Carmel (which falls on this day in some traditions), the day remains a feria. This highlights the principle that the Sunday cycle and the ordinary time structure form the backbone of the liturgical year. The faithful are encouraged to find Christ in the mundane rhythms of the week, integrating faith into daily work and family life.",
+    "body_vi": "Việc cử hành phụng vụ trong Thứ Sáu này tập trung vào các bài đọc được chỉ định cho ngày thường của tuần mười ba Mùa Thường Niên. Các tín hữu được mời gọi suy niệm về sứ điệp Tin Mừng, thường đề cập đến các chủ đề về hoán cải, cầu nguyện hoặc bản chất của môn đệ trong bối cảnh hàng ngày. Áo lễ màu xanh lá nhắc nhở Hội Thánh về hành trình liên tục của mình trong năm phụng vụ, nhấn mạnh nhịp độ tăng trưởng tâm linh đều đặn hơn là cường độ của các ngày lễ hoặc các mùa như Mùa Chay và Mùa Vọng.\n\nTrong bối cảnh lịch phụng vụ chung, trừ khi một khu vực hoặc dòng tu cụ thể đã chấp nhận nghi thức cao hơn cho lễ nhớ Đức Bà Núi Cát Minh (rơi vào ngày này theo một số truyền thống), ngày này vẫn là một ngày thường. Điều này nêu bật nguyên tắc rằng chu kỳ Chúa nhật và cấu trúc Mùa Thường Niên tạo thành xương sống của năm phụng vụ. Các tín hữu được khuyến khích tìm thấy Chúa Kitô trong nhịp điệu thường nhật của tuần, tích hợp đức tin vào cuộc sống lao động và gia đình hàng ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steady steps in the green season.",
+    "hero_line_vi": "Bước chân vững chắc trong mùa xanh.",
+    "prayer_prompt_en": "Lord, grant me the strength to walk faithfully in the ordinary days of this week.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sức mạnh để bước đi trung tín trong những ngày thường của tuần này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for July 16, 2027",
+      "url": "https://bible.usccb.org/bible/readings/071627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Liturgical Calendar",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-03",
+    "hebrew": "11 Tamuz 5787",
+    "islamic_umm_al_qura": "12 Safar 1449 AH",
+    "coptic": "9 Epip 1743",
+    "ethiopian": "9 Hamle 2019"
+  }
+}

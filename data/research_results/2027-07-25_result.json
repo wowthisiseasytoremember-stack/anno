@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-07-25",
+  "date": "2027-07-25",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "St. James the Apostle",
+    "title_vi": "Thánh Giacôbê, Tông đồ"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. James the Apostle",
+    "title_vi": "Thánh Giacôbê Tông Đồ",
+    "summary_en": "The feast of St. James the Apostle, also known as James the Greater, is celebrated on July 25. He was the first apostle to be martyred for his faith, as recorded in the Acts of the Apostles. In Spain, he is the primary patron saint, with a significant pilgrimage tradition centered in Santiago de Compostela.",
+    "summary_vi": "Lễ kính Thánh Giacôbê Tông Đồ, còn được gọi là Giacôbê Cả, được cử hành vào ngày 25 tháng Bảy. Ngài là vị Tông Đồ đầu tiên tử đạo vì đức tin, như được ghi nhận trong sách Tông Đồ Công Vụ. Tại Tây Ban Nha, ngài là thánh bổn mạng chính yếu, với truyền thống hành hương quan trọng tập trung tại Santiago de Compostela.",
+    "body_en": "St. James the Greater, son of Zebedee and brother of St. John the Evangelist, was one of the first disciples called by Jesus. He was part of the inner circle of three apostles, witnessing key events such as the Transfiguration and the Agony in the Garden. His martyrdom around 44 AD, ordered by King Herod Agrippa I, marks the first recorded death of an apostle, emphasizing the cost of discipleship.\n\nIn the Western Church, particularly in Spain and Portugal, James is venerated as the apostle who evangelized the Iberian Peninsula. The famous Camino de Santiago pilgrimage route leads to the Cathedral of Santiago de Compostela, where his relics are traditionally believed to be buried. This feast highlights the universal call to evangelization and the enduring witness of martyrdom in the Church's history.",
+    "body_vi": "Thánh Giacôbê Cả, con của ông Dêbêđê và là anh của Thánh Gioan Tông Đồ, là một trong những môn đệ đầu tiên được Chúa Giêsu kêu gọi. Ngài thuộc nhóm ba Tông Đồ cốt cán, chứng kiến những biến cố quan trọng như Biến Hình và cuộc hấp hối tại Vườn Cây Dầu. Việc tử đạo của ngài vào khoảng năm 44 sau Công Nguyên, do lệnh của Vua Hêrôđê Agrippa I, đánh dấu cái chết đầu tiên được ghi nhận của một Tông Đồ, nhấn mạnh cái giá của việc làm môn đệ.\n\nTrong Giáo hội Latinh, đặc biệt là ở Tây Ban Nha và Bồ Đào Nha, Thánh Giacôbê được tôn kính là Tông Đồ đã truyền giáo cho bán đảo Iberia. Hành trình hành hương nổi tiếng Camino de Santiago dẫn đến Nhà thờ chính tòa Santiago de Compostela, nơi hài cốt của ngài được cho là chôn cất. Ngày lễ này làm nổi bật lời mời gọi truyền giáo phổ quát và chứng tá bền bỉ của các vị tử đạo trong lịch sử Giáo hội.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The feast of St. James the Apostle is a fixed feast in the General Roman Calendar and is universally recognized as the patron of Spain.",
+    "confidence_note_vi": "Lễ kính Thánh Giacôbê Tông Đồ là một ngày lễ cố định trong Lịch Phụng vụ Rôma và được công nhận phổ biến là thánh bổn mạng của Tây Ban Nha."
+  },
+  "app_hooks": {
+    "hero_line_en": "Lord, give us the courage of St. James to follow You to the end.",
+    "hero_line_vi": "Lạy Chúa, xin ban cho chúng con lòng can đảm của Thánh Giacôbê để theo Chúa đến cùng.",
+    "prayer_prompt_en": "Pray for the strength to bear witness to your faith through daily life and actions, inspired by St. James.",
+    "prayer_prompt_vi": "Cầu nguyện xin ơn can đảm làm chứng cho đức tin qua đời sống và hành động hằng ngày, noi gương Thánh Giacôbê."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for July 25, 2027",
+      "url": "https://bible.usccb.org/bible/readings/072527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia: St. James the Greater",
+      "url": "https://www.newadvent.org/cathen/08578b.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-12",
+    "hebrew": "20 Tamuz 5787",
+    "islamic_umm_al_qura": "21 Safar 1449 AH",
+    "coptic": "18 Epip 1743",
+    "ethiopian": "18 Hamle 2019"
+  }
+}

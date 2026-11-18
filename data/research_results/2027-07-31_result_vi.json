@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Inhaxiô thành Loyola, Linh mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Inhaxiô thành Loyola",
+    "summary_vi": "Giáo hội cử hành Thánh lễ kính nhớ Thánh Inhaxiô thành Loyola, một cựu binh sĩ đã trở thành nhà thần nghiệm và sáng lập Dòng Tên. Ngài nổi tiếng với sách Linh Thao, hướng dẫn tín hữu phân định ý Chúa trong đời sống hằng ngày. Di sản của ngài tiếp tục qua công tác giáo dục và truyền giáo toàn cầu của các tu sĩ Dòng Tên.",
+    "body_vi": "Thánh Inhaxiô thành Loyola đã trải qua sự hoán cải sâu sắc sau khi bị thương trong trận chiến, dẫn đến việc ngài cống hiến cả đời cho việc phục vụ Thiên Chúa. Trong hang động ở Manresa, ngài đã phát triển những nguyên tắc nền tảng của Linh Thao, vẫn còn là công cụ thiết yếu cho sự tăng trưởng thiêng liêng.\n\nVới tư cách là linh mục và người sáng lập Dòng Tên, Inhaxiô nhấn mạnh 'Magis'—việc cố gắng làm nhiều hơn và tốt hơn cho vinh danh lớn hơn của Thiên Chúa. Ảnh hưởng của ngài đã định hình lại giáo dục và truyền giáo Công giáo trong thời đại mới, khuyến khích một đức tin gắn bó sâu sắc với thế giới.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Phân định ý Chúa trong từng khoảnh khắc.",
+    "prayer_prompt_vi": "Cầu xin ân sủng phân định rõ ràng trong các quyết định hằng ngày."
+  }
+}

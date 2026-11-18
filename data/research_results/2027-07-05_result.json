@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-07-05",
+  "date": "2027-07-05",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 12",
+    "title_vi": "Thứ Hai tuần 12 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of Ordinary Time, Week 12",
+    "title_vi": "Thứ Hai tuần 12 Mùa Thường Niên",
+    "summary_en": "This day is a Feria within the liturgical season of Ordinary Time, specifically the Monday of the twelfth week. The liturgical color is green, symbolizing growth and the continuous life of the Church in Christ. No solemnity or feast takes precedence on this date in the General Roman Calendar, so the standard weekday liturgy applies. The focus is on the daily progression of salvation history as presented in the Lectionary.",
+    "summary_vi": "Ngày này là ngày thường tuần trong mùa Thường Niên, cụ thể là Thứ Hai của tuần thứ mười hai. Màu phụng vụ là màu xanh, tượng trưng cho sự tăng trưởng và đời sống liên lỉ của Giáo hội trong Đức Kitô. Không có lễ trọng hay lễ kính nào ưu tiên vào ngày này trong Lịch Rôma Chung, vì vậy phụng vụ ngày thường tiêu chuẩn được áp dụng. Trọng tâm là sự tiến triển hàng ngày của lịch sử cứu độ được trình bày trong Sách Bài Đọc.",
+    "body_en": "As a Feria, this Monday marks a continuation of the Ordinary Time cycle, inviting the faithful to reflect on the teachings of Christ as they unfold in the weekday readings. The green vestments serve as a visual reminder of hope and the steady growth of the Christian life amidst the ordinary rhythms of the world. In the context of Week 12, the liturgy often addresses themes of humility and reliance on God's grace.\n\nIn the Vietnamese Catholic context, this day is observed with the same liturgical dignity, emphasizing the sanctification of time through prayer and the Eucharist. The faithful are encouraged to participate in the Mass where available, or join in the Liturgy of the Hours, to align their daily lives with the Church's prayer. The absence of major feasts allows for a deeper meditation on the personal and communal dimensions of ordinary sanctity.",
+    "body_vi": "Là ngày thường, Thứ Hai này đánh dấu sự tiếp nối chu kỳ Mùa Thường Niên, mời gọi các tín hữu suy gẫm về lời dạy của Đức Kitô khi chúng mở ra qua các bài đọc ngày trong tuần. Áo lễ màu xanh phục vụ như một lời nhắc nhở trực quan về hy vọng và sự tăng trưởng vững chắc của đời sống Kitô hữu giữa những nhịp điệu bình thường của thế giới. Trong bối cảnh Tuần 12, phụng vụ thường đề cập đến các chủ đề về sự khiêm nhường và sự tin cậy vào ơn sủng của Thiên Chúa.\n\nTrong bối cảnh Công giáo Việt Nam, ngày này được tuân giữ với cùng phẩm trật phụng vụ, nhấn mạnh vào việc thánh hóa thời gian qua lời cầu nguyện và Bí tích Thánh Thể. Các tín hữu được khuyến khích tham dự Thánh lễ khi có thể, hoặc tham gia Phụng vụ Các Giờ Kinh, để điều chỉnh cuộc sống hàng ngày của họ với lời cầu nguyện của Giáo hội. Sự vắng mặt của các ngày lễ lớn cho phép suy gẫm sâu sắc hơn về các khía cạnh cá nhân và cộng đồng của sự thánh thiện bình thường.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The rank is confirmed as a standard feria because no specific saint or feast is universally assigned to this date that overrides the weekday office. The liturgical color and week number are derived from the standard calculation of the Roman Calendar for 2027. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Hạng được xác nhận là ngày thường tiêu chuẩn vì không có vị thánh hay ngày lễ cụ thể nào được gán phổ quát cho ngày này để ưu tiên hơn vụ nhật tuần. Màu phụng vụ và số tuần được suy ra từ tính toán chuẩn của Lịch Rôma cho năm 2027. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growth in the Quiet of Ordinary Time",
+    "hero_line_vi": "Tăng trưởng trong Sự tĩnh lặng của Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, teach us to find You in the ordinary moments of our days.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy chúng con tìm thấy Chúa trong những khoảnh khắc bình thường của ngày sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/070527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "reference"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-22",
+    "hebrew": "30 Sivan 5787",
+    "islamic_umm_al_qura": "1 Safar 1449 AH",
+    "coptic": "28 Paoni 1743",
+    "ethiopian": "28 Sene 2019"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-07-03",
+  "date": "2027-07-03",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "St. Thomas the Apostle",
+    "title_vi": "Thánh Tôma, Tông đồ"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Thomas, Apostle",
+    "title_vi": "Thánh Tôma, Tông Đồ",
+    "summary_en": "St. Thomas is remembered for his journey from skepticism to profound confession of faith. His encounter with the Risen Christ, where he touched the wounds, established a foundational moment for Christian belief in the Resurrection. The Church honors him as a model of faithful inquiry and unwavering devotion.",
+    "summary_vi": "Thánh Tôma được tưởng nhớ vì hành trình từ hoài nghi đến lời tuyên xưng đức tin sâu sắc. Cuộc gặp gỡ của ngài với Chúa Kitô Phục Sinh, khi ngài chạm vào các vết thương, đã thiết lập một khoảnh khắc nền tảng cho niềm tin Kitô giáo vào sự Phục Sinh. Hội Thánh tôn vinh ngài như một mẫu gương của sự tra vấn trung tín và lòng đạo đức kiên định.",
+    "body_en": "On July 3, the universal Church celebrates the Feast of St. Thomas, one of the Twelve Apostles. Known often as 'Doubting Thomas' or 'Didymus,' he is venerated for his pivotal role in witnessing the Resurrection. His famous declaration, 'My Lord and my God!', upon seeing and touching the wounds of Jesus eight days after Easter, remains a cornerstone of Christological doctrine and a testament to the compatibility of faith and reason.\n\nTradition holds that Thomas carried the Gospel to India, establishing one of the oldest Christian communities in the world, the Syro-Malabar Church. His martyrdom in Madras is commemorated by many Christians, particularly in Asia. The feast serves as an invitation for believers to deepen their understanding of the Incarnation and to embrace the mysteries of the faith with both humility and intellectual engagement.",
+    "body_vi": "Vào ngày 3 tháng 7, Hội Thánh hoàn vũ cử hành Lễ kính Thánh Tôma, một trong Mười Hai Sứ Đồ. Được biết đến nhiều hơn với tên gọi 'Tôma Nho Nháng' hoặc 'Didymus', ngài được tôn kính vì vai trò then chốt trong việc làm chứng cho sự Phục Sinh. Lời tuyên xưng nổi tiếng của ngài, 'Lạy Chúa tôi, Lạy Thiên Chúa của con!', khi nhìn thấy và chạm vào các vết thương của Chúa Giêsu tám ngày sau lễ Vượt Qua, vẫn là nền tảng của học thuyết về Đức Kitô và là minh chứng cho sự tương thích giữa đức tin và lý trí.\n\nTruyền thống kể rằng Tôma đã mang Tin Mừng đến Ấn Độ, thành lập một trong những cộng đoàn Kitô giáo lâu đời nhất trên thế giới, Giáo hội Syro-Malabar. Sự tử đạo của ngài tại Madras được nhiều Kitô hữu, đặc biệt là ở châu Á, tưởng nhớ. Ngày lễ này là lời mời gọi các tín hữu đào sâu hiểu biết về Mầu Nhiệm Nhập Thể và đón nhận những mầu nhiệm của đức tin với sự khiêm nhường và dấn thân trí tuệ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The Feast of St. Thomas the Apostle is a fixed feast in the General Roman Calendar, occurring annually on July 3. It is a confirmed liturgical celebration.",
+    "confidence_note_vi": "Lễ kính Thánh Tôma Tông Đồ là một ngày lễ cố định trong Lịch Rôma Tổng quát, diễn ra hàng năm vào ngày 3 tháng 7. Đây là một ngày cử hành phụng vụ đã được xác nhận."
+  },
+  "app_hooks": {
+    "hero_line_en": "From Doubt to Confession: Embracing the Mystery of Faith",
+    "hero_line_vi": "Từ Hoài Nghi đến Tuyên Xưng: Đón nhận Mầu nhiệm Đức Tin",
+    "prayer_prompt_en": "Lord Jesus, like Thomas, help us to see your wounds not as barriers, but as the bridge to your living presence.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, giống như Tôma, xin giúp chúng con nhìn các vết thương của Chúa không phải như rào cản, mà là cầu nối dẫn đến sự hiện diện sống động của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/070327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=275",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-20",
+    "hebrew": "28 Sivan 5787",
+    "islamic_umm_al_qura": "28 Muharram 1449 AH",
+    "coptic": "26 Paoni 1743",
+    "ethiopian": "26 Sene 2019"
+  }
+}

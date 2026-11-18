@@ -1,0 +1,51 @@
+{
+  "id": "anno-2027-07-28",
+  "date": "2027-07-28",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 15",
+    "title_vi": "Thứ Tư tuần 15 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time, Week 15",
+    "title_vi": "Thứ Tư tuần 15 Mùa Thường Niên",
+    "summary_en": "July 28, 2027, is a Wednesday in Ordinary Time, specifically in Week 15 of the liturgical year. The liturgical color is green, signifying the growth of the Church and the time of ordinary Christian life. There are no major saints or feasts celebrated universally on this date, making it a typical weekday for personal devotion and daily Gospel reflection.",
+    "summary_vi": "Ngày 28 tháng 7 năm 2027 là Thứ Tư trong Mùa Thường Niên, cụ thể là tuần 15 của năm phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng của Giáo Hội và thời gian sống đời thường của Kitô hữu. Không có vị thánh hoặc lễ lớn nào được cử hành phổ quát vào ngày này, nên đây là ngày thường điển hình cho lòng đạo đức cá nhân và suy niệm Tin Mừng hằng ngày.",
+    "body_en": "On this Wednesday in the 15th week of Ordinary Time, the liturgical focus remains on the progression of daily Christian life. The readings and prayers for this day emphasize growth in faith and the practical application of Gospel teachings in everyday circumstances. As a feria, the day does not feature the celebratory rank of a feast or memorial, inviting the faithful to engage with the Word of God in a quiet, contemplative manner.\n\nThe liturgical color green symbolizes hope and the steady growth of the Church, encouraging believers to mature in their understanding of the faith. In the context of Week 15, the Church invites reflection on perseverance and the importance of staying rooted in Christ during the ordinary rhythms of time. This day serves as a reminder that holiness is often found in the mundane details of life, lived out with charity and devotion.",
+    "body_vi": "Trong ngày Thứ Tư này thuộc tuần 15 Mùa Thường Niên, trọng tâm phụng vụ vẫn tập trung vào sự tiến triển của đời sống Kitô hữu hằng ngày. Các bài đọc và lời cầu nguyện cho ngày này nhấn mạnh vào sự tăng trưởng trong đức tin và việc áp dụng các giáo huấn Tin Mừng vào những hoàn cảnh cụ thể của cuộc sống. Là một ngày thường, ngày này không mang cấp độ cử hành long trọng của lễ kính hay lễ nhớ, mời gọi các tín hữu tiếp xúc với Lời Chúa theo cách thức tĩnh lặng và suy niệm.\n\nMàu phụng vụ xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Giáo Hội, khuyến khích các tín hữu trưởng thành hơn trong việc hiểu biết đức tin. Trong bối cảnh tuần 15, Giáo Hội mời gọi suy niệm về sự kiên trì và tầm quan trọng của việc bén rễ sâu vào Đức Kitô trong những nhịp điệu bình thường của thời gian. Ngày này nhắc nhở rằng sự thánh thiện thường được tìm thấy trong những chi tiết đời thường của cuộc sống, được sống với lòng bác ái và đạo đức.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growth in Ordinary Time",
+    "hero_line_vi": "Tăng trưởng trong Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help me grow in faith and love through the ordinary duties of today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tăng trưởng trong đức tin và lòng mến qua những bổn phận hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/072827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/11128b.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "This date is a standard weekday (feria) in Ordinary Time with no universal feast or saint memorial of higher rank, confirmed by the General Roman Calendar structure for Week 15.",
+  "confidence_note_vi": "Ngày này là ngày thường (feria) tiêu chuẩn trong Mùa Thường Niên, không có lễ kính hoặc lễ nhớ của bất kỳ vị thánh nào có cấp bậc cao hơn, được xác nhận bởi cấu trúc Lịch Rôma Tổng Quát cho tuần 15.",
+  "calendars": {
+    "julian": "2027-07-15",
+    "hebrew": "23 Tamuz 5787",
+    "islamic_umm_al_qura": "24 Safar 1449 AH",
+    "coptic": "21 Epip 1743",
+    "ethiopian": "21 Hamle 2019"
+  }
+}

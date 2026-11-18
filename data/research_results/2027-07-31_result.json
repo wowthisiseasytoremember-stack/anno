@@ -1,0 +1,51 @@
+{
+  "id": "anno-2027-07-31",
+  "date": "2027-07-31",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Ignatius of Loyola, Priest",
+    "title_vi": "Thánh Inhaxiô thành Loyola, Linh mục"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Ignatius of Loyola",
+    "title_vi": "Thánh Inhaxiô thành Loyola",
+    "summary_en": "The Church celebrates the Memorial of St. Ignatius of Loyola, a former soldier turned mystic who founded the Society of Jesus. He is known for his Spiritual Exercises, which guide believers in discerning God's will in their daily lives. His legacy continues through the global educational and missionary work of the Jesuits.",
+    "summary_vi": "Giáo hội cử hành Thánh lễ kính nhớ Thánh Inhaxiô thành Loyola, một cựu binh sĩ đã trở thành nhà thần nghiệm và sáng lập Dòng Tên. Ngài nổi tiếng với sách Linh Thao, hướng dẫn tín hữu phân định ý Chúa trong đời sống hằng ngày. Di sản của ngài tiếp tục qua công tác giáo dục và truyền giáo toàn cầu của các tu sĩ Dòng Tên.",
+    "body_en": "St. Ignatius of Loyola experienced a profound conversion after being wounded in battle, leading him to dedicate his life to God's service. In the cave of Manresa, he developed the foundational principles of his Spiritual Exercises, which remain a vital tool for spiritual growth.\n\nAs a priest and founder of the Jesuits, Ignatius emphasized the 'Magis'—the pursuit of doing more and better for God's greater glory. His influence reshaped Catholic education and evangelization in the modern era, encouraging a faith that is deeply engaged with the world.",
+    "body_vi": "Thánh Inhaxiô thành Loyola đã trải qua sự hoán cải sâu sắc sau khi bị thương trong trận chiến, dẫn đến việc ngài cống hiến cả đời cho việc phục vụ Thiên Chúa. Trong hang động ở Manresa, ngài đã phát triển những nguyên tắc nền tảng của Linh Thao, vẫn còn là công cụ thiết yếu cho sự tăng trưởng thiêng liêng.\n\nVới tư cách là linh mục và người sáng lập Dòng Tên, Inhaxiô nhấn mạnh 'Magis'—việc cố gắng làm nhiều hơn và tốt hơn cho vinh danh lớn hơn của Thiên Chúa. Ảnh hưởng của ngài đã định hình lại giáo dục và truyền giáo Công giáo trong thời đại mới, khuyến khích một đức tin gắn bó sâu sắc với thế giới.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is fixed in the General Roman Calendar as the memorial of St. Ignatius of Loyola.",
+  "confidence_note_vi": "Ngày này được xác định chắc chắn trong Lịch Rôma Chung là ngày kính nhớ Thánh Inhaxiô thành Loyola.",
+  "app_hooks": {
+    "hero_line_en": "Discern God's will in every moment.",
+    "hero_line_vi": "Phân định ý Chúa trong từng khoảnh khắc.",
+    "prayer_prompt_en": "Pray for the grace of clear discernment in your daily decisions.",
+    "prayer_prompt_vi": "Cầu xin ân sủng phân định rõ ràng trong các quyết định hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/073127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - St. Ignatius",
+      "url": "https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=32400",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-18",
+    "hebrew": "26 Tamuz 5787",
+    "islamic_umm_al_qura": "27 Safar 1449 AH",
+    "coptic": "24 Epip 1743",
+    "ethiopian": "24 Hamle 2019"
+  }
+}

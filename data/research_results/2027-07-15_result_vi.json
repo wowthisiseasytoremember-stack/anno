@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 13 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 13 Mùa Thường Niên",
+    "summary_vi": "Đây là một ngày thường trong Mùa Thường Niên với màu phụng vụ xanh. Các bài đọc thường tập trung vào các chủ đề về môn đệ và luật pháp. Không có lễ trọng hay lễ kính nào được ghi nhận cho ngày cụ thể này.",
+    "body_vi": "Trọng tâm phụng vụ cho Thứ Năm tuần 13 Mùa Thường Niên tập trung vào việc các tín hữu sống lời hứa Bí tích Rửa tội trong cuộc sống hàng ngày. Giáo hội mời gọi các tín hữu suy gẫm về những lời dạy của Chúa Giêsu và Hội thánh sơ khai qua các bài đọc được chỉ định.\n\nVì là ngày thường, ngày này không có vị thánh bảo trợ cụ thể nào được gắn kết trong Lịch phụng vụ Phổ quát, cho phép trọng tâm vẫn nằm ở câu chuyện liên tục về lịch sử cứu độ. Màu xanh tượng trưng cho niềm hy vọng và sự tăng trưởng của Hội thánh.",
+    "confidence_note_vi": "Hạng và màu được xác định bởi các quy tắc của Lịch La Mã Phổ quát cho các ngày thường trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong đức tin qua việc làm môn đệ hàng ngày.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con áp dụng những lời dạy của Ngài vào các nhiệm vụ thường nhật hôm nay."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Tôma, Tông đồ"
+  },
+  "primary": {
+    "title_vi": "Thánh Tôma, Tông Đồ",
+    "summary_vi": "Thánh Tôma được tưởng nhớ vì hành trình từ hoài nghi đến lời tuyên xưng đức tin sâu sắc. Cuộc gặp gỡ của ngài với Chúa Kitô Phục Sinh, khi ngài chạm vào các vết thương, đã thiết lập một khoảnh khắc nền tảng cho niềm tin Kitô giáo vào sự Phục Sinh. Hội Thánh tôn vinh ngài như một mẫu gương của sự tra vấn trung tín và lòng đạo đức kiên định.",
+    "body_vi": "Vào ngày 3 tháng 7, Hội Thánh hoàn vũ cử hành Lễ kính Thánh Tôma, một trong Mười Hai Sứ Đồ. Được biết đến nhiều hơn với tên gọi 'Tôma Nho Nháng' hoặc 'Didymus', ngài được tôn kính vì vai trò then chốt trong việc làm chứng cho sự Phục Sinh. Lời tuyên xưng nổi tiếng của ngài, 'Lạy Chúa tôi, Lạy Thiên Chúa của con!', khi nhìn thấy và chạm vào các vết thương của Chúa Giêsu tám ngày sau lễ Vượt Qua, vẫn là nền tảng của học thuyết về Đức Kitô và là minh chứng cho sự tương thích giữa đức tin và lý trí.\n\nTruyền thống kể rằng Tôma đã mang Tin Mừng đến Ấn Độ, thành lập một trong những cộng đoàn Kitô giáo lâu đời nhất trên thế giới, Giáo hội Syro-Malabar. Sự tử đạo của ngài tại Madras được nhiều Kitô hữu, đặc biệt là ở châu Á, tưởng nhớ. Ngày lễ này là lời mời gọi các tín hữu đào sâu hiểu biết về Mầu Nhiệm Nhập Thể và đón nhận những mầu nhiệm của đức tin với sự khiêm nhường và dấn thân trí tuệ.",
+    "confidence_note_vi": "Lễ kính Thánh Tôma Tông Đồ là một ngày lễ cố định trong Lịch Rôma Tổng quát, diễn ra hàng năm vào ngày 3 tháng 7. Đây là một ngày cử hành phụng vụ đã được xác nhận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Từ Hoài Nghi đến Tuyên Xưng: Đón nhận Mầu nhiệm Đức Tin",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, giống như Tôma, xin giúp chúng con nhìn các vết thương của Chúa không phải như rào cản, mà là cầu nối dẫn đến sự hiện diện sống động của Chúa."
+  }
+}

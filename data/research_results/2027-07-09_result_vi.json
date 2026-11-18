@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 12 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 12 Mùa Thường Niên",
+    "summary_vi": "Đây là ngày lễ trong Mùa Thường Niên, rơi vào tuần thứ mười hai của năm phụng vụ. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Kitô hữu. Không có lễ trọng hay lễ nhớ buộc nào thay thế giờ kinh nhật tụng trong ngày này theo lịch phụng vụ hiện hành. Trọng tâm vẫn là sự tiến triển vững chắc trong việc thánh hóa qua kinh nguyện hàng ngày và việc đọc Sách Thánh.",
+    "body_vi": "Vào ngày Thứ Sáu của tuần thứ mười hai Mùa Thường Niên, Giáo hội mời gọi cộng đoàn tiếp tục hành trình đức tin mà không bị gián đoạn bởi một lễ trọng lớn. Các bài đọc trong ngày này thường phản ánh các chủ đề về sự tăng trưởng tâm linh và sự tuân giữ luật của Thiên Chúa. Bằng cách duy trì sự chú ý vào phụng vụ ngày thường, các tín hữu được nhắc nhở rằng sự thánh thiện được tìm thấy trong các thói quen bình thường của cuộc sống. Giai đoạn này đóng vai trò là thời gian để đào sâu mối quan hệ cá nhân với Chúa Kitô qua lời cầu nguyện nhất quán.\n\nMôi trường phụng vụ êm đềm và ổn định, khuyến khích suy gẫm về các đoạn Tin Mừng được chỉ định cho chu kỳ này. Mặc dù một số lịch phụng vụ địa phương có thể có các lễ nhớ tùy chọn, quy tắc chung cho ngày Thứ Sáu này trong Nghi lễ Rôma là tuân giữ ngày lễ thường nhật. Điều này nhấn mạnh tính phổ quát của sứ điệp mùa phụng vụ hơn là các lễ hội thánh nhân riêng biệt. Các tín hữu được khuyến khích sử dụng thời gian này để tự kiểm điểm lương tâm và thực thi các hành vi bác ái.",
+    "confidence_note_vi": "Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Xin giúp con tìm thấy Ngài trong thói quen hàng ngày."
+  }
+}

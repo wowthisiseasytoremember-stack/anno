@@ -1,0 +1,51 @@
+{
+  "id": "anno-2027-07-20",
+  "date": "2027-07-20",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 14",
+    "title_vi": "Thứ Ba tuần 14 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the 14th Week in Ordinary Time",
+    "title_vi": "Thứ Ba tuần 14 Mùa Thường Niên",
+    "summary_en": "The liturgical season is Ordinary Time, marked by the green vestments of growth and ordinary life. As a weekday feria, it does not supersede the Sunday cycle with a major feast or solemnity. The focus is on the daily application of the Gospel teachings in the context of the Church's ongoing mission. There are no mandatory memorials of saints that alter the basic weekday structure for this date.",
+    "summary_vi": "Mùa phụng vụ là Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây biểu trưng cho sự tăng trưởng và đời sống bình thường. Là một ngày thường (feria), ngày này không thay thế chu kỳ Chúa Nhật bằng một lễ lớn hay lễ trọng. Trọng tâm là việc áp dụng các giáo huấn Tin Mừng hàng ngày trong bối cảnh sứ mạng liên lỉ của Giáo hội. Không có lễ nhớ buộc nào của các thánh thay đổi cấu trúc cơ bản của ngày thường vào thời điểm này.",
+    "body_en": "On Tuesdays in Ordinary Time, the Church invites the faithful to contemplate the steady rhythm of Christian living. The readings and prayers focus on the ordinary virtues of faith, hope, and charity. These days serve as a reminder that holiness is often found in the mundane tasks and daily duties performed with love for God and neighbor. The green color symbolizes hope and the growth of the Church as she walks through time.\n\nThe absence of a specific saint's memorial on this Tuesday emphasizes the priority of the liturgical time itself. While saints may be honored in private devotion, the public liturgy retains its focus on the weekly cycle and the scriptural readings prescribed for Week 14. This underscores the Catholic understanding that time is sanctified not just by special events, but by the persistent, faithful response to God's Word. The community prays the Liturgy of the Hours, aligning their day with the eternal liturgy of heaven.",
+    "body_vi": "Vào các ngày Thứ Ba trong Mùa Thường Niên, Giáo hội mời gọi các tín hữu chiêm ngắm nhịp điệu đều đặn của đời sống Kitô hữu. Các bài đọc và lời cầu nguyện tập trung vào những nhân đức thường nhật như đức tin, đức cậy và đức mến. Những ngày này là lời nhắc nhở rằng sự thánh thiện thường được tìm thấy trong các công việc bình thường và bổn phận hàng ngày được thực hiện với lòng yêu mến Thiên Chúa và tha nhân. Màu xanh lá cây tượng trưng cho hy vọng và sự phát triển của Giáo hội khi bước đi trong thời gian.\n\nViệc thiếu một lễ nhớ cụ thể của một vị thánh vào Thứ Ba này nhấn mạnh tầm quan trọng của chính thời gian phụng vụ. Mặc dù các thánh có thể được tôn kính trong lòng đạo đức cá nhân, phụng vụ công khai vẫn giữ trọng tâm vào chu kỳ hàng tuần và các bài đọc Kinh Thánh được quy định cho tuần 14. Điều này khẳng định quan điểm Công giáo rằng thời gian được thánh hóa không chỉ bởi những sự kiện đặc biệt, mà bởi sự đáp trả trung tín, kiên trì với Lời Chúa. Cộng đoàn cầu nguyện Phụng vụ Các Giờ Kinh, kết hợp ngày sống của mình với phụng vụ vĩnh cửu trên trời.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Sanctifying the Ordinary",
+    "hero_line_vi": "Thánh hóa điều bình thường",
+    "prayer_prompt_en": "Lord, help me to see You in the routine of this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con thấy Chúa trong nhịp sống hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/072027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/11047a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is a standard weekday in Ordinary Time with no conflicting universal feast or solemnity in the General Roman Calendar for July 20, 2027.",
+  "confidence_note_vi": "Ngày này là một ngày thường tiêu chuẩn trong Mùa Thường Niên, không có lễ hoặc lễ trọng phổ quát nào xung đột trong Lịch Phụng vụ Rôma cho ngày 20 tháng 7 năm 2027.",
+  "calendars": {
+    "julian": "2027-07-07",
+    "hebrew": "15 Tamuz 5787",
+    "islamic_umm_al_qura": "16 Safar 1449 AH",
+    "coptic": "13 Epip 1743",
+    "ethiopian": "13 Hamle 2019"
+  }
+}

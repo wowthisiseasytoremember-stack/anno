@@ -1,0 +1,51 @@
+{
+  "id": "anno-2027-07-22",
+  "date": "2027-07-22",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "St. Mary Magdalene",
+    "title_vi": "Thánh Maria Mađalêna"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saint Mary Magdalene",
+    "title_vi": "Thánh Nữ Maria Mađalêna",
+    "summary_en": "This feast honors Saint Mary Magdalene, celebrated as the 'Apostle to the Apostles' for being the first witness to the Resurrection. She is depicted in art with the ointment jar she used to anoint Jesus' feet. This day highlights the role of women as primary witnesses to the Paschal Mystery.",
+    "summary_vi": "Lễ này tôn vinh Thánh Nữ Maria Mađalêna, được tôn xưng là 'Tông Đồ của các Tông Đồ' vì bà là nhân chứng đầu tiên của sự Phục Sinh. Trong nghệ thuật, bà thường được mô tả với bình dầu thơm mà bà đã dùng để xức chân Chúa Giêsu. Ngày lễ này làm nổi bật vai trò của phụ nữ trong việc loan báo Mầu Nhiệm Vượt Qua.",
+    "body_en": "Saint Mary Magdalene holds a place of profound theological importance in the Catholic Church. Her role as the first person to see the Risen Christ and to report the Good News to the disciples earns her the title 'Apostle to the Apostles.' In 2016, Pope Francis elevated her celebration from a memorial to a Feast, emphasizing her equal status among the apostles in witness and mission.\n\nThe imagery associated with Mary Magdalene—often an alabaster jar of perfume—connects her to the anointing of Jesus in Luke 7:36-50. While tradition has historically conflated three distinct women into her person, modern scholarship distinguishes them, while maintaining that her steadfast loyalty and profound devotion are the truest form of apostolic ministry.",
+    "body_vi": "Thánh Nữ Maria Mađalêna giữ một vị trí thần học vô cùng quan trọng trong Giáo hội Công giáo. Vai trò của bà là người đầu tiên nhìn thấy Chúa Kitô Phục Sinh và loan báo Tin Mừng cho các môn đệ đã mang lại cho bà danh hiệu 'Tông Đồ của các Tông Đồ'. Năm 2016, Đức Thánh Cha Phanxicô đã nâng bậc lễ nhớ của bà lên thành Lễ kính, nhấn mạnh địa vị bình đẳng của bà trong chứng tá và sứ mạng.\n\nHình ảnh gắn liền với Maria Mađalêna—thường là bình dầu thơm bằng thạch cao—liên kết bà với việc xức dầu cho Chúa Giêsu trong Luca 7,36-50. Trong khi truyền thống lịch sử đã đồng nhất ba người phụ nữ riêng biệt thành một, các học giả hiện đại phân biệt họ rõ ràng hơn, nhưng vẫn khẳng định lòng trung thành kiên định và lòng sùng mộ sâu sắc của bà là hình thức mục vụ tông đồ chân chính nhất.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "First witness to the empty tomb.",
+    "hero_line_vi": "Nhân chứng đầu tiên của ngôi mộ trống.",
+    "prayer_prompt_en": "Ask for the courage to be a witness to the Resurrection.",
+    "prayer_prompt_vi": "Xin ơn can đảm để làm chứng cho sự Phục Sinh."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/072227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/09578a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "St. Mary Magdalene is a fixed feast on July 22 in the General Roman Calendar, confirmed by the motu proprio 'Apostolorum Custos'.",
+  "confidence_note_vi": "Thánh Nữ Maria Mađalêna là một lễ kính cố định vào ngày 22 tháng 7 trong Lịch Rôma Tổng Quát, được xác nhận bởi Tự sắc 'Apostolorum Custos'.",
+  "calendars": {
+    "julian": "2027-07-09",
+    "hebrew": "17 Tamuz 5787",
+    "islamic_umm_al_qura": "18 Safar 1449 AH",
+    "coptic": "15 Epip 1743",
+    "ethiopian": "15 Hamle 2019"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-07-08",
+  "date": "2027-07-08",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 12",
+    "title_vi": "Thứ Năm tuần 12 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of Ordinary Time, Week 12",
+    "title_vi": "Thứ Năm tuần 12 Mùa Thường Niên",
+    "summary_en": "This Thursday falls within the twelfth week of Ordinary Time in the Roman Catholic liturgical calendar. As a feria, it is characterized by the liturgical color green, symbolizing growth and hope in the faith. No major saint or feast day overrides the standard weekday readings for the Roman Rite on this specific date.",
+    "summary_vi": "Thứ Năm này rơi vào tuần thứ mười hai của Mùa Thường Niên trong lịch phụng vụ Công giáo Roma. Với tư cách là ngày thường, nó có màu xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng trong đức tin. Không có ngày kính trọng thể hay lễ kính nào thay thế các bài đọc ngày thường của Nghi lễ Roma vào ngày cụ thể này.",
+    "body_en": "In the General Roman Calendar, Thursdays in Ordinary Time are dedicated to the sanctification of human labor and daily life through prayer. The focus remains on the gradual progression of the faithful through the mystery of Christ, using the ordinary weeks to deepen understanding of Scripture. On July 8, 2027, the Church invites believers to reflect on the steadfastness of God's covenant amidst the routine of daily existence.\n\nThe liturgical texts for this day emphasize humility and the rejection of pride, following the teachings found in the Gospels. By engaging with these readings, the faithful are encouraged to live out their baptismal promises in a concrete manner. The absence of a specific patron saint memorial allows the universal themes of Ordinary Time to take precedence in the liturgical observance.",
+    "body_vi": "Trong Lịch phụng vụ Công giáo Roma, các ngày Thứ Năm trong Mùa Thường Niên được dành riêng để thánh hóa lao động và đời sống hàng ngày con người qua cầu nguyện. Trọng tâm vẫn là sự tiến triển dần dần của các tín hữu qua mầu nhiệm Đức Kitô, sử dụng các tuần thường niên để đào sâu sự hiểu biết về Kinh Thánh. Vào ngày 8 tháng 7 năm 2027, Giáo hội mời gọi các tín hữu suy ngẫm về sự kiên định của giao ước Thiên Chúa giữa những thói quen của sự tồn tại hàng ngày.\n\nCác văn bản phụng vụ cho ngày này nhấn mạnh sự khiêm nhường và sự khước từ tính kiêu ngạo, theo các lời dạy được tìm thấy trong các Phúc Âm. Bằng cách tiếp cận những bài đọc này, các tín hữu được khuyến khích sống các lời hứa phép rửa của họ một cách cụ thể. Sự vắng mặt của một lễ nhớ thánh bảo trợ cụ thể cho phép các chủ đề phổ quát của Mùa Thường Niên chiếm vị trí ưu tiên trong việc cử hành phụng vụ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date 2027-07-08 is a Thursday in Week 12 of Ordinary Time in the current form of the Roman Rite, with no universal feasts impinging on this date.",
+    "confidence_note_vi": "Ngày 08/07/2027 là Thứ Năm trong Tuần 12 Mùa Thường Niên theo hình thức hiện hành của Nghi lễ Roma, không có ngày lễ phổ quát nào ảnh hưởng đến ngày này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in the quiet strength of Ordinary Time.",
+    "hero_line_vi": "Tăng trưởng trong sức mạnh tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me to find You in my daily work and routine.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong công việc và thói quen hàng ngày của con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/070827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Liturgical Calendar",
+      "url": "https://www.vatican.va/content/vatican/it.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-25",
+    "hebrew": "3 Tamuz 5787",
+    "islamic_umm_al_qura": "4 Safar 1449 AH",
+    "coptic": "1 Epip 1743",
+    "ethiopian": "1 Hamle 2019"
+  }
+}

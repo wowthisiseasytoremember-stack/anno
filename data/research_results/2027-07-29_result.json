@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-07-29",
+  "date": "2027-07-29",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 15",
+    "title_vi": "Thứ Năm tuần 15 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Sts. Martha, Mary, and Lazarus",
+    "title_vi": "Thánh Mát-ta, Ma-ri-a và La-da-rô",
+    "summary_en": "The Church commemorates the siblings Martha, Mary, and Lazarus, who provided hospitality to Jesus in Bethany. Martha is honored for her active service and confession of faith in the Resurrection. Lazarus is remembered as the friend Jesus raised from the dead, while Mary is celebrated for her contemplative listening at the feet of the Lord.",
+    "summary_vi": "Giáo hội tưởng nhớ các anh chị em Mát-ta, Ma-ri-a và La-da-rô, những người đã đón tiếp Chúa Giê-su tại Bê-ta-ni-a. Thánh Mát-ta được tôn vinh vì sự phục vụ năng động và lời tuyên xưng đức tin vào sự sống lại. Thánh La-da-rô được nhớ đến như người bạn đã được Chúa Giê-su cho sống lại, trong khi Thánh Ma-ri-a được mừng kính vì thái độ chiêm niệm lắng nghe Lời Chúa.",
+    "body_en": "The Gospel accounts portray these three siblings as close friends of Jesus who offered him a place of rest and friendship. Martha, the eldest, is traditionally associated with service and hospitality, famously questioning Jesus about her sister's help before professing belief in Christ as the Resurrection. Her feast reminds the faithful of the importance of active works of charity within the Christian life.\n\nMary, sister of Lazarus, exemplifies the contemplative life, sitting at the feet of Jesus to listen to his teaching. Lazarus, whose resurrection is a central miracle recorded in the Gospel of John, signifies the power of Christ over death. Together, their lives represent a complete witness to faith through action, contemplation, and the hope of eternal life, offering a model of Christian devotion rooted in both service and prayer.",
+    "body_vi": "Các bài Tin Mừng mô tả ba anh chị em này như những người bạn thân thiết của Chúa Giê-su, đã cung cấp cho Ngài một nơi nghỉ ngơi và tình bạn. Thánh Mát-ta, chị cả, thường được liên kết với sự phục vụ và lòng hiếu khách, nổi tiếng với việc thắc mắc với Chúa Giê-su về sự giúp đỡ của em gái trước khi tuyên xưng đức tin rằng Ngài là sự sống lại. Lễ của thánh nữ nhắc nhở các tín hữu về tầm quan trọng của các việc làm từ bi năng động trong đời sống Kitô hữu.\n\nThánh Ma-ri-a, em gái của La-da-rô, là mẫu gương của đời sống chiêm niệm, ngồi dưới chân Chúa Giê-su để lắng nghe lời giáo huấn của Ngài. Thánh La-da-rô, với phép lạ sống lại được ghi lại trong Tin Mừng Gio-an, tượng trưng cho quyền năng của Đức Ki-tô trên cái chết. Cuộc đời của các thánh này cùng nhau đại diện cho một chứng tá đức tin hoàn chỉnh thông qua hành động, suy niệm và niềm hy vọng vào sự sống đời đời, cung cấp một mẫu mực về lòng đạo đức Kitô hữu bắt nguồn từ cả phục vụ và cầu nguyện.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faith in action, contemplation, and hope.",
+    "hero_line_vi": "Đức tin trong hành động, suy niệm và hy vọng.",
+    "prayer_prompt_en": "Lord, grant me the heart of Martha to serve, the silence of Mary to listen, and the hope of Lazarus to trust in Your resurrection.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con trái tim của Mát-ta để phục vụ, sự thinh lặng của Ma-ri-a để lắng nghe, và niềm hy vọng của La-da-rô để tin vào sự sống lại của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/072927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Saints",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?year=2027&month=07&day=29",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-16",
+    "hebrew": "24 Tamuz 5787",
+    "islamic_umm_al_qura": "25 Safar 1449 AH",
+    "coptic": "22 Epip 1743",
+    "ethiopian": "22 Hamle 2019"
+  }
+}

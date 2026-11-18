@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 12 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa nhật XIV Thường Niên",
+    "summary_vi": "Chúa nhật XIV Thường Niên tập trung vào sự đơn sơ và khiêm nhường của đời sống Kitô hữu. Phụng vụ mời gọi tín hữu nhận ra sự hiện diện của Thiên Chúa trong những khoảnh khắc tĩnh lặng của đời sống hằng ngày. Các bài đọc nhấn mạnh lòng tin vào Thiên Chúa thay vì quyền lực hay địa vị trần thế.",
+    "body_vi": "Phụng vụ của Chúa nhật này tập trung vào nhân đức khiêm nhường và sự loại bỏ tính kiêu ngạo. Trong bài đọc thứ nhất sách Dacaria, ngôn sứ mô tả một vị vua tương lai khiêm tốn, cưỡi trên lưng lừa, hoàn toàn tương phản với những xe chiến mã của các nhà cai trị thế gian. Hình ảnh này tạo nên tông giọng cho toàn bộ buổi cử hành, mời gọi các tín hữu xem xét lại sự phụ thuộc vào sức mạnh bên ngoài so với sự phụ thuộc tâm linh vào Thiên Chúa.\n\nTrong Tin Mừng, Chúa Giêsu kêu gọi những ai mệt mỏi và gánh nặng hãy đến với Ngài để được nghỉ ngơi, và trao cho họ ách nhẹ nhàng. Lời dạy này nhấn mạnh rằng tự do đích thực đến từ việc tuân phục sự dẫn dắt dịu dàng của Thiên Chúa. Lời nguyện nhập lễ xin cho chúng ta tinh thần khiêm nhường để hướng dẫn trên đường cứu rỗi, nhắc nhở rằng con đường của Đức Kitô là con đường phục vụ, không phải thống trị.",
+    "confidence_note_vi": "Ngày này là một Chúa nhật tiêu chuẩn trong Mùa Thường Niên Năm B, không có lễ nào che phủ, nên việc xác định phụng vụ là chắc chắn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Nghỉ ngơi trong sự khiêm nhường của Đức Kitô",
+    "prayer_prompt_vi": "Cầu xin trái tim khiêm nhường."
+  }
+}

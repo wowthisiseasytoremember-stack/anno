@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 15 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 15 Mùa Thường Niên",
+    "summary_vi": "Phụng vụ tập trung vào lời dạy của Chúa Giêsu trong Bài Giảng trên núi về cầu nguyện và sự phó thác nơi Thiên Chúa. Tín hữu được mời gọi suy tư về sự quan phòng của Chúa Cha. Không có lễ lớn hay thánh nhân nào bắt buộc mừng kính được liệt kê cho thứ Sáu thường niên này trong Lịch Phụng vụ Rôma.",
+    "body_vi": "Trong bài Tin Mừng cho Thứ Sáu tuần 15 Thường Niên, Chúa Giêsu dạy các môn đệ về sự đơn sơ trong cầu nguyện và nguy cơ của thói đạo đức giả. Người nhấn mạnh rằng Cha biết nhu cầu của con cái trước khi họ xin, thúc đẩy người tín hữu hãy tìm kiếm Nước Trời và sự công chính của Người trước tiên. Ngày này nhắc nhở chúng ta hãy tín thác vào sự quan phòng của Thiên Chúa thay vì những lo lắng thế gian.\n\nBối cảnh phụng vụ của Mùa Thường Niên khuyến khích sự hoán cải liên lỉ trong đời sống hàng ngày của người Kitô hữu. Mặc dù không có lễ trọng hay lễ kính nào đánh dấu ngày này, nhưng màu 'xanh' tượng trưng cho sự tăng trưởng và niềm hy vọng phục sinh. Giáo hội dâng lên những bài đọc này để củng cố đức tin của người tín hữu trong những đòi hỏi thực tế của Nước Trời, tập trung vào thái độ nội tâm hơn là nghi thức bên ngoài.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy tìm kiếm Nước Trời trước hết và tín thác vào sự quan phòng của Cha.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giải thoát con khỏi những lo lắng về nhu cầu vật chất và giúp con tín thác hoàn toàn vào tình yêu quan phòng của Chúa."
+  }
+}

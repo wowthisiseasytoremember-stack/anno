@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 15 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 15 Mùa Thường Niên",
+    "summary_vi": "Ngày 28 tháng 7 năm 2027 là Thứ Tư trong Mùa Thường Niên, cụ thể là tuần 15 của năm phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng của Giáo Hội và thời gian sống đời thường của Kitô hữu. Không có vị thánh hoặc lễ lớn nào được cử hành phổ quát vào ngày này, nên đây là ngày thường điển hình cho lòng đạo đức cá nhân và suy niệm Tin Mừng hằng ngày.",
+    "body_vi": "Trong ngày Thứ Tư này thuộc tuần 15 Mùa Thường Niên, trọng tâm phụng vụ vẫn tập trung vào sự tiến triển của đời sống Kitô hữu hằng ngày. Các bài đọc và lời cầu nguyện cho ngày này nhấn mạnh vào sự tăng trưởng trong đức tin và việc áp dụng các giáo huấn Tin Mừng vào những hoàn cảnh cụ thể của cuộc sống. Là một ngày thường, ngày này không mang cấp độ cử hành long trọng của lễ kính hay lễ nhớ, mời gọi các tín hữu tiếp xúc với Lời Chúa theo cách thức tĩnh lặng và suy niệm.\n\nMàu phụng vụ xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Giáo Hội, khuyến khích các tín hữu trưởng thành hơn trong việc hiểu biết đức tin. Trong bối cảnh tuần 15, Giáo Hội mời gọi suy niệm về sự kiên trì và tầm quan trọng của việc bén rễ sâu vào Đức Kitô trong những nhịp điệu bình thường của thời gian. Ngày này nhắc nhở rằng sự thánh thiện thường được tìm thấy trong những chi tiết đời thường của cuộc sống, được sống với lòng bác ái và đạo đức.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tăng trưởng trong đức tin và lòng mến qua những bổn phận hằng ngày."
+  }
+}

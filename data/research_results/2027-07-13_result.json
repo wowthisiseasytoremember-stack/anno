@@ -1,0 +1,51 @@
+{
+  "id": "anno-2027-07-13",
+  "date": "2027-07-13",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 13",
+    "title_vi": "Thứ Ba tuần 13 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the 13th Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần XIII Mùa Thường Niên",
+    "summary_en": "This day is a feria in the 13th week of Ordinary Time, marked by the liturgical color green. It emphasizes the growth of the Church and the daily walk of faith in the Spirit. The readings typically reflect themes of humility and the Kingdom of God, inviting the faithful to deeper conversion in everyday life.",
+    "summary_vi": "Đây là ngày lễ trong tuần thứ 13 của Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây phụng vụ. Ngày này nhấn mạnh vào sự tăng trưởng của Giáo hội và bước đi đức tin hàng ngày trong Thần Khí. Các bài đọc thường phản ánh những chủ đề về sự khiêm nhường và Vương quốc Thiên Chúa, mời gọi các tín hữu hoán cải sâu xa hơn trong cuộc sống hàng ngày.",
+    "body_en": "As a feria in Ordinary Time, this Tuesday focuses on the steady growth of the Church and the individual's daily adherence to Christ's teachings. The liturgy of the day invites the faithful to reflect on their spiritual journey, moving beyond initial enthusiasm to a sustained, mature faith. The green color symbolizes hope and growth, encouraging believers to cultivate virtues in their daily interactions.\n\nThe scriptural readings, as designated in the Lectionary for this week, often highlight the paradoxes of the Kingdom, such as strength in weakness or wisdom in humility. This period challenges the faithful to integrate faith into the mundane aspects of life, transforming ordinary actions into acts of worship. It is a time to listen carefully to the Word, allowing it to reshape the heart and mind in conformity to Christ.",
+    "body_vi": "Là một ngày trong Tuần XIII Mùa Thường Niên, Thứ Ba này tập trung vào sự tăng trưởng vững chắc của Giáo hội và sự tuân thủ hàng ngày của cá nhân đối với lời dạy của Chúa Kitô. Phụng vụ trong ngày mời gọi các tín hữu suy gẫm về hành trình thiêng liêng của mình, vượt ra ngoài sự nhiệt tình ban đầu để đạt đến đức tin trưởng thành và bền vững. Màu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng, khuyến khích các tín hữu trau dồi đức hạnh trong các tương tác hàng ngày.\n\nCác bài đọc Kinh Thánh, được chỉ định trong Sách Bài Đọc cho tuần này, thường làm nổi bật những nghịch lý của Vương quốc, như sức mạnh trong sự yếu đuối hay sự khôn ngoan trong sự khiêm nhường. Giai đoạn này thách thức các tín hữu hòa nhập đức tin vào những khía cạnh trần tục của cuộc sống, biến các hành động bình thường thành những hành vi thờ phượng. Đây là thời gian để lắng nghe cẩn thận Lời Chúa, để Lời ấy định hình lại trái tim và tâm trí theo hình ảnh của Chúa Kitô.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow steadily in faith today.",
+    "hero_line_vi": "Tăng trưởng vững chắc trong đức tin hôm nay.",
+    "prayer_prompt_en": "Ask God for the grace to let His word shape your daily actions.",
+    "prayer_prompt_vi": "Xin ơn Chúa để Lời Người định hình các hành động hàng ngày của bạn."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is a standard weekday in Ordinary Time with no conflicting higher-ranked celebrations in the General Roman Calendar for this specific year. The liturgical rank and color are determined by the universal norms for Ordinary Time.",
+  "confidence_note_vi": "Ngày này là một ngày trong tuần tiêu chuẩn thuộc Mùa Thường Niên, không có lễ nghi nào có thứ bậc cao hơn xung đột trong Lịch Phụng vụ Rôma chung cho năm cụ thể này. Xếp hạng phụng vụ và màu sắc được xác định bởi các quy chuẩn phổ quát cho Mùa Thường Niên.",
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/071327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Liturgical Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-30",
+    "hebrew": "8 Tamuz 5787",
+    "islamic_umm_al_qura": "9 Safar 1449 AH",
+    "coptic": "6 Epip 1743",
+    "ethiopian": "6 Hamle 2019"
+  }
+}

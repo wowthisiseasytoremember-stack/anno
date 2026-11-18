@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 12 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 12 Mùa Thường Niên",
+    "summary_vi": "Thứ Năm này rơi vào tuần thứ mười hai của Mùa Thường Niên trong lịch phụng vụ Công giáo Roma. Với tư cách là ngày thường, nó có màu xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng trong đức tin. Không có ngày kính trọng thể hay lễ kính nào thay thế các bài đọc ngày thường của Nghi lễ Roma vào ngày cụ thể này.",
+    "body_vi": "Trong Lịch phụng vụ Công giáo Roma, các ngày Thứ Năm trong Mùa Thường Niên được dành riêng để thánh hóa lao động và đời sống hàng ngày con người qua cầu nguyện. Trọng tâm vẫn là sự tiến triển dần dần của các tín hữu qua mầu nhiệm Đức Kitô, sử dụng các tuần thường niên để đào sâu sự hiểu biết về Kinh Thánh. Vào ngày 8 tháng 7 năm 2027, Giáo hội mời gọi các tín hữu suy ngẫm về sự kiên định của giao ước Thiên Chúa giữa những thói quen của sự tồn tại hàng ngày.\n\nCác văn bản phụng vụ cho ngày này nhấn mạnh sự khiêm nhường và sự khước từ tính kiêu ngạo, theo các lời dạy được tìm thấy trong các Phúc Âm. Bằng cách tiếp cận những bài đọc này, các tín hữu được khuyến khích sống các lời hứa phép rửa của họ một cách cụ thể. Sự vắng mặt của một lễ nhớ thánh bảo trợ cụ thể cho phép các chủ đề phổ quát của Mùa Thường Niên chiếm vị trí ưu tiên trong việc cử hành phụng vụ.",
+    "confidence_note_vi": "Ngày 08/07/2027 là Thứ Năm trong Tuần 12 Mùa Thường Niên theo hình thức hiện hành của Nghi lễ Roma, không có ngày lễ phổ quát nào ảnh hưởng đến ngày này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong sức mạnh tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong công việc và thói quen hàng ngày của con."
+  }
+}

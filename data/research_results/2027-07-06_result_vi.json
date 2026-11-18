@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 12 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 12 Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào tuần thứ mười hai Mùa Thường Niên, một giai đoạn dành cho sự tăng trưởng đức tin của tín hữu. Là một ngày thường, phụng vụ nhấn mạnh hành trình môn đệ hàng ngày hơn là một lễ kính thánh cụ thể. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự nở rộ của Giáo Hội trong thế giới tục hóa.",
+    "body_vi": "Tuần thứ mười hai Mùa Thường Niên mời gọi các tín hữu suy niệm về những phương tiện ân sủng bình thường nâng đỡ đời sống thiêng liêng ngoài những mùa lễ trọng. Vào Thứ Ba này, các bài đọc thường trích từ Tin Mừng Matthêu hoặc Maccô, tập trung vào những hàm ý thực tế của lời Chúa Giêsu giảng dạy cho cuộc sống hàng ngày. Không bị phân tâm bởi một lễ kính bậc cao hơn, sự chú ý của Giáo Hội hoàn toàn hướng về Lời Chúa và sự tích lũy âm thầm của nhân đức.\n\nTrong Phụng vụ Các Giờ Kinh, các lời cầu nguyện cho Thứ Ba tuần II Mùa Thường Niên được đọc, nhấn mạnh vào sự kiên nhẫn và khiêm nhường. Ngày thường này là lời nhắc nhở rằng sự thánh thiện không chỉ dành cho những khoảnh khắc ngoại lệ mà được hình thành từ sự nhất quán trong cầu nguyện và bổn phận. Áo lễ màu xanh lá cây của các giáo sĩ báo hiệu thời gian tăng trưởng và trưởng thành thiêng liêng, khuyến khích các tín hữu sinh hoa trái trong ơn gọi của họ.",
+    "confidence_note_vi": "Xếp hạng ngày này là Ngày thường Mùa Thường Niên dựa trên tính toán của Lịch Phụng vụ Rôma Tổng quát cho tháng 7 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong đức tin qua những điều bình thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong thói quen của ngày Thứ Ba này."
+  }
+}

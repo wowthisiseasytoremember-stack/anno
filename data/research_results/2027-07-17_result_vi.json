@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 13 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 13 Mùa Thường Niên",
+    "summary_vi": "Vào ngày Thứ Bảy này, Giáo hội cử hành ngày thường trong Mùa Thường Niên. Màu phụng vụ là màu xanh, biểu tượng cho niềm hy vọng và sự tăng trưởng. Các bài đọc tập trung vào các chủ đề về đức tin và việc làm môn đệ theo Sách Bài Đọc. Không có lễ trọng hay kính nhớ thánh nào ưu tiên hơn phụng vụ ngày thường.",
+    "body_vi": "Phụng vụ Thứ Bảy Tuần 13 Mùa Thường Niên nhấn mạnh sự tăng trưởng ổn định của đời sống Kitô hữu. Áo lễ màu xanh nhắc nhở các tín hữu về hành trình đức tin liên lỉ trong các mùa không lễ trọng. Cộng đoàn được mời gọi suy gẫm về những lời giáo huấn của Chúa Kitô trong các bài đọc hàng ngày, thường nêu bật tầm quan trọng của niềm tin vào Thiên Chúa và việc áp dụng Tin Mừng vào đời sống thực tế.\n\nMặc dù một số vị thánh có thể được kính nhớ trong lịch địa phương hoặc bởi các dòng tu cụ thể, Lịch Rôma Phổ quát xác định ngày này là ngày thường (feria). Điều này có nghĩa là trọng tâm chính vẫn nằm ở phần riêng của mùa phụng vụ, khuyến khích sự hoán cải cá nhân và cộng đồng. Các tín hữu được mời gọi tham dự Thánh lễ để rước Mình Máu Thánh Chúa và củng cố quyết tâm sống theo các giá trị Tin Mừng trong bậc sống riêng của mình.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sự trung tín trong những khoảnh khắc đời thường định nghĩa hành trình tâm linh của chúng ta.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những chi tiết đời thường của ngày sống."
+  }
+}

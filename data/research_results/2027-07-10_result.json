@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-07-10",
+  "date": "2027-07-10",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 12",
+    "title_vi": "Thứ Bảy tuần 12 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 12",
+    "title_vi": "Thứ Bảy tuần 12 Mùa Thường Niên",
+    "summary_en": "This date falls on a Feria within the 12th week of Ordinary Time, a period dedicated to the steady growth of the faithful. The liturgical color is green, symbolizing hope and the ongoing life of the Church. There are no mandatory celebrations for saints or feasts that displace the weekday readings in the General Roman Calendar for this specific year.",
+    "summary_vi": "Ngày này rơi vào Thứ Bảy trong tuần 12 Mùa Thường Niên, thời kỳ tập trung vào sự tăng trưởng vững chắc của các tín hữu. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự sống liên lỉ của Giáo Hội. Không có lễ kính hoặc lễ trọng nào bắt buộc thay thế các bài đọc ngày thường trong Lịch Rôma Chung cho năm cụ thể này.",
+    "body_en": "The liturgical context for July 10, 2027, is defined by the weekday cycle of Ordinary Time, which constitutes the majority of the liturgical year. The focus is on the progressive revelation of the mystery of Christ in the lives of the believers. The readings for Saturday of Week 12 typically continue the narrative or epistolary themes introduced earlier in the week, fostering a spirit of humility and service.\n\nIn the absence of a specific saint's feast day that takes precedence, the Mass follows the standard rubrics for a Feria. The prayers reflect a petition for perseverance and the grace to live out the Gospel in daily life. This day serves as a quiet moment of reflection within the broader rhythm of the Church's calendar, emphasizing the continuity of faith in ordinary circumstances.",
+    "body_vi": "Bối cảnh phụng vụ cho ngày 10 tháng 7 năm 2027 được xác định bởi chu kỳ ngày thường trong Mùa Thường Niên, chiếm phần lớn năm phụng vụ. Trọng tâm là sự mặc khải tiến triển của mầu nhiệm Đức Kitô trong đời sống của các tín hữu. Các bài đọc cho Thứ Bảy tuần 12 thường tiếp tục các chủ đề tường thuật hoặc thư tín đã được giới thiệu vào đầu tuần, nuôi dưỡng tinh thần khiêm nhường và phục vụ.\n\nKhi không có ngày lễ kính thánh nào cụ thể ưu tiên, Thánh lễ tuân theo các quy tắc thông thường cho một ngày trong tuần. Các lời cầu nguyện phản ánh lời cầu xin sự kiên trì và ân sủng để sống Tin Mừng trong cuộc sống hàng ngày. Ngày này đóng vai trò là một khoảnh khắc suy tư tĩnh lặng trong nhịp điệu rộng lớn hơn của lịch phụng vụ Giáo Hội, nhấn mạnh sự liên tục của đức tin trong các hoàn cảnh đời thường.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast Faith in Ordinary Time",
+    "hero_line_vi": "Đức Tin Vững Vàng Trong Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, grant me the grace to serve you faithfully in the mundane moments of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để phục vụ Chúa cách trung tín trong những khoảnh khắc đời thường của con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/071027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/15430b.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-27",
+    "hebrew": "5 Tamuz 5787",
+    "islamic_umm_al_qura": "6 Safar 1449 AH",
+    "coptic": "3 Epip 1743",
+    "ethiopian": "3 Hamle 2019"
+  }
+}

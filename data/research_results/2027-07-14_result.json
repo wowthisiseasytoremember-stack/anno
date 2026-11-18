@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-07-14",
+  "date": "2027-07-14",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "white",
+    "title_en": "St. Camillus de Lellis, Priest (Universal)",
+    "title_vi": "Thánh Camillô Lellê, Linh mục"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Camillus de Lellis, Priest",
+    "title_vi": "Thánh Camillô Lellê, Linh mục",
+    "summary_en": "St. Camillus de Lellis is remembered for his heroic charity toward the sick and his founding of the Order of Clerks Regular, Ministers to the Sick. He pioneered the use of lay nurses and emphasized compassionate care in hospitals. His legacy continues through his religious congregation's ministry in healthcare settings worldwide.",
+    "summary_vi": "Thánh Camillô Lellê được tưởng nhớ vì lòng bác ái anh hùng đối với người bệnh và vì ngài đã sáng lập Dòng Giáo sĩ Regular, thừa tác viên phục vụ người bệnh. Ngài tiên phong trong việc sử dụng y tá giáo dân và nhấn mạnh sự chăm sóc đầy lòng thương xót trong các bệnh viện. Di sản của ngài vẫn tiếp tục qua thừa tác vụ của dòng tu trong các cơ sở y tế trên toàn thế giới.",
+    "body_en": "Camillus de Lellis was an Italian priest whose life was marked by a profound conversion after years of gambling and debt. He eventually joined the Capuchins and later founded his own order dedicated to nursing the sick, distinguishing it from traditional clerical duties. His approach combined spiritual consolation with practical medical care, advocating for clean hospitals and better training for attendants.\n\nThe saint's influence extended beyond his lifetime, establishing a model of holistic healthcare that respected both body and soul. Today, the Camillian Order continues to operate hospitals and clinics, maintaining their founder's spirit of 'serving the sick as masters serve Christ' through dedicated nursing and pastoral support.",
+    "body_vi": "Camillô Lellê là một linh mục người Ý, cuộc đời ngài được đánh dấu bởi sự hoán cải sâu sắc sau nhiều năm đánh bạc và nợ nần. Cuối cùng, ngài gia nhập dòng Capuchin và sau đó sáng lập dòng tu riêng dành cho việc chăm sóc người bệnh, phân biệt điều này với các bổn phận giáo sĩ truyền thống. Phương pháp tiếp cận của ngài kết hợp sự an ủi tâm linh với việc chăm sóc y tế thực tế, ủng hộ các bệnh viện sạch sẽ và đào tạo tốt hơn cho những người phục vụ.\n\nẢnh hưởng của vị thánh này vượt ra ngoài cuộc đời ngài, thiết lập một mô hình chăm sóc sức khỏe toàn diện tôn trọng cả thể xác và linh hồn. Ngày nay, Dòng Camillo vẫn tiếp tục điều hành các bệnh viện và phòng khám, duy trì tinh thần của người sáng lập về việc 'phục vụ người bệnh như chủ phục vụ Chúa Kitô' thông qua việc chăm sóc y tá và hỗ trợ mục vụ tận tâm.",
+    "confidence": "confirmed",
+    "confidence_note_en": "St. Camillus de Lellis is a confirmed Optional Memorial in the General Roman Calendar for July 14.",
+    "confidence_note_vi": "Thánh Camillô Lellê là Lễ Nhớ Tùy Ý được xác nhận trong Lịch Rôma Tổng Quát vào ngày 14 tháng 7."
+  },
+  "app_hooks": {
+    "hero_line_en": "Serve the sick with the love of Christ.",
+    "hero_line_vi": "Phục vụ người bệnh với tình yêu của Chúa Kitô.",
+    "prayer_prompt_en": "Ask St. Camillus for intercession to serve those in need with humility and skill.",
+    "prayer_prompt_vi": "Xin Thánh Camillô cầu bầu để phục vụ những người cần giúp đỡ với sự khiêm nhường và kỹ năng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/071427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=3345",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-01",
+    "hebrew": "9 Tamuz 5787",
+    "islamic_umm_al_qura": "10 Safar 1449 AH",
+    "coptic": "7 Epip 1743",
+    "ethiopian": "7 Hamle 2019"
+  }
+}

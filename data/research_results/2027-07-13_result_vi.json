@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 13 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần XIII Mùa Thường Niên",
+    "summary_vi": "Đây là ngày lễ trong tuần thứ 13 của Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây phụng vụ. Ngày này nhấn mạnh vào sự tăng trưởng của Giáo hội và bước đi đức tin hàng ngày trong Thần Khí. Các bài đọc thường phản ánh những chủ đề về sự khiêm nhường và Vương quốc Thiên Chúa, mời gọi các tín hữu hoán cải sâu xa hơn trong cuộc sống hàng ngày.",
+    "body_vi": "Là một ngày trong Tuần XIII Mùa Thường Niên, Thứ Ba này tập trung vào sự tăng trưởng vững chắc của Giáo hội và sự tuân thủ hàng ngày của cá nhân đối với lời dạy của Chúa Kitô. Phụng vụ trong ngày mời gọi các tín hữu suy gẫm về hành trình thiêng liêng của mình, vượt ra ngoài sự nhiệt tình ban đầu để đạt đến đức tin trưởng thành và bền vững. Màu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng, khuyến khích các tín hữu trau dồi đức hạnh trong các tương tác hàng ngày.\n\nCác bài đọc Kinh Thánh, được chỉ định trong Sách Bài Đọc cho tuần này, thường làm nổi bật những nghịch lý của Vương quốc, như sức mạnh trong sự yếu đuối hay sự khôn ngoan trong sự khiêm nhường. Giai đoạn này thách thức các tín hữu hòa nhập đức tin vào những khía cạnh trần tục của cuộc sống, biến các hành động bình thường thành những hành vi thờ phượng. Đây là thời gian để lắng nghe cẩn thận Lời Chúa, để Lời ấy định hình lại trái tim và tâm trí theo hình ảnh của Chúa Kitô.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng vững chắc trong đức tin hôm nay.",
+    "prayer_prompt_vi": "Xin ơn Chúa để Lời Người định hình các hành động hàng ngày của bạn."
+  }
+}

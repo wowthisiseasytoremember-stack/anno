@@ -1,0 +1,51 @@
+{
+  "id": "anno-2027-07-21",
+  "date": "2027-07-21",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 14",
+    "title_vi": "Thứ Tư tuần 14 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time, Week 14",
+    "title_vi": "Thứ Tư tuần 14 Mùa Thường Niên",
+    "summary_en": "This day is observed as a Feria of Ordinary Time, specifically within Week 14. The liturgical color is green, symbolizing hope and growth in the Christian life. No major feast or mandatory memorial takes precedence on this date in the General Roman Calendar.",
+    "summary_vi": "Ngày này được cử hành như một ngày thường trong Mùa Thường Niên, cụ thể là Tuần 14. Màu phụng vụ là xanh lá, tượng trưng cho hy vọng và sự tăng trưởng trong đời sống Kitô hữu. Không có lễ lớn hay lễ nhớ buộc nào được ưu tiên cử hành vào ngày này trong Lịch Phụng vụ Roma Tổng quát.",
+    "body_en": "During the Ferie days of Ordinary Time, the Church encourages the faithful to deepen their understanding of Scripture through the daily readings prescribed for Week 14. The focus is on the steady progression of the Christian life, away from the intense periods of Advent, Christmas, Lent, and Eastertide.\n\nThe liturgy emphasizes the call to holiness in everyday circumstances, reminding believers that faith must translate into concrete actions in work, family, and community. This ordinary time serves as a vital space for spiritual maturity and consistent prayer.",
+    "body_vi": "Trong các ngày thường của Mùa Thường Niên, Giáo hội khuyến khích các tín hữu đào sâu sự hiểu biết về Kinh Thánh qua các bài đọc hàng ngày được quy định cho Tuần 14. Trọng tâm là sự tiến triển vững chắc trong đời sống Kitô hữu, bên ngoài các thời kỳ trang trọng như Vọng, Giáng Sinh, Mùa Chay và Mùa Phục Sinh.\n\nPhụng vụ nhấn mạnh lời mời gọi nên thánh trong những hoàn cảnh hằng ngày, nhắc nhở các tín hữu rằng đức tin phải chuyển hóa thành hành động cụ thể trong công việc, gia đình và cộng đoàn. Thời gian thường này đóng vai trò là khoảng không gian quan trọng cho sự trưởng thành thiêng liêng và cầu nguyện liên lỉ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date falls strictly within Ordinary Time Week 14 with no higher-ranking celebrations in the General Roman Calendar.",
+  "confidence_note_vi": "Ngày này rơi vào Tuần 14 Mùa Thường Niên mà không có các lễ ưu tiên cao hơn trong Lịch Phụng vụ Roma Tổng quát.",
+  "app_hooks": {
+    "hero_line_en": "Grow in the ordinary.",
+    "hero_line_vi": "Tăng trưởng trong những điều bình thường.",
+    "prayer_prompt_en": "Ask for the grace to see God in your daily routine.",
+    "prayer_prompt_vi": "Hãy xin ơn nhìn thấy Thiên Chúa trong thói quen hàng ngày của bạn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/072127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Universal Catholic Calendar",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-08",
+    "hebrew": "16 Tamuz 5787",
+    "islamic_umm_al_qura": "17 Safar 1449 AH",
+    "coptic": "14 Epip 1743",
+    "ethiopian": "14 Hamle 2019"
+  }
+}

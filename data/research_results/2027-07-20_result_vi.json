@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 14 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 14 Mùa Thường Niên",
+    "summary_vi": "Mùa phụng vụ là Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây biểu trưng cho sự tăng trưởng và đời sống bình thường. Là một ngày thường (feria), ngày này không thay thế chu kỳ Chúa Nhật bằng một lễ lớn hay lễ trọng. Trọng tâm là việc áp dụng các giáo huấn Tin Mừng hàng ngày trong bối cảnh sứ mạng liên lỉ của Giáo hội. Không có lễ nhớ buộc nào của các thánh thay đổi cấu trúc cơ bản của ngày thường vào thời điểm này.",
+    "body_vi": "Vào các ngày Thứ Ba trong Mùa Thường Niên, Giáo hội mời gọi các tín hữu chiêm ngắm nhịp điệu đều đặn của đời sống Kitô hữu. Các bài đọc và lời cầu nguyện tập trung vào những nhân đức thường nhật như đức tin, đức cậy và đức mến. Những ngày này là lời nhắc nhở rằng sự thánh thiện thường được tìm thấy trong các công việc bình thường và bổn phận hàng ngày được thực hiện với lòng yêu mến Thiên Chúa và tha nhân. Màu xanh lá cây tượng trưng cho hy vọng và sự phát triển của Giáo hội khi bước đi trong thời gian.\n\nViệc thiếu một lễ nhớ cụ thể của một vị thánh vào Thứ Ba này nhấn mạnh tầm quan trọng của chính thời gian phụng vụ. Mặc dù các thánh có thể được tôn kính trong lòng đạo đức cá nhân, phụng vụ công khai vẫn giữ trọng tâm vào chu kỳ hàng tuần và các bài đọc Kinh Thánh được quy định cho tuần 14. Điều này khẳng định quan điểm Công giáo rằng thời gian được thánh hóa không chỉ bởi những sự kiện đặc biệt, mà bởi sự đáp trả trung tín, kiên trì với Lời Chúa. Cộng đoàn cầu nguyện Phụng vụ Các Giờ Kinh, kết hợp ngày sống của mình với phụng vụ vĩnh cửu trên trời.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thánh hóa điều bình thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con thấy Chúa trong nhịp sống hàng ngày."
+  }
+}

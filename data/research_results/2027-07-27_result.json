@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-07-27",
+  "date": "2027-07-27",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 15",
+    "title_vi": "Thứ Ba tuần 15 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time, Week 15",
+    "title_vi": "Thứ Ba tuần 15 Mùa Thường Niên",
+    "summary_en": "This Tuesday falls within the fifteenth week of Ordinary Time, a period dedicated to the continuous growth of the faithful in Christian life. As a feria, it holds a lower liturgical rank than feasts or solemnities, emphasizing the steady rhythm of weekly prayer. The liturgical color is green, symbolizing hope and spiritual growth. No universal saint is assigned as the primary focus, allowing the focus to remain on the readings and prayers of the day.",
+    "summary_vi": "Thứ Ba này rơi vào tuần thứ mười lăm của Mùa Thường Niên, một thời kỳ được dành cho sự tăng trưởng liên tục của các tín hữu trong đời sống Kitô giáo. Là ngày trong tuần (feria), ngày này có cấp bậc phụng vụ thấp hơn các lễ kính hoặc trọng thể, nhấn mạnh nhịp điệu cầu nguyện hằng tuần. Màu sắc phụng vụ là màu xanh lá cây, biểu tượng cho hy vọng và sự tăng trưởng thiêng liêng. Không có vị thánh nào được chỉ định làm trọng tâm chính, cho phép tập trung vào các bài đọc và lời nguyện trong ngày.",
+    "body_en": "In the General Roman Calendar, the weekdays of Ordinary Time are characterized by their simplicity and focus on the progression of salvation history as presented in the daily Scripture readings. On this specific Tuesday, the Church invites the faithful to reflect on the steady nature of discipleship, devoid of the dramatic highs and lows associated with feast days. The prayers and readings selected for Week 15 serve to reinforce the virtues of perseverance and humility in everyday life.\n\nLiturgically, the absence of a major saint’s memorial on this date ensures that the attention of the community is not diverted by specific hagiographical narratives. Instead, the emphasis is placed on the universal call to holiness within the ordinary circumstances of life. The green vestments worn by clergy during this time serve as a visual reminder that the Christian journey is a marathon of faith, requiring consistent effort and trust in Divine Providence.",
+    "body_vi": "Trong Lịch Rôma chung, các ngày trong tuần của Mùa Thường Niên đặc trưng bởi sự đơn giản và tập trung vào tiến trình lịch sử cứu độ được trình bày trong các bài đọc Kinh Thánh hằng ngày. Trong Thứ Ba cụ thể này, Giáo hội mời gọi các tín hữu suy niệm về bản chất bền vững của đời môn đệ, không có những thăng trầm kịch tính liên quan đến các ngày lễ. Các lời cầu nguyện và bài đọc được chọn cho Tuần 15 phục vụ việc củng cố các nhân đức kiên nhẫn và khiêm tốn trong đời sống hằng ngày.\n\nVề mặt phụng vụ, sự vắng mặt của nghi lễ tưởng nhớ một vị thánh lớn vào ngày này đảm bảo rằng sự chú ý của cộng đồng không bị phân tâm bởi những tường thuật cụ thể về các vị thánh. Thay vào đó, trọng tâm được đặt vào lời kêu gọi phổ quát nên thánh trong những hoàn cảnh bình thường của cuộc sống. Các áo lễ màu xanh lá cây mà giáo sĩ mặc trong thời gian này đóng vai trò như một lời nhắc nhở trực quan rằng hành trình Kitô giáo là một cuộc chạy marathon đức tin, đòi hỏi nỗ lực nhất quán và tin tưởng vào Quan phòng Thiên Chúa.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faith grows in the ordinary moments of the week.",
+    "hero_line_vi": "Đức tin tăng trưởng trong những khoảnh khắc bình thường của tuần.",
+    "prayer_prompt_en": "Lord, grant me the patience to walk steadily in Your will today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn để bước đi vững chắc trong ý muốn của Chúa hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/072727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/12276a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-14",
+    "hebrew": "22 Tamuz 5787",
+    "islamic_umm_al_qura": "23 Safar 1449 AH",
+    "coptic": "20 Epip 1743",
+    "ethiopian": "20 Hamle 2019"
+  }
+}
