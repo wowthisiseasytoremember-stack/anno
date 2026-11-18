@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+
+### Fixed
+- **Swift fixture contract**: normalized fixture now emits a Swift-decodable `generated_on`, null-safe `artwork`, and omits partial `place` objects.
+
+### Added
+- **Blocking decode gate**: `tools/validate_fixture_decode.py` validates the fixture against `AnnoEntry`'s Swift `Codable` contract. CI now fails closed on violations.
+
+---
+
 ## [1.2.0] - 2026-10-03
 
 ### Scope & Strategy (v1 Decisions)
