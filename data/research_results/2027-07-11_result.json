@@ -43,7 +43,7 @@
     {
       "label": "Catholic Encyclopedia index",
       "url": "https://www.newadvent.org/cathen/",
-      "type": "reference"
+      "type": "encyclopedia"
     }
   ],
   "calendars": {
@@ -52,5 +52,6 @@
     "islamic_umm_al_qura": "7 Safar 1449 AH",
     "coptic": "4 Epip 1743",
     "ethiopian": "4 Hamle 2019"
-  }
+  },
+  "mock_priority": "engine_b_v1"
 }

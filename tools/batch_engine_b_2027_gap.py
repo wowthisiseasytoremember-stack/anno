@@ -351,7 +351,7 @@ def normalize_sources_shape(en: dict) -> dict:
     out = []
     for s in en.get("sources", []) or []:
         if isinstance(s, str) and s.startswith("http") and not _is_homepage(s):
-            out.append({"label": s.split("/")[2], "url": s, "type": "reference"})
+            out.append({"label": s.split("/")[2], "url": s, "type": "devotional"})
         elif isinstance(s, dict) and isinstance(s.get("url"), str) and not _is_homepage(s["url"]):
             s.setdefault("label", s["url"].split("/")[2])
             s.setdefault("type", "reference")
@@ -560,6 +560,7 @@ def main() -> None:
                 raise RuntimeError(f"{d_str}: fewer than 2 live sources after 3 attempts; nothing written")
             en.setdefault("id", f"anno-{d_str}")
             en.setdefault("date", d_str)
+            en.setdefault("mock_priority", "engine_b_v1")
             en["weekday"] = cur.strftime("%A")
             # Liturgical identity is deterministic from the seed, never from the LLM.
             seed_day = _seed_days.get(d_str, {})
@@ -627,7 +628,7 @@ def main() -> None:
                      "url": f"https://www.usccb.org/resources/{cur.year}cal.pdf",
                      "type": "liturgical_calendar"},
                     {"label": "Catholic Encyclopedia index",
-                     "url": "https://www.newadvent.org/cathen/", "type": "reference"},
+                     "url": "https://www.newadvent.org/cathen/", "type": "encyclopedia"},
                 ]
                 have = {s.get("url") for s in en["sources"] if isinstance(s, dict)}
                 for s in known:

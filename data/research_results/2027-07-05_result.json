@@ -40,7 +40,7 @@
     {
       "label": "Catholic Encyclopedia index",
       "url": "https://www.newadvent.org/cathen/",
-      "type": "reference"
+      "type": "encyclopedia"
     }
   ],
   "calendars": {
@@ -49,5 +49,6 @@
     "islamic_umm_al_qura": "1 Safar 1449 AH",
     "coptic": "28 Paoni 1743",
     "ethiopian": "28 Sene 2019"
-  }
+  },
+  "mock_priority": "engine_b_v1"
 }
