@@ -23,6 +23,14 @@ ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "data" / "research_results"
 RESEARCH.mkdir(parents=True, exist_ok=True)
 
+# Seed supplies per-day liturgical identity for dates without a hand-written note.
+# Its calendar values are STALE (Ethiopian year is wrong); never use them.
+SEED = ROOT / "data" / "seed" / "anno_seed_2027_2028.json"
+_seed_days = (
+    {d["date"]: d for d in json.loads(SEED.read_text(encoding="utf-8"))}
+    if SEED.exists() else {}
+)
+
 # Always load the ROOT Engine A, never the stale tools/calendar_engine.py duplicate.
 import importlib.util
 _CE_SPEC = importlib.util.spec_from_file_location("calendar_engine", ROOT / "calendar_engine.py")
@@ -59,7 +67,7 @@ SYSTEM_EN = (
     '  "date": "YYYY-MM-DD",\n'
     '  "weekday": "Sunday",\n'
     '  "liturgical": {"rank": "solemnity|feast|memorial|optional_memorial|feria", "color": "white|red|green|purple|rose|gold|verdigris", "title_en": "...", "title_vi": "..."},\n'
-    '  "primary": {"type": "saint|feast|liturgical_day", "title_en": "...", "title_vi": "...", "summary_en": "... (2-4 sentences)", "summary_vi": "...", "body_en": "... (1 paragraph)", "body_vi": "...", "confidence": "confirmed|traditional|disputed", "confidence_note_en": "...", "confidence_note_vi": "..."},\n'
+    '  "primary": {"type": "saint|feast|liturgical_day|historical_event|solemnity", "title_en": "...", "title_vi": "...", "summary_en": "... (2-4 sentences)", "summary_vi": "... (2-4 sentences)", "body_en": "... (2 paragraphs separated by a blank line)", "body_vi": "... (2 paragraphs separated by a blank line)", "confidence": "confirmed|traditional|disputed|contextual", "confidence_note_en": "...", "confidence_note_vi": "..."},\n'
     '  "app_hooks": {"hero_line_en": "...", "hero_line_vi": "...", "prayer_prompt_en": "...", "prayer_prompt_vi": "..."},\n'
     '  "sources": [{"label": "...", "url": "https://...", "type": "vatican|encyclopedia|liturgical_calendar"}]\n'
     "}\n"
@@ -130,6 +138,45 @@ def valid_shape(en: object) -> bool:
     return (isinstance(en, dict)
             and all(isinstance(en.get(k), dict) for k in ("liturgical", "primary", "app_hooks"))
             and isinstance(en.get("sources"), list))
+
+
+def ensure_two_paragraphs(text: str) -> str:
+    """Format-only fix: split a single long body after its second sentence.
+
+    Never adds or rewrites content; the model often returns one dense paragraph
+    despite being asked for two. Splitting at an existing sentence boundary is
+    deterministic and preserves every word.
+    """
+    if len([p for p in text.split("\n\n") if p.strip()]) >= 2:
+        return text
+    sentences = [s for s in re.split(r"(?<=[.!?])\s+", text.strip()) if s]
+    if len(sentences) < 4:
+        return text
+    return "\n\n".join([" ".join(sentences[:2]), " ".join(sentences[2:])])
+
+
+def content_quality_issues(en: object) -> list[str]:
+    """Mirror the advisory validator's hard rules so retries happen before write."""
+    if not isinstance(en, dict) or not isinstance(en.get("primary"), dict):
+        return ["primary missing"]
+    pri = en["primary"]
+    issues: list[str] = []
+    for lang in ("en", "vi"):
+        summary = str(pri.get(f"summary_{lang}", "")).strip()
+        sentences = len(re.split(r"[.!?]+", summary)) - 1
+        if not 2 <= sentences <= 4:
+            issues.append(f"summary_{lang} has {sentences} sentences")
+        body = str(pri.get(f"body_{lang}", ""))
+        paragraphs = len([p for p in body.split("\n\n") if p.strip()])
+        if paragraphs < 2:
+            issues.append(f"body_{lang} has {paragraphs} paragraphs")
+        if not str(pri.get(f"confidence_note_{lang}", "")).strip():
+            issues.append(f"confidence_note_{lang} empty")
+    return issues
+
+
+def content_quality_ok(en: object) -> bool:
+    return not content_quality_issues(en)
 
 
 def extract_json(text: str) -> str:
@@ -311,6 +358,21 @@ def cal_strings(d: date) -> dict:
     }
 
 
+def seed_context(d_str: str) -> str:
+    """Liturgical identity from seed plus Engine A calendars (never the seed's stale ones)."""
+    day = _seed_days.get(d_str, {})
+    lit = day.get("liturgical", {}) if isinstance(day, dict) else {}
+    cs = cal_strings(date.fromisoformat(d_str))
+    return (
+        f"Liturgical identity (verify against an official calendar): rank={lit.get('rank', '?')}, "
+        f"color={lit.get('color', '?')}, title_en={lit.get('title_en', '?')}, "
+        f"title_vi={lit.get('title_vi', '?')}. "
+        f"Use Engine A calendars ONLY: julian={cs['julian']}, hebrew={cs['hebrew']}, "
+        f"islamic={cs['islamic_umm_al_qura']}, coptic={cs['coptic']}, ethiopian={cs['ethiopian']}. "
+        "Do not copy calendar values from any handoff packet or seed; they are stale."
+    )
+
+
 def main() -> None:
     import sys
     if len(sys.argv) >= 3:
@@ -342,8 +404,12 @@ def main() -> None:
             print(f"REPAIR {d_str}: invalid existing entry, regenerating")
         try:
             cs = cal_strings(cur)
-            feast_note = FEAST_NOTES_2027.get(d_str, "")
-            if "Sunday" in feast_note or "Solemnity" in feast_note:
+            feast_note = FEAST_NOTES_2027.get(d_str, "") or seed_context(d_str)
+            seed_rank = str(
+                (_seed_days.get(d_str) or {}).get("liturgical", {}).get("rank", "")
+            ).lower()
+            if ("Sunday" in feast_note or "Solemnity" in feast_note
+                    or seed_rank in ("sunday", "solemnity")):
                 feast_note += "\nIMPORTANT: This is a Sunday or Solemnity — the liturgical day theme IS the primary content, not any saint memorial. The 'primary' object must reflect the Sunday/Solemnity (type='liturgical_day' or 'solemnity')."
             prompt = (
                 f"Date {d_str} ({cur.strftime('%A')}). Deterministic calendar conversions: "
@@ -353,6 +419,16 @@ def main() -> None:
                 f"Return the bilingual JSON for this date."
             )
             full_prompt = SYSTEM_EN + "\n\n" + prompt
+            full_prompt += (
+                "\n\nOUTPUT RULES (validator-enforced): summary_en and summary_vi must each be "
+                "2-4 sentences. body_en and body_vi must each contain at least 2 paragraphs "
+                "separated by blank lines. confidence_note_en and confidence_note_vi must be "
+                "non-empty and explain the rating. Vietnamese fields must contain real Vietnamese "
+                "text with diacritics. sources must contain at least 2 live, date-relevant URLs; "
+                "put the date-specific https://bible.usccb.org/bible/readings/MMDDYY.cfm URL first "
+                "when it is live. Never use section homepages such as https://www.usccb.org/calendar "
+                "or https://www.vaticannews.va/en.html as citations."
+            )
             en = None
             for _shape_attempt in range(4):
                 raw = yolo([{"role": "user", "content": full_prompt}], maxtok=2400)
@@ -369,6 +445,41 @@ def main() -> None:
                     "primary, app_hooks, sources. Do not substitute other key names.")
             if en is None:
                 raise RuntimeError(f"{d_str}: LLM never produced the required JSON schema")
+
+            # Format-only paragraph split before the quality gate; no text is invented.
+            for _lang in ("en", "vi"):
+                en["primary"][f"body_{_lang}"] = ensure_two_paragraphs(
+                    str(en["primary"].get(f"body_{_lang}", ""))
+                )
+
+            # Retry once if the copy would fail the advisory validator. Fail closed
+            # rather than writing another boilerplate one-paragraph entry.
+            if not content_quality_ok(en):
+                correction = full_prompt + (
+                    "\nCORRECTION: your previous output failed the content gate. "
+                    "Rewrite summary_en and summary_vi to exactly 2-4 sentences each. "
+                    "Rewrite body_en and body_vi as TWO paragraphs separated by a blank line. "
+                    "Keep confidence_note_en and confidence_note_vi non-empty. "
+                    "Return the SAME schema with all keys."
+                )
+                try:
+                    candidate = json.loads(
+                        extract_json(yolo([{"role": "user", "content": correction}], maxtok=2400))
+                    )
+                except Exception:  # noqa: BLE001
+                    candidate = None
+                if valid_shape(candidate) and isinstance(candidate.get("primary"), dict):
+                    for _lang in ("en", "vi"):
+                        candidate["primary"][f"body_{_lang}"] = ensure_two_paragraphs(
+                            str(candidate["primary"].get(f"body_{_lang}", ""))
+                        )
+                if valid_shape(candidate) and content_quality_ok(candidate):
+                    en = candidate
+                else:
+                    raise RuntimeError(
+                        f"{d_str}: content gate failed after correction retry: "
+                        + ", ".join(content_quality_issues(en))
+                    )
             en.setdefault("sources", [])
             # Source gate: retry with feedback until >=2 live URLs survive.
             for _attempt in range(3):
@@ -408,7 +519,19 @@ def main() -> None:
             en.setdefault("id", f"anno-{d_str}")
             en.setdefault("date", d_str)
             en["weekday"] = cur.strftime("%A")
-            en.setdefault("calendars", cs)
+            # Liturgical identity is deterministic from the seed, never from the LLM.
+            seed_day = _seed_days.get(d_str, {})
+            seed_lit = seed_day.get("liturgical", {}) if isinstance(seed_day, dict) else {}
+            if isinstance(seed_lit, dict) and seed_lit:
+                llm_lit = en.get("liturgical", {}) if isinstance(en.get("liturgical"), dict) else {}
+                en["liturgical"] = {
+                    "rank": seed_lit.get("rank") or llm_lit.get("rank", "Feria"),
+                    "color": seed_lit.get("color") or llm_lit.get("color", "green"),
+                    "title_en": seed_lit.get("title_en") or llm_lit.get("title_en", ""),
+                    "title_vi": seed_lit.get("title_vi") or llm_lit.get("title_vi", ""),
+                }
+            # Engine A is the single source of truth for all five calendar strings.
+            en["calendars"] = cs
             with open(en_path, "w", encoding="utf-8") as f:
                 json.dump(en, f, ensure_ascii=False, indent=2)
 
@@ -458,8 +581,8 @@ def main() -> None:
                 # Last-resort canonical pair (both verified HTTP 200, distinct
                 # domains) so no entry is ever written with a single citation.
                 known = [
-                    {"label": "USCCB 2027 Liturgical Calendar",
-                     "url": "https://www.usccb.org/resources/2027cal.pdf",
+                    {"label": f"USCCB {cur.year} Liturgical Calendar",
+                     "url": f"https://www.usccb.org/resources/{cur.year}cal.pdf",
                      "type": "liturgical_calendar"},
                     {"label": "Catholic Encyclopedia index",
                      "url": "https://www.newadvent.org/cathen/", "type": "reference"},
