@@ -23,6 +23,13 @@ ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "data" / "research_results"
 RESEARCH.mkdir(parents=True, exist_ok=True)
 
+# Always load the ROOT Engine A, never the stale tools/calendar_engine.py duplicate.
+import importlib.util
+_CE_SPEC = importlib.util.spec_from_file_location("calendar_engine", ROOT / "calendar_engine.py")
+calendar_engine = importlib.util.module_from_spec(_CE_SPEC)
+sys.modules["calendar_engine"] = calendar_engine
+_CE_SPEC.loader.exec_module(calendar_engine)
+
 # yolo-auto free tier (qwen3.8-27b). The former opencode.ai/zen/go endpoint is
 # dead: the key is expired and /zen/go requires an x-opencode-session header.
 # Verified 2026-11-16: https://yolo-auto.com/v1/models + chat/completions both
@@ -291,45 +298,17 @@ def _domain(url: str) -> str:
 
 
 def cal_strings(d: date) -> dict:
-    # Deterministic conversions via convertdate (Engine A math, no LLM).
-    # NOTE: calendar_engine.convert_date is broken for future years
-    # (datetime.date - datetime.datetime in gregorian_to_islamic_tabular);
-    # use the underlying libs directly. Ethiopian is the same era as Coptic.
-    import convertdate
-    jy, jm, jd = convertdate.julian.from_gregorian(d.year, d.month, d.day)
-    cy, cm, cd = convertdate.coptic.from_gregorian(d.year, d.month, d.day)
-    hy, hm, hd = convertdate.hebrew.from_gregorian(d.year, d.month, d.day)
-    iy, im, id_ = convertdate.islamic.from_gregorian(d.year, d.month, d.day)
+    # Deterministic conversions come from the root Engine A, not the LLM.
+    # This removes the driver's private Coptic/Ethiopian/Hebrew/Islamic tables
+    # and guarantees one source of truth for every calendar value.
+    conv = calendar_engine.convert_date(d)
     return {
-        "julian": f"{jy}-{jm:02d}-{jd:02d}",
-        "hebrew": f"{hd} {_hebrew_month(hm)} {hy}",
-        "islamic_umm_al_qura": f"{id_} {_islamic_month(im)} {iy} AH",
-        "coptic": f"{cd} {_coptic_month(cm)} {cy}",
-        "ethiopian": f"{cd} {_coptic_month(cm)} {cy}",
+        "julian": conv["julian"]["date"],
+        "hebrew": conv["hebrew"]["date"],
+        "islamic_umm_al_qura": conv["islamic_umm_al_qura"]["date"],
+        "coptic": conv["coptic"]["date"],
+        "ethiopian": conv["ethiopian"]["date"],
     }
-
-
-_HEBREW = {1: "Nisan", 2: "Iyar", 3: "Sivan", 4: "Tamuz", 5: "Av", 6: "Elul",
-           7: "Tisrei", 8: "Cheshvan", 9: "Kislev", 10: "Tevet", 11: "Shvat",
-           12: "Adar", 13: "Adar II"}
-_COPTIC = {1: "Tout", 2: "Baba", 3: "Hator", 4: "Kiahk", 5: "Toba", 6: "Amshir",
-           7: "Baramhat", 8: "Baramouda", 9: "Bashans", 10: "Paona", 11: "Epep",
-           12: "Mesra", 13: "Nasie"}
-_ISLAMIC = {1: "Muharram", 2: "Safar", 3: "Rabi al-awwal", 4: "Rabi al-thani",
-            5: "Jumada al-awwal", 6: "Jumada al-thani", 7: "Rajab", 8: "Shaban",
-            9: "Ramadan", 10: "Shawwal", 11: "Dhu al-Qidah", 12: "Dhu al-Hijjah"}
-
-
-def _hebrew_month(m: int) -> str:
-    return _HEBREW.get(m, str(m))
-
-
-def _coptic_month(m: int) -> str:
-    return _COPTIC.get(m, str(m))
-
-
-def _islamic_month(m: int) -> str:
-    return _ISLAMIC.get(m, str(m))
 
 
 def main() -> None:
