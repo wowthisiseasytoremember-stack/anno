@@ -9,6 +9,8 @@ Tracks (July 3, 2026 – December 31, 2026 = 182 days):
 
 Output: Anno/Resources/anno_unified_2026.json -- a single {"schema_version","generated_on","entries":[...]}
 shaped to match the Swift AnnoEntry decoder (see export_swift_fixture.py header).
+The normalizer now sanitizes optional place data and coerces artwork fields to the
+non-optional Swift contract, then runs a blocking decode-contract validator before write.
 """
 from __future__ import annotations
 import json, re, shutil
@@ -42,6 +44,16 @@ RANK_MAP = {
     "feria": "Feria", "sunday": "Sunday",
 }
 COLOR_OK = {"white", "red", "green", "purple", "gold", "rose", "verdigris", "black"}
+CONFIDENCE_OK = {"confirmed", "traditional", "disputed", "contextual"}
+ARTWORK_STATUS_MAP = {
+    "public domain": "public_domain",
+    "public-domain": "public_domain",
+    "publicdomain": "public_domain",
+    "placeholder": "placeholder_only",
+    "placeholder_only": "placeholder_only",
+    "cleared": "cleared",
+    "unavailable": "unavailable",
+}
 
 
 def load(p: Path | str) -> Any:
@@ -182,6 +194,156 @@ def validate_required_feast_vi(entry: dict) -> None:
             raise ValueError(f"{day}: untranslated weekday in {section}.{key}_vi")
 
 
+def _string(value: Any) -> str:
+    """Coerce a Swift-compatible String value to a JSON string."""
+    return value.strip() if isinstance(value, str) else ""
+
+
+def _number(value: Any) -> float | None:
+    """Return a JSON number that Swift can decode as Double, or None."""
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return None
+    return float(value)
+
+
+def sanitize_place(entry: dict) -> None:
+    """Emit a place only when every Swift-required field is usable.
+
+    `SacredPlace` is optional in Swift, but when present its name, coordinates,
+    confidence and sourceUrl are all non-optional. A partial object would make
+    the whole fixture undecodable.
+    """
+    place = entry.get("place")
+    if not isinstance(place, dict):
+        entry["place"] = None
+        return
+
+    name = _string(place.get("name"))
+    latitude = _number(place.get("latitude"))
+    longitude = _number(place.get("longitude"))
+    confidence = map_confidence(place.get("confidence"))
+    source_url = _string(place.get("source_url"))
+
+    if not name or latitude is None or longitude is None or confidence not in CONFIDENCE_OK or not source_url:
+        entry["place"] = None
+        return
+
+    entry["place"] = {
+        "name": name,
+        "latitude": latitude,
+        "longitude": longitude,
+        "confidence": confidence,
+        "source_url": source_url,
+    }
+
+
+def sanitize_artwork(entry: dict) -> None:
+    """Emit an artwork object matching Swift's non-optional String contract."""
+    artwork = entry.get("artwork") if isinstance(entry.get("artwork"), dict) else {}
+    status_raw = _string(artwork.get("status")).lower().replace(" ", "_")
+    status = ARTWORK_STATUS_MAP.get(status_raw, "placeholder_only")
+    entry["artwork"] = {
+        "title": _string(artwork.get("title")),
+        "maker": _string(artwork.get("maker")),
+        "date_label": _string(artwork.get("date_label")),
+        "source_url": _string(artwork.get("source_url")),
+        "status": status,
+    }
+
+
+def sanitize_sources(entry: dict) -> None:
+    """Keep only source refs with the three non-optional Swift fields."""
+    sources = entry.get("sources")
+    if not isinstance(sources, list):
+        entry["sources"] = []
+        return
+
+    sanitized = []
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        label = _string(source.get("label"))
+        url = _string(source.get("url"))
+        type_ = _string(source.get("type")) or "reference"
+        if not label:
+            label = url
+        if label and url:
+            sanitized.append({"label": label, "url": url, "type": type_})
+    entry["sources"] = sanitized
+
+
+def validate_entry_contract(entry: dict) -> list[str]:
+    """Validate the exact JSON shape required by AnnoEntry's Codable contract."""
+    issues: list[str] = []
+
+    def require_dict(section: str) -> dict:
+        value = entry.get(section)
+        if not isinstance(value, dict):
+            issues.append(f"{section}: not an object")
+            return {}
+        return value
+
+    def require_string(section: dict, field: str) -> None:
+        value = section.get(field)
+        if not isinstance(value, str):
+            issues.append(f"{field}: not a string")
+
+    for field in ("id", "date", "weekday", "mock_priority"):
+        require_string(entry, field)
+
+    liturgical = require_dict("liturgical")
+    for field in ("rank", "color", "title_en", "title_vi"):
+        require_string(liturgical, field)
+
+    calendars = require_dict("calendars")
+    for field in ("julian", "hebrew", "islamic_umm_al_qura", "coptic", "ethiopian"):
+        require_string(calendars, field)
+
+    primary = require_dict("primary")
+    for field in ("type", "title_en", "title_vi", "summary_en", "summary_vi",
+                  "confidence", "confidence_note_en", "confidence_note_vi",
+                  "body_en", "body_vi"):
+        require_string(primary, field)
+    if primary.get("confidence") not in CONFIDENCE_OK:
+        issues.append(f"primary.confidence: {primary.get('confidence')!r} is not a supported enum")
+
+    place = entry.get("place")
+    if place is not None:
+        if not isinstance(place, dict):
+            issues.append("place: not an object")
+        else:
+            require_string(place, "name")
+            require_string(place, "source_url")
+            for field in ("latitude", "longitude"):
+                value = place.get(field)
+                if isinstance(value, bool) or not isinstance(value, (int, float)):
+                    issues.append(f"place.{field}: not a number")
+            if place.get("confidence") not in CONFIDENCE_OK:
+                issues.append(f"place.confidence: {place.get('confidence')!r} is not a supported enum")
+
+    artwork = require_dict("artwork")
+    for field in ("title", "maker", "date_label", "source_url", "status"):
+        require_string(artwork, field)
+
+    sources = entry.get("sources")
+    if not isinstance(sources, list):
+        issues.append("sources: not an array")
+    else:
+        for i, source in enumerate(sources):
+            if not isinstance(source, dict):
+                issues.append(f"sources[{i}]: not an object")
+                continue
+            for field in ("label", "url", "type"):
+                if not isinstance(source.get(field), str):
+                    issues.append(f"sources[{i}].{field}: not a string")
+
+    app_hooks = require_dict("app_hooks")
+    for field in ("hero_line_en", "hero_line_vi", "prayer_prompt_en", "prayer_prompt_vi"):
+        require_string(app_hooks, field)
+
+    return issues
+
+
 def ensure_vi(entry: dict) -> dict:
     """Guarantee every *_vi AND *_en leaf exists. If one locale is missing, fall back
     to the other so the Swift decoder never sees an empty string in either language."""
@@ -284,29 +446,21 @@ def main() -> None:
     for e in sorted_entries:
         validate_required_feast_vi(e)
     final = [ensure_vi(e) for e in sorted_entries]
+    for entry in final:
+        sanitize_place(entry)
+        sanitize_artwork(entry)
+        sanitize_sources(entry)
 
-    # BLOCKING VALIDATOR: fail if required fields missing
-    required_fields = ["weekday", "calendars", "artwork", "mock_priority"]
-    missing_required = []
-    for i, e in enumerate(final):
-        for field in required_fields:
-            if field not in e:
-                missing_required.append(f"Entry {i} (id={e.get('id')}): missing required field '{field}'")
-        # Also validate nested required fields
-        if "calendars" in e:
-            cal = e["calendars"]
-            for cal_field in ["julian", "hebrew", "islamic_umm_al_qura", "coptic", "ethiopian"]:
-                if cal_field not in cal:
-                    missing_required.append(f"Entry {i} (id={e.get('id')}): calendars missing '{cal_field}'")
-        if "artwork" in e:
-            art = e["artwork"]
-            for art_field in ["title", "maker", "date_label", "source_url", "status"]:
-                if art_field not in art:
-                    missing_required.append(f"Entry {i} (id={e.get('id')}): artwork missing '{art_field}'")
+    # BLOCKING VALIDATOR: exact Swift Codable contract, not just key presence.
+    contract_issues = []
+    for entry in final:
+        issues = validate_entry_contract(entry)
+        for issue in issues:
+            contract_issues.append(f"Entry (id={entry.get('id')}): {issue}")
 
-    if missing_required:
-        print("VALIDATION FAILED - missing required fields:", file=sys.stderr)
-        for msg in missing_required:
+    if contract_issues:
+        print("VALIDATION FAILED - fixture violates Swift AnnoEntry contract:", file=sys.stderr)
+        for msg in contract_issues:
             print(f"  {msg}", file=sys.stderr)
         sys.exit(1)
 
@@ -359,8 +513,12 @@ def main() -> None:
         sys.exit(1)
 
     OUT = Path(args.out) if args.out else (ROOT / f"Anno/Resources/anno_unified_{args.year}.json")
+    # Swift requires generatedOn. Use the last fixture date as a deterministic marker
+    # instead of wall-clock time, so regeneration remains byte-identical.
+    generated_on = final[-1].get("date", "") if final else ""
     out = {
         "schema_version": "1.0",
+        "generated_on": generated_on,
         "total_entries": len(final),
         "entries": final,
     }

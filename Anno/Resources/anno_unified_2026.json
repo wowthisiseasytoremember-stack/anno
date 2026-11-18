@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0",
+  "generated_on": "2026-12-31",
   "total_entries": 182,
   "entries": [
     {
@@ -835,16 +836,10 @@
         "body_vi": "Mùa Thường Niên là phần của năm phụng vụ nằm ngoài các mùa chính như Mùa Vọng, Giáng Sinh, Mùa Chay và Phục Sinh. Mùa này tập trung vào đời sống và lời dạy của Đức Kitô, giúp các tín hữu bước đi qua các mầu nhiệm của Tin Mừng một cách liên tục và bền bỉ. Năm phụng vụ được chia thành hai giai đoạn: từ sau Lễ Chúa Giêsu chịu Phép Rửa cho đến Thứ Tư Lễ Tro, và từ sau Lễ Hiện Xuống cho đến đầu Mùa Vọng.\n\nTrong chu kỳ các ngày trong tuần, Giáo hội tuân theo bảng đọc Kinh Thánh hai năm: Năm I cho các năm lẻ và Năm II cho các năm chẵn. Vì 2026 là năm chẵn, các bài đọc của Thánh Lễ các ngày trong tuần được lấy từ Năm II, mang đến một cách đọc gần như liên tục các Tin Mừng và thư tín, bổ sung cho chu kỳ Chúa Nhật.\n\nMàu áo lễ của Mùa Thường Niên là xanh lá cây, một sắc màu truyền thống gắn liền với sự sống, đổi mới và niềm hy vọng. Màu xanh nhắc nhở các tín hữu rằng, ngay cả trong những tuần 'thường', Giáo hội vẫn được mời gọi không ngừng tăng trưởng trong sự thánh thiện và sinh hoa kết quả trong tình yêu và các việc lành.\n\nVào Thứ Sáu này, phụng vụ mời gọi suy niệm các đoạn Kinh Thánh trong ngày, thường nhấn mạnh lời dạy của Đức Giêsu về ơn gọi làm môn đệ, lòng thương xót và Nước Trời. Các tín hữu cũng có thể kết hợp kinh nguyện của mình với Phụng Vụ Giờ Kinh, thánh hóa ngày sống qua các giờ kinh sáng, trưa, chiều và tối.",
         "confidence_note_vi": "Dựa trên Lịch Phụng Vụ Tổng Quát Rôma và năm phụng vụ 2026, trong đó quy định áo lễ màu xanh lá cây cho các ngày trong tuần thuộc Mùa Thường Niên."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": "https://www.vatican.va/archive/ENG1104/_INDEX.HTM"
-      },
+      "place": null,
       "artwork": {
         "title": "Green Vestments",
-        "maker": null,
+        "maker": "",
         "date_label": "20th century",
         "source_url": "https://commons.wikimedia.org/wiki/File:Green_chasuble.jpg",
         "status": "placeholder_only"
@@ -910,7 +905,7 @@
         "maker": "Sassoferrato (Giovanni Battista Salvi)",
         "date_label": "c. 1640–1650",
         "source_url": "https://www.metmuseum.org/art/collection/search/437344",
-        "status": "Public Domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -973,7 +968,7 @@
         "maker": "Early Christian artist (Catacombs of Rome)",
         "date_label": "3rd century",
         "source_url": "https://commons.wikimedia.org/wiki/File:Good_Shepherd_Catacombs.jpg",
-        "status": "public_domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -1041,7 +1036,7 @@
         "maker": "Guido Reni",
         "date_label": "c. 1625",
         "source_url": "https://commons.wikimedia.org/wiki/File:Guido_Reni_-_Martyrdom_of_Saint_Apollinaris.jpg",
-        "status": "public_domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -1109,7 +1104,7 @@
         "maker": "Unknown sculptor",
         "date_label": "20th century",
         "source_url": "https://commons.wikimedia.org/wiki/File:Statue_of_Saint_Lawrence_of_Brindisi.jpg",
-        "status": "public_domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -1177,7 +1172,7 @@
         "maker": "Caravaggio",
         "date_label": "1606",
         "source_url": "https://www.wga.hu/html_m/c/caravagg/",
-        "status": "Public Domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -1240,7 +1235,7 @@
         "maker": "Tommaso Righi",
         "date_label": "c. 1770",
         "source_url": "https://www.museivaticani.va/en/collezioni/museo-pio-clementino/sala-delle-muse/statua-di-santa-brigida.html",
-        "status": "Public domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -1296,16 +1291,10 @@
         "confidence_note_en": "Saint Sharbel Makhluf is listed in the General Roman Calendar as an optional memorial on July 24, confirmed by Vatican liturgical documents and hagiographical sources.",
         "confidence_note_vi": "Thánh Sharbel Makhluf được liệt kê trong Lịch Công Giáo Tổng thể là một kỉ niệm tùy chọn vào ngày 24/7, được xác nhận bởi các tài liệu礼仪 của Vatican và các nguồnagiography."
       },
-      "place": {
-        "name": null,
-        "longitude": null,
-        "latitude": null,
-        "confidence": "confirmed",
-        "source_url": "https://en.wikipedia.org/wiki/Annaya"
-      },
+      "place": null,
       "artwork": {
         "title": "Saint Sharbel Makhluf",
-        "maker": null,
+        "maker": "",
         "date_label": "20th century",
         "source_url": "https://commons.wikimedia.org/wiki/File:Saint_Sharbel_Makhluf.jpg",
         "status": "placeholder_only"
@@ -1427,13 +1416,7 @@
         "confidence_note_en": "The liturgical rank, readings, and color are fixed by the General Roman Calendar and the Lectionary for Year A, which are authoritative sources.",
         "confidence_note_vi": "Hạng phụng vụ, các bài đọc và màu sắc được ấn định bởi Niên Lịch Rôma Tổng quát và Sách Bài Đọc Năm A, vốn là các nguồn có thẩm quyền."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
-      },
+      "place": null,
       "artwork": {
         "title": "The Pearl of Great Price",
         "maker": "James Tissot",
@@ -1495,16 +1478,10 @@
         "confidence_note_en": "Based on the General Roman Calendar and the liturgical year 2026 as published by the USCCB and Universalis.",
         "confidence_note_vi": "Dựa trên Niên Lịch Rôma Tổng quát và năm phụng vụ 2026 như được công bố bởi Hội Đồng Giám Mục Hoa Kỳ (USCCB) và Universalis."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": "https://www.usccb.org/prayer-and-worship/liturgical-year/calendar"
-      },
+      "place": null,
       "artwork": {
         "title": "Green Vestment",
-        "maker": null,
+        "maker": "",
         "date_label": "20th century",
         "source_url": "https://commons.wikimedia.org/wiki/File:Green_vestment.jpg",
         "status": "placeholder_only"
@@ -1558,16 +1535,10 @@
         "confidence_note_en": "This day is a regular weekday in Ordinary Time according to the General Roman Calendar.",
         "confidence_note_vi": "Ngày này là ngày trong tuần thường ngày của Mùa Thường Niên theo Lịch Roma Tổng Quát."
       },
-      "place": {
-        "name": null,
-        "longitude": null,
-        "latitude": null,
-        "confidence": "confirmed",
-        "source_url": "https://www.usccb.org/prayer-and-worship/liturgical-year/ordinary-time"
-      },
+      "place": null,
       "artwork": {
         "title": "Green Vestments",
-        "maker": null,
+        "maker": "",
         "date_label": "20th century",
         "source_url": "https://commons.wikimedia.org/wiki/File:Green_vestments.jpg",
         "status": "placeholder_only"
@@ -1698,7 +1669,7 @@
       },
       "artwork": {
         "title": "Saint Peter Chrysologus",
-        "maker": null,
+        "maker": "",
         "date_label": "18th century (hypothetical)",
         "source_url": "https://commons.wikimedia.org/wiki/Category:Saint_Peter_Chrysologus",
         "status": "placeholder_only"
@@ -1820,16 +1791,12 @@
         "confidence_note_en": "The feast date, title, and historical details are confirmed by the USCCB and Vatican records.",
         "confidence_note_vi": "The feast date, title, and historical details are confirmed by the USCCB and Vatican records."
       },
-      "place": {
-        "name": "Santuari di Sant'Alfonso Maria de' Liguori",
-        "city": "Pagani",
-        "country": "Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -1881,13 +1848,7 @@
         "confidence_note_en": "Lectionary for Mass confirms the Year B readings on the Eighteenth Sunday in Ordinary Time.",
         "confidence_note_vi": "Sách Bài Đọc cho Thánh Lễ xác nhận các bài đọc Năm B vào Chúa Nhật thứ Mười Tám Mùa Thường Niên."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": null
-      },
+      "place": null,
       "artwork": {
         "title": "The Feeding of the Five Thousand",
         "maker": "Albert Bouts",
@@ -1944,18 +1905,12 @@
         "confidence_note_en": "The liturgical cycle allocates Monday of the 18th Week as a plain feria with no overriding universal feast.",
         "confidence_note_vi": "Chu kỳ phụng vụ xếp Thứ Hai Tuần 18 là một ngày thường không có lễ phổ quát nào ưu tiên hơn."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": null
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -2327,13 +2282,7 @@
         "confidence_note_en": "Lectionary confirms the Year B readings on the Nineteenth Sunday in Ordinary Time.",
         "confidence_note_vi": "Sách Bài Đọc xác nhận các bài đọc Năm B cho Chúa Nhật thứ Mười Chín Mùa Thường Niên."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": null
-      },
+      "place": null,
       "artwork": {
         "title": "Elijah in the Wilderness",
         "maker": "Lord Frederic Leighton",
@@ -2579,14 +2528,12 @@
         "confidence_note_en": "The historical record confirms Pontian's resignation as unique in papal history until modern times, and their joint martyrdom is attested by early chronologies and the Liber Pontificalis.",
         "confidence_note_vi": "The historical record confirms Pontian's resignation as unique in papal history until modern times, and their joint martyrdom is attested by early chronologies and the Liber Pontificalis."
       },
-      "place": {
-        "name": "Rome and Sardinia, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -2647,7 +2594,7 @@
       },
       "artwork": {
         "title": "Maximilian Kolbe Portrait",
-        "maker": null,
+        "maker": "",
         "date_label": "20th Century",
         "source_url": "https://commons.wikimedia.org/wiki/File:Maximilian_Kolbe.jpg",
         "status": "placeholder_only"
@@ -2764,13 +2711,7 @@
         "confidence_note_en": "The Sunday of Ordinary Time takes priority over and overrides the feast of Saint Stephen of Hungary according to general norms.",
         "confidence_note_vi": "Chúa Nhật Mùa Thường Niên được ưu tiên và thay thế lễ kính Thánh Stephen của Hungary theo các quy tắc chung."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": null
-      },
+      "place": null,
       "artwork": {
         "title": "The Canaanite Woman",
         "maker": "Jean Germain Drouais",
@@ -2827,18 +2768,12 @@
         "confidence_note_en": "The liturgical cycle places August 17 as a normal weekday in Ordinary Time.",
         "confidence_note_vi": "Chu kỳ phụng vụ xếp ngày 17 tháng 8 là ngày trong tuần tiêu chuẩn của Mùa Thường Niên."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": null
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -2890,18 +2825,12 @@
         "confidence_note_en": "No obligatory feast occurs, confirming this day as a standard feria in the 20th week.",
         "confidence_note_vi": "Không có lễ buộc nào xảy ra, xác nhận ngày này là ngày trong tuần tiêu chuẩn của tuần thứ XX."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": null
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -2962,7 +2891,7 @@
       },
       "artwork": {
         "title": "Saint Jean Eudes",
-        "maker": null,
+        "maker": "",
         "date_label": "17th Century",
         "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Eudes.jpg",
         "status": "placeholder_only"
@@ -3093,7 +3022,7 @@
       },
       "artwork": {
         "title": "Portrait of Pope Pius X",
-        "maker": null,
+        "maker": "",
         "date_label": "1903",
         "source_url": "https://commons.wikimedia.org/wiki/File:Pius_X_portrait.jpg",
         "status": "placeholder_only"
@@ -3210,13 +3139,7 @@
         "confidence_note_en": "The Sunday of Ordinary Time takes priority over the optional memorial of Saint Rose of Lima.",
         "confidence_note_vi": "Chúa Nhật Thường Niên được ưu tiên hơn kỷ niệm tùy chọn của Thánh Rôsa Lima."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": null
-      },
+      "place": null,
       "artwork": {
         "title": "Christ Giving the Keys to St. Peter",
         "maker": "Pietro Perugino",
@@ -3399,18 +3322,12 @@
         "confidence_note_en": "August 26 is designated as a standard weekday feria with no universal saints' feasts assigned.",
         "confidence_note_vi": "Ngày 26 tháng 8 được chỉ định là ngày lễ thường trong tuần tiêu chuẩn, không có lễ kính thánh nào trên phạm vi toàn Giáo Hội."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": null
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -3651,13 +3568,7 @@
         "confidence_note_en": "Lectionary confirms the transition back to the Gospel of Mark (Year B) on the 22nd Sunday.",
         "confidence_note_vi": "Bài đọc xác nhận sự chuyển tiếp trở lại Phúc Âm Thánh Maccô (Năm B) vào Chúa Nhật thứ 22."
       },
-      "place": {
-        "name": null,
-        "latitude": null,
-        "longitude": null,
-        "confidence": "confirmed",
-        "source_url": null
-      },
+      "place": null,
       "artwork": {
         "title": "Christ and the Pharisees",
         "maker": "James Tissot",
@@ -3714,14 +3625,12 @@
         "confidence_note_en": "The status of this day as a Feria in the 22nd Week is confirmed by the universal norms of the Roman Calendar and the USCCB liturgical calendar.",
         "confidence_note_vi": "Các hồ sơ của Dòng Cứu Chốn và lịch phụng vụ Tây Ban Nha xác nhận lễ kính của ngài vào ngày 31 tháng 8, đánh dấu ngày ngài qua đời năm 1240."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -4069,14 +3978,12 @@
         "confidence_note_en": "Liturgical details follow the USCCB 2026 calendar.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-06."
       },
-      "place": {
-        "name": "St. Peter's Basilica, Vatican City"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -4253,14 +4160,12 @@
         "confidence_note_en": "Saint Peter Claver was canonized by Pope Leo XIII in 1888. His feast day is firmly established in the General Roman Calendar as September 9, observed as a Memorial. Historical details of his life in Cartagena are well-documented in hagiographies.",
         "confidence_note_vi": "Saint Peter Claver was canonized by Pope Leo XIII in 1888. His feast day is firmly established in the General Roman Calendar as September 9, observed as a Memorial. Historical details of his life in Cartagena are well-documented in hagiographies."
       },
-      "place": {
-        "name": "Cartagena, Colombia"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -4483,14 +4388,12 @@
         "confidence_note_en": "The date, title, and rank are confirmed by the USCCB 2026 Liturgical Calendar. No optional memorials are listed for this date.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-13."
       },
-      "place": {
-        "name": "St. Peter's Basilica, Vatican City"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -4610,15 +4513,13 @@
         "confidence_note_en": "The memorial status and date are confirmed by the 2026 USCCB Liturgical Calendar.",
         "confidence_note_vi": "The memorial status and date are confirmed by the 2026 USCCB Liturgical Calendar."
       },
-      "place": {
-        "name": "Jerusalem"
-      },
+      "place": null,
       "artwork": {
         "title": "Madonna and Child with Saints",
         "maker": "Raphael",
         "date_label": "c. 1500",
         "source_url": "https://commons.wikimedia.org/wiki/File:Madonna_del_Baldacchino.jpg",
-        "status": "public_domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -4669,9 +4570,7 @@
         "confidence_note_en": "The joint commemoration is established in the Roman Martyrology and the General Roman Calendar. Historical details regarding their specific interactions and theological contributions are well-documented in patristic sources and early Church histories.",
         "confidence_note_vi": "The joint commemoration is established in the Roman Martyrology and the General Roman Calendar. Historical details regarding their specific interactions and theological contributions are well-documented in patristic sources and early Church histories."
       },
-      "place": {
-        "name": "Rome, Italy and Carthage, Tunisia"
-      },
+      "place": null,
       "artwork": {
         "title": "Saint Cyprian and Saint Cornelius",
         "maker": "Unknown Artist",
@@ -4899,14 +4798,12 @@
         "confidence_note_en": "The liturgical date, rank, and readings are confirmed by the USCCB 2026 Liturgical Calendar and the Roman Missal.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-20."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -4958,14 +4855,12 @@
         "confidence_note_en": "Confirmed via the official USCCB 2026 Liturgical Calendar for the United States.",
         "confidence_note_vi": "Confirmed via the official USCCB 2026 Liturgical Calendar for the United States."
       },
-      "place": {
-        "name": "Capernaum, Israel"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -5074,15 +4969,13 @@
         "confidence_note_en": "The date September 23 as the memorial for St. Pio is confirmed by the current liturgical calendar; he was canonized by Pope Benedict XVI in 2002.",
         "confidence_note_vi": "The date September 23 as the memorial for St. Pio is confirmed by the current liturgical calendar; he was canonized by Pope Benedict XVI in 2002."
       },
-      "place": {
-        "name": "San Giovanni Rotondo, Italy"
-      },
+      "place": null,
       "artwork": {
         "title": "Portrait of San Pio da Pietrelcina",
         "maker": "Unknown",
         "date_label": "Mid 20th century",
         "source_url": "https://commons.wikimedia.org/wiki/File:Padre_Pio.jpg",
-        "status": "public_domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -5304,14 +5197,12 @@
         "confidence_note_en": "The date, rank, and readings are confirmed against the 2026 USCCB Liturgical Calendar. No optional memorials are listed for this date.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-27."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -5420,14 +5311,12 @@
         "confidence_note_en": "The celebration of these three archangels as a unified feast day on September 29 was established in the 1969 revision of the Roman Calendar, combining their former separate feast days.",
         "confidence_note_vi": "The celebration of these three archangels as a unified feast day on September 29 was established in the 1969 revision of the Roman Calendar, combining their former separate feast days."
       },
-      "place": {
-        "name": "Monte Gargano, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -5484,14 +5373,12 @@
         "confidence_note_en": "Saint Jerome is universally recognized as a Doctor of the Church and a priest. His feast day on September 30 is fixed in the universal calendar.",
         "confidence_note_vi": "Saint Jerome is universally recognized as a Doctor of the Church and a priest. His feast day on September 30 is fixed in the universal calendar."
       },
-      "place": {
-        "name": "Bethlehem, Israel/Palestine"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -5543,16 +5430,12 @@
         "confidence_note_en": "This date, rank, and saint identification are drawn directly from the USCCB 2026 Liturgical Calendar. The Doctor of the Church title was conferred by St. John Paul II in 1997.",
         "confidence_note_vi": "This date, rank, and saint identification are drawn directly from the USCCB 2026 Liturgical Calendar. The Doctor of the Church title was conferred by St. John Paul II in 1997."
       },
-      "place": {
-        "name": "Carmel of Lisieux",
-        "city": "Lisieux",
-        "country": "France"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -5604,14 +5487,12 @@
         "confidence_note_en": "The date and nature of the memorial are standard in the Roman Missal and the USCCB liturgical calendar.",
         "confidence_note_vi": "The date and nature of the memorial are standard in the Roman Missal and the USCCB liturgical calendar."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -5720,14 +5601,12 @@
         "confidence_note_en": "The date, rank, color, and official readings are explicitly provided in the USCCB 2026 Liturgical Calendar for the United States.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-04."
       },
-      "place": {
-        "name": "Jerusalem, Israel"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -5893,14 +5772,12 @@
         "confidence_note_en": "The feast is an obligatory memorial in the General Roman Calendar since 1969, with fixed readings as cited by the USCCB.",
         "confidence_note_vi": "The feast is an obligatory memorial in the General Roman Calendar since 1969, with fixed readings as cited by the USCCB."
       },
-      "place": {
-        "name": "Battle of Lepanto, Gulf of Patras, Greece"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -6123,15 +6000,13 @@
         "confidence_note_en": "The rank, color, and readings are explicitly defined by the USCCB and the Roman Missal for this specific day in the ordinary form of the Roman Rite.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-11."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
         "title": "The Wedding at Cana",
         "maker": "Paolo Veronese",
         "date_label": "c. 1563",
         "source_url": "https://commons.wikimedia.org/wiki/File:Paolo_Veronese_020.jpg",
-        "status": "public_domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -6353,14 +6228,12 @@
         "confidence_note_en": "The historical facts regarding her life, writings, and designation as Doctor of the Church are well-documented. Her feast day on October 15 is fixed in the General Roman Calendar.",
         "confidence_note_vi": "The historical facts regarding her life, writings, and designation as Doctor of the Church are well-documented. Her feast day on October 15 is fixed in the General Roman Calendar."
       },
-      "place": {
-        "name": "Avila, Castile and León, Spain"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -6469,14 +6342,12 @@
         "confidence_note_en": "The date, rank, and readings are strictly according to the USCCB 2026 Liturgical Calendar. Historical details regarding Ignatius are widely accepted, though precise dates of his martyrdom vary slightly among scholars.",
         "confidence_note_vi": "The date, rank, and readings are strictly according to the USCCB 2026 Liturgical Calendar. Historical details regarding Ignatius are widely accepted, though precise dates of his martyrdom vary slightly among scholars."
       },
-      "place": {
-        "name": "Antioch, Turkey"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -6528,14 +6399,12 @@
         "confidence_note_en": "The date and rank are confirmed by the 2026 USCCB Liturgical Calendar. The status of October 18 as a Sunday overrides the memorial of St. Luke, as Sundays in Ordinary Time rank higher than optional memorials.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-18."
       },
-      "place": {
-        "name": "Vatican City"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -6587,14 +6456,12 @@
         "confidence_note_en": "The celebration date, rank, and identities are based on the official USCCB 2026 Liturgical Calendar and established hagiography.",
         "confidence_note_vi": "The celebration date, rank, and identities are based on the official USCCB 2026 Liturgical Calendar and established hagiography."
       },
-      "place": {
-        "name": "Wendake, Quebec, Canada"
-      },
+      "place": null,
       "artwork": {
         "title": "St. John de Brébeuf",
         "maker": "Unknown",
         "date_label": "17th century",
-        "source_url": null,
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -6931,14 +6798,12 @@
         "confidence_note_en": "The identity of the day as Thirtieth Sunday in Ordinary Time is confirmed by the authoritative USCCB Liturgical Calendar for 2026.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-25."
       },
-      "place": {
-        "name": "St. Peter's Basilica, Vatican City"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -7104,14 +6969,12 @@
         "confidence_note_en": "This is the fixed celebration on the General Roman Calendar as listed in the USCCB 2026 Liturgical Calendar.",
         "confidence_note_vi": "This is the fixed celebration on the General Roman Calendar as listed in the USCCB 2026 Liturgical Calendar."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -7402,14 +7265,12 @@
         "confidence_note_en": "The date, rank, and color are confirmed by the 2026 USCCB Calendar and universal liturgical norms. The practice of three Masses is traditional and canonical.",
         "confidence_note_vi": "The date, rank, and color are confirmed by the 2026 USCCB Calendar and universal liturgical norms. The practice of three Masses is traditional and canonical."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -7518,14 +7379,12 @@
         "confidence_note_en": "The date, rank, and readings are confirmed by the official USCCB calendar for 2026.",
         "confidence_note_vi": "The date, rank, and readings are confirmed by the official USCCB calendar for 2026."
       },
-      "place": {
-        "name": "Milan, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -7748,15 +7607,13 @@
         "confidence_note_en": "The date and rank are confirmed by the 2026 USCCB calendar. The liturgical color is standard green for Ordinary Time. The reading cycle is Year C for Sundays in 2026.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-08."
       },
-      "place": {
-        "name": "Basilica of San Domenico, Perugia, Italy"
-      },
+      "place": null,
       "artwork": {
         "title": "The Resurrection",
         "maker": "Paolo Uccello",
         "date_label": "c. 1444",
         "source_url": "https://commons.wikimedia.org/wiki/File:Paolo_Uccello_007.jpg",
-        "status": "public_domain"
+        "status": "placeholder_only"
       },
       "sources": [
         {
@@ -7807,14 +7664,12 @@
         "confidence_note_en": "The date (Nov 9) and rank (Feast) are confirmed by the USCCB 2026 calendar. The readings are standard for the day unless otherwise specified.",
         "confidence_note_vi": "The date (Nov 9) and rank (Feast) are confirmed by the USCCB 2026 calendar. The readings are standard for the day unless otherwise specified."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -7866,14 +7721,12 @@
         "confidence_note_en": "Saint Leo the Great is a firmly established Doctor of the Church and his memorial is fixed in the Roman Martyrology.",
         "confidence_note_vi": "Saint Leo the Great is a firmly established Doctor of the Church and his memorial is fixed in the Roman Martyrology."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -7925,14 +7778,12 @@
         "confidence_note_en": "Saint Martin of Tours' historicity, role as Bishop of Tours, and patronage are fully confirmed by early hagiographies, notably by Sulpicius Severus.",
         "confidence_note_vi": "Saint Martin of Tours' historicity, role as Bishop of Tours, and patronage are fully confirmed by early hagiographies, notably by Sulpicius Severus."
       },
-      "place": {
-        "name": "Tours, France"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -7989,14 +7840,12 @@
         "confidence_note_en": "The date, rank, and readings are confirmed by the USCCB 2026 Liturgical Calendar. Historical details regarding his birth, death, and canonization are well-established in Catholic tradition.",
         "confidence_note_vi": "The date, rank, and readings are confirmed by the USCCB 2026 Liturgical Calendar. Historical details regarding his birth, death, and canonization are well-established in Catholic tradition."
       },
-      "place": {
-        "name": "Vitebsk, Belarus"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -8053,16 +7902,12 @@
         "confidence_note_en": "The date and rank are explicitly confirmed in the USCCB 2026 Liturgical Calendar. Her status as the first US citizen canonized is a well-established historical fact.",
         "confidence_note_vi": "The date and rank are explicitly confirmed in the USCCB 2026 Liturgical Calendar. Her status as the first US citizen canonized is a well-established historical fact."
       },
-      "place": {
-        "name": "Sant'Angelo Lodigiano, Italy",
-        "city": "Sant'Angelo Lodigiano",
-        "country": "Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -8171,14 +8016,12 @@
         "confidence_note_en": "The rank is Sunday. No optional memorials are listed for this date in the USCCB calendar. The readings follow the Sunday cycle. Confidence is high based on the authoritative USCCB calendar.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-15."
       },
-      "place": {
-        "name": "St. Peter's Square, Vatican City"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -8287,14 +8130,12 @@
         "confidence_note_en": "The date and status as a Memorial are confirmed by the USCCB 2026 Liturgical Calendar. The biographical details and the thematic link to the readings are well-established in Catholic tradition.",
         "confidence_note_vi": "The date and status as a Memorial are confirmed by the USCCB 2026 Liturgical Calendar. The biographical details and the thematic link to the readings are well-established in Catholic tradition."
       },
-      "place": {
-        "name": "Marburg, Germany"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -8517,14 +8358,12 @@
         "confidence_note_en": "The date and title are fixed in the Roman Calendar. The historical basis is traditional, derived from apocryphal texts accepted by the Church for liturgical commemoration.",
         "confidence_note_vi": "The date and title are fixed in the Roman Calendar. The historical basis is traditional, derived from apocryphal texts accepted by the Church for liturgical commemoration."
       },
-      "place": {
-        "name": "Rome, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -9043,14 +8882,12 @@
         "confidence_note_en": "The date and rank are fixed by the universal calendar; historical details about his missionary work are traditional but the feast itself is universal.",
         "confidence_note_vi": "The date and rank are fixed by the universal calendar; historical details about his missionary work are traditional but the feast itself is universal."
       },
-      "place": {
-        "name": "Patras, Greece"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -9216,14 +9053,12 @@
         "confidence_note_en": "The date and rank are fixed in the Universal Calendar of the Roman Rite.",
         "confidence_note_vi": "The date and rank are fixed in the Universal Calendar of the Roman Rite."
       },
-      "place": {
-        "name": "Goa, India"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -9446,14 +9281,12 @@
         "confidence_note_en": "The feast day, rank, and readings are confirmed by the USCCB Liturgical Calendar for 2026.",
         "confidence_note_vi": "The feast day, rank, and readings are confirmed by the USCCB Liturgical Calendar for 2026."
       },
-      "place": {
-        "name": "Milan, Italy"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -9744,14 +9577,12 @@
         "confidence_note_en": "Confirmed by USCCB 2026 Calendar; Rank is Feast; Color is White.",
         "confidence_note_vi": "Confirmed by USCCB 2026 Calendar; Rank is Feast; Color is White."
       },
-      "place": {
-        "name": "Basilica of Our Lady of Guadalupe, Mexico City, Mexico"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -9860,14 +9691,12 @@
         "confidence_note_en": "The date, status as Doctor of the Church, and his role in the Carmelite reform are historically established and confirmed by the USCCB and Vatican records.",
         "confidence_note_vi": "The date, status as Doctor of the Church, and his role in the Carmelite reform are historically established and confirmed by the USCCB and Vatican records."
       },
-      "place": {
-        "name": "Spain"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -10557,14 +10386,12 @@
         "confidence_note_en": "The Feast is fixed in the universal liturgical calendar of the Roman Rite and is explicitly listed in the USCCB calendar for 2026 as a Feast.",
         "confidence_note_vi": "The Feast is fixed in the universal liturgical calendar of the Roman Rite and is explicitly listed in the USCCB calendar for 2026 as a Feast."
       },
-      "place": {
-        "name": "Jerusalem, Israel"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -10616,14 +10443,12 @@
         "confidence_note_en": "The date is confirmed by the USCCB 2026 calendar; the feast is a confirmed universal feast.",
         "confidence_note_vi": "The date is confirmed by the USCCB 2026 calendar; the feast is a confirmed universal feast."
       },
-      "place": {
-        "name": "Nazareth, Israel"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -10675,14 +10500,12 @@
         "confidence_note_en": "The identity, date, and liturgical status are fixed in the 2026 USCCB calendar. The liturgical color red and the rank as Feast are officially confirmed.",
         "confidence_note_vi": "The identity, date, and liturgical status are fixed in the 2026 USCCB calendar. The liturgical color red and the rank as Feast are officially confirmed."
       },
-      "place": {
-        "name": "Bethlehem, West Bank"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -10734,14 +10557,12 @@
         "confidence_note_en": "The rank as Feria and the optional memorial of Saint Thomas Becket are consistent with the USCCB calendar guidelines for this period.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-29."
       },
-      "place": {
-        "name": "St. Peter's Basilica, Vatican City"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -10793,14 +10614,12 @@
         "confidence_note_en": "The day is confirmed as a feria within the Octave of the Nativity, with no optional memorials printed in the 2026 USCCB calendar.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-30."
       },
-      "place": {
-        "name": "Bethlehem, West Bank, Palestine"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [
@@ -10852,14 +10671,12 @@
         "confidence_note_en": "Identity as Seventh Day of the Octave is confirmed by USCCB calendar; readings are 'not printed' in the short-form daily PDF, implying reliance on the standard weekday lectionary for the Christmas season. Sylvester I is an optional memorial.",
         "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-12-31."
       },
-      "place": {
-        "name": "Jerusalem"
-      },
+      "place": null,
       "artwork": {
-        "title": null,
-        "maker": null,
-        "date_label": null,
-        "source_url": null,
+        "title": "",
+        "maker": "",
+        "date_label": "",
+        "source_url": "",
         "status": "placeholder_only"
       },
       "sources": [

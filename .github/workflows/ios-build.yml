@@ -158,7 +158,14 @@ jobs:
         run: pip install jsonschema requests feedparser
       - name: Validate unified fixture
         run: python3 tools/validate_engine_b_output.py --fixture Anno/Resources/anno_unified_2026.json --check-sources
+        # Content/source quality remains advisory until the existing content backfill lands.
+        # The Swift fixture contract below is the blocking gate.
         continue-on-error: true
+      - name: Validate Swift fixture decode contract
+        run: python3 tools/validate_fixture_decode.py --fixture Anno/Resources/anno_unified_2026.json
+
+      - name: Run Swift fixture decode contract regression tests
+        run: python3 -m unittest discover -s tools -p 'test_validate_fixture_decode.py' -v
 
   liturgical-audit:
     name: 2026 liturgical audit (fail-closed)
@@ -199,6 +206,9 @@ jobs:
 
       - name: Run normalizer
         run: python3 tools/normalize_fixture.py --year 2026
+
+      - name: Validate Swift fixture decode contract
+        run: python3 tools/validate_fixture_decode.py --fixture Anno/Resources/anno_unified_2026.json
 
       - name: Validate regenerated major-feast data and regression tests
         run: |
