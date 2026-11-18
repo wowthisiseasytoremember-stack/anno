@@ -210,6 +210,9 @@ jobs:
       - name: Validate Swift fixture decode contract
         run: python3 tools/validate_fixture_decode.py --fixture Anno/Resources/anno_unified_2026.json
 
+      - name: Validate Swift fixture decode contract (2027)
+        run: python3 tools/validate_fixture_decode.py --fixture Anno/Resources/anno_unified_2027.json
+
       - name: Validate regenerated major-feast data and regression tests
         run: |
           python3 tools/major_feast_editorial.py audit

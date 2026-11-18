@@ -13,7 +13,7 @@ The normalizer now sanitizes optional place data and coerces artwork fields to t
 non-optional Swift contract, then runs a blocking decode-contract validator before write.
 """
 from __future__ import annotations
-import json, re, shutil
+import importlib.util, json, re, shutil, sys
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
@@ -23,6 +23,15 @@ FORTNIGHT = ROOT / "data/mock/anno_fortnight_2026-07-03_2026-07-16.json"
 AUGUST = ROOT / "data/mock/anno_august_2026.json"
 RESEARCH = ROOT / "data/research_results"
 OUT = ROOT / "Anno/Resources/anno_unified_2026.json"
+
+# Load the ROOT Engine A deterministically. tools/calendar_engine.py is a stale
+# duplicate; never allow a tools/ sys.path entry to shadow the live engine.
+_CE_SPEC = importlib.util.spec_from_file_location(
+    "calendar_engine", ROOT / "calendar_engine.py"
+)
+calendar_engine = importlib.util.module_from_spec(_CE_SPEC)
+sys.modules["calendar_engine"] = calendar_engine
+_CE_SPEC.loader.exec_module(calendar_engine)
 
 # 8 major feasts requiring VI (only those in Jul 3 - Dec 31 2026 range are enforced)
 VI_REQUIRED_DATES = {
@@ -121,6 +130,9 @@ def normalize_sources(sources: list) -> list[dict]:
 
 
 def map_confidence(val: Any) -> str:
+    if val is None or (isinstance(val, str) and not val.strip()):
+        # Missing confidence is not evidence; keep the least-assertive supported value.
+        return "contextual"
     if isinstance(val, (int, float)):
         if val >= 0.8:
             return "confirmed"
@@ -152,8 +164,8 @@ def normalize_engine_b(en_path: Path) -> dict:
     rank = (e.get("liturgical", {}).get("rank") or "").strip().lower()
     if rank in RANK_MAP:
         e["liturgical"]["rank"] = RANK_MAP[rank]
-    if "confidence" in e.get("primary", {}):
-        e["primary"]["confidence"] = map_confidence(e["primary"]["confidence"])
+    if "primary" in e:
+        e["primary"]["confidence"] = map_confidence(e["primary"].get("confidence"))
     if isinstance(e.get("place"), dict) and "confidence" in e["place"]:
         e["place"]["confidence"] = map_confidence(e["place"]["confidence"])
     color = e.get("liturgical", {}).get("color", "")
@@ -270,6 +282,31 @@ def sanitize_sources(entry: dict) -> None:
         if label and url:
             sanitized.append({"label": label, "url": url, "type": type_})
     entry["sources"] = sanitized
+
+
+def refresh_calendars(entry: dict) -> None:
+    """Replace fixture calendar strings with the root Engine A values.
+
+    The LLM may return a second dialect (e.g. Coptic month names in an Ethiopian
+    field). Engine A is the single source of truth; never let a per-driver table
+    win in the app-facing fixture.
+    """
+    raw_date = entry.get("date")
+    if not isinstance(raw_date, str):
+        return
+    try:
+        gregorian_date = date.fromisoformat(raw_date)
+    except ValueError:
+        return
+
+    conversion = calendar_engine.convert_date(gregorian_date)
+    entry["calendars"] = {
+        "julian": conversion["julian"]["date"],
+        "hebrew": conversion["hebrew"]["date"],
+        "islamic_umm_al_qura": conversion["islamic_umm_al_qura"]["date"],
+        "coptic": conversion["coptic"]["date"],
+        "ethiopian": conversion["ethiopian"]["date"],
+    }
 
 
 def validate_entry_contract(entry: dict) -> list[str]:
@@ -391,8 +428,8 @@ def normalize_generic_entry(entry: dict, date_str: str) -> dict:
     rank = (e.get("liturgical", {}).get("rank") or "").strip().lower()
     if rank in RANK_MAP:
         e["liturgical"]["rank"] = RANK_MAP[rank]
-    if "confidence" in e.get("primary", {}):
-        e["primary"]["confidence"] = map_confidence(e["primary"]["confidence"])
+    if "primary" in e:
+        e["primary"]["confidence"] = map_confidence(e["primary"].get("confidence"))
     if isinstance(e.get("place"), dict) and "confidence" in e["place"]:
         e["place"]["confidence"] = map_confidence(e["place"]["confidence"])
     color = e.get("liturgical", {}).get("color", "")
@@ -450,6 +487,7 @@ def main() -> None:
         sanitize_place(entry)
         sanitize_artwork(entry)
         sanitize_sources(entry)
+        refresh_calendars(entry)
 
     # BLOCKING VALIDATOR: exact Swift Codable contract, not just key presence.
     contract_issues = []
@@ -540,7 +578,11 @@ def main() -> None:
     print(f"Master Unified Fixture ({args.year}): {len(final)} entries ({span})")
     print(f"  VI fields: {vi_tot} total, {vi_empty} empty")
     print(f"  Entries with <2 sources: {no_src}")
-    print(f"  Written: {OUT.relative_to(ROOT)}")
+    try:
+        written = OUT.relative_to(ROOT)
+    except ValueError:
+        written = OUT
+    print(f"  Written: {written}")
 
 
 if __name__ == "__main__":
