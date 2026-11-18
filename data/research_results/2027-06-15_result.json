@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-15",
+  "date": "2027-06-15",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time",
+    "title_vi": "Thứ Ba trong Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time",
+    "title_vi": "Thứ Ba trong Mùa Thường Niên",
+    "summary_en": "This day is a weekday in Ordinary Time, characterized by the liturgical color green, which signifies hope and the steady growth of the Church. No major universal feast or saint memorial with a higher rank overrides the weekday office on this date. The focus is on the gradual sanctification of the faithful through the daily liturgy and the readings of the current week.",
+    "summary_vi": "Ngày này là một ngày trong tuần của Mùa Thường Niên, với màu phụng vụ xanh lá cây, tượng trưng cho niềm hy vọng và sự phát triển bền vững của Giáo hội. Không có lễ trọng hoặc lễ kính các thánh nào có bậc cao hơn thay thế nghi thức ngày trong tuần vào ngày này. Trọng tâm là sự thánh hóa dần dần của cộng đoàn tín hữu qua phụng vụ hàng ngày và các bài đọc của tuần hiện tại.",
+    "body_en": "As a Feria in Ordinary Time, the liturgical life of this Tuesday is marked by the green vestments, reflecting the season of growth and hope in the Christian journey. The Office of Readings and the Mass readings follow the weekday cycle, emphasizing the steady application of the Gospel message in daily life. Without a specific saint or feast to commemorate, the Church invites the faithful to reflect on their ongoing conversion and the quiet, persistent presence of grace.",
+    "body_vi": "Với tư cách là một ngày thường trong Mùa Thường Niên, đời sống phụng vụ của Thứ Ba này được đánh dấu bằng y phục phụng vụ màu xanh lá cây, phản ánh mùa tăng trưởng và hy vọng trong hành trình Kitô giáo. Bài đọc Kinh Sách và các bài đọc Thánh Lễ tuân theo chu kỳ ngày trong tuần, nhấn mạnh vào việc áp dụng vững chắc thông điệp Tin Mừng vào cuộc sống hàng ngày. Không có vị thánh hay lễ kính cụ thể nào được tưởng niệm, Giáo hội mời gọi cộng đoàn tín hữu suy ngẫm về sự hoán cải liên tục của mình và sự hiện diện âm thầm nhưng bền bỉ của ân sủng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls within Ordinary Time (after Pentecost/Trinity) with no competing universal feast in the 1969 General Roman Calendar.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên (sau lễ Hiện Xuống/Chúa Ba Ngôi) mà không có lễ kính phổ quát nào xung đột trong Lịch Rôma năm 1969."
+  },
+  "app_hooks": {
+    "hero_line_en": "Hope in the ordinary: Growing in grace on this Tuesday.",
+    "hero_line_vi": "Niềm hy vọng trong đời thường: Tăng trưởng trong ân sủng vào Thứ Ba này.",
+    "prayer_prompt_en": "Grant us the humility to find You in the routine of our days, O Lord.",
+    "prayer_prompt_vi": "Xin ban cho chúng con sự khiêm tốn để tìm thấy Chúa trong thói quen hàng ngày, lạy Chúa."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/prayer-and-worship/liturgical-calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/12700a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-02",
+    "hebrew": "10 Sivan 5787",
+    "islamic_umm_al_qura": "10 Muharram 1449 AH",
+    "coptic": "8 Paona 1743",
+    "ethiopian": "8 Paona 1743"
+  }
+}

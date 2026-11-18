@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-03",
+  "date": "2027-03-03",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Sixth Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần VI Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Sixth Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần VI Thường Niên",
+    "summary_en": "This date falls within the Sixth Week of Ordinary Time, a period of growth and reflection on the teachings of Christ. In the Liturgy of the Word, the Church typically proclaims the passage from the Gospel of Mark regarding the healing of the man with the withered hand and the controversy over the Sabbath. The liturgical color is green, symbolizing hope and the steady growth of the faithful during this season.",
+    "summary_vi": "Ngày này rơi vào Tuần VI Mùa Thường Niên, một thời gian tăng trưởng và suy ngẫm về giáo huấn của Chúa Kitô. Trong Phụng vụ Lời Chúa, Hội Thánh thường công bố đoạn Tin Mừng theo Thánh Máccô về việc chữa lành người có bàn tay khô và cuộc tranh luận về ngày Sabbat. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng bền vững của cộng đoàn trong mùa này.",
+    "body_en": "As a weekday of Ordinary Time, the liturgical focus is on the ongoing formation of the believer through the proclamation of Scripture and the celebration of the Eucharist. The readings for this specific Wednesday in the Sixth Week challenge the faithful to prioritize human need and mercy over rigid legalism, as demonstrated by Jesus' actions on the Sabbath. The faithful are invited to observe the quiet rhythms of daily prayer, integrating the lessons of the Gospels into their ordinary lives, marked by the hope and perseverance represented by the green vestments.",
+    "body_vi": "Là một ngày trong tuần của Mùa Thường Niên, trọng tâm phụng vụ là sự hình thành liên tục của người tín hữu qua việc công bố Thánh Kinh và cử hành Thánh Thể. Các bài đọc cho Thứ Tư cụ thể này trong Tuần VI thách đố người tín hữu đặt nhu cầu con người và lòng thương xót lên trên sự tuân thủ luật lệ cứng nhắc, như được thể hiện qua hành động của Chúa Giêsu trong ngày Sabbat. Người tín hữu được mời gọi quan sát những nhịp cầu nguyện hằng ngày, tích hợp những bài học từ Tin Mừng vào cuộc sống thường nhật, được đánh dấu bằng niềm hy vọng và sự kiên trì được tượng trưng qua phẩm phục màu xanh lá cây.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Feria of Ordinary Time; rank is determined by the Sunday preceding the First Sunday of Lent. No specific universal saint is commemorated with a higher rank than the weekday itself.",
+    "confidence_note_vi": "Ngày thường trong Mùa Thường Niên; bậc được xác định bởi Chúa Nhật trước Chúa Nhật I Mùa Chay. Không có thánh cụ thể nào được tưởng nhớ với bậc cao hơn bản thân ngày thường."
+  },
+  "app_hooks": {
+    "hero_line_en": "Heal the withered hand of our legalism with the living water of mercy.",
+    "hero_line_vi": "Hãy chữa lành bàn tay khô héo của tính luật pháp bằng nước sống của lòng thương xót.",
+    "prayer_prompt_en": "Lord, grant me the courage to prioritize mercy over rigid rules, following your example of compassion for those in need.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm để đặt lòng thương xót lên trên các quy tắc cứng nhắc, noi theo gương mẫu của Chúa trong việc quan tâm đến những người thiếu thốn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/030327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Universalis Daily Office",
+      "url": "https://universalis.com/2027/03/03/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-18",
+    "hebrew": "24 Adar 5787",
+    "islamic_umm_al_qura": "24 Ramadan 1448 AH",
+    "coptic": "24 Amshir 1743",
+    "ethiopian": "24 Amshir 1743"
+  }
+}

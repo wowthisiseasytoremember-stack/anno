@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-08",
+  "date": "2027-04-08",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Thursday of the Fifth Week of Lent",
+    "title_vi": "Thứ Năm Tuần V Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Fifth Week of Lent",
+    "title_vi": "Thứ Năm Tuần V Mùa Chay",
+    "summary_en": "This day falls within the season of Lent, a time of penance and preparation for Easter. No major saint or feast is universally commemorated on this date in the General Roman Calendar. The liturgy focuses on the penitential themes of the season.",
+    "summary_vi": "Ngày này thuộc Mùa Chay, thời gian sám hối và chuẩn bị cho lễ Phục Sinh. Không có thánh hay lễ lớn nào được kỷ niệm phổ quát vào ngày này trong Lịch Phụng vụ Rôma. Phụng vụ tập trung vào các chủ đề sám hối của mùa.",
+    "body_en": "The readings for Thursday of the Fifth Week of Lent emphasize the necessity of conversion and the importance of faithful stewardship. The Church invites the faithful to deepen their prayer and almsgiving as Holy Week approaches.",
+    "body_vi": "Các bài đọc cho Thứ Năm Tuần V Mùa Chay nhấn mạnh sự cần thiết của sự hoán cải và tầm quan trọng của sự trung tín trong quản lý. Giáo hội mời gọi cộng đoàn đào sâu lời cầu nguyện và việc bố thí khi Tuần Thánh đang đến gần.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical status is standard for Lenten ferias.",
+    "confidence_note_vi": "Trạng thái phụng vụ là chuẩn cho ngày thường trong Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_en": "Prepare your heart, for the Feast approaches.",
+    "hero_line_vi": "Hãy chuẩn bị tâm hồn, vì Đại lễ đang gần đến.",
+    "prayer_prompt_en": "Lord, grant me the grace of true conversion in these final days of Lent.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn hoán cải thực sự trong những ngày cuối cùng của Mùa Chay."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Online Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-26",
+    "hebrew": "1 Nisan 5787",
+    "islamic_umm_al_qura": "1 Dhu al-Qidah 1448 AH",
+    "coptic": "30 Baramhat 1743",
+    "ethiopian": "30 Baramhat 1743"
+  }
+}

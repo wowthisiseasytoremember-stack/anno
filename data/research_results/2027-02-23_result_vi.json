@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần Thường Niên",
+    "summary_vi": "Ngày này rơi vào Thứ Ba trong Mùa Thường Niên theo lịch phụng vụ Công giáo Rôma. Không có thánh lễ lớn hay ngày lễ thánh nào được cử hành phổ quát vào ngày này, vì vậy trọng tâm vẫn là sự tiến triển hàng tuần của Mùa Thường Niên. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng trong đức tin.",
+    "body_vi": "Vào ngày 23 tháng 2 năm 2027, Giáo hội cử hành Thứ Ba trong Mùa Thường Niên. Mặc dù một số lịch địa phương có thể đề cập đến các thánh nhỏ, Lịch Rôma Chung không chỉ định ngày trọng thể hay lễ kính vào ngày này. Các văn bản phụng vụ nhấn mạnh hành trình của các tín hữu qua năm, suy gẫm về lời dạy của Chúa Kitô trong bối cảnh ổn định và phát triển.",
+    "confidence_note_vi": "Lịch Rôma Chung chỉ ra một ngày trong tuần tiêu chuẩn của Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Vững Tin, Tăng Trưởng Ơn Thánh",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong hành trình hằng ngày cùng Chúa."
+  }
+}

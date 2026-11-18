@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần 5 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần 5 Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày trong tuần thuộc Mùa Thường Niên, sau lễ thánh Phaolô tông đồ trở lại. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng. Không có lễ kính nào được mừng, vì vậy trọng tâm là sự tiến triển hàng ngày của đời sống Kitô hữu và các bài đọc trong tuần.",
+    "body_vi": "Trong Lịch Rôma Chung, ngày 9 tháng 2 năm 2027 rơi vào Thứ Ba trong Tuần 5 Mùa Thường Niên. Trừ khi lịch phụng vụ địa phương hoặc truyền thống cụ thể đánh dấu một vị thánh, phụng vụ sẽ theo ngày thường. Các bài đọc thường tiếp tục từ Mác-cô 7:1-13 (Tin Mừng) và Các Vua Quyển I 8:22-23, 27-30 (Bài đọc 1), tập trung vào thái độ nội tâm của con tim so với việc tuân giữ bề ngoài, và lời cầu nguyện của Salomon cho Đền Thờ. Các tín hữu được mời gọi suy ngẫm về cách họ tuân giữ các giới luật của Thiên Chúa với sự chân thành và trung tín trong cuộc sống hàng ngày.",
+    "confidence_note_vi": "Đây là một ngày thường trong Mùa Thường Niên theo lịch phụng vụ năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong đức tin qua những ngày bình thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tuân giữ các giới luật của Chúa với tâm hồn chân thành chứ không chỉ là bề ngoài."
+  }
+}

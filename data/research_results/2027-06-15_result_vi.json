@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba trong Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba trong Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày trong tuần của Mùa Thường Niên, với màu phụng vụ xanh lá cây, tượng trưng cho niềm hy vọng và sự phát triển bền vững của Giáo hội. Không có lễ trọng hoặc lễ kính các thánh nào có bậc cao hơn thay thế nghi thức ngày trong tuần vào ngày này. Trọng tâm là sự thánh hóa dần dần của cộng đoàn tín hữu qua phụng vụ hàng ngày và các bài đọc của tuần hiện tại.",
+    "body_vi": "Với tư cách là một ngày thường trong Mùa Thường Niên, đời sống phụng vụ của Thứ Ba này được đánh dấu bằng y phục phụng vụ màu xanh lá cây, phản ánh mùa tăng trưởng và hy vọng trong hành trình Kitô giáo. Bài đọc Kinh Sách và các bài đọc Thánh Lễ tuân theo chu kỳ ngày trong tuần, nhấn mạnh vào việc áp dụng vững chắc thông điệp Tin Mừng vào cuộc sống hàng ngày. Không có vị thánh hay lễ kính cụ thể nào được tưởng niệm, Giáo hội mời gọi cộng đoàn tín hữu suy ngẫm về sự hoán cải liên tục của mình và sự hiện diện âm thầm nhưng bền bỉ của ân sủng.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên (sau lễ Hiện Xuống/Chúa Ba Ngôi) mà không có lễ kính phổ quát nào xung đột trong Lịch Rôma năm 1969."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Niềm hy vọng trong đời thường: Tăng trưởng trong ân sủng vào Thứ Ba này.",
+    "prayer_prompt_vi": "Xin ban cho chúng con sự khiêm tốn để tìm thấy Chúa trong thói quen hàng ngày, lạy Chúa."
+  }
+}

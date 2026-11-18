@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-27",
+  "date": "2027-06-27",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "green",
+    "title_en": "Thirteenth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật XIII Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thirteenth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật XIII Thường Niên",
+    "summary_en": "The Thirteenth Sunday in Ordinary Time falls within the season of Ordinary Time, characterized by the liturgical color green. This period focuses on the growth of the Church and the faithful as they reflect on the teachings and ministry of Jesus. The readings often emphasize themes of discipleship, faith, and the call to live out the Gospel in daily life.",
+    "summary_vi": "Chúa Nhật XIII Thường Niên thuộc mùa Thường Niên, với màu sắc phụng vụ chủ đạo là màu xanh. Giai đoạn này tập trung vào sự tăng trưởng của Hội Thánh và cộng đoàn dân Chúa khi suy tư về lời giảng dạy và sứ vụ của Chúa Giêsu. Các bài đọc thường nhấn mạnh các chủ đề về môn đệ, đức tin, và lời mời gọi sống Tin Mừng trong đời sống hằng ngày.",
+    "body_en": "In the General Roman Calendar, the Thirteenth Sunday in Ordinary Time is a significant moment for communal prayer and scriptural reflection. It invites the faithful to deepen their relationship with Christ and to apply his teachings to contemporary challenges. Unlike the solemnities of the Christmas or Easter cycles, this Sunday maintains the simple yet profound character of Ordinary Time, emphasizing continuity and spiritual maturity.",
+    "body_vi": "Trong Lịch Rôma Tổng quát, Chúa Nhật XIII Thường Niên là thời khắc quan trọng cho việc cầu nguyện cộng đoàn và suy niệm Lời Chúa. Ngày này mời gọi cộng đoàn đi sâu vào tương quan với Đức Kitô và áp dụng những giáo huấn của Ngài vào những thách đố hiện tại. Khác với các lễ trọng trong chu kỳ Giáng Sinh hay Phục Sinh, Chúa Nhật này giữ nguyên tính chất đơn sơ nhưng sâu sắc của mùa Thường Niên, nhấn mạnh sự liên tục và trưởng thành thiêng liêng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date and liturgical rank are standard for the 13th Sunday in Ordinary Time in the Roman Catholic calendar for 2027.",
+    "confidence_note_vi": "Ngày tháng và bậc lễ là tiêu chuẩn cho Chúa Nhật XIII Thường Niên trong lịch Công giáo Rôma năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Deepening Faith in Ordinary Time",
+    "hero_line_vi": "Đào Sâu Đức Tin Trong Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help me to live out my discipleship with courage and humility this week.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con sống tinh thần môn đệ với lòng can đảm và khiêm nhường trong tuần này."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/bible/readings/062712.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/15083a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-14",
+    "hebrew": "22 Sivan 5787",
+    "islamic_umm_al_qura": "22 Muharram 1449 AH",
+    "coptic": "20 Paona 1743",
+    "ethiopian": "20 Paona 1743"
+  }
+}

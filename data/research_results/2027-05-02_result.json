@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-02",
+  "date": "2027-05-02",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Fifth Sunday of Easter",
+    "title_vi": "Chúa Nhật V Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Fifth Sunday of Easter",
+    "title_vi": "Chúa Nhật V Mùa Phục Sinh",
+    "summary_en": "This Sunday continues the meditation on the mystery of Christ's Resurrection and its implications for the Christian life. The liturgy focuses on the themes of light, community, and the vine, often using Gospel passages regarding the true vine. It emphasizes the believer's abiding in Christ to bear fruit.",
+    "summary_vi": "Chúa Nhật này tiếp tục suy niệm về mầu nhiệm Chúa Kitô Phục Sinh và những hệ luận cho đời sống Kitô hữu. Phụng vụ tập trung vào các chủ đề ánh sáng, cộng đoàn và cây nho, thường sử dụng các đoạn Tin Mừng về cây nho thật. Ngày này nhấn mạnh việc người tín hữu ở trong Chúa Kitô để sinh hoa trái.",
+    "body_en": "The Fifth Sunday of Easter invites the faithful to deepen their understanding of the Paschal Mystery, moving from the initial shock of the empty tomb to the steady reality of the Risen Lord's presence. In the Liturgy of the Word, particularly Year B readings, the imagery of the Vine and the branches is central, teaching that spiritual vitality comes from union with Christ. This week challenges Christians to examine their own faithfulness and the fruitfulness of their lives, ensuring that they remain connected to the source of life. The white vestments and the Alleluia continue to express the joy of the Resurrection.",
+    "body_vi": "Chúa Nhật V Mùa Phục Sinh mời gọi các tín hữu đào sâu hiểu biết về Mầu nhiệm Vượt Qua, tiến từ sự sửng sốt ban đầu trước ngôi mộ trống đến thực tại vững chắc về sự hiện diện của Chúa Phục Sinh. Trong Phụng vụ Lời Chúa, đặc biệt trong bài đọc Năm B, hình ảnh cây nho và cành nho là trọng tâm, dạy rằng sức sống tâm linh phát xuất từ sự kết hợp với Chúa Kitô. Tuần này thách đố các Kitô hữu xem xét sự trung thành và hiệu quả của đời sống mình, đảm bảo rằng họ luôn kết nối với nguồn mạch sự sống. Lễ phục trắng và lời Alleluia tiếp tục diễn tả niềm vui Phục Sinh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls within the Easter season, and the Sunday designation is calculated based on the General Roman Calendar norms.",
+    "confidence_note_vi": "Ngày này rơi vào mùa Phục Sinh, và việc xác định Chúa Nhật được tính toán dựa trên các quy tắc của Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Abide in Me, and I in you.",
+    "hero_line_vi": "Hãy ở lại trong Thầy, và Thầy ở trong anh em.",
+    "prayer_prompt_en": "Lord, help me to remain in Your love so that my life may bear much fruit for Your Kingdom.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con ở lại trong tình yêu của Chúa để đời sống con sinh nhiều hoa trái cho Nước Trời."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican Official News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-19",
+    "hebrew": "25 Nisan 5787",
+    "islamic_umm_al_qura": "25 Dhu al-Qidah 1448 AH",
+    "coptic": "24 Baramouda 1743",
+    "ethiopian": "24 Baramouda 1743"
+  }
+}

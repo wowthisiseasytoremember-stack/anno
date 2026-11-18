@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần IV Mùa Chay",
+    "summary_vi": "Ngày này là một ngày thường trong Mùa Chay, được tuân giữ với kỷ luật sám hối. Các bài đọc tập trung vào sự hoán cải tâm hồn và hành trình tiến tới lễ Phục Sinh. Không có lễ kính thánh cụ thể nào ưu tiên hơn việc tuân giữ ngày trong tuần Mùa Chay theo Lịch phụng vụ Rôma chung cho ngày này.",
+    "body_vi": "Phụng vụ của ngày mời gọi các tín hữu suy gẫm các đoạn Tin Mừng phù hợp với Tuần IV Mùa Chay, thường nhấn mạnh các chủ đề về đức tin, ánh sáng và sự cần thiết của việc đổi mới tinh thần. Là một ngày trong tuần, nó không lên đến bậc lễ kính, duy trì đặc tính chiêm niệm và sám hối của mùa.",
+    "confidence_note_vi": "Dựa trên chu kỳ chuẩn của Sách Lễ Rôma và vị trí của Mùa Chay 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Ánh Sáng Đức Tin",
+    "prayer_prompt_vi": "Lạy Chúa, xin hãy củng cố đức tin của con trong hành trình Mùa Chay này."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 2 Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 2 Phục Sinh",
+    "summary_vi": "Thứ Ba này thuộc Tuần Bát Nhật Phục Sinh và tuần 2 Mùa Phục Sinh. Phụng vụ tập trung vào các lần hiện ra của Chúa Giêsu sau khi sống lại và sự tăng trưởng của Giáo Hội sơ khai. Không có lễ nhớ buộc về các thánh vào ngày cụ thể này trong Lịch Phụng vụ Rôma tổng quát của năm này.",
+    "body_vi": "Trong Mùa Phục Sinh, màu phụng vụ là trắng, tượng trưng cho niềm vui và ánh sáng của sự Phục Sinh của Chúa Kitô. Các bài đọc thường lấy từ sách Công vụ Tông đồ, mô tả các nỗ lực truyền giáo của các môn đệ thời sơ khai, và các trình thuật Tin Mừng về Chúa Phục Sinh. Cộng đoàn được mời gọi suy niệm về thực tại của sự Phục Sinh và tác động của nó đối với cuộc sống hằng ngày, duy trì tinh thần mừng vui trong suốt bốn mươi ngày cho đến lễ Hiện Xuống.",
+    "confidence_note_vi": "Ngày này rơi vào chu kỳ ngày thường của Mùa Phục Sinh mà không có lễ thánh nào bắt buộc cho việc cử hành phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi trong ánh sáng của Chúa Phục Sinh.",
+    "prayer_prompt_vi": "Hãy cầu xin ơn nhận ra sự hiện diện của Chúa Kitô Phục Sinh trong những gặp gỡ hàng ngày của bạn."
+  }
+}

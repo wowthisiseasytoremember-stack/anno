@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ nhớ Thánh Catarina Siêna"
+  },
+  "primary": {
+    "title_vi": "Thánh Catarina Siêna",
+    "summary_vi": "Thánh Catarina Siêna (1347–1380) là một nữ tu Dòng Đa Minh, nhà thần bí và Tiến sĩ Hội Thánh. Bà nổi tiếng với các tác phẩm thần học, đặc biệt là 'Cuộc Đối Thoại', và vai trò tích cực trong triều đình giáo hoàng cùng việc đưa Giáo hoàng trở lại Rôma. Lễ kính của bà được cử hành như một lễ nhớ buộc trong Lịch Phụng vụ Rôma Tổng quát.",
+    "body_vi": "Sinh ra tại Siena, nước Ý, Catarina đã dâng hiến cuộc đời cho việc cầu nguyện và phục vụ người nghèo, người bệnh. Mặc dù không được đào tạo thần học chính quy, bà đã viết nhiều tác phẩm về bản tính của Thiên Chúa và vai trò của Hội Thánh. Ảnh hưởng của bà lan rộng đến sự thống nhất chính trị và tôn giáo ở châu Âu trong thế kỷ 14.",
+    "confidence_note_vi": "Thánh Catarina Siêna là Tiến sĩ Hội Thánh đã được xác nhận với ngày lễ nhớ cố định trong Lịch Phụng vụ Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chân lý là ánh sáng soi tỏ thực tại.",
+    "prayer_prompt_vi": "Hãy xin sự can đảm để nói lời chân lý trong tình yêu, như Thánh Catarina đã làm."
+  }
+}

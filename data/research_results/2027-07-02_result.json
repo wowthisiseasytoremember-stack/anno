@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-07-02",
+  "date": "2027-07-02",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time",
+    "title_vi": "Thứ Sáu Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time",
+    "title_vi": "Thứ Sáu Mùa Thường Niên",
+    "summary_en": "July 2, 2027, falls on a Friday during the season of Ordinary Time. The liturgical color is green, symbolizing hope and growth. No obligatory saint's memorial supersedes the weekday office on this date in the General Roman Calendar.",
+    "summary_vi": "Ngày 2 tháng 7 năm 2027 rơi vào Thứ Sáu trong Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu tượng cho hy vọng và sự tăng trưởng. Không có lễ kính thánh nào thay thế bài đọc Thứ Hai trong Lịch Rôma Chung vào ngày này.",
+    "body_en": "As a weekday of Ordinary Time, the focus remains on the continuous reading of Scripture and the daily recitation of the Divine Office. The prayers emphasize the role of the Holy Spirit in guiding the Church and the faithful. Priests celebrate Mass in green vestments, offering sacrifices for the living and the dead.",
+    "body_vi": "Là một ngày trong tuần của Mùa Thường Niên, trọng tâm vẫn là việc đọc Thánh Kinh liên tục và đọc Kinh Thần Vụ hàng ngày. Các lời cầu nguyện nhấn mạnh vai trò của Chúa Thánh Thần trong việc hướng dẫn Giáo hội và các tín hữu. Các linh mục cử hành Thánh lễ với lễ phục màu xanh, dâng hy lễ cho người sống và người chết.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed via the General Roman Calendar for 2027. No major feast conflicts with this Friday in Ordinary Time.",
+    "confidence_note_vi": "Đã xác nhận qua Lịch Phụng Vụ Rôma Chung năm 2027. Không có lễ lớn nào xung đột với Thứ Sáu này trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the Spirit, grow in faith.",
+    "hero_line_vi": "Bước theo Thần Khí, lớn lên trong đức tin.",
+    "prayer_prompt_en": "Ask the Holy Spirit for guidance in your daily actions this Friday.",
+    "prayer_prompt_vi": "Hãy cầu xin Chúa Thánh Thần hướng dẫn bạn trong các hành động hàng ngày của Thứ Sáu này."
+  },
+  "sources": [
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/11044a.htm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/070227.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-19",
+    "hebrew": "27 Sivan 5787",
+    "islamic_umm_al_qura": "27 Muharram 1449 AH",
+    "coptic": "25 Paona 1743",
+    "ethiopian": "25 Paona 1743"
+  }
+}

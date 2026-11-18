@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-27",
+  "date": "2027-02-27",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Feria in Ordinary Time",
+    "title_vi": "Ngày thường trong Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Feria in Ordinary Time",
+    "title_vi": "Ngày thường trong Mùa Thường Niên",
+    "summary_en": "February 27, 2027, falls on a Saturday in Ordinary Time. The liturgical color is green, signifying the standard period of the liturgical year where the Church celebrates the mystery of Christ in its fullness, particularly on Sundays and during the weeks of the week. There is no obligatory saint's feast or solemnity commemorated on this date in the General Roman Calendar.",
+    "summary_vi": "Ngày 27 tháng 2 năm 2027 rơi vào thứ Bảy trong Mùa Thường Niên. Màu phụng vụ là xanh lá, biểu tượng cho giai đoạn tiêu chuẩn của năm phụng vụ, nơi Giáo Hội cử hành mầu nhiệm của Đức Kitô cách trọn vẹn, đặc biệt vào các ngày Chúa nhật và các tuần trong tuần. Không có lễ thánh buộc hay lễ trọng nào được tưởng nhớ vào ngày này trong Lịch Phụng vụ Roma Chung.",
+    "body_en": "The celebration for this day focuses on the weekday readings and prayers prescribed for the current week in Ordinary Time. The faithful are encouraged to engage in personal prayer and reflection, adhering to the liturgical norms for a feria. While local calendars may have specific commemorations, the universal Church observes this day as part of the ongoing journey of faith during the ordinary seasons, emphasizing stability and growth in virtue.",
+    "body_vi": "Phụng vụ cho ngày này tập trung vào các bài đọc và lời nguyện được quy định cho tuần hiện tại trong Mùa Thường Niên. Tín hữu được khuyến khích cầu nguyện và suy gẫm cá nhân, tuân thủ các quy tắc phụng vụ dành cho ngày thường. Trong khi lịch địa phương có thể có những tưởng nhớ cụ thể, Giáo Hội hoàn vũ cử hành ngày này như một phần của hành trình đức tin liên tục trong các mùa phụng vụ thường niên, nhấn mạnh sự bền vững và tăng trưởng trong nhân đức.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date and liturgical season are determined by the current norms of the Roman Calendar for Ordinary Time.",
+    "confidence_note_vi": "Ngày và mùa phụng vụ được xác định theo các quy tắc hiện hành của Lịch Roma cho Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking steadily in faith during Ordinary Time.",
+    "hero_line_vi": "Bước đi vững chắc trong đức tin giữa Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, grant me the grace to remain steadfast in my daily duties, seeking Your presence in the ordinary moments of life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn kiên vững trong các bổn phận hàng ngày, tìm kiếm sự hiện diện của Ngài trong những khoảnh khắc bình thường của cuộc sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/022727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-14",
+    "hebrew": "20 Adar 5787",
+    "islamic_umm_al_qura": "20 Ramadan 1448 AH",
+    "coptic": "20 Amshir 1743",
+    "ethiopian": "20 Amshir 1743"
+  }
+}

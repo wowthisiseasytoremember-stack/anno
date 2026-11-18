@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-06-01",
+  "date": "2027-06-01",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Ninth Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần IX Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Ninth Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần IX Thường Niên",
+    "summary_en": "This day is a weekday in the Ordinary Time of the liturgical year, marked by the liturgical color green. The readings focus on growth in faith and the practical application of Christian virtue in daily life. It falls after the Easter Season and before the major festivals of mid-year.",
+    "summary_vi": "Ngày này là một ngày thường trong Mùa Thường Niên của năm phụng vụ, được đánh dấu bằng màu xanh lá cây. Các bài đọc tập trung vào sự tăng trưởng trong đức tin và việc áp dụng thực tế các nhân đức Kitô giáo trong cuộc sống hàng ngày. Nó rơi vào sau Mùa Phục Sinh và trước các lễ hội lớn giữa năm.",
+    "body_en": "In the General Roman Calendar, this Tuesday holds no specific rank as a solemnity, feast, or mandatory memorial. It serves as a time for the faithful to reflect on the continuity of their relationship with God amidst the routine of ordinary life. The liturgy encourages steady progress in holiness.",
+    "body_vi": "Trong Lịch Rôma Tổng Quát, Thứ Ba này không giữ chức vụ đặc biệt như lễ trọng, lễ kính hay lễ nhớ bắt buộc. Nó đóng vai trò là thời gian để các tín hữu suy ngẫm về sự liên tục trong mối tương quan của họ với Thiên Chúa giữa nhịp điệu của cuộc sống thường nhật. Phụng vụ khuyến khích sự tiến bộ vững chắc trong sự thánh thiện.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a standard weekday in Ordinary Time according to the General Roman Calendar.",
+    "confidence_note_vi": "Ngày này là một ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Rôma Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk steadily in the light of ordinary days.",
+    "hero_line_vi": "Bước đi vững vàng trong ánh sáng của những ngày thường.",
+    "prayer_prompt_en": "Lord, grant me the grace to see You in the mundane and to act with love in my daily duties.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn để thấy Chúa trong những điều tầm thường và hành động với tình yêu trong các bổn phận hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/060127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/04012a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican News Liturgy",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-19",
+    "hebrew": "25 Iyar 5787",
+    "islamic_umm_al_qura": "25 Dhu al-Hijjah 1448 AH",
+    "coptic": "24 Bashans 1743",
+    "ethiopian": "24 Bashans 1743"
+  }
+}

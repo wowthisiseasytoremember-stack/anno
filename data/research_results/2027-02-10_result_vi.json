@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Thường Niên",
+    "summary_vi": "Ngày này thuộc Tuần IV Mùa Thường Niên, đánh dấu giai đoạn tăng trưởng trong đời sống Giáo Hội sau mùa Giáng Sinh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và hành trình đức tin đang diễn tiến. Là một ngày thường nhật (feria), ngày này nhấn mạnh đến nhịp điệu thông thường của đời sống và lời cầu nguyện Kitô hữu.",
+    "body_vi": "Trong Lịch Rôma Tổng Quát, các ngày Thứ Tư trong Mùa Thường Niên không có lễ nhớ bắt buộc hay lễ trọng được cử hành như các ngày thường. Trọng tâm chuyển sang việc thánh hóa thời gian liên tục qua Phụng vụ Giờ Kinh và Thánh Lễ, nhắc nhở các tín hữu về lời mời gọi nên thánh trong đời sống hằng ngày.",
+    "confidence_note_vi": "Phép tính lịch xác nhận Thứ Tư Tuần IV Mùa Thường Niên. Không có lễ thánh nào có bậc cao hơn ngày này trong Lịch Rôma Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm sự Thánh thiện trong Điều Bình Dị",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong nhịp điệu thường nhật."
+  }
+}

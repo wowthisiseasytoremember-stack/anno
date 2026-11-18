@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-08",
+  "date": "2027-02-08",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần V Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần V Thường Niên",
+    "summary_en": "This day is a weekday in Ordinary Time, following the celebration of the Lord's Sunday. The liturgical focus remains on the growth of the Christian life and the teachings of Jesus as recorded in the Gospels. The color liturgical green signifies hope and the steady growth of the Church.",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, tiếp sau ngày Chúa Nhật. Trọng tâm phụng vụ vẫn là sự tăng trưởng đời sống Kitô hữu và những lời giáo huấn của Chúa Giêsu được ghi lại trong Tin Mừng. Màu sắc phụng vụ xanh lá cây biểu trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Hội Thánh.",
+    "body_en": "As a Feria in Ordinary Time, the Church does not celebrate a major feast or obligatory memorial. The readings for the day, which typically include passages from the Old Testament and the Gospel, guide the faithful in understanding the mystery of Christ. The Liturgy of the Hours and the Mass provide opportunities for personal and communal prayer, aligning the believer's life with the rhythm of the Church year.",
+    "body_vi": "Là ngày thường (Feria) trong Mùa Thường Niên, Hội Thánh không cử hành một lễ lớn hay lễ nhớ buộc. Các bài đọc trong ngày, thường bao gồm các đoạn từ Cựu Ước và Tin Mừng, hướng dẫn các tín hữu hiểu biết về mầu nhiệm Đức Kitô. Phụng vụ Kinh Nhật Tụng và Thánh Lễ cung cấp cơ hội cho lời cầu nguyện cá nhân và cộng đồng, đồng bộ hóa đời sống người tín hữu với nhịp điệu của năm phụng vụ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "No obligatory saint's feast falls on this date in the General Roman Calendar, making it a standard weekday of Ordinary Time.",
+    "confidence_note_vi": "Không có lễ thánh bắt buộc nào rơi vào ngày này trong Lịch Rôma Chung, do đó đây là ngày thường tiêu chuẩn của Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith during the quiet strength of Ordinary Time.",
+    "hero_line_vi": "Tăng trưởng trong đức tin qua sức mạnh tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me to grow in your grace and understand your word more deeply this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tăng trưởng trong ân sủng và hiểu biết Lời Chúa sâu xa hơn trong ngày này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/020827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Calendar of Saints",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-26",
+    "hebrew": "1 Adar 5787",
+    "islamic_umm_al_qura": "1 Ramadan 1448 AH",
+    "coptic": "1 Amshir 1743",
+    "ethiopian": "1 Amshir 1743"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-23",
+  "date": "2027-04-23",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "white",
+    "title_en": "Friday of the Third Week of Easter",
+    "title_vi": "Thứ Sáu Tuần Ba Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Third Week of Easter",
+    "title_vi": "Thứ Sáu Tuần Ba Mùa Phục Sinh",
+    "summary_en": "This day is a weekday of the Third Week of Easter. The liturgical focus remains on the mystery of the Resurrection and the mission of the Church. The color is white, symbolizing the joy of the Risen Christ.",
+    "summary_vi": "Ngày này là một ngày trong tuần của Tuần Ba Mùa Phục Sinh. Trọng tâm phụng vụ vẫn là mầu nhiệm Phục Sinh và sứ mạng của Giáo Hội. Màu sắc là trắng, tượng trưng cho niềm vui của Chúa Kitô Phục Sinh.",
+    "body_en": "The readings for Friday of the Third Week of Easter typically focus on the growth of the early Church and the continued witness of the Apostles. As a weekday, it shares the solemnity of the Sunday but lacks a specific unique saint that supersedes the paschal context. The prayer life of the Church continues to reflect on the post-Resurrection appearances and the commissioning of the disciples.",
+    "body_vi": "Các bài đọc của Thứ Sáu Tuần Ba Mùa Phục Sinh thường tập trung vào sự phát triển của Giáo Hội sơ khai và lời chứng tiếp tục của các Tông Đồ. Là một ngày trong tuần, ngày này chia sẻ sự trang trọng của Chúa Nhật nhưng không có một vị thánh cụ thể nào vượt lên trên bối cảnh Vượt Qua. Đời sống cầu nguyện của Giáo Hội tiếp tục suy tư về những lần hiện ra sau Phục Sinh và việc các môn đệ được sai đi.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard liturgical calendar for Ordinary Time/Easter Weekdays.",
+    "confidence_note_vi": "Lịch phụng vụ tiêu chuẩn cho các ngày trong tuần Mùa Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the Light of the Resurrection",
+    "hero_line_vi": "Bước đi trong Ánh Sáng Phục Sinh",
+    "prayer_prompt_en": "Ask for the courage to witness to the Risen Christ in your daily life.",
+    "prayer_prompt_vi": "Hãy xin ơn can đảm để làm chứng cho Chúa Kitô Phục Sinh trong cuộc sống hàng ngày của bạn."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/bible/readings/042327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-10",
+    "hebrew": "16 Nisan 5787",
+    "islamic_umm_al_qura": "16 Dhu al-Qidah 1448 AH",
+    "coptic": "15 Baramouda 1743",
+    "ethiopian": "15 Baramouda 1743"
+  }
+}

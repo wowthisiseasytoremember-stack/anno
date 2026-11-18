@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-09",
+  "date": "2027-03-09",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay",
+    "summary_en": "This day is a ferial day within the season of Lent. No specific saint is assigned a universal obligatory memorial, so the liturgical focus remains on the Lenten readings and prayers. The liturgical color is purple (or green if permitted in specific local contexts, though purple is standard for Lent).",
+    "summary_vi": "Đây là ngày trong tuần trong mùa Mùa Chay. Không có vị thánh nào được ấn định làm lễ nhớ bắt buộc phổ quát, nên trọng tâm phụng vụ vẫn là các bài đọc và lời nguyện của Mùa Chay. Màu sắc phụng vụ là tím (hoặc xanh lá nếu được phép trong một số bối cảnh địa phương cụ thể, mặc dù tím là tiêu chuẩn cho Mùa Chay).",
+    "body_en": "The liturgical texts for Tuesday of the Fourth Week of Lent emphasize conversion, fasting, and prayer. The readings typically continue the progressive revelation of God's mercy and the call to repentance, central themes of the Lenten season. As a feria, the priest celebrates Mass according to the weekday formularies of the Fourth Week of Lent.",
+    "body_vi": "Các văn bản phụng vụ cho Thứ Ba Tuần IV Mùa Chay nhấn mạnh vào sự hoán cải, ăn chay và cầu nguyện. Các bài đọc thường tiếp tục mặc khải tiến triển về lòng thương xót của Thiên Chúa và lời kêu gọi sám hối, những chủ đề trung tâm của mùa Mùa Chay. Là một ngày thường, linh mục cử hành Thánh lễ theo các công thức phụng vụ của Thứ Tư Tuần IV Mùa Chay.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard ferial day in the Ordinary Form of the Roman Rite during Lent.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Hình thức Thường xuyên của Nghi lễ Rôma trong Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_en": "Renewal through penance and prayer.",
+    "hero_line_vi": "Tái sinh qua thống hối và cầu nguyện.",
+    "prayer_prompt_en": "Lord, grant me the grace of sincere conversion and steadfast prayer.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng của sự hoán cải chân thành và cầu nguyện bền bỉ."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings Archive",
+      "url": "https://www.usccb.org/bible/readings/2027-03-09",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Daily Mass Readings",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-24",
+    "hebrew": "30 Adar 5787",
+    "islamic_umm_al_qura": "30 Ramadan 1448 AH",
+    "coptic": "30 Amshir 1743",
+    "ethiopian": "30 Amshir 1743"
+  }
+}

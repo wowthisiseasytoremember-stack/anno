@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Phục Sinh",
+    "summary_vi": "Ngày này rơi vào mùa Phục Sinh, tiếp nối việc cử hành mầu nhiệm Phục Sinh trong các ngày trong tuần Mùa Thường Niên. Không có lễ nhớ buộc cho ngày này, nên màu phụng vụ là xanh lục. Trọng tâm vẫn là mầu nhiệm Vượt Qua và sự tăng trưởng của cộng đoàn Kitô hữu.",
+    "body_vi": "Hội Thánh cầu nguyện với các Thánh vịnh của Tuần IV Mùa Phục Sinh, suy ngắm ánh sáng Phục Sinh. Không có lễ kính một vị thánh cụ thể, phụng vụ nhấn mạnh sự trung tín hàng ngày của tín hữu với Mầu nhiệm Vượt Qua.",
+    "confidence_note_vi": "Ngày trong tuần Tuần IV Mùa Phục Sinh theo Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng Phục Sinh.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con sống mỗi ngày như một chứng nhân của Tình Yêu Phục Sinh."
+  }
+}

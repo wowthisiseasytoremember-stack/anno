@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay",
+    "summary_vi": "Ngày này là ngày thường tuần IV Mùa Chay. Màu phụng vụ là tím, phản ánh tính chất sám hối của mùa này. Không có lễ trọng hay lễ kính nào bắt buộc được ấn định cho ngày này trong Lịch Phụng vụ Rôma.",
+    "body_vi": "Trọng tâm phụng vụ vẫn là sự hoán cải tâm hồn và việc chuẩn bị cho lễ Vượt Qua qua kinh nguyện, ăn chay và bố thí. Các bài đọc và lời nguyện trong ngày nhấn mạnh vào đức tin và sự mặc khải dần dần về sứ vụ thần linh của Đức Kitô.",
+    "confidence_note_vi": "Ngày rơi vào Thứ Ba tuần IV Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Trung Thành Trong Hoang Địa",
+    "prayer_prompt_vi": "Xin ban cho chúng con sức mạnh để bước đi trên con đường hoán cải."
+  }
+}

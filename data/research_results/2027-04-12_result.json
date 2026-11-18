@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-12",
+  "date": "2027-04-12",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday in the Second Week of Easter",
+    "title_vi": "Thứ Hai trong Tuần II Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday in the Second Week of Easter",
+    "title_vi": "Thứ Hai trong Tuần II Mùa Phục Sinh",
+    "summary_en": "This day falls within the Octave of Easter and the second week of Eastertide. The liturgical focus is on the Resurrection and its transformative effect on the faithful's daily life.",
+    "summary_vi": "Ngày này thuộc Tuần Bát Nhật Phục Sinh và Tuần II Mùa Phục Sinh. Trọng tâm phụng vụ là sự Phục Sinh và tác động biến đổi của nó trên đời sống hằng ngày của các tín hữu.",
+    "body_en": "In the Ordinary Form of the Roman Rite, Mondays during the Easter season are celebrated as ferias with the color green. The readings continue to reflect on the early Church's understanding of the Resurrection, inviting believers to live as witnesses to the Risen Christ.",
+    "body_vi": "Trong Hình thức Thông thường của Nghi lễ Rôma, các ngày thứ Hai trong Mùa Phục Sinh được cử hành như ngày thường với màu xanh lá cây. Các bài đọc tiếp tục phản ánh sự hiểu biết của Giáo hội sơ khai về Sự Phục Sinh, mời gọi các tín hữu sống như những chứng nhân cho Chúa Kitô Phục Sinh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed by the General Roman Calendar for the post-Vatican II period.",
+    "confidence_note_vi": "Xác nhận bởi Lịch Rôma Chung cho giai đoạn sau Công đồng Vatican II."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of the Resurrection.",
+    "hero_line_vi": "Hãy bước đi trong ánh sáng của Sự Phục Sinh.",
+    "prayer_prompt_en": "Ask for the grace to live your week as a witness to Christ's victory over death.",
+    "prayer_prompt_vi": "Hãy xin ơn để sống tuần lễ của mình như một chứng nhân cho chiến thắng của Chúa Kitô trên cái chết."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-30",
+    "hebrew": "5 Nisan 5787",
+    "islamic_umm_al_qura": "5 Dhu al-Qidah 1448 AH",
+    "coptic": "4 Baramouda 1743",
+    "ethiopian": "4 Baramouda 1743"
+  }
+}

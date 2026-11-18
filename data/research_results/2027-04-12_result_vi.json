@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai trong Tuần II Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai trong Tuần II Mùa Phục Sinh",
+    "summary_vi": "Ngày này thuộc Tuần Bát Nhật Phục Sinh và Tuần II Mùa Phục Sinh. Trọng tâm phụng vụ là sự Phục Sinh và tác động biến đổi của nó trên đời sống hằng ngày của các tín hữu.",
+    "body_vi": "Trong Hình thức Thông thường của Nghi lễ Rôma, các ngày thứ Hai trong Mùa Phục Sinh được cử hành như ngày thường với màu xanh lá cây. Các bài đọc tiếp tục phản ánh sự hiểu biết của Giáo hội sơ khai về Sự Phục Sinh, mời gọi các tín hữu sống như những chứng nhân cho Chúa Kitô Phục Sinh.",
+    "confidence_note_vi": "Xác nhận bởi Lịch Rôma Chung cho giai đoạn sau Công đồng Vatican II."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi trong ánh sáng của Sự Phục Sinh.",
+    "prayer_prompt_vi": "Hãy xin ơn để sống tuần lễ của mình như một chứng nhân cho chiến thắng của Chúa Kitô trên cái chết."
+  }
+}

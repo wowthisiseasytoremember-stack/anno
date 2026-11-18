@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật IV Mùa Chay (Chúa Nhật Laetare)"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật IV Mùa Chay (Chúa Nhật Laetare)",
+    "summary_vi": "Chúa Nhật này, còn gọi là Chúa Nhật Laetare (từ tiếng Latinh nghĩa là 'Hãy vui lên'), đánh dấu điểm giữa của Mùa Chay và mời gọi cộng đoàn vui mừng trong khi vẫn giữ tinh thần sám hối. Đây là một trong hai Chúa Nhật duy nhất trong Nghi thức Latinh cho phép sử dụng áo lễ màu hồng, tượng trưng cho sự nghỉ ngơi ngắn ngủi và lòng mong chờ niềm vui Phục Sinh sắp tới. Các bài đọc phụng vụ tập trung vào việc chữa lành người mù từ thuở mới sinh trong Tin Mừng Gioan, mời gọi các tín hữu nhìn bằng đôi mắt đức tin.",
+    "body_vi": "Chúa Nhật Laetare xen ngang sự nghiêm túc màu tím của Mùa Chay bằng một khoảng dừng cho niềm vui, phản ánh nguồn gốc lịch sử của từ này từ câu xướng nhập lễ 'Laetare, Ierusalem' (Hãy vui lên, hỡi Giêrusalem). Phụng vụ chuyển từ sám hối thuần túy sang suy niệm về ánh sáng của Chúa Kitô, đặc biệt qua trình thuật Tin Mừng về người mù từ thuở mới sinh. Mặc dù mùa này vẫn là mùa hoán cải, ngày này đóng vai trò như ngọn hải đăng hy vọng, nhắc nhở Hội Thánh rằng hành trình Mùa Chay dẫn trực tiếp đến việc cử hành biến cố Phục Sinh. Việc sử dụng áo lễ màu hồng là lời tuyên xưng trực quan về niềm vui trung gian này, khác biệt với màu trắng của lễ Phục Sinh nhưng sáng hơn màu tím của sám hối.",
+    "confidence_note_vi": "Xác định trong lịch Phụng vụ Thường Lệ; danh xưng 'Chúa Nhật IV Mùa Chay' và 'Laetare' được chấp nhận phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy vui lên: sa mạc lại nở hoa trong đức tin.",
+    "prayer_prompt_vi": "Xin Chúa Kitô, Ánh Sáng thế gian, mở mắt tâm hồn bạn để nhìn thấy sự hiện diện của Ngài trong những thử thách hằng ngày."
+  }
+}

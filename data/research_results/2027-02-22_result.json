@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-22",
+  "date": "2027-02-22",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the First Week of Lent",
+    "title_vi": "Thứ Hai Tuần I Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the First Week of Lent",
+    "title_vi": "Thứ Hai Tuần I Mùa Chay",
+    "summary_en": "This Monday marks the beginning of the penitential season of Lent within Ordinary Time. The liturgy focuses on prayer, fasting, and almsgiving, inviting the faithful to return to God with all their heart. The readings typically emphasize conversion and the importance of spiritual discipline during this holy season.",
+    "summary_vi": "Thứ Hai này đánh dấu sự khởi đầu của Mùa Chay thống hối trong Thời Gian Thường Niên. Phụng vụ tập trung vào cầu nguyện, ăn chay và bố thí, mời gọi các tín hữu quay trở về với Thiên Chúa hết lòng. Các bài đọc thường nhấn mạnh sự hoán cải và tầm quan trọng của kỷ luật thiêng liêng trong mùa thánh này.",
+    "body_en": "As the first Monday following Ash Wednesday, the Church calls the faithful to a deeper awareness of their dependence on divine grace. The liturgical color is violet, reflecting the penitential nature of the season. Prayers and readings guide believers toward genuine conversion, urging them to abandon worldly distractions and focus on the transformative power of the Gospel in their daily lives.",
+    "body_vi": "Là thứ Hai đầu tiên sau Thứ Tư Lễ Tro, Giáo hội kêu gọi các tín hữu nhận thức sâu sắc hơn về sự phụ thuộc của họ vào ân sủng của Thiên Chúa. Màu sắc phụng vụ là tím, phản ánh bản chất thống hối của mùa này. Lời nguyện và các bài đọc hướng dẫn người tin vào sự hoán cải chân thành, thúc giục họ từ bỏ những xao lãng trần tục và tập trung vào quyền năng biến đổi của Tin Mừng trong cuộc sống hàng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Fixed date in the General Roman Calendar as a weekday of Lent.",
+    "confidence_note_vi": "Ngày cố định trong Lịch Phụng vụ Roma với tư cách là ngày thường Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_en": "Begin the journey of Lent with a heart ready for conversion.",
+    "hero_line_vi": "Hãy bắt đầu hành trình Mùa Chay với con tim sẵn sàng hoán cải.",
+    "prayer_prompt_en": "Lord, grant me the spirit of repentance and humility as I walk this path with you.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con tinh thần sám hối và khiêm nhường khi con bước đi bên Ngài trên hành trình này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/022227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-09",
+    "hebrew": "15 Adar 5787",
+    "islamic_umm_al_qura": "15 Ramadan 1448 AH",
+    "coptic": "15 Amshir 1743",
+    "ethiopian": "15 Amshir 1743"
+  }
+}

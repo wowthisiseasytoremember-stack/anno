@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-02",
+  "date": "2027-04-02",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "red",
+    "title_en": "Good Friday (Passion of the Lord)",
+    "title_vi": "Thứ Sáu Tuần Thánh - Tưởng Niệm Cuộc Thương Khó Của Chúa"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Good Friday",
+    "title_vi": "Thứ Sáu Tuần Thánh",
+    "summary_en": "Good Friday is the day of the Lord's Passion, commemorating the suffering and death of Jesus Christ on Calvary. It is a day of solemn fasting and abstinence for all Catholics. The liturgy focuses on the Adoration of the Cross and the reading of the Passion according to John.",
+    "summary_vi": "Thứ Sáu Tuần Thánh là ngày tưởng niệm Cuộc Thương Khó, kỷ niệm cuộc khổ nạn và cái chết của Chúa Giêsu Kitô trên đồi Canvê. Đây là ngày ăn chay và kiêng thịt bắt buộc đối với tất cả các tín hữu Công giáo. Phụng vụ tập trung vào việc Suy Tôn Thánh Giá và đọc bài Thương Khó theo Tin Mừng Gioan.",
+    "body_en": "On Good Friday, the altar is stripped, and no Mass is celebrated; instead, the Liturgy of the Lord's Passion is held in the afternoon or evening. The faithful venerate the Cross, acknowledging it as the instrument of our salvation. The service concludes with Communion from hosts consecrated on Holy Thursday. It is the most solemn day of the Christian year apart from the Easter Vigil itself.",
+    "body_vi": "Trong ngày Thứ Sáu Tuần Thánh, bàn thờ được dọn sạch và không có Thánh lễ nào được cử hành; thay vào đó, Phụng vụ Cuộc Thương Khó Chúa được cử hành vào buổi chiều hoặc buổi tối. Cộng đoàn suy tôn Thánh Giá, nhìn nhận đó là khí cụ cứu độ của chúng ta. Nghi thức kết thúc bằng việc Rước Mình Thánh Chúa từ những hình bánh đã được truyền phép từ Thứ Năm Tuần Thánh. Đây là ngày long trọng nhất của năm phụng vụ, ngoại trừ Đêm Vọng Phục Sinh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Good Friday is a fixed moveable feast determined by the date of Easter. For 2027, Easter is April 4, making April 2 the correct Friday.",
+    "confidence_note_vi": "Thứ Sáu Tuần Thánh là lễ chuyển động cố định được xác định dựa trên ngày Phục Sinh. Năm 2027, lễ Phục Sinh rơi vào ngày 4 tháng 4, nên ngày 2 tháng 4 là Thứ Sáu Tuần Thánh chính xác."
+  },
+  "app_hooks": {
+    "hero_line_en": "Behold the wood of the Cross, on which hung the salvation of the world.",
+    "hero_line_vi": "Đây là Gỗ Thánh Giá, nơi treo Đấng Cứu Độ trần gian.",
+    "prayer_prompt_en": "Pray for the world, the Church, and the deceased as we enter the silence of the tomb.",
+    "prayer_prompt_vi": "Hãy cầu nguyện cho thế giới, Hội Thánh và các linh hồn đã qua đời khi chúng ta bước vào sự thinh lặng của mộ phần."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops - Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.holidays/",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-20",
+    "hebrew": "24 Adar II 5787",
+    "islamic_umm_al_qura": "24 Shawwal 1448 AH",
+    "coptic": "24 Baramhat 1743",
+    "ethiopian": "24 Baramhat 1743"
+  }
+}

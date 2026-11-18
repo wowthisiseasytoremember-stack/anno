@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần Thường Niên",
+    "summary_vi": "Ngày này được cử hành như một ngày thường trong Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của các tín hữu. Không có lễ kính buộc của các thánh nào thay thế các giờ kinh trong tuần, mặc dù một số lễ nhớ tùy chọn có thể được cử hành.",
+    "body_vi": "Vào ngày Thứ Hai này, Giáo hội mời gọi các tín hữu suy gẫm về nhịp điệu thường nhật của đời sống Kitô hữu. Các bài đọc và lời kinh từ Sách Bài Đọc và Phụng Vụ Giờ Kinh tập trung vào sự tăng trưởng thiêng liêng và việc thực hành đức hạnh hàng ngày. Vì không có lễ lớn nào được cử hành, nên trọng tâm vẫn là sự hoán cải liên lỉ của con tim đối với lời dạy của Chúa Kitô.",
+    "confidence_note_vi": "Dựa trên lịch phụng vụ năm 2027 của Nghi lễ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi nhẹ nhàng trong ánh sáng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong những khoảnh khắc nhỏ bé của ngày hôm nay."
+  }
+}

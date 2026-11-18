@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-04-15",
+  "date": "2027-04-15",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "white",
+    "title_en": "Thursday of the Third Week of Easter",
+    "title_vi": "Thứ Năm tuần 3 Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Third Week of Easter",
+    "title_vi": "Thứ Năm tuần 3 Mùa Phục Sinh",
+    "summary_en": "This day is a weekday within the Easter season, specifically the third week. There are no mandatory feasts or memorials of universal importance listed for this date in the General Roman Calendar, so the day is celebrated as a feria. The liturgical color is white, reflecting the joy of the Resurrection.",
+    "summary_vi": "Ngày này là một ngày trong tuần thuộc Mùa Phục Sinh, cụ thể là tuần thứ ba. Trong Lịch phụng vụ chung Rôma, không có ngày lễ hay lễ kính nào buộc trọng thể được liệt kê cho ngày này, nên ngày được cử hành như một ngày thường. Màu phụng vụ là màu trắng, phản ánh niềm vui của sự Phục Sinh.",
+    "body_en": "As a feria of the Easter season, the liturgy focuses on the ongoing mystery of the Resurrection and the teachings of the Lord. Since no specific saint or feast takes precedence, the priest uses the weekday texts from the Lectionary for the current week. The readings and prayers serve to deepen the faithful's understanding of the paschal mystery during the fifty days of Easter.",
+    "body_vi": "Là một ngày thường trong Mùa Phục Sinh, phụng vụ tập trung vào mầu nhiệm Phục Sinh đang diễn ra và những lời giáo huấn của Chúa. Vì không có vị thánh hay ngày lễ nào cụ thể chiếm ưu tiên, linh mục sử dụng các bản văn ngày thường trong Sách Bài Đọc cho tuần hiện tại. Các bài đọc và lời cầu nguyện phục vụ để làm sâu sắc thêm sự hiểu biết của các tín hữu về mầu nhiệm Vượt Qua trong năm mươi ngày Mùa Phục Sinh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The General Roman Calendar indicates no mandatory feast on this date, resulting in a standard feria. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Lịch phụng vụ chung Rôma chỉ ra rằng không có ngày lễ buộc nào vào ngày này, dẫn đến một ngày thường tiêu chuẩn. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of the Resurrection",
+    "hero_line_vi": "Bước đi trong ánh sáng Phục Sinh",
+    "prayer_prompt_en": "Lord, help us to live the joy of the Resurrection in our daily tasks.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con sống niềm vui Phục Sinh trong những công việc hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops - Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/041527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "reference"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-02",
+    "hebrew": "8 Nisan 5787",
+    "islamic_umm_al_qura": "8 Dhu al-Qidah 1448 AH",
+    "coptic": "7 Baramouda 1743",
+    "ethiopian": "7 Baramouda 1743"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-09",
+  "date": "2027-04-09",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Fifth Week of Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Fifth Week of Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần V Mùa Thường Niên",
+    "summary_en": "The Church celebrates the ordinary rhythm of the liturgical year in this week of Ordinary Time. The liturgical color is green, symbolizing hope and the growth of the faithful in virtue. This day invites the believer to reflect on the Gospel teachings and apply them to daily life through works of mercy and prayer.",
+    "summary_vi": "Giáo Hội cử hành nhịp điệu thông thường của năm phụng vụ trong tuần này thuộc Mùa Thường Niên. Màu sắc phụng vụ là màu xanh lá cây, biểu tượng cho niềm hy vọng và sự tăng trưởng nhân đức của các tín hữu. Ngày này mời gọi tín hữu suy gẫm các bài Tin Mừng và áp dụng vào đời sống hằng ngày qua các việc làm của lòng thương xót và cầu nguyện.",
+    "body_en": "On this Friday of the Fifth Week in Ordinary Time, the Church focuses on the steady growth of the Kingdom of God in the hearts of the faithful. The readings from the Fifth Week encourage patience and trust in Divine Providence, reminding us that spiritual maturity comes through consistent adherence to Christ's commands. This weekday serves as a reminder that holiness is found in the ordinary moments when we seek to love God and neighbor with sincerity and humility.",
+    "body_vi": "Trong Thứ Sáu Tuần V Mùa Thường Niên, Giáo Hội tập trung vào sự tăng trưởng đều đặn của Nước Thiên Chúa trong tâm hồn các tín hữu. Các bài đọc của Tuần V khuyến khích lòng kiên nhẫn và niềm tin vào Quan Phòng của Thiên Chúa, nhắc nhở chúng ta rằng sự trưởng thành tâm linh đến từ việc tuân thủ nhất quán các mệnh lệnh của Chúa Kitô. Ngày trong tuần này nhắc nhở rằng sự thánh thiện được tìm thấy trong những khoảnh khắc đời thường khi chúng ta tìm cách yêu mến Thiên Chúa và tha nhân với lòng chân thành và khiêm tốn.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date falls within Ordinary Time after the Octave of Easter; no major feast observed.",
+    "confidence_note_vi": "Ngày này thuộc Mùa Thường Niên sau Tuần Bát Nhật Phục Sinh; không có lễ trọng nào được cử hành."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in virtue through faithful prayer.",
+    "hero_line_vi": "Lớn lên trong nhân đức qua lời cầu nguyện trung thành.",
+    "prayer_prompt_en": "Lord, grant me the wisdom to see Your presence in my daily tasks.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khôn ngoan để nhận ra sự hiện diện của Chúa trong các công việc hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/040927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/11071a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-27",
+    "hebrew": "2 Nisan 5787",
+    "islamic_umm_al_qura": "2 Dhu al-Qidah 1448 AH",
+    "coptic": "1 Baramouda 1743",
+    "ethiopian": "1 Baramouda 1743"
+  }
+}

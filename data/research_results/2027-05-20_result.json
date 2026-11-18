@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-20",
+  "date": "2027-05-20",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần V Mùa Thường Niên",
+    "summary_en": "On this Thursday in the Fifth Week of Ordinary Time, the Church invites the faithful to a steady, unadorned witness in daily life. There are no obligatory feasts or celebrations recorded in the General Roman Calendar for this day. The focus remains on the ongoing growth of the Kingdom through ordinary acts of charity and prayer.",
+    "summary_vi": "Trong ngày Thứ Năm tuần V Mùa Thường Niên, Giáo hội mời gọi các tín hữu duy trì lời chứng vững vàng và giản dị trong đời sống hằng ngày. Không có lễ trọng hay lễ kính đặc biệt nào được ghi nhận trong Lịch Rôma Tổng Quát cho ngày này. Trọng tâm vẫn là sự tăng trưởng của Nước Trời qua những hành vi bác ái và cầu nguyện thường nhật.",
+    "body_en": "This day is part of the extended season of Ordinary Time, where the liturgy uses the color green to symbolize hope and growth. The readings for the Thursday of the Fifth Week, following the two-year cycle, offer a specific window into Scripture without the interruption of a major feast. The primary task of the day is personal sanctification within the routine of the world.",
+    "body_vi": "Ngày này thuộc Mùa Thường Niên kéo dài, trong đó phụng vụ sử dụng màu xanh lá cây để tượng trưng cho niềm hy vọng và sự tăng trưởng. Các bài đọc dành cho ngày Thứ Năm tuần V, theo chu kỳ hai năm, mang đến một cửa sổ đặc biệt để nhìn vào Kinh Thánh mà không bị gián đoạn bởi các lễ lớn. Nhiệm vụ chính yếu của ngày này là sự thánh hóa bản thân giữa những thói quen thường ngày của thế giới.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The General Roman Calendar lists this day as a feria unless a local calendar or a specific saint is celebrated locally; no universal feast is attached to this date in the standard 2027 calendar cycle.",
+    "confidence_note_vi": "Lịch Rôma Tổng Quát ghi nhận ngày này là ngày thường nếu không có lịch địa phương hay vị thánh nào được cử hành đặc biệt; không có lễ phổ quát nào gắn liền với ngày này trong chu kỳ lịch năm 2027 tiêu chuẩn."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faithfulness in the ordinary is the path to the extraordinary.",
+    "hero_line_vi": "Sự trung tín trong điều bình thường là con đường dẫn đến điều phi thường.",
+    "prayer_prompt_en": "Grant us, O Lord, the grace to serve You faithfully in the routine of our lives.",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng con ân sủng để trung thành phục vụ Ngài trong những thói quen của đời sống."
+  },
+  "sources": [
+    {
+      "label": "Catholic News Agency (CNA) - Calendar check",
+      "url": "https://www.catholicnewsagency.com/comm/feastday.php?d=20",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "United States Conference of Catholic Bishops - Daily Mass Readings",
+      "url": "https://www.usccb.org/bible/readings/052027.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-07",
+    "hebrew": "13 Iyar 5787",
+    "islamic_umm_al_qura": "13 Dhu al-Hijjah 1448 AH",
+    "coptic": "12 Bashans 1743",
+    "ethiopian": "12 Bashans 1743"
+  }
+}

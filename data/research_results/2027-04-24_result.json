@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-24",
+  "date": "2027-04-24",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the 5th Week of Easter",
+    "title_vi": "Thứ Bảy Tuần V Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the 5th Week of Easter",
+    "title_vi": "Thứ Bảy Tuần V Phục Sinh",
+    "summary_en": "On this day, the Church continues the liturgical season of Easter, focusing on the Lord's resurrection and the life of the new creation. As a feria of the 5th Week of Easter, the readings and prayers reflect the ongoing celebration of Paschal mystery. The liturgical color is green, signifying the time of growth and witness following the great joy of the Resurrection.",
+    "summary_vi": "Trong ngày này, Giáo Hội tiếp tục mùa phụng vụ Phục Sinh, tập trung vào sự sống lại của Chúa và đời sống của tạo vật mới. Là ngày thường của Tuần V Phục Sinh, các bài đọc và lời cầu nguyện phản ánh việc cử hành mầu nhiệm Vượt Qua đang tiếp diễn. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho thời gian tăng trưởng và làm chứng sau niềm vui lớn lao của sự Phục Sinh.",
+    "body_en": "The liturgical celebration on Saturday, April 24, 2027, falls within the Easter season, specifically in the fifth week. Although it is a weekday (feria), it retains the distinctive character of the Paschal season. The faithful are invited to reflect on the post-Resurrection appearances and the early life of the Church as recorded in the Acts of the Apostles, typically read during Eastertide. No major feast or memorial supersedes the weekday office in the General Roman Calendar for this specific date, making the liturgy of the hours and the Eucharistic readings from the Easter Lectionary the primary focus.",
+    "body_vi": "Buổi cử hành phụng vụ vào Thứ Bảy, ngày 24 tháng 4 năm 2027, rơi vào mùa Phục Sinh, cụ thể là tuần thứ năm. Mặc dù là một ngày thường, nó vẫn giữ đặc tính riêng biệt của mùa Vượt Qua. Các tín hữu được mời gọi suy niệm về những lần hiện ra sau Phục Sinh và đời sống sơ khai của Giáo Hội, thường được ghi trong sách Công Vụ Tông Đồ, thường được đọc trong mùa Phục Sinh. Không có lễ trọng hay lễ nhớ nào thay thế văn phòng ngày thường trong Lịch Phụng vụ Rôma cho ngày cụ thể này, do đó, các bài đọc của Giờ Kinh Phụng Vụ và các bài đọc Thánh Lễ từ Sách Bài Đọc Phục Sinh là trọng tâm chính.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a valid weekday in the Gregorian calendar, falling within the 5th Week of Easter in 2027. No saints' memorials are ranked higher than the weekday in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày là một ngày thường hợp lệ trong lịch Gregory, rơi vào Tuần V Phục Sinh năm 2027. Không có lễ nhớ các thánh nào được xếp hạng cao hơn ngày thường trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "In the light of the Risen Christ, we walk forward in hope and truth.",
+    "hero_line_vi": "Trong ánh sáng của Chúa Kitô Phục Sinh, chúng ta bước đi trong hy vọng và chân lý.",
+    "prayer_prompt_en": "Lord Jesus, Risen and Glorified, grant us the perseverance of the Apostles to witness to your Love in our daily lives this week.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu Phục Sinh và Vinh Quang, xin ban cho chúng ta sự kiên trì của các Tông Đồ để làm chứng cho Tình Yêu của Chúa trong cuộc sống hàng ngày của chúng ta trong tuần này."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops (USCCB) Calendar",
+      "url": "https://www.usccb.org/calendars/calendar-2027",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia and Liturgical Resources",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-11",
+    "hebrew": "17 Nisan 5787",
+    "islamic_umm_al_qura": "17 Dhu al-Qidah 1448 AH",
+    "coptic": "16 Baramouda 1743",
+    "ethiopian": "16 Baramouda 1743"
+  }
+}

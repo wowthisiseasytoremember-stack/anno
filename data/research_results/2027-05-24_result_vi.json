@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần VII Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần VII Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, cụ thể là Thứ Hai sau lễ Thăng Thiên hoặc lễ Ngũ Tuần tùy thuộc vào cách tính ngày chính xác năm 2027. Trọng tâm là việc áp dụng các bài học Tin Mừng vào cuộc sống hằng ngày khi không có lễ trọng. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin.",
+    "body_vi": "Là một ngày trong tuần Mùa Thường Niên, Giáo hội mời gọi các tín hữu suy ngẫm về sự phát triển vững chắc của đời sống Kitô hữu và việc hội nhập đức tin vào hành động hằng ngày. Khi không có lễ kính thánh nào ưu tiên (tuy nhiên, các lịch địa phương có thể khác nhau nhưng Lịch Rôma Chung quy định ngày này là ngày thường), phụng vụ nhấn mạnh vào lời mời gọi phổ quát hướng tới sự thánh thiện và hành trình môn đệ không ngừng. Các bài đọc thường tập trung vào những khía cạnh thực tế của việc sống các mối phúc và các việc làm từ bi.",
+    "confidence_note_vi": "Lịch Rôma Chung quy định ngày này là ngày thường trong Mùa Thường Niên, trừ khi có lễ kính địa phương cụ thể."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi khiêm nhường và tăng trưởng trong đức tin.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con sống ngày bình thường này với tình yêu phi thường."
+  }
+}

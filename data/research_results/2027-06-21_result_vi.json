@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần XII Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần XII Mùa Thường Niên",
+    "summary_vi": "Đây là ngày thường trong Mùa Thường Niên, được cử hành vào ngày 21 tháng 6 năm 2027. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự sống trong hành trình đức tin liên lỉ. Không có ngày lễ trọng thể hoặc lễ kính của thánh nào được chỉ định cụ thể cho ngày này trong Lịch Phụng vụ La Mã Chung, do đó trọng tâm là mầu nhiệm chung về đời sống của Chúa Kitô.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, Giáo hội mời gọi các tín hữu suy niệm về lời giáo huấn và các phép lạ của Chúa Giêsu như được trình bày trong các bài đọc Tin Mừng trong tuần. Áo lễ màu xanh lá cây nhắc nhở chúng ta về sự tăng trưởng của Nước Thiên Chúa trong tâm hồn chúng ta. Trong khi lịch phụng vụ địa phương có thể ghi nhớ các vị tử đạo cụ thể, quy luật chung tập trung vào sự hoán cải liên tục và việc áp dụng sứ điệp Tin Mừng vào đời sống hằng ngày.",
+    "confidence_note_vi": "Xác nhận là một ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch La Mã năm 1970 và các bản sửa đổi sau đó. Không có lễ kính chung nào thay thế ngày thường vào ngày 21 tháng 6."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hy Vọng Xanh Trong Những Ngày Thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của tuần này."
+  }
+}

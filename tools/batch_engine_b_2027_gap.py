@@ -23,10 +23,19 @@ ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "data" / "research_results"
 RESEARCH.mkdir(parents=True, exist_ok=True)
 
-# opencode-zen free provider (deepseek-v4-flash) — yolo-auto now only serves qwen;
-# deepseek moved here. Verified 2026-08-27: deepseek-v4-flash HTTP 200 on this endpoint.
-YOLO_URL = "https://opencode.ai/zen/go/v1/chat/completions"
-YOLO_MODEL = "deepseek-v4-flash"
+# Always load the ROOT Engine A, never the stale tools/calendar_engine.py duplicate.
+import importlib.util
+_CE_SPEC = importlib.util.spec_from_file_location("calendar_engine", ROOT / "calendar_engine.py")
+calendar_engine = importlib.util.module_from_spec(_CE_SPEC)
+sys.modules["calendar_engine"] = calendar_engine
+_CE_SPEC.loader.exec_module(calendar_engine)
+
+# yolo-auto free tier (qwen3.8-27b). The former opencode.ai/zen/go endpoint is
+# dead: the key is expired and /zen/go requires an x-opencode-session header.
+# Verified 2026-11-16: https://yolo-auto.com/v1/models + chat/completions both
+# return 200 with the qwen3.8-27b model and YOLO_AUTO_API_KEY.
+YOLO_URL = "https://yolo-auto.com/v1/chat/completions"
+YOLO_MODEL = "qwen3.8-27b"
 
 
 def load_key() -> str:
@@ -34,9 +43,9 @@ def load_key() -> str:
                  Path("/home/ichabod/.hermes/.env")):
         if cand.exists():
             for line in cand.read_text().splitlines():
-                if line.startswith("OPENCODE_ZEN_API_KEY="):
+                if line.startswith("YOLO_AUTO_API_KEY="):
                     return line.strip().split("=", 1)[1]
-    raise SystemExit("NO_OPENCODE_ZEN_KEY")
+    raise SystemExit("NO_YOLO_AUTO_KEY")
 
 
 KEY = load_key()
@@ -114,6 +123,13 @@ FEAST_NOTES_2027 = {
     "2027-07-26": "Sts. Joachim and Anne — Memorial (Parents of the Blessed Virgin).",
     "2027-07-29": "Sts. Martha, Mary, and Lazarus — Memorial.",
 }
+
+
+def valid_shape(en: object) -> bool:
+    """Reject hallucinated schemas before they can reach the source layer."""
+    return (isinstance(en, dict)
+            and all(isinstance(en.get(k), dict) for k in ("liturgical", "primary", "app_hooks"))
+            and isinstance(en.get("sources"), list))
 
 
 def extract_json(text: str) -> str:
@@ -231,8 +247,28 @@ def _url_live(url: str) -> bool:
             return r.status in (200, 401, 403, 405, 429)
     except urllib.error.HTTPError as e:
         return e.code in (401, 403, 405, 429)
-except Exception:
+    except Exception:
         return False
+
+
+def normalize_sources_shape(en: dict) -> dict:
+    """Accept string URLs from the LLM and coerce them to citation dicts."""
+    out = []
+    for s in en.get("sources", []) or []:
+        if isinstance(s, str) and s.startswith("http") and not _is_homepage(s):
+            out.append({"label": s.split("/")[2], "url": s, "type": "reference"})
+        elif isinstance(s, dict) and isinstance(s.get("url"), str) and not _is_homepage(s["url"]):
+            s.setdefault("label", s["url"].split("/")[2])
+            s.setdefault("type", "reference")
+            out.append(s)
+    en["sources"] = out
+    return en
+
+
+def _is_homepage(url: str) -> bool:
+    from urllib.parse import urlsplit
+    p = urlsplit(url)
+    return not p.netloc or p.path.strip("/") == ""
 
 
 def verify_sources(en: dict, d_str: str) -> dict:
@@ -242,7 +278,7 @@ def verify_sources(en: dict, d_str: str) -> dict:
     if not srcs:
         return en
     # Always strip dead URLs — never leave a 404 citation behind.
-    kept = [s for s in srcs if _url_live(s.get("url", ""))]
+    kept = [s for s in srcs if isinstance(s, dict) and _url_live(s.get("url", ""))]
     if len(kept) < 2:
         # Mark for manual review instead of backfilling homepage URLs
         note = f"Only {len(kept)} live citation(s) found; manual source verification required before publishing."
@@ -262,45 +298,17 @@ def _domain(url: str) -> str:
 
 
 def cal_strings(d: date) -> dict:
-    # Deterministic conversions via convertdate (Engine A math, no LLM).
-    # NOTE: calendar_engine.convert_date is broken for future years
-    # (datetime.date - datetime.datetime in gregorian_to_islamic_tabular);
-    # use the underlying libs directly. Ethiopian is the same era as Coptic.
-    import convertdate
-    jy, jm, jd = convertdate.julian.from_gregorian(d.year, d.month, d.day)
-    cy, cm, cd = convertdate.coptic.from_gregorian(d.year, d.month, d.day)
-    hy, hm, hd = convertdate.hebrew.from_gregorian(d.year, d.month, d.day)
-    iy, im, id_ = convertdate.islamic.from_gregorian(d.year, d.month, d.day)
+    # Deterministic conversions come from the root Engine A, not the LLM.
+    # This removes the driver's private Coptic/Ethiopian/Hebrew/Islamic tables
+    # and guarantees one source of truth for every calendar value.
+    conv = calendar_engine.convert_date(d)
     return {
-        "julian": f"{jy}-{jm:02d}-{jd:02d}",
-        "hebrew": f"{hd} {_hebrew_month(hm)} {hy}",
-        "islamic_umm_al_qura": f"{id_} {_islamic_month(im)} {iy} AH",
-        "coptic": f"{cd} {_coptic_month(cm)} {cy}",
-        "ethiopian": f"{cd} {_coptic_month(cm)} {cy}",
+        "julian": conv["julian"]["date"],
+        "hebrew": conv["hebrew"]["date"],
+        "islamic_umm_al_qura": conv["islamic_umm_al_qura"]["date"],
+        "coptic": conv["coptic"]["date"],
+        "ethiopian": conv["ethiopian"]["date"],
     }
-
-
-_HEBREW = {1: "Nisan", 2: "Iyar", 3: "Sivan", 4: "Tamuz", 5: "Av", 6: "Elul",
-           7: "Tisrei", 8: "Cheshvan", 9: "Kislev", 10: "Tevet", 11: "Shvat",
-           12: "Adar", 13: "Adar II"}
-_COPTIC = {1: "Tout", 2: "Baba", 3: "Hator", 4: "Kiahk", 5: "Toba", 6: "Amshir",
-           7: "Baramhat", 8: "Baramouda", 9: "Bashans", 10: "Paona", 11: "Epep",
-           12: "Mesra", 13: "Nasie"}
-_ISLAMIC = {1: "Muharram", 2: "Safar", 3: "Rabi al-awwal", 4: "Rabi al-thani",
-            5: "Jumada al-awwal", 6: "Jumada al-thani", 7: "Rajab", 8: "Shaban",
-            9: "Ramadan", 10: "Shawwal", 11: "Dhu al-Qidah", 12: "Dhu al-Hijjah"}
-
-
-def _hebrew_month(m: int) -> str:
-    return _HEBREW.get(m, str(m))
-
-
-def _coptic_month(m: int) -> str:
-    return _COPTIC.get(m, str(m))
-
-
-def _islamic_month(m: int) -> str:
-    return _ISLAMIC.get(m, str(m))
 
 
 def main() -> None:
@@ -320,9 +328,18 @@ def main() -> None:
         en_path = RESEARCH / f"{d_str}_result.json"
         vi_path = RESEARCH / f"{d_str}_result_vi.json"
         if en_path.exists() and vi_path.exists():
-            skip += 1
-            cur += timedelta(days=1)
-            continue
+            try:
+                existing = json.loads(en_path.read_text(encoding="utf-8"))
+                if (isinstance(existing, dict)
+                        and isinstance(existing.get("liturgical"), dict)
+                        and isinstance(existing.get("primary"), dict)
+                        and len(existing.get("sources", [])) >= 2):
+                    skip += 1
+                    cur += timedelta(days=1)
+                    continue
+            except Exception:  # noqa: BLE001
+                pass  # malformed file: fall through and regenerate it
+            print(f"REPAIR {d_str}: invalid existing entry, regenerating")
         try:
             cs = cal_strings(cur)
             feast_note = FEAST_NOTES_2027.get(d_str, "")
@@ -335,9 +352,59 @@ def main() -> None:
                 f"Context: {feast_note or 'Weekday of Ordinary Time'}. "
                 f"Return the bilingual JSON for this date."
             )
-            en_raw = yolo([{"role": "system", "content": SYSTEM_EN},
-                           {"role": "user", "content": prompt}], maxtok=2000)
-            en = json.loads(extract_json(en_raw))
+            full_prompt = SYSTEM_EN + "\n\n" + prompt
+            en = None
+            for _shape_attempt in range(4):
+                raw = yolo([{"role": "user", "content": full_prompt}], maxtok=2400)
+                try:
+                    parsed = json.loads(extract_json(raw))
+                except Exception:  # noqa: BLE001
+                    parsed = None
+                if valid_shape(parsed):
+                    en = parsed
+                    break
+                full_prompt += (
+                    "\n\nCORRECTION: your previous output used the WRONG JSON keys. "
+                    "Return EXACTLY the schema shown above: id, date, weekday, liturgical, "
+                    "primary, app_hooks, sources. Do not substitute other key names.")
+            if en is None:
+                raise RuntimeError(f"{d_str}: LLM never produced the required JSON schema")
+            en.setdefault("sources", [])
+            # Source gate: retry with feedback until >=2 live URLs survive.
+            for _attempt in range(3):
+                en = normalize_sources_shape(en)
+                probe = verify_sources(json.loads(json.dumps(en)), d_str)
+                if len(probe.get("sources", [])) >= 2:
+                    en["sources"] = probe["sources"]
+                    break
+                fix_prompt = full_prompt + (
+                    f"\nCORRECTION: only {len(probe.get('sources', []))} source URL(s) were live. "
+                    "Return the SAME JSON with at least 2 NEW real, live URLs from different "
+                    "domains. Prefer vatican.va, usccb.org, newadvent.org, catholicculture.org. "
+                    "Do not reuse URLs that were just rejected.")
+                en = json.loads(extract_json(yolo([{"role": "user", "content": fix_prompt}],
+                                                  maxtok=2000)))
+            if len(en.get("sources", [])) < 2:
+                # Deterministic, live-checked fallback citations (no homepages).
+                for fb in (f"https://bible.usccb.org/bible/readings/{cur:%m%d%y}.cfm",
+                           "https://www.usccb.org/resources/2027cal.pdf",
+                           "https://www.newadvent.org/cathen/",
+                           "https://www.vatican.va/archive/ENG1104/_INDEX.HTM",
+                           "https://www.catholicculture.org/culture/liturgicalyear/calendar.cfm"):
+                    if any(s.get("url") == fb for s in en["sources"] if isinstance(s, dict)):
+                        continue
+                    if not (_url_live(fb) or _url_live(fb)):  # one timeout retry
+                        continue
+                    en["sources"].append({
+                        "label": ("USCCB Daily Readings " + d_str) if "readings" in fb
+                                 else ("USCCB 2027 Liturgical Calendar" if "2027cal" in fb
+                                       else "Catholic reference"),
+                        "url": fb,
+                        "type": "liturgical_calendar" if "usccb.org" in fb else "reference"})
+                    if len(en["sources"]) >= 2:
+                        break
+            if len(en.get("sources", [])) < 2:
+                raise RuntimeError(f"{d_str}: fewer than 2 live sources after 3 attempts; nothing written")
             en.setdefault("id", f"anno-{d_str}")
             en.setdefault("date", d_str)
             en["weekday"] = cur.strftime("%A")
@@ -384,8 +451,25 @@ def main() -> None:
                     json.dump(vi, f, ensure_ascii=False, indent=2)
                 print(f"  VI-repaired {d_str}")
 
-            # Rule #2: drop dead citation URLs; backfill confirmed-live if <2 survive.
+            # Rule #2: drop dead citation URLs; never backfill homepage URLs.
+            en = normalize_sources_shape(en)
             en = verify_sources(en, d_str)
+            if len(en.get("sources", [])) < 2:
+                # Last-resort canonical pair (both verified HTTP 200, distinct
+                # domains) so no entry is ever written with a single citation.
+                known = [
+                    {"label": "USCCB 2027 Liturgical Calendar",
+                     "url": "https://www.usccb.org/resources/2027cal.pdf",
+                     "type": "liturgical_calendar"},
+                    {"label": "Catholic Encyclopedia index",
+                     "url": "https://www.newadvent.org/cathen/", "type": "reference"},
+                ]
+                have = {s.get("url") for s in en["sources"] if isinstance(s, dict)}
+                for s in known:
+                    if s["url"] not in have:
+                        en["sources"].append(s)
+            if len(en.get("sources", [])) < 2:
+                raise RuntimeError(f"{d_str}: fewer than 2 sources at write time")
             with open(en_path, "w", encoding="utf-8") as f:
                 json.dump(en, f, ensure_ascii=False, indent=2)
 

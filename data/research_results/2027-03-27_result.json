@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-27",
+  "date": "2027-03-27",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Fourth Week of Lent",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fourth Week of Lent",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Chay",
+    "summary_en": "This day is observed as a weekday in the Fourth Week of Lent. The liturgical readings focus on themes of conversion and the preparation for Easter. The liturgical color is purple, reflecting the penitential nature of the season.",
+    "summary_vi": "Ngày này được cử hành như ngày thường trong Tuần IV Mùa Chay. Các bài đọc phụng vụ tập trung vào các chủ đề hoán cải và chuẩn bị cho lễ Phục Sinh. Màu sắc phụng vụ là tím, phản ánh tính chất sám hối của mùa này.",
+    "body_en": "On Saturday of the Fourth Week of Lent, the Church continues its journey of penance and renewal through prayer, fasting, and almsgiving. The emphasis remains on interior conversion and listening to the Word of God, as the faithful prepare to celebrate the Paschal Mystery. No specific saint's memorial takes precedence over the Lenten weekday observance.",
+    "body_vi": "Vào Thứ Bảy Tuần IV Mùa Chay, Giáo Hội tiếp tục hành trình sám hối và canh tân qua kinh nguyện, chay tịnh và bố thí. Trọng tâm vẫn là sự hoán cải nội tâm và lắng nghe Lời Chúa, khi các tín hữu chuẩn bị cử hành Mầu Nhiệm Vượt Qua. Không có lễ kính thánh nào được ưu tiên hơn việc cử hành ngày thường Mùa Chay.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on the 1969 Roman Missal and current liturgical norms for Lenten weekdays.",
+    "confidence_note_vi": "Dựa trên Sách Lễ Rôma 1969 và các quy tắc phụng vụ hiện hành cho các ngày thường Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_en": "Prepare your heart for the Light.",
+    "hero_line_vi": "Chuẩn bị tâm hồn đón nhận Ánh Sáng.",
+    "prayer_prompt_en": "Lord, help us to remain steadfast in our Lenten disciplines.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con kiên vững trong các việc đạo đức Mùa Chay."
+  },
+  "sources": [
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/032727.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-14",
+    "hebrew": "18 Adar II 5787",
+    "islamic_umm_al_qura": "18 Shawwal 1448 AH",
+    "coptic": "18 Baramhat 1743",
+    "ethiopian": "18 Baramhat 1743"
+  }
+}

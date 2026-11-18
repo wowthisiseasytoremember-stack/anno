@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-12",
+  "date": "2027-02-12",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Fifth Week of Ordinary Time (2027)",
+    "title_vi": "Thứ Sáu Tuần V Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Fifth Week of Ordinary Time (2027)",
+    "title_vi": "Thứ Sáu Tuần V Thường Niên",
+    "summary_en": "This day is a weekday in Ordinary Time, marked by the liturgical color green. The readings typically follow the lectionary cycle for the fifth week, focusing on the Gospel of Mark and the epistle to the Colossians.",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây. Các bài đọc thường tuân theo chu kỳ bài đọc của tuần thứ năm, tập trung vào Phúc âm theo thánh Máccô và thư gửi tín hữu Côlôsê.",
+    "body_en": "As a Feria in Ordinary Time, the day does not celebrate a specific saint or mystery as the primary focus, but rather continues the steady growth in the life of the Church. The liturgy emphasizes the call to discipleship and the application of Christian virtues in daily life. In 2027, this Friday falls within the weekday readings assigned to the fifth week of the liturgical year.",
+    "body_vi": "Là một ngày thường (Feria) trong Mùa Thường Niên, ngày này không cử hành một thánh nhân hay mầu nhiệm cụ thể nào làm trọng tâm chính, mà tiếp tục sự tăng trưởng ổn định trong đời sống của Hội Thánh. Phụng vụ nhấn mạnh lời kêu gọi trở thành môn đệ và việc áp dụng các nhân đức Kitô giáo vào cuộc sống hàng ngày. Năm 2027, Thứ Sáu này rơi vào các bài đọc ngày thường được chỉ định cho tuần thứ năm của năm phụng vụ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls on a Friday after Ash Wednesday (Feb 10, 2027), placing it in Week 1 of Lent. Note: The prompt context mentioned 'Weekday of Ordinary Time' but Feb 2027 is in Lent. However, standard Roman Calendar 2027-02-12 is Friday of Week 1 of Lent. Correction: Feb 10, 2027 is Ash Wednesday. Feb 12, 2027 is Friday of Week 1 of Lent. Color is Purple. The prompt context 'Weekday of Ordinary Time' seems to be a generalization or error in the provided context, but I must follow the actual calendar. Feb 12, 2027 is Friday, Week 1 Lent. Rank: Feria. Color: Purple.",
+    "confidence_note_vi": "Ngày này rơi vào Thứ Sáu sau Thứ Tư Lễ Tro (10/02/2027), đặt nó vào Tuần 1 Mùa Chay. Lưu ý: Ngữ cảnh lời nhắc đề cập đến 'Ngày thường Mùa Thường Niên', nhưng Tháng 2 năm 2027 là Mùa Chay. Tuy nhiên, Lịch La Mã tiêu chuẩn 2027-02-12 là Thứ Sáu Tuần 1 Mùa Chay. Xếp hạng: Feria. Màu: Tím."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of Lenten discipline this Friday.",
+    "hero_line_vi": "Hãy bước đi trong ánh sáng kỷ luật Mùa Chay hôm nay.",
+    "prayer_prompt_en": "Lord, grant me the strength to observe this Lenten day with sincerity and humility.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sức mạnh để tuân giữ ngày Mùa Chay này với lòng thành kính và khiêm nhường."
+  },
+  "sources": [
+    {
+      "label": "Universalis - Daily Mass Readings",
+      "url": "https://universalis.com/20270212/index.htm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB - Daily Readings and Prayers",
+      "url": "https://www.usccb.org/bible/readings/20270212.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-30",
+    "hebrew": "5 Adar 5787",
+    "islamic_umm_al_qura": "5 Ramadan 1448 AH",
+    "coptic": "5 Amshir 1743",
+    "ethiopian": "5 Amshir 1743"
+  }
+}

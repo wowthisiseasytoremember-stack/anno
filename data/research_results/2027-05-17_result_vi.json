@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần V Mùa Thường Niên",
+    "summary_vi": "Ngày 17 tháng 5 năm 2027 được cử hành là Thứ Hai Tuần V Mùa Thường Niên theo Nghi thức Rôma. Đây là ngày trong tuần, mang màu xanh lá cây, biểu tượng cho niềm hy vọng của các tín hữu kitô hữu trong hành trình Mùa Thường Niên.",
+    "body_vi": "Trong Tuần V Mùa Thường Niên, Giáo Hội khuyến khích các tín hữu đào sâu sự hiểu biết về các bài Tin Mừng qua các bài đọc trong tuần, thường tập trung vào việc hình thành luân lý và áp dụng đức tin vào đời sống thực tế. Trọng tâm phụng vụ là sự hoán cải cá nhân và sự tăng trưởng bền vững của Nước Thiên Chúa trong tâm hồn dân chúng. Các bài đọc cho ngày Thứ Hai này có thể bao gồm các đoạn văn nhấn mạnh lòng thương xót, kinh nguyện và sự đáp trả lời kêu gọi của Thiên Chúa trong đời sống hàng ngày. Nghi thức cử hành này ít trọng thể hơn so với các lễ trọng và lễ kính, nhắc nhở về sự thánh thiện của thời gian thường nhật.",
+    "confidence_note_vi": "Ngày thường Mùa Thường Niên, xác nhận theo Lịch Phụng Vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước Đi trong Niềm Hy Vọng Mùa Thường Niên",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để lắng nghe Lời Chúa trong sự tĩnh lặng của đời sống hàng ngày."
+  }
+}

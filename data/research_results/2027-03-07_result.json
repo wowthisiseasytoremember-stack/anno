@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-07",
+  "date": "2027-03-07",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feast",
+    "color": "purple",
+    "title_en": "Third Sunday of Lent (Year B)",
+    "title_vi": "Chúa Nhật III Mùa Chay (Năm B)"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Third Sunday of Lent",
+    "title_vi": "Chúa Nhật III Mùa Chay",
+    "summary_en": "On this Sunday, the Church focuses on the encounter with the Samaritan woman and the purification of the Temple. It serves as a pivotal moment in Lent, urging the faithful to examine their hearts and deepen their faith through the Gospel narratives.",
+    "summary_vi": "Vào Chúa Nhật này, Giáo Hội tập trung vào cuộc gặp gỡ với người phụ nữ Samari và việc thanh tẩy Đền Thờ. Đây là khoảnh khắc then chốt trong Mùa Chay, thúc giục các tín hữu xét mình và đào sâu đức tin qua các trình thuật Tin Mừng.",
+    "body_en": "The readings for the Third Sunday of Lent invite believers to reflect on the true worship of God and the living water of faith. The Gospel of John presents the dialogue with the Samaritan woman, highlighting the necessity of worshipping in spirit and truth, while the First Reading and Psalm call for a heart open to God's law. This liturgical day emphasizes conversion, spiritual thirst, and the recognition of Jesus as the Messiah who fulfills the Law.",
+    "body_vi": "Các bài đọc Chúa Nhật III Mùa Chay mời gọi các tín hữu suy gẫm về việc thờ phượng Thiên Chúa đích thực và nước hằng sống của đức tin. Tin Mừng Gioan trình bày cuộc đối thoại với người phụ nữ Samari, làm nổi bật sự cần thiết của việc thờ phượng trong tinh thần và sự thật, trong khi Bài Đọc 1 và Thánh Vịnh kêu gọi một tâm hồn mở ra với luật Chúa. Ngày phụng vụ này nhấn mạnh sự hoán cải, cơn khát thiêng liêng và việc nhận ra Chúa Giêsu là Đấng Messiah kiện toàn Lề Luật.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on the 2018 Roman Missal and USCCB guidelines for Year B.",
+    "confidence_note_vi": "Dựa trên Sách Lễ Roma 2018 và hướng dẫn của USCCB cho Năm B."
+  },
+  "app_hooks": {
+    "hero_line_en": "Come to the Source of Living Water.",
+    "hero_line_vi": "Hãy đến với nguồn nước hằng sống.",
+    "prayer_prompt_en": "Lord, purify our hearts so that we may worship You in spirit and in truth.",
+    "prayer_prompt_vi": "Lạy Chúa, xin thanh tẩy tâm hồn chúng con để chúng con có thể thờ phượng Chúa trong tinh thần và chân lý."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Readings for 2027-03-07",
+      "url": "https://www.usccb.org/bible/readings/030727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican - Lectionary for Sundays in Lent",
+      "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-22",
+    "hebrew": "28 Adar 5787",
+    "islamic_umm_al_qura": "28 Ramadan 1448 AH",
+    "coptic": "28 Amshir 1743",
+    "ethiopian": "28 Amshir 1743"
+  }
+}

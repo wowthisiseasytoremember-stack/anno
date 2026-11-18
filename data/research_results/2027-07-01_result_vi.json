@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm trong Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm trong Mùa Thường Niên",
+    "summary_vi": "Thứ Năm này rơi vào Mùa Thường Niên, cụ thể là trong tuần thứ hai của chuỗi ngày trong tuần sau lễ Hiện Xuống. Là ngày trong tuần bậc hai, không có vị thánh hay lễ riêng nào được chỉ định trong lịch chung, nhấn mạnh sự thánh thiện thông thường của đời sống Kitô hữu hàng ngày. Màu phụng vụ là màu xanh lá cây, biểu tượng cho niềm hy vọng và sự tăng trưởng trong đức tin.",
+    "body_vi": "Trong ngày này, Giáo hội khuyến khích các tín hữu suy gẫm Lời Chúa theo quy định cho các bài đọc trong tuần của Mùa Thường Niên. Không bị gián đoạn bởi các lễ trọng, sự chú ý vẫn tập trung vào việc tích lũy ân sủng đều đặn qua cầu nguyện và các bí tích. Đây là thời gian cho sự phân định cá nhân và duy trì kỷ luật tâm linh giữa nhịp điệu thường nhật của thế giới.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Ân sủng: Sẵn sàng đón nhận điều bình thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong những công việc bình thường của Thứ Năm này."
+  }
+}

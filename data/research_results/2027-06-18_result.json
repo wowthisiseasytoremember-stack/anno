@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-18",
+  "date": "2027-06-18",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time",
+    "title_vi": "Thứ Sáu Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time",
+    "title_vi": "Thứ Sáu Mùa Thường Niên",
+    "summary_en": "The Church observes a standard weekday in Ordinary Time. The focus is on sanctification through daily life, prayer, and adherence to the Lord's commandments, with readings drawn from the ongoing Old Testament and Gospel cycles.",
+    "summary_vi": "Hội Thánh cử hành một ngày thường trong Mùa Thường Niên. Trọng tâm là việc thánh hóa qua đời sống hằng ngày, cầu nguyện và tuân giữ các huấn lệnh của Chúa, với các bài đọc nằm trong chu kỳ đang tiến hành của sách Old Testament và Tin Mừng.",
+    "body_en": "This day is designated as a feria in the liturgical calendar of the Roman Rite. There are no obligatory feasts of saints or solemnities that displace the weekday office. The liturgical color is green, symbolizing hope and life. The readings are selected from the weekday lectionary cycle (typically the ferial readings from Week 11 of Ordinary Time, unless interrupted by a higher rank feast).",
+    "body_vi": "Ngày này được xác định là ngày thường (feria) trong lịch phụng vụ của Nghi lễ Rôma. Không có lễ kính hoặc lễ trọng buộc của các thánh thay thế cho giờ kinh nhật khóa của ngày thường. Màu sắc phụng vụ là màu xanh lá cây, biểu tượng của niềm hy vọng và sự sống. Các bài đọc được chọn từ chu kỳ bài đọc ngày thường (thường là các bài đọc ngày thường từ Tuần 11 Mùa Thường Niên, trừ khi bị gián đoạn bởi một lễ kính có thứ hạng cao hơn).",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on the General Roman Calendar (1969 revision) rules for weekdays in Ordinary Time.",
+    "confidence_note_vi": "Dựa trên các quy tắc của Lịch Phụng vụ Rôma Tổng quát (bản sửa đổi 1969) cho các ngày thường trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the Spirit, walk in Hope.",
+    "hero_line_vi": "Bước đi trong Thánh Thần, bước đi trong Hy Vọng.",
+    "prayer_prompt_en": "Lord, grant me the grace to live this day faithfully to Your will.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn sủng để sống ngày này trung thành với ý Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/061827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "General Roman Calendar (Vatican)",
+      "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-05",
+    "hebrew": "13 Sivan 5787",
+    "islamic_umm_al_qura": "13 Muharram 1449 AH",
+    "coptic": "11 Paona 1743",
+    "ethiopian": "11 Paona 1743"
+  }
+}

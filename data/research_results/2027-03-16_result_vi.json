@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay",
+    "summary_vi": "Ngày này rơi vào tuần thứ tư của Mùa Chay, thời gian sám hối và chuẩn bị cho lễ Phục Sinh. Màu phụng vụ là tím, tượng trưng cho sự sám hối và khiêm nhường. Các bài đọc tập trung vào sự hoán cải và lòng thương xót của Thiên Chúa.",
+    "body_vi": "Khi Giáo Hội đi sâu hơn vào mầu nhiệm Vượt Qua của Chúa Kitô, Thứ Ba Tuần IV Mùa Chay mời gọi các tín hữu xét lại tâm hồn mình. Bài Phúc Âm thường phản ánh hành trình đức tin, thúc đẩy người tin cậy vào sự quan phòng của Thiên Chúa giữa những thử thách. Đây là ngày để suy niệm thinh lặng, cầu nguyện và thực hành bác ái, phù hợp với tinh thần sám hối của mùa này.",
+    "confidence_note_vi": "Ngày này là ngày thường trong Mùa Thường Niên hoặc Mùa Chay tùy theo năm; năm 2027, ngày 16 tháng 3 thuộc Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi khiêm tốn cùng Thiên Chúa trong mùa thánh này.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để con sám hối sâu xa và trở về với Chúa hết lòng."
+  }
+}

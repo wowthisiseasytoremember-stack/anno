@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật I Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật I Mùa Chay",
+    "summary_vi": "Chúa Nhật I Mùa Chay khai mạc mùa chay thánh bốn mươi ngày dẫn tới lễ Phục Sinh. Trọng tâm là mầu nhiệm Chúa Giêsu chịu cám dỗ trong sa mạc và sự khởi đầu của việc hoán cải tâm hồn. Màu phụng vụ là tím, tượng trưng cho sự sám hối và niềm hy vọng. Không có thánh nào được kính trừ khi trùng với lễ trọng hay lễ kính.",
+    "body_vi": "Trong Chúa Nhật I Mùa Chay này, Giáo Hội bước vào sa mạc hoán cải cùng với Chúa Kitô. Bài đọc thường kể lại cuộc xuất hành của Israel và chiến thắng của Chúa Giêsu trên Satan, mời gọi các tín hữu đổi mới lời hứa rửa tội. Đây là thời gian để gia tăng cầu nguyện, ăn chay và bố thí.",
+    "confidence_note_vi": "Ngày phụng vụ được xác nhận bởi Lịch Phụng vụ Rôma năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước vào sa mạc cùng Chúa Kitô để đổi mới tâm hồn.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sức mạnh để chay tội lỗi và tiệc Lời Chúa."
+  }
+}

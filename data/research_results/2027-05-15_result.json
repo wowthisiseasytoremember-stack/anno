@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-15",
+  "date": "2027-05-15",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Sixth Week of Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần VI Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Sixth Week of Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần VI Thường Niên",
+    "summary_en": "This is a standard weekday (feria) in Ordinary Time, marked by the color green. The liturgical focus is on the continuous growth of the faithful in the life of the Church, outside of specific feast cycles.",
+    "summary_vi": "Đây là ngày thường (feria) trong Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây. Trọng tâm phụng vụ là sự tăng trưởng liên lỷ của các tín hữu trong đời sống của Giáo Hội, ngoài các chu kỳ lễ trọng.",
+    "body_en": "As a Saturday in Ordinary Time, the liturgy follows the weekday propers unless a higher-ranked feast intervenes. The readings from the Lectionary continue their sequential progression, inviting the faithful to deepen their understanding of Scripture. The green vestments symbolize hope and the steady growth of the Christian life.",
+    "body_vi": "Là một ngày Thứ Bảy trong Mùa Thường Niên, phụng vụ tuân theo các bài đọc riêng cho ngày thường trừ khi có một lễ cao cấp hơn xen vào. Các bài đọc từ Sách Bài Đọc tiếp tục tiến trình tuần tự, mời gọi các tín hữu đào sâu sự hiểu biết về Kinh Thánh. Màu xanh lá cây của áo lễ tượng trưng cho niềm hy vọng và sự tăng trưởng ổn định của đời sống Kitô hữu.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday of Ordinary Time according to the General Roman Calendar.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn của Mùa Thường Niên theo Lịch Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growth in the Ordinary",
+    "hero_line_vi": "Tăng trưởng trong điều thường nhật",
+    "prayer_prompt_en": "Lord, help me find You in the daily rhythm of life.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con tìm thấy Ngài trong nhịp sống thường ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-02",
+    "hebrew": "8 Iyar 5787",
+    "islamic_umm_al_qura": "8 Dhu al-Hijjah 1448 AH",
+    "coptic": "7 Bashans 1743",
+    "ethiopian": "7 Bashans 1743"
+  }
+}

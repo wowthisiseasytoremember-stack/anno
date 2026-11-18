@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Đức Chúa Giêsu Lên Trời"
+  },
+  "primary": {
+    "title_vi": "Lễ Đức Chúa Giêsu Lên Trời",
+    "summary_vi": "Lễ Đức Chúa Giêsu Lên Trời đánh dấu lần hiện ra cuối cùng của Chúa Kitô Phục Sinh trên trần gian trước khi Người lên trời. Đây là ngày thứ bốn mươi sau lễ Vượt Qua, cử hành sự tôn vinh nhân tính của Chúa Kitô bên hữu Chúa Cha. Lễ này nhấn mạnh quyền bính tối cao của Chúa Kitô và sứ mạng của Hội Thánh trên trần gian.",
+    "body_vi": "Lễ Đức Chúa Giêsu Lên Trời tưởng nhớ biến cố khi Chúa Kitô, bốn mươi ngày sau khi sống lại, được cất nhắc lên trời để ngự bên hữu Thiên Chúa Cha. Lễ này không chỉ là sự chia lìa mà là sự tôn vinh, biểu thị rằng Chúa Kitô, trong nhân tính của Người, đã bước vào cung thánh thiên giới. Đây là ngày vui mừng và hy vọng, đánh dấu khởi đầu sứ mạng loan báo Tin Mừng của Hội Thánh cho đến tận cùng thế giới.",
+    "confidence_note_vi": "Lễ Đức Chúa Giêsu Lên Trời là ngày cố định trong Lịch Phụng vụ Rôma, luôn rơi vào ngày thứ 40 sau lễ Vượt Qua."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Người lên trời, đang ngự bên hữu Chúa Cha.",
+    "prayer_prompt_vi": "Lạy Chúa, xin nâng tâm hồn và trí lòng chúng con hướng về Giêrusalem thiên quốc, nơi Chúa đang ngự trong vinh quang."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần IV Mùa Thường Niên",
+    "summary_vi": "Thứ Bảy này nằm trong Mùa Thường Niên, cụ thể là tuần thứ tư. Đây là ngày thường (feria) với màu phụng vụ xanh lá cây, biểu tượng cho sự tăng trưởng và hành trình đức tin của Hội Thánh. Trọng tâm là việc áp dụng ổn định các lời dạy Tin Mừng đã lắng nghe trong tuần.",
+    "body_vi": "Vào Thứ Bảy này, Hội Thánh mời gọi các tín hữu suy ngẫm về những lời dạy của Tin Mừng, thường là từ Tin Mừng theo Thánh Maccô trong chu kỳ hiện tại. Đây là ngày để chiêm niệm tĩnh lặng và chuẩn bị cho Chúa Nhật, duy trì nhịp điệu cầu nguyện và học hỏi đã được thiết lập trong tuần. Áo lễ xanh lá nhắc nhở chúng ta rằng Mùa Thường Niên không phải là thời gian 'trống rỗng', nhưng là thời gian được lấp đầy bởi sự hiện diện của Chúa Kitô trong những khía cạnh bình thường của cuộc sống.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Trung tín trong điều bình thường",
+    "prayer_prompt_vi": "Xin ơn để nhìn thấy Chúa Kitô trong những công việc hằng ngày của bạn."
+  }
+}

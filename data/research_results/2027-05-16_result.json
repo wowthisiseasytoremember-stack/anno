@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-16",
+  "date": "2027-05-16",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Seventh Sunday of Easter",
+    "title_vi": "Chúa nhật VII Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Seventh Sunday of Easter",
+    "title_vi": "Chúa nhật VII Phục Sinh",
+    "summary_en": "The Seventh Sunday of Easter serves as the final Sunday of the Easter season, a time dedicated to prayer and waiting for the Holy Spirit, following the ascension of Christ. The liturgy focuses on the prayer of Jesus for his disciples, emphasizing their unity and mission in the world. It acts as a bridge to Pentecost, inviting the faithful to remain in the light of the Resurrection while awaiting the coming of the Spirit.",
+    "summary_vi": "Chúa nhật VII Phục Sinh là Chúa nhật cuối cùng của mùa Phục Sinh, thời gian cầu nguyện và chờ đợi Chúa Thánh Thần sau khi Chúa Giêsu lên trời. Phụng vụ tập trung vào lời cầu nguyện của Chúa Giêsu cho các môn đệ, nhấn mạnh sự hiệp nhất và sứ mạng của họ trong thế gian. Ngày này đóng vai trò cầu nối hướng tới Lễ Ngũ Tuần, mời gọi các tín hữu sống trong ánh sáng Phục Sinh trong khi chờ đợi sự hiện đến của Thần Khí.",
+    "body_en": "In the liturgical reading of the Gospel of John 17:1-11, Jesus raises his eyes to heaven and prays for the glorification of the Father and the preservation of his disciples in truth. This Sunday highlights the transition from Jesus' physical presence to the spiritual presence through the Holy Spirit, which will be fully manifested at Pentecost. The color white remains appropriate as the festive joy of the Resurrection continues, urging the community to live out the unity and love that characterize the Body of Christ. The faithful are called to be witnesses of the Resurrection, holding fast to the Word of God in a challenging world.",
+    "body_vi": "Trong bài Tin Mừng theo thánh Gioan 17:1-11, Chúa Giêsu ngước mắt lên trời và cầu nguyện xin Cha tôn vinh Con và xin giữ gìn các môn đệ trong chân lý. Chúa nhật này làm nổi bật sự chuyển tiếp từ sự hiện diện thể lý của Chúa Giêsu sang sự hiện diện thần linh qua Chúa Thánh Thần, sẽ được thể hiện trọn vẹn trong Lễ Ngũ Tuần. Màu trắng vẫn thích hợp vì niềm vui Phục Sinh tiếp tục kéo dài, thúc đẩy cộng đoàn sống sự hiệp nhất và tình yêu đặc trưng của Thân Thể Đức Kitô. Các tín hữu được mời gọi trở thành chứng nhân của sự Phục Sinh, bám chặt vào Lời Chúa trong một thế giới đầy thách thức.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed as the Seventh Sunday of Easter in the Ordinary Form of the Roman Rite for the year 2027.",
+    "confidence_note_vi": "Được xác nhận là Chúa nhật VII Phục Sinh trong Hình thức Thông thường của Nghi lễ La Mã năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Wait in prayer for the Spirit.",
+    "hero_line_vi": "Chờ đợi trong lời cầu nguyện với Thần Khí.",
+    "prayer_prompt_en": "Pray for unity among all believers, just as Jesus prayed for his disciples.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự hiệp nhất giữa các tín hữu, như Chúa Giêsu đã cầu nguyện cho các môn đệ."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops",
+      "url": "https://www.usccb.org/bible/readings/051627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-03",
+    "hebrew": "9 Iyar 5787",
+    "islamic_umm_al_qura": "9 Dhu al-Hijjah 1448 AH",
+    "coptic": "8 Bashans 1743",
+    "ethiopian": "8 Bashans 1743"
+  }
+}

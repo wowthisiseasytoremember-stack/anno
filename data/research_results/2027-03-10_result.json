@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-10",
+  "date": "2027-03-10",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Tư tuần V Thường niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Tư tuần V Thường niên",
+    "summary_en": "This is a weekday during the Ordinary Time season, marked by the liturgical color green. The focus is on the progression of faith in daily life as part of the secular cycle of the Church year. No specific saint or major feast is mandated as the primary focus for this date in the General Roman Calendar.",
+    "summary_vi": "Đây là một ngày trong tuần thuộc Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây phụng vụ. Trọng tâm là sự tiến triển của đức tin trong đời sống hằng ngày theo chu kỳ thường niên của Giáo hội. Không có vị thánh hay lễ kính đặc biệt nào được chỉ định làm nội dung chính cho ngày này trong Lịch Rôma Chung.",
+    "body_en": "As a feria in Ordinary Time, the liturgy emphasizes the teachings of Christ and the application of Gospel values to everyday circumstances. The readings and prayers are drawn from the weekly cycle of the Lectionary for Ordinary Time. The faithful are called to reflect on their personal conversion and commitment to the Christian life amidst the routine of the week.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, phụng vụ nhấn mạnh vào giáo huấn của Chúa Kitô và việc áp dụng các giá trị Tin Mừng vào hoàn cảnh hằng ngày. Các bài đọc và lời cầu nguyện được lấy từ chu kỳ tuần lễ của Sách Bài Đọc Mùa Thường Niên. Tín hữu được mời gọi suy ngẫm về sự hoán cải cá nhân và cam kết với đời sống Kitô giáo giữa những thói quen thường nhật.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confidence high as the date falls within the standard cycle of Ordinary Time in the post-1969 General Roman Calendar, with no major saints displacing the weekday.",
+    "confidence_note_vi": "Độ tin cậy cao vì ngày này rơi vào chu kỳ tiêu chuẩn của Mùa Thường Niên trong Lịch Rôma Chung sau năm 1969, không có vị thánh lớn nào thay thế ngày thường."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the quiet faithfulness of Ordinary Time.",
+    "hero_line_vi": "Bước đi trong sự trung tín thầm lặng của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me find You in the ordinary moments of today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong những khoảnh khắc bình thường của hôm nay."
+  },
+  "sources": [
+    {
+      "label": "Vatican News - Daily Mass Readings",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB - Daily Gospel Reflections",
+      "url": "https://www.usccb.org/bible/readings",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-25",
+    "hebrew": "1 Adar II 5787",
+    "islamic_umm_al_qura": "1 Shawwal 1448 AH",
+    "coptic": "1 Baramhat 1743",
+    "ethiopian": "1 Baramhat 1743"
+  }
+}

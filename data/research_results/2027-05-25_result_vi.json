@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần VII Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần VII Mùa Thường Niên",
+    "summary_vi": "Thứ Ba này là ngày thường nhật trong Mùa Thường Niên, thuộc tuần thứ bảy, rơi vào khoảng thời gian ngắn trước Lễ Thăng Thiên. Các bài đọc trong ngày thường tập trung vào sự kiên trì của Hội Thánh và sự tăng trưởng liên tục của cộng đoàn Kitô hữu sơ khai được ghi lại trong sách Công Vụ Tông Đồ. Các đoạn Tin Mừng tiếp tục suy tư về những lời dạy của Chúa Giêsu liên quan đến đức tin, sự khiêm nhường, và thái độ đúng đắn của tâm hồn khi cầu nguyện.",
+    "body_vi": "Là một ngày thường nhật trong Mùa Thường Niên, ngày này mời gọi các tín hữu hòa nhập các mầu nhiệm trong cuộc đời Chúa Kitô vào thói quen hàng ngày của họ. Màu sắc phụng vụ là màu xanh lá cây, biểu tượng cho niềm hy vọng và sự phát triển vững chắc của Hội Thánh. Trừ khi một vị thánh có bậc lễ cao hơn được cử hành cách riêng trong lịch địa phương, lịch phụng vụ chung quy định các bài đọc cho Thứ Ba Tuần VII. Trọng tâm vẫn là sứ vụ liên lụy của các môn đệ trong việc loan báo Tin Mừng đến tận cùng trái đất, nhấn mạnh vào sự kiên nhẫn và tin tưởng vào thời điểm của Thiên Chúa.",
+    "confidence_note_vi": "Ngày thường nhật tiêu chuẩn trong Lịch Phụng vụ Rôma cho ngày này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Vững Vàng trong Đức Tin, Nảy Mỉm trong Ân Sủng",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn để tăng trưởng trong nhân đức và sức mạnh để trung tín trong những khoảnh khắc tĩnh lặng của cuộc sống hàng ngày."
+  }
+}

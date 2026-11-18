@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Thường Niên",
+    "summary_vi": "Ngày phụng vụ là Thứ Sáu tuần Thường Niên, cử hành với lễ phục màu xanh. Các bài đọc thường tập trung vào Phúc Âm Maccô và các Thư Thánh, nhấn mạnh sự hoán cải và khiêm nhường. Không có lễ nhớ buộc cho một vị thánh cụ thể vào ngày này trong Lịch Phụng Vụ Rôma.",
+    "body_vi": "Là một ngày thường trong mùa Thường Niên, Hội Thánh khuyến khích cầu nguyện cho hòa bình và các tín hữu đã qua đời, cùng với lòng đạo đức cá nhân và suy niệm Lời Chúa. Phụng vụ mời gọi các tín hữu sống Phúc Âm trong đời sống hằng ngày, suy tư về giáo huấn của Đức Kitô qua chu kỳ bài đọc tuần lễ.",
+    "confidence_note_vi": "Ngày thường tuần Thường Niên tiêu chuẩn, không có lễ lớn phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sống Phúc Âm Hôm Nay",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe Lời Chúa và thi hành trong đời sống hằng ngày. Amen."
+  }
+}

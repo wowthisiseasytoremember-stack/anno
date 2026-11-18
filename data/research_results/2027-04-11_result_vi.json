@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật II Mùa Phục Sinh (Lòng Chúa Thương Xót)"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật II Mùa Phục Sinh (Lòng Chúa Thương Xót)",
+    "summary_vi": "Chúa Nhật II Mùa Phục Sinh được cử hành là Chúa Nhật Lòng Chúa Thương Xót, một truyền thống do Thánh Gioan Phaolô II thiết lập. Trọng tâm phụng vụ là cuộc hiện ra của Chúa Giêsu Phục Sinh với các môn đệ và cuộc gặp gỡ với Tôma, nhấn mạnh các chủ đề về đức tin và lòng thương xót của Thiên Chúa.",
+    "body_vi": "Bài Tin Mừng cho ngày này, thường là Gioan 20:19-31, kể lại cuộc hiện ra của Chúa Giêsu với các môn đệ sau cánh cửa đóng kín và cuộc đối thoại với Tôma, người đòi hỏi bằng chứng vật lý về sự Phục Sinh. Lời chúc bình an của Chúa Giêsu và lời mời chạm vào các vết thương của Ngài làm nổi bật thực tại của Mầu nhiệm Nhập Thể và chiều sâu của Lòng Thương Xót Chúa. Phụng vụ mời gọi các tín hữu đi từ sự nghi ngờ của Tôma đến đức tin sâu sắc được thể hiện qua lời tuyên xưng: 'Lạy Chúa con là Chúa và là Thiên Chúa của con', qua đó cử hành lòng thương xót tuôn tràn từ mầu nhiệm Vượt Qua.",
+    "confidence_note_vi": "Chúa Nhật Lòng Chúa Thương Xót là một lễ trọng đã được xác nhận trong Lịch Rôma Chung kể từ năm 2000."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Phúc cho những ai không thấy mà tin.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, con tín thác nơi Chúa."
+  }
+}

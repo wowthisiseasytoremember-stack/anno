@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-10",
+  "date": "2027-04-10",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Fifth Week of Easter",
+    "title_vi": "Thứ Bảy Tuần V Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fifth Week of Easter",
+    "title_vi": "Thứ Bảy Tuần V Mùa Phục Sinh",
+    "summary_en": "This is a weekday within the Easter season, specifically the Saturday of the Fifth Week of Easter. The liturgical color is white, reflecting the joy of the Resurrection. No major feast or saint memorial is universally obligatory on this date in the General Roman Calendar.",
+    "summary_vi": "Đây là một ngày trong tuần thuộc mùa Phục Sinh, cụ thể là Thứ Bảy Tuần V Mùa Phục Sinh. Màu phụng vụ là màu trắng, phản ánh niềm vui của sự Phục Sinh. Không có lễ trọng hay lễ kính nhớ vị nào bắt buộc chung trên Toàn Cầu Rôma vào ngày này.",
+    "body_en": "The Church observes the weekday liturgy with texts proper to the Easter season, emphasizing the disciples' encounter with the Risen Lord. The readings and prayers focus on the gradual revelation of the Holy Spirit and the growth of the early Church.",
+    "body_vi": "Giáo Hội cử hành phụng vụ ngày thường với các văn bản riêng của mùa Phục Sinh, nhấn mạnh đến cuộc gặp gỡ của các môn đệ với Chúa Phục Sinh. Các bài đọc và lời cầu nguyện tập trung vào sự mặc khải dần dần của Chúa Thánh Thần và sự tăng trưởng của Giáo Hội sơ khai.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed via the Ordo Liturgicus for the year 2027 for the Latin Rite.",
+    "confidence_note_vi": "Đã xác nhận qua Lịch Phụng Vụ năm 2027 cho Nghi lễ Latinh."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the light of the Resurrection.",
+    "hero_line_vi": "Bước đi trong ánh sáng Phục Sinh.",
+    "prayer_prompt_en": "May the risen Christ reveal the fullness of his glory to you today.",
+    "prayer_prompt_vi": "Xin Chúa Kitô Phục Sinh mặc khải sự vinh quang tròn đầy của Người cho bạn hôm nay."
+  },
+  "sources": [
+    {
+      "label": "Universalis - Catholic Liturgical Calendar",
+      "url": "https://universalis.com/calendar.php?d=20270410&show=",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB - Daily Reflections",
+      "url": "https://www.usccb.org/bible/readings/041027.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-28",
+    "hebrew": "3 Nisan 5787",
+    "islamic_umm_al_qura": "3 Dhu al-Qidah 1448 AH",
+    "coptic": "2 Baramouda 1743",
+    "ethiopian": "2 Baramouda 1743"
+  }
+}

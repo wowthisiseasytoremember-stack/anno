@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày thường trong Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Ngày thường trong Mùa Thường Niên",
+    "summary_vi": "Ngày 27 tháng 2 năm 2027 rơi vào thứ Bảy trong Mùa Thường Niên. Màu phụng vụ là xanh lá, biểu tượng cho giai đoạn tiêu chuẩn của năm phụng vụ, nơi Giáo Hội cử hành mầu nhiệm của Đức Kitô cách trọn vẹn, đặc biệt vào các ngày Chúa nhật và các tuần trong tuần. Không có lễ thánh buộc hay lễ trọng nào được tưởng nhớ vào ngày này trong Lịch Phụng vụ Roma Chung.",
+    "body_vi": "Phụng vụ cho ngày này tập trung vào các bài đọc và lời nguyện được quy định cho tuần hiện tại trong Mùa Thường Niên. Tín hữu được khuyến khích cầu nguyện và suy gẫm cá nhân, tuân thủ các quy tắc phụng vụ dành cho ngày thường. Trong khi lịch địa phương có thể có những tưởng nhớ cụ thể, Giáo Hội hoàn vũ cử hành ngày này như một phần của hành trình đức tin liên tục trong các mùa phụng vụ thường niên, nhấn mạnh sự bền vững và tăng trưởng trong nhân đức.",
+    "confidence_note_vi": "Ngày và mùa phụng vụ được xác định theo các quy tắc hiện hành của Lịch Roma cho Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi vững chắc trong đức tin giữa Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn kiên vững trong các bổn phận hàng ngày, tìm kiếm sự hiện diện của Ngài trong những khoảnh khắc bình thường của cuộc sống."
+  }
+}

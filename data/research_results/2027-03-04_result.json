@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-04",
+  "date": "2027-03-04",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time",
+    "title_vi": "Thứ Năm trong Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of Ordinary Time",
+    "title_vi": "Thứ Năm trong Mùa Thường Niên",
+    "summary_en": "This day is a weekday in Ordinary Time, focusing on the Christian life in all its fullness. No specific saint or feast takes precedence, allowing for the standard lectionary readings of the season. The liturgical color is green, symbolizing growth and hope.",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, tập trung vào đời sống Kitô hữu trong sự trọn vẹn. Không có lễ nhớ hay lễ kính cụ thể nào chiếm ưu tiên, cho phép sử dụng các bài đọc chuẩn của mùa. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng.",
+    "body_en": "On this Thursday in Ordinary Time, the Church invites the faithful to reflect on the gradual unfolding of God's kingdom in their daily lives. The readings from the Lectionary for Ordinary Time are used, emphasizing moral instruction and the teachings of Christ. This period serves as a foundational time for spiritual growth and the practice of virtue.",
+    "body_vi": "Vào Thứ Năm trong Mùa Thường Niên này, Giáo Hội mời gọi các tín hữu suy gẫm về sự mạc khải từ từ của Nước Thiên Chúa trong cuộc sống hàng ngày của họ. Các bài đọc từ Sách Bài Đọc Mùa Thường Niên được sử dụng, nhấn mạnh vào giáo huấn đạo đức và giáo lý của Chúa Kitô. Thời kỳ này đóng vai trò là nền tảng cho sự tăng trưởng tâm linh và thực hành nhân đức.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date falls within Ordinary Time with no conflicting higher-ranking feast in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên và không có lễ kính nào có bậc cao hơn trong Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Hope: Ordinary Time",
+    "hero_line_vi": "Bước Đi Trong Hy Vọng: Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help me to grow in virtue and live faithfully each day.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con lớn lên trong nhân đức và sống trung tín mỗi ngày."
+  },
+  "sources": [
+    {
+      "label": "General Roman Calendar (Vatican)",
+      "url": "https://www.vatican.va/archive/ENG0015/__P45.HTM",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/030427.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-19",
+    "hebrew": "25 Adar 5787",
+    "islamic_umm_al_qura": "25 Ramadan 1448 AH",
+    "coptic": "25 Amshir 1743",
+    "ethiopian": "25 Amshir 1743"
+  }
+}

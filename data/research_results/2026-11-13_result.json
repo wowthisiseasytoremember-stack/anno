@@ -4,10 +4,10 @@
   "weekday": "Friday",
   "mock_priority": "engine_b_v1",
   "liturgical": {
-    "rank": "Feria",
-    "color": "green",
-    "title_en": "Friday of the 32th Week in Ordinary Time",
-    "title_vi": "Thứ Sáu tuần 32 Mùa Thường Niên"
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Saint Frances Xavier Cabrini, Virgin",
+    "title_vi": ""
   },
   "calendars": {
     "julian": "2026-10-31",
@@ -17,41 +17,45 @@
     "ethiopian": "4 Hidar 2019"
   },
   "primary": {
-    "type": "liturgical_day",
-    "title_en": "Friday of the 32th Week in Ordinary Time",
-    "title_vi": "Thứ Sáu tuần 32 Mùa Thường Niên",
-    "summary_en": "This Friday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-    "summary_vi": "Ngày Friday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-    "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Friday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-    "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Friday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+    "type": "memorial",
+    "title_en": "Saint Frances Xavier Cabrini, Virgin",
+    "title_vi": "",
+    "summary_en": "Saint Frances Xavier Cabrini, the first United States citizen to be canonized by the Catholic Church, is remembered for her tireless missionary work among Italian immigrants in North and South America. Her legacy is defined by the founding of the Missionary Sisters of the Sacred Heart and her establishment of numerous schools, hospitals, and orphanages that served the poor and displaced. She is recognized as the patron saint of immigrants, embodying a profound commitment to social justice and spiritual care for those far from home.",
+    "summary_vi": "",
+    "body_en": "The Memorial of Saint Frances Xavier Cabrini highlights a pivotal figure in the history of American Catholicism and the diaspora of Italian migrants. Born in Lombardy, Italy, she answered a call to mission that led her across the Atlantic, where she dedicated her life to uplifting immigrants through education, healthcare, and spiritual formation. Her work extended beyond mere charity; she institutionalized care by founding houses in cities such as New York, Buenos Aires, and Paris, ensuring that the sacred heart of Jesus remained central to the lives of the marginalized.\n\nIn the liturgy for this day, the Church invites the faithful to reflect on Cabrini's virtue of hope and her unwavering trust in Divine Providence amidst logistical and cultural hardships. While the USCCB 2026 calendar marks her as a Memorial on this Friday, November 13, 2026, it does not print specific proper readings, signaling that the community may use the weekday readings of the Thirty-second Week in Ordinary Time. Her intercession is sought not only for immigrants but for all who navigate the challenges of cultural displacement and seek to build communities grounded in faith and solidarity.",
+    "body_vi": "",
     "confidence": "confirmed",
-    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-13.",
-    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-13."
+    "confidence_note_en": "The date and rank are explicitly confirmed in the USCCB 2026 Liturgical Calendar. Her status as the first US citizen canonized is a well-established historical fact.",
+    "confidence_note_vi": ""
   },
-  "place": null,
+  "place": {
+    "name": "Sant'Angelo Lodigiano, Italy",
+    "city": "Sant'Angelo Lodigiano",
+    "country": "Italy"
+  },
   "artwork": {
-    "title": "Liturgical Meditation for Ordinary Time",
-    "maker": "Christian Sacred Art",
-    "date_label": "Historical",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+    "title": null,
+    "maker": null,
+    "date_label": null,
+    "source_url": null,
     "status": "placeholder_only"
   },
   "sources": [
     {
-      "label": "USCCB Liturgical Calendar 2026",
-      "url": "https://bible.usccb.org/daily-bible-reading",
-      "type": "liturgical_calendar"
+      "label": "Saints: Frances Xavier Cabrini",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=323",
+      "type": "encyclopedia"
     },
     {
-      "label": "General Roman Calendar 2026",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-      "type": "vatican"
+      "label": "USCCB: November 13, 2026",
+      "url": "https://www.usccb.org/calendars/",
+      "type": "liturgical_calendar"
     }
   ],
   "app_hooks": {
-    "hero_line_en": "Live the grace of Ordinary Time on this Friday",
-    "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Friday",
-    "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Friday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-    "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Friday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+    "hero_line_en": "Patron of Immigrants and Builder of Hope",
+    "hero_line_vi": "",
+    "prayer_prompt_en": "St. Frances Xavier Cabrini, guide us in serving those who are far from home.",
+    "prayer_prompt_vi": ""
   }
 }

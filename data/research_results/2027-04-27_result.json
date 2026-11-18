@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-27",
+  "date": "2027-04-27",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Third Week of Easter",
+    "title_vi": "Thứ Ba Tuần III Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Third Week of Easter",
+    "title_vi": "Thứ Ba Tuần III Mùa Phục Sinh",
+    "summary_en": "This day is a weekday (feria) within the Easter season, specifically the third week. It focuses on the ongoing joy of the Resurrection and the teachings of the risen Christ.",
+    "summary_vi": "Đây là một ngày thường (tuần nhật) trong Mùa Phục Sinh, cụ thể là tuần thứ ba. Ngày này tập trung vào niềm vui đang diễn ra của sự Phục Sinh và những lời dạy của Đức Kitô phục sinh.",
+    "body_en": "In the liturgical calendar, the weekdays of the Easter season are not mere breaks between feasts but are integral to the celebration of the Paschal Mystery. The readings for Tuesday of the Third Week typically feature Gospel passages that reinforce the faith of the disciples post-Resurrection, urging believers to live in the light of the Resurrection. The color green is often used for vestments during Ordinary Time, but during Easter, White is the predominant color, though some rubrics allow for variation depending on local episcopal conferences; however, the general rule is White for the season, with specific days retaining the season's character. Actually, for weekdays in Easter, the color is White.",
+    "body_vi": "Trong lịch phụng vụ, các ngày thường trong Mùa Phục Sinh không chỉ là những khoảng nghỉ giữa các ngày lễ mà là một phần không thể tách rời của việc cử hành Mầu nhiệm Vượt Qua. Các bài đọc cho Thứ Ba Tuần III thường bao gồm các đoạn Tin Mừng củng cố đức tin của các môn đệ sau khi Đức Kitô Phục Sinh, thúc giục các tín hữu sống trong ánh sáng của sự Phục Sinh. Màu sắc phụng vụ trong Mùa Phục Sinh thường là màu Trắng, phản ánh sự tinh khôi và vinh quang của Đức Kitô sống lại.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a weekday in the third week of Easter according to the General Roman Calendar.",
+    "confidence_note_vi": "Ngày này là một ngày thường trong tuần thứ ba của Mùa Phục Sinh theo Lịch Phụng vụ Rôma chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the Light of the Resurrected Christ.",
+    "hero_line_vi": "Hãy bước đi trong Ánh sáng của Đức Kitô Phục Sinh.",
+    "prayer_prompt_en": "Lord, help me to see Your glory in the everyday moments of this week, and to share the joy of the Resurrection with those I meet.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhìn thấy vinh quang của Chúa trong những khoảnh khắc thường nhật của tuần này, và chia sẻ niềm vui Phục Sinh với những người con gặp gỡ."
+  },
+  "sources": [
+    {
+      "label": "Vatican News - Liturgical Calendar",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB - Daily Mass Readings",
+      "url": "https://www.usccb.org/bible/readings",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-14",
+    "hebrew": "20 Nisan 5787",
+    "islamic_umm_al_qura": "20 Dhu al-Qidah 1448 AH",
+    "coptic": "19 Baramouda 1743",
+    "ethiopian": "19 Baramouda 1743"
+  }
+}

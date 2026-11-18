@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-06",
+  "date": "2027-02-06",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Fourth Week in Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fourth Week in Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Thường Niên",
+    "summary_en": "This Saturday falls within Ordinary Time, specifically the fourth week. It is a weekday (feria) marked by the liturgical color green, signifying growth and the faithful journey through the life of the Church. The focus is on the steady application of the Gospel teachings heard earlier in the week.",
+    "summary_vi": "Thứ Bảy này nằm trong Mùa Thường Niên, cụ thể là tuần thứ tư. Đây là ngày thường (feria) với màu phụng vụ xanh lá cây, biểu tượng cho sự tăng trưởng và hành trình đức tin của Hội Thánh. Trọng tâm là việc áp dụng ổn định các lời dạy Tin Mừng đã lắng nghe trong tuần.",
+    "body_en": "On this Saturday, the Church invites the faithful to reflect on the teachings of the Gospel, typically from the Book of Mark in the current cycle. It is a day for quiet contemplation and preparation for Sunday, maintaining the rhythm of prayer and study established throughout the week. The green vestments remind us that Ordinary Time is not 'empty' time, but time filled with the presence of Christ in the ordinary aspects of life.",
+    "body_vi": "Vào Thứ Bảy này, Hội Thánh mời gọi các tín hữu suy ngẫm về những lời dạy của Tin Mừng, thường là từ Tin Mừng theo Thánh Maccô trong chu kỳ hiện tại. Đây là ngày để chiêm niệm tĩnh lặng và chuẩn bị cho Chúa Nhật, duy trì nhịp điệu cầu nguyện và học hỏi đã được thiết lập trong tuần. Áo lễ xanh lá nhắc nhở chúng ta rằng Mùa Thường Niên không phải là thời gian 'trống rỗng', nhưng là thời gian được lấp đầy bởi sự hiện diện của Chúa Kitô trong những khía cạnh bình thường của cuộc sống.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard weekday in Ordinary Time according to the Roman Calendar.",
+    "confidence_note_vi": "Ngày thường tiêu chuẩn trong Mùa Thường Niên theo Lịch Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faithfulness in the Ordinary",
+    "hero_line_vi": "Trung tín trong điều bình thường",
+    "prayer_prompt_en": "Ask for the grace to see Christ in your daily tasks.",
+    "prayer_prompt_vi": "Xin ơn để nhìn thấy Chúa Kitô trong những công việc hằng ngày của bạn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - General Roman Calendar",
+      "url": "https://www.newadvent.org/cathen/08748a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-24",
+    "hebrew": "29 Shvat 5787",
+    "islamic_umm_al_qura": "28 Shaban 1448 AH",
+    "coptic": "29 Toba 1743",
+    "ethiopian": "29 Toba 1743"
+  }
+}

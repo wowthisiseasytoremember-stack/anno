@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-11",
+  "date": "2027-05-11",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the 5th Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần 5 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the 5th Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần 5 Mùa Thường Niên",
+    "summary_en": "May 11, 2027, falls on a Tuesday during the 5th Week in Ordinary Time. As a feria, the liturgy focuses on the progression of the Christian faith in daily life, adhering to the Gospel readings appointed for this time. There are no obligatory memorials for saints on this specific date in the General Roman Calendar, allowing for the default weekday observance.",
+    "summary_vi": "Ngày 11 tháng 5 năm 2027 rơi vào Thứ Ba trong Tuần 5 Mùa Thường Niên. Là ngày thường (feria), phụng vụ tập trung vào sự tiến triển của đức tin Kitô giáo trong đời sống hằng ngày, tuân theo các bài Tin Mừng được chỉ định cho thời gian này. Không có lễ nhớ bắt buộc về các thánh vào ngày cụ thể này trong Lịch Rôma Chung, cho phép tuân giữ ngày thường mặc định.",
+    "body_en": "On this Tuesday in Ordinary Time, the Church invites the faithful to deepen their understanding of the mysteries of Christ through the regular cycle of Scripture. The readings for the 5th week typically guide believers through the early teachings of Jesus or the life of the early Church, depending on the specific year in the liturgical cycle. Without a major saint's feast, the emphasis remains on the steady, humble sanctification of ordinary days, urging prayer and moral consistency.",
+    "body_vi": "Vào ngày Thứ Ba này trong Mùa Thường Niên, Hội Thánh mời gọi các tín hữu đào sâu hiểu biết về các mầu nhiệm của Chúa Kitô qua chu kỳ Kinh Thánh thường lệ. Các bài đọc cho tuần 5 thường hướng dẫn các tín hữu qua những lời dạy ban đầu của Chúa Giêsu hoặc đời sống của Hội Thánh sơ khai, tùy thuộc vào năm cụ thể trong chu kỳ phụng vụ. Không có lễ kính trọng thể của vị thánh nào, trọng tâm vẫn là sự thánh hóa khiêm tốn và đều đặn của những ngày bình thường, thúc đẩy việc cầu nguyện và sự nhất quán về đạo đức.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date falls strictly within Ordinary Time with no universal obligatory memorial in the 2027 calendar year per the General Roman Calendar.",
+    "confidence_note_vi": "Ngày rơi hoàn toàn vào Mùa Thường Niên mà không có lễ nhớ bắt buộc phổ quát trong năm phụng vụ 2027 theo Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfastness in the ordinary.",
+    "hero_line_vi": "Kiên định trong những điều bình thường.",
+    "prayer_prompt_en": "Lord, teach me to find You in the mundane tasks of this day, transforming routine into reverence.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con tìm thấy Ngài trong những công việc thường nhật của ngày này, biến thói quen thành lòng kính tôn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/051127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints Calendar",
+      "url": "https://catholic.org/saints/saint.php?saint_id=387",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-28",
+    "hebrew": "4 Iyar 5787",
+    "islamic_umm_al_qura": "4 Dhu al-Hijjah 1448 AH",
+    "coptic": "3 Bashans 1743",
+    "ethiopian": "3 Bashans 1743"
+  }
+}

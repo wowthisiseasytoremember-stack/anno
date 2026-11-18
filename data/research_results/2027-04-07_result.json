@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-07",
+  "date": "2027-04-07",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "white",
+    "title_en": "Wednesday of the Fourth Week of Easter",
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Fourth Week of Easter",
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh",
+    "summary_en": "This day falls within the Fourth Week of Easter, a period dedicated to reflecting on the post-resurrection appearances and the early life of the Church. The liturgical color is white, symbolizing the joy and purity of the Resurrection. No specific saint is celebrated as a obligatory memorial on this day in the General Roman Calendar, making it a feria of the current season.",
+    "summary_vi": "Ngày này thuộc Tuần IV Mùa Phục Sinh, thời gian suy niệm về các lần hiện ra sau khi sống lại và đời sống sơ khai của Hội Thánh. Màu phụng vụ là trắng, tượng trưng cho niềm vui và sự tinh tuyền của sự Phục Sinh. Không có vị thánh nào được mừng kính bắt buộc vào ngày này trong Lịch Rôma Tổng Quát, vì đây là ngày thường của mùa phụng vụ hiện tại.",
+    "body_en": "The focus of the liturgy during this Wednesday is drawn from the readings of the Fourth Week of Easter, emphasizing the growth of the early Christian community and the mission to the Gentiles. As a weekday in Ordinary Time after Pentecost, the office follows the current weekday cycle, inviting the faithful to contemplate the mystery of the Risen Lord in daily life.",
+    "body_vi": "Trọng tâm phụng vụ trong Thứ Tư này được rút ra từ các bài đọc của Tuần IV Mùa Phục Sinh, nhấn mạnh sự tăng trưởng của cộng đoàn Kitô hữu sơ khai và sứ mệnh đến với dân ngoại. Là một ngày thường trong Mùa Phục Sinh, kinh nhật tụng theo chu kỳ ngày thường hiện tại, mời gọi các tín hữu suy niệm mầu nhiệm Chúa Phục Sinh trong đời sống hằng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date and liturgical ranking are fixed by the universal calendar for 2027.",
+    "confidence_note_vi": "Ngày và cấp bậc phụng vụ được xác định bởi lịch phụng vụ chung cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of the Resurrection this Wednesday.",
+    "hero_line_vi": "Bước đi trong ánh sáng Phục Sinh trong Thứ Tư này.",
+    "prayer_prompt_en": "May the joy of the Risen Christ sustain your steps today.",
+    "prayer_prompt_vi": "Nguyện cho niềm vui của Chúa Phục Sinh nâng đỡ bước chân bạn hôm nay."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops - Calendar",
+      "url": "https://www.usccb.org/calendars/liturgical-calendar-2027",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - 2027 Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/13005a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-25",
+    "hebrew": "29 Adar II 5787",
+    "islamic_umm_al_qura": "29 Shawwal 1448 AH",
+    "coptic": "29 Baramhat 1743",
+    "ethiopian": "29 Baramhat 1743"
+  }
+}

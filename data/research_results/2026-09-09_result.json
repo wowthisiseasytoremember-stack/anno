@@ -4,10 +4,10 @@
   "weekday": "Wednesday",
   "mock_priority": "engine_b_v1",
   "liturgical": {
-    "rank": "Feria",
-    "color": "green",
-    "title_en": "Wednesday of the 23th Week in Ordinary Time",
-    "title_vi": "Thứ Tư tuần 23 Mùa Thường Niên"
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Saint Peter Claver, Priest",
+    "title_vi": ""
   },
   "calendars": {
     "julian": "2026-08-27",
@@ -17,41 +17,43 @@
     "ethiopian": "4 Pagumen 2018"
   },
   "primary": {
-    "type": "liturgical_day",
-    "title_en": "Wednesday of the 23th Week in Ordinary Time",
-    "title_vi": "Thứ Tư tuần 23 Mùa Thường Niên",
-    "summary_en": "This Wednesday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-    "summary_vi": "Ngày Wednesday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-    "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Wednesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-    "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Wednesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+    "type": "memorial",
+    "title_en": "Saint Peter Claver, Priest",
+    "title_vi": "",
+    "summary_en": "Saint Peter Claver was a Spanish Jesuit priest who dedicated his ministry to enslaved Africans arriving at the port of Cartagena de Indias in the Viceroyalty of New Granada. He is often called the 'Apostle of the Slaves' for his tireless work providing spiritual and material aid to captives who had endured the brutal Middle Passage. His feast day is celebrated on September 9 as a memorial in the Roman liturgical calendar.",
+    "summary_vi": "",
+    "body_en": "Peter Claver, born in Verdú, Catalonia, in 1580, arrived in Cartagena, Colombia, in 1610. He became a Jesuit priest and chose to remain there, devoting his life to the care of African slaves who were forcibly transported across the Atlantic and sold in the Americas. He spent his days on the docks and in the slave markets, ministering to the newly arrived captives who were often starving, sick, and bewildered by their enslavement. Claver is remembered for his extraordinary patience, charity, and commitment to teaching the Christian faith to his African parishioners. Despite facing opposition from some merchants and colonial officials, he insisted on treating the enslaved as persons created in God’s image and worthy of dignity. He died in 1654, leaving behind a legacy of humble service and advocacy for the most vulnerable.",
+    "body_vi": "",
     "confidence": "confirmed",
-    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-09-09.",
-    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-09-09."
+    "confidence_note_en": "Saint Peter Claver was canonized by Pope Leo XIII in 1888. His feast day is firmly established in the General Roman Calendar as September 9, observed as a Memorial. Historical details of his life in Cartagena are well-documented in hagiographies.",
+    "confidence_note_vi": ""
   },
-  "place": null,
+  "place": {
+    "name": "Cartagena, Colombia"
+  },
   "artwork": {
-    "title": "Liturgical Meditation for Ordinary Time",
-    "maker": "Christian Sacred Art",
-    "date_label": "Historical",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+    "title": null,
+    "maker": null,
+    "date_label": null,
+    "source_url": null,
     "status": "placeholder_only"
   },
   "sources": [
     {
-      "label": "USCCB Liturgical Calendar 2026",
-      "url": "https://bible.usccb.org/daily-bible-reading",
-      "type": "liturgical_calendar"
+      "label": "New Advent - Catholic Encyclopedia: St. Peter Claver",
+      "url": "https://www.newadvent.org/cathen/11115a.htm",
+      "type": "encyclopedia"
     },
     {
-      "label": "General Roman Calendar 2026",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-      "type": "vatican"
+      "label": "USCCB - Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/090926.cfm",
+      "type": "liturgical_calendar"
     }
   ],
   "app_hooks": {
-    "hero_line_en": "Live the grace of Ordinary Time on this Wednesday",
-    "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Wednesday",
-    "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Wednesday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-    "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Wednesday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+    "hero_line_en": "Peter Claver, Priest: The Apostle of the Slaves",
+    "hero_line_vi": "",
+    "prayer_prompt_en": "Grant us, O Lord, a heart for the poor and the captive, as we remember Peter Claver’s life of service.",
+    "prayer_prompt_vi": ""
   }
 }

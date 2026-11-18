@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Chúa Ba Ngôi"
+  },
+  "primary": {
+    "title_vi": "Lễ Chúa Ba Ngôi",
+    "summary_vi": "Được cử hành vào Chúa nhật sau lễ Ngũ Tuần, lễ trọng này tôn vinh mầu nhiệm Thiên Chúa duy nhất trong ba Ngôi Vị: Cha, Con và Thánh Thần. Đây là ngày lễ để thờ lạy và suy tư thần học về đời sống nội tại của Thiên Chúa. Phụng vụ nhấn mạnh vào công thức Ba Ngôi được sử dụng trong bí tích Rửa tội và lời ca tụng hằng ngày của Giáo Hội.",
+    "body_vi": "Lễ Chúa Ba Ngôi mời gọi các tín hữu suy niệm về mầu nhiệm trung tâm của đức tin và đời sống Kitô hữu. Trong Lịch Phụng vụ Rôma, lễ này đánh dấu sự trở lại với Mùa Thường niên sau chu kỳ Phục Sinh, nhưng vẫn là một đỉnh cao của sự thờ phượng. Các bài đọc thường bao gồm thị kiến của Êdêkien, bài thánh thi trong thư Philípphê, hoặc các Tin Mừng về sự mặc khải của Ba Ngôi, chẳng hạn như việc Chúa Giêsu chịu phép rửa hoặc việc các Tông đồ được sai đi. Các tín hữu được mời gọi nhìn nhận sự hiện diện của Ba Ngôi trong công trình tạo dựng, trong lịch sử cứu độ, và trong đời sống cá nhân của mỗi người.",
+    "confidence_note_vi": "Ngày tháng được cố định bởi quy tắc 'Chúa nhật sau lễ Ngũ Tuần' trong Lịch Phụng vụ Rôma hiện hành."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Xin ca ngợi Thiên Chúa, Cha, Con và Thánh Thần.",
+    "prayer_prompt_vi": "Hãy làm dấu Thánh Giá chậm rãi, suy niệm về Ba Ngôi Vị đang yêu thương bạn."
+  }
+}

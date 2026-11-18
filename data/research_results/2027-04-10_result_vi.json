@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần V Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần V Mùa Phục Sinh",
+    "summary_vi": "Đây là một ngày trong tuần thuộc mùa Phục Sinh, cụ thể là Thứ Bảy Tuần V Mùa Phục Sinh. Màu phụng vụ là màu trắng, phản ánh niềm vui của sự Phục Sinh. Không có lễ trọng hay lễ kính nhớ vị nào bắt buộc chung trên Toàn Cầu Rôma vào ngày này.",
+    "body_vi": "Giáo Hội cử hành phụng vụ ngày thường với các văn bản riêng của mùa Phục Sinh, nhấn mạnh đến cuộc gặp gỡ của các môn đệ với Chúa Phục Sinh. Các bài đọc và lời cầu nguyện tập trung vào sự mặc khải dần dần của Chúa Thánh Thần và sự tăng trưởng của Giáo Hội sơ khai.",
+    "confidence_note_vi": "Đã xác nhận qua Lịch Phụng Vụ năm 2027 cho Nghi lễ Latinh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng Phục Sinh.",
+    "prayer_prompt_vi": "Xin Chúa Kitô Phục Sinh mặc khải sự vinh quang tròn đầy của Người cho bạn hôm nay."
+  }
+}

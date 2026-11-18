@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần IV Mùa Phục Sinh",
+    "summary_vi": "Ngày này thuộc Mùa Phục Sinh, cụ thể là Tuần IV. Đây là ngày thường (feria), nghĩa là không có lễ thánh bổn mạng nào buộc phải cử hành thay thế phụng vụ ngày thường trong Lịch Phụng vụ Rôma. Trọng tâm phụng vụ vẫn là Chúa Kitô Phục Sinh và việc dạy giáo lý liên tục về mầu nhiệm Vượt Qua.",
+    "body_vi": "Các bài đọc trong Thứ Hai này nhấn mạnh vào chứng tá liên tục của Giáo Hội sau biến cố Phục Sinh. Trong Bài đọc I từ sách Công vụ Tông đồ, các Tông đồ tiếp tục rao giảng Lời Chúa với sự mạnh dạn. Bài Tin Mừng thường đề cập đến các chủ đề về đức tin, cộng đoàn hoặc sứ mệnh của các môn đệ. Là một ngày thường trong thời gian Mùa Phục Sinh, màu sắc phụng vụ là xanh lá, mặc dù nến Phục Sinh vẫn được thắp sáng.",
+    "confidence_note_vi": "Không có thánh hay lễ lớn nào ghi trong Lịch Rôma buộc thay thế phụng vụ ngày thường cho ngày này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Ánh sáng Chúa Phục Sinh",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự mạnh dạn của các Tông đồ để rao giảng Chân Lý của Ngài."
+  }
+}

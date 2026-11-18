@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần VI Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần VI Mùa Phục Sinh",
+    "summary_vi": "Đây là ngày thường trong Mùa Phục Sinh, cụ thể là tuần thứ sáu. Trọng tâm phụng vụ vẫn là sự phục sinh của Chúa Kitô và lời mời gọi sống trong ánh sáng của Mầu nhiệm Vượt Qua. Các ngày thường trong mùa này duy trì lời Alleluia và thường được đánh dấu bằng màu trắng hoặc vàng, mặc dù một số lịch có thể sử dụng màu xanh cho các tuần thường tùy theo cách giải thích phụng vụ.",
+    "body_vi": "Là một ngày trong tuần thuộc Mùa Phục Sinh, Giáo hội mời gọi các tín hữu suy niệm về các lần hiện ra sau phục sinh và đời sống sơ khai của Giáo hội. Các bài đọc thường tập trung vào sự phát triển của cộng đoàn Kitô hữu và lời giáo huấn của Chúa Phục Sinh. Phụng vụ nhấn mạnh vào niềm hy vọng, sự đổi mới và quyền năng của Chúa Thánh Thần, Đấng hướng dẫn các tín hữu. Màu xanh lá cây thường được sử dụng cho các ngày trong tuần bên ngoài các lễ trọng cụ thể trong bối cảnh Mùa Thường Niên, nhưng tinh thần của mùa vẫn là sự vui mừng.",
+    "confidence_note_vi": "Dựa trên các quy tắc của Sách Lễ Rôma cho cấu trúc các ngày trong tuần của Mùa Phục Sinh vào tháng 5 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi trong ánh sáng của sự phục sinh trong ngày Thứ Năm này.",
+    "prayer_prompt_vi": "Lạy Chúa, xin hướng dẫn chúng con bằng Thần Khí của Chúa."
+  }
+}

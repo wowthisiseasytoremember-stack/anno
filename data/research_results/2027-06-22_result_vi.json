@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba trong Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần XII Mùa Thường Niên",
+    "summary_vi": "Thứ Ba này rơi vào Tuần XII Mùa Thường Niên trong Nghi lễ Rôma. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Giáo hội. Không có lễ trọng hay lễ nhớ bắt buộc nào được gán cho ngày cụ thể này trong Lịch Rôma Tổng quát hiện hành, cho phép cử hành như một ngày thường (Feria).",
+    "body_vi": "Trong các ngày trong tuần của Mùa Thường Niên, phụng vụ tập trung vào sự thánh hóa từ từ của các tín hữu và việc công bố Tin Mừng trong bối cảnh đời sống hằng ngày. Vào Thứ Ba này, các bài đọc sẽ theo chu kỳ ngày thường, nhấn mạnh vào lời dạy của Chúa Kitô và những hàm ý đạo đức của đời sống Kitô hữu. Giáo hội mời gọi các tín hữu hội nhập đức tin vào những nhịp điệu bình thường của lao động và nghỉ ngơi.",
+    "confidence_note_vi": "Ngày này được xác minh theo lịch Gregory tiêu chuẩn và các quy tắc của Lịch Rôma đối với các ngày thường trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Hy vọng giữa Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn nhìn thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày hôm nay."
+  }
+}

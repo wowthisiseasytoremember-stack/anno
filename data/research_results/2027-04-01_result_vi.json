@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Lễ Tiệc Ly"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần Thánh",
+    "summary_vi": "Vào chiều Thứ Năm Tuần Thánh, Giáo Hội cử hành Thánh Lễ Tiệc Ly, tưởng niệm việc thiết lập Bí tích Thánh Thể và chức tư tế thừa tác. Phụng vụ chiều này khai mạc Tam Nhật Vượt Qua, đánh dấu cuộc vượt qua của Chúa Kitô từ cõi chết đến sự sống. Phụng vụ nhấn mạnh đến giới luật yêu thương và phục vụ lẫn nhau.",
+    "body_vi": "Thánh Lễ Tiệc Ly có nét độc đáo là không bắt đầu bằng nghi thức thống hối, và bài hát Vinh danh (Gloria) được hát lên, sau đó chuông nhà thờ im lặng cho đến khi bắt đầu đêm vọng Phục Sinh. Bài Tin Mừng kể lại việc Chúa Giêsu rửa chân cho các môn đệ, hành vi phục vụ khiêm tốn định hình đời sống Kitô hữu. Các tín hữu được mời gọi ở lại với Chúa Kitô, đi vào mầu nhiệm tình yêu tự hiến của Người.",
+    "confidence_note_vi": "Thứ Năm Tuần Thánh là lễ trọng cố định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Anh em hãy yêu thương nhau như Thầy đã yêu thương anh em.",
+    "prayer_prompt_vi": "Hãy cầu xin ân sủng để phục vụ người khác cách khiêm nhường và ở lại trong sự hiện diện của Chúa."
+  }
+}

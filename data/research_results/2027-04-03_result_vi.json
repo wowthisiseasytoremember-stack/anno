@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Vọng Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Lễ Vọng Phục Sinh",
+    "summary_vi": "Lễ Vọng Phục Sinh là cử hành quan trọng nhất của năm phụng vụ. Thánh lễ kỷ niệm sự chuyển giao của Chúa từ sự chết sang sự sống và đánh dấu sự khởi đầu của Tam Nhật Thánh. Nghi thức bao gồm việc làm phép nến phục sinh, công bố bài Exsultet và tái khẳng định lời hứa bí tích Rửa Tội.",
+    "body_vi": "Lễ Vọng Phục Sinh được cử hành sau khi mặt trời lặn vào Thứ Bảy Tuần Thánh. Thánh lễ gồm bốn phần: Phần Phụng vụ Ánh sáng, Phụng vụ Lời Chúa, Phụng vụ Bí tích Rửa Tội, và Phụng vụ Thánh Thể. Đêm này là mẹ của mọi đêm canh thức, nơi Hội Thánh chờ đợi với đức tin sự phục sinh của Đức Kitô, hoàn thành lệnh truyền hãy giống như những người đầy tớ chờ đợi chủ về.",
+    "confidence_note_vi": "Ngày 03/04/2027 là Thứ Bảy Tuần Thánh theo tính toán lịch phụng vụ. Lễ Vọng Phục Sinh là một lễ trọng."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ánh sáng Đức Kitô xua tan bóng tối.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, chúng con cùng Chúa chờ đợi vinh quang phục sinh."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-13",
+  "date": "2027-06-13",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "green",
+    "title_en": "Eleventh Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật Thứ XI Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Eleventh Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật Thứ XI Mùa Thường Niên",
+    "summary_en": "The Eleventh Sunday in Ordinary Time focuses on the mystery of God's patient grace and the growth of His Kingdom. Liturgical texts often reference the parable of the seed growing secretly or the sower, emphasizing trust in divine timing. The liturgical color is Green, symbolizing hope and the steady growth of the Church in the world.",
+    "summary_vi": "Chúa Nhật Thứ XI Mùa Thường Niên tập trung vào mầu nhiệm ân sủng kiên nhẫn của Thiên Chúa và sự tăng trưởng của Nước Trời. Các bài đọc phụng vụ thường nhắc đến dụ ngôn hạt giống âm thầm lớn lên hoặc người gieo giống, nhấn mạnh sự tín thác vào thời điểm của Thiên Chúa. Màu sắc phụng vụ là Màu Xanh Lá, biểu tượng cho niềm hy vọng và sự tăng trưởng vững chắc của Hội Thánh giữa lòng thế giới.",
+    "body_en": "In the Ordinary Time Sundays of June, the Church reflects on the ongoing journey of faith. This specific Sunday invites the faithful to contemplate the humility and patience required in the spiritual life. While saints such as Saint Anthony of Padua (June 13) are celebrated in the wider calendar, the Sunday itself retains precedence in the liturgical hierarchy, focusing on the Word of God and the Eucharistic celebration as the source of life.",
+    "body_vi": "Trong các Chúa Nhật Mùa Thường Niên vào tháng Sáu, Hội Thánh suy tư về hành trình đức tin đang tiếp diễn. Chúa Nhật cụ thể này mời gọi cộng đoàn suy ngắm sự khiêm nhường và kiên nhẫn cần thiết trong đời sống tâm linh. Mặc dù các thánh như Thánh Antôn Pađôva (ngày 13 tháng Sáu) được mừng kính trong lịch chung, nhưng bản thân ngày Chúa Nhật vẫn giữ vị trí ưu tiên trong phẩm trật phụng vụ, tập trung vào Lời Chúa và việc cử hành Thánh Lễ như nguồn mạch sự sống.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Sunday in Ordinary Time is a primary liturgical day; precedence over optional memorials is confirmed by General Norms.",
+    "confidence_note_vi": "Chúa Nhật Mùa Thường Niên là ngày phụng vụ chính; sự ưu tiên trước các lễ nhớ tùy ý được xác nhận bởi các Quy Định Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Trust in the quiet growth of God's Kingdom.",
+    "hero_line_vi": "Tín thác vào sự lớn lên âm thầm của Nước Chúa.",
+    "prayer_prompt_en": "Lord, help me to be patient with myself and others, trusting in Your timing.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con kiên nhẫn với chính mình và người khác, tin tưởng vào thời điểm của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://www.usccb.org/bible/readings/061327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-31",
+    "hebrew": "8 Sivan 5787",
+    "islamic_umm_al_qura": "8 Muharram 1449 AH",
+    "coptic": "6 Paona 1743",
+    "ethiopian": "6 Paona 1743"
+  }
+}

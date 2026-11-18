@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần V Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần V Mùa Phục Sinh",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Phục Sinh, mừng kính Chúa Phục Sinh. Không có lễ thánh hay kính nhớ nào phổ quát trong Lịch Phụng Vụ Chung. Phụng vụ tập trung vào niềm vui liên tục của sự Phục Sinh và bài đọc từ Sách Tông Đồ. Màu trắng biểu tượng cho ánh sáng của Chúa Kitô.",
+    "body_vi": "Vào thứ Sáu này, Giáo Hội tiếp tục cử hành mầu nhiệm Phục Sinh. Các bài đọc thường tập trung vào sự phát triển của Giáo Hội sơ khai và sứ mạng tông truyền. Là ngày thường trong Mùa Phục Sinh, ngày này mời gọi các tín hữu đào sâu hiểu biết về Mầu nhiệm Vượt Qua trong đời sống hàng ngày.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường trong Mùa Phục Sinh không có lễ kính phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sống trong Ánh Sáng Phục Sinh",
+    "prayer_prompt_vi": "Lạy Chúa, xin Ánh Sáng Phục Sinh biến đổi những hành động hàng ngày của con."
+  }
+}

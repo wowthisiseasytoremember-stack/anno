@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần IX Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần IX Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào Tuần IX Mùa Thường Niên, tập trung vào giáo huấn và sứ vụ của Chúa Giêsu qua các bài Tin Mừng. Không có lễ nhớ hay lễ trọng nào bắt buộc trong ngày này, phụng vụ tuân theo các bài đọc ngày thường. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng trong đời sống Kitô hữu. Các tín hữu được mời gọi suy niệm về sự hoán cải liên lỉ và chứng tá hàng ngày của mình.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, Thứ Năm 3 tháng 6 năm 2027 mang đến cho các tín hữu cơ hội ổn định để cầu nguyện và suy niệm về các mầu nhiệm trong đời sống của Chúa Kitô. Vì không có lễ nhớ của vị thánh nào che khuất ngày này, các bài đọc trong sách bài đọc cung cấp một tường thuật liên tục về sứ vụ của Chúa Giêsu. Áo lễ màu xanh nhắc nhở chúng ta về hy vọng bắt nguồn từ việc sống trong thời kỳ 'giữa' của Giáo Hội, giữa việc cử hành lễ Phục Sinh và biến cố Ngũ Tuần. Các tín hữu được khuyến khích hòa hợp Lời Chúa vào các thói quen hàng ngày.",
+    "confidence_note_vi": "Ngày này rơi vào ngày thường trong Mùa Thường Niên, không có lễ nào bậc cao hơn trong Lịch Rôma Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi vững vàng trong ân sủng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong thói quen của Thứ Năm này."
+  }
+}

@@ -6,8 +6,8 @@
   "liturgical": {
     "rank": "Sunday",
     "color": "green",
-    "title_en": "26th Sunday in Ordinary Time",
-    "title_vi": "Chúa Nhật tuần 26 Mùa Thường Niên"
+    "title_en": "Twenty-seventh Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật tuần 27 Mùa Thường Niên"
   },
   "calendars": {
     "julian": "2026-09-21",
@@ -18,40 +18,42 @@
   },
   "primary": {
     "type": "liturgical_day",
-    "title_en": "26th Sunday in Ordinary Time",
-    "title_vi": "Chúa Nhật tuần 26 Mùa Thường Niên",
-    "summary_en": "This Sunday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-    "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-    "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Sunday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+    "title_en": "Twenty-seventh Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật tuần 27 Mùa Thường Niên",
+    "summary_en": "Celebrated on October 4, 2026, this Sunday falls in Ordinary Time and is marked by liturgical green vestments. The readings focus on stewardship, divine judgment, and the fruits of faith, specifically drawing from Isaiah's Song of the Vineyard and the Parable of the Tenants in Matthew.",
+    "summary_vi": "Ngày Chủ Nhật này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+    "body_en": "The Twenty-seventh Sunday in Ordinary Time invites the faithful to reflect on the relationship between God and His people through the lens of agriculture and stewardship. In the First Reading, Isaiah 5:1-7 presents the Song of the Vineyard, where Israel is depicted as a vineyard planted and cultivated by the Lord, only to yield wild grapes due to infidelity. This Old Testament metaphor finds its direct fulfillment in the Gospel of Matthew 21:33-43, where Jesus tells the Parable of the Tenants. In this parable, the landowner represents God, the vineyard represents Israel or the Kingdom, and the tenants represent the religious leaders who reject the prophets and ultimately the Son. The Gospel concludes with the solemn warning that the Kingdom will be taken away from those who refuse to produce its fruits and given to a people who will bear them. The Epistle from Philippians 4:6-9 provides the practical spiritual response to this call, urging believers to anxiety-free prayer, gratitude, and the meditation on whatever is true, noble, and right. Together, these readings challenge the congregation to examine their spiritual harvest and ensure their lives produce the fruits of justice and peace.",
     "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
     "confidence": "confirmed",
-    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-10-04.",
+    "confidence_note_en": "The date, rank, color, and official readings are explicitly provided in the USCCB 2026 Liturgical Calendar for the United States.",
     "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-10-04."
   },
-  "place": null,
+  "place": {
+    "name": "Jerusalem, Israel"
+  },
   "artwork": {
-    "title": "Liturgical Meditation for Ordinary Time",
-    "maker": "Christian Sacred Art",
-    "date_label": "Historical",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+    "title": null,
+    "maker": null,
+    "date_label": null,
+    "source_url": null,
     "status": "placeholder_only"
   },
   "sources": [
     {
-      "label": "USCCB Liturgical Calendar 2026",
-      "url": "https://bible.usccb.org/daily-bible-reading",
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/100426.cfm",
       "type": "liturgical_calendar"
     },
     {
-      "label": "General Roman Calendar 2026",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-      "type": "vatican"
+      "label": "USCCB Daily Readings 2026-10-04",
+      "url": "https://bible.usccb.org/bible/readings/100426.cfm",
+      "type": "liturgical_calendar"
     }
   ],
   "app_hooks": {
-    "hero_line_en": "Live the grace of Ordinary Time on this Sunday",
+    "hero_line_en": "Cultivate the Fruits of the Vineyard",
     "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Sunday",
-    "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Sunday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
+    "prayer_prompt_en": "Lord, as You planted us and gave us life, help us to bear fruit in justice and peace. Give us the grace to respond to Your Word not with rejection, but with humility and prayer, offering You a harvest of good works.",
     "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
   }
 }

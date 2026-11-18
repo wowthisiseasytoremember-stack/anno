@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Mùa Thường Niên",
+    "summary_vi": "Ngày 2 tháng 7 năm 2027 rơi vào Thứ Sáu trong Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu tượng cho hy vọng và sự tăng trưởng. Không có lễ kính thánh nào thay thế bài đọc Thứ Hai trong Lịch Rôma Chung vào ngày này.",
+    "body_vi": "Là một ngày trong tuần của Mùa Thường Niên, trọng tâm vẫn là việc đọc Thánh Kinh liên tục và đọc Kinh Thần Vụ hàng ngày. Các lời cầu nguyện nhấn mạnh vai trò của Chúa Thánh Thần trong việc hướng dẫn Giáo hội và các tín hữu. Các linh mục cử hành Thánh lễ với lễ phục màu xanh, dâng hy lễ cho người sống và người chết.",
+    "confidence_note_vi": "Đã xác nhận qua Lịch Phụng Vụ Rôma Chung năm 2027. Không có lễ lớn nào xung đột với Thứ Sáu này trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước theo Thần Khí, lớn lên trong đức tin.",
+    "prayer_prompt_vi": "Hãy cầu xin Chúa Thánh Thần hướng dẫn bạn trong các hành động hàng ngày của Thứ Sáu này."
+  }
+}

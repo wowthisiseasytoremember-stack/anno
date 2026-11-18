@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần V Mùa Thường Niên",
+    "summary_vi": "Đây là ngày thường trong Mùa Thường Niên, tập trung vào chu kỳ phụng vụ hàng tuần. Các bài đọc thường khám phá các chủ đề về đức tin, môn đệ và Nước Thiên Chúa, theo chu kỳ Tin Mừng Maccô hay Matthêu tùy thuộc vào bản sửa đổi sách bài đọc của năm cụ thể. Đây là thời điểm để các tín hữu suy niệm về sự hoán cải tâm trí liên tục. Không có lễ nhớ buộc hay lễ trọng nào phủ lên tính chất ngày thường của ngày này.",
+    "body_vi": "Vào Thứ Tư này trong Mùa Thường Niên, Giáo hội mời gọi các tín hữu lắng nghe Lời Chúa cách chăm chú, Lời đó là đèn soi bước chân ta và ánh sáng dẫn đường ta. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống của Giáo hội qua các thế kỷ. Trọng tâm vẫn là sự tiến triển đều đặn, nhịp nhàng của đời sống thiêng liêng, xa rời các mùa thống hối mãnh liệt hay niềm vui bùng nổ của các chu kỳ Phục Sinh và Giáng Sinh. Các tín hữu được kêu gọi hội nhập đức tin vào các thói quen hàng ngày, tìm thấy Chúa Kitô trong những điều bình thường.",
+    "confidence_note_vi": "Không có lễ thánh lớn nào xung đột với ngày này trong Lịch Phụng vụ Roma hiện hành."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy tìm thấy Chúa Kitô trong những khoảnh khắc bình thường của Thứ Tư này.",
+    "prayer_prompt_vi": "Cầu xin ơn nhận ra sự hướng dẫn của Chúa Thánh Thần trong các công việc và tương tác hàng ngày của bạn hôm nay."
+  }
+}

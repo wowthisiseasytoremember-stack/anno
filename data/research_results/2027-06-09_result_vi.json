@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào Mùa Thường Niên, cụ thể là tuần sau Lễ Chúa Ba Ngôi. Không có vị thánh hay lễ đặc biệt nào được quy định phổ quát để cử hành vào ngày này trong Lịch Phụng vụ Rôma. Trọng tâm phụng vụ tiếp tục là sự tăng trưởng liên lỉ của các tín hữu trong đức tin và đức mến qua việc đọc Lời Chúa hằng ngày và Phụng vụ Giờ Kinh.",
+    "body_vi": "Là một ngày trong tuần của Mùa Thường Niên, Thứ Tư này mời gọi Hội Thánh suy niệm về mầu nhiệm Đức Kitô trong bối cảnh cuộc sống hằng ngày. Các bài đọc thường tập trung vào sự mặc khải tiến triển hoặc những lời giáo huấn về đạo đức, thúc giục các tín hữu hòa nhập đức tin vào các công việc thế tục. Linh mục mặc áo lễ màu xanh lục, tượng trưng cho niềm hy vọng và sự tăng trưởng thiêng liêng. Không có vị thánh cụ thể nào được gán cho ngày này trong lịch phổ quát để thay thế chu kỳ lịch sử của Mùa Thường Niên.",
+    "confidence_note_vi": "Xác nhận là một ngày trong tuần tiêu chuẩn của Mùa Thường Niên mà không có vị thánh hoặc lễ phổ quát nào thay thế chu kỳ lịch sử."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong đức tin và niềm hy vọng trong Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhìn thấy dung nhan Chúa trong các bổn phận hằng ngày."
+  }
+}

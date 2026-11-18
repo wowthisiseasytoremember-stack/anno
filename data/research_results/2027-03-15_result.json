@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-15",
+  "date": "2027-03-15",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the 5th Week of Ordinary Time",
+    "title_vi": "Thứ Hai Tuần 5 Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the 5th Week of Ordinary Time",
+    "title_vi": "Thứ Hai Tuần 5 Thường Niên",
+    "summary_en": "This day is a Feria of Ordinary Time, characterized by the liturgical color green. It marks a period of steady growth in the Christian life following the Easter season's immediate prelude or preceding Lent, depending on the specific year's calendar calculation. The focus is on the daily practice of faith and the application of Gospel teachings in ordinary life. No major feast or specific saint's memorial takes precedence on this date in the General Roman Calendar for 2027.",
+    "summary_vi": "Ngày này là ngày thường tuần trong Mùa Thường Niên, đặc trưng bởi màu phụng vụ xanh lá cây. Đây là giai đoạn tăng trưởng ổn định trong đời sống Kitô hữu. Trọng tâm là thực hành đức tin hàng ngày và áp dụng những giáo huấn Tin Mừng vào cuộc sống bình thường. Không có lễ trọng hay kính nhớ thánh cụ thể nào ưu tiên vào ngày này trong Lịch Rôma Chung năm 2027.",
+    "body_en": "As a weekday of Ordinary Time, the liturgy encourages the faithful to reflect on the mysteries of Christ's life in their totality. The readings for Monday of the 5th Week of Ordinary Time (Year C/II cycle) typically focus on the call to discipleship and the nature of God's mercy. The priest wears green vestments, symbolizing hope and growth. The Office is recited in the rhythm of the week, maintaining the continuity of prayer in the absence of a specific hagiographical highlight.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, phụng vụ mời gọi tín hữu suy niệm về các mầu nhiệm cuộc đời Chúa Kitô trong sự toàn vẹn của chúng. Các bài đọc thường tập trung vào lời mời gọi môn đệ và bản tính lòng thương xót của Thiên Chúa. Linh mục mặc áo lễ màu xanh lá cây, biểu tượng của niềm hy vọng và sự tăng trưởng. Giờ Kinh Nhật Tụng được đọc theo nhịp điệu của tuần, duy trì sự liên tục trong lời cầu nguyện khi không có điểm nhấn kính nhớ thánh cụ thể.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date is a standard Feria in the Roman Calendar for the given year context.",
+    "confidence_note_vi": "Ngày này là ngày thường tiêu chuẩn trong Lịch Rôma cho năm được chỉ định."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow quietly in grace.",
+    "hero_line_vi": "Lặng lẽ lớn lên trong ân sủng.",
+    "prayer_prompt_en": "Lord, help me find You in the ordinary moments of this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong những khoảnh khắc bình thường của ngày này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-02",
+    "hebrew": "6 Adar II 5787",
+    "islamic_umm_al_qura": "6 Shawwal 1448 AH",
+    "coptic": "6 Baramhat 1743",
+    "ethiopian": "6 Baramhat 1743"
+  }
+}

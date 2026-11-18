@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy Tuần XII Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần XII Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào thời kỳ Mùa Thường Niên, cụ thể là tuần thứ mười hai. Là một ngày thứ Bảy thường lệ (feria), màu phụng vụ là xanh lá cây, biểu tượng cho sự tăng trưởng và hành trình liên tục của Giáo hội. Không có lễ nhớ bắt buộc hay lễ kính nào được ấn định cho ngày cụ thể này trong lịch hiện tại, khiến đây là một ngày làm việc tiêu chuẩn để suy niệm và cầu nguyện.",
+    "body_vi": "Trong Lịch Phụng vụ Rôma, ngày 26 tháng 6 năm 2027 được cử hành như một ngày thường lệ trong Mùa Thường Niên. Các bài đọc và lời nguyện sẽ tương ứng với tuần thứ mười hai, tập trung vào những lời giảng dạy của Chúa Giêsu và sự phát triển của Giáo hội sơ khai như được tìm thấy trong Tân Ước. Các tín hữu được khuyến khích tham dự Thánh lễ hoặc Phụng vụ Giờ kinh để đào sâu đời sống thiêng liêng qua nhịp điệu cầu nguyện hàng ngày.",
+    "confidence_note_vi": "Ngày này là một ngày thường lệ tiêu chuẩn trong Mùa Thường Niên, không có các cử hành phụng vụ cấp cao hơn trong lịch phụng vụ chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong đức tin qua sức mạnh tĩnh lặng của lòng đạo đức mỗi ngày.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con biết lắng nghe và lớn lên trong những khoảnh khắc bình thường của cuộc đời."
+  }
+}

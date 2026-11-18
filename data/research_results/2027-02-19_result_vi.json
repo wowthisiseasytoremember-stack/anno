@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần X (hoặc tùy tuần) Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Ngày thường Tuần Mùa Thường Niên",
+    "summary_vi": "Đây là một ngày thường trong Mùa Thường Niên, được đặc trưng bởi màu phụng vụ xanh lá cây tượng trưng cho hy vọng và sự tăng trưởng. Không có lễ kính thánh hay long trọng nào thay thế giờ kinh của ngày thường vào ngày này trong Lịch phụng vụ La Mã chung. Trọng tâm phụng vụ là hành trình đức tin liên lỉ và việc thánh hóa đời sống hằng ngày.",
+    "body_vi": "Là ngày thường trong tuần, phụng vụ hướng dẫn các tín hữu suy ngẫm các bài đọc được cung cấp bởi chu kỳ Sách Bài Đọc, nhấn mạnh vào sự kiên nhẫn, tín thác vào sự quan phòng của Thiên Chúa, và các bổn phận luân lý của đời sống Kitô giáo. Cộng đoàn tụ họp trong khiêm nhường, không phải để tưởng nhớ một sự kiện lịch sử cụ thể, mà là để thánh hóa thời điểm hiện tại qua Lời Chúa và Bí tích Thánh Thể.",
+    "confidence_note_vi": "Được xác nhận là ngày thường dựa trên Lịch phụng vụ La Mã chung năm 2027, ngày 19 tháng 2. Không có lễ phổ quát nào cạnh tranh được ghi nhận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong đức tin qua những ngày thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để tìm thấy Chúa trong những chi tiết bình thường của ngày sống."
+  }
+}

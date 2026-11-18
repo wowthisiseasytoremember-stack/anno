@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần Thánh - Tưởng Niệm Cuộc Thương Khó Của Chúa"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần Thánh",
+    "summary_vi": "Thứ Sáu Tuần Thánh là ngày tưởng niệm Cuộc Thương Khó, kỷ niệm cuộc khổ nạn và cái chết của Chúa Giêsu Kitô trên đồi Canvê. Đây là ngày ăn chay và kiêng thịt bắt buộc đối với tất cả các tín hữu Công giáo. Phụng vụ tập trung vào việc Suy Tôn Thánh Giá và đọc bài Thương Khó theo Tin Mừng Gioan.",
+    "body_vi": "Trong ngày Thứ Sáu Tuần Thánh, bàn thờ được dọn sạch và không có Thánh lễ nào được cử hành; thay vào đó, Phụng vụ Cuộc Thương Khó Chúa được cử hành vào buổi chiều hoặc buổi tối. Cộng đoàn suy tôn Thánh Giá, nhìn nhận đó là khí cụ cứu độ của chúng ta. Nghi thức kết thúc bằng việc Rước Mình Thánh Chúa từ những hình bánh đã được truyền phép từ Thứ Năm Tuần Thánh. Đây là ngày long trọng nhất của năm phụng vụ, ngoại trừ Đêm Vọng Phục Sinh.",
+    "confidence_note_vi": "Thứ Sáu Tuần Thánh là lễ chuyển động cố định được xác định dựa trên ngày Phục Sinh. Năm 2027, lễ Phục Sinh rơi vào ngày 4 tháng 4, nên ngày 2 tháng 4 là Thứ Sáu Tuần Thánh chính xác."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đây là Gỗ Thánh Giá, nơi treo Đấng Cứu Độ trần gian.",
+    "prayer_prompt_vi": "Hãy cầu nguyện cho thế giới, Hội Thánh và các linh hồn đã qua đời khi chúng ta bước vào sự thinh lặng của mộ phần."
+  }
+}

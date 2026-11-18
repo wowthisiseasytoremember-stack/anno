@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-28",
+  "date": "2027-03-28",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "red",
+    "title_en": "Palm Sunday of the Passion of the Lord",
+    "title_vi": "Chúa Nhật Lễ Lá"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Palm Sunday of the Passion of the Lord",
+    "title_vi": "Chúa Nhật Lễ Lá",
+    "summary_en": "This day commemorates the Lord's entry into Jerusalem and marks the beginning of Holy Week. The liturgy is characterized by the blessing of palms and the procession, followed by the reading of the Passion of the Lord.",
+    "summary_vi": "Ngày này kỷ niệm việc Chúa Giê-su tiến vào Giê-ru-sa-lem và đánh dấu khởi đầu Tuần Thánh. Phụng vụ được đặc trưng bởi việc làm phép lá và rước kiệu, sau đó là bài đọc về Thương khó của Chúa.",
+    "body_en": "On Palm Sunday, the Church gathers to accompany Christ into Jerusalem, waving branches in greeting. The focus shifts from triumph to the humility of the Passion, as the faithful enter the sacred mysteries of Christ's death and resurrection. The liturgical color is red, signifying the martyrdom and suffering of Jesus that dominates the week ahead.",
+    "body_vi": "Vào Chúa Nhật Lễ Lá, Giáo hội quy tụ để cùng tiến vào Giê-ru-sa-lem với Chúa Ki-tô, vẫy cành lá để chào đón Người. Trọng tâm chuyển từ chiến thắng sang sự khiêm nhường của Thương khó, khi các tín hữu bước vào những mầu nhiệm thánh về cái chết và sự phục sinh của Chúa Ki-tô. Màu phụng vụ là màu đỏ, tượng trưng cho cuộc tử đạo và nỗi khổ đau của Chúa Giê-su chi phối cả tuần lễ phía trước.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The celebration of Palm Sunday is a universal and unchangeable norm of the Roman Rite.",
+    "confidence_note_vi": "Việc cử hành Chúa Nhật Lễ Lá là một quy tắc phổ quát và bất biến của Nghi lễ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Hosanna to the Son of David! Welcome the King of Peace.",
+    "hero_line_vi": "Hoan hô Con Vua Đa-vít! Hãy đón chào Vua Bình An.",
+    "prayer_prompt_en": "Ask for the grace to walk faithfully with Jesus through the Passion this week.",
+    "prayer_prompt_vi": "Hãy xin ơn được bước đi trung thành cùng Chúa Giê-su qua những đau khổ trong tuần này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://www.usccb.org/bible/readings/032827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Liturgical Calendar",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-15",
+    "hebrew": "19 Adar II 5787",
+    "islamic_umm_al_qura": "19 Shawwal 1448 AH",
+    "coptic": "19 Baramhat 1743",
+    "ethiopian": "19 Baramhat 1743"
+  }
+}

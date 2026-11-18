@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-18",
+  "date": "2027-04-18",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feast",
+    "color": "white",
+    "title_en": "Third Sunday of Easter",
+    "title_vi": "Chúa Nhật III Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Third Sunday of Easter",
+    "title_vi": "Chúa Nhật III Phục Sinh",
+    "summary_en": "The Third Sunday of Easter is a high-point day in the Easter season. The readings and prayers focus on the risen Christ and the apostles' testimony, especially the appearances of Jesus to the disciples and the role of the apostles in bearing witness to the resurrection.",
+    "summary_vi": "Chúa Nhật III Phục Sinh là ngày cao điểm của Mùa Phục Sinh. Các bài đọc và lời cầu nguyện tập trung vào Đức Kitô Phục Sinh và lời chứng của các tông đồ, đặc biệt là những lần Đức Giêsu hiện ra với các môn đệ và vai trò của các tông đồ trong việc làm chứng cho sự Phục Sinh.",
+    "body_en": "On the Third Sunday of Easter, the Church continues its celebration of the Resurrection of the Lord. This day invites the faithful to deepen their faith through the witness of the apostles. In the Gospel readings, particularly in Year C, the emphasis is often on Jesus' appearance to the disciples by the Sea of Tiberias, reinforcing the reality of the risen Lord's presence among his people.",
+    "body_vi": "Vào Chúa Nhật III Phục Sinh, Giáo Hội tiếp tục cử hành mầu nhiệm Chúa Phục Sinh. Ngày này mời gọi các tín hữu đào sâu đức tin qua lời chứng của các tông đồ. Trong các bài Tin Mừng, đặc biệt là Năm C, trọng tâm thường là việc Đức Giêsu hiện ra với các môn đệ bên hồ Tibêria, củng cố thực tại sự hiện diện của Chúa Phục Sinh giữa dân Người.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The Third Sunday of Easter is a fixed Sunday in the liturgical calendar and is not a saint's day. It is a feast day in its own right within the Easter season.",
+    "confidence_note_vi": "Chúa Nhật III Phục Sinh là ngày cố định trong lịch phụng vụ và không phải là ngày lễ của một vị thánh. Nó là một ngày lễ có giá trị riêng trong Mùa Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_en": "Witness to the Risen Lord",
+    "hero_line_vi": "Chứng nhân của Chúa Phục Sinh",
+    "prayer_prompt_en": "May we, like the apostles, recognize and witness to the presence of the risen Christ in our lives.",
+    "prayer_prompt_vi": "Xin cho chúng ta, như các tông đồ, nhận biết và làm chứng cho sự hiện diện của Đức Kitô Phục Sinh trong cuộc đời mình."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Proper of Saints and Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-05",
+    "hebrew": "11 Nisan 5787",
+    "islamic_umm_al_qura": "11 Dhu al-Qidah 1448 AH",
+    "coptic": "10 Baramouda 1743",
+    "ethiopian": "10 Baramouda 1743"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-20",
+  "date": "2027-06-20",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "green",
+    "title_en": "Twelfth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật Thứ Mười Hai Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Twelfth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật Thứ Mười Hai Thường Niên",
+    "summary_en": "The Twelfth Sunday in Ordinary Time focuses on the Christian response to the call of God, emphasizing humility and reliance on Divine Providence. In the liturgical cycle, this period continues the themes of growth in faith and the practical application of Gospel teachings in daily life.",
+    "summary_vi": "Chúa Nhật Thứ Mười Hai Thường Niên tập trung vào lời đáp trả Kitô giáo đối với tiếng gọi của Thiên Chúa, nhấn mạnh sự khiêm nhường và lòng tin cậy vào Quan Phòng. Trong chu kỳ phụng vụ, thời gian này tiếp tục các chủ đề tăng trưởng đức tin và việc áp dụng những giáo huấn của Tin Mừng vào đời sống hàng ngày.",
+    "body_en": "During the Twelfth Sunday in Ordinary Time, the Church invites the faithful to reflect on the disposition of the heart required to hear God's word. Whether through the parables of the Kingdom or the teachings of the Apostles, the liturgy directs believers to prioritize God's kingdom above worldly concerns. This Sunday serves as a spiritual checkpoint in the summer season of the liturgical year, encouraging steady growth in charity and prayer.",
+    "body_vi": "Trong Chúa Nhật Thứ Mười Hai Thường Niên, Giáo Hội mời gọi các tín hữu suy gẫm về tâm thế cần có để lắng nghe lời Chúa. Dù qua các dụ ngôn về Nước Trời hay những giáo huấn của các Tông Đồ, phụng vụ hướng dẫn các tín hữu ưu tiên Nước Thiên Chúa hơn những bận tâm thế gian. Chúa Nhật này đóng vai trò như một điểm kiểm tra tâm linh trong mùa hè của năm phụng vụ, khuyến khích sự phát triển vững chắc trong đức bác ái và lời cầu nguyện.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard Sunday in Ordinary Time per the General Roman Calendar of 1969.",
+    "confidence_note_vi": "Chúa Nhật Thường Niên theo Lịch Phụng Vụ Rôma 1969."
+  },
+  "app_hooks": {
+    "hero_line_en": "Trust in God's timing and grow in quiet faith.",
+    "hero_line_vi": "Tin tưởng vào thời điểm của Thiên Chúa và lớn lên trong đức tin bình lặng.",
+    "prayer_prompt_en": "Lord, help me to listen with a humble heart and to trust Your providence in all things.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe với tâm hồn khiêm nhường và tin cậy vào Quan Phòng của Chúa trong mọi sự."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/062027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Online Calendar",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=0&month=6&day=20",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-07",
+    "hebrew": "15 Sivan 5787",
+    "islamic_umm_al_qura": "15 Muharram 1449 AH",
+    "coptic": "13 Paona 1743",
+    "ethiopian": "13 Paona 1743"
+  }
+}

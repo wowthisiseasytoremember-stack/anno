@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-06",
+  "date": "2027-06-06",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Solemnity of the Most Holy Body and Blood of Christ",
+    "title_vi": "Lễ Trọng Mình Máu Thánh Chúa Ki-tô"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Most Holy Body and Blood of Christ (Corpus Christi)",
+    "title_vi": "Mình Máu Thánh Chúa Ki-tô (Lễ Mình Thánh Chúa)",
+    "summary_en": "This Solemnity honors the Real Presence of Jesus Christ in the Eucharist, celebrating the sacrament of the Holy Communion. Instituted in the 13th century and extended to the whole Church by Pope Urban IV, it invites the faithful to adore the mystery of faith. On this Sunday, often transferred from Thursday in certain regions, the focus remains intensely on the Eucharistic mystery.",
+    "summary_vi": "Lễ Trọng này tôn vinh sự hiện diện thật sự của Chúa Giê-su Ki-tô trong Bí tích Thánh Thể, cử hành bí tích hiệp lễ. Được thiết lập vào thế kỷ 13 và mở rộng cho toàn Hội Thánh bởi Giáo hoàng Urban IV, ngày này mời gọi các tín hữu tôn thờ mầu nhiệm đức tin. Vào Chúa nhật này, thường được chuyển từ Thứ Năm sang ở một số vùng, sự tập trung vẫn hướng về mầu nhiệm Thánh Thể.",
+    "body_en": "The liturgy focuses on the institution of the Eucharist and the deep meaning of 'eating the flesh and drinking the blood' of the Lord. The readings recall the Passover sacrifice, the new covenant, and the promise of eternal life for those who partake. It is a day of profound reverence, often marked by Eucharistic processions where the Blessed Sacrament is exposed to the world as a sign of Christ's enduring love and presence.",
+    "body_vi": "Phụng vụ tập trung vào việc thiết lập Bí tích Thánh Thể và ý nghĩa sâu xa của việc 'ăn thịt và uống máu' Chúa. Các bài đọc nhắc lại lễ Vượt Qua, giao ước mới, và lời hứa ban sự sống đời đời cho những ai rước lễ. Đây là ngày tôn kính sâu sắc, thường được đánh dấu bằng các cuộc rước kiệu Thánh Thể, nơi Mình Thánh Chúa được tôn kính trước thế gian như dấu chỉ tình yêu bền vững và sự hiện diện của Đức Ki-tô.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Corpus Christi is a high-ranking Solemnity in the General Roman Calendar. In regions where it is not a holy day of obligation, it is commonly celebrated on the Sunday after Trinity Sunday.",
+    "confidence_note_vi": "Lễ Mình Thánh Chúa là một lễ trọng theo Lịch Phụng vụ Rôma. Tại những vùng mà ngày này không phải là ngày lễ buộc, thường được cử hành vào Chúa nhật sau Chúa nhật lễ Chúa Ba Ngôi."
+  },
+  "app_hooks": {
+    "hero_line_en": "Adore the Mystery of Faith",
+    "hero_line_vi": "Hãy Tôn Thờ Mầu Nhiệm Đức Tin",
+    "prayer_prompt_en": "Lord Jesus, we believe in Your real presence in the Eucharist. Strengthen our faith as we approach Your holy table.",
+    "prayer_prompt_vi": "Chúa Giê-su ơi, chúng con tin vào sự hiện diện thật sự của Chúa trong Bí tích Thánh Thể. Xin củng cố đức tin của chúng con khi chúng con tiến đến bàn tiệc thánh của Ngài."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/060627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Online Saints & Readings",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=46",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-24",
+    "hebrew": "1 Sivan 5787",
+    "islamic_umm_al_qura": "1 Muharram 1449 AH",
+    "coptic": "29 Bashans 1743",
+    "ethiopian": "29 Bashans 1743"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-28",
+  "date": "2027-05-28",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu tuần V Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu tuần V Thường Niên",
+    "summary_en": "This Friday marks the fifth week of Ordinary Time, a period dedicated to the growth of faith in daily life. The liturgical color is green, symbolizing hope and the ongoing journey of the Church. There are no major solemnities or feasts assigned to this specific date in the General Roman Calendar, leading with the weekday readings and prayers.",
+    "summary_vi": "Thứ Sáu này đánh dấu tuần thứ năm của Mùa Thường Niên, một thời gian dành cho sự tăng trưởng đức tin trong cuộc sống hằng ngày. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và hành trình tiến về của Giáo Hội. Không có lễ trọng hay lễ kính nào được gán cho ngày cụ thể này trong Lịch Rôma Chung, do đó các bài đọc và lời nguyện sẽ tập trung vào ngày thường.",
+    "body_en": "During this weekday in Ordinary Time, the faithful are invited to reflect on the teachings of Christ through the prescribed lectionary readings, which often focus on the Gospel's portrayal of his ministry and miracles. The liturgy emphasizes humility and service, drawing parallels to the saints such as St. Bede the Venerable or St. Gregory VII who are commemorated around this time but do not override the weekday status if no specific feast is appointed. Prayer and meditation during these days serve to integrate spiritual insights into the routine of work and rest.",
+    "body_vi": "Trong ngày thường này của Mùa Thường Niên, tín hữu được mời gọi suy niệm giáo huấn của Chúa Kitô qua các bài đọc sách bài đọc được quy định, thường tập trung vào lời Chúa trong Tin Mừng mô tả sứ vụ và các phép lạ của Ngài. Phụng vụ nhấn mạnh sự khiêm nhường và phục vụ, rút ra những bài học tương đồng với các thánh như Thánh Beda Venerabilis hoặc Thánh Gregory VII, những vị được nhớ đến trong khoảng thời gian này nhưng không thay thế vị thế ngày thường nếu không có lễ cụ thể được thiết lập. Cầu nguyện và suy niệm trong những ngày này phục vụ việc tích hợp những hiểu biết thiêng liêng vào thói quen làm việc và nghỉ ngơi.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The day is a standard weekday of the Fifth Week in Ordinary Time, confirmed by the Roman Calendar structure for 2027. No major feast displaces this status.",
+    "confidence_note_vi": "Ngày này là một ngày thường tiêu chuẩn của Tuần V Mùa Thường Niên, được xác nhận bởi cấu trúc Lịch Rôma năm 2027. Không có lễ lớn nào thay thế vị thế này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in Hope during Ordinary Time",
+    "hero_line_vi": "Bước đi trong Hy vọng giữa Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, grant me the humility to serve others and the hope to keep moving forward in faith.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khiêm nhường để phục vụ người khác và niềm hy vọng để tiếp tục tiến bước trong đức tin."
+  },
+  "sources": [
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/052827.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-15",
+    "hebrew": "21 Iyar 5787",
+    "islamic_umm_al_qura": "21 Dhu al-Hijjah 1448 AH",
+    "coptic": "20 Bashans 1743",
+    "ethiopian": "20 Bashans 1743"
+  }
+}

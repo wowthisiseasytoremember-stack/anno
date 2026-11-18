@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa nhật VII Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Chúa nhật VII Phục Sinh",
+    "summary_vi": "Chúa nhật VII Phục Sinh là Chúa nhật cuối cùng của mùa Phục Sinh, thời gian cầu nguyện và chờ đợi Chúa Thánh Thần sau khi Chúa Giêsu lên trời. Phụng vụ tập trung vào lời cầu nguyện của Chúa Giêsu cho các môn đệ, nhấn mạnh sự hiệp nhất và sứ mạng của họ trong thế gian. Ngày này đóng vai trò cầu nối hướng tới Lễ Ngũ Tuần, mời gọi các tín hữu sống trong ánh sáng Phục Sinh trong khi chờ đợi sự hiện đến của Thần Khí.",
+    "body_vi": "Trong bài Tin Mừng theo thánh Gioan 17:1-11, Chúa Giêsu ngước mắt lên trời và cầu nguyện xin Cha tôn vinh Con và xin giữ gìn các môn đệ trong chân lý. Chúa nhật này làm nổi bật sự chuyển tiếp từ sự hiện diện thể lý của Chúa Giêsu sang sự hiện diện thần linh qua Chúa Thánh Thần, sẽ được thể hiện trọn vẹn trong Lễ Ngũ Tuần. Màu trắng vẫn thích hợp vì niềm vui Phục Sinh tiếp tục kéo dài, thúc đẩy cộng đoàn sống sự hiệp nhất và tình yêu đặc trưng của Thân Thể Đức Kitô. Các tín hữu được mời gọi trở thành chứng nhân của sự Phục Sinh, bám chặt vào Lời Chúa trong một thế giới đầy thách thức.",
+    "confidence_note_vi": "Được xác nhận là Chúa nhật VII Phục Sinh trong Hình thức Thông thường của Nghi lễ La Mã năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chờ đợi trong lời cầu nguyện với Thần Khí.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự hiệp nhất giữa các tín hữu, như Chúa Giêsu đã cầu nguyện cho các môn đệ."
+  }
+}

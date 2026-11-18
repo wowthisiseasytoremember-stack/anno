@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-13",
+  "date": "2027-02-13",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the Fifth Week of Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the Fifth Week of Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần V Mùa Thường Niên",
+    "summary_en": "This date falls within Ordinary Time, specifically the Fifth Week. The liturgical color is green, symbolizing hope and growth. There is no obligatory saint feast on this day in the General Roman Calendar, so the focus remains on the weekday readings and the general cycle of Ordinary Time.",
+    "summary_vi": "Ngày này thuộc Mùa Thường Niên, cụ thể là Tuần V. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng. Không có lễ kính thánh nào bắt buộc vào ngày này theo Lịch phụng vụ Roma, do đó trọng tâm vẫn là các bài đọc trong tuần và chu kỳ chung của Mùa Thường Niên.",
+    "body_en": "The Saturday of the Fifth Week of Ordinary Time is a day of quiet observance, adhering to the weekday Masses where the readings are determined by the Sunday cycle. The Church invites the faithful to reflect on the Gospel teachings presented earlier in the week, often focusing on the miracles or teachings of Jesus as recorded in the Gospels of Mark or Matthew depending on the specific liturgical year cycle. No specific saint is commemorated with a universal feast, allowing the emphasis to remain on the progressive journey of faith through the ordinary seasons of the Church year.",
+    "body_vi": "Thứ Bảy Tuần V Mùa Thường Niên là một ngày tuân giữ tĩnh lặng, tuân theo các Thánh lễ ngày thường nơi các bài đọc được xác định bởi chu kỳ ngày Chủ nhật. Giáo hội mời gọi các tín hữu suy niệm về những lời giảng dạy trong Tin Mừng đã được công bố trước đó trong tuần, thường tập trung vào các phép lạ hoặc lời dạy của Chúa Giêsu được ghi nhận trong Tin Mừng Máccô hoặc Matthêu tùy thuộc vào chu kỳ năm phụng vụ cụ thể. Không có vị thánh cụ thể nào được tưởng niệm bằng một lễ kính phổ quát, cho phép trọng tâm vẫn còn trên hành trình đức tin tiến triển qua các mùa bình thường của năm Giáo hội.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls clearly within Ordinary Time in the Roman Calendar.",
+    "confidence_note_vi": "Ngày này rõ ràng thuộc Mùa Thường Niên trong Lịch phụng vụ Roma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Faith during Ordinary Time",
+    "hero_line_vi": "Bước đi trong Đức Tin giữa Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help us to grow in virtue and faith during these ordinary days, keeping our hearts fixed on your eternal promises.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong nhân đức và đức tin giữa những ngày thường này, giữ cho tâm hồn chúng con hướng về những lời hứa vĩnh cửu của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings Calendar",
+      "url": "https://www.usccb.org/bible/readings/021327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Daily Mass Readings",
+      "url": "https://www.newadvent.org/cathen/01015a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-31",
+    "hebrew": "6 Adar 5787",
+    "islamic_umm_al_qura": "6 Ramadan 1448 AH",
+    "coptic": "6 Amshir 1743",
+    "ethiopian": "6 Amshir 1743"
+  }
+}

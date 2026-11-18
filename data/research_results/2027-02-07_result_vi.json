@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa nhật V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa nhật V Mùa Thường Niên",
+    "summary_vi": "Chúa nhật V Mùa Thường Niên tập trung vào lời kêu gọi làm môn đệ và vai trò của người Kitô hữu là 'muối đất' và 'ánh sáng thế gian.' Các bài đọc thường trích dẫn sách Isaia, nơi ngôn sứ đáp lại lời kêu gọi của Thiên Chúa rằng 'Lạy Chúa, này con đây, xin hãy sai con,' và từ Tin Mừng nơi Chúa Giêsu dạy các môn đệ về ảnh hưởng của họ trong thế giới. Đây là thời điểm suy niệm về cách tiếng gọi cá nhân kết hợp với trách nhiệm phục vụ cộng đoàn.",
+    "body_vi": "Trong bối cảnh Mùa Thường Niên, vốn theo sau các mùa Giáng Sinh và Phục Sinh, Giáo hội chú ý đến sứ vụ công khai của Chúa Giêsu và việc hình thành Giáo hội sơ khai. Chúa nhật V đóng vai trò như một điểm kiểm tra tâm linh, mời gọi các tín hữu xem xét lòng trung thành của họ đối với Tin Mừng và cam kết kết trái trong đời sống hàng ngày. Màu sắc phụng vụ xanh lục biểu tượng cho niềm hy vọng và sự phát triển vững chắc của đức tin.",
+    "confidence_note_vi": "Tính toán tất định dựa trên Sách Lễ Rôma và các quy tắc lịch phụng vụ cho Năm Phụng vụ."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy để ánh sáng của các con chiếu sáng trước mặt người ta, để họ thấy các việc lành của các con mà tôn vinh Cha các con, Đấng ngự trên trời.",
+    "prayer_prompt_vi": "Lạy Chúa, xin biến con thành nhân chứng cho tình yêu và chân lý của Ngài trong các cuộc gặp gỡ hàng ngày."
+  }
+}

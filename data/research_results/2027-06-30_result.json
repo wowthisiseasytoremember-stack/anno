@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-30",
+  "date": "2027-06-30",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time",
+    "title_vi": "Thứ Tư Tuần Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time",
+    "title_vi": "Thứ Tư Tuần Thường Niên",
+    "summary_en": "June 30, 2027, is a Wednesday in Ordinary Time in the General Roman Calendar. The liturgical color is green, symbolizing hope and the steady growth of the faithful's life in Christ. This day follows the Feast of St. Thomas the Apostle and precedes the Feast of Sts. Peter and Paul.",
+    "summary_vi": "Ngày 30 tháng 6 năm 2027 là Thứ Tư trong Mùa Thường Niên theo Lịch Phụng vụ Rôma. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự phát triển vững chắc của đời sống đức tin. Ngày này diễn ra sau lễ Thánh Tôma Tông Đồ và trước lễ Thánh Phêrô và Thánh Phaolô Tông Đồ.",
+    "body_en": "As a weekday in Ordinary Time, this Wednesday is dedicated to the sanctification of daily life through prayer and labor. Unless a specific local feast is celebrated, the Ordinary Form Mass uses the weekday readings from the current cycle of the Lectionary. The focus is on the gradual growth of the Church and the individual believer's journey toward holiness in the midst of ordinary days.",
+    "body_vi": "Là một ngày trong tuần thuộc Mùa Thường Niên, Thứ Tư này dành cho việc thánh hóa đời sống hàng ngày qua cầu nguyện và lao động. Trừ khi có lễ kính đặc biệt của địa phương, Thánh lễ theo Nghi thức Rôma sử dụng các bài đọc từ chu kỳ Bài đọc hiện hành. Trọng tâm là sự phát triển dần dần của Giáo hội và hành trình nên thánh của mỗi tín hữu giữa những ngày thường nhật.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is firmly within the season of Ordinary Time in 2027. There are no universal solemnities or feasts that override the weekday liturgy on this specific date.",
+    "confidence_note_vi": "Ngày này chắc chắn thuộc Mùa Thường Niên năm 2027. Không có lễ trọng hay lễ kính phổ quát nào thay thế phụng vụ ngày thường vào ngày cụ thể này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Sanctify the ordinary moment.",
+    "hero_line_vi": "Thánh hóa khoảnh khắc thường nhật.",
+    "prayer_prompt_en": "Offer your work and worries as a prayer for the Church.",
+    "prayer_prompt_vi": "Dâng công việc và lo toan của bạn làm lời cầu nguyện cho Giáo hội."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/063027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Calendar",
+      "url": "https://www.catholic.org/prayers/prayer.php?date=2027-06-30",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-17",
+    "hebrew": "25 Sivan 5787",
+    "islamic_umm_al_qura": "25 Muharram 1449 AH",
+    "coptic": "23 Paona 1743",
+    "ethiopian": "23 Paona 1743"
+  }
+}

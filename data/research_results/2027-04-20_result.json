@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-20",
+  "date": "2027-04-20",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Second Week of Easter",
+    "title_vi": "Thứ Ba Tuần II Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Second Week of Easter",
+    "title_vi": "Thứ Ba Tuần II Mùa Phục Sinh",
+    "summary_en": "This day falls within the Season of Easter, a time of joy and celebration of the Resurrection of the Lord. The liturgical color is white, reflecting the light of Christ. The readings focus on the growth of the early Church and the mission to the Gentiles.",
+    "summary_vi": "Ngày này rơi vào Mùa Phục Sinh, thời gian hân hoan và mừng kính sự Phục Sinh của Chúa. Màu phụng vụ là màu trắng, phản ánh ánh sáng của Đức Kitô. Các bài đọc tập trung vào sự tăng trưởng của Giáo hội sơ khai và sứ mệnh đối với dân ngoại.",
+    "body_en": "In the Roman Calendar, Tuesday of the Second Week of Easter is an ordinary weekday (feria) within the fifty-day Eastertide. The focus is not on a specific saint, but on the ongoing celebration of the Paschal Mystery. The lectionary typically presents Acts of the Apostles and a Gospel reading related to the post-resurrection appearances or early missionary activity.",
+    "body_vi": "Trong Lịch Rôma, Thứ Ba Tuần II Mùa Phục Sinh là ngày thường (feria) trong mùa năm mươi ngày Phục Sinh. Trọng tâm không phải là một vị thánh cụ thể, nhưng là việc tiếp tục cử hành Mầu nhiệm Vượt Qua. Sách bài đọc thường trình bày Sách Tông Đồ Công Vụ và một bài Tin Mừng liên quan đến các lần hiện ra sau phục sinh hoặc hoạt động truyền giáo sơ khai.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The liturgical ranking is determined by the General Roman Calendar of 1969. Weekdays in Eastertide are ferias unless a higher-ranking memorial falls on that day.",
+    "confidence_note_vi": "Thứ hạng phụng vụ được xác định bởi Lịch Rôma chung năm 1969. Các ngày thường trong Mùa Phục Sinh là ngày thường trừ khi có một kỷ niệm cao hơn rơi vào ngày đó."
+  },
+  "app_hooks": {
+    "hero_line_en": "Rejoice, for the Lord is risen!",
+    "hero_line_vi": "Hãy vui lên, vì Chúa đã sống lại!",
+    "prayer_prompt_en": "Ask for the courage to proclaim the Resurrection in your daily life.",
+    "prayer_prompt_vi": "Hãy cầu xin lòng can đảm để loan báo sự Phục Sinh trong cuộc sống hàng ngày của bạn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/042027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Saints Index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-07",
+    "hebrew": "13 Nisan 5787",
+    "islamic_umm_al_qura": "13 Dhu al-Qidah 1448 AH",
+    "coptic": "12 Baramouda 1743",
+    "ethiopian": "12 Baramouda 1743"
+  }
+}

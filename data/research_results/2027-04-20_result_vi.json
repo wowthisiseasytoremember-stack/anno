@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba Tuần II Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba Tuần II Mùa Phục Sinh",
+    "summary_vi": "Ngày này rơi vào Mùa Phục Sinh, thời gian hân hoan và mừng kính sự Phục Sinh của Chúa. Màu phụng vụ là màu trắng, phản ánh ánh sáng của Đức Kitô. Các bài đọc tập trung vào sự tăng trưởng của Giáo hội sơ khai và sứ mệnh đối với dân ngoại.",
+    "body_vi": "Trong Lịch Rôma, Thứ Ba Tuần II Mùa Phục Sinh là ngày thường (feria) trong mùa năm mươi ngày Phục Sinh. Trọng tâm không phải là một vị thánh cụ thể, nhưng là việc tiếp tục cử hành Mầu nhiệm Vượt Qua. Sách bài đọc thường trình bày Sách Tông Đồ Công Vụ và một bài Tin Mừng liên quan đến các lần hiện ra sau phục sinh hoặc hoạt động truyền giáo sơ khai.",
+    "confidence_note_vi": "Thứ hạng phụng vụ được xác định bởi Lịch Rôma chung năm 1969. Các ngày thường trong Mùa Phục Sinh là ngày thường trừ khi có một kỷ niệm cao hơn rơi vào ngày đó."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy vui lên, vì Chúa đã sống lại!",
+    "prayer_prompt_vi": "Hãy cầu xin lòng can đảm để loan báo sự Phục Sinh trong cuộc sống hàng ngày của bạn."
+  }
+}

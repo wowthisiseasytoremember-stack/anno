@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-02",
+  "date": "2027-03-02",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay",
+    "summary_en": "This day falls within the season of Lent, specifically in the fourth week. The liturgy emphasizes conversion, penance, and the preparation for the Paschal Mystery through prayer, fasting, and almsgiving. There are no obligatory memorials for saints on this date in the General Roman Calendar that supersede the Lenten feria.",
+    "summary_vi": "Ngày này thuộc Mùa Chay, cụ thể là Tuần thứ IV. Phụng vụ nhấn mạnh việc hoán cải, sám hối và chuẩn bị cho Mầu nhiệm Vượt Qua qua cầu nguyện, ăn chay và bố thí. Không có ngày kính nhớ bắt buộc nào của các thánh thay thế cho ngày thường Mùa Chay trong Lịch Rôma Chung.",
+    "body_en": "On Tuesdays of Lent, the Church invites the faithful to deepen their interior conversion and to reflect on the journey of Christ towards Jerusalem. The readings for this specific week and day generally focus on trust in God's providence and the rejection of superficial worship. The liturgical color is purple (or violet), symbolizing penance and royal dignity, though in some modern contexts green may be used for Ordinary Time fairs if the Lenten rubric is not strictly enforced, but standard Roman Catholic practice dictates purple for Lent.",
+    "body_vi": "Vào các ngày Thứ Ba Mùa Chay, Giáo hội mời gọi các tín hữu đi sâu vào việc hoán cải nội tâm và suy niệm về hành trình của Chúa Giêsu tiến về Jerusalem. Các bài đọc cho tuần và ngày cụ thể này thường tập trung vào lòng tin tưởng vào quan phòng của Thiên Chúa và việc loại bỏ sự thờ phượng hời hợt. Màu phụng vụ là tím, tượng trưng cho sự sám hối và phẩm giá vương giả.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date 2027-03-02 falls clearly within the season of Lent before Easter. In the General Roman Calendar, weekdays of Lent (feria) take precedence over general memorials unless a specific saint's feast is transferred or allowed. There are no major universal solemnities or feasts on this specific Tuesday.",
+    "confidence_note_vi": "Ngày 02-03-2027 rơi rõ ràng vào Mùa Chay trước lễ Phục Sinh. Trong Lịch Rôma Chung, các ngày thường Mùa Chay (feria) ưu tiên hơn các ngày kính nhớ chung trừ khi có lễ kính của một vị thánh cụ thể được chuyển dời hoặc cho phép. Không có lễ trọng hay lễ kính lớn phổ quát nào vào thứ Ba cụ thể này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk gently in the shadow of the Cross.",
+    "hero_line_vi": "Hãy bước đi nhẹ nhàng trong bóng Thập Giá.",
+    "prayer_prompt_en": "Lord, deepen my conversion this Lent.",
+    "prayer_prompt_vi": "Lạy Chúa, xin đào sâu sự hoán cải của con trong Mùa Chay này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/030227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/09409a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-17",
+    "hebrew": "23 Adar 5787",
+    "islamic_umm_al_qura": "23 Ramadan 1448 AH",
+    "coptic": "23 Amshir 1743",
+    "ethiopian": "23 Amshir 1743"
+  }
+}

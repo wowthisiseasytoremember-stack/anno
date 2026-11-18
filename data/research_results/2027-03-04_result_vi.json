@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm trong Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm trong Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, tập trung vào đời sống Kitô hữu trong sự trọn vẹn. Không có lễ nhớ hay lễ kính cụ thể nào chiếm ưu tiên, cho phép sử dụng các bài đọc chuẩn của mùa. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng.",
+    "body_vi": "Vào Thứ Năm trong Mùa Thường Niên này, Giáo Hội mời gọi các tín hữu suy gẫm về sự mạc khải từ từ của Nước Thiên Chúa trong cuộc sống hàng ngày của họ. Các bài đọc từ Sách Bài Đọc Mùa Thường Niên được sử dụng, nhấn mạnh vào giáo huấn đạo đức và giáo lý của Chúa Kitô. Thời kỳ này đóng vai trò là nền tảng cho sự tăng trưởng tâm linh và thực hành nhân đức.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên và không có lễ kính nào có bậc cao hơn trong Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước Đi Trong Hy Vọng: Mùa Thường Niên",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con lớn lên trong nhân đức và sống trung tín mỗi ngày."
+  }
+}

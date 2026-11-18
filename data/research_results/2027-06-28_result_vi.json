@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần XII mùa Thường niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần XII mùa Thường niên",
+    "summary_vi": "Ngày này được cử hành như một ngày trong tuần mùa Thường niên, cụ thể là thứ Hai tuần XII. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự tăng trưởng của Hội Thánh trong giai đoạn này. Không có lễ trọng hay lễ kính lớn nào thay thế việc cử hành ngày trong tuần vào ngày này.",
+    "body_vi": "Phụng vụ Thứ Hai tuần XII mùa Thường niên tập trung vào sự tăng trưởng liên lỉ và lòng kiên trì của các tín hữu. Các bài đọc từ Sách Bài Đọc các ngày trong tuần hướng dẫn cộng đoàn suy niệm qua Kinh Thánh, khuyến khích việc suy tư về đời sống hằng dưới ánh sáng Tin Mừng. Việc cử hành này nêu bật vai trò của giáo dân trong việc thánh hóa thế giới qua những bổn phận thường nhật.",
+    "confidence_note_vi": "Việc cử hành tiêu chuẩn theo Lịch Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong đời thường",
+    "prayer_prompt_vi": "Nguyện xin con tìm thấy Chúa trong những khoảnh khắc thường nhật của đời mình."
+  }
+}

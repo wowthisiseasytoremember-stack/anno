@@ -1,0 +1,53 @@
+{
+  "id": "anno-2027-05-27",
+  "date": "2027-05-27",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Thursday of the Sixth Week of Easter",
+    "title_vi": "Thứ Năm Tuần VI Mùa Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Sixth Week of Easter",
+    "title_vi": "Thứ Năm Tuần VI Mùa Phục Sinh",
+    "summary_en": "This is a weekday within the Easter season, specifically the sixth week. The liturgical focus remains on the resurrection of Christ and the call to live in the light of the Paschal Mystery. Ordinary weekdays in this season observe the Alleluia and are marked by the liturgical color white or gold, though some calendars may use green for ordinary weeks depending on the rubrical interpretation.",
+    "summary_vi": "Đây là ngày thường trong Mùa Phục Sinh, cụ thể là tuần thứ sáu. Trọng tâm phụng vụ vẫn là sự phục sinh của Chúa Kitô và lời mời gọi sống trong ánh sáng của Mầu nhiệm Vượt Qua. Các ngày thường trong mùa này duy trì lời Alleluia và thường được đánh dấu bằng màu trắng hoặc vàng, mặc dù một số lịch có thể sử dụng màu xanh cho các tuần thường tùy theo cách giải thích phụng vụ.",
+    "body_en": "As a feria in the Easter season, the Church invites the faithful to reflect on the post-resurrection appearances and the early life of the Church. The readings typically focus on the growth of the Christian community and the teachings of the Risen Lord. The liturgy emphasizes hope, renewal, and the power of the Holy Spirit who guides believers. The color green is often used on weekdays outside of specific solemnities in Ordinary Time contexts, but the season's spirit remains one of joy.",
+    "body_vi": "Là một ngày trong tuần thuộc Mùa Phục Sinh, Giáo hội mời gọi các tín hữu suy niệm về các lần hiện ra sau phục sinh và đời sống sơ khai của Giáo hội. Các bài đọc thường tập trung vào sự phát triển của cộng đoàn Kitô hữu và lời giáo huấn của Chúa Phục Sinh. Phụng vụ nhấn mạnh vào niềm hy vọng, sự đổi mới và quyền năng của Chúa Thánh Thần, Đấng hướng dẫn các tín hữu. Màu xanh lá cây thường được sử dụng cho các ngày trong tuần bên ngoài các lễ trọng cụ thể trong bối cảnh Mùa Thường Niên, nhưng tinh thần của mùa vẫn là sự vui mừng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Based on the Roman Missal's norms for the Easter season weekday structure for May 2027. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Dựa trên các quy tắc của Sách Lễ Rôma cho cấu trúc các ngày trong tuần của Mùa Phục Sinh vào tháng 5 năm 2027. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of the Resurrection this Thursday.",
+    "hero_line_vi": "Hãy bước đi trong ánh sáng của sự phục sinh trong ngày Thứ Năm này.",
+    "prayer_prompt_en": "Lord, guide us by your Spirit.",
+    "prayer_prompt_vi": "Lạy Chúa, xin hướng dẫn chúng con bằng Thần Khí của Chúa."
+  },
+  "sources": [
+    {
+      "label": "Universal Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "reference"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-14",
+    "hebrew": "20 Iyar 5787",
+    "islamic_umm_al_qura": "20 Dhu al-Hijjah 1448 AH",
+    "coptic": "19 Bashans 1743",
+    "ethiopian": "19 Bashans 1743"
+  }
+}

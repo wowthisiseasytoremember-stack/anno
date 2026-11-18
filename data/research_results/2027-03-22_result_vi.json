@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần IV Mùa Chay",
+    "summary_vi": "Ngày này nằm trong Tuần IV Mùa Chay. Màu phụng vụ là tím, phản ánh mùa sám hối. Các bài đọc và lời cầu nguyện tập trung vào sự hoán cải, mầu nhiệm Vượt Qua, và sự đổi mới tâm linh.",
+    "body_vi": "Vào Thứ Hai Tuần IV Mùa Chay, Giáo hội mời gọi cộng đoàn tín hữu đi sâu vào sự hoán cải qua cầu nguyện, ăn chay, và bố thí. Phụng vụ nhấn mạnh cuộc chiến chống lại tội lỗi và niềm hy vọng trong sự phục sinh của Chúa Kitô. Ngày này là khoảnh khắc tĩnh lặng cho việc tự vấn lương tâm và tín thác vào ân sủng Chúa, giữ vững tính chất trang nghiêm của hành trình Mùa Chay tiến tới lễ Vượt Qua.",
+    "confidence_note_vi": "Phép tính ngày là xác định. Tuần IV Mùa Chay là mùa phụng vụ chính xác cho ngày 22-03-2027 dựa trên chu kỳ Chúa nhật năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Trong sự tĩnh lặng của Mùa Chay, tìm kiếm ánh sáng hoán cải.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn sám hối thật lòng trong tuần này."
+  }
+}

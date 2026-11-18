@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-16",
+  "date": "2027-06-16",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time",
+    "title_vi": "Thứ Tư Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time",
+    "title_vi": "Thứ Tư Mùa Thường Niên",
+    "summary_en": "This date falls within Ordinary Time, specifically the week following the Solemnity of the Most Holy Trinity. As a weekday feria, it holds no obligatory feast or saint commemoration in the General Roman Calendar for 2027. The liturgical color is green, symbolizing growth and hope in the Christian life. Faithful are called to reflect on the teachings of Christ through the daily lectionary readings.",
+    "summary_vi": "Ngày này rơi vào Mùa Thường Niên, cụ thể là tuần sau Lễ Chúa Ba Ngôi. Là một ngày thường (feria) không có lễ nhớ bắt buộc hay thánh nào trong Lịch Rôma Chung năm 2027. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và niềm hy vọng trong đời sống Kitô hữu. Các tín hữu được mời gọi suy gẫm lời Chúa qua các bài đọc trong Sách Bài Đọc hàng ngày.",
+    "body_en": "Since no specific saint or feast is assigned to June 16, 2027, in the standard General Roman Calendar, the liturgical focus remains on the ongoing mystery of Christ's life and the Church's mission in the world. The readings for the day, determined by the lectionary cycle for Ordinary Time, provide guidance for spiritual growth and moral living. The absence of a major feast does not diminish the sanctity of the day, which is observed as a time for personal prayer, works of charity, and adherence to the teachings of the Church.",
+    "body_vi": "Vì không có thánh hay lễ cụ thể nào được gán cho ngày 16 tháng 6 năm 2027 trong Lịch Rôma Chung tiêu chuẩn, trọng tâm phụng vụ vẫn tập trung vào mầu nhiệm liên tục về đời sống của Chúa Kitô và sứ mệnh của Hội Thánh trên thế giới. Các bài đọc trong ngày, được xác định theo chu kỳ Sách Bài Đọc của Mùa Thường Niên, cung cấp hướng dẫn cho sự tăng trưởng tâm linh và đời sống đạo đức. Sự vắng mặt của một đại lễ không làm giảm đi sự thánh thiêng của ngày, vốn được tuân giữ như một thời gian cho lời cầu nguyện cá nhân, các việc bác ái và việc tuân giữ giáo huấn của Hội Thánh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Verified as a standard weekday of Ordinary Time in the 2027 General Roman Calendar.",
+    "confidence_note_vi": "Đã xác minh là một ngày thường tiêu chuẩn của Mùa Thường Niên trong Lịch Rôma Chung năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Hope: A Wednesday in Ordinary Time",
+    "hero_line_vi": "Bước Đi Trong Hy Vọng: Thứ Tư Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help me to live this ordinary day with extraordinary love, rooted in Your grace and open to my neighbors.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con sống ngày thường này với tình yêu phi thường, bén rễ trong ân sủng của Chúa và rộng mở với tha nhân."
+  },
+  "sources": [
+    {
+      "label": "New Advent - Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/14342a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture - Daily Readings",
+      "url": "https://www.catholicculture.org/culture/liturgicalcalendar/api/cm/index.cfm?year=2027&month=6&day=16",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-03",
+    "hebrew": "11 Sivan 5787",
+    "islamic_umm_al_qura": "11 Muharram 1449 AH",
+    "coptic": "9 Paona 1743",
+    "ethiopian": "9 Paona 1743"
+  }
+}

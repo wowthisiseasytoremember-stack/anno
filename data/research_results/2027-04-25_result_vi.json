@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật IV Phục Sinh (Chúa Nhật Chiên Lành)"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật IV Phục Sinh (Chúa Nhật Chiên Lành)",
+    "summary_vi": "Chúa Nhật IV Phục Sinh, còn được gọi là Chúa Nhật Chiên Lành, đánh dấu tuần thứ tư của mùa Phục Sinh. Trọng tâm phụng vụ là Tin Mừng Gioan 10:1-10, nơi Đức Giêsu tự nhận là Mục Tử Nhân Lành, thí mạng sống vì đoàn chiên. Ngày này trùng với lễ kính Thánh sử Maccô, nhưng chủ đề phụng vụ của ngày Chúa Nhật được ưu tiên trong việc cử hành Phụng vụ Giờ Kinh và Thánh lễ.",
+    "body_vi": "Là Chúa Nhật thứ tư mùa Phục Sinh, Giáo hội mời gọi cộng đoàn đi sâu vào sự quan tâm mục tử của Đức Kitô. Các bài đọc nhấn mạnh sự khác biệt giữa Mục Tử Nhân Lành, Đấng hy sinh vì đoàn chiên, và những người làm công không chăm sóc đoàn chiên. Ngày này thường nhắc nhở tầm quan trọng của việc cầu nguyện cho Ơn Gọi linh mục và tu sĩ, phản chiếu lệnh truyền của Đức Kitô về việc cầu xin chủ mùa gặt sai các thợ vào mùa gặt.",
+    "confidence_note_vi": "Trạng thái phụng vụ được cố định trong Lịch Rôma Tổng Quát với tư cách là Chúa Nhật mùa Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lắng nghe tiếng Mục Tử hôm nay.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra tiếng Chúa giữa những ồn ào của thế gian."
+  }
+}

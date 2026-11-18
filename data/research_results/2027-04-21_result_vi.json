@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh",
+    "summary_vi": "Ngày này rơi vào Mùa Phục Sinh, cụ thể là Thứ Tư của Tuần IV Mùa Phục Sinh. Trọng tâm phụng vụ hướng về sự phục sinh của Đức Kitô và niềm vui liên lỉ của cộng đoàn Kitô hữu. Không có thánh hay lễ trọng nào chiếm ưu thế trong ngày trong tuần này, đánh dấu nó là ngày thường với vestu xanh.",
+    "body_vi": "Phụng vụ Lời Chúa cho ngày này thường tiếp tục các bài đọc từ Sách Công Vụ Tông Đồ và các Tin Mừng, suy niệm về sự tăng trưởng của Giáo Hội sơ khai sau Biến cố Phục Sinh. Là một ngày thường, đây là thời điểm để thinh lặng suy niệm về Mầu nhiệm Vượt Qua giữa đời sống hàng ngày. Lời cầu nguyện của Giáo Hội vẫn hướng về ánh sáng của Đức Kitô, Đấng đã chiến thắng sự chết.",
+    "confidence_note_vi": "Ngày và bậc phụng vụ được xác nhận theo Lịch Roma Chung hiện hành."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Ánh Sáng của Chúa Phục Sinh",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con sống như những người của ánh sáng."
+  }
+}

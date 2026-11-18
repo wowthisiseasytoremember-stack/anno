@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-11",
+  "date": "2027-02-11",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "memorial",
+    "color": "white",
+    "title_en": "Our Lady of Lourdes",
+    "title_vi": "Đức Mẹ Lộ Đức"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Our Lady of Lourdes",
+    "title_vi": "Đức Mẹ Lộ Đức",
+    "summary_en": "The Memorial of Our Lady of Lourdes is celebrated on February 11. It commemorates the apparitions of the Blessed Virgin Mary to Saint Bernadette Soubirous in 1858. The Church honors the Virgin Mary under this title and encourages the faithful to pray for healing.",
+    "summary_vi": "Lễ kính Đức Mẹ Lộ Đức được cử hành vào ngày 11 tháng Hai. Lễ này tưởng nhớ những lần Đức Trinh Nữ Maria hiện ra với Thánh Bernadette Soubirous vào năm 1858. Giáo hội tôn vinh Đức Trinh Nữ Maria dưới tước hiệu này và khuyến khích các tín hữu cầu nguyện xin ơn chữa lành.",
+    "body_en": "This memorial is observed within Ordinary Time on a Thursday. As a memorial of the Lord or a significant Marian devotion, it takes precedence over the weekday feria. The liturgical color is white, signifying the purity of the Virgin Mary. The focus of the day is on the intercession of Mary and the sanctity of the body and soul, often associated with the sick.",
+    "body_vi": "Lễ này được cử hành trong Mùa Thường Niên vào ngày Thứ Năm. Với tư cách là lễ kính nhớ Đức Mẹ hoặc một lòng sùng kính quan trọng, nó ưu tiên hơn ngày trong tuần thường lệ. Màu phụng vụ là trắng, biểu thị sự trong sạch của Đức Trinh Nữ Maria. Trọng tâm của ngày này là sự chuyển cầu của Đức Mẹ và sự thánh thiêng của thể xác và linh hồn, thường gắn liền với những người bệnh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Our Lady of Lourdes is a fixed Memorial in the General Roman Calendar.",
+    "confidence_note_vi": "Đức Mẹ Lộ Đức là Lễ kính nhớ cố định trong Lịch Phụng vụ Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Healing flows through the waters of Lourdes, and grace through the heart of Mary.",
+    "hero_line_vi": "Ơn chữa lành chảy qua dòng nước Lộ Đức, và ân sủng qua trái tim Đức Mẹ.",
+    "prayer_prompt_en": "Lord, through the intercession of Our Lady of Lourdes, grant me health of body and strength of soul to serve you more faithfully.",
+    "prayer_prompt_vi": "Chúa ơi, nhờ lời chuyển cầu của Đức Mẹ Lộ Đức, xin ban cho con sức khỏe thể xác và sức mạnh linh hồn để phục vụ Chúa trung tín hơn."
+  },
+  "sources": [
+    {
+      "label": "United States Conference of Catholic Bishops - Calendar for February 11, 2027",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Saints for February 11",
+      "url": "https://www.newadvent.org/summa/1.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-29",
+    "hebrew": "4 Adar 5787",
+    "islamic_umm_al_qura": "4 Ramadan 1448 AH",
+    "coptic": "4 Amshir 1743",
+    "ethiopian": "4 Amshir 1743"
+  }
+}

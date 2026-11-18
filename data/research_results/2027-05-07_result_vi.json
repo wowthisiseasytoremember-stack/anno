@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần V Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần V Thường Niên",
+    "summary_vi": "Ngày này thuộc Tuần V Mùa Thường Niên, thời gian dành cho sự tăng trưởng và thánh hóa của Hội Thánh. Là một ngày trong tuần (feria), ngày này nhấn mạnh việc sống Lời Chúa cách cụ thể trong đời sống hằng ngày. Màu phụng vụ là xanh lá, tượng trưng cho niềm hy vọng và sự sống. Không có vị thánh nào bắt buộc cử hành chung cho ngày này trong Lịch Rôma Tổng Quát.",
+    "body_vi": "Trong ngày Thứ Sáu này, Hội Thánh mời gọi cộng đoàn suy niệm về lời dạy của Chúa Kitô trong Mùa Thường Niên. Các bài đọc thường tập trung vào chủ đề môn đệ, bản chất của Nước Trời, hoặc các chỉ dẫn đạo đức. Vì là ngày trong tuần, Thánh Lễ tuân theo hình thức tiêu chuẩn của ngày trong tuần, cho phép linh hoạt trong việc chọn bài đọc nếu được phép, hoặc theo sách bài đọc hằng ngày. Ngày này nhắc nhở rằng sự thánh thiện được tìm thấy trong những bổn phận thường nhật của đời sống khi được dâng lên Thiên Chúa với tình yêu và sự trung tín.",
+    "confidence_note_vi": "Ngày này được xác nhận là ngày trong tuần Mùa Thường Niên. Không có vị thánh nào được liệt kê là kỷ niệm bắt buộc toàn cầu vào ngày 7 tháng 5 trong Lịch Rôma Tổng Quát hiện tại."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm thấy Thiên Chúa trong điều bình thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong công việc hằng ngày và phục vụ tha nhân với niềm vui."
+  }
+}

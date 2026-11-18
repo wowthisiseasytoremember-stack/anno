@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư Tuần VI Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần VI Thường Niên",
+    "summary_vi": "Ngày này được cử hành như một ngày thường (feria) trong Mùa Thường Niên, cụ thể là Tuần VI. Màu phụng vụ là màu xanh lục, tượng trưng cho hy vọng và sự tăng trưởng trong đức tin. Không có lễ tưởng nhớ bắt buộc nào thay thế ngày này trong Lịch Rôma Chung năm 2027.",
+    "body_vi": "Các bài đọc trong ngày này thường tập trung vào đời sống liên tục của Giáo hội và những giáo huấn đạo đức từ Tin Mừng theo thánh Máccô, chương 8, hoặc các đoạn sách tương tự tùy thuộc vào chu kỳ sách Bài đọc hiệu lực cho năm 2027. Các tín hữu được mời gọi suy gẫm về cuộc đồng hành hàng ngày với Đức Kitô.",
+    "confidence_note_vi": "Tính toán xác định dựa trên Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Hy vọng giữa Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khiêm nhường để bước theo Chúa trong những khoảnh khắc thường nhật của đời sống."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-16",
+  "date": "2027-02-16",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Ba Tuần V Mùa Thường Niên",
+    "summary_en": "The Church celebrates the ordinary progression of the liturgical year in the Fifth Week of Ordinary Time. On this Tuesday, the liturgical focus remains on the teachings and mysteries of Christ's public ministry as presented in the Gospels. The vestments are green, symbolizing the hope and growth of the faithful during this season.",
+    "summary_vi": "Giáo Hội cử hành sự tiến triển thông thường của năm phụng vụ trong Tuần Thứ Năm Mùa Thường Niên. Vào Thứ Ba này, trọng tâm phụng vụ vẫn là những lời dạy và mầu nhiệm về sứ vụ công khai của Chúa Kitô được trình bày trong các Tin Mừng. Áo lễ màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của các tín hữu trong mùa này.",
+    "body_en": "As a weekday in Ordinary Time, Tuesday holds no specific universal solemnity or feast that overrides the temporal cycle. The readings typically follow the lectionary cycle for the fifth week, offering scripture passages that invite reflection on humility, prayer, and the kingdom of God. The faithful are encouraged to integrate these scriptural insights into their daily lives, growing in virtue and understanding of the Christian mission.",
+    "body_vi": "Là một ngày trong tuần của Mùa Thường Niên, Thứ Ba không có lễ trọng hay lễ kính phổ quát nào cụ thể thay thế chu kỳ thời gian. Các bài đọc thường tuân theo chu kỳ bài đọc của tuần thứ năm, cung cấp các đoạn Kinh Thánh mời gọi suy niệm về sự khiêm nhường, cầu nguyện và Nước Thiên Chúa. Các tín hữu được khuyến khích tích hợp những hiểu biết Kinh Thánh này vào cuộc sống hàng ngày, phát triển trong nhân đức và sự hiểu biết về sứ mệnh Kitô giáo.",
+    "confidence": "confirmed",
+    "confidence_note_en": "According to the General Roman Calendar, February 16 is a weekday (Feria) in Ordinary Time unless a specific local saint's feast is celebrated, which is not universal.",
+    "confidence_note_vi": "Theo Lịch Rôma Phổ Quát, ngày 16 tháng Hai là ngày trong tuần (Feria) trong Mùa Thường Niên trừ khi một lễ kính thánh cụ thể của địa phương được cử hành, điều này không phải là phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Hope: The Ordinary Rhythms of Grace",
+    "hero_line_vi": "Đi trong Hy Vọng: Những Nhịp Điệu Bình Thường Của Ơn Sủng",
+    "prayer_prompt_en": "Lord, help us to see Your presence in the ordinary moments of our lives. Give us the wisdom to grow in faith and the courage to live out Your Gospel today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhìn thấy sự hiện diện của Ngài trong những khoảnh khắc bình thường của cuộc sống chúng con. Xin ban cho chúng con sự khôn ngoan để tăng trưởng trong đức tin và lòng can đảm để sống Tin Mừng của Ngài hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture: Liturgical Calendar",
+      "url": "https://www.catholicculture.org/calendar/liturgical.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-03",
+    "hebrew": "9 Adar 5787",
+    "islamic_umm_al_qura": "9 Ramadan 1448 AH",
+    "coptic": "9 Amshir 1743",
+    "ethiopian": "9 Amshir 1743"
+  }
+}

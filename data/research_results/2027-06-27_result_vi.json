@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật XIII Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật XIII Thường Niên",
+    "summary_vi": "Chúa Nhật XIII Thường Niên thuộc mùa Thường Niên, với màu sắc phụng vụ chủ đạo là màu xanh. Giai đoạn này tập trung vào sự tăng trưởng của Hội Thánh và cộng đoàn dân Chúa khi suy tư về lời giảng dạy và sứ vụ của Chúa Giêsu. Các bài đọc thường nhấn mạnh các chủ đề về môn đệ, đức tin, và lời mời gọi sống Tin Mừng trong đời sống hằng ngày.",
+    "body_vi": "Trong Lịch Rôma Tổng quát, Chúa Nhật XIII Thường Niên là thời khắc quan trọng cho việc cầu nguyện cộng đoàn và suy niệm Lời Chúa. Ngày này mời gọi cộng đoàn đi sâu vào tương quan với Đức Kitô và áp dụng những giáo huấn của Ngài vào những thách đố hiện tại. Khác với các lễ trọng trong chu kỳ Giáng Sinh hay Phục Sinh, Chúa Nhật này giữ nguyên tính chất đơn sơ nhưng sâu sắc của mùa Thường Niên, nhấn mạnh sự liên tục và trưởng thành thiêng liêng.",
+    "confidence_note_vi": "Ngày tháng và bậc lễ là tiêu chuẩn cho Chúa Nhật XIII Thường Niên trong lịch Công giáo Rôma năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đào Sâu Đức Tin Trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con sống tinh thần môn đệ với lòng can đảm và khiêm nhường trong tuần này."
+  }
+}

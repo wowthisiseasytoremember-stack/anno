@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-26",
+  "date": "2027-03-26",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần V Mùa Thường Niên",
+    "summary_en": "This date falls on a Friday in the Fifth Week of Ordinary Time, observing the green liturgical color. The Church invites the faithful to reflect on the teachings of Christ in the daily Gospel readings, which for this year follow the cycle of Luke. No specific saint's memorial overrides the day's feria status in the General Roman Calendar.",
+    "summary_vi": "Ngày này rơi vào Thứ Sáu của Tuần V Mùa Thường Niên, với màu phụng vụ xanh lá cây. Giáo Hội mời gọi các tín hữu suy gẫm về lời dạy của Chúa Kitô qua các bài đọc Tin Mừng hằng ngày, tuân theo chu kỳ của sách Luca trong năm này. Không có ngày kính nhớ thánh nhân cụ thể nào thay thế trạng thái tuần nhật trong Lịch Rôma Tổng Quát.",
+    "body_en": "On this Friday, the liturgy focuses on the gradual transformation of the heart through adherence to the Word of God. The readings typically emphasize the necessity of faith and the response to divine grace, serving as a spiritual preparation for the upcoming Easter Triduum. The absence of a high-ranking feast allows for a contemplative observance of the ordinary life of the Church.",
+    "body_vi": "Vào Thứ Sáu này, phụng vụ tập trung vào sự biến đổi dần dần của tâm hồn qua sự tuân giữ Lời Chúa. Các bài đọc thường nhấn mạnh sự cần thiết của đức tin và phản ứng với ơn thánh, đóng vai trò là sự chuẩn bị tinh thần cho Tam Nhật Vượt Qua sắp tới. Việc thiếu các lễ trọng cho phép cử hành suy niệm cuộc sống thường nhật của Giáo Hội.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a standard feria in Ordinary Time based on the 2027 liturgical calendar calculations.",
+    "confidence_note_vi": "Ngày này là tuần nhật tiêu chuẩn trong Mùa Thường Niên dựa trên tính toán lịch phụng vụ năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Listen to the Word, and let it change your heart.",
+    "hero_line_vi": "Hãy lắng nghe Lời Chúa, và để Lời biến đổi tâm hồn bạn.",
+    "prayer_prompt_en": "Lord, grant me the grace to hear Your voice clearly amidst the noise of the world.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban ơn cho con biết nghe tiếng Chúa rõ ràng giữa ồn ào của thế gian."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/032627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?date=2027-03-26",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-13",
+    "hebrew": "17 Adar II 5787",
+    "islamic_umm_al_qura": "17 Shawwal 1448 AH",
+    "coptic": "17 Baramhat 1743",
+    "ethiopian": "17 Baramhat 1743"
+  }
+}

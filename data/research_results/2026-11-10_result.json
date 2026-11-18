@@ -4,10 +4,10 @@
   "weekday": "Tuesday",
   "mock_priority": "engine_b_v1",
   "liturgical": {
-    "rank": "Feria",
-    "color": "green",
-    "title_en": "Tuesday of the 32th Week in Ordinary Time",
-    "title_vi": "Thứ Ba tuần 32 Mùa Thường Niên"
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Saint Leo the Great, Pope and Doctor of the Church",
+    "title_vi": ""
   },
   "calendars": {
     "julian": "2026-10-28",
@@ -17,41 +17,43 @@
     "ethiopian": "1 Hidar 2019"
   },
   "primary": {
-    "type": "liturgical_day",
-    "title_en": "Tuesday of the 32th Week in Ordinary Time",
-    "title_vi": "Thứ Ba tuần 32 Mùa Thường Niên",
-    "summary_en": "This Tuesday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-    "summary_vi": "Ngày Tuesday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-    "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Tuesday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
-    "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Tuesday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
+    "type": "memorial",
+    "title_en": "Saint Leo the Great, Pope and Doctor of the Church",
+    "title_vi": "",
+    "summary_en": "Saint Leo I, known as Leo the Great, served as Pope from 440 to 461 and is recognized for his profound theological writings and diplomatic skill. He famously met Attila the Hun to spare Rome from destruction and articulated the doctrine of the two natures of Christ at the Council of Chalcedon. Declared a Doctor of the Church, his sermons remain central to Catholic liturgy and theology.",
+    "summary_vi": "",
+    "body_en": "Pope Saint Leo the Great is celebrated for his pivotal role in defining the mystery of the Incarnation and for his steadfast defense of the Church's unity. His Tome to Flavian, which clarified the union of divine and human natures in the one Person of Jesus Christ, was affirmed by the Council of Chalcedon in 451. Beyond theology, Leo was a man of action who successfully negotiated with Attila the Hun, sparing Rome from sack and demonstrating the moral authority of the Papacy. His 96 surviving sermons and 143 letters exhibit a mastery of rhetoric that has influenced Christian thought for millennia. Today's readings from Titus and Luke call believers to humility and faithful service, echoing Leo's teaching that true leadership is rooted in service to God and neighbor.",
+    "body_vi": "",
     "confidence": "confirmed",
-    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-10.",
-    "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-10."
+    "confidence_note_en": "Saint Leo the Great is a firmly established Doctor of the Church and his memorial is fixed in the Roman Martyrology.",
+    "confidence_note_vi": ""
   },
-  "place": null,
+  "place": {
+    "name": "Rome, Italy"
+  },
   "artwork": {
-    "title": "Liturgical Meditation for Ordinary Time",
-    "maker": "Christian Sacred Art",
-    "date_label": "Historical",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
+    "title": null,
+    "maker": null,
+    "date_label": null,
+    "source_url": null,
     "status": "placeholder_only"
   },
   "sources": [
     {
-      "label": "USCCB Liturgical Calendar 2026",
-      "url": "https://bible.usccb.org/daily-bible-reading",
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/111026.cfm",
       "type": "liturgical_calendar"
     },
     {
-      "label": "General Roman Calendar 2026",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-      "type": "vatican"
+      "label": "Britannica Entry on Leo I",
+      "url": "https://www.britannica.com/biography/Leo-I",
+      "type": "encyclopedia"
     }
   ],
   "app_hooks": {
-    "hero_line_en": "Live the grace of Ordinary Time on this Tuesday",
-    "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Tuesday",
-    "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Tuesday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
-    "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Tuesday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
+    "hero_line_en": "The voice that stopped the Huns and defined the Incarnation.",
+    "hero_line_vi": "",
+    "prayer_prompt_en": "Grant us the humility to serve, like Pope Saint Leo who taught that authority is best exercised in humble service to Christ.",
+    "prayer_prompt_vi": ""
   }
 }

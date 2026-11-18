@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần V Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần V Thường Niên",
+    "summary_vi": "Ngày này rơi vào Thứ Hai của Tuần V Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và niềm hy vọng của cộng đoàn tín hữu khi tiếp tục hành trình trong Mùa Thường Niên. Không có lễ trọng hay lễ kính buộc nào có vị trí phổ quát ưu tiên hơn các bài đọc trong ngày.",
+    "body_vi": "Trọng tâm phụng vụ cho ngày Thứ Hai, 15 tháng 2 năm 2027, vẫn là sự tiến triển bình thường của niên lịch Giáo hội. Các bài đọc sẽ được rút ra từ chu kỳ trong tuần, nhấn mạnh sự hoán cải hằng ngày và những lời dạy của Chúa Kitô được ghi chép trong các Tin Mừng. Việc không có lễ kính nào có thứ hạng cao hơn cho phép một sự suy niệm tĩnh lặng về việc thánh hóa thời gian trong đời sống hằng ngày.",
+    "confidence_note_vi": "Ngày này được xác nhận là một ngày trong tuần Mùa Thường Niên theo Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi nhẹ nhàng trong Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày sống."
+  }
+}

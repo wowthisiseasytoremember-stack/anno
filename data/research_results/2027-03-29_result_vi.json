@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần V Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần V Mùa Chay",
+    "summary_vi": "Ngày này rơi vào tuần thứ năm của Mùa Chay, thời gian chuẩn bị tâm linh sâu sắc cho lễ Phục Sinh. Là một ngày thường nhật trong Mùa Chay trước Tam Nhật Vượt Qua, nó giữ đặc tính sám hối của mùa nhưng không phải là lễ Trọng hay lễ Kính. Màu phụng vụ chủ đạo là tím.",
+    "body_vi": "Các bài đọc trong Thứ Hai tuần V Mùa Chay thường tập trung vào việc sống theo lời Chúa và mầu nhiệm đức tin. Giáo hội khuyến khích các tín hữu đào sâu đời sống cầu nguyện và các việc bác ái trong những ngày cuối cùng của Mùa Chay trước khi Tuần Thánh bắt đầu. Phụng vụ nhấn mạnh sự hoán cải và từ bỏ tội lỗi, thúc đẩy các tín hữu đón nhận ánh sáng của Đức Kitô.",
+    "confidence_note_vi": "Việc tính toán ngày tháng là xác định. Không có thánh nào bắt buộc trong Thứ Hai này theo Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đào sâu sự hoán cải Mùa Chay qua cầu nguyện và suy niệm.",
+    "prayer_prompt_vi": "Lạy Chúa, khi Mùa Chay sắp kết thúc, xin đổi mới tâm hồn chúng con để đón nhận Ngài."
+  }
+}

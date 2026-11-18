@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-25",
+  "date": "2027-04-25",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feast",
+    "color": "white",
+    "title_en": "Fourth Sunday of Easter (Good Shepherd Sunday)",
+    "title_vi": "Chúa Nhật IV Phục Sinh (Chúa Nhật Chiên Lành)"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Fourth Sunday of Easter (Good Shepherd Sunday)",
+    "title_vi": "Chúa Nhật IV Phục Sinh (Chúa Nhật Chiên Lành)",
+    "summary_en": "The Fourth Sunday of Easter is traditionally known as Good Shepherd Sunday, marking the fourth week of the Easter season. The liturgical focus centers on the Gospel of John 10:1-10, where Christ identifies Himself as the Good Shepherd who lays down His life for the sheep. This day also coincides with the Feast of Saint Mark the Evangelist, but the Sunday liturgical theme takes precedence in the celebration of the Divine Office and Mass.",
+    "summary_vi": "Chúa Nhật IV Phục Sinh, còn được gọi là Chúa Nhật Chiên Lành, đánh dấu tuần thứ tư của mùa Phục Sinh. Trọng tâm phụng vụ là Tin Mừng Gioan 10:1-10, nơi Đức Giêsu tự nhận là Mục Tử Nhân Lành, thí mạng sống vì đoàn chiên. Ngày này trùng với lễ kính Thánh sử Maccô, nhưng chủ đề phụng vụ của ngày Chúa Nhật được ưu tiên trong việc cử hành Phụng vụ Giờ Kinh và Thánh lễ.",
+    "body_en": "As the fourth Sunday of Easter, the Church invites the faithful to deepen their understanding of Christ's pastoral care. The readings emphasize the distinction between the Good Shepherd, who sacrifices for His flock, and hired hands who do not care for the sheep. This day often serves as a reminder of the importance of prayer for vocations to the priesthood and religious life, echoing Christ's command to pray for laborers to be sent into His harvest.",
+    "body_vi": "Là Chúa Nhật thứ tư mùa Phục Sinh, Giáo hội mời gọi cộng đoàn đi sâu vào sự quan tâm mục tử của Đức Kitô. Các bài đọc nhấn mạnh sự khác biệt giữa Mục Tử Nhân Lành, Đấng hy sinh vì đoàn chiên, và những người làm công không chăm sóc đoàn chiên. Ngày này thường nhắc nhở tầm quan trọng của việc cầu nguyện cho Ơn Gọi linh mục và tu sĩ, phản chiếu lệnh truyền của Đức Kitô về việc cầu xin chủ mùa gặt sai các thợ vào mùa gặt.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Liturgical status is fixed in the General Roman Calendar as a Sunday of Easter.",
+    "confidence_note_vi": "Trạng thái phụng vụ được cố định trong Lịch Rôma Tổng Quát với tư cách là Chúa Nhật mùa Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_en": "Listen to the Shepherd's voice today.",
+    "hero_line_vi": "Hãy lắng nghe tiếng Mục Tử hôm nay.",
+    "prayer_prompt_en": "Lord, help me recognize Your voice among the distractions of the world.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra tiếng Chúa giữa những ồn ào của thế gian."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Proper for the Fourth Sunday of Easter",
+      "url": "https://www.usccb.org/bible/readings/042520.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Fourth Sunday of Easter",
+      "url": "https://www.newadvent.org/cathen/01288a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-12",
+    "hebrew": "18 Nisan 5787",
+    "islamic_umm_al_qura": "18 Dhu al-Qidah 1448 AH",
+    "coptic": "17 Baramouda 1743",
+    "ethiopian": "17 Baramouda 1743"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-13",
+  "date": "2027-04-13",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Second Week of Easter",
+    "title_vi": "Thứ Ba tuần 2 Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Second Week of Easter",
+    "title_vi": "Thứ Ba tuần 2 Phục Sinh",
+    "summary_en": "This Tuesday falls within the Octave of Easter and the second week of the Easter Season. The liturgy focuses on the post-Resurrection appearances of Jesus and the growth of the early Church. There are no obligatory memorials for saints on this specific date in the General Roman Calendar for this year.",
+    "summary_vi": "Thứ Ba này thuộc Tuần Bát Nhật Phục Sinh và tuần 2 Mùa Phục Sinh. Phụng vụ tập trung vào các lần hiện ra của Chúa Giêsu sau khi sống lại và sự tăng trưởng của Giáo Hội sơ khai. Không có lễ nhớ buộc về các thánh vào ngày cụ thể này trong Lịch Phụng vụ Rôma tổng quát của năm này.",
+    "body_en": "During the Easter season, the liturgical color is white, symbolizing joy and the light of Christ's Resurrection. The readings typically come from the Acts of the Apostles, detailing the missionary efforts of the early disciples, and the Gospel accounts of the Risen Lord. The community is called to reflect on the reality of the Resurrection and its impact on daily life, maintaining a spirit of celebration throughout the forty days until Pentecost.",
+    "body_vi": "Trong Mùa Phục Sinh, màu phụng vụ là trắng, tượng trưng cho niềm vui và ánh sáng của sự Phục Sinh của Chúa Kitô. Các bài đọc thường lấy từ sách Công vụ Tông đồ, mô tả các nỗ lực truyền giáo của các môn đệ thời sơ khai, và các trình thuật Tin Mừng về Chúa Phục Sinh. Cộng đoàn được mời gọi suy niệm về thực tại của sự Phục Sinh và tác động của nó đối với cuộc sống hằng ngày, duy trì tinh thần mừng vui trong suốt bốn mươi ngày cho đến lễ Hiện Xuống.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls in the weekday cycle of the Easter season with no ranked saint obligatory for universal celebration.",
+    "confidence_note_vi": "Ngày này rơi vào chu kỳ ngày thường của Mùa Phục Sinh mà không có lễ thánh nào bắt buộc cho việc cử hành phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of the Risen Lord.",
+    "hero_line_vi": "Hãy bước đi trong ánh sáng của Chúa Phục Sinh.",
+    "prayer_prompt_en": "Pray for the grace to recognize the presence of the Risen Christ in your daily encounters.",
+    "prayer_prompt_vi": "Hãy cầu xin ơn nhận ra sự hiện diện của Chúa Kitô Phục Sinh trong những gặp gỡ hàng ngày của bạn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-31",
+    "hebrew": "6 Nisan 5787",
+    "islamic_umm_al_qura": "6 Dhu al-Qidah 1448 AH",
+    "coptic": "5 Baramouda 1743",
+    "ethiopian": "5 Baramouda 1743"
+  }
+}

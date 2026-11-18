@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần V Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần V Thường Niên",
+    "summary_vi": "Đây là ngày trong tuần (feria) trong Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và thời kỳ của Giáo Hội. Không có lễ kính nào cụ thể được ưu tiên, do đó Thánh lễ tuân theo sách bài đọc ngày trong tuần.",
+    "body_vi": "Là một ngày trong tuần của Tuần Thứ Năm Mùa Thường Niên, trọng tâm là việc tiếp tục đọc Kinh Thánh và áp dụng nhân đức Kitô giáo vào cuộc sống hàng ngày. Các bài đọc Thánh lễ được chọn để hướng dẫn người tín hữu trong cuộc hoán cải liên lỉ. Màu xanh lá cây phản ánh niềm hy vọng và sự tăng trưởng vững chắc của Nước Trời trong thời kỳ không phải lễ trọng này.",
+    "confidence_note_vi": "Ngày trong tuần tiêu chuẩn trong Mùa Thường Niên theo Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Xanh là màu sắc của sự tăng trưởng. Hãy để đức tin của bạn đào sâu trong sự tĩnh lặng của Mùa Thường Niên này.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lớn lên trong sự thánh thiện hôm nay qua những hành động nhỏ bé và trung tín."
+  }
+}

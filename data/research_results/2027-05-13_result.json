@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-13",
+  "date": "2027-05-13",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Ascension of the Lord",
+    "title_vi": "Lễ Đức Chúa Giêsu Lên Trời"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Ascension of the Lord",
+    "title_vi": "Lễ Đức Chúa Giêsu Lên Trời",
+    "summary_en": "The Ascension of the Lord marks the final earthly appearance of the resurrected Christ before he ascends to heaven. It is the fortieth day after Easter and celebrates the glorification of Christ's human nature at the right hand of the Father. The feast emphasizes Christ's sovereign rule and the mission of the Church on earth.",
+    "summary_vi": "Lễ Đức Chúa Giêsu Lên Trời đánh dấu lần hiện ra cuối cùng của Chúa Kitô Phục Sinh trên trần gian trước khi Người lên trời. Đây là ngày thứ bốn mươi sau lễ Vượt Qua, cử hành sự tôn vinh nhân tính của Chúa Kitô bên hữu Chúa Cha. Lễ này nhấn mạnh quyền bính tối cao của Chúa Kitô và sứ mạng của Hội Thánh trên trần gian.",
+    "body_en": "The Solemnity of the Ascension commemorates the event where Jesus Christ, forty days after his resurrection, was taken up into heaven to sit at the right hand of God the Father. This feast is not merely about departure but about exaltation, signifying that Christ, in his humanity, has entered the heavenly sanctuary. It is a day of joy and hope, marking the beginning of the Church's mission to proclaim the Gospel until the end of the age.",
+    "body_vi": "Lễ Đức Chúa Giêsu Lên Trời tưởng nhớ biến cố khi Chúa Kitô, bốn mươi ngày sau khi sống lại, được cất nhắc lên trời để ngự bên hữu Thiên Chúa Cha. Lễ này không chỉ là sự chia lìa mà là sự tôn vinh, biểu thị rằng Chúa Kitô, trong nhân tính của Người, đã bước vào cung thánh thiên giới. Đây là ngày vui mừng và hy vọng, đánh dấu khởi đầu sứ mạng loan báo Tin Mừng của Hội Thánh cho đến tận cùng thế giới.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The Ascension is a fixed date in the General Roman Calendar, always falling 40 days after Easter Sunday.",
+    "confidence_note_vi": "Lễ Đức Chúa Giêsu Lên Trời là ngày cố định trong Lịch Phụng vụ Rôma, luôn rơi vào ngày thứ 40 sau lễ Vượt Qua."
+  },
+  "app_hooks": {
+    "hero_line_en": "He ascended into heaven, and sits at the right hand of the Father.",
+    "hero_line_vi": "Người lên trời, đang ngự bên hữu Chúa Cha.",
+    "prayer_prompt_en": "Lord, raise our minds and hearts to the heavenly Jerusalem where you sit in glory.",
+    "prayer_prompt_vi": "Lạy Chúa, xin nâng tâm hồn và trí lòng chúng con hướng về Giêrusalem thiên quốc, nơi Chúa đang ngự trong vinh quang."
+  },
+  "sources": [
+    {
+      "label": "Vatican - Catechism on Ascension",
+      "url": "https://www.vatican.va/archive/ENG0015/__P27.HTM",
+      "type": "vatican"
+    },
+    {
+      "label": "USCCB - Ascension of the Lord",
+      "url": "https://www.usccb.org/bible/readings/051327.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-30",
+    "hebrew": "6 Iyar 5787",
+    "islamic_umm_al_qura": "6 Dhu al-Hijjah 1448 AH",
+    "coptic": "5 Bashans 1743",
+    "ethiopian": "5 Bashans 1743"
+  }
+}

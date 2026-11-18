@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Đức Mẹ Truyền Tin"
+  },
+  "primary": {
+    "title_vi": "Lễ Đức Mẹ Truyền Tin",
+    "summary_vi": "Hội Thánh cử hành khoảnh khắc khi Tổng Thần Gabriel loan báo cho Trinh Nữ Maria rằng Mẹ sẽ thụ thai và sinh hạ Con Thiên Chúa. Lễ trọng thể này đánh dấu khởi đầu của Mầu Nhiệm Nhập Thể, xảy ra chính xác chín tháng trước Lễ Giáng Sinh. Đây là ngày vui mừng và khiêm nhường sâu sắc, tôn vinh lời 'xin vâng' của Mẹ Maria.",
+    "body_vi": "Vào ngày 25 tháng 3, Hội Thánh tạm dừng hành trình Mùa Chay để cử hành khoảnh khắc Nhập Thể. Lễ Truyền Tin không chỉ là một biến cố lịch sử mà còn là lời mời gọi liên lỉ để đón nhận Đức Kitô vào đời sống của chúng ta qua đức tin và sự vâng phục. Màu phụng vụ là màu trắng, tượng trưng cho sự tinh tuyền và vinh quang của Thiên Chúa bước vào thế gian. Lời đáp trả của Mẹ Maria, 'Xin hãy xảy ra cho tôi theo lời Ngài,' là khuôn mẫu của đời sống môn đệ Kitô giáo và sự khiêm nhường trước Ý Chúa.",
+    "confidence_note_vi": "Ngày cố định trong Lịch Phụng vụ Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Xin hãy xảy ra cho tôi theo lời Ngài.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con đón nhận ý Chúa với sự khiêm nhường và đức tin của Mẹ Maria."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần V Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần V Mùa Chay",
+    "summary_vi": "Ngày này thuộc Mùa Chay, thời gian sám hối và chuẩn bị cho lễ Phục Sinh. Không có thánh hay lễ lớn nào được kỷ niệm phổ quát vào ngày này trong Lịch Phụng vụ Rôma. Phụng vụ tập trung vào các chủ đề sám hối của mùa.",
+    "body_vi": "Các bài đọc cho Thứ Năm Tuần V Mùa Chay nhấn mạnh sự cần thiết của sự hoán cải và tầm quan trọng của sự trung tín trong quản lý. Giáo hội mời gọi cộng đoàn đào sâu lời cầu nguyện và việc bố thí khi Tuần Thánh đang đến gần.",
+    "confidence_note_vi": "Trạng thái phụng vụ là chuẩn cho ngày thường trong Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy chuẩn bị tâm hồn, vì Đại lễ đang gần đến.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn hoán cải thực sự trong những ngày cuối cùng của Mùa Chay."
+  }
+}

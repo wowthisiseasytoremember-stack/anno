@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-28",
+  "date": "2027-06-28",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Monday of the Twelfth Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần XII mùa Thường niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Twelfth Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần XII mùa Thường niên",
+    "summary_en": "This day is observed as a weekday in Ordinary Time, specifically the Monday of the twelfth week. The liturgical color is green, symbolizing hope and the growth of the Church during this period. There are no major solemnities or feasts that supersede the weekday observance on this date.",
+    "summary_vi": "Ngày này được cử hành như một ngày trong tuần mùa Thường niên, cụ thể là thứ Hai tuần XII. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự tăng trưởng của Hội Thánh trong giai đoạn này. Không có lễ trọng hay lễ kính lớn nào thay thế việc cử hành ngày trong tuần vào ngày này.",
+    "body_en": "The liturgy for Monday of the Twelfth Week in Ordinary Time focuses on the continuous growth and perseverance of the faithful. Readings from the Lectionary for weekdays guide the community through Scripture, encouraging reflection on daily life in light of the Gospel. This observance highlights the role of the laity in sanctifying the world through ordinary duties.",
+    "body_vi": "Phụng vụ Thứ Hai tuần XII mùa Thường niên tập trung vào sự tăng trưởng liên lỉ và lòng kiên trì của các tín hữu. Các bài đọc từ Sách Bài Đọc các ngày trong tuần hướng dẫn cộng đoàn suy niệm qua Kinh Thánh, khuyến khích việc suy tư về đời sống hằng dưới ánh sáng Tin Mừng. Việc cử hành này nêu bật vai trò của giáo dân trong việc thánh hóa thế giới qua những bổn phận thường nhật.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard observance per General Roman Calendar.",
+    "confidence_note_vi": "Việc cử hành tiêu chuẩn theo Lịch Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growth in the Ordinary",
+    "hero_line_vi": "Tăng trưởng trong đời thường",
+    "prayer_prompt_en": "May I find God in the ordinary moments of my day.",
+    "prayer_prompt_vi": "Nguyện xin con tìm thấy Chúa trong những khoảnh khắc thường nhật của đời mình."
+  },
+  "sources": [
+    {
+      "label": "USCCB Calendar",
+      "url": "https://www.usccb.org/calendar/2027",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-15",
+    "hebrew": "23 Sivan 5787",
+    "islamic_umm_al_qura": "23 Muharram 1449 AH",
+    "coptic": "21 Paona 1743",
+    "ethiopian": "21 Paona 1743"
+  }
+}

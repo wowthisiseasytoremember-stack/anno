@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần IV Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần IV Mùa Chay",
+    "summary_vi": "Thứ Bảy tuần IV Mùa Chay là ngày thường trong mùa Chay. Hội Thánh mời gọi cộng đoàn đào sâu sự hoán cải và chuẩn bị cho lễ Vượt Qua qua việc cầu nguyện, ăn chay và làm việc bác ái. Phụng vụ nhấn mạnh hành trình hướng tới Mầu nhiệm Vượt Qua.",
+    "body_vi": "Trong ngày này, Hội Thánh tiếp tục hành trình Mùa Chay, tập trung vào sự đổi mới nội tâm của các tín hữu. Các bài đọc và lời cầu nguyện phản ánh chủ đề ánh sáng và sự sống, thúc đẩy người tin bước ra khỏi bóng tối để đến với ánh sáng của Đức Kitô. Dù không có lễ trọng hay lễ lớn nào ưu tiên, phụng vụ ngày thường vẫn thánh hóa thời gian thường lệ của mùa phụng vụ, nhắc nhở rằng mỗi ngày là một bước tiến gần hơn tới sự Phục Sinh.",
+    "confidence_note_vi": "Ngày này rơi vào Thứ Bảy trong Mùa Chay, được cử hành như ngày thường (feria) theo Lịch Rôma chung. Theo quy định hiện hành, không có lễ kính nào của các thánh chiếm ưu tiên hơn phụng vụ ngày thường Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi dịu dàng trong ánh sáng Mùa Chay.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sức mạnh để kiên trì trong hành trình Mùa Chay hôm nay."
+  }
+}

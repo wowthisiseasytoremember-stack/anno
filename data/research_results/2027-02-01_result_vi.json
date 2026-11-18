@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần IV Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần IV Mùa Thường Niên",
+    "summary_vi": "Thứ Hai này rơi vào Tuần IV Mùa Thường Niên, thời gian tập trung vào sứ vụ công khai của Chúa Giêsu và sự tăng trưởng của Giáo Hội. Là ngày trong tuần (feria), không có thánh bổn mạng bắt buộc trừ khi có lễ địa phương. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng thiêng liêng. Các tín hữu được mời gọi tập trung vào các bài đọc trong tuần, thường phản ánh chủ đề về môn đệ và sự vâng phục.",
+    "body_vi": "Các bài đọc trong ngày này của chu kỳ Mùa Thường Niên thường liên quan đến các đoạn sách Do Thái giáo về sự vĩnh cửu của chức tư tế Chúa Kitô hoặc các tường thuật Tin Mừng về những tương tác của Chúa Giêsu với những người Pharisiêu hoặc các môn đệ của Ngài. Không có lễ trọng hay lễ kính đặc biệt, phụng vụ nhấn mạnh sự thánh thiện đời thường trong cuộc sống hàng ngày. Áo lễ màu xanh lá cây serve như một lời nhắc nhở trực quan rằng hành trình Kitô hữu là con đường tăng trưởng đức tin liên tục, không phải lúc nào cũng được đánh dấu bằng các lễ hội lớn mà bằng sự kiên trì vững chắc. Trọng tâm vẫn là làm thế nào các tín hữu tích hợp các mầu nhiệm đời sống của Chúa Kitô vào thói quen hàng tuần của họ.",
+    "confidence_note_vi": "Ngày trong tuần tiêu chuẩn trong Mùa Thường Niên; không có lễ thánh phổ quát nào được cử hành vào ngày này trong Lịch Phụng Vụ Rôma Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong đức tin, mỗi ngày một chút.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự kiên trì trong những bổn phận hàng ngày."
+  }
+}

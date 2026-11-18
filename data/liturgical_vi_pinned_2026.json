@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "authority_class": "HĐGM Việt Nam (Vietnamese Bishops' Conference) primary; Vietnamese diocesan sites secondary",
+  "verified_by": "agent session 2026-11-16 (HĐGM URLs fetched HTTP 200)",
+  "protocol": "Never machine-translate. Disagreement on wording: prefer diocesan over portal. Disagreement on substance: blocked, owner=VI reviewer.",
+  "rows": {
+    "2026-08-15": {
+      "title_vi": "Đức Maria Hồn Xác Lên Trời",
+      "vi_source_url": "https://hdgmvietnam.com/chi-tiet/ngay-15-thang-8-le-trong-duc-me-hon-xac-len-troi",
+      "vi_source_class": "HĐGM (primary)",
+      "note": "HĐGM missal form 'Lễ trọng Đức Mẹ hồn xác lên trời'; 'Đức Maria'/'Đức Mẹ' both acceptable."
+    },
+    "2026-11-22": {
+      "title_vi": "Chúa Giêsu Kitô Vua Vũ Trụ",
+      "vi_source_url": "https://hdgmvietnam.com/chi-tiet/chua-nhat-34-thuong-nien-le-chua-kito-vua-vu-tru",
+      "vi_source_class": "HĐGM (primary)",
+      "note": "Missal-strict form inserts comma: 'Chúa Giêsu Kitô, Vua vũ trụ'."
+    },
+    "2026-12-08": {
+      "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội",
+      "vi_source_url": "https://hdgmvietnam.com/chi-tiet/giao-ly-cho-bai-giang-le-duc-me-vo-nhiem-nguyen-toi-08-12--53114",
+      "vi_source_class": "HĐGM (primary)",
+      "note": "Core name matches HĐGM exactly; 'Đại Lễ' = common solemnity rank word (TGP Hà Nội usage)."
+    },
+    "2026-12-25": {
+      "title_vi": "Đại Lễ Giáng Sinh",
+      "vi_source_url": "https://hdgmvietnam.com/chi-tiet/ngay-25-thang-12---dai-le-giang-sinh",
+      "vi_source_class": "HĐGM (primary)",
+      "note": "Trimmed redundant greeting tail '— Mừng Chúa Giáng Sinh' per HĐGM usage; style-only change."
+    }
+  }
+}

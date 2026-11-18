@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần I Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần I Mùa Chay",
+    "summary_vi": "Đây là ngày trong tuần Mùa Chay, được đánh dấu bằng màu tím phụng vụ. Chủ đề chính của ngày này là sự hoán cải, sám hối và chuẩn bị cho lễ Phục Sinh qua việc chay tịnh, cầu nguyện và bố thí.",
+    "body_vi": "Khi Giáo hội bước vào tuần đầu tiên của Mùa Chay, các tín hữu được mời gọi tăng cường các thực hành thiêng liêng. Trọng tâm là sự hoán cải nội tâm và trở về cùng Thiên Chúa với tấm lòng khiêm nhường. Các bài đọc thường phản ánh chủ đề sám hối và sự cần thiết của lòng thương xót Chúa. Thứ Hai này thiết lập tông điệu cho bốn mươi ngày canh tân dẫn đến Mầu Nhiệm Vượt Qua.",
+    "confidence_note_vi": "Xác nhận bởi các quy tắc của Niên lịch Rôma chung cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bắt đầu hành trình Mùa Chay với sự tận hiến mới mẻ.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con hoán cải thực sự trong Mùa Chay này."
+  }
+}

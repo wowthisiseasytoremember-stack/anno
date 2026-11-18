@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật II Mùa Chay"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật II Mùa Chay",
+    "summary_vi": "Chúa nhật này tập trung vào biến cố Chúa Hiển Dung, khẳng định thần tính của Đức Giêsu và chuẩn bị cho các môn đệ trước cuộc Thương Khó của Người. Phụng vụ mời gọi cộng đoàn lắng nghe Con Thiên Chúa và tin tưởng vào lời hứa của Chúa Cha. Đây là một thời điểm then chốt trong Mùa Chay, chuyển từ sự sám hối sang vinh quang của sự Phục Sinh.",
+    "body_vi": "Trong Tin Mừng theo Thánh Marcô, Đức Giêsu dẫn Phêrô, Giacôbê và Gioan lên một ngọn núi cao, nơi Người hiển dung trước mặt các ông. Biến cố này mặc khải vinh quang thần linh ẩn giấu bên dưới bản tính nhân loại của Đức Giêsu và hoàn tất Lề Luật cùng các Ngôn Sứ. Tiếng từ trời phán ra truyền cho các môn đệ phải lắng nghe Người, nhấn mạnh sự cần thiết của đức tin trong hành trình đen tối của Mùa Chay. Hội Thánh sử dụng bài đọc này để củng cố niềm hy vọng của các tín hữu giữa những thử thách của việc sám hối.",
+    "confidence_note_vi": "Ngày Chúa Nhật tiêu chuẩn trong Lịch Phụng Vụ Thường Niên, Năm B (Marcô 9:2-10)."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lắng nghe Người Con dấu yêu: Biến cố Hiển Dung mặc khải con đường từ Thập Giá đến Vinh Quang.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin mặc khải ánh sáng thần linh của Chúa trong những khoảnh khắc tăm tối của chúng con, để chúng con tin vào tiếng phán của Chúa Cha."
+  }
+}

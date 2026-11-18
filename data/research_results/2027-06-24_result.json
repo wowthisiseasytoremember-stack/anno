@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-24",
+  "date": "2027-06-24",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Solemnity of the Nativity of St. John the Baptist",
+    "title_vi": "Lễ Thánh Gioan Tẩy Giả Sinh Nhật (Lễ trọng)"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Solemnity of the Nativity of St. John the Baptist",
+    "title_vi": "Lễ Thánh Gioan Tẩy Giả Sinh Nhật",
+    "summary_en": "The Nativity of St. John the Baptist is a solemnity in the Roman Catholic liturgical calendar, celebrated on June 24. It marks the birth of John the Baptist, the forerunner of Jesus, and is one of the few birthdays celebrated in the liturgical calendar besides Jesus and Mary. The day falls on a Thursday in Ordinary Time but retains its high rank as a Solemnity.",
+    "summary_vi": "Lễ Sinh Nhật Thánh Gioan Tẩy Giả là một lễ trọng trong lịch phụng vụ Công giáo Rôma, được cử hành vào ngày 24 tháng Sáu. Lễ này kỷ niệm ngày sinh của Gioan Tẩy Giả, người đi trước Đức Giêsu, và là một trong số ít các ngày sinh nhật được cử hành trong lịch phụng vụ ngoài ngày sinh của Chúa Giêsu và Đức Maria. Năm nay, ngày này rơi vào Thứ Năm trong Mùa Thường Niên nhưng vẫn giữ cấp bậc Lễ trọng.",
+    "body_en": "This Solemnity celebrates the birth of John the Baptist, six months before the birth of Jesus. St. Augustine famously noted that while we celebrate the birthdays of Jesus and Mary, for John, we celebrate his nativity as a historical event. The liturgical texts emphasize John's role as the prophet who prepares the way, bridging the Old and New Covenants.",
+    "body_vi": "Lễ trọng này mừng ngày sinh của Gioan Tẩy Giả, sáu tháng trước ngày sinh của Chúa Giêsu. Thánh Augustinô đã từng nói nổi tiếng rằng trong khi chúng ta mừng sinh nhật của Chúa Giêsu và Đức Maria, thì đối với Gioan, chúng ta mừng ngày sinh của ngài như một sự kiện lịch sử. Các bản văn phụng vụ nhấn mạnh vai trò của Gioan như là ngôn sứ dọn đường, nối kết giữa Cũ và Tân Ước.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date and rank are fixed in the General Roman Calendar of 1969.",
+    "confidence_note_vi": "Ngày và cấp bậc được quy định rõ ràng trong Lịch Phụng vụ chung Rôma năm 1969."
+  },
+  "app_hooks": {
+    "hero_line_en": "He must increase, but I must decrease.",
+    "hero_line_vi": "Ngài phải lớn lên, còn tôi phải nhỏ lại.",
+    "prayer_prompt_en": "Pray for humility and the courage to point others to Christ, like John the Baptist.",
+    "prayer_prompt_vi": "Cầu nguyện cho đức khiêm nhường và lòng can đảm để chỉ dẫn người khác đến với Chúa Kitô, như Gioan Tẩy Giả."
+  },
+  "sources": [
+    {
+      "label": "Catholic.org - Saints and Feast Days",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=209",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "USCCB - Calendar",
+      "url": "https://www.usccb.org/calendar/",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-06-11",
+    "hebrew": "19 Sivan 5787",
+    "islamic_umm_al_qura": "19 Muharram 1449 AH",
+    "coptic": "17 Paona 1743",
+    "ethiopian": "17 Paona 1743"
+  }
+}

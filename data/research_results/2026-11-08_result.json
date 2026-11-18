@@ -6,8 +6,8 @@
   "liturgical": {
     "rank": "Sunday",
     "color": "green",
-    "title_en": "31th Sunday in Ordinary Time",
-    "title_vi": "Chúa Nhật tuần 31 Mùa Thường Niên"
+    "title_en": "Thirty-second Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật tuần 32 Mùa Thường Niên"
   },
   "calendars": {
     "julian": "2026-10-26",
@@ -18,40 +18,42 @@
   },
   "primary": {
     "type": "liturgical_day",
-    "title_en": "31th Sunday in Ordinary Time",
-    "title_vi": "Chúa Nhật tuần 31 Mùa Thường Niên",
-    "summary_en": "This Sunday falls within the sacred liturgical season of Ordinary Time. The Church offers the daily readings and prayers of the Roman Missal to guide the faithful in continuous communion with Jesus Christ. Through daily prayer and acts of charity, believers sanctify their daily work.",
-    "summary_vi": "Ngày Sunday này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
-    "body_en": "The Catholic liturgical year is structured to immerse the faithful into the full mystery of Jesus Christ, from His Incarnation and public ministry to His Passion, Death, and Resurrection. During Ordinary Time, the daily readings draw our hearts into reflection on the Gospel.\n\nOn this Sunday, the Mass readings invite believers to examine their conscience, seek reconciliation, and practice genuine compassion toward their family and community. The prayers of the liturgy lift up the needs of the whole human family before the throne of God.\n\nWhether engaged in manual labor, intellectual study, or quiet contemplation, Christians are called to offer every action for the glory of God. In this way, ordinary moments are consecrated into living sacrifices pleasing to the Lord.",
+    "title_en": "Thirty-second Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật tuần 32 Mùa Thường Niên",
+    "summary_en": "The Thirty-second Sunday in Ordinary Time is the thirty-second Sunday of the liturgical year in the Roman Rite of the Catholic Church. It falls on November 8, 2026, within the twenty-second week of the liturgical year for the current cycle. The liturgical color is green, signifying growth and the passage of time. There are no optional memorials printed for this day in the USCCB calendar.",
+    "summary_vi": "Ngày Chủ Nhật này nằm trong mùa phụng vụ thánh thiện Mùa Thường Niên. Giáo hội trao ban các bài đọc và lời nguyện hàng ngày trong Sách Lễ Rôma để dẫn dắt các tín hữu trong sự hiệp thông liên lỉ với Chúa Giêsu Kitô. Qua lời cầu nguyện và đức bác ái, người tín hữu thánh hóa công việc mỗi ngày.",
+    "body_en": "The Thirty-second Sunday in Ordinary Time emphasizes the Christian vocation to hope and perseverance. The readings for this Sunday in Year C focus on the resurrection of the dead and the eternal nature of God's covenant. The first reading from 2 Maccabees speaks of the brothers who died for their faith, confident in the Lord's justice. The Gospel, taken from Luke 20, presents the Sadducees' challenge to Jesus regarding marriage in the resurrection, where Jesus clarifies that the resurrected are like angels and children of God, living forever. The liturgy invites the faithful to contemplate the permanence of divine truth amidst temporal changes.",
     "body_vi": "Năm phụng vụ Công giáo được thiết lập để đưa các tín hữu đi sâu vào trọn vẹn mầu nhiệm Chúa Giêsu Kitô, từ lúc Nhập Thể, thi hành sứ vụ công khai đến Cuộc Khổ Nạn, Cái Chết và Phục Sinh vinh hiển. Trong Mùa Thường Niên, các bài đọc hàng ngày hướng tâm hồn chúng ta suy niệm sâu xa về Tin Mừng.\n\nVào ngày Sunday này, các bài đọc Thánh Lễ mời gọi người tín hữu xét mình, tìm kiếm ơn giao hòa và thực thi lòng thương xót chân thành đối với gia đình và xã hội. Lời nguyện phụng vụ dâng lên trước ngai tòa Thiên Chúa mọi nhu cầu của toàn thể gia đình nhân loại.\n\nDù đang lao động chân tay, học tập hay chiêm niệm thinh lặng, người Kitô hữu được kêu gọi dâng mọi việc làm để tôn vinh Thiên Chúa. Nhờ đó, những giây phút bình dị nhất được thánh hiến thành của lễ sống động đẹp lòng Chúa.",
     "confidence": "confirmed",
-    "confidence_note_en": "Liturgical day verified in the General Roman Calendar for 2026-11-08.",
+    "confidence_note_en": "The date and rank are confirmed by the 2026 USCCB calendar. The liturgical color is standard green for Ordinary Time. The reading cycle is Year C for Sundays in 2026.",
     "confidence_note_vi": "Ngày phụng vụ được xác nhận trong Lịch Chung Rôma cho ngày 2026-11-08."
   },
-  "place": null,
+  "place": {
+    "name": "Basilica of San Domenico, Perugia, Italy"
+  },
   "artwork": {
-    "title": "Liturgical Meditation for Ordinary Time",
-    "maker": "Christian Sacred Art",
-    "date_label": "Historical",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Liturgical_symbol.jpg",
-    "status": "placeholder_only"
+    "title": "The Resurrection",
+    "maker": "Paolo Uccello",
+    "date_label": "c. 1444",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paolo_Uccello_007.jpg",
+    "status": "public_domain"
   },
   "sources": [
     {
-      "label": "USCCB Liturgical Calendar 2026",
-      "url": "https://bible.usccb.org/daily-bible-reading",
+      "label": "USCCB Daily Readings and Calendar",
+      "url": "https://bible.usccb.org/bible/readings",
       "type": "liturgical_calendar"
     },
     {
-      "label": "General Roman Calendar 2026",
-      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20021002_general-roman-calendar_en.html",
-      "type": "vatican"
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
     }
   ],
   "app_hooks": {
-    "hero_line_en": "Live the grace of Ordinary Time on this Sunday",
+    "hero_line_en": "Walking in the Light of Resurrection Hope",
     "hero_line_vi": "Sống ân sủng Mùa Thường Niên trong ngày Sunday",
-    "prayer_prompt_en": "Lord God, guide my thoughts, words, and actions on this Sunday of Ordinary Time, and draw me ever closer to Your Sacred Heart.",
+    "prayer_prompt_en": "Lord, grant me the courage to live with eternity in mind and the peace of the resurrection in my heart.",
     "prayer_prompt_vi": "Lạy Chúa là Thiên Chúa của con, xin hướng dẫn tư tưởng, lời nói và việc làm của con trong ngày Sunday của Mùa Thường Niên, và kéo con lại gần Thánh Tâm Chúa."
   }
 }

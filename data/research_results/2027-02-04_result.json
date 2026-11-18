@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-04",
+  "date": "2027-02-04",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Fifth Week in Ordinary Time",
+    "title_vi": "Thứ Năm Tuần V Mùa Thường Niên",
+    "summary_en": "This Thursday falls within the Ordinary Time period, specifically the fifth week. No solemnity, feast, or obligatory memorial is recorded in the General Roman Calendar for this specific date, which is dedicated to the commemoration of Saint Bridget of Sweden and Saint Blaise. The liturgical color is green, symbolizing hope and the growth of the faithful in virtue. The readings continue the journey through the Gospel of Mark, focusing on discipleship and the nature of the Kingdom of God.",
+    "summary_vi": "Ngày Thứ Năm này thuộc về thời gian Thường Niên, cụ thể là tuần thứ năm. Không có lễ trọng, lễ kính hay lễ nhớ buộc được ghi trong Lịch Rôma Chung cho ngày cụ thể này, vốn được dành để kính Thánh Bridget thành Thụy Điển và Thánh Blaise. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của các tín hữu trong đức hạnh. Các bài đọc tiếp tục hành trình qua Tin Mừng Máccô, tập trung vào việc làm môn đệ và bản chất của Nước Thiên Chúa.",
+    "body_en": "On February 4, 2027, the Church observes a feria day, meaning a weekday where no major feast interrupts the flow of the liturgical season. In 2027, February 4 is a Thursday in the fifth week of Ordinary Time. The readings typically include selections from the Old Testament that foreshadow Christ and the Gospel of Mark, which emphasizes the actions and teachings of Jesus as the suffering servant. The faithful are called to reflect on the daily practice of faith and charity as they walk with Christ through the ordinary moments of life.",
+    "body_vi": "Vào ngày 4 tháng 2 năm 2027, Giáo Hội cử hành một ngày thứ thường, nghĩa là một ngày trong tuần không có lễ lớn nào làm gián đoạn dòng chảy của mùa phụng vụ. Năm 2027, ngày 4 tháng 2 là một Thứ Năm trong tuần thứ năm của Mùa Thường Niên. Các bài đọc thường bao gồm những đoạn trích từ Cựu Ước báo trước về Chúa Kitô và Tin Mừng Máccô, nhấn mạnh vào những hành động và lời giảng dạy của Chúa Giêsu với tư cách là Người Tôi Tớ Đau Khổ. Các tín hữu được mời gọi suy ngẫm về việc thực hành đức tin và bác ái hàng ngày khi họ đi cùng Chúa Kitô qua những khoảnh khắc đời thường.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed by the General Roman Calendar for 2027 as a weekday in Ordinary Time.",
+    "confidence_note_vi": "Đã xác nhận bởi Lịch Rôma Chung năm 2027 như một ngày trong tuần của Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Ordinary Time: Growing in Hope and Virtue",
+    "hero_line_vi": "Mùa Thường Niên: Tăng Trưởng Trong Niềm Hy Vọng và Đức Hạnh",
+    "prayer_prompt_en": "Lord, teach us to find You in the ordinary moments of our day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy chúng con tìm thấy Chúa trong những khoảnh khắc đời thường của mỗi ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/020427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/15257a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-01-22",
+    "hebrew": "27 Shvat 5787",
+    "islamic_umm_al_qura": "26 Shaban 1448 AH",
+    "coptic": "27 Toba 1743",
+    "ethiopian": "27 Toba 1743"
+  }
+}

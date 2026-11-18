@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-07",
+  "date": "2027-05-07",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Friday of the Fifth Week of Ordinary Time",
+    "title_vi": "Thứ Sáu tuần V Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Fifth Week of Ordinary Time",
+    "title_vi": "Thứ Sáu tuần V Thường Niên",
+    "summary_en": "This day falls within the Fifth Week of Ordinary Time, a period dedicated to the growth and sanctification of the Church. As a weekday feria, it emphasizes the active living out of the Gospel message in daily life. The liturgical color is green, symbolizing hope and life. No specific saint is universally obligatory for this date in the General Roman Calendar.",
+    "summary_vi": "Ngày này thuộc Tuần V Mùa Thường Niên, thời gian dành cho sự tăng trưởng và thánh hóa của Hội Thánh. Là một ngày trong tuần (feria), ngày này nhấn mạnh việc sống Lời Chúa cách cụ thể trong đời sống hằng ngày. Màu phụng vụ là xanh lá, tượng trưng cho niềm hy vọng và sự sống. Không có vị thánh nào bắt buộc cử hành chung cho ngày này trong Lịch Rôma Tổng Quát.",
+    "body_en": "On this Friday, the Church invites the faithful to reflect on the teachings of Christ during Ordinary Time. The readings typically focus on discipleship, the nature of the Kingdom of God, or moral instructions. Since it is a Feria, the Mass follows the standard weekday format, allowing for flexibility in choosing readings if permitted, or following the daily lectionary. It serves as a reminder that holiness is found in the ordinary duties of life when offered to God with love and faithfulness.",
+    "body_vi": "Trong ngày Thứ Sáu này, Hội Thánh mời gọi cộng đoàn suy niệm về lời dạy của Chúa Kitô trong Mùa Thường Niên. Các bài đọc thường tập trung vào chủ đề môn đệ, bản chất của Nước Trời, hoặc các chỉ dẫn đạo đức. Vì là ngày trong tuần, Thánh Lễ tuân theo hình thức tiêu chuẩn của ngày trong tuần, cho phép linh hoạt trong việc chọn bài đọc nếu được phép, hoặc theo sách bài đọc hằng ngày. Ngày này nhắc nhở rằng sự thánh thiện được tìm thấy trong những bổn phận thường nhật của đời sống khi được dâng lên Thiên Chúa với tình yêu và sự trung tín.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is confirmed as a Feria of Ordinary Time. No major saint is listed as a universal obligatory memorial for May 7th in the current General Roman Calendar.",
+    "confidence_note_vi": "Ngày này được xác nhận là ngày trong tuần Mùa Thường Niên. Không có vị thánh nào được liệt kê là kỷ niệm bắt buộc toàn cầu vào ngày 7 tháng 5 trong Lịch Rôma Tổng Quát hiện tại."
+  },
+  "app_hooks": {
+    "hero_line_en": "Finding God in the Ordinary",
+    "hero_line_vi": "Tìm thấy Thiên Chúa trong điều bình thường",
+    "prayer_prompt_en": "Lord, help me to see Your presence in my daily tasks and to serve others with joy.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong công việc hằng ngày và phục vụ tha nhân với niềm vui."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/050727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints Calendar",
+      "url": "https://www.catholic.org/saints/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-04-24",
+    "hebrew": "30 Nisan 5787",
+    "islamic_umm_al_qura": "30 Dhu al-Qidah 1448 AH",
+    "coptic": "29 Baramouda 1743",
+    "ethiopian": "29 Baramouda 1743"
+  }
+}

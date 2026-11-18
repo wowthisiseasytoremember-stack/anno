@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-02-28",
+  "date": "2027-02-28",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "feast",
+    "color": "purple",
+    "title_en": "Second Sunday of Lent",
+    "title_vi": "Chúa Nhật II Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Second Sunday of Lent",
+    "title_vi": "Chúa Nhật II Mùa Chay",
+    "summary_en": "This Sunday focuses on the Transfiguration of the Lord, affirming Jesus' divinity and preparing the disciples for his Passion. The liturgy invites the faithful to listen to the Son of God and to trust in the Father's promise. It serves as a pivotal moment in Lent, moving from repentance towards the glory of the Resurrection.",
+    "summary_vi": "Chúa nhật này tập trung vào biến cố Chúa Hiển Dung, khẳng định thần tính của Đức Giêsu và chuẩn bị cho các môn đệ trước cuộc Thương Khó của Người. Phụng vụ mời gọi cộng đoàn lắng nghe Con Thiên Chúa và tin tưởng vào lời hứa của Chúa Cha. Đây là một thời điểm then chốt trong Mùa Chay, chuyển từ sự sám hối sang vinh quang của sự Phục Sinh.",
+    "body_en": "In the Gospel of Mark, Jesus takes Peter, James, and John up to a high mountain, where he is transfigured before them. This event reveals the divine glory hidden beneath Jesus' human nature and fulfills the law and the prophets. The voice from heaven commands the disciples to listen to Him, emphasizing the necessity of faith during the dark journey of Lent. The Church uses this reading to strengthen the faithful's hope amid the trials of penance.",
+    "body_vi": "Trong Tin Mừng theo Thánh Marcô, Đức Giêsu dẫn Phêrô, Giacôbê và Gioan lên một ngọn núi cao, nơi Người hiển dung trước mặt các ông. Biến cố này mặc khải vinh quang thần linh ẩn giấu bên dưới bản tính nhân loại của Đức Giêsu và hoàn tất Lề Luật cùng các Ngôn Sứ. Tiếng từ trời phán ra truyền cho các môn đệ phải lắng nghe Người, nhấn mạnh sự cần thiết của đức tin trong hành trình đen tối của Mùa Chay. Hội Thánh sử dụng bài đọc này để củng cố niềm hy vọng của các tín hữu giữa những thử thách của việc sám hối.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Standard Sunday in Ordinary Liturgical Calendar, Year B (Mark 9:2-10).",
+    "confidence_note_vi": "Ngày Chúa Nhật tiêu chuẩn trong Lịch Phụng Vụ Thường Niên, Năm B (Marcô 9:2-10)."
+  },
+  "app_hooks": {
+    "hero_line_en": "Listen to the Beloved Son: The Transfiguration reveals the path from Cross to Glory.",
+    "hero_line_vi": "Hãy lắng nghe Người Con dấu yêu: Biến cố Hiển Dung mặc khải con đường từ Thập Giá đến Vinh Quang.",
+    "prayer_prompt_en": "Lord Jesus, reveal your divine light in our dark moments, that we may trust in your Father's voice.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin mặc khải ánh sáng thần linh của Chúa trong những khoảnh khắc tăm tối của chúng con, để chúng con tin vào tiếng phán của Chúa Cha."
+  },
+  "sources": [
+    {
+      "label": "USCCB Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Daily",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-02-15",
+    "hebrew": "21 Adar 5787",
+    "islamic_umm_al_qura": "21 Ramadan 1448 AH",
+    "coptic": "21 Amshir 1743",
+    "ethiopian": "21 Amshir 1743"
+  }
+}

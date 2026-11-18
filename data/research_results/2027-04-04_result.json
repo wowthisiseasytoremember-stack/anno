@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-04-04",
+  "date": "2027-04-04",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Easter Sunday (Resurrection of the Lord)",
+    "title_vi": "Chúa Nhật Phục Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Easter Sunday (Resurrection of the Lord)",
+    "title_vi": "Chúa Nhật Phục Sinh",
+    "summary_en": "Easter Sunday is the highest feast in the Christian calendar, celebrating the Resurrection of Jesus Christ from the dead. It marks the end of the Lenten season and the beginning of the Easter Triduum's climax. The liturgical color is white, symbolizing the light of Christ. This day is considered the 'Sunday of Sundays,' the center of the entire liturgical year.",
+    "summary_vi": "Chúa Nhật Phục Sinh là ngày lễ trọng nhất trong lịch phụng vụ Kitô giáo, kỷ niệm sự Phục Sinh của Đức Giêsu Kitô từ cõi chết. Ngày này đánh dấu sự kết thúc mùa Chay và cao điểm của Tam Nhật Vượt Qua. Màu phụng vụ là màu trắng, tượng trưng cho ánh sáng của Đức Kitô. Ngày này được coi là 'Mẹ của các ngày Chúa Nhật', trung tâm của cả năm phụng vụ.",
+    "body_en": "The Resurrection of Jesus Christ is the fundamental truth of our faith in Christ, and it remains the central mystery of the Christian faith celebrated on this day. All the liturgical texts, hymns, and readings point to the victory of life over death and the hope of eternal life for the faithful. The Easter Proclamation (Exsultet) rejoices in the light of the risen Christ, illuminating the world and granting peace to all who believe.",
+    "body_vi": "Sự Phục Sinh của Đức Giêsu Kitô là chân lý nền tảng của đức tin vào Đức Kitô và vẫn là mầu nhiệm trung tâm của đức tin Kitô giáo được cử hành trong ngày hôm nay. Tất cả các bản văn phụng vụ, bài thánh ca và bài đọc đều hướng về chiến thắng của sự sống trên sự chết và niềm hy vọng về sự sống đời đời cho các tín hữu. Bài Công Bố Tin Mừng Phục Sinh (Exsultet) hân hoan trong ánh sáng của Đức Kitô phục sinh, soi sáng thế gian và ban bình an cho tất cả những ai tin.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Date of Easter for 2027 is April 4. Easter is a movable feast but its date is fixed by the lunar cycle and vernal equinox rules set by the Council of Nicaea.",
+    "confidence_note_vi": "Ngày Chúa Nhật Phục Sinh năm 2027 rơi vào ngày 4 tháng 4. Phục Sinh là lễ di động nhưng ngày của nó được xác định bởi chu kỳ trăng và quy tắc xuân phân do Công đồng Nicêa thiết lập."
+  },
+  "app_hooks": {
+    "hero_line_en": "Christ is Risen! Alleluia!",
+    "hero_line_vi": "Đức Kitô đã phục sinh! Alleluia!",
+    "prayer_prompt_en": "Reflect on the hope of the Resurrection. What new life is Christ calling you to today?",
+    "prayer_prompt_vi": "Hãy suy niệm về niềm hy vọng Phục Sinh. Đức Kitô đang mời gọi bạn bước vào sự sống mới nào hôm nay?"
+  },
+  "sources": [
+    {
+      "label": "USCCB Liturgical Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/05224a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-22",
+    "hebrew": "26 Adar II 5787",
+    "islamic_umm_al_qura": "26 Shawwal 1448 AH",
+    "coptic": "26 Baramhat 1743",
+    "ethiopian": "26 Baramhat 1743"
+  }
+}

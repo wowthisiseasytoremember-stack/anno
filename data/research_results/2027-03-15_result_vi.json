@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai Tuần 5 Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần 5 Thường Niên",
+    "summary_vi": "Ngày này là ngày thường tuần trong Mùa Thường Niên, đặc trưng bởi màu phụng vụ xanh lá cây. Đây là giai đoạn tăng trưởng ổn định trong đời sống Kitô hữu. Trọng tâm là thực hành đức tin hàng ngày và áp dụng những giáo huấn Tin Mừng vào cuộc sống bình thường. Không có lễ trọng hay kính nhớ thánh cụ thể nào ưu tiên vào ngày này trong Lịch Rôma Chung năm 2027.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, phụng vụ mời gọi tín hữu suy niệm về các mầu nhiệm cuộc đời Chúa Kitô trong sự toàn vẹn của chúng. Các bài đọc thường tập trung vào lời mời gọi môn đệ và bản tính lòng thương xót của Thiên Chúa. Linh mục mặc áo lễ màu xanh lá cây, biểu tượng của niềm hy vọng và sự tăng trưởng. Giờ Kinh Nhật Tụng được đọc theo nhịp điệu của tuần, duy trì sự liên tục trong lời cầu nguyện khi không có điểm nhấn kính nhớ thánh cụ thể.",
+    "confidence_note_vi": "Ngày này là ngày thường tiêu chuẩn trong Lịch Rôma cho năm được chỉ định."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lặng lẽ lớn lên trong ân sủng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong những khoảnh khắc bình thường của ngày này."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật VI Mùa Phục Sinh"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật VI Mùa Phục Sinh",
+    "summary_vi": "Chúa Nhật này tiếp tục cử hành Mầu nhiệm Phục Sinh, tập trung vào chủ đề ở lại trong tình yêu của Đức Kitô bằng việc tuân giữ các giới răn của Người. Các bài đọc nhấn mạnh mối liên hệ giữa tình yêu, sự vâng phục và niềm vui phát sinh từ đời sống theo Tin Mừng. Đây là bước chuẩn bị cuối cùng trước lễ Thăng Thiên, mời gọi các tín hữu đào sâu cam kết đối với ơn gọi môn đệ Kitô giáo.",
+    "body_vi": "Trong tiến trình phụng vụ Mùa Phục Sinh, Chúa Nhật VI chuyển trọng tâm từ sự chấn thương ban đầu trước ngôi mộ trống sang đời sống bền vững của Hội Thánh. Kế thừa truyền thống Gioan trong Tin Mừng, Chúa Giêsu chỉ dạy các môn đệ rằng tuân giữ các giới răn của Người là cách chắc chắn nhất để ở lại trong tình yêu của Người. Sự vâng phục này không phải là hình thức pháp lý mà xuất phát từ tình yêu và dẫn đến niềm vui trọn vẹn. Hội Thánh cầu xin ơn hiểu rằng sự tự do đích thực được tìm thấy trong sự tuân phục đầy tình yêu này đối với Đức Kitô, điều biến đổi các tín hữu trở thành bạn hữu của Thiên Chúa chứ không phải là tôi tớ.",
+    "confidence_note_vi": "Ngày cố định trong Lịch Phụng vụ Rôma cho Chúa Nhật rơi vào ngày 9 tháng 5 năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy ở lại trong tình yêu của Thầy: con đường dẫn đến niềm vui trọn vẹn.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tuân giữ giới răn của Chúa không phải vì bổn phận, nhưng vì tình yêu, để niềm vui của con được trọn vẹn."
+  }
+}

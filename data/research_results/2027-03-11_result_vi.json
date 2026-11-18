@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm Tuần V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần V Mùa Thường Niên",
+    "summary_vi": "Vào ngày Thứ Năm Tuần V Mùa Thường Niên, Giáo hội suy niệm lời giảng dạy của Chúa Giêsu được ghi chép trong các sách Tin Mừng. Màu xanh lá cây phụng vụ tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Kitô hữu. Không có lễ nhớ buộc hay lễ trọng nào được cử hành vào ngày này trong Lịch Phụng Vụ Rôma, vì vậy đây là ngày thường lệ.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, trọng tâm vẫn là việc đọc Sách Thánh một cách tiệm tiến. Các bài đọc thường trích dẫn từ các Thư và các sách Tin Mừng, khuyến khích các tín hữu hòa nhập đức tin vào các hành động hàng ngày. Các linh mục và giáo dân được nhắc nhở duy trì tinh thần hoán cải và khiêm nhường.",
+    "confidence_note_vi": "Ngày thường thông thường trong Mùa Thường Niên, không có lễ kính thánh lớn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong Hy Vọng",
+    "prayer_prompt_vi": "Cầu xin ơn sủng để tăng trưởng trong nhân đức hôm nay."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-06-11",
+  "date": "2027-06-11",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "solemnity",
+    "color": "white",
+    "title_en": "Solemnity of the Most Sacred Heart of Jesus",
+    "title_vi": "Lễ Trọng Thánh Tâm Chúa Giêsu"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Most Sacred Heart of Jesus",
+    "title_vi": "Thánh Tâm Chúa Giêsu",
+    "summary_en": "The Solemnity of the Most Sacred Heart of Jesus is a high-ranking feast in the Catholic Church, celebrated on the Friday following the Octave of Corpus Christi. It focuses on the person of Jesus, the love he has for humanity, and the symbol of his physical heart. This devotion emphasizes the infinite love of Christ for mankind, as revealed through his humanity and his passion.",
+    "summary_vi": "Lễ Trọng Thánh Tâm Chúa Giêsu là một ngày lễ bậc cao trong Giáo hội Công giáo, được cử hành vào thứ Sáu sau Tuần Bát nhật Lễ Mình Máu Thánh Chúa. Lễ này tập trung vào ngôi vị của Chúa Giêsu, tình yêu thương mà Ngài dành cho nhân loại, và biểu tượng trái tim thể lý của Ngài. Lòng đạo đức này nhấn mạnh tình yêu vô hạn của Chúa Kitô dành cho con người, được mặc khải qua nhân tính và cuộc thương khó của Ngài.",
+    "body_en": "The Solemnity of the Most Sacred Heart of Jesus invites the faithful to contemplate the boundless love of Christ. It is a day dedicated to honoring the physical heart of Jesus as the natural symbol of his threefold love: his divine love as the Second Person of the Trinity, his human love as the Word made flesh, and his sensible love experienced during his earthly ministry. The liturgical readings, particularly from the Gospel of John regarding the piercing of Jesus' side, highlight the outpouring of grace and truth from his open heart.",
+    "body_vi": "Lễ Trọng Thánh Tâm Chúa Giêsu mời gọi các tín hữu suy niệm tình yêu vô biên của Chúa Kitô. Đây là ngày dành riêng để tôn kính trái tim thể lý của Chúa Giêsu như là biểu tượng tự nhiên cho ba chiều kích tình yêu của Ngài: tình yêu thần linh với tư cách là Ngôi Hai Thiên Chúa, tình yêu nhân loại với tư cách là Ngôi Lời nhập thể, và tình yêu cảm xúc được trải nghiệm trong sứ vụ dương thế. Các bài đọc phụng vụ, đặc biệt là từ Tin Mừng Gioan về việc cạnh sườn Chúa Giêsu bị đâm thâu, làm nổi bật sự tuôn trào ân sủng và chân lý từ trái tim rộng mở của Ngài.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date and rank are fixed by the General Roman Calendar norms.",
+    "confidence_note_vi": "Ngày và bậc lễ được quy định rõ ràng theo các quy tắc của Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Behold the Heart that loved us and poured out its blood for our salvation.",
+    "hero_line_vi": "Hãy ngắm nhìn Trái Tim đã yêu thương chúng ta và đổ máu ra cho phần rỗi của chúng ta.",
+    "prayer_prompt_en": "Jesus, meek and humble of heart, make our hearts like unto Thine.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu hiền lành và khiêm nhường trong lòng, xin hãy làm cho lòng chúng con nên giống lòng Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Solemnity of the Most Sacred Heart of Jesus",
+      "url": "https://www.usccb.org/calendar/saint/solemnity-of-the-most-sacred-heart-of-jesus",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - Sacred Heart Devotion",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2027-06-11",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-29",
+    "hebrew": "6 Sivan 5787",
+    "islamic_umm_al_qura": "6 Muharram 1449 AH",
+    "coptic": "4 Paona 1743",
+    "ethiopian": "4 Paona 1743"
+  }
+}

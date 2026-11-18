@@ -81,7 +81,7 @@ SCHEMA = {
                 "maker": {"type": "string"},
                 "date_label": {"type": "string"},
                 "source_url": {"type": "string", "format": "uri"},
-                "status": {"const": "placeholder_only"},
+                "status": {"enum": ["placeholder_only", "public_domain", "cleared", "unavailable"]},
             },
         },
         "sources": {

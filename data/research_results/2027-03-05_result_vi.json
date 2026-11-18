@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu Tuần 5 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần 5 Mùa Thường Niên",
+    "summary_vi": "Ngày này thuộc Tuần 5 Mùa Thường Niên, thời gian dành cho sự tăng trưởng đức tin và những lời giáo huấn của Đức Kitô. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự sống liên lỉ của Hội Thánh. Là một ngày trong tuần (feria), ngày nhấn mạnh sự hoán cải hằng ngày và việc lắng nghe Lời Chúa, trừ khi lịch địa phương quy định cách khác.",
+    "body_vi": "Trong Nghi thức Rôma, Thứ Sáu Tuần 5 Mùa Thường Niên là ngày cử hành bình thường, đánh dấu bằng lễ phục màu xanh diễn tả trọng tâm của mùa phụng vụ là sự sống của Hội Thánh giữa lòng thế giới. Các bài đọc từ Sách Bài Đọc tiếp tục cung cấp giáo huấn qua sách Cựu Ước và Tin Mừng, kêu gọi cộng đoàn đức tin hoán cải và tin tưởng. Không có vị thánh nào được gán cho ngày này trong Lịch Phụng Vụ Rôma mà làm lu mờ tính chất bình thường của ngày; do đó, trọng tâm vẫn là mầu nhiệm Vượt Qua được bày tỏ trong phụng vụ hằng ngày.",
+    "confidence_note_vi": "Ngày này là ngày trong tuần tiêu chuẩn trong Mùa Thường Niên theo lịch phụng vụ 2027. Không có lễ trọng hay lễ kính phổ quát nào thay thế ngày trong tuần vào Thứ Sáu này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng đức tin trong Mùa Thường Niên.",
+    "prayer_prompt_vi": "Hãy xin ơn để lắng nghe Lời Chúa cách cẩn thận hôm nay."
+  }
+}

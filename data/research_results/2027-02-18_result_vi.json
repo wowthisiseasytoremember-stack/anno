@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần thứ V Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần thứ V Mùa Thường Niên",
+    "summary_vi": "Ngày này thuộc chu kỳ ngày thường trong Mùa Thường Niên, cụ thể là tuần thứ V. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Hội Thánh. Là ngày lễ trọng ít (feria), ngày này ưu tiên hơn các lễ nhớ tùy chọn, tập trung vào các bài đọc Thánh lễ hàng ngày và việc thánh hóa đời sống thường nhật.",
+    "body_vi": "Trong Lịch Phụng vụ Rôma, các ngày trong tuần của Mùa Thường Niên được dành để thánh hóa nếp sống hằng ngày qua cầu nguyện và Lời Chúa. Không có lễ nhớ của vị thánh nào thay thế phận vụ phụng vụ của Thứ Năm này trong tuần thứ V, trừ khi áp dụng lịch địa phương, nhưng vẫn giữ đặc tính ngày thường của Mùa Thường Niên. Trọng tâm vẫn là tiến trình lịch sử cứu độ được trình bày trong các bài đọc Sách Bài Đọc của tuần.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường trong Mùa Thường Niên theo Lịch Phổ Quát hiện hành."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm thấy Thiên Chúa trong những khoảnh khắc bình thường của tuần sống.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhìn thấy khuôn mặt Ngài trong những bổn phận hằng ngày."
+  }
+}

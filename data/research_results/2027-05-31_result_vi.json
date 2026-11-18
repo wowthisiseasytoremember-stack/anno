@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Đức Mẹ Đi Viếng Thăm"
+  },
+  "primary": {
+    "title_vi": "Lễ Đức Mẹ Đi Viếng Thăm",
+    "summary_vi": "Lễ Đức Mẹ Đi Viếng Thăm tưởng nhớ sự kiện Đức Trinh Nữ Maria, đang mang thai Chúa Giêsu, đến thăm người họ hàng là Elizabeth, người cũng đang mang thai Gioan Tẩy Giả. Lễ này nhấn mạnh các chủ đề về bác ái, khiêm nhường và sự chia sẻ niềm vui trong công trình của Thiên Chúa. Trước đây, lễ này được cử hành vào ngày 2 tháng 7, nhưng đã được khôi phục về ngày 31 tháng 5 trong lịch phụng vụ sau Công đồng Vaticanô II.",
+    "body_vi": "Theo Tin Mừng Luca, Đức Maria đã vội vã đến vùng núi để chào thăm Elizabeth, và đứa trẻ trong bụng bà đã nhảy mừng khi nghe lời chào của Đức Maria. Đáp lại, Đức Maria đã đọc bài ca Magnificat, một trong những bài ca ngợi khen sâu sắc nhất trong truyền thống Kitô giáo. Lễ này làm nổi bật sự thánh thiêng của sự sống và tầm quan trọng của đức bác ái huynh đệ trong cộng đoàn Kitô hữu.",
+    "confidence_note_vi": "Đã được xác nhận bởi Lịch Phụng vụ Rôma dành cho Giáo hội Công giáo Latinh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy mang sự khiêm nhường và niềm vui của Đức Maria vào tuần của bạn.",
+    "prayer_prompt_vi": "Hãy đọc bài ca Magnificat, suy niệm về lòng thương xót của Thiên Chúa dành cho thế hệ của bạn."
+  }
+}

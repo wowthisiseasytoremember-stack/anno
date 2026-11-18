@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-03-16",
+  "date": "2027-03-16",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Fourth Week of Lent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Chay",
+    "summary_en": "This day falls within the fourth week of the season of Lent, a time of penance and preparation for Easter. The liturgical color is violet, symbolizing penance and humility. The readings focus on conversion and the need for divine mercy.",
+    "summary_vi": "Ngày này rơi vào tuần thứ tư của Mùa Chay, thời gian sám hối và chuẩn bị cho lễ Phục Sinh. Màu phụng vụ là tím, tượng trưng cho sự sám hối và khiêm nhường. Các bài đọc tập trung vào sự hoán cải và lòng thương xót của Thiên Chúa.",
+    "body_en": "As the Church moves deeper into the mystery of Christ's paschal mystery, the Tuesday of the Fourth Week of Lent invites the faithful to examine their hearts. The gospel reading typically reflects the journey of faith, urging believers to trust in God's providence amidst trials. It is a day for quiet reflection, prayer, and acts of charity, aligning with the penitential spirit of the season.",
+    "body_vi": "Khi Giáo Hội đi sâu hơn vào mầu nhiệm Vượt Qua của Chúa Kitô, Thứ Ba Tuần IV Mùa Chay mời gọi các tín hữu xét lại tâm hồn mình. Bài Phúc Âm thường phản ánh hành trình đức tin, thúc đẩy người tin cậy vào sự quan phòng của Thiên Chúa giữa những thử thách. Đây là ngày để suy niệm thinh lặng, cầu nguyện và thực hành bác ái, phù hợp với tinh thần sám hối của mùa này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a weekday in Ordinary Time or Lent depending on the year; in 2027, March 16 is in Lent.",
+    "confidence_note_vi": "Ngày này là ngày thường trong Mùa Thường Niên hoặc Mùa Chay tùy theo năm; năm 2027, ngày 16 tháng 3 thuộc Mùa Chay."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk humbly with your God during this holy season.",
+    "hero_line_vi": "Hãy bước đi khiêm tốn cùng Thiên Chúa trong mùa thánh này.",
+    "prayer_prompt_en": "Lord, grant me the grace to repent deeply and return to You with all my heart.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để con sám hối sâu xa và trở về với Chúa hết lòng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/031627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-03-03",
+    "hebrew": "7 Adar II 5787",
+    "islamic_umm_al_qura": "7 Shawwal 1448 AH",
+    "coptic": "7 Baramhat 1743",
+    "ethiopian": "7 Baramhat 1743"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "anno-2027-05-22",
+  "date": "2027-05-22",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "feria",
+    "color": "green",
+    "title_en": "Saturday of the 4th Week in Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of the 4th Week in Ordinary Time",
+    "title_vi": "Thứ Bảy Tuần IV Mùa Thường Niên",
+    "summary_en": "This Saturday is a weekday of Ordinary Time. No specific saint's feast has precedence. The liturgical color is green. The faithful are encouraged to reflect on the readings of the day.",
+    "summary_vi": "Thứ Bảy này là ngày thường trong Mùa Thường Niên. Không có lễ kính thánh bổn mạng nào có quyền ưu tiên vượt qua. Màu phụng vụ là màu xanh. Cộng đoàn được mời gọi suy niệm các bài đọc trong ngày.",
+    "body_en": "As a weekday in Ordinary Time, this day offers a moment for quiet reflection amidst the rhythm of the liturgical year. The Church invites believers to deepen their understanding of the Christian mystery through the daily Scriptures and prayer. Without the celebration of a specific saint or feast, the focus remains on the ongoing journey of faith.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, ngày này mời gọi sự suy niệm trầm lặng trong nhịp điệu của năm phụng vụ. Giáo hội mời gọi tín hữu đào sâu sự hiểu biết về mầu nhiệm Kitô giáo qua Kinh Thánh hằng ngày và lời cầu nguyện. Không có cử hành lễ kính thánh hay lễ kính cụ thể, trọng tâm vẫn là hành trình đức tin đang tiếp diễn.",
+    "confidence": "confirmed",
+    "confidence_note_en": "No specific obligatory memorial is listed for this date in the General Roman Calendar for the current cycle.",
+    "confidence_note_vi": "Không có lễ nhớ bắt buộc nào được liệt kê cho ngày này trong Lịch Phụng vụ Rôma cho chu kỳ hiện tại."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk gently in Ordinary Time.",
+    "hero_line_vi": "Hãy bước đi nhẹ nhàng trong Mùa Thường Niên.",
+    "prayer_prompt_en": "Grant, O Lord, that we may listen to your Word today.",
+    "prayer_prompt_vi": "Xin cho chúng con biết lắng nghe Lời Chúa hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/052227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?date=2027-05-22",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-05-09",
+    "hebrew": "15 Iyar 5787",
+    "islamic_umm_al_qura": "15 Dhu al-Hijjah 1448 AH",
+    "coptic": "14 Bashans 1743",
+    "ethiopian": "14 Bashans 1743"
+  }
+}

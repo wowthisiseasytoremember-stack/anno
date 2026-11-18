@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần V Thường niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần V Thường niên",
+    "summary_vi": "Đây là một ngày trong tuần thuộc Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây phụng vụ. Trọng tâm là sự tiến triển của đức tin trong đời sống hằng ngày theo chu kỳ thường niên của Giáo hội. Không có vị thánh hay lễ kính đặc biệt nào được chỉ định làm nội dung chính cho ngày này trong Lịch Rôma Chung.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, phụng vụ nhấn mạnh vào giáo huấn của Chúa Kitô và việc áp dụng các giá trị Tin Mừng vào hoàn cảnh hằng ngày. Các bài đọc và lời cầu nguyện được lấy từ chu kỳ tuần lễ của Sách Bài Đọc Mùa Thường Niên. Tín hữu được mời gọi suy ngẫm về sự hoán cải cá nhân và cam kết với đời sống Kitô giáo giữa những thói quen thường nhật.",
+    "confidence_note_vi": "Độ tin cậy cao vì ngày này rơi vào chu kỳ tiêu chuẩn của Mùa Thường Niên trong Lịch Rôma Chung sau năm 1969, không có vị thánh lớn nào thay thế ngày thường."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong sự trung tín thầm lặng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong những khoảnh khắc bình thường của hôm nay."
+  }
+}
