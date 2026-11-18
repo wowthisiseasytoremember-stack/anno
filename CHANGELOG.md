@@ -11,9 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - **Swift fixture contract**: normalized fixture now emits a Swift-decodable `generated_on`, null-safe `artwork`, and omits partial `place` objects.
+- **Calendar source of truth**: the normalizer refreshes all five Swift calendar fields from the root Engine A, so a driver's private Coptic/Ethiopian tables can no longer leak into the app fixture.
 
 ### Added
 - **Blocking decode gate**: `tools/validate_fixture_decode.py` validates the fixture against `AnnoEntry`'s Swift `Codable` contract. CI now fails closed on violations.
+- **2027 app fixture**: all 183 researched 2027 days now normalize into `Anno/Resources/anno_unified_2027.json` and pass the same decode gate.
 
 ---
 
