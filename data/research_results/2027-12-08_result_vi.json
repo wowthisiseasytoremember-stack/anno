@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Đức Mẹ Vô Nhiễm Nguyên Tội",
+    "summary_vi": "Đại lễ này tôn vinh việc Đức Trinh Nữ Maria được gìn giữ khỏi tội nguyên tổ từ khoảnh khắc đầu tiên của sự tồn tại của Người. Đây là ngày lễ buộc trong Giáo hội Latinh, nhấn mạnh vai trò của Người là chiếc bình tinh tuyền cho cuộc Nhập Thể. Phụng vụ tập trung vào phẩm giá độc đáo của Người với tư cách là Mẹ Thiên Chúa và sự cộng tác hoàn hảo với ân sủng thần linh.",
+    "body_vi": "Tín điều Đức Mẹ Vô Nhiễm Nguyên Tội, được Đức Giáo Hoàng Piô IX tuyên bố năm 1854, dạy rằng Đức Maria đã được thụ thai mà không mắc tội nguyên tổ, một đặc ân độc nhất được Thiên Chúa ban cho nhờ công nghiệp của Chúa Giêsu Kitô. Ngày lễ này mời gọi các tín hữu suy gẫm về quyền năng của ân sủng trong việc gìn giữ sự tinh tuyền và tầm quan trọng của sự khiêm nhường nơi Đức Maria trong kế hoạch của Thiên Chúa. Là một Đại lễ, ngày này giữ vị trí cao nhất trong lịch phụng vụ, thay thế mọi việc tưởng nhớ khác hoặc các tuân giữ ngày thường.\n\nCác văn bản phụng vụ cho ngày này, bao gồm các bài đọc từ sách Sáng Thế và Tin Mừng Luca, làm nổi bật chiến thắng trên con rắn và loan báo cuộc Nhập Thể cho Đức Trinh Nữ Maria. Lễ phục màu trắng tượng trưng cho sự tinh tuyền và niềm vui gắn liền với sự can thiệp thần thánh này. Đối với cộng đồng Công giáo, ngày này là lời nhắc nhở về hy vọng được trao ban qua Đấng Vô Nhiễm, Đấng chuyển cầu cho các tín hữu bằng sự dịu dàng mẫu tử và lời cầu quyền năng.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sự Tinh Tuyền và Ân Sủng trong Trái Tim Mẹ",
+    "prayer_prompt_vi": "Đức Maria Vô Nhiễm Nguyên Tội, xin cầu cho chúng con là những người cậy dựa vào lời chuyển cầu của Mẹ."
+  }
+}

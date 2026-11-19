@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-03",
+  "date": "2027-12-03",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Francis Xavier, Priest",
+    "title_vi": "Thánh Phanxicô Xaviê, Linh mục"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Francis Xavier, Priest",
+    "title_vi": "Thánh Phanxicô Xaviê, Linh mục",
+    "summary_en": "St. Francis Xavier was a co-founder of the Society of Jesus and one of the greatest missionaries in the history of the Catholic Church. He evangelized across Asia, bringing the faith to India, Malaysia, Japan, and China. His tireless work established the foundation for Catholic missions in the East.",
+    "summary_vi": "Thánh Phanxicô Xaviê là đồng sáng lập Dòng Tên và là một trong những nhà truyền giáo vĩ đại nhất trong lịch sử Giáo hội Công giáo. Ngài đã rao giảng Tin Mừng khắp châu Á, mang đức tin đến Ấn Độ, Malaysia, Nhật Bản và Trung Quốc. Công cuộc không mệt mỏi của ngài đã đặt nền móng cho các sứ vụ Công giáo ở phương Đông.",
+    "body_en": "Francis Xavier, a Basque native and contemporary of Ignatius of Loyola, joined the nascent Jesuit order and quickly gained fame for his spiritual zeal and miraculous gifts. He spent over a decade traveling extensively across Asia, learning local languages and adapting his preaching methods to resonate with diverse cultures. His efforts led to the establishment of vibrant Christian communities that continue to this day.\n\nHe is widely venerated as the 'Apostle of the Indies' and 'Apostle of Japan,' having baptized thousands and ordained priests to serve the new converts. Francis died on the island of Sancian near China in 1552, having reached the threshold of the Middle Kingdom but unable to enter. His legacy remains central to Catholic missionary theology and practice.",
+    "body_vi": "Phanxicô Xaviê, một người gốc Basque và là đồng thời với Ignatius Loyola, đã gia nhập dòng Tên sơ khai và nhanh chóng nổi tiếng với lòng nhiệt thành tinh thần và các ơn sục nhiệm mầu. Ngài đã dành hơn một thập kỷ đi lại khắp châu Á, học các ngôn ngữ địa phương và thích nghi phương pháp giảng thuyết để hòa nhập với các nền văn hóa đa dạng. Những nỗ lực của ngài đã dẫn đến việc thành lập các cộng đoàn Kitô giáo sống động vẫn tồn tại cho đến ngày nay.\n\nNgài được tôn kính rộng rãi là 'Tông đồ Ấn Độ' và 'Tông đồ Nhật Bản', đã rửa tội cho hàng ngàn người và truyền chức linh mục để phục vụ những người mới cải đạo. Phanxicô qua đời trên đảo Sanchan gần Trung Quốc vào năm 1552, khi đã đến ngưỡng cửa Trung Hoa nhưng không thể tiến vào. Di sản của ngài vẫn là trung tâm của thần học và thực hành truyền giáo Công giáo.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The feast day of St. Francis Xavier is universally celebrated on December 3 in the General Roman Calendar.",
+    "confidence_note_vi": "Lễ kính Thánh Phanxicô Xaviê được cử hành vào ngày 3 tháng 12 trong Lịch Phụng vụ Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Go forth and teach all nations.",
+    "hero_line_vi": "Hãy đi rao giảng cho mọi dân tộc.",
+    "prayer_prompt_en": "Lord, grant us the zeal of St. Francis Xavier to share your Gospel with joy and courage in our own communities and beyond.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con lòng nhiệt thành của Thánh Phanxicô Xaviê để chúng con chia sẻ Tin Mừng của Ngài với niềm vui và lòng can đảm trong cộng đoàn của chúng con và khắp nơi."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/120327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Saints",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2027-12-03",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-20",
+    "hebrew": "3 Kislev 5788",
+    "islamic_umm_al_qura": "5 Rajab 1449 AH",
+    "coptic": "23 Hathor 1744",
+    "ethiopian": "23 Hidar 2020"
+  }
+}

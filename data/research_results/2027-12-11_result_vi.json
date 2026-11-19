@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Tuần II Mùa Vọng",
+    "summary_vi": "Ngày này là một ngày trong tuần của Tuần II Mùa Vọng, với màu tím phụng vụ tượng trưng cho sự sám hối và chuẩn bị. Trọng tâm là chờ đợi việc Đức Kitô đến, cả trong sự kiện lịch sử Ngài sinh ra lẫn trong cuộc trở lại vinh quang. Không có lễ trọng hay lễ nhớ nào thay thế cấp bậc phụng vụ của ngày thường.",
+    "body_vi": "Vào ngày Thứ Bảy Tuần II Mùa Vọng, Giáo hội mời gọi cộng đoàn đi sâu vào việc chuẩn bị thiêng liêng bằng lời cầu nguyện và suy niệm các lời tiên tri trong Cựu Ước. Các văn bản phụng vụ nhấn mạnh tầm quan trọng của sự khiêm nhường và sẵn sàng, thúc đẩy các tín hữu dọn sạch những chướng ngại của tội lỗi để đón chào Chúa.\n\nLà một ngày trong tuần, ngày này vẫn giữ đặc tính giản dị của Mùa Vọng nhưng vẫn duy trì âm sắc của niềm hy vọng. Các bài đọc trong ngày được chọn để củng cố các chủ đề về sự chờ đợi và hoán cải, nhắc nhở cộng đoàn về bản chất kép của Mùa Vọng vừa là thời gian sám hối vừa là thời gian vui mừng.",
+    "confidence_note_vi": "Cấp bậc phụng vụ được xác nhận là Ngày Thường (Feria) theo Lịch Phụng vụ Chung La Mã cho Tuần II Mùa Vọng."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy dọn đường cho Chúa với tâm hồn khiêm nhường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con biết chờ đợi Chúa với sự kiên nhẫn và hy vọng."
+  }
+}

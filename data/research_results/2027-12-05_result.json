@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-05",
+  "date": "2027-12-05",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Second Sunday of Advent",
+    "title_vi": "Chúa Nhật II Mùa Vọng",
+    "summary_en": "The Second Sunday of Advent focuses on the prophetic call to prepare the way for the Lord. It highlights the ministry of John the Baptist and the need for spiritual conversion. The liturgy emphasizes hope and readiness for the coming of Christ.",
+    "summary_vi": "Chúa Nhật II Mùa Vọng tập trung vào lời kêu gọi tiên tri để sửa soạn đường cho Chúa. Bài đọc nhấn mạnh sứ vụ của Gioan Tẩy Giả và nhu cầu hoán cải thiêng liêng. Phụng vụ nhấn mạnh niềm hy vọng và sự sẵn sàng đón chờ Đức Kitô.",
+    "body_en": "In the Second Sunday of Advent, the Church turns to the figure of John the Baptist as the forerunner who prepares the hearts of the people for the Lord. The readings from Isaiah and the Gospel of Luke call for a radical change of heart, urging the faithful to clear away the obstacles of pride and distraction. This theme is deeply rooted in the tradition of the Church's waiting and preparation.\n\nThe liturgical color purple signifies penance and humble expectation, reminding the faithful that preparation for Christmas is not merely a historical commemoration but a spiritual renewal. The focus shifts from the eschatological future to the imminent arrival of Christ in the Incarnation, demanding a response of active conversion and joy. This day sets the tone for the entire season, balancing the anticipation of the Second Coming with the celebration of the Nativity.",
+    "body_vi": "Vào Chúa Nhật II Mùa Vọng, Hội Thánh hướng về hình ảnh Gioan Tẩy Giả như người tiền hô sửa soạn lòng dân chúng cho Chúa. Bài đọc từ sách Isaia và Tin Mừng Luca kêu gọi sự thay đổi triệt để tâm hồn, thúc giục các tín hữu dọn sạch những chướng ngại của kiêu ngạo và xao lãng. Chủ đề này bắt rễ sâu sắc trong truyền thống chờ đợi và chuẩn bị của Hội Thánh.\n\nMàu tím phụng vụ biểu tượng cho sự sám hối và kỳ vọng khiêm tốn, nhắc nhở các tín hữu rằng việc chuẩn bị cho Giáng Sinh không chỉ là kỷ niệm lịch sử mà còn là sự đổi mới thiêng liêng. Sự tập trung chuyển từ tương lai cánh chung sang sự hiện đến gần kề của Đức Kitô trong Nhập Thể, đòi hỏi một phản hồi bằng sự hoán cải tích cực và niềm vui. Ngày này thiết lập giọng điệu cho toàn mùa, cân bằng giữa sự mong chờ Cuộc Tái Lâm và cử hành biến cố Giáng Sinh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls on the Second Sunday of Advent, a fixed point in the Roman Rite's liturgical calendar determined by the Paschal cycle.",
+    "confidence_note_vi": "Ngày này rơi vào Chúa Nhật II Mùa Vọng, một thời điểm cố định trong lịch phụng vụ Nghi lễ Rôma được xác định bởi chu kỳ Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_en": "Prepare the way of the Lord.",
+    "hero_line_vi": "Hãy sửa soạn đường cho Đức Chúa.",
+    "prayer_prompt_en": "Grant us the humility to prepare our hearts as we await the coming of Christ.",
+    "prayer_prompt_vi": "Xin ban cho chúng con sự khiêm nhường để sửa soạn tâm hồn khi chờ đợi Đức Kitô ngự đến."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings: December 5, 2027",
+      "url": "https://bible.usccb.org/bible/readings/120527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent: Liturgical Calendar for December 2027",
+      "url": "https://www.newadvent.org/cathen/01035c.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-22",
+    "hebrew": "5 Kislev 5788",
+    "islamic_umm_al_qura": "7 Rajab 1449 AH",
+    "coptic": "25 Hathor 1744",
+    "ethiopian": "25 Hidar 2020"
+  }
+}

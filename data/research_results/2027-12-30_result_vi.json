@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_vi": "Ngày 30 tháng 12 rơi vào tuần bát nhật Giáng Sinh và thuộc Mùa Giáng Sinh. Phụng vụ tập trung vào mầu nhiệm Nhập Thể và sự tỏ mình của Đức Kitô cho nhân loại. Không có vị thánh nào được cử hành phổ biến vào ngày này trong Lịch Phụng vụ Rôma, do đó phụng vụ ngày thường được ưu tiên.",
+    "body_vi": "Trong Nghi thức Rôma, các ngày từ 17 đến 24 tháng 12 là các ngày trong Mùa Vọng, trong khi các ngày từ 25 tháng 12 đến 5 tháng 1 là các ngày trong Mùa Giáng Sinh. Ngày 30 tháng 12 là một ngày trong tuần thuộc giai đoạn sau, đặc trưng bởi màu sắc phụng vụ là màu trắng, tượng trưng cho niềm vui và ánh sáng của Đức Kitô. Các bản văn riêng cho ngày này, khi không có lễ kính thánh cụ thể, hướng dẫn các tín hữu suy ngắm sự khiêm nhường của biến cố Giáng Sinh và khởi đầu cuộc sống trần thế của Đức Kitô.\n\nCác bài đọc và lời nguyện ngày thường nhấn mạnh sự liên tục của kế hoạch Thiên Chúa được mặc khải trong Cựu Ước và hoàn tất trong Tân Ước. Vào ngày Thứ Năm này, Giáo Hội mời gọi các tín hữu đào sâu hiểu biết về Ngôi Lời làm người. Trọng tâm vẫn là việc cử hành ngay lập tức biến cố sinh ra của Chúa, bắc cầu giữa lễ Giáng Sinh và Lễ Đức Maria, Mẹ Thiên Chúa sắp tới.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng của mầu nhiệm Nhập Thể vào ngày Thứ Năm này.",
+    "prayer_prompt_vi": "Hãy xin ơn nhận ra Đức Kitô trong những sự kiện khiêm hạ của cuộc sống hằng ngày."
+  }
+}

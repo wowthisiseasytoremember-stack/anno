@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-12-17",
+  "date": "2027-12-17",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Third Week of Advent",
+    "title_vi": "Thứ Sáu Tuần III Mùa Vọng",
+    "summary_en": "This Friday falls within the Third Week of Advent, a time dedicated to preparing for the coming of Christ. The liturgical rank is that of a feria, marked by the color purple, signifying penance and expectation. There are no obligatory memorials of saints on this day, allowing the focus to remain on the Advent journey.",
+    "summary_vi": "Ngày Thứ Sáu này nằm trong Tuần III Mùa Vọng, thời gian chuẩn bị cho sự quang lâm của Đức Kitô. Thứ hạng phụng vụ là ngày thường, với màu tím biểu trưng cho sự sám hối và trông đợi. Không có lễ nhớ bắt buộc nào về các thánh trong ngày này, giúp tập trung vào hành trình Mùa Vọng.",
+    "body_en": "During this period of Advent, the Church invites the faithful to deepen their interior disposition towards the mystery of the Incarnation. As a feria in the purple season, the liturgy emphasizes humility and spiritual renewal, drawing from the prophetic tradition that awaits the Messiah.\n\nThe readings for this day typically focus on the anticipation of salvation and the need for vigilance. By focusing on the liturgical day rather than a specific saint, the faithful are reminded that the time itself is a sacred space for conversion and prayerful waiting.",
+    "body_vi": "Trong thời gian Mùa Vọng này, Giáo hội mời gọi các tín hữu đào sâu thái độ nội tâm hướng về mầu nhiệm Nhập thể. Là ngày thường trong mùa tím, phụng vụ nhấn mạnh sự khiêm nhường và đổi mới tinh thần, rút ra từ truyền thống ngôn sứ đang chờ đợi Đấng Mêsia.\n\nCác bài đọc trong ngày này thường tập trung vào sự mong đợi ơn cứu độ và nhu cầu tỉnh thức. Bằng cách tập trung vào ngày phụng vụ thay vì một vị thánh cụ thể, các tín hữu được nhắc nhở rằng thời gian này chính là không gian thánh thiêng cho việc hoán cải và cầu nguyện trong sự chờ đợi.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the light of expectation.",
+    "hero_line_vi": "Bước đi trong ánh sáng của sự trông đợi.",
+    "prayer_prompt_en": "Prepare my heart to receive You.",
+    "prayer_prompt_vi": "Xin chuẩn bị lòng con để đón nhận Ngài."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is confirmed as a standard Advent weekday in the General Roman Calendar for 2027, with no conflicting higher-ranking celebrations.",
+  "confidence_note_vi": "Ngày này được xác nhận là ngày thường Mùa Vọng tiêu chuẩn trong Lịch Rôma Chung năm 2027, không có nghi lễ nào cấp cao hơn trùng ngày.",
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/121727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-04",
+    "hebrew": "17 Kislev 5788",
+    "islamic_umm_al_qura": "19 Rajab 1449 AH",
+    "coptic": "7 Koiak 1744",
+    "ethiopian": "7 Tahsas 2020"
+  }
+}

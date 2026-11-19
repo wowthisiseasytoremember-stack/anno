@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-16",
+  "date": "2027-12-16",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Advent Weekday (Thursday)",
+    "title_vi": "Ngày Thường trong Mùa Vọng (Thứ Năm)",
+    "summary_en": "This Thursday falls within the Advent season, specifically during the period from December 17 to December 24 when the liturgy focuses intensely on the imminent birth of Christ. The liturgical color is purple, signifying a time of penance, prayer, and preparation. As a weekday in Advent, it holds a higher rank than standard memorials, emphasizing the eschatological and historical aspects of waiting.",
+    "summary_vi": "Ngày Thứ Năm này rơi vào Mùa Vọng, cụ thể là giai đoạn từ 17 tháng 12 đến 24 tháng 12, khi phụng vụ tập trung mạnh mẽ vào biến cố Giáng Sinh gần kề. Màu sắc phụng vụ là tím, tượng trưng cho thời kỳ sám hối, cầu nguyện và chuẩn bị. Là một ngày trong tuần của Mùa Vọng, nó có bậc lễ cao hơn các lễ nhớ thông thường, nhấn mạnh các khía cạnh cánh chung và lịch sử của sự chờ đợi.",
+    "body_en": "The liturgy for December 16, 2027, continues the Advent theme of hopeful anticipation. During this week, the Church reflects on the prophecies of Isaiah and the role of John the Baptist, urging the faithful to repent and turn their hearts toward God. The readings typically highlight the urgency of preparing the way of the Lord, reminding believers that Christ is coming both in history and at the end of time.\n\nParticipation in the Mass during this period is encouraged to foster spiritual readiness. The purple vestments worn by the clergy serve as a visual reminder of the penitential character of the season, contrasting with the joy of the upcoming Nativity. Faithful are invited to engage in prayer and works of charity, aligning their lives with the mystery of the Incarnation.",
+    "body_vi": "Phụng vụ cho ngày 16 tháng 12 năm 2027 tiếp tục chủ đề Mùa Vọng của sự chờ đợi đầy hy vọng. Trong tuần này, Hội Thánh suy ngẫm về những lời ngôn sứ Isaia và vai trò của Thánh Gioan Tẩy Giả, thúc giục các tín hữu hoán cải và hướng lòng về Thiên Chúa. Các bài đọc thường nhấn mạnh tính cấp bách của việc sửa đường lối cho Chúa, nhắc nhở các tín hữu rằng Chúa Kitô sẽ đến trong lịch sử và vào ngày tận thế.\n\nSự tham gia vào Thánh Lễ trong giai đoạn này được khuyến khích để nuôi dưỡng sự sẵn sàng thiêng liêng. Áo lễ màu tím mà các linh mục mặc đóng vai trò như một lời nhắc nhở trực quan về đặc tính sám hối của mùa phụng vụ, tương phản với niềm vui của biến cố Giáng Sinh sắp tới. Các tín hữu được mời gọi tham gia cầu nguyện và làm việc bác ái, để đời sống của họ đồng nhất với mầu nhiệm Nhập Thể.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Prepare the way of the Lord.",
+    "hero_line_vi": "Hãy sửa đường lối cho Chúa.",
+    "prayer_prompt_en": "Lord, help me to wait for your coming with a humble and repentant heart.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con chờ đợi Chúa đến với một tâm hồn khiêm nhường và sám hối."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/121627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic News Agency - Calendar",
+      "url": "https://www.catholicnewsagency.com/calendar/12/16",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-03",
+    "hebrew": "16 Kislev 5788",
+    "islamic_umm_al_qura": "18 Rajab 1449 AH",
+    "coptic": "6 Koiak 1744",
+    "ethiopian": "6 Tahsas 2020"
+  }
+}

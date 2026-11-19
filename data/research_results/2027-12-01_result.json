@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-12-01",
+  "date": "2027-12-01",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the First Week of Advent",
+    "title_vi": "Thứ Tư Tuần I Mùa Vọng",
+    "summary_en": "This day is a weekday in the First Week of Advent, observed with the liturgical color violet. The Church focuses on the themes of vigilance and anticipation for the coming of Christ. As a Feria, it holds no special rank beyond its place within the Advent season.",
+    "summary_vi": "Ngày này là ngày trong tuần của Tuần I Mùa Vọng, được cử hành với màu tím phụng vụ. Giáo hội tập trung vào chủ đề tỉnh thức và chờ đợi Chúa Kitô đến. Là ngày thường, ngày này không có bậc lễ đặc biệt nào ngoài vị trí trong mùa Vọng.",
+    "body_en": "The First Week of Advent establishes the tone of hope and preparation for the celebration of the Nativity. Liturgically, this weekday calls the faithful to prayer and reflection, often utilizing readings that highlight the prophetic tradition and the expectation of the Messiah.\n\nThere are no obligatory feasts or memorials celebrated on this specific Wednesday in the General Roman Calendar. The focus remains on the internal disposition of the heart, preparing for the Christmas mysteries through simplicity and spiritual readiness.",
+    "body_vi": "Tuần I Mùa Vọng thiết lập âm điệu hy vọng và chuẩn bị cho việc cử hành Lễ Giáng Sinh. Về mặt phụng vụ, ngày trong tuần này kêu gọi các tín hữu cầu nguyện và suy gẫm, thường sử dụng các bài đọc nhấn mạnh truyền thống ngôn sứ và lòng mong đợi Đấng Mêsia.\n\nKhông có lễ bắt buộc hay lễ nhớ nào được cử hành vào Thứ Tư cụ thể này trong Lịch Rôma Chung. Trọng tâm vẫn là sự sẵn sàng nội tâm, chuẩn bị cho các mầu nhiệm Giáng Sinh qua sự đơn sơ và chuẩn bị thiêng liêng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The rank and title are confirmed as a standard Advent Feria based on the General Roman Calendar structure. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bậc lễ và tước hiệu được xác nhận là Ngày thường Mùa Vọng tiêu chuẩn dựa trên cấu trúc của Lịch Rôma Chung. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Prepare the way of the Lord in silence and hope.",
+    "hero_line_vi": "Hãy chuẩn bị đường cho Đức Chúa trong sự thinh lặng và hy vọng.",
+    "prayer_prompt_en": "Lord, teach me to wait for You with patience.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con biết chờ đợi Chúa trong kiên nhẫn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/120127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-18",
+    "hebrew": "1 Kislev 5788",
+    "islamic_umm_al_qura": "3 Rajab 1449 AH",
+    "coptic": "21 Hathor 1744",
+    "ethiopian": "21 Hidar 2020"
+  }
+}

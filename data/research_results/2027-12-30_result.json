@@ -1,0 +1,57 @@
+{
+  "id": "anno-2027-12-30",
+  "date": "2027-12-30",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "white",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_en": "December 30 falls within the octave of Christmas and the Season of Christmastide. The liturgy focuses on the mystery of the Incarnation and the manifestation of Christ to humanity. No major saint is universally commemorated on this day in the General Roman Calendar, so the weekday liturgy prevails.",
+    "summary_vi": "Ngày 30 tháng 12 rơi vào tuần bát nhật Giáng Sinh và thuộc Mùa Giáng Sinh. Phụng vụ tập trung vào mầu nhiệm Nhập Thể và sự tỏ mình của Đức Kitô cho nhân loại. Không có vị thánh nào được cử hành phổ biến vào ngày này trong Lịch Phụng vụ Rôma, do đó phụng vụ ngày thường được ưu tiên.",
+    "body_en": "In the Roman Rite, days between December 17 and December 24 are weekdays of the Advent Season, while days from December 25 to January 5 are weekdays of the Christmas Season. December 30 is a weekday within this latter period, characterized by the liturgical color white, which signifies joy and the light of Christ. The proper texts for this weekday, absent a specific saint's feast, direct the faithful to contemplate the humility of the Nativity and the beginning of Christ's earthly life.\n\nThe weekday readings and prayers emphasize the continuity of God's plan revealed in the Old Testament and fulfilled in the New. On this Thursday, the Church invites believers to deepen their understanding of the Word made flesh. The focus remains on the immediate celebration of the Lord's birth, bridging the gap between the Christmas Nativity and the upcoming Solemnity of Mary, Mother of God.",
+    "body_vi": "Trong Nghi thức Rôma, các ngày từ 17 đến 24 tháng 12 là các ngày trong Mùa Vọng, trong khi các ngày từ 25 tháng 12 đến 5 tháng 1 là các ngày trong Mùa Giáng Sinh. Ngày 30 tháng 12 là một ngày trong tuần thuộc giai đoạn sau, đặc trưng bởi màu sắc phụng vụ là màu trắng, tượng trưng cho niềm vui và ánh sáng của Đức Kitô. Các bản văn riêng cho ngày này, khi không có lễ kính thánh cụ thể, hướng dẫn các tín hữu suy ngắm sự khiêm nhường của biến cố Giáng Sinh và khởi đầu cuộc sống trần thế của Đức Kitô.\n\nCác bài đọc và lời nguyện ngày thường nhấn mạnh sự liên tục của kế hoạch Thiên Chúa được mặc khải trong Cựu Ước và hoàn tất trong Tân Ước. Vào ngày Thứ Năm này, Giáo Hội mời gọi các tín hữu đào sâu hiểu biết về Ngôi Lời làm người. Trọng tâm vẫn là việc cử hành ngay lập tức biến cố sinh ra của Chúa, bắc cầu giữa lễ Giáng Sinh và Lễ Đức Maria, Mẹ Thiên Chúa sắp tới.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of the Incarnation this Thursday.",
+    "hero_line_vi": "Bước đi trong ánh sáng của mầu nhiệm Nhập Thể vào ngày Thứ Năm này.",
+    "prayer_prompt_en": "Ask for the grace to recognize Christ in the humble events of daily life.",
+    "prayer_prompt_vi": "Hãy xin ơn nhận ra Đức Kitô trong những sự kiện khiêm hạ của cuộc sống hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/123027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "December 30 is a confirmed weekday of Christmastide in the General Roman Calendar with no universal saint's feast.",
+  "confidence_note_vi": "Ngày 30 tháng 12 là một ngày trong tuần Mùa Giáng Sinh đã được xác nhận trong Lịch Phụng vụ Rôma mà không có lễ kính thánh phổ biến.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-17",
+    "hebrew": "30 Kislev 5788",
+    "islamic_umm_al_qura": "2 Sha'ban 1449 AH",
+    "coptic": "20 Koiak 1744",
+    "ethiopian": "20 Tahsas 2020"
+  }
+}

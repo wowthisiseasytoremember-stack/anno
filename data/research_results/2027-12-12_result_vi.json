@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đức Mẹ Guadalupe"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật III Mùa Vọng",
+    "summary_vi": "Chúa Nhật III Mùa Vọng, còn được gọi là Chúa Nhật Gaudete, đánh dấu sự chuyển đổi của mùa từ chuẩn bị sám hối sang niềm vui hân hoan chờ đợi. Màu sắc phụng vụ chuyển sang hồng, tượng trưng cho thời điểm giữa mùa của niềm hy vọng và vui mừng. Mặc dù lễ nhớ tùy chọn Đức Mẹ Guadalupe được cử hành, chủ đề Chúa Nhật về sự gần gũi của Thiên Chúa vẫn chiếm vị trí ưu tiên trong phụng vụ.",
+    "body_vi": "Lời nhập lễ của Chúa Nhật này bắt đầu bằng 'Gaudete' (Hãy vui lên), vang vọng lời mời gọi ngôn sứ vui mừng trong Đức Chúa vì Ngài đã gần đến. Chúa Nhật này như một khoảng lặng thiêng liêng trong mùa Vọng, khuyến khích các tín hữu duy trì niềm hy vọng khi lễ Giáng Sinh đang đến gần. Các bài đọc tập trung vào niềm vui về sự hiện diện của Đức Chúa giữa dân Ngài và việc hoàn thành những lời hứa của Ngài.\n\nMặc dù Lễ Đức Mẹ Guadalupe được cử hành rộng rãi vào ngày 12 tháng 12, nhưng theo Lịch Rôma Chung, đây được xếp loại là Lễ Nhớ Tùy Chọn. Khi trùng với Chúa Nhật III Mùa Vọng, các bản văn riêng của Chúa Nhật thường chiếm ưu thế, trừ khi Hội đồng Giám mục quyết định khác đối với các địa phương cụ thể. Do đó, phụng vụ vẫn tập trung vào việc chờ đợi Mầu Nhiệm Nhập Thể.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy vui lên, vì Đức Chúa đã gần đến.",
+    "prayer_prompt_vi": "Hãy xin ơn duy trì niềm vui và hy vọng trong những ngày cuối cùng của mùa Vọng."
+  }
+}

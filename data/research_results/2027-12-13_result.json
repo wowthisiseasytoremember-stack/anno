@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-13",
+  "date": "2027-12-12",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "St. Lucy, Virgin and Martyr",
+    "title_vi": "Thánh Lucia, Trinh nữ, Tử đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Lucy, Virgin and Martyr",
+    "title_vi": "Thánh Lucia, Trinh nữ, Tử đạo",
+    "summary_en": "The Church celebrates the memorial of Saint Lucy, a virgin and martyr from Syracuse who died around 304 AD during the persecution of Diocletian. Her name means 'light,' and she is traditionally invoked for the health of the eyes. This memorial falls during the weekday of the second week of Advent, emphasizing the penitential yet hopeful spirit of the season.",
+    "summary_vi": "Giáo Hội cử hành lễ kính Thánh Lucia, một nữ tử đạo thành Syracuse qua đời khoảng năm 304 sau Công Nguyên trong cuộc bách hại của Hoàng đế Diocletian. Tên của Ngài có nghĩa là 'ánh sáng,' và Ngài thường được kêu cầu cho sức khỏe đôi mắt. Lễ này rơi vào ngày thường của tuần thứ hai Mùa Vọng, nhấn mạnh tinh thần thống hối nhưng tràn đầy hy vọng của mùa phụng vụ.",
+    "body_en": "Saint Lucy of Syracuse is one of the most popular martyrs of the early Church, commemorated in the ancient calendar as a witness to the faith. Her martyrdom is associated with the light of Christ, making her a fitting symbol during the dark days of winter before the Nativity.\n\nAlthough historical details vary, her cult was widespread by the sixth century, and she is one of the few saints whose name appears in the earliest Roman Canon.",
+    "body_vi": "Thánh Lucia thành Syracuse là một trong những nữ tử đạo nổi tiếng nhất của Giáo Hội sơ khai, được tưởng niệm trong lịch phụng vụ cổ xưa như một chứng nhân đức tin. Cuộc tử đạo của Ngài gắn liền với ánh sáng của Đức Kitô, khiến Ngài trở thành biểu tượng thích hợp trong những ngày mùa đông tối tăm trước lễ Giáng Sinh.\n\nMặc dù các chi tiết lịch sử có thể khác biệt, việc tôn kính Ngài đã lan rộng vào thế kỷ thứ sáu, và Ngài là một trong số ít các vị thánh có tên xuất hiện trong Kinh nguyện Rôma sớm nhất.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date December 13 is universally fixed in the General Roman Calendar for the Memorial of St. Lucy.",
+    "confidence_note_vi": "Ngày 13 tháng 12 được ấn định phổ biến trong Lịch Phụng vụ Rôma để cử hành Lễ kính Thánh Lucia."
+  },
+  "app_hooks": {
+    "hero_line_en": "Light of the World, Shine in Our Eyes",
+    "hero_line_vi": "Ánh Sáng Thế Gian, Chiếu Soi Đôi Mắt Chúng Con",
+    "prayer_prompt_en": "Lord, through the intercession of St. Lucy, grant us clear vision to see your light in the darkness of Advent.",
+    "prayer_prompt_vi": "Lạy Chúa, qua lời chuyển cầu của Thánh Lucia, xin ban cho chúng con tầm nhìn sáng suốt để thấy ánh sáng của Chúa trong bóng tối Mùa Vọng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings - Dec 13, 2027",
+      "url": "https://bible.usccb.org/bible/readings/121327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints - St. Lucy",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=441",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-30",
+    "hebrew": "13 Kislev 5788",
+    "islamic_umm_al_qura": "15 Rajab 1449 AH",
+    "coptic": "3 Koiak 1744",
+    "ethiopian": "3 Tahsas 2020"
+  }
+}

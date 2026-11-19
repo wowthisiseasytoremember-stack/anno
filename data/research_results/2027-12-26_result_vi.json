@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Stêphanô, Tử đạo Tiên khởi"
+  },
+  "primary": {
+    "title_vi": "Thánh Stêphanô, Tử đạo Tiên khởi",
+    "summary_vi": "Ngày 26 tháng 12 dành để tưởng nhớ Thánh Stêphanô, vị tử đạo Kitô giáo đầu tiên. Lễ này rơi vào tuần bát nhật Giáng Sinh, nối kết việc sinh hạ của Chúa Kitô với sự khởi đầu của chứng tá Kitô giáo qua cái chết. Năm 2027, ngày này cũng trùng với một Chúa nhật, nhấn mạnh ý nghĩa phụng vụ của biến cố tử đạo. Màu phụng vụ là màu đỏ, tượng trưng cho máu tử đạo.",
+    "body_vi": "Giáo Hội mừng Lễ Thánh Stêphanô vào ngày liền sau lễ Giáng Sinh. Truyền thống này nhấn mạnh rằng mầu nhiệm Nhập Thể của Chúa Kitô không thể tách rời khỏi thập giá và chứng tá của người tử đạo.\n\nThánh Stêphanô, một phó tế trong Giáo Hội sơ khai, được sách Công Vụ Tông Đồ ghi nhận là người đầy tràn ơn Thánh Thần. Việc ngài giảng dạy cho cộng đoàn Do Thái tại Giêrusalem đã dẫn đến cuộc đối đầu với Thượng Hội Đồng và việc ngài bị ném đá đến chết. Câu chuyện kể lại thị kiến của ngài về Chúa Giêsu đang đứng bên hữu Thiên Chúa, một đặc ân dành cho vị tử đạo tiên khởi. Biến cố này đánh dấu sự khởi đầu của lịch sử chứng tá và đau khổ của Giáo Hội. Lời cầu nguyện của Stêphanô cho những người hành hình, 'Lạy Chúa, xin đừng chấp tội họ,' phản chiếu lời cầu nguyện của chính Chúa Kitô trên thập giá, cho thấy sức mạnh biến đổi của mầu nhiệm Nhập Thể. Cái chết của ngài là lời nhắc nhở mạnh mẽ rằng ánh sáng Chúa Kitô tỏa sáng rực rỡ nhất trong bóng tối của đau khổ. Giáo Hội mời gọi cộng đoàn tín hữu noi gương lòng can đảm và sự trung thành của Stêphanô trong cuộc sống hàng ngày của họ.",
+    "confidence_note_vi": "Bậc lễ và tước hiệu được quy định chắc chắn trong Lịch Phụng Vụ Roma. Việc trùng với ngày Chúa nhật không thay đổi vị trí lễ buộc của ngày này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Vị Tử Đạo Đầu Tiên: Chứng Tá Cho Đức Kitô Bằng Máu Mình",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin đứng bên con trong những giờ phút đau khổ, như Chúa đã đứng bên Thánh Stêphanô."
+  }
+}

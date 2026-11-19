@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Ambrôsiô, Giám mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Ambrôsiô thành Milan",
+    "summary_vi": "Thánh Ambrôsiô là Giám mục Milan và là một Tiến sĩ Hội Thánh lỗi lạc vào thế kỷ thứ tư. Ngài nổi tiếng với việc bảo vệ quyền tự chủ của Giáo hội trước quyền lực đế quốc và có ảnh hưởng lớn đối với Thánh Augustinô. Những cải cách phụng vụ và các tác phẩm thần học của Ngài vẫn tiếp tục định hình Kitô giáo phương Tây.",
+    "body_vi": "Sinh ra tại Trier, Ambrôsiô theo đuổi sự nghiệp luật pháp và chính trị trước khi trở thành thống đốc vùng Liguria và Emilia. Khi Giám mục Milan qua đời, ngài được bầu vào tòa giám mục, nơi ngài trở thành một nhà bảo vệ nhiệt thành cho chính thống giáo chống lại thuyết Arianô. Ngài đã từ chối cho Hoàng đế Theodosius vào cung thánh cho đến khi hoàng đế thực hiện nghi thức thống hối công khai vì vụ thảm sát tại Thessalonica, thiết lập một tiền lệ về sự tách biệt giữa quyền bính giáo hội và quyền lực dân sự.\n\nDi sản của Ngài cũng gắn liền mật thiết với cuộc cải đạo của Thánh Augustinô, người mà ngài đã hướng dẫn tại Milan. Các tác phẩm của Ambrôsiô về Chúa Thánh Thần và các bí tích là nền tảng cho các giáo lý Công giáo sau này. Ngài qua đời vào ngày hôm nay, 7 tháng 12 năm 397, để lại một kho tàng các bài thánh ca và luận thuyết thần học vẫn còn sống động trong truyền thống phụng vụ.",
+    "confidence_note_vi": "Ngày này là lễ nhớ cố định trong Lịch phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ngài dạy chúng ta rằng Giáo hội không thuộc về Hoàng đế, nhưng thuộc về Đức Kitô.",
+    "prayer_prompt_vi": "Cầu nguyện cho lòng can đảm để bảo vệ sự thật trước quyền lực thế gian."
+  }
+}

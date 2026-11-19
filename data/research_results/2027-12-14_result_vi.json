@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Gioan Thánh Giá, Linh mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Gioan Thánh Giá, Linh mục, Tiến sĩ HT",
+    "summary_vi": "Thánh Gioan Thánh Giá là một tu sĩ Dòng Carmelite và nhà thần nghiệm Tây Ban Nha thế kỷ 16. Ngài nổi tiếng với những trước tác sâu sắc về đời sống chiêm niệm và sự kết hiệp với Thiên Chúa. Cùng với Thánh Têrêsa Avila, ngài đã cải tổ Dòng Carmelite. Giáo hội tôn kính ngài là Tiến sĩ Giáo hội nhờ những giáo huấn thiêng liêng của ngài.",
+    "body_vi": "Thánh Gioan Thánh Giá sinh năm 1542 tại Ávila, Tây Ban Nha. Ngài gia nhập Dòng Carmelite và sau đó gặp Thánh Têrêsa Avila, cùng với ngài khởi xướng việc cải tổ các tu sĩ Dòng Carmelite. Cuộc đời ngài được đánh dấu bằng khát khao triệt để sống ẩn dật và kết hiệp với Thiên Chúa, thường xuyên chịu đau khổ với lòng kiên nhẫn sâu sắc. Những bài thơ và văn xuôi thần nghiệm của ngài, bao gồm 'Đêm Tối Tâm Hồn' và 'Bài Ca Thiêng Liêng', vẫn là những nền tảng trong linh đạo Công giáo.\n\nLà Tiến sĩ Giáo hội, ảnh hưởng của Gioan Thánh Giá lan rộng vượt ra ngoài thời đại của ngài. Giáo huấn về 'đêm tối'—quá trình thanh luyện nơi tâm hồn bị tước bỏ các niềm an ủi giác quan và trí tuệ để đón nhận ánh sáng thuần túy của Thiên Chúa—tiếp tục hướng dẫn các nhà chiêm niệm. Ngày lễ của ngài vào 14 tháng 12 nhắc nhở các tín hữu về ơn gọi hoán cải nội tâm và sự khiêm tốn cần thiết để bước vào mầu nhiệm Đức Kitô, đặc biệt trong Mùa Vọng.",
+    "confidence_note_vi": "Thánh Gioan Thánh Giá là một vị thánh đã được xác nhận trong Lịch Phụng vụ Rôma phổ quát, được cử hành vào ngày 14 tháng 12."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy chìm vào tĩnh lặng để nghe tiếng Chúa phán.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm để bước qua đêm tối với niềm tín thác."
+  }
+}

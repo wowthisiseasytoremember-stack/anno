@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Vọng",
+    "summary_vi": "Ngày 18 tháng 12 năm 2027 rơi vào giai đoạn cuối của Mùa Vọng, nổi bật với sự tập trung sâu sắc vào việc chuẩn bị và chờ đợi. Với tư cách là ngày thường (feria), ngày này giữ nguyên đặc tính sám hối và màu tím của mùa phụng vụ trong khi chuẩn bị cho việc cử hành Giáng Sinh sắp tới. Phụng vụ nhấn mạnh sự sẵn sàng thiêng liêng và suy niệm về việc Chúa Kitô đến.",
+    "body_vi": "Giai đoạn từ ngày 17 đến 24 tháng 12 được biết đến là phần thứ hai của Mùa Vọng, trong đó phụng vụ chuyển từ sự mong đợi cánh chung về ngày trở lại lần thứ hai sang sự chuẩn bị lịch sử cho lễ Giáng Sinh của Chúa Giêsu. Vào ngày 18 tháng 12 năm 2027, Giáo hội mời gọi cộng đoàn tín hữu đi vào sự thinh lặng nội tâm và cầu nguyện sâu xa hơn, để hòa hợp tâm hồn mình với những tiếng nói ngôn sứ của mùa phụng vụ. Ngày trong tuần này không được đánh dấu bằng việc cử hành một vị thánh cụ thể nào mà bởi chủ đề bao trùm của niềm hy vọng và sự hoán cải lan tỏa khắp mùa phụng vụ.\n\nVề mặt phụng vụ, các bài đọc và lời nguyện cho ngày này được chọn để làm nổi bật sự khiêm nhường và vâng phục cần thiết để đón nhận Ngôi Lời Nhập Thể. Việc sử dụng áo lễ màu tím đóng vai trò như một lời nhắc nhở trực quan thường xuyên về bản chất sám hối của Mùa Vọng, phân biệt thời gian này với niềm vui lễ hội của chính lễ Giáng Sinh. Cộng đoàn tín hữu được khuyến khích tham dự phụng vụ Thánh Thể với tinh thần chờ đợi tỉnh thức, nhận ra rằng sự ra đời của Chúa Kitô vừa là ký ức lịch sử vừa là thực tại hiện sinh trong đời sống của Giáo hội.",
+    "confidence_note_vi": "Ngày này rơi hoàn toàn vào trong thời gian Mùa Vọng tiêu chuẩn được xác định bởi Lịch Phụng vụ Rôma Tổng quát, không có xung đột với các lễ trọng hay lễ kính lớn nào."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy dọn đường cho Chúa.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con chờ đợi Chúa với niềm hy vọng và sự khiêm nhường, dọn sạch những lối mòn trong tâm hồn con cho sự hiện đến của Ngài."
+  }
+}

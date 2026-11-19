@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-24",
+  "date": "2027-12-24",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng",
+    "summary_en": "This day falls within the final preparation period of Advent, characterized by liturgical color purple. It is a feria without a specific saint's feast, focusing on the imminent arrival of Christmas. The readings typically emphasize the immediate prelude to the Nativity.",
+    "summary_vi": "Ngày này thuộc giai đoạn chuẩn bị cuối cùng của Mùa Vọng, với màu phụng vụ tím. Đây là ngày thường không có lễ kính thánh riêng, tập trung vào sự kiện Giáng Sinh sắp tới. Các bài đọc thường nhấn mạnh phần mở đầu ngay trước biến cố Giáng Sinh.",
+    "body_en": "As the Church approaches the Solemnity of the Nativity, the liturgy shifts from the expectation of the Second Coming to the commemoration of the First Coming. On December 24th, the focus is intensely personal and immediate, preparing the heart for the celebration of the Incarnation.\n\nThe readings for this feria often echo the joy and urgency of the period. Unlike earlier Advent days which might focus on prophecy, this weekday highlights the fulfillment of divine promises in the near term.",
+    "body_vi": "Khi Giáo Hội tiến gần đến Lễ trọng thể Giáng Sinh, phụng vụ chuyển từ việc trông đợi Cuộc Quâng Lâm Thứ Hai sang việc tưởng nhớ Cuộc Quâng Lâm Thứ Nhất. Vào ngày 24 tháng 12, sự chú ý mang tính cá nhân và trực tiếp cao độ, chuẩn bị tâm hồn cho việc cử hành biến cố Nhập Thể.\n\nCác bài đọc cho ngày thường này thường vang lên niềm vui và tính cấp thiết của giai đoạn. Khác với những ngày đầu Mùa Vọng có thể tập trung vào lời tiên tri, ngày trong tuần này nhấn mạnh việc hoàn tất các lời hứa thần linh trong thời gian ngắn sắp tới.",
+    "confidence": "confirmed",
+    "confidence_note_en": "December 24 is a standard feria in the Ordinary Time calendar unless it coincides with a specific local patron, but generally falls under the weekday rank of Advent.",
+    "confidence_note_vi": "Ngày 24 tháng 12 là ngày thường tiêu chuẩn trong lịch Thường Niên trừ khi trùng với lễ bổn mạng địa phương cụ thể, nhưng thường thuộc bậc lễ ngày trong tuần của Mùa Vọng."
+  },
+  "app_hooks": {
+    "hero_line_en": "Prepare for the Light.",
+    "hero_line_vi": "Chuẩn bị cho Ánh Sáng.",
+    "prayer_prompt_en": "Lord, let my heart be ready for Your coming tonight.",
+    "prayer_prompt_vi": "Lạy Chúa, xin cho tâm hồn con sẵn sàng đón Chúa ngự đến trong đêm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/122427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-11",
+    "hebrew": "24 Kislev 5788",
+    "islamic_umm_al_qura": "26 Rajab 1449 AH",
+    "coptic": "14 Koiak 1744",
+    "ethiopian": "14 Tahsas 2020"
+  }
+}

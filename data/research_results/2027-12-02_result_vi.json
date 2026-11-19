@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần I Mùa Vọng",
+    "summary_vi": "Ngày này thuộc tuần thứ nhất của Mùa Vọng, mùa của sự chuẩn bị và mong đợi. Màu sắc phụng vụ là tím, tượng trưng cho sự sám hối và chờ đợi. Không có lễ nhớ buộc của một vị thánh vào ngày cụ thể này trong Lịch phụng vụ chung.",
+    "body_vi": "Tuần thứ nhất của Mùa Vọng tập trung vào sự xuất hiện của Đức Kitô trong sự khiêm nhường. Là một ngày thường, nó ưu tiên hơn bất kỳ lễ nhớ tùy chọn nào trừ khi có một lễ kính cấp cao hơn được cử hành. Các bài đọc thường phản ánh những chủ đề về sự tỉnh thức và truyền thống tiên tri hướng về Đấng Mê-si-a.\n\nTrong hình thức thông thường của Nghi lễ Rôma, ngày này nhấn mạnh hành trình tâm linh của các tín hữu trong những ngày đầu tiên của năm phụng vụ. Áo lễ màu tím nhắc nhở cộng đoàn về sự cần thiết của hoán cải nội tâm. Không có vị thánh cụ thể để tưởng nhớ, trọng tâm vẫn nằm ở mầu nhiệm Vượt Qua và niềm hy vọng của lịch sử cứu độ.",
+    "confidence_note_vi": "Đã xác minh với Lịch phụng vụ năm 2027; ngày 2 tháng 12 là một ngày thường trong Mùa Vọng."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy dọn đường cho Chúa trong thinh lặng và cầu nguyện.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khiêm nhường để chờ đợi Ngài."
+  }
+}

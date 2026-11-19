@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Các Thánh Anh Hài, Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Lễ Các Thánh Anh Hài, Tử đạo",
+    "summary_vi": "Lễ này tưởng nhớ vụ thảm sát các trẻ nhỏ ở Bêlem do Vua Hêrôđê truyền lệnh nhằm giết Hài nhi Giêsu. Ngày này được cử hành như một ngày lễ trong Lịch Phụng vụ Rôma, làm nổi bật sự vô tội và chứng tá tử đạo của các em. Màu sắc phụng vụ là màu đỏ, biểu trưng cho sự hy sinh và lời chứng của các em dành cho Chúa Kitô.",
+    "body_vi": "Lễ Các Thánh Anh Hài đã được cử hành từ những thế kỷ đầu của Giáo hội, nhìn nhận các em là những vị tử đạo đầu tiên của Đức Kitô. Theo Tin Mừng của Matthêu, Vua Hêrôđê, sợ hãi trước việc một vị vua mới ra đời, đã truyền lệnh giết tất cả các bé trai dưới hai tuổi ở Bêlem. Những đứa trẻ này, dù còn quá nhỏ để nói hoặc hành động, được tôn kính vì sự hy sinh và sự gần gũi của các em với Ngôi Lời Nhập Thể.\n\nPhụng vụ ngày này nhấn mạnh sự vô tội của thời thơ ấu và cái giá của việc làm môn đệ. Nó nhắc nhở rằng đức tin có thể được chứng tá ngay cả qua đau khổ và sự im lặng. Giáo hội cầu nguyện cho tất cả trẻ em và khuyến khích các tín hữu bảo vệ và nuôi dưỡng những người vô tội, noi gương các vị tử đạo đã hy sinh mạng sống trước khi họ kịp cất lời.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Những vị tử đạo đầu tiên, nhân chứng thinh lặng của Vua Trời.",
+    "prayer_prompt_vi": "Cầu nguyện cho tất cả trẻ em, để các em lớn lên trong ân sủng và sự khôn ngoan."
+  }
+}

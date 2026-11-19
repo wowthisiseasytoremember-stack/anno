@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Tuần III Mùa Vọng",
+    "summary_vi": "Hôm nay là một ngày trong tuần của Mùa Vọng, cụ thể là thuộc tuần III. Trọng tâm phụng vụ vẫn là sự chuẩn bị cho việc Chúa Kitô đến. Không có kỷ niệm bắt buộc nào thay thế ngày thường này trong Lịch Rôma Chung vào ngày cụ thể này.",
+    "body_vi": "Tuần III Mùa Vọng mời gọi các tín hữu đào sâu tâm tình chờ đợi và hy vọng nội tâm. Các bài đọc và lời cầu nguyện được chỉ định cho Thứ Tư này phản ánh chủ đề ánh sáng xâm nhập bóng tối và sự mong chờ công lý của Chúa. Phụng vụ tiếp tục tiến trình hướng tới lễ Giáng Sinh mà không có các lễ thánh cụ thể, duy trì tính chất sám hối nhưng tràn đầy hy vọng của mùa này.\n\nVề mặt phụng vụ, màu tím tượng trưng cho tính chất sám hối của Mùa Vọng, kêu gọi sự hoán cải và sẵn sàng. Mặc dù không phải là lễ trọng hay lễ kính, ngày thường vẫn giữ những văn bản riêng hướng dẫn cộng đoàn suy niệm về các lời hứa ngôn sứ. Cấu trúc đơn giản này đảm bảo rằng trọng tâm chính vẫn là trung tâm Kitô giáo của mùa này thay vì các kỷ niệm phụ.",
+    "confidence_note_vi": "Ngày này là một ngày thường Mùa Vọng tiêu chuẩn trong Lịch Rôma mà không có xung đột với các lễ trọng hay lễ kính."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chờ đợi với Hy Vọng: Thứ Tư Tuần III Mùa Vọng",
+    "prayer_prompt_vi": "Xin ơn tỉnh thức liên lỉ và tâm hồn trong sạch khi bạn chờ đợi Chúa Kitô."
+  }
+}

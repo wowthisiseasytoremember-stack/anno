@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Gioan, Tông đồ, Tác giả Sách Tin Mừng"
+  },
+  "primary": {
+    "title_vi": "Thánh Gioan, Tông đồ, Tác giả Sách Tin Mừng",
+    "summary_vi": "Hội Thánh cử hành Lễ Kính Thánh Gioan, Tông đồ được yêu dấu và là tác giả Tin Mừng thứ tư. Thánh nhân được truyền thống gọi là 'thị nhân trên đảo Patmos' đã nhận được sách Khải Huyền. Ngày lễ này nhấn mạnh chiều sâu suy tư thần học của ngài về Ngôi Lời nhập thể. Lễ kính diễn ra trong tuần Bát Nhật Giáng Sinh, làm nổi bật tình yêu chiêm niệm đã chi phối cuộc đời ngài.",
+    "body_vi": "Thánh Gioan là một trong những môn đệ đầu tiên được Chúa Giêsu kêu gọi và thuộc nhóm các môn đệ thân tín nhất, chứng kiến biến cố Biến Hình và cuộc hấp hối trong vườn cây dầu. Truyền thống tin rằng ngài là Tông đồ duy nhất không bị giết, sống đến tuổi già tại Êphêsô trước khi bị lưu đày trên đảo Patmos. Tin Mừng của ngài trình bày một Kitô học cao cả, tập trung vào thần tính của Chúa Kitô và sự cần thiết phải tin vào Ngôi Lời đã hóa thành xác phàm để cứu độ thế gian.\n\nTrong tuần Bát Nhật Giáng Sinh, Hội Thánh tưởng nhớ các vị tử đạo tiên khởi, nhưng Thánh Gioan đứng ra làm chứng nhân của đức tin và thị kiến. Các tác phẩm của ngài, đặc biệt là phần mở đầu Tin Mừng, nhắc nhở cộng đoàn rằng sự hiểu biết đích thực về Thiên Chúa đến từ mạc khải thần linh và tương quan mật thiết với Người. Phong tục làm phép rượu trong ngày lễ của ngài, một truyền thống lâu đời, tượng trưng cho sự tinh tuyền của đức tin và sự khôn ngoan tuôn đổ từ chân lý thần linh.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Cùng suy niệm Ngôi Lời nhập thể với Thánh Gioan Tin Mừng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con tinh thần chiêm niệm của Thánh Gioan để chúng con biết Chúa cách thâm sâu."
+  }
+}

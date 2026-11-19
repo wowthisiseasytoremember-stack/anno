@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-07",
+  "date": "2027-12-07",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Ambrose, Bishop and Doctor",
+    "title_vi": "Thánh Ambrôsiô, Giám mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Ambrose of Milan",
+    "title_vi": "Thánh Ambrôsiô thành Milan",
+    "summary_en": "St. Ambrose was the Bishop of Milan and a prominent Doctor of the Church in the 4th century. He is celebrated for his defense of the Church's independence against imperial authority and for his significant influence on St. Augustine.",
+    "summary_vi": "Thánh Ambrôsiô là Giám mục Milan và là một Tiến sĩ Hội Thánh lỗi lạc vào thế kỷ thứ tư. Ngài nổi tiếng với việc bảo vệ quyền tự chủ của Giáo hội trước quyền lực đế quốc và có ảnh hưởng lớn đối với Thánh Augustinô. Những cải cách phụng vụ và các tác phẩm thần học của Ngài vẫn tiếp tục định hình Kitô giáo phương Tây.",
+    "body_en": "Born in Trier, Ambrose pursued a career in law and politics before becoming the governor of Liguria and Emilia. When the bishop of Milan died, he was elected to the see, where he became a fierce defender of orthodoxy against Arianism. He famously refused to allow Emperor Theodosius into the church sanctuary until the emperor performed public penance for the massacre at Thessalonica, establishing a precedent for the separation of ecclesiastical and civil powers.\n\nHis legacy is also deeply intertwined with the conversion of St. Augustine, whom he mentored in Milan. Ambrose's writings on the Holy Spirit and the sacraments were foundational for later Catholic doctrine. He died on this day, December 7, 397, leaving behind a vast corpus of hymns and theological treatises that remain vital to the liturgical tradition.",
+    "body_vi": "Sinh ra tại Trier, Ambrôsiô theo đuổi sự nghiệp luật pháp và chính trị trước khi trở thành thống đốc vùng Liguria và Emilia. Khi Giám mục Milan qua đời, ngài được bầu vào tòa giám mục, nơi ngài trở thành một nhà bảo vệ nhiệt thành cho chính thống giáo chống lại thuyết Arianô. Ngài đã từ chối cho Hoàng đế Theodosius vào cung thánh cho đến khi hoàng đế thực hiện nghi thức thống hối công khai vì vụ thảm sát tại Thessalonica, thiết lập một tiền lệ về sự tách biệt giữa quyền bính giáo hội và quyền lực dân sự.\n\nDi sản của Ngài cũng gắn liền mật thiết với cuộc cải đạo của Thánh Augustinô, người mà ngài đã hướng dẫn tại Milan. Các tác phẩm của Ambrôsiô về Chúa Thánh Thần và các bí tích là nền tảng cho các giáo lý Công giáo sau này. Ngài qua đời vào ngày hôm nay, 7 tháng 12 năm 397, để lại một kho tàng các bài thánh ca và luận thuyết thần học vẫn còn sống động trong truyền thống phụng vụ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a fixed memorial in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày này là lễ nhớ cố định trong Lịch phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "He taught us that the Church is not under the Emperor, but under Christ.",
+    "hero_line_vi": "Ngài dạy chúng ta rằng Giáo hội không thuộc về Hoàng đế, nhưng thuộc về Đức Kitô.",
+    "prayer_prompt_en": "Pray for the courage to uphold truth against worldly power.",
+    "prayer_prompt_vi": "Cầu nguyện cho lòng can đảm để bảo vệ sự thật trước quyền lực thế gian."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/120727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Saints",
+      "url": "https://www.newadvent.org/cathen/01345a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-24",
+    "hebrew": "7 Kislev 5788",
+    "islamic_umm_al_qura": "9 Rajab 1449 AH",
+    "coptic": "27 Hathor 1744",
+    "ethiopian": "27 Hidar 2020"
+  }
+}

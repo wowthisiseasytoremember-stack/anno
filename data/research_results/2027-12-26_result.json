@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-26",
+  "date": "2027-12-26",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "St. Stephen, the First Martyr",
+    "title_vi": "Thánh Stêphanô, Tử đạo Tiên khởi"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "St. Stephen, the First Martyr",
+    "title_vi": "Thánh Stêphanô, Tử đạo Tiên khởi",
+    "summary_en": "December 26 is dedicated to the memory of St. Stephen, the first Christian martyr. This feast falls on the octave of Christmas, linking the birth of Christ with the beginning of Christian witness through death. In 2027, this date also coincides with a Sunday, emphasizing the liturgical significance of the martyrdom.",
+    "summary_vi": "Ngày 26 tháng 12 dành để tưởng nhớ Thánh Stêphanô, vị tử đạo Kitô giáo đầu tiên. Lễ này rơi vào tuần bát nhật Giáng Sinh, nối kết việc sinh hạ của Chúa Kitô với sự khởi đầu của chứng tá Kitô giáo qua cái chết. Năm 2027, ngày này cũng trùng với một Chúa nhật, nhấn mạnh ý nghĩa phụng vụ của biến cố tử đạo. Màu phụng vụ là màu đỏ, tượng trưng cho máu tử đạo.",
+    "body_en": "The Church celebrates the Feast of St. Stephen on the day following Christmas.\n\nThis tradition underscores that the Incarnation of Christ is inextricably linked to the cross and the martyr's witness. St. Stephen, a deacon in the early Church, is recorded in the Acts of the Apostles as a man full of faith and the Holy Spirit. His preaching to the Jewish community in Jerusalem led to his confrontation with the Sanhedrin and subsequent martyrdom by stoning. The narrative highlights his vision of Jesus standing at the right hand of God, a privilege granted to the first martyr. This event marks the beginning of the Church's history of witness and suffering. Stephen's prayer for his executioners, 'Lord, do not hold this sin against them,' mirrors Christ's own prayer on the cross, showing the transformative power of the Incarnation. His death serves as a powerful reminder that the light of Christ shines brightest in the darkness of suffering. The Church invites the faithful to imitate Stephen's courage and faithfulness in their own daily lives.",
+    "body_vi": "Giáo Hội mừng Lễ Thánh Stêphanô vào ngày liền sau lễ Giáng Sinh. Truyền thống này nhấn mạnh rằng mầu nhiệm Nhập Thể của Chúa Kitô không thể tách rời khỏi thập giá và chứng tá của người tử đạo.\n\nThánh Stêphanô, một phó tế trong Giáo Hội sơ khai, được sách Công Vụ Tông Đồ ghi nhận là người đầy tràn ơn Thánh Thần. Việc ngài giảng dạy cho cộng đoàn Do Thái tại Giêrusalem đã dẫn đến cuộc đối đầu với Thượng Hội Đồng và việc ngài bị ném đá đến chết. Câu chuyện kể lại thị kiến của ngài về Chúa Giêsu đang đứng bên hữu Thiên Chúa, một đặc ân dành cho vị tử đạo tiên khởi. Biến cố này đánh dấu sự khởi đầu của lịch sử chứng tá và đau khổ của Giáo Hội. Lời cầu nguyện của Stêphanô cho những người hành hình, 'Lạy Chúa, xin đừng chấp tội họ,' phản chiếu lời cầu nguyện của chính Chúa Kitô trên thập giá, cho thấy sức mạnh biến đổi của mầu nhiệm Nhập Thể. Cái chết của ngài là lời nhắc nhở mạnh mẽ rằng ánh sáng Chúa Kitô tỏa sáng rực rỡ nhất trong bóng tối của đau khổ. Giáo Hội mời gọi cộng đoàn tín hữu noi gương lòng can đảm và sự trung thành của Stêphanô trong cuộc sống hàng ngày của họ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The rank and title are fixed in the General Roman Calendar. The coincidence with Sunday does not change the fixed feast day status.",
+    "confidence_note_vi": "Bậc lễ và tước hiệu được quy định chắc chắn trong Lịch Phụng Vụ Roma. Việc trùng với ngày Chúa nhật không thay đổi vị trí lễ buộc của ngày này."
+  },
+  "app_hooks": {
+    "hero_line_en": "The First Martyr: Witnessing to Christ with His Blood",
+    "hero_line_vi": "Vị Tử Đạo Đầu Tiên: Chứng Tá Cho Đức Kitô Bằng Máu Mình",
+    "prayer_prompt_en": "Lord Jesus, stand beside me in my moments of suffering, as You stood beside Stephen.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, xin đứng bên con trong những giờ phút đau khổ, như Chúa đã đứng bên Thánh Stêphanô."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/122627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org - St. Stephen",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=232",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-13",
+    "hebrew": "26 Kislev 5788",
+    "islamic_umm_al_qura": "28 Rajab 1449 AH",
+    "coptic": "16 Koiak 1744",
+    "ethiopian": "16 Tahsas 2020"
+  }
+}

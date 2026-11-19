@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-22",
+  "date": "2027-12-22",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Third Week of Advent",
+    "title_vi": "Thứ Tư Tuần III Mùa Vọng",
+    "summary_en": "This day is a weekday of Advent, specifically falling in the third week. The liturgical focus remains on preparation for the coming of Christ. There are no obligatory memorials that displace the feria on this specific date in the General Roman Calendar.",
+    "summary_vi": "Hôm nay là một ngày trong tuần của Mùa Vọng, cụ thể là thuộc tuần III. Trọng tâm phụng vụ vẫn là sự chuẩn bị cho việc Chúa Kitô đến. Không có kỷ niệm bắt buộc nào thay thế ngày thường này trong Lịch Rôma Chung vào ngày cụ thể này.",
+    "body_en": "The Third Week of Advent invites the faithful to deepen their interior disposition of waiting and hope. The readings and prayers appointed for this Wednesday reflect the themes of light entering darkness and the anticipation of the Lord's justice. The liturgy continues the progression towards the Nativity without the introduction of specific saint feasts, maintaining the penitential yet hopeful character of the season.\n\nLiturgically, the color purple signifies the penitential nature of Advent, calling for conversion and readiness. While not a solemnity or feast, the feria retains its own proper texts that guide the community in meditation on the prophetic promises. This structural simplicity ensures that the primary focus remains on the Christological center of the season rather than peripheral commemorations.",
+    "body_vi": "Tuần III Mùa Vọng mời gọi các tín hữu đào sâu tâm tình chờ đợi và hy vọng nội tâm. Các bài đọc và lời cầu nguyện được chỉ định cho Thứ Tư này phản ánh chủ đề ánh sáng xâm nhập bóng tối và sự mong chờ công lý của Chúa. Phụng vụ tiếp tục tiến trình hướng tới lễ Giáng Sinh mà không có các lễ thánh cụ thể, duy trì tính chất sám hối nhưng tràn đầy hy vọng của mùa này.\n\nVề mặt phụng vụ, màu tím tượng trưng cho tính chất sám hối của Mùa Vọng, kêu gọi sự hoán cải và sẵn sàng. Mặc dù không phải là lễ trọng hay lễ kính, ngày thường vẫn giữ những văn bản riêng hướng dẫn cộng đoàn suy niệm về các lời hứa ngôn sứ. Cấu trúc đơn giản này đảm bảo rằng trọng tâm chính vẫn là trung tâm Kitô giáo của mùa này thay vì các kỷ niệm phụ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a standard Advent Feria in the Roman Calendar with no conflicting solemnities or feasts.",
+    "confidence_note_vi": "Ngày này là một ngày thường Mùa Vọng tiêu chuẩn trong Lịch Rôma mà không có xung đột với các lễ trọng hay lễ kính."
+  },
+  "app_hooks": {
+    "hero_line_en": "Waiting with Hope: Wednesday of Advent Week III",
+    "hero_line_vi": "Chờ đợi với Hy Vọng: Thứ Tư Tuần III Mùa Vọng",
+    "prayer_prompt_en": "Ask for the grace of constant vigilance and purity of heart as you wait for Christ.",
+    "prayer_prompt_vi": "Xin ơn tỉnh thức liên lỉ và tâm hồn trong sạch khi bạn chờ đợi Chúa Kitô."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/122227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Online Calendar",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-09",
+    "hebrew": "22 Kislev 5788",
+    "islamic_umm_al_qura": "24 Rajab 1449 AH",
+    "coptic": "12 Koiak 1744",
+    "ethiopian": "12 Tahsas 2020"
+  }
+}

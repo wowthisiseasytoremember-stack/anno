@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-29",
+  "date": "2027-12-29",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "white",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_en": "This Wednesday falls within the Octave of the Nativity of the Lord. It is a weekday feria celebrated with the liturgical color white. The focus remains on the mystery of the Incarnation during this holy season.",
+    "summary_vi": "Thứ Tư này nằm trong Tuần Bát Nhật Lễ Chúa Giáng Sinh. Đây là ngày thường trong tuần được cử hành với màu phụng vụ trắng. Trọng tâm vẫn là mầu nhiệm Nhập Thể trong mùa thánh này.",
+    "body_en": "In the General Roman Calendar, December 29 is a weekday of Christmastide, continuing the celebration of the Nativity of the Lord. The Church invites the faithful to reflect on the Word made flesh, emphasizing the humility and light of the Incarnation. No obligatory feast or memorial takes precedence, so the weekday office is prayed according to the time within the Octave.\n\nThe liturgical texts for this day often draw from the Psalms and readings that highlight the significance of God dwelling among humanity. As a feria, it allows for personal devotion while remaining anchored in the seasonal propers. The color white signifies joy and purity, marking the divine presence in the history of salvation as celebrated throughout the Christmas season.",
+    "body_vi": "Trong Lịch Phụng Vụ Rôma, ngày 29 tháng 12 là ngày trong tuần Mùa Giáng Sinh, tiếp nối việc cử hành Lễ Chúa Giáng Sinh. Hội Thánh mời gọi các tín hữu suy gẫm về Ngôi Lời nhập thể, nhấn mạnh sự khiêm nhường và ánh sáng của mầu nhiệm Nhập Thể. Không có lễ buộc hay lễ nhớ nào ưu tiên, nên Kinh Nhật Tụng được cầu nguyện theo ngày trong Tuần Bát Nhật.\n\nCác văn bản phụng vụ cho ngày này thường trích dẫn từ các Thánh Vịnh và bài đọc làm nổi bật ý nghĩa của việc Thiên Chúa cư ngụ giữa nhân loại. Là một ngày thường, nó cho phép lòng sùng kính cá nhân nhưng vẫn bám rễ vào các bản văn riêng theo mùa. Màu trắng biểu thị niềm vui và sự thanh khiết, đánh dấu sự hiện diện của Thiên Chúa trong lịch sử cứu độ được cử hành trong suốt Mùa Giáng Sinh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The rank and color are confirmed by the General Roman Calendar for a weekday within the Octave of Christmas.",
+    "confidence_note_vi": "Bậc lễ và màu sắc được xác nhận bởi Lịch Phụng Vụ Rôma cho một ngày trong tuần thuộc Tuần Bát Nhật Giáng Sinh."
+  },
+  "app_hooks": {
+    "hero_line_en": "Word made flesh, dwelling among us.",
+    "hero_line_vi": "Ngôi Lời làm người, cư ngụ giữa chúng ta.",
+    "prayer_prompt_en": "Pray for humility and gratitude as you meditate on the Incarnation.",
+    "prayer_prompt_vi": "Cầu nguyện với sự khiêm nhường và lòng biết ơn khi suy niệm về mầu nhiệm Nhập Thể."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/122927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org - Calendar",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-16",
+    "hebrew": "29 Kislev 5788",
+    "islamic_umm_al_qura": "1 Sha'ban 1449 AH",
+    "coptic": "19 Koiak 1744",
+    "ethiopian": "19 Tahsas 2020"
+  }
+}

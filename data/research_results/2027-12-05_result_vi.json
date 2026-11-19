@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật II Mùa Vọng",
+    "summary_vi": "Chúa Nhật II Mùa Vọng tập trung vào lời kêu gọi tiên tri để sửa soạn đường cho Chúa. Bài đọc nhấn mạnh sứ vụ của Gioan Tẩy Giả và nhu cầu hoán cải thiêng liêng. Phụng vụ nhấn mạnh niềm hy vọng và sự sẵn sàng đón chờ Đức Kitô.",
+    "body_vi": "Vào Chúa Nhật II Mùa Vọng, Hội Thánh hướng về hình ảnh Gioan Tẩy Giả như người tiền hô sửa soạn lòng dân chúng cho Chúa. Bài đọc từ sách Isaia và Tin Mừng Luca kêu gọi sự thay đổi triệt để tâm hồn, thúc giục các tín hữu dọn sạch những chướng ngại của kiêu ngạo và xao lãng. Chủ đề này bắt rễ sâu sắc trong truyền thống chờ đợi và chuẩn bị của Hội Thánh.\n\nMàu tím phụng vụ biểu tượng cho sự sám hối và kỳ vọng khiêm tốn, nhắc nhở các tín hữu rằng việc chuẩn bị cho Giáng Sinh không chỉ là kỷ niệm lịch sử mà còn là sự đổi mới thiêng liêng. Sự tập trung chuyển từ tương lai cánh chung sang sự hiện đến gần kề của Đức Kitô trong Nhập Thể, đòi hỏi một phản hồi bằng sự hoán cải tích cực và niềm vui. Ngày này thiết lập giọng điệu cho toàn mùa, cân bằng giữa sự mong chờ Cuộc Tái Lâm và cử hành biến cố Giáng Sinh.",
+    "confidence_note_vi": "Ngày này rơi vào Chúa Nhật II Mùa Vọng, một thời điểm cố định trong lịch phụng vụ Nghi lễ Rôma được xác định bởi chu kỳ Phục Sinh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy sửa soạn đường cho Đức Chúa.",
+    "prayer_prompt_vi": "Xin ban cho chúng con sự khiêm nhường để sửa soạn tâm hồn khi chờ đợi Đức Kitô ngự đến."
+  }
+}

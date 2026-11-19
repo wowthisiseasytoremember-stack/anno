@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-28",
+  "date": "2027-12-28",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "The Holy Innocents, Martyrs",
+    "title_vi": "Lễ Các Thánh Anh Hài, Tử đạo"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "The Holy Innocents, Martyrs",
+    "title_vi": "Lễ Các Thánh Anh Hài, Tử đạo",
+    "summary_en": "This feast commemorates the massacre of young children in Bethlehem ordered by King Herod to kill the infant Jesus. It is observed as a feast day in the General Roman Calendar, highlighting the innocence and martyrdom of these children. The liturgical color is red, signifying their sacrifice and witness to Christ.",
+    "summary_vi": "Lễ này tưởng nhớ vụ thảm sát các trẻ nhỏ ở Bêlem do Vua Hêrôđê truyền lệnh nhằm giết Hài nhi Giêsu. Ngày này được cử hành như một ngày lễ trong Lịch Phụng vụ Rôma, làm nổi bật sự vô tội và chứng tá tử đạo của các em. Màu sắc phụng vụ là màu đỏ, biểu trưng cho sự hy sinh và lời chứng của các em dành cho Chúa Kitô.",
+    "body_en": "The feast of the Holy Innocents has been celebrated since the early centuries of the Church, recognizing the children as the first martyrs for Christ. According to the Gospel of Matthew, King Herod, fearing the birth of a new king, ordered the death of all male children under two years old in Bethlehem. These children, though too young to speak or act, are honored for their sacrifice and their proximity to the incarnate Word.\n\nThe liturgy for this day emphasizes the innocence of childhood and the cost of discipleship. It serves as a reminder that faith can be witnessed even through suffering and silence. The Church prays for all children and encourages the faithful to protect and nurture the innocent, following the example of these martyrs who gave their lives before they could speak.",
+    "body_vi": "Lễ Các Thánh Anh Hài đã được cử hành từ những thế kỷ đầu của Giáo hội, nhìn nhận các em là những vị tử đạo đầu tiên của Đức Kitô. Theo Tin Mừng của Matthêu, Vua Hêrôđê, sợ hãi trước việc một vị vua mới ra đời, đã truyền lệnh giết tất cả các bé trai dưới hai tuổi ở Bêlem. Những đứa trẻ này, dù còn quá nhỏ để nói hoặc hành động, được tôn kính vì sự hy sinh và sự gần gũi của các em với Ngôi Lời Nhập Thể.\n\nPhụng vụ ngày này nhấn mạnh sự vô tội của thời thơ ấu và cái giá của việc làm môn đệ. Nó nhắc nhở rằng đức tin có thể được chứng tá ngay cả qua đau khổ và sự im lặng. Giáo hội cầu nguyện cho tất cả trẻ em và khuyến khích các tín hữu bảo vệ và nuôi dưỡng những người vô tội, noi gương các vị tử đạo đã hy sinh mạng sống trước khi họ kịp cất lời.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "The first martyrs, silent witnesses to the King.",
+    "hero_line_vi": "Những vị tử đạo đầu tiên, nhân chứng thinh lặng của Vua Trời.",
+    "prayer_prompt_en": "Pray for all children, that they may grow in wisdom and grace.",
+    "prayer_prompt_vi": "Cầu nguyện cho tất cả trẻ em, để các em lớn lên trong ân sủng và sự khôn ngoan."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Readings for December 28",
+      "url": "https://bible.usccb.org/bible/readings/122827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Calendar of Saints",
+      "url": "https://www.vaticannews.va/en/saints.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-15",
+    "hebrew": "28 Kislev 5788",
+    "islamic_umm_al_qura": "30 Rajab 1449 AH",
+    "coptic": "18 Koiak 1744",
+    "ethiopian": "18 Tahsas 2020"
+  }
+}
