@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 4 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật 4 Thường Niên",
+    "summary_vi": "Trong Chúa Nhật Mùa Thường Niên này, Giáo hội suy niệm về các Mối Phúc thật và lời mời gọi nên thánh được trình bày trong Tin Mừng Mát-thêu. Các bài đọc nhấn mạnh thái độ nội tâm của con tim, thúc đẩy tín hữu sống đức tin qua những hành động cụ thể của lòng thương xót và công lý. Ngày phụng vụ này là lời nhắc nhở rằng đời sống Kitô hữu là một hành trình biến đổi dần dần trong Đức Kitô.",
+    "body_vi": "Phụng vụ của Chúa Nhật 4 Mùa Thường Niên mời gọi các tín hữu đào sâu sự hiểu biết về Nước Thiên Chúa như thực tại hiện tại và tương lai. Bài đọc thứ nhất từ Ngôn sứ Xơ-phô-nh-a kêu gọi dân chúng tìm kiếm Đức Chúa và theo đuổi đức hạnh, làm nổi bật sự khiêm nhường cần thiết để đi vào hiệp thông thần linh. Bài Tin Mừng tiếp tục Bài Giảng trên Núi, nơi Đức Giê-su mô tả trạng thái được chúc phúc của những ai có tâm hồn nghèo khó, thương xót và xây dựng hòa bình.\n\nChúa Nhật này thách thức cộng đoàn vượt qua sự tuân thủ tôn giáo hời hợt để đi tới sự hoán cải nội tâm sâu sắc. Màu xanh tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống của Giáo hội, khuyến khích tín hữu sinh hoa trái trong cuộc sống hằng ngày. Bằng cách điều chỉnh hành động của mình theo lời giáo huấn của Đức Ki-tô, các tín hữu tham gia vào quá trình thực hiện vương quốc của Thiên Chúa trong thế giới.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Phúc thay ai xây dựng hòa bình, vì họ sẽ được gọi là con Thiên Chúa.",
+    "prayer_prompt_vi": "Xin ban cho chúng con sự khiêm nhường để tìm kiếm ý Ngài và lòng can đảm để sống các Mối Phúc thật trong những gặp gỡ hằng ngày."
+  }
+}

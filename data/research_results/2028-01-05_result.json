@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-05",
+  "date": "2028-01-05",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "white",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_en": "This day falls within the privileged season of Christmastide, which extends from the First Vespers of the Nativity until the Feast of the Baptism of the Lord. As a feria, it carries a weekday rank but remains distinct from Ordinary Time due to its placement in the Christmas cycle. The liturgical color is white, reflecting the joy and purity associated with the Incarnation.",
+    "summary_vi": "Ngày này thuộc về Mùa Giáng Sinh cao trọng, kéo dài từ Kinh Chiều I Lễ Giáng Sinh cho đến lễ Chúa Giêsu chịu Phép Rửa. Là ngày trong tuần (feria), nó mang cấp bậc trong tuần nhưng vẫn khác biệt với Mùa Quanh Năm vì nằm trong chu kỳ Giáng Sinh. Màu sắc phụng vụ là màu trắng, phản ánh niềm vui và sự thanh khiết liên quan đến mầu nhiệm Nhập Thể.",
+    "body_en": "During the weekdays of Christmastide, the Church meditates on the mystery of the Incarnation with particular focus on the humility of God becoming man. While the rank is that of a feria, the texts and readings chosen by the lectionary emphasize the divine light shining in the darkness and the response of humanity to the Word made flesh. These days serve as a bridge between the great celebrations of the Nativity and the Epiphany, maintaining a high tone of adoration.\n\nThe liturgical observance is characterized by the use of the Gloria and the proper prefaces for Christmas, which highlight the unity of the divine and human natures in Christ. Although no major saint's feast displaces this weekday, the faithful are invited to reflect on the hidden years of Jesus and the domestic church of Nazareth. The white vestments remind the worshipper of the innocence and holiness of the Child of Bethlehem.",
+    "body_vi": "Trong những ngày trong tuần của Mùa Giáng Sinh, Giáo hội suy niệm mầu nhiệm Nhập Thể với sự tập trung đặc biệt vào sự khiêm nhường của Thiên Chúa làm người. Mặc dù cấp bậc là ngày thường, các bản văn và bài đọc được chọn bởi sách bài đọc nhấn mạnh ánh sáng thần linh chiếu soi trong bóng tối và sự đáp trả của nhân loại đối với Ngôi Lời làm người. Những ngày này đóng vai trò cầu nối giữa các đại lễ Giáng Sinh và Hiển Linh, duy trì tông thờ kính cao độ.\n\nSự cử hành phụng vụ được đặc trưng bởi việc sử dụng Kinh Vinh Danh và lời nguyện tiền tụng riêng của Mùa Giáng Sinh, nhấn mạnh sự hiệp nhất giữa bản tính thần linh và nhân tính trong Chúa Kitô. Mặc dù không có lễ kính thánh tử đạo nào thay thế ngày trong tuần này, tín hữu được mời gọi suy gẫm về những năm tháng ẩn dật của Chúa Giêsu và Giáo hội nội tâm tại Nazaret. Áo lễ màu trắng nhắc nhở người thờ phượng về sự vô tội và thánh thiện của Hài Nhi Bêlem.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "God is become man, that man may become God.",
+    "hero_line_vi": "Thiên Chúa đã làm người để con người được trở nên Thiên Chúa.",
+    "prayer_prompt_en": "Lord, in the silence of this Christmas weekday, help me to hear the quiet voice of Your Word made flesh.",
+    "prayer_prompt_vi": "Lạy Chúa, trong sự thinh lặng của ngày thường này của Mùa Giáng Sinh, xin giúp con nghe thấy tiếng nói dịu dàng của Lời Chúa đã làm người."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/010528.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/03791a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-23",
+    "hebrew": "6 Tevet 5788",
+    "islamic_umm_al_qura": "8 Sha'ban 1449 AH",
+    "coptic": "26 Koiak 1744",
+    "ethiopian": "26 Tahsas 2020"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-27",
+  "date": "2028-01-27",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 3",
+    "title_vi": "Thứ Năm tuần 3 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of Ordinary Time, Week 3",
+    "title_vi": "Thứ Năm tuần 3 Mùa Thường Niên",
+    "summary_en": "On January 27, 2028, the Church observes an ordinary weekday within the Season of Ordinary Time. This day falls in the third week of the season, following the Feast of the Conversion of Saint Paul. There is no universal obligatory memorial for this specific date in the General Roman Calendar. The liturgical focus remains on the continuous growth of faith and the daily recitation of the Divine Office.",
+    "summary_vi": "Vào ngày 27 tháng 1 năm 2028, Giáo hội cử hành ngày thường trong Mùa Thường Niên. Ngày này rơi vào tuần thứ ba của mùa, sau lễ Thánh Phaolô tông đồ trở lại. Không có kỷ niệm bắt buộc phổ quát cho ngày cụ thể này trong Lịch Rôma Tổng quát. Trọng điểm phụng vụ vẫn là sự tăng trưởng liên lỉ trong đức tin và việc đọc Kinh Nhật Tụng hàng ngày.",
+    "body_en": "The Season of Ordinary Time is characterized by its green vestments, symbolizing hope and the steady growth of the Kingdom of God. In the year 2028, January 27 serves as a moment for the faithful to engage with the weekly cycle of the Psalms and the Gospel readings assigned to Week 3. Without a major saint's feast overshadowing the liturgy, the day emphasizes the simplicity and depth of daily conversion. The readings, while specific to the three-year lectionary cycle, generally reinforce themes of discipleship and the response to God's call.\n\nIn the Vietnamese Catholic tradition, this day is observed as 'Thứ Năm tuần 3 Mùa Thường Niên.' It is a time for the laity and clergy alike to reflect on the teachings of Christ during the ordinary course of the liturgical year. The absence of a prominent feast day allows for a deeper personal meditation on the weekly scriptures. The liturgical calendar in 2028 maintains the standard Roman structure, ensuring that the rhythm of prayer remains consistent for the global Catholic community.",
+    "body_vi": "Mùa Thường Niên đặc trưng bởi phẩm phục màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Nước Thiên Chúa. Vào năm 2028, ngày 27 tháng 1 là khoảnh khắc để cộng đoàn tín hữu suy niệm theo chu kỳ hàng tuần của các Thánh Vịnh và các bài đọc Tin Mừng dành cho tuần 3. Không có lễ kính các thánh lớn nào che phủ phụng vụ ngày này, nhấn mạnh vào sự đơn giản và chiều sâu của việc hoán cải hàng ngày. Các bài đọc, dù cụ thể theo chu kỳ bài đọc ba năm, thường củng cố các chủ đề về môn đệ và sự đáp lời mời gọi của Thiên Chúa.\n\nTheo truyền thống Công giáo Việt Nam, ngày này được cử hành là 'Thứ Năm tuần 3 Mùa Thường Niên.' Đây là thời điểm để giáo dân và giáo sĩ suy ngẫm về những lời dạy của Đức Kitô trong dòng chảy bình thường của năm phụng vụ. Việc thiếu một ngày lễ lớn cho phép suy gẫm cá nhân sâu sắc hơn về các kinh thánh hàng tuần. Lịch phụng vụ năm 2028 duy trì cấu trúc Rôma tiêu chuẩn, đảm bảo nhịp điệu cầu nguyện nhất quán cho cộng đoàn Công giáo toàn cầu.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is confirmed as a weekday in Ordinary Time according to the standard General Roman Calendar calculations for 2028.",
+    "confidence_note_vi": "Ngày này được xác nhận là ngày thường trong Mùa Thường Niên theo tính toán Lịch Rôma Tổng quát tiêu chuẩn cho năm 2028."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk humbly with your God in the ordinary days.",
+    "hero_line_vi": "Hãy bước đi khiêm nhường với Thiên Chúa trong những ngày thường.",
+    "prayer_prompt_en": "Lord, grant me the grace to find You in the rhythm of my daily life this Thursday.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để tìm thấy Chúa trong nhịp sống hàng ngày của con hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/012728.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-14",
+    "hebrew": "28 Tevet 5788",
+    "islamic_umm_al_qura": "30 Sha'ban 1449 AH",
+    "coptic": "18 Tobi 1744",
+    "ethiopian": "18 Ter 2020"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-07",
+  "date": "2028-01-07",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "white",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_en": "January 7, 2028, is a Friday within the liturgical season of Christmastide. There are no obligatory memorials or feasts assigned for this specific weekday in the General Roman Calendar. The focus remains on the contemplation of the Nativity of the Lord.",
+    "summary_vi": "Ngày 7 tháng 1 năm 2028 là thứ Sáu trong mùa phụng vụ Giáng Sinh. Không có ngày lễ hay tưởng nhớ bắt buộc nào được chỉ định cho ngày trong tuần cụ thể này theo Lịch Phụng Vụ Rôma. Trọng tâm vẫn là suy niệm về việc Chúa Giáng Sinh.",
+    "body_en": "As a weekday of the Christmas season, the liturgy reflects on the mystery of the Incarnation without the elevation of a specific saint's feast or a Sunday obligation. The color of the vestments is white, symbolizing the joy and purity associated with the birth of Christ.\n\nDuring this period, the readings often continue from the days preceding the feast of the Baptism of the Lord. The faithful are invited to meditate on the humility of God becoming man, a theme that permeates the prayers and antiphons of the time.",
+    "body_vi": "Là một ngày trong tuần của mùa Giáng Sinh, phụng vụ suy tư về mầu nhiệm Nhập Thể mà không có sự nâng cấp thành lễ kính một vị thánh cụ thể hay ngày Chúa nhật buộc. Màu sắc của khăn bàn thờ là màu trắng, tượng trưng cho niềm vui và sự tinh tuyền gắn liền với việc Chúa Kitô giáng sinh.\n\nTrong thời gian này, các bài đọc thường tiếp nối từ những ngày trước lễ Chúa Giêsu Chịu Phép Rửa. Cộng đoàn dân Chúa được mời gọi suy niệm về sự khiêm nhường của Thiên Chúa khi trở thành con người, một chủ đề xuyên suốt trong các lời nguyện và lời đối đáp của thời kỳ này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls strictly within the Christmas season as a feria, with no competing high-ranking celebrations in the Universal Calendar for this specific day.",
+    "confidence_note_vi": "Ngày này rơi vào mùa Giáng Sinh với tư cách là ngày thường, không có lễ trọng hay lễ kính nào khác trong Lịch Phổ Quát cạnh tranh với thứ bậc của ngày trong tuần này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Contemplate the humility of the Incarnation.",
+    "hero_line_vi": "Hãy suy niệm về sự khiêm nhường của mầu nhiệm Nhập Thể.",
+    "prayer_prompt_en": "Lord, help us to see Your glory in the simplicity of the manger.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhìn thấy vinh quang của Ngài trong sự đơn sơ của máng cỏ."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/010728.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Roman Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-25",
+    "hebrew": "8 Tevet 5788",
+    "islamic_umm_al_qura": "10 Sha'ban 1449 AH",
+    "coptic": "28 Koiak 1744",
+    "ethiopian": "28 Tahsas 2020"
+  }
+}

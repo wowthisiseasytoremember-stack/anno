@@ -1,0 +1,57 @@
+{
+  "id": "anno-2028-01-20",
+  "date": "2028-01-20",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 2",
+    "title_vi": "Thứ Năm tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Second Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần 2 Mùa Thường Niên",
+    "summary_en": "This day is a ferial weekday within the second week of Ordinary Time. The liturgical color is green, signifying growth and hope in the Christian life. The readings focus on the call to discipleship and the nature of Jesus' authority.",
+    "summary_vi": "Ngày này là ngày thường trong tuần 2 Mùa Thường Niên. Màu phụng vụ là màu xanh, tượng trưng cho sự tăng trưởng và hy vọng trong đời sống Kitô hữu. Các bài đọc tập trung vào lời mời gọi làm môn đệ và bản quyền bính của Chúa Giêsu.",
+    "body_en": "As the Church progresses through the second week of Ordinary Time, the focus remains on the public ministry of Jesus. On this Thursday, the liturgy invites the faithful to reflect on the authority with which Christ teaches and acts. This period is characterized by a steady, unadorned celebration of the mystery of Christ in its entirety, rather than the specific aspects highlighted in the Christmas or Easter seasons.\n\nThe Gospel readings for this week often present scenes of Jesus' interactions with the people of Galilee, emphasizing the breaking of Sabbath rules through acts of mercy and the calling of the first disciples. The ferial nature of the day means there are no obligatory commemorations of saints that would displace the weekday texts, allowing the Word of God to be the central focus of the Liturgy of the Word. The green vestments remind us of the ongoing life of the Church, which continues to grow and mature in understanding and faith throughout the year.",
+    "body_vi": "Khi Hội Thánh bước qua tuần thứ hai của Mùa Thường Niên, trọng tâm vẫn là sứ vụ công khai của Chúa Giêsu. Trong ngày Thứ Năm này, phụng vụ mời gọi các tín hữu suy niệm về quyền bính mà qua đó Chúa Kitô giảng dạy và hành động. Thời gian này được đặc trưng bởi việc cử hành đều đặn và không trang trí rườm rà mầu nhiệm của Chúa Kitô trong toàn bộ, thay vì các khía cạnh cụ thể được nhấn mạnh trong Mùa Giáng Sinh hay Mùa Phục Sinh.\n\nCác bài đọc Tin Mừng trong tuần này thường trình bày các cảnh Chúa Giêsu tương tác với dân chúng xứ Galilê, nhấn mạnh việc phá bỏ luật ngày Sabbath qua những hành vi thương xót và việc kêu gọi các môn đệ đầu tiên. Tính chất ngày thường của ngày này có nghĩa là không có những kỷ niệm bổn phận về các thánh nào có thể thay thế các văn bản ngày trong tuần, cho phép Lời Chúa trở thành trung tâm của Phụng vụ Lời Chúa. Những bộ lễ phục màu xanh nhắc nhở chúng ta về sự sống liên tục của Hội Thánh, vẫn tiếp tục tăng trưởng và chín muồi trong sự hiểu biết và đức tin suốt cả năm.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the Authority of Christ",
+    "hero_line_vi": "Bước đi trong quyền bính của Chúa Kitô",
+    "prayer_prompt_en": "Lord, teach me to recognize Your authority in the Scriptures and in my daily life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con nhận ra quyền bính của Chúa trong Kinh Thánh và trong đời sống hằng ngày của con."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date falls clearly within Ordinary Time after the Baptism of the Lord, with no major solemnities or obligatory memorials displacing the weekday.",
+  "confidence_note_vi": "Ngày này rơi rõ ràng vào Mùa Thường Niên sau lễ Chúa Chịu Phép Rủa, không có lễ trọng hoặc lễ nhớ bổn phận nào thay thế các bài đọc ngày trong tuần.",
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for Jan 20, 2028",
+      "url": "https://bible.usccb.org/bible/readings/012028.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2028 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2028cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-07",
+    "hebrew": "21 Tevet 5788",
+    "islamic_umm_al_qura": "23 Sha'ban 1449 AH",
+    "coptic": "11 Tobi 1744",
+    "ethiopian": "11 Ter 2020"
+  }
+}

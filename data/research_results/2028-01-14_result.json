@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-14",
+  "date": "2028-01-14",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Sáu tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Sáu tuần 1 Mùa Thường Niên",
+    "summary_en": "This day is a weekday in Ordinary Time, focusing on the gradual growth of the Christian community. It falls in the first week of the post-Epiphanic season, emphasizing the early life of Jesus and the call to discipleship. No specific saint's memorial takes precedence, allowing the liturgy to focus on the daily readings and the rhythm of ordinary life in faith.",
+    "summary_vi": "Ngày này là một ngày thường trong Mùa Thường Niên, tập trung vào sự tăng trưởng dần dần của cộng đoàn Kitô hữu. Nó rơi vào tuần đầu tiên của mùa sau lễ Hiển Linh, nhấn mạnh vào cuộc đời sớm của Chúa Giêsu và lời mời gọi làm môn đệ. Không có lễ kính thánh nào cụ thể được ưu tiên, cho phép phụng vụ tập trung vào các bài đọc hàng ngày và nhịp điệu của cuộc sống thường nhật trong đức tin.",
+    "body_en": "The liturgical focus for Friday of the First Week in Ordinary Time is on the foundational moments of Jesus' ministry as presented in the Gospel readings. The Church invites the faithful to reflect on how ordinary actions, when performed in the spirit of the Gospel, contribute to the building of the Kingdom of God.\n\nThis period serves as a spiritual discipline, reminding believers that sanctity is not only found in great feasts but in the daily practice of charity, prayer, and fidelity to God's will. The green color symbolizes hope and the ongoing life of the Church in time.",
+    "body_vi": "Trọng tâm phụng vụ cho Thứ Sáu tuần I Mùa Thường Niên là về những khoảnh khắc nền tảng của sứ vụ Chúa Giêsu được trình bày trong các bài đọc Tin Mừng. Giáo hội mời gọi các tín hữu suy ngẫm về cách các hành động bình thường, khi được thực hiện trong tinh thần Tin Mừng, đóng góp vào việc xây dựng Nước Thiên Chúa.\n\nGiai đoạn này phục vụ như một kỷ luật thiêng liêng, nhắc nhở các tín hữu rằng sự thánh thiện không chỉ được tìm thấy trong các lễ hội lớn mà còn trong việc thực hành hàng ngày đức ái, cầu nguyện và trung thành với ý muốn của Thiên Chúa. Màu xanh lá cây tượng trưng cho hy vọng và sự sống liên tục của Giáo hội trong thời gian.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Finding Holiness in the Ordinary",
+    "hero_line_vi": "Tìm kiếm Sự Thánh Thiện trong Điều Bình Thường",
+    "prayer_prompt_en": "Lord, help me to see Your presence in the mundane tasks of my day.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con thấy sự hiện diện của Ngài trong những công việc bình thường của ngày con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for Jan 14, 2028",
+      "url": "https://bible.usccb.org/bible/readings/011428.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar (Example Reference)",
+      "url": "https://www.newadvent.org/cathen/11220a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-01",
+    "hebrew": "15 Tevet 5788",
+    "islamic_umm_al_qura": "17 Sha'ban 1449 AH",
+    "coptic": "5 Tobi 1744",
+    "ethiopian": "5 Ter 2020"
+  }
+}

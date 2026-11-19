@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-22",
+  "date": "2028-01-22",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 2",
+    "title_vi": "Thứ Bảy tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 2",
+    "title_vi": "Thứ Bảy tuần 2 Mùa Thường Niên",
+    "summary_en": "This date is a standard Feria in Ordinary Time, specifically within the second week of the liturgical year. The liturgical color is green, signifying growth and hope in the Christian life. No major feast or universal memorial is celebrated on this day in the General Roman Calendar.",
+    "summary_vi": "Ngày này là ngày lễ thường trong Mùa Thường Niên, cụ thể thuộc tuần thứ hai của năm phụng vụ. Màu sắc phụng vụ là xanh lá cây, biểu trưng cho sự tăng trưởng và niềm hy vọng trong đời sống Kitô hữu. Không có lễ kính lớn hay lễ nhớ phổ quát nào được cử hành vào ngày này trong Lịch chung Rôma.",
+    "body_en": "As a Feria in Ordinary Time, the focus remains on the continuous progression of the faithful through the mysteries of Christ's life. The readings for this day are drawn from the second week cycle, emphasizing humility and the acceptance of God's will. Clergy wear green vestments to reflect the season's theme of spiritual growth.\n\nThe Divine Office and the Mass liturgy follow the standard weekday format for Week 2 of Ordinary Time. The prayers center on the daily renewal of conversion and the deepening of charity among the members of the Church. This ordinary time serves as a foundation for living out the teachings received during the Christmas season.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, trọng tâm vẫn là sự tiến triển liên tục của các tín hữu qua các mầu nhiệm cuộc đời Chúa Kitô. Các bài đọc trong ngày này được lấy từ chu kỳ tuần thứ hai, nhấn mạnh sự khiêm nhường và đón nhận ý Chúa. Các giáo sĩ mặc lễ phục màu xanh lá cây để phản ánh chủ đề tăng trưởng tâm linh của mùa này.\n\nKinh Thần Vụ và phụng vụ Thánh Lễ tuân theo định dạng ngày thường tiêu chuẩn cho tuần thứ hai Mùa Thường Niên. Các lời cầu nguyện tập trung vào việc đổi mới hàng ngày của sự hoán cải và sự đào sâu đức ái giữa các thành viên của Giáo Hội. Thời gian này đóng vai trò nền tảng để sống các giáo huấn đã nhận được trong mùa Giáng Sinh.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Green vestments signify the hope and growth of Ordinary Time.",
+    "hero_line_vi": "Lễ phục xanh lá cây biểu thị niềm hy vọng và sự tăng trưởng của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, grant me the humility to accept Your will and the grace to grow in holiness this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khiêm nhường để đón nhận ý Chúa và ơn thánh để tăng trưởng trong sự thánh thiện hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/012228.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/calendar/liturgical-day.cfm?id=1703202804404558",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-09",
+    "hebrew": "23 Tevet 5788",
+    "islamic_umm_al_qura": "25 Sha'ban 1449 AH",
+    "coptic": "13 Tobi 1744",
+    "ethiopian": "13 Ter 2020"
+  }
+}

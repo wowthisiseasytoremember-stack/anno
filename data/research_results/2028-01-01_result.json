@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-01",
+  "date": "2028-01-01",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "Solemnity of Mary, the Holy Mother of God",
+    "title_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "Solemnity of Mary, the Holy Mother of God",
+    "title_vi": "Đại Lễ Đức Maria, Mẹ Thiên Chúa",
+    "summary_en": "On January 1st, the Church celebrates the Solemnity of Mary, the Holy Mother of God, an octave day marking the conclusion of the Christmas season. This feast honors the divine maternity of Mary, affirming that she is truly the Mother of God because she bore Jesus Christ, who is God Incarnate. It is the oldest Marian feast in the Western Church and serves as a reminder of the centrality of Mary in the mystery of salvation.",
+    "summary_vi": "Vào ngày 1 tháng Giêng, Giáo Hội cử hành Đại lễ Đức Maria, Mẹ Thiên Chúa, ngày bát nhật đánh dấu kết thúc mùa Giáng Sinh. Lễ này tôn vinh chức mẹ thiên linh của Đức Maria, khẳng định rằng Mẹ là Mẹ Thiên Chúa thật vì Mẹ đã sinh hạ Chúa Giêsu Kitô, là Thiên Chúa nhập thể. Đây là lễ Đức Maria lâu đời nhất trong Giáo Hội Tây phương và nhắc nhở về vị trí trung tâm của Mẹ trong mầu nhiệm cứu độ.",
+    "body_en": "The Solemnity of Mary, the Holy Mother of God, is celebrated on January 1st, the eighth day after Christmas. This date is significant as it is the Circumcision of the Lord in the traditional calendar, now re-emphasized as the feast of Mary's divine maternity. The liturgical readings focus on the blessings bestowed upon the people of God and the role of Mary in the incarnation, highlighting her cooperation in the mystery of salvation. The color white symbolizes the purity and joy associated with this feast, which also coincides with the World Day of Peace, a tradition instituted by Pope Paul VI.\n\nTheologically, this feast underscores the dogma of theotokos, or God-bearer, established at the Council of Ephesus. It affirms that because Jesus is God, Mary is rightly called the Mother of God. The celebration invites the faithful to meditate on the mystery of the Incarnation through the eyes of Mary, who kept all these things in her heart and pondered them. In the Vietnamese Catholic tradition, this day is a time for asking for the intercession of the Blessed Virgin Mary for peace and protection throughout the new year.",
+    "body_vi": "Đại lễ Đức Maria, Mẹ Thiên Chúa được cử hành vào ngày 1 tháng Giêng, ngày thứ tám sau lễ Giáng Sinh. Ngày này có ý nghĩa quan trọng vì theo lịch truyền thống, đây là lễ Cắt Bì của Chúa, nay được tái nhấn mạnh là lễ Đức Mẹ với chức mẹ thiên linh. Các bài đọc phụng vụ tập trung vào những phúc lành ban cho dân Chúa và vai trò của Đức Maria trong việc nhập thể, làm nổi bật sự cộng tác của Mẹ trong mầu nhiệm cứu độ. Màu trắng tượng trưng cho sự tinh tuyền và niềm vui gắn liền với lễ này, trùng với Ngày Quốc Tế Hòa Bình, một truyền thống do Đức Thánh Cha Phaolô VI thiết lập.\n\nVề mặt thần học, lễ này khẳng định tín điều Theotokos, hay Mẹ Thiên Chúa, được công bố tại Công đồng Êphêsô. Nó xác nhận rằng vì Chúa Giêsu là Thiên Chúa, nên Đức Maria được gọi cách chính đáng là Mẹ Thiên Chúa. Việc cử hành mời gọi các tín hữu suy niệm mầu nhiệm Nhập Thể qua đôi mắt của Đức Maria, người đã giữ tất cả những điều ấy trong lòng và suy niệm. Trong truyền thống Công giáo Việt Nam, ngày này là thời điểm để xin lời chuyển cầu của Đức Trinh Nữ Maria cho hòa bình và sự bảo vệ trong năm mới.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Mary, the Mother of God, guides us into the New Year.",
+    "hero_line_vi": "Đức Maria, Mẹ Thiên Chúa, dẫn dắt chúng ta bước vào Năm Mới.",
+    "prayer_prompt_en": "Pray to the Blessed Virgin Mary for peace and protection in the coming year.",
+    "prayer_prompt_vi": "Cầu xin Đức Trinh Nữ Maria cho hòa bình và sự che chở trong năm sắp tới."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/010128.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar of Saints",
+      "url": "https://www.newadvent.org/cathen/09401a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-19",
+    "hebrew": "2 Tevet 5788",
+    "islamic_umm_al_qura": "4 Sha'ban 1449 AH",
+    "coptic": "22 Koiak 1744",
+    "ethiopian": "22 Tahsas 2020"
+  }
+}

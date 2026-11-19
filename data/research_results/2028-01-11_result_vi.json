@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 1 Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày Thường nhật trong Mùa Thường Niên, đánh dấu sự tiếp tục của năm phụng vụ sau mùa Giáng Sinh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin. Không có lễ thánh nào bắt buộc được ưu tiên, nên trọng tâm vẫn là các bài đọc trong tuần và lời mời gọi sống đời Kitô hữu giữa thế gian.",
+    "body_vi": "Trong Nghi lễ Rôma, các ngày trong tuần trong Mùa Thường Niên là thời gian để các tín hữu suy niệm về các mầu nhiệm trong đời sống và giáo huấn của Chúa Kitô mà không có sự tập trung cường độ cao như các mùa quan trọng như Mùa Vọng hay Mùa Chay. Là một ngày Thường nhật, thứ Ba này mời gọi sự suy tư tĩnh lặng về các bài Phúc Âm được chỉ định trong ngày, thường nhấn mạnh vào cách sống hàng ngày của một môn đệ. Áo lễ màu xanh lá cây mà linh mục mặc thể hiện thời gian bình thường trong lịch phụng vụ của Giáo hội, nơi cộng đoàn phát triển về sự trưởng thành và đức ái.\n\nTrọng tâm phụng vụ của ngày này không phải là một sự kiện cụ thể trong đời sống của Chúa Kitô, mà là việc áp dụng đều đặn các giáo huấn của Ngài trong cuộc sống hàng ngày. Đây là thời gian để cầu nguyện, lao động và phục vụ người khác, được đặt nền tảng trên ân sủng nhận được qua Bí tích Thánh Thể. Các bài đọc cho tuần 1 Mùa Thường Niên thường theo dõi phần đầu của Tin Mừng Maccô hoặc Mátthêu, tùy thuộc vào chu kỳ phụng vụ, khuyến khích các tín hữu đáp lại lời mời gọi hoán cải và tin vào Chúa Giêsu.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong sự trung tín tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Cầu nguyện cho một trái tim tăng trưởng vững chắc trong tình yêu và sự phục vụ hôm nay."
+  }
+}

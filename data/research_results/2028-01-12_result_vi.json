@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 1 Mùa Thường Niên",
+    "summary_vi": "Thứ Tư này thuộc tuần thứ nhất của Mùa Thường Niên, sau khi mùa Giáng Sinh kết thúc. Màu phụng vụ là màu xanh, tượng trưng cho sự tăng trưởng của Hội Thánh và đời sống của các tín hữu trong thời gian thường nhật. Không có lễ kính thánh nào ưu tiên hơn phụng vụ ngày trong tuần, vốn tập trung vào việc đọc Kinh Thánh và sự mạc khải lịch sử cứu độ.",
+    "body_vi": "Những tuần đầu tiên của tháng Giêng được đánh dấu bằng sự chuyển tiếp từ những cử hành long trọng của mầu nhiệm Nhập Thể sang nhịp điệu bình lặng của Mùa Thường Niên. Vào Thứ Tư này, Hội Thánh mời gọi các tín hữu suy niệm về ơn gọi làm môn đệ được trình bày trong các bài đọc Tin Mừng, thường được rút từ những chương đầu của Phúc Âm Máccô hoặc Mátthêu. Phụng vụ nhấn mạnh tầm quan trọng của việc lắng nghe Lời Chúa và đáp trả bằng sự hoán cải tâm hồn, tạo nên nền tảng cho những tháng tiếp theo.\n\nVới tư cách là một ngày trong tuần thường lệ, ngày này không cử hành một mầu nhiệm hay vị thánh cụ thể nào, giúp tập trung vẫn hướng về việc công bố liên lỉ Lời Chúa. Các lời nguyện trong Thánh Lễ, bao gồm Lời nguyện Nhập lễ và Lời nguyện Sau rước lễ, hướng dẫn cộng đoàn sống đức tin giữa những thói quen tầm thường của đời sống hàng ngày. Giai đoạn này phục vụ như một nền tảng thiêng liêng, nhắc nhở các tín hữu rằng sự thánh thiện được vun trồng trong những khoảnh khắc bình thường của sự hiện hữu.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Đức tin: Sức mạnh bình lặng của Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe tiếng Chúa giữa những ồn ào của đời sống hàng ngày và theo Chúa với trái tim khiêm nhường."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 1 Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào một ngày trong tuần của Tuần 1 Mùa Thường Niên, sau khi kết thúc mùa Giáng Sinh và Hiển Linh. Trọng tâm phụng vụ chuyển sang sứ vụ công khai của Chúa Giêsu và lời kêu gọi hoán cải trong thời gian thường niên của Giáo Hội. Là một ngày thường (Feria), ngày này mang màu xanh lá cây tượng trưng cho sự tăng trưởng và hy vọng, nhấn mạnh hành trình đức tin liên lỉ.",
+    "body_vi": "Thứ Hai của Tuần 1 Mùa Thường Niên đánh dấu một sự chuyển đổi quan trọng trong lịch phụng vụ, từ các cử hành trọng thể của biến cố Nhập Thể và Hiển Linh sang sự môn đệ kiên trì của Mùa Thường Niên. Trong tuần này, các bài đọc Tin Mừng (thường là Tin Mừng Má-cô hoặc Mát-thêu, tùy thuộc vào chu kỳ năm) tập trung vào sự khởi đầu của việc rao giảng công khai của Chúa Giêsu, làm nổi bật tính cấp bách của Nước Thiên Chúa. Màu xanh lá cây của lễ phục được linh mục mặc là lời nhắc nhở trực quan về sự tăng trưởng thiêng liêng được mong đợi trong mùa dài này, mời gọi các tín hữu tích hợp những chân lý đức tin vào cuộc sống hàng ngày.\n\nTrong bối cảnh năm 2028, Thứ Hai này theo sau lễ trọng kính Chúa Giêsu chịu Phép Rửa, vốn là ngày kết thúc mùa Giáng Sinh. Các văn bản phụng vụ cho ngày này nhấn mạnh sự khiêm nhường và sự sẵn sàng bước theo Chúa Kitô, thường rút ra từ những giáo huấn về Tám Mối Phúc Thật hoặc những phép lạ đầu tiên chứng minh quyền năng của Chúa Giêsu. Đây là thời điểm suy tư cá nhân về việc sống mầu nhiệm đã được cử hành trong những tháng qua trong những hoàn cảnh bình thường của tuần. Việc không có lễ kính thánh nào đáng kể vào ngày cụ thể này giữ trọng tâm ở mặc khải tiến triển về sứ vụ của Chúa Kitô trong chu kỳ Mùa Thường Niên.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong đức tin qua những ngày bình thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để thấy Chúa trong thói quen hàng ngày và bước theo Chúa với tâm hồn khiêm nhường hôm nay."
+  }
+}

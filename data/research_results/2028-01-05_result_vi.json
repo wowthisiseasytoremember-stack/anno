@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_vi": "Ngày này thuộc về Mùa Giáng Sinh cao trọng, kéo dài từ Kinh Chiều I Lễ Giáng Sinh cho đến lễ Chúa Giêsu chịu Phép Rửa. Là ngày trong tuần (feria), nó mang cấp bậc trong tuần nhưng vẫn khác biệt với Mùa Quanh Năm vì nằm trong chu kỳ Giáng Sinh. Màu sắc phụng vụ là màu trắng, phản ánh niềm vui và sự thanh khiết liên quan đến mầu nhiệm Nhập Thể.",
+    "body_vi": "Trong những ngày trong tuần của Mùa Giáng Sinh, Giáo hội suy niệm mầu nhiệm Nhập Thể với sự tập trung đặc biệt vào sự khiêm nhường của Thiên Chúa làm người. Mặc dù cấp bậc là ngày thường, các bản văn và bài đọc được chọn bởi sách bài đọc nhấn mạnh ánh sáng thần linh chiếu soi trong bóng tối và sự đáp trả của nhân loại đối với Ngôi Lời làm người. Những ngày này đóng vai trò cầu nối giữa các đại lễ Giáng Sinh và Hiển Linh, duy trì tông thờ kính cao độ.\n\nSự cử hành phụng vụ được đặc trưng bởi việc sử dụng Kinh Vinh Danh và lời nguyện tiền tụng riêng của Mùa Giáng Sinh, nhấn mạnh sự hiệp nhất giữa bản tính thần linh và nhân tính trong Chúa Kitô. Mặc dù không có lễ kính thánh tử đạo nào thay thế ngày trong tuần này, tín hữu được mời gọi suy gẫm về những năm tháng ẩn dật của Chúa Giêsu và Giáo hội nội tâm tại Nazaret. Áo lễ màu trắng nhắc nhở người thờ phượng về sự vô tội và thánh thiện của Hài Nhi Bêlem.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thiên Chúa đã làm người để con người được trở nên Thiên Chúa.",
+    "prayer_prompt_vi": "Lạy Chúa, trong sự thinh lặng của ngày thường này của Mùa Giáng Sinh, xin giúp con nghe thấy tiếng nói dịu dàng của Lời Chúa đã làm người."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-28",
+  "date": "2028-01-28",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Thomas Aquinas, Priest and Doctor",
+    "title_vi": "Thánh Tôma Aquinô, Linh mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Thomas Aquinas, Priest and Doctor",
+    "title_vi": "Thánh Tôma Aquinô, Linh mục, Tiến sĩ Hội Thánh",
+    "summary_en": "St. Thomas Aquinas was a Dominican friar, priest, and the most influential theologian of the Middle Ages. He is known for his synthesis of Aristotelian philosophy with Christian doctrine, particularly in his work 'Summa Theologica'. He is honored as a Doctor of the Church and the patron of Catholic schools.",
+    "summary_vi": "Thánh Tôma Aquinô là một tu sĩ Dòng Đa Minh, linh mục và là nhà thần học có ảnh hưởng nhất thời Trung Cổ. Ngài nổi tiếng với việc tổng hợp triết học Aristoteles với giáo lý Kitô giáo, đặc biệt trong tác phẩm 'Tổng luận Thần học'. Ngài được tôn kính là Tiến sĩ Hội Thánh và là bổn mạng của các trường học Công giáo.",
+    "body_en": "Thomas Aquinas (1225–1274) dedicated his life to the study of faith and reason, arguing that they are harmonious rather than contradictory. His intellectual legacy remains central to Catholic theology and philosophy, shaping centuries of doctrinal development.\n\nAs a priest, he balanced profound scholarship with deep prayer, often stating that he learned more from prayer than from study. His writings continue to serve as a foundational resource for understanding Christian belief and ethics.",
+    "body_vi": "Thánh Tôma Aquinô (1225–1274) đã dành trọn cuộc đời để nghiên cứu đức tin và lý trí, lập luận rằng chúng hài hòa chứ không mâu thuẫn. Di sản trí tuệ của ngài vẫn là trung tâm của thần học và triết học Công giáo, định hình nhiều thế kỷ phát triển giáo lý.\n\nVới tư cách là một linh mục, ngài cân bằng giữa học vấn uyên bác và cầu nguyện sâu xa, thường nói rằng ngài học được nhiều điều từ cầu nguyện hơn là từ học hỏi. Các tác phẩm của ngài vẫn là nguồn tài liệu nền tảng để hiểu niềm tin và đạo đức Kitô giáo.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Seeking Wisdom through Faith and Reason",
+    "hero_line_vi": "Tìm kiếm Sự Khôn Ngoan qua Đức Tin và Lý Trí",
+    "prayer_prompt_en": "Lord, grant me the intellectual clarity to understand Your truths and the humility to live them.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự sáng suốt trí tuệ để hiểu chân lý của Chúa và sự khiêm nhường để sống theo chúng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Readings",
+      "url": "https://bible.usccb.org/bible/readings/012828.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Saints",
+      "url": "https://www.newadvent.org/cathen/14658a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-15",
+    "hebrew": "29 Tevet 5788",
+    "islamic_umm_al_qura": "1 Ramadan 1449 AH",
+    "coptic": "19 Tobi 1744",
+    "ethiopian": "19 Ter 2020"
+  }
+}

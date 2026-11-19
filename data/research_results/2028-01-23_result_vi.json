@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 3 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật 3 Thường Niên",
+    "summary_vi": "Chúa Nhật 3 Thường Niên nhấn mạnh tầm quan trọng trung tâm của Lời Chúa trong đời sống người tín hữu. Phụng vụ thường trình bày các bài đọc từ Tin Mừng Luca, làm nổi bật việc Chúa Giêsu công bố Nước Trời trong Chúa Thánh Thần. Giáo Hội kêu gọi cộng đoàn lắng nghe, sám hối và đáp lại lời mời gọi thần linh được tìm thấy trong Sách Thánh.",
+    "body_vi": "Chúa Nhật 3 Thường Niên mời gọi Giáo Hội tái tập trung vào quyền năng của Lời Chúa. Trong bài đọc thứ nhất từ sách Nơ-khê-mia, dân chúng tụ họp để nghe Sách Luật, minh họa lòng kính trọng đối với giáo huấn của Thiên Chúa. Hành vi lắng nghe này không chỉ mang tính trí tuệ mà còn mang tính cộng đoàn, liên kết dân chúng trong giao ước.\n\nTrong Tin Mừng, Chúa Giêsu tuyên bố rằng lời tiên tri Isaia đã được ứng nghiệm trong việc họ lắng nghe. Điều này xác định Lời Chúa như một sức năng động, hiện diện hơn là một tàn tích lịch sử. Mùa Thường Niên tiếp tục chủ đề này, thúc đẩy người tín hữu sống Tin Mừng trong những nhịp điệu bình thường của đời sống hằng ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lắng nghe Lời Chúa, vì đó là sự sống của bạn.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con đôi tai để nghe và trái tim để vâng phục Lời Chúa hôm nay."
+  }
+}

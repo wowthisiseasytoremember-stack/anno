@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Anê, Trinh nữ, Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Anê, Trinh nữ, Tử đạo",
+    "summary_vi": "Thánh Anê là một nữ trinh nữ và tử đạo trẻ tuổi người Rôma, đã chịu tử đạo khoảng năm 304. Người được kính nhớ vì sự thanh khiết và lòng kiên định khi từ chối kết hôn, thay vào đó tận hiến trọn vẹn cho Đức Kitô. Tên của Người, bắt nguồn từ tiếng Latinh 'agnus' (con chiên con), tượng trưng cho sự vô tội và tình yêu hy sinh.",
+    "body_vi": "Thánh Anê, sinh vào khoảng năm 291 trong một gia đình quý tộc Rôma, đã dâng trọn con tim cho Thiên Chúa từ khi còn rất trẻ. Theo truyền thống, nhiều thanh niên xuất thân cao sang đã tìm cách cầu hôn Người, nhưng Người đều từ chối và tuyên bố chỉ yêu mến một mình Đức Kitô. Sự từ chối kiên quyết đó dẫn đến cái chết tử đạo dưới cuộc bách hại của Hoàng đế Diocletian, nơi Người bị ném vào lò lửa nhưng vẫn bình an trước khi bị chém đầu.\n\nNgày lễ của Người vào 21 tháng Giêng nhấn mạnh lòng tôn kính của Giáo hội sơ khai đối với đức khiết trinh và tử đạo. Hai con chiên thường được làm phép vào ngày này, liên kết tên của Người với biểu tượng con chiên. Tưởng niệm này mời gọi cộng đoàn suy gẫm về giá trị của sự thanh khiết, lòng can đảm và sự phó thác trọn vẹn cho Thiên Chúa.",
+    "confidence_note_vi": "Lễ kính Thánh Anê là một ngày tưởng niệm cố định trong Lịch Phụng vụ Rôma vào ngày 21 tháng Giêng. Các nguồn sử liệu và sách truyện thánh nhân nhất trí xác định Người tử đạo dưới cuộc bách hại của Diocletian."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sự thanh khiết và can đảm định nghĩa chứng từ của Thánh Anê.",
+    "prayer_prompt_vi": "Hãy cầu xin lòng can đảm để trung thành với Thiên Chúa giữa những áp lực thế tục."
+  }
+}

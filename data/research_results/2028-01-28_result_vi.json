@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Tôma Aquinô, Linh mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Tôma Aquinô, Linh mục, Tiến sĩ Hội Thánh",
+    "summary_vi": "Thánh Tôma Aquinô là một tu sĩ Dòng Đa Minh, linh mục và là nhà thần học có ảnh hưởng nhất thời Trung Cổ. Ngài nổi tiếng với việc tổng hợp triết học Aristoteles với giáo lý Kitô giáo, đặc biệt trong tác phẩm 'Tổng luận Thần học'. Ngài được tôn kính là Tiến sĩ Hội Thánh và là bổn mạng của các trường học Công giáo.",
+    "body_vi": "Thánh Tôma Aquinô (1225–1274) đã dành trọn cuộc đời để nghiên cứu đức tin và lý trí, lập luận rằng chúng hài hòa chứ không mâu thuẫn. Di sản trí tuệ của ngài vẫn là trung tâm của thần học và triết học Công giáo, định hình nhiều thế kỷ phát triển giáo lý.\n\nVới tư cách là một linh mục, ngài cân bằng giữa học vấn uyên bác và cầu nguyện sâu xa, thường nói rằng ngài học được nhiều điều từ cầu nguyện hơn là từ học hỏi. Các tác phẩm của ngài vẫn là nguồn tài liệu nền tảng để hiểu niềm tin và đạo đức Kitô giáo.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm kiếm Sự Khôn Ngoan qua Đức Tin và Lý Trí",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự sáng suốt trí tuệ để hiểu chân lý của Chúa và sự khiêm nhường để sống theo chúng."
+  }
+}

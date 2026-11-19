@@ -1,0 +1,57 @@
+{
+  "id": "anno-2028-01-10",
+  "date": "2028-01-10",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Hai tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the First Week of Ordinary Time",
+    "title_vi": "Thứ Hai tuần 1 Mùa Thường Niên",
+    "summary_en": "This date falls on a weekday in the First Week of Ordinary Time, following the conclusion of the Christmas and Epiphany seasons. The liturgical focus shifts to the public ministry of Jesus and the call to conversion in the Church's ordinary time. As a Feria, it carries the green color of growth and hope, emphasizing the ongoing journey of faith.",
+    "summary_vi": "Ngày này rơi vào một ngày trong tuần của Tuần 1 Mùa Thường Niên, sau khi kết thúc mùa Giáng Sinh và Hiển Linh. Trọng tâm phụng vụ chuyển sang sứ vụ công khai của Chúa Giêsu và lời kêu gọi hoán cải trong thời gian thường niên của Giáo Hội. Là một ngày thường (Feria), ngày này mang màu xanh lá cây tượng trưng cho sự tăng trưởng và hy vọng, nhấn mạnh hành trình đức tin liên lỉ.",
+    "body_en": "The Monday of the First Week of Ordinary Time marks a significant transition in the liturgical calendar, moving from the intense celebrations of the Incarnation and Manifestation to the steady, sustained discipleship of Ordinary Time. During this week, the readings from the Gospel of Mark or Matthew (depending on the specific year's cycle) typically focus on the beginning of Jesus' public preaching, highlighting the urgency of the Kingdom of God. The green vestments worn by the celebrant serve as a visual reminder of the spiritual growth expected during this long season, inviting the faithful to integrate the truths of the faith into daily life.\n\nIn the context of 2028, this Monday follows the solemnity of the Baptism of the Lord, which ends the Christmas season. The liturgical texts for this day emphasize humility and readiness to follow Christ, often drawing from the teachings on the Beatitudes or the early miracles that demonstrate Jesus' authority. It is a time for personal reflection on how the mysteries celebrated in the past months are now to be lived out in the ordinary circumstances of the week. The absence of a major saint's memorial on this specific date keeps the focus squarely on the progressive revelation of Christ's mission in the Ordinary Time cycle.",
+    "body_vi": "Thứ Hai của Tuần 1 Mùa Thường Niên đánh dấu một sự chuyển đổi quan trọng trong lịch phụng vụ, từ các cử hành trọng thể của biến cố Nhập Thể và Hiển Linh sang sự môn đệ kiên trì của Mùa Thường Niên. Trong tuần này, các bài đọc Tin Mừng (thường là Tin Mừng Má-cô hoặc Mát-thêu, tùy thuộc vào chu kỳ năm) tập trung vào sự khởi đầu của việc rao giảng công khai của Chúa Giêsu, làm nổi bật tính cấp bách của Nước Thiên Chúa. Màu xanh lá cây của lễ phục được linh mục mặc là lời nhắc nhở trực quan về sự tăng trưởng thiêng liêng được mong đợi trong mùa dài này, mời gọi các tín hữu tích hợp những chân lý đức tin vào cuộc sống hàng ngày.\n\nTrong bối cảnh năm 2028, Thứ Hai này theo sau lễ trọng kính Chúa Giêsu chịu Phép Rửa, vốn là ngày kết thúc mùa Giáng Sinh. Các văn bản phụng vụ cho ngày này nhấn mạnh sự khiêm nhường và sự sẵn sàng bước theo Chúa Kitô, thường rút ra từ những giáo huấn về Tám Mối Phúc Thật hoặc những phép lạ đầu tiên chứng minh quyền năng của Chúa Giêsu. Đây là thời điểm suy tư cá nhân về việc sống mầu nhiệm đã được cử hành trong những tháng qua trong những hoàn cảnh bình thường của tuần. Việc không có lễ kính thánh nào đáng kể vào ngày cụ thể này giữ trọng tâm ở mặc khải tiến triển về sứ vụ của Chúa Kitô trong chu kỳ Mùa Thường Niên.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is a standard feria in Ordinary Time, verified against the General Roman Calendar for the year 2028, with no conflicting high-ranking memorials or feasts.",
+  "confidence_note_vi": "Ngày này là một ngày thường tiêu chuẩn trong Mùa Thường Niên, được xác minh theo Lịch Phụng Vụ Rôma cho năm 2028, không có lễ kính hoặc lễ trọng nào xung đột có thứ hạng cao hơn.",
+  "app_hooks": {
+    "hero_line_en": "Grow in faith through the ordinary days.",
+    "hero_line_vi": "Lớn lên trong đức tin qua những ngày bình thường.",
+    "prayer_prompt_en": "Lord, give me the grace to see You in my daily routine and to follow You with a humble heart today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để thấy Chúa trong thói quen hàng ngày và bước theo Chúa với tâm hồn khiêm nhường hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings 2028-01-10",
+      "url": "https://bible.usccb.org/bible/readings/011028.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2028 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2028cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-28",
+    "hebrew": "11 Tevet 5788",
+    "islamic_umm_al_qura": "13 Sha'ban 1449 AH",
+    "coptic": "1 Tobi 1744",
+    "ethiopian": "1 Ter 2020"
+  }
+}

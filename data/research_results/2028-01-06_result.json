@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-06",
+  "date": "2028-01-06",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "The Epiphany of the Lord (Universal Date)",
+    "title_vi": "Lễ Hiển Linh (Ngày Chung)"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Epiphany of the Lord",
+    "title_vi": "Lễ Hiển Linh của Chúa",
+    "summary_en": "The Epiphany celebrates the manifestation of Jesus Christ to the Gentiles, symbolized by the Magi's journey. It is a Solemnity marking the revelation of divine glory and the call of all nations to salvation.",
+    "summary_vi": "Lễ Hiển Linh mừng kính việc Đức Giêsu Kitô tỏ mình cho dân ngoại, được tượng trưng qua hành trình của các Đạo sĩ. Đây là một ngày lễ trọng, đánh dấu sự mặc khải vinh quang Thiên Chúa và lời kêu gọi mọi dân tộc đến ơn cứu độ.",
+    "body_en": "On this Solemnity, the Church commemorates the visit of the Magi from the East, who followed the star to worship the newborn King. This event reveals that the salvation offered by Christ extends beyond Israel to all peoples, uniting the world in the recognition of God's kingdom. The gifts of gold, frankincense, and myrrh signify Christ's kingship, divinity, and sacrificial mission.\n\nThe liturgical texts for this day emphasize light and revelation, drawing from the Old Testament prophecy of nations walking in the light of Jerusalem. In the Gospel, the encounter with the Magi highlights the humility of Christ, who is found not in a palace but in a humble setting, inviting seekers to approach with reverence and generosity. The feast invites the faithful to recognize the universal scope of the Gospel message.",
+    "body_vi": "Trong ngày lễ trọng này, Giáo hội kỷ niệm cuộc viếng thăm của các Đạo sĩ từ phương Đông, những người đã theo ánh sao để thờ lạy Vua mới sinh. Biến cố này mặc khải rằng ơn cứu độ do Đức Kitô mang lại vượt ra ngoài biên giới Israel để đến với mọi dân tộc, hiệp nhất thế giới trong việc nhìn nhận vương quốc của Thiên Chúa. Các lễ vật vàng, nhũ hương và mộc dược tượng trưng cho vương quyền, thiên tính và sứ mạng hiến tế của Đức Kitô.\n\nCác văn bản phụng vụ của ngày này nhấn mạnh ánh sáng và sự mặc khải, dẫn chiếu từ lời tiên tri Cựu Ước về các dân tộc bước đi trong ánh sáng của Giêrusalem. Trong Tin Mừng, cuộc gặp gỡ với các Đạo sĩ làm nổi bật sự khiêm hạ của Đức Kitô, Đấng được tìm thấy không phải trong cung điện mà trong một nơi khiêm tốn, mời gọi những người tìm kiếm đến với sự tôn kính và quảng đại. Ngày lễ mời gọi các tín hữu nhận ra phạm vi phổ quát của sứ điệp Tin Mừng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date and rank are fixed in the General Roman Calendar as a universal Solemnity.",
+    "confidence_note_vi": "Ngày tháng và bậc lễ được xác định chắc chắn trong Lịch Rôma Chung với tư cách là một ngày lễ trọng phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Behold the Light of the Nations",
+    "hero_line_vi": "Hãy nhìn Ánh Sáng của các Dân Ngoại",
+    "prayer_prompt_en": "Lord, grant us the humility of the Magi to seek You with our whole hearts and the generosity to offer our best.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khiêm hạ của các Đạo sĩ để tìm kiếm Chúa với trọn tâm hồn và sự quảng đại để dâng tiến những gì tốt đẹp nhất."
+  },
+  "sources": [
+    {
+      "label": "USCCB Readings for Jan 6, 2028",
+      "url": "https://bible.usccb.org/bible/readings/010628.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia: Epiphany",
+      "url": "https://www.newadvent.org/cathen/05546a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-24",
+    "hebrew": "7 Tevet 5788",
+    "islamic_umm_al_qura": "9 Sha'ban 1449 AH",
+    "coptic": "27 Koiak 1744",
+    "ethiopian": "27 Tahsas 2020"
+  }
+}

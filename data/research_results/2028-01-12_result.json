@@ -1,0 +1,52 @@
+{
+  "id": "anno-2028-01-12",
+  "date": "2028-01-12",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Tư tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the 1st Week in Ordinary Time",
+    "title_vi": "Thứ Tư tuần 1 Mùa Thường Niên",
+    "summary_en": "This Wednesday falls within the first week of Ordinary Time, following the conclusion of the Christmas season. The liturgical color is green, symbolizing the growth of the Church and the life of the faithful in everyday time. No specific saint memorial takes precedence over the weekday liturgy, which focuses on the reading of Scripture and the gradual unfolding of salvation history.",
+    "summary_vi": "Thứ Tư này thuộc tuần thứ nhất của Mùa Thường Niên, sau khi mùa Giáng Sinh kết thúc. Màu phụng vụ là màu xanh, tượng trưng cho sự tăng trưởng của Hội Thánh và đời sống của các tín hữu trong thời gian thường nhật. Không có lễ kính thánh nào ưu tiên hơn phụng vụ ngày trong tuần, vốn tập trung vào việc đọc Kinh Thánh và sự mạc khải lịch sử cứu độ.",
+    "body_en": "The first weeks of January are marked by a transition from the solemn celebrations of the Incarnation to the quieter rhythm of Ordinary Time. On this Wednesday, the Church invites the faithful to reflect on the call to discipleship as presented in the Gospel readings, often drawing from the early chapters of Mark or Matthew. The liturgy emphasizes the importance of listening to the Word and responding with a conversion of heart, setting the tone for the coming months.\n\nAs a feria, this day does not celebrate a specific mystery or saint, allowing the focus to remain on the continuous proclamation of the Word. The prayers of the Mass, including the Collect and the Postcommunion, guide the community in living out the faith amidst the mundane routines of daily life. This period serves as a spiritual foundation, reminding believers that holiness is cultivated in the ordinary moments of existence.",
+    "body_vi": "Những tuần đầu tiên của tháng Giêng được đánh dấu bằng sự chuyển tiếp từ những cử hành long trọng của mầu nhiệm Nhập Thể sang nhịp điệu bình lặng của Mùa Thường Niên. Vào Thứ Tư này, Hội Thánh mời gọi các tín hữu suy niệm về ơn gọi làm môn đệ được trình bày trong các bài đọc Tin Mừng, thường được rút từ những chương đầu của Phúc Âm Máccô hoặc Mátthêu. Phụng vụ nhấn mạnh tầm quan trọng của việc lắng nghe Lời Chúa và đáp trả bằng sự hoán cải tâm hồn, tạo nên nền tảng cho những tháng tiếp theo.\n\nVới tư cách là một ngày trong tuần thường lệ, ngày này không cử hành một mầu nhiệm hay vị thánh cụ thể nào, giúp tập trung vẫn hướng về việc công bố liên lỉ Lời Chúa. Các lời nguyện trong Thánh Lễ, bao gồm Lời nguyện Nhập lễ và Lời nguyện Sau rước lễ, hướng dẫn cộng đoàn sống đức tin giữa những thói quen tầm thường của đời sống hàng ngày. Giai đoạn này phục vụ như một nền tảng thiêng liêng, nhắc nhở các tín hữu rằng sự thánh thiện được vun trồng trong những khoảnh khắc bình thường của sự hiện hữu.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growing in Faith: The Quiet Power of Ordinary Time",
+    "hero_line_vi": "Tăng trưởng trong Đức tin: Sức mạnh bình lặng của Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help me to hear Your voice in the noise of my daily life and to follow You with a humble heart.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe tiếng Chúa giữa những ồn ào của đời sống hàng ngày và theo Chúa với trái tim khiêm nhường."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/011228.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Calendar",
+      "url": "https://www.newadvent.org/cathen/02054a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "The date falls clearly within Ordinary Time in the 2028 calendar. No major feast days or saints with higher rank (feast or above) are universally celebrated on this specific Wednesday, making the weekday feria status confirmed.",
+  "confidence_note_vi": "Ngày này rõ ràng thuộc Mùa Thường Niên theo lịch phụng vụ năm 2028. Không có lễ trọng hay lễ kính nào với cấp bậc cao hơn (lễ kính trở lên) được cử hành phổ quát vào Thứ Tư cụ thể này, do đó trạng thái ngày trong tuần thường lệ được xác nhận.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-30",
+    "hebrew": "13 Tevet 5788",
+    "islamic_umm_al_qura": "15 Sha'ban 1449 AH",
+    "coptic": "3 Tobi 1744",
+    "ethiopian": "3 Ter 2020"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "anno-2028-01-25",
+  "date": "2028-01-25",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "The Conversion of St. Paul the Apostle",
+    "title_vi": "Thánh Phaolô Tông Đồ Trở Lại"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "The Conversion of St. Paul the Apostle",
+    "title_vi": "Thánh Phaolô Tông Đồ Trở Lại",
+    "summary_en": "January 25 celebrates the Feast of the Conversion of Saint Paul, commemorating his dramatic transformation from a persecutor of the early Church to the Apostle of the Gentiles. This feast highlights the power of divine grace and the universal mission of the Gospel. It is a key moment of reflection for ecumenism and evangelization.",
+    "summary_vi": "Ngày 25 tháng 1 cử hành Lễ Kính Sự Hoán Cải của Thánh Phaolô, tưởng nhớ sự biến đổi kịch tính của ngài từ một người bách hại Giáo Hội sơ khai thành Tông Đồ của dân ngoại. Lễ này nhấn mạnh sức mạnh của ân sủng thần linh và sứ mạng phổ quát của Tin Mừng. Đây là khoảnh khắc suy tư quan trọng cho phong trào đại kết và loan báo Tin Mừng.",
+    "body_en": "On the road to Damascus, Saul encountered the risen Christ, an event that fundamentally altered his life and the history of the Church. His subsequent ministry spread the Christian faith throughout the Mediterranean world, establishing communities and writing letters that became part of the New Testament. The Church honors this day to remember how God's grace can transform even the most ardent opponents into devoted servants.\n\nThis feast serves as a reminder that the Church's mission is not limited to a single group but is directed toward all people. Saint Paul's journey from Judaism to Christianity symbolizes the breaking down of barriers and the inclusion of the Gentiles into the covenant. In modern times, this day is often linked to ecumenical efforts, encouraging Christians of all denominations to seek unity in Christ.",
+    "body_vi": "Trên đường đến Đamát, Saolê đã gặp gỡ Đức Kitô Phục Sinh, một sự kiện thay đổi hoàn toàn cuộc đời ngài và lịch sử Giáo Hội. Sứ vụ sau đó của ngài đã phổ biến đức tin Kitô giáo khắp thế giới Địa Trung Hải, thành lập các cộng đoàn và viết ra những thư từ trở thành một phần của Tân Ước. Giáo Hội tôn vinh ngày này để nhớ lại cách ân sủng của Thiên Chúa có thể biến đổi những người chống đối mãnh liệt nhất thành những tôi tớ tận tụy.\n\nLễ này là lời nhắc nhở rằng sứ mạng của Giáo Hội không giới hạn trong một nhóm người duy nhất mà hướng tới tất cả mọi người. Hành trình của Thánh Phaolô từ Do Thái giáo sang Kitô giáo biểu tượng cho việc phá vỡ các rào cản và sự bao gồm của dân ngoại trong giao ước. Trong thời đại ngày nay, ngày này thường gắn liền với những nỗ lực đại kết, khuyến khích các Kitô hữu thuộc mọi hệ phái tìm kiếm sự hiệp nhất trong Đức Kitô.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date and rank are fixed in the General Roman Calendar. St. Paul's conversion is traditionally celebrated on January 25.",
+  "confidence_note_vi": "Ngày và bậc lễ đã được ấn định trong Lịch Phụng vụ Rôma chung. Việc trở lại của Thánh Phaolô được cử hành truyền thống vào ngày 25 tháng 1.",
+  "app_hooks": {
+    "hero_line_en": "Grace that transforms, mission that unites.",
+    "hero_line_vi": "Ân sủng biến đổi, sứ vụ hiệp nhất.",
+    "prayer_prompt_en": "Lord, transform our hearts as you transformed Paul, that we may bring your light to all nations.",
+    "prayer_prompt_vi": "Lạy Chúa, xin biến đổi tâm hồn chúng con như Chúa đã biến đổi Phaolô, để chúng con mang ánh sáng của Chúa đến cho muôn dân."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/012528.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/11582a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-12",
+    "hebrew": "26 Tevet 5788",
+    "islamic_umm_al_qura": "28 Sha'ban 1449 AH",
+    "coptic": "16 Tobi 1744",
+    "ethiopian": "16 Ter 2020"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "anno-2028-01-04",
+  "date": "2028-01-04",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "white",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_en": "This day falls within the Octave of Christmas, maintaining the celebratory and light-filled character of the Nativity season. It is a feria, meaning no specific saint's feast displaces the underlying Sunday or weekday liturgical theme. The readings and prayers reflect the mystery of the Incarnation and the light brought into the world.",
+    "summary_vi": "Ngày này rơi vào Tuần Bát Nhật Giáng Sinh, giữ nguyên đặc tính hân hoan và ánh sáng của Mùa Giáng Sinh. Đây là ngày thường (feria), nghĩa là không có lễ kính thánh nào thay thế chủ đề phụng vụ ngày thường. Các bài đọc và lời cầu nguyện phản ánh mầu nhiệm Nhập Thể và ánh sáng mang vào thế gian.",
+    "body_en": "During the weekdays of Christmastide, the Church continues to meditate on the event of the Nativity. Although January 4th is a Tuesday and not a feast day, the liturgy remains rooted in the Gospel of the Word made flesh. The readings from this week often emphasize the light of Christ shining in the darkness, inviting the faithful to recognize Him in their daily lives.\n\nThe liturgical color is white, signifying joy and glory, consistent with the entire Christmas season. The prayers for the faithful and the collection prayers ask for the grace to understand the divine light revealed in the child Jesus. This period serves as a bridge between the celebration of the Nativity and the upcoming feast of the Baptism of the Lord.",
+    "body_vi": "Trong những ngày thường của Mùa Giáng Sinh, Giáo hội tiếp tục suy niệm biến cố Giáng Sinh. Mặc dù ngày 4 tháng Giêng là Thứ Ba và không phải là ngày lễ kính, phụng vụ vẫn bám rễ vào Tin Mừng về Ngôi Lời hóa thành xác phàm. Các bài đọc trong tuần này thường nhấn mạnh vào ánh sáng của Chúa Kitô tỏa sáng trong bóng tối, mời gọi các tín hữu nhận ra Ngài trong cuộc sống hàng ngày của họ.\n\nMàu sắc phụng vụ là trắng, tượng trưng cho niềm vui và vinh quang, nhất quán với toàn bộ Mùa Giáng Sinh. Các lời nguyện cho cộng đoàn và lời nguyện tiến lễ xin ơn hiểu biết ánh sáng thần linh đã mặc khải trong Hài Nhi Giêsu. Thời kỳ này đóng vai trò như cầu nối giữa việc cử hành Giáng Sinh và lễ Chúa Giêsu chịu Phép Rửa sắp tới.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "This date is a confirmed feria within the Octave of Christmas according to the General Roman Calendar.",
+  "confidence_note_vi": "Ngày này được xác nhận là ngày thường trong Tuần Bát Nhật Giáng Sinh theo Lịch Phụng vụ Rôma phổ biến.",
+  "app_hooks": {
+    "hero_line_en": "The Light shines in the darkness, and the darkness has not overcome it.",
+    "hero_line_vi": "Ánh sáng chiếu soi trong bóng tối, và bóng tối không làm lu mờ được.",
+    "prayer_prompt_en": "Lord, let Your light guide my steps today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ánh sáng Chúa hướng dẫn con đường con đi hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/010428.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-22",
+    "hebrew": "5 Tevet 5788",
+    "islamic_umm_al_qura": "7 Sha'ban 1449 AH",
+    "coptic": "25 Koiak 1744",
+    "ethiopian": "25 Tahsas 2020"
+  }
+}

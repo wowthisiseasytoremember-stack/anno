@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-15",
+  "date": "2028-01-15",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Bảy tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Bảy tuần 1 Mùa Thường Niên",
+    "summary_en": "January 15, 2028, is a Saturday feria in Ordinary Time, Week 1. It is a weekday of the liturgical year outside of any specific solemnity or feast. The liturgical color is green, symbolizing hope and growth in the faith.",
+    "summary_vi": "Ngày 15 tháng 1 năm 2028 là thứ Bảy tuần 1 Mùa Thường Niên. Đây là ngày trong tuần thuộc Mùa Thường Niên, không có lễ trọng hay lễ kính đặc biệt. Màu phụng vụ là màu xanh, tượng trưng cho hy vọng và sự tăng trưởng trong đức tin.",
+    "body_en": "As a feria of Week 1 in Ordinary Time, the liturgy focuses on the daily reading of Scripture and the prayer of the Church. There are no specific saints' memorials that override the weekday liturgy, which remains dedicated to the mysteries of Christ's public life and teaching.\n\nThe readings and prayers for this day are drawn from the Week 1 cycle of the Lectionary and the Roman Breviary. The faithful are invited to reflect on the Gospel message appropriate for this time, maintaining the spirit of humility and growth characteristic of Ordinary Time.",
+    "body_vi": "Là ngày thường tuần 1 Mùa Thường Niên, phụng vụ tập trung vào việc đọc Lời Chúa hàng ngày và lời cầu nguyện của Giáo Hội. Không có lễ kính thánh nào đặc biệt thay thế phụng vụ ngày thường, vốn dành trọn vẹn cho những mầu nhiệm về đời sống công khai và giáo huấn của Đức Kitô.\n\nCác bài đọc và lời cầu nguyện cho ngày này được lấy từ chu kỳ tuần 1 của Sách Bài Đọc và Kinh Thần Nhật La Mã. Giáo dân được mời gọi suy niệm sứ điệp Tin Mừng phù hợp với thời điểm này, giữ vững tinh thần khiêm nhường và tăng trưởng đặc trưng của Mùa Thường Niên.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the Green of Hope",
+    "hero_line_vi": "Bước đi trong Màu Xanh của Hy Vọng",
+    "prayer_prompt_en": "Lord, help us to grow in faith and hope through Your daily Word.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong đức tin và hy vọng qua Lời Chúa hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/011528.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgical-calendar/day.cfm?year=2028&month=1&day=15",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-02",
+    "hebrew": "16 Tevet 5788",
+    "islamic_umm_al_qura": "18 Sha'ban 1449 AH",
+    "coptic": "6 Tobi 1744",
+    "ethiopian": "6 Ter 2020"
+  }
+}

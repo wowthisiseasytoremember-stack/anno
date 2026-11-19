@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-23",
+  "date": "2028-01-23",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 3",
+    "title_vi": "Chúa Nhật tuần 3 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Third Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật 3 Thường Niên",
+    "summary_en": "The Third Sunday in Ordinary Time emphasizes the centrality of God's Word in the life of the believer. This Sunday typically features readings from Luke that highlight Jesus' proclamation of the Kingdom in the Spirit. The liturgy calls the faithful to listen, repent, and respond to the divine invitation found in Scripture.",
+    "summary_vi": "Chúa Nhật 3 Thường Niên nhấn mạnh tầm quan trọng trung tâm của Lời Chúa trong đời sống người tín hữu. Phụng vụ thường trình bày các bài đọc từ Tin Mừng Luca, làm nổi bật việc Chúa Giêsu công bố Nước Trời trong Chúa Thánh Thần. Giáo Hội kêu gọi cộng đoàn lắng nghe, sám hối và đáp lại lời mời gọi thần linh được tìm thấy trong Sách Thánh.",
+    "body_en": "The Third Sunday in Ordinary Time invites the Church to refocus on the power of the Divine Word. In the first reading from Nehemiah, the people gather to hear the Book of the Law, illustrating the reverence due to God's instruction. This act of listening is not merely intellectual but communal, binding the people together in covenant.\n\nIn the Gospel, Jesus declares that the prophecy of Isaiah is fulfilled in their hearing. This establishes the Word as an active, present force rather than a historical relic. The liturgical season of Ordinary Time continues this theme, urging the faithful to live out the Gospel in the mundane rhythms of daily life.",
+    "body_vi": "Chúa Nhật 3 Thường Niên mời gọi Giáo Hội tái tập trung vào quyền năng của Lời Chúa. Trong bài đọc thứ nhất từ sách Nơ-khê-mia, dân chúng tụ họp để nghe Sách Luật, minh họa lòng kính trọng đối với giáo huấn của Thiên Chúa. Hành vi lắng nghe này không chỉ mang tính trí tuệ mà còn mang tính cộng đoàn, liên kết dân chúng trong giao ước.\n\nTrong Tin Mừng, Chúa Giêsu tuyên bố rằng lời tiên tri Isaia đã được ứng nghiệm trong việc họ lắng nghe. Điều này xác định Lời Chúa như một sức năng động, hiện diện hơn là một tàn tích lịch sử. Mùa Thường Niên tiếp tục chủ đề này, thúc đẩy người tín hữu sống Tin Mừng trong những nhịp điệu bình thường của đời sống hằng ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Listen to the Word, for it is your life.",
+    "hero_line_vi": "Hãy lắng nghe Lời Chúa, vì đó là sự sống của bạn.",
+    "prayer_prompt_en": "Lord, give me ears to hear and a heart to obey Your Word today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con đôi tai để nghe và trái tim để vâng phục Lời Chúa hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for 2028-01-23",
+      "url": "https://bible.usccb.org/bible/readings/012328.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Ordinary Time Overview",
+      "url": "https://www.newadvent.org/cathen/11322a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-10",
+    "hebrew": "24 Tevet 5788",
+    "islamic_umm_al_qura": "26 Sha'ban 1449 AH",
+    "coptic": "14 Tobi 1744",
+    "ethiopian": "14 Ter 2020"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "anno-2028-01-29",
+  "date": "2028-01-29",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 3",
+    "title_vi": "Thứ Bảy tuần 3 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 3",
+    "title_vi": "Thứ Bảy tuần 3 Mùa Thường Niên",
+    "summary_en": "January 29, 2028, falls on a Saturday within the third week of Ordinary Time. The liturgical color is green, signifying growth and hope in the Christian life during this ordinary period. There are no obligatory solemnities or feasts that override the weekday liturgy on this date.",
+    "summary_vi": "Ngày 29 tháng 1 năm 2028 rơi vào Thứ Bảy trong tuần thứ ba của Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng trong đời sống Kitô hữu trong giai đoạn bình thường này. Không có lễ trọng hay lễ kính nào bắt buộc ưu tiên thay thế phụng vụ ngày thường trong ngày này.",
+    "body_en": "As a Saturday of Ordinary Time, the focus remains on the continuous journey of faith and the teachings of Christ as presented in the Gospel readings for the week. The absence of major feast days allows for a deeper reflection on the steady aspects of discipleship and the importance of the Lord's Day approaching on Sunday. The liturgy emphasizes patience, endurance, and the quiet work of grace in daily life.\n\nIn the Roman Rite, Saturdays often hold a particular devotion to the Blessed Virgin Mary, though in Ordinary Time the focus returns to the Christocentric nature of the week. The readings for this specific week and day are determined by the three-year lectionary cycle, ensuring a structured progression through Scripture that guides the faithful in their personal and communal prayer.",
+    "body_vi": "Là một ngày Thứ Bảy trong Mùa Thường Niên, trọng tâm vẫn là hành trình đức tin liên lụy và những lời giáo huấn của Chúa Kitô được trình bày trong các bài đọc Tin Mừng của tuần. Việc không có các ngày lễ lớn cho phép suy niệm sâu sắc hơn về những khía cạnh đều đặn của đời môn đệ và tầm quan trọng của Ngày của Chúa đang đến gần vào Chúa Nhật. Phụng vụ nhấn mạnh sự kiên nhẫn, bền bỉ và công việc thầm lặng của ân sủng trong đời sống hằng ngày.\n\nTrong Nghi thức Rôma, các ngày Thứ Bảy thường có lòng sùng kính đặc biệt đối với Đức Trinh Nữ Maria, mặc dù trong Mùa Thường Niên trọng tâm quay trở lại bản chất Kitô trọng tâm của tuần. Các bài đọc cho tuần và ngày cụ thể này được xác định bởi chu kỳ sách Bài đọc ba năm, đảm bảo sự tiến triển có cấu trúc qua Kinh Thánh để hướng dẫn các tín hữu trong lời cầu nguyện cá nhân và cộng đoàn.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast in hope, walking through the ordinary.",
+    "hero_line_vi": "Kiên vững trong hy vọng, bước đi qua những điều bình thường.",
+    "prayer_prompt_en": "Ask for the grace to find Christ in the mundane details of your week.",
+    "prayer_prompt_vi": "Hãy cầu xin ơn tìm thấy Chúa Kitô trong những chi tiết bình thường của tuần lễ bạn."
+  },
+  "confidence_note_en": "The date is verified as a Feria of Ordinary Time Week 3 with no conflicting general calendar memorials for the Roman Rite.",
+  "confidence_note_vi": "Ngày được xác minh là Ngày thường Tuần 3 Mùa Thường Niên mà không có các lễ tưởng niệm lịch chung xung đột cho Nghi thức Rôma.",
+  "confidence": "confirmed",
+  "sources": [
+    {
+      "label": "USCCB Daily Readings and Liturgical Calendar",
+      "url": "https://www.usccb.org/bible/readings/012928.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia (Calendar Context)",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-16",
+    "hebrew": "1 Shvat 5788",
+    "islamic_umm_al_qura": "2 Ramadan 1449 AH",
+    "coptic": "20 Tobi 1744",
+    "ethiopian": "20 Ter 2020"
+  }
+}

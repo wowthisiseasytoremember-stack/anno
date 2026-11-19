@@ -1,0 +1,52 @@
+{
+  "id": "anno-2028-01-08",
+  "date": "2028-01-08",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "white",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_en": "Saturday, January 8, 2028, falls within the Season of Christmastide, a time characterized by the liturgical color white. As a weekday, it is celebrated as a Feria, focusing on the mystery of the Incarnation. There are no obligatory memorials or feasts for universal celebration on this specific day in the current General Roman Calendar.",
+    "summary_vi": "Thứ Bảy, ngày 08 tháng 01 năm 2028, thuộc Mùa Giáng Sinh, thời gian được đặc trưng bằng màu phụng vụ trắng. Vì là ngày trong tuần, ngày này được cử hành như một Ngày thường (Feria), tập trung vào mầu nhiệm Nhập Thể. Không có lễ nhớ hoặc lễ trọng bắt buộc nào để cử hành trên toàn cầu vào ngày cụ thể này trong Lịch Rôma Hiện Hành hiện nay.",
+    "body_en": "In the liturgical calendar, January 8, 2028, is observed as a Feria within Christmastide, marking the period following the Nativity of the Lord. The season continues to emphasize the humility of the Incarnation, where the Word became flesh. While specific saints may be commemorated in local calendars or religious orders, the universal calendar designates this day as a weekday, inviting the faithful to deepen their meditation on the divine light entering human history.\n\nThe readings and prayers for this day, when assigned in the proper of time, reflect themes of light, revelation, and the ongoing reality of God's presence among humanity. This period is a bridge between the Christmas season and the approaching Sunday of the Baptism of the Lord, reminding the Church that the birth of Christ is not a static event but a continuing source of grace and illumination for the world.",
+    "body_vi": "Trong lịch phụng vụ, ngày 08 tháng 01 năm 2028 được cử hành như một Ngày thường (Feria) trong Mùa Giáng Sinh, đánh dấu giai đoạn tiếp sau Lễ Sinh Nhật Chúa. Mùa này tiếp tục nhấn mạnh sự khiêm tốn của việc Nhập Thể, nơi Ngôi Lời đã hóa thành xác phàm. Mặc dù một số thánh nhân có thể được tưởng nhớ trong lịch địa phương hoặc các dòng tu, lịch chung gọi ngày này là ngày trong tuần, mời gọi các tín hữu đào sâu suy niệm về ánh sáng thần linh đi vào lịch sử loài người.\n\nCác bài đọc và lời cầu nguyện cho ngày này, khi được chỉ định trong phần riêng theo thời gian, phản ánh các chủ đề về ánh sáng, mặc khải và thực tại liên tục về sự hiện diện của Thiên Chúa giữa nhân loại. Thời kỳ này là nhịp cầu giữa Mùa Giáng Sinh và Chúa nhật Lễ Chúa Giêsu chịu Phép Rửa đang đến gần, nhắc nhở Hội Thánh rằng việc Chúa Kitô sinh ra không phải là một sự kiện tĩnh lặng mà là nguồn ân sủng và sự soi sáng liên tục cho thế giới.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Contemplating the Light of Christ in the quiet of a Christmastide Feria.",
+    "hero_line_vi": "Chiêm ngắm Ánh Sáng của Chúa Kitô trong sự tĩnh lặng của Ngày thường Mùa Giáng Sinh.",
+    "prayer_prompt_en": "Lord Jesus, light of the world, shine upon our ordinary days and reveal your glory to our humble hearts.",
+    "prayer_prompt_vi": "Chúa Giêsu, ánh sáng thế gian, xin chiếu tỏa trên những ngày thường nhật của chúng con và mặc khải vinh quang của Ngài cho những trái tim khiêm tốn của chúng con."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is a weekday in Christmastide with no universal obligatory feast, confirmed by the structure of the 2028 liturgical calendar where Jan 8 is after Jan 1 (Solemnity of Mary) and before Jan 9 (Solemnity of the Lord's Baptism in some calendars, or the start of Ordinary Time depending on local norms, but Jan 8 is consistently a feria).",
+  "confidence_note_vi": "Ngày này là ngày trong tuần trong Mùa Giáng Sinh mà không có lễ bắt buộc toàn cầu, được xác nhận bởi cấu trúc lịch phụng vụ năm 2028, trong đó ngày 08 tháng 01 nằm sau ngày 01 tháng 01 (Lễ Đức Mẹ Maria Mẹ Thiên Chúa) và trước ngày 09 tháng 01 (Lễ Chúa Chịu Phép Rửa trong một số lịch, hoặc bắt đầu Mùa Thường Niên tùy theo quy tắc địa phương), nhưng ngày 08 tháng 01 luôn nhất quán là một ngày thường.",
+  "sources": [
+    {
+      "label": "USCCB Readings for 2028-01-08",
+      "url": "https://bible.usccb.org/bible/readings/010828.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican Calendar of Liturgical Celebrations",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-26",
+    "hebrew": "9 Tevet 5788",
+    "islamic_umm_al_qura": "11 Sha'ban 1449 AH",
+    "coptic": "29 Koiak 1744",
+    "ethiopian": "29 Tahsas 2020"
+  }
+}

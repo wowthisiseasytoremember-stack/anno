@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Ngày thường Mùa Thường Niên",
+    "summary_vi": "Ngày phụng vụ là Thứ Ba tuần 2 Mùa Thường Niên, với phẩm phục màu xanh. Không có lễ kính bắt buộc nào cho các thánh trong ngày này theo Lịch Phụng vụ Rôma. Trọng tâm là sự tăng trưởng vững chắc trong đức tin và việc đọc Tin Mừng trong phụng vụ tuần.",
+    "body_vi": "Là một ngày thường trong Tuần 2 Mùa Thường Niên, Hội Thánh kêu gọi cộng đoàn tín hữu lắng nghe Lời Chúa cách chăm chú. Các bài đọc tập trung vào giáo huấn của Chúa Giêsu và sự cần thiết của đức khiêm nhường cùng lòng phục vụ trong đời sống Kitô hữu. Giai đoạn này ngoài các chu kỳ lớn là Giáng Sinh và Phục Sinh mời gọi tín hữu hòa nhập các mầu nhiệm của Chúa Kitô vào cuộc sống hằng ngày.\n\nMàu sắc phụng vụ xanh lá cây biểu tượng cho niềm hy vọng và hành trình của Hội Thánh qua thời gian. Không có lễ kính thánh nhân nào che khuất ngày này, nên phụng vụ Thứ Ba làm nổi bật sự thánh thiện bình thường của đời sống hằng ngày. Nó nhắc nhở rằng sự thánh thiện thường được tìm thấy trong sự kiên trì âm thầm của đức tin hơn là trong những sự kiện phi thường.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng của những ngày thường.",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để tìm thấy Chúa trong những khoảnh khắc bình thường của tuần này."
+  }
+}

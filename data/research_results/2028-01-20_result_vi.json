@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 2 Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày thường trong tuần 2 Mùa Thường Niên. Màu phụng vụ là màu xanh, tượng trưng cho sự tăng trưởng và hy vọng trong đời sống Kitô hữu. Các bài đọc tập trung vào lời mời gọi làm môn đệ và bản quyền bính của Chúa Giêsu.",
+    "body_vi": "Khi Hội Thánh bước qua tuần thứ hai của Mùa Thường Niên, trọng tâm vẫn là sứ vụ công khai của Chúa Giêsu. Trong ngày Thứ Năm này, phụng vụ mời gọi các tín hữu suy niệm về quyền bính mà qua đó Chúa Kitô giảng dạy và hành động. Thời gian này được đặc trưng bởi việc cử hành đều đặn và không trang trí rườm rà mầu nhiệm của Chúa Kitô trong toàn bộ, thay vì các khía cạnh cụ thể được nhấn mạnh trong Mùa Giáng Sinh hay Mùa Phục Sinh.\n\nCác bài đọc Tin Mừng trong tuần này thường trình bày các cảnh Chúa Giêsu tương tác với dân chúng xứ Galilê, nhấn mạnh việc phá bỏ luật ngày Sabbath qua những hành vi thương xót và việc kêu gọi các môn đệ đầu tiên. Tính chất ngày thường của ngày này có nghĩa là không có những kỷ niệm bổn phận về các thánh nào có thể thay thế các văn bản ngày trong tuần, cho phép Lời Chúa trở thành trung tâm của Phụng vụ Lời Chúa. Những bộ lễ phục màu xanh nhắc nhở chúng ta về sự sống liên tục của Hội Thánh, vẫn tiếp tục tăng trưởng và chín muồi trong sự hiểu biết và đức tin suốt cả năm.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong quyền bính của Chúa Kitô",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con nhận ra quyền bính của Chúa trong Kinh Thánh và trong đời sống hằng ngày của con."
+  }
+}

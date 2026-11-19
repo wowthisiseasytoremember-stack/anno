@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-24",
+  "date": "2028-01-24",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Francis de Sales, Bishop and Doctor",
+    "title_vi": "Thánh Phanxicô Salêsiô, Giám mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Francis de Sales, Bishop and Doctor",
+    "title_vi": "Thánh Phanxicô Salêsiô, Giám mục, Tiến sĩ Hội Thánh",
+    "summary_en": "St. Francis de Sales, Bishop of Geneva and a Doctor of the Church, is remembered for his gentle spirit and profound spiritual writings. His most famous work, 'Introduction to the Devout Life,' guides laypeople to holiness in their daily duties. He is celebrated as the patron saint of journalists and those who wish to live a devout life amidst worldly affairs.",
+    "summary_vi": "Thánh Phanxicô Salêsiô, Giám mục Geneva và là Tiến sĩ Hội Thánh, được tưởng nhớ vì tinh thần dịu dàng và các tác phẩm thiêng liêng sâu sắc. Tác phẩm nổi tiếng nhất của ngài, 'Dẫn Vào Đời Sống Đạo Đức', hướng dẫn giáo dân sống thánh thiện giữa các bổn phận hằng ngày. Ngài được tôn kính là bổn mạng của các nhà báo và những ai muốn sống đạo đức giữa những lo toan trần thế.",
+    "body_en": "Francis de Sales (1567-1622) was a bishop and spiritual writer known for his gentle approach to pastoral care and his defense of Catholic doctrine in Savoy. Along with St. Jane Frances de Chantal, he founded the Order of the Visitation of Holy Mary, which combined the strictness of religious life with the gentleness of charity. His writings remain classics of spiritual direction, emphasizing that devotion is not incompatible with daily work or state of life.\n\nIn his pastoral ministry, Francis was noted for his patience and use of simple, clear language to explain complex theological truths. He believed that holiness was accessible to everyone, not just those in religious orders. His legacy endures in the Church's teaching on the universal call to holiness, reminding the faithful that God's love can be found in the ordinary moments of life if approached with sincerity and love.",
+    "body_vi": "Phanxicô Salêsiô (1567-1622) là một giám mục và tác giả sách thiêng liêng, nổi tiếng với phương pháp chăm sóc mục vụ dịu dàng và việc bảo vệ giáo lý Công giáo ở vùng Savoy. Cùng với Thánh Jane Frances de Chantal, ngài đã thành lập Dòng Thăm Viếng, kết hợp sự nghiêm túc của đời tu với lòng bác ái dịu dàng. Các tác phẩm của ngài vẫn là những tác phẩm kinh điển về hướng dẫn thiêng liêng, nhấn mạnh rằng lòng đạo đức không xung khắc với công việc hằng ngày hay bậc sống.\n\nTrong sứ vụ mục vụ của mình, Phanxicô được biết đến với sự kiên nhẫn và cách sử dụng ngôn ngữ đơn giản, rõ ràng để giải thích những chân lý thần học phức tạp. Ngài tin rằng sự thánh thiện dành cho tất cả mọi người, chứ không chỉ dành cho những người trong dòng tu. Di sản của ngài trường tồn trong giáo huấn của Hội Thánh về lời mời gọi phổ quát hướng tới sự thánh thiện, nhắc nhở các tín hữu rằng tình yêu của Thiên Chúa có thể được tìm thấy trong những khoảnh khắc bình thường của cuộc sống nếu tiếp cận bằng sự chân thành và yêu thương.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Gentleness is the key to true devotion.",
+    "hero_line_vi": "Sự dịu dàng là chìa khóa của lòng đạo đức đích thực.",
+    "prayer_prompt_en": "Lord, grant me the gentleness of St. Francis to love and serve others in my daily life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự dịu dàng của Thánh Phanxicô để yêu thương và phục vụ tha nhân trong đời sống hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/012428.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent: St. Francis de Sales",
+      "url": "https://www.newadvent.org/cathen/06257a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-11",
+    "hebrew": "25 Tevet 5788",
+    "islamic_umm_al_qura": "27 Sha'ban 1449 AH",
+    "coptic": "15 Tobi 1744",
+    "ethiopian": "15 Ter 2020"
+  }
+}
