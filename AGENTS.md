@@ -39,11 +39,11 @@ modules:
   - name: iOS Client Application
     path: Anno/
     does: SwiftUI mobile app implementing Today, Calendar, Map (pilgrimage), and Saved views.
-updated: 2026-11-18 00:00 UTC
+updated: 2026-11-19 00:00 UTC
 ---
 
 # Interfaith Devotional Engine — AGENTS.md
-**Last updated:** 2026-11-18 00:00 UTC
+**Last updated:** 2026-11-19 00:00 UTC
 
 ## Quick Start (Read This First)
 
@@ -92,6 +92,7 @@ Native SwiftUI iOS sacred-history app with deterministic multi-calendar conversi
 
 ## Changelog
 
+- 2026-11-19: Full 365-day 2027 research and app fixture landed; freshness gates cover both years; 2028 January pilot complete. Store metadata now lists only the five calendars the app renders.
 - 2026-11-18: Added a blocking Swift `AnnoEntry` decode-contract gate; normalized fixture output now sanitizes partial `place` objects and null artwork fields. CI now fails closed on Swift decode contract violations. Full 2027 research now normalizes into a decodable fixture, and calendar values are refreshed from the root Engine A.
 - 2026-10-03: v1 scope narrowed — removed AR Reliquary, Spatial Audio, Interfaith layer to archive/v1-removed/. Pricing collapsed to Free + Premium $49.99/yr. Added MIT LICENSE. Engine A calendar bugs fixed (JDN, Islamic epoch, Julian boundaries, PDT/PST). Normalization pipeline fail-closed. Engine B ALLOWLIST backfill removed; inline source validation added.
 - 2026-08-24: Integrated ReliquaryExplorer multiplatform (iOS/visionOS) AR viewer and PilgrimCore package. Implemented SacredSpatialAudioEngine for distance-based acoustic bloom and cathedral reverberation. Wired 3D AR buttons and audio triggers across SacredSiteMapView and TodayView. Authored comprehensive README.md and engineering specifications.

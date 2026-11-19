@@ -1,7 +1,7 @@
 ---
 title: STATE
 state: active
-last_active: 2026-08-29
+last_active: 2026-11-19
 ---
 # interfaith-devotional — Project State
 
@@ -18,7 +18,7 @@ last_active: 2026-08-29
 
 ## Completed (2026-08-19)
 
-- August 2026 mock: 217 `*_vi` fields filled (31 entries) — folded into `data/mock/anno_august_2026.json`.
+- August 2026 mock: 31 entries; `*_vi` leaves are unfilled in that source file. The normalizer fills required-feast VI from pinned data and leaves other days EN-primary.
 - Engine B 07-17→07-30: all 14 dates researched via live API (`tools/fire_engine_b.py` + `tools/fire_engine_b_2730.py`), VN pass complete.
 - Three content tracks normalized into one Swift-fixture-ready dataset (`anno_unified_2026.json`).
 - `export_swift_fixture.py` re-pointed at unified fixture; added `bodyVi` to decoder; derives week list from first 7 entries.
@@ -28,9 +28,9 @@ last_active: 2026-08-29
 
 ## Known Defects / Open Items
 
-- **Sources**: 45/59 unified entries have <2 sources (fortnight + August fixtures have 0; Engine B has 2-3). `validate_mock_content.py` correctly fails the fortnight on this. Sources must be added or the check relaxed before shipping real content.
+- **Sources**: both unified fixtures have ≥2 sources on every entry (2026: 182 days, 2027: 365 days). The advisory Engine B validator reports staleness warnings but zero errors.
 - **Mac build** (Xcode scaffold, SwiftUI wiring, StoreKit, String Catalogs, TestFlight): BLOCKED — requires macOS/Xcode, cannot run on ichabod. See runbook.
-- **Remaining liturgical year** (Sep 2026 → mid-2027): content generation not started (Engine A JSONL covers 2026-2029 conversions, but devotional research only done through Aug 31).
+- **Content coverage**: research covers all 365 days of 2027 plus 2028-01 as a pilot; app fixtures cover 2026-07-03..12-31 and all of 2027. 2027/2028 are generated, not USCCB-certified. 2028-02 onward is unresearched.
 
 ## Next Tasks
 
