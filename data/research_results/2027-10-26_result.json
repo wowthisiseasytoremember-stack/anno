@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-26",
+  "date": "2027-10-26",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 28",
+    "title_vi": "Thứ Ba tuần 28 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time, Week 28",
+    "title_vi": "Thứ Ba tuần 28 Mùa Thường Niên",
+    "summary_en": "This day is observed as a feria in Ordinary Time, marked by the liturgical color green. It falls within the thirty-fourth week of the liturgical year, focusing on the growth of the Christian life in the daily walk with Christ. The readings emphasize the call to holiness and the perseverance of faith in ordinary circumstances.",
+    "summary_vi": "Ngày này được cử hành như một ngày thường trong Mùa Thường Niên, với màu phụng vụ xanh lá. Đây là tuần thứ ba mươi tư của năm phụng vụ, tập trung vào sự trưởng thành của đời sống Kitô hữu trong bước đi hằng ngày với Chúa Kitô. Các bài đọc nhấn mạnh lời mời gọi thánh thiện và sự kiên vững của đức tin trong những hoàn cảnh đời thường.",
+    "body_en": "On this Tuesday, the Church reflects on the continuity of faith outside of major feasts, encouraging the faithful to integrate spiritual practices into their daily routine. The green color symbolizes hope and the steady growth of the Kingdom of God in the hearts of believers. This period invites a deeper engagement with Scripture and prayer, as part of the ordinary journey toward sanctification.\n\nIn the Vietnamese tradition, this day reminds the community of the importance of steadfastness in the face of daily challenges. The liturgical texts serve as a guide for moral living and spiritual renewal, emphasizing that holiness is not reserved for extraordinary moments but is cultivated in the mundane. Faithful participation in the liturgy and adherence to the moral teachings of the Church are central to this week's spiritual focus.",
+    "body_vi": "Vào ngày Thứ Ba này, Hội Thánh suy niệm về tính liên tục của đức tin bên ngoài các lễ trọng, khuyến khích các tín hữu tích hợp các thực hành thiêng liêng vào thói quen hằng ngày. Màu xanh lá tượng trưng cho niềm hy vọng và sự tăng trưởng ổn định của Nước Chúa trong tâm hồn các tín hữu. Giai đoạn này mời gọi sự dấn thân sâu xa hơn với Thánh Kinh và cầu nguyện, như một phần của hành trình bình thường hướng tới sự thánh thiện.\n\nTrong truyền thống Việt Nam, ngày này nhắc nhở cộng đoàn về tầm quan trọng của sự kiên định trước những thách thức hằng ngày. Các bản văn phụng vụ đóng vai trò như hướng dẫn cho lối sống đạo đức và sự đổi mới tâm linh, nhấn mạnh rằng sự thánh thiện không dành riêng cho những khoảnh khắc đặc biệt mà được vun trồng trong điều bình thường. Việc tham dự tích cực vào phụng vụ và tuân giữ các giáo huấn luân lý của Hội Thánh là trọng tâm của sự tập trung tâm linh trong tuần này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a standard Feria in Ordinary Time with no competing obligatory memorials in the General Roman Calendar for this specific year.",
+    "confidence_note_vi": "Ngày này là một ngày thường trong Mùa Thường Niên theo Lịch Rôma Chung, không có lễ bắt buộc nào khác trong năm cụ thể này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in hope as we continue our journey through Ordinary Time.",
+    "hero_line_vi": "Bước đi trong hy vọng khi chúng ta tiếp tục hành trình trong Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help us to find You in the ordinary moments of this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tìm thấy Chúa trong những khoảnh khắc bình thường của ngày hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings (Live)",
+      "url": "https://bible.usccb.org/bible/readings/102627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Liturgical Calendar (Live)",
+      "url": "https://www.catholicculture.org/culture/liturgical-calendar/day.cfm?year=2027&month=10&day=26",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-13",
+    "hebrew": "25 Tisrei 5788",
+    "islamic_umm_al_qura": "26 Jumada al-Awwal 1449 AH",
+    "coptic": "15 Paopi 1744",
+    "ethiopian": "15 Tikemet 2020"
+  }
+}

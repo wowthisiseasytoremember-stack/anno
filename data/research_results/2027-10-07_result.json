@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-07",
+  "date": "2027-10-07",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Our Lady of the Rosary",
+    "title_vi": "Lễ Đức Mẹ Mân Côi"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Our Lady of the Rosary",
+    "title_vi": "Lễ Đức Mẹ Mân Côi",
+    "summary_en": "This memorial honors the Blessed Virgin Mary under the title of the Most Holy Rosary. It emphasizes the importance of meditating on the mysteries of Christ's life through the repetition of the Hail Mary. The feast invites the faithful to embrace the rosary as a powerful spiritual weapon and path to holiness.",
+    "summary_vi": "Lễ kính này tôn kính Đức Trinh Nữ Maria dưới tước hiệu Rất Thánh Mân Côi. Ngày lễ nhấn mạnh tầm quan trọng của việc suy niệm các mầu nhiệm cuộc đời Chúa Kitô qua việc lặp đi lặp lại lời Kinh Mân Côi. Ngày lễ mời gọi các tín hữu đón nhận Kinh Mân Côi như một vũ khí thiêng liêng mạnh mẽ và con đường nên thánh.",
+    "body_en": "The Memorial of Our Lady of the Rosary is celebrated to honor the Blessed Virgin Mary and to highlight the significance of the Rosary in Catholic devotion. The feast originated from the victory of the Christian fleet over the Ottoman navy at the Battle of Lepanto in 1571, which Pope Pius V attributed to the intercession of the Virgin Mary and the praying of the Rosary. This date serves as a reminder of the historical and spiritual importance of this Marian devotion.\n\nThe Rosary itself is a contemplative prayer that combines vocal prayer with meditation on the mysteries of Jesus Christ's life, from the Annunciation to the Resurrection. It is often referred to as a 'school of prayer' that leads to the heart of Christ. The memorial challenges the faithful to deepen their prayer life and to seek Mary's intercession in the mysteries of salvation history.",
+    "body_vi": "Lễ kính Đức Mẹ Mân Côi được cử hành để tôn kính Đức Trinh Nữ Maria và làm nổi bật tầm quan trọng của Kinh Mân Côi trong lòng đạo đức Công giáo. Ngày lễ này xuất phát từ chiến thắng của hạm đội Kitô giáo trước hải quân Ottoman trong Trận chiến Lepanto năm 1571, mà Giáo hoàng Piô V đã quy cho lời cầu bầu của Đức Trinh Nữ Maria và việc đọc Kinh Mân Côi. Ngày này là lời nhắc nhở về tầm quan trọng lịch sử và thiêng liêng của lòng đạo đức Marian này.\n\nKinh Mân Côi bản thân nó là một lời cầu nguyện suy niệm kết hợp lời cầu nguyện bằng miệng với việc suy gẫm các mầu nhiệm cuộc đời Chúa Giêsu Kitô, từ Biến cố Truyền Tin cho đến việc Phục Sinh. Nó thường được gọi là 'trường học cầu nguyện' dẫn đến trái tim của Chúa Kitô. Lễ kính này thách đố các tín hữu đào sâu đời sống cầu nguyện của họ và tìm kiếm sự chuyển cầu của Maria trong các mầu nhiệm lịch sử cứu độ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This is a fixed date in the General Roman Calendar, celebrated universally in the Latin Rite since the reform of the calendar.",
+    "confidence_note_vi": "Đây là một ngày cố định trong Lịch Phụng Vụ Rôma, được cử hành phổ quát tại Nghi lễ Latinh kể từ khi cải cách lịch phụng vụ."
+  },
+  "app_hooks": {
+    "hero_line_en": "Pray the Mysteries, Embrace the Peace.",
+    "hero_line_vi": "Cầu nguyện Các Mầu nhiệm, Đón nhận Bình an.",
+    "prayer_prompt_en": "Lord, grant us the humility of Mary to accept Your will through the mysteries of the Rosary.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khiêm nhường của Maria để đón nhận ý Chúa qua các mầu nhiệm Kinh Mân Côi."
+  },
+  "sources": [
+    {
+      "label": "USCCB Calendar",
+      "url": "https://www.usccb.org/calendar/2027",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Saints",
+      "url": "https://www.catholic.org/saints/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-24",
+    "hebrew": "6 Tisrei 5788",
+    "islamic_umm_al_qura": "7 Jumada al-Awwal 1449 AH",
+    "coptic": "26 Thout 1744",
+    "ethiopian": "26 Meskerem 2020"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 25 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 25 Mùa Thường Niên",
+    "summary_vi": "Đây là ngày thường nhật trong Mùa Thường Niên, cụ thể là Thứ Sáu của Tuần thứ Hai mươi lăm. Màu phụng vụ là màu xanh lá cây, biểu tượng cho niềm hy vọng và sự phát triển của Hội Thánh. Không có lễ kính thánh tử đạo hay lễ kính nào được ưu tiên, nên trọng tâm vẫn là các bài đọc trong ngày và hành trình đức tin của cộng đoàn trong những tuần thường niên.",
+    "body_vi": "Vào Thứ Sáu của Tuần Hai mươi lăm Mùa Thường Niên, Hội Thánh mời gọi các tín hữu suy niệm về sự tăng trưởng âm thầm và vững chắc của Nước Trời giữa đời sống hằng ngày. Khác với các lễ trọng hay lễ kính xen kẽ trong năm, những ngày thường này nhắc nhở rằng sự thánh thiện được vun trồng trong những điều bình dị và đời thường. Các bài đọc trong chu kỳ này nhấn mạnh sự kiên nhẫn, lắng nghe Lời Chúa và duy trì đức tin khi không có những dấu chỉ ngoạn mục.\n\nVề mặt phụng vụ, trọng tâm là tính chất sám hối nhưng đầy niềm hy vọng của bước đường Kitô giáo. Bộ lễ phục màu xanh lá cây mà hàng giáo sĩ mặc biểu thị thời gian và sự tăng trưởng, thúc đẩy người tín hữu gieo những hạt giống nhân đức mà có thể chưa sinh hoa trái ngay lập tức. Ngày này đòi hỏi một sự kiên nhẫn lặng lẽ, tin tưởng rằng Chúa Thánh Thần đang hoạt động âm thầm trong tâm hồn các tín hữu, ngay cả khi lịch phụng vụ không đánh dấu bất kỳ sự kiện lịch sử trọng đại nào.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Trung tín trong điều bình thường: Đón nhận sự tăng trưởng lặng lẽ của Thần Khí",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn để tin vào thời điểm của Ngài và đức tin để vững vàng trong những khoảnh khắc yên lặng của ngày sống."
+  }
+}

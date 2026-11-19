@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 29 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật 31 Mùa Thường Niên",
+    "summary_vi": "Chúa Nhật này thuộc thời gian Mùa Thường Niên, được đánh dấu bằng trang phục phụng vụ màu xanh lá cây. Trọng tâm là hành trình thiêng liêng đang diễn ra và những lời giảng dạy của Chúa Kitô. Các bài đọc thường nhấn mạnh các chủ đề về môn đệ và Nước Thiên Chúa.",
+    "body_vi": "Phụng vụ cho Chúa Nhật 31 Mùa Thường Niên mời gọi các tín hữu suy niệm về các khía cạnh thực tế của đời sống Kitô hữu trong thế giới hàng ngày. Khác với các lễ trọng chi phối năm phụng vụ, Mùa Thường Niên cung cấp một nhịp điệu ổn định cho sự tăng trưởng và hiểu biết Tin Mừng. Màu xanh lá cây tượng trưng cho hy vọng và sự tăng trưởng của Giáo hội khi đi qua các mùa trong năm.\n\nTrong bối cảnh sách bài đọc, Chúa Nhật này thường trình bày các dụ ngôn hoặc lời giảng dạy thách thức người nghe đào sâu cam kết của họ với Chúa Kitô. Cộng đoàn tụ tập để cử hành Bí tích Thánh Thể, nhận sự nuôi dưỡng thiêng liêng cho tuần tiếp theo. Ngày phụng vụ không tập trung vào một vị thánh cụ thể mà vào chứng từ phổ quát của Giáo hội và Lời hằng sống.",
+    "confidence_note_vi": "Ngày này được xác nhận là một Chúa Nhật Mùa Thường Niên dựa trên lịch phụng vụ năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong đức tin và hy vọng qua nhịp điệu ổn định của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con lớn lên trong sự thánh thiện giữa đời sống hàng ngày."
+  }
+}

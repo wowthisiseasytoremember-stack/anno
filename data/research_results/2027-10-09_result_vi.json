@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 25 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 25 Mùa Thường Niên",
+    "summary_vi": "Thứ Bảy này là ngày thường trong tuần 25 Mùa Thường Niên, được cử hành với màu xanh lá cây. Không có lễ hoặc ngày kính thánh nào bắt buộc trong Lịch Phụng vụ Roma Phổ quát thay thế bổn phận ngày trong tuần này. Trọng tâm vẫn là sự tiến triển bền vững của đời sống Kitô hữu qua các bài đọc được chỉ định cho tuần này.",
+    "body_vi": "Trong cấu trúc phụng vụ của Lịch Phụng vụ Roma Phổ quát, một ngày thường của Mùa Thường Niên đại diện cho nhịp điệu chuẩn mực của năm phụng vụ bên ngoài các ngày lễ cụ thể. Vào thứ Bảy ngày 9 tháng 10 năm 2027, Giáo Hội suy tư về các giáo huấn và mầu nhiệm của Đức Kitô được trình bày trong Bài đọc Thánh cho tuần 25 Mùa Thường Niên. Các bài đọc được thiết kế để foster sự suy niệm về Tin Mừng và các giáo huấn của các Tông Đồ, hướng dẫn các tín hữu trong hành trình đức tin hàng ngày.\n\nMàu xanh lá cây phụng vụ tượng trưng cho hy vọng và sự tăng trưởng vững chắc của cộng đoàn Kitô hữu. Trong những tuần này, trọng tâm là đời sống của Giáo Hội khi tiếp tục sứ mạng của mình sau mùa Phục Sinh. Ngày cụ thể này không trùng với bất kỳ lễ trọng, lễ kính hay ngày kính bắt buộc nào trong lịch phổ quát, cho phép thể hiện trọn vẹn phụng vụ ngày trong tuần, nhấn mạnh vào việc giáo lý liên tục cho các tín hữu.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đi bước vững chắc trong đức tin của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Hãy cầu xin ơn tăng trưởng vững chắc trong sự khiêm nhường và hiểu biết Lời Chúa hôm nay."
+  }
+}

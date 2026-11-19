@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Têrêsa thành Avila, Trinh nữ, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Têrêsa thành Avila, Trinh nữ, Tiến sĩ Hội Thánh",
+    "summary_vi": "Hội Thánh cử hành lễ nhớ Thánh Têrêsa thành Avila, một nữ tu dòng Carmel và là Tiến sĩ Hội Thánh, nổi tiếng với các tác phẩm thần nghiệm sâu sắc. Ngày lễ của ngài rơi vào ngày 15 tháng 10, đánh dấu tầm quan trọng của ngài trong lịch sử đời sống thiêng liêng Công giáo và công cuộc cải cách Dòng Carmelô.",
+    "body_vi": "Thánh Têrêsa thành Avila, sinh năm 1515, là một nữ tu và nhà thần nghiệm người Tây Ban Nha, người đã dành cả cuộc đời mình cho lời cầu nguyện và công cuộc cải cách Dòng Carmel. Ngài được công nhận là người phụ nữ đầu tiên được tôn xưng là Tiến sĩ Hội Thánh, danh hiệu này được Đức Giáo hoàng Phaolô VI trao tặng vào năm 1970. Các tác phẩm của ngài, bao gồm 'Lâu Đài Nội Tâm' và 'Cuộc Đời Thánh Têrêsa thành Avila', vẫn là những văn bản nền tảng trong chủ nghĩa thần nghiệm Kitô giáo, nhấn mạnh sức mạnh biến đổi của lời cầu nguyện và hành trình nội tâm hướng tới sự hiệp nhất với Thiên Chúa.\n\nLễ nhớ Thánh Têrêsa vào ngày 15 tháng 10 mời gọi các tín hữu suy ngẫm về sự cân bằng giữa hoạt động tông đồ và đời sống chiêm niệm. Những lời giảng dạy của ngài nhấn mạnh tầm quan trọng của đức khiêm nhường, sự từ bỏ và lòng yêu thương tha nhân như những thành phần thiết yếu của sự tăng trưởng thiêng liêng. Bằng cách tưởng nhớ cuộc đời của ngài, Hội Thánh khẳng định di sản của ngài như một thầy dạy về lời cầu nguyện và một mẫu gương về lòng đạo đức, khuyến khích các tín hữu tìm kiếm sự hiện diện của Thiên Chúa trong những chiều sâu thầm lặng của tâm hồn.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy để tâm trí bạn như một cửa sổ trong suốt, qua đó ánh sáng của Thiên Chúa chiếu rọi rạng ngời.",
+    "prayer_prompt_vi": "Thánh Têrêsa thành Avila, xin dạy chúng con nghệ thuật cầu nguyện nội tâm và hướng dẫn chúng con trong hành trình tiến tới sự hiệp nhất với Thiên Chúa."
+  }
+}

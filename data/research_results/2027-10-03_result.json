@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-03",
+  "date": "2027-10-03",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 25",
+    "title_vi": "Chúa Nhật tuần 25 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Sunday of Ordinary Time, Week 25",
+    "title_vi": "Chúa Nhật tuần 25 Mùa Thường Niên",
+    "summary_en": "This Sunday marks the twenty-fifth week of Ordinary Time, focusing on Christian humility and service. The liturgical readings emphasize that true greatness in the Kingdom of Heaven is found in being a servant to all. It invites the faithful to reflect on their role in the community through the lens of humble service.",
+    "summary_vi": "Chúa Nhật này đánh dấu tuần thứ hai mươi lăm của Mùa Thường Niên, tập trung vào đức khiêm nhường và tinh thần phục vụ của Kitô giáo. Các bài đọc phụng vụ nhấn mạnh rằng sự cao cả đích thực trong Nước Trời được tìm thấy qua việc phục vụ mọi người. Ngày này mời gọi tín hữu suy gẫm về vai trò của mình trong cộng đoàn qua lăng kính của sự phục vụ khiêm nhường.",
+    "body_en": "In the Gospel readings for this Sunday, Jesus calls the disciples to embrace the position of children, highlighting humility as a prerequisite for entering the Kingdom of Heaven. This teaching challenges the worldly pursuit of power and status, offering a counter-cultural vision of leadership as service. The community is called to examine their own motives, seeking not to be served but to serve.\n\nThe context of Ordinary Time allows for a steady, gradual growth in faith, where the liturgical calendar provides a structured path through the life of Christ. As the Church moves through Week 25, the emphasis remains on practical discipleship. The green vestments symbolize hope and growth, reminding believers that their spiritual journey is a continuous process of conversion and alignment with the teachings of Jesus.",
+    "body_vi": "Trong các bài Tin Mừng của Chúa Nhật này, Chúa Giêsu kêu gọi các môn đệ đón nhận vị thế của trẻ nhỏ, nêu bật đức khiêm nhường như một điều kiện tiên quyết để vào Nước Trời. Lời giáo huấn này thách thức việc theo đuổi quyền lực và địa vị theo kiểu thế gian, đồng thời cung cấp một tầm nhìn ngược văn hóa về quyền lực như sự phục vụ. Cộng đoàn được mời gọi xem xét lại động lực của chính mình, không phải để được phục vụ nhưng để phục vụ.\n\nBối cảnh của Mùa Thường Niên cho phép sự tăng trưởng vững chắc và từ từ trong đức tin, nơi lịch phụng vụ cung cấp một con đường có cấu trúc qua cuộc đời của Chúa Kitô. Khi Giáo hội tiến qua Tuần 25, trọng tâm vẫn là việc làm môn đệ thực tế. Áo lễ màu xanh lá cây tượng trưng cho hy vọng và sự tăng trưởng, nhắc nhở tín hữu rằng hành trình tâm linh của họ là một quá trình liên tục của sự hoán cải và sự đồng nhất với các giáo huấn của Chúa Giêsu.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Find greatness in humility and service this Sunday.",
+    "hero_line_vi": "Tìm thấy sự cao cả trong đức khiêm nhường và phục vụ trong Chúa Nhật này.",
+    "prayer_prompt_en": "Lord, help me to serve others with the humility of a child and the heart of a servant.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con phục vụ người khác với sự khiêm nhường của trẻ thơ và trái tim của người đầy tớ."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/100327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News Liturgical Calendar",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-20",
+    "hebrew": "2 Tisrei 5788",
+    "islamic_umm_al_qura": "3 Jumada al-Awwal 1449 AH",
+    "coptic": "22 Thout 1744",
+    "ethiopian": "22 Meskerem 2020"
+  }
+}

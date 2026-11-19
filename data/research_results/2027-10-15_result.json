@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-10-15",
+  "date": "2027-10-15",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Teresa of Jesus, Virgin and Doctor",
+    "title_vi": "Thánh Têrêsa thành Avila, Trinh nữ, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Teresa of Jesus, Virgin and Doctor",
+    "title_vi": "Thánh Têrêsa thành Avila, Trinh nữ, Tiến sĩ Hội Thánh",
+    "summary_en": "The Church celebrates the memorial of St. Teresa of Jesus, a Carmelite nun and Doctor of the Church known for her profound mystical writings. Her feast day falls on October 15, marking her importance in the history of Catholic spirituality and the Reform of the Carmelite Order.",
+    "summary_vi": "Hội Thánh cử hành lễ nhớ Thánh Têrêsa thành Avila, một nữ tu dòng Carmel và là Tiến sĩ Hội Thánh, nổi tiếng với các tác phẩm thần nghiệm sâu sắc. Ngày lễ của ngài rơi vào ngày 15 tháng 10, đánh dấu tầm quan trọng của ngài trong lịch sử đời sống thiêng liêng Công giáo và công cuộc cải cách Dòng Carmelô.",
+    "body_en": "St. Teresa of Avila, born in 1515, was a Spanish nun and mystic who dedicated her life to prayer and the reform of the Carmelite Order. She is recognized as the first woman to be named a Doctor of the Church, a title bestowed by Pope Paul VI in 1970. Her writings, including 'The Interior Castle' and 'The Life of Teresa of Jesus', remain foundational texts in Christian mysticism, emphasizing the transformative power of prayer and the interior journey toward union with God.\n\nThe memorial of St. Teresa on October 15 invites the faithful to reflect on the balance between active service and contemplative prayer. Her teachings highlight the importance of humility, detachment, and the love of neighbor as essential components of spiritual growth. By commemorating her life, the Church upholds her legacy as a teacher of prayer and a model of devotion, encouraging believers to seek the divine presence in the quiet depths of the heart.",
+    "body_vi": "Thánh Têrêsa thành Avila, sinh năm 1515, là một nữ tu và nhà thần nghiệm người Tây Ban Nha, người đã dành cả cuộc đời mình cho lời cầu nguyện và công cuộc cải cách Dòng Carmel. Ngài được công nhận là người phụ nữ đầu tiên được tôn xưng là Tiến sĩ Hội Thánh, danh hiệu này được Đức Giáo hoàng Phaolô VI trao tặng vào năm 1970. Các tác phẩm của ngài, bao gồm 'Lâu Đài Nội Tâm' và 'Cuộc Đời Thánh Têrêsa thành Avila', vẫn là những văn bản nền tảng trong chủ nghĩa thần nghiệm Kitô giáo, nhấn mạnh sức mạnh biến đổi của lời cầu nguyện và hành trình nội tâm hướng tới sự hiệp nhất với Thiên Chúa.\n\nLễ nhớ Thánh Têrêsa vào ngày 15 tháng 10 mời gọi các tín hữu suy ngẫm về sự cân bằng giữa hoạt động tông đồ và đời sống chiêm niệm. Những lời giảng dạy của ngài nhấn mạnh tầm quan trọng của đức khiêm nhường, sự từ bỏ và lòng yêu thương tha nhân như những thành phần thiết yếu của sự tăng trưởng thiêng liêng. Bằng cách tưởng nhớ cuộc đời của ngài, Hội Thánh khẳng định di sản của ngài như một thầy dạy về lời cầu nguyện và một mẫu gương về lòng đạo đức, khuyến khích các tín hữu tìm kiếm sự hiện diện của Thiên Chúa trong những chiều sâu thầm lặng của tâm hồn.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Let your mind be like a clear window, through which the light of God shines brightly.",
+    "hero_line_vi": "Hãy để tâm trí bạn như một cửa sổ trong suốt, qua đó ánh sáng của Thiên Chúa chiếu rọi rạng ngời.",
+    "prayer_prompt_en": "St. Teresa of Avila, teach us the art of interior prayer and guide us in our journey toward the divine union.",
+    "prayer_prompt_vi": "Thánh Têrêsa thành Avila, xin dạy chúng con nghệ thuật cầu nguyện nội tâm và hướng dẫn chúng con trong hành trình tiến tới sự hiệp nhất với Thiên Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/101527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-02",
+    "hebrew": "14 Tisrei 5788",
+    "islamic_umm_al_qura": "15 Jumada al-Awwal 1449 AH",
+    "coptic": "4 Paopi 1744",
+    "ethiopian": "4 Tikemet 2020"
+  }
+}

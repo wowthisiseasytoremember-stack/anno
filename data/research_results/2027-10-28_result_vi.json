@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Simon và Thánh Giuđa, Tông đồ"
+  },
+  "primary": {
+    "title_vi": "Thánh Simon và Thánh Giuđa, Tông đồ",
+    "summary_vi": "Hội Thánh cử hành lễ Thánh Simon và Thánh Giuđa, hai Tông đồ được liệt kê trong Tin Mừng nhưng ít chi tiết tiểu sử. Thánh Simon nhiệt thành và Thánh Giuđa (Tađêô) thường được liên kết với việc rao giảng ở phương Đông, cụ thể là Ba Tư. Việc cử hành chung của hai ngài làm nổi bật mầu nhiệm kế hoạch của Thiên Chúa, trong đó các ơn gọi cá nhân hòa nhập thành chứng tá tập thể cho Tin Mừng.",
+    "body_vi": "Thánh Simon và Thánh Giuđa là hai Tông đồ cuối cùng được liệt kê trong các danh sách Mười Hai của các Tin Mừng Nhất Lãm. Thánh Simon được gọi là \"Người Nhiệt Thành\" hoặc \"Người Canaan,\" một danh hiệu có thể ám chỉ sự sùng mộ mãnh liệt hoặc quê hương của ngài. Thánh Giuđa, còn gọi là Tađêô, là tác giả của Thư Giuđa và thường được vẽ với hình ảnh Chúa Kitô trên ngực, biểu trưng cho sự giống nhau về thể lý với Chúa Giêsu theo truyền thống. Mặc dù các Tin Mừng cung cấp ít ghi chép về hành động cụ thể của các ngài, các truyền thống sau này cho rằng hai ngài đã rao giảng cùng nhau ở Ba Tư, nơi các ngài cuối cùng chịu tử đạo.\n\nViệc ghép đôi hai vị thánh này trong một ngày lễ vào ngày 28 tháng 10 nhấn mạnh bản chất tập thể của đoàn Tông đồ. Lễ nhớ của hai ngài mời gọi các tín hữu suy tư về những khía cạnh ẩn giấu của sự thánh thiện, nơi không phải mọi vị thánh đều có những câu chuyện nổi bật, nhưng tất cả đều chia sẻ bình đẳng trong nền tảng của Hội Thánh. Lễ này là lời nhắc nhở rằng chứng tá cho Đức Kitô không dành riêng cho những nhân vật nổi tiếng trong Kinh Thánh, mà còn cho những người mà sự khiêm nhường và kiên định đã góp phần thầm lặng vào việc loan truyền đức tin.",
+    "confidence_note_vi": "Phẩm bậc phụng vụ được xác nhận bởi Lịch phụng vụ Rôma cho ngày 28 tháng 10. Các chi tiết thánh sử về việc tử đạo ở Ba Tư là theo truyền thống."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sự Trung Thành Trong Những Nơi Ẩn Giấu",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khiêm nhường để phục vụ trung thành ngay cả khi tên con không được biết đến."
+  }
+}

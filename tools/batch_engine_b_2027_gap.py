@@ -184,6 +184,14 @@ def coerce_content(en: dict) -> dict:
     pri = en.get("primary")
     if not isinstance(pri, dict):
         return en
+    type_alias = {
+        "saint": "saint", "liturgical_day": "liturgical_day",
+        "historical_event": "historical_event", "feast": "feast", "solemnity": "solemnity",
+        "memorial": "feast", "optional_memorial": "feast", "optional memorial": "feast",
+    }
+    pri["type"] = type_alias.get(
+        str(pri.get("type", "")).strip().lower(), "liturgical_day"
+    )
     confidence = str(pri.get("confidence", "")).strip().lower()
     if confidence not in CONFIDENCE_NOTES:
         confidence = "contextual"
@@ -536,8 +544,16 @@ def main() -> None:
                     "Return the SAME JSON with at least 2 NEW real, live URLs from different "
                     "domains. Prefer vatican.va, usccb.org, newadvent.org, catholicculture.org. "
                     "Do not reuse URLs that were just rejected.")
-                en = json.loads(extract_json(yolo([{"role": "user", "content": fix_prompt}],
-                                                  maxtok=2000)), strict=False)
+                try:
+                    repaired = json.loads(
+                        extract_json(yolo([{"role": "user", "content": fix_prompt}],
+                                          maxtok=2000)), strict=False
+                    )
+                    if valid_shape(repaired) and len(repaired.get("sources", [])) >= 2:
+                        en = repaired
+                except Exception:  # noqa: BLE001 - keep prior copy and use the fallback list
+                    pass
+            en.setdefault("sources", [])
             if len(en.get("sources", [])) < 2:
                 # Deterministic, live-checked fallback citations (no homepages).
                 for fb in (f"https://bible.usccb.org/bible/readings/{cur:%m%d%y}.cfm",

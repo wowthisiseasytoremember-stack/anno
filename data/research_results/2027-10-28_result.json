@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-10-28",
+  "date": "2027-10-28",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "Sts. Simon and Jude, Apostles",
+    "title_vi": "Thánh Simon và Thánh Giuđa, Tông đồ"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Sts. Simon and Jude, Apostles",
+    "title_vi": "Thánh Simon và Thánh Giuđa, Tông đồ",
+    "summary_en": "The Church celebrates the feast of Sts. Simon and Jude, two apostles listed in the Gospels but with limited biographical details. St. Simon the Zealot and St.",
+    "summary_vi": "Hội Thánh cử hành lễ Thánh Simon và Thánh Giuđa, hai Tông đồ được liệt kê trong Tin Mừng nhưng ít chi tiết tiểu sử. Thánh Simon nhiệt thành và Thánh Giuđa (Tađêô) thường được liên kết với việc rao giảng ở phương Đông, cụ thể là Ba Tư. Việc cử hành chung của hai ngài làm nổi bật mầu nhiệm kế hoạch của Thiên Chúa, trong đó các ơn gọi cá nhân hòa nhập thành chứng tá tập thể cho Tin Mừng.",
+    "body_en": "Sts. Simon and Jude are the last two Apostles listed in the synoptic Gospels' lists of the Twelve. St. Simon is called \"the Zealot\" or \"the Cananean,\" a title that may refer to his intense devotion or his hometown. St. Jude, also known as Thaddeus, is the author of the Epistle of Jude and is often depicted with an image of Christ on his chest, representing his physical resemblance to Jesus according to tradition. Though the Gospels provide little record of their specific actions, later traditions suggest they preached together in Persia, where they were eventually martyred.\n\nThe pairing of these two saints for a single feast day on October 28 emphasizes the collective nature of the Apostolic college. Their feast invites the faithful to reflect on the hidden aspects of sanctity, where not all saints have prominent narratives, yet all share equally in the foundation of the Church. This feast is a reminder that the witness to Christ is not reserved only for the famous figures of Scripture, but also for those whose humility and steadfastness contributed silently to the spread of the faith.",
+    "body_vi": "Thánh Simon và Thánh Giuđa là hai Tông đồ cuối cùng được liệt kê trong các danh sách Mười Hai của các Tin Mừng Nhất Lãm. Thánh Simon được gọi là \"Người Nhiệt Thành\" hoặc \"Người Canaan,\" một danh hiệu có thể ám chỉ sự sùng mộ mãnh liệt hoặc quê hương của ngài. Thánh Giuđa, còn gọi là Tađêô, là tác giả của Thư Giuđa và thường được vẽ với hình ảnh Chúa Kitô trên ngực, biểu trưng cho sự giống nhau về thể lý với Chúa Giêsu theo truyền thống. Mặc dù các Tin Mừng cung cấp ít ghi chép về hành động cụ thể của các ngài, các truyền thống sau này cho rằng hai ngài đã rao giảng cùng nhau ở Ba Tư, nơi các ngài cuối cùng chịu tử đạo.\n\nViệc ghép đôi hai vị thánh này trong một ngày lễ vào ngày 28 tháng 10 nhấn mạnh bản chất tập thể của đoàn Tông đồ. Lễ nhớ của hai ngài mời gọi các tín hữu suy tư về những khía cạnh ẩn giấu của sự thánh thiện, nơi không phải mọi vị thánh đều có những câu chuyện nổi bật, nhưng tất cả đều chia sẻ bình đẳng trong nền tảng của Hội Thánh. Lễ này là lời nhắc nhở rằng chứng tá cho Đức Kitô không dành riêng cho những nhân vật nổi tiếng trong Kinh Thánh, mà còn cho những người mà sự khiêm nhường và kiên định đã góp phần thầm lặng vào việc loan truyền đức tin.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The liturgical rank is confirmed by the General Roman Calendar for October 28. Hagiographical details regarding their martyrdom in Persia are traditional.",
+    "confidence_note_vi": "Phẩm bậc phụng vụ được xác nhận bởi Lịch phụng vụ Rôma cho ngày 28 tháng 10. Các chi tiết thánh sử về việc tử đạo ở Ba Tư là theo truyền thống."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faithfulness in the Hidden Places",
+    "hero_line_vi": "Sự Trung Thành Trong Những Nơi Ẩn Giấu",
+    "prayer_prompt_en": "Lord, grant me the humility to serve faithfully even when my name is unknown.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khiêm nhường để phục vụ trung thành ngay cả khi tên con không được biết đến."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/102827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/13777a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en/saints.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-15",
+    "hebrew": "27 Tisrei 5788",
+    "islamic_umm_al_qura": "28 Jumada al-Awwal 1449 AH",
+    "coptic": "17 Paopi 1744",
+    "ethiopian": "17 Tikemet 2020"
+  }
+}

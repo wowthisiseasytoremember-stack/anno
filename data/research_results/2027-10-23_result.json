@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-23",
+  "date": "2027-10-23",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 27",
+    "title_vi": "Thứ Bảy tuần 27 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 27",
+    "title_vi": "Thứ Bảy tuần 27 Mùa Thường Niên",
+    "summary_en": "This day is a Feria in Ordinary Time, reflecting the ongoing journey of faith. The liturgical color is green, symbolizing hope and growth. No specific saint's memorial takes precedence, allowing focus on the weekly scriptural readings.",
+    "summary_vi": "Ngày này là Ngày thường trong Mùa Thường Niên, phản ánh hành trình đức tin liên lỉ. Màu phụng vụ là xanh lá, tượng trưng cho hy vọng và sự tăng trưởng. Không có lễ kính Thánh nào được ưu tiên, tập trung vào các bài đọc Kinh Thánh hàng tuần.",
+    "body_en": "As a Saturday in Ordinary Time, the liturgy focuses on the continuous growth of the faithful. The readings from the Lectionary provide a steady dose of Scripture, urging believers to live out their baptismal promises. This period encourages spiritual maturity through consistent prayer and reflection on the Word of God.\n\nThe absence of a major feast allows for personal devotion and preparation for the coming Sunday. The green vestments remind us of the life of the Church in the world, growing under the guidance of the Holy Spirit. We pray for the grace to be fruitful in our daily lives.",
+    "body_vi": "Là ngày Thứ Bảy trong Mùa Thường Niên, phụng vụ tập trung vào sự tăng trưởng liên lỉ của các tín hữu. Các bài đọc từ Sách Bài Đọc cung cấp một liều lượng Kinh Thánh đều đặn, thúc giục người tín hữu sống lời hứa khi Rửa Tội. Giai đoạn này khuyến khích sự trưởng thành thiêng liêng qua việc cầu nguyện và suy gẫm Lời Chúa cách nhất quán.\n\nViệc không có lễ kính lớn cho phép sự sùng kính cá nhân và chuẩn bị cho Chúa Nhật tới. Các áo lễ màu xanh nhắc nhở chúng ta về sự sống của Hội Thánh giữa thế giới, đang lớn lên dưới sự hướng dẫn của Chúa Thánh Thần. Chúng ta cầu xin ơn để được kết trái trong cuộc sống hàng ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in hope.",
+    "hero_line_vi": "Hãy lớn lên trong hy vọng.",
+    "prayer_prompt_en": "Ask for the grace to grow spiritually.",
+    "prayer_prompt_vi": "Hãy cầu xin ơn để tăng trưởng thiêng liêng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/102327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgical-calendar/api/view.cfm?year=2027&month=10&day=23",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-10",
+    "hebrew": "22 Tisrei 5788",
+    "islamic_umm_al_qura": "23 Jumada al-Awwal 1449 AH",
+    "coptic": "12 Paopi 1744",
+    "ethiopian": "12 Tikemet 2020"
+  }
+}

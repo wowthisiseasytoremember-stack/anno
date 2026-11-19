@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-10-13",
+  "date": "2027-10-13",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 26",
+    "title_vi": "Thứ Tư tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time, Week 26",
+    "title_vi": "Thứ Tư tuần 26 Mùa Thường Niên",
+    "summary_en": "On October 13, 2027, the Church observes a Feria in Ordinary Time. This day falls in Week 26 of the liturgical year, marked by the liturgical color green. There is no obligatory feast or memorial that overrides the weekday office in the General Roman Calendar for this specific date.",
+    "summary_vi": "Vào ngày 13 tháng 10 năm 2027, Giáo Hội cử hành ngày thứ Tư trong Mùa Thường Niên. Ngày này thuộc Tuần 26 của năm phụng vụ, được đánh dấu bằng màu xanh lá cây. Không có lễ trọng hay lễ nhớ buộc nào thay thế cho kinh nhật tụng trong ngày này theo Lịch Rôma Chung.",
+    "body_en": "The liturgical season of Ordinary Time, represented by the color green, signifies hope and the growth of the Christian faith. During Week 26, the readings from the Lectionary guide the faithful through the ongoing narrative of salvation history, often focusing on the teachings of Christ and the life of the early Church.\n\nOn a Feria, the priest and the faithful are encouraged to maintain their spiritual routine with particular attention to the daily readings. While no specific saint is highlighted as a universal feast, local calendars may have their own traditions, but the universal calendar treats this as a standard weekday. The focus remains on the steady progression of the liturgical year, avoiding the solemnity of Sundays or major feasts.",
+    "body_vi": "Mùa Thường Niên, được thể hiện bằng màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của đức tin Kitô giáo. Trong Tuần 26, các bài đọc từ Sách Bài Đọc hướng dẫn các tín hữu qua câu chuyện lịch sử cứu độ đang tiếp diễn, thường tập trung vào lời dạy của Đức Kitô và đời sống của Giáo Hội sơ khai.\n\nVào ngày thứ Tư thường nhật, linh mục và các tín hữu được khuyến khích duy trì thói quen thiêng liêng với sự chú ý đặc biệt đến các bài đọc hàng ngày. Mặc dù không có vị thánh nào được làm nổi bật như một lễ trọng phổ quát, các lịch địa phương có thể có những truyền thống riêng, nhưng lịch phổ quát coi đây là một ngày trong tuần tiêu chuẩn. Trọng tâm vẫn là sự tiến triển đều đặn của năm phụng vụ, tránh sự long trọng của các Chúa Nhật hoặc các lễ lớn.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growing in Faith: Wednesday in Ordinary Time",
+    "hero_line_vi": "Tăng trưởng trong Đức Tin: Thứ Tư Mùa Thường Niên",
+    "prayer_prompt_en": "Pray for the grace to remain steadfast in your daily spiritual duties during this ordinary week.",
+    "prayer_prompt_vi": "Cầu nguyện cho ơn bền đỗ trong các bổn phận thiêng liêng hàng ngày trong tuần thường nhật này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/101327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-30",
+    "hebrew": "12 Tisrei 5788",
+    "islamic_umm_al_qura": "13 Jumada al-Awwal 1449 AH",
+    "coptic": "2 Paopi 1744",
+    "ethiopian": "2 Tikemet 2020"
+  }
+}

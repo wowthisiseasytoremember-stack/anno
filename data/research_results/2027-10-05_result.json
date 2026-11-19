@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-05",
+  "date": "2027-10-05",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 25",
+    "title_vi": "Thứ Ba tuần 25 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time, Week 25",
+    "title_vi": "Thứ Ba tuần 25 Mùa Thường Niên",
+    "summary_en": "This day falls within the 25th Week of Ordinary Time. As a Tuesday, it is a Feria, meaning there is no obligatory feast or saint that overrides the weekday liturgy. The focus is on the daily office and readings assigned to the current cycle.",
+    "summary_vi": "Ngày này thuộc tuần 25 Mùa Thường Niên. Vì là Thứ Ba, đây là ngày thường (Feria), không có lễ trọng hay lễ kính nào thay thế phụng vụ ngày. Trọng tâm là kinh nhật tụng và các bài đọc được chỉ định theo chu kỳ hiện hành.",
+    "body_en": "The liturgy for Tuesday of the 25th Week in Ordinary Time centers on the steady progression of the Gospel and Epistle readings designated for this period. The color green signifies hope and the life of the Church, calling the faithful to spiritual growth amidst daily life.\n\nSince it is a Feria, the prayers follow the standard weekday formularies. While some local calendars may list specific saints for commemoration, the General Roman Calendar prioritizes the weekday liturgy unless a higher-ranking feast occurs.",
+    "body_vi": "Phụng vụ Thứ Ba tuần 25 Mùa Thường Niên tập trung vào sự tiến triển ổn định của các bài đọc Tin Mừng và Thư tín được chỉ định cho giai đoạn này. Màu xanh lá cây tượng trưng cho hy vọng và đời sống của Giáo Hội, kêu gọi các tín hữu trưởng thành về đời sống tâm linh giữa cuộc sống thường nhật.\n\nVì là ngày thường, các lời cầu nguyện tuân theo các công thức chuẩn mực của ngày trong tuần. Mặc dù một số lịch địa phương có thể liệt kê các vị thánh để tưởng niệm, Lịch Phụng vụ Rôma chung vẫn ưu tiên phụng vụ ngày trong tuần trừ khi có một lễ trọng hơn xảy ra.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is a confirmed Feria in Week 25 of Ordinary Time based on the standard liturgical calendar calculation for 2027.",
+    "confidence_note_vi": "Ngày này được xác nhận là ngày thường trong tuần 25 Mùa Thường Niên dựa trên phép tính lịch phụng vụ chuẩn cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Hope",
+    "hero_line_vi": "Bước đi trong Hy Vọng",
+    "prayer_prompt_en": "Pray for spiritual growth during this ordinary time.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự tăng trưởng tâm linh trong thời gian thường nhật."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/100527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgical-calendar/view.cfm?year=2027&month=10&day=5",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-22",
+    "hebrew": "4 Tisrei 5788",
+    "islamic_umm_al_qura": "5 Jumada al-Awwal 1449 AH",
+    "coptic": "24 Thout 1744",
+    "ethiopian": "24 Meskerem 2020"
+  }
+}

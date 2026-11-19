@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-04",
+  "date": "2027-10-04",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Francis of Assisi",
+    "title_vi": "Thánh Phanxicô thành Assisi"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Francis of Assisi",
+    "title_vi": "Thánh Phanxicô thành Assisi",
+    "summary_en": "The Church celebrates the memorial of St. Francis of Assisi, the founder of the Franciscan Orders and patron saint of ecology. Known for his profound humility and devotion to poverty, Francis embraced a life modeled on the Gospel of Jesus Christ. His legacy continues through the Franciscan movement, which emphasizes simplicity and charity.",
+    "summary_vi": "Giáo hội cử hành lễ kính Thánh Phanxicô thành Assisi, người sáng lập các dòng Phanxicô và là quan thầy của sinh thái học. Nổi tiếng với lòng khiêm tốn sâu sắc và sự gắn bó với đức khó nghèo, Phanxicô đã đón nhận một cuộc đời được mô phỏng theo Tin Mừng của Đức Giêsu Kitô. Di sản của ngài tiếp tục qua phong trào Phanxicô, nhấn mạnh sự đơn sơ và bác ái.",
+    "body_en": "Francis of Assisi (1181–1226) was born in Assisi, Italy, to a wealthy merchant family. After a period of youthful indulgence and military service, he experienced a profound conversion, renouncing his worldly possessions to live in obedience to the Gospel. He founded the Order of Friars Minor, seeking to restore the Church by living a life of apostolic poverty and preaching the love of God to all creation.\n\nHis spirituality is characterized by a deep appreciation for the natural world, which he saw as a reflection of the divine. The 'Canticle of the Sun' remains one of the earliest Italian poems and a testament to his theological vision of brotherhood with creation. Today, he is venerated as a Doctor of the Church in spirit and a patron of animals, ecology, and merchants, inspiring countless faithful to seek holiness through simplicity.",
+    "body_vi": "Phanxicô thành Assisi (1181–1226) sinh ra tại Assisi, Ý, trong một gia đình thương nhân giàu có. Sau một thời gian tuổi trẻ phóng túng và phục vụ quân ngũ, ngài đã trải qua một cuộc hoán cải sâu sắc, từ bỏ của cải trần gian để sống vâng phục theo Tin Mừng. Ngài thành lập Dòng Anh Em Hèn Mọn (Friars Minor), tìm cách canh tân Hội Thánh bằng cách sống đời khó nghèo tông đồ và rao giảng tình yêu của Thiên Chúa cho mọi thụ tạo.\n\nLinh đạo của ngài được đặc trưng bởi lòng trân trọng sâu sắc đối với thế giới tự nhiên, mà ngài coi là phản chiếu của thần tính. 'Bài ca Mặt Trời' vẫn còn là một trong những bài thơ tiếng Ý sớm nhất và là minh chứng cho tầm nhìn thần học về tình huynh đệ với thụ tạo. Ngày nay, ngài được tôn kính như một Tiến sĩ Hội Thánh trong tinh thần và là quan thầy của động vật, sinh thái học và các thương nhân, truyền cảm hứng cho vô số tín hữu tìm kiếm sự thánh thiện qua sự đơn sơ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Peace and Good: A Day to Remember St. Francis",
+    "hero_line_vi": "Bình An và An Lạc: Ngày Tưởng Nhớ Thánh Phanxicô",
+    "prayer_prompt_en": "Lord, help me to see all creation as a reflection of Your glory and to live with humility and charity.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhìn thấy mọi thụ tạo như phản chiếu vinh quang của Ngài và sống với sự khiêm tốn cùng bác ái."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/100427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - Saint of the Day",
+      "url": "https://www.catholicculture.org/culture/liturgicalcalendar/arc/view.cfm?recnum=258",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-21",
+    "hebrew": "3 Tisrei 5788",
+    "islamic_umm_al_qura": "4 Jumada al-Awwal 1449 AH",
+    "coptic": "23 Thout 1744",
+    "ethiopian": "23 Meskerem 2020"
+  }
+}

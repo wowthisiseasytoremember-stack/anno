@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Đức Mẹ Mân Côi"
+  },
+  "primary": {
+    "title_vi": "Lễ Đức Mẹ Mân Côi",
+    "summary_vi": "Lễ kính này tôn kính Đức Trinh Nữ Maria dưới tước hiệu Rất Thánh Mân Côi. Ngày lễ nhấn mạnh tầm quan trọng của việc suy niệm các mầu nhiệm cuộc đời Chúa Kitô qua việc lặp đi lặp lại lời Kinh Mân Côi. Ngày lễ mời gọi các tín hữu đón nhận Kinh Mân Côi như một vũ khí thiêng liêng mạnh mẽ và con đường nên thánh.",
+    "body_vi": "Lễ kính Đức Mẹ Mân Côi được cử hành để tôn kính Đức Trinh Nữ Maria và làm nổi bật tầm quan trọng của Kinh Mân Côi trong lòng đạo đức Công giáo. Ngày lễ này xuất phát từ chiến thắng của hạm đội Kitô giáo trước hải quân Ottoman trong Trận chiến Lepanto năm 1571, mà Giáo hoàng Piô V đã quy cho lời cầu bầu của Đức Trinh Nữ Maria và việc đọc Kinh Mân Côi. Ngày này là lời nhắc nhở về tầm quan trọng lịch sử và thiêng liêng của lòng đạo đức Marian này.\n\nKinh Mân Côi bản thân nó là một lời cầu nguyện suy niệm kết hợp lời cầu nguyện bằng miệng với việc suy gẫm các mầu nhiệm cuộc đời Chúa Giêsu Kitô, từ Biến cố Truyền Tin cho đến việc Phục Sinh. Nó thường được gọi là 'trường học cầu nguyện' dẫn đến trái tim của Chúa Kitô. Lễ kính này thách đố các tín hữu đào sâu đời sống cầu nguyện của họ và tìm kiếm sự chuyển cầu của Maria trong các mầu nhiệm lịch sử cứu độ.",
+    "confidence_note_vi": "Đây là một ngày cố định trong Lịch Phụng Vụ Rôma, được cử hành phổ quát tại Nghi lễ Latinh kể từ khi cải cách lịch phụng vụ."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Cầu nguyện Các Mầu nhiệm, Đón nhận Bình an.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khiêm nhường của Maria để đón nhận ý Chúa qua các mầu nhiệm Kinh Mân Côi."
+  }
+}

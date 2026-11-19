@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-19",
+  "date": "2027-10-19",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "red",
+    "title_en": "Sts. John de Brébeuf and Isaac Jogues (Universal Optional)",
+    "title_vi": "Thánh Gioan de Brébeuf và Isaác Jogues"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Sts. John de Brébeuf and Isaac Jogues",
+    "title_vi": "Thánh Gioan de Brébeuf và Isaác Jogues",
+    "summary_en": "This day marks the optional memorial of Sts. John de Brébeuf and Isaac Jogues, Jesuit missionaries who served in New France. They are honored as patron saints of Canada alongside their companions. Their witness exemplifies the evangelical mission of the early Church in the Americas.",
+    "summary_vi": "Ngày này đánh dấu lễ nhớ tùy ý của Thánh Gioan de Brébeuf và Isaác Jogues, các nhà truyền giáo Dòng Tên phục vụ tại Tân Pháp. Họ được tôn kính là các thánh bổn mạng của Canada cùng với các bạn đồng hành. Chứng từ của họ nêu gương mẫu cho sứ vụ loan báo Tin Mừng của Giáo hội sơ khai ở châu Mỹ. Màu phụng vụ là đỏ, tượng trưng cho sự tử đạo và sự cống hiến của các ngài.",
+    "body_en": "Sts. John de Brébeuf and Isaac Jogues were among the eight Jesuit missionaries known collectively as the North American Martyrs. In the 17th century, they traveled to New France to bring the Gospel to the Huron and Algonquin peoples. Their work was characterized by linguistic dedication, cultural adaptation, and enduring perseverance amidst severe hardships.\n\nThe memory of these saints invites the faithful to reflect on the cost of discipleship and the universality of the Christian message. In the United States, this memorial is often observed as an optional memorial due to the prominence of other saints on this date in local calendars, yet their significance remains profound. They stand as pillars of faith for the North American continent.",
+    "body_vi": "Thánh Gioan de Brébeuf và Isaác Jogues là một trong tám nhà truyền giáo Dòng Tên được gọi chung là các Thánh Tử Đạo Bắc Mỹ. Vào thế kỷ 17, họ đã đến Tân Pháp để mang Tin Mừng đến cho người Huron và Algonquin. Công việc của họ được đặc trưng bởi sự tận tâm ngôn ngữ, sự thích ứng văn hóa và sự kiên trì bền bỉ giữa những khó khăn khắc nghiệt.\n\nKỷ niệm về các vị thánh này mời gọi các tín hữu suy ngẫm về cái giá của việc làm môn đệ và tính phổ quát của sứ điệp Kitô giáo. Tại Hoa Kỳ, lễ nhớ này thường được cử hành như một lễ nhớ tùy ý do tầm quan trọng của các thánh khác trong ngày này theo lịch địa phương, nhưng ý nghĩa của các ngài vẫn rất sâu sắc. Các ngài là những trụ cột đức tin cho lục địa Bắc Mỹ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Missionaries of the North American Martyrs",
+    "hero_line_vi": "Các nhà truyền giáo của các Thánh Tử Đạo Bắc Mỹ",
+    "prayer_prompt_en": "Grant us the courage to proclaim the Gospel to all nations, as Sts. John de Brébeuf and Isaac Jogues did.",
+    "prayer_prompt_vi": "Xin ban cho chúng con lòng can đảm để loan báo Tin Mừng cho mọi dân tộc, như Thánh Gioan de Brébeuf và Isaác Jogues đã làm."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings and Calendar",
+      "url": "https://bible.usccb.org/bible/readings/101927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/09690a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-06",
+    "hebrew": "18 Tisrei 5788",
+    "islamic_umm_al_qura": "19 Jumada al-Awwal 1449 AH",
+    "coptic": "8 Paopi 1744",
+    "ethiopian": "8 Tikemet 2020"
+  }
+}

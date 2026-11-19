@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-24",
+  "date": "2027-10-24",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 28",
+    "title_vi": "Chúa Nhật tuần 28 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Sunday in Ordinary Time, Week 28",
+    "title_vi": "Chúa Nhật tuần 28 Mùa Thường Niên",
+    "summary_en": "The liturgical focus for October 24, 2027, is the Sunday of Ordinary Time, specifically the 28th week of the liturgical year. The color green signifies the time of growth and witness in the Christian life outside of the specific seasons of Advent, Christmas, Lent, or Easter. No major saint or feast takes precedence on this date, allowing the faithful to reflect deeply on the Sunday readings and the steady progress of the Kingdom of God.",
+    "summary_vi": "Trọng tâm phụng vụ ngày 24 tháng 10 năm 2027 là Chúa Nhật Mùa Thường Niên, cụ thể là tuần thứ 28 của năm phụng vụ. Màu xanh lá cây biểu tượng cho thời gian tăng trưởng và làm chứng trong đời sống Kitô hữu, nằm ngoài các mùa đặc biệt như Vọng, Giáng Sinh, Chay hay Phục Sinh. Không có ngày lễ kính trọng thể hay kính nhớ đặc biệt nào chiếm ưu tiên trong ngày này, cho phép cộng đoàn suy niệm sâu sắc về các bài đọc Chúa Nhật và tiến trình vững chắc của Nước Thiên Chúa.",
+    "body_en": "During the twenty-eighth Sunday in Ordinary Time, the Church invites the faithful to reflect on their vocation and the radical nature of discipleship. The liturgical color green represents hope and the steady growth of the Church's mission in the world. This period serves as a reminder that faith is not confined to dramatic moments of joy or penance but is lived consistently in the daily rhythms of life.\n\nThe readings for this Sunday typically focus on the encounter of the young man with Jesus, asking about the path to eternal life, or parables regarding the Kingdom of God. These texts challenge believers to examine their priorities and to recognize that true wealth is found in a relationship with Christ. By observing the green season with intentionality, the faithful maintain a constant connection with the divine, seeking to embody the Gospel in every aspect of their earthly journey.",
+    "body_vi": "Trong Chúa Nhật thứ 28 Mùa Thường Niên, Hội Thánh mời gọi các tín hữu suy niệm về ơn gọi và tính chất triệt để của đời sống môn đệ. Màu phụng vụ xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của sứ mạng Hội Thánh trong thế giới. Thời kỳ này là lời nhắc nhở rằng đức tin không chỉ giới hạn trong những khoảnh khắc vui mừng hay thống hối kịch tính, mà được sống nhất quán trong những nhịp điệu hàng ngày của cuộc sống.\n\nCác bài đọc trong Chúa Nhật này thường tập trung vào cuộc gặp gỡ giữa chàng trai trẻ với Chúa Giêsu khi hỏi về con đường sự sống đời đời, hoặc các dụ ngôn về Nước Thiên Chúa. Những bản văn này thách đố các tín hữu xem xét lại những ưu tiên của mình và nhận ra rằng của cải đích thực được tìm thấy trong mối tương quan với Đức Kitô. Bằng cách sống Mùa Thường Niên cách có ý thức, các tín hữu duy trì kết nối liên lỉ với Thiên Chúa, tìm cách sống Lời Tin Mừng trong mọi khía cạnh của hành trình trần thế.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking Steadily in the Light of Ordinary Grace",
+    "hero_line_vi": "Bước Đi Vững Vàng Trong Ánh Sáng Ân Sủng Thường Nhật",
+    "prayer_prompt_en": "Lord, help me to see Your presence in the everyday moments and to grow in faithfulness through the ordinary days of life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhìn thấy sự hiện diện của Chúa trong những khoảnh khắc đời thường và tăng trưởng trong sự trung thành qua những ngày sống bình dị."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for 2027-10-24",
+      "url": "https://bible.usccb.org/bible/readings/102427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Liturgical Calendar",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-11",
+    "hebrew": "23 Tisrei 5788",
+    "islamic_umm_al_qura": "24 Jumada al-Awwal 1449 AH",
+    "coptic": "13 Paopi 1744",
+    "ethiopian": "13 Tikemet 2020"
+  }
+}

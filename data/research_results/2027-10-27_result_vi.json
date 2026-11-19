@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 28 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 28 Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày trong tuần thuộc Mùa Thường Niên, tập trung vào đời sống của tín hữu dưới ánh sáng của sự phục sinh. Các bài đọc phụng vụ thường khám phá các chủ đề về sự tăng trưởng, cộng đoàn và sự kiên trì đạo đức. Nó không liên kết với lễ kính thánh nào đặc biệt trong Lịch Rôma chung cho năm cụ thể này.",
+    "body_vi": "Trong Mùa Thường Niên Tuần 28, Giáo hội mời gọi các tín hữu suy ngẫm về sứ vụ liên tục và việc áp dụng thực tế giáo lý Kitô giáo vào cuộc sống hàng ngày. Sự vắng mặt của một ngày lễ kính cấp cao cho phép suy niệm sâu sắc hơn về các tường thuật Kinh Thánh được chỉ định trong Bài đọc. Khoảng thời gian này là lúc để trưởng thành tâm linh và củng cố đức tin giữa những thói quen bình thường của thế gian.\n\nMàu xanh lục phụng vụ tượng trưng cho niềm hy vọng và sự tăng trưởng ổn định của Giáo hội trong Chúa Thánh Thần. Vào Thứ Tư này, các lời cầu nguyện và bài đọc hướng dẫn người tin vào một hiểu biết chín chắn về bác ái và công lý. Đây là lúc để đưa những hoa trái của Chúa Thánh Thần vào các hành động cụ thể, đồng bộ hóa những nỗ lực của con người với ân sủng thần linh giữa lịch sử thế tục.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong Niềm Hy Vọng và Sự Thánh Thiện",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho chúng con ân sủng để trưởng thành vững vàng trong đức tin và sinh hoa trái trong đời sống hàng ngày."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 26 Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào Thứ Ba của tuần 26 Mùa Thường Niên. Màu phụng vụ là xanh lá cây, biểu tượng cho sự tăng trưởng và dòng chảy thời gian trong đời sống Giáo Hội. Không có lễ kính nào của các thánh được gán cho ngày này trong Lịch Rôma chung buộc phải cử hành thay thế cho ngày thường lệ.",
+    "body_vi": "Là một ngày thường lệ trong Mùa Thường Niên, phụng vụ tập trung vào việc thánh hóa đời sống hằng ngày và sự tiến triển ổn định của các tín hữu qua các bài đọc Kinh Thánh được chỉ định cho tuần đó. Các bài đọc và lời cầu nguyện phản ánh các chủ đề tăng trưởng trong đức tin và sự kiên tâm trong hành trình Kitô giáo, mà không bị lu mờ bởi lời chuyển cầu cụ thể của một ngày lễ thánh nào đó.\n\nViệc thiếu vắng một ngày lễ lớn hoặc lễ trọng cho phép sự dấn thân sâu sắc hơn với chu kỳ bài đọc trong ngày thường. Áo lễ màu xanh lá cây nhắc nhở về niềm hy vọng và sự sống đời đời dẫn dắt Giáo Hội bên ngoài các mùa trọng điểm như Vọng, Giáng Sinh, Chay và Phục Sinh.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong thời gian thường nhật của đức tin.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy ân sủng trong nhịp điệu thường nhật của tuần này."
+  }
+}

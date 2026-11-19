@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-12",
+  "date": "2027-10-12",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 26",
+    "title_vi": "Thứ Ba tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time, Week 26",
+    "title_vi": "Thứ Ba tuần 26 Mùa Thường Niên",
+    "summary_en": "This date falls on a Tuesday in the twenty-sixth week of Ordinary Time. The liturgical color is green, symbolizing growth and the passage of time in the Church's life. There are no obligatory memorials of saints assigned to this day in the General Roman Calendar that supersede the feria.",
+    "summary_vi": "Ngày này rơi vào Thứ Ba của tuần 26 Mùa Thường Niên. Màu phụng vụ là xanh lá cây, biểu tượng cho sự tăng trưởng và dòng chảy thời gian trong đời sống Giáo Hội. Không có lễ kính nào của các thánh được gán cho ngày này trong Lịch Rôma chung buộc phải cử hành thay thế cho ngày thường lệ.",
+    "body_en": "As a feria in Ordinary Time, the liturgy focuses on the sanctification of daily life and the steady progression of the faithful through the scriptures assigned for the week. The readings and prayers reflect themes of growth in faith and perseverance in the Christian walk, without the specific intercession of a particular saint's feast day overshadowing the ordinary rhythm of the Church year.\n\nThe absence of a major feast or solemnity allows for a deeper engagement with the weekday lectionary cycle. The green vestments serve as a reminder of the hope and eternal life that guide the Church outside of the intense seasons of Advent, Christmas, Lent, and Easter.",
+    "body_vi": "Là một ngày thường lệ trong Mùa Thường Niên, phụng vụ tập trung vào việc thánh hóa đời sống hằng ngày và sự tiến triển ổn định của các tín hữu qua các bài đọc Kinh Thánh được chỉ định cho tuần đó. Các bài đọc và lời cầu nguyện phản ánh các chủ đề tăng trưởng trong đức tin và sự kiên tâm trong hành trình Kitô giáo, mà không bị lu mờ bởi lời chuyển cầu cụ thể của một ngày lễ thánh nào đó.\n\nViệc thiếu vắng một ngày lễ lớn hoặc lễ trọng cho phép sự dấn thân sâu sắc hơn với chu kỳ bài đọc trong ngày thường. Áo lễ màu xanh lá cây nhắc nhở về niềm hy vọng và sự sống đời đời dẫn dắt Giáo Hội bên ngoài các mùa trọng điểm như Vọng, Giáng Sinh, Chay và Phục Sinh.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the ordinary time of faith.",
+    "hero_line_vi": "Bước đi trong thời gian thường nhật của đức tin.",
+    "prayer_prompt_en": "Lord, help me find grace in the routine of this week.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy ân sủng trong nhịp điệu thường nhật của tuần này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for 2027-10-12",
+      "url": "https://bible.usccb.org/bible/readings/101227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Calendar - October 2027",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-29",
+    "hebrew": "11 Tisrei 5788",
+    "islamic_umm_al_qura": "12 Jumada al-Awwal 1449 AH",
+    "coptic": "1 Paopi 1744",
+    "ethiopian": "1 Tikemet 2020"
+  }
+}

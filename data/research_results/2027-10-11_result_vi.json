@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 26 Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào tuần 26 Mùa Thường Niên, dành cho sự tăng trưởng của Giáo Hội và các tín hữu. Không có lễ trọng hay lễ kính lớn nào được cử hành, đánh dấu đây là một ngày thường lệ (Feria). Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự sống tiếp diễn của Giáo Hội.",
+    "body_vi": "Trọng tâm phụng vụ vào ngày Thứ Hai này trong Mùa Thường Niên tập trung vào sự tiến triển hàng ngày của đời sống Kitô hữu. Các bài đọc trong Sách Bài Đọc cho tuần 26 thường phản ánh về sự kiên nhẫn và trung tín cần thiết trong đời sống của người tín hữu. Là một ngày thường lệ, Giáo Hội mời gọi các tín hữu duy trì thói quen thiêng liêng mà không bị gián đoạn bởi các nghi lễ có bậc lễ cao hơn.\n\nTrong Lịch Rôma chung, các ngày trong tuần thông thường là xương sống của năm phụng vụ, cho phép sự tiếp xúc nhất quán với Kinh Thánh. Sự nhấn mạnh vẫn là sự thánh hóa đời sống hàng ngày và việc áp dụng các lời dạy của Tin Mừng vào những hoàn cảnh đời thường. Giai đoạn này nhấn mạnh tầm quan trọng của sự kiên trì trong nhân đức khi bước đi qua tiến trình thông thường của năm.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Kiên vững trong Hy vọng: Bước đi trên con đường Mùa Thường Niên",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để giữ vững lòng trung tín trong những khoảnh khắc nhỏ bé, để đời sống thường nhật của con có thể làm chứng cho tình yêu phi thường của Chúa."
+  }
+}

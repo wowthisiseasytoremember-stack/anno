@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-08",
+  "date": "2027-10-08",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 25",
+    "title_vi": "Thứ Sáu tuần 25 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time, Week 25",
+    "title_vi": "Thứ Sáu tuần 25 Mùa Thường Niên",
+    "summary_en": "This day is a weekday of Ordinary Time, specifically the Friday of the Twenty-Fifth Week. The liturgical color is green, symbolizing hope and the growth of the Church. No specific saint's memorial takes precedence, so the focus remains on the daily readings and the faithful's journey through the secular weeks of the year.",
+    "summary_vi": "Đây là ngày thường nhật trong Mùa Thường Niên, cụ thể là Thứ Sáu của Tuần thứ Hai mươi lăm. Màu phụng vụ là màu xanh lá cây, biểu tượng cho niềm hy vọng và sự phát triển của Hội Thánh. Không có lễ kính thánh tử đạo hay lễ kính nào được ưu tiên, nên trọng tâm vẫn là các bài đọc trong ngày và hành trình đức tin của cộng đoàn trong những tuần thường niên.",
+    "body_en": "On the Friday of the Twenty-Fifth Week in Ordinary Time, the Church invites the faithful to reflect on the steady, quiet growth of the Kingdom of God amidst daily life. Unlike the solemnities or feasts that punctuate the year, these weekdays serve as a reminder that holiness is cultivated in the mundane and the ordinary. The readings for this cycle emphasize perseverance, listening to the Word, and maintaining faithfulness when the dramatic signs are absent.\n\nLiturgically, the emphasis is on the penitential yet hopeful nature of the Christian walk. The green vestments worn by the clergy signify time and growth, urging the believer to plant seeds of virtue that may not bear immediate fruit. This day asks for a quiet endurance, trusting that the Holy Spirit works silently within the hearts of the faithful, even when the calendar marks no significant historical event.",
+    "body_vi": "Vào Thứ Sáu của Tuần Hai mươi lăm Mùa Thường Niên, Hội Thánh mời gọi các tín hữu suy niệm về sự tăng trưởng âm thầm và vững chắc của Nước Trời giữa đời sống hằng ngày. Khác với các lễ trọng hay lễ kính xen kẽ trong năm, những ngày thường này nhắc nhở rằng sự thánh thiện được vun trồng trong những điều bình dị và đời thường. Các bài đọc trong chu kỳ này nhấn mạnh sự kiên nhẫn, lắng nghe Lời Chúa và duy trì đức tin khi không có những dấu chỉ ngoạn mục.\n\nVề mặt phụng vụ, trọng tâm là tính chất sám hối nhưng đầy niềm hy vọng của bước đường Kitô giáo. Bộ lễ phục màu xanh lá cây mà hàng giáo sĩ mặc biểu thị thời gian và sự tăng trưởng, thúc đẩy người tín hữu gieo những hạt giống nhân đức mà có thể chưa sinh hoa trái ngay lập tức. Ngày này đòi hỏi một sự kiên nhẫn lặng lẽ, tin tưởng rằng Chúa Thánh Thần đang hoạt động âm thầm trong tâm hồn các tín hữu, ngay cả khi lịch phụng vụ không đánh dấu bất kỳ sự kiện lịch sử trọng đại nào.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faithfulness in the Ordinary: Embracing the Quiet Growth of the Spirit",
+    "hero_line_vi": "Trung tín trong điều bình thường: Đón nhận sự tăng trưởng lặng lẽ của Thần Khí",
+    "prayer_prompt_en": "Lord, grant me the patience to trust in Your timing and the faith to remain steadfast in the quiet moments of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn để tin vào thời điểm của Ngài và đức tin để vững vàng trong những khoảnh khắc yên lặng của ngày sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings: Friday, October 8, 2027",
+      "url": "https://bible.usccb.org/bible/readings/100827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "General Roman Calendar: Ordinary Time Week 25",
+      "url": "https://www.vatican.va/archive/ENG0015/__P2.HTM",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-25",
+    "hebrew": "7 Tisrei 5788",
+    "islamic_umm_al_qura": "8 Jumada al-Awwal 1449 AH",
+    "coptic": "27 Thout 1744",
+    "ethiopian": "27 Meskerem 2020"
+  }
+}

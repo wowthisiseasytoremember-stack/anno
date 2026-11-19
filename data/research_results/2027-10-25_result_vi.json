@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 28 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 28 Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày thường trong Mùa Thường Niên, được đánh dấu bằng màu xanh lục trong phụng vụ, tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Hội Thánh. Trọng tâm là hành trình đức tin liên lỉ trong đời sống của người tín hữu bên ngoài các mùa cao điểm như Vọng hay Chay. Không có lễ kính nhớ thánh nào có tính phổ quát được cử hành ưu tiên hơn phụng vụ ngày thường vào ngày này. Các bài đọc và kinh nguyện phản ánh giáo huấn liên tục của Chúa Kitô đối với các môn đệ của Người.",
+    "body_vi": "Phụng vụ Thứ Hai tuần 28 Mùa Thường Niên mời gọi các tín hữu suy tư về sự hoán cải liên lỉ và sự vâng phục giáo huấn Tin Mừng của họ. Màu xanh lục được sử dụng không phải để chỉ sự thiếu vắng tính long trọng, mà đúng hơn là để chỉ thời kỳ của sự trưởng thành và kiên nhẫn trong đời sống tâm linh. Đây là thời gian mà Hội Thánh khuyến khích các thành viên của mình hội nhập các mầu nhiệm của Chúa Kitô vào đời sống hằng ngày, nuôi dưỡng tinh thần khiêm nhường và phục vụ. Các bài đọc trong ngày thường thường tập trung vào việc áp dụng thực tiễn của đức tin, kêu gọi người tín hữu trở nên muối đất và ánh sáng cho trần gian trong những hoạt động bình thường của mình.\n\nTrong bối cảnh của Lịch Phụng vụ Rôma, trừ khi lịch phụng vụ quốc gia hoặc giáo phận cụ thể quy định một lễ long trọng hơn, ngày thường vẫn giữ vị thế với phẩm giá trọn vẹn của nó. Các lời cầu nguyện trong Thánh lễ nhấn mạnh sự hiệp nhất của Hội Thánh và tầm quan trọng của việc lắng nghe Lời Chúa. Thời gian này nhắc nhở rằng ơn gọi Kitô hữu không bị giới hạn vào các ngày Chúa nhật hay các lễ trọng, nhưng thấm nhuần mọi khía cạnh của đời sống con người, biến những khoảnh khắc bình thường thành cơ hội đón nhận ân sủng. Các tín hữu được mời gọi tỉnh thức và trung thành, như được dạy trong các bài đọc Tin Mừng về việc Chúa sẽ đến.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng vững chắc trong đức tin và niềm hy vọng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong những khoảnh khắc bình thường nhất của ngày sống."
+  }
+}

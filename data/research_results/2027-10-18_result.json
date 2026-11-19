@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-18",
+  "date": "2027-10-18",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "St. Luke the Evangelist",
+    "title_vi": "Thánh Luca, Tác giả Sách Tin Mừng"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Luke the Evangelist",
+    "title_vi": "Thánh Luca, Tác giả Sách Tin Mừng",
+    "summary_en": "The Church celebrates the Feast of St. Luke, the author of the Third Gospel and the Acts of the Apostles. He is venerated as a physician and a companion of St. Paul, known for his detailed narratives and emphasis on mercy.",
+    "summary_vi": "Giáo Hội mừng lễ Thánh Luca, tác giả Tin Mừng thứ ba và sách Công vụ Tông đồ. Ngài được tôn kính là một thầy thuốc và là bạn đồng hành của Thánh Phaolô, nổi tiếng với những tường thuật chi tiết và nhấn mạnh vào lòng thương xót. Hình ảnh của ngài thường gắn liền với con bò, biểu tượng cho bản chất tư tế của Đức Kitô. Ngày này nêu bật tầm quan trọng của việc loan báo Tin Mừng và việc chăm sóc bác ái cho người nghèo.",
+    "body_en": "St. Luke is traditionally identified as a Gentile convert to Christianity, a physician, and a close associate of the Apostle Paul. His Gospel is celebrated for its literary excellence and theological depth, particularly its focus on the marginalized, women, and prayer. The Acts of the Apostles, also attributed to him, serves as a bridge between the life of Jesus and the early Church's mission.\n\nIn art, Luke is often depicted writing his Gospel while under the inspiration of the Holy Spirit, frequently accompanied by a bull. This symbol draws from Ezekiel's vision of the four living creatures and aligns Luke with the priestly ministry of Christ. As a patron saint of artists and physicians, his feast day reminds the faithful of the intersection of faith, reason, and art in service of the Truth.",
+    "body_vi": "Thánh Luca được truyền thống xác định là một người dân ngoại trở lại đạo Kitô giáo, một thầy thuốc và là cộng sự thân cận của Tông đồ Phaolô. Tin Mừng của ngài được ca ngợi vì sự xuất sắc về văn chương và chiều sâu thần học, đặc biệt là tập trung vào những người bị gạt ra bên lề, phụ nữ và việc cầu nguyện. Sách Công vụ Tông đồ, cũng được cho là do ngài viết, đóng vai trò là cầu nối giữa cuộc đời của Chúa Giêsu và sứ vụ của Giáo Hội sơ khai.\n\nTrong nghệ thuật, Luca thường được mô tả đang viết Tin Mừng dưới sự linh hứng của Chúa Thánh Thần, thường kèm theo hình ảnh con bò. Biểu tượng này lấy từ thị kiến của Ezekiel về bốn con vật sống và liên kết Luca với chức vụ tư tế của Đức Kitô. Là thánh bổn mạng của các nghệ sĩ và thầy thuốc, ngày lễ của ngài nhắc nhở các tín hữu về sự giao thoa giữa đức tin, lý trí và nghệ thuật trong việc phục vụ Chân Lý.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "A physician of souls and an evangelist of mercy.",
+    "hero_line_vi": "Thầy thuốc của linh hồn và người loan báo lòng thương xót.",
+    "prayer_prompt_en": "Lord, grant me the wisdom of St. Luke to tell your story with truth and compassion.",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho con sự khôn ngoan của Thánh Luca để kể lại câu chuyện của Chúa với sự thật và lòng trắc ẩn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Readings for October 18",
+      "url": "https://bible.usccb.org/bible/readings/101827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Online Saints - St. Luke",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=1998",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-05",
+    "hebrew": "17 Tisrei 5788",
+    "islamic_umm_al_qura": "18 Jumada al-Awwal 1449 AH",
+    "coptic": "7 Paopi 1744",
+    "ethiopian": "7 Tikemet 2020"
+  }
+}

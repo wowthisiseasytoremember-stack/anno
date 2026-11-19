@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật 26 Mùa Thường Niên",
+    "summary_vi": "Trọng tâm phụng vụ ngày 10 tháng 10 năm 2027 là Chúa Nhật 26 Mùa Thường Niên. Các bài đọc nhấn mạnh chủ đề về sự quản lý và trách nhiệm với Thiên Chúa. Bài Tin Mừng thường trình bày một dụ ngôn về cách các tín hữu xử lý những gì được trao phó cho họ.",
+    "body_vi": "Trong Chúa Nhật này, Giáo hội mời gọi các tín hữu suy niệm về các dụ ngôn về sự quản lý trong Tin Mừng Luca. Lời dạy chính tập trung vào việc sử dụng tài sản thế gian để kết bạn vĩnh cửu, thúc giục các tín hữu phải trung tín trong điều nhỏ mọn để được giao phó điều lớn lao. Bài học này nhấn mạnh rằng sự giàu có không phải là mục đích tự thân mà là công cụ cho sự phát triển tâm linh và hành động bác ái.\n\nBài đọc một từ ngôn sứ Amos đóng vai trò đối trọng với sự tự mãn, cảnh báo chống lại những người an nhàn tại Zion trong khi phớt lờ người nghèo. Cùng với Thánh Vịnh ca ngợi Thiên Chúa là Đấng tạo hóa và quan phòng, và Bài đọc hai kêu gọi cầu nguyện và xưng thú, phụng vụ tạo thành một lời kêu gọi nhất quán hướng đến sự khiêm nhường. Phẩm phục màu Xanh lục biểu thị thời gian tăng trưởng và trưởng thành trong đức tin, nơi những hạt giống đã gieo trong những mùa trước phải sinh hoa trái qua đời sống Kitô giáo có kỷ luật.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sự trung tín trong điều nhỏ mọn mạc khải kho tàng thật sự của tâm hồn.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khôn ngoan để sử dụng những gì con có cho Nước Trời của Ngài."
+  }
+}

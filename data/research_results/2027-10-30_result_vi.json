@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 28 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 28 Mùa Thường Niên",
+    "summary_vi": "Ngày này thuộc tuần thứ 28 Mùa Thường Niên, với màu phụng vụ là màu xanh. Đây là ngày thường, không có lễ kính hay lễ nhớ nào ưu tiên hơn giờ kinh nhật tụng trong ngày. Các bài đọc và lời cầu nguyện tập trung vào sự phát triển vững chắc của đức tin trong đời sống hằng ngày.",
+    "body_vi": "Là một ngày thứ Bảy trong Mùa Thường Niên, Giáo Hội không cử hành lễ kính hay lễ nhớ nào của một vị thánh cụ thể vào ngày này. Trọng tâm phụng vụ vẫn là những mầu nhiệm về cuộc đời của Đức Kitô được mặc khải trong chu kỳ các bài đọc Mùa Thường Niên. Áo lễ màu xanh tượng trưng cho niềm hy vọng và hành trình liên tục của các tín hữu.\n\nVì không có lễ kính hay lễ nhớ nào lớn được ghi trong Lịch Rôma Chung vào ngày 30 tháng 10, ngày này giữ nguyên đặc tính của một ngày thường. Các bài thánh vịnh và lời cầu nguyện phản ánh chủ đề của tuần 28 trước đó, khuyến khích sự kiên trì trong nhân đức. Mọi nghi lễ địa phương sẽ phụ thuộc vào lịch phụng vụ của từng giáo phận, nhưng quy định chung vẫn là tuân giữ ngày trong tuần.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong niềm hy vọng vững chắc của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự kiên trì trong bổn phận hàng ngày và đức tin."
+  }
+}
