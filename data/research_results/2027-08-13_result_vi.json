@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 17 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 17 Mùa Thường Niên",
+    "summary_vi": "Màu phụng vụ là xanh lá cây, biểu thị thời gian thường niên của sự tăng trưởng trong đời sống Hội Thánh. Các bài đọc tập trung vào phản ứng của Kitô hữu đối với Lời Chúa, nhấn mạnh sự kiên nhẫn và đức tin vào các lời hứa của Thiên Chúa. Ngày này là lời nhắc nhở về hành trình trung tín bền bỉ của người tín hữu.",
+    "body_vi": "Trong lịch phụng vụ, một ngày Thứ Sáu trong Mùa Thường Niên không có ngày kính nhớ thánh nào được cử hành với màu xanh lá cây. Giai đoạn này dành để suy ngẫm về các giáo huấn của Chúa Kitô và áp dụng chúng vào đời sống hàng ngày. Sự vắng mặt của một lễ trọng lớn cho phép suy niệm sâu sắc hơn về các nhân đức bình thường của đức tin, đức cậy và đức mến.\n\nCác bài đọc cho ngày này thường được lấy từ sách Bài đọc cho các ngày trong tuần trong Mùa Thường Niên. Chúng mời gọi các tín hữu lắng nghe Lời Chúa với sự khiêm nhường và đáp lại bằng những hành động yêu thương. Màu xanh tượng trưng cho sự tăng trưởng vững chắc của Hội Thánh và hành trình của các tín hữu hướng tới sự thánh thiện.",
+    "confidence_note_vi": "Ngày này là một ngày trong tuần thuộc Mùa Thường Niên và không có lễ trọng hoặc ngày kính nhớ bắt buộc nào phổ quát, do đó trạng thái phụng vụ là xác định."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Vững vàng trong những điều thường nhật",
+    "prayer_prompt_vi": "Xin ban cho con ơn nhìn thấy sự hiện diện của Chúa trong các thói quen hàng ngày và tăng trưởng trong sự thánh thiện qua những hành động trung tín nhỏ bé."
+  }
+}

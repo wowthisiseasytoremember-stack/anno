@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 19 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 19 Mùa Thường Niên",
+    "summary_vi": "Ngày này được cử hành như một ngày trong tuần của Mùa Thường Niên, thuộc tuần 19 của năm phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng đức tin vững chắc trong đời sống hằng ngày của Hội Thánh. Không có ngày lễ hay lễ nhớ nào có bậc cao hơn được quy định cho ngày cụ thể này trong Lịch Rôma Chung, đây là thời gian để suy niệm tĩnh lặng về đời sống thường nhật.",
+    "body_vi": "Là một ngày thường trong tuần, trọng tâm vẫn là tiến trình vững chắc của các tín hữu xuyên suốt năm phụng vụ. Các bài đọc và lời cầu nguyện trong tuần khuyến khích việc tìm hiểu sâu sắc hơn mầu nhiệm Đức Kitô trong bối cảnh các bổn phận hằng ngày và lối sống đạo đức.\n\nNgày này mời gọi các tín hữu tích hợp đức tin vào những khía cạnh trần tục của cuộc sống, nhận ra rằng sự thánh thiện không chỉ giới hạn trong các ngày lễ trọng mà được vun đắp trong những khoảnh khắc bình thường của ngày Thứ Năm. Các áo lễ màu xanh lá cây phục vụ như một lời nhắc nhở trực quan về đời sống thiêng liêng phát triển lặng lẽ và bền bỉ.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm thấy Đức Kitô trong điều thường nhật",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con thấy sự hiện diện của Chúa trong các công việc hàng ngày của con."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-29",
+  "date": "2027-08-29",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "The Passion of St. John the Baptist",
+    "title_vi": "Lễ Thánh Gioan Tẩy Giả Bị Trảm Quyết"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "19th Sunday in Ordinary Time (Year C)",
+    "title_vi": "Chúa Nhật 19 Thường Niên Năm C",
+    "summary_en": "This Sunday falls during Ordinary Time and emphasizes the virtue of vigilance. The Gospel passage instructs believers to be prepared for the Lord's return. While the Passion of St. John the Baptist is also commemorated, the Sunday liturgy takes precedence.",
+    "summary_vi": "Chúa Nhật này thuộc Mùa Thường Niên và nhấn mạnh nhân đức tỉnh thức. Bài Tin Mừng dạy các tín hữu phải sẵn sàng đón chờ Chúa trở lại. Mặc dù Lễ Thánh Gioan Tẩy Giả Bị Trảm Quyết cũng được kỷ niệm, phụng vụ của ngày Chúa Nhật vẫn ưu tiên hơn.",
+    "body_en": "The focus of this Sunday is on spiritual readiness and fidelity. In the First Reading from the Book of Wisdom, God's deliverance of the Israelites is described as a model of faithful expectation. The Psalm reinforces the theme of waiting for the Lord in hope.\n\nThe Gospel pericope from Luke 12 highlights the parable of the servants waiting for their master. Jesus urges his disciples to be like servants who are ready at all times, with their loins girded and lamps burning. This teaching aligns with the broader liturgical call to vigilance that characterizes Ordinary Time.",
+    "body_vi": "Trọng tâm của Chúa Nhật này là sự sẵn sàng về mặt thiêng liêng và lòng trung tín. Trong Bài Đọc I trích từ Sách Khôn Ngoan, việc Thiên Chúa giải phóng dân Israel được mô tả như một hình mẫu của niềm mong đợi trung thành. Bài Thánh Vịnh củng chủ đề chờ đợi Chúa trong niềm hy vọng.\n\nĐoạn Tin Mừng từ Luca 12 làm nổi bật dụ ngôn về những đầy tớ chờ đợi chủ về. Chúa Giêsu thúc giục các môn đệ hãy giống như những đầy tớ luôn sẵn sàng, với lưng thắt gọn và đèn thắp sáng. Giáo huấn này phù hợp với lời kêu gọi tỉnh thức rộng lớn hơn đặc trưng của Mùa Thường Niên.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Verified against the USCCB Liturgical Calendar for the 19th Sunday in Ordinary Time, Year C.",
+    "confidence_note_vi": "Đã xác minh theo Lịch Phụng vụ USCCB cho Chúa Nhật 19 Thường Niên, Năm C."
+  },
+  "app_hooks": {
+    "hero_line_en": "Be ready, for the Son of Man comes at an hour you do not expect.",
+    "hero_line_vi": "Hãy sẵn sàng, vì Con Người sẽ đến vào giờ anh em không ngờ tới.",
+    "prayer_prompt_en": "Ask for the grace to live each day with the vigilance of a servant waiting for their master.",
+    "prayer_prompt_vi": "Hãy cầu xin ơn sủng để sống mỗi ngày với sự tỉnh thức của một đầy tớ đang chờ đợi chủ mình."
+  },
+  "sources": [
+    {
+      "label": "USCCB Readings for 2027-08-29",
+      "url": "https://bible.usccb.org/bible/readings/082927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints Index",
+      "url": "https://catholic.org/saints/saint.php?saint_id=17",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-16",
+    "hebrew": "26 Av 5787",
+    "islamic_umm_al_qura": "27 Rabi' al-Awwal 1449 AH",
+    "coptic": "23 Mesori 1743",
+    "ethiopian": "23 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

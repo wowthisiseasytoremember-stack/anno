@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-08-09",
+  "date": "2027-08-09",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 17",
+    "title_vi": "Thứ Hai tuần 17 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Seventeenth Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần 17 Mùa Thường Niên",
+    "summary_en": "This day is a standard feria within the seventeenth week of Ordinary Time, marked by the liturgical color green. No mandatory memorial or feast displaces the weekday observance in the General Roman Calendar for this specific date. The focus is on the progressive growth of the faithful through the daily Liturgy of the Word and the Eucharistic sacrifice.",
+    "summary_vi": "Ngày này là một ngày lễ thường (feria) trong tuần thứ mười bảy Mùa Thường Niên, được đánh dấu bằng màu phụng vụ xanh lá. Không có lễ kính hay lễ nhớ nào bắt buộc thay thế việc giữ ngày trong tuần theo Lịch Phụng vụ Rôma chung vào ngày cụ thể này. Trọng tâm là sự tăng trưởng liên tục của cộng đoàn tín hữu qua Phụng vụ Lời Chúa hằng ngày và hy tế Thánh Thể.",
+    "body_en": "The liturgical rank for August 9, 2027, is a simple feria, indicating a day of routine observance within the temporal cycle of the Church year. Unlike solemnities or feasts, there is no proper text unique to a specific event, but rather the continuation of the weekday readings and prayers prescribed for Week 17 in Ordinary Time. The color green symbolizes hope and the steady growth of the Christian life, reminding the faithful of their ongoing journey toward salvation.\n\nIn the context of the universal calendar, no significant saint's memorial is universally mandated to override the weekday office. While certain local calendars or religious orders may celebrate specific patrons, the Roman calendar treats this as a standard day. The primary spiritual exercise is attentiveness to the scriptural passages and the Eucharistic prayer, which sustain the community during this period of Ordinary Time.",
+    "body_vi": "Bậc phụng vụ cho ngày 9 tháng 8 năm 2027 là một ngày lễ thường đơn giản, chỉ ra một ngày tuân giữ thông lệ trong chu kỳ thời gian của năm phụng vụ. Khác với các lễ trọng hay lễ kính, không có bản văn riêng biệt cho một sự kiện cụ thể, mà thay vào đó là sự tiếp nối các bài đọc và lời nguyện dành cho ngày trong tuần của tuần 17 Mùa Thường Niên. Màu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của đời sống Kitô hữu, nhắc nhở các tín hữu về hành trình liên lỉ của họ hướng tới ơn cứu độ.\n\nTrong bối cảnh của lịch phụng vụ phổ quát, không có lễ nhớ thánh nào bắt buộc phải thay thế giờ kinh nhật khóa ngày trong tuần. Mặc dù một số lịch địa phương hoặc dòng tu có thể cử hành các vị bổn mạng cụ thể, lịch Rôma vẫn coi đây là một ngày tiêu chuẩn. Bài tập thiêng liêng chính yếu là sự chú tâm vào các đoạn Thánh Kinh và lời nguyện Thánh Thể, những yếu tố duy trì cộng đoàn trong suốt thời gian Mùa Thường Niên này.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking steadily in the green fields of Ordinary Time.",
+    "hero_line_vi": "Bước đi vững chãi trong cánh đồng xanh của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, grant me steadfastness in the ordinary moments of this week.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên vững trong những khoảnh khắc bình thường của tuần này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/080927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Calendar",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-27",
+    "hebrew": "6 Av 5787",
+    "islamic_umm_al_qura": "7 Rabi' al-Awwal 1449 AH",
+    "coptic": "3 Mesori 1743",
+    "ethiopian": "3 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

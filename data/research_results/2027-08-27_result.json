@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-27",
+  "date": "2027-08-27",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Monica",
+    "title_vi": "Thánh Mônica"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Monica",
+    "title_vi": "Thánh Mônica",
+    "summary_en": "The Church commemorates St. Monica, the mother of St. Augustine of Hippo, celebrated for her persistent prayers and faithfulness in her husband's and son's conversion. Her life, vividly recorded in Augustine's Confessions, serves as a powerful testament to the efficacy of maternal intercession and enduring hope.",
+    "summary_vi": "Giáo Hội kính nhớ Thánh Mônica, mẹ của Thánh Augustinô thành Hippo, người được tôn vinh vì lời cầu nguyện kiên trì và lòng trung tín trong việc hoán cải của chồng và con bà. Cuộc đời bà, được ghi chép sống động trong tác phẩm Tự Thuật của Augustinô, là một chứng tá mạnh mẽ cho sức mạnh của lời cầu bầu từ mẫu và niềm hy vọng bền bỉ.",
+    "body_en": "St. Monica lived in the fourth century as the wife of Patricius, a pagan Roman official, and raised their son Augustine in Tagaste, North Africa. Despite her husband's temper and her son's adherence to Manichaeism, Monica remained steadfast in her Christian faith, praying ceaselessly for their conversion for nearly two decades. Her perseverance is often cited as a model for parents struggling with the spiritual wanderings of their children.\n\nHer most profound legacy is found in her influence on Augustine, who later became a Doctor of the Church. After years of weeping and prayer, Monica witnessed the baptism of Augustine by St. Ambrose in Milan. Her final days were spent in peaceful contemplation, having seen her prayers answered, and she died in Ostia while preparing to return to Africa.",
+    "body_vi": "Thánh Mônica sống vào thế kỷ thứ tư, là vợ của quan chức La Mã ngoại giáo Patricius và nuôi nấng con trai bà là Augustinô tại Tagaste, Bắc Phi. Bất chấp tính nóng nảy của chồng và việc con trai theo thuyết Mani giáo, Mônica vẫn kiên định với đức tin Kitô giáo, cầu nguyện không ngừng cho sự hoán cải của họ trong gần hai thập kỷ. Sự kiên trì của bà thường được trích dẫn như một mẫu mực cho các bậc cha mẹ đang đấu tranh với những lạc hướng thiêng liêng của con cái.\n\nDi sản sâu sắc nhất của bà nằm ở ảnh hưởng đối với Augustinô, người sau này trở thành Tiến sĩ Hội Thánh. Sau nhiều năm khóc lóc và cầu nguyện, Mônica đã chứng kiến lễ rửa tội của Augustinô bởi Thánh Ambrosiô tại Milan. Những ngày cuối đời của bà dành cho sự suy ngắm bình an, sau khi thấy lời cầu nguyện của mình được đáp lại, và bà qua đời tại Ostia khi chuẩn bị trở về châu Phi.",
+    "confidence": "confirmed",
+    "confidence_note_en": "St. Monica's memorial date is fixed in the General Roman Calendar, and her historical existence is well-documented through St. Augustine's writings.",
+    "confidence_note_vi": "Ngày kính nhớ Thánh Mônica được cố định trong Lịch Phụng Vụ Rôma Tổng Quát, và sự tồn tại lịch sử của bà được ghi chép rõ ràng qua các trước tác của Thánh Augustinô."
+  },
+  "app_hooks": {
+    "hero_line_en": "Praying for conversion with steadfast love.",
+    "hero_line_vi": "Cầu nguyện cho sự hoán cải với tình yêu kiên định.",
+    "prayer_prompt_en": "Pray for the conversion of family members who are distant from the faith.",
+    "prayer_prompt_vi": "Hãy cầu nguyện cho sự hoán cải của những thành viên trong gia đình đang xa rời đức tin."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/082727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent: Saint Monica",
+      "url": "https://www.newadvent.org/cathen/10555a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-14",
+    "hebrew": "24 Av 5787",
+    "islamic_umm_al_qura": "25 Rabi' al-Awwal 1449 AH",
+    "coptic": "21 Mesori 1743",
+    "ethiopian": "21 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

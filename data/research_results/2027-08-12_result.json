@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-08-12",
+  "date": "2027-08-12",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 17",
+    "title_vi": "Thứ Năm tuần 17 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of Ordinary Time, Week 17",
+    "title_vi": "Thứ Năm Mùa Thường Niên, Tuần 17",
+    "summary_en": "This day is a weekday in Ordinary Time, characterized by the liturgical color green. It falls within the seventeenth week of the liturgical year. The focus is on the growth of faith in the daily Christian life.",
+    "summary_vi": "Ngày này là một ngày trong Tuần thường niên, đặc trưng bởi màu xanh lá cây phụng vụ. Nó thuộc tuần 17 của năm phụng vụ. Trọng tâm là sự tăng trưởng đức tin trong đời sống Kitô hữu hàng ngày.",
+    "body_en": "The liturgical celebration for this Thursday follows the standard weekday format for Ordinary Time. There are no major saints or feasts commemorated on this date in the General Roman Calendar that would displace the weekday office. The readings and prayers reflect the ongoing journey of the Church in the middle of the year.\n\nIn the context of the seventeenth week, the Church continues to explore the implications of the Paschal Mystery in the lives of believers. The liturgical season of Ordinary Time is not a pause in worship but a time for steady growth. The faithful are invited to deepen their understanding of Scripture and apply its teachings to their daily routines.",
+    "body_vi": "Việc cử hành phụng vụ cho Thứ Năm này tuân theo định dạng ngày trong tuần tiêu chuẩn của Mùa Thường Niên. Không có vị thánh lớn hay lễ kính nào được tưởng nhớ vào ngày này trong Lịch Rôma Tổng quát có thể thay thế giờ kinh nhật khóa ngày thường. Các bài đọc và lời cầu nguyện phản ánh hành trình liên tục của Giáo hội vào giữa năm.\n\nTrong bối cảnh của tuần 17, Giáo hội tiếp tục khám phá những hệ quả của Mầu Nhiệm Vượt Qua trong đời sống của các tín hữu. Mùa phụng vụ thường niên không phải là sự gián đoạn trong việc thờ phượng mà là thời gian cho sự phát triển ổn định. Các tín hữu được mời gọi đào sâu sự hiểu biết về Thánh Kinh và áp dụng những giáo huấn của nó vào thói quen hàng ngày của họ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is a confirmed weekday in Ordinary Time with no conflicting major feast days in the General Roman Calendar.",
+  "confidence_note_vi": "Ngày này là một ngày trong tuần được xác nhận trong Mùa Thường Niên và không có ngày lễ lớn xung đột nào trong Lịch Rôma Tổng quát.",
+  "app_hooks": {
+    "hero_line_en": "Grow in faith through the ordinary days of life.",
+    "hero_line_vi": "Hãy lớn lên trong đức tin qua những ngày sống bình thường.",
+    "prayer_prompt_en": "Lord, help me find Your presence in the ordinary moments of this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/081227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Liturgical Calendar",
+      "url": "https://catholicculture.org/culture/liturgical-calendar/day.cfm?date=2027-08-12",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-30",
+    "hebrew": "9 Av 5787",
+    "islamic_umm_al_qura": "10 Rabi' al-Awwal 1449 AH",
+    "coptic": "6 Mesori 1743",
+    "ethiopian": "6 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

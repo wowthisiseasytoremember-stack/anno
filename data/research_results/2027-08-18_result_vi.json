@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 18 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 18 Mùa Thường Niên",
+    "summary_vi": "Ngày này được cử hành như một ngày Thường trong tuần mười tám Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu thị thời gian tăng trưởng và giáo huấn trong đời sống Giáo Hội. Không có lễ kính hay lễ nhớ các thánh phổ quát vào ngày cụ thể này trong Lịch Phụng vụ Rôma chung. Các tín hữu được mời gọi tập trung vào sự tiến triển hàng tuần của các bài đọc Mùa Thường Niên.",
+    "body_vi": "Thứ Tư tuần mười tám Mùa Thường Niên tuân theo chu kỳ sách bài đọc chuẩn, nhấn mạnh sự tăng trưởng đều đặn của đời sống Kitô hữu. Vào ngày 18 tháng Tám, Giáo hội hoàn vũ không kỷ niệm một vị thánh hay sự kiện cụ thể nào, cho phép sự chú ý vẫn tập trung vào các bài đọc Kinh Thánh được chỉ định cho ngày thường.\n\nĐiều này phản ánh nhịp điệu của Giáo Hội về sự thánh hóa thông thường qua lời cầu nguyện hàng ngày và Kinh Thánh.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng vững chắc của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Cầu xin ơn được tìm thấy sự thánh thiện trong những khoảnh khắc bình thường của tuần lễ."
+  }
+}

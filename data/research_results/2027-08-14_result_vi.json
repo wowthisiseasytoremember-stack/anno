@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Mácximilianô Maria Kolbe, Linh mục, Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Mácximilianô Maria Kolbe, Linh mục, Tử đạo",
+    "summary_vi": "Thánh Mácximilianô Maria Kolbe là một linh mục dòng Phanxicô người Ba Lan, tử đạo tại trại tập trung Auschwitz năm 1941. Ngài nổi tiếng với lòng sùng kính Đức Trinh Nữ Maria Vô Nhiễm và sáng lập Hội Hiệp sĩ Đức Mẹ Vô Nhiễm. Kolbe đã hiến dâng mạng sống mình thay cho một người tù khác là một người cha người Ba Lan, và bị giết trong hầm đói. Ngài được Giáo hoàng Gioan Phaolô II tuyên thánh năm 1982.",
+    "body_vi": "Sinh ra với tên Raymond Kolbe tại Zduńska Wola, Ba Lan, ngài gia nhập dòng Phanxicô và lấy tên Mácximilianô sau một thị kiến về Đức Trinh Nữ Maria. Ngài trở thành một người bảo vệ mạnh mẽ cho Đức Mẹ Vô Nhiễm, thành lập Hội Hiệp sĩ Đức Mẹ Vô Nhiễm năm 1917 và xuất bản tạp chí 'Rycerz Niepokalanej'. Công việc truyền giáo của ngài lan rộng đến Nhật Bản và Ấn Độ, nơi ngài thành lập các đan viện và các ấn phẩm để truyền bá đức tin qua truyền thông.\n\nBị Quốc xã bắt giữ năm 1941, ngài bị đưa đến Auschwitz. Khi một tù nhân bị kết án chết đói vì sự bỏ trốn của một người khác, Kolbe đã tình nguyện chết thay. Trong hai tuần, ngài dẫn dắt lời cầu nguyện và hát thánh ca với các tù nhân khác trong hầm. Ngài cuối cùng bị tiêm thuốc độc sau thời gian chịu đói, trở thành một vị tử đạo của lòng bác ái.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Vị tử đạo của đức ái, xin ban cho con lòng tin.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm để yêu thương người khác sâu sắc như Ngài yêu con."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Laurensô, Phó tế, Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Laurensô, Phó tế, Tử đạo",
+    "summary_vi": "Giáo hội cử hành Lễ Thánh Laurensô, một phó tế và tử đạo phục vụ dưới thời Đức Giáo hoàng Sixtus II. Ngài nổi tiếng vì đã trình bày những người nghèo như kho báu đích thực của Giáo hội và vì đức tin kiên vững trong cuộc bách hại dưới thời Hoàng đế Valerian. Sứ vụ của ngài làm nổi bật lòng dấn thân của Giáo hội đối với đức bác ái và việc phục vụ những người bị gạt ra bên lề.",
+    "body_vi": "Thánh Laurensô là một trong bảy phó tế của Rôma và phục vụ với tư cách là người bảo vệ tài sản vật chất của Giáo hội và người phân phát tiền bố thí. Trong cuộc bách hại Kitô hữu năm 258, ngài bị ra lệnh phải trình bày kho báu của Giáo hội cho Hoàng đế. Thay vào đó, ngài đã tập hợp những người nghèo, người bệnh tật và người mù, tuyên bố rằng họ là sự giàu có đích thực của Giáo hội, vì điều đó mà ngài bị kết án tử hình.\n\nCuộc tử đạo của ngài, theo truyền thống được mô tả là chịu cái chết chậm trên lưới sắt, đã biến ngài thành một biểu tượng mạnh mẽ của sự kiên nhẫn và đức bác ái. Với tư cách là một phó tế, cuộc đời ngài minh họa mối liên hệ thiết yếu giữa việc phục vụ phụng vụ và các công việc bác ái, nhắc nhở các tín hữu rằng phẩm giá của con người là tối thượng. Giáo hội tôn vinh ngài với màu lễ phục đỏ, tượng trưng cho cuộc tử đạo và tình yêu cháy bỏng của ngài dành cho Chúa Kitô.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Phó tế của Đức Ái: Thánh Laurensô và những người nghèo khổ",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con lòng can đảm của Thánh Laurensô để nhìn thấy Chúa Kitô nơi những người nghèo và phục vụ họ trong niềm vui."
+  }
+}

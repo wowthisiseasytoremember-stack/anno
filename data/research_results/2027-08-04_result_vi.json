@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Gioan Maria Vianney, Linh mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Gioan Maria Vianney, Linh mục",
+    "summary_vi": "Vào ngày 4 tháng 8, Giáo hội cử hành lễ nhớ Thánh Gioan Maria Vianney, Bổn mạng của các linh mục giáo xứ. Được biết đến với danh hiệu Cha Sở xứ Ars, ngài nổi tiếng nhờ sự dấn thân sâu xa trong bí tích Hòa giải. Ngày lễ này tôn vinh cuộc đời phục vụ khiêm nhường và sự khôn ngoan thiêng liêng của ngài tại giáo xứ Ars nhỏ bé.",
+    "body_vi": "Thánh Gioan Maria Vianney, sinh năm 1786 tại Dardilly, Pháp, đã đối mặt với nhiều khó khăn trong học tập nhưng lại trở thành một bậc thầy về hướng dẫn thiêng liêng. Ngài phục vụ với tư cách là linh mục quản xứ Ars trong hơn bốn mươi năm, biến đổi một cộng đồng thờ ơ thành một cộng đồng đầy cầu nguyện và sùng kính thông qua sự khổ chế và sự hiện diện liên tục trong tòa giải tội. Chức vụ của ngài đã trở thành hình mẫu cho các linh mục trên toàn thế giới, nhấn mạnh rằng sự thánh thiện được tìm thấy trong sự trung tín hàng ngày với bổn phận.\n\nĐược kính trọng là bổn mạng của các linh mục giáo xứ, di sản của Thánh Gioan Maria Vianney tiếp tục truyền cảm hứng cho hàng giáo sĩ ưu tiên chăm sóc mục vụ cho đoàn chiên. Giáo hội làm nổi bật gương mẫu của ngài để nhắc nhở các linh mục rằng mục vụ hiệu quả bắt nguồn từ sự hiệp nhất cá nhân với Thiên Chúa, sống động trong sự khiêm nhường và kiên nhẫn. Cuộc đời của ngài vẫn là minh chứng cho quyền năng ân sủng hoạt động qua sự yếu đuối của con người.",
+    "confidence_note_vi": "Việc cử hành lễ nhớ Thánh Gioan Maria Vianney là một ngày lễ cố định trong Lịch Phụng vụ Rôma vào ngày 4 tháng 8."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sự thánh thiện qua sự khiêm nhường và phục vụ.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con tinh thần của Cha Sở xứ Ars để phục vụ gia đình và giáo xứ với sự kiên nhẫn và tình yêu thương."
+  }
+}

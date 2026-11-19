@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-30",
+  "date": "2027-08-30",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 20",
+    "title_vi": "Thứ Hai tuần 20 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Twentieth Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần 20 Mùa Thường Niên",
+    "summary_en": "This day is a Feria in Ordinary Time, marked by liturgical green vestments. It focuses on the ongoing growth of faith in the everyday life of the believer. There is no obligatory saint feast displacing this feria in the General Roman Calendar.",
+    "summary_vi": "Hôm nay là ngày Thứ Hai trong Mùa Thường Niên, với màu sắc phụng vụ là màu xanh lá cây. Đây là thời điểm tập trung vào sự tăng trưởng đức tin trong đời sống hằng ngày của người tín hữu. Không có lễ kính thánh bổn mạng nào thay thế ngày này trong Lịch Phụng vụ Rôma tổng quát.",
+    "body_en": "Monday of the Twentieth Week in Ordinary Time offers the faithful a moment to reflect on the teachings of Christ applied to the mundane realities of work and community. The liturgical color green symbolizes hope and the steady growth of the Church in the world. On this day, the readings typically continue a cycle of Scripture, inviting believers to listen and respond to God's word in the silence of daily life.\n\nIn the absence of a major feast or solemnity, the Church invites a quiet contemplation of the mysteries of faith. This ordinary time is not empty time but rather a sacred space for cultivating virtue. The faithful are encouraged to pray the Liturgy of the Hours, particularly Morning and Evening Prayer, to sanctify the hours and maintain a connection to the divine rhythm of the day.",
+    "body_vi": "Thứ Hai tuần 20 Mùa Thường Niên mời gọi các tín hữu suy tư về những lời dạy của Chúa Giêsu được áp dụng vào thực tế đời sống lao động và cộng đoàn. Màu xanh lá cây trong phụng vụ tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Giáo hội trong thế giới. Trong ngày này, các bài đọc thường tiếp tục chu kỳ Thánh Kinh, mời gọi người tín hữu lắng nghe và đáp lại lời Chúa trong sự tĩnh lặng của cuộc sống thường nhật.\n\nKhi không có lễ lớn hay lễ trọng nào, Giáo hội mời gọi sự suy niệm tĩnh lặng về các mầu nhiệm đức tin. Thời gian thường niên này không phải là thời gian trống rỗng, mà là một không gian thánh để rèn luyện nhân đức. Người tín hữu được khuyến khích cầu nguyện Phụng vụ Giờ kinh, đặc biệt là Kinh Sáng và Kinh Chiều, để thánh hóa các giờ giấc và duy trì kết nối với nhịp điệu thần linh của ngày sống.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faith grows in the quiet moments.",
+    "hero_line_vi": "Đức tin lớn lên trong những khoảnh khắc tĩnh lặng.",
+    "prayer_prompt_en": "Lord, help me find You in my daily duties.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong bổn phận hằng ngày của con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/083027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/11320a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-17",
+    "hebrew": "27 Av 5787",
+    "islamic_umm_al_qura": "28 Rabi' al-Awwal 1449 AH",
+    "coptic": "24 Mesori 1743",
+    "ethiopian": "24 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

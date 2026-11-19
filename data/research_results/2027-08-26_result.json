@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-26",
+  "date": "2027-08-26",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 19",
+    "title_vi": "Thứ Năm tuần 19 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of Ordinary Time, Week 19",
+    "title_vi": "Thứ Năm tuần 19 Mùa Thường Niên",
+    "summary_en": "This day is observed as a Feria of Ordinary Time, falling within the 19th week of the liturgical year. The liturgical color is green, symbolizing hope and the steady growth of faith in the daily life of the Church. There are no higher-ranking feast days or memorials assigned to this specific date in the General Roman Calendar, making it a time for quiet reflection on ordinary life.",
+    "summary_vi": "Ngày này được cử hành như một ngày trong tuần của Mùa Thường Niên, thuộc tuần 19 của năm phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng đức tin vững chắc trong đời sống hằng ngày của Hội Thánh. Không có ngày lễ hay lễ nhớ nào có bậc cao hơn được quy định cho ngày cụ thể này trong Lịch Rôma Chung, đây là thời gian để suy niệm tĩnh lặng về đời sống thường nhật.",
+    "body_en": "As a weekday Feria, the focus remains on the steady progression of the faithful through the liturgical year. The readings and prayers for the week encourage a deepening understanding of the mystery of Christ in the context of daily duties and moral living.\n\nThis day invites believers to integrate their faith into the mundane aspects of life, recognizing that holiness is not confined to solemnities but is cultivated in the ordinary moments of Thursday. The green vestments serve as a visual reminder of the spiritual life that grows quietly and persistently.",
+    "body_vi": "Là một ngày thường trong tuần, trọng tâm vẫn là tiến trình vững chắc của các tín hữu xuyên suốt năm phụng vụ. Các bài đọc và lời cầu nguyện trong tuần khuyến khích việc tìm hiểu sâu sắc hơn mầu nhiệm Đức Kitô trong bối cảnh các bổn phận hằng ngày và lối sống đạo đức.\n\nNgày này mời gọi các tín hữu tích hợp đức tin vào những khía cạnh trần tục của cuộc sống, nhận ra rằng sự thánh thiện không chỉ giới hạn trong các ngày lễ trọng mà được vun đắp trong những khoảnh khắc bình thường của ngày Thứ Năm. Các áo lễ màu xanh lá cây phục vụ như một lời nhắc nhở trực quan về đời sống thiêng liêng phát triển lặng lẽ và bền bỉ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Find Christ in the Ordinary",
+    "hero_line_vi": "Tìm thấy Đức Kitô trong điều thường nhật",
+    "prayer_prompt_en": "Lord, help me see your presence in my daily tasks.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con thấy sự hiện diện của Chúa trong các công việc hàng ngày của con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/082627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/13001a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-13",
+    "hebrew": "23 Av 5787",
+    "islamic_umm_al_qura": "24 Rabi' al-Awwal 1449 AH",
+    "coptic": "20 Mesori 1743",
+    "ethiopian": "20 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

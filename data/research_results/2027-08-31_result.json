@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-31",
+  "date": "2027-08-31",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 20",
+    "title_vi": "Thứ Ba tuần 20 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time, Week 20",
+    "title_vi": "Thứ Ba tuần 20 Mùa Thường Niên",
+    "summary_en": "This day is a regular weekday (feria) in Ordinary Time, specifically within the 20th week of the liturgical year. No major feast or obligatory memorial takes precedence, so the liturgy focuses on the daily cycle of readings and the sanctification of ordinary time. The color for the vestments is green, symbolizing hope and growth in faith.",
+    "summary_vi": "Ngày này là một ngày thường tuần (feria) trong Mùa Thường Niên, cụ thể là tuần thứ 20 của năm phụng vụ. Không có lễ trọng hay lễ nhớ bắt buộc nào ưu tiên, nên phụng vụ tập trung vào chu kỳ đọc Lời Chúa hằng ngày và việc thánh hóa thời gian thường nhật. Màu sắc áo lễ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin.",
+    "body_en": "As a feria of Week 20 in Ordinary Time, the liturgy invites the faithful to engage with the Scripture readings assigned for this specific Tuesday. These readings often draw from the Gospels and Epistles, providing ongoing catechesis and spiritual reflection outside of the major liturgical seasons.\n\nThe liturgical rank of 'feria' indicates a time of simplicity and continuity in the Church's prayer life. While saints may be commemorated optionally depending on local calendars, the universal rhythm of the week remains centered on the Paschal mystery celebrated in the Eucharist and the Liturgy of the Hours.",
+    "body_vi": "Là một ngày thường của tuần 20 Mùa Thường Niên, phụng vụ mời gọi cộng đoàn dân Chúa suy gẫm các bài đọc Sách Thánh được chỉ định cho thứ Ba này. Các bài đọc thường trích từ Tin Mừng và các Thư Tông đồ, cung cấp sự giáo lý và suy tư thiêng liêng liên tục bên ngoài các mùa phụng vụ lớn.\n\nBậc phụng vụ 'ngày thường' chỉ ra một thời gian đơn sơ và liên tục trong đời sống cầu nguyện của Giáo Hội. Mặc dù có thể nhớ đến các thánh tùy theo lịch địa phương, nhịp điệu phổ quát của tuần vẫn tập trung vào mầu nhiệm Vượt Qua được cử hành trong Bí tích Thánh Thể và Phụng vụ Các Giờ Kinh.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Finding holiness in the ordinary rhythm of Week 20.",
+    "hero_line_vi": "Tìm thấy sự thánh thiện trong nhịp điệu thường nhật của tuần 20.",
+    "prayer_prompt_en": "Pray that our daily lives may reflect the peace of Christ.",
+    "prayer_prompt_vi": "Cầu nguyện để đời sống hằng ngày của chúng ta phản ánh bình an của Chúa Kitô."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for August 31, 2027",
+      "url": "https://bible.usccb.org/bible/readings/083127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Roman Martyrology / Calendar Verification",
+      "url": "https://www.catholic.org/saints/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-18",
+    "hebrew": "28 Av 5787",
+    "islamic_umm_al_qura": "29 Rabi' al-Awwal 1449 AH",
+    "coptic": "25 Mesori 1743",
+    "ethiopian": "25 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

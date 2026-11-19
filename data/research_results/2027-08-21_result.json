@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-08-21",
+  "date": "2027-08-21",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Pius X, Pope",
+    "title_vi": "Thánh Piô X, Giáo hoàng"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Pius X, Pope",
+    "title_vi": "Thánh Piô X, Giáo hoàng",
+    "summary_en": "St. Pius X, born Giuseppe Sarto, served as Pope from 1903 until his death in 1914. He is remembered for his vigorous promotion of frequent communion and his deep love for the sacred liturgy. His pontificate emphasized the restoration of Thomistic philosophy and the protection of Catholic doctrine against modernist errors.",
+    "summary_vi": "Thánh Piô X, sinh ra là Giuseppe Sarto, đã phục vụ với tư cách là Giáo hoàng từ năm 1903 cho đến khi qua đời vào năm 1914. Ngài được nhớ đến vì đã nhiệt thành cổ võ việc rước lễ thường xuyên và lòng yêu mến sâu sắc đối với phụng vụ thánh. Triều đại giáo hoàng của ngài nhấn mạnh đến việc phục hồi triết học Tôma và bảo vệ giáo lý Công giáo trước những sai lầm của chủ nghĩa duy tân.",
+    "body_en": "Pope St. Pius X is celebrated for his profound humility and his efforts to renew the spiritual life of the Church. He encouraged the faithful to receive the Eucharist frequently, seeing it as the center of Christian life. His reforms in liturgical music and seminarian education left a lasting mark on the Church's tradition.\n\nHis defense of doctrine against the movement of Modernism was rigorous and steadfast. He issued the encyclical Pascendi Dominici Gregis to clarify and condemn errors that sought to reinterpret faith through historical and psychological methods. He is regarded as a saint of the liturgy and the catechism.",
+    "body_vi": "Giáo hoàng Thánh Piô X được tôn kính vì sự khiêm nhường sâu xa và những nỗ lực đổi mới đời sống thiêng liêng của Giáo hội. Ngài đã khuyến khích các tín hữu rước Mình Thánh Chúa thường xuyên, coi đó là trung tâm của đời sống Kitô hữu. Những cải cách của ngài về âm nhạc phụng vụ và giáo dục chủng sinh đã để lại dấu ấn lâu dài trong truyền thống Giáo hội.\n\nViệc bảo vệ giáo lý chống lại phong trào Chủ nghĩa duy tân của ngài rất nghiêm khắc và kiên định. Ngài đã ban hành thông điệp Pascendi Dominici Gregis để làm sáng tỏ và lên án những sai lầm tìm cách diễn giải lại đức tin qua các phương pháp lịch sử và tâm lý. Ngài được xem là vị thánh của phụng vụ và giáo lý.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The feast is a fixed memorial in the General Roman Calendar, commemorating the Pope who died in 1914 and canonized in 1954. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Lễ nhớ là một lễ nhớ cố định trong Lịch Rôma chung, tưởng nhớ vị Giáo hoàng qua đời năm 1914 và được phong thánh năm 1954. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Humility and Eucharistic Devotion",
+    "hero_line_vi": "Khiêm nhường và Sùng kính Thánh Thể",
+    "prayer_prompt_en": "Lord, grant us the humility of St. Pius X to approach Your Eucharist with reverence.",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho chúng con sự khiêm nhường của Thánh Piô X để đến với Bí tích Thánh Thể của Chúa với lòng tôn kính."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/082127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-08",
+    "hebrew": "18 Av 5787",
+    "islamic_umm_al_qura": "19 Rabi' al-Awwal 1449 AH",
+    "coptic": "15 Mesori 1743",
+    "ethiopian": "15 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

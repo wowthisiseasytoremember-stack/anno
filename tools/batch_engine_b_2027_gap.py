@@ -198,8 +198,9 @@ def coerce_content(en: dict) -> dict:
         summary_key = f"summary_{lang}"
         summary = str(pri.get(summary_key, "")).strip()
         sentences = [s for s in re.split(r"(?<=[.!?])\s+", summary) if s]
-        if len(sentences) > 4:
-            pri[summary_key] = " ".join(sentences[:4])
+        while len(re.split(r"[.!?]+", " ".join(sentences).strip())) - 1 > 4 and len(sentences) > 1:
+            sentences = sentences[:-1]
+        pri[summary_key] = " ".join(sentences)
     return en
 
 
@@ -318,7 +319,7 @@ def repair_vi(en: dict, d_str: str) -> dict:
     raw = yolo([{"role": "system", "content": "You are a Vietnamese Catholic liturgical translator. Output only JSON."},
                 {"role": "user", "content": prompt}], maxtok=900)
     try:
-        fix = json.loads(extract_json(raw))
+        fix = json.loads(extract_json(raw), strict=False)
     except Exception:
         return en
     for sec, keys in VI_KEYS.items():
@@ -481,7 +482,7 @@ def main() -> None:
             for _shape_attempt in range(4):
                 raw = yolo([{"role": "user", "content": full_prompt}], maxtok=2400)
                 try:
-                    parsed = json.loads(extract_json(raw))
+                    parsed = json.loads(extract_json(raw), strict=False)
                 except Exception:  # noqa: BLE001
                     parsed = None
                 if valid_shape(parsed):
@@ -509,7 +510,7 @@ def main() -> None:
                 )
                 try:
                     candidate = json.loads(
-                        extract_json(yolo([{"role": "user", "content": correction}], maxtok=2400))
+                        extract_json(yolo([{"role": "user", "content": correction}], maxtok=2400)), strict=False
                     )
                 except Exception:  # noqa: BLE001
                     candidate = None
@@ -536,7 +537,7 @@ def main() -> None:
                     "domains. Prefer vatican.va, usccb.org, newadvent.org, catholicculture.org. "
                     "Do not reuse URLs that were just rejected.")
                 en = json.loads(extract_json(yolo([{"role": "user", "content": fix_prompt}],
-                                                  maxtok=2000)))
+                                                  maxtok=2000)), strict=False)
             if len(en.get("sources", [])) < 2:
                 # Deterministic, live-checked fallback citations (no homepages).
                 for fb in (f"https://bible.usccb.org/bible/readings/{cur:%m%d%y}.cfm",
@@ -575,6 +576,7 @@ def main() -> None:
                 }
             # Engine A is the single source of truth for all five calendar strings.
             en["calendars"] = cs
+            en = coerce_content(en)
             with open(en_path, "w", encoding="utf-8") as f:
                 json.dump(en, f, ensure_ascii=False, indent=2)
 
@@ -598,6 +600,7 @@ def main() -> None:
             # Repair missing Vietnamese fields with one cheap targeted call.
             if missing_vi(en):
                 en = repair_vi(en, d_str)
+                en = coerce_content(en)
                 with open(en_path, "w", encoding="utf-8") as f:
                     json.dump(en, f, ensure_ascii=False, indent=2)
                 vi = {
@@ -636,6 +639,7 @@ def main() -> None:
                         en["sources"].append(s)
             if len(en.get("sources", [])) < 2:
                 raise RuntimeError(f"{d_str}: fewer than 2 sources at write time")
+            en = coerce_content(en)
             with open(en_path, "w", encoding="utf-8") as f:
                 json.dump(en, f, ensure_ascii=False, indent=2)
 

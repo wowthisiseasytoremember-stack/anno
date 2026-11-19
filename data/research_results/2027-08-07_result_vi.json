@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 16 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 16 Mùa Thường Niên",
+    "summary_vi": "Ngày 7 tháng 8 năm 2027 rơi vào Thứ Bảy trong Mùa Thường Niên. Bậc phụng vụ là Ngày thường, bậc thấp nhất trong thang phụng vụ. Không có lễ nhớ buộc nào được cử hành vào ngày này trong Lịch Phụng vụ Rôma. Màu phụng vụ là màu xanh lục, tượng trưng cho hy vọng và sự tăng trưởng.",
+    "body_vi": "Mùa Thường Niên là thời gian dài nhất trong năm phụng vụ, được dành riêng cho sự tăng trưởng của đời sống Kitô hữu. Ngày thường là thời gian để cầu nguyện đơn sơ, không trang trí và suy gẫm về các mầu nhiệm đức tin. Màu xanh lục chỉ ra niềm hy vọng nâng đỡ các tín hữu qua những khoảnh khắc bình thường của cuộc sống.\n\nCác tín hữu được khuyến khích tiếp cận các bài đọc hằng ngày và suy gẫm về việc các giáo huấn của Chúa Giêsu áp dụng vào các thói quen hàng ngày của họ như thế nào. Mùa phụng vụ nhấn mạnh nhịp điệu đều đặn, kiên trì của môn đệ Kitô giáo. Trọng tâm vẫn là các giáo huấn và phép lạ của Chúa Giêsu được ghi trong các Phúc Âm được chỉ định cho tuần.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hy vọng trong những điều bình thường",
+    "prayer_prompt_vi": "Suy gẫm về việc các giáo huấn của Chúa Kitô áp dụng vào thói quen hàng ngày của bạn như thế nào."
+  }
+}

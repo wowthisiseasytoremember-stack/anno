@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Thánh Gioan Tẩy Giả Bị Trảm Quyết"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật 19 Thường Niên Năm C",
+    "summary_vi": "Chúa Nhật này thuộc Mùa Thường Niên và nhấn mạnh nhân đức tỉnh thức. Bài Tin Mừng dạy các tín hữu phải sẵn sàng đón chờ Chúa trở lại. Mặc dù Lễ Thánh Gioan Tẩy Giả Bị Trảm Quyết cũng được kỷ niệm, phụng vụ của ngày Chúa Nhật vẫn ưu tiên hơn.",
+    "body_vi": "Trọng tâm của Chúa Nhật này là sự sẵn sàng về mặt thiêng liêng và lòng trung tín. Trong Bài Đọc I trích từ Sách Khôn Ngoan, việc Thiên Chúa giải phóng dân Israel được mô tả như một hình mẫu của niềm mong đợi trung thành. Bài Thánh Vịnh củng chủ đề chờ đợi Chúa trong niềm hy vọng.\n\nĐoạn Tin Mừng từ Luca 12 làm nổi bật dụ ngôn về những đầy tớ chờ đợi chủ về. Chúa Giêsu thúc giục các môn đệ hãy giống như những đầy tớ luôn sẵn sàng, với lưng thắt gọn và đèn thắp sáng. Giáo huấn này phù hợp với lời kêu gọi tỉnh thức rộng lớn hơn đặc trưng của Mùa Thường Niên.",
+    "confidence_note_vi": "Đã xác minh theo Lịch Phụng vụ USCCB cho Chúa Nhật 19 Thường Niên, Năm C."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy sẵn sàng, vì Con Người sẽ đến vào giờ anh em không ngờ tới.",
+    "prayer_prompt_vi": "Hãy cầu xin ơn sủng để sống mỗi ngày với sự tỉnh thức của một đầy tớ đang chờ đợi chủ mình."
+  }
+}

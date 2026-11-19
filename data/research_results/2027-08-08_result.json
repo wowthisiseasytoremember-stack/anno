@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-08",
+  "date": "2027-08-08",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Dominic, Priest",
+    "title_vi": "Thánh Đaminh, Linh mục"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Dominic, Priest",
+    "title_vi": "Thánh Đaminh, Linh mục",
+    "summary_en": "The Church commemorates St. Dominic, the founder of the Order of Preachers. He is celebrated for his dedication to preaching, teaching, and combating heresy through truth and charity. His feast day is observed on August 8, coinciding with the Ninth Sunday in Ordinary Time in 2027.",
+    "summary_vi": "Giáo hội kỷ niệm Thánh Đaminh, vị sáng lập Dòng Giảng Thuyết. Ngài được tôn vinh vì lòng nhiệt thành trong việc giảng dạy, giảng thuyết và chống lại lạc giáo bằng chân lý và đức ái. Lễ kính ngài được cử hành vào ngày 8 tháng 8, trùng với Chúa nhật IX Mùa Thường Niên năm 2027.",
+    "body_en": "St. Dominic de Guzmán (1170–1221) was a Spanish priest who founded the Order of Preachers (Dominicans) in Toulouse. He emphasized the importance of study and poverty, believing that effective preaching required a deep understanding of sacred doctrine. His approach combined intellectual rigor with a compassionate spirit, influencing Catholic theology and preaching for centuries.\n\nOn this Sunday, the liturgical texts focus on the Gospel reading for the Ninth Sunday in Ordinary Time, while the prayers reference St. Dominic. The faithful are invited to imitate Dominic's commitment to truth and his love for the Church. His legacy continues through the Dominican Order's mission of teaching and preaching grace.",
+    "body_vi": "Thánh Đaminh de Guzmán (1170–1221) là một linh mục người Tây Ban Nha, người đã sáng lập Dòng Anh Em Giảng Thuyết (Dòng Đaminh) tại Toulouse. Ngài nhấn mạnh tầm quan trọng của việc học hỏi và sự khó nghèo, tin rằng việc giảng thuyết hiệu quả đòi hỏi sự hiểu biết sâu sắc về giáo lý thánh thiêng. Cách tiếp cận của ngài kết hợp sự nghiêm túc về trí tuệ với tinh thần từ bi, ảnh hưởng đến thần học và việc giảng thuyết Công giáo qua nhiều thế kỷ.\n\nVào Chúa nhật này, các văn bản phụng vụ tập trung vào bài Tin Mừng cho Chúa nhật IX Mùa Thường Niên, trong khi các lời nguyện nhắc đến Thánh Đaminh. Tín hữu được mời gọi noi gương sự dấn thân của Đaminh đối với chân lý và lòng yêu mến Giáo hội. Di sản của ngài tiếp tục qua sứ mạng giảng dạy và rao truyền ân sủng của Dòng Đaminh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "St. Dominic is a confirmed saint in the General Roman Calendar with a fixed date of August 8.",
+    "confidence_note_vi": "Thánh Đaminh là một vị thánh được xác nhận trong Lịch Phụng vụ Rôma phổ quát với ngày cố định là 8 tháng 8."
+  },
+  "app_hooks": {
+    "hero_line_en": "Truth, Preached with Charity",
+    "hero_line_vi": "Chân lý, được rao giảng với Đức Ái",
+    "prayer_prompt_en": "Lord, grant us the zeal of St. Dominic to seek and preach Your truth.",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho chúng con lòng nhiệt thành của Thánh Đaminh để tìm kiếm và rao giảng chân lý của Ngài."
+  },
+  "sources": [
+    {
+      "label": "USCCB Readings for August 8, 2027",
+      "url": "https://bible.usccb.org/bible/readings/080827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic News Agency: St. Dominic",
+      "url": "https://www.catholicnewsagency.com/saint/st-dominic-de-guzman-387",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-26",
+    "hebrew": "5 Av 5787",
+    "islamic_umm_al_qura": "6 Rabi' al-Awwal 1449 AH",
+    "coptic": "2 Mesori 1743",
+    "ethiopian": "2 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

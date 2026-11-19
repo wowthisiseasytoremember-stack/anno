@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-08-25",
+  "date": "2027-08-25",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 19",
+    "title_vi": "Thứ Tư tuần 19 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time, Week 19",
+    "title_vi": "Thứ Tư tuần 19 Mùa Thường Niên",
+    "summary_en": "The liturgical focus is on the ongoing Christian witness during the common season of the year. The readings typically emphasize the call to spiritual maturity and perseverance. There are no obligatory feasts or memorials in the General Roman Calendar that supersede the feria. The day serves as a time for personal sanctification through the ordinary means of grace.",
+    "summary_vi": "Trọng tâm phụng vụ là lời chứng Kitô giáo liên lỉ trong mùa thường niên. Các bài đọc thường nhấn mạnh lời kêu gọi trưởng thành thiêng liêng và kiên trì. Không có lễ trọng hay lễ nhớ nào trong Lịch Rôma Chung thay thế ngày thường này. Đây là thời gian để thánh hóa bản thân qua các phương tiện bình thường của ân sủng.",
+    "body_en": "The Church observes this Wednesday as a standard feria within the Ordinary Time, marked by the liturgical color green which signifies hope and growth. Believers are invited to reflect on their daily integration of faith into life, using the prescribed lectionary readings to deepen their understanding of the Gospel. While no saint is celebrated as an obligatory memorial, local calendars may include specific local patrons or saints, which must be observed according to diocesan norms.\n\nThe structure of the liturgy remains simple, focusing on the Word of God and the Eucharist as the central acts of worship. The readings for this date, while specific to the cycle, generally fall under the theme of the Kingdom of God and the Christian's responsibility in the world. The absence of a high-ranking feast allows for a contemplative approach to the ordinary aspects of the faith, reminding the faithful that holiness is often found in the daily routine.",
+    "body_vi": "Hội Thánh cử hành Thứ Tư này như một ngày thường trong Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây phụng vụ tượng trưng cho hy vọng và sự tăng trưởng. Tín hữu được mời gọi suy tư về việc hội nhập đức tin vào đời sống hằng ngày, sử dụng các bài đọc trong sách bài đọc để đào sâu sự hiểu biết về Tin Mừng. Mặc dù không có vị thánh nào được mừng kính như một lễ nhớ buộc, nhưng lịch địa phương có thể bao gồm các quan thầy hay thánh bổn mạng cụ thể, cần được tuân thủ theo các quy tắc của giáo phận.\n\nCấu trúc phụng vụ vẫn đơn giản, tập trung vào Lời Chúa và Bí tích Thánh Thể như những hành vi thờ phượng trung tâm. Các bài đọc cho ngày này, mặc dù cụ thể theo chu kỳ, thường rơi vào chủ đề về Nước Trời và trách nhiệm của Kitô hữu trong thế giới. Việc không có lễ trọng cho phép một cách tiếp cận suy niệm đối với các khía cạnh bình thường của đức tin, nhắc nhở các tín hữu rằng sự thánh thiện thường được tìm thấy trong thói quen hằng ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "This date falls in Ordinary Time with no universal obligatory feast or memorial in the General Roman Calendar that would elevate its rank above a feria.",
+  "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên và không có lễ trọng hay lễ nhớ buộc phổ quát nào trong Lịch Rôma Chung có thể nâng cao cấp bậc trên mức ngày thường.",
+  "app_hooks": {
+    "hero_line_en": "Grow in faith through the quiet moments of the ordinary.",
+    "hero_line_vi": "Hãy lớn lên trong đức tin qua những khoảnh khắc bình lặng của đời thường.",
+    "prayer_prompt_en": "Lord, help me see Your presence in my daily routines.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những thói quen hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for August 25, 2027",
+      "url": "https://bible.usccb.org/bible/readings/082527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-12",
+    "hebrew": "22 Av 5787",
+    "islamic_umm_al_qura": "23 Rabi' al-Awwal 1449 AH",
+    "coptic": "19 Mesori 1743",
+    "ethiopian": "19 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

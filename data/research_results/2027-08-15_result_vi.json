@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Đức Mẹ Hồn Xác Lên Trời"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Đức Mẹ Hồn Xác Lên Trời",
+    "summary_vi": "Lễ Đức Mẹ Hồn Xác Lên Trời là một đại lễ kính Đức Mẹ được cử hành vào ngày 15 tháng 8. Lễ này tưởng nhớ việc Đức Mẹ được đưa cả hồn lẫn xác lên Trời khi kết thúc cuộc đời lữ hành của Mẹ. Tín điều này đã được Đức Giáo Hoàng Piô XII chính thức định tín vào năm 1950 và được cử hành như một ngày lễ buộc ở nhiều quốc gia.",
+    "body_vi": "Lễ Đức Mẹ Hồn Xác Lên Trời là một trong những đại lễ quan trọng nhất trong Giáo hội Công giáo, đánh dấu sự hoàn tất hành trình trần thế của Đức Mẹ. Giáo hội dạy rằng Đức Mẹ, người không mắc tội tổ tông truyền, đã không phải chịu sự hư nát của thân xác. Việc Mẹ được đưa lên Trời là dấu chỉ hy vọng cho tất cả các tín hữu về sự sống lại của thân xác. \n\nLễ này có nguồn gốc từ thời kỳ xa xưa, với các cử hành đã tồn tại từ những thế kỷ đầu tiên của Giáo hội. Lễ kính nhấn mạnh vai trò đặc biệt của Đức Mẹ trong lịch sử cứu độ và sự kết hiệp thân mật của Mẹ với Con của Mẹ là Chúa Giêsu Kitô. Các văn bản phụng vụ trong ngày thường rút ra từ Phúc âm theo Thánh Luca và Diễm Ca, làm nổi bật các chủ đề về niềm vui, vinh quang và ân sủng thần linh.",
+    "confidence_note_vi": "Ngày và bậc lễ được xác nhận bởi Lịch Phụng vụ Rôma và định tín về việc Đức Mẹ Hồn Xác Lên Trời."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy hân hoan cùng Đức Mẹ, Đấng được đưa lên Trời!",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con ân sủng để sống đời thánh thiện, hầu chúng con được cùng Chúa và Đức Mẹ hưởng vinh quang Nước Trời."
+  }
+}

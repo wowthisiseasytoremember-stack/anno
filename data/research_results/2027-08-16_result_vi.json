@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 18 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Mùa Thường Niên",
+    "summary_vi": "Thứ Hai tuần 18 Mùa Thường Niên là một ngày thường (feria) với không có lễ trọng nào cao hơn. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng bền vững của Hội Thánh theo thời gian. Các bài đọc phản ánh hành trình tâm linh liên tục của các tín hữu trong mùa dài sau lễ Ngũ Tuần.",
+    "body_vi": "Trong ngày Thứ Hai này của Mùa Thường Niên, Hội Thánh tiếp tục cầu nguyện cho sự thánh hóa của các tín hữu qua chu kỳ các bài đọc và thánh vịnh hàng ngày. Áo lễ màu xanh nhắc nhở chúng ta rằng đức tin của chúng ta không tĩnh tại mà tăng trưởng khi chúng ta đón nhận Kinh Thánh và thế giới. Không có các lễ trọng nào làm gián đoạn nhịp điệu của tuần, phụng vụ tập trung vào việc tích lũy ân sủng bền bỉ qua sự vâng phục hàng ngày.\n\nCác bài đọc thường được chọn cho Thứ Hai tuần 18 thường bao gồm các đoạn văn thách thức các tín hữu vững vàng trong cam kết với Thiên Chúa giữa cuộc sống đời thường. Sự vắng mặt của một lễ kính thánh bổn mạng lớn hay lễ trọng nhấn mạnh lời cầu nguyện cộng đoàn của Hội Thánh hơn là đức anh hùng cá nhân. Điều này nhắc nhở rằng sự thánh thiện được tìm thấy trong việc thực hiện các bổn phận hàng ngày một cách trung tín dưới sự quan phòng của Thiên Chúa.",
+    "confidence_note_vi": "Bậc lễ và màu sắc phụng vụ được xác nhận bởi Lịch Phụng vụ Rôma tiêu chuẩn cho một ngày Thứ Hai trong Mùa Thường Niên mà không có lễ nào bậc cao hơn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức tin vững vàng trong điều bình thường.",
+    "prayer_prompt_vi": "Hãy cầu xin ân sủng để tìm thấy Thiên Chúa trong những thói quen hàng ngày."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Chúa Biến Hình"
+  },
+  "primary": {
+    "title_vi": "Lễ Chúa Biến Hình",
+    "summary_vi": "Lễ Chúa Biến Hình là một ngày Lễ trong Lịch Phụng vụ La Mã, được cử hành hàng năm vào ngày 6 tháng 8. Sự kiện này tưởng nhớ việc Chúa Kitô tỏ bày vinh quang thần linh của Ngài cho các ông Phêrô, Giacôbê và Gioan trên núi Taborô. Đây là mặc khải về Ba Ngôi và khẳng định thần tính của Chúa Giêsu.",
+    "body_vi": "Việc Chúa Biến Hình là một sự kiện được ghi nhận trong Tân Ước, cụ thể trong ba Tin Mừng Nhất Lãm (Mátthêu 17:1–9, Máccô 9:2–8, và Luca 9:28–36). Theo các sách Tin Mừng, Chúa Giêsu dẫn các môn đệ Phêrô, Giacôbê và Gioan lên một ngọn núi cao, truyền thống cho là núi Taborô. Tại đó, Chúa Giêsu biến hình trước mặt các ông; mặt Ngài chiếu sáng như mặt trời, và áo Ngài trở nên trắng như ánh sáng. Ông Môsê và ông Elia hiện ra và đàm đạo với Ngài.\n\nMột đám mây bao phủ các ngài, và có tiếng từ đám mây phán: 'Đây là Con Ta yêu dấu, Ta hài lòng về Người. Các ngươi hãy nghe lời Người.' Các môn đệ sấp mặt xuống đất vì sợ hãi, nhưng Chúa Giêsu chạm vào họ và nói: 'Hãy chỗi dậy, đừng sợ.' Khi ngước mắt lên, họ chỉ thấy một mình Chúa Giêsu. Ngày lễ này nhắc nhở các tín hữu rằng sự đau khổ của Chúa Kitô trên Thập Giá không phải là kết thúc, mà dẫn đến vinh quang của sự phục sinh.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy chiêm ngưỡng Ánh Sáng Thần Linh",
+    "prayer_prompt_vi": "Nguyện xin lòng chúng con được biến đổi bởi ánh sáng vinh quang của Chúa Kitô."
+  }
+}
