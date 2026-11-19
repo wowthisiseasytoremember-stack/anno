@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 30 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 30 Mùa Thường Niên",
+    "summary_vi": "Đây là ngày thường lệ trong Mùa Thường Niên, cụ thể là ngày Thứ Bảy của tuần 30 trong năm. Trong Lịch Phụng Vụ Rôma Chung, không có lễ trọng hay lễ nhớ bắt buộc nào được gán cho ngày này, trừ khi lịch địa phương có nêu đích danh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và sự sống của Hội Thánh trong mùa này. Các bài đọc và lời cầu nguyện tập trung vào hành trình đức tin đang tiếp diễn và việc áp dụng Tin Mừng vào đời sống hằng ngày.",
+    "body_vi": "Là một ngày Thứ Bảy trong Mùa Thường Niên, phụng vụ tiếp nối tiến trình chủ đề của các tuần, mời gọi các tín hữu suy niệm về giáo huấn của Đức Kitô trong bối cảnh bình thường và thường nhật. Việc không có thánh nào được kính nhớ cụ thể có nghĩa là trọng tâm vẫn là Lời Chúa được trình bày trong Sách Bài Đọc cho ngày trong tuần cụ thể này. Linh mục cử hành Thánh lễ với phẩm phục màu xanh lá cây, và các lời cầu nguyện vang lên các chủ đề về sự tỉnh thức và kiên trì.\n\nCác tín hữu được khuyến khích dùng thời gian này để cầu nguyện cá nhân và đọc Kinh Thần Vụ. Vì không có lễ kỷ niệm phổ quát nào, các giáo xứ vẫn có thể kính nhớ các bổn mạng địa phương hoặc các thánh liên quan đến cộng đồng cụ thể của họ, nếu được lịch địa phương cho phép. Ngày này nhắc nhở rằng sự thánh thiện được tìm thấy trong những khoảnh khắc bình thường của cuộc sống, chứ không chỉ trong các ngày lễ lớn.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sự thánh thiện trong điều bình thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra Ngài trong những thói quen hằng ngày của cuộc sống."
+  }
+}

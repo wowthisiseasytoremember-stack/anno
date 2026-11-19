@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 32 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 32 Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày thường tuần trong Mùa Thường Niên, có thứ bậc thấp nhất trong lịch phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng của Giáo Hội. Không có lễ nhớ thánh nào ưu tiên hơn phụng vụ ngày thường trong ngày này.",
+    "body_vi": "Trong Lịch Rôma Chung, các ngày Thứ Ba trong Mùa Thường Niên không có lễ nhớ bắt buộc cụ thể được cử hành như các ngày thường đơn giản. Trọng tâm là Kinh Nhật Tụng hàng ngày và các bài đọc Thánh lễ, tiếp tục tiến trình tường thuật của Tin Mừng.\n\nCác bài đọc cho Tuần 32 thường tập trung vào các chủ đề về sự kiên trì và Nước Trời, khuyến khích các tín hữu vững vàng trong đức tin của họ trong những ngày thường của năm.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Hy vọng giữa Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tìm thấy ân sủng trong những khoảnh khắc thường nhật của cuộc sống."
+  }
+}

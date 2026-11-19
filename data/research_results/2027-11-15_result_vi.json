@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 31 Mùa Thường Niên",
+    "summary_vi": "Thứ Hai này thuộc Tuần 31 Mùa Thường Niên, giai đoạn nhấn mạnh sự tăng trưởng của Hội Thánh và hành trình đức tin của các tín hữu. Vì là ngày thường (feria), không có lễ kính thánh nào thay thế phụng vụ ngày thường trong Lịch Rôma Chung cho ngày này. Màu sắc phụng vụ là xanh lá, biểu trưng cho niềm hy vọng và thời gian thường niên. Trọng tâm là sự phát triển bình thường của Hội Thánh và đời sống tâm linh cá nhân của tín hữu trong những tháng cuối năm.",
+    "body_vi": "Tuần 31 Mùa Thường Niên mời gọi các tín hữu suy niệm về các chủ đề cánh chung trong các bài Tin Mừng, thường liên quan đến những ngày sau hết và Nước Thiên Chúa. Khi không có lễ kính thánh hoặc lễ trọng bắt buộc, linh mục cử hành Thánh lễ ngày thường, sử dụng lễ phục màu xanh đặc trưng cho Mùa Thường Niên. Giai đoạn này cho phép sự tiến triển vững chắc, không trang trí rườm rà qua tường thuật về cuộc đời và giáo huấn của Chúa Kitô, nhấn mạnh vào sự hoán cải và làm môn đệ hàng ngày.\n\nTrong truyền thống Công giáo Việt Nam, ngày này được tuân giữ với lòng đạo đức thầm lặng, thường bao gồm việc lần Chuỗi Mân Côi hoặc Phụng vụ Các Giờ Kinh, tùy thuộc vào thực hành của cộng đoàn địa phương. Các tín hữu được khuyến khích suy niệm Tin Mừng của ngày, nói lên những khía cạnh thực tiễn của việc sống đức tin giữa thế gian. Màu xanh đóng vai trò như một lời nhắc nhở liên tục về sự tăng trưởng tâm linh và hy vọng vào sự sống đời đời, hướng dẫn các tín hữu khi năm phụng vụ gần kết thúc.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lớn lên trong đức tin qua những ngày thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những khoảnh khắc bình thường của đời sống và lớn lên vững chắc trong nhân đức."
+  }
+}

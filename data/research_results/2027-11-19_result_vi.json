@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 31 Mùa Thường Niên",
+    "summary_vi": "Vào ngày 19 tháng 11 năm 2027, Giáo Hội cử hành một ngày trong tuần thuộc Mùa Thường Niên, được đánh dấu bằng màu xanh lá phụng vụ. Là Thứ Sáu của Tuần 31 Mùa Thường Niên, không có lễ buộc hoặc kính nhớ các thánh nào vào ngày cụ thể này trong Lịch Rôma tổng quát. Các tín hữu được mời gọi suy niệm bài Tin Mừng được chỉ định cho ngày thường này, tập trung vào việc tăng trưởng nhân đức trong những tuần cuối cùng của năm phụng vụ.",
+    "body_vi": "Bậc phụng vụ của ngày này là Ngày Thường (Feria), nghĩa là một ngày trong tuần đơn giản không có lễ kính thánh nào thay thế chu kỳ đọc sách thường lệ. Giai đoạn vào cuối tháng 11 này phục vụ như một thời điểm để huấn luyện tâm linh ổn định, mời gọi các tín hữu đào sâu mối tương quan với Chúa Kitô qua lời cầu nguyện hàng ngày và suy niệm Lời Chúa.\n\nVì không có ngày lễ lớn hay lễ kính nhớ các thánh nào được cử hành vào ngày này trong Lịch Phổ Quát, trọng tâm vẫn hoàn toàn nằm ở câu chuyện tiến bộ của lịch sử cứu độ được trình bày trong sách bài đọc. Áo lễ màu xanh lá cây tượng trưng cho hy vọng và sự tăng trưởng của Giáo Hội, nhắc nhở các tín hữu về nhu cầu kiên trì trong đức tin khi họ tiến gần đến cuối năm phụng vụ.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng Trưởng Trong Đức Tin",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên trì để tăng trưởng trong nhân đức hôm nay, khi con bước đi qua mùa thường niên này trong ánh sáng của Ngài."
+  }
+}

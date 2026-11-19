@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-24",
+  "date": "2027-11-24",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs (Universal)",
+    "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+    "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+    "summary_en": "This memorial honors the Vietnamese Martyrs, led by St. Andrew Dũng-Lạc, who gave their lives for the faith in the 18th and 19th centuries. Their steadfast witness in the face of severe persecution is commemorated to inspire the universal Church. The liturgical color red signifies the sacrifice of these witnesses to Christ.",
+    "summary_vi": "Kỷ niệm này tôn kính các Tử đạo Việt Nam, dẫn đầu là Thánh Anrê Dũng-Lạc, những người đã hiến mạng sống vì đức tin vào các thế kỷ 18 và 19. Chứng tá kiên vững của họ trước sự bách hại khốc liệt được tưởng nhớ để khích lệ Giáo hội hoàn vũ. Màu phụng vụ đỏ tượng trưng cho hy sinh của những chứng nhân cho Đức Kitô.",
+    "body_en": "St. Andrew Dũng-Lạc and his companions, including St. Paul Lê Bảo Tịnh, endured brutal tortures and imprisonment under the Nguyen dynasty. Despite the suffering, they refused to renounce their faith, maintaining their devotion to God until death. Their martyrdom remains a powerful testament to the spread of Christianity in Asia.\n\nThe Church remembers them not only for their individual holiness but for the collective witness of the early Vietnamese Church. Their story illustrates the strength found in community and prayer during times of trial. This memorial invites the faithful to reflect on the value of perseverance and the hope that transcends earthly suffering.",
+    "body_vi": "Thánh Anrê Dũng-Lạc và các bạn đồng hành, bao gồm Thánh Phaolô Lê Bảo Tịnh, đã chịu đựng những cuộc tra tấn và giam cầm tàn khốc dưới thời nhà Nguyễn. Mặc dù đau khổ, họ đã từ chối chối bỏ đức tin của mình, giữ vững lòng sùng kính Thiên Chúa cho đến chết. Sự tử đạo của họ vẫn là một chứng tá mạnh mẽ cho sự lan rộng của Kitô giáo ở châu Á.\n\nGiáo hội tưởng nhớ họ không chỉ vì sự thánh thiện cá nhân mà còn vì chứng tá tập thể của Giáo hội Việt Nam sơ khai. Câu chuyện của họ minh họa sức mạnh tìm thấy trong cộng đoàn và lời cầu nguyện trong thời điểm thử thách. Kỷ niệm này mời gọi các tín hữu suy ngẫm về giá trị của sự kiên nhẫn và hy vọng vượt qua những đau khổ trần thế.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This feast is a fixed memorial in the General Roman Calendar.",
+    "confidence_note_vi": "Lễ này là một kỷ niệm cố định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Witnesses to the Faith: The Vietnamese Martyrs",
+    "hero_line_vi": "Chứng nhân Đức tin: Các Thánh Tử đạo Việt Nam",
+    "prayer_prompt_en": "Lord, grant us the courage of the martyrs to stand firm in faith amidst trials.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con lòng can đảm của các tử đạo để đứng vững trong đức tin giữa những thử thách."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/112427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - St. Andrew Dung-Lac",
+      "url": "https://www.newadvent.org/cathen/01356a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-11",
+    "hebrew": "24 Cheshvan 5788",
+    "islamic_umm_al_qura": "25 Jumada al-Thani 1449 AH",
+    "coptic": "14 Hathor 1744",
+    "ethiopian": "14 Hidar 2020"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 31 Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào tuần thứ ba mươi mốt của Mùa Thường Niên, đánh dấu thời kỳ tăng trưởng ổn định trong đời sống Kitô hữu. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và hành trình đức tin đang tiếp diễn. Không có lễ trọng hay lễ kính thánh nào thay thế ngày thường, cho phép suy niệm về các bài đọc trong Mùa Thường Niên.",
+    "body_vi": "Mùa Thường Niên đóng vai trò là xương sống của năm phụng vụ, tập trung vào lời dạy và cuộc sống của Chúa Giêsu Kitô được trình bày trong các Tin Mừng. Trong tuần 31, Giáo hội mời gọi các tín hữu xem xét các nguyên tắc Tin Mừng được chuyển đổi thành hành động và mối quan hệ hàng ngày như thế nào. Trọng tâm không phải là một sự kiện cụ thể, mà là sự biến đổi liên tục của trái tim.\n\nLà một ngày thường, trọng tâm vẫn là các bài đọc Kinh Thánh và lời nguyện Thánh Thể, cung cấp bối cảnh cho suy niệm tâm linh. Áo lễ màu xanh lá cây nhắc nhở chúng ta rằng đức tin của chúng ta là một thực tế sống động và đang phát triển. Thời gian này cung cấp một không gian yên tĩnh để tích hợp ân sủng nhận được trong các lễ trọng vào nhịp điệu của cuộc sống hàng ngày.",
+    "confidence_note_vi": "Ngày này đã được xác minh là một ngày thường trong Mùa Thường Niên (Tuần 31) trong Sách Lễ Rôma. Không có lễ trọng phổ quát hay lễ kính bắt buộc nào được liệt kê trong Lịch Phụng vụ Tổng quát cho ngày cụ thể này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lặng lẽ tăng trưởng trong đức tin giữa Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những ngày thường nhật và đáp lại bằng sự kiên nhẫn và ân sủng."
+  }
+}

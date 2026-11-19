@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-04",
+  "date": "2027-11-04",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Charles Borromeo, Bishop",
+    "title_vi": "Thánh Carôlô Borrômêô, Giám mục"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Charles Borromeo",
+    "title_vi": "Thánh Carôlô Borrômêô",
+    "summary_en": "St. Charles Borromeo was a leading figure of the Counter-Reformation and Archbishop of Milan. He is celebrated on November 4 for his tireless efforts in reforming the Church, establishing seminaries, and caring for the poor. His feast day honors his spiritual leadership and his profound impact on Catholic liturgy and catechesis.",
+    "summary_vi": "Thánh Carôlô Borrômêô là nhân vật lãnh đạo hàng đầu của cuộc Cải cách Phản Kháng và là Tổng giám mục Milan. Ngài được kính nhớ vào ngày 4 tháng 11 vì những nỗ lực không mệt mỏi trong việc cải tổ Giáo hội, thành lập các chủng viện và chăm sóc người nghèo. Ngày lễ của Ngài tôn vinh sự lãnh đạo tinh thần và tác động sâu sắc của Ngài đối với phụng vụ và việc dạy giáo lý Công giáo.",
+    "body_en": "Charles Borromeo (1538–1584) served as the Archbishop of Milan and was a pivotal advisor to Pope Pius IV. He played a crucial role in the Council of Trent, helping to draft the catechism and revise liturgical books. His life was marked by asceticism, pastoral zeal, and administrative reform, earning him the title of 'Bishop of the People.'\n\nIn the General Roman Calendar, he is commemorated as a model of episcopal charity and learning. His writings on prayer and pastoral duty continue to influence Catholic spirituality. The memorial invites the faithful to reflect on the duties of clergy and the importance of doctrinal clarity.",
+    "body_vi": "Carôlô Borrômêô (1538–1584) phục vụ với tư cách là Tổng giám mục Milan và là cố vấn then chốt cho Giáo hoàng Piô IV. Ngài đóng vai trò thiết yếu trong Công đồng Trento, giúp soạn thảo sách giáo lý và sửa đổi các sách phụng vụ. Cuộc đời Ngài nổi bật với sự khổ chế, nhiệt huyết mục vụ và cải cách quản lý, đưa Ngài đến danh hiệu 'Giám mục của Dân Chúa'.\n\nTrong Lịch Rôma Tổng quát, Ngài được tưởng nhớ như một mẫu gương về lòng bác sĩ và học thức của giám mục. Các tác phẩm của Ngài về cầu nguyện và nghĩa vụ mục vụ vẫn tiếp tục ảnh hưởng đến tâm linh Công giáo. Ngày lễ kính nhớ mời gọi các tín hữu suy gẫm về bổn phận của hàng giáo sĩ và tầm quan trọng của sự rõ ràng trong giáo lý.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Pastoral zeal and doctrinal clarity: St. Charles Borromeo",
+    "hero_line_vi": "Nhiệt huyết mục vụ và sự rõ ràng giáo lý: Thánh Carôlô Borrômêô",
+    "prayer_prompt_en": "Pray for bishops and pastors to imitate the charity and diligence of St. Charles.",
+    "prayer_prompt_vi": "Cầu nguyện cho các giám mục và linh mục bắt chước lòng bác ái và sự cần mẫn của Thánh Carôlô."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/110427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints - Charles Borromeo",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=233",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-22",
+    "hebrew": "4 Cheshvan 5788",
+    "islamic_umm_al_qura": "5 Jumada al-Thani 1449 AH",
+    "coptic": "24 Paopi 1744",
+    "ethiopian": "24 Tikemet 2020"
+  }
+}

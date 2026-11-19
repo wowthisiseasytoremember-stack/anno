@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 30 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật tuần 30 Mùa Thường Niên",
+    "summary_vi": "Chúa Nhật này đánh dấu tuần thứ ba mươi trong Mùa Thường Niên, tập trung vào bước đi của Kitô hữu trong Thần Khí. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin. Các bài đọc của chu kỳ này, Năm C, nhấn mạnh tầm quan trọng của sự khiêm nhường và tỉnh thức cầu nguyện.",
+    "body_vi": "Trong Lịch Rôma Tổng quát, Chúa Nhật là ngày họp mặt Kitô giáo chính yếu, và Mùa Thường Niên đóng vai trò là trụ cột của năm phụng vụ. Tuần 30 cụ thể mời gọi các tín hữu suy ngẫm về Dụ ngôn Người Pha-ri-sêu và Người Thu Thuế, làm nổi bật rằng sự công chính hóa đích thực đến từ sự khiêm nhường trước Thiên Chúa chứ không phải từ sự công chính của chính mình. Chủ đề này phù hợp với tường thuật rộng lớn hơn của Tin Mừng Luca, nơi Chúa Giêsu dạy về tầm quan trọng của việc cầu nguyện kiên trì và lòng tin tưởng đơn sơ.\n\nViệc cử hành phụng vụ của Chúa Nhật này được xác nhận bởi vị trí của nó trong chu kỳ thời gian, ưu tiên hơn bất kỳ việc kính nhớ tùy chọn nào có thể xảy ra vào cùng ngày. Giáo hội khuyến khích các tín hữu đến với Bí tích Thánh Thể với tâm hồn mở rộng cho sự hoán cải, nhận ra rằng sự tăng trưởng tâm linh là một quá trình từ từ. Thời kỳ này nhắc nhở chúng ta rằng trong khi chờ đợi sự phục sinh cuối cùng, chúng ta được mời gọi sống đích thực trong khoảnh khắc hiện tại.",
+    "confidence_note_vi": "Ngày này rơi vào Chúa Nhật tuần 30 Mùa Thường Niên, Năm C. Trong Lịch Rôma Tổng quát, ngày Chúa Nhật được ưu tiên hơn các việc kính nhớ các thánh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sống Khiêm Nhường, Cầu Nguyện với Lòng Tin",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khiêm nhường của người thu thuế và lòng kiên trì cầu nguyện không ngừng."
+  }
+}

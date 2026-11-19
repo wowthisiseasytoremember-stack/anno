@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Các Đẳng Linh Hồn (Lễ Cầu Cho Các Tín Hữu Đã Qua Đời)"
+  },
+  "primary": {
+    "title_vi": "Lễ Các Đẳng Linh Hồn (Lễ Cầu Cho Các Tín Hữu Đã Qua Đời)",
+    "summary_vi": "Ngày này dành riêng để cầu nguyện cho linh hồn của các tín hữu đã qua đời. Hội Thánh cầu thay cho họ khi họ đang được thanh luyện trước khi vào Thiên Đàng. Các linh mục thường dâng ba thánh lễ trong ngày này.",
+    "body_vi": "Lễ nhớ Tất Cả Các Tín Hữu Đã Qua Đời tiếp sau lễ Các Thánh. Trong khi lễ Các Thánh tập trung vào Hội Thánh Chiến Thắng trên trời, lễ Các Đẳng Linh Hồn tập trung vào Hội Thánh Đau Khổ tại Luyện Ngục. Các tín hữu được khuyến khích viếng nghĩa trang và cầu nguyện cho người thân đã mất.\n\nMàu phụng vụ là màu tím, biểu tượng cho sám hối và hy vọng. Thực hành này có nguồn gốc từ những thế kỷ đầu của Hội Thánh, khi việc cầu nguyện cho người chết rất phổ biến. Giáo huấn rằng người sống có thể trợ giúp người chết qua lời cầu nguyện, việc bố thí và hy lễ được bắt nguồn từ Thánh Truyền và Kinh Thánh.",
+    "confidence_note_vi": "Lễ này được ấn định cố định vào ngày 2 tháng 11 trong Lịch Phụng Vụ Roma và là ngày cầu nguyện cho người đã khuất."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Cầu nguyện cho các Linh Hồn nơi Luyện Ngục",
+    "prayer_prompt_vi": "Xin cho họ được nghỉ yên muôn đời, lạy Chúa."
+  }
+}

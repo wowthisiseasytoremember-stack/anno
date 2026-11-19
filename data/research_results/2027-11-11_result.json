@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-11",
+  "date": "2027-11-11",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Martin of Tours, Bishop",
+    "title_vi": "Thánh Martinô thành Tours, Giám mục"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Martin of Tours, Bishop",
+    "title_vi": "Thánh Martinô thành Tours, Giám mục",
+    "summary_en": "St. Martin of Tours is celebrated as a bishop and one of the most revered saints of the early Church. Born in the fourth century, he is famous for his humility and his conversion of the people of Gaul. He served as the Bishop of Tours and is traditionally credited with introducing monasticism to the West.",
+    "summary_vi": "Thánh Martinô thành Tours được kính nhớ như một giám mục và là một trong những vị thánh được tôn kính nhất của Giáo hội sơ khai. Sinh vào thế kỷ thứ tư, ngài nổi tiếng vì đức khiêm nhường và công cuộc truyền giáo cho dân Galia. Ngài đã phục vụ với tư cách là Giám mục của Tours và được cho là người du nhập lối sống đan tu vào phương Tây. Ngày lễ của ngài đánh dấu sự kết thúc mùa gặt và bắt đầu mùa chay mùa đông trong một số truyền thống.",
+    "body_en": "Martin of Tours, born in Pannonia around 316 AD, began his career as a Roman soldier but left the army to follow his Christian faith. His most famous act of charity involved cutting his military cloak in half to share with a beggar in Amiens. After this event, he was baptized and began his spiritual formation under St. Hilary of Poitiers. He later founded a monastery at Liguge and became the Bishop of Tours, where he worked tirelessly to evangelize the rural areas of Gaul and establish monasteries. His life exemplifies the integration of faith and action, showing how Christian charity can transform society. He is remembered for his pastoral zeal, his defense of orthodoxy against Arianism, and his commitment to the poor.\n\nThe legacy of St. Martin extends beyond his lifetime, influencing the development of Western monasticism and the liturgical calendar. He is the patron saint of soldiers, beggars, and France. His feast day was historically significant as the start of the winter season in many European cultures. St. Martin’s life continues to inspire Catholics to live out their faith with humility and courage. His example reminds us that true strength lies in gentleness and that service to others is the highest form of worship. The Church honors him today as a model of episcopal leadership and apostolic zeal.",
+    "body_vi": "Martinô thành Tours, sinh tại Pannonia vào khoảng năm 316 sau Công nguyên, bắt đầu sự nghiệp như một binh sĩ La Mã nhưng đã rời quân ngũ để theo đuổi đức tin Kitô giáo. Hành động bác ái nổi tiếng nhất của ngài là cắt đôi chiếc áo choàng quân nhân để chia sẻ với một người ăn xin tại Amiens. Sau sự kiện này, ngài được rửa tội và bắt đầu hành trình đào tạo tâm linh dưới sự hướng dẫn của Thánh Hilariô thành Poitiers. Sau này, ngài thành lập tu viện Liguge và trở thành Giám mục của Tours, nơi ngài làm việc không mệt mỏi để truyền giáo cho vùng nông thôn Galia và thiết lập các tu viện. Cuộc đời ngài là minh chứng cho sự hòa nhập giữa đức tin và hành động, cho thấy đức ái Kitô giáo có thể biến đổi xã hội như thế nào. Ngài được nhớ đến vì lòng nhiệt thành mục vụ, việc bảo vệ chính thống giáo chống lại thuyết Arius, và cam kết với người nghèo.\n\nDi sản của Thánh Martinô vượt ra ngoài thời đại của ngài, ảnh hưởng đến sự phát triển của đan tu phương Tây và lịch phụng vụ. Ngài là bổn mạng của quân nhân, người ăn xin và nước Pháp. Ngày lễ của ngài trước đây có ý nghĩa quan trọng như sự khởi đầu của mùa đông trong nhiều nền văn hóa châu Âu. Cuộc đời của Thánh Martinô vẫn tiếp tục truyền cảm hứng cho các tín hữu Công giáo sống đức tin với sự khiêm nhường và lòng can đảm. Gương mẫu của ngài nhắc nhở chúng ta rằng sức mạnh đích thực nằm ở sự dịu dàng và phục vụ người khác là hình thức thờ phượng cao cả nhất. Giáo hội tôn kính ngài ngày nay như một mẫu gương về lãnh đạo giám mục và lòng nhiệt thành tông đồ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The memorial of St. Martin of Tours is a fixed date in the General Roman Calendar and is widely recognized in all rites. The historical details and hagiography are consistent across Catholic sources.",
+    "confidence_note_vi": "Lễ kính nhớ Thánh Martinô thành Tours là ngày cố định trong Lịch phụng vụ Rôma và được công nhận rộng rãi trong tất cả các nghi lễ. Các chi tiết lịch sử và thánh truyện nhất quán trong các nguồn Công giáo."
+  },
+  "app_hooks": {
+    "hero_line_en": "Cut your cloak in half, share your faith.",
+    "hero_line_vi": "Cắt áo chia đôi, sẻ chia đức tin.",
+    "prayer_prompt_en": "Lord, teach me to see Christ in the poor.",
+    "prayer_prompt_vi": "Chúa ơi, xin dạy con nhìn thấy Chúa nơi người nghèo."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Gospel Reflections for November 11, 2027",
+      "url": "https://bible.usccb.org/bible/readings/111127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org - Saint of the Day: St. Martin of Tours",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=163",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-29",
+    "hebrew": "11 Cheshvan 5788",
+    "islamic_umm_al_qura": "12 Jumada al-Thani 1449 AH",
+    "coptic": "1 Hathor 1744",
+    "ethiopian": "1 Hidar 2020"
+  }
+}

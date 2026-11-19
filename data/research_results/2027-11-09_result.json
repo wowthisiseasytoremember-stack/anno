@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-09",
+  "date": "2027-11-09",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "The Dedication of the Lateran Basilica",
+    "title_vi": "Lễ Cung Hiến Vương Cung Thánh Đường Latêranô"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "The Dedication of the Lateran Basilica",
+    "title_vi": "Lễ Cung Hiến Vương Cung Thánh Đường Latêranô",
+    "summary_en": "This feast celebrates the dedication of the Basilica of Saint John in Lateran, the cathedral of the Bishop of Rome. It commemorates the building consecrated in 324 AD, known as the mother of all churches in the world. The celebration emphasizes the Church as a living spiritual building of believers.",
+    "summary_vi": "Ngày lễ kính nhớ việc cung hiến Vương cung thánh đường thánh Gioan Latêranô, nhà thờ chính tòa của Giám mục Rôma. Lễ này tưởng nhớ ngôi thánh đường được thánh hiến năm 324 sau Công nguyên, được mệnh danh là mẹ của mọi nhà thờ trên thế giới. Sự kiện này nhấn mạnh Giáo hội như một công trình thiêng liêng sống động của các tín hữu.",
+    "body_en": "The Lateran Basilica, originally built under Pope Sylvester I, stands as a testament to the early Christian acceptance in the Roman Empire. It is the official church of the Pope and serves as a powerful symbol of Catholic unity.\n\nOn this day, the liturgy invites the faithful to reflect on the temple of the Lord. The focus shifts from physical structures to the spiritual edifice of the Church, reminding believers that they are living stones in God's house.",
+    "body_vi": "Vương cung thánh đường Latêranô, được xây dựng ban đầu dưới thời Giáo hoàng Silvêstê, là minh chứng cho sự chấp nhận Kitô giáo sơ khai trong Đế quốc La Mã. Đây là nhà thờ chính thức của Đức Giáo hoàng và là biểu tượng mạnh mẽ cho sự hiệp nhất Công giáo.\n\nTrong ngày lễ này, phụng vụ mời gọi các tín hữu suy niệm về đền thờ của Chúa. Trọng tâm chuyển từ cấu trúc vật chất sang công trình thiêng liêng của Giáo hội, nhắc nhở các tín hữu rằng họ là những viên đá sống động trong nhà của Thiên Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The feast of the Dedication of the Lateran Basilica is a fixed feast in the General Roman Calendar on November 9.",
+    "confidence_note_vi": "Lễ Cung Hiến Vương Cung Thánh Đường Latêranô là một ngày lễ cố định trong Lịch Rôma Tổng quát vào ngày 9 tháng 11."
+  },
+  "app_hooks": {
+    "hero_line_en": "Celebrate the Mother of All Churches",
+    "hero_line_vi": "Mừng Mẹ của mọi nhà thờ",
+    "prayer_prompt_en": "Pray for the unity of the Church and the faith of believers worldwide.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự hiệp nhất của Giáo hội và đức tin của các tín hữu trên toàn thế giới."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for November 9, 2027",
+      "url": "https://bible.usccb.org/bible/readings/110927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia: Lateran Basilica",
+      "url": "https://www.newadvent.org/cathen/09038a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-27",
+    "hebrew": "9 Cheshvan 5788",
+    "islamic_umm_al_qura": "10 Jumada al-Thani 1449 AH",
+    "coptic": "29 Paopi 1744",
+    "ethiopian": "29 Tikemet 2020"
+  }
+}

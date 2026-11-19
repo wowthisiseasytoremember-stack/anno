@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 29 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 29 Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, tập trung vào sự phát triển của Nước Thiên Chúa. Màu xanh phụng vụ tượng trưng cho niềm hy vọng và sự tăng trưởng thiêng liêng. Không có lễ nhớ bắt buộc nào được cử hành, cho phép tự do chọn lựa các bài đọc.",
+    "body_vi": "Phụng vụ cho ngày Thứ Bảy này nhấn mạnh vào tính chất liên tục của đời sống Kitô hữu bên ngoài các lễ hội theo mùa cụ thể. Nó mời gọi các tín hữu suy ngẫm về những lời giảng dạy của Chúa Kitô được trình bày trong các bài Tin Mừng của tuần hiện tại. Trọng tâm vẫn là sự thánh hóa và sống theo các Mối Phúc Thật trong cuộc sống hàng ngày.\n\nTrong khi không có lễ nhớ thánh cụ thể, linh mục có thể dâng lễ cầu cho các tín hữu đã qua đời hoặc cho các ý hướng khác. Sự linh hoạt này làm nổi bật tính phổ quát của lời cầu nguyện trong Giáo Hội. Các tín hữu được khuyến khích duy trì tinh thần khiêm tốn và phục vụ, phù hợp với nhịp điệu thường nhật của năm phụng vụ.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy tăng trưởng trong sự trung tín âm thầm của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong những khoảnh khắc bình thường của ngày sống. Xin ban cho con sự kiên nhẫn để tăng trưởng vững chắc trong ân sủng."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 29 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần XXIX Mùa Thường Niên",
+    "summary_vi": "Trong ngày thứ Sáu này, Hội Thánh tiếp tục hành trình trong Mùa Thường Niên. Màu sắc phụng vụ là màu xanh, biểu tượng cho niềm hy vọng và sự tăng trưởng. Các tín hữu được mời gọi suy gẫm về những giáo huấn của Chúa Kitô trong những tuần lễ này.",
+    "body_vi": "Tuần XXIX Mùa Thường Niên tập trung vào mầu nhiệm về sự hiện diện của Chúa Kitô giữa chúng ta. Đây là thời điểm để các tín hữu đào sâu mối tương quan cá nhân với Chúa Giêsu qua kinh nguyện và phụng vụ.\n\nVì là ngày thường, ngày này không có lễ kính thánh nào cụ thể thay thế chu kỳ tuần. Thay vào đó, đây là khoảnh khắc tĩnh lặng để suy gẫm về các bài đọc Tin Mừng được chỉ định cho tuần này, thường nói về chủ đề môn đệ và sự khiêm nhường.",
+    "confidence_note_vi": "Được xác nhận qua Lịch Phụng vụ Rôma phổ quát; Tuần 29 rơi vào Mùa Thường Niên trong năm phụng vụ 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sống niềm hy vọng qua những ngày thường nhật.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con thấy dung nhan Chúa trong những điều bình dị hằng ngày."
+  }
+}

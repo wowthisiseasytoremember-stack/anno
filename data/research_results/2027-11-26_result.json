@@ -1,0 +1,57 @@
+{
+  "id": "anno-2027-11-26",
+  "date": "2027-11-26",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 32",
+    "title_vi": "Thứ Sáu tuần 32 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time, Week 32",
+    "title_vi": "Thứ Sáu tuần 32 Mùa Thường Niên",
+    "summary_en": "This date falls within the Friday of the 32nd week in Ordinary Time, a ferial day observed in the Roman Catholic Church. There is no universal saint or solemnity assigned to this specific day in the General Roman Calendar. The liturgical focus remains on the continuous cycle of Ordinary Time, inviting the faithful to reflect on their daily walk with Christ.",
+    "summary_vi": "Ngày này rơi vào Thứ Sáu tuần 32 Mùa Thường Niên, một ngày thường trong lịch phụng vụ Công giáo La Mã. Không có vị thánh hoặc lễ trọng phổ quát nào được gán cho ngày cụ thể này trong Lịch Phụng vụ Chung. Trọng tâm phụng vụ vẫn tập trung vào chu kỳ liên tục của Mùa Thường Niên, mời gọi các tín hữu suy niệm về bước đi hàng ngày với Chúa Kitô.",
+    "body_en": "As a ferial day in Ordinary Time, the liturgy emphasizes the steady growth of faith and the application of Gospel teachings in everyday life. The readings for this day typically continue the sequential reading of the Gospels and Epistles, providing a steady stream of spiritual nourishment. No major feast interrupts the flow of the liturgical year, allowing for personal reflection and penance within the green vestments of hope and growth.\n\nThe absence of a specific saint's memorial on this date in the General Roman Calendar highlights the importance of the Ordinary Time seasons. The Church encourages the faithful to maintain the rhythm of prayer, particularly through the Liturgy of the Hours and the Eucharistic celebration. This period serves as a time for integrating the mysteries celebrated in the seasons of Advent, Christmas, Lent, and Easter into the ordinary conduct of life.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, phụng vụ nhấn mạnh sự tăng trưởng vững chắc của đức tin và việc áp dụng các bài học Tin Mừng vào cuộc sống hàng ngày. Các bài đọc trong ngày này thường tiếp tục chuỗi đọc Tin Mừng và các Thư một cách tuần tự, cung cấp nguồn nuôi dưỡng thiêng liêng ổn định. Không có lễ lớn nào làm gián đoạn dòng chảy của năm phụng vụ, cho phép suy tư cá nhân và thống hối trong màu xanh hy vọng và tăng trưởng.\n\nViệc thiếu vắng đài kỷ niệm vị thánh cụ thể trong Lịch Phụng vụ Chung vào ngày này nhấn mạnh tầm quan trọng của các mùa Thường Niên. Giáo hội khuyến khích các tín hữu duy trì nhịp cầu nguyện, đặc biệt qua Phụng vụ Giờ kinh và việc cử hành Thánh Thể. Thời kỳ này là lúc để hội nhập các mầu nhiệm được cử hành trong các mùa Vọng, Giáng Sinh, Mùa Chay và Phục Sinh vào cách sống đời thường.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in grace this Friday of Ordinary Time.",
+    "hero_line_vi": "Lớn lên trong ân sủng Thứ Sáu Mùa Thường Niên này.",
+    "prayer_prompt_en": "Grant us steady growth in faith and virtue, Lord, as we walk through Ordinary Time. Amen.",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng con sự tăng trưởng vững chắc trong đức tin và nhân đức, khi chúng con bước đi trong Mùa Thường Niên. Amen."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/112627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is confirmed as a Feria in Ordinary Time (Week 32) with no universal saint feast assigned in the current General Roman Calendar.",
+  "confidence_note_vi": "Ngày này được xác nhận là một ngày thường trong Mùa Thường Niên (Tuần 32) và không có lễ kính vị thánh phổ quát nào được gán cho ngày này trong Lịch Phụng vụ Chung hiện hành.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-13",
+    "hebrew": "26 Cheshvan 5788",
+    "islamic_umm_al_qura": "27 Jumada al-Thani 1449 AH",
+    "coptic": "16 Hathor 1744",
+    "ethiopian": "16 Hidar 2020"
+  }
+}

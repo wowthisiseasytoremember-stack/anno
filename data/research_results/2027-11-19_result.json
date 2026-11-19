@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-11-19",
+  "date": "2027-11-19",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 31",
+    "title_vi": "Thứ Sáu tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time, Week 31",
+    "title_vi": "Thứ Sáu tuần 31 Mùa Thường Niên",
+    "summary_en": "On November 19, 2027, the Church observes an ordinary weekday in liturgical time, marked by the liturgical color green. As a Friday of the Thirty-first Week in Ordinary Time, there are no obligatory feasts or memorials of saints for this specific date in the General Roman Calendar. The faithful are called to reflect on the Gospel reading designated for this feria, focusing on growth in virtue during the final weeks of the liturgical year.",
+    "summary_vi": "Vào ngày 19 tháng 11 năm 2027, Giáo Hội cử hành một ngày trong tuần thuộc Mùa Thường Niên, được đánh dấu bằng màu xanh lá phụng vụ. Là Thứ Sáu của Tuần 31 Mùa Thường Niên, không có lễ buộc hoặc kính nhớ các thánh nào vào ngày cụ thể này trong Lịch Rôma tổng quát. Các tín hữu được mời gọi suy niệm bài Tin Mừng được chỉ định cho ngày thường này, tập trung vào việc tăng trưởng nhân đức trong những tuần cuối cùng của năm phụng vụ.",
+    "body_en": "The liturgical rank for this day is a Feria, meaning it is a simple weekday without a specific saint celebration that supersedes the ordinary cycle of readings. This period in late November serves as a time for steady spiritual formation, inviting the faithful to deepen their relationship with Christ through daily prayer and meditation on the Word of God.\n\nSince no major feast days or memorials of saints are observed on this date in the Universal Calendar, the focus remains entirely on the progressive narrative of salvation history as presented in the lectionary. The green vestments symbolize hope and the growth of the Church, reminding believers of their constant need for perseverance in faith as they approach the end of the liturgical year.",
+    "body_vi": "Bậc phụng vụ của ngày này là Ngày Thường (Feria), nghĩa là một ngày trong tuần đơn giản không có lễ kính thánh nào thay thế chu kỳ đọc sách thường lệ. Giai đoạn vào cuối tháng 11 này phục vụ như một thời điểm để huấn luyện tâm linh ổn định, mời gọi các tín hữu đào sâu mối tương quan với Chúa Kitô qua lời cầu nguyện hàng ngày và suy niệm Lời Chúa.\n\nVì không có ngày lễ lớn hay lễ kính nhớ các thánh nào được cử hành vào ngày này trong Lịch Phổ Quát, trọng tâm vẫn hoàn toàn nằm ở câu chuyện tiến bộ của lịch sử cứu độ được trình bày trong sách bài đọc. Áo lễ màu xanh lá cây tượng trưng cho hy vọng và sự tăng trưởng của Giáo Hội, nhắc nhở các tín hữu về nhu cầu kiên trì trong đức tin khi họ tiến gần đến cuối năm phụng vụ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growing in Faith",
+    "hero_line_vi": "Tăng Trưởng Trong Đức Tin",
+    "prayer_prompt_en": "Lord, grant me the perseverance to grow in virtue today, as I walk through this ordinary time in Your light.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên trì để tăng trưởng trong nhân đức hôm nay, khi con bước đi qua mùa thường niên này trong ánh sáng của Ngài."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/111927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "Confirmed via the General Roman Calendar for a weekday in Ordinary Time; no unique saints are assigned to this date.",
+  "confidence_note_vi": "Đã xác minh qua Lịch Rôma tổng quát cho ngày thường trong Mùa Thường Niên; không có thánh nào được chỉ định riêng cho ngày này.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-06",
+    "hebrew": "19 Cheshvan 5788",
+    "islamic_umm_al_qura": "20 Jumada al-Thani 1449 AH",
+    "coptic": "9 Hathor 1744",
+    "ethiopian": "9 Hidar 2020"
+  }
+}

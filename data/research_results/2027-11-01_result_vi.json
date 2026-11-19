@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Các Thánh Nam Nữ"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Các Thánh Nam Nữ",
+    "summary_vi": "Đại lễ Các Thánh Nam Nữ là một ngày lễ trọng trong Giáo hội Công giáo, tôn kính tất cả các tín hữu đã qua đời đang hưởng phúc Thiên đàng. Đây là dịp cử hành phổ quát về sự hiệp thông các thánh, bao gồm cả những vị tử đạo và những người nam nữ thánh thiện đã được biết đến hoặc chưa được biết đến. Ngày này mời gọi Giáo hội Chiến đấu suy niệm về đích đến tối hậu của đời sống con người và tìm kiếm sự cầu bầu của các Thánh.",
+    "body_vi": "Đại lễ Các Thánh Nam Nữ nhấn mạnh đến đích đến tối hậu của mỗi Kitô hữu: gia nhập vào cộng đoàn vinh quang của các Thánh trên Thiên đàng. Trong khi các vị thánh cụ thể được kính nhớ vào ngày lễ riêng của các ngài, lễ hội phổ quát này thừa nhận số lượng vô vàn những người đã được hưởng kiến Thiên Chúa, nhiều người trong số họ không được nêu tên trong lịch sử nhưng vẫn tỏa sáng trong tình yêu của Thiên Chúa. Màu sắc phụng vụ trắng tượng trưng cho vinh quang, sự tinh tuyền và niềm vui liên quan đến thực tại thiên quốc này, nhắc nhở các tín hữu rằng sự thánh thiện là ơn gọi chung của mọi tín hữu.\n\nVề mặt lịch sử, việc cử hành lễ Các Thánh phát triển từ thực hành của Kitô hữu sơ khai trong việc tôn kính các vị tử đạo. Vào thời Trung Cổ, ngày lễ này đã trở thành một lễ hội cố định phổ quát trong Giáo hội Latinh, nhấn mạnh đến tính chất cộng đoàn của ơn cứu độ. Ngày nay, nó là một lời nhắc nhở mạnh mẽ rằng Giáo hội là một gia đình duy nhất vượt qua thời gian, nơi những tín hữu trên trần gian được hiệp nhất về mặt tâm linh với Giáo hội Khải hoàn trên Thiên đàng, được nâng đỡ bởi lời cầu nguyện của các thánh và cùng chia sẻ trong Thân Thể duy nhất của Chúa Kitô.",
+    "confidence_note_vi": "Ngày và bậc lễ này được xác định trong Lịch phụng vụ Roma của Giáo hội Công giáo là Đại lễ Các Thánh Nam Nữ."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Cử hành sự hiệp thông của tất cả các Thánh trên Thiên đàng.",
+    "prayer_prompt_vi": "Cầu xin sự cầu bầu của Các Thánh để giúp bạn sống đời thánh thiện hôm nay."
+  }
+}

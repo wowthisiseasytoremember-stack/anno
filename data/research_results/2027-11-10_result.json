@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-10",
+  "date": "2027-11-10",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Leo the Great, Pope and Doctor",
+    "title_vi": "Thánh Lêô Cả, Giáo hoàng, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Leo the Great, Pope and Doctor",
+    "title_vi": "Thánh Lêô Cả, Giáo hoàng, Tiến sĩ Hội Thánh",
+    "summary_en": "St. Leo the Great, born around 400 AD, is celebrated on November 10th as one of the greatest popes in Church history. He played a crucial role in the Council of Chalcedon and defended the dual nature of Christ against Monophysitism. His writings and sermons remain foundational for Catholic theology and liturgy.",
+    "summary_vi": "Thánh Lêô Cả, sinh khoảng năm 400, được mừng kính ngày 10 tháng Mười Một như một trong những giáo hoàng vĩ đại nhất lịch sử Giáo hội. Ngài đóng vai trò then chốt trong Công đồng Chalcedon và bảo vệ học thuyết về hai bản tính của Chúa Kitô chống lại phái Đơn tính. Các bài viết và bài giảng của ngài vẫn là nền tảng cho thần học và phụng vụ Công giáo.",
+    "body_en": "Leo the Great served as Pope from 440 to 461 AD, a period marked by significant theological and political challenges. He is best known for his 'Tome of Leo,' a theological document that clarified the doctrine of Christ's two natures, which was pivotal at the Council of Chalcedon in 451. His leadership helped maintain the unity of the Church during times of intense theological dispute and external pressure from barbarian invasions.\n\nSt. Leo was also a prolific writer and orator, with his sermons providing deep insights into the liturgical year and Christian doctrine. His emphasis on the primacy of the See of Rome and his diplomatic efforts, such as his meeting with Attila the Hun in 452, demonstrate his role as both a spiritual leader and a diplomat. Canonized as a saint and declared a Doctor of the Church in 1754 by Pope Benedict XIV, his legacy endures in Catholic teaching and practice.",
+    "body_vi": "Lêô Cả giữ chức Giáo hoàng từ năm 440 đến 461, một giai đoạn đầy thách thức về thần học và chính trị. Ngài nổi tiếng với 'Tome của Lêô', một văn bản thần học làm sáng tỏ học thuyết về hai bản tính của Chúa Kitô, đóng vai trò then chốt tại Công đồng Chalcedon năm 451. Sự lãnh đạo của ngài giúp duy trì sự hiệp nhất của Giáo hội trong thời kỳ tranh luận thần học gay gắt và áp lực bên ngoài từ các cuộc xâm lược của dân man rợ.\n\nThánh Lêô cũng là một nhà văn và nhà hùng biện xuất sắc, các bài giảng của ngài cung cấp những cái nhìn sâu sắc về năm phụng vụ và giáo lý Kitô giáo. Sự nhấn mạnh của ngài về quyền tối thượng của Tòa Thánh Rôma và những nỗ lực ngoại giao, như cuộc gặp Attila the Hun năm 452, chứng tỏ vai trò của ngài vừa là lãnh đạo tinh thần vừa là nhà ngoại giao. Được phong thánh và tuyên phong là Tiến sĩ Hội Thánh năm 1754 bởi Đức Giáo hoàng Biển Đức XIV, di sản của ngài vẫn trường tồn trong giáo huấn và thực hành Công giáo.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Defender of Truth and Unity: The Legacy of St. Leo the Great",
+    "hero_line_vi": "Người bảo vệ Chân lý và Hiệp nhất: Di sản của Thánh Lêô Cả",
+    "prayer_prompt_en": "St. Leo the Great, please intercede for the unity of the Church and the clarity of our faith.",
+    "prayer_prompt_vi": "Lạy Thánh Lêô Cả, xin cầu bầu cho sự hiệp nhất của Giáo hội và sự sáng suốt trong đức tin của chúng con."
+  },
+  "sources": [
+    {
+      "label": "New Advent - Catholic Encyclopedia: Leo I",
+      "url": "https://www.newadvent.org/cathen/09193a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican - St. Leo the Great Profile",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-28",
+    "hebrew": "10 Cheshvan 5788",
+    "islamic_umm_al_qura": "11 Jumada al-Thani 1449 AH",
+    "coptic": "30 Paopi 1744",
+    "ethiopian": "30 Tikemet 2020"
+  }
+}

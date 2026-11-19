@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Anrê Dũng-Lạc, Linh mục và các Bạn Tử đạo",
+    "summary_vi": "Kỷ niệm này tôn kính các Tử đạo Việt Nam, dẫn đầu là Thánh Anrê Dũng-Lạc, những người đã hiến mạng sống vì đức tin vào các thế kỷ 18 và 19. Chứng tá kiên vững của họ trước sự bách hại khốc liệt được tưởng nhớ để khích lệ Giáo hội hoàn vũ. Màu phụng vụ đỏ tượng trưng cho hy sinh của những chứng nhân cho Đức Kitô.",
+    "body_vi": "Thánh Anrê Dũng-Lạc và các bạn đồng hành, bao gồm Thánh Phaolô Lê Bảo Tịnh, đã chịu đựng những cuộc tra tấn và giam cầm tàn khốc dưới thời nhà Nguyễn. Mặc dù đau khổ, họ đã từ chối chối bỏ đức tin của mình, giữ vững lòng sùng kính Thiên Chúa cho đến chết. Sự tử đạo của họ vẫn là một chứng tá mạnh mẽ cho sự lan rộng của Kitô giáo ở châu Á.\n\nGiáo hội tưởng nhớ họ không chỉ vì sự thánh thiện cá nhân mà còn vì chứng tá tập thể của Giáo hội Việt Nam sơ khai. Câu chuyện của họ minh họa sức mạnh tìm thấy trong cộng đoàn và lời cầu nguyện trong thời điểm thử thách. Kỷ niệm này mời gọi các tín hữu suy ngẫm về giá trị của sự kiên nhẫn và hy vọng vượt qua những đau khổ trần thế.",
+    "confidence_note_vi": "Lễ này là một kỷ niệm cố định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chứng nhân Đức tin: Các Thánh Tử đạo Việt Nam",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con lòng can đảm của các tử đạo để đứng vững trong đức tin giữa những thử thách."
+  }
+}

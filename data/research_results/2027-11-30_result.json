@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-30",
+  "date": "2027-11-30",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "St. Andrew the Apostle",
+    "title_vi": "Thánh Anrê, Tông đồ"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "St. Andrew the Apostle",
+    "title_vi": "Thánh Anrê, Tông đồ",
+    "summary_en": "St. Andrew, the brother of Simon Peter, is celebrated as a Feast in the General Roman Calendar on November 30. As one of the first disciples called by Jesus, Andrew is known for bringing others to Christ, most notably his brother Peter. He was martyred in Patras, Greece, according to tradition, which holds that he was crucified on an X-shaped cross.",
+    "summary_vi": "Thánh Anrê, anh em của Simon Phêrô, được cử hành như một Lễ trong Lịch Rôma Chung vào ngày 30 tháng 11. Là một trong những môn đệ đầu tiên được Chúa Giêsu kêu gọi, Anrê nổi tiếng với việc dẫn dắt người khác đến với Chúa Kitô, đặc biệt là anh trai ông là Phêrô. Theo truyền thống, ông đã tử đạo tại Patras, Hy Lạp, nơi ông bị đóng đinh trên thập tự giá hình chữ X.",
+    "body_en": "Andrew was a fisherman from Bethsaida and a disciple of John the Baptist before following Jesus. He played a crucial role in the early Church as a bridge between the Jewish followers of Jesus and the Hellenistic world, embodying the universality of the Christian message. His name means 'manly' or 'brave' in Greek, reflecting his steadfastness in faith and his willingness to suffer for the Gospel.\n\nThe liturgical readings for this Feast often focus on the call of the disciples and the role of Andrew in bringing his brother to Jesus. He is remembered not just for his own faith but for his active participation in the mission of Christ, serving as a model for evangelization and fraternal charity in the Church.",
+    "body_vi": "Anrê là một ngư dân đến từ Bethsaida và là môn đệ của Gioan Tẩy Giả trước khi theo Chúa Giêsu. Ông đóng một vai trò quan trọng trong Giáo hội sơ khai như một cây cầu giữa những người Do Thái theo Chúa Giêsu và thế giới Hy Lạp, thể hiện tính phổ quát của sứ điệp Kitô giáo. Tên của ông có nghĩa là 'nam tính' hoặc 'can đảm' trong tiếng Hy Lạp, phản ánh sự kiên định trong đức tin và sẵn sàng chịu khổ vì Tin Mừng.\n\nCác bài đọc phụng vụ trong Lễ này thường tập trung vào lời kêu gọi các môn đệ và vai trò của Anrê trong việc dẫn anh trai mình đến với Chúa Giêsu. Ông được tưởng nhớ không chỉ vì đức tin cá nhân mà còn vì sự tham gia tích cực vào sứ vụ của Chúa Kitô, là mẫu mực cho việc loan báo Tin Mừng và đức bác ái huynh đệ trong Giáo hội.",
+    "confidence": "confirmed",
+    "confidence_note_en": "November 30 is fixed as the Feast of St. Andrew the Apostle in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày 30 tháng 11 được cố định là Lễ Thánh Anrê, Tông đồ trong Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Lead others to the Master",
+    "hero_line_vi": "Dẫn đưa người khác đến với Thầy",
+    "prayer_prompt_en": "Pray for the courage to introduce others to Jesus in daily life.",
+    "prayer_prompt_vi": "Hãy cầu nguyện để có lòng can đảm giới thiệu người khác đến với Chúa Giêsu trong cuộc sống hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/113027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=230",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-17",
+    "hebrew": "30 Cheshvan 5788",
+    "islamic_umm_al_qura": "2 Rajab 1449 AH",
+    "coptic": "20 Hathor 1744",
+    "ethiopian": "20 Hidar 2020"
+  }
+}

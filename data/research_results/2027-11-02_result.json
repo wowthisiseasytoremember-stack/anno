@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-02",
+  "date": "2027-11-02",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "purple",
+    "title_en": "The Commemoration of All the Faithful Departed (All Souls)",
+    "title_vi": "Lễ Các Đẳng Linh Hồn (Lễ Cầu Cho Các Tín Hữu Đã Qua Đời)"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "The Commemoration of All the Faithful Departed (All Souls)",
+    "title_vi": "Lễ Các Đẳng Linh Hồn (Lễ Cầu Cho Các Tín Hữu Đã Qua Đời)",
+    "summary_en": "This day is dedicated to praying for the souls of the faithful who have died. The Church intercedes for them as they undergo purification before entering heaven. Priests traditionally celebrate three Masses on this day.",
+    "summary_vi": "Ngày này dành riêng để cầu nguyện cho linh hồn của các tín hữu đã qua đời. Hội Thánh cầu thay cho họ khi họ đang được thanh luyện trước khi vào Thiên Đàng. Các linh mục thường dâng ba thánh lễ trong ngày này.",
+    "body_en": "The Commemoration of All the Faithful Departed follows the celebration of All Saints. While All Saints focuses on the Church Triumphant in heaven, All Souls focuses on the Church Suffering in Purgatory. The faithful are encouraged to visit cemeteries and pray for their deceased relatives.\n\nThe liturgical color is purple, signifying penance and hope. This practice dates back to the early centuries of the Church, where prayers for the dead were common. The teaching that the living can assist the dead through prayer, almsgiving, and sacrificial offerings is rooted in Sacred Tradition and Scripture.",
+    "body_vi": "Lễ nhớ Tất Cả Các Tín Hữu Đã Qua Đời tiếp sau lễ Các Thánh. Trong khi lễ Các Thánh tập trung vào Hội Thánh Chiến Thắng trên trời, lễ Các Đẳng Linh Hồn tập trung vào Hội Thánh Đau Khổ tại Luyện Ngục. Các tín hữu được khuyến khích viếng nghĩa trang và cầu nguyện cho người thân đã mất.\n\nMàu phụng vụ là màu tím, biểu tượng cho sám hối và hy vọng. Thực hành này có nguồn gốc từ những thế kỷ đầu của Hội Thánh, khi việc cầu nguyện cho người chết rất phổ biến. Giáo huấn rằng người sống có thể trợ giúp người chết qua lời cầu nguyện, việc bố thí và hy lễ được bắt nguồn từ Thánh Truyền và Kinh Thánh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This feast is fixed on November 2 in the General Roman Calendar and is a day of prayer for the dead.",
+    "confidence_note_vi": "Lễ này được ấn định cố định vào ngày 2 tháng 11 trong Lịch Phụng Vụ Roma và là ngày cầu nguyện cho người đã khuất."
+  },
+  "app_hooks": {
+    "hero_line_en": "Pray for the Souls in Purgatory",
+    "hero_line_vi": "Cầu nguyện cho các Linh Hồn nơi Luyện Ngục",
+    "prayer_prompt_en": "Grant them eternal rest, O Lord.",
+    "prayer_prompt_vi": "Xin cho họ được nghỉ yên muôn đời, lạy Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Readings for November 2",
+      "url": "https://bible.usccb.org/bible/readings/110227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture: Calendar for November 2",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?name=1102",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-20",
+    "hebrew": "2 Cheshvan 5788",
+    "islamic_umm_al_qura": "3 Jumada al-Thani 1449 AH",
+    "coptic": "22 Paopi 1744",
+    "ethiopian": "22 Tikemet 2020"
+  }
+}

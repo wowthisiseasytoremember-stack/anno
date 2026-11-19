@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 32 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 32 Mùa Thường Niên",
+    "summary_vi": "Ngày này là Thứ Bảy tuần 32 Mùa Thường Niên. Không có lễ nhớ buộc hay lễ trọng nào thay thế phụng vụ ngày thường. Trọng tâm phụng vụ vẫn là câu chuyện tiệm tiến của Mùa Thường Niên trong mùa phụng vụ xanh.",
+    "body_vi": "Hội Thánh cử hành ngày này như một ngày thường, nghĩa là phụng vụ ngày thường diễn ra theo bài đọc và các giờ kinh phụng vụ tiêu chuẩn mà không thêm các lời nguyện riêng của các thánh trừ khi chúng là tùy chọn.\n\nMàu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng của Nước Thiên Chúa, tiếp tục trong giai đoạn này của Mùa Thường Niên trước khi năm phụng vụ kết thúc.",
+    "confidence_note_vi": "Lịch phụng vụ chung La Mã không gán bất kỳ lễ buộc nào cho ngày này, giữ nguyên nó như một ngày thường tiêu chuẩn trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Niềm Hy Vọng của Mùa Thường Niên",
+    "prayer_prompt_vi": "Cầu nguyện cho sự kiên định trong đức tin khi năm phụng vụ gần kết thúc."
+  }
+}

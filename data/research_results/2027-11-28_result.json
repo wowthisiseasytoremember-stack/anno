@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-11-28",
+  "date": "2027-11-28",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "First Sunday of Advent",
+    "title_vi": "Chúa Nhật I Mùa Vọng",
+    "summary_en": "The First Sunday of Advent marks the beginning of the liturgical year and the season of Advent. It is a time for preparation and anticipation of the coming of Christ. The liturgical color is purple, symbolizing penance and expectation. This Sunday sets the spiritual tone for the entire liturgical year.",
+    "summary_vi": "Chúa Nhật I Mùa Vọng đánh dấu sự khởi đầu của năm phụng vụ và mùa Vọng. Đây là thời gian chuẩn bị và mong chờ ngày Chúa Kitô đến. Màu phụng vụ là màu tím, biểu tượng cho sự sám hối và trông đợi. Chúa nhật này thiết lập tông điệu tinh thần cho toàn bộ năm phụng vụ.",
+    "body_en": "The First Sunday of Advent is a solemn occasion that initiates the new liturgical cycle in the Roman Rite. It serves as a spiritual threshold, inviting the faithful to step away from the ordinary rhythm of life and enter into a sacred time of waiting and hope. The focus is dual: looking back at the historical Incarnation and looking forward to the eschatological return of Christ. This dual perspective frames the entire season, reminding believers that time is not linear but deeply theological, pointing towards fulfillment in God.\n\nDuring this Sunday, the liturgy emphasizes vigilance and readiness, drawing from the Gospel teachings on watching and waiting. The readings typically focus on the Second Coming of Christ and the call to live in a state of spiritual wakefulness. The Church uses this time to renew its commitment to the Gospel, urging the faithful to cleanse their hearts and minds. It is a moment of profound grace, where the weight of the past year is set aside, and a fresh hope is ignited in the hearts of the people of God.",
+    "body_vi": "Chúa Nhật I Mùa Vọng là một dịp long trọng khởi đầu chu kỳ phụng vụ mới trong Nghi lễ Rôma. Nó đóng vai trò như một ngưỡng cửa tâm linh, mời gọi các tín hữu bước ra khỏi nhịp sống thường nhật và bước vào một thời gian thánh thiện của sự chờ đợi và hy vọng. Tiêu điểm mang tính kép: nhìn lại biến cố Nhập Thể lịch sử và hướng tới cuộc quang lâm cánh chung của Chúa Kitô. Góc nhìn kép này bao trùm toàn bộ mùa phụng vụ, nhắc nhở các tín hữu rằng thời gian không chỉ là tuyến tính mà còn mang chiều kích thần học sâu sắc, hướng tới sự viên mãn trong Thiên Chúa.\n\nTrong ngày Chúa Nhật này, phụng vụ nhấn mạnh sự tỉnh thức và sẵn sàng, dựa trên những lời giảng dạy của Tin Mừng về việc canh thức và chờ đợi. Các bài đọc thường tập trung vào cuộc Quang Lâm của Chúa Kitô và lời kêu gọi sống trong trạng thái tỉnh thức thiêng liêng. Giáo hội sử dụng thời gian này để đổi mới cam kết với Tin Mừng, thúc giục các tín hữu thanh tẩy tâm hồn và trí tuệ. Đây là khoảnh khắc ân sủng sâu xa, khi gánh nặng của năm cũ được đặt sang một bên, và một niềm hy vọng mới được khơi dậy trong tâm hồn dân Chúa.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Begin the Liturgical Year with Hope",
+    "hero_line_vi": "Khởi đầu Năm Phụng Vụ với Niềm Hy Vọng",
+    "prayer_prompt_en": "Pray for vigilance and readiness for Christ's coming.",
+    "prayer_prompt_vi": "Cầu nguyện để luôn tỉnh thức và sẵn sàng đón Chúa Kitô."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/112827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican Liturgical Calendar",
+      "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+      "type": "vatican"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "The First Sunday of Advent is a fixed and solemn observance that always begins the liturgical year. The rank and color are standard.",
+  "confidence_note_vi": "Chúa Nhật I Mùa Vọng là ngày lễ cố định và long trọng khởi đầu năm phụng vụ. Cấp bậc và màu sắc phụng vụ là chuẩn mực.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-15",
+    "hebrew": "28 Cheshvan 5788",
+    "islamic_umm_al_qura": "29 Jumada al-Thani 1449 AH",
+    "coptic": "18 Hathor 1744",
+    "ethiopian": "18 Hidar 2020"
+  }
+}

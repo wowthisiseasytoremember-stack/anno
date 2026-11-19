@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Lêô Cả, Giáo hoàng, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Lêô Cả, Giáo hoàng, Tiến sĩ Hội Thánh",
+    "summary_vi": "Thánh Lêô Cả, sinh khoảng năm 400, được mừng kính ngày 10 tháng Mười Một như một trong những giáo hoàng vĩ đại nhất lịch sử Giáo hội. Ngài đóng vai trò then chốt trong Công đồng Chalcedon và bảo vệ học thuyết về hai bản tính của Chúa Kitô chống lại phái Đơn tính. Các bài viết và bài giảng của ngài vẫn là nền tảng cho thần học và phụng vụ Công giáo.",
+    "body_vi": "Lêô Cả giữ chức Giáo hoàng từ năm 440 đến 461, một giai đoạn đầy thách thức về thần học và chính trị. Ngài nổi tiếng với 'Tome của Lêô', một văn bản thần học làm sáng tỏ học thuyết về hai bản tính của Chúa Kitô, đóng vai trò then chốt tại Công đồng Chalcedon năm 451. Sự lãnh đạo của ngài giúp duy trì sự hiệp nhất của Giáo hội trong thời kỳ tranh luận thần học gay gắt và áp lực bên ngoài từ các cuộc xâm lược của dân man rợ.\n\nThánh Lêô cũng là một nhà văn và nhà hùng biện xuất sắc, các bài giảng của ngài cung cấp những cái nhìn sâu sắc về năm phụng vụ và giáo lý Kitô giáo. Sự nhấn mạnh của ngài về quyền tối thượng của Tòa Thánh Rôma và những nỗ lực ngoại giao, như cuộc gặp Attila the Hun năm 452, chứng tỏ vai trò của ngài vừa là lãnh đạo tinh thần vừa là nhà ngoại giao. Được phong thánh và tuyên phong là Tiến sĩ Hội Thánh năm 1754 bởi Đức Giáo hoàng Biển Đức XIV, di sản của ngài vẫn trường tồn trong giáo huấn và thực hành Công giáo.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Người bảo vệ Chân lý và Hiệp nhất: Di sản của Thánh Lêô Cả",
+    "prayer_prompt_vi": "Lạy Thánh Lêô Cả, xin cầu bầu cho sự hiệp nhất của Giáo hội và sự sáng suốt trong đức tin của chúng con."
+  }
+}

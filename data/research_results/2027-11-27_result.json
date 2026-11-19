@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-27",
+  "date": "2027-11-27",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 32",
+    "title_vi": "Thứ Bảy tuần 32 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 32",
+    "title_vi": "Thứ Bảy tuần 32 Mùa Thường Niên",
+    "summary_en": "This date marks a Saturday in the 32nd Week of Ordinary Time. There are no specific obligatory memorials or feasts that displace the weekday liturgy. The liturgical focus remains on the progressive narrative of Ordinary Time within the Green season.",
+    "summary_vi": "Ngày này là Thứ Bảy tuần 32 Mùa Thường Niên. Không có lễ nhớ buộc hay lễ trọng nào thay thế phụng vụ ngày thường. Trọng tâm phụng vụ vẫn là câu chuyện tiệm tiến của Mùa Thường Niên trong mùa phụng vụ xanh.",
+    "body_en": "The Church observes this day as a feria, meaning the weekday liturgy proceeds according to the standard lectionary and liturgical hour without the addition of a saint's specific proper prayers unless they are optional.\n\nThe color green signifies hope and the growth of the Kingdom of God, which continues during this later period of Ordinary Time before the conclusion of the liturgical year.",
+    "body_vi": "Hội Thánh cử hành ngày này như một ngày thường, nghĩa là phụng vụ ngày thường diễn ra theo bài đọc và các giờ kinh phụng vụ tiêu chuẩn mà không thêm các lời nguyện riêng của các thánh trừ khi chúng là tùy chọn.\n\nMàu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng của Nước Thiên Chúa, tiếp tục trong giai đoạn này của Mùa Thường Niên trước khi năm phụng vụ kết thúc.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The General Roman Calendar assigns no obligatory feast to this date, leaving it as a standard feria in Ordinary Time.",
+    "confidence_note_vi": "Lịch phụng vụ chung La Mã không gán bất kỳ lễ buộc nào cho ngày này, giữ nguyên nó như một ngày thường tiêu chuẩn trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the Hope of Ordinary Time",
+    "hero_line_vi": "Bước đi trong Niềm Hy Vọng của Mùa Thường Niên",
+    "prayer_prompt_en": "Pray for steadfastness in faith as the liturgical year nears its end.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự kiên định trong đức tin khi năm phụng vụ gần kết thúc."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings - November 27, 2027",
+      "url": "https://bible.usccb.org/bible/readings/112727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Saturday, Nov 27, 2027",
+      "url": "https://www.newadvent.org/cathen/11230b.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-14",
+    "hebrew": "27 Cheshvan 5788",
+    "islamic_umm_al_qura": "28 Jumada al-Thani 1449 AH",
+    "coptic": "17 Hathor 1744",
+    "ethiopian": "17 Hidar 2020"
+  }
+}

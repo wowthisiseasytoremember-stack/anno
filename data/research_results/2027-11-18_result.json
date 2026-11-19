@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-18",
+  "date": "2027-11-18",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 31",
+    "title_vi": "Thứ Năm tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the 31st Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần 31 Mùa Thường Niên",
+    "summary_en": "This day is a ferial day in Ordinary Time, characterized by the liturgical color green. It is a time for growth and faithfulness in the Christian life, following the Sundays of the week. There are no specific saint's memorials obligatory for this date in the General Roman Calendar. The liturgy focuses on the weekly cycle of readings and the Eucharistic sacrifice.",
+    "summary_vi": "Đây là ngày lễ trọng ngày trong Mùa Thường Niên, với màu xanh lá cây đặc trưng. Đây là thời gian của sự tăng trưởng và trung tín trong đời sống Kitô hữu, theo chu kỳ các ngày trong tuần. Không có lễ kính thánh nào bắt buộc trong ngày này theo Lịch Phụng vụ Rôma. Phụng vụ tập trung vào chu kỳ đọc Kinh Thánh hàng tuần và hy tế Thánh Thể.",
+    "body_en": "The liturgical season of Ordinary Time, from the Greek 'tempus per annum' meaning 'time through the year', is a time for Christians to grow in their faith and live out the Gospel in daily life. The color green symbolizes hope and life. On this Thursday, the Church invites the faithful to reflect on the teachings of Christ through the assigned readings, which are part of the continuous scriptural journey.\n\nAs a ferial day, the focus is on the personal and communal conversion that happens through the regular participation in the Mass and the Liturgy of the Hours. Without the specific celebration of a saint or feast, the attention remains on the fundamental mystery of the Church's prayer life and the steady progress of the faithful through the liturgical year.",
+    "body_vi": "Mùa Thường Niên, từ tiếng Hy Lạp 'tempus per annum' có nghĩa là 'thời gian xuyên suốt năm', là thời gian để các Kitô hữu tăng trưởng trong đức tin và sống Tin Mừng trong đời sống hàng ngày. Màu xanh lá cây tượng trưng cho niềm hy vọng và sự sống. Vào Thứ Năm này, Giáo hội mời gọi các tín hữu suy gẫm lời giáo huấn của Chúa Kitô qua các bài đọc được chỉ định, một phần của hành trình Kinh Thánh liên tục.\n\nLà một ngày thường, trọng tâm là sự hoán cải cá nhân và cộng đoàn diễn ra qua việc tham dự thường xuyên Thánh lễ và Phụng vụ Giờ Kinh. Không có lễ kính thánh hay lễ trọng cụ thể, sự chú ý vẫn ở lại với mầu nhiệm nền tảng của đời sống cầu nguyện của Giáo hội và sự tiến bộ đều đặn của các tín hữu qua năm phụng vụ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith through the steady rhythm of Ordinary Time.",
+    "hero_line_vi": "Tăng trưởng trong đức tin qua nhịp điệu ổn định của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me live your Gospel faithfully in my daily actions.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con sống Tin Mừng của Chúa cách trung tín trong các hành động hàng ngày của con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for November 18, 2027",
+      "url": "https://bible.usccb.org/bible/readings/111827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints Calendar",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=0&date=11-18",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-05",
+    "hebrew": "18 Cheshvan 5788",
+    "islamic_umm_al_qura": "19 Jumada al-Thani 1449 AH",
+    "coptic": "8 Hathor 1744",
+    "ethiopian": "8 Hidar 2020"
+  }
+}

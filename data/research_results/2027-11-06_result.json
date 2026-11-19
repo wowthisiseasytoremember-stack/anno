@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-06",
+  "date": "2027-11-06",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 29",
+    "title_vi": "Thứ Bảy tuần 29 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 29",
+    "title_vi": "Thứ Bảy tuần 29 Mùa Thường Niên",
+    "summary_en": "This day is a feria in Ordinary Time, focusing on the growth of the Kingdom of God. The liturgical color green signifies hope and spiritual growth. No obligatory memorial is celebrated, allowing for free choice of readings.",
+    "summary_vi": "Ngày này là ngày thường trong Mùa Thường Niên, tập trung vào sự phát triển của Nước Thiên Chúa. Màu xanh phụng vụ tượng trưng cho niềm hy vọng và sự tăng trưởng thiêng liêng. Không có lễ nhớ bắt buộc nào được cử hành, cho phép tự do chọn lựa các bài đọc.",
+    "body_en": "The liturgy for this Saturday emphasizes the continuous nature of Christian life outside of specific seasonal celebrations. It invites the faithful to reflect on the teachings of Christ as presented in the Gospel readings of the current week. The focus remains on sanctification and living out the Beatitudes in daily life.\n\nIn the absence of a specific saint's memorial, the priest may offer Mass for the dead or for various intentions. This flexibility highlights the universal nature of the Church's prayer. The faithful are encouraged to maintain a spirit of humility and service, aligned with the ordinary rhythm of the liturgical year.",
+    "body_vi": "Phụng vụ cho ngày Thứ Bảy này nhấn mạnh vào tính chất liên tục của đời sống Kitô hữu bên ngoài các lễ hội theo mùa cụ thể. Nó mời gọi các tín hữu suy ngẫm về những lời giảng dạy của Chúa Kitô được trình bày trong các bài Tin Mừng của tuần hiện tại. Trọng tâm vẫn là sự thánh hóa và sống theo các Mối Phúc Thật trong cuộc sống hàng ngày.\n\nTrong khi không có lễ nhớ thánh cụ thể, linh mục có thể dâng lễ cầu cho các tín hữu đã qua đời hoặc cho các ý hướng khác. Sự linh hoạt này làm nổi bật tính phổ quát của lời cầu nguyện trong Giáo Hội. Các tín hữu được khuyến khích duy trì tinh thần khiêm tốn và phục vụ, phù hợp với nhịp điệu thường nhật của năm phụng vụ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in the quiet faithfulness of Ordinary Time.",
+    "hero_line_vi": "Hãy tăng trưởng trong sự trung tín âm thầm của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me find You in the ordinary moments of my day. Grant me the patience to grow steadily in grace.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong những khoảnh khắc bình thường của ngày sống. Xin ban cho con sự kiên nhẫn để tăng trưởng vững chắc trong ân sủng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/110627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/06317a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-24",
+    "hebrew": "6 Cheshvan 5788",
+    "islamic_umm_al_qura": "7 Jumada al-Thani 1449 AH",
+    "coptic": "26 Paopi 1744",
+    "ethiopian": "26 Tikemet 2020"
+  }
+}

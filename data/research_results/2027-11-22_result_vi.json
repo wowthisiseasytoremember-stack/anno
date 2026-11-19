@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Cêcilia, Trinh nữ, Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Cêcilia, Trinh nữ, Tử đạo",
+    "summary_vi": "Thánh Cêcilia được mừng kính vào ngày 22 tháng 11 với tư cách là bổn mạng của âm nhạc và các nhạc sĩ. Ngài được tôn kính vì đức tin kiên định và lời khước từ thỏa hiệp với các lời khấn Kitô giáo mặc dù bị bách hại. Lễ mừng kính của ngài mời gọi các tín hữu suy gẫm về sự hài hòa giữa lòng đạo đức tâm linh và cuộc sống hàng ngày.",
+    "body_vi": "Thánh Cêcilia là một trong những vị tử đạo Kitô giáo sơ khai được tôn kính nhất, gắn liền truyền thống với thành Rôma. Theo sách thánh ký, ngài đã hát trong lòng với Chúa, ngay cả khi các nhạc cụ đang chơi xung quanh, một cử chỉ đã thiết lập ngài như bổn mạng của âm nhạc. Sự tử đạo của ngài được cho là đã kéo dài trong nhiều ngày, chịu đựng ba lần bị xử tử trước khi cuối cùng được chôn cất trong các hang toại đạo.\n\nTrong lịch phụng vụ Rôma, kỷ niệm của ngài phục vụ như một lời nhắc nhở sâu sắc về sức mạnh của cầu nguyện và lòng đạo đức nội tâm. Giáo hội tôn vinh ngài không chỉ vì sự hy sinh thể xác mà còn vì vẻ đẹp tâm hồn, đã hòa điệu với chân lý thần linh. Di sản của ngài tiếp tục truyền cảm hứng cho các nghệ sĩ, nhạc sĩ và tín hữu tìm kiếm sự hoàn hảo trong các ơn gọi tương ứng của họ qua ân sủng.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy ca ngợi Chúa bằng bài ca mới.",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để hát lên bài ca mới của đức tin giữa những ồn ào của cuộc sống."
+  }
+}

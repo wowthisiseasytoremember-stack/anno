@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-11-25",
+  "date": "2027-11-25",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 32",
+    "title_vi": "Thứ Năm tuần 32 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of Ordinary Time, Week 32",
+    "title_vi": "Thứ Năm tuần 32 Mùa Thường Niên",
+    "summary_en": "The liturgical focus is a standard Feria in Ordinary Time. The color is green, symbolizing growth and hope. There are no obligatory feasts or memorials that take precedence on this day in the General Roman Calendar. The Church reflects on the teachings of Christ through the daily readings.",
+    "summary_vi": "Trọng tâm phụng vụ là một ngày thường trong Mùa Thường Niên. Màu phụng vụ là màu xanh, tượng trưng cho sự tăng trưởng và niềm hy vọng. Không có lễ trọng hay lễ nhớ nào bắt buộc thay thế ngày này trong Lịch Phụng vụ Rôma. Hội Thánh suy ngẫm lời Chúa Kitô qua các bài đọc hàng ngày.",
+    "body_en": "On Thursday, November 25, 2027, the Church observes a standard weekday in the liturgical season of Ordinary Time. This period, occurring in the latter part of the liturgical year, invites the faithful to listen to the Gospel and to put into practice the teachings of Jesus. Since there are no higher-ranking celebrations in the General Roman Calendar for this specific date, the weekday Mass follows the standard format for the week.\n\nThe readings assigned for this Thursday serve as a reminder of the Christian journey through time. While the liturgical color is green, indicating hope and the steady growth of the Church, the focus remains on the ongoing conversion and discipleship. Prayers and readings from the Lectionary guide the community in deepening their relationship with God during this ordinary yet sacred time.",
+    "body_vi": "Vào Thứ Năm, ngày 25 tháng 11 năm 2027, Hội Thánh cử hành một ngày thường tiêu chuẩn trong Mùa Thường Niên. Giai đoạn này, diễn ra vào phần sau của năm phụng vụ, mời gọi các tín hữu lắng nghe Tin Mừng và thực hành những giáo huấn của Chúa Giêsu. Vì không có lễ mừng nào có bậc cao hơn trong Lịch Phụng vụ Rôma cho ngày cụ thể này, Thánh lễ ngày thường tuân theo định dạng chuẩn của tuần.\n\nCác bài đọc được chỉ định cho Thứ Năm này nhắc nhở về hành trình Kitô hữu qua thời gian. Trong khi màu phụng vụ là màu xanh, chỉ sự hy vọng và sự tăng trưởng ổn định của Hội Thánh, trọng tâm vẫn là việc hoán cải và làm môn đệ liên lỉ. Các lời cầu nguyện và bài đọc từ Sách Bài Đọc hướng dẫn cộng đoàn trong việc đào sâu mối tương quan với Thiên Chúa trong thời gian bình thường nhưng linh thánh này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is verified against the General Roman Calendar as a weekday in Ordinary Time with no specific universal saint feast requiring a change in rank or color.",
+    "confidence_note_vi": "Ngày này được xác minh theo Lịch Phụng vụ Rôma là một ngày thường trong Mùa Thường Niên, không có lễ thánh cụ thể nào yêu cầu thay đổi bậc hay màu sắc phụng vụ."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Hope during Ordinary Time",
+    "hero_line_vi": "Bước đi trong Hy vọng giữa Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help me to listen and to act on Your Word today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe và thực hành Lời Chúa hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/112527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - Saints and Liturgical Calendar",
+      "url": "https://catholicculture.org/culture/liturgicalcalendar/view.cfm?year=2027",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/11511a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-12",
+    "hebrew": "25 Cheshvan 5788",
+    "islamic_umm_al_qura": "26 Jumada al-Thani 1449 AH",
+    "coptic": "15 Hathor 1744",
+    "ethiopian": "15 Hidar 2020"
+  }
+}

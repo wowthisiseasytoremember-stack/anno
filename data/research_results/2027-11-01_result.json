@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-01",
+  "date": "2027-11-01",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "All Saints",
+    "title_vi": "Đại Lễ Các Thánh Nam Nữ"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Solemnity of All Saints",
+    "title_vi": "Đại Lễ Các Thánh Nam Nữ",
+    "summary_en": "The Solemnity of All Saints is a major feast day in the Catholic Church, honoring all the faithful departed who are in Heaven. It serves as a universal celebration of the communion of saints, encompassing both known and unknown martyrs and holy men and women. This day calls the Church Militant to reflect on the final destination of human life and to seek the intercession of the Saints.",
+    "summary_vi": "Đại lễ Các Thánh Nam Nữ là một ngày lễ trọng trong Giáo hội Công giáo, tôn kính tất cả các tín hữu đã qua đời đang hưởng phúc Thiên đàng. Đây là dịp cử hành phổ quát về sự hiệp thông các thánh, bao gồm cả những vị tử đạo và những người nam nữ thánh thiện đã được biết đến hoặc chưa được biết đến. Ngày này mời gọi Giáo hội Chiến đấu suy niệm về đích đến tối hậu của đời sống con người và tìm kiếm sự cầu bầu của các Thánh.",
+    "body_en": "The Solemnity of All Saints highlights the ultimate destiny of every Christian: to join the glorious company of the Saints in Heaven. While specific saints are celebrated on their respective feast days, this universal feast acknowledges the countless number of those who have attained the Beatific Vision, many of whom remain unnamed in history but shine in God's love. The liturgical color white signifies the glory, purity, and joy associated with this heavenly reality, reminding the faithful that holiness is the common vocation of all believers.\n\nHistorically, the celebration of all saints grew from the early Christian practice of honoring martyrs. By the Middle Ages, it had become a fixed universal feast in the Latin Church, emphasizing the communal nature of salvation. Today, it serves as a powerful reminder that the Church is a single family spanning time, where the faithful on earth are spiritually united with the triumphant Church in Heaven, supported by the prayers of the saints and sharing in the one Body of Christ.",
+    "body_vi": "Đại lễ Các Thánh Nam Nữ nhấn mạnh đến đích đến tối hậu của mỗi Kitô hữu: gia nhập vào cộng đoàn vinh quang của các Thánh trên Thiên đàng. Trong khi các vị thánh cụ thể được kính nhớ vào ngày lễ riêng của các ngài, lễ hội phổ quát này thừa nhận số lượng vô vàn những người đã được hưởng kiến Thiên Chúa, nhiều người trong số họ không được nêu tên trong lịch sử nhưng vẫn tỏa sáng trong tình yêu của Thiên Chúa. Màu sắc phụng vụ trắng tượng trưng cho vinh quang, sự tinh tuyền và niềm vui liên quan đến thực tại thiên quốc này, nhắc nhở các tín hữu rằng sự thánh thiện là ơn gọi chung của mọi tín hữu.\n\nVề mặt lịch sử, việc cử hành lễ Các Thánh phát triển từ thực hành của Kitô hữu sơ khai trong việc tôn kính các vị tử đạo. Vào thời Trung Cổ, ngày lễ này đã trở thành một lễ hội cố định phổ quát trong Giáo hội Latinh, nhấn mạnh đến tính chất cộng đoàn của ơn cứu độ. Ngày nay, nó là một lời nhắc nhở mạnh mẽ rằng Giáo hội là một gia đình duy nhất vượt qua thời gian, nơi những tín hữu trên trần gian được hiệp nhất về mặt tâm linh với Giáo hội Khải hoàn trên Thiên đàng, được nâng đỡ bởi lời cầu nguyện của các thánh và cùng chia sẻ trong Thân Thể duy nhất của Chúa Kitô.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This date and rank are fixed in the General Roman Calendar of the Catholic Church as the Solemnity of All Saints.",
+    "confidence_note_vi": "Ngày và bậc lễ này được xác định trong Lịch phụng vụ Roma của Giáo hội Công giáo là Đại lễ Các Thánh Nam Nữ."
+  },
+  "app_hooks": {
+    "hero_line_en": "Celebrating the communion of all the Saints in Heaven.",
+    "hero_line_vi": "Cử hành sự hiệp thông của tất cả các Thánh trên Thiên đàng.",
+    "prayer_prompt_en": "Pray for the intercession of All Saints to help you live a holy life today.",
+    "prayer_prompt_vi": "Cầu xin sự cầu bầu của Các Thánh để giúp bạn sống đời thánh thiện hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/110127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2027-11-01",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-19",
+    "hebrew": "1 Cheshvan 5788",
+    "islamic_umm_al_qura": "2 Jumada al-Thani 1449 AH",
+    "coptic": "21 Paopi 1744",
+    "ethiopian": "21 Tikemet 2020"
+  }
+}

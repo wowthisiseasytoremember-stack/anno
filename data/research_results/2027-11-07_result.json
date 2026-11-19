@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-07",
+  "date": "2027-11-07",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 30",
+    "title_vi": "Chúa Nhật tuần 30 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Sunday of Ordinary Time, Week 30",
+    "title_vi": "Chúa Nhật tuần 30 Mùa Thường Niên",
+    "summary_en": "This Sunday marks the thirtieth week in Ordinary Time, focusing on the Christian walk in the Spirit. The liturgical color is green, symbolizing hope and growth in the faith. The readings for this cycle, Year C, emphasize the importance of humility and prayerful vigilance.",
+    "summary_vi": "Chúa Nhật này đánh dấu tuần thứ ba mươi trong Mùa Thường Niên, tập trung vào bước đi của Kitô hữu trong Thần Khí. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin. Các bài đọc của chu kỳ này, Năm C, nhấn mạnh tầm quan trọng của sự khiêm nhường và tỉnh thức cầu nguyện.",
+    "body_en": "In the General Roman Calendar, Sunday is the primary day of Christian assembly, and Ordinary Time serves as the backbone of the liturgical year. Week 30 specifically invites the faithful to reflect on the Parable of the Pharisee and the Tax Collector, highlighting that true justification comes from humility before God rather than self-righteousness. This theme aligns with the broader narrative of Luke's Gospel, where Jesus teaches the importance of persistent prayer and childlike trust.\n\nThe liturgical observance of this Sunday is confirmed by its placement in the temporal cycle, which takes precedence over any optional memorials that may occur on the same date. The Church encourages the faithful to approach the Eucharist with a heart open to conversion, recognizing that spiritual growth is a gradual process. This period serves as a reminder that while we await the final resurrection, we are called to live authentically in the present moment.",
+    "body_vi": "Trong Lịch Rôma Tổng quát, Chúa Nhật là ngày họp mặt Kitô giáo chính yếu, và Mùa Thường Niên đóng vai trò là trụ cột của năm phụng vụ. Tuần 30 cụ thể mời gọi các tín hữu suy ngẫm về Dụ ngôn Người Pha-ri-sêu và Người Thu Thuế, làm nổi bật rằng sự công chính hóa đích thực đến từ sự khiêm nhường trước Thiên Chúa chứ không phải từ sự công chính của chính mình. Chủ đề này phù hợp với tường thuật rộng lớn hơn của Tin Mừng Luca, nơi Chúa Giêsu dạy về tầm quan trọng của việc cầu nguyện kiên trì và lòng tin tưởng đơn sơ.\n\nViệc cử hành phụng vụ của Chúa Nhật này được xác nhận bởi vị trí của nó trong chu kỳ thời gian, ưu tiên hơn bất kỳ việc kính nhớ tùy chọn nào có thể xảy ra vào cùng ngày. Giáo hội khuyến khích các tín hữu đến với Bí tích Thánh Thể với tâm hồn mở rộng cho sự hoán cải, nhận ra rằng sự tăng trưởng tâm linh là một quá trình từ từ. Thời kỳ này nhắc nhở chúng ta rằng trong khi chờ đợi sự phục sinh cuối cùng, chúng ta được mời gọi sống đích thực trong khoảnh khắc hiện tại.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls on a Sunday in Ordinary Time, Week 30, Year C. Sundays take precedence over saints' memorials in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày này rơi vào Chúa Nhật tuần 30 Mùa Thường Niên, Năm C. Trong Lịch Rôma Tổng quát, ngày Chúa Nhật được ưu tiên hơn các việc kính nhớ các thánh."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in Humility, Pray with Trust",
+    "hero_line_vi": "Sống Khiêm Nhường, Cầu Nguyện với Lòng Tin",
+    "prayer_prompt_en": "Lord, grant me the humility of the tax collector and the perseverance to pray without ceasing.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khiêm nhường của người thu thuế và lòng kiên trì cầu nguyện không ngừng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings 11/07/27",
+      "url": "https://bible.usccb.org/bible/readings/110727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Liturgical Calendar 2027",
+      "url": "https://www.catholicculture.org/culture/liturgical-calendar/year-view.cfm?Year=2027",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-25",
+    "hebrew": "7 Cheshvan 5788",
+    "islamic_umm_al_qura": "8 Jumada al-Thani 1449 AH",
+    "coptic": "27 Paopi 1744",
+    "ethiopian": "27 Tikemet 2020"
+  }
+}

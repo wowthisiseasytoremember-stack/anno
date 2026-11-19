@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-11-03",
+  "date": "2027-11-03",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 29",
+    "title_vi": "Thứ Tư tuần 29 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of the Twenty-Ninth Week in Ordinary Time",
+    "title_vi": "Thứ Tư Tuần XXIX Mùa Thường Niên",
+    "summary_en": "This day is a feria in Ordinary Time, characterized by the color green which signifies hope and growth. The liturgical focus is on the faithful living out the teachings of Christ in daily life. No specific saint or major feast takes precedence over the weekday liturgy in the current calendar.",
+    "summary_vi": "Ngày này là ngày trong tuần Mùa Thường Niên, với màu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng. Trọng tâm phụng vụ là đời sống đức tin của các tín hữu trong việc thực thi lời dạy của Chúa Kitô. Không có ngày lễ trọng hay thánh tử đạo nào được ưu tiên thay thế cho phụng vụ ngày thường trong lịch hiện hành.",
+    "body_en": "As a feria in Ordinary Time, the liturgy directs the faithful to reflect on the Gospel readings assigned to this week. The emphasis is on spiritual growth and the application of faith in everyday circumstances. Without a specific patronal feast, the focus remains on the universal call to holiness and the steady progression of the liturgical year. The readings and prayers encourage perseverance and trust in God's providence as the year nears its conclusion.\n\nThe liturgical norms for this Wednesday ensure that the Word of God is central to the community's worship. The absence of a high-ranking feast means the ordinary cycle of prayers and psalms takes full effect. This time is intended for quiet reflection and adherence to the teachings received during the preceding seasons. The Church invites believers to examine their lives in light of the Gospel, fostering a deeper interior conversion.",
+    "body_vi": "Là một ngày trong tuần Mùa Thường Niên, phụng vụ hướng các tín hữu suy niệm về các bài đọc Tin Mừng được chỉ định cho tuần này. Trọng tâm là sự tăng trưởng thiêng liêng và việc áp dụng đức tin trong các hoàn cảnh hàng ngày. Không có ngày lễ thánh bổn mạng cụ thể, do đó trọng tâm vẫn là lời kêu gọi phổ quát hướng tới sự thánh thiện và tiến trình ổn định của năm phụng vụ. Các bài đọc và lời cầu nguyện khuyến khích sự kiên trì và tín thác vào quan phòng của Thiên Chúa khi năm phụng vụ sắp kết thúc.\n\nCác quy tắc phụng vụ cho Thứ Tư này đảm bảo rằng Lời Chúa là trung tâm trong thờ phượng của cộng đoàn. Sự vắng mặt của các ngày lễ trọng nghĩa là chu kỳ cầu nguyện và Thánh vịnh thường nhật có hiệu lực đầy đủ. Thời gian này nhằm mục đích suy niệm tĩnh lặng và tuân giữ các giáo huấn đã đón nhận trong các mùa phụng vụ trước đó. Giáo Hội mời gọi người tin suy xét đời sống của mình dưới ánh sáng Tin Mừng, cổ vũ sự hoán cải nội tâm sâu sắc hơn.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "Confirmed as a standard weekday feria in Ordinary Time (Week 29) based on the liturgical calendar for 2027.",
+  "confidence_note_vi": "Xác nhận là ngày trong tuần thường lệ Mùa Thường Niên (Tuần 29) dựa trên lịch phụng vụ năm 2027.",
+  "app_hooks": {
+    "hero_line_en": "Growing in faith during Ordinary Time",
+    "hero_line_vi": "Tăng trưởng trong đức tin giữa Mùa Thường Niên",
+    "prayer_prompt_en": "Ask for wisdom to apply the Gospel in daily life.",
+    "prayer_prompt_vi": "Xin ơn khôn ngoan để áp dụng Tin Mừng vào cuộc sống hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/110327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-21",
+    "hebrew": "3 Cheshvan 5788",
+    "islamic_umm_al_qura": "4 Jumada al-Thani 1449 AH",
+    "coptic": "23 Paopi 1744",
+    "ethiopian": "23 Tikemet 2020"
+  }
+}

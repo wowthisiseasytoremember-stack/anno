@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-14",
+  "date": "2027-11-14",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 31",
+    "title_vi": "Chúa Nhật tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Sunday of Ordinary Time, Week 31",
+    "title_vi": "Chúa Nhật tuần 31 Mùa Thường Niên",
+    "summary_en": "This Sunday marks the thirty-first week of Ordinary Time in the liturgical calendar. The readings focus on the perseverance of the saints and the faithfulness of God, particularly highlighting the parable of the persistent widow and the tax collector. The liturgical color is green, symbolizing hope and growth in faith during the long stretch of Ordinary Time.",
+    "summary_vi": "Chúa Nhật này đánh dấu tuần thứ ba mươi mốt trong Mùa Thường Niên của lịch phụng vụ. Các bài đọc tập trung vào sự bền đỗ của các thánh và lòng trung tín của Thiên Chúa, đặc biệt nhấn mạnh vào dụ ngôn về người đàn bà góa kiên trì và người thu thuế. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin trong giai đoạn dài của Mùa Thường Niên.",
+    "body_en": "In the Gospel for the Thirty-First Sunday in Ordinary Time, Jesus teaches through parables that we must always pray and not lose heart. The parable of the persistent widow illustrates the necessity of constant prayer and trust in God's justice, contrasting it with the indifference of the unjust judge. This teaching serves as a spiritual anchor for the faithful during the late stages of the liturgical year, reminding them that prayer is not merely a request but a relationship sustained by perseverance.\n\nThe first reading from the Book of Exodus and the Psalm response reinforce the theme of God as a defender of the poor and the faithful. While the Church does not celebrate a specific saint's solemnity that overrides the Sunday, the day is dedicated to the general vocation of prayer and the humility of heart, exemplified in the parable of the Pharisee and the Tax Collector. This dual focus on persistence and humility prepares the faithful for the approaching end of the liturgical year and the coming of Advent.",
+    "body_vi": "Trong Tin Mừng cho Chúa Nhật thứ Ba Mươi Mốt Mùa Thường Niên, Chúa Giêsu dạy qua các dụ ngôn rằng chúng ta phải luôn luôn cầu nguyện và đừng nản lòng. Dụ ngôn về người đàn bà góa kiên trì minh họa sự cần thiết của việc cầu nguyện liên lỉ và tin tưởng vào công lý của Thiên Chúa, tương phản với sự thờ ơ của quan án bất công. Bài học này đóng vai trò như một neo tâm linh cho các tín hữu trong những giai đoạn cuối của năm phụng vụ, nhắc nhở họ rằng cầu nguyện không chỉ là lời thỉnh cầu mà là một mối tương quan được duy trì bằng sự bền đỗ.\n\nBài đọc đầu tiên từ sách Xuất Hành và bài đáp ca củng cố chủ đề Thiên Chúa là Đấng bảo vệ người nghèo và những người trung tín. Mặc dù Giáo hội không cử hành một thánh lễ trọng thể nào cụ thể nào thay thế ngày Chúa Nhật, nhưng ngày này dành cho ơn gọi chung về cầu nguyện và sự khiêm nhường của tâm hồn, được thể hiện trong dụ ngôn về người Pharisêu và người thu thuế. Sự tập trung kép vào sự kiên trì và khiêm nhường này chuẩn bị cho các tín hữu đón nhận thời gian kết thúc năm phụng vụ và mùa Vọng sắp tới.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Always Pray, Never Lose Heart",
+    "hero_line_vi": "Hãy cầu nguyện luôn, đừng nản lòng",
+    "prayer_prompt_en": "Reflect on a time you felt discouraged in prayer. How can persistence change your understanding of God's timing?",
+    "prayer_prompt_vi": "Hãy suy ngẫm về một lần bạn cảm thấy nản lòng trong cầu nguyện. Sự bền đỗ có thể thay đổi cách bạn hiểu về thời điểm của Thiên Chúa như thế nào?"
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/111427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Saints and Readings",
+      "url": "https://www.catholicculture.org/culture/liturgicalcalendar/date.cfm?date=11-14",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-01",
+    "hebrew": "14 Cheshvan 5788",
+    "islamic_umm_al_qura": "15 Jumada al-Thani 1449 AH",
+    "coptic": "4 Hathor 1744",
+    "ethiopian": "4 Hidar 2020"
+  }
+}

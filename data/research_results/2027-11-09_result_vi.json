@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Cung Hiến Vương Cung Thánh Đường Latêranô"
+  },
+  "primary": {
+    "title_vi": "Lễ Cung Hiến Vương Cung Thánh Đường Latêranô",
+    "summary_vi": "Ngày lễ kính nhớ việc cung hiến Vương cung thánh đường thánh Gioan Latêranô, nhà thờ chính tòa của Giám mục Rôma. Lễ này tưởng nhớ ngôi thánh đường được thánh hiến năm 324 sau Công nguyên, được mệnh danh là mẹ của mọi nhà thờ trên thế giới. Sự kiện này nhấn mạnh Giáo hội như một công trình thiêng liêng sống động của các tín hữu.",
+    "body_vi": "Vương cung thánh đường Latêranô, được xây dựng ban đầu dưới thời Giáo hoàng Silvêstê, là minh chứng cho sự chấp nhận Kitô giáo sơ khai trong Đế quốc La Mã. Đây là nhà thờ chính thức của Đức Giáo hoàng và là biểu tượng mạnh mẽ cho sự hiệp nhất Công giáo.\n\nTrong ngày lễ này, phụng vụ mời gọi các tín hữu suy niệm về đền thờ của Chúa. Trọng tâm chuyển từ cấu trúc vật chất sang công trình thiêng liêng của Giáo hội, nhắc nhở các tín hữu rằng họ là những viên đá sống động trong nhà của Thiên Chúa.",
+    "confidence_note_vi": "Lễ Cung Hiến Vương Cung Thánh Đường Latêranô là một ngày lễ cố định trong Lịch Rôma Tổng quát vào ngày 9 tháng 11."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Mừng Mẹ của mọi nhà thờ",
+    "prayer_prompt_vi": "Cầu nguyện cho sự hiệp nhất của Giáo hội và đức tin của các tín hữu trên toàn thế giới."
+  }
+}

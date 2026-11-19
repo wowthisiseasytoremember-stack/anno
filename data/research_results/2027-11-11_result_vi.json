@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Martinô thành Tours, Giám mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Martinô thành Tours, Giám mục",
+    "summary_vi": "Thánh Martinô thành Tours được kính nhớ như một giám mục và là một trong những vị thánh được tôn kính nhất của Giáo hội sơ khai. Sinh vào thế kỷ thứ tư, ngài nổi tiếng vì đức khiêm nhường và công cuộc truyền giáo cho dân Galia. Ngài đã phục vụ với tư cách là Giám mục của Tours và được cho là người du nhập lối sống đan tu vào phương Tây. Ngày lễ của ngài đánh dấu sự kết thúc mùa gặt và bắt đầu mùa chay mùa đông trong một số truyền thống.",
+    "body_vi": "Martinô thành Tours, sinh tại Pannonia vào khoảng năm 316 sau Công nguyên, bắt đầu sự nghiệp như một binh sĩ La Mã nhưng đã rời quân ngũ để theo đuổi đức tin Kitô giáo. Hành động bác ái nổi tiếng nhất của ngài là cắt đôi chiếc áo choàng quân nhân để chia sẻ với một người ăn xin tại Amiens. Sau sự kiện này, ngài được rửa tội và bắt đầu hành trình đào tạo tâm linh dưới sự hướng dẫn của Thánh Hilariô thành Poitiers. Sau này, ngài thành lập tu viện Liguge và trở thành Giám mục của Tours, nơi ngài làm việc không mệt mỏi để truyền giáo cho vùng nông thôn Galia và thiết lập các tu viện. Cuộc đời ngài là minh chứng cho sự hòa nhập giữa đức tin và hành động, cho thấy đức ái Kitô giáo có thể biến đổi xã hội như thế nào. Ngài được nhớ đến vì lòng nhiệt thành mục vụ, việc bảo vệ chính thống giáo chống lại thuyết Arius, và cam kết với người nghèo.\n\nDi sản của Thánh Martinô vượt ra ngoài thời đại của ngài, ảnh hưởng đến sự phát triển của đan tu phương Tây và lịch phụng vụ. Ngài là bổn mạng của quân nhân, người ăn xin và nước Pháp. Ngày lễ của ngài trước đây có ý nghĩa quan trọng như sự khởi đầu của mùa đông trong nhiều nền văn hóa châu Âu. Cuộc đời của Thánh Martinô vẫn tiếp tục truyền cảm hứng cho các tín hữu Công giáo sống đức tin với sự khiêm nhường và lòng can đảm. Gương mẫu của ngài nhắc nhở chúng ta rằng sức mạnh đích thực nằm ở sự dịu dàng và phục vụ người khác là hình thức thờ phượng cao cả nhất. Giáo hội tôn kính ngài ngày nay như một mẫu gương về lãnh đạo giám mục và lòng nhiệt thành tông đồ.",
+    "confidence_note_vi": "Lễ kính nhớ Thánh Martinô thành Tours là ngày cố định trong Lịch phụng vụ Rôma và được công nhận rộng rãi trong tất cả các nghi lễ. Các chi tiết lịch sử và thánh truyện nhất quán trong các nguồn Công giáo."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Cắt áo chia đôi, sẻ chia đức tin.",
+    "prayer_prompt_vi": "Chúa ơi, xin dạy con nhìn thấy Chúa nơi người nghèo."
+  }
+}
