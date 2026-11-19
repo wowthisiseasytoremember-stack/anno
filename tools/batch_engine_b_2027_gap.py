@@ -575,8 +575,10 @@ def main() -> None:
                         break
             if len(en.get("sources", [])) < 2:
                 raise RuntimeError(f"{d_str}: fewer than 2 live sources after 3 attempts; nothing written")
-            en.setdefault("id", f"anno-{d_str}")
-            en.setdefault("date", d_str)
+            # Date and id are deterministic; never trust the model for them. A wrong
+            # date collides on normalizer dedupe and silently drops a whole day.
+            en["id"] = f"anno-{d_str}"
+            en["date"] = d_str
             en.setdefault("mock_priority", "engine_b_v1")
             en["weekday"] = cur.strftime("%A")
             # Liturgical identity is deterministic from the seed, never from the LLM.

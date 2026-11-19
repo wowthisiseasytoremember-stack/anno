@@ -164,6 +164,14 @@ jobs:
       - name: Validate Swift fixture decode contract
         run: python3 tools/validate_fixture_decode.py --fixture Anno/Resources/anno_unified_2026.json
 
+      - name: Validate 2027 unified fixture (advisory)
+        run: python3 tools/validate_engine_b_output.py --fixture Anno/Resources/anno_unified_2027.json
+        # Content-quality gate stays advisory; the decode gate below is blocking.
+        continue-on-error: true
+
+      - name: Validate Swift fixture decode contract (2027)
+        run: python3 tools/validate_fixture_decode.py --fixture Anno/Resources/anno_unified_2027.json
+
       - name: Run Swift fixture decode contract regression tests
         run: python3 -m unittest discover -s tools -p 'test_validate_fixture_decode.py' -v
 
@@ -209,11 +217,20 @@ jobs:
       - name: Run normalizer
         run: python3 tools/normalize_fixture.py --year 2026
 
+      - name: Run 2027 normalizer
+        run: python3 tools/normalize_fixture.py --year 2027
+
       - name: Validate Swift fixture decode contract
         run: python3 tools/validate_fixture_decode.py --fixture Anno/Resources/anno_unified_2026.json
 
       - name: Validate Swift fixture decode contract (2027)
         run: python3 tools/validate_fixture_decode.py --fixture Anno/Resources/anno_unified_2027.json
+
+      - name: Check fixture freshness against research (2026)
+        run: python3 tools/validate_fixture_freshness.py --year 2026
+
+      - name: Check fixture freshness against research (2027)
+        run: python3 tools/validate_fixture_freshness.py --year 2027
 
       - name: Validate regenerated major-feast data and regression tests
         run: |
@@ -231,15 +248,16 @@ jobs:
           import json
           from pathlib import Path
 
-          path = Path("Anno/Resources/anno_unified_2026.json")
-          data = json.loads(path.read_text())
-          entries = data["entries"]
-          assert data["total_entries"] == len(entries) == 182
-          required = ("weekday", "calendars", "artwork", "mock_priority")
-          for entry in entries:
-              missing = [key for key in required if key not in entry]
-              assert not missing, f"{entry.get('id')}: missing {missing}"
-          print(f"normalized fixture OK: {len(entries)} entries")
+          for year, expected in ((2026, 182), (2027, 365)):
+              path = Path(f"Anno/Resources/anno_unified_{year}.json")
+              data = json.loads(path.read_text())
+              entries = data["entries"]
+              assert data["total_entries"] == len(entries) == expected
+              required = ("weekday", "calendars", "artwork", "mock_priority")
+              for entry in entries:
+                  missing = [key for key in required if key not in entry]
+                  assert not missing, f"{entry.get('id')}: missing {missing}"
+              print(f"normalized fixture OK: {year} {len(entries)} entries")
           PY
 
       - name: Verify five flagship pilgrimage routes
