@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-18",
+  "date": "2028-01-18",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 2",
+    "title_vi": "Thứ Ba tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Ordinary Time Feria",
+    "title_vi": "Ngày thường Mùa Thường Niên",
+    "summary_en": "The liturgical day is a Tuesday of the Second Week of Ordinary Time, marked by green vestments. There are no obligatory memorials for saints on this specific date in the General Roman Calendar. The focus is on the steady growth in faith and the reading of the Gospel in the liturgy of the week.",
+    "summary_vi": "Ngày phụng vụ là Thứ Ba tuần 2 Mùa Thường Niên, với phẩm phục màu xanh. Không có lễ kính bắt buộc nào cho các thánh trong ngày này theo Lịch Phụng vụ Rôma. Trọng tâm là sự tăng trưởng vững chắc trong đức tin và việc đọc Tin Mừng trong phụng vụ tuần.",
+    "body_en": "As a Feria of the Second Week in Ordinary Time, the Church calls the faithful to listen attentively to the Word of God. The readings focus on Jesus' teaching and the necessity of humility and service in the Christian life. This period outside the great cycles of Christmas and Easter invites believers to integrate the mysteries of Christ into their daily existence.\n\nThe liturgical color green symbolizes hope and the journey of the Church through time. Without a specific saint's feast to overshadow it, the Tuesday liturgy highlights the ordinary sanctity of daily life. It serves as a reminder that holiness is often found in the quiet perseverance of faith rather than in extraordinary events.",
+    "body_vi": "Là một ngày thường trong Tuần 2 Mùa Thường Niên, Hội Thánh kêu gọi cộng đoàn tín hữu lắng nghe Lời Chúa cách chăm chú. Các bài đọc tập trung vào giáo huấn của Chúa Giêsu và sự cần thiết của đức khiêm nhường cùng lòng phục vụ trong đời sống Kitô hữu. Giai đoạn này ngoài các chu kỳ lớn là Giáng Sinh và Phục Sinh mời gọi tín hữu hòa nhập các mầu nhiệm của Chúa Kitô vào cuộc sống hằng ngày.\n\nMàu sắc phụng vụ xanh lá cây biểu tượng cho niềm hy vọng và hành trình của Hội Thánh qua thời gian. Không có lễ kính thánh nhân nào che khuất ngày này, nên phụng vụ Thứ Ba làm nổi bật sự thánh thiện bình thường của đời sống hằng ngày. Nó nhắc nhở rằng sự thánh thiện thường được tìm thấy trong sự kiên trì âm thầm của đức tin hơn là trong những sự kiện phi thường.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the light of ordinary days.",
+    "hero_line_vi": "Bước đi trong ánh sáng của những ngày thường.",
+    "prayer_prompt_en": "Grant me the grace to find You in the mundane moments of this week.",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để tìm thấy Chúa trong những khoảnh khắc bình thường của tuần này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/011828.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/01223a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-05",
+    "hebrew": "19 Tevet 5788",
+    "islamic_umm_al_qura": "21 Sha'ban 1449 AH",
+    "coptic": "9 Tobi 1744",
+    "ethiopian": "9 Ter 2020"
+  }
+}

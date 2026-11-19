@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 2 Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày lễ thường trong Mùa Thường Niên, cụ thể thuộc tuần thứ hai của năm phụng vụ. Màu sắc phụng vụ là xanh lá cây, biểu trưng cho sự tăng trưởng và niềm hy vọng trong đời sống Kitô hữu. Không có lễ kính lớn hay lễ nhớ phổ quát nào được cử hành vào ngày này trong Lịch chung Rôma.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, trọng tâm vẫn là sự tiến triển liên tục của các tín hữu qua các mầu nhiệm cuộc đời Chúa Kitô. Các bài đọc trong ngày này được lấy từ chu kỳ tuần thứ hai, nhấn mạnh sự khiêm nhường và đón nhận ý Chúa. Các giáo sĩ mặc lễ phục màu xanh lá cây để phản ánh chủ đề tăng trưởng tâm linh của mùa này.\n\nKinh Thần Vụ và phụng vụ Thánh Lễ tuân theo định dạng ngày thường tiêu chuẩn cho tuần thứ hai Mùa Thường Niên. Các lời cầu nguyện tập trung vào việc đổi mới hàng ngày của sự hoán cải và sự đào sâu đức ái giữa các thành viên của Giáo Hội. Thời gian này đóng vai trò nền tảng để sống các giáo huấn đã nhận được trong mùa Giáng Sinh.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lễ phục xanh lá cây biểu thị niềm hy vọng và sự tăng trưởng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khiêm nhường để đón nhận ý Chúa và ơn thánh để tăng trưởng trong sự thánh thiện hôm nay."
+  }
+}

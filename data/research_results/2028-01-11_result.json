@@ -1,0 +1,52 @@
+{
+  "id": "anno-2028-01-11",
+  "date": "2028-01-11",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Ba tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Ba tuần 1 Mùa Thường Niên",
+    "summary_en": "This day is a Feria in Ordinary Time, marking the continuation of the liturgical year after the Christmas season. The liturgical color is green, symbolizing hope and growth in the faith. There are no mandatory saints' feasts that take precedence, so the focus remains on the weekday readings and the call to Christian living in the world.",
+    "summary_vi": "Ngày này là ngày Thường nhật trong Mùa Thường Niên, đánh dấu sự tiếp tục của năm phụng vụ sau mùa Giáng Sinh. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin. Không có lễ thánh nào bắt buộc được ưu tiên, nên trọng tâm vẫn là các bài đọc trong tuần và lời mời gọi sống đời Kitô hữu giữa thế gian.",
+    "body_en": "In the Roman Rite, weekdays during Ordinary Time serve as a time for the faithful to meditate on the mysteries of Christ's life and teachings without the intense focus of the major seasons like Advent or Lent. As a Feria, this Tuesday invites a quiet reflection on the Gospel readings appointed for the day, often emphasizing the daily conduct of a disciple. The green vestments worn by the priest signify the normal time of the church calendar, where the community grows in maturity and charity.\n\nThe liturgical emphasis on this day is not on a specific event in the life of Christ, but on the steady application of His teachings in daily life. It is a time for prayer, work, and service to others, grounded in the grace received through the Eucharist. The readings for Week 1 of Ordinary Time typically follow the beginning of the Gospel of Mark or Matthew, depending on the liturgical cycle, encouraging believers to respond to Jesus' call to repentance and faith.",
+    "body_vi": "Trong Nghi lễ Rôma, các ngày trong tuần trong Mùa Thường Niên là thời gian để các tín hữu suy niệm về các mầu nhiệm trong đời sống và giáo huấn của Chúa Kitô mà không có sự tập trung cường độ cao như các mùa quan trọng như Mùa Vọng hay Mùa Chay. Là một ngày Thường nhật, thứ Ba này mời gọi sự suy tư tĩnh lặng về các bài Phúc Âm được chỉ định trong ngày, thường nhấn mạnh vào cách sống hàng ngày của một môn đệ. Áo lễ màu xanh lá cây mà linh mục mặc thể hiện thời gian bình thường trong lịch phụng vụ của Giáo hội, nơi cộng đoàn phát triển về sự trưởng thành và đức ái.\n\nTrọng tâm phụng vụ của ngày này không phải là một sự kiện cụ thể trong đời sống của Chúa Kitô, mà là việc áp dụng đều đặn các giáo huấn của Ngài trong cuộc sống hàng ngày. Đây là thời gian để cầu nguyện, lao động và phục vụ người khác, được đặt nền tảng trên ân sủng nhận được qua Bí tích Thánh Thể. Các bài đọc cho tuần 1 Mùa Thường Niên thường theo dõi phần đầu của Tin Mừng Maccô hoặc Mátthêu, tùy thuộc vào chu kỳ phụng vụ, khuyến khích các tín hữu đáp lại lời mời gọi hoán cải và tin vào Chúa Giêsu.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the quiet faithfulness of Ordinary Time.",
+    "hero_line_vi": "Bước đi trong sự trung tín tĩnh lặng của Mùa Thường Niên.",
+    "prayer_prompt_en": "Pray for a heart that grows steadily in love and service today.",
+    "prayer_prompt_vi": "Cầu nguyện cho một trái tim tăng trưởng vững chắc trong tình yêu và sự phục vụ hôm nay."
+  },
+  "confidence_note_en": "The date falls on a standard weekday in Ordinary Time in 2028. No major feast or obligatory memorial displaces the weekday liturgy in the General Roman Calendar for this specific date in the given context.",
+  "confidence_note_vi": "Ngày này rơi vào một ngày trong tuần tiêu chuẩn trong Mùa Thường Niên năm 2028. Không có lễ trọng hay lễ buộc nào thay thế phụng vụ ngày trong tuần trong Lịch Phụng vụ La Mã chung cho ngày cụ thể này trong bối cảnh đã cho.",
+  "confidence": "confirmed",
+  "sources": [
+    {
+      "label": "USCCB Readings for January 11, 2028",
+      "url": "https://bible.usccb.org/bible/readings/011128.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican Liturgical Calendar Context",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-29",
+    "hebrew": "12 Tevet 5788",
+    "islamic_umm_al_qura": "14 Sha'ban 1449 AH",
+    "coptic": "2 Tobi 1744",
+    "ethiopian": "2 Ter 2020"
+  }
+}

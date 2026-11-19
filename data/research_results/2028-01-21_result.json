@@ -1,0 +1,54 @@
+{
+  "id": "anno-2028-01-21",
+  "date": "2028-01-21",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "St. Agnes, Virgin and Martyr",
+    "title_vi": "Thánh Anê, Trinh nữ, Tử đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Agnes, Virgin and Martyr",
+    "title_vi": "Thánh Anê, Trinh nữ, Tử đạo",
+    "summary_en": "St. Agnes was a young Roman virgin and martyr who suffered for her faith around 304 AD. She is celebrated for her purity and steadfastness in refusing to marry, choosing instead to dedicate herself wholly to Christ. Her name, derived from the Latin 'agnus' (lamb), symbolizes her innocence and sacrificial love.",
+    "summary_vi": "Thánh Anê là một nữ trinh nữ và tử đạo trẻ tuổi người Rôma, đã chịu tử đạo khoảng năm 304. Người được kính nhớ vì sự thanh khiết và lòng kiên định khi từ chối kết hôn, thay vào đó tận hiến trọn vẹn cho Đức Kitô. Tên của Người, bắt nguồn từ tiếng Latinh 'agnus' (con chiên con), tượng trưng cho sự vô tội và tình yêu hy sinh.",
+    "body_en": "St. Agnes, born into a noble Roman family around 291 AD, dedicated her heart to God at a very young age. According to tradition, many suitors of high rank sought her hand, but she rejected them all, declaring her love for Christ alone. Her steadfast refusal led to her martyrdom under the persecution of Emperor Diocletian, where she was cast into a fiery furnace but remained unharmed before being beheaded.\n\nHer feast day on January 21 highlights the early Church's reverence for virginity and martyrdom. Two lambs are traditionally blessed on this day, linking her name to the symbolism of the lamb. This memorial invites the faithful to reflect on the value of purity, courage, and total surrender to God.",
+    "body_vi": "Thánh Anê, sinh vào khoảng năm 291 trong một gia đình quý tộc Rôma, đã dâng trọn con tim cho Thiên Chúa từ khi còn rất trẻ. Theo truyền thống, nhiều thanh niên xuất thân cao sang đã tìm cách cầu hôn Người, nhưng Người đều từ chối và tuyên bố chỉ yêu mến một mình Đức Kitô. Sự từ chối kiên quyết đó dẫn đến cái chết tử đạo dưới cuộc bách hại của Hoàng đế Diocletian, nơi Người bị ném vào lò lửa nhưng vẫn bình an trước khi bị chém đầu.\n\nNgày lễ của Người vào 21 tháng Giêng nhấn mạnh lòng tôn kính của Giáo hội sơ khai đối với đức khiết trinh và tử đạo. Hai con chiên thường được làm phép vào ngày này, liên kết tên của Người với biểu tượng con chiên. Tưởng niệm này mời gọi cộng đoàn suy gẫm về giá trị của sự thanh khiết, lòng can đảm và sự phó thác trọn vẹn cho Thiên Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The feast of St. Agnes is a fixed memorial in the General Roman Calendar on January 21. Historical sources and hagiographies consistently date her martyrdom to the Diocletian persecution.",
+    "confidence_note_vi": "Lễ kính Thánh Anê là một ngày tưởng niệm cố định trong Lịch Phụng vụ Rôma vào ngày 21 tháng Giêng. Các nguồn sử liệu và sách truyện thánh nhân nhất trí xác định Người tử đạo dưới cuộc bách hại của Diocletian."
+  },
+  "app_hooks": {
+    "hero_line_en": "Purity and courage define the witness of St. Agnes.",
+    "hero_line_vi": "Sự thanh khiết và can đảm định nghĩa chứng từ của Thánh Anê.",
+    "prayer_prompt_en": "Pray for the courage to remain faithful to God amidst worldly pressures.",
+    "prayer_prompt_vi": "Hãy cầu xin lòng can đảm để trung thành với Thiên Chúa giữa những áp lực thế tục."
+  },
+  "sources": [
+    {
+      "label": "USCCB Readings for Friday, January 21, 2028",
+      "url": "https://bible.usccb.org/bible/readings/012128.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saint of the Day for St. Agnes",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=25",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia on St. Agnes",
+      "url": "https://www.newadvent.org/cathen/01230a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-08",
+    "hebrew": "22 Tevet 5788",
+    "islamic_umm_al_qura": "24 Sha'ban 1449 AH",
+    "coptic": "12 Tobi 1744",
+    "ethiopian": "12 Ter 2020"
+  }
+}

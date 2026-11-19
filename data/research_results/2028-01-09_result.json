@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-09",
+  "date": "2028-01-09",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "The Baptism of the Lord",
+    "title_vi": "Lễ Chúa Giêsu Chịu Phép Rửa"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "The Baptism of the Lord",
+    "title_vi": "Lễ Chúa Giêsu Chịu Phép Rửa",
+    "summary_en": "The Feast of the Baptism of the Lord marks the end of the Christmas season and the beginning of Ordinary Time in the Roman Rite. It commemorates the event where Jesus, accompanied by John the Baptist, was baptized in the Jordan River, initiating His public ministry. This feast highlights the Trinity's manifestation, with the Father's voice and the Holy Spirit descending like a dove.",
+    "summary_vi": "Lễ Chúa Giêsu Chịu Phép Rửa đánh dấu sự kết thúc mùa Giáng Sinh và khởi đầu Mùa Thường Niên trong Nghi lễ Rôma. Lễ kỷ niệm biến cố Chúa Giêsu, cùng với Gioan Tẩy Giả, chịu phép rửa tại sông Giođan, khởi sự sứ vụ công khai của Ngài. Lễ này nêu bật sự hiện diện của Ba Ngôi, với tiếng Chúa Cha và Chúa Thánh Thần ngự xuống như chim bồ câu.",
+    "body_en": "The liturgical celebration focuses on the humility of Christ, who though sinless, submitted to the baptism of conversion, thereby sanctifying the waters for our own baptismal renewal. In many dioceses, this Sunday serves as a reminder of the baptismal promises made by the faithful and often includes the blessing of holy water.\n\nHistorically, this feast was celebrated in the early Church on the same day as the Epiphany in some traditions, but it has since become a distinct Sunday in the Ordinary Time liturgical calendar. The readings emphasize the servant nature of Jesus and the divine declaration of His sonship, inviting believers to deepen their own relationship with the Triune God.",
+    "body_vi": "Việc cử hành phụng vụ tập trung vào sự khiêm nhường của Chúa Kitô, Đấng dù không tội lỗi đã chịu phép rửa sám hối, qua đó thánh hóa dòng nước cho sự canh tân phép rửa tội của chúng ta. Tại nhiều giáo phận, Chúa nhật này nhắc nhở các tín hữu về những lời hứa phép Rửa tội đã tuyên xưng và thường bao gồm việc làm phép nước thánh.\n\nVề mặt lịch sử, lễ này đã được cử hành vào cùng ngày với lễ Hiển Linh trong một số truyền thống của Hội Thánh sơ khai, nhưng từ đó đã trở thành một Chúa nhật riêng biệt trong lịch phụng vụ Mùa Thường Niên. Các bài đọc nhấn mạnh bản chất tôi tớ của Chúa Giêsu và lời tuyên xưng thần tính về địa vị Con Thiên Chúa của Ngài, mời gọi các tín hữu đào sâu mối tương quan của họ với Thiên Chúa Ba Ngôi.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date and rank are confirmed by the General Roman Calendar for the year 2028, which dictates that the Sunday following January 6th is the Feast of the Baptism of the Lord.",
+    "confidence_note_vi": "Ngày và bậc lễ được xác nhận bởi Lịch Phụng vụ Rôma Tổng quát cho năm 2028, quy định rằng Chúa nhật tiếp theo ngày 6 tháng 1 là Lễ Chúa Giêsu Chịu Phép Rửa."
+  },
+  "app_hooks": {
+    "hero_line_en": "The heavens open, and the Father's voice confirms the Son.",
+    "hero_line_vi": "Các tầng trời mở ra, và tiếng Chúa Cha xác nhận Chúa Con.",
+    "prayer_prompt_en": "Ask God for the grace to live out your baptismal promises with courage and humility.",
+    "prayer_prompt_vi": "Hãy xin ơn Thiên Chúa để sống các lời hứa phép Rửa tội với sự can đảm và khiêm nhường."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings and Calendar",
+      "url": "https://www.usccb.org/calendar",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News Liturgical Calendar",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-27",
+    "hebrew": "10 Tevet 5788",
+    "islamic_umm_al_qura": "12 Sha'ban 1449 AH",
+    "coptic": "30 Koiak 1744",
+    "ethiopian": "30 Tahsas 2020"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_vi": "Ngày này rơi vào Tuần Bát Nhật Giáng Sinh, giữ nguyên đặc tính hân hoan và ánh sáng của Mùa Giáng Sinh. Đây là ngày thường (feria), nghĩa là không có lễ kính thánh nào thay thế chủ đề phụng vụ ngày thường. Các bài đọc và lời cầu nguyện phản ánh mầu nhiệm Nhập Thể và ánh sáng mang vào thế gian.",
+    "body_vi": "Trong những ngày thường của Mùa Giáng Sinh, Giáo hội tiếp tục suy niệm biến cố Giáng Sinh. Mặc dù ngày 4 tháng Giêng là Thứ Ba và không phải là ngày lễ kính, phụng vụ vẫn bám rễ vào Tin Mừng về Ngôi Lời hóa thành xác phàm. Các bài đọc trong tuần này thường nhấn mạnh vào ánh sáng của Chúa Kitô tỏa sáng trong bóng tối, mời gọi các tín hữu nhận ra Ngài trong cuộc sống hàng ngày của họ.\n\nMàu sắc phụng vụ là trắng, tượng trưng cho niềm vui và vinh quang, nhất quán với toàn bộ Mùa Giáng Sinh. Các lời nguyện cho cộng đoàn và lời nguyện tiến lễ xin ơn hiểu biết ánh sáng thần linh đã mặc khải trong Hài Nhi Giêsu. Thời kỳ này đóng vai trò như cầu nối giữa việc cử hành Giáng Sinh và lễ Chúa Giêsu chịu Phép Rửa sắp tới.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ánh sáng chiếu soi trong bóng tối, và bóng tối không làm lu mờ được.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ánh sáng Chúa hướng dẫn con đường con đi hôm nay."
+  }
+}

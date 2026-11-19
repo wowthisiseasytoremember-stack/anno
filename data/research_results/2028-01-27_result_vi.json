@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 3 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 3 Mùa Thường Niên",
+    "summary_vi": "Vào ngày 27 tháng 1 năm 2028, Giáo hội cử hành ngày thường trong Mùa Thường Niên. Ngày này rơi vào tuần thứ ba của mùa, sau lễ Thánh Phaolô tông đồ trở lại. Không có kỷ niệm bắt buộc phổ quát cho ngày cụ thể này trong Lịch Rôma Tổng quát. Trọng điểm phụng vụ vẫn là sự tăng trưởng liên lỉ trong đức tin và việc đọc Kinh Nhật Tụng hàng ngày.",
+    "body_vi": "Mùa Thường Niên đặc trưng bởi phẩm phục màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Nước Thiên Chúa. Vào năm 2028, ngày 27 tháng 1 là khoảnh khắc để cộng đoàn tín hữu suy niệm theo chu kỳ hàng tuần của các Thánh Vịnh và các bài đọc Tin Mừng dành cho tuần 3. Không có lễ kính các thánh lớn nào che phủ phụng vụ ngày này, nhấn mạnh vào sự đơn giản và chiều sâu của việc hoán cải hàng ngày. Các bài đọc, dù cụ thể theo chu kỳ bài đọc ba năm, thường củng cố các chủ đề về môn đệ và sự đáp lời mời gọi của Thiên Chúa.\n\nTheo truyền thống Công giáo Việt Nam, ngày này được cử hành là 'Thứ Năm tuần 3 Mùa Thường Niên.' Đây là thời điểm để giáo dân và giáo sĩ suy ngẫm về những lời dạy của Đức Kitô trong dòng chảy bình thường của năm phụng vụ. Việc thiếu một ngày lễ lớn cho phép suy gẫm cá nhân sâu sắc hơn về các kinh thánh hàng tuần. Lịch phụng vụ năm 2028 duy trì cấu trúc Rôma tiêu chuẩn, đảm bảo nhịp điệu cầu nguyện nhất quán cho cộng đoàn Công giáo toàn cầu.",
+    "confidence_note_vi": "Ngày này được xác nhận là ngày thường trong Mùa Thường Niên theo tính toán Lịch Rôma Tổng quát tiêu chuẩn cho năm 2028."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy bước đi khiêm nhường với Thiên Chúa trong những ngày thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để tìm thấy Chúa trong nhịp sống hàng ngày của con hôm nay."
+  }
+}

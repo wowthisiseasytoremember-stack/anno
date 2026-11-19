@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Antôn, Viện phụ"
+  },
+  "primary": {
+    "title_vi": "Thánh Antôn Viện phụ",
+    "summary_vi": "Thánh Antôn Ai Cập, được biết đến là Cha đẻ của Đan tu, đã sáng lập các cộng đoàn đan tu trong sa mạc Ai Cập. Ngài được tôn vinh vì đời sống khổ chế và sự khôn ngoan thiêng liêng sâu sắc. Ngày này vinh danh di sản của ngài với tư cách là người tiên phong của đời sống đan tu Kitô giáo.",
+    "body_vi": "Antôn Ai Cập, sinh khoảng năm 251 sau Công nguyên, thường được công nhận là ẩn sĩ đầu tiên sáng lập phong trào đan tu. Ngài đã từ bỏ mọi tài sản thế gian để sống cô tịch và cầu nguyện, truyền cảm hứng cho nhiều người khác noi theo gương của ngài.\n\nCuộc đời của ngài minh chứng rằng một sự hiệp thông sâu sắc với Thiên Chúa có thể đạt được thông qua khổ chế và sự kiên trì. Giáo hội tưởng nhớ ngài hôm nay như một mẫu gương về kỷ luật thiêng liêng và sự trung thành với ơn gọi thần linh.",
+    "confidence_note_vi": "Lễ nhớ Thánh Antôn Viện phụ vào ngày 17 tháng 1 là một ngày cố định trong Lịch Rôma Chung và được cử hành rộng rãi."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thánh Antôn: Cha đẻ của Phong trào Đan tu",
+    "prayer_prompt_vi": "Xin sức mạnh để sống một đời cầu nguyện và giản dị."
+  }
+}

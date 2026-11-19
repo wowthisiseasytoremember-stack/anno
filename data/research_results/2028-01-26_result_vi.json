@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 3 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 3 Mùa Thường Niên",
+    "summary_vi": "Ngày 26 tháng 1 năm 2028 được cử hành như một ngày Thường niên, cụ thể là vào Tuần 3 của năm phụng vụ. Ngày này được đánh dấu bằng màu xanh lá cây phụng vụ, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Kitô giáo. Các bài đọc và lời cầu nguyện tập trung vào hành trình đức tin đang diễn ra và những lời giảng dạy của Chúa Giêsu được ghi trong các Tin Mừng.",
+    "body_vi": "Trong Nghi lễ Rôma, các ngày trong tuần Mùa Thường niên được dành riêng cho việc thánh hóa cuộc sống hàng ngày qua Phụng vụ Lời Chúa và Bí tích Thánh Thể. Vào Thứ Tư này, Giáo hội suy ngẫm về các chủ đề môn đệ và Nước Thiên Chúa, khuyến khích các tín hữu áp dụng những lời giảng dạy của Chúa Kitô vào các tương tác hàng ngày của họ. Áo lễ màu xanh lá cây mà các linh mục mặc phục vụ như một lời nhắc nhở về sự tăng trưởng liên tục cần thiết trong đời sống tâm linh, không có các sắc thái thống hối hoặc lễ hội cụ thể của các mùa khác.\n\nMặc dù một số vị thánh được tưởng niệm vào ngày này trong các lịch địa phương hoặc truyền thống khác nhau, lịch phổ quát xác định Thứ Tư này chủ yếu là một ngày tiêu chuẩn trong chu kỳ thời gian. Trọng tâm phụng vụ vẫn là sự liên tục của đức tin bên ngoài các ngày lễ lớn, nhấn mạnh nhịp điệu ổn định của lời cầu nguyện và việc đọc sách Thánh duy trì cộng đồng Kitô hữu trong suốt cả năm.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong đức tin qua nhịp điệu ổn định của Mùa Thường niên.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con sống ngày hôm nay với niềm hy vọng và sự vững vàng được tượng trưng bằng màu xanh lá phụng vụ."
+  }
+}

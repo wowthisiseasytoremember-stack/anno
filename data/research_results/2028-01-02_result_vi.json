@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Basiliô Cả và Thánh Grêgôriô Nazianzênô, Giám mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Basiliô Cả và Thánh Grêgôriô Nazianzênô, Giám mục, Tiến sĩ Hội Thánh",
+    "summary_vi": "Hội Thánh cử hành lễ nhớ hai giám mục thế kỷ thứ 4, những người đã định hình sâu sắc thần học và phụng vụ Kitô giáo. Basiliô Cả, được mệnh danh là 'Đại đế,' đã bảo vệ thần tính của Chúa Kitô và tổ chức đời sống đan tu. Grêgôriô Nazianzênô, được gọi là 'Nhà Thần học,' là bậc thầy về hùng biện và thơ ca, từng giữ chức Thượng phụ Constantinople trong một thời gian ngắn.",
+    "body_vi": "Basiliô Cả và Grêgôriô Nazianzênô là những người bạn thân thiết và cùng là sinh viên tại Athens trước khi trở thành những trụ cột của Hội Thánh. Tình bạn của họ đã bị thử thách bởi những căng thẳng chính trị và thần học tại Constantinople, nhưng họ vẫn đoàn kết trong việc bảo vệ Chính thống giáo Nicea. Basiliô được ghi nhận vì đã thành lập 'Bệnh viện Basiliô' tại Caesarea, một trong những tổ chức từ thiện toàn diện đầu tiên trong lịch sử, tích hợp sự chăm sóc cho người nghèo, người bệnh và khách lữ hành.\n\nGrêgôriô, dù miễn cưỡng khi chấp nhận chức Thượng phụ, đã giảng dạy mạnh mẽ chống lại lạc giáo Arian. Năm bài giảng thần học của ngài được rao giảng tại Constantinople được coi là những tài liệu nền tảng của giáo lý Kitô giáo. Cùng với nhau, họ minh họa cho thấy sự nghiêm túc trí tuệ và lòng bác ái mục vụ phải song hành trong phục vụ Chân Lý, nhắc nhở cộng đoàn tín hữu rằng thần học không chỉ tồn tại để tranh luận, mà để thờ phượng và thánh hóa.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thần học là cầu nguyện; giáo lý là thờ phượng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khôn ngoan để bảo vệ chân lý của Chúa với sự khiêm nhường và phục vụ dân Chúa với lòng trắc ẩn, khi chúng con suy niệm về cuộc đời của Thánh Basiliô và Thánh Grêgôriô."
+  }
+}

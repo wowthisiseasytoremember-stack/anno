@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 2 Mùa Thường Niên",
+    "summary_vi": "Ngày này là Thứ Tư tuần hai Mùa Thường Niên theo lịch phụng vụ Rôma. Màu phụng vụ là màu xanh, biểu thị cho thời kỳ tăng trưởng và hy vọng. Không có vị thánh hay lễ kính cụ thể nào vượt trên phụng vụ ngày thường.",
+    "body_vi": "Trong Lịch Rôma chung, các ngày Thứ Tư trong Mùa Thường Niên thường được cử hành như ngày lễ thường (Feria) trừ khi có lễ kính của một vị thánh rơi vào ngày đó. Vào ngày 19 tháng 1 năm 2028, trọng tâm phụng vụ vẫn là các bài đọc Thánh lễ trong chu kỳ hai năm của Mùa Thường Niên.\n\nCác bài đọc trong ngày này thường nhấn mạnh đời sống Kitô hữu và sự phát triển tiệm tiến của cộng đoàn tín hữu. Linh mục mặc áo lễ màu xanh, và phụng vụ được đánh dấu bởi sự giản dị, tập trung vào tiến trình hàng tuần của Tin Mừng.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong mùa xanh của hy vọng",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lớn lên trong đức tin hôm nay"
+  }
+}

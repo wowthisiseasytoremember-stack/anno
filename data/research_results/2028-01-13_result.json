@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-13",
+  "date": "2028-01-13",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Năm tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of Ordinary Time, Week 1",
+    "title_vi": "Thứ Năm tuần 1 Mùa Thường Niên",
+    "summary_en": "This is an ordinary weekday in the first week of Ordinary Time. The liturgical color is green, symbolizing growth and hope. No major feast or saint's memorial is universally obligatory on this specific Thursday in the General Roman Calendar for this year.",
+    "summary_vi": "Đây là ngày thường trong tuần thứ nhất Mùa Thường Niên. Màu phụng vụ là màu xanh, tượng trưng cho sự tăng trưởng và hy vọng. Không có lễ lớn hay thánh bổn mạng nào bắt buộc phải mừng kính phổ quát vào ngày Thứ Năm cụ thể này trong Niên lịch Rôma cho năm này.",
+    "body_en": "The focus of the liturgy this day is on the ordinary progression of the Christian life, emphasizing the gradual understanding of Christ's teachings and the growth of faith. Ordinary Time, or Tempus per annum, serves as the backbone of the liturgical year, inviting the faithful to reflect on the mysteries of Christ in their entirety.\n\nPrayers and readings for this Thursday are drawn from the Week 1 cycle of the Lectionary. The emphasis is on personal conversion and the steady practice of virtue. Without a competing saint's feast that takes precedence in the universal calendar, the day remains a Feria, dedicated to the general observance of the season.",
+    "body_vi": "Trọng tâm phụng vụ trong ngày hôm nay là sự tiến triển bình thường của đời sống Kitô hữu, nhấn mạnh vào việc hiểu biết dần dần các giáo huấn của Đức Kitô và sự tăng trưởng đức tin. Mùa Thường Niên, hay Tempus per annum, đóng vai trò là xương sống của năm phụng vụ, mời gọi các tín hữu suy niệm về các mầu nhiệm của Đức Kitô trong tính toàn vẹn của chúng.\n\nCác lời cầu nguyện và bài đọc cho Thứ Năm này được trích từ chu kỳ tuần 1 của Sách Bài Đọc. Trọng tâm là sự hoán cải cá nhân và thực hành nhân đức đều đặn. Không có lễ thánh nào cạnh tranh chiếm ưu tiên trong niên lịch phổ quát, nên ngày này vẫn giữ nguyên là Ngày thường (Feria), dành cho việc tuân giữ chung của mùa phụng vụ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith through the ordinary moments of the week.",
+    "hero_line_vi": "Hãy lớn lên trong đức tin qua những khoảnh khắc bình thường của tuần sống.",
+    "prayer_prompt_en": "Lord, help us to find Your presence in the routine of our daily lives and to grow steadily in love.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tìm thấy sự hiện diện của Chúa trong những thói quen hằng ngày và lớn lên vững vàng trong tình yêu thương."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings - 2028-01-13",
+      "url": "https://bible.usccb.org/bible/readings/011328.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia - Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/09210a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-31",
+    "hebrew": "14 Tevet 5788",
+    "islamic_umm_al_qura": "16 Sha'ban 1449 AH",
+    "coptic": "4 Tobi 1744",
+    "ethiopian": "4 Ter 2020"
+  }
+}

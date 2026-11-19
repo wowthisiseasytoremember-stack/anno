@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-31",
+  "date": "2028-01-31",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 4",
+    "title_vi": "Thứ Hai tuần 4 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Fourth Week in Ordinary Time",
+    "title_vi": "Thứ Hai Tuần 4 Mùa Thường Niên",
+    "summary_en": "This day is celebrated as a feria in Ordinary Time, focusing on the ongoing growth of the faithful through the teachings of Jesus. The liturgical color is green, symbolizing hope and growth. No major feast or solemnity is assigned to this date, emphasizing the steady rhythm of Christian life.",
+    "summary_vi": "Ngày này được cử hành như một ngày thường nhật trong Mùa Thường Niên, tập trung vào sự tăng trưởng liên tục của các tín hữu qua giáo huấn của Chúa Giêsu. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự phát triển. Không có lễ lớn hay lễ trọng nào được ấn định cho ngày này, nhấn mạnh nhịp độ ổn định của đời sống Kitô hữu.",
+    "body_en": "As a feria, the liturgy invites the faithful to reflect on the Gospel readings assigned for the day, which typically continue the themes of discipleship and the Kingdom of God begun in the previous days. This period allows for a deeper personal encounter with the Word of God outside the intense seasons of Advent, Christmas, Lent, or Easter.\n\nThe prayers and readings are chosen to strengthen the moral and spiritual life of the believer. By participating in the Mass or the Liturgy of the Hours, the community joins in the universal prayer of the Church, seeking to live out the faith in daily actions and decisions.",
+    "body_vi": "Là một ngày thường nhật, phụng vụ mời gọi các tín hữu suy gẫm các bài đọc Tin Mừng được chỉ định trong ngày, thường tiếp nối các chủ đề về môn đệ hóa và Nước Thiên Chúa bắt đầu từ những ngày trước đó. Thời kỳ này cho phép một cuộc gặp gỡ cá nhân sâu sắc hơn với Lời Chúa bên ngoài các mùa cao điểm như Vọng, Giáng Sinh, Chay hoặc Phục Sinh.\n\nCác lời cầu nguyện và bài đọc được chọn để củng cố đời sống đạo đức và tinh thần của người tín hữu. Bằng cách tham dự Thánh lễ hoặc Phụng vụ Giờ kinh, cộng đoàn hiệp thông với lời cầu nguyện phổ quát của Giáo hội, tìm cách sống đức tin trong các hành động và quyết định hàng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The ranking as a Feria is standard for Monday of Week 4 in Ordinary Time unless a particular saint's memorial falls, which it does not in the universal calendar for this date.",
+    "confidence_note_vi": "Xếp hạng là ngày thường nhật (Feria) là tiêu chuẩn cho Thứ Hai Tuần 4 Mùa Thường Niên trừ khi có lễ kính thánh nào rơi vào, điều mà không xảy ra trong lịch phụng vụ phổ quát cho ngày này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in hope through the Word of God.",
+    "hero_line_vi": "Hãy lớn lên trong hy vọng qua Lời Thiên Chúa.",
+    "prayer_prompt_en": "Grant me, O Lord, the grace to listen attentively to Your Word today.",
+    "prayer_prompt_vi": "Xin ban cho con, lạy Chúa, ân sủng để lắng nghe Lời Chúa một cách chăm chú trong ngày hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/013128.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - Saint of the Day",
+      "url": "https://www.catholicculture.org/culture/calendar/day/index.cfm?id=2533",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-18",
+    "hebrew": "3 Shvat 5788",
+    "islamic_umm_al_qura": "4 Ramadan 1449 AH",
+    "coptic": "22 Tobi 1744",
+    "ethiopian": "22 Ter 2020"
+  }
+}

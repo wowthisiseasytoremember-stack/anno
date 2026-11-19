@@ -1,0 +1,52 @@
+{
+  "id": "anno-2028-01-30",
+  "date": "2028-01-30",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 4",
+    "title_vi": "Chúa Nhật tuần 4 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Fourth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật 4 Thường Niên",
+    "summary_en": "On this Sunday in Ordinary Time, the Church reflects on the Beatitudes and the call to holiness as presented in the Gospel of Matthew. The readings emphasize the internal disposition of the heart, urging believers to live out the faith through concrete acts of mercy and justice. This liturgical day serves as a reminder that the Christian life is a journey of gradual transformation in Christ.",
+    "summary_vi": "Trong Chúa Nhật Mùa Thường Niên này, Giáo hội suy niệm về các Mối Phúc thật và lời mời gọi nên thánh được trình bày trong Tin Mừng Mát-thêu. Các bài đọc nhấn mạnh thái độ nội tâm của con tim, thúc đẩy tín hữu sống đức tin qua những hành động cụ thể của lòng thương xót và công lý. Ngày phụng vụ này là lời nhắc nhở rằng đời sống Kitô hữu là một hành trình biến đổi dần dần trong Đức Kitô.",
+    "body_en": "The liturgy for the Fourth Sunday in Ordinary Time invites the faithful to deepen their understanding of the Kingdom of God as both present and future. The first reading from the Prophet Zephaniah calls the people to seek the Lord and pursue righteousness, highlighting the humility required to enter into divine communion. The Gospel reading continues the Sermon on the Mount, where Jesus describes the blessed state of those who are poor in spirit, merciful, and peacemakers.\n\nThis Sunday challenges the community to move beyond superficial religious observance toward a profound interior conversion. The color green symbolizes hope and growth in the life of the Church, encouraging believers to bear fruit in their daily lives. By aligning one's actions with the teachings of Christ, the faithful participate in the ongoing realization of God's reign in the world.",
+    "body_vi": "Phụng vụ của Chúa Nhật 4 Mùa Thường Niên mời gọi các tín hữu đào sâu sự hiểu biết về Nước Thiên Chúa như thực tại hiện tại và tương lai. Bài đọc thứ nhất từ Ngôn sứ Xơ-phô-nh-a kêu gọi dân chúng tìm kiếm Đức Chúa và theo đuổi đức hạnh, làm nổi bật sự khiêm nhường cần thiết để đi vào hiệp thông thần linh. Bài Tin Mừng tiếp tục Bài Giảng trên Núi, nơi Đức Giê-su mô tả trạng thái được chúc phúc của những ai có tâm hồn nghèo khó, thương xót và xây dựng hòa bình.\n\nChúa Nhật này thách thức cộng đoàn vượt qua sự tuân thủ tôn giáo hời hợt để đi tới sự hoán cải nội tâm sâu sắc. Màu xanh tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống của Giáo hội, khuyến khích tín hữu sinh hoa trái trong cuộc sống hằng ngày. Bằng cách điều chỉnh hành động của mình theo lời giáo huấn của Đức Ki-tô, các tín hữu tham gia vào quá trình thực hiện vương quốc của Thiên Chúa trong thế giới.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "Date and rank confirmed against the standard General Roman Calendar for 2028, which places January 30 as a Sunday in Ordinary Time. No universal solemnity or feast overrides this Sunday.",
+  "confidence_note_vi": "Ngày và cấp bậc được xác nhận theo Lịch Rôma Chung tiêu chuẩn cho năm 2028, trong đó ngày 30 tháng 1 là một Chúa Nhật Mùa Thường Niên. Không có lễ trọng hay lễ kính nào phổ quát thay thế Chúa Nhật này.",
+  "app_hooks": {
+    "hero_line_en": "Blessed are the peacemakers, for they will be called children of God.",
+    "hero_line_vi": "Phúc thay ai xây dựng hòa bình, vì họ sẽ được gọi là con Thiên Chúa.",
+    "prayer_prompt_en": "Grant us the humility to seek Your will and the courage to live out the Beatitudes in our daily encounters.",
+    "prayer_prompt_vi": "Xin ban cho chúng con sự khiêm nhường để tìm kiếm ý Ngài và lòng can đảm để sống các Mối Phúc thật trong những gặp gỡ hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for January 30, 2028",
+      "url": "https://bible.usccb.org/bible/readings/013028.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-17",
+    "hebrew": "2 Shvat 5788",
+    "islamic_umm_al_qura": "3 Ramadan 1449 AH",
+    "coptic": "21 Tobi 1744",
+    "ethiopian": "21 Ter 2020"
+  }
+}

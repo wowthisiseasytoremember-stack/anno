@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_vi": "Thứ Bảy, ngày 08 tháng 01 năm 2028, thuộc Mùa Giáng Sinh, thời gian được đặc trưng bằng màu phụng vụ trắng. Vì là ngày trong tuần, ngày này được cử hành như một Ngày thường (Feria), tập trung vào mầu nhiệm Nhập Thể. Không có lễ nhớ hoặc lễ trọng bắt buộc nào để cử hành trên toàn cầu vào ngày cụ thể này trong Lịch Rôma Hiện Hành hiện nay.",
+    "body_vi": "Trong lịch phụng vụ, ngày 08 tháng 01 năm 2028 được cử hành như một Ngày thường (Feria) trong Mùa Giáng Sinh, đánh dấu giai đoạn tiếp sau Lễ Sinh Nhật Chúa. Mùa này tiếp tục nhấn mạnh sự khiêm tốn của việc Nhập Thể, nơi Ngôi Lời đã hóa thành xác phàm. Mặc dù một số thánh nhân có thể được tưởng nhớ trong lịch địa phương hoặc các dòng tu, lịch chung gọi ngày này là ngày trong tuần, mời gọi các tín hữu đào sâu suy niệm về ánh sáng thần linh đi vào lịch sử loài người.\n\nCác bài đọc và lời cầu nguyện cho ngày này, khi được chỉ định trong phần riêng theo thời gian, phản ánh các chủ đề về ánh sáng, mặc khải và thực tại liên tục về sự hiện diện của Thiên Chúa giữa nhân loại. Thời kỳ này là nhịp cầu giữa Mùa Giáng Sinh và Chúa nhật Lễ Chúa Giêsu chịu Phép Rửa đang đến gần, nhắc nhở Hội Thánh rằng việc Chúa Kitô sinh ra không phải là một sự kiện tĩnh lặng mà là nguồn ân sủng và sự soi sáng liên tục cho thế giới.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chiêm ngắm Ánh Sáng của Chúa Kitô trong sự tĩnh lặng của Ngày thường Mùa Giáng Sinh.",
+    "prayer_prompt_vi": "Chúa Giêsu, ánh sáng thế gian, xin chiếu tỏa trên những ngày thường nhật của chúng con và mặc khải vinh quang của Ngài cho những trái tim khiêm tốn của chúng con."
+  }
+}

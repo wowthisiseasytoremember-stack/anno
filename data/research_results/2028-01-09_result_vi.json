@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Chúa Giêsu Chịu Phép Rửa"
+  },
+  "primary": {
+    "title_vi": "Lễ Chúa Giêsu Chịu Phép Rửa",
+    "summary_vi": "Lễ Chúa Giêsu Chịu Phép Rửa đánh dấu sự kết thúc mùa Giáng Sinh và khởi đầu Mùa Thường Niên trong Nghi lễ Rôma. Lễ kỷ niệm biến cố Chúa Giêsu, cùng với Gioan Tẩy Giả, chịu phép rửa tại sông Giođan, khởi sự sứ vụ công khai của Ngài. Lễ này nêu bật sự hiện diện của Ba Ngôi, với tiếng Chúa Cha và Chúa Thánh Thần ngự xuống như chim bồ câu.",
+    "body_vi": "Việc cử hành phụng vụ tập trung vào sự khiêm nhường của Chúa Kitô, Đấng dù không tội lỗi đã chịu phép rửa sám hối, qua đó thánh hóa dòng nước cho sự canh tân phép rửa tội của chúng ta. Tại nhiều giáo phận, Chúa nhật này nhắc nhở các tín hữu về những lời hứa phép Rửa tội đã tuyên xưng và thường bao gồm việc làm phép nước thánh.\n\nVề mặt lịch sử, lễ này đã được cử hành vào cùng ngày với lễ Hiển Linh trong một số truyền thống của Hội Thánh sơ khai, nhưng từ đó đã trở thành một Chúa nhật riêng biệt trong lịch phụng vụ Mùa Thường Niên. Các bài đọc nhấn mạnh bản chất tôi tớ của Chúa Giêsu và lời tuyên xưng thần tính về địa vị Con Thiên Chúa của Ngài, mời gọi các tín hữu đào sâu mối tương quan của họ với Thiên Chúa Ba Ngôi.",
+    "confidence_note_vi": "Ngày và bậc lễ được xác nhận bởi Lịch Phụng vụ Rôma Tổng quát cho năm 2028, quy định rằng Chúa nhật tiếp theo ngày 6 tháng 1 là Lễ Chúa Giêsu Chịu Phép Rửa."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Các tầng trời mở ra, và tiếng Chúa Cha xác nhận Chúa Con.",
+    "prayer_prompt_vi": "Hãy xin ơn Thiên Chúa để sống các lời hứa phép Rửa tội với sự can đảm và khiêm nhường."
+  }
+}

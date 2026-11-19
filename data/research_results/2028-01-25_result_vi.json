@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Phaolô Tông Đồ Trở Lại"
+  },
+  "primary": {
+    "title_vi": "Thánh Phaolô Tông Đồ Trở Lại",
+    "summary_vi": "Ngày 25 tháng 1 cử hành Lễ Kính Sự Hoán Cải của Thánh Phaolô, tưởng nhớ sự biến đổi kịch tính của ngài từ một người bách hại Giáo Hội sơ khai thành Tông Đồ của dân ngoại. Lễ này nhấn mạnh sức mạnh của ân sủng thần linh và sứ mạng phổ quát của Tin Mừng. Đây là khoảnh khắc suy tư quan trọng cho phong trào đại kết và loan báo Tin Mừng.",
+    "body_vi": "Trên đường đến Đamát, Saolê đã gặp gỡ Đức Kitô Phục Sinh, một sự kiện thay đổi hoàn toàn cuộc đời ngài và lịch sử Giáo Hội. Sứ vụ sau đó của ngài đã phổ biến đức tin Kitô giáo khắp thế giới Địa Trung Hải, thành lập các cộng đoàn và viết ra những thư từ trở thành một phần của Tân Ước. Giáo Hội tôn vinh ngày này để nhớ lại cách ân sủng của Thiên Chúa có thể biến đổi những người chống đối mãnh liệt nhất thành những tôi tớ tận tụy.\n\nLễ này là lời nhắc nhở rằng sứ mạng của Giáo Hội không giới hạn trong một nhóm người duy nhất mà hướng tới tất cả mọi người. Hành trình của Thánh Phaolô từ Do Thái giáo sang Kitô giáo biểu tượng cho việc phá vỡ các rào cản và sự bao gồm của dân ngoại trong giao ước. Trong thời đại ngày nay, ngày này thường gắn liền với những nỗ lực đại kết, khuyến khích các Kitô hữu thuộc mọi hệ phái tìm kiếm sự hiệp nhất trong Đức Kitô.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ân sủng biến đổi, sứ vụ hiệp nhất.",
+    "prayer_prompt_vi": "Lạy Chúa, xin biến đổi tâm hồn chúng con như Chúa đã biến đổi Phaolô, để chúng con mang ánh sáng của Chúa đến cho muôn dân."
+  }
+}

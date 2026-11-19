@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-16",
+  "date": "2028-01-16",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 2",
+    "title_vi": "Chúa Nhật tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Second Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật II Mùa Thường Niên",
+    "summary_en": "The Second Sunday in Ordinary Time continues the journey through the public ministry of Jesus, emphasizing his call to discipleship and the revelation of God's glory. Liturgically, this day marks the transition from the Christmas season into Ordinary Time, inviting the faithful to reflect on the daily application of Christ's teachings. The focus shifts from the historical celebration of the Incarnation to the ongoing spiritual growth within the Christian community.",
+    "summary_vi": "Chúa Nhật II Mùa Thường Niên tiếp tục hành trình qua sứ vụ công khai của Chúa Giêsu, nhấn mạnh lời mời gọi làm môn đệ và sự mặc khải vinh quang của Thiên Chúa. Về mặt phụng vụ, ngày này đánh dấu sự chuyển tiếp từ mùa Giáng Sinh sang Mùa Thường Niên, mời gọi tín hữu suy tư về việc áp dụng những giáo huấn của Chúa Kitô trong đời sống hàng ngày. Trọng tâm chuyển từ việc cử hành lịch sử Nhập Thể sang sự tăng trưởng tâm linh liên tục trong cộng đoàn Kitô giáo.",
+    "body_en": "In the Roman Missal, the Second Sunday in Ordinary Time presents the Gospel of John's account of the wedding at Cana, where Jesus performs his first sign, manifesting his glory and leading the disciples to believe in him. This narrative serves as a theological bridge, illustrating how divine revelation begins in the humble, everyday contexts of human life, such as a wedding feast. The liturgical color green symbolizes hope and the steady growth of the Church as it continues its mission after the joyous celebrations of the Nativity.\n\nThe readings for this day typically include passages from Isaiah that speak of God's enduring love and the new creation, alongside Paul's letters emphasizing the diversity of spiritual gifts within the unity of the Body of Christ. For the faithful, this Sunday is an invitation to listen attentively to the Word of God and to respond with faith, echoing the command of Mary at Cana to 'do whatever he tells you.' It is a time for spiritual discernment and for recognizing the presence of Christ in the ordinary moments of life.",
+    "body_vi": "Trong Sách Lễ Rôma, Chúa Nhật II Mùa Thường Niên trình bày bài Tin Mừng Gioan về tiệc cưới tại Cana, nơi Chúa Giêsu thực hiện dấu lạ đầu tiên, mặc khải vinh quang của Người và dẫn các môn đệ đến đức tin. Câu chuyện này đóng vai trò như một cầu nối thần học, minh họa cách mặc khải thần linh bắt đầu trong những bối cảnh đời thường khiêm tốn của cuộc sống con người, như một bữa tiệc cưới. Màu xanh lá cây trong phụng vụ tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Giáo Hội khi tiếp tục sứ mạng của mình sau những cử hành hân hoan của Mùa Giáng Sinh.\n\nCác bài đọc cho ngày này thường bao gồm những đoạn văn từ sách Isaia nói về tình yêu bền vững của Thiên Chúa và tạo vật mới, cùng với các thư của Phaolô nhấn mạnh sự đa dạng của các ân sủng thần linh trong sự hiệp nhất của Thân Thể Chúa Kitô. Đối với tín hữu, Chúa Nhật này là lời mời gọi lắng nghe Lời Chúa một cách chú ý và đáp lại bằng đức tin, theo lời kêu gọi của Mẹ Maria tại Cana rằng 'hãy làm bất cứ điều gì Người bảo'. Đây là thời gian cho sự phân định tâm linh và cho việc nhận ra sự hiện diện của Chúa Kitô trong những khoảnh khắc bình thường của cuộc sống.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is verified as a Sunday in Ordinary Time according to the current Roman calendar rules, with no higher-ranking feast days occurring in this period.",
+    "confidence_note_vi": "Ngày này được xác minh là một Chúa Nhật trong Mùa Thường Niên theo quy tắc lịch Rôma hiện hành, không có lễ trọng nào khác diễn ra trong thời kỳ này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Listen to the Lord's call in the ordinary moments of life.",
+    "hero_line_vi": "Hãy lắng nghe tiếng Chúa trong những khoảnh khắc bình thường của cuộc sống.",
+    "prayer_prompt_en": "Lord, give me the faith to do whatever You tell me, and help me recognize Your glory in my daily life.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con đức tin để làm bất cứ điều gì Chúa bảo, và giúp con nhận ra vinh quang của Chúa trong đời sống hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for January 16, 2028",
+      "url": "https://bible.usccb.org/bible/readings/011628.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News Calendar and Liturgical Information",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-03",
+    "hebrew": "17 Tevet 5788",
+    "islamic_umm_al_qura": "19 Sha'ban 1449 AH",
+    "coptic": "7 Tobi 1744",
+    "ethiopian": "7 Ter 2020"
+  }
+}

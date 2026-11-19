@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-19",
+  "date": "2028-01-19",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 2",
+    "title_vi": "Thứ Tư tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time, Week 2",
+    "title_vi": "Thứ Tư tuần 2 Mùa Thường Niên",
+    "summary_en": "This day is a Feria of the Second Week of Ordinary Time in the Roman Rite. The liturgical color is green, signifying the period of growth and hope outside the primary seasons. No specific saint or feast takes precedence over the weekday liturgy.",
+    "summary_vi": "Ngày này là Thứ Tư tuần hai Mùa Thường Niên theo lịch phụng vụ Rôma. Màu phụng vụ là màu xanh, biểu thị cho thời kỳ tăng trưởng và hy vọng. Không có vị thánh hay lễ kính cụ thể nào vượt trên phụng vụ ngày thường.",
+    "body_en": "In the General Roman Calendar, Wednesdays during Ordinary Time are typically observed as Feria unless a saint's memorial falls on that day. On January 19, 2028, the liturgical focus remains on the weekday Mass readings which are part of the two-year cycle for Ordinary Time.\n\nThe readings for this day often emphasize the Christian life and the gradual development of the faithful. The priest wears green vestments, and the liturgy is marked by simplicity, focusing on the weekly progression of the Gospel.",
+    "body_vi": "Trong Lịch Rôma chung, các ngày Thứ Tư trong Mùa Thường Niên thường được cử hành như ngày lễ thường (Feria) trừ khi có lễ kính của một vị thánh rơi vào ngày đó. Vào ngày 19 tháng 1 năm 2028, trọng tâm phụng vụ vẫn là các bài đọc Thánh lễ trong chu kỳ hai năm của Mùa Thường Niên.\n\nCác bài đọc trong ngày này thường nhấn mạnh đời sống Kitô hữu và sự phát triển tiệm tiến của cộng đoàn tín hữu. Linh mục mặc áo lễ màu xanh, và phụng vụ được đánh dấu bởi sự giản dị, tập trung vào tiến trình hàng tuần của Tin Mừng.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the green season of hope",
+    "hero_line_vi": "Bước đi trong mùa xanh của hy vọng",
+    "prayer_prompt_en": "Lord, help me grow in faith today",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lớn lên trong đức tin hôm nay"
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/011928.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/12249a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2028-01-06",
+    "hebrew": "20 Tevet 5788",
+    "islamic_umm_al_qura": "22 Sha'ban 1449 AH",
+    "coptic": "10 Tobi 1744",
+    "ethiopian": "10 Ter 2020"
+  }
+}

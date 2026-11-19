@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 2 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật II Mùa Thường Niên",
+    "summary_vi": "Chúa Nhật II Mùa Thường Niên tiếp tục hành trình qua sứ vụ công khai của Chúa Giêsu, nhấn mạnh lời mời gọi làm môn đệ và sự mặc khải vinh quang của Thiên Chúa. Về mặt phụng vụ, ngày này đánh dấu sự chuyển tiếp từ mùa Giáng Sinh sang Mùa Thường Niên, mời gọi tín hữu suy tư về việc áp dụng những giáo huấn của Chúa Kitô trong đời sống hàng ngày. Trọng tâm chuyển từ việc cử hành lịch sử Nhập Thể sang sự tăng trưởng tâm linh liên tục trong cộng đoàn Kitô giáo.",
+    "body_vi": "Trong Sách Lễ Rôma, Chúa Nhật II Mùa Thường Niên trình bày bài Tin Mừng Gioan về tiệc cưới tại Cana, nơi Chúa Giêsu thực hiện dấu lạ đầu tiên, mặc khải vinh quang của Người và dẫn các môn đệ đến đức tin. Câu chuyện này đóng vai trò như một cầu nối thần học, minh họa cách mặc khải thần linh bắt đầu trong những bối cảnh đời thường khiêm tốn của cuộc sống con người, như một bữa tiệc cưới. Màu xanh lá cây trong phụng vụ tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Giáo Hội khi tiếp tục sứ mạng của mình sau những cử hành hân hoan của Mùa Giáng Sinh.\n\nCác bài đọc cho ngày này thường bao gồm những đoạn văn từ sách Isaia nói về tình yêu bền vững của Thiên Chúa và tạo vật mới, cùng với các thư của Phaolô nhấn mạnh sự đa dạng của các ân sủng thần linh trong sự hiệp nhất của Thân Thể Chúa Kitô. Đối với tín hữu, Chúa Nhật này là lời mời gọi lắng nghe Lời Chúa một cách chú ý và đáp lại bằng đức tin, theo lời kêu gọi của Mẹ Maria tại Cana rằng 'hãy làm bất cứ điều gì Người bảo'. Đây là thời gian cho sự phân định tâm linh và cho việc nhận ra sự hiện diện của Chúa Kitô trong những khoảnh khắc bình thường của cuộc sống.",
+    "confidence_note_vi": "Ngày này được xác minh là một Chúa Nhật trong Mùa Thường Niên theo quy tắc lịch Rôma hiện hành, không có lễ trọng nào khác diễn ra trong thời kỳ này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lắng nghe tiếng Chúa trong những khoảnh khắc bình thường của cuộc sống.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con đức tin để làm bất cứ điều gì Chúa bảo, và giúp con nhận ra vinh quang của Chúa trong đời sống hàng ngày."
+  }
+}

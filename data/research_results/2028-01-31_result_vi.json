@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 4 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần 4 Mùa Thường Niên",
+    "summary_vi": "Ngày này được cử hành như một ngày thường nhật trong Mùa Thường Niên, tập trung vào sự tăng trưởng liên tục của các tín hữu qua giáo huấn của Chúa Giêsu. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự phát triển. Không có lễ lớn hay lễ trọng nào được ấn định cho ngày này, nhấn mạnh nhịp độ ổn định của đời sống Kitô hữu.",
+    "body_vi": "Là một ngày thường nhật, phụng vụ mời gọi các tín hữu suy gẫm các bài đọc Tin Mừng được chỉ định trong ngày, thường tiếp nối các chủ đề về môn đệ hóa và Nước Thiên Chúa bắt đầu từ những ngày trước đó. Thời kỳ này cho phép một cuộc gặp gỡ cá nhân sâu sắc hơn với Lời Chúa bên ngoài các mùa cao điểm như Vọng, Giáng Sinh, Chay hoặc Phục Sinh.\n\nCác lời cầu nguyện và bài đọc được chọn để củng cố đời sống đạo đức và tinh thần của người tín hữu. Bằng cách tham dự Thánh lễ hoặc Phụng vụ Giờ kinh, cộng đoàn hiệp thông với lời cầu nguyện phổ quát của Giáo hội, tìm cách sống đức tin trong các hành động và quyết định hàng ngày.",
+    "confidence_note_vi": "Xếp hạng là ngày thường nhật (Feria) là tiêu chuẩn cho Thứ Hai Tuần 4 Mùa Thường Niên trừ khi có lễ kính thánh nào rơi vào, điều mà không xảy ra trong lịch phụng vụ phổ quát cho ngày này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lớn lên trong hy vọng qua Lời Thiên Chúa.",
+    "prayer_prompt_vi": "Xin ban cho con, lạy Chúa, ân sủng để lắng nghe Lời Chúa một cách chăm chú trong ngày hôm nay."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "anno-2028-01-02",
+  "date": "2028-01-02",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Sts. Basil the Great and Gregory Nazianzen, Bishops and Doctors",
+    "title_vi": "Thánh Basiliô Cả và Thánh Grêgôriô Nazianzênô, Giám mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Sts. Basil the Great and Gregory Nazianzen, Bishops and Doctors",
+    "title_vi": "Thánh Basiliô Cả và Thánh Grêgôriô Nazianzênô, Giám mục, Tiến sĩ Hội Thánh",
+    "summary_en": "The Church celebrates the memorial of two 4th-century bishops who profoundly shaped Christian theology and liturgy. Basil the Great, known as 'the Great,' defended the divinity of Christ and organized monastic life. Gregory Nazianzen, called 'the Theologian,' was a master of rhetoric and poetry who served briefly as Patriarch of Constantinople.",
+    "summary_vi": "Hội Thánh cử hành lễ nhớ hai giám mục thế kỷ thứ 4, những người đã định hình sâu sắc thần học và phụng vụ Kitô giáo. Basiliô Cả, được mệnh danh là 'Đại đế,' đã bảo vệ thần tính của Chúa Kitô và tổ chức đời sống đan tu. Grêgôriô Nazianzênô, được gọi là 'Nhà Thần học,' là bậc thầy về hùng biện và thơ ca, từng giữ chức Thượng phụ Constantinople trong một thời gian ngắn.",
+    "body_en": "Basil the Great and Gregory Nazianzen were close friends and fellow students in Athens before becoming pillars of the Church. Their friendship was tested by political and theological tensions in Constantinople, yet they remained united in their defense of Nicene Orthodoxy. Basil is credited with establishing the 'Hospital of Basil' in Caesarea, one of the first comprehensive charitable institutions in history, integrating care for the poor, sick, and travelers.\n\nGregory, though reluctant to accept the Patriarchate, preached powerfully against the Arian heresy. His five theological sermons delivered in Constantinople are considered foundational documents of Christian doctrine. Together, they exemplify how intellectual rigor and pastoral charity must walk together in the service of the Truth, reminding the faithful that theology exists not just for debate, but for worship and sanctification.",
+    "body_vi": "Basiliô Cả và Grêgôriô Nazianzênô là những người bạn thân thiết và cùng là sinh viên tại Athens trước khi trở thành những trụ cột của Hội Thánh. Tình bạn của họ đã bị thử thách bởi những căng thẳng chính trị và thần học tại Constantinople, nhưng họ vẫn đoàn kết trong việc bảo vệ Chính thống giáo Nicea. Basiliô được ghi nhận vì đã thành lập 'Bệnh viện Basiliô' tại Caesarea, một trong những tổ chức từ thiện toàn diện đầu tiên trong lịch sử, tích hợp sự chăm sóc cho người nghèo, người bệnh và khách lữ hành.\n\nGrêgôriô, dù miễn cưỡng khi chấp nhận chức Thượng phụ, đã giảng dạy mạnh mẽ chống lại lạc giáo Arian. Năm bài giảng thần học của ngài được rao giảng tại Constantinople được coi là những tài liệu nền tảng của giáo lý Kitô giáo. Cùng với nhau, họ minh họa cho thấy sự nghiêm túc trí tuệ và lòng bác ái mục vụ phải song hành trong phục vụ Chân Lý, nhắc nhở cộng đoàn tín hữu rằng thần học không chỉ tồn tại để tranh luận, mà để thờ phượng và thánh hóa.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Theology is prayer; doctrine is worship.",
+    "hero_line_vi": "Thần học là cầu nguyện; giáo lý là thờ phượng.",
+    "prayer_prompt_en": "Lord, grant us the wisdom to defend Your truth with humility and to serve Your people with compassion, as we reflect on the lives of Saints Basil and Gregory.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khôn ngoan để bảo vệ chân lý của Chúa với sự khiêm nhường và phục vụ dân Chúa với lòng trắc ẩn, khi chúng con suy niệm về cuộc đời của Thánh Basiliô và Thánh Grêgôriô."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Readings and Reflections",
+      "url": "https://bible.usccb.org/bible/readings/010228.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - Saints of the Day",
+      "url": "https://catholicculture.org/culture/liturgical-calendar/day.cfm?year=2028&mon=1&day=2",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-20",
+    "hebrew": "3 Tevet 5788",
+    "islamic_umm_al_qura": "5 Sha'ban 1449 AH",
+    "coptic": "23 Koiak 1744",
+    "ethiopian": "23 Tahsas 2020"
+  }
+}

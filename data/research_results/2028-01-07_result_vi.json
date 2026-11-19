@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_vi": "Ngày 7 tháng 1 năm 2028 là thứ Sáu trong mùa phụng vụ Giáng Sinh. Không có ngày lễ hay tưởng nhớ bắt buộc nào được chỉ định cho ngày trong tuần cụ thể này theo Lịch Phụng Vụ Rôma. Trọng tâm vẫn là suy niệm về việc Chúa Giáng Sinh.",
+    "body_vi": "Là một ngày trong tuần của mùa Giáng Sinh, phụng vụ suy tư về mầu nhiệm Nhập Thể mà không có sự nâng cấp thành lễ kính một vị thánh cụ thể hay ngày Chúa nhật buộc. Màu sắc của khăn bàn thờ là màu trắng, tượng trưng cho niềm vui và sự tinh tuyền gắn liền với việc Chúa Kitô giáng sinh.\n\nTrong thời gian này, các bài đọc thường tiếp nối từ những ngày trước lễ Chúa Giêsu Chịu Phép Rửa. Cộng đoàn dân Chúa được mời gọi suy niệm về sự khiêm nhường của Thiên Chúa khi trở thành con người, một chủ đề xuyên suốt trong các lời nguyện và lời đối đáp của thời kỳ này.",
+    "confidence_note_vi": "Ngày này rơi vào mùa Giáng Sinh với tư cách là ngày thường, không có lễ trọng hay lễ kính nào khác trong Lịch Phổ Quát cạnh tranh với thứ bậc của ngày trong tuần này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy suy niệm về sự khiêm nhường của mầu nhiệm Nhập Thể.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhìn thấy vinh quang của Ngài trong sự đơn sơ của máng cỏ."
+  }
+}

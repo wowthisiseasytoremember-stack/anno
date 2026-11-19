@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 1 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 1 Mùa Thường Niên",
+    "summary_vi": "Ngày 15 tháng 1 năm 2028 là thứ Bảy tuần 1 Mùa Thường Niên. Đây là ngày trong tuần thuộc Mùa Thường Niên, không có lễ trọng hay lễ kính đặc biệt. Màu phụng vụ là màu xanh, tượng trưng cho hy vọng và sự tăng trưởng trong đức tin.",
+    "body_vi": "Là ngày thường tuần 1 Mùa Thường Niên, phụng vụ tập trung vào việc đọc Lời Chúa hàng ngày và lời cầu nguyện của Giáo Hội. Không có lễ kính thánh nào đặc biệt thay thế phụng vụ ngày thường, vốn dành trọn vẹn cho những mầu nhiệm về đời sống công khai và giáo huấn của Đức Kitô.\n\nCác bài đọc và lời cầu nguyện cho ngày này được lấy từ chu kỳ tuần 1 của Sách Bài Đọc và Kinh Thần Nhật La Mã. Giáo dân được mời gọi suy niệm sứ điệp Tin Mừng phù hợp với thời điểm này, giữ vững tinh thần khiêm nhường và tăng trưởng đặc trưng của Mùa Thường Niên.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Màu Xanh của Hy Vọng",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong đức tin và hy vọng qua Lời Chúa hàng ngày."
+  }
+}
