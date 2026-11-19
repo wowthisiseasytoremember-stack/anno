@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-09-10",
+  "date": "2027-09-10",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 21",
+    "title_vi": "Thứ Sáu tuần 21 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of the Twenty-First Week in Ordinary Time",
+    "title_vi": "Thứ Sáu Tuần 21 Mùa Thường Niên",
+    "summary_en": "On this Friday, the Church observes a standard feria in Ordinary Time. The liturgical color is green, signifying growth and hope. No obligatory feast or saint memorial takes precedence, allowing for a focus on daily sanctification.",
+    "summary_vi": "Trong ngày Thứ Sáu này, Giáo hội cử hành một ngày thường lệ (feria) trong Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu tượng cho sự tăng trưởng và hy vọng. Không có lễ buộc hay lễ kính thánh nhân nào ưu tiên, giúp tập trung vào việc nên thánh hàng ngày.",
+    "body_en": "The readings for this day are determined by the two-year cycle of the Roman Missal (Year I, as 2027 is an odd year for the Sunday cycle but the weekday cycle follows its own logic; specifically, for the Liturgy of the Word in Ordinary Time, weekdays follow a different structure, but often align with the current temporal cycle). The faithful are invited to listen to the Word of God and pray the Liturgy of the Hours with attentiveness. The absence of a specific saint's feast does not diminish the spiritual gravity of the day, as every Christian is called to holiness in the ordinary moments of life.\n\nIn the Liturgy of the Hours, the psalms and readings correspond to the Friday of Week 21. The community is encouraged to maintain the rhythm of prayer, offering their work and suffering as spiritual sacrifices. This temporal setting emphasizes the gradual transformation of the believer in Christ through consistent adherence to the Gospel in daily life.",
+    "body_vi": "Các bài đọc trong ngày này được xác định theo chu kỳ hai năm của Sách Lễ Rôma (Năm I, vì 2027 là năm lẻ cho chu kỳ Chúa nhật nhưng chu kỳ ngày thường có logic riêng; cụ thể, trong Phụng vụ Lời Chúa vào Mùa Thường Niên, các ngày thường tuân theo cấu trúc khác, nhưng thường đồng nhất với chu kỳ thời gian hiện tại). Các tín hữu được mời gọi lắng nghe Lời Chúa và đọc Kinh Phụng Vụ với sự chú tâm. Việc không có lễ kính thánh nhân cụ thể không làm giảm bớt tầm quan trọng tâm linh của ngày, vì mọi Kitô hữu đều được kêu gọi nên thánh trong những khoảnh khắc đời thường của cuộc sống.\n\nTrong Kinh Phụng Vụ, các thánh vịnh và bài đọc tương ứng với Thứ Sáu của Tuần 21. Cộng đoàn được khuyến khích duy trì nhịp cầu nguyện, dâng công việc và những đau khổ của mình làm những lễ vật tinh thần. Bối cảnh thời gian này nhấn mạnh sự biến đổi dần dần của người tín hữu trong Chúa Kitô thông qua sự tuân phục nhất quán Tin Mừng trong đời sống hàng ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Green growth in the vineyard of the Lord.",
+    "hero_line_vi": "Tăng trưởng xanh trong vườn nho của Chúa.",
+    "prayer_prompt_en": "Lord, grant me faithfulness in the small things of this day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự trung tín trong những điều nhỏ bé của ngày hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/091027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Liturgical Calendar",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?day=10&month=9&year=2027",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "This is a standard feria in Ordinary Time with no competing universal feast in the General Roman Calendar for this specific date.",
+  "confidence_note_vi": "Đây là một ngày thường lệ tiêu chuẩn trong Mùa Thường Niên, không có lễ phổ quát nào cạnh tranh trong Lịch Phụng vụ Rôma vào ngày cụ thể này.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-28",
+    "hebrew": "8 Elul 5787",
+    "islamic_umm_al_qura": "9 Rabi' al-Thani 1449 AH",
+    "coptic": "5 Pi Kogi Enavot 1743",
+    "ethiopian": "5 Pagumen 2019"
+  }
+}

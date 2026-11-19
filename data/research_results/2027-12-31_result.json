@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-31",
+  "date": "2027-12-31",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "white",
+    "title_en": "Weekday of Christmastide",
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday within the Octave of Christmas",
+    "title_vi": "Thứ Sáu trong Tuần Bát Nhật Giáng Sinh",
+    "summary_en": "On December 31, the Church observes a feria within the Octave of Christmas. This day emphasizes the mystery of the Incarnation and the continuity of the Nativity season. While some calendars may mark optional memorials, the liturgical focus remains on the Lord's birth and the transition to the new year.",
+    "summary_vi": "Vào ngày 31 tháng 12, Hội Thánh cử hành ngày thường trong Tuần Bát Nhật Giáng Sinh. Ngày này nhấn mạnh mầu nhiệm Nhập Thể và sự tiếp nối của mùa Giáng Sinh. Mặc dù một số lịch có thể đánh dấu các nghi thức tùy chọn, trọng tâm phụng vụ vẫn là sự ra đời của Chúa và sự chuyển tiếp sang năm mới.",
+    "body_en": "The weekday readings and prayers reflect the theological significance of the Incarnation, reminding the faithful of the light entering the world. Liturgical texts often draw from the Johannine prologue or the infancy narratives, reinforcing the humility and divinity revealed in Bethlehem. As the last day of the calendar year, it also invites reflection on time and eternity within the context of God's manifest presence in Christ.\n\nThe liturgical color white signifies the joy and purity associated with the Christmas mystery. This day serves as a spiritual bridge between the celebration of the Nativity and the upcoming Solemnity of Mary, Mother of God on January 1. The faithful are encouraged to participate in the Holy Sacrifice of the Mass to deepen their contemplation of the Word made flesh.",
+    "body_vi": "Các bài đọc và lời cầu nguyện trong ngày thường phản ánh ý nghĩa thần học của mầu nhiệm Nhập Thể, nhắc nhở các tín hữu về ánh sáng đã đi vào thế gian. Các văn bản phụng vụ thường trích dẫn từ lời tựa của Gioan hoặc các tường thuật thời thơ ấu, củng cố sự khiêm nhường và thần tính được mặc khải tại Bêlem. Là ngày cuối cùng của năm dương lịch, nó cũng mời gọi suy niệm về thời gian và sự vĩnh cửu trong bối cảnh sự hiện diện rõ ràng của Thiên Chúa trong Đức Kitô.\n\nMàu phụng vụ trắng tượng trưng cho niềm vui và sự tinh tuyền liên quan đến mầu nhiệm Giáng Sinh. Ngày này đóng vai trò như một cây cầu thiêng liêng giữa việc cử hành Lễ Giáng Sinh và Đại lễ Đức Maria, Mẹ Thiên Chúa vào ngày 1 tháng Giêng tới. Các tín hữu được khuyến khích tham dự Thánh Lễ để đào sâu sự suy niệm về Ngôi Lời đã trở nên xác phàm.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed as a standard feria in the Ordinary Form of the Roman Rite for the given year.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường tiêu chuẩn trong Nghi thức Rôma Thông thường cho năm được chỉ định."
+  },
+  "app_hooks": {
+    "hero_line_en": "Contemplating the Incarnation as the year concludes.",
+    "hero_line_vi": "Suy niệm mầu nhiệm Nhập Thể khi năm cũ khép lại.",
+    "prayer_prompt_en": "Lord, let me see your face. Help me to walk in the light of your Word as we enter a new year.",
+    "prayer_prompt_vi": "Chúa ơi, xin cho con được thấy mặt Chúa. Xin giúp con bước đi trong ánh sáng Lời Chúa khi bước sang năm mới."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/123127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Liturgical Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgical-calendar/view.cfm?year=2027",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-18",
+    "hebrew": "1 Tevet 5788",
+    "islamic_umm_al_qura": "3 Sha'ban 1449 AH",
+    "coptic": "21 Koiak 1744",
+    "ethiopian": "21 Tahsas 2020"
+  }
+}

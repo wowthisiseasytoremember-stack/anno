@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-14",
+  "date": "2027-08-14",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "St. Maximilian Mary Kolbe, Priest and Martyr",
+    "title_vi": "Thánh Mácximilianô Maria Kolbe, Linh mục, Tử đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Maximilian Mary Kolbe, Priest and Martyr",
+    "title_vi": "Thánh Mácximilianô Maria Kolbe, Linh mục, Tử đạo",
+    "summary_en": "St. Maximilian Mary Kolbe was a Polish Franciscan priest and martyr who died at the Auschwitz concentration camp in 1941. He is known for his profound devotion to the Immaculate Virgin Mary and his founding of the Militia Immaculatae. Kolbe offered his life in place of another prisoner, a fellow Polish father, and was killed in the starvation bunker.",
+    "summary_vi": "Thánh Mácximilianô Maria Kolbe là một linh mục dòng Phanxicô người Ba Lan, tử đạo tại trại tập trung Auschwitz năm 1941. Ngài nổi tiếng với lòng sùng kính Đức Trinh Nữ Maria Vô Nhiễm và sáng lập Hội Hiệp sĩ Đức Mẹ Vô Nhiễm. Kolbe đã hiến dâng mạng sống mình thay cho một người tù khác là một người cha người Ba Lan, và bị giết trong hầm đói. Ngài được Giáo hoàng Gioan Phaolô II tuyên thánh năm 1982.",
+    "body_en": "Born Raymond Kolbe in Zduńska Wola, Poland, he entered the Franciscan order and took the name Maximilian after a vision of the Virgin Mary. He became a strong advocate for the Immaculate Virgin, founding the Militia Immaculatae in 1917 and publishing 'Rycerz Niepokalanej' (The Knight of the Immaculate). His missionary work extended to Japan and India, where he established monasteries and publications to spread the faith through media.\n\nArrested by the Nazis in 1941, he was sent to Auschwitz. When a prisoner was sentenced to death by starvation for the escape of another, Kolbe volunteered to die in his place. For two weeks, he led prayers and sang hymns with the other prisoners in the bunker. He was ultimately injected with a lethal injection after the period of starvation, becoming a martyr of charity.",
+    "body_vi": "Sinh ra với tên Raymond Kolbe tại Zduńska Wola, Ba Lan, ngài gia nhập dòng Phanxicô và lấy tên Mácximilianô sau một thị kiến về Đức Trinh Nữ Maria. Ngài trở thành một người bảo vệ mạnh mẽ cho Đức Mẹ Vô Nhiễm, thành lập Hội Hiệp sĩ Đức Mẹ Vô Nhiễm năm 1917 và xuất bản tạp chí 'Rycerz Niepokalanej'. Công việc truyền giáo của ngài lan rộng đến Nhật Bản và Ấn Độ, nơi ngài thành lập các đan viện và các ấn phẩm để truyền bá đức tin qua truyền thông.\n\nBị Quốc xã bắt giữ năm 1941, ngài bị đưa đến Auschwitz. Khi một tù nhân bị kết án chết đói vì sự bỏ trốn của một người khác, Kolbe đã tình nguyện chết thay. Trong hai tuần, ngài dẫn dắt lời cầu nguyện và hát thánh ca với các tù nhân khác trong hầm. Ngài cuối cùng bị tiêm thuốc độc sau thời gian chịu đói, trở thành một vị tử đạo của lòng bác ái.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Martyr of charity, give me your faith.",
+    "hero_line_vi": "Vị tử đạo của đức ái, xin ban cho con lòng tin.",
+    "prayer_prompt_en": "Lord, grant me the courage to love others as deeply as you love me.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm để yêu thương người khác sâu sắc như Ngài yêu con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/081427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Saints Calendar",
+      "url": "https://www.newadvent.org/cathen/11770a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-01",
+    "hebrew": "11 Av 5787",
+    "islamic_umm_al_qura": "12 Rabi' al-Awwal 1449 AH",
+    "coptic": "8 Mesori 1743",
+    "ethiopian": "8 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

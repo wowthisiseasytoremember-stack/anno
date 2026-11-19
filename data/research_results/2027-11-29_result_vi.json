@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần I Mùa Vọng",
+    "summary_vi": "Thứ Hai này đánh dấu ngày thứ hai của năm phụng vụ mới và tuần đầu tiên của Mùa Vọng. Giáo hội tập trung vào chủ đề tỉnh thức và lòng mong đợi ngày Chúa đến. Đây là thời gian của sám hối và chuẩn bị tâm hồn cho Lễ Giáng Sinh.",
+    "body_vi": "Màu phụng vụ là màu tím, biểu thị cho sám hối, chờ đợi và khiêm nhường mong đợi. Các bài đọc thường khuyến khích các tín hữu tỉnh thức và sẵn sàng cho ngày Chúa trở lại, vang vọng niềm hy vọng cánh chung của Giáo hội sơ khai.\n\nLà một ngày trong tuần đầu tiên của Mùa Vọng, ngày này thiết lập nhịp điệu cho toàn bộ mùa phụng vụ, mời gọi các tín hữu hoán cải tâm hồn và tâm trí. Sự nhấn mạnh không phải trên một vị thánh cụ thể mà là lời cầu nguyện và sự chuẩn bị chung của cộng đoàn Giáo hội.",
+    "confidence_note_vi": "Bậc lễ là ngày thường (feria) và màu là tím, tuân theo cấu trúc lịch Mùa Vọng chuẩn mực."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy tỉnh thức và cầu nguyện.",
+    "prayer_prompt_vi": "Hãy xin ơn để luôn tỉnh thức trong đức tin suốt mùa chờ đợi này."
+  }
+}

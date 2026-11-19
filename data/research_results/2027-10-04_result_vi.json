@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Phanxicô thành Assisi"
+  },
+  "primary": {
+    "title_vi": "Thánh Phanxicô thành Assisi",
+    "summary_vi": "Giáo hội cử hành lễ kính Thánh Phanxicô thành Assisi, người sáng lập các dòng Phanxicô và là quan thầy của sinh thái học. Nổi tiếng với lòng khiêm tốn sâu sắc và sự gắn bó với đức khó nghèo, Phanxicô đã đón nhận một cuộc đời được mô phỏng theo Tin Mừng của Đức Giêsu Kitô. Di sản của ngài tiếp tục qua phong trào Phanxicô, nhấn mạnh sự đơn sơ và bác ái.",
+    "body_vi": "Phanxicô thành Assisi (1181–1226) sinh ra tại Assisi, Ý, trong một gia đình thương nhân giàu có. Sau một thời gian tuổi trẻ phóng túng và phục vụ quân ngũ, ngài đã trải qua một cuộc hoán cải sâu sắc, từ bỏ của cải trần gian để sống vâng phục theo Tin Mừng. Ngài thành lập Dòng Anh Em Hèn Mọn (Friars Minor), tìm cách canh tân Hội Thánh bằng cách sống đời khó nghèo tông đồ và rao giảng tình yêu của Thiên Chúa cho mọi thụ tạo.\n\nLinh đạo của ngài được đặc trưng bởi lòng trân trọng sâu sắc đối với thế giới tự nhiên, mà ngài coi là phản chiếu của thần tính. 'Bài ca Mặt Trời' vẫn còn là một trong những bài thơ tiếng Ý sớm nhất và là minh chứng cho tầm nhìn thần học về tình huynh đệ với thụ tạo. Ngày nay, ngài được tôn kính như một Tiến sĩ Hội Thánh trong tinh thần và là quan thầy của động vật, sinh thái học và các thương nhân, truyền cảm hứng cho vô số tín hữu tìm kiếm sự thánh thiện qua sự đơn sơ.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bình An và An Lạc: Ngày Tưởng Nhớ Thánh Phanxicô",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhìn thấy mọi thụ tạo như phản chiếu vinh quang của Ngài và sống với sự khiêm tốn cùng bác ái."
+  }
+}

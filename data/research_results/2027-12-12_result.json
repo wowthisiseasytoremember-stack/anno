@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-12",
+  "date": "2027-12-12",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "rose",
+    "title_en": "Our Lady of Guadalupe (Universal Optional)",
+    "title_vi": "Đức Mẹ Guadalupe"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Third Sunday of Advent",
+    "title_vi": "Chúa Nhật III Mùa Vọng",
+    "summary_en": "The Third Sunday of Advent, also known as Gaudete Sunday, marks a shift in the season's tone from penitential preparation to joyful anticipation. The liturgical color changes to rose, symbolizing this mid-point of hope and joy in the waiting. While the optional memorial of Our Lady of Guadalupe is observed, the Sunday's theme of divine proximity takes precedence in the liturgy.",
+    "summary_vi": "Chúa Nhật III Mùa Vọng, còn được gọi là Chúa Nhật Gaudete, đánh dấu sự chuyển đổi của mùa từ chuẩn bị sám hối sang niềm vui hân hoan chờ đợi. Màu sắc phụng vụ chuyển sang hồng, tượng trưng cho thời điểm giữa mùa của niềm hy vọng và vui mừng. Mặc dù lễ nhớ tùy chọn Đức Mẹ Guadalupe được cử hành, chủ đề Chúa Nhật về sự gần gũi của Thiên Chúa vẫn chiếm vị trí ưu tiên trong phụng vụ.",
+    "body_en": "The introit for this Sunday begins with 'Gaudete' (Rejoice), echoing the prophetic invitation to joy in the Lord who is near. This Sunday serves as a spiritual break in the Advent season, encouraging the faithful to sustain their hope as the celebration of Christmas approaches. The readings focus on the joy of the Lord's presence among His people and the fulfillment of His promises.\n\nAlthough the Feast of Our Lady of Guadalupe is widely celebrated on December 12, it is classified as an Optional Memorial in the General Roman Calendar. When it coincides with the Third Sunday of Advent, the proper texts of the Sunday generally prevail, unless the conference of bishops determines otherwise for specific locales. The liturgy thus remains focused on the anticipation of the Incarnation.",
+    "body_vi": "Lời nhập lễ của Chúa Nhật này bắt đầu bằng 'Gaudete' (Hãy vui lên), vang vọng lời mời gọi ngôn sứ vui mừng trong Đức Chúa vì Ngài đã gần đến. Chúa Nhật này như một khoảng lặng thiêng liêng trong mùa Vọng, khuyến khích các tín hữu duy trì niềm hy vọng khi lễ Giáng Sinh đang đến gần. Các bài đọc tập trung vào niềm vui về sự hiện diện của Đức Chúa giữa dân Ngài và việc hoàn thành những lời hứa của Ngài.\n\nMặc dù Lễ Đức Mẹ Guadalupe được cử hành rộng rãi vào ngày 12 tháng 12, nhưng theo Lịch Rôma Chung, đây được xếp loại là Lễ Nhớ Tùy Chọn. Khi trùng với Chúa Nhật III Mùa Vọng, các bản văn riêng của Chúa Nhật thường chiếm ưu thế, trừ khi Hội đồng Giám mục quyết định khác đối với các địa phương cụ thể. Do đó, phụng vụ vẫn tập trung vào việc chờ đợi Mầu Nhiệm Nhập Thể.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Rejoice, for the Lord is at hand.",
+    "hero_line_vi": "Hãy vui lên, vì Đức Chúa đã gần đến.",
+    "prayer_prompt_en": "Ask for the grace to maintain joy and hope during the final days of Advent.",
+    "prayer_prompt_vi": "Hãy xin ơn duy trì niềm vui và hy vọng trong những ngày cuối cùng của mùa Vọng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings for December 12, 2027",
+      "url": "https://bible.usccb.org/bible/readings/121227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Saints Information: Our Lady of Guadalupe",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=2960",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-29",
+    "hebrew": "12 Kislev 5788",
+    "islamic_umm_al_qura": "14 Rajab 1449 AH",
+    "coptic": "2 Koiak 1744",
+    "ethiopian": "2 Tahsas 2020"
+  }
+}

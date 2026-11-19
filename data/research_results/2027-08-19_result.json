@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-19",
+  "date": "2027-08-19",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 18",
+    "title_vi": "Thứ Năm tuần 18 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of Ordinary Time, Week 18",
+    "title_vi": "Thứ Năm tuần 18 Mùa Thường Niên",
+    "summary_en": "On August 19, 2027, the Church observes an ordinary weekday within the 18th week of Ordinary Time. The liturgical color is green, signifying the growth and maturity of the faith during this season. The focus remains on the continuous progression of Christian life outside of specific feast days.",
+    "summary_vi": "Vào ngày 19 tháng 8 năm 2027, Giáo hội cử hành một ngày thường trong tuần 18 Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu thị sự tăng trưởng và trưởng thành của đức tin trong mùa này. Trọng tâm vẫn là sự tiến triển liên tục của đời sống Kitô hữu bên ngoài các ngày lễ cụ thể.",
+    "body_en": "As a Feria in Ordinary Time, this day does not commemorate a specific solemnity or feast that displaces the weekday office. The readings and prayers follow the cycle for Week 18, inviting the faithful to reflect on the Gospel in the context of everyday life. The green color serves as a constant reminder of hope and the steady growth of the Church.\n\nThe liturgical structure for this Thursday involves specific readings that align with the weekly cycle of the Lectionary. Without the interruption of a high-ranking feast, the liturgy emphasizes the personal and communal journey of faith through mundane moments. This time allows for meditation on the virtues of patience and perseverance.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, ngày này không tưởng nhớ một lễ trọng hay lễ kính nào thay thế cho giờ kinh nhật tụng ngày thường. Các bài đọc và lời cầu nguyện tuân theo chu kỳ của Tuần 18, mời gọi các tín hữu suy niệm Phúc Âm trong bối cảnh đời sống hằng ngày. Màu xanh lá cây luôn nhắc nhở về niềm hy vọng và sự tăng trưởng vững chắc của Giáo hội.\n\nCấu trúc phụng vụ cho Thứ Năm này bao gồm các bài đọc cụ thể phù hợp với chu kỳ hàng tuần của Sách Bài Đọc. Nếu không có sự gián đoạn của một lễ nghi cao cấp, phụng vụ nhấn mạnh hành trình đức tin cá nhân và cộng đoàn qua những khoảnh khắc trần tục. Thời gian này cho phép suy niệm về đức kiên nhẫn và bền bỉ.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith through the ordinary days.",
+    "hero_line_vi": "Lớn lên trong đức tin qua những ngày thường nhật.",
+    "prayer_prompt_en": "Lord, help us find you in our daily routines.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tìm thấy Ngài trong thói quen hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/081927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Calendar of Saints",
+      "url": "https://www.newadvent.org/cathen/15107a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-06",
+    "hebrew": "16 Av 5787",
+    "islamic_umm_al_qura": "17 Rabi' al-Awwal 1449 AH",
+    "coptic": "13 Mesori 1743",
+    "ethiopian": "13 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

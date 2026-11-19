@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 20 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 20 Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày thường tuần (feria) trong Mùa Thường Niên, cụ thể là tuần thứ 20 của năm phụng vụ. Không có lễ trọng hay lễ nhớ bắt buộc nào ưu tiên, nên phụng vụ tập trung vào chu kỳ đọc Lời Chúa hằng ngày và việc thánh hóa thời gian thường nhật. Màu sắc áo lễ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin.",
+    "body_vi": "Là một ngày thường của tuần 20 Mùa Thường Niên, phụng vụ mời gọi cộng đoàn dân Chúa suy gẫm các bài đọc Sách Thánh được chỉ định cho thứ Ba này. Các bài đọc thường trích từ Tin Mừng và các Thư Tông đồ, cung cấp sự giáo lý và suy tư thiêng liêng liên tục bên ngoài các mùa phụng vụ lớn.\n\nBậc phụng vụ 'ngày thường' chỉ ra một thời gian đơn sơ và liên tục trong đời sống cầu nguyện của Giáo Hội. Mặc dù có thể nhớ đến các thánh tùy theo lịch địa phương, nhịp điệu phổ quát của tuần vẫn tập trung vào mầu nhiệm Vượt Qua được cử hành trong Bí tích Thánh Thể và Phụng vụ Các Giờ Kinh.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm thấy sự thánh thiện trong nhịp điệu thường nhật của tuần 20.",
+    "prayer_prompt_vi": "Cầu nguyện để đời sống hằng ngày của chúng ta phản ánh bình an của Chúa Kitô."
+  }
+}

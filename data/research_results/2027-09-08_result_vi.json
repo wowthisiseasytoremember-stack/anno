@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria"
+  },
+  "primary": {
+    "title_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria",
+    "summary_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria được cử hành vào ngày 8 tháng 9, đánh dấu sự ra đời của Maria tại Nazareth. Lễ này tưởng nhớ sự khởi đầu cuộc sống của Maria, người được chọn để làm Mẹ của Chúa Giêsu. Đây là thời điểm để suy ngẫm về kế hoạch cứu độ của Thiên Chúa và vai trò quan trọng của Maria trong đức tin Kitô giáo.",
+    "body_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria là một trong những lễ cổ xưa nhất về Đức Maria, có nguồn gốc từ những ngày đầu của Giáo Hội. Lễ này cử hành sự ra đời của Maria, người được định sẵn để trở thành Mẹ của Chúa Giêsu. Lễ này là lời nhắc nhở về kế hoạch của Thiên Chúa bắt đầu từ sự ra đời của Maria, dẫn đến Cuộc Nhập Thể và sự cứu độ của nhân loại.\n\nTrong thực hành phụng vụ, lễ này được đánh dấu bằng các bài đọc và lời cầu nguyện đặc biệt làm nổi bật vai trò độc đáo của Maria trong lịch sử cứu độ. Đây là thời gian để người Công giáo tôn kính Maria và tìm kiếm sự chuyển cầu của Mẹ, nhấn mạnh tầm quan trọng của sự khiêm nhường và vâng phục trong đời sống đức tin.",
+    "confidence_note_vi": "Ngày lễ cố định trong Lịch Rôma Chung và được công nhận rộng rãi trong phụng vụ Công giáo."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Cử hành sự ra đời của Đức Trinh Nữ Maria, Mẹ của Chúa chúng ta.",
+    "prayer_prompt_vi": "Lạy Chúa, khi chúng con cử hành Lễ Sinh Nhật của Maria, xin giúp chúng con đón nhận sự khiêm nhường và vâng phục trong cuộc sống của chúng con."
+  }
+}

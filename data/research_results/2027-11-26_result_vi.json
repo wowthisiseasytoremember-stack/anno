@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 32 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 32 Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào Thứ Sáu tuần 32 Mùa Thường Niên, một ngày thường trong lịch phụng vụ Công giáo La Mã. Không có vị thánh hoặc lễ trọng phổ quát nào được gán cho ngày cụ thể này trong Lịch Phụng vụ Chung. Trọng tâm phụng vụ vẫn tập trung vào chu kỳ liên tục của Mùa Thường Niên, mời gọi các tín hữu suy niệm về bước đi hàng ngày với Chúa Kitô.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, phụng vụ nhấn mạnh sự tăng trưởng vững chắc của đức tin và việc áp dụng các bài học Tin Mừng vào cuộc sống hàng ngày. Các bài đọc trong ngày này thường tiếp tục chuỗi đọc Tin Mừng và các Thư một cách tuần tự, cung cấp nguồn nuôi dưỡng thiêng liêng ổn định. Không có lễ lớn nào làm gián đoạn dòng chảy của năm phụng vụ, cho phép suy tư cá nhân và thống hối trong màu xanh hy vọng và tăng trưởng.\n\nViệc thiếu vắng đài kỷ niệm vị thánh cụ thể trong Lịch Phụng vụ Chung vào ngày này nhấn mạnh tầm quan trọng của các mùa Thường Niên. Giáo hội khuyến khích các tín hữu duy trì nhịp cầu nguyện, đặc biệt qua Phụng vụ Giờ kinh và việc cử hành Thánh Thể. Thời kỳ này là lúc để hội nhập các mầu nhiệm được cử hành trong các mùa Vọng, Giáng Sinh, Mùa Chay và Phục Sinh vào cách sống đời thường.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong ân sủng Thứ Sáu Mùa Thường Niên này.",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng con sự tăng trưởng vững chắc trong đức tin và nhân đức, khi chúng con bước đi trong Mùa Thường Niên. Amen."
+  }
+}

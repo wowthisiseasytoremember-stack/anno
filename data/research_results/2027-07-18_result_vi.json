@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 14 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật XVI Thường Niên",
+    "summary_vi": "Chúa Nhật XVI Thường Niên rơi vào mùa hè của lịch phụng vụ. Trong chu kỳ hiện tại, các bài đọc tập trung vào chủ đề đón tiếp và lắng nghe Lời Chúa. Tin Mừng thường trình bày cảnh Martha và Maria, đối chiếu giữa việc phục vụ tích cực và sự thinh lặng chiêm niệm.",
+    "body_vi": "Chúa Nhật này mời gọi các tín hữu suy tư về sự cân bằng giữa hành động và chiêm niệm trong đời sống tâm linh. Các văn bản phụng vụ khuyến khích người tin đặt việc lắng nghe lời Chúa làm nền tảng chính cho mọi việc phục vụ. Đây là lời nhắc nhở rằng hoạt động tông đồ phải phát xuất từ mối tương quan nội tâm sâu sắc với Thiên Chúa.\n\nHội Thánh sử dụng thời gian này để củng cố nhân đức đón tiếp, như được trình bày trong Cựu Ước và các tường thuật Tin Mừng. Bằng cách đặt Chúa Nhật XVI Thường Niên, lịch phụng vụ duy trì tiến trình ổn định của năm phụng vụ bên ngoài các chu kỳ lễ cụ thể. Giai đoạn này mang đến cơ hội tăng trưởng tâm linh qua việc đọc Kinh Thánh thường xuyên và tham dự Bí tích Thánh Thể.",
+    "confidence_note_vi": "Ngày này là Chúa Nhật, nên ưu tiên hơn các ngày lễ nhớ tùy ý. Bậc lễ được xác định bởi lịch phụng vụ chung cho các Chúa Nhật Thường Niên. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lắng nghe trước khi hành động.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban ơn con biết lắng nghe Lời Chúa trên mọi xao lãng."
+  }
+}

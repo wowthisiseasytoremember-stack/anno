@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Gioan Kim Khẩu, Giám mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Gioan Kim Khẩu, Giám mục, Tiến sĩ Hội Thánh",
+    "summary_vi": "Gioan Kim Khẩu là một Giáo phụ lỗi lạc và là Tổng giám mục Constantinople vào cuối thế kỷ thứ IV. Ngài nổi tiếng với những bài giảng hùng hồn, được mệnh danh là 'Kim Khẩu' (Miệng Vàng), và với các chú giải Kinh Thánh đồ sộ. Lễ nhớ ngài được cử hành vào ngày này trong Lịch Phụng Vụ Rôma phổ quát.",
+    "body_vi": "Gioan Kim Khẩu sinh ra tại Antioch, sau đó trở thành linh mục rồi Tổng giám mục Constantinople. Các bài giảng của ngài nổi bật với sự hướng dẫn luân lý thực tiễn và phương pháp chú giải nghiêm ngặt, nhấn mạnh vào ý nghĩa văn tự của bản văn. Ngài chịu nhiều lần lưu đày do xung đột với triều đình và các nhân vật giáo sĩ khác, nhưng ảnh hưởng thần học và mục vụ của ngài vẫn còn sâu rộng.\n\nLà một Tiến sĩ Hội Thánh, các tác phẩm của ngài, bao gồm những bài giảng nổi tiếng về Tin Mừng Matthêu và Thư Do Thái, vẫn được đọc vì chiều sâu tâm linh và vẻ đẹp hùng biện. Ngài là một trong những Giáo phụ được trích dẫn nhiều nhất trong Phụng Vụ Thánh và vẫn là hình mẫu cho các nhà giảng thuyết tìm cách kết nối Kinh Thánh với đời sống hằng ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Miệng Vàng nói lên lòng trí.",
+    "prayer_prompt_vi": "Hãy cầu xin sự khôn ngoan để loan báo Tin Mừng cách rõ ràng."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Anphongsô Liguori, Giám mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Anphongsô Liguori, Giám mục, Tiến sĩ Hội Thánh",
+    "summary_vi": "Thánh Anphongsô Liguori là một Tiến sĩ Hội Thánh và là bổn mạng của các nhà thần học luân lý và các linh mục giải tội. Ngài nổi tiếng với các tác phẩm về thần học luân lý và cầu nguyện. Là một giám mục và là đấng sáng lập Dòng Chúa Cứu Thế, ngài nhấn mạnh vào việc hướng dẫn thiêng liêng dễ tiếp cận cho người dân bình thường.",
+    "body_vi": "Thánh Anphongsô Liguori (1696–1787) là một nhà văn và nhà thần học uyên bác, người đã tìm cách phổ biến giáo lý Công giáo cho những người không có học thức. Các tác phẩm 'Vinh Quang Đức Mẹ' và 'Chuẩn Bị Chết' của ngài vẫn có ảnh hưởng lớn trong đời sống thiêng liêng Công giáo. Ngài đặc biệt nổi tiếng với hệ thống thần học luân lý 'equiprobabilism', nhằm cân bằng giữa thái độ nghiêm khắc và thái độ lỏng lẻo.\n\nVào ngày này, rơi vào Chúa Nhật 18 Thường Niên theo Nghi thức Rôma, cộng đoàn suy niệm về Bí tích Thánh Thể đồng thời tưởng nhớ di sản của thánh nhân về mục vụ chăm sóc. Lễ kính của ngài nhắc nhở tầm quan trọng của việc hình thành lương tâm và lòng thương xót của Thiên Chúa.",
+    "confidence_note_vi": "Ngày và bậc lễ được xác định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thánh Anphongsô Liguori: Tiến sĩ Hội Thánh và Đấng sáng lập Dòng Chúa Cứu Thế",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khôn ngoan để tìm kiếm ý Chúa trong mọi sự, theo gương Thánh Anphongsô."
+  }
+}

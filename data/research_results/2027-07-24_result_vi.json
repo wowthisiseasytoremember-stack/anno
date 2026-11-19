@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 14 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 14 Mùa Thường Niên",
+    "summary_vi": "Ngày này được cử hành như một ngày Thường lệ trong Tuần 14 Mùa Thường Niên, với màu phụng vụ là xanh lục. Không có kính nhớ bắt buộc của các thánh vào ngày này theo Lịch Phụng vụ Roma Chung. Trọng tâm là việc thánh hóa đời sống hằng ngày và hành trình của các tín hữu qua các tuần lễ thế tục của năm phụng vụ.",
+    "body_vi": "Là một ngày Thường lệ trong Tuần 14, ngày Thứ Bảy này là thời gian để các tín hữu suy ngẫm về những bài học đã nhận được trong những tuần gần đây của Mùa Thường Niên. Trọng tâm phụng vụ vẫn là sự tăng trưởng trong đức hạnh và làm sâu sắc thêm mối tương quan với Đức Kitô giữa nhịp sống đời thường. Không có ngày lễ thánh cụ thể nào phá vỡ dòng chảy, Hội Thánh khuyến khích cầu nguyện cá nhân và tuân giữ Phụng vụ Giờ kinh hằng ngày.\n\nÁo lễ màu xanh lục tượng trưng cho hy vọng và sự tăng trưởng, nhắc nhở người tín hữu rằng đời sống tâm linh không phải là tĩnh tại mà là một hành trình liên tục. Khi không có các lễ trọng hay lễ kính lớn, những ngày thường cung cấp một nhịp điệu ổn định cho việc cầu nguyện và phục vụ. Ngày cụ thể này rơi vào giữa năm, mời gọi người Kitô hữu đánh giá tiến bộ tâm linh của mình và canh tân cam kết sống theo các giá trị Tin Mừng trong những tháng sắp tới.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thánh hóa những khoảnh khắc đời thường của đức tin.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong các công việc hằng ngày."
+  }
+}

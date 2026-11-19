@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 24 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Lễ Đức Mẹ Maria Sinh Nhật",
+    "summary_vi": "Lễ Đức Mẹ Maria Sinh Nhật được cử hành vào ngày 8 tháng 9, đánh dấu sự ra đời của Mẹ Maria tại Nazareth. Đây là một Lễ trong Lịch Phụng vụ Rôma, tập trung vào vai trò của Mẹ Maria như là mẹ của Chúa Giêsu. Phụng vụ nhấn mạnh vai trò của Mẹ trong lịch sử cứu độ và sự khởi đầu của cuộc đời Mẹ được hiến dâng cho Thiên Chúa. Ngày này mời gọi suy niệm về sự khiêm nhường, sự chuẩn bị và ân sủng của sự tuyển chọn bởi Thiên Chúa.",
+    "body_vi": "Lễ Đức Mẹ Maria Sinh Nhật là một Lễ trong Lịch Phụng vụ Rôma, được cử hành vào ngày 8 tháng 9. Ngày lễ này đánh dấu sự ra đời của Mẹ Maria, người đã trở thành mẹ của Chúa Giêsu, và là ngày suy niệm về vai trò của Mẹ trong lịch sử cứu độ.\n\nPhụng vụ của Lễ này nhấn mạnh sự khiêm nhường, sự tuyển chọn của Thiên Chúa, và sự khởi đầu của cuộc đời Mẹ Maria được hiến dâng cho Thiên Chúa. Lễ này mời gọi cộng đoàn suy niệm về nguồn gốc của mầu nhiệm Nhập Thể và tác động sâu sắc của vai trò của Mẹ Maria trong mầu nhiệm cứu độ.",
+    "confidence_note_vi": "Lễ Đức Mẹ Maria Sinh Nhật là một Lễ cố định trong Lịch Phụng vụ Rôma, được xác nhận bởi các nguồn chính thức như Hội đồng Giám mục Hoa Kỳ và Tòa Thánh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy cùng mừng lễ sinh nhật của Mẹ Thiên Chúa và khởi đầu sứ mạng thánh thiện của Mẹ.",
+    "prayer_prompt_vi": "Hãy cầu nguyện cho sự khiêm nhường và một tấm lòng sẵn sàng mở lòng với thánh ý Thiên Chúa, như Mẹ Maria đã sống."
+  }
+}

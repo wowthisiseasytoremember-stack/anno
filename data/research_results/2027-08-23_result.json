@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-08-23",
+  "date": "2027-08-23",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 19",
+    "title_vi": "Thứ Hai tuần 19 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of Ordinary Time",
+    "title_vi": "Thứ Hai Mùa Thường Niên",
+    "summary_en": "August 23, 2027, is celebrated as a Feria (weekday) in Ordinary Time, Week 19. The liturgical color is green, symbolizing hope and growth in the Christian life. No universal solemnity or feast overrides the weekday readings for this date in the General Roman Calendar.",
+    "summary_vi": "Ngày 23 tháng 8 năm 2027 được cử hành là ngày thường (Feria) trong Mùa Thường Niên, tuần 19. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Kitô hữu. Không có lễ trọng hay lễ kính nào thay thế các bài đọc trong ngày theo Lịch Rôma Chung cho ngày này.",
+    "body_en": "As a weekday in Ordinary Time, the focus of the liturgy shifts from specific feast days to the continuous reading of Scripture and the ongoing formation of the faithful in the mysteries of Christ. The Office of Readings and the Mass readings reflect the themes of Week 19, encouraging perseverance and humility.\n\nFaithful are invited to enter into prayer with a spirit of quiet obedience to the daily flow of the liturgical year. The green vestments serve as a visual reminder of the life-giving power of the Holy Spirit who sustains the Church during this period of ordinary life.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, trọng tâm của phụng vụ chuyển từ các ngày lễ cụ thể sang việc đọc Thánh Kinh liên tục và việc đào tạo liên lỉ cho các tín hữu về các mầu nhiệm của Chúa Kitô. Các bài đọc trong Phụng vụ Lời Chúa và các bài đọc trong Thánh lễ phản ánh các chủ đề của tuần 19, khuyến khích sự kiên trì và khiêm tốn.\n\nCác tín hữu được mời gọi bước vào lời cầu nguyện với tinh thần vâng phục bình lặng đối với dòng chảy hằng ngày của năm phụng vụ. Áo lễ màu xanh lá cây phục vụ như một lời nhắc nhở trực quan về sức mạnh ban sự sống của Chúa Thánh Thần, Đấng nâng đỡ Giáo hội trong giai đoạn đời sống thường nhật này.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Green: Growth in Ordinary Time",
+    "hero_line_vi": "Bước đi trong màu xanh: Tăng trưởng trong Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help me grow in patience and virtue today.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con tăng trưởng trong sự kiên nhẫn và đức hạnh hôm nay."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date falls within the standard weekday cycle of Ordinary Time with no major conflicting celebrations in the General Roman Calendar.",
+  "confidence_note_vi": "Ngày này nằm trong chu kỳ ngày thường tiêu chuẩn của Mùa Thường Niên mà không có lễ lớn nào xung đột trong Lịch Rôma Chung.",
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/082327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Saints and Readings",
+      "url": "https://www.newadvent.org/cathen/01001a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-10",
+    "hebrew": "20 Av 5787",
+    "islamic_umm_al_qura": "21 Rabi' al-Awwal 1449 AH",
+    "coptic": "17 Mesori 1743",
+    "ethiopian": "17 Nehase 2019"
+  }
+}

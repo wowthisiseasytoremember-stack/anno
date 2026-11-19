@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ (Chúa Nhật XXXIV Thường Niên)"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ",
+    "summary_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ được cử hành vào Chúa Nhật cuối cùng của Mùa Thường Niên. Đại lễ tuyên xưng vương quyền phổ quát của Đức Kitô và kết thúc năm phụng vụ. Lễ này nhấn mạnh đến phán xét cuối cùng và vương quyền của Đức Kitô. Các tín hữu được mời gọi nhìn nhận Đức Giêsu là Vua các vua và Chúa các chúa.",
+    "body_vi": "Đại Lễ Đức Giêsu Kitô Vua Vũ Trụ đánh dấu đỉnh cao của năm phụng vụ, mời gọi các tín hữu nhìn nhận vương quyền phổ quát của Đức Kitô. Được Đức Giáo Hoàng Piô XI thiết lập qua thông điệp Quas Primas năm 1925, lễ này thách thức chủ nghĩa thế tục bằng việc khẳng định vương quyền thiêng liêng của Đức Kitô. Nó kêu gọi các tín hữu sắp xếp cuộc sống theo những giá trị của Nước Thiên Chúa. Các bài đọc phụng vụ thường tập trung vào Phán Xét Cuối Cùng và sự cai trị đời đời của Đức Kitô.\n\nĐược cử hành vào Chúa Nhật cuối cùng trước Mùa Vọng, đại lễ này đóng vai trò chuyển tiếp từ những giáo huấn của Mùa Thường Niên sang sự chuẩn bị cho biến cố Nhập Thể. Nó nhắc nhở Giáo Hội rằng quyền bính của Đức Kitô vượt trên không gian và thời gian. Việc cử hành nhấn mạnh sự khiêm nhường, phục vụ và công lý là những đặc điểm của vương quyền thần linh. Các tín hữu được khuyến khích sống như những thần dân của Vị Vua thần linh này, ưu tiên các chân lý thiêng liêng hơn những quan tâm thế tục.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức Kitô Vua muôn đời",
+    "prayer_prompt_vi": "Cầu xin ơn biết vâng phục vương quyền của Đức Kitô trong đời sống hàng ngày."
+  }
+}

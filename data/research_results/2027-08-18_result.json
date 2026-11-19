@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-08-18",
+  "date": "2027-08-18",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 18",
+    "title_vi": "Thứ Tư tuần 18 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time, Week 18",
+    "title_vi": "Thứ Tư tuần 18 Mùa Thường Niên",
+    "summary_en": "This day is celebrated as a Feria within the eighteenth week of Ordinary Time. The liturgical color is green, signifying the time of growth and teaching in the life of the Church. There is no universal feast or memorial for saints on this specific date in the General Roman Calendar. The faithful are called to focus on the weekly progression of Ordinary Time readings.",
+    "summary_vi": "Ngày này được cử hành như một ngày Thường trong tuần mười tám Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu thị thời gian tăng trưởng và giáo huấn trong đời sống Giáo Hội. Không có lễ kính hay lễ nhớ các thánh phổ quát vào ngày cụ thể này trong Lịch Phụng vụ Rôma chung. Các tín hữu được mời gọi tập trung vào sự tiến triển hàng tuần của các bài đọc Mùa Thường Niên.",
+    "body_en": "The Wednesday of the eighteenth week in Ordinary Time follows the standard lectionary cycle, emphasizing the steady growth of the Christian life. On August 18, the universal Church does not commemorate a specific saint or event, allowing the focus to remain on the scriptural readings designated for the weekday.\n\nThis reflects the Church's rhythm of ordinary sanctification through daily prayer and scripture.",
+    "body_vi": "Thứ Tư tuần mười tám Mùa Thường Niên tuân theo chu kỳ sách bài đọc chuẩn, nhấn mạnh sự tăng trưởng đều đặn của đời sống Kitô hữu. Vào ngày 18 tháng Tám, Giáo hội hoàn vũ không kỷ niệm một vị thánh hay sự kiện cụ thể nào, cho phép sự chú ý vẫn tập trung vào các bài đọc Kinh Thánh được chỉ định cho ngày thường.\n\nĐiều này phản ánh nhịp điệu của Giáo Hội về sự thánh hóa thông thường qua lời cầu nguyện hàng ngày và Kinh Thánh.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in the steady light of Ordinary Time.",
+    "hero_line_vi": "Bước đi trong ánh sáng vững chắc của Mùa Thường Niên.",
+    "prayer_prompt_en": "Pray for the grace to find holiness in the ordinary moments of the week.",
+    "prayer_prompt_vi": "Cầu xin ơn được tìm thấy sự thánh thiện trong những khoảnh khắc bình thường của tuần lễ."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "August 18 is a standard weekday (Feria) in the General Roman Calendar for 2027, with no universal feast days or memorials overriding the weekday status.",
+  "confidence_note_vi": "Ngày 18 tháng Tám là một ngày thường (Feria) tiêu chuẩn trong Lịch Phụng vụ Rôma chung cho năm 2027, không có ngày lễ hay lễ nhớ phổ quát nào thay thế trạng thái ngày thường.",
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for August 18, 2027",
+      "url": "https://bible.usccb.org/bible/readings/081827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican General Calendar Reference",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-05",
+    "hebrew": "15 Av 5787",
+    "islamic_umm_al_qura": "16 Rabi' al-Awwal 1449 AH",
+    "coptic": "12 Mesori 1743",
+    "ethiopian": "12 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

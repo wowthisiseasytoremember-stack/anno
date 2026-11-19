@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-07-30",
+  "date": "2027-07-30",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 15",
+    "title_vi": "Thứ Sáu tuần 15 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time, Week 15",
+    "title_vi": "Thứ Sáu tuần 15 Mùa Thường Niên",
+    "summary_en": "The liturgy focuses on the teachings of Jesus in the Sermon on the Mount regarding prayer and trust in God. Faithful are invited to reflect on the providence of the Heavenly Father. No major feast or saint of obligatory celebration is listed for this specific feria in the Roman Calendar.",
+    "summary_vi": "Phụng vụ tập trung vào lời dạy của Chúa Giêsu trong Bài Giảng trên núi về cầu nguyện và sự phó thác nơi Thiên Chúa. Tín hữu được mời gọi suy tư về sự quan phòng của Chúa Cha. Không có lễ lớn hay thánh nhân nào bắt buộc mừng kính được liệt kê cho thứ Sáu thường niên này trong Lịch Phụng vụ Rôma.",
+    "body_en": "In the Gospel reading for Friday of the Fifteenth Week in Ordinary Time, Jesus instructs his disciples on the simplicity of prayer and the danger of hypocrisy. He emphasizes that the Father knows what is needed before it is asked, urging believers to seek first the Kingdom of God and his righteousness. This day serves as a reminder to rely on divine providence rather than earthly anxieties.\n\nThe liturgical context of Ordinary Time encourages a steady, ongoing conversion in the daily life of the Christian. While no solemnity or feast marks this day, the 'green' color symbolizes growth and the hope of resurrection. The Church offers these readings to ground the faithful in the practical demands of the Kingdom, focusing on internal disposition over external ritual.",
+    "body_vi": "Trong bài Tin Mừng cho Thứ Sáu tuần 15 Thường Niên, Chúa Giêsu dạy các môn đệ về sự đơn sơ trong cầu nguyện và nguy cơ của thói đạo đức giả. Người nhấn mạnh rằng Cha biết nhu cầu của con cái trước khi họ xin, thúc đẩy người tín hữu hãy tìm kiếm Nước Trời và sự công chính của Người trước tiên. Ngày này nhắc nhở chúng ta hãy tín thác vào sự quan phòng của Thiên Chúa thay vì những lo lắng thế gian.\n\nBối cảnh phụng vụ của Mùa Thường Niên khuyến khích sự hoán cải liên lỉ trong đời sống hàng ngày của người Kitô hữu. Mặc dù không có lễ trọng hay lễ kính nào đánh dấu ngày này, nhưng màu 'xanh' tượng trưng cho sự tăng trưởng và niềm hy vọng phục sinh. Giáo hội dâng lên những bài đọc này để củng cố đức tin của người tín hữu trong những đòi hỏi thực tế của Nước Trời, tập trung vào thái độ nội tâm hơn là nghi thức bên ngoài.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Seek the Kingdom first and trust in the Father's care.",
+    "hero_line_vi": "Hãy tìm kiếm Nước Trời trước hết và tín thác vào sự quan phòng của Cha.",
+    "prayer_prompt_en": "Lord, free me from the anxiety of material needs and help me to trust fully in Your providential love.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giải thoát con khỏi những lo lắng về nhu cầu vật chất và giúp con tín thác hoàn toàn vào tình yêu quan phòng của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for July 30, 2027",
+      "url": "https://bible.usccb.org/bible/readings/073027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Saints for July 30",
+      "url": "https://www.catholicculture.org/culture/liturgicalcalendar/api/day.cfm?year=2027&month=7&day=30",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-17",
+    "hebrew": "25 Tamuz 5787",
+    "islamic_umm_al_qura": "26 Safar 1449 AH",
+    "coptic": "23 Epip 1743",
+    "ethiopian": "23 Hamle 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

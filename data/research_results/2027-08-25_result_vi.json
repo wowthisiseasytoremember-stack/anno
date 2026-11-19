@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 19 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 19 Mùa Thường Niên",
+    "summary_vi": "Trọng tâm phụng vụ là lời chứng Kitô giáo liên lỉ trong mùa thường niên. Các bài đọc thường nhấn mạnh lời kêu gọi trưởng thành thiêng liêng và kiên trì. Không có lễ trọng hay lễ nhớ nào trong Lịch Rôma Chung thay thế ngày thường này. Đây là thời gian để thánh hóa bản thân qua các phương tiện bình thường của ân sủng.",
+    "body_vi": "Hội Thánh cử hành Thứ Tư này như một ngày thường trong Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây phụng vụ tượng trưng cho hy vọng và sự tăng trưởng. Tín hữu được mời gọi suy tư về việc hội nhập đức tin vào đời sống hằng ngày, sử dụng các bài đọc trong sách bài đọc để đào sâu sự hiểu biết về Tin Mừng. Mặc dù không có vị thánh nào được mừng kính như một lễ nhớ buộc, nhưng lịch địa phương có thể bao gồm các quan thầy hay thánh bổn mạng cụ thể, cần được tuân thủ theo các quy tắc của giáo phận.\n\nCấu trúc phụng vụ vẫn đơn giản, tập trung vào Lời Chúa và Bí tích Thánh Thể như những hành vi thờ phượng trung tâm. Các bài đọc cho ngày này, mặc dù cụ thể theo chu kỳ, thường rơi vào chủ đề về Nước Trời và trách nhiệm của Kitô hữu trong thế giới. Việc không có lễ trọng cho phép một cách tiếp cận suy niệm đối với các khía cạnh bình thường của đức tin, nhắc nhở các tín hữu rằng sự thánh thiện thường được tìm thấy trong thói quen hằng ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lớn lên trong đức tin qua những khoảnh khắc bình lặng của đời thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những thói quen hằng ngày."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 23 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Ngày thường Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày thường trong Tuần 23 Mùa Thường Niên. Màu phụng vụ là màu xanh, biểu tượng cho sự tăng trưởng và thời kỳ Hội Thánh sống giữa trần gian. Không có lễ trọng hay lễ kính nào ưu tiên trong Lịch Phụng Vụ Chung vào ngày này.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, trọng tâm vẫn là chu kỳ liên tục của Phụng vụ Các Giờ Kinh và việc đọc Sách Thánh được quy định cho Tuần 23. Các tín hữu được mời gọi suy gẫm các bài đọc Thánh lễ hàng ngày, thường tuân theo chu kỳ sách bài đọc do Hội Thánh thiết lập. Thời kỳ này là cơ hội để tăng trưởng thiêng liêng giữa nhịp sống hàng ngày.\n\nViệc không có vị thánh hay lễ kính lớn nào vào Thứ Bảy này cho phép tuân giữ đầy đủ phụng vụ ngày trong tuần. Lịch địa phương có thể giới thiệu các ngày lễ bổn phận tùy chọn, nhưng Hội Thánh hoàn vũ tuân giữ đây là ngày thánh hóa thường nhật. Các lời cầu nguyện và bài đọc phản ánh các chủ đề về sự kiên tâm và lắng nghe Lời Chúa.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong thánh thiện giữa đời sống hàng ngày."
+  }
+}

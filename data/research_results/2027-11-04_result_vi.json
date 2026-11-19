@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Carôlô Borrômêô, Giám mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Carôlô Borrômêô",
+    "summary_vi": "Thánh Carôlô Borrômêô là nhân vật lãnh đạo hàng đầu của cuộc Cải cách Phản Kháng và là Tổng giám mục Milan. Ngài được kính nhớ vào ngày 4 tháng 11 vì những nỗ lực không mệt mỏi trong việc cải tổ Giáo hội, thành lập các chủng viện và chăm sóc người nghèo. Ngày lễ của Ngài tôn vinh sự lãnh đạo tinh thần và tác động sâu sắc của Ngài đối với phụng vụ và việc dạy giáo lý Công giáo.",
+    "body_vi": "Carôlô Borrômêô (1538–1584) phục vụ với tư cách là Tổng giám mục Milan và là cố vấn then chốt cho Giáo hoàng Piô IV. Ngài đóng vai trò thiết yếu trong Công đồng Trento, giúp soạn thảo sách giáo lý và sửa đổi các sách phụng vụ. Cuộc đời Ngài nổi bật với sự khổ chế, nhiệt huyết mục vụ và cải cách quản lý, đưa Ngài đến danh hiệu 'Giám mục của Dân Chúa'.\n\nTrong Lịch Rôma Tổng quát, Ngài được tưởng nhớ như một mẫu gương về lòng bác sĩ và học thức của giám mục. Các tác phẩm của Ngài về cầu nguyện và nghĩa vụ mục vụ vẫn tiếp tục ảnh hưởng đến tâm linh Công giáo. Ngày lễ kính nhớ mời gọi các tín hữu suy gẫm về bổn phận của hàng giáo sĩ và tầm quan trọng của sự rõ ràng trong giáo lý.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Nhiệt huyết mục vụ và sự rõ ràng giáo lý: Thánh Carôlô Borrômêô",
+    "prayer_prompt_vi": "Cầu nguyện cho các giám mục và linh mục bắt chước lòng bác ái và sự cần mẫn của Thánh Carôlô."
+  }
+}

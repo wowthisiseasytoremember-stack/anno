@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Ngày Thường trong Mùa Vọng (Thứ Năm)",
+    "summary_vi": "Ngày Thứ Năm này rơi vào Mùa Vọng, cụ thể là giai đoạn từ 17 tháng 12 đến 24 tháng 12, khi phụng vụ tập trung mạnh mẽ vào biến cố Giáng Sinh gần kề. Màu sắc phụng vụ là tím, tượng trưng cho thời kỳ sám hối, cầu nguyện và chuẩn bị. Là một ngày trong tuần của Mùa Vọng, nó có bậc lễ cao hơn các lễ nhớ thông thường, nhấn mạnh các khía cạnh cánh chung và lịch sử của sự chờ đợi.",
+    "body_vi": "Phụng vụ cho ngày 16 tháng 12 năm 2027 tiếp tục chủ đề Mùa Vọng của sự chờ đợi đầy hy vọng. Trong tuần này, Hội Thánh suy ngẫm về những lời ngôn sứ Isaia và vai trò của Thánh Gioan Tẩy Giả, thúc giục các tín hữu hoán cải và hướng lòng về Thiên Chúa. Các bài đọc thường nhấn mạnh tính cấp bách của việc sửa đường lối cho Chúa, nhắc nhở các tín hữu rằng Chúa Kitô sẽ đến trong lịch sử và vào ngày tận thế.\n\nSự tham gia vào Thánh Lễ trong giai đoạn này được khuyến khích để nuôi dưỡng sự sẵn sàng thiêng liêng. Áo lễ màu tím mà các linh mục mặc đóng vai trò như một lời nhắc nhở trực quan về đặc tính sám hối của mùa phụng vụ, tương phản với niềm vui của biến cố Giáng Sinh sắp tới. Các tín hữu được mời gọi tham gia cầu nguyện và làm việc bác ái, để đời sống của họ đồng nhất với mầu nhiệm Nhập Thể.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy sửa đường lối cho Chúa.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con chờ đợi Chúa đến với một tâm hồn khiêm nhường và sám hối."
+  }
+}

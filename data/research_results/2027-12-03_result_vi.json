@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Phanxicô Xaviê, Linh mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Phanxicô Xaviê, Linh mục",
+    "summary_vi": "Thánh Phanxicô Xaviê là đồng sáng lập Dòng Tên và là một trong những nhà truyền giáo vĩ đại nhất trong lịch sử Giáo hội Công giáo. Ngài đã rao giảng Tin Mừng khắp châu Á, mang đức tin đến Ấn Độ, Malaysia, Nhật Bản và Trung Quốc. Công cuộc không mệt mỏi của ngài đã đặt nền móng cho các sứ vụ Công giáo ở phương Đông.",
+    "body_vi": "Phanxicô Xaviê, một người gốc Basque và là đồng thời với Ignatius Loyola, đã gia nhập dòng Tên sơ khai và nhanh chóng nổi tiếng với lòng nhiệt thành tinh thần và các ơn sục nhiệm mầu. Ngài đã dành hơn một thập kỷ đi lại khắp châu Á, học các ngôn ngữ địa phương và thích nghi phương pháp giảng thuyết để hòa nhập với các nền văn hóa đa dạng. Những nỗ lực của ngài đã dẫn đến việc thành lập các cộng đoàn Kitô giáo sống động vẫn tồn tại cho đến ngày nay.\n\nNgài được tôn kính rộng rãi là 'Tông đồ Ấn Độ' và 'Tông đồ Nhật Bản', đã rửa tội cho hàng ngàn người và truyền chức linh mục để phục vụ những người mới cải đạo. Phanxicô qua đời trên đảo Sanchan gần Trung Quốc vào năm 1552, khi đã đến ngưỡng cửa Trung Hoa nhưng không thể tiến vào. Di sản của ngài vẫn là trung tâm của thần học và thực hành truyền giáo Công giáo.",
+    "confidence_note_vi": "Lễ kính Thánh Phanxicô Xaviê được cử hành vào ngày 3 tháng 12 trong Lịch Phụng vụ Rôma Tổng quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy đi rao giảng cho mọi dân tộc.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con lòng nhiệt thành của Thánh Phanxicô Xaviê để chúng con chia sẻ Tin Mừng của Ngài với niềm vui và lòng can đảm trong cộng đoàn của chúng con và khắp nơi."
+  }
+}

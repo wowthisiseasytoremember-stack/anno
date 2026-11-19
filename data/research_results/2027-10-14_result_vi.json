@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 26 Mùa Thường Niên",
+    "summary_vi": "Ngày này được cử hành như một ngày thường tuần trong Mùa Thường Niên theo Nghi thức Rôma. Màu phụng vụ là màu xanh lục, tượng trưng cho sự tăng trưởng và thời gian của Giáo Hội. Không có lễ kính hay lễ nhớ nào ưu tiên hơn ngày thường tuần này.",
+    "body_vi": "Chủ đề phụng vụ của tuần được xác định bởi các bài đọc được gán cho chu kỳ ngày thường trong Mùa Thường Niên. Vì là ngày thường tuần, trọng tâm vẫn là việc huấn luyện thường xuyên cho các tín hữu qua Lời Chúa và Bí tích Thánh Thể.\n\nLễ phục màu xanh nhắc nhở cộng đoàn về hành trình của họ qua cuộc sống trần thế hướng về cõi đời đời.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong Ánh sáng của Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong sự thánh thiện qua những khoảnh khắc tĩnh lặng của cuộc sống hàng ngày."
+  }
+}

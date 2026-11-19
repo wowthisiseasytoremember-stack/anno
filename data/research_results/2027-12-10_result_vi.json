@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Vọng",
+    "summary_vi": "Ngày 10 tháng 12 năm 2027 rơi vào thứ Sáu trong Mùa Vọng. Đây là một ngày thường (feria), được cử hành với màu tím phụng vụ. Không có lễ trọng hay lễ nhớ bắt buộc nào được cử hành vào ngày này trong Lịch Rôma Chung. Trọng tâm vẫn là tinh thần sám hối và chuẩn bị của Mùa Vọng.",
+    "body_vi": "Là một ngày thường trong Mùa Vọng, trọng tâm phụng vụ hướng về sự hiện đến kép của Đức Kitô. Các bài đọc của ngày này nhấn mạnh sự tỉnh thức và chuẩn bị cho ngày Chúa đến. Các tín hữu được mời gọi đào sâu đời sống cầu nguyện và suy niệm các lời tiên tri về Đấng Messiah.\n\nVì đây là một ngày thường, không có lễ nhớ các thánh nào buộc đối với Giáo hội hoàn vũ vào ngày này. Việc cử hành tuân theo các quy tắc ngày thường của Nghi thức Rôma. Áo lễ màu tím biểu thị tính chất sám hối của mùa, kêu gọi sự hoán cải và hy vọng chờ đợi.",
+    "confidence_note_vi": "Ngày này là một ngày thường trong Mùa Vọng, không có lễ nào thay thế trong Lịch Rôma Chung. Bậc và màu được xác định bởi mùa phụng vụ."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy hy vọng chờ đợi, vì Chúa đã gần đến.",
+    "prayer_prompt_vi": "Xin ơn tỉnh thức trong tuần Mùa Vọng này."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Giêrônimô, Linh mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Giêrônimô, Linh mục, Tiến sĩ Hội Thánh",
+    "summary_vi": "Hội Thánh cử hành lễ kính nhớ Thánh Giêrônimô, một Giáo phụ lỗi lạc và là người đã dịch Kinh Thánh sang tiếng Latinh (Vulgata). Ngày lễ 30 tháng 9 đánh dấu kỷ niệm truyền thống về cái chết của ngài tại Bêlem. Ngài được tôn kính vì học vấn uyên bác, đời sống khổ chế và lòng tận hiến cho Kinh Thánh.",
+    "body_vi": "Thánh Giêrônimô sinh tại Stridon, một thị trấn thuộc Croatia ngày nay, vào khoảng năm 347 sau Công nguyên. Sau một thời gian học tập tại Rôma, ngài đã đi về phương Đông, học tiếng Do Thái và tiếng Hy Lạp, và cuối cùng định cư tại Bêlem, nơi ngài thành lập một tu viện. Di sản lâu bền nhất của ngài là bản dịch Kinh Thánh sang tiếng Latinh, được gọi là Vulgata, trở thành văn bản chuẩn cho Hội Thánh Tây phương trong hơn một thiên niên kỷ.\n\nJerome cũng là một nhà văn sáng tác nhiều thư từ, chú giải và bút chiến, thường tham gia vào các cuộc tranh luận thần học với những người đồng thời như Augustine. Ngài qua đời tại Bêlem vào ngày 30 tháng 9 năm 420 sau Công nguyên, sau một cuộc đời đầy nỗ lực học thuật nghiêm khắc và khắc khổ. Ngày nay, ngài được tôn vinh là Tiến sĩ Hội Thánh, đặc biệt vì những đóng góp của ngài vào chú giải Kinh Thánh và việc bảo vệ các văn bản kinh điển.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Nhà dịch giả vĩ đại của Kinh Thánh sang tiếng Latinh",
+    "prayer_prompt_vi": "Hãy cầu xin sự chuyển cầu của Thánh Giêrônimô để làm sâu sắc thêm tình yêu và sự hiểu biết của bạn về Kinh Thánh."
+  }
+}

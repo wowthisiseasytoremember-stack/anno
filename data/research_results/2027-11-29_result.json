@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-29",
+  "date": "2027-11-29",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the First Week of Advent",
+    "title_vi": "Thứ Hai Tuần I Mùa Vọng",
+    "summary_en": "This Monday marks the second day of the new liturgical year and the first week of Advent. The Church focuses on the theme of watchfulness and the expectation of the Lord's coming. It is a time for penitence and spiritual preparation for the Nativity.",
+    "summary_vi": "Thứ Hai này đánh dấu ngày thứ hai của năm phụng vụ mới và tuần đầu tiên của Mùa Vọng. Giáo hội tập trung vào chủ đề tỉnh thức và lòng mong đợi ngày Chúa đến. Đây là thời gian của sám hối và chuẩn bị tâm hồn cho Lễ Giáng Sinh.",
+    "body_en": "The liturgical color is violet, signifying penance, waiting, and humble expectation. The readings typically encourage the faithful to be vigilant and ready for the Lord's return, echoing the eschatological hopes of the early Church.\n\nAs an early Advent feria, this day sets the tone for the entire season, inviting believers to convert their hearts and minds. The emphasis is not on a specific saint but on the collective prayer and preparation of the Church community.",
+    "body_vi": "Màu phụng vụ là màu tím, biểu thị cho sám hối, chờ đợi và khiêm nhường mong đợi. Các bài đọc thường khuyến khích các tín hữu tỉnh thức và sẵn sàng cho ngày Chúa trở lại, vang vọng niềm hy vọng cánh chung của Giáo hội sơ khai.\n\nLà một ngày trong tuần đầu tiên của Mùa Vọng, ngày này thiết lập nhịp điệu cho toàn bộ mùa phụng vụ, mời gọi các tín hữu hoán cải tâm hồn và tâm trí. Sự nhấn mạnh không phải trên một vị thánh cụ thể mà là lời cầu nguyện và sự chuẩn bị chung của cộng đoàn Giáo hội.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The rank is a feria and the color is violet, following the normative Advent calendar structure.",
+    "confidence_note_vi": "Bậc lễ là ngày thường (feria) và màu là tím, tuân theo cấu trúc lịch Mùa Vọng chuẩn mực."
+  },
+  "app_hooks": {
+    "hero_line_en": "Watch and pray.",
+    "hero_line_vi": "Hãy tỉnh thức và cầu nguyện.",
+    "prayer_prompt_en": "Ask for the grace to remain vigilant in your faith during this season of waiting.",
+    "prayer_prompt_vi": "Hãy xin ơn để luôn tỉnh thức trong đức tin suốt mùa chờ đợi này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/112927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?date=2027-11-29",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-16",
+    "hebrew": "29 Cheshvan 5788",
+    "islamic_umm_al_qura": "1 Rajab 1449 AH",
+    "coptic": "19 Hathor 1744",
+    "ethiopian": "19 Hidar 2020"
+  }
+}

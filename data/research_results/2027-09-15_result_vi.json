@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Đức Mẹ Sầu Bi"
+  },
+  "primary": {
+    "title_vi": "Đức Mẹ Sầu Bi",
+    "summary_vi": "Lễ nhớ Đức Mẹ Sầu Bi tôn vinh nỗi đau khổ của Đức Trinh Nữ Maria trong cuộc Thương Khó của Con Mẹ là Chúa Giêsu. Lễ này được cử hành vào ngày 15 tháng 9, ngay sau Lễ Suy Tôn Thánh Giá. Ngày lễ mời gọi các tín hữu chiêm ngắm lòng thương cảm và đức tin kiên vững của Đức Mẹ trước nỗi đau buồn sâu sắc.",
+    "body_vi": "Lòng tôn sùng bảy nỗi đau khổ của Đức Mẹ nhấn mạnh vai trò của Mẹ trong việc cứu chuộc qua sự tham gia vào những đau khổ của Đức Kitô. Về mặt lịch sử, lễ nhớ này nhấn mạnh nỗi đau thấu tim của Mẹ, như ông Simêon đã tiên báo, và sự hiện diện kiên định của Mẹ dưới chân Thập Giá. Đó là một lời nhắc nhở sâu sắc rằng đời sống Kitô hữu không thiếu vắng đau khổ, nhưng được biến đổi nhờ sự kết hợp với Đức Kitô.\n\nCác bản văn phụng vụ cho ngày này tập trung vào lòng thương cảm (compassio) của Đức Maria và sự liên đới của Mẹ với công cuộc cứu chuộc nhân loại. Qua việc tôn kính những nỗi đau của Đức Mẹ, Giáo Hội dạy rằng tình yêu và đau khổ luôn gắn liền với nhau. Các tín hữu được khuyến khích tìm thấy sự an ủi trong gương mẫu về niềm tin của Đức Maria vào ý Chúa, ngay cả trong những khoảnh khắc tăm tối nhất của Mầu Nhiệm Vượt Qua.",
+    "confidence_note_vi": "Lễ nhớ Đức Mẹ Sầu Bi là ngày cố định trong Lịch Phụng vụ Rôma (15 tháng 9). Chi tiết được trích từ các quy chuẩn phụng vụ và sử học tiêu chuẩn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chiêm ngắm lòng thương cảm của Đức Mẹ",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con ân sủng để hợp nhất những đau khổ của chúng con với những đau khổ của Đức Kitô, noi gương Mẹ Maria."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu trong Tuần Bát Nhật Giáng Sinh",
+    "summary_vi": "Vào ngày 31 tháng 12, Hội Thánh cử hành ngày thường trong Tuần Bát Nhật Giáng Sinh. Ngày này nhấn mạnh mầu nhiệm Nhập Thể và sự tiếp nối của mùa Giáng Sinh. Mặc dù một số lịch có thể đánh dấu các nghi thức tùy chọn, trọng tâm phụng vụ vẫn là sự ra đời của Chúa và sự chuyển tiếp sang năm mới.",
+    "body_vi": "Các bài đọc và lời cầu nguyện trong ngày thường phản ánh ý nghĩa thần học của mầu nhiệm Nhập Thể, nhắc nhở các tín hữu về ánh sáng đã đi vào thế gian. Các văn bản phụng vụ thường trích dẫn từ lời tựa của Gioan hoặc các tường thuật thời thơ ấu, củng cố sự khiêm nhường và thần tính được mặc khải tại Bêlem. Là ngày cuối cùng của năm dương lịch, nó cũng mời gọi suy niệm về thời gian và sự vĩnh cửu trong bối cảnh sự hiện diện rõ ràng của Thiên Chúa trong Đức Kitô.\n\nMàu phụng vụ trắng tượng trưng cho niềm vui và sự tinh tuyền liên quan đến mầu nhiệm Giáng Sinh. Ngày này đóng vai trò như một cây cầu thiêng liêng giữa việc cử hành Lễ Giáng Sinh và Đại lễ Đức Maria, Mẹ Thiên Chúa vào ngày 1 tháng Giêng tới. Các tín hữu được khuyến khích tham dự Thánh Lễ để đào sâu sự suy niệm về Ngôi Lời đã trở nên xác phàm.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường tiêu chuẩn trong Nghi thức Rôma Thông thường cho năm được chỉ định."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Suy niệm mầu nhiệm Nhập Thể khi năm cũ khép lại.",
+    "prayer_prompt_vi": "Chúa ơi, xin cho con được thấy mặt Chúa. Xin giúp con bước đi trong ánh sáng Lời Chúa khi bước sang năm mới."
+  }
+}

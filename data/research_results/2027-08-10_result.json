@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-08-10",
+  "date": "2027-08-10",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "St. Lawrence, Deacon and Martyr",
+    "title_vi": "Thánh Laurensô, Phó tế, Tử đạo"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "St. Lawrence, Deacon and Martyr",
+    "title_vi": "Thánh Laurensô, Phó tế, Tử đạo",
+    "summary_en": "The Church celebrates the Feast of St. Lawrence, a deacon and martyr who served under Pope Sixtus II. He is renowned for presenting the poor as the true treasures of the Church and for his steadfast faith during the persecution under Emperor Valerian. His ministry highlights the Church's dedication to charity and service to the marginalized.",
+    "summary_vi": "Giáo hội cử hành Lễ Thánh Laurensô, một phó tế và tử đạo phục vụ dưới thời Đức Giáo hoàng Sixtus II. Ngài nổi tiếng vì đã trình bày những người nghèo như kho báu đích thực của Giáo hội và vì đức tin kiên vững trong cuộc bách hại dưới thời Hoàng đế Valerian. Sứ vụ của ngài làm nổi bật lòng dấn thân của Giáo hội đối với đức bác ái và việc phục vụ những người bị gạt ra bên lề.",
+    "body_en": "St. Lawrence was one of the seven deacons of Rome and served as the guardian of the Church's material assets and the distributor of alms. During the persecution of Christians in 258, he was ordered to present the treasures of the Church to the Emperor. Instead, he gathered the poor, the sick, and the blind, declaring them to be the true wealth of the Church, for which he was sentenced to death.\n\nHis martyrdom, traditionally described as suffering a slow death on a gridiron, has made him a powerful symbol of endurance and charity. As a deacon, his life exemplifies the essential link between liturgical service and works of mercy, reminding the faithful that the dignity of the human person is paramount. The Church honors him with a red vestment color, signifying his martyrdom and his burning love for Christ.",
+    "body_vi": "Thánh Laurensô là một trong bảy phó tế của Rôma và phục vụ với tư cách là người bảo vệ tài sản vật chất của Giáo hội và người phân phát tiền bố thí. Trong cuộc bách hại Kitô hữu năm 258, ngài bị ra lệnh phải trình bày kho báu của Giáo hội cho Hoàng đế. Thay vào đó, ngài đã tập hợp những người nghèo, người bệnh tật và người mù, tuyên bố rằng họ là sự giàu có đích thực của Giáo hội, vì điều đó mà ngài bị kết án tử hình.\n\nCuộc tử đạo của ngài, theo truyền thống được mô tả là chịu cái chết chậm trên lưới sắt, đã biến ngài thành một biểu tượng mạnh mẽ của sự kiên nhẫn và đức bác ái. Với tư cách là một phó tế, cuộc đời ngài minh họa mối liên hệ thiết yếu giữa việc phục vụ phụng vụ và các công việc bác ái, nhắc nhở các tín hữu rằng phẩm giá của con người là tối thượng. Giáo hội tôn vinh ngài với màu lễ phục đỏ, tượng trưng cho cuộc tử đạo và tình yêu cháy bỏng của ngài dành cho Chúa Kitô.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "The Deacon of Charity: St. Lawrence and the Poor",
+    "hero_line_vi": "Phó tế của Đức Ái: Thánh Laurensô và những người nghèo khổ",
+    "prayer_prompt_en": "Lord, grant us the courage of St. Lawrence to see Christ in the poor and to serve them with joy.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con lòng can đảm của Thánh Laurensô để nhìn thấy Chúa Kitô nơi những người nghèo và phục vụ họ trong niềm vui."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Readings for August 10, 2027",
+      "url": "https://bible.usccb.org/bible/readings/081027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints - St. Lawrence",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=112",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "The date and rank are fixed in the General Roman Calendar; no conflicting data found.",
+  "confidence_note_vi": "Ngày và bậc lễ được cố định trong Lịch Phụng vụ Rôma; không có dữ liệu xung đột nào được tìm thấy.",
+  "calendars": {
+    "julian": "2027-07-28",
+    "hebrew": "7 Av 5787",
+    "islamic_umm_al_qura": "8 Rabi' al-Awwal 1449 AH",
+    "coptic": "4 Mesori 1743",
+    "ethiopian": "4 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

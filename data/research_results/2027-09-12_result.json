@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-09-12",
+  "date": "2027-09-12",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 22",
+    "title_vi": "Chúa Nhật tuần 22 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "22nd Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật 22 Thường Niên",
+    "summary_en": "The liturgical focus is on the Twenty-Second Sunday in Ordinary Time. The readings emphasize the importance of humility and listening to God's word. In the Gospel, Jesus teaches about taking the lowest place at a banquet to be exalted by the host.",
+    "summary_vi": "Trọng tâm phụng vụ là Chúa Nhật 22 Mùa Thường Niên. Các bài đọc nhấn mạnh tầm quan trọng của sự khiêm nhường và lắng nghe lời Chúa. Trong Tin Mừng, Chúa Giêsu dạy về việc chiếm chỗ rốt hết trong bữa tiệc để được chủ tiệc nâng lên.",
+    "body_en": "In the First Reading from the Book of Sirach, the author advises to humiliate oneself in order to be honored. This theme of humility is central to the Christian life, contrasting worldly ambition with spiritual greatness.\n\nThe Gospel from Luke presents a parable about choosing places at a banquet. Jesus teaches that those who exalt themselves will be humbled, and those who humble themselves will be exalted. This day calls the faithful to reflect on their attitude towards others and God, fostering a spirit of service and modesty.",
+    "body_vi": "Trong Bài Đọc 1 từ Sách Huấn Ca, tác giả khuyên hãy hạ mình xuống để được tôn vinh. Chủ đề khiêm nhường là trung tâm của đời sống Kitô hữu, tương phản với tham vọng trần thế và sự cao cả thiêng liêng.\n\nTin Mừng theo Thánh Luca trình bày dụ ngôn về việc chọn chỗ ngồi trong bữa tiệc. Chúa Giêsu dạy rằng ai tự nâng cao mình sẽ bị hạ xuống, còn ai hạ mình xuống sẽ được nâng lên. Ngày này mời gọi các tín hữu suy gẫm về thái độ đối với tha nhân và Thiên Chúa, nuôi dưỡng tinh thần phục vụ và khiêm tốn.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls on a Sunday, which takes precedence over any saint memorial. The rank is determined by the position in Ordinary Time according to the General Roman Calendar. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Ngày này rơi vào Chúa Nhật, nên được ưu tiên hơn các kính nhớ thánh. Bậc lễ được xác định theo vị trí trong Mùa Thường Niên theo Lịch Rôma Tổng Quát. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Humility opens the door to grace.",
+    "hero_line_vi": "Khiêm nhường mở cửa ơn thánh.",
+    "prayer_prompt_en": "Lord, teach me to be humble and to serve others with love.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con sống khiêm nhường và phục vụ tha nhân trong yêu thương."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings - Sept 12, 2027",
+      "url": "https://bible.usccb.org/bible/readings/091227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-30",
+    "hebrew": "10 Elul 5787",
+    "islamic_umm_al_qura": "11 Rabi' al-Thani 1449 AH",
+    "coptic": "1 Thout 1744",
+    "ethiopian": "1 Meskerem 2020"
+  }
+}

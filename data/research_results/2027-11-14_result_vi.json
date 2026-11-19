@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật tuần 31 Mùa Thường Niên",
+    "summary_vi": "Chúa Nhật này đánh dấu tuần thứ ba mươi mốt trong Mùa Thường Niên của lịch phụng vụ. Các bài đọc tập trung vào sự bền đỗ của các thánh và lòng trung tín của Thiên Chúa, đặc biệt nhấn mạnh vào dụ ngôn về người đàn bà góa kiên trì và người thu thuế. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin trong giai đoạn dài của Mùa Thường Niên.",
+    "body_vi": "Trong Tin Mừng cho Chúa Nhật thứ Ba Mươi Mốt Mùa Thường Niên, Chúa Giêsu dạy qua các dụ ngôn rằng chúng ta phải luôn luôn cầu nguyện và đừng nản lòng. Dụ ngôn về người đàn bà góa kiên trì minh họa sự cần thiết của việc cầu nguyện liên lỉ và tin tưởng vào công lý của Thiên Chúa, tương phản với sự thờ ơ của quan án bất công. Bài học này đóng vai trò như một neo tâm linh cho các tín hữu trong những giai đoạn cuối của năm phụng vụ, nhắc nhở họ rằng cầu nguyện không chỉ là lời thỉnh cầu mà là một mối tương quan được duy trì bằng sự bền đỗ.\n\nBài đọc đầu tiên từ sách Xuất Hành và bài đáp ca củng cố chủ đề Thiên Chúa là Đấng bảo vệ người nghèo và những người trung tín. Mặc dù Giáo hội không cử hành một thánh lễ trọng thể nào cụ thể nào thay thế ngày Chúa Nhật, nhưng ngày này dành cho ơn gọi chung về cầu nguyện và sự khiêm nhường của tâm hồn, được thể hiện trong dụ ngôn về người Pharisêu và người thu thuế. Sự tập trung kép vào sự kiên trì và khiêm nhường này chuẩn bị cho các tín hữu đón nhận thời gian kết thúc năm phụng vụ và mùa Vọng sắp tới.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy cầu nguyện luôn, đừng nản lòng",
+    "prayer_prompt_vi": "Hãy suy ngẫm về một lần bạn cảm thấy nản lòng trong cầu nguyện. Sự bền đỗ có thể thay đổi cách bạn hiểu về thời điểm của Thiên Chúa như thế nào?"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Giacôbê, Tông đồ"
+  },
+  "primary": {
+    "title_vi": "Thánh Giacôbê Tông Đồ",
+    "summary_vi": "Lễ kính Thánh Giacôbê Tông Đồ, còn được gọi là Giacôbê Cả, được cử hành vào ngày 25 tháng Bảy. Ngài là vị Tông Đồ đầu tiên tử đạo vì đức tin, như được ghi nhận trong sách Tông Đồ Công Vụ. Tại Tây Ban Nha, ngài là thánh bổn mạng chính yếu, với truyền thống hành hương quan trọng tập trung tại Santiago de Compostela.",
+    "body_vi": "Thánh Giacôbê Cả, con của ông Dêbêđê và là anh của Thánh Gioan Tông Đồ, là một trong những môn đệ đầu tiên được Chúa Giêsu kêu gọi. Ngài thuộc nhóm ba Tông Đồ cốt cán, chứng kiến những biến cố quan trọng như Biến Hình và cuộc hấp hối tại Vườn Cây Dầu. Việc tử đạo của ngài vào khoảng năm 44 sau Công Nguyên, do lệnh của Vua Hêrôđê Agrippa I, đánh dấu cái chết đầu tiên được ghi nhận của một Tông Đồ, nhấn mạnh cái giá của việc làm môn đệ.\n\nTrong Giáo hội Latinh, đặc biệt là ở Tây Ban Nha và Bồ Đào Nha, Thánh Giacôbê được tôn kính là Tông Đồ đã truyền giáo cho bán đảo Iberia. Hành trình hành hương nổi tiếng Camino de Santiago dẫn đến Nhà thờ chính tòa Santiago de Compostela, nơi hài cốt của ngài được cho là chôn cất. Ngày lễ này làm nổi bật lời mời gọi truyền giáo phổ quát và chứng tá bền bỉ của các vị tử đạo trong lịch sử Giáo hội.",
+    "confidence_note_vi": "Lễ kính Thánh Giacôbê Tông Đồ là một ngày lễ cố định trong Lịch Phụng vụ Rôma và được công nhận phổ biến là thánh bổn mạng của Tây Ban Nha."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lạy Chúa, xin ban cho chúng con lòng can đảm của Thánh Giacôbê để theo Chúa đến cùng.",
+    "prayer_prompt_vi": "Cầu nguyện xin ơn can đảm làm chứng cho đức tin qua đời sống và hành động hằng ngày, noi gương Thánh Giacôbê."
+  }
+}

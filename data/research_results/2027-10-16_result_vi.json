@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 26 Mùa Thường Niên",
+    "summary_vi": "Ngày này là Ngày Thường trong Mùa Thường Niên, tuần 26 của năm phụng vụ. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin. Các bài đọc tập trung vào hành trình môn đệ đang diễn ra và lời mời gọi sống thánh thiện trong đời sống hàng ngày.",
+    "body_vi": "Là Ngày Thường, ngày này được đánh dấu bởi sự đơn giản và kiên định của Mùa Thường Niên. Trọng tâm phụng vụ chuyển dịch khỏi các vị thánh hay các lễ lớn, hướng các tín hữu đến việc tích lũy ân sủng một cách đều đặn qua Lời Chúa và Bí tích Thánh Thể. Không có vị thánh cụ thể nào được yêu cầu bởi lịch phụng vụ chung, cho phép nhịp điệu của tuần nhấn mạnh vào những điều bình thường như phương tiện chính của sự thánh hóa.\n\nCác bài đọc và lời cầu nguyện phản ánh các chủ đề phù hợp với tuần 26, thường rút ra từ các bài đọc Thư và Tin Mừng được gán cho giai đoạn này. Giáo hội mời gọi các tín hữu lắng nghe sâu sắc hơn sự hướng dẫn của Chúa Thánh Thần trong những hoàn cảnh trần tục. Thời gian này đóng vai trò như một điểm kiểm tra tâm linh, khuyến khích các tín hữu đánh giá sự tuân thủ các giáo huấn của Đức Kitô giữa những xao lãng của thế gian.",
+    "confidence_note_vi": "Ngày rơi vào Mùa Thường Niên mà không có cử hành cấp cao hơn trong Lịch phụng vụ Rôma chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm thấy Thiên Chúa trong điều bình thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những khoảnh khắc đơn giản của ngày sống."
+  }
+}

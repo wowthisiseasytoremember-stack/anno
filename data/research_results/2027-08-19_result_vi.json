@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 18 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 18 Mùa Thường Niên",
+    "summary_vi": "Vào ngày 19 tháng 8 năm 2027, Giáo hội cử hành một ngày thường trong tuần 18 Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu thị sự tăng trưởng và trưởng thành của đức tin trong mùa này. Trọng tâm vẫn là sự tiến triển liên tục của đời sống Kitô hữu bên ngoài các ngày lễ cụ thể.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, ngày này không tưởng nhớ một lễ trọng hay lễ kính nào thay thế cho giờ kinh nhật tụng ngày thường. Các bài đọc và lời cầu nguyện tuân theo chu kỳ của Tuần 18, mời gọi các tín hữu suy niệm Phúc Âm trong bối cảnh đời sống hằng ngày. Màu xanh lá cây luôn nhắc nhở về niềm hy vọng và sự tăng trưởng vững chắc của Giáo hội.\n\nCấu trúc phụng vụ cho Thứ Năm này bao gồm các bài đọc cụ thể phù hợp với chu kỳ hàng tuần của Sách Bài Đọc. Nếu không có sự gián đoạn của một lễ nghi cao cấp, phụng vụ nhấn mạnh hành trình đức tin cá nhân và cộng đoàn qua những khoảnh khắc trần tục. Thời gian này cho phép suy niệm về đức kiên nhẫn và bền bỉ.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong đức tin qua những ngày thường nhật.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tìm thấy Ngài trong thói quen hằng ngày."
+  }
+}

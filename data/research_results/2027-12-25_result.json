@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-12-25",
+  "date": "2027-12-25",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Solemnity",
+    "color": "white",
+    "title_en": "The Nativity of the Lord (Christmas)",
+    "title_vi": "Đại Lễ Chúa Giáng Sinh"
+  },
+  "primary": {
+    "type": "solemnity",
+    "title_en": "The Nativity of the Lord",
+    "title_vi": "Đại Lễ Chúa Giáng Sinh",
+    "summary_en": "The Church celebrates the Nativity of the Lord, marking the Incarnation of the Word. This Solemnity is the oldest and most significant feast of the Lord in the liturgical year. The readings proclaim the fulfillment of prophecy as the Savior enters history.",
+    "summary_vi": "Hội Thánh cử hành Đại Lễ Chúa Giáng Sinh, kỷ niệm mầu nhiệm Ngôi Lời Nhập Thể. Đây là lễ trọng cổ xưa và quan trọng nhất trong năm phụng vụ. Các bài đọc loan báo việc ứng nghiệm lời tiên tri khi Đấng Cứu Thế bước vào lịch sử.",
+    "body_en": "The celebration of Christmas centers on the mystery of the Incarnation, where the eternal God assumes human nature in the womb of the Virgin Mary. The liturgy invites the faithful to behold the humility of the Christ Child in the manger, revealing the depth of divine love. On this Solemnity, the Church emphasizes the light that shines in darkness, calling believers to walk in the light of faith and charity.\n\nLiturgically, this day is marked by the use of white vestments and the singing of the Gloria in Excelsis Deo. The Mass readings span from the prophetic announcements of Isaiah to the Pauline hymns of Colossians, culminating in the Gospel of the Shepherds. It is a time for the community to gather, pray, and share the joy of the Good News with all who are present, embodying the peace and reconciliation brought by Christ.",
+    "body_vi": "Việc cử hành Lễ Giáng Sinh tập trung vào mầu nhiệm Nhập Thể, khi Thiên Chúa vĩnh cửu đảm nhận bản tính loài người trong cung lòng Trinh Nữ Maria. Phụng vụ mời gọi tín hữu chiêm ngắm sự khiêm hạ của Hài Nhi Giêsu trong máng cỏ, qua đó mạc khải chiều sâu tình yêu Thiên Chúa. Trong lễ trọng này, Hội Thánh nhấn mạnh ánh sáng chiếu soi trong tăm tối, mời gọi người tín hữu bước đi trong ánh sáng đức tin và bác ái.\n\nVề mặt phụng vụ, ngày này được đánh dấu bằng việc mặc áo lễ màu trắng và hát Kinh Vinh Danh (Gloria). Các bài đọc Thánh Lễ trải dài từ những loan báo tiên tri của sách Isaia đến các bài thánh thi của Phaolô trong thư Côlôxê, kết thúc bằng Tin Mừng về các mục đồng. Đây là thời điểm cộng đoàn quy tụ, cầu nguyện và chia sẻ niềm vui Tin Mừng với tất cả những người hiện diện, thể hiện sự bình an và hòa giải mà Đức Kitô mang lại.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date and rank are fixed in the General Roman Calendar and verified against official liturgical calendars. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Ngày và bậc lễ được cố định trong Lịch Rôma Tổng Quát và đã được xác minh theo các lịch phụng vụ chính thức. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "The Word became flesh and made his dwelling among us.",
+    "hero_line_vi": "Ngôi Lời đã trở nên người phàm và cư ngụ giữa chúng ta.",
+    "prayer_prompt_en": "Lord Jesus, as you enter the world in humility, teach me to make room for you in my heart and to share your light with others.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, khi Chúa đến thế gian trong khiêm nhường, xin dạy con dọn chỗ cho Chúa trong lòng và chia sẻ ánh sáng của Chúa cho tha nhân."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/122527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-12",
+    "hebrew": "25 Kislev 5788",
+    "islamic_umm_al_qura": "27 Rajab 1449 AH",
+    "coptic": "15 Koiak 1744",
+    "ethiopian": "15 Tahsas 2020"
+  }
+}

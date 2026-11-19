@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 25 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 25 Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào Thứ Tư tuần 25 Mùa Thường Niên, là một ngày trong tuần (feria). Màu sắc phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng. Không có lễ buộc hay lễ kính thánh nào có ưu tiên cao hơn vào ngày này trong Lịch Rôma Tổng quát.",
+    "body_vi": "Vào Thứ Tư, ngày 6 tháng 10 năm 2027, Hội Thánh cử hành một ngày trong tuần (feria) của Mùa Thường Niên, cụ thể là tuần thứ hai mươi lăm của năm phụng vụ. Là một ngày trong tuần, ngày này mời gọi các tín hữu đào sâu sự gắn kết với Kinh Thánh và những mầu nhiệm bình thường của đời sống Chúa Kitô. Các bài đọc trong ngày, thường được trích từ Thư gửi tín hữu Êphêsô và Tin Mừng Luca theo chu kỳ ba năm, khuyến khích sự kiên tâm trong đức tin và đức bác ái. Thời kỳ này đặc trưng bởi màu xanh lá cây của niềm hy vọng, khi Hội Thánh tăng trưởng trong việc hiểu biết sứ vụ của mình.\n\nVì không có cử hành cấp cao hơn hay lễ kính thánh cụ thể nào được gán cho ngày này trong Lịch Rôma Tổng quát hiện hành, trọng tâm vẫn là tiến trình phụng vụ qua Mùa Thường Niên. Sự vắng mặt của một lễ thánh cụ thể có nghĩa là chủ đề tinh thần chính là hành trình liên lỉ của sự hoán cải và nên thánh trong cuộc sống hàng ngày. Mục vụ thường hướng tới việc áp dụng các nhân đức Kitô giáo vào những khía cạnh trần tục của cuộc sống. Điều này phản ánh giáo huấn của Hội Thánh rằng sự thánh thiện được sống động trong những khoảnh khắc bình thường của kinh nghiệm con người.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm sự thánh thiện trong điều bình thường: Ơn gọi của Tuần 25.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con nhìn thấy sự hiện diện của Chúa trong những chi tiết bình thường của ngày sống và lớn lên trong niềm hy vọng."
+  }
+}

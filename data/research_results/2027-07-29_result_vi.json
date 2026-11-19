@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 15 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thánh Mát-ta, Ma-ri-a và La-da-rô",
+    "summary_vi": "Giáo hội tưởng nhớ các anh chị em Mát-ta, Ma-ri-a và La-da-rô, những người đã đón tiếp Chúa Giê-su tại Bê-ta-ni-a. Thánh Mát-ta được tôn vinh vì sự phục vụ năng động và lời tuyên xưng đức tin vào sự sống lại. Thánh La-da-rô được nhớ đến như người bạn đã được Chúa Giê-su cho sống lại, trong khi Thánh Ma-ri-a được mừng kính vì thái độ chiêm niệm lắng nghe Lời Chúa.",
+    "body_vi": "Các bài Tin Mừng mô tả ba anh chị em này như những người bạn thân thiết của Chúa Giê-su, đã cung cấp cho Ngài một nơi nghỉ ngơi và tình bạn. Thánh Mát-ta, chị cả, thường được liên kết với sự phục vụ và lòng hiếu khách, nổi tiếng với việc thắc mắc với Chúa Giê-su về sự giúp đỡ của em gái trước khi tuyên xưng đức tin rằng Ngài là sự sống lại. Lễ của thánh nữ nhắc nhở các tín hữu về tầm quan trọng của các việc làm từ bi năng động trong đời sống Kitô hữu.\n\nThánh Ma-ri-a, em gái của La-da-rô, là mẫu gương của đời sống chiêm niệm, ngồi dưới chân Chúa Giê-su để lắng nghe lời giáo huấn của Ngài. Thánh La-da-rô, với phép lạ sống lại được ghi lại trong Tin Mừng Gio-an, tượng trưng cho quyền năng của Đức Ki-tô trên cái chết. Cuộc đời của các thánh này cùng nhau đại diện cho một chứng tá đức tin hoàn chỉnh thông qua hành động, suy niệm và niềm hy vọng vào sự sống đời đời, cung cấp một mẫu mực về lòng đạo đức Kitô hữu bắt nguồn từ cả phục vụ và cầu nguyện.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức tin trong hành động, suy niệm và hy vọng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con trái tim của Mát-ta để phục vụ, sự thinh lặng của Ma-ri-a để lắng nghe, và niềm hy vọng của La-da-rô để tin vào sự sống lại của Chúa."
+  }
+}

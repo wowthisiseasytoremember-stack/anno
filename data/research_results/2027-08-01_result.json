@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-01",
+  "date": "2027-08-01",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Alphonsus Liguori, Bishop and Doctor",
+    "title_vi": "Thánh Anphongsô Liguori, Giám mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Alphonsus Liguori, Bishop and Doctor",
+    "title_vi": "Thánh Anphongsô Liguori, Giám mục, Tiến sĩ Hội Thánh",
+    "summary_en": "St. Alphonsus Liguori is a Doctor of the Church and the patron saint of moralists and confessors. He is celebrated for his writings on moral theology and prayer. As a bishop and founder of the Redemptorists, he emphasized accessible spiritual guidance for the common people.",
+    "summary_vi": "Thánh Anphongsô Liguori là một Tiến sĩ Hội Thánh và là bổn mạng của các nhà thần học luân lý và các linh mục giải tội. Ngài nổi tiếng với các tác phẩm về thần học luân lý và cầu nguyện. Là một giám mục và là đấng sáng lập Dòng Chúa Cứu Thế, ngài nhấn mạnh vào việc hướng dẫn thiêng liêng dễ tiếp cận cho người dân bình thường.",
+    "body_en": "St. Alphonsus Liguori (1696–1787) was a prolific writer and theologian who sought to make Catholic teaching accessible to the uneducated. His work 'The Glories of Mary' and 'Preparation for Death' remain influential in Catholic spirituality. He is particularly known for his system of moral theology, 'equiprobabilism,' which attempted to balance rigorism and laxism.\n\nOn this date, which falls on the 18th Sunday in Ordinary Time in the Roman Rite, the faithful reflect on the Eucharist while also commemorating the saint's legacy of pastoral care. His feast day serves as a reminder of the importance of conscience formation and the mercy of God.",
+    "body_vi": "Thánh Anphongsô Liguori (1696–1787) là một nhà văn và nhà thần học uyên bác, người đã tìm cách phổ biến giáo lý Công giáo cho những người không có học thức. Các tác phẩm 'Vinh Quang Đức Mẹ' và 'Chuẩn Bị Chết' của ngài vẫn có ảnh hưởng lớn trong đời sống thiêng liêng Công giáo. Ngài đặc biệt nổi tiếng với hệ thống thần học luân lý 'equiprobabilism', nhằm cân bằng giữa thái độ nghiêm khắc và thái độ lỏng lẻo.\n\nVào ngày này, rơi vào Chúa Nhật 18 Thường Niên theo Nghi thức Rôma, cộng đoàn suy niệm về Bí tích Thánh Thể đồng thời tưởng nhớ di sản của thánh nhân về mục vụ chăm sóc. Lễ kính của ngài nhắc nhở tầm quan trọng của việc hình thành lương tâm và lòng thương xót của Thiên Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date and rank are fixed in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày và bậc lễ được xác định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "St. Alphonsus Liguori: Doctor of the Church and Founder of the Redemptorists",
+    "hero_line_vi": "Thánh Anphongsô Liguori: Tiến sĩ Hội Thánh và Đấng sáng lập Dòng Chúa Cứu Thế",
+    "prayer_prompt_en": "Lord, grant me the wisdom to seek Your will in all things, following the example of St. Alphonsus.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khôn ngoan để tìm kiếm ý Chúa trong mọi sự, theo gương Thánh Anphongsô."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/080127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - August 1",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?date=2027-08-01",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-19",
+    "hebrew": "27 Tamuz 5787",
+    "islamic_umm_al_qura": "28 Safar 1449 AH",
+    "coptic": "25 Epip 1743",
+    "ethiopian": "25 Hamle 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

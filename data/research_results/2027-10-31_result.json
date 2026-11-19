@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-10-31",
+  "date": "2027-10-31",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 29",
+    "title_vi": "Chúa Nhật tuần 29 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thirty-First Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật 31 Mùa Thường Niên",
+    "summary_en": "This Sunday falls within the period of Ordinary Time, marked by liturgical vestments in green. The focus is on the ongoing spiritual journey and the teachings of Christ. The readings typically emphasize themes of discipleship and the Kingdom of God.",
+    "summary_vi": "Chúa Nhật này thuộc thời gian Mùa Thường Niên, được đánh dấu bằng trang phục phụng vụ màu xanh lá cây. Trọng tâm là hành trình thiêng liêng đang diễn ra và những lời giảng dạy của Chúa Kitô. Các bài đọc thường nhấn mạnh các chủ đề về môn đệ và Nước Thiên Chúa.",
+    "body_en": "The liturgy for the Thirty-First Sunday in Ordinary Time invites the faithful to reflect on the practical aspects of Christian living in the everyday world. Unlike the solemnities that dominate the liturgical year, Ordinary Time provides a steady rhythm for growth and understanding of the Gospel. The green color symbolizes hope and the growth of the Church as it moves through the seasons of the year.\n\nIn the context of the lectionary, this Sunday often presents parables or teachings that challenge the listener to deepen their commitment to Christ. The community gathers to celebrate the Eucharist, receiving spiritual nourishment for the week ahead. The liturgical day is not focused on a specific saint but on the universal witness of the Church and the living Word.",
+    "body_vi": "Phụng vụ cho Chúa Nhật 31 Mùa Thường Niên mời gọi các tín hữu suy niệm về các khía cạnh thực tế của đời sống Kitô hữu trong thế giới hàng ngày. Khác với các lễ trọng chi phối năm phụng vụ, Mùa Thường Niên cung cấp một nhịp điệu ổn định cho sự tăng trưởng và hiểu biết Tin Mừng. Màu xanh lá cây tượng trưng cho hy vọng và sự tăng trưởng của Giáo hội khi đi qua các mùa trong năm.\n\nTrong bối cảnh sách bài đọc, Chúa Nhật này thường trình bày các dụ ngôn hoặc lời giảng dạy thách thức người nghe đào sâu cam kết của họ với Chúa Kitô. Cộng đoàn tụ tập để cử hành Bí tích Thánh Thể, nhận sự nuôi dưỡng thiêng liêng cho tuần tiếp theo. Ngày phụng vụ không tập trung vào một vị thánh cụ thể mà vào chứng từ phổ quát của Giáo hội và Lời hằng sống.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is confirmed as a Sunday in Ordinary Time based on the liturgical calendar for 2027.",
+    "confidence_note_vi": "Ngày này được xác nhận là một Chúa Nhật Mùa Thường Niên dựa trên lịch phụng vụ năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith and hope during the steady rhythm of Ordinary Time.",
+    "hero_line_vi": "Tăng trưởng trong đức tin và hy vọng qua nhịp điệu ổn định của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help us to grow in holiness in the midst of our daily lives.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con lớn lên trong sự thánh thiện giữa đời sống hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/103127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/01001a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgicalcalendar/calendar.cfm?day=31&month=10&year=2027",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-18",
+    "hebrew": "30 Tisrei 5788",
+    "islamic_umm_al_qura": "1 Jumada al-Thani 1449 AH",
+    "coptic": "20 Paopi 1744",
+    "ethiopian": "20 Tikemet 2020"
+  }
+}

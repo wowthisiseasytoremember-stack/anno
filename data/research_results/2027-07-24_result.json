@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-07-24",
+  "date": "2027-07-24",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 14",
+    "title_vi": "Thứ Bảy tuần 14 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 14",
+    "title_vi": "Thứ Bảy tuần 14 Mùa Thường Niên",
+    "summary_en": "This day is observed as a Feria in Ordinary Time, Week 14, marked by liturgical color green. There are no obligatory memorials of saints on this date in the General Roman Calendar. The focus is on the sanctification of daily life and the faithful's journey through the secular weeks of the liturgical year.",
+    "summary_vi": "Ngày này được cử hành như một ngày Thường lệ trong Tuần 14 Mùa Thường Niên, với màu phụng vụ là xanh lục. Không có kính nhớ bắt buộc của các thánh vào ngày này theo Lịch Phụng vụ Roma Chung. Trọng tâm là việc thánh hóa đời sống hằng ngày và hành trình của các tín hữu qua các tuần lễ thế tục của năm phụng vụ.",
+    "body_en": "As a Feria in Week 14, this Saturday serves as a time for the faithful to reflect on the teachings received during the recent weeks of Ordinary Time. The liturgical focus remains on the growth in virtue and the deepening of one's relationship with Christ amidst the routine of daily life. Without a specific saint's feast to interrupt the flow, the Church encourages personal prayer and the observance of the daily Liturgy of the Hours.\n\nThe green vestments symbolize hope and growth, reminding the believer that spiritual life is not static but a continuous journey. In the absence of major solemnities or feasts, the ordinary days provide a stable rhythm for prayer and service. This specific date falls after the midpoint of the year, inviting the Christian to assess their spiritual progress and renew their commitment to living out the Gospel values in the coming months.",
+    "body_vi": "Là một ngày Thường lệ trong Tuần 14, ngày Thứ Bảy này là thời gian để các tín hữu suy ngẫm về những bài học đã nhận được trong những tuần gần đây của Mùa Thường Niên. Trọng tâm phụng vụ vẫn là sự tăng trưởng trong đức hạnh và làm sâu sắc thêm mối tương quan với Đức Kitô giữa nhịp sống đời thường. Không có ngày lễ thánh cụ thể nào phá vỡ dòng chảy, Hội Thánh khuyến khích cầu nguyện cá nhân và tuân giữ Phụng vụ Giờ kinh hằng ngày.\n\nÁo lễ màu xanh lục tượng trưng cho hy vọng và sự tăng trưởng, nhắc nhở người tín hữu rằng đời sống tâm linh không phải là tĩnh tại mà là một hành trình liên tục. Khi không có các lễ trọng hay lễ kính lớn, những ngày thường cung cấp một nhịp điệu ổn định cho việc cầu nguyện và phục vụ. Ngày cụ thể này rơi vào giữa năm, mời gọi người Kitô hữu đánh giá tiến bộ tâm linh của mình và canh tân cam kết sống theo các giá trị Tin Mừng trong những tháng sắp tới.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Sanctifying the ordinary moments of faith.",
+    "hero_line_vi": "Thánh hóa những khoảnh khắc đời thường của đức tin.",
+    "prayer_prompt_en": "Lord, help me find You in my daily tasks.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong các công việc hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/072427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Saturday Ferias",
+      "url": "https://www.newadvent.org/cathen/13374b.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-11",
+    "hebrew": "19 Tamuz 5787",
+    "islamic_umm_al_qura": "20 Safar 1449 AH",
+    "coptic": "17 Epip 1743",
+    "ethiopian": "17 Hamle 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

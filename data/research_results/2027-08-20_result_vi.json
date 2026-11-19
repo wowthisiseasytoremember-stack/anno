@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Bênađô, Viện phụ, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Bênađô, Viện phụ, Tiến sĩ Hội Thánh",
+    "summary_vi": "Hôm nay, Hội Thánh kính nhớ Thánh Bênađô thành Clairvaux, một viện phụ và nhà thần học nổi tiếng dòng Xitô. Ngài được tôn vinh vì các trước tác thần học sâu sắc và vai trò rao giảng cuộc Thập tự chinh thứ hai. Là Tiến sĩ Hội Thánh, ngài nhấn mạnh tầm quan trọng của sự khiêm nhường, vâng phục và lòng sùng kính Đức Maria.",
+    "body_vi": "Thánh Bênađô (1090–1153) là một trong những nhân vật ảnh hưởng nhất của thế kỷ 12, bắc cầu giữa thế giới tu trì và thế giới trần tục. Các trước tác của ngài, đặc biệt là các bài giảng về sách Diễm Ca, nổi tiếng với vẻ đẹp thi ca và sự thấu hiểu huyền nhiệm sâu sắc về tình yêu Thiên Chúa. Ngài đã thành lập nhiều đan viện và làm cố vấn thiêng liêng cho các giáo hoàng và vua chúa, khẳng định sự độc lập của Hội Thánh khỏi quyền lực trần gian.\n\nNgày lễ của ngài là lời nhắc nhở về truyền thống chiêm niệm phong phú của Hội Thánh. Thần học của Bênađô vẫn là cốt lõi của đời sống thiêng liêng Công giáo, đặc biệt là giáo huấn về bản chất của ân sủng và đáp trả của con người. Hội Thánh tôn vinh ngài là Tiến sĩ Hội Thánh vì sự rõ ràng trong việc giải thích các mầu nhiệm đức tin và ảnh hưởng lâu dài đối với lòng đạo đức Công giáo.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ngắm nhìn tình yêu của Chúa Kitô qua những lời dạy của Thánh Bênađô.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khiêm nhường của Thánh Bênađô để tìm kiếm Chúa trong mọi sự."
+  }
+}

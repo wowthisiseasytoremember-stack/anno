@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-08",
+  "date": "2027-11-08",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 30",
+    "title_vi": "Thứ Hai tuần 30 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of Ordinary Time, Week 30",
+    "title_vi": "Thứ Hai tuần 30 Mùa Thường Niên",
+    "summary_en": "This day is a standard Feria of Ordinary Time, ranked after solemnities and feasts in the liturgical calendar. The liturgical color is green, signifying hope and the growth of the Church. No specific saint or feast takes precedence for this Monday in Week 30 of Ordinary Time.",
+    "summary_vi": "Ngày này là ngày thường lệ (Feria) trong Mùa Thường Niên, có bậc lễ thấp hơn các lễ trọng và lễ kính. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của Giáo Hội. Không có vị thánh hay lễ kính đặc biệt nào được ưu tiên giữ vào Thứ Hai tuần 30 Mùa Thường Niên này.",
+    "body_en": "The Monday of the Thirtieth Week in Ordinary Time invites the faithful to reflect on the teachings of Jesus as presented in the Gospel readings assigned to this period. As a Feria, it serves as a day of steady spiritual progress, emphasizing the daily adherence to the Gospel amidst the mundane aspects of life.\n\nThe liturgical color green, used during Ordinary Time, represents the hope of Christian salvation and the spiritual growth of the faithful. It reminds believers to remain vigilant and productive in their faith journey, drawing strength from the Eucharist and the Word of God.",
+    "body_vi": "Thứ Hai tuần 30 Mùa Thường Niên mời gọi các tín hữu suy gẫm những lời giáo huấn của Chúa Giêsu được trình bày trong các bài Tin Mừng được chỉ định cho thời kỳ này. Với tư cách là ngày thường lệ, đây là ngày tiến bước thiêng liêng vững chắc, nhấn mạnh đến việc tuân giữ Tin Mừng mỗi ngày giữa những khía cạnh đời thường của cuộc sống.\n\nMàu sắc phụng vụ xanh lá cây, được sử dụng trong Mùa Thường Niên, tượng trưng cho niềm hy vọng cứu độ Kitô giáo và sự tăng trưởng thiêng liêng của các tín hữu. Màu xanh nhắc nhở người tin hãy luôn tỉnh thức và hiệu quả trong hành trình đức tin, kín múc sức mạnh từ Bí tích Thánh Thể và Lời Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The liturgical rank and color are confirmed by the General Roman Calendar and the USCCB daily calendar for 2027.",
+    "confidence_note_vi": "Bậc lễ và màu sắc phụng vụ được xác nhận bởi Lịch Phụng vụ Rôma và lịch phụng vụ hàng ngày của USCCB cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast in Hope: Walking the Path of Ordinary Time",
+    "hero_line_vi": "Kiên vững trong Hy vọng: Bước đi trên con đường Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, grant me the grace to grow in faith and hope during this ordinary week.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban ơn cho con tăng trưởng trong đức tin và đức cậy trong tuần thường lệ này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/110827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - General Roman Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-26",
+    "hebrew": "8 Cheshvan 5788",
+    "islamic_umm_al_qura": "9 Jumada al-Thani 1449 AH",
+    "coptic": "28 Paopi 1744",
+    "ethiopian": "28 Tikemet 2020"
+  }
+}

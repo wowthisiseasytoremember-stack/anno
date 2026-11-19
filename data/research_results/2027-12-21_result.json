@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-21",
+  "date": "2027-12-21",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of the Fourth Week of Advent",
+    "title_vi": "Thứ Ba Tuần IV Mùa Vọng",
+    "summary_en": "This day falls within the final week of Advent, a period dedicated to preparing for the coming of the Lord. The liturgical color purple signifies penance, preparation, and anticipation. As a weekday feria, it emphasizes the ongoing journey of conversion and spiritual readiness for the Christmas season.",
+    "summary_vi": "Ngày này thuộc tuần cuối cùng của Mùa Vọng, thời gian dành riêng để chuẩn bị cho việc Chúa đến. Màu tím phụng vụ diễn tả sự sám hối, chuẩn bị và trông đợi. Là một ngày trong tuần (feria), ngày này nhấn mạnh hành trình liên lỉ hoán cải và sẵn sàng về mặt thiêng liêng cho mùa Giáng Sinh.",
+    "body_en": "The fourth week of Advent brings the faithful closer to the celebration of the Nativity, shifting the focus from the eschatological coming of Christ to his historical birth in Bethlehem. During these final days, the Church invites believers to deepen their prayer life and reflect on the humility required to receive the Divine Mystery. Although no specific saint is celebrated with higher rank on this date, the liturgical context remains dominated by the season's penitential and hopeful character.\n\nThe readings and prayers for Tuesday of the fourth week typically emphasize obedience, faith, and the quiet acceptance of God's will, as seen in the figures of the Virgin Mary and Saint Joseph. This period is critical for personal examination and spiritual renewal before the joy of Christmas breaks forth. The absence of a major feast allows for a focused meditation on the ordinary means of grace through the Word and the Sacraments.",
+    "body_vi": "Tuần thứ tư của Mùa Vọng đưa các tín hữu đến gần hơn với việc cử hành Lễ Giáng Sinh, chuyển trọng tâm từ việc Chúa Kitô đến trong tương lai sang việc Người sinh ra lịch sử tại Bêlem. Trong những ngày cuối cùng này, Giáo hội mời gọi người tín hữu đào sâu đời sống cầu nguyện và suy niệm về sự khiêm nhường cần thiết để đón nhận Mầu nhiệm Thiên Chúa. Mặc dù không có thánh tử đạo hay thánh lễ lớn nào được cử hành với bậc cao hơn vào ngày này, bối cảnh phụng vụ vẫn chịu sự chi phối bởi tính chất sám hối và hy vọng của mùa phụng vụ.\n\nCác bài đọc và lời nguyện cho Thứ Ba tuần thứ tư thường nhấn mạnh sự vâng phục, đức tin và sự chấp nhận âm thầm ý Chúa, như thấy nơi hình ảnh Đức Trinh Nữ Maria và Thánh Giuse. Đây là giai đoạn quan trọng cho việc tự vấn lương tâm và đổi mới thiêng liêng trước khi niềm vui Giáng Sinh bừng nở. Việc không có lễ lớn cho phép tập trung suy niệm về các phương tiện ân sủng thông thường qua Lời Chúa và các Bí tích.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Preparing the way of the Lord in the final days of Advent.",
+    "hero_line_vi": "Dọn đường cho Chúa trong những ngày cuối cùng của Mùa Vọng.",
+    "prayer_prompt_en": "Lord, help me to prepare my heart for your coming through humility and conversion.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con chuẩn bị tâm hồn đón Chúa đến qua sự khiêm nhường và hoán cải."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/122127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News Calendar",
+      "url": "https://www.vatican.va/content/vatican/it.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-08",
+    "hebrew": "21 Kislev 5788",
+    "islamic_umm_al_qura": "23 Rajab 1449 AH",
+    "coptic": "11 Koiak 1744",
+    "ethiopian": "11 Tahsas 2020"
+  }
+}

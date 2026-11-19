@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-22",
+  "date": "2027-08-22",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "The Queenship of the Blessed Virgin Mary",
+    "title_vi": "Lễ Đức Maria Nữ Vương"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "The Queenship of the Blessed Virgin Mary",
+    "title_vi": "Lễ Đức Maria Nữ Vương",
+    "summary_en": "This day celebrates the Queenship of the Blessed Virgin Mary, inviting the faithful to recognize her unique dignity as Queen of Heaven. While falling on a Sunday, the memorial of this specific Marian title takes precedence in the liturgical celebration. The focus shifts from the ordinary time cycle to the intercession and maternal authority of Mary under Christ.",
+    "summary_vi": "Ngày này cử hành lễ Đức Maria Nữ Vương, mời gọi cộng đoàn nhận ra phẩm giá độc đáo của Mẹ với tư cách là Nữ Vương Thiên Đàng. Dù rơi vào ngày Chúa Nhật, lễ kính tước hiệu riêng biệt này của Đức Maria vẫn giữ vị trí ưu tiên trong cử phụng vụ. Trọng tâm chuyển từ chu kỳ Thường Niên sang lời chuyển cầu và quyền bệ hạ mẫu tử của Mẹ dưới quyền của Đức Kitô.",
+    "body_en": "The feast invites the Church to gaze upon Mary not merely as the mother of Jesus, but as the Queen who shares in the royal dignity of her Son. Originating from the tradition of the Church and formally established by Pope Pius XII in the mid-20th century, this memorial reminds us that Mary's power is derived entirely from her Son's sovereignty. Her reign is one of service, love, and intercession, acting as a maternal bridge between the faithful and Christ the King.\n\nLiturgically, the readings chosen for this day emphasize the royal lineage of Christ and Mary's humble acceptance of God's will. The texts remind believers that the kingdom of God is entered through humility and obedience, exemplified perfectly by Mary. As Queen of Angels and Saints, she stands before the throne of God, offering the prayers of humanity with maternal tenderness, urging the Church to live out its baptismal priesthood in light of her example.",
+    "body_vi": "Lễ này mời gọi Hội Thánh chiêm ngắm Đức Maria không chỉ là Mẹ của Đức Giêsu, mà còn là Nữ Vương thông phần vào phẩm giá vương giả của Con Mẹ. Có nguồn gốc từ truyền thống lâu đời của Hội Thánh và được Đức Piô XII thiết lập chính thức vào giữa thế kỷ 20, lễ này nhắc nhở rằng quyền năng của Đức Maria hoàn toàn bắt nguồn từ chủ quyền của Con Mẹ. Triều đại của Mẹ là một triều đại của phục vụ, tình yêu và chuyển cầu, đóng vai trò là nhịp cầu mẫu tử nối liền tín hữu với Đức Kitô Vua.\n\nVề phương diện phụng vụ, các bài đọc được chọn trong ngày này nhấn mạnh dòng dõi vương giả của Đức Kitô và sự tuân phục khiêm nhường của Đức Maria đối với ý định của Thiên Chúa. Các văn bản nhắc nhở các tín hữu rằng Nước Thiên Chúa được đón nhận ngang qua sự khiêm nhường và vâng phục, điều được Đức Maria thể hiện cách hoàn hảo. Là Nữ Vương các Thiên Thần và các Thánh, Mẹ đứng trước ngai tòa Thiên Chúa, dâng lời cầu nguyện của nhân loại với sự dịu dàng mẫu tử, thúc đẩy Hội Thánh sống chức tư tế phổ quát trong ánh sáng gương mẫu của Mẹ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The General Roman Calendar assigns the memorial of the Queenship of the Blessed Virgin Mary to August 22. Since it is a Sunday during Ordinary Time, the specific Marian memorial is the primary liturgical focus as indicated in the context, overriding the ordinary Sunday theme.",
+    "confidence_note_vi": "Lịch Phụng Vụ Rôma gán lễ kính Đức Maria Nữ Vương vào ngày 22 tháng 8. Vì đây là ngày Chúa Nhật trong Mùa Thường Niên, lễ kính riêng của Đức Maria là trọng tâm phụng vụ chính như được chỉ dẫn trong bối cảnh, ưu tiên hơn chủ đề thông thường của ngày Chúa Nhật."
+  },
+  "app_hooks": {
+    "hero_line_en": "Mary, Queen of Heaven and Earth, intercede for us.",
+    "hero_line_vi": "Đức Maria, Nữ Vương Thiên Đàng và Trái Đất, xin cầu cho chúng con.",
+    "prayer_prompt_en": "Pray for the grace to serve with humility, as Mary serves her King.",
+    "prayer_prompt_vi": "Cầu xin ơn phục vụ với lòng khiêm nhường, như Đức Maria phục vụ Vua của Mẹ."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for August 22, 2027",
+      "url": "https://bible.usccb.org/bible/readings/082227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Memorial of the Queenship of the Blessed Virgin Mary",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-09",
+    "hebrew": "19 Av 5787",
+    "islamic_umm_al_qura": "20 Rabi' al-Awwal 1449 AH",
+    "coptic": "16 Mesori 1743",
+    "ethiopian": "16 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

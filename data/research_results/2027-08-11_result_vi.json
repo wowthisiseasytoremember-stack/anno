@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Clara, Trinh nữ"
+  },
+  "primary": {
+    "title_vi": "Thánh Clara, Trinh nữ",
+    "summary_vi": "Thánh Clara thành Assisi là người sáng lập Dòng Nữ Nghèo và là người đồng thời với Thánh Phanxicô. Ngài nổi tiếng với lòng sùng kính Bí tích Thánh Thể và cuộc sống khó nghèo. Di sản của ngài vẫn tiếp tục qua các cộng đoàn Dòng Clara trên khắp thế giới.",
+    "body_vi": "Clara sinh ra trong một gia đình quý tộc ở Assisi, Ý, nhưng đã từ bỏ địa vị xã hội để theo đuổi lý tưởng Tin Mừng do Thánh Phanxicô đề xướng. Ngài thành lập một cộng đoàn phụ nữ dấn thân trong cầu nguyện và khó nghèo tại Nhà thờ San Damiano. Các tác phẩm thiêng liêng của ngài, đặc biệt là Bản Luật và các Thư Tín, vẫn còn ảnh hưởng lớn trong đời sống huyền nhiệm và chiêm niệm Kitô giáo.\n\nNgài thường được mô tả với mặt nhật trong tay, gợi nhớ phép lạ Bí tích Thánh Thể bảo vệ tu viện khỏi quân xâm lược. Clara nhấn mạnh giá trị của cầu nguyện, sự đơn sơ và khiêm nhường. Ngài qua đời năm 1253 và được phong thánh hai năm sau đó.",
+    "confidence_note_vi": "Ngày này là lễ nhớ cố định trong Lịch Phụng vụ Rôma Phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chúng ta hãy cầu xin ơn khiêm nhường khó nghèo như Thánh Clara.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp chúng con tìm kiếm Chúa với sự đơn sơ của Thánh Clara."
+  }
+}

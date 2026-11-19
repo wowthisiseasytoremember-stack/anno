@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-22",
+  "date": "2027-11-22",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "St. Cecilia, Virgin and Martyr",
+    "title_vi": "Thánh Cêcilia, Trinh nữ, Tử đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Cecilia, Virgin and Martyr",
+    "title_vi": "Thánh Cêcilia, Trinh nữ, Tử đạo",
+    "summary_en": "St. Cecilia is celebrated on November 22 as a patron of music and musicians. She is revered for her unwavering faith and refusal to compromise her Christian vows despite persecution. Her feast day invites the faithful to reflect on the harmony between spiritual devotion and daily life.",
+    "summary_vi": "Thánh Cêcilia được mừng kính vào ngày 22 tháng 11 với tư cách là bổn mạng của âm nhạc và các nhạc sĩ. Ngài được tôn kính vì đức tin kiên định và lời khước từ thỏa hiệp với các lời khấn Kitô giáo mặc dù bị bách hại. Lễ mừng kính của ngài mời gọi các tín hữu suy gẫm về sự hài hòa giữa lòng đạo đức tâm linh và cuộc sống hàng ngày.",
+    "body_en": "St. Cecilia is one of the most venerated early Christian martyrs, traditionally associated with Rome. According to hagiography, she sang in her heart to the Lord, even as instruments played around her, a gesture that established her as the patroness of music. Her martyrdom is said to have lasted several days, enduring three attempts at execution before finally being buried in the catacombs.\n\nIn the Roman liturgical calendar, her memorial serves as a poignant reminder of the power of prayer and inner devotion. The Church honors her not only for her physical sacrifice but also for the beauty of her soul, which resonated with divine truth. Her legacy continues to inspire artists, musicians, and believers to seek perfection in their respective vocations through grace.",
+    "body_vi": "Thánh Cêcilia là một trong những vị tử đạo Kitô giáo sơ khai được tôn kính nhất, gắn liền truyền thống với thành Rôma. Theo sách thánh ký, ngài đã hát trong lòng với Chúa, ngay cả khi các nhạc cụ đang chơi xung quanh, một cử chỉ đã thiết lập ngài như bổn mạng của âm nhạc. Sự tử đạo của ngài được cho là đã kéo dài trong nhiều ngày, chịu đựng ba lần bị xử tử trước khi cuối cùng được chôn cất trong các hang toại đạo.\n\nTrong lịch phụng vụ Rôma, kỷ niệm của ngài phục vụ như một lời nhắc nhở sâu sắc về sức mạnh của cầu nguyện và lòng đạo đức nội tâm. Giáo hội tôn vinh ngài không chỉ vì sự hy sinh thể xác mà còn vì vẻ đẹp tâm hồn, đã hòa điệu với chân lý thần linh. Di sản của ngài tiếp tục truyền cảm hứng cho các nghệ sĩ, nhạc sĩ và tín hữu tìm kiếm sự hoàn hảo trong các ơn gọi tương ứng của họ qua ân sủng.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Sing to the Lord a new song.",
+    "hero_line_vi": "Hãy ca ngợi Chúa bằng bài ca mới.",
+    "prayer_prompt_en": "Grant me the grace to sing a new song of faith in the midst of life's noise.",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để hát lên bài ca mới của đức tin giữa những ồn ào của cuộc sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for Nov 22",
+      "url": "https://bible.usccb.org/bible/readings/112227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Saints: St. Cecilia",
+      "url": "https://www.newadvent.org/cathen/03534a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-09",
+    "hebrew": "22 Cheshvan 5788",
+    "islamic_umm_al_qura": "23 Jumada al-Thani 1449 AH",
+    "coptic": "12 Hathor 1744",
+    "ethiopian": "12 Hidar 2020"
+  }
+}

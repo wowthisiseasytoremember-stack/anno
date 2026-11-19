@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 14 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 14 Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày thường trong Mùa Thường Niên, cụ thể là Thứ Hai tuần XIV. Màu phụng vụ là màu xanh, tượng trưng cho hy vọng và sự tăng trưởng của Giáo Hội. Không có lễ trọng hay lễ kính lớn nào trên lịch chung cho ngày cụ thể này.",
+    "body_vi": "Vào ngày Thứ Hai này, các tín hữu được mời gọi suy niệm về sự tăng trưởng tâm linh bình thường. Các bài đọc và lời cầu nguyện tập trung vào việc sống đức tin trong các công việc hàng ngày, nhấn mạnh sự nhất quán và khiêm nhường. Giáo Hội khuyến khích các tín hữu tìm thấy Chúa Kitô trong những khía cạnh thường nhật của cuộc sống.\n\nNghi thức phụng vụ cho ngày này bao gồm các bài thánh vịnh và bài đọc làm nổi bật hành trình hoán cải liên tục. Vì đây là ngày trong tuần của Mùa Thường Niên, trọng tâm là sự tiến bộ vững chắc trong đời sống Kitô giáo hơn là một sự kiện cụ thể hay vị thánh nào đó. Giai đoạn này rất quan trọng để đào sâu mối tương quan với Thiên Chúa qua việc cầu nguyện đều đặn và sống đạo đức.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Lớn lên trong Đức tin qua Đời sống Thường nhật",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con thấy Ngài trong những thói quen hàng ngày và tăng trưởng trong sự kiên nhẫn."
+  }
+}

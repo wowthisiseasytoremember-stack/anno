@@ -12,10 +12,10 @@
     "type": "liturgical_day",
     "title_en": "Feria of Ordinary Time",
     "title_vi": "Ngày thường trong Mùa Thường Niên",
-    "summary_en": "March 17, 2027, falls on a Wednesday within the Fifth Week of Ordinary Time. While St. Patrick is traditionally commemorated on this date, in the current General Roman Calendar, St. Patrick does not have a universal feast day, so the day remains a feria. The liturgical color is green, symbolizing hope and the growth of the faithful during this period of Ordinary Time.",
+    "summary_en": "March 17, 2027, falls on a Wednesday within the Fifth Week of Ordinary Time. While St. Patrick is traditionally commemorated on this date, in the current General Roman Calendar, St. Patrick does not have a universal feast day, so the day remains a feria.",
     "summary_vi": "Ngày 17 tháng 3 năm 2027 rơi vào Thứ Tư Tuần V Mùa Thường Niên. Mặc dù Thánh Patrick thường được tưởng nhớ vào ngày này, nhưng theo Lịch Rôma Chung hiện hành, Thánh Patrick không có lễ phổ quát, nên đây vẫn là ngày thường phụng vụ. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của cộng đoàn tín hữu trong giai đoạn Mùa Thường Niên.",
-    "body_en": "As a feria of the Fifth Week of Ordinary Time, the focus of the day is on the teachings of Jesus and the life of the Church during the 'ordinary' part of the liturgical year. The readings follow the sequence established for Week V in Ordinary Time, emphasizing the call to conversion and the nature of discipleship. No specific saint's life takes precedence over the weekday liturgy in the universal calendar for this date.",
-    "body_vi": "Với tư cách là một ngày thường của Tuần V Mùa Thường Niên, trọng tâm của ngày là các bài học về Chúa Giêsu và đời sống Giáo Hội trong phần 'thường niên' của năm phụng vụ. Các bài đọc tuân theo thứ tự đã được thiết lập cho Tuần V Mùa Thường Niên, nhấn mạnh đến lời mời gọi hoán cải và bản chất của việc môn đệ hóa. Trong lịch phụng vụ phổ quát, không có đời sống của vị thánh nào được ưu tiên hơn phụng vụ ngày thường vào ngày này.",
+    "body_en": "As a feria of the Fifth Week of Ordinary Time, the focus of the day is on the teachings of Jesus and the life of the Church during the 'ordinary' part of the liturgical year. The readings follow the sequence established for Week V in Ordinary Time, emphasizing the call to conversion and the nature of discipleship.\n\nNo specific saint's life takes precedence over the weekday liturgy in the universal calendar for this date.",
+    "body_vi": "Với tư cách là một ngày thường của Tuần V Mùa Thường Niên, trọng tâm của ngày là các bài học về Chúa Giêsu và đời sống Giáo Hội trong phần 'thường niên' của năm phụng vụ. Các bài đọc tuân theo thứ tự đã được thiết lập cho Tuần V Mùa Thường Niên, nhấn mạnh đến lời mời gọi hoán cải và bản chất của việc môn đệ hóa.\n\nTrong lịch phụng vụ phổ quát, không có đời sống của vị thánh nào được ưu tiên hơn phụng vụ ngày thường vào ngày này.",
     "confidence": "confirmed",
     "confidence_note_en": "The 1969 revision of the General Roman Calendar removed St. Patrick's feast day (March 17) as a universal obligatory feast. Therefore, the day defaults to the Feria of Ordinary Time.",
     "confidence_note_vi": "Bản tu chính Lịch Rôma Chung năm 1969 đã loại bỏ ngày lễ Thánh Patrick (17 tháng 3) khỏi danh sách các lễ phổ quát bắt buộc. Do đó, ngày này mặc định là Ngày thường Mùa Thường Niên."
@@ -44,5 +44,6 @@
     "islamic_umm_al_qura": "8 Shawwal 1448 AH",
     "coptic": "8 Baramhat 1743",
     "ethiopian": "8 Baramhat 1743"
-  }
+  },
+  "mock_priority": "engine_b_v1"
 }

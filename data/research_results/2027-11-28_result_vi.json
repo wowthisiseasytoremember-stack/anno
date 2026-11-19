@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật I Mùa Vọng",
+    "summary_vi": "Chúa Nhật I Mùa Vọng đánh dấu sự khởi đầu của năm phụng vụ và mùa Vọng. Đây là thời gian chuẩn bị và mong chờ ngày Chúa Kitô đến. Màu phụng vụ là màu tím, biểu tượng cho sự sám hối và trông đợi. Chúa nhật này thiết lập tông điệu tinh thần cho toàn bộ năm phụng vụ.",
+    "body_vi": "Chúa Nhật I Mùa Vọng là một dịp long trọng khởi đầu chu kỳ phụng vụ mới trong Nghi lễ Rôma. Nó đóng vai trò như một ngưỡng cửa tâm linh, mời gọi các tín hữu bước ra khỏi nhịp sống thường nhật và bước vào một thời gian thánh thiện của sự chờ đợi và hy vọng. Tiêu điểm mang tính kép: nhìn lại biến cố Nhập Thể lịch sử và hướng tới cuộc quang lâm cánh chung của Chúa Kitô. Góc nhìn kép này bao trùm toàn bộ mùa phụng vụ, nhắc nhở các tín hữu rằng thời gian không chỉ là tuyến tính mà còn mang chiều kích thần học sâu sắc, hướng tới sự viên mãn trong Thiên Chúa.\n\nTrong ngày Chúa Nhật này, phụng vụ nhấn mạnh sự tỉnh thức và sẵn sàng, dựa trên những lời giảng dạy của Tin Mừng về việc canh thức và chờ đợi. Các bài đọc thường tập trung vào cuộc Quang Lâm của Chúa Kitô và lời kêu gọi sống trong trạng thái tỉnh thức thiêng liêng. Giáo hội sử dụng thời gian này để đổi mới cam kết với Tin Mừng, thúc giục các tín hữu thanh tẩy tâm hồn và trí tuệ. Đây là khoảnh khắc ân sủng sâu xa, khi gánh nặng của năm cũ được đặt sang một bên, và một niềm hy vọng mới được khơi dậy trong tâm hồn dân Chúa.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Khởi đầu Năm Phụng Vụ với Niềm Hy Vọng",
+    "prayer_prompt_vi": "Cầu nguyện để luôn tỉnh thức và sẵn sàng đón Chúa Kitô."
+  }
+}

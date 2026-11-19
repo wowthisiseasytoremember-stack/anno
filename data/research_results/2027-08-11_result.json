@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-11",
+  "date": "2027-08-11",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Clare, Virgin",
+    "title_vi": "Thánh Clara, Trinh nữ"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Clare, Virgin",
+    "title_vi": "Thánh Clara, Trinh nữ",
+    "summary_en": "St. Clare of Assisi was a founder of the Order of Poor Ladies and a contemporary of St. Francis. She is renowned for her devotion to the Eucharist and her life of poverty.",
+    "summary_vi": "Thánh Clara thành Assisi là người sáng lập Dòng Nữ Nghèo và là người đồng thời với Thánh Phanxicô. Ngài nổi tiếng với lòng sùng kính Bí tích Thánh Thể và cuộc sống khó nghèo. Di sản của ngài vẫn tiếp tục qua các cộng đoàn Dòng Clara trên khắp thế giới.",
+    "body_en": "Clare was born into a noble family in Assisi, Italy, but renounced her status to follow the Gospel ideals promoted by St. Francis. She established a community of women dedicated to prayer and poverty at the Church of San Damiano. Her spiritual writings, particularly the Rule and the Letters, remain influential in Christian mysticism and contemplative life.\n\nShe is often depicted holding a monstrance, recalling the miracle of the Eucharist defending the convent from invading armies. Clare emphasized the value of prayer, simplicity, and humility. She died in 1253 and was canonized two years later.",
+    "body_vi": "Clara sinh ra trong một gia đình quý tộc ở Assisi, Ý, nhưng đã từ bỏ địa vị xã hội để theo đuổi lý tưởng Tin Mừng do Thánh Phanxicô đề xướng. Ngài thành lập một cộng đoàn phụ nữ dấn thân trong cầu nguyện và khó nghèo tại Nhà thờ San Damiano. Các tác phẩm thiêng liêng của ngài, đặc biệt là Bản Luật và các Thư Tín, vẫn còn ảnh hưởng lớn trong đời sống huyền nhiệm và chiêm niệm Kitô giáo.\n\nNgài thường được mô tả với mặt nhật trong tay, gợi nhớ phép lạ Bí tích Thánh Thể bảo vệ tu viện khỏi quân xâm lược. Clara nhấn mạnh giá trị của cầu nguyện, sự đơn sơ và khiêm nhường. Ngài qua đời năm 1253 và được phong thánh hai năm sau đó.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This date is a fixed memorial in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày này là lễ nhớ cố định trong Lịch Phụng vụ Rôma Phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_en": "Let us pray for the grace of humble poverty like St. Clare.",
+    "hero_line_vi": "Chúng ta hãy cầu xin ơn khiêm nhường khó nghèo như Thánh Clara.",
+    "prayer_prompt_en": "Lord, help us to seek You with the simplicity of St. Clare.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp chúng con tìm kiếm Chúa với sự đơn sơ của Thánh Clara."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/081127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/03765a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-29",
+    "hebrew": "8 Av 5787",
+    "islamic_umm_al_qura": "9 Rabi' al-Awwal 1449 AH",
+    "coptic": "5 Mesori 1743",
+    "ethiopian": "5 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

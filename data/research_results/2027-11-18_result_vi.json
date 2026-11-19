@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 31 Mùa Thường Niên",
+    "summary_vi": "Đây là ngày lễ trọng ngày trong Mùa Thường Niên, với màu xanh lá cây đặc trưng. Đây là thời gian của sự tăng trưởng và trung tín trong đời sống Kitô hữu, theo chu kỳ các ngày trong tuần. Không có lễ kính thánh nào bắt buộc trong ngày này theo Lịch Phụng vụ Rôma. Phụng vụ tập trung vào chu kỳ đọc Kinh Thánh hàng tuần và hy tế Thánh Thể.",
+    "body_vi": "Mùa Thường Niên, từ tiếng Hy Lạp 'tempus per annum' có nghĩa là 'thời gian xuyên suốt năm', là thời gian để các Kitô hữu tăng trưởng trong đức tin và sống Tin Mừng trong đời sống hàng ngày. Màu xanh lá cây tượng trưng cho niềm hy vọng và sự sống. Vào Thứ Năm này, Giáo hội mời gọi các tín hữu suy gẫm lời giáo huấn của Chúa Kitô qua các bài đọc được chỉ định, một phần của hành trình Kinh Thánh liên tục.\n\nLà một ngày thường, trọng tâm là sự hoán cải cá nhân và cộng đoàn diễn ra qua việc tham dự thường xuyên Thánh lễ và Phụng vụ Giờ Kinh. Không có lễ kính thánh hay lễ trọng cụ thể, sự chú ý vẫn ở lại với mầu nhiệm nền tảng của đời sống cầu nguyện của Giáo hội và sự tiến bộ đều đặn của các tín hữu qua năm phụng vụ.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong đức tin qua nhịp điệu ổn định của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con sống Tin Mừng của Chúa cách trung tín trong các hành động hàng ngày của con."
+  }
+}

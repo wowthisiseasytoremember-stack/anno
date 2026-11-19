@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-10-20",
+  "date": "2027-10-20",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 27",
+    "title_vi": "Thứ Tư tuần 27 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time, Week 27",
+    "title_vi": "Thứ Tư tuần 27 Mùa Thường Niên",
+    "summary_en": "This day is a Feria of Ordinary Time, Week 27, in the General Roman Calendar. The liturgical color is green, symbolizing hope and growth. No specific saint's memorial overrides the weekday observance in the current Roman Calendar.",
+    "summary_vi": "Ngày này là Thứ Tư tuần 27 Mùa Thường Niên trong Lịch Phụng vụ Rôma. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự phát triển. Không có lễ kính thánh cụ thể nào lấn át việc cử hành ngày thường trong Lịch Rôma hiện hành.",
+    "body_en": "On Wednesday, October 20, 2027, the Church observes a weekday of Ordinary Time, specifically within the twenty-seventh week of the liturgical year. As a feria, the focus remains on the continuous growth of the faithful in the teachings and mysteries of Christ, without the particular emphasis given to major feast days or solemnities.\n\nThe liturgical color green is prescribed for this day, representing the hope of eternal life that God gives us through the resurrection of Jesus Christ. Ordinary Time serves as a period for the faithful to listen more attentively to Christ and to walk more faithfully with Him as they deepen their faith, allowing the teachings of the Church to bear fruit in their daily lives.",
+    "body_vi": "Vào Thứ Tư, ngày 20 tháng 10 năm 2027, Hội Thánh cử hành ngày thường Mùa Thường Niên, cụ thể là tuần thứ hai mươi bảy của năm phụng vụ. Là một ngày thường, trọng tâm vẫn là sự tăng trưởng liên lỉ của các tín hữu trong các giáo huấn và mầu nhiệm của Chúa Kitô, mà không có sự nhấn mạnh đặc biệt như các ngày lễ trọng hay lễ kính.\n\nMàu xanh lá cây được quy định cho ngày này, đại diện cho niềm hy vọng vào sự sống đời đời mà Thiên Chúa ban cho chúng ta qua sự phục sinh của Chúa Giêsu Kitô. Mùa Thường Niên là thời kỳ để các tín hữu lắng nghe Chúa Kitô cách chăm chú hơn và bước đi cùng Người cách trung tín hơn khi họ đào sâu đức tin, cho phép các giáo huấn của Hội Thánh đơm hoa kết trái trong đời sống hằng ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith and hope during Ordinary Time.",
+    "hero_line_vi": "Hãy tăng trưởng trong đức tin và hy vọng trong Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me to walk faithfully with You today and allow Your word to grow in my heart.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con bước đi trung tín cùng Chúa hôm nay và cho Lời Chúa lớn lên trong lòng con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings (Estimated for 2027-10-20)",
+      "url": "https://bible.usccb.org/bible/readings/102027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgicalcalendar/calendar.cfm?year=2027",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "October 20, 2027, falls within Ordinary Time in the General Roman Calendar. No obligatory memorial of a saint takes precedence over the weekday feria in the current calendar revision.",
+  "confidence_note_vi": "Ngày 20 tháng 10 năm 2027 rơi vào Mùa Thường Niên trong Lịch Phụng vụ Rôma phổ quát. Không có lễ kính thánh nào mang tính bắt buộc lấn át ngày thường trong bản lịch hiện hành.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-07",
+    "hebrew": "19 Tisrei 5788",
+    "islamic_umm_al_qura": "20 Jumada al-Awwal 1449 AH",
+    "coptic": "9 Paopi 1744",
+    "ethiopian": "9 Tikemet 2020"
+  }
+}

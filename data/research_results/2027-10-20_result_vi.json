@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 27 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 27 Mùa Thường Niên",
+    "summary_vi": "Ngày này là Thứ Tư tuần 27 Mùa Thường Niên trong Lịch Phụng vụ Rôma. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự phát triển. Không có lễ kính thánh cụ thể nào lấn át việc cử hành ngày thường trong Lịch Rôma hiện hành.",
+    "body_vi": "Vào Thứ Tư, ngày 20 tháng 10 năm 2027, Hội Thánh cử hành ngày thường Mùa Thường Niên, cụ thể là tuần thứ hai mươi bảy của năm phụng vụ. Là một ngày thường, trọng tâm vẫn là sự tăng trưởng liên lỉ của các tín hữu trong các giáo huấn và mầu nhiệm của Chúa Kitô, mà không có sự nhấn mạnh đặc biệt như các ngày lễ trọng hay lễ kính.\n\nMàu xanh lá cây được quy định cho ngày này, đại diện cho niềm hy vọng vào sự sống đời đời mà Thiên Chúa ban cho chúng ta qua sự phục sinh của Chúa Giêsu Kitô. Mùa Thường Niên là thời kỳ để các tín hữu lắng nghe Chúa Kitô cách chăm chú hơn và bước đi cùng Người cách trung tín hơn khi họ đào sâu đức tin, cho phép các giáo huấn của Hội Thánh đơm hoa kết trái trong đời sống hằng ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy tăng trưởng trong đức tin và hy vọng trong Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con bước đi trung tín cùng Chúa hôm nay và cho Lời Chúa lớn lên trong lòng con."
+  }
+}

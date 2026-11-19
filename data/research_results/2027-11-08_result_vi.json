@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 30 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 30 Mùa Thường Niên",
+    "summary_vi": "Ngày này là ngày thường lệ (Feria) trong Mùa Thường Niên, có bậc lễ thấp hơn các lễ trọng và lễ kính. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của Giáo Hội. Không có vị thánh hay lễ kính đặc biệt nào được ưu tiên giữ vào Thứ Hai tuần 30 Mùa Thường Niên này.",
+    "body_vi": "Thứ Hai tuần 30 Mùa Thường Niên mời gọi các tín hữu suy gẫm những lời giáo huấn của Chúa Giêsu được trình bày trong các bài Tin Mừng được chỉ định cho thời kỳ này. Với tư cách là ngày thường lệ, đây là ngày tiến bước thiêng liêng vững chắc, nhấn mạnh đến việc tuân giữ Tin Mừng mỗi ngày giữa những khía cạnh đời thường của cuộc sống.\n\nMàu sắc phụng vụ xanh lá cây, được sử dụng trong Mùa Thường Niên, tượng trưng cho niềm hy vọng cứu độ Kitô giáo và sự tăng trưởng thiêng liêng của các tín hữu. Màu xanh nhắc nhở người tin hãy luôn tỉnh thức và hiệu quả trong hành trình đức tin, kín múc sức mạnh từ Bí tích Thánh Thể và Lời Chúa.",
+    "confidence_note_vi": "Bậc lễ và màu sắc phụng vụ được xác nhận bởi Lịch Phụng vụ Rôma và lịch phụng vụ hàng ngày của USCCB cho năm 2027."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Kiên vững trong Hy vọng: Bước đi trên con đường Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban ơn cho con tăng trưởng trong đức tin và đức cậy trong tuần thường lệ này."
+  }
+}

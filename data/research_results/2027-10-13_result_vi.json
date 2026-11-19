@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 26 Mùa Thường Niên",
+    "summary_vi": "Vào ngày 13 tháng 10 năm 2027, Giáo Hội cử hành ngày thứ Tư trong Mùa Thường Niên. Ngày này thuộc Tuần 26 của năm phụng vụ, được đánh dấu bằng màu xanh lá cây. Không có lễ trọng hay lễ nhớ buộc nào thay thế cho kinh nhật tụng trong ngày này theo Lịch Rôma Chung.",
+    "body_vi": "Mùa Thường Niên, được thể hiện bằng màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng của đức tin Kitô giáo. Trong Tuần 26, các bài đọc từ Sách Bài Đọc hướng dẫn các tín hữu qua câu chuyện lịch sử cứu độ đang tiếp diễn, thường tập trung vào lời dạy của Đức Kitô và đời sống của Giáo Hội sơ khai.\n\nVào ngày thứ Tư thường nhật, linh mục và các tín hữu được khuyến khích duy trì thói quen thiêng liêng với sự chú ý đặc biệt đến các bài đọc hàng ngày. Mặc dù không có vị thánh nào được làm nổi bật như một lễ trọng phổ quát, các lịch địa phương có thể có những truyền thống riêng, nhưng lịch phổ quát coi đây là một ngày trong tuần tiêu chuẩn. Trọng tâm vẫn là sự tiến triển đều đặn của năm phụng vụ, tránh sự long trọng của các Chúa Nhật hoặc các lễ lớn.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Đức Tin: Thứ Tư Mùa Thường Niên",
+    "prayer_prompt_vi": "Cầu nguyện cho ơn bền đỗ trong các bổn phận thiêng liêng hàng ngày trong tuần thường nhật này."
+  }
+}

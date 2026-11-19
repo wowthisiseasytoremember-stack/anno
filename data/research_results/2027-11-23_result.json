@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-11-23",
+  "date": "2027-11-23",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 32",
+    "title_vi": "Thứ Ba tuần 32 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time, Week 32",
+    "title_vi": "Thứ Ba tuần 32 Mùa Thường Niên",
+    "summary_en": "This day is a feria in Ordinary Time, ranked as the lowest priority in the liturgical calendar. The liturgical color is green, symbolizing hope and the growth of the Church. No specific saint's memorial takes precedence over the weekday liturgy for this date.",
+    "summary_vi": "Ngày này là ngày thường tuần trong Mùa Thường Niên, có thứ bậc thấp nhất trong lịch phụng vụ. Màu phụng vụ là màu xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng của Giáo Hội. Không có lễ nhớ thánh nào ưu tiên hơn phụng vụ ngày thường trong ngày này.",
+    "body_en": "In the General Roman Calendar, Tuesdays in Ordinary Time that do not have a specific obligatory memorial are celebrated as simple ferias. The focus is on the daily Office and the Mass readings, which continue the narrative progression of the Gospel.\n\nThe readings for Week 32 often focus on themes of perseverance and the Kingdom of God, encouraging the faithful to remain steadfast in their faith during the common days of the year.",
+    "body_vi": "Trong Lịch Rôma Chung, các ngày Thứ Ba trong Mùa Thường Niên không có lễ nhớ bắt buộc cụ thể được cử hành như các ngày thường đơn giản. Trọng tâm là Kinh Nhật Tụng hàng ngày và các bài đọc Thánh lễ, tiếp tục tiến trình tường thuật của Tin Mừng.\n\nCác bài đọc cho Tuần 32 thường tập trung vào các chủ đề về sự kiên trì và Nước Trời, khuyến khích các tín hữu vững vàng trong đức tin của họ trong những ngày thường của năm.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walk in Hope during Ordinary Time",
+    "hero_line_vi": "Bước đi trong Hy vọng giữa Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help us to find grace in the ordinary moments of our day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tìm thấy ân sủng trong những khoảnh khắc thường nhật của cuộc sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/112327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-10",
+    "hebrew": "23 Cheshvan 5788",
+    "islamic_umm_al_qura": "24 Jumada al-Thani 1449 AH",
+    "coptic": "13 Hathor 1744",
+    "ethiopian": "13 Hidar 2020"
+  }
+}

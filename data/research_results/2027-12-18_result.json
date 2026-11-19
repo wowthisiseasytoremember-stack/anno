@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-18",
+  "date": "2027-12-18",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng",
+    "summary_en": "December 18, 2027, falls within the final phase of the Advent season, characterized by a profound focus on preparation and anticipation. As a weekday (feria), it maintains the penitential and violet character of the season while preparing for the imminent celebration of Christmas. The liturgy emphasizes spiritual readiness and reflection on the coming of Christ.",
+    "summary_vi": "Ngày 18 tháng 12 năm 2027 rơi vào giai đoạn cuối của Mùa Vọng, nổi bật với sự tập trung sâu sắc vào việc chuẩn bị và chờ đợi. Với tư cách là ngày thường (feria), ngày này giữ nguyên đặc tính sám hối và màu tím của mùa phụng vụ trong khi chuẩn bị cho việc cử hành Giáng Sinh sắp tới. Phụng vụ nhấn mạnh sự sẵn sàng thiêng liêng và suy niệm về việc Chúa Kitô đến.",
+    "body_en": "The period from December 17 to 24 is known as the second part of Advent, where the liturgy shifts from the eschatological expectation of the second coming to the historical preparation for the Nativity of Jesus. On December 18, 2027, the Church invites the faithful to a deeper interior silence and prayer, aligning their hearts with the prophetic voices of the season. This weekday is not marked by the celebration of a specific saint but by the overarching theme of hope and conversion that pervades the entire season.\n\nLiturgically, the readings and prayers for this day are selected to highlight the humility and obedience required to receive the Incarnate Word. The use of violet vestments serves as a constant visual reminder of the penitential nature of Advent, distinguishing this time from the festive joy of Christmas itself. The faithful are encouraged to participate in the Eucharistic liturgy with a spirit of vigilant waiting, recognizing that the birth of Christ is both a historical memory and a present reality in the life of the Church.",
+    "body_vi": "Giai đoạn từ ngày 17 đến 24 tháng 12 được biết đến là phần thứ hai của Mùa Vọng, trong đó phụng vụ chuyển từ sự mong đợi cánh chung về ngày trở lại lần thứ hai sang sự chuẩn bị lịch sử cho lễ Giáng Sinh của Chúa Giêsu. Vào ngày 18 tháng 12 năm 2027, Giáo hội mời gọi cộng đoàn tín hữu đi vào sự thinh lặng nội tâm và cầu nguyện sâu xa hơn, để hòa hợp tâm hồn mình với những tiếng nói ngôn sứ của mùa phụng vụ. Ngày trong tuần này không được đánh dấu bằng việc cử hành một vị thánh cụ thể nào mà bởi chủ đề bao trùm của niềm hy vọng và sự hoán cải lan tỏa khắp mùa phụng vụ.\n\nVề mặt phụng vụ, các bài đọc và lời nguyện cho ngày này được chọn để làm nổi bật sự khiêm nhường và vâng phục cần thiết để đón nhận Ngôi Lời Nhập Thể. Việc sử dụng áo lễ màu tím đóng vai trò như một lời nhắc nhở trực quan thường xuyên về bản chất sám hối của Mùa Vọng, phân biệt thời gian này với niềm vui lễ hội của chính lễ Giáng Sinh. Cộng đoàn tín hữu được khuyến khích tham dự phụng vụ Thánh Thể với tinh thần chờ đợi tỉnh thức, nhận ra rằng sự ra đời của Chúa Kitô vừa là ký ức lịch sử vừa là thực tại hiện sinh trong đời sống của Giáo hội.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls squarely within the standard Advent period as defined by the General Roman Calendar, with no conflicting major solemnities or feasts.",
+    "confidence_note_vi": "Ngày này rơi hoàn toàn vào trong thời gian Mùa Vọng tiêu chuẩn được xác định bởi Lịch Phụng vụ Rôma Tổng quát, không có xung đột với các lễ trọng hay lễ kính lớn nào."
+  },
+  "app_hooks": {
+    "hero_line_en": "Prepare the way of the Lord.",
+    "hero_line_vi": "Hãy dọn đường cho Chúa.",
+    "prayer_prompt_en": "Lord, help me to wait for You with hope and humility, clearing the paths of my heart for Your coming.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con chờ đợi Chúa với niềm hy vọng và sự khiêm nhường, dọn sạch những lối mòn trong tâm hồn con cho sự hiện đến của Ngài."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/121827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgical-calendar/api/view.cfm?year=2027&month=12&day=18",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-05",
+    "hebrew": "18 Kislev 5788",
+    "islamic_umm_al_qura": "20 Rajab 1449 AH",
+    "coptic": "8 Koiak 1744",
+    "ethiopian": "8 Tahsas 2020"
+  }
+}

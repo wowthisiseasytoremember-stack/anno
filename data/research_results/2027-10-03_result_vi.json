@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 25 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật tuần 25 Mùa Thường Niên",
+    "summary_vi": "Chúa Nhật này đánh dấu tuần thứ hai mươi lăm của Mùa Thường Niên, tập trung vào đức khiêm nhường và tinh thần phục vụ của Kitô giáo. Các bài đọc phụng vụ nhấn mạnh rằng sự cao cả đích thực trong Nước Trời được tìm thấy qua việc phục vụ mọi người. Ngày này mời gọi tín hữu suy gẫm về vai trò của mình trong cộng đoàn qua lăng kính của sự phục vụ khiêm nhường.",
+    "body_vi": "Trong các bài Tin Mừng của Chúa Nhật này, Chúa Giêsu kêu gọi các môn đệ đón nhận vị thế của trẻ nhỏ, nêu bật đức khiêm nhường như một điều kiện tiên quyết để vào Nước Trời. Lời giáo huấn này thách thức việc theo đuổi quyền lực và địa vị theo kiểu thế gian, đồng thời cung cấp một tầm nhìn ngược văn hóa về quyền lực như sự phục vụ. Cộng đoàn được mời gọi xem xét lại động lực của chính mình, không phải để được phục vụ nhưng để phục vụ.\n\nBối cảnh của Mùa Thường Niên cho phép sự tăng trưởng vững chắc và từ từ trong đức tin, nơi lịch phụng vụ cung cấp một con đường có cấu trúc qua cuộc đời của Chúa Kitô. Khi Giáo hội tiến qua Tuần 25, trọng tâm vẫn là việc làm môn đệ thực tế. Áo lễ màu xanh lá cây tượng trưng cho hy vọng và sự tăng trưởng, nhắc nhở tín hữu rằng hành trình tâm linh của họ là một quá trình liên tục của sự hoán cải và sự đồng nhất với các giáo huấn của Chúa Giêsu.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm thấy sự cao cả trong đức khiêm nhường và phục vụ trong Chúa Nhật này.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con phục vụ người khác với sự khiêm nhường của trẻ thơ và trái tim của người đầy tớ."
+  }
+}

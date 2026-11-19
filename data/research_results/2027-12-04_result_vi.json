@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Vọng",
+    "summary_vi": "Ngày này rơi vào Mùa Vọng, thời gian chuẩn bị cho sự降临 của Chúa Kitô. Là một ngày trong tuần, nó mang màu tím phụng vụ, tượng trưng cho sự sám hối và mong đợi. Trọng tâm là sự sẵn sàng về tinh thần và hy vọng, khi chờ đợi lễ Giáng Sinh.",
+    "body_vi": "Các ngày trong tuần Mùa Vọng là những ngày suy gẫm yên tĩnh giữa sự mong chờ đang gia tăng của mùa Giáng Sinh. Phụng vụ mời gọi các tín hữu xét lại tâm hồn mình, chuẩn bị cho sự Giáng Sinh lịch sử của Chúa Giêsu cũng như sự trở lại thứ hai của Người. Trong Lịch Roman Chung hiện tại, không có vị thánh nào có tầm quan trọng phổ quát vượt qua bản thân mùa phụng vụ vào ngày này.\n\nCác bài đọc cho thứ Bảy này thường nhấn mạnh sự tỉnh thức và tin tưởng vào các lời hứa của Thiên Chúa. Trong Phụng vụ Giờ Kinh, các lời cầu nguyện phản ánh bản chất kép của Mùa Vọng: nhớ lại mầu nhiệm Nhập Thể trong quá khứ và chờ đợi cuộc Tái Lâm trong tương lai. Việc tuân giữ đơn giản này làm nổi bật tầm quan trọng của sự trung thành hằng ngày trong hành trình của các tín hữu.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy chuẩn bị tâm hồn, vì Chúa đã gần đến.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con chờ đợi trong hy vọng và chuẩn bị trong khiêm nhường cho sự đến của Chúa."
+  }
+}

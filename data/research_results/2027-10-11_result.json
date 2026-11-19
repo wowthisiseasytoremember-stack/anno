@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-10-11",
+  "date": "2027-10-11",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 26",
+    "title_vi": "Thứ Hai tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of Ordinary Time, Week 26",
+    "title_vi": "Thứ Hai tuần 26 Mùa Thường Niên",
+    "summary_en": "This day falls within the 26th week of Ordinary Time, dedicated to the growth of the Church and the faithful. No major feast or solemnity is celebrated, marking it as a standard weekday Feria. The liturgical color is green, symbolizing hope and the ongoing life of the Church.",
+    "summary_vi": "Ngày này rơi vào tuần 26 Mùa Thường Niên, dành cho sự tăng trưởng của Giáo Hội và các tín hữu. Không có lễ trọng hay lễ kính lớn nào được cử hành, đánh dấu đây là một ngày thường lệ (Feria). Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự sống tiếp diễn của Giáo Hội.",
+    "body_en": "The liturgical focus during this Monday in Ordinary Time is centered on the daily progression of the Christian life. The readings from the Lectionary for Week 26 often reflect on the patience and faithfulness required in the life of the believer. As a Feria, the Church invites the faithful to maintain their spiritual routine without the interruption of a higher-ranking celebration.\n\nIn the General Roman Calendar, ordinary weekdays serve as the backbone of the liturgical year, allowing for consistent engagement with Scripture. The emphasis remains on the sanctification of daily life and the application of Gospel teachings to everyday circumstances. This period underscores the importance of perseverance in virtue as one walks through the ordinary course of the year.",
+    "body_vi": "Trọng tâm phụng vụ vào ngày Thứ Hai này trong Mùa Thường Niên tập trung vào sự tiến triển hàng ngày của đời sống Kitô hữu. Các bài đọc trong Sách Bài Đọc cho tuần 26 thường phản ánh về sự kiên nhẫn và trung tín cần thiết trong đời sống của người tín hữu. Là một ngày thường lệ, Giáo Hội mời gọi các tín hữu duy trì thói quen thiêng liêng mà không bị gián đoạn bởi các nghi lễ có bậc lễ cao hơn.\n\nTrong Lịch Rôma chung, các ngày trong tuần thông thường là xương sống của năm phụng vụ, cho phép sự tiếp xúc nhất quán với Kinh Thánh. Sự nhấn mạnh vẫn là sự thánh hóa đời sống hàng ngày và việc áp dụng các lời dạy của Tin Mừng vào những hoàn cảnh đời thường. Giai đoạn này nhấn mạnh tầm quan trọng của sự kiên trì trong nhân đức khi bước đi qua tiến trình thông thường của năm.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast in Hope: Walking the Path of Ordinary Time",
+    "hero_line_vi": "Kiên vững trong Hy vọng: Bước đi trên con đường Mùa Thường Niên",
+    "prayer_prompt_en": "Grant me the grace to remain faithful in the small moments, that my ordinary life may bear witness to Your extraordinary love.",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để giữ vững lòng trung tín trong những khoảnh khắc nhỏ bé, để đời sống thường nhật của con có thể làm chứng cho tình yêu phi thường của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/101127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?date=2027-10-11",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is a standard weekday in the 26th week of Ordinary Time with no conflicting celebrations in the General Roman Calendar.",
+  "confidence_note_vi": "Ngày này là một ngày trong tuần tiêu chuẩn của tuần 26 Mùa Thường Niên và không có lễ xung đột nào trong Lịch Rôma chung.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-28",
+    "hebrew": "10 Tisrei 5788",
+    "islamic_umm_al_qura": "11 Jumada al-Awwal 1449 AH",
+    "coptic": "30 Thout 1744",
+    "ethiopian": "30 Meskerem 2020"
+  }
+}

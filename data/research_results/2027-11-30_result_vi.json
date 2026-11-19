@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Anrê, Tông đồ"
+  },
+  "primary": {
+    "title_vi": "Thánh Anrê, Tông đồ",
+    "summary_vi": "Thánh Anrê, anh em của Simon Phêrô, được cử hành như một Lễ trong Lịch Rôma Chung vào ngày 30 tháng 11. Là một trong những môn đệ đầu tiên được Chúa Giêsu kêu gọi, Anrê nổi tiếng với việc dẫn dắt người khác đến với Chúa Kitô, đặc biệt là anh trai ông là Phêrô. Theo truyền thống, ông đã tử đạo tại Patras, Hy Lạp, nơi ông bị đóng đinh trên thập tự giá hình chữ X.",
+    "body_vi": "Anrê là một ngư dân đến từ Bethsaida và là môn đệ của Gioan Tẩy Giả trước khi theo Chúa Giêsu. Ông đóng một vai trò quan trọng trong Giáo hội sơ khai như một cây cầu giữa những người Do Thái theo Chúa Giêsu và thế giới Hy Lạp, thể hiện tính phổ quát của sứ điệp Kitô giáo. Tên của ông có nghĩa là 'nam tính' hoặc 'can đảm' trong tiếng Hy Lạp, phản ánh sự kiên định trong đức tin và sẵn sàng chịu khổ vì Tin Mừng.\n\nCác bài đọc phụng vụ trong Lễ này thường tập trung vào lời kêu gọi các môn đệ và vai trò của Anrê trong việc dẫn anh trai mình đến với Chúa Giêsu. Ông được tưởng nhớ không chỉ vì đức tin cá nhân mà còn vì sự tham gia tích cực vào sứ vụ của Chúa Kitô, là mẫu mực cho việc loan báo Tin Mừng và đức bác ái huynh đệ trong Giáo hội.",
+    "confidence_note_vi": "Ngày 30 tháng 11 được cố định là Lễ Thánh Anrê, Tông đồ trong Lịch Rôma Chung."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Dẫn đưa người khác đến với Thầy",
+    "prayer_prompt_vi": "Hãy cầu nguyện để có lòng can đảm giới thiệu người khác đến với Chúa Giêsu trong cuộc sống hằng ngày."
+  }
+}

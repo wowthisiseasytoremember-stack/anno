@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 16 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 16 Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày thường trong Mùa Thường Niên, tuần 16, được đánh dấu bằng màu xanh lá cây. Không có lễ trọng hay lễ nhớ buộc nào được cử hành vào ngày cụ thể này trong Lịch Rôma chung. Trọng tâm phụng vụ là chu kỳ tuần hoàn của các bài đọc và kinh nguyện được xác định theo chu kỳ bài đọc hai năm.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, phụng vụ nhấn mạnh sự tăng trưởng ổn định của đời sống Kitô hữu qua việc nghe Lời Chúa liên tục. Vì ngày 3 tháng 8 năm 2027 rơi vào một ngày thứ Ba trong mùa hè, nó thường được giữ như một ngày trong tuần tiêu chuẩn trừ khi lịch địa phương giới thiệu một lễ bổn mạng hoặc tưởng nhớ địa phương cụ thể. Màu phụng vụ xanh lá cây biểu thị niềm hy vọng và hành trình liên tục của Giáo hội.\n\nCác bài đọc cho ngày này được xác định bởi bài đọc trong tuần, cụ thể là Chu kỳ Năm I (năm lẻ, vì 2027 là năm lẻ). Giáo hội khuyến khích các tín hữu tiếp xúc với các Kinh Thánh này trong Thánh lễ và Phụng vụ Các Giờ Kinh, duy trì nhịp điệu của thời gian thường nhật tạo thành xương sống của năm phụng vụ.",
+    "confidence_note_vi": "Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Thời gian Thường nhật của Đức tin",
+    "prayer_prompt_vi": "Xin ban cho chúng con ân sủng để kiên vững trong Lời Chúa trong những ngày yên tĩnh của Mùa Thường Niên."
+  }
+}

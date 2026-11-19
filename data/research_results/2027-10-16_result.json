@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-16",
+  "date": "2027-10-16",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 26",
+    "title_vi": "Thứ Bảy tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 26",
+    "title_vi": "Thứ Bảy tuần 26 Mùa Thường Niên",
+    "summary_en": "This day is a Feria in Ordinary Time, Week 26 of the liturgical year. The liturgical color is green, symbolizing hope and growth in the faith. The readings focus on the ongoing journey of discipleship and the call to holiness in daily life.",
+    "summary_vi": "Ngày này là Ngày Thường trong Mùa Thường Niên, tuần 26 của năm phụng vụ. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin. Các bài đọc tập trung vào hành trình môn đệ đang diễn ra và lời mời gọi sống thánh thiện trong đời sống hàng ngày.",
+    "body_en": "As a Feria, this day is marked by the simplicity and constancy of Ordinary Time. The liturgical focus shifts away from specific saints or major feasts, directing the faithful toward the steady accumulation of grace through the Word and the Eucharist. There is no particular saint required by the universal calendar, allowing the rhythm of the week to emphasize the ordinary as the primary vessel of sanctification.\n\nThe readings and prayers reflect themes appropriate for Week 26, often drawing from the Epistle and Gospel readings assigned to this period. The Church invites believers to listen more deeply to the Holy Spirit's guidance in mundane circumstances. This time serves as a spiritual checkpoint, encouraging the faithful to evaluate their adherence to the teachings of Christ amidst the distractions of the world.",
+    "body_vi": "Là Ngày Thường, ngày này được đánh dấu bởi sự đơn giản và kiên định của Mùa Thường Niên. Trọng tâm phụng vụ chuyển dịch khỏi các vị thánh hay các lễ lớn, hướng các tín hữu đến việc tích lũy ân sủng một cách đều đặn qua Lời Chúa và Bí tích Thánh Thể. Không có vị thánh cụ thể nào được yêu cầu bởi lịch phụng vụ chung, cho phép nhịp điệu của tuần nhấn mạnh vào những điều bình thường như phương tiện chính của sự thánh hóa.\n\nCác bài đọc và lời cầu nguyện phản ánh các chủ đề phù hợp với tuần 26, thường rút ra từ các bài đọc Thư và Tin Mừng được gán cho giai đoạn này. Giáo hội mời gọi các tín hữu lắng nghe sâu sắc hơn sự hướng dẫn của Chúa Thánh Thần trong những hoàn cảnh trần tục. Thời gian này đóng vai trò như một điểm kiểm tra tâm linh, khuyến khích các tín hữu đánh giá sự tuân thủ các giáo huấn của Đức Kitô giữa những xao lãng của thế gian.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls within Ordinary Time with no higher-ranking celebration in the General Roman Calendar.",
+    "confidence_note_vi": "Ngày rơi vào Mùa Thường Niên mà không có cử hành cấp cao hơn trong Lịch phụng vụ Rôma chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Finding God in the Ordinary",
+    "hero_line_vi": "Tìm thấy Thiên Chúa trong điều bình thường",
+    "prayer_prompt_en": "Lord, help me to recognize Your presence in the simple moments of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những khoảnh khắc đơn giản của ngày sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/101627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?date=2027-10-16",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-03",
+    "hebrew": "15 Tisrei 5788",
+    "islamic_umm_al_qura": "16 Jumada al-Awwal 1449 AH",
+    "coptic": "5 Paopi 1744",
+    "ethiopian": "5 Tikemet 2020"
+  }
+}

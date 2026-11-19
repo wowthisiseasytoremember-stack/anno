@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-25",
+  "date": "2027-10-25",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 28",
+    "title_vi": "Thứ Hai tuần 28 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the 28th Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần 28 Mùa Thường Niên",
+    "summary_en": "This day is a weekday of Ordinary Time, characterized by the liturgical color green, which signifies hope and the steady growth of the Church. The focus is on the continuous journey of faith in the life of the believer outside of the major seasons like Advent or Lent. No universal memorial of a saint takes precedence over the weekday liturgy on this date. The readings and prayers reflect the ongoing teaching of Christ to His disciples.",
+    "summary_vi": "Ngày này là một ngày thường trong Mùa Thường Niên, được đánh dấu bằng màu xanh lục trong phụng vụ, tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Hội Thánh. Trọng tâm là hành trình đức tin liên lỉ trong đời sống của người tín hữu bên ngoài các mùa cao điểm như Vọng hay Chay. Không có lễ kính nhớ thánh nào có tính phổ quát được cử hành ưu tiên hơn phụng vụ ngày thường vào ngày này. Các bài đọc và kinh nguyện phản ánh giáo huấn liên tục của Chúa Kitô đối với các môn đệ của Người.",
+    "body_en": "The liturgy for Monday of the 28th Week in Ordinary Time invites the faithful to reflect on their ongoing conversion and adherence to the Gospel teachings. The color green is used not to indicate a lack of festivity, but rather to denote a time of spiritual maturity and patience. It is a period where the Church encourages her members to integrate the mysteries of Christ into their daily lives, fostering a spirit of humility and service. The weekday readings often focus on the practical application of faith, asking believers to be salt of the earth and light to the world in their mundane activities.\n\nIn the context of the General Roman Calendar, unless a specific national or diocesan calendar dictates a higher-ranking celebration, the feria holds its place with full dignity. The prayers of the Mass emphasize the unity of the Church and the importance of listening to the Word. This time serves as a reminder that the Christian vocation is not limited to Sundays or solemnities but permeates every aspect of human existence, transforming ordinary moments into opportunities for grace. The faithful are called to remain vigilant and faithful, as taught in the Gospel readings concerning the coming of the Lord.",
+    "body_vi": "Phụng vụ Thứ Hai tuần 28 Mùa Thường Niên mời gọi các tín hữu suy tư về sự hoán cải liên lỉ và sự vâng phục giáo huấn Tin Mừng của họ. Màu xanh lục được sử dụng không phải để chỉ sự thiếu vắng tính long trọng, mà đúng hơn là để chỉ thời kỳ của sự trưởng thành và kiên nhẫn trong đời sống tâm linh. Đây là thời gian mà Hội Thánh khuyến khích các thành viên của mình hội nhập các mầu nhiệm của Chúa Kitô vào đời sống hằng ngày, nuôi dưỡng tinh thần khiêm nhường và phục vụ. Các bài đọc trong ngày thường thường tập trung vào việc áp dụng thực tiễn của đức tin, kêu gọi người tín hữu trở nên muối đất và ánh sáng cho trần gian trong những hoạt động bình thường của mình.\n\nTrong bối cảnh của Lịch Phụng vụ Rôma, trừ khi lịch phụng vụ quốc gia hoặc giáo phận cụ thể quy định một lễ long trọng hơn, ngày thường vẫn giữ vị thế với phẩm giá trọn vẹn của nó. Các lời cầu nguyện trong Thánh lễ nhấn mạnh sự hiệp nhất của Hội Thánh và tầm quan trọng của việc lắng nghe Lời Chúa. Thời gian này nhắc nhở rằng ơn gọi Kitô hữu không bị giới hạn vào các ngày Chúa nhật hay các lễ trọng, nhưng thấm nhuần mọi khía cạnh của đời sống con người, biến những khoảnh khắc bình thường thành cơ hội đón nhận ân sủng. Các tín hữu được mời gọi tỉnh thức và trung thành, như được dạy trong các bài đọc Tin Mừng về việc Chúa sẽ đến.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow steadily in faith and hope.",
+    "hero_line_vi": "Tăng trưởng vững chắc trong đức tin và niềm hy vọng.",
+    "prayer_prompt_en": "Lord, help me to find You in the ordinary moments of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Chúa trong những khoảnh khắc bình thường nhất của ngày sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/102527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-12",
+    "hebrew": "24 Tisrei 5788",
+    "islamic_umm_al_qura": "25 Jumada al-Awwal 1449 AH",
+    "coptic": "14 Paopi 1744",
+    "ethiopian": "14 Tikemet 2020"
+  }
+}

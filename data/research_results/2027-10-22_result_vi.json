@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 27 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần XXVII Mùa Thường Niên",
+    "summary_vi": "Vào Thứ Sáu này, Giáo Hội cử hành ngày thường trong Mùa Thường Niên, tập trung vào việc thánh hóa đời sống hàng ngày. Không có vị thánh hay lễ lớn nào được ưu tiên hơn tuần lễ phụng vụ, cho phép suy ngẫm tĩnh lặng về các bài đọc Tin Mừng được chỉ định cho thời điểm này. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin. Các tín hữu được khuyến khích kết hợp lời cầu nguyện vào những bổn phận thường nhật, thể hiện lời gọi gọi nên thánh của Kitô giáo trong các hoàn cảnh hàng ngày.",
+    "body_vi": "Phụng vụ Thứ Sáu Tuần XXVII Mùa Thường Niên tiếp tục hành trình đức tin qua các trình thuật Tin Mừng, thường nhấn mạnh sự kiên nhẫn và khiêm tốn cần thiết trong đời sống Kitô giáo. Vì đây là ngày thường, trọng tâm vẫn là sự tiến triển của các tín hữu qua các mầu nhiệm của Chúa Kitô, thay vì tập trung vào các cuộc kỷ niệm hagiography cụ thể. Thời gian này mời gọi các tín hữu đào sâu sự hiểu biết về Kinh Thánh và để Lời Chúa biến đổi các tương tác và quyết định hàng ngày của họ. Sự đơn giản của ngày này nhắc nhở rằng sự nên thánh được tìm thấy trong việc hoàn thành trung thành các bổn phận thường nhật.\n\nTrong truyền thống Công giáo Việt Nam, ngày này được cử hành bằng việc đọc Kinh Nhật Tụng và cử hành Thánh lễ với các bài đọc dành riêng cho ngày trong tuần này. Áo lễ màu xanh lá cây mà linh mục mặc tượng trưng cho niềm hy vọng vào sự sống đời đời và sự tăng trưởng vững chắc của Giáo Hội. Các tín hữu Công giáo được thúc đẩy tham dự Thánh Lễ nếu có thể, hoặc kết hợp công việc hàng ngày với lời cầu nguyện của Giáo Hội. Tuần lễ tạm thời này nhấn mạnh sự tích hợp đời sống tâm linh với những thực tế trần tục của tồn tại, nuôi dưỡng một nền tâm linh vừa thực tế vừa siêu việt.",
+    "confidence_note_vi": "Ngày này rơi hoàn toàn vào Mùa Thường Niên theo lịch phụng vụ 2026-2027. Không có vị thánh cụ thể nào được tưởng niệm phổ quát vào ngày này với cấp bậc cao hơn ngày thường, làm cho việc xác định phụng vụ là chắc chắn."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm thấy Chúa Kitô trong những khoảnh khắc thường ngày của bạn.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhìn thấy sự hiện diện của Chúa trong công việc và sự nghỉ ngơi của con hôm nay."
+  }
+}

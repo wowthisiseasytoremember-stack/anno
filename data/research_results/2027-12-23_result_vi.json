@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Tuần II Mùa Vọng",
+    "summary_vi": "Ngày này là một ngày thường trong Tuần II Mùa Vọng, thời gian chuẩn bị cho lễ Giáng Sinh. Màu phụng vụ là tím, tượng trưng cho việc thống hối và lòng mong đợi. Không có lễ kính hoặc lễ nhớ buộc nào trong Lịch Rôma Chung ưu tiên vào ngày này.",
+    "body_vi": "Trong Tuần II Mùa Vọng, Giáo hội tập trung vào niềm hy vọng tiên tri về việc Chúa đến. Các bài đọc cho ngày này thường làm nổi bật tầm quan trọng của công lý và sự chính trực trong việc mong đợi Đấng Mêsia. Bầu khí phụng vụ là sự chờ đợi tĩnh lặng và sự sẵn sàng tinh thần.\n\nTuần II Mùa Vọng thường nhấn mạnh vai trò của các Ngôn sứ, đặc biệt là Isaia, trong việc tiên báo vinh quang sắp tới. Thứ Năm này đóng vai trò là ngày để suy ngẫm cá nhân về nhu cầu sám hối và hoán cải. Việc thiếu vắng một lễ kính lớn của các thánh cho phép cộng đoàn tập trung sâu sắc vào các chủ đề cánh chung của mùa Vọng.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy sửa đường cho thẳng để Đức Chúa đi.",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng con ân sủng của sự mong đợi thánh thiện."
+  }
+}

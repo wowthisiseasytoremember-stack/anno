@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Chúa nhật III Mùa Vọng",
+    "summary_vi": "Chúa nhật III Mùa Vọng, còn gọi là Chúa nhật Vui (Gaudete), đánh dấu điểm giữa của mùa Vọng với lời mời gọi hân hoan. Màu sắc phụng vụ là hồng, tượng trưng cho niềm vui trong tâm tình sám hối chuẩn bị. Ngày này tập trung vào sự hiện đến gần của Chúa và niềm vui cứu độ.",
+    "body_vi": "Chúa nhật Vui là một khoảnh khắc đặc biệt trong lịch phụng vụ Latinh, nơi kỷ luật sám hối tạm thời được giảm nhẹ để nhường chỗ cho niềm vui chờ đợi. Áo lễ màu hồng đóng vai trò như một dấu hiệu trực quan cho sự nhẹ nhàng này khỏi sự khắc nghiệt của Mùa Vọng, pha trộn niềm hy vọng của mùa với niềm vui của việc Giáng Sinh sắp tới. Tín hữu được mời gọi tìm thấy sức mạnh trong ngày này, suy ngẫm về các bài đọc Kinh Thánh loan báo sự kiên định của Thiên Chúa và niềm vui của Nước Trời gần kề.\n\nPhụng vụ nhấn mạnh sự chuyển đổi từ niềm hy vọng chờ đợi lâu dài sang sự hân hoan ăn mừng. Các bài đọc mời gọi tín hữu hân hoan vì Chúa đã đến gần, vang vọng lời hứa ngôn sứ Isaia và các bài Tin Mừng về Gioan Tẩy Giả. Ngày chuyển tiếp này chuẩn bị tâm hồn để chuyển từ sự mong đợi lần hiện đến đầu tiên sang việc cử hành Mầu nhiệm Nhập Thể.",
+    "confidence_note_vi": "Đây là ngày cố định trên Lịch Phụng vụ Rôma; các Chúa nhật Mùa Vọng là các cử hành trang trọng có cấp bậc cao."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy hân hoan trong Chúa, vì Người đã đến gần.",
+    "prayer_prompt_vi": "Cầu xin ơn biết hân hoan trong sự hiện diện của Thiên Chúa giữa những thử thách hằng ngày."
+  }
+}

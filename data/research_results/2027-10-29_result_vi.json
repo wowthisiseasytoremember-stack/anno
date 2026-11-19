@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 28 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 28 Mùa Thường Niên",
+    "summary_vi": "Ngày này đánh dấu một ngày thường trong tuần 28 Mùa Thường Niên, với màu phụng vụ là màu xanh lá. Trọng tâm là sự thánh hóa đời sống thường nhật và sự tăng trưởng nhân đức của các tín hữu. Vì là ngày thường (Feria), không có thánh nào có nghĩa vụ phổ quát thay thế chu kỳ đọc sách Kinh Thánh trừ khi trùng với một lễ nhớ tùy chọn.",
+    "body_vi": "Trong lịch phụng vụ Công giáo Rôma, các ngày Thứ Sáu trong Mùa Thường Niên đóng vai trò nhắc nhở về tính sám hối của ngày này, mời gọi các tín hữu suy gẫm về sự tham gia của họ vào Mầu nhiệm Vượt Qua. Trong tuần 28, các bài đọc thường tập trung vào các chủ đề về sự bền bỉ, bản chất của Giáo hội, và lời mời gọi nên thánh trong những hoàn cảnh đời thường. Việc thiếu vắng các lễ lớn cho phép sự tham gia sâu sắc hơn vào các văn bản Kinh Thánh tiến bộ được chỉ định trong thời kỳ này của năm phụng vụ.\n\nVề mặt lịch sử, việc tuân giữ Thứ Sáu như một ngày sám hối có nguồn gốc từ thực hành của Giáo hội sơ khai, phân biệt nó với việc cử hành Chúa Nhật của sự Phục sinh. Mặc dù các quy định hiện đại cho phép sự linh hoạt, nhưng sự nhấn mạnh tinh thần vẫn là hoán cải và đổi mới. Đối với ngày 29 tháng 10 năm 2027, phụng vụ mời gọi sự suy niệm tĩnh lặng về những phương tiện ơn thánh bình thường này, thúc đẩy các tín hữu tìm thấy sự hiện diện của Thiên Chúa trong nhịp điệu của các bổn phận và tương tác hàng ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thánh hóa đời thường, tăng trưởng nhân đức.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con thấy bàn tay của Ngài trong các công việc hàng ngày của con."
+  }
+}

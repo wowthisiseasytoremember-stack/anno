@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 13 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 13 Mùa Thường Niên",
+    "summary_vi": "Ngày này là Thứ Hai tuần 13 Mùa Thường Niên, tuân thủ màu phụng vụ xanh lá cây. Trọng tâm là các bài đọc hằng ngày và sự liên tục của đức tin Kitô giáo trong thời gian không có lễ trọng. Không có lễ kính thánh nào cụ thể trên toàn cầu vượt lên trên phụng vụ ngày thường trong Lịch Rôma Chung vào ngày này.",
+    "body_vi": "Trọng tâm phụng vụ cho Thứ Hai tuần 13 Mùa Thường Niên vẫn tập trung vào sự tiến triển thông thường của năm phụng vụ Kitô giáo. Áo lễ màu xanh lá cây tượng trưng cho niềm hy vọng và sự phát triển của Giáo hội. Các tín hữu được mời gọi suy niệm các bài Kinh Thánh được chỉ định trong ngày, phản ánh cách lời dạy của Chúa Kitô áp dụng vào đời sống hằng ngày và hành vi đạo đức.\n\nTrong Lịch Rôma Chung, ngày này không có lễ kính trọng đại nào trên toàn cầu thay thế chức vụ ngày thường. Do đó, phụng vụ tuân theo các quy tắc của một ngày thường (feria), duy trì giọng điệu khiêm nhường và sùng đạo ổn định. Các lời cầu nguyện và bài đọc phục vụ việc đào sâu đời sống tâm linh của các tín hữu thông qua việc tuân thủ nhất quán và hàng ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi vững chắc trong đức tin giữa Mùa Thường Niên",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng con lòng kiên trì để tuân theo lời dạy của Chúa mỗi ngày."
+  }
+}

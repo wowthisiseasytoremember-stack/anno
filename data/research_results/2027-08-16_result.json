@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-16",
+  "date": "2027-08-16",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 18",
+    "title_vi": "Thứ Hai tuần 18 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of Ordinary Time",
+    "title_vi": "Thứ Hai Mùa Thường Niên",
+    "summary_en": "This Monday in the Eighteenth Week of Ordinary Time is a standard feria with no higher-ranking feast. The liturgical color is green, symbolizing hope and the steady growth of the Church in time. The readings reflect the ongoing spiritual journey of the faithful during the long season after Pentecost.",
+    "summary_vi": "Thứ Hai tuần 18 Mùa Thường Niên là một ngày thường (feria) với không có lễ trọng nào cao hơn. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng bền vững của Hội Thánh theo thời gian. Các bài đọc phản ánh hành trình tâm linh liên tục của các tín hữu trong mùa dài sau lễ Ngũ Tuần.",
+    "body_en": "On this Monday of Ordinary Time, the Church continues its prayer for the sanctification of the faithful through the daily cycle of readings and psalmody. The green vestments remind us that our faith is not static but grows as we engage with Scripture and the world. Without specific solemnities to interrupt the rhythm of the week, the liturgy focuses on the steady accumulation of grace through daily obedience.\n\nThe readings typically chosen for Week 18, Monday, often include passages that challenge believers to remain steadfast in their commitment to God amidst ordinary life. The absence of a major saint's feast or solemnity places the emphasis on the communal prayer of the Church rather than on individual heroic virtue. This serves as a reminder that sanctity is found in the faithful performance of daily duties under God's providence.",
+    "body_vi": "Trong ngày Thứ Hai này của Mùa Thường Niên, Hội Thánh tiếp tục cầu nguyện cho sự thánh hóa của các tín hữu qua chu kỳ các bài đọc và thánh vịnh hàng ngày. Áo lễ màu xanh nhắc nhở chúng ta rằng đức tin của chúng ta không tĩnh tại mà tăng trưởng khi chúng ta đón nhận Kinh Thánh và thế giới. Không có các lễ trọng nào làm gián đoạn nhịp điệu của tuần, phụng vụ tập trung vào việc tích lũy ân sủng bền bỉ qua sự vâng phục hàng ngày.\n\nCác bài đọc thường được chọn cho Thứ Hai tuần 18 thường bao gồm các đoạn văn thách thức các tín hữu vững vàng trong cam kết với Thiên Chúa giữa cuộc sống đời thường. Sự vắng mặt của một lễ kính thánh bổn mạng lớn hay lễ trọng nhấn mạnh lời cầu nguyện cộng đoàn của Hội Thánh hơn là đức anh hùng cá nhân. Điều này nhắc nhở rằng sự thánh thiện được tìm thấy trong việc thực hiện các bổn phận hàng ngày một cách trung tín dưới sự quan phòng của Thiên Chúa.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The liturgical rank and color are confirmed by the standard General Roman Calendar for a Monday in Ordinary Time without higher-ranking celebrations.",
+    "confidence_note_vi": "Bậc lễ và màu sắc phụng vụ được xác nhận bởi Lịch Phụng vụ Rôma tiêu chuẩn cho một ngày Thứ Hai trong Mùa Thường Niên mà không có lễ nào bậc cao hơn."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast faith in the ordinary.",
+    "hero_line_vi": "Đức tin vững vàng trong điều bình thường.",
+    "prayer_prompt_en": "Pray for the grace to find God in daily routines.",
+    "prayer_prompt_vi": "Hãy cầu xin ân sủng để tìm thấy Thiên Chúa trong những thói quen hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/081627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture",
+      "url": "https://www.catholicculture.org/culture/calendar/day/index.cfm?recnum=10685",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-03",
+    "hebrew": "13 Av 5787",
+    "islamic_umm_al_qura": "14 Rabi' al-Awwal 1449 AH",
+    "coptic": "10 Mesori 1743",
+    "ethiopian": "10 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

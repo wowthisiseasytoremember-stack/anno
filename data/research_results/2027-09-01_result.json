@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-01",
+  "date": "2027-09-01",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Wednesday of Ordinary Time, Week 20",
+    "title_vi": "Thứ Tư tuần 20 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Ordinary Time, Week 20",
+    "title_vi": "Thứ Tư tuần 20 Mùa Thường Niên",
+    "summary_en": "This date marks a Feria in Ordinary Time, specifically the Wednesday of Week 20. The liturgical color is green, symbolizing growth and hope in the daily Christian life. The readings and prayers focus on perseverance in faith during ordinary days.",
+    "summary_vi": "Ngày này đánh dấu một ngày thường trong Mùa Thường Niên, cụ thể là Thứ Tư tuần 20. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và niềm hy vọng trong đời sống Kitô hữu hằng ngày. Các bài đọc và lời cầu nguyện tập trung vào sự kiên trì trong đức tin giữa những ngày bình thường.",
+    "body_en": "As a Feria of Ordinary Time, the Church invites the faithful to reflect on the steady growth of the Kingdom of God in their daily lives. The green vestments remind us of the hope that sustains us through the mundane routines, urging us to find God in the ordinary. This specific Wednesday serves as a pause for spiritual renewal within the flow of the week, emphasizing the importance of consistent prayer and meditation on Scripture.\n\nIn the General Roman Calendar, no universal saint memorial takes precedence on this date. The focus remains on the liturgical texts assigned to the weekday, which often speak to themes of mercy, justice, or the nature of discipleship. The faithful are encouraged to engage with the daily Office and the Lectionary readings, allowing the Word to shape their actions and attitudes throughout the day.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, Giáo hội mời gọi các tín hữu suy tư về sự tăng trưởng đều đặn của Nước Thiên Chúa trong cuộc sống hằng ngày. Các vestment màu xanh lá cây nhắc nhở chúng ta về niềm hy vọng nâng đỡ chúng ta qua những thói quen tầm thường, thôi thúc chúng ta tìm thấy Thiên Chúa trong những điều bình thường. Thứ Tư cụ thể này đóng vai trò như một khoảng lặng cho sự đổi mới tâm linh trong nhịp chảy của tuần lễ, nhấn mạnh tầm quan trọng của việc cầu nguyện nhất quán và suy niệm Kinh Thánh.\n\nTrong Lịch Rôma Chung, không có lễ kính thánh nào phổ quát được ưu tiên trong ngày này. Trọng tâm vẫn là các văn bản phụng vụ được gán cho ngày trong tuần, thường nói về các chủ đề như lòng thương xót, công lý hoặc bản chất của việc làm môn đệ. Các tín hữu được khuyến khích tham gia vào Kinh Nhật Tụng và các bài đọc Sách Thánh hằng ngày, để Lời Chúa hình thành hành động và thái độ của họ trong suốt cả ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Find God in the Ordinary",
+    "hero_line_vi": "Tìm thấy Thiên Chúa trong điều bình thường",
+    "prayer_prompt_en": "Lord, help me see Your presence in my daily tasks.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con thấy sự hiện diện của Ngài trong công việc hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/090127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - Liturgical Calendar",
+      "url": "https://www.catholicculture.org/culture/calendar/index.cfm?cal_year=2027",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-19",
+    "hebrew": "29 Av 5787",
+    "islamic_umm_al_qura": "30 Rabi' al-Awwal 1449 AH",
+    "coptic": "26 Mesori 1743",
+    "ethiopian": "26 Nehase 2019"
+  }
+}

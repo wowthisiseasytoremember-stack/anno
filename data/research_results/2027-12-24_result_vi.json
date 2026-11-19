@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Vọng",
+    "summary_vi": "Ngày này thuộc giai đoạn chuẩn bị cuối cùng của Mùa Vọng, với màu phụng vụ tím. Đây là ngày thường không có lễ kính thánh riêng, tập trung vào sự kiện Giáng Sinh sắp tới. Các bài đọc thường nhấn mạnh phần mở đầu ngay trước biến cố Giáng Sinh.",
+    "body_vi": "Khi Giáo Hội tiến gần đến Lễ trọng thể Giáng Sinh, phụng vụ chuyển từ việc trông đợi Cuộc Quâng Lâm Thứ Hai sang việc tưởng nhớ Cuộc Quâng Lâm Thứ Nhất. Vào ngày 24 tháng 12, sự chú ý mang tính cá nhân và trực tiếp cao độ, chuẩn bị tâm hồn cho việc cử hành biến cố Nhập Thể.\n\nCác bài đọc cho ngày thường này thường vang lên niềm vui và tính cấp thiết của giai đoạn. Khác với những ngày đầu Mùa Vọng có thể tập trung vào lời tiên tri, ngày trong tuần này nhấn mạnh việc hoàn tất các lời hứa thần linh trong thời gian ngắn sắp tới.",
+    "confidence_note_vi": "Ngày 24 tháng 12 là ngày thường tiêu chuẩn trong lịch Thường Niên trừ khi trùng với lễ bổn mạng địa phương cụ thể, nhưng thường thuộc bậc lễ ngày trong tuần của Mùa Vọng."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chuẩn bị cho Ánh Sáng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin cho tâm hồn con sẵn sàng đón Chúa ngự đến trong đêm nay."
+  }
+}

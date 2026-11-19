@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-02",
+  "date": "2027-08-02",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 16",
+    "title_vi": "Thứ Hai tuần 16 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the 16th Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần 16 Mùa Thường Niên",
+    "summary_en": "This Monday falls within the 16th week of Ordinary Time in the current liturgical cycle. The liturgical color is green, signifying growth and the steady progression of faith. No universal saint feast or memorial takes precedence on this date in the General Roman Calendar.",
+    "summary_vi": "Thứ Hai này rơi vào tuần 16 của Mùa Thường Niên trong chu kỳ phụng vụ hiện hành. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho sự tăng trưởng và tiến trình vững chắc của đức tin. Không có lễ nhớ hay lễ kính thánh nhân nào được ưu tiên vào ngày này trong Lịch Phụng vụ Rôma phổ quát.",
+    "body_en": "The faithful are invited to reflect on the steady growth of the Church during this period of Ordinary Time, marked by the color green. Liturgical practices focus on the daily recitation of the Divine Office and the reading of Scripture according to the weekday cycle. This day serves as a reminder of the ordinary rhythms of Christian life and perseverance.\n\nIn the context of the General Roman Calendar, this feria holds no special rank above the current week in Ordinary Time. The emphasis remains on the continuity of the liturgical year and the integration of faith into daily existence. Prayers and readings are drawn from the standard lectionary for weekdays in Ordinary Time.",
+    "body_vi": "Các tín hữu được mời gọi suy niệm về sự tăng trưởng vững chắc của Giáo hội trong giai đoạn Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây. Các thực hành phụng vụ tập trung vào việc đọc Kinh Nhật Tụng hàng ngày và đọc Sách Thánh theo chu kỳ ngày trong tuần. Ngày này nhắc nhở về những nhịp điệu bình thường của đời sống Kitô hữu và sự kiên trì.\n\nTrong bối cảnh Lịch Phụng vụ Rôma phổ quát, ngày thường này không có bậc cao hơn tuần hiện hành của Mùa Thường Niên. Trọng tâm vẫn là tính liên tục của năm phụng vụ và sự hòa nhập đức tin vào sự tồn tại hàng ngày. Các lời cầu nguyện và bài đọc được lấy từ Sách Bài Đọc chuẩn cho các ngày trong tuần Mùa Thường Niên.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed as a weekday in Ordinary Time with no overriding feast in the General Roman Calendar for this specific year and week.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường trong Mùa Thường Niên mà không có lễ ưu tiên nào trong Lịch Phụng vụ Rôma phổ quát cho năm và tuần cụ thể này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in Faith",
+    "hero_line_vi": "Tăng trưởng trong Đức tin",
+    "prayer_prompt_en": "Lord, grant me steadfastness in my daily walk of faith.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên định trong bước đi đức tin hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings - August 2, 2027",
+      "url": "https://bible.usccb.org/bible/readings/080227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Liturgical Calendar",
+      "url": "https://www.catholic.org/calendar/",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-20",
+    "hebrew": "28 Tamuz 5787",
+    "islamic_umm_al_qura": "29 Safar 1449 AH",
+    "coptic": "26 Epip 1743",
+    "ethiopian": "26 Hamle 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

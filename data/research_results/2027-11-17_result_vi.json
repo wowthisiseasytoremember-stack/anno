@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Elizabeth nước Hungari"
+  },
+  "primary": {
+    "title_vi": "Thánh Elizabeth nước Hungari",
+    "summary_vi": "Thánh Elizabeth nước Hungari được tưởng nhớ vì sự dấn thân phi thường dành cho người nghèo và bệnh tật sau khi trở thành goá phụ. Người đã từ bỏ địa vị hoàng gia để phục vụ tha nhân, thể hiện mệnh lệnh Tin Mừng về đức bác ái. Ngày lễ của Người nhấn mạnh sự kết hợp giữa cầu nguyện và hoạt động phục vụ trong đời sống hằng ngày.",
+    "body_vi": "Sinh ra trong Vương triều Árpád và lớn lên tại triều đình Thuringia, Elizabeth đã kết hôn với Landgrave Louis IV và sinh được ba người con. Cuộc đời của Người được đánh dấu bằng lời cầu nguyện nhiệt thành và cam kết lý tưởng Phanxicô, mà Người đã tiếp nhận dưới sự hướng dẫn của cha linh hướng, Konrad của Marburg. Người nổi tiếng với việc hôn chân người nghèo và phục vụ họ trong một bệnh viện mà Người đã thành lập ở Eisenach.\n\nSau khi chồng qua đời, Người đã hiến thân hoàn toàn cho đời sống tu trì, sống trong cảnh nghèo khó bất chấp nguồn gốc quý tộc của mình. Cái chết sớm ở tuổi hai mươi bốn không làm giảm đi tác động của Người đối với tâm linh Trung cổ. Người được tuyên thánh bốn năm sau đó, trở thành bổn mạng của đức bác ái và là mẫu mực về sự thánh thiện giáo dân.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Nữ hoàng phục vụ người nghèo",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng con sự khiêm nhường để phục vụ tha nhân như Thánh Elizabeth, nhìn thấy khuôn mặt Chúa nơi người nghèo và đau khổ."
+  }
+}

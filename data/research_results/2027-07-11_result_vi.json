@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Biển Đức, Viện phụ"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật XV Thường Niên",
+    "summary_vi": "Chúa Nhật XV Thường Niên rơi vào mùa Thường Niên, với màu sắc phụng vụ là màu xanh lá cây. Mùa này nhấn mạnh sự tăng trưởng và trưởng thành của các tín hữu Kitô giáo khi họ bước đi trong suốt năm phụng vụ. Các bài đọc trong ngày này thường tập trung vào sứ mạng của các môn đệ và tầm quan trọng của việc lắng nghe Lời Chúa.",
+    "body_vi": "Lịch phụng vụ quy định các Chúa Nhật trong Mùa Thường Niên là thời gian sống đạo đức bình thường, nơi trọng tâm chuyển từ các chu kỳ lớn của Mùa Phục Sinh và Mùa Giáng Sinh sang cuộc sống đức tin hằng ngày. Vào Chúa Nhật XV này, Hội Thánh mời gọi các tín hữu suy tư về ơn gọi lắng nghe và đáp lại Lời Chúa. Màu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng liên tục của sự sống trong Chúa Kitô, nhắc nhở các tín hữu rằng sự thánh thiện được tìm thấy trong những khoảnh khắc bình thường của cuộc sống.\n\nMặc dù Thánh Biển Đức cũng được tưởng nhớ vào ngày 11 tháng 7, nhưng bậc phụng vụ của Chúa Nhật chiếm ưu thế hơn so với bất kỳ lễ kính nào của các thánh. Do đó, trọng tâm chính vẫn là mầu nhiệm phụng vụ của Chúa Nhật, theo các quy tắc trong Sách Lễ Rôma. Việc cử hành Thánh Thể trong ngày này tập trung vào việc công bố các bài đọc được chỉ định trong Sách Bài Đọc cho Mùa Thường Niên, khuyến khích sự hoán cải và tham gia tích cực vào mầu nhiệm của Chúa Kitô.",
+    "confidence_note_vi": "Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong đức tin giữa Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con lắng nghe Lời Chúa và để Lời ấy bén rễ trong lòng con."
+  }
+}

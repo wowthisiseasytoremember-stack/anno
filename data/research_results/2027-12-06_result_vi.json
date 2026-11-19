@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai Tuần II Mùa Vọng",
+    "summary_vi": "Ngày này là ngày trong tuần thuộc tuần thứ hai của Mùa Vọng, với màu phụng vụ tím. Nó nhấn mạnh các chủ đề hoán cải, chuẩn bị và niềm hy vọng chờ đợi Chúa Kitô đến. Không có lễ kính thánh nào ưu tiên hơn vị thế ngày thường Mùa Vọng trừ khi có một lễ trọng xen vào.",
+    "body_vi": "Phụng vụ của Thứ Hai Tuần II Mùa Vọng tiếp tục hành trình chuẩn bị đã bắt đầu từ đầu Mùa Vọng. Các bài đọc và lời cầu nguyện thường tập trung vào sự mong đợi tiên tri về Đấng Mêsia và sự cần thiết của việc hoán cải nội tâm. Ngày trong tuần này là lời nhắc nhở về kỷ luật tinh thần đang diễn ra cần thiết để chuẩn bị tâm hồn cho Lễ Giáng Sinh.\n\nCác tín hữu được khuyến khích sử dụng thời gian này để cầu nguyện, suy gẫm và thực hành bác ái, hòa hợp cuộc sống của họ với lễ kỷ niệm sắp tới của Giáng Sinh. Giáo hội khuyến khích tinh thần sám hối và tỉnh thức, lặp lại lời kêu gọi 'hãy sửa soạn đường cho Chúa'.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy sửa soạn đường của Chúa trong tâm hồn bạn thứ Hai này.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con chuẩn bị một nơi ở xứng đáng cho Chúa qua sự khiêm nhường và hoán cải."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-09-11",
+  "date": "2027-09-11",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 21",
+    "title_vi": "Thứ Bảy tuần 21 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 21",
+    "title_vi": "Thứ Bảy tuần 21 Mùa Thường Niên",
+    "summary_en": "This Saturday falls within the Twenty-First Week of Ordinary Time, marking the final days before the transition to autumn in the Northern Hemisphere. The liturgical focus remains on the gradual progression of the Church year through Ordinary Time, emphasizing the growth of faith in daily life. No obligatory memorial or feast supersedes the feria, allowing the weekday readings to guide the faithful. The color green symbolizes hope and the steady growth of the Church's mission.",
+    "summary_vi": "Thứ Bảy này rơi vào Tuần 21 Mùa Thường Niên, đánh dấu những ngày cuối cùng trước khi chuyển sang mùa thu ở Bắc Bán Cầu. Trọng tâm phụng vụ vẫn là sự tiến triển chậm rãi của Năm Phụng vụ qua Mùa Thường Niên, nhấn mạnh sự tăng trưởng đức tin trong cuộc sống hàng ngày. Không có lễ nhớ buộc hay đại lễ nào thay thế ngày thường, cho phép các bài đọc trong ngày hướng dẫn các tín hữu. Màu xanh lục tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của sứ mạng Giáo Hội.",
+    "body_en": "On Saturday, September 11, 2027, the Roman Catholic Church observes a standard feria of the Twenty-First Week in Ordinary Time. This day serves as a bridge between the major liturgical seasons, inviting the faithful to reflect on the teachings of Christ through the ongoing cycle of weekday readings. The absence of a major saint's celebration on this specific date in the General Roman Calendar highlights the importance of the ordinary sanctity of time, reminding believers that holiness is found in the routine fidelity to God's will. The readings selected for this week typically continue the theological themes established in the preceding weeks, focusing on the nature of the Kingdom of Heaven and the disposition of the human heart.\n\nThe liturgical environment for this day is characterized by a quiet vigilance, as the Church prepares for the upcoming Solemnities of September and October. The green vestments worn during this period serve as a visual reminder of the theological virtue of hope, calling the faithful to look forward to the eternal harvest. While specific local calendars may have unique observances, the universal norm for the Roman Rite maintains the status of the weekday feria unless a higher-ranking celebration is assigned. This steady rhythm of Ordinary Time ensures that the foundational mysteries of the faith are continuously presented to the Church.",
+    "body_vi": "Vào Thứ Bảy, ngày 11 tháng 9 năm 2027, Giáo Hội Công Giáo Rôma cử hành một ngày thường tiêu chuẩn của Tuần 21 Mùa Thường Niên. Ngày này đóng vai trò như một cây cầu nối giữa các mùa phụng vụ lớn, mời gọi các tín hữu suy gẫm về những giáo huấn của Chúa Kitô qua chu kỳ đọc sách hàng ngày đang diễn ra. Việc không có lễ kính một vị thánh lớn nào vào ngày cụ thể này trong Lịch phụng vụ chung nhấn mạnh tầm quan trọng của sự thánh thiện bình thường của thời gian, nhắc nhở các tín hữu rằng sự thánh thiện được tìm thấy trong sự trung tín thông thường đối với ý Chúa.\n\nMôi trường phụng vụ cho ngày này được đặc trưng bởi sự tỉnh thức yên lặng, khi Giáo Hội chuẩn bị cho các Đại lễ sắp tới của tháng Chín và tháng Mười. Áo lễ màu xanh lục được mặc trong giai đoạn này đóng vai trò như một lời nhắc nhở trực quan về nhân đức hy vọng thần học, kêu gọi các tín hữu hướng tới mùa gặt vĩnh cửu. Mặc dù các lịch địa phương cụ thể có thể có những cách cử hành độc đáo, quy tắc phổ quát cho Nghi lễ Rôma duy trì trạng thái ngày thường trừ khi có một cử hành bậc cao hơn được chỉ định. Nhịp điệu ổn định của Mùa Thường Niên đảm bảo rằng những mầu nhiệm nền tảng của đức tin liên tục được trình bày cho Giáo Hội.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steadfast Faith in Ordinary Time",
+    "hero_line_vi": "Đức Tin Vững Vàng Trong Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help me to find You in the quiet moments of my day and to grow in hope through my daily fidelity.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong những khoảnh khắc yên tĩnh của ngày sống và lớn lên trong niềm hy vọng qua sự trung tín hàng ngày của con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for September 11, 2027",
+      "url": "https://bible.usccb.org/bible/readings/091127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/12041a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is confirmed as a Feria of Ordinary Time Week 21 in the standard Roman Calendar, with no universal obligations.",
+  "confidence_note_vi": "Ngày này được xác nhận là Ngày Thường Tuần 21 Mùa Thường Niên trong Lịch Rôma tiêu chuẩn, không có bổn buộc phổ quát.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-29",
+    "hebrew": "9 Elul 5787",
+    "islamic_umm_al_qura": "10 Rabi' al-Thani 1449 AH",
+    "coptic": "6 Pi Kogi Enavot 1743",
+    "ethiopian": "6 Pagumen 2019"
+  }
+}

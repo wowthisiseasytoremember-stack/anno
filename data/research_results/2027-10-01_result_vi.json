@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Têrêsa Hài Đồng Giêsu, Trinh nữ, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Têrêsa Hài Đồng Giêsu, Trinh nữ, Tiến sĩ Hội Thánh",
+    "summary_vi": "Thánh Têrêsa Hài Đồng Giêsu được mừng kính vào ngày 1 tháng Mười với tư cách là Trinh nữ và Tiến sĩ Hội Thánh. Ngài nổi tiếng với 'Con đường nhỏ' của tâm hồn thơ ấu và khiêm nhường, dạy rằng sự thánh thiện là khả thi cho tất cả mọi người qua lòng tín thác đơn sơ vào Thiên Chúa. Ngày lễ kính Ngài đánh dấu ngày kỷ niệm Ngài qua đời năm 1897, mặc dù trước đó Ngài đã chọn ngày 3 tháng Mười; lịch phụng vụ sau đó đã được điều chỉnh sang ngày 1 tháng Mười.",
+    "body_vi": "Thérèse Martin, được biết đến với tên gọi Têrêsa Hài Đồng Giêsu, đã gia nhập dòng Carmelite khi còn trẻ và ao ước trở thành một nhà truyền giáo. Sự đơn sơ sâu sắc và giáo thuyết 'tâm hồn thơ ấu' của Ngài nhấn mạnh rằng tình yêu là thước đo duy nhất của sự thánh thiện, chứ không phải những hành động lớn lao hay thành tựu trí tuệ. Các tác phẩm của Ngài, đặc biệt là 'Truyện Một Linh Hồn', tiếp tục ảnh hưởng sâu sắc đến đời sống tâm linh Công giáo, dẫn đến việc Ngài được Đức Giáo Hoàng Piô XI tuyên bố là Tiến sĩ Hội Thánh.\n\nNgày lễ kính ban đầu được mừng vào ngày 3 tháng Mười, ngày sau khi Ngài qua đời, nhưng đã được chuyển sang ngày 1 tháng Mười theo các cuộc cải cách phụng vụ của Công đồng Vatican II. Sự thay đổi này nhằm đưa ngày lễ vào vị trí nổi bật hơn trong đầu tháng, phản ánh sức hấp dẫn phổ quát của Ngài với tư cách là 'Hoa Nhỏ'. Với tư cách là Tiến sĩ Hội Thánh, những lời dạy của Ngài vẫn là trọng tâm trong việc hiểu về ân sủng và sự khiêm nhường trong đời sống Kitô giáo hàng ngày.",
+    "confidence_note_vi": "Bậc lễ, màu sắc và tước hiệu được xác nhận bởi Lịch Phụng Vụ Rôma cho ngày 1 tháng Mười."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tình yêu là thước đo duy nhất còn lại trong sự hoàn hảo Kitô giáo.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự đơn sơ và tín thác của một đứa trẻ."
+  }
+}

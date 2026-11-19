@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-29",
+  "date": "2027-10-29",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 28",
+    "title_vi": "Thứ Sáu tuần 28 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time, Week 28",
+    "title_vi": "Thứ Sáu tuần 28 Mùa Thường Niên",
+    "summary_en": "This date marks a weekday in the 28th week of Ordinary Time, characterized by the liturgical color green. The focus is on the sanctification of everyday life and the growth of the faithful in virtue. As a Feria, it has no specific saint of universal obligation that supersedes the weekday reading cycle unless coinciding with an optional memorial.",
+    "summary_vi": "Ngày này đánh dấu một ngày thường trong tuần 28 Mùa Thường Niên, với màu phụng vụ là màu xanh lá. Trọng tâm là sự thánh hóa đời sống thường nhật và sự tăng trưởng nhân đức của các tín hữu. Vì là ngày thường (Feria), không có thánh nào có nghĩa vụ phổ quát thay thế chu kỳ đọc sách Kinh Thánh trừ khi trùng với một lễ nhớ tùy chọn.",
+    "body_en": "In the Roman Catholic liturgical calendar, the Fridays of Ordinary Time serve as reminders of the penitential nature of the day, inviting the faithful to reflect on their participation in the Paschal Mystery. During Week 28, the readings typically focus on themes of perseverance, the nature of the Church, and the call to holiness in mundane circumstances. The absence of a high-ranking feast allows for a deeper engagement with the progressive scriptural texts assigned to this period of the liturgical year.\n\nHistorically, the observance of Friday as a day of penance has roots in early Church practice, distinguishing it from the Sunday celebration of the Resurrection. While modern norms allow for flexibility, the spiritual emphasis remains on conversion and renewal. For October 29, 2027, the liturgy invites a quiet contemplation of these ordinary means of grace, urging believers to find God's presence in the rhythm of daily duties and interactions.",
+    "body_vi": "Trong lịch phụng vụ Công giáo Rôma, các ngày Thứ Sáu trong Mùa Thường Niên đóng vai trò nhắc nhở về tính sám hối của ngày này, mời gọi các tín hữu suy gẫm về sự tham gia của họ vào Mầu nhiệm Vượt Qua. Trong tuần 28, các bài đọc thường tập trung vào các chủ đề về sự bền bỉ, bản chất của Giáo hội, và lời mời gọi nên thánh trong những hoàn cảnh đời thường. Việc thiếu vắng các lễ lớn cho phép sự tham gia sâu sắc hơn vào các văn bản Kinh Thánh tiến bộ được chỉ định trong thời kỳ này của năm phụng vụ.\n\nVề mặt lịch sử, việc tuân giữ Thứ Sáu như một ngày sám hối có nguồn gốc từ thực hành của Giáo hội sơ khai, phân biệt nó với việc cử hành Chúa Nhật của sự Phục sinh. Mặc dù các quy định hiện đại cho phép sự linh hoạt, nhưng sự nhấn mạnh tinh thần vẫn là hoán cải và đổi mới. Đối với ngày 29 tháng 10 năm 2027, phụng vụ mời gọi sự suy niệm tĩnh lặng về những phương tiện ơn thánh bình thường này, thúc đẩy các tín hữu tìm thấy sự hiện diện của Thiên Chúa trong nhịp điệu của các bổn phận và tương tác hàng ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Sanctify the ordinary, grow in virtue.",
+    "hero_line_vi": "Thánh hóa đời thường, tăng trưởng nhân đức.",
+    "prayer_prompt_en": "Lord, help me to see Your hand in my daily tasks.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con thấy bàn tay của Ngài trong các công việc hàng ngày của con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/102927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Saints",
+      "url": "https://catholicculture.org/culture/calendar/day.cfm?date=2027-10-29",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-16",
+    "hebrew": "28 Tisrei 5788",
+    "islamic_umm_al_qura": "29 Jumada al-Awwal 1449 AH",
+    "coptic": "18 Paopi 1744",
+    "ethiopian": "18 Tikemet 2020"
+  }
+}

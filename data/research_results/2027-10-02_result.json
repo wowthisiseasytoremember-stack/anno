@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-02",
+  "date": "2027-10-02",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "The Holy Guardian Angels",
+    "title_vi": "Lễ Các Thiên Thần Hộ Thủ"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "The Holy Guardian Angels",
+    "title_vi": "Lễ Các Thiên Thần Hộ Thủ",
+    "summary_en": "The Memorial of the Holy Guardian Angels celebrates the faithful ministry of celestial spirits who watch over and guide humanity. Instituted in its current universal form by Pope Pius IX, this day highlights the intimate care God provides through these heavenly messengers. It serves as a reminder that believers are never alone in their spiritual journey.",
+    "summary_vi": "Lễ kính Các Thiên Thần Hộ Thủ cử hành sứ vụ trung tín của các thần linh trên trời, những đấng canh giữ và hướng dẫn nhân loại. Được Đức Giáo Hoàng Piô IX thiết lập hình thức phổ quát hiện tại, ngày này nhấn mạnh sự chăm sóc thân mật mà Thiên Chúa cung cấp qua các sứ giả thiên giới. Đây là lời nhắc nhở rằng các tín hữu không bao giờ cô đơn trong hành trình tâm linh của mình.",
+    "body_en": "The commemoration of the Holy Guardian Angels has a long history in the Latin Rite, originally celebrated locally before being extended to the entire Church. The primary scriptural basis is often drawn from Matthew 18:10, where Jesus speaks of the angels who continually behold the face of the Father. This memorial invites the faithful to contemplate the mysterious but real presence of these spiritual beings in daily life.\n\nIn 2027, as a Saturday memorial, it stands independently within the liturgical sequence of Ordinary Time. The color white reflects the purity and glory of the angelic nature. Devotion to Guardian Angels is encouraged as a means of fostering humility and awareness of divine providence, urging Christians to listen to the gentle nudges of conscience and divine instruction.",
+    "body_vi": "Việc cử hành Các Thiên Thần Hộ Thủ có lịch sử lâu dài trong Nghi thức Latinh, ban đầu được cử hành địa phương trước khi được mở rộng cho toàn thể Giáo Hội. Cơ sở Kinh Thánh chính thường được rút ra từ Matthew 18:10, nơi Chúa Giêsu nói về các thiên thần luôn nhìn thấy mặt Cha. Lễ này mời gọi các tín hữu suy niệm về sự hiện diện huyền nhiệm nhưng có thật của các thụ tạo thần linh trong đời sống hằng ngày.\n\nNăm 2027, với tư cách là lễ nhớ vào ngày Thứ Bảy, nó đứng độc lập trong trình tự phụng vụ của Mùa Thường Niên. Màu trắng phản ánh sự thanh khiết và vinh quang của bản tính thiên thần. Lòng sùng kính Các Thiên Thần Hộ Thủ được khuyến khích như một phương tiện để nuôi dưỡng sự khiêm nhường và nhận thức về quan phòng của Thiên Chúa, thúc đẩy các Kitô hữu lắng nghe những lời nhắc nhở nhẹ nhàng của lương tâm và giáo huấn thần linh.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Celestial Guardians Walk Beside Us",
+    "hero_line_vi": "Các Thiên Thần Hộ Thủ Đồng Hành Bên Chúng Ta",
+    "prayer_prompt_en": "Ask for the intercession of your Guardian Angel for guidance and protection.",
+    "prayer_prompt_vi": "Xin lời cầu bầu của Thiên Thần Hộ Thủ cho sự hướng dẫn và bảo vệ."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/100227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgicalcalendar/calendar/day.cfm?year=2027&month=10&day=2",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-19",
+    "hebrew": "1 Tisrei 5788",
+    "islamic_umm_al_qura": "2 Jumada al-Awwal 1449 AH",
+    "coptic": "21 Thout 1744",
+    "ethiopian": "21 Meskerem 2020"
+  }
+}

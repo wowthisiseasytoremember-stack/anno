@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-08-07",
+  "date": "2027-08-07",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 16",
+    "title_vi": "Thứ Bảy tuần 16 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 16",
+    "title_vi": "Thứ Bảy tuần 16 Mùa Thường Niên",
+    "summary_en": "August 7, 2027, falls on a Saturday in Ordinary Time. The liturgical rank is a Feria, which is the lowest rank in the liturgical hierarchy. No obligatory memorials are observed on this date in the General Roman Calendar. The liturgical color is green, symbolizing hope and growth.",
+    "summary_vi": "Ngày 7 tháng 8 năm 2027 rơi vào Thứ Bảy trong Mùa Thường Niên. Bậc phụng vụ là Ngày thường, bậc thấp nhất trong thang phụng vụ. Không có lễ nhớ buộc nào được cử hành vào ngày này trong Lịch Phụng vụ Rôma. Màu phụng vụ là màu xanh lục, tượng trưng cho hy vọng và sự tăng trưởng.",
+    "body_en": "Ordinary Time represents the longest period of the liturgical year, dedicated to the growth of the Christian life. The Feria serves as a time for simple, unadorned prayer and reflection on the mysteries of faith. The color green indicates the hope that sustains the faithful through the ordinary moments of life.\n\nFaithful are encouraged to engage with the daily readings and reflect on how the teachings of Christ apply to their daily routines. The liturgical season emphasizes the steady, persistent rhythm of Christian discipleship. The focus remains on the teachings and miracles of Jesus as recorded in the Gospels assigned for the week.",
+    "body_vi": "Mùa Thường Niên là thời gian dài nhất trong năm phụng vụ, được dành riêng cho sự tăng trưởng của đời sống Kitô hữu. Ngày thường là thời gian để cầu nguyện đơn sơ, không trang trí và suy gẫm về các mầu nhiệm đức tin. Màu xanh lục chỉ ra niềm hy vọng nâng đỡ các tín hữu qua những khoảnh khắc bình thường của cuộc sống.\n\nCác tín hữu được khuyến khích tiếp cận các bài đọc hằng ngày và suy gẫm về việc các giáo huấn của Chúa Giêsu áp dụng vào các thói quen hàng ngày của họ như thế nào. Mùa phụng vụ nhấn mạnh nhịp điệu đều đặn, kiên trì của môn đệ Kitô giáo. Trọng tâm vẫn là các giáo huấn và phép lạ của Chúa Giêsu được ghi trong các Phúc Âm được chỉ định cho tuần.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Hope in the ordinary",
+    "hero_line_vi": "Hy vọng trong những điều bình thường",
+    "prayer_prompt_en": "Reflect on how Christ's teachings apply to your daily routine.",
+    "prayer_prompt_vi": "Suy gẫm về việc các giáo huấn của Chúa Kitô áp dụng vào thói quen hàng ngày của bạn như thế nào."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "August 7 is a standard Feria in Week 16 of Ordinary Time in the General Roman Calendar.",
+  "confidence_note_vi": "Ngày 7 tháng 8 là Ngày thường tiêu chuẩn trong tuần 16 Mùa Thường Niên trong Lịch Phụng vụ Rôma.",
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/080727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/15379a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-25",
+    "hebrew": "4 Av 5787",
+    "islamic_umm_al_qura": "5 Rabi' al-Awwal 1449 AH",
+    "coptic": "1 Mesori 1743",
+    "ethiopian": "1 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

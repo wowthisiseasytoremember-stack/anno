@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 21 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 21 Mùa Thường Niên",
+    "summary_vi": "Thứ Hai này thuộc Tuần 21 Mùa Thường Niên trong Lịch Rôma chung. Là ngày thường (feria), ngày không có lễ hoặc kính buộc nào trên lịch phổ quát, đánh dấu thời gian tăng trưởng đức tin bền vững. Màu phụng vụ là màu xanh lục, tượng trưng cho niềm hy vọng và sự sống tiếp diễn của Hội Thánh.",
+    "body_vi": "Trong cấu trúc năm phụng vụ, Mùa Thường Niên đóng vai trò xương sống cho mối tương quan hàng ngày của tín hữu với Thiên Chúa. Vào Thứ Hai cụ thể này, các bài đọc và lời cầu nguyện được chọn từ chu kỳ sách bài đọc dành cho Tuần 21. Những văn bản này hướng dẫn các tín hữu qua thời gian suy niệm và sống đạo đức, không bị áp lực bởi những sự chuẩn bị dữ dội như Mùa Vọng hay Mùa Chay. Việc thiếu vắng lễ kính một vị thánh lớn cho phép sự tập trung vẫn còn hoàn toàn vào Lời Chúa được công bố.\n\nMôi trường phụng vụ vẫn yên tĩnh, nhấn mạnh vào những khía cạnh bình thường của đời sống Kitô hữu. Các tín hữu được mời gọi tích hợp những lời dạy của Tin Mừng vào thói quen hàng ngày, tìm thấy ơn sủng trong những hoạt động trần tục. Thời kỳ này củng cố khái niệm rằng sự thánh thiện thường được tìm thấy trong sự nhất quán của lời cầu nguyện và bổn phận hơn là chỉ trong các nghi lễ trọng thể. Hội Thánh mời gọi mỗi cá nhân đáp trả cách cá nhân với ơn sủng hiện diện trong mùa trung tính nhưng đầy sức sống tinh thần này.",
+    "confidence_note_vi": "Xếp hạng Feria của ngày này được xác nhận bởi Lịch Rôma chung, vì không có lễ cụ thể nào vượt lên trên ngày trong tuần theo lịch phổ quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức tin lớn lên trong những khoảnh khắc bình thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con thấy Chúa trong thói quen hàng ngày của con."
+  }
+}

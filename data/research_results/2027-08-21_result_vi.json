@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Piô X, Giáo hoàng"
+  },
+  "primary": {
+    "title_vi": "Thánh Piô X, Giáo hoàng",
+    "summary_vi": "Thánh Piô X, sinh ra là Giuseppe Sarto, đã phục vụ với tư cách là Giáo hoàng từ năm 1903 cho đến khi qua đời vào năm 1914. Ngài được nhớ đến vì đã nhiệt thành cổ võ việc rước lễ thường xuyên và lòng yêu mến sâu sắc đối với phụng vụ thánh. Triều đại giáo hoàng của ngài nhấn mạnh đến việc phục hồi triết học Tôma và bảo vệ giáo lý Công giáo trước những sai lầm của chủ nghĩa duy tân.",
+    "body_vi": "Giáo hoàng Thánh Piô X được tôn kính vì sự khiêm nhường sâu xa và những nỗ lực đổi mới đời sống thiêng liêng của Giáo hội. Ngài đã khuyến khích các tín hữu rước Mình Thánh Chúa thường xuyên, coi đó là trung tâm của đời sống Kitô hữu. Những cải cách của ngài về âm nhạc phụng vụ và giáo dục chủng sinh đã để lại dấu ấn lâu dài trong truyền thống Giáo hội.\n\nViệc bảo vệ giáo lý chống lại phong trào Chủ nghĩa duy tân của ngài rất nghiêm khắc và kiên định. Ngài đã ban hành thông điệp Pascendi Dominici Gregis để làm sáng tỏ và lên án những sai lầm tìm cách diễn giải lại đức tin qua các phương pháp lịch sử và tâm lý. Ngài được xem là vị thánh của phụng vụ và giáo lý.",
+    "confidence_note_vi": "Lễ nhớ là một lễ nhớ cố định trong Lịch Rôma chung, tưởng nhớ vị Giáo hoàng qua đời năm 1914 và được phong thánh năm 1954. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Khiêm nhường và Sùng kính Thánh Thể",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho chúng con sự khiêm nhường của Thánh Piô X để đến với Bí tích Thánh Thể của Chúa với lòng tôn kính."
+  }
+}

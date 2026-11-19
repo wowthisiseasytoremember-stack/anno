@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-12-27",
+  "date": "2027-12-27",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "St. John, Apostle and Evangelist",
+    "title_vi": "Thánh Gioan, Tông đồ, Tác giả Sách Tin Mừng"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "St. John, Apostle and Evangelist",
+    "title_vi": "Thánh Gioan, Tông đồ, Tác giả Sách Tin Mừng",
+    "summary_en": "The Church celebrates the Feast of St. John, the beloved Apostle and author of the Fourth Gospel. John is traditionally recognized as the 'seer on Patmos' who received the Revelation. This feast highlights the depth of his theological reflection on the Word made flesh.",
+    "summary_vi": "Hội Thánh cử hành Lễ Kính Thánh Gioan, Tông đồ được yêu dấu và là tác giả Tin Mừng thứ tư. Thánh nhân được truyền thống gọi là 'thị nhân trên đảo Patmos' đã nhận được sách Khải Huyền. Ngày lễ này nhấn mạnh chiều sâu suy tư thần học của ngài về Ngôi Lời nhập thể. Lễ kính diễn ra trong tuần Bát Nhật Giáng Sinh, làm nổi bật tình yêu chiêm niệm đã chi phối cuộc đời ngài.",
+    "body_en": "St. John was one of the first disciples called by Jesus and was part of the inner circle, witnessing the Transfiguration and the Agony in the Garden. Tradition holds that he was the only Apostle to survive martyrdom, living to an old age in Ephesus before being exiled to Patmos. His Gospel presents a high Christology, focusing on the divinity of Christ and the necessity of believing in the Word who became flesh for the salvation of the world.\n\nDuring the Octave of Christmas, the Church commemorates the proto-martyrs, but John stands as the witness of faith and vision. His writings, particularly the prologue of his Gospel, remind the faithful that true knowledge of God comes through divine revelation and intimate relationship. The blessing of wine at his feast, a traditional custom, symbolizes the purity of faith and the wisdom that flows from divine truth.",
+    "body_vi": "Thánh Gioan là một trong những môn đệ đầu tiên được Chúa Giêsu kêu gọi và thuộc nhóm các môn đệ thân tín nhất, chứng kiến biến cố Biến Hình và cuộc hấp hối trong vườn cây dầu. Truyền thống tin rằng ngài là Tông đồ duy nhất không bị giết, sống đến tuổi già tại Êphêsô trước khi bị lưu đày trên đảo Patmos. Tin Mừng của ngài trình bày một Kitô học cao cả, tập trung vào thần tính của Chúa Kitô và sự cần thiết phải tin vào Ngôi Lời đã hóa thành xác phàm để cứu độ thế gian.\n\nTrong tuần Bát Nhật Giáng Sinh, Hội Thánh tưởng nhớ các vị tử đạo tiên khởi, nhưng Thánh Gioan đứng ra làm chứng nhân của đức tin và thị kiến. Các tác phẩm của ngài, đặc biệt là phần mở đầu Tin Mừng, nhắc nhở cộng đoàn rằng sự hiểu biết đích thực về Thiên Chúa đến từ mạc khải thần linh và tương quan mật thiết với Người. Phong tục làm phép rượu trong ngày lễ của ngài, một truyền thống lâu đời, tượng trưng cho sự tinh tuyền của đức tin và sự khôn ngoan tuôn đổ từ chân lý thần linh.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Contemplate the Word made flesh with St. John the Evangelist.",
+    "hero_line_vi": "Cùng suy niệm Ngôi Lời nhập thể với Thánh Gioan Tin Mừng.",
+    "prayer_prompt_en": "Lord, give us the contemplative spirit of St. John to know You deeply.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con tinh thần chiêm niệm của Thánh Gioan để chúng con biết Chúa cách thâm sâu."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date December 27 is universally fixed in the General Roman Calendar as the Feast of St. John the Apostle and Evangelist.",
+  "confidence_note_vi": "Ngày 27 tháng 12 được ấn định chắc chắn trong Lịch Rôma chung là Lễ Kính Thánh Gioan Tông đồ và Tin Mừng.",
+  "sources": [
+    {
+      "label": "USCCB - Daily Readings for December 27",
+      "url": "https://www.usccb.org/bible/readings/122727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Saints for December 27",
+      "url": "https://www.vaticannews.va/en/saints.html",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-14",
+    "hebrew": "27 Kislev 5788",
+    "islamic_umm_al_qura": "29 Rajab 1449 AH",
+    "coptic": "17 Koiak 1744",
+    "ethiopian": "17 Tahsas 2020"
+  }
+}

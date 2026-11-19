@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-05",
+  "date": "2027-09-05",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 21",
+    "title_vi": "Chúa Nhật tuần 21 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Sunday of Ordinary Time, Week 21",
+    "title_vi": "Chúa Nhật tuần 21 Mùa Thường Niên",
+    "summary_en": "The twenty-first Sunday in Ordinary Time focuses on the discipline and humility required in the Kingdom of Heaven. The liturgy invites the faithful to ask for the smallest places and serve with humility, following Christ's example. This day calls for spiritual vigilance and preparation for the eternal banquet.",
+    "summary_vi": "Chúa Nhật thứ 21 Mùa Thường Niên tập trung vào kỷ luật và sự khiêm nhường cần thiết trong Nước Trời. Phụng vụ mời gọi cộng đoàn tín hữu chọn những chỗ thấp nhất và phục vụ trong khiêm hạ, noi gương Chúa Kitô. Ngày này kêu gọi sự tỉnh thức thiêng liêng và sự chuẩn bị cho bữa tiệc đời đời.",
+    "body_en": "The readings for the twenty-first Sunday in Ordinary Time often highlight the contrast between worldly ambition and divine humility. In the Gospel, Jesus teaches that those who exalt themselves will be humbled, and those who humble themselves will be exalted. This teaching serves as a corrective to the disciples' arguments about greatness.\n\nLiturgically, this period of Ordinary Time emphasizes growth in faith through consistent discipleship. The Church invites believers to examine their own lives for signs of pride and to seek the grace to serve others selflessly. The green vestments symbolize hope and the steady growth of the Church during this time.",
+    "body_vi": "Các bài đọc của Chúa Nhật thứ 21 Mùa Thường Niên thường làm nổi bật sự tương phản giữa tham vọng thế gian và sự khiêm nhường thánh thiện. Trong Tin Mừng, Chúa Giêsu dạy rằng ai tôn mình lên sẽ bị hạ xuống, và ai hạ mình xuống sẽ được tôn lên. Bài giảng này là lời sửa dạy cho các môn đệ về cuộc tranh luận liên quan đến sự cao cả.\n\nVề mặt phụng vụ, thời kỳ Thường Niên này nhấn mạnh sự tăng trưởng trong đức tin qua việc làm môn đệ nhất quán. Hội Thánh mời gọi các tín hữu xem xét cuộc sống của mình để tìm ra những dấu hiệu của sự kiêu hãnh và tìm kiếm ân sủng để phục vụ tha nhân cách vô vị lợi. Áo lễ màu xanh tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Hội Thánh trong thời gian này.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The ranking and color for Sundays in Ordinary Time are fixed by the General Roman Calendar.",
+    "confidence_note_vi": "Hạng lễ và màu sắc của các Chúa Nhật trong Mùa Thường Niên được ấn định bởi Lịch Rôma chung."
+  },
+  "app_hooks": {
+    "hero_line_en": "Humility is the path to exaltation.",
+    "hero_line_vi": "Khiêm nhường là con đường dẫn đến sự tôn vinh.",
+    "prayer_prompt_en": "Pray for the grace of humility and the wisdom to serve others before seeking recognition.",
+    "prayer_prompt_vi": "Cầu xin ơn khiêm nhường và sự khôn ngoan để phục vụ tha nhân trước khi tìm kiếm sự công nhận."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for September 5, 2027",
+      "url": "https://bible.usccb.org/bible/readings/090527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia - Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/02567a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-23",
+    "hebrew": "3 Elul 5787",
+    "islamic_umm_al_qura": "4 Rabi' al-Thani 1449 AH",
+    "coptic": "30 Mesori 1743",
+    "ethiopian": "30 Nehase 2019"
+  }
+}

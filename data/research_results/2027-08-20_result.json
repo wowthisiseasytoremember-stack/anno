@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-20",
+  "date": "2027-08-20",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Bernard, Abbot and Doctor",
+    "title_vi": "Thánh Bênađô, Viện phụ, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Bernard, Abbot and Doctor",
+    "title_vi": "Thánh Bênađô, Viện phụ, Tiến sĩ Hội Thánh",
+    "summary_en": "On this day, the Church commemorates St. Bernard of Clairvaux, the great Cistercian abbot and mystic. He is celebrated for his profound theological writings and his role in preaching the Second Crusade. As a Doctor of the Church, he emphasized the importance of humility, obedience, and devotion to the Virgin Mary.",
+    "summary_vi": "Hôm nay, Hội Thánh kính nhớ Thánh Bênađô thành Clairvaux, một viện phụ và nhà thần học nổi tiếng dòng Xitô. Ngài được tôn vinh vì các trước tác thần học sâu sắc và vai trò rao giảng cuộc Thập tự chinh thứ hai. Là Tiến sĩ Hội Thánh, ngài nhấn mạnh tầm quan trọng của sự khiêm nhường, vâng phục và lòng sùng kính Đức Maria.",
+    "body_en": "St. Bernard (1090–1153) was one of the most influential figures of the 12th century, bridging the gap between the monastic and secular worlds. His writings, particularly his sermons on the Song of Songs, are known for their poetic beauty and deep mystical insight into the love of God. He founded numerous monasteries and served as a spiritual advisor to popes and kings, insisting on the independence of the Church from secular powers.\n\nHis feast day serves as a reminder of the Church's rich contemplative tradition. Bernard's theology remains central to Catholic spirituality, particularly his teaching on the nature of divine grace and human response. The Church honors him as a Doctor of the Church for his clarity in explaining the mysteries of faith and his enduring influence on Catholic piety.",
+    "body_vi": "Thánh Bênađô (1090–1153) là một trong những nhân vật ảnh hưởng nhất của thế kỷ 12, bắc cầu giữa thế giới tu trì và thế giới trần tục. Các trước tác của ngài, đặc biệt là các bài giảng về sách Diễm Ca, nổi tiếng với vẻ đẹp thi ca và sự thấu hiểu huyền nhiệm sâu sắc về tình yêu Thiên Chúa. Ngài đã thành lập nhiều đan viện và làm cố vấn thiêng liêng cho các giáo hoàng và vua chúa, khẳng định sự độc lập của Hội Thánh khỏi quyền lực trần gian.\n\nNgày lễ của ngài là lời nhắc nhở về truyền thống chiêm niệm phong phú của Hội Thánh. Thần học của Bênađô vẫn là cốt lõi của đời sống thiêng liêng Công giáo, đặc biệt là giáo huấn về bản chất của ân sủng và đáp trả của con người. Hội Thánh tôn vinh ngài là Tiến sĩ Hội Thánh vì sự rõ ràng trong việc giải thích các mầu nhiệm đức tin và ảnh hưởng lâu dài đối với lòng đạo đức Công giáo.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Contemplate the love of Christ through the words of St. Bernard.",
+    "hero_line_vi": "Ngắm nhìn tình yêu của Chúa Kitô qua những lời dạy của Thánh Bênađô.",
+    "prayer_prompt_en": "Lord, grant us the humility of St. Bernard to seek You in all things.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho chúng con sự khiêm nhường của Thánh Bênađô để tìm kiếm Chúa trong mọi sự."
+  },
+  "sources": [
+    {
+      "label": "USCCB - Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/082027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org - St. Bernard",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=548",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-07",
+    "hebrew": "17 Av 5787",
+    "islamic_umm_al_qura": "18 Rabi' al-Awwal 1449 AH",
+    "coptic": "14 Mesori 1743",
+    "ethiopian": "14 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

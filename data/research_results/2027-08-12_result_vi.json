@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 17 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm Mùa Thường Niên, Tuần 17",
+    "summary_vi": "Ngày này là một ngày trong Tuần thường niên, đặc trưng bởi màu xanh lá cây phụng vụ. Nó thuộc tuần 17 của năm phụng vụ. Trọng tâm là sự tăng trưởng đức tin trong đời sống Kitô hữu hàng ngày.",
+    "body_vi": "Việc cử hành phụng vụ cho Thứ Năm này tuân theo định dạng ngày trong tuần tiêu chuẩn của Mùa Thường Niên. Không có vị thánh lớn hay lễ kính nào được tưởng nhớ vào ngày này trong Lịch Rôma Tổng quát có thể thay thế giờ kinh nhật khóa ngày thường. Các bài đọc và lời cầu nguyện phản ánh hành trình liên tục của Giáo hội vào giữa năm.\n\nTrong bối cảnh của tuần 17, Giáo hội tiếp tục khám phá những hệ quả của Mầu Nhiệm Vượt Qua trong đời sống của các tín hữu. Mùa phụng vụ thường niên không phải là sự gián đoạn trong việc thờ phượng mà là thời gian cho sự phát triển ổn định. Các tín hữu được mời gọi đào sâu sự hiểu biết về Thánh Kinh và áp dụng những giáo huấn của nó vào thói quen hàng ngày của họ.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy lớn lên trong đức tin qua những ngày sống bình thường.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự hiện diện của Chúa trong những khoảnh khắc bình thường của ngày này."
+  }
+}

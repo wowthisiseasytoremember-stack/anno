@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 20 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 20 Mùa Thường Niên",
+    "summary_vi": "Hôm nay là ngày Thứ Hai trong Mùa Thường Niên, với màu sắc phụng vụ là màu xanh lá cây. Đây là thời điểm tập trung vào sự tăng trưởng đức tin trong đời sống hằng ngày của người tín hữu. Không có lễ kính thánh bổn mạng nào thay thế ngày này trong Lịch Phụng vụ Rôma tổng quát.",
+    "body_vi": "Thứ Hai tuần 20 Mùa Thường Niên mời gọi các tín hữu suy tư về những lời dạy của Chúa Giêsu được áp dụng vào thực tế đời sống lao động và cộng đoàn. Màu xanh lá cây trong phụng vụ tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của Giáo hội trong thế giới. Trong ngày này, các bài đọc thường tiếp tục chu kỳ Thánh Kinh, mời gọi người tín hữu lắng nghe và đáp lại lời Chúa trong sự tĩnh lặng của cuộc sống thường nhật.\n\nKhi không có lễ lớn hay lễ trọng nào, Giáo hội mời gọi sự suy niệm tĩnh lặng về các mầu nhiệm đức tin. Thời gian thường niên này không phải là thời gian trống rỗng, mà là một không gian thánh để rèn luyện nhân đức. Người tín hữu được khuyến khích cầu nguyện Phụng vụ Giờ kinh, đặc biệt là Kinh Sáng và Kinh Chiều, để thánh hóa các giờ giấc và duy trì kết nối với nhịp điệu thần linh của ngày sống.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức tin lớn lên trong những khoảnh khắc tĩnh lặng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong bổn phận hằng ngày của con."
+  }
+}

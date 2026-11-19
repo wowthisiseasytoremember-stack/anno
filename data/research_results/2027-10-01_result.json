@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-10-01",
+  "date": "2027-10-01",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Thérèse of the Child Jesus, Virgin and Doctor",
+    "title_vi": "Thánh Têrêsa Hài Đồng Giêsu, Trinh nữ, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Thérèse of the Child Jesus, Virgin and Doctor",
+    "title_vi": "Thánh Têrêsa Hài Đồng Giêsu, Trinh nữ, Tiến sĩ Hội Thánh",
+    "summary_en": "St. Thérèse of the Child Jesus is celebrated on October 1st as a Virgin and Doctor of the Church. She is renowned for her 'Little Way' of spiritual childhood and humility, teaching that sanctity is accessible to all through simple trust in God. Her feast day marks the anniversary of her death in 1897, though she had previously chosen October 3rd; the calendar was later adjusted to October 1st.",
+    "summary_vi": "Thánh Têrêsa Hài Đồng Giêsu được mừng kính vào ngày 1 tháng Mười với tư cách là Trinh nữ và Tiến sĩ Hội Thánh. Ngài nổi tiếng với 'Con đường nhỏ' của tâm hồn thơ ấu và khiêm nhường, dạy rằng sự thánh thiện là khả thi cho tất cả mọi người qua lòng tín thác đơn sơ vào Thiên Chúa. Ngày lễ kính Ngài đánh dấu ngày kỷ niệm Ngài qua đời năm 1897, mặc dù trước đó Ngài đã chọn ngày 3 tháng Mười; lịch phụng vụ sau đó đã được điều chỉnh sang ngày 1 tháng Mười.",
+    "body_en": "Thérèse Martin, known as Thérèse of the Child Jesus, entered the Carmelite order at a young age and sought to become a missionary. Her profound simplicity and her doctrine of 'spiritual childhood' emphasized that love is the only measure of holiness, not great deeds or intellectual achievement. Her writings, particularly 'Story of a Soul', continue to influence Catholic spirituality deeply, leading to her declaration as a Doctor of the Church by Pope Pius XI.\n\nThe feast day was originally celebrated on October 3rd, the day after her death, but was moved to October 1st following the liturgical reforms of the Second Vatican Council. This change allowed the feast to fall more prominently early in the month, reflecting her universal appeal as 'The Little Flower'. As a Doctor of the Church, her teachings remain central to understanding grace and humility in daily Christian life.",
+    "body_vi": "Thérèse Martin, được biết đến với tên gọi Têrêsa Hài Đồng Giêsu, đã gia nhập dòng Carmelite khi còn trẻ và ao ước trở thành một nhà truyền giáo. Sự đơn sơ sâu sắc và giáo thuyết 'tâm hồn thơ ấu' của Ngài nhấn mạnh rằng tình yêu là thước đo duy nhất của sự thánh thiện, chứ không phải những hành động lớn lao hay thành tựu trí tuệ. Các tác phẩm của Ngài, đặc biệt là 'Truyện Một Linh Hồn', tiếp tục ảnh hưởng sâu sắc đến đời sống tâm linh Công giáo, dẫn đến việc Ngài được Đức Giáo Hoàng Piô XI tuyên bố là Tiến sĩ Hội Thánh.\n\nNgày lễ kính ban đầu được mừng vào ngày 3 tháng Mười, ngày sau khi Ngài qua đời, nhưng đã được chuyển sang ngày 1 tháng Mười theo các cuộc cải cách phụng vụ của Công đồng Vatican II. Sự thay đổi này nhằm đưa ngày lễ vào vị trí nổi bật hơn trong đầu tháng, phản ánh sức hấp dẫn phổ quát của Ngài với tư cách là 'Hoa Nhỏ'. Với tư cách là Tiến sĩ Hội Thánh, những lời dạy của Ngài vẫn là trọng tâm trong việc hiểu về ân sủng và sự khiêm nhường trong đời sống Kitô giáo hàng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The rank, color, and title are confirmed by the General Roman Calendar for October 1st.",
+    "confidence_note_vi": "Bậc lễ, màu sắc và tước hiệu được xác nhận bởi Lịch Phụng Vụ Rôma cho ngày 1 tháng Mười."
+  },
+  "app_hooks": {
+    "hero_line_en": "Love is the only measure that remains in Christian perfection.",
+    "hero_line_vi": "Tình yêu là thước đo duy nhất còn lại trong sự hoàn hảo Kitô giáo.",
+    "prayer_prompt_en": "Pray for the simplicity and trust of a child.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự đơn sơ và tín thác của một đứa trẻ."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/100127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia: St. Thérèse",
+      "url": "https://www.newadvent.org/cathen/14451b.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture: Saints of October",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2027-10-01",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-18",
+    "hebrew": "29 Elul 5787",
+    "islamic_umm_al_qura": "1 Jumada al-Awwal 1449 AH",
+    "coptic": "20 Thout 1744",
+    "ethiopian": "20 Meskerem 2020"
+  }
+}

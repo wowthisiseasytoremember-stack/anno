@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 23 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 23 Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào thứ Hai trong tuần thứ hai mươi ba của Mùa Thường Niên. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và hành trình đức tin. Không có lễ trọng hoặc lễ kính nào trong chu kỳ phổ quát được cử hành vào ngày này, nên đây là ngày thường (Feria) trong chu kỳ thông thường.",
+    "body_vi": "Trong Lịch phụng vụ Rôma phổ quát, thứ Hai, ngày 20 tháng 9 năm 2027, được cử hành như một ngày thường (Feria) trong Mùa Thường Niên. Các bài đọc phụng vụ được xác định theo chu kỳ của tuần 23, tập trung vào sự hiểu biết dần dần về các lời dạy của Tin Mừng và đời sống của Hội Thánh.\n\nLà một ngày trong tuần, thánh lễ được cử hành đơn giản, với linh mục mặc áo lễ màu xanh lá cây để phản ánh tiến trình bình thường của đời sống Kitô hữu. Trọng tâm là sự hoán cải liên tục và việc áp dụng đức tin trong đời sống hàng ngày, mà không nhấn mạnh cụ thể vào các thánh nếu lịch địa phương không quy định khác đi.",
+    "confidence_note_vi": "Ngày này tương ứng với một ngày trong tuần tiêu chuẩn trong tuần 23 Mùa Thường Niên theo lịch phụng vụ năm 2027, không có lễ phổ quát nào xung đột."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trên con đường Mùa Thường Niên",
+    "prayer_prompt_vi": "Xin ban cho con ân sủng để lớn lên trong đức tin qua các bổn phận hàng ngày."
+  }
+}

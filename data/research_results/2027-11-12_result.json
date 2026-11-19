@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-12",
+  "date": "2027-11-12",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "St. Josaphat, Bishop and Martyr",
+    "title_vi": "Thánh Giôxaphát, Giám mục, Tử đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Josaphat, Bishop and Martyr",
+    "title_vi": "Thánh Giôxaphát, Giám mục, Tử đạo",
+    "summary_en": "St. Josaphat Kuntsevych is remembered as a martyr for Church unity and the first Eastern Catholic saint declared a martyr. He dedicated his life to reconciling the faithful of his diocese with the See of Rome, facing significant opposition. His witness to unity and truth continues to inspire efforts towards ecumenical dialogue.",
+    "summary_vi": "Thánh Giôxaphát Kuntsevych được tưởng nhớ như một vị tử đạo vì sự hiệp nhất Giáo hội và là vị thánh Đông phương Công giáo đầu tiên được tuyên phong là tử đạo. Ngài đã tận hiến đời mình để hòa giải cộng đoàn giáo phận với Tòa Thánh Rôma, dù gặp nhiều sự chống đối. Chứng tá của ngài về sự hiệp nhất và chân lý tiếp tục truyền cảm hứng cho các nỗ lực đối thoại đại kết.",
+    "body_en": "Josaphat Kuntsevych, born in the late 16th century in the Ruthenian lands, became a monk and later the Archbishop of Polotsk. A zealous pastor, he worked tirelessly to promote liturgical renewal and strengthen the bonds of unity with the Pope. His efforts were met with fierce resistance from those opposed to ecclesial communion, leading to repeated periods of persecution and exile for him and his followers.\n\nHis life culminated in a brutal martyrdom in 1623 at the hands of opponents who saw his push for unity as a betrayal. He was stabbed and drowned in the Western Dvina River, becoming a powerful symbol of sacrifice for the sake of communion. Today, he is honored as a patron of ecumenism and a model of steadfast faith amid division.",
+    "body_vi": "Giôxaphát Kuntsevych, sinh ra vào cuối thế kỷ 16 tại vùng đất Ruthenia, đã trở thành một tu sĩ và sau này là Tổng giám mục của Polotsk. Là một vị mục tử nhiệt thành, ngài làm việc không mệt mỏi để cổ vũ sự canh tân phụng vụ và củng cố những mối liên kết hiệp nhất với Giáo hoàng. Những nỗ lực của ngài đã vấp phải sự chống đối dữ dội từ những người phản đối sự hiệp thông giáo hội, dẫn đến những giai đoạn bị ngược đãi và lưu đày lặp đi lặp lại đối với ngài và những người theo ngài.\n\nCuộc đời ngài kết thúc bằng một cái chết tử đạo tàn khốc vào năm 1623 dưới tay những người đối lập, những người coi việc thúc đẩy hiệp nhất là một sự phản bội. Ngài đã bị đâm và dìm xuống sông Tây Dvina, trở thành một biểu tượng mạnh mẽ của sự hy sinh vì lợi ích của sự hiệp thông. Ngày nay, ngài được tôn kính như một bổn mạng của phong trào đại kết và là mẫu gương về đức tin vững chắc giữa những chia rẽ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This memorial is confirmed in the General Roman Calendar as occurring on November 12.",
+    "confidence_note_vi": "Kỷ niệm này được xác nhận trong Lịch Phụng vụ chung La Mã xảy ra vào ngày 12 tháng 11."
+  },
+  "app_hooks": {
+    "hero_line_en": "Unity often demands the courage of a martyr. Let St. Josaphat's witness inspire your own pursuit of communion and truth.",
+    "hero_line_vi": "Hiệp nhất thường đòi hỏi lòng can đảm của một vị tử đạo. Hãy để chứng tá của Thánh Giôxaphát truyền cảm hứng cho hành trình tìm kiếm sự hiệp thông và chân lý của bạn.",
+    "prayer_prompt_en": "Grant us, O Lord, the spirit of St. Josaphat to seek peace in truth and unity in love.",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng ta tinh thần của Thánh Giôxaphát để tìm kiếm bình an trong chân lý và hiệp nhất trong tình yêu."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings - November 12",
+      "url": "https://bible.usccb.org/bible/readings/111227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org - St. Josaphat",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=2090",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-30",
+    "hebrew": "12 Cheshvan 5788",
+    "islamic_umm_al_qura": "13 Jumada al-Thani 1449 AH",
+    "coptic": "2 Hathor 1744",
+    "ethiopian": "2 Hidar 2020"
+  }
+}

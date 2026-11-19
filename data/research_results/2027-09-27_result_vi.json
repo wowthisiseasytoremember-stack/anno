@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 24 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 24 Mùa Thường Niên",
+    "summary_vi": "Vào Thứ Hai này, Giáo Hội tiếp tục hành trình qua tuần thứ hai mươi tư Mùa Thường Niên. Phụng vụ mời gọi các tín hữu suy ngẫm những giáo huấn của Đức Kitô với phẩm phục màu xanh lá cây, biểu tượng cho sự tăng trưởng và hy vọng trong Chúa Thánh Thần.",
+    "body_vi": "Vì là ngày thường (Feria), ngày này không có lễ trọng hay lễ kính của một vị thánh nào chiếm ưu tiên trong Lịch Rôma Tổng quát năm 2027. Các bài đọc của Thứ Hai tuần 24 sẽ tập trung vào giáo lý và những giáo huấn đạo đức được tìm thấy trong các Thư và Phúc Âm, thúc giục các tín hữu sống lời hứa rửa tội trong cuộc sống hàng ngày.\n\nMàu xanh lá cây của phẩm phục tượng trưng cho thời kỳ thường niên của Giáo Hội, nơi các tín hữu được mời gọi tăng trưởng trong sự thánh thiện qua cầu nguyện, lao động và phục vụ. Không có lễ lớn nào che khuất, trọng tâm vẫn là sự tiến triển vững chắc của đời sống thiêng liêng và việc đón nhận Lời Chúa.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy tăng trưởng trong Thần Khí trong Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên trì để tuân theo ý Chúa trong mọi hành động hàng ngày của con."
+  }
+}

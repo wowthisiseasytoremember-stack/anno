@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-17",
+  "date": "2027-10-17",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "St. Ignatius of Antioch, Bishop and Martyr",
+    "title_vi": "Thánh Inhaxiô thành Antiôkia, Giám mục, Tử đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Ignatius of Antioch, Bishop and Martyr",
+    "title_vi": "Thánh Inhaxiô thành Antiôkia, Giám mục, Tử đạo",
+    "summary_en": "October 17 marks the optional memorial of St. Ignatius of Antioch, an early Church Father and bishop who was martyred in Rome around 107 AD. He is renowned for his seven letters written while en route to martyrdom, which articulate the early Church's understanding of hierarchy, the Eucharist, and Christ's divinity. As a disciple of the Apostle John and successor to Peter in Antioch, Ignatius emphasized unity with the bishop as a safeguard against heresy.",
+    "summary_vi": "Ngày 17 tháng 10 là ngày kính nhớ Thánh Inhaxiô thành Antiôkia, một Giáo phụ thời kỳ đầu và là giám mục đã tử đạo tại Rôma vào khoảng năm 107 sau Công nguyên. Ngài nổi tiếng với bảy bức thư viết trong hành trình đi chịu tử đạo, trình bày quan điểm của Giáo hội sơ khai về phẩm trật, Bí tích Thánh Thể và thần tính của Đức Kitô. Là môn đệ của Tông đồ Gioan và người kế vị Phêrô tại Antiôkia, Inhaxiô nhấn mạnh sự hiệp nhất với giám mục như một yếu tố bảo vệ Giáo hội khỏi lạc giáo.",
+    "body_en": "St. Ignatius of Antioch, known as Theophorus (Bearer of God), serves as a critical bridge between the Apostolic age and the developed early Church theology. His writings, composed during his journey to Rome, provide some of the earliest non-scriptural evidence for the threefold ministry of bishop, priest, and deacon, insisting on their role in preserving the unity of the faithful. He famously described the Church as being in a state of peace when it was unified under the bishop, a liturgical and ecclesiological insight that remains central to Catholic ecclesiology today.\n\nIn his letters, Ignatius offers profound spiritual advice, such as his request to be \"God's wheat\" and ground into pure bread by the teeth of wild beasts, illustrating a deep Eucharistic piety. He urged the Church to celebrate the Eucharist in union with the bishop, viewing this as essential for salvation. His martyrdom in the Colosseum in Rome, where he was devoured by lions, marked him as a powerful witness to the faith, and his feast day reminds the faithful of the price of discipleship and the beauty of unity in Christ.",
+    "body_vi": "Thánh Inhaxiô thành Antiôkia, còn được gọi là Theophorus (Người Mang Đức Chúa Trời), đóng vai trò là cây cầu nối quan trọng giữa thời kỳ Tông truyền và nền thần học Giáo hội sơ khai phát triển. Các bài viết của ngài, được soạn thảo trong hành trình về Rôma, cung cấp một số bằng chứng sớm nhất ngoài Kinh Thánh về chức vụ ba bậc gồm giám mục, linh mục và phó tế, đồng thời khẳng định vai trò của họ trong việc bảo toàn sự hiệp nhất của các tín hữu. Ngài nổi tiếng với việc mô tả Giáo hội ở trong tình trạng bình an khi hiệp nhất dưới quyền giám mục, một cái nhìn phụng vụ và giáo hội học vẫn còn trung tâm trong thần học Giáo hội Công giáo hiện đại.\n\nTrong các bức thư của mình, Inhaxiô đưa ra những lời khuyên tâm linh sâu sắc, chẳng hạn như lời cầu xin được làm \"lúa mì của Thiên Chúa\" và bị nghiền thành bánh tinh tuyền qua răng của thú dữ, thể hiện lòng đạo đức Thánh Thể sâu sắc. Ngài kêu gọi Giáo hội cử hành Bí tích Thánh Thể trong sự hiệp nhất với giám mục, xem điều này là thiết yếu cho ơn cứu độ. Cái chết tử đạo của ngài tại đấu trường La Mã ở Rôma, khi bị sư tử xé xác, đã đánh dấu ngài là một chứng nhân mạnh mẽ của đức tin, và ngày lễ của ngài nhắc nhở các tín hữu về giá trị của việc môn đệ hóa và vẻ đẹp của sự hiệp nhất trong Đức Kitô.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Unity with the Bishop: The Legacy of St. Ignatius of Antioch",
+    "hero_line_vi": "Hiệp nhất với Giám mục: Di sản của Thánh Inhaxiô thành Antiôkia",
+    "prayer_prompt_en": "Lord, through the intercession of St. Ignatius, grant us the grace to love the Church's unity and to cherish the Eucharist as the source and summit of our life.",
+    "prayer_prompt_vi": "Lạy Chúa, nhờ lời bầu cử của Thánh Inhaxiô, xin ban cho chúng con ân sủng yêu mến sự hiệp nhất của Giáo hội và trân trọng Bí tích Thánh Thể như nguồn mạch và đỉnh cao của đời sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/101727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Saints",
+      "url": "https://www.catholicculture.org/culture/liturgical-calendar/view.cfm?date=2027-10-17",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-04",
+    "hebrew": "16 Tisrei 5788",
+    "islamic_umm_al_qura": "17 Jumada al-Awwal 1449 AH",
+    "coptic": "6 Paopi 1744",
+    "ethiopian": "6 Tikemet 2020"
+  }
+}

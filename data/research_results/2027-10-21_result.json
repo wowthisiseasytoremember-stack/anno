@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-10-21",
+  "date": "2027-10-21",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 27",
+    "title_vi": "Thứ Năm tuần 27 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the 27th Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần 27 Mùa Thường Niên",
+    "summary_en": "On this Thursday, the Church observes a feria of the 27th Week in Ordinary Time. The liturgical focus remains on the growth of faith and the steady progression of the Christian life during this season. No specific saint or feast overrides the ordinary cycle, emphasizing the quiet fidelity required in daily prayer and work.",
+    "summary_vi": "Vào ngày Thứ Năm này, Hội Thánh cử hành ngày thường tuần 27 Mùa Thường Niên. Trọng tâm phụng vụ vẫn là sự tăng trưởng đức tin và sự tiến triển ổn định của đời sống Kitô hữu trong mùa này. Không có thánh hay lễ cụ thể nào thay thế chu kỳ thường lệ, nhấn mạnh sự trung thành thầm lặng cần thiết trong cầu nguyện và lao động hằng ngày.",
+    "body_en": "The Liturgy of the Word for this Thursday invites the faithful to reflect on the passages prescribed for the 27th Week in Ordinary Time. These readings typically emphasize the importance of perseverance, humility, and the active listening required of disciples. The green vestments symbolize hope and the ongoing growth of the Church, reminding believers that spiritual maturity often develops in the ordinary moments of daily life rather than solely in extraordinary events.\n\nAs the week progresses, the Church encourages the faithful to maintain their rhythm of prayer, including the recitation of the Liturgy of the Hours. This period serves as a time for deepening one's relationship with Christ through consistent fidelity to small duties. The absence of a major feast allows for a contemplative silence, where the mundane tasks of life become opportunities for sanctification and service to neighbors.",
+    "body_vi": "Phụng vụ Lời Chúa trong ngày Thứ Năm này mời gọi các tín hữu suy gẫm các đoạn Kinh Thánh được quy định cho tuần 27 Mùa Thường Niên. Các bài đọc thường nhấn mạnh tầm quan trọng của sự kiên trì, đức khiêm nhường và thái độ lắng nghe tích cực cần có của các môn đệ. Áo lễ màu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng không ngừng của Hội Thánh, nhắc nhở các tín hữu rằng sự trưởng thành thiêng liêng thường phát triển trong những khoảnh khắc bình thường của đời sống hằng ngày hơn là chỉ trong các biến cố phi thường.\n\nKhi tuần lễ tiến triển, Hội Thánh khuyến khích các tín hữu duy trì nhịp cầu nguyện, bao gồm việc đọc Kinh Nhật Tụng. Khoảng thời gian này phục vụ cho việc đào sâu mối tương quan với Chúa Kitô qua sự trung thành nhất quán với các bổn phận nhỏ bé. Sự vắng mặt của một lễ lớn cho phép một sự thinh lặng chiêm niệm, nơi các nhiệm vụ tầm thường trong cuộc sống trở thành cơ hội để thánh hóa và phục vụ tha nhân.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growing in the Quiet of Ordinary Days",
+    "hero_line_vi": "Tăng trưởng trong sự bình lặng của những ngày thường",
+    "prayer_prompt_en": "Lord, grant me the grace to find You in the ordinary moments of today.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để tìm thấy Chúa trong những khoảnh khắc bình thường của hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/102127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/calendar/day.cfm?year=2027&month=10&day=21",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Saint of the Day",
+      "url": "https://www.newadvent.org/cathen/10455a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-10-08",
+    "hebrew": "20 Tisrei 5788",
+    "islamic_umm_al_qura": "21 Jumada al-Awwal 1449 AH",
+    "coptic": "10 Paopi 1744",
+    "ethiopian": "10 Tikemet 2020"
+  }
+}

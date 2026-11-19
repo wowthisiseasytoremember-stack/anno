@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-30",
+  "date": "2027-09-30",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Jerome, Priest and Doctor",
+    "title_vi": "Thánh Giêrônimô, Linh mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Jerome, Priest and Doctor",
+    "title_vi": "Thánh Giêrônimô, Linh mục, Tiến sĩ Hội Thánh",
+    "summary_en": "The Church celebrates the memorial of St. Jerome, a prominent Church Father and the translator of the Bible into Latin (the Vulgate). His feast day on September 30 marks the traditional anniversary of his death in Bethlehem. He is honored for his profound scholarship, ascetic life, and dedication to Scripture.",
+    "summary_vi": "Hội Thánh cử hành lễ kính nhớ Thánh Giêrônimô, một Giáo phụ lỗi lạc và là người đã dịch Kinh Thánh sang tiếng Latinh (Vulgata). Ngày lễ 30 tháng 9 đánh dấu kỷ niệm truyền thống về cái chết của ngài tại Bêlem. Ngài được tôn kính vì học vấn uyên bác, đời sống khổ chế và lòng tận hiến cho Kinh Thánh.",
+    "body_en": "St. Jerome was born in Stridon, a town in modern-day Croatia, around 347 AD. After a period of study in Rome, he traveled to the East, learning Hebrew and Greek, and eventually settled in Bethlehem, where he established a monastery. His most enduring legacy is his translation of the Scriptures into Latin, known as the Vulgate, which became the standard text for the Western Church for over a millennium.\n\nJerome was also a prolific writer of letters, commentaries, and polemics, often engaging in theological debates with contemporaries like Augustine. He died in Bethlehem on September 30, 420 AD, after a life of intense scholarly work and spiritual rigor. Today, he is revered as a Doctor of the Church, particularly for his contributions to biblical exegesis and his defense of the canonical texts.",
+    "body_vi": "Thánh Giêrônimô sinh tại Stridon, một thị trấn thuộc Croatia ngày nay, vào khoảng năm 347 sau Công nguyên. Sau một thời gian học tập tại Rôma, ngài đã đi về phương Đông, học tiếng Do Thái và tiếng Hy Lạp, và cuối cùng định cư tại Bêlem, nơi ngài thành lập một tu viện. Di sản lâu bền nhất của ngài là bản dịch Kinh Thánh sang tiếng Latinh, được gọi là Vulgata, trở thành văn bản chuẩn cho Hội Thánh Tây phương trong hơn một thiên niên kỷ.\n\nJerome cũng là một nhà văn sáng tác nhiều thư từ, chú giải và bút chiến, thường tham gia vào các cuộc tranh luận thần học với những người đồng thời như Augustine. Ngài qua đời tại Bêlem vào ngày 30 tháng 9 năm 420 sau Công nguyên, sau một cuộc đời đầy nỗ lực học thuật nghiêm khắc và khắc khổ. Ngày nay, ngài được tôn vinh là Tiến sĩ Hội Thánh, đặc biệt vì những đóng góp của ngài vào chú giải Kinh Thánh và việc bảo vệ các văn bản kinh điển.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "The great translator of the Bible into Latin",
+    "hero_line_vi": "Nhà dịch giả vĩ đại của Kinh Thánh sang tiếng Latinh",
+    "prayer_prompt_en": "Ask for Jerome's intercession to deepen your love and understanding of Scripture.",
+    "prayer_prompt_vi": "Hãy cầu xin sự chuyển cầu của Thánh Giêrônimô để làm sâu sắc thêm tình yêu và sự hiểu biết của bạn về Kinh Thánh."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for September 30, 2027",
+      "url": "https://bible.usccb.org/bible/readings/093027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Saint Jerome, Doctor",
+      "url": "https://www.newadvent.org/fathers/2601.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-17",
+    "hebrew": "28 Elul 5787",
+    "islamic_umm_al_qura": "29 Rabi' al-Thani 1449 AH",
+    "coptic": "19 Thout 1744",
+    "ethiopian": "19 Meskerem 2020"
+  }
+}

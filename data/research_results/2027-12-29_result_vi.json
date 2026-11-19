@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Giáng Sinh",
+    "summary_vi": "Thứ Tư này nằm trong Tuần Bát Nhật Lễ Chúa Giáng Sinh. Đây là ngày thường trong tuần được cử hành với màu phụng vụ trắng. Trọng tâm vẫn là mầu nhiệm Nhập Thể trong mùa thánh này.",
+    "body_vi": "Trong Lịch Phụng Vụ Rôma, ngày 29 tháng 12 là ngày trong tuần Mùa Giáng Sinh, tiếp nối việc cử hành Lễ Chúa Giáng Sinh. Hội Thánh mời gọi các tín hữu suy gẫm về Ngôi Lời nhập thể, nhấn mạnh sự khiêm nhường và ánh sáng của mầu nhiệm Nhập Thể. Không có lễ buộc hay lễ nhớ nào ưu tiên, nên Kinh Nhật Tụng được cầu nguyện theo ngày trong Tuần Bát Nhật.\n\nCác văn bản phụng vụ cho ngày này thường trích dẫn từ các Thánh Vịnh và bài đọc làm nổi bật ý nghĩa của việc Thiên Chúa cư ngụ giữa nhân loại. Là một ngày thường, nó cho phép lòng sùng kính cá nhân nhưng vẫn bám rễ vào các bản văn riêng theo mùa. Màu trắng biểu thị niềm vui và sự thanh khiết, đánh dấu sự hiện diện của Thiên Chúa trong lịch sử cứu độ được cử hành trong suốt Mùa Giáng Sinh.",
+    "confidence_note_vi": "Bậc lễ và màu sắc được xác nhận bởi Lịch Phụng Vụ Rôma cho một ngày trong tuần thuộc Tuần Bát Nhật Giáng Sinh."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ngôi Lời làm người, cư ngụ giữa chúng ta.",
+    "prayer_prompt_vi": "Cầu nguyện với sự khiêm nhường và lòng biết ơn khi suy niệm về mầu nhiệm Nhập Thể."
+  }
+}

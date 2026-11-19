@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 27 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 27 Mùa Thường Niên",
+    "summary_vi": "Vào ngày Thứ Năm này, Hội Thánh cử hành ngày thường tuần 27 Mùa Thường Niên. Trọng tâm phụng vụ vẫn là sự tăng trưởng đức tin và sự tiến triển ổn định của đời sống Kitô hữu trong mùa này. Không có thánh hay lễ cụ thể nào thay thế chu kỳ thường lệ, nhấn mạnh sự trung thành thầm lặng cần thiết trong cầu nguyện và lao động hằng ngày.",
+    "body_vi": "Phụng vụ Lời Chúa trong ngày Thứ Năm này mời gọi các tín hữu suy gẫm các đoạn Kinh Thánh được quy định cho tuần 27 Mùa Thường Niên. Các bài đọc thường nhấn mạnh tầm quan trọng của sự kiên trì, đức khiêm nhường và thái độ lắng nghe tích cực cần có của các môn đệ. Áo lễ màu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng không ngừng của Hội Thánh, nhắc nhở các tín hữu rằng sự trưởng thành thiêng liêng thường phát triển trong những khoảnh khắc bình thường của đời sống hằng ngày hơn là chỉ trong các biến cố phi thường.\n\nKhi tuần lễ tiến triển, Hội Thánh khuyến khích các tín hữu duy trì nhịp cầu nguyện, bao gồm việc đọc Kinh Nhật Tụng. Khoảng thời gian này phục vụ cho việc đào sâu mối tương quan với Chúa Kitô qua sự trung thành nhất quán với các bổn phận nhỏ bé. Sự vắng mặt của một lễ lớn cho phép một sự thinh lặng chiêm niệm, nơi các nhiệm vụ tầm thường trong cuộc sống trở thành cơ hội để thánh hóa và phục vụ tha nhân.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong sự bình lặng của những ngày thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để tìm thấy Chúa trong những khoảnh khắc bình thường của hôm nay."
+  }
+}

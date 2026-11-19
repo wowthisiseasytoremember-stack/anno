@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Ngày trong Mùa Vọng",
+    "summary_vi": "Thứ Hai này rơi vào nửa sau của Mùa Vọng, thời kỳ tập trung vào việc chuẩn bị thiêng liêng cho Lễ Giáng Sinh của Chúa. Màu phụng vụ là tím, tượng trưng cho sự sám hối, khiêm nhường và niềm hy vọng chờ đợi. Vì là ngày thường, không có lễ kính thánh nào bắt buộc vượt trên chủ đề của Mùa Vọng. Tín hữu được mời gọi suy niệm về việc Chúa Kitô đến trong sự khiêm nhường và cầu nguyện.",
+    "body_vi": "Việc cử hành phụng vụ trong ngày này được đặc trưng bởi việc không có lễ kính một vị thánh cụ thể, hướng sự tập trung hoàn toàn vào mầu nhiệm của Mùa Vọng. Trong giai đoạn cuối cùng của mùa phụng vụ, các bài đọc và lời cầu nguyện thường nhấn mạnh tầm quan trọng của việc chờ đợi với lòng trung tín và chuẩn bị tâm hồn để đón nhận Đấng Cứu Thế. Áo lễ màu tím phục vụ như một lời nhắc nhở trực quan liên tục về thái độ nội tâm cần thiết cho biến cố Nhập Thể, vốn diễn ra trong sự nghèo khó và khiêm nhường tại Bêlem.\n\nTín hữu được khuyến khích tham gia vào các thực hành từ bỏ bản thân và tăng cường cầu nguyện, để align đời sống của họ với sự ra đời khiêm hạ của Chúa Giêsu. Ngày trong tuần này đóng vai trò như một điểm kiểm tra tâm linh, mời gọi suy niệm về mức độ cộng đoàn và cá nhân đã giữ được tinh thần chờ đợi kể từ đầu năm phụng vụ. Các bản văn phụng vụ trong ngày sẽ phản ánh sự trang nghiêm và cấp bách của lễ mừng sắp tới, thúc đẩy Giáo Hội tỉnh thức và sẵn sàng.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hy Vọng Chờ Đợi: Sức Mạnh Tĩnh Lặng Của Mùa Vọng",
+    "prayer_prompt_vi": "Lạy Chúa, xin chuẩn bị con tim con hôm nay để đón nhận Chúa. Xin ban cho con sự khiêm nhường để chờ đợi trung tín và lòng can đảm để thay đổi."
+  }
+}

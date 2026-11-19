@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-15",
+  "date": "2027-12-15",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Wednesday of Advent",
+    "title_vi": "Thứ Tư Mùa Vọng",
+    "summary_en": "This Wednesday falls within the season of Advent, a time of preparation and expectation for the coming of Christ. The liturgical color is purple, symbolizing penance and waiting. As a feria, it holds a lower rank than solemnities or feasts, focusing the faithful on the ordinary daily progression of the liturgical year.",
+    "summary_vi": "Thứ Tư này rơi vào mùa Vọng, thời gian chuẩn bị và chờ đợi sự đến của Đức Kitô. Màu phụng vụ là tím, tượng trưng cho sự thống hối và chờ đợi. Là một ngày thường, nó có bậc thấp hơn các lễ trọng hay lễ kính, tập trung các tín hữu vào tiến trình hàng ngày thông thường của năm phụng vụ.",
+    "body_en": "The Wednesday of Advent Weekday in December 2027 serves as a moment of quiet reflection amidst the anticipation of the Nativity. The readings and prayers for this day emphasize repentance and the readiness of the soul to receive the Lord, drawing from the Old Testament prophecies and the New Testament teachings on vigilance.\n\nLiturgically, the absence of a specific saint's feast means the focus remains entirely on the Advent journey. The faithful are invited to participate in the Mass with a disposition of humility and hope, acknowledging the historical and spiritual significance of the season without the interruption of particular hagiographical celebrations.",
+    "body_vi": "Thứ Tư trong tuần Mùa Vọng tháng 12 năm 2027 là khoảnh khắc suy tư tĩnh lặng giữa sự mong chờ Lễ Giáng Sinh. Các bài đọc và lời nguyện của ngày này nhấn mạnh sự ăn năn và sẵn sàng của linh hồn để đón nhận Chúa, lấy cảm hứng từ các lời tiên tri trong Cựu Ước và các giáo huấn trong Tân Ước về sự tỉnh thức.\n\nVề mặt phụng vụ, việc thiếu vắng một ngày lễ thánh cụ thể có nghĩa là trọng tâm hoàn toàn nằm ở hành trình Mùa Vọng. Các tín hữu được mời gọi tham dự Thánh lễ với thái độ khiêm nhường và hy vọng, nhìn nhận ý nghĩa lịch sử và tinh thần của mùa này mà không bị gián đoạn bởi các cuộc cử hành thánh sử cụ thể.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The liturgical ranking and color are determined by the standard General Roman Calendar for the Wednesday within Advent, which is consistently a feria of purple color.",
+    "confidence_note_vi": "Thứ bậc phụng vụ và màu sắc được xác định bởi Lịch Rôma Chung chuẩn cho Thứ Tư trong tuần Mùa Vọng, luôn là ngày thường với màu tím."
+  },
+  "app_hooks": {
+    "hero_line_en": "Prepare the way of the Lord",
+    "hero_line_vi": "Hãy dọn đường Chúa",
+    "prayer_prompt_en": "Grant us, O Lord, the grace to wake with clear eyes and hearts ready for Your coming.",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng con ân sủng để thức dậy với đôi mắt sáng ngời và tâm hồn sẵn sàng đón Chúa đến."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/121527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-02",
+    "hebrew": "15 Kislev 5788",
+    "islamic_umm_al_qura": "17 Rajab 1449 AH",
+    "coptic": "5 Koiak 1744",
+    "ethiopian": "5 Tahsas 2020"
+  }
+}

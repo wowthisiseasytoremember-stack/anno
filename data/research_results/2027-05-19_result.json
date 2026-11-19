@@ -14,8 +14,11 @@
     "title_vi": "Thứ Tư Tuần IV Mùa Phục Sinh",
     "summary_en": "This day falls within the season of Easter, the fifty-day period celebrating the Resurrection of the Lord. In the Ordinary Form of the Roman Rite, days are typically 'Feria' (weekday) unless they possess a higher rank such as a Feast or Solemnity. May 19 has no obligatory memorial in the General Roman Calendar, so the liturgical texts focus on the Paschal mystery and the growth of the early Church as narrated in Acts. The liturgical color is green, signifying a time of spiritual growth and discipleship.",
     "summary_vi": "Ngày này rơi vào Mùa Phục Sinh, khoảng thời gian 50 ngày mừng kính sự Phục Sinh của Chúa. Trong Hình thức Thông thường của Nghi thức Rôma, các ngày thường lệ thường là 'Thứ Tư' (feria) trừ khi có bậc cao hơn như Lễ kính hoặc Lễ trọng. Ngày 19 tháng 5 không có lễ nhớ buộc nào trong Lịch Rôma Chung, do đó các bản văn phụng vụ tập trung vào mầu nhiệm Vượt Qua và sự phát triển của Giáo hội sơ khai như được kể trong sách Công vụ. Màu phụng vụ là xanh lục, báo hiệu thời kỳ tăng trưởng thiêng liêng và đời sống môn đệ.",
-    "body_en": "The liturgical celebration on Wednesday, May 19, 2027, is a Feria in the Fourth Week of Easter. The readings for this day continue to reflect on the post-Resurrection appearances and the early community of believers. Priests typically wear green vestments, and the readings are drawn from the New Testament passages concerning the early Church and the Gospel accounts of Christ's presence after his Resurrection. No saints are commemorated on this date.",
-    "body_vi": "Việc cử hành phụng vụ vào Thứ Tư, ngày 19 tháng 5 năm 2027, là một ngày thường lệ trong Tuần IV Mùa Phục Sinh. Các bài đọc trong ngày này tiếp tục phản ánh các lần hiện ra sau khi Phục Sinh và cộng đoàn tín hữu sơ khai. Linh mục thường mặc áo lễ màu xanh lá cây, và các bài đọc được trích từ các đoạn Tân Ước liên quan đến Giáo hội sơ khai và các trình thuật Tin Mừng về sự hiện diện của Chúa Kitô sau khi Người sống lại. Không có vị thánh nào được kính nhớ trong ngày này."
+    "body_en": "The liturgical celebration on Wednesday, May 19, 2027, is a Feria in the Fourth Week of Easter. The readings for this day continue to reflect on the post-Resurrection appearances and the early community of believers.\n\nPriests typically wear green vestments, and the readings are drawn from the New Testament passages concerning the early Church and the Gospel accounts of Christ's presence after his Resurrection. No saints are commemorated on this date.",
+    "body_vi": "Việc cử hành phụng vụ vào Thứ Tư, ngày 19 tháng 5 năm 2027, là một ngày thường lệ trong Tuần IV Mùa Phục Sinh. Các bài đọc trong ngày này tiếp tục phản ánh các lần hiện ra sau khi Phục Sinh và cộng đoàn tín hữu sơ khai.\n\nLinh mục thường mặc áo lễ màu xanh lá cây, và các bài đọc được trích từ các đoạn Tân Ước liên quan đến Giáo hội sơ khai và các trình thuật Tin Mừng về sự hiện diện của Chúa Kitô sau khi Người sống lại. Không có vị thánh nào được kính nhớ trong ngày này.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
   },
   "app_hooks": {
     "hero_line_en": "Walking in the Light of the Resurrection",
@@ -41,5 +44,6 @@
     "islamic_umm_al_qura": "12 Dhu al-Hijjah 1448 AH",
     "coptic": "11 Bashans 1743",
     "ethiopian": "11 Bashans 1743"
-  }
+  },
+  "mock_priority": "engine_b_v1"
 }

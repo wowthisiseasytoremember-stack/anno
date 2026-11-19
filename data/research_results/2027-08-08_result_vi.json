@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Đaminh, Linh mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Đaminh, Linh mục",
+    "summary_vi": "Giáo hội kỷ niệm Thánh Đaminh, vị sáng lập Dòng Giảng Thuyết. Ngài được tôn vinh vì lòng nhiệt thành trong việc giảng dạy, giảng thuyết và chống lại lạc giáo bằng chân lý và đức ái. Lễ kính ngài được cử hành vào ngày 8 tháng 8, trùng với Chúa nhật IX Mùa Thường Niên năm 2027.",
+    "body_vi": "Thánh Đaminh de Guzmán (1170–1221) là một linh mục người Tây Ban Nha, người đã sáng lập Dòng Anh Em Giảng Thuyết (Dòng Đaminh) tại Toulouse. Ngài nhấn mạnh tầm quan trọng của việc học hỏi và sự khó nghèo, tin rằng việc giảng thuyết hiệu quả đòi hỏi sự hiểu biết sâu sắc về giáo lý thánh thiêng. Cách tiếp cận của ngài kết hợp sự nghiêm túc về trí tuệ với tinh thần từ bi, ảnh hưởng đến thần học và việc giảng thuyết Công giáo qua nhiều thế kỷ.\n\nVào Chúa nhật này, các văn bản phụng vụ tập trung vào bài Tin Mừng cho Chúa nhật IX Mùa Thường Niên, trong khi các lời nguyện nhắc đến Thánh Đaminh. Tín hữu được mời gọi noi gương sự dấn thân của Đaminh đối với chân lý và lòng yêu mến Giáo hội. Di sản của ngài tiếp tục qua sứ mạng giảng dạy và rao truyền ân sủng của Dòng Đaminh.",
+    "confidence_note_vi": "Thánh Đaminh là một vị thánh được xác nhận trong Lịch Phụng vụ Rôma phổ quát với ngày cố định là 8 tháng 8."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Chân lý, được rao giảng với Đức Ái",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho chúng con lòng nhiệt thành của Thánh Đaminh để tìm kiếm và rao giảng chân lý của Ngài."
+  }
+}

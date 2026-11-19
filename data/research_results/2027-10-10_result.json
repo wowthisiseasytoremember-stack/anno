@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-10-10",
+  "date": "2027-10-10",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 26",
+    "title_vi": "Chúa Nhật tuần 26 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Twenty-sixth Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật 26 Mùa Thường Niên",
+    "summary_en": "The liturgical focus for October 10, 2027, is the Twenty-Sixth Sunday in Ordinary Time. The readings emphasize the theme of stewardship and accountability to God. The Gospel reading typically presents a parable regarding how believers handle what is entrusted to them.",
+    "summary_vi": "Trọng tâm phụng vụ ngày 10 tháng 10 năm 2027 là Chúa Nhật 26 Mùa Thường Niên. Các bài đọc nhấn mạnh chủ đề về sự quản lý và trách nhiệm với Thiên Chúa. Bài Tin Mừng thường trình bày một dụ ngôn về cách các tín hữu xử lý những gì được trao phó cho họ.",
+    "body_en": "On this Sunday, the Church invites the faithful to reflect on the parables of stewardship found in the Lukan narrative. The primary instruction centers on the use of worldly resources to make eternal friends, urging believers to be faithful in very little so that they may be trusted with much. This teaching underscores that wealth is not an end in itself but a tool for spiritual growth and charitable action.\n\nThe First Reading from the Prophet Amos serves as a counterpoint to complacency, warning against those who are at ease in Zion while ignoring the poor. Together with the Psalm, which praises God as the creator and provider, and the Second Reading, which calls for prayer and confession, the liturgy forms a cohesive call to humility. The Green vestments signify the ordinary time of growth and maturity in the faith, where the seeds sown in earlier seasons are meant to bear fruit through disciplined Christian living.",
+    "body_vi": "Trong Chúa Nhật này, Giáo hội mời gọi các tín hữu suy niệm về các dụ ngôn về sự quản lý trong Tin Mừng Luca. Lời dạy chính tập trung vào việc sử dụng tài sản thế gian để kết bạn vĩnh cửu, thúc giục các tín hữu phải trung tín trong điều nhỏ mọn để được giao phó điều lớn lao. Bài học này nhấn mạnh rằng sự giàu có không phải là mục đích tự thân mà là công cụ cho sự phát triển tâm linh và hành động bác ái.\n\nBài đọc một từ ngôn sứ Amos đóng vai trò đối trọng với sự tự mãn, cảnh báo chống lại những người an nhàn tại Zion trong khi phớt lờ người nghèo. Cùng với Thánh Vịnh ca ngợi Thiên Chúa là Đấng tạo hóa và quan phòng, và Bài đọc hai kêu gọi cầu nguyện và xưng thú, phụng vụ tạo thành một lời kêu gọi nhất quán hướng đến sự khiêm nhường. Phẩm phục màu Xanh lục biểu thị thời gian tăng trưởng và trưởng thành trong đức tin, nơi những hạt giống đã gieo trong những mùa trước phải sinh hoa trái qua đời sống Kitô giáo có kỷ luật.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faithfulness in little things reveals the heart's true treasure.",
+    "hero_line_vi": "Sự trung tín trong điều nhỏ mọn mạc khải kho tàng thật sự của tâm hồn.",
+    "prayer_prompt_en": "Lord, grant me wisdom to use what I have for Your Kingdom.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự khôn ngoan để sử dụng những gì con có cho Nước Trời của Ngài."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/101027.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-27",
+    "hebrew": "9 Tisrei 5788",
+    "islamic_umm_al_qura": "10 Jumada al-Awwal 1449 AH",
+    "coptic": "29 Thout 1744",
+    "ethiopian": "29 Meskerem 2020"
+  }
+}

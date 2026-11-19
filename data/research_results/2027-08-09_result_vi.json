@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 17 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 17 Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày lễ thường (feria) trong tuần thứ mười bảy Mùa Thường Niên, được đánh dấu bằng màu phụng vụ xanh lá. Không có lễ kính hay lễ nhớ nào bắt buộc thay thế việc giữ ngày trong tuần theo Lịch Phụng vụ Rôma chung vào ngày cụ thể này. Trọng tâm là sự tăng trưởng liên tục của cộng đoàn tín hữu qua Phụng vụ Lời Chúa hằng ngày và hy tế Thánh Thể.",
+    "body_vi": "Bậc phụng vụ cho ngày 9 tháng 8 năm 2027 là một ngày lễ thường đơn giản, chỉ ra một ngày tuân giữ thông lệ trong chu kỳ thời gian của năm phụng vụ. Khác với các lễ trọng hay lễ kính, không có bản văn riêng biệt cho một sự kiện cụ thể, mà thay vào đó là sự tiếp nối các bài đọc và lời nguyện dành cho ngày trong tuần của tuần 17 Mùa Thường Niên. Màu xanh lá cây tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của đời sống Kitô hữu, nhắc nhở các tín hữu về hành trình liên lỉ của họ hướng tới ơn cứu độ.\n\nTrong bối cảnh của lịch phụng vụ phổ quát, không có lễ nhớ thánh nào bắt buộc phải thay thế giờ kinh nhật khóa ngày trong tuần. Mặc dù một số lịch địa phương hoặc dòng tu có thể cử hành các vị bổn mạng cụ thể, lịch Rôma vẫn coi đây là một ngày tiêu chuẩn. Bài tập thiêng liêng chính yếu là sự chú tâm vào các đoạn Thánh Kinh và lời nguyện Thánh Thể, những yếu tố duy trì cộng đoàn trong suốt thời gian Mùa Thường Niên này.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi vững chãi trong cánh đồng xanh của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên vững trong những khoảnh khắc bình thường của tuần này."
+  }
+}

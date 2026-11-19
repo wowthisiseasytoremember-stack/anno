@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 23 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 23 Mùa Thường Niên",
+    "summary_vi": "Hội Thánh cử hành Thứ Sáu tuần 23 Mùa Thường Niên. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự sống. Ngày này thuộc chu kỳ thông thường của đức tin, mời gọi các tín hữu tăng trưởng trong sự thánh thiện qua việc đạo đức hằng ngày.",
+    "body_vi": "Trong các ngày Thứ Sáu Mùa Thường Niên, Hội Thánh khuyến khích các tín hữu sống tinh thần sám hối và khiêm nhường, thường suy niệm về cuộc Thương Khó của Chúa Kitô. Các bài đọc phụng vụ trong ngày này hướng dẫn cộng đoàn hiểu biết sâu sắc hơn về sứ điệp Tin Mừng trong cuộc sống hằng ngày.\n\nCác lời nguyện tín hữu và kinh nguyện nhật của Phụng vụ Các Giờ Kinh giúp thánh hóa công việc và nghỉ ngơi của ngày. Là một ngày thường, trọng tâm vẫn là sự tăng trưởng vững chắc và âm thầm của nhân đức Kitô giáo, khác biệt với niềm vui cao độ của các ngày lễ hay sự sám hối long trọng của các ngày lễ lớn.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tín trung trong những điều thường nhật",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con tìm thấy Chúa trong công việc hằng ngày."
+  }
+}

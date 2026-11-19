@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-12-19",
+  "date": "2027-12-19",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Third Sunday of Advent",
+    "title_vi": "Chúa nhật III Mùa Vọng",
+    "summary_en": "The Third Sunday of Advent, known as Gaudete Sunday, marks the midpoint of the Advent season with a call to rejoicing. The liturgical color is rose, symbolizing joy amid penitential preparation. This day focuses on the imminent arrival of the Lord and the joy of salvation.",
+    "summary_vi": "Chúa nhật III Mùa Vọng, còn gọi là Chúa nhật Vui (Gaudete), đánh dấu điểm giữa của mùa Vọng với lời mời gọi hân hoan. Màu sắc phụng vụ là hồng, tượng trưng cho niềm vui trong tâm tình sám hối chuẩn bị. Ngày này tập trung vào sự hiện đến gần của Chúa và niềm vui cứu độ.",
+    "body_en": "Gaudete Sunday is a unique moment in the Western liturgical calendar where the penitential discipline is temporarily lifted in favor of a joyful anticipation. The rose vestments serve as a visual sign of this partial release from the rigor of Advent, blending the hope of the season with the joy of the upcoming Nativity. Faithful are encouraged to find strength in this day, reflecting on the scriptural readings that proclaim the steadfastness of God and the joy of the nearness of the Kingdom.\n\nThe liturgy emphasizes a shift from long-awaited hope to imminent celebration. The readings invite the faithful to rejoice because the Lord is at hand, echoing the prophetic promises of Isaiah and the Gospel accounts of John the Baptist. This transitional day prepares the heart to transition from the expectation of the first coming to the celebration of the Incarnation.",
+    "body_vi": "Chúa nhật Vui là một khoảnh khắc đặc biệt trong lịch phụng vụ Latinh, nơi kỷ luật sám hối tạm thời được giảm nhẹ để nhường chỗ cho niềm vui chờ đợi. Áo lễ màu hồng đóng vai trò như một dấu hiệu trực quan cho sự nhẹ nhàng này khỏi sự khắc nghiệt của Mùa Vọng, pha trộn niềm hy vọng của mùa với niềm vui của việc Giáng Sinh sắp tới. Tín hữu được mời gọi tìm thấy sức mạnh trong ngày này, suy ngẫm về các bài đọc Kinh Thánh loan báo sự kiên định của Thiên Chúa và niềm vui của Nước Trời gần kề.\n\nPhụng vụ nhấn mạnh sự chuyển đổi từ niềm hy vọng chờ đợi lâu dài sang sự hân hoan ăn mừng. Các bài đọc mời gọi tín hữu hân hoan vì Chúa đã đến gần, vang vọng lời hứa ngôn sứ Isaia và các bài Tin Mừng về Gioan Tẩy Giả. Ngày chuyển tiếp này chuẩn bị tâm hồn để chuyển từ sự mong đợi lần hiện đến đầu tiên sang việc cử hành Mầu nhiệm Nhập Thể.",
+    "confidence": "confirmed",
+    "confidence_note_en": "This is a fixed date on the General Roman Calendar; Sundays in Advent are solemn observances of high rank.",
+    "confidence_note_vi": "Đây là ngày cố định trên Lịch Phụng vụ Rôma; các Chúa nhật Mùa Vọng là các cử hành trang trọng có cấp bậc cao."
+  },
+  "app_hooks": {
+    "hero_line_en": "Rejoice in the Lord, for He is near.",
+    "hero_line_vi": "Hãy hân hoan trong Chúa, vì Người đã đến gần.",
+    "prayer_prompt_en": "Pray for the grace to rejoice in God's presence amidst daily trials.",
+    "prayer_prompt_vi": "Cầu xin ơn biết hân hoan trong sự hiện diện của Thiên Chúa giữa những thử thách hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/121927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/01289a.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2027-12-19",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-06",
+    "hebrew": "19 Kislev 5788",
+    "islamic_umm_al_qura": "21 Rajab 1449 AH",
+    "coptic": "9 Koiak 1744",
+    "ethiopian": "9 Tahsas 2020"
+  }
+}

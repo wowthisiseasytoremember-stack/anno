@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-07-26",
+  "date": "2027-07-26",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "Sts. Joachim and Anne, Parents of the Blessed Virgin Mary",
+    "title_vi": "Thánh Gioakim và Thánh Anna, Thân Phụ Mẫu Đức Mẹ"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Saints Joachim and Anne, Parents of the Blessed Virgin Mary",
+    "title_vi": "Thánh Gioakim và Thánh Anna, Thân mẫu của Đức Trinh Nữ Maria",
+    "summary_en": "The Church celebrates the memorial of Saints Joachim and Anne, the parents of the Blessed Virgin Mary and the grandparents of Jesus. This feast highlights the importance of family life and the transmission of faith across generations. They are venerated for their role in preparing the world for the coming of the Messiah through their daughter Mary.",
+    "summary_vi": "Giáo Hội cử hành lễ nhớ Thánh Gioakim và Thánh Anna, Thân phụ và Thân mẫu của Đức Trinh Nữ Maria, và là ông bà của Chúa Giêsu. Lễ này nhấn mạnh tầm quan trọng của đời sống gia đình và việc truyền thụ đức tin qua các thế hệ. Họ được tôn kính vì vai trò chuẩn bị cho thế giới đón Đấng Mêsia qua con gái của họ là Maria.",
+    "body_en": "Saints Joachim and Anne are traditionally revered as the parents of Mary, and thus the grandparents of Jesus. Although not explicitly detailed in the canonical Gospels, their names and story are preserved in the Protoevangelium of James and upheld by Church tradition. Their feast day, celebrated on July 26, invites the faithful to reflect on the sanctity of family and the humble, often hidden, work of ancestors in God's plan.\n\nIn recent years, Pope Francis has emphasized the role of grandparents in transmitting faith, aligning with the example of Joachim and Anne. They serve as models of patience, prayer, and fidelity, waiting with hope for the fulfillment of God's promise. The liturgical color white signifies the joy and purity associated with their holy role in the lineage of Christ.",
+    "body_vi": "Thánh Gioakim và Thánh Anna được truyền thống tôn kính là Thân phụ và Thân mẫu của Đức Maria, và do đó là ông bà của Chúa Giêsu. Mặc dù không được đề cập rõ ràng trong các Tin Mừng quy điển, tên và câu chuyện của họ được lưu giữ trong Phúc Âm Tieng James và được truyền thống Giáo Hội duy trì. Ngày lễ của họ, cử hành vào ngày 26 tháng 7, mời gọi các tín hữu suy niệm về tính thánh thiện của gia đình và công việc khiêm tốn, thường ẩn giấu, của các bậc tổ tiên trong kế hoạch của Thiên Chúa.\n\nTrong những năm gần đây, Đức Giáo Hoàng Phanxicô đã nhấn mạnh vai trò của ông bà trong việc truyền thụ đức tin, phù hợp với tấm gương của Gioakim và Anna. Họ là những mẫu gương về sự kiên nhẫn, cầu nguyện và trung thành, chờ đợi với niềm hy vọng sự hoàn thành lời hứa của Thiên Chúa. Màu sắc phụng vụ trắng tượng trưng cho niềm vui và sự tinh khiết liên quan đến vai trò thánh thiện của họ trong dòng dõi của Chúa Kitô.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "traditional",
+  "confidence_note_en": "The celebration is based on longstanding Church tradition and the General Roman Calendar; details come from apocryphal texts and magisterial teaching.",
+  "confidence_note_vi": "Lễ cử hành dựa trên truyền thống lâu đời của Giáo Hội và Lịch Rôma Tổng Quát; chi tiết đến từ các văn bản ngụy thư và giáo huấn của quyền giáo huấn.",
+  "app_hooks": {
+    "hero_line_en": "Honoring the grandparents of Jesus who taught us the power of family faith.",
+    "hero_line_vi": "Tôn vinh ông bà của Chúa Giêsu, những người đã dạy chúng ta sức mạnh của đức tin gia đình.",
+    "prayer_prompt_en": "Lord, grant me the patience and faith of Saints Joachim and Anne to nurture my family in holiness.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên nhẫn và đức tin của Thánh Gioakim và Thánh Anna để nuôi dưỡng gia đình con trong sự thánh thiện."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/072627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News - Feast of Saints Joachim and Anne",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-13",
+    "hebrew": "21 Tamuz 5787",
+    "islamic_umm_al_qura": "22 Safar 1449 AH",
+    "coptic": "19 Epip 1743",
+    "ethiopian": "19 Hamle 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

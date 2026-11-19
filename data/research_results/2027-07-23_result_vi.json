@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 14 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 14 Mùa Thường Niên",
+    "summary_vi": "Ngày này được cử hành vào Thứ Sáu của tuần thứ mười bốn Mùa Thường Niên. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự tăng trưởng của đời sống Kitô hữu. Không có lễ kính hay lễ nhớ buộc nào ưu tiên trong ngày này theo Lịch Phụng vụ Rôma.",
+    "body_vi": "Phụng vụ Lời Chúa trong Thứ Sáu này thường bao gồm các bài đọc được chọn từ chu kỳ ngày thường của Mùa Thường Niên. Các bài đọc này mời gọi các tín hữu suy ngẫm về sự tiến triển đều đặn của đức tin trong đời sống hàng ngày. Việc không có lễ trọng nào giúp tập trung vào nhịp điệu cầu nguyện và suy niệm Thánh Kinh hàng ngày.\n\nTrong Mùa Thường Niên, Giáo hội nhấn mạnh vào sứ vụ của Chúa Giêsu và đời sống của Giáo hội sơ khai. Việc cử hành Thứ Sáu có thể bao gồm luật chay kiêng hay các hành vi sám hối khác, tùy thuộc vào phong tục địa phương. Áo lễ màu xanh nhắc nhở các tín hữu về hành trình của họ hướng tới mùa gặt vĩnh cửu.",
+    "confidence_note_vi": "Được xác nhận là ngày thường trong Tuần 14 Mùa Thường Niên, không có lễ chung nào xung đột."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy tăng trưởng trong niềm hy vọng giữa nhịp điệu bình lặng của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong những khoảnh khắc bình thường của ngày sống."
+  }
+}

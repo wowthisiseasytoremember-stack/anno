@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-12-14",
+  "date": "2027-12-14",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. John of the Cross, Priest and Doctor",
+    "title_vi": "Thánh Gioan Thánh Giá, Linh mục, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. John of the Cross, Priest and Doctor",
+    "title_vi": "Thánh Gioan Thánh Giá, Linh mục, Tiến sĩ HT",
+    "summary_en": "St. John of the Cross was a Spanish Carmelite friar and mystic of the 16th century. He is renowned for his profound writings on the contemplative life and union with God. Together with St.",
+    "summary_vi": "Thánh Gioan Thánh Giá là một tu sĩ Dòng Carmelite và nhà thần nghiệm Tây Ban Nha thế kỷ 16. Ngài nổi tiếng với những trước tác sâu sắc về đời sống chiêm niệm và sự kết hiệp với Thiên Chúa. Cùng với Thánh Têrêsa Avila, ngài đã cải tổ Dòng Carmelite. Giáo hội tôn kính ngài là Tiến sĩ Giáo hội nhờ những giáo huấn thiêng liêng của ngài.",
+    "body_en": "St. John of the Cross was born in 1542 in Ávila, Spain. He entered the Carmelite Order and later met St. Teresa of Avila, with whom he initiated the reform of the Carmelite friars. His life was marked by a radical desire for solitude and union with God, often enduring suffering with profound patience. His mystical poetry and prose, including 'The Dark Night of the Soul' and 'The Spiritual Canticle', remain foundational texts in Catholic spirituality.\n\nAs a Doctor of the Church, John of the Cross's influence extends far beyond his own time. His teaching on the 'dark night'—a process of purification where the soul is stripped of sensory and intellectual consolations to receive God's pure light—continues to guide contemplatives. His feast day on December 14 reminds the faithful of the call to interior conversion and the humility required to enter into the mystery of Christ, particularly during the Advent season.",
+    "body_vi": "Thánh Gioan Thánh Giá sinh năm 1542 tại Ávila, Tây Ban Nha. Ngài gia nhập Dòng Carmelite và sau đó gặp Thánh Têrêsa Avila, cùng với ngài khởi xướng việc cải tổ các tu sĩ Dòng Carmelite. Cuộc đời ngài được đánh dấu bằng khát khao triệt để sống ẩn dật và kết hiệp với Thiên Chúa, thường xuyên chịu đau khổ với lòng kiên nhẫn sâu sắc. Những bài thơ và văn xuôi thần nghiệm của ngài, bao gồm 'Đêm Tối Tâm Hồn' và 'Bài Ca Thiêng Liêng', vẫn là những nền tảng trong linh đạo Công giáo.\n\nLà Tiến sĩ Giáo hội, ảnh hưởng của Gioan Thánh Giá lan rộng vượt ra ngoài thời đại của ngài. Giáo huấn về 'đêm tối'—quá trình thanh luyện nơi tâm hồn bị tước bỏ các niềm an ủi giác quan và trí tuệ để đón nhận ánh sáng thuần túy của Thiên Chúa—tiếp tục hướng dẫn các nhà chiêm niệm. Ngày lễ của ngài vào 14 tháng 12 nhắc nhở các tín hữu về ơn gọi hoán cải nội tâm và sự khiêm tốn cần thiết để bước vào mầu nhiệm Đức Kitô, đặc biệt trong Mùa Vọng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "St. John of the Cross is a confirmed saint in the General Roman Calendar, celebrated on December 14.",
+    "confidence_note_vi": "Thánh Gioan Thánh Giá là một vị thánh đã được xác nhận trong Lịch Phụng vụ Rôma phổ quát, được cử hành vào ngày 14 tháng 12."
+  },
+  "app_hooks": {
+    "hero_line_en": "Embrace the quiet to hear God's voice.",
+    "hero_line_vi": "Hãy chìm vào tĩnh lặng để nghe tiếng Chúa phán.",
+    "prayer_prompt_en": "Lord, grant me the courage to walk through the dark night with trust.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con lòng can đảm để bước qua đêm tối với niềm tín thác."
+  },
+  "sources": [
+    {
+      "label": "USCCB Bible Readings",
+      "url": "https://bible.usccb.org/bible/readings/121427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=140",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-12-01",
+    "hebrew": "14 Kislev 5788",
+    "islamic_umm_al_qura": "16 Rajab 1449 AH",
+    "coptic": "4 Koiak 1744",
+    "ethiopian": "4 Tahsas 2020"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-07-23",
+  "date": "2027-07-23",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 14",
+    "title_vi": "Thứ Sáu tuần 14 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time, Week 14",
+    "title_vi": "Thứ Sáu tuần 14 Mùa Thường Niên",
+    "summary_en": "This day is observed as a Friday in the fourteenth week of Ordinary Time. The liturgical color is green, symbolizing hope and the growth of the Christian life. No major feast or obligatory memorial takes precedence on this date in the General Roman Calendar.",
+    "summary_vi": "Ngày này được cử hành vào Thứ Sáu của tuần thứ mười bốn Mùa Thường Niên. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự tăng trưởng của đời sống Kitô hữu. Không có lễ kính hay lễ nhớ buộc nào ưu tiên trong ngày này theo Lịch Phụng vụ Rôma.",
+    "body_en": "The Liturgy of the Word for this Friday typically includes readings selected from the ferial cycle of Ordinary Time. These readings invite the faithful to reflect on the steady progression of faith in daily life. The absence of a major feast allows for a focus on the ordinary rhythm of prayer and scriptural meditation.\n\nDuring Ordinary Time, the Church emphasizes the ministry of Jesus and the life of the early Church. Friday observances may include abstinence or other acts of penance, depending on local custom. The green vestments remind believers of their journey toward the ultimate harvest of eternity.",
+    "body_vi": "Phụng vụ Lời Chúa trong Thứ Sáu này thường bao gồm các bài đọc được chọn từ chu kỳ ngày thường của Mùa Thường Niên. Các bài đọc này mời gọi các tín hữu suy ngẫm về sự tiến triển đều đặn của đức tin trong đời sống hàng ngày. Việc không có lễ trọng nào giúp tập trung vào nhịp điệu cầu nguyện và suy niệm Thánh Kinh hàng ngày.\n\nTrong Mùa Thường Niên, Giáo hội nhấn mạnh vào sứ vụ của Chúa Giêsu và đời sống của Giáo hội sơ khai. Việc cử hành Thứ Sáu có thể bao gồm luật chay kiêng hay các hành vi sám hối khác, tùy thuộc vào phong tục địa phương. Áo lễ màu xanh nhắc nhở các tín hữu về hành trình của họ hướng tới mùa gặt vĩnh cửu.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Confirmed as a standard feria in Week 14 of Ordinary Time, with no conflicting universal feast.",
+    "confidence_note_vi": "Được xác nhận là ngày thường trong Tuần 14 Mùa Thường Niên, không có lễ chung nào xung đột."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in hope during the quiet rhythm of Ordinary Time.",
+    "hero_line_vi": "Hãy tăng trưởng trong niềm hy vọng giữa nhịp điệu bình lặng của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help us find you in the ordinary moments of our day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong những khoảnh khắc bình thường của ngày sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/072327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en.html",
+      "type": "news"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-10",
+    "hebrew": "18 Tamuz 5787",
+    "islamic_umm_al_qura": "19 Safar 1449 AH",
+    "coptic": "16 Epip 1743",
+    "ethiopian": "16 Hamle 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

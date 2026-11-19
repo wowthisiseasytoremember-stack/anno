@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-08-24",
+  "date": "2027-08-24",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "St. Bartholomew the Apostle",
+    "title_vi": "Thánh Bartôlômêô, Tông đồ"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "St. Bartholomew the Apostle",
+    "title_vi": "Thánh Bartôlômêô, Tông đồ",
+    "summary_en": "August 24 is the Feast of Saint Bartholomew the Apostle, one of the Twelve Apostles who followed Jesus. In the Gospel accounts, he is identified with Nathanael, who initially doubted that anything good could come from Nazareth. He is celebrated as a martyr who spread the Gospel in Asia Minor and Armenia, traditionally enduring a violent death by flaying.",
+    "summary_vi": "Ngày 24 tháng 8 là lễ kính Thánh Bartôlômêô Tông đồ, một trong Mười Hai Tông đồ đã theo Chúa Giêsu. Trong các sách Tin Mừng, ngài được xác định là Nathanael, người ban đầu đã nghi ngờ về những điều tốt lành từ Nadarét. Ngài được mừng kính với tư cách là một vị tử đạo đã rao giảng Tin Mừng tại Tiểu Á và Armenia, và theo truyền thống đã chịu chết bằng cách bị lột da.",
+    "body_en": "Saint Bartholomew, also known as Nathanael, was a devoted student of the Law who recognized Jesus as the Son of God immediately upon their first meeting, famously declaring, 'Rabbi, you are the Son of God; you are the King of Israel.' This title is significant as it marks one of the earliest confessions of faith by the apostles, contrasting with the initial skepticism of other disciples. His encounter with Jesus represents a journey from intellectual inquiry to profound spiritual conviction, serving as a model for believers who seek truth with sincerity and humility. The Church honors him not just for his proximity to Christ, but for his unwavering testimony to the divinity of Jesus in the face of immense cultural and religious resistance.\n\nHistorical traditions suggest that Bartholomew preached the Gospel to the Armenians, and his relics were later moved to various locations, including the Church of Saint Bartholomew in Rome, where frescoes by Michelangelo depict the saint holding his own flayed skin. The red vestments worn by the clergy on this day symbolize the blood of martyrdom shed for the faith. Celebrating this feast reminds the faithful of the universal call to evangelization and the courage required to uphold the Gospel message across diverse cultures and languages. His life challenges Christians to move beyond superficial faith and embrace a deep, personal relationship with Christ, regardless of the worldly costs.",
+    "body_vi": "Thánh Bartôlômêô, còn được biết đến là Nathanael, là một học trò tận tụy của Lề Luật và đã nhận ra Chúa Giêsu là Con Thiên Chúa ngay trong lần gặp đầu tiên, khi ngài tuyên xưng: 'Thưa Thầy, Thầy là Con Thiên Chúa, là Vua Israel!' Danh hiệu này rất quan trọng vì nó đánh dấu một trong những lời tuyên xưng đức tin sớm nhất của các tông đồ, tương phản với sự hoài nghi ban đầu của các môn đệ khác. Cuộc gặp gỡ của ngài với Chúa Giêsu đại diện cho hành trình từ sự tra vấn trí tuệ đến xác tín tinh thần sâu sắc, làm mô hình cho các tín hữu tìm kiếm chân lý với lòng chân thành và khiêm tốn. Hội Thánh tôn vinh ngài không chỉ vì sự gần gũi với Đức Kitô, mà còn vì chứng tá kiên định về thần tính của Chúa Giêsu trước sự chống đối văn hóa và tôn giáo to lớn.\n\nCác truyền thống lịch sử cho thấy Bartôlômêô đã rao giảng Tin Mừng cho người Armenia, và di tích của ngài sau đó được di chuyển đến nhiều địa điểm khác nhau, bao gồm Nhà thờ Thánh Bartôlômêô ở Rôma, nơi các bức bích họa của Michelangelo khắc họa vị thánh đang cầm chính lớp da bị lột của mình. Áo lễ màu đỏ mà giáo sĩ mặc trong ngày này biểu tượng cho máu tử đạo đổ ra vì đức tin. Việc mừng lễ này nhắc nhở cộng đoàn dân Chúa về lời mời gọi phổ quát để rao giảng Tin Mừng và lòng can đảm cần thiết để duy trì sứ điệp Tin Mừng qua các nền văn hóa và ngôn ngữ đa dạng. Cuộc đời của ngài thách thức Kitô hữu vượt qua đức tin hời hợt để đón nhận một mối tương quan cá nhân sâu sắc với Đức Kitô, bất chấp những cái giá phải trả về mặt thế gian.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "The Apostle who saw the divinity of Christ.",
+    "hero_line_vi": "Vị Tông đồ đã nhìn thấy thần tính của Đức Kitô.",
+    "prayer_prompt_en": "Ask for the courage to recognize Christ in your daily life.",
+    "prayer_prompt_vi": "Hãy cầu xin lòng can đảm để nhận ra Đức Kitô trong cuộc sống hàng ngày của bạn."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/082427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=190",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-08-11",
+    "hebrew": "21 Av 5787",
+    "islamic_umm_al_qura": "22 Rabi' al-Awwal 1449 AH",
+    "coptic": "18 Mesori 1743",
+    "ethiopian": "18 Nehase 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

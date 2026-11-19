@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 31 Mùa Thường Niên",
+    "summary_vi": "Ngày này là một ngày trong Tuần Thường Niên 31, với màu phụng vụ là xanh lá cây. Đây là thời gian cho sự phát triển tâm linh và suy gẫm về các mầu nhiệm của Chúa Kitô mà không có lễ trọng hay lễ kính cụ thể của một vị Thánh. Các bài đọc tập trung vào sự tiến triển vững chắc của đức tin trong đời sống hàng ngày.",
+    "body_vi": "Màu phụng vụ xanh lá cây tượng trưng cho niềm hy vọng và sự phát triển ổn định của Giáo hội khi đi qua các Tuần Thường Niên. Trong ngày Thứ Bảy này, các tín hữu được mời gọi suy gẫm về các lời dạy của Chúa Kitô được trình bày trong các bài đọc hàng ngày, nhấn mạnh vào sự kiên trì và khiêm nhường. Không có vị Thánh cụ thể nào được cử hành trong ngày này trong lịch phổ quát, cho phép trọng tâm vẫn nằm ở Lời Chúa.\n\nTheo truyền thống Công giáo Việt Nam, ngày này được tuân giữ với sự kính trọng giống như các ngày trong tuần khác, tập trung vào Phụng vụ Lời Chúa. Các lời cầu nguyện được cấu trúc xung quanh các chủ đề của các bài đọc trong tuần hiện tại, hướng dẫn người tín hữu qua các mầu nhiệm của Nước Thiên Chúa. Sự vắng mặt của một lễ trọng cho phép sự tham gia cá nhân và nội tâm hơn vào các văn bản phụng vụ.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hy Vọng Xanh: Bước Đi Vững Chãi Trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Xin ban cho chúng con ơn lắng nghe sâu sắc Lời Chúa hôm nay, Lạy Chúa, trong sự tĩnh lặng của Mùa Thường Niên."
+  }
+}

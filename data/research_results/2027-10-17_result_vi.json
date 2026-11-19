@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Inhaxiô thành Antiôkia, Giám mục, Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Inhaxiô thành Antiôkia, Giám mục, Tử đạo",
+    "summary_vi": "Ngày 17 tháng 10 là ngày kính nhớ Thánh Inhaxiô thành Antiôkia, một Giáo phụ thời kỳ đầu và là giám mục đã tử đạo tại Rôma vào khoảng năm 107 sau Công nguyên. Ngài nổi tiếng với bảy bức thư viết trong hành trình đi chịu tử đạo, trình bày quan điểm của Giáo hội sơ khai về phẩm trật, Bí tích Thánh Thể và thần tính của Đức Kitô. Là môn đệ của Tông đồ Gioan và người kế vị Phêrô tại Antiôkia, Inhaxiô nhấn mạnh sự hiệp nhất với giám mục như một yếu tố bảo vệ Giáo hội khỏi lạc giáo.",
+    "body_vi": "Thánh Inhaxiô thành Antiôkia, còn được gọi là Theophorus (Người Mang Đức Chúa Trời), đóng vai trò là cây cầu nối quan trọng giữa thời kỳ Tông truyền và nền thần học Giáo hội sơ khai phát triển. Các bài viết của ngài, được soạn thảo trong hành trình về Rôma, cung cấp một số bằng chứng sớm nhất ngoài Kinh Thánh về chức vụ ba bậc gồm giám mục, linh mục và phó tế, đồng thời khẳng định vai trò của họ trong việc bảo toàn sự hiệp nhất của các tín hữu. Ngài nổi tiếng với việc mô tả Giáo hội ở trong tình trạng bình an khi hiệp nhất dưới quyền giám mục, một cái nhìn phụng vụ và giáo hội học vẫn còn trung tâm trong thần học Giáo hội Công giáo hiện đại.\n\nTrong các bức thư của mình, Inhaxiô đưa ra những lời khuyên tâm linh sâu sắc, chẳng hạn như lời cầu xin được làm \"lúa mì của Thiên Chúa\" và bị nghiền thành bánh tinh tuyền qua răng của thú dữ, thể hiện lòng đạo đức Thánh Thể sâu sắc. Ngài kêu gọi Giáo hội cử hành Bí tích Thánh Thể trong sự hiệp nhất với giám mục, xem điều này là thiết yếu cho ơn cứu độ. Cái chết tử đạo của ngài tại đấu trường La Mã ở Rôma, khi bị sư tử xé xác, đã đánh dấu ngài là một chứng nhân mạnh mẽ của đức tin, và ngày lễ của ngài nhắc nhở các tín hữu về giá trị của việc môn đệ hóa và vẻ đẹp của sự hiệp nhất trong Đức Kitô.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hiệp nhất với Giám mục: Di sản của Thánh Inhaxiô thành Antiôkia",
+    "prayer_prompt_vi": "Lạy Chúa, nhờ lời bầu cử của Thánh Inhaxiô, xin ban cho chúng con ân sủng yêu mến sự hiệp nhất của Giáo hội và trân trọng Bí tích Thánh Thể như nguồn mạch và đỉnh cao của đời sống."
+  }
+}

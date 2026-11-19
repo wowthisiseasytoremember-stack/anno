@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-11-16",
+  "date": "2027-11-16",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 31",
+    "title_vi": "Thứ Ba tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time, Week 31",
+    "title_vi": "Thứ Ba tuần 31 Mùa Thường Niên",
+    "summary_en": "This day falls within the thirty-first week of Ordinary Time, marking a period of steady growth in the Christian life. The liturgical color is green, symbolizing hope and the ongoing journey of faith. No major feast or saint's memorial overrides the weekday feria, allowing for reflection on the Ordinary Time readings.",
+    "summary_vi": "Ngày này rơi vào tuần thứ ba mươi mốt của Mùa Thường Niên, đánh dấu thời kỳ tăng trưởng ổn định trong đời sống Kitô hữu. Màu sắc phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và hành trình đức tin đang tiếp diễn. Không có lễ trọng hay lễ kính thánh nào thay thế ngày thường, cho phép suy niệm về các bài đọc trong Mùa Thường Niên.",
+    "body_en": "Ordinary Time serves as the backbone of the liturgical year, focusing on the teachings and life of Jesus Christ as presented in the Gospels. During Week 31, the Church invites the faithful to examine how the Gospel principles translate into daily actions and relationships. The focus is not on a specific event, but on the continuous transformation of the heart.\n\nAs a feria, the emphasis remains on the scriptural readings and the Eucharistic prayer, which provide the context for spiritual reflection. The green vestments remind us that our faith is a living, growing reality. This time offers a quiet space to integrate the grace received during major feasts into the rhythm of ordinary life.",
+    "body_vi": "Mùa Thường Niên đóng vai trò là xương sống của năm phụng vụ, tập trung vào lời dạy và cuộc sống của Chúa Giêsu Kitô được trình bày trong các Tin Mừng. Trong tuần 31, Giáo hội mời gọi các tín hữu xem xét các nguyên tắc Tin Mừng được chuyển đổi thành hành động và mối quan hệ hàng ngày như thế nào. Trọng tâm không phải là một sự kiện cụ thể, mà là sự biến đổi liên tục của trái tim.\n\nLà một ngày thường, trọng tâm vẫn là các bài đọc Kinh Thánh và lời nguyện Thánh Thể, cung cấp bối cảnh cho suy niệm tâm linh. Áo lễ màu xanh lá cây nhắc nhở chúng ta rằng đức tin của chúng ta là một thực tế sống động và đang phát triển. Thời gian này cung cấp một không gian yên tĩnh để tích hợp ân sủng nhận được trong các lễ trọng vào nhịp điệu của cuộc sống hàng ngày.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date is verified as a weekday in Ordinary Time (Week 31) in the Roman Missal. No universal feast or obligatory memorial is listed in the General Roman Calendar for this specific date.",
+    "confidence_note_vi": "Ngày này đã được xác minh là một ngày thường trong Mùa Thường Niên (Tuần 31) trong Sách Lễ Rôma. Không có lễ trọng phổ quát hay lễ kính bắt buộc nào được liệt kê trong Lịch Phụng vụ Tổng quát cho ngày cụ thể này."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growing quietly in faith during Ordinary Time.",
+    "hero_line_vi": "Lặng lẽ tăng trưởng trong đức tin giữa Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help me to see Your presence in my ordinary days and to respond with patience and grace.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những ngày thường nhật và đáp lại bằng sự kiên nhẫn và ân sủng."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/111627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?year=2027&month=11&day=16",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-03",
+    "hebrew": "16 Cheshvan 5788",
+    "islamic_umm_al_qura": "17 Jumada al-Thani 1449 AH",
+    "coptic": "6 Hathor 1744",
+    "ethiopian": "6 Hidar 2020"
+  }
+}

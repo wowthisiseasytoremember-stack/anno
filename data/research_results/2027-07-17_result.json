@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-07-17",
+  "date": "2027-07-17",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 13",
+    "title_vi": "Thứ Bảy tuần 13 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 13",
+    "title_vi": "Thứ Bảy tuần 13 Mùa Thường Niên",
+    "summary_en": "On this Saturday, the Church observes a ferial day in Ordinary Time. The liturgical color is green, symbolizing hope and growth. The readings focus on themes of faith and discipleship according to the Lectionary. No major feast or saint's memorial takes precedence over the weekday liturgy.",
+    "summary_vi": "Vào ngày Thứ Bảy này, Giáo hội cử hành ngày thường trong Mùa Thường Niên. Màu phụng vụ là màu xanh, biểu tượng cho niềm hy vọng và sự tăng trưởng. Các bài đọc tập trung vào các chủ đề về đức tin và việc làm môn đệ theo Sách Bài Đọc. Không có lễ trọng hay kính nhớ thánh nào ưu tiên hơn phụng vụ ngày thường.",
+    "body_en": "The liturgy for Saturday of the 13th Week in Ordinary Time emphasizes the steady growth of the Christian life. Green vestments remind the faithful of the ongoing journey of faith during the non-festal seasons of the year. The community is called to reflect on the teachings of Christ found in the daily readings, which often highlight the importance of trust in God and the practical application of the Gospel in everyday life.\n\nWhile specific saints may be commemorated in local calendars or by particular religious orders, the universal Roman Calendar designates this day as a feria. This means the primary focus remains on the proper of the season, encouraging personal and communal conversion. The faithful are invited to participate in the Mass to receive the Eucharist and strengthen their resolve to live out the Gospel values in their respective vocations.",
+    "body_vi": "Phụng vụ Thứ Bảy Tuần 13 Mùa Thường Niên nhấn mạnh sự tăng trưởng ổn định của đời sống Kitô hữu. Áo lễ màu xanh nhắc nhở các tín hữu về hành trình đức tin liên lỉ trong các mùa không lễ trọng. Cộng đoàn được mời gọi suy gẫm về những lời giáo huấn của Chúa Kitô trong các bài đọc hàng ngày, thường nêu bật tầm quan trọng của niềm tin vào Thiên Chúa và việc áp dụng Tin Mừng vào đời sống thực tế.\n\nMặc dù một số vị thánh có thể được kính nhớ trong lịch địa phương hoặc bởi các dòng tu cụ thể, Lịch Rôma Phổ quát xác định ngày này là ngày thường (feria). Điều này có nghĩa là trọng tâm chính vẫn nằm ở phần riêng của mùa phụng vụ, khuyến khích sự hoán cải cá nhân và cộng đồng. Các tín hữu được mời gọi tham dự Thánh lễ để rước Mình Máu Thánh Chúa và củng cố quyết tâm sống theo các giá trị Tin Mừng trong bậc sống riêng của mình.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Faithfulness in the ordinary moments defines our spiritual journey.",
+    "hero_line_vi": "Sự trung tín trong những khoảnh khắc đời thường định nghĩa hành trình tâm linh của chúng ta.",
+    "prayer_prompt_en": "Lord, help me to see Your presence in the ordinary details of my day.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những chi tiết đời thường của ngày sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings July 17, 2027",
+      "url": "https://bible.usccb.org/bible/readings/071727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Vatican News Liturgical Calendar",
+      "url": "https://www.vatican.va/content/vatican/en.html",
+      "type": "vatican"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-04",
+    "hebrew": "12 Tamuz 5787",
+    "islamic_umm_al_qura": "13 Safar 1449 AH",
+    "coptic": "10 Epip 1743",
+    "ethiopian": "10 Hamle 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

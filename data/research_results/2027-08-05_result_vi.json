@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Năm tuần 16 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Năm tuần 16 Mùa Thường Niên",
+    "summary_vi": "Ngày này đánh dấu Thứ Năm của tuần XVI Thường Niên trong Lịch Phụng vụ Rôma. Không có lễ kính hay thánh tử đạo nào ưu tiên hơn, nên ngày này được cử hành như một ngày thường. Trọng tâm phụng vụ vẫn là chu kỳ đang diễn ra của Mùa Thường Niên, với các bài đọc phản ánh chủ đề hoán cải và Nước Thiên Chúa.",
+    "body_vi": "Trong Lịch Phụng vụ Rôma, các ngày Thứ Năm trong Mùa Thường Niên không trùng với các ngày cử hành có thứ bậc cao hơn sẽ được tuân giữ như ngày thường (feria). Điều này có nghĩa là Thánh lễ tuân theo dạng thức ngày thường, ưu tiên các bài đọc Kinh Thánh được phân công cho chu kỳ mười sáu tuần.\n\nMàu xanh lá cây tượng trưng cho hy vọng và sự kiên trì của đời sống Kitô hữu trong mùa này. Các tín hữu được mời gọi suy tư về sự tăng trưởng vững chắc của đức tin trong thói quen hàng ngày, được hướng dẫn bởi Lời Chúa tiếp tục dạy về tầm quan trọng của lòng thương xót và sự sám hối trong các đoạn Tin Mừng.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức tin vững chắc trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên trì trong cuộc sống hàng ngày."
+  }
+}

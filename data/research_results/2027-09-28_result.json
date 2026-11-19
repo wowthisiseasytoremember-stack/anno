@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-09-28",
+  "date": "2027-09-28",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Tuesday of Ordinary Time, Week 24",
+    "title_vi": "Thứ Ba tuần 24 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Tuesday of Ordinary Time, Week 24",
+    "title_vi": "Thứ Ba tuần 24 Mùa Thường Niên",
+    "summary_en": "This Tuesday is a weekday in the Twenty-Fourth Week of Ordinary Time. No major feast or obligatory memorial is celebrated on this date in the General Roman Calendar. The liturgical focus remains on the ongoing spiritual growth of the faithful during Ordinary Time.",
+    "summary_vi": "Thứ Ba này là ngày thường trong Tuần XXIV Mùa Thường Niên. Không có lễ trọng hay lễ nhớ buộc nào được cử hành vào ngày này trong Lịch Phụng vụ Rôma. Trọng tâm phụng vụ vẫn là sự tăng trưởng thiêng liêng của các tín hữu trong Mùa Thường Niên.",
+    "body_en": "As a weekday of Ordinary Time, the liturgy emphasizes the consistent and steady journey of faith. The readings for the Twenty-Fourth Week typically invite reflection on Christ's teachings regarding humility, service, and perseverance.\n\nThe green color of the vestments symbolizes the hope and growth inherent in the Christian life. Without the interruption of a specific saint's feast, the focus remains on the universal call to holiness and the interpretation of Scripture within the life of the Church.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, phụng vụ nhấn mạnh hành trình đức tin kiên trì và vững chắc. Các bài đọc của Tuần XXIV thường mời gọi suy niệm về giáo huấn của Chúa Kitô về sự khiêm nhường, phục vụ và kiên nhẫn.\n\nMàu xanh lá cây của áo lễ tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Kitô hữu. Không bị gián đoạn bởi một ngày lễ thánh cụ thể, trọng tâm vẫn là lời mời gọi phổ quát nên thánh và việc giải thích Kinh Thánh trong đời sống Giáo Hội.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The date falls within Ordinary Time with no mandatory feast in the General Roman Calendar. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên mà không có lễ buộc nào trong Lịch Phụng vụ Rôma. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Steady Faith in Ordinary Time",
+    "hero_line_vi": "Đức Tin Kiên Định Trong Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, help us grow in humility and serve others with a generous heart.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con khiêm nhường và phục vụ tha nhân với tấm lòng quảng đại."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/092827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-15",
+    "hebrew": "26 Elul 5787",
+    "islamic_umm_al_qura": "27 Rabi' al-Thani 1449 AH",
+    "coptic": "17 Thout 1744",
+    "ethiopian": "17 Meskerem 2020"
+  }
+}

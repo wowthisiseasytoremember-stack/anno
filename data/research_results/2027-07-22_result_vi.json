@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Maria Mađalêna"
+  },
+  "primary": {
+    "title_vi": "Thánh Nữ Maria Mađalêna",
+    "summary_vi": "Lễ này tôn vinh Thánh Nữ Maria Mađalêna, được tôn xưng là 'Tông Đồ của các Tông Đồ' vì bà là nhân chứng đầu tiên của sự Phục Sinh. Trong nghệ thuật, bà thường được mô tả với bình dầu thơm mà bà đã dùng để xức chân Chúa Giêsu. Ngày lễ này làm nổi bật vai trò của phụ nữ trong việc loan báo Mầu Nhiệm Vượt Qua.",
+    "body_vi": "Thánh Nữ Maria Mađalêna giữ một vị trí thần học vô cùng quan trọng trong Giáo hội Công giáo. Vai trò của bà là người đầu tiên nhìn thấy Chúa Kitô Phục Sinh và loan báo Tin Mừng cho các môn đệ đã mang lại cho bà danh hiệu 'Tông Đồ của các Tông Đồ'. Năm 2016, Đức Thánh Cha Phanxicô đã nâng bậc lễ nhớ của bà lên thành Lễ kính, nhấn mạnh địa vị bình đẳng của bà trong chứng tá và sứ mạng.\n\nHình ảnh gắn liền với Maria Mađalêna—thường là bình dầu thơm bằng thạch cao—liên kết bà với việc xức dầu cho Chúa Giêsu trong Luca 7,36-50. Trong khi truyền thống lịch sử đã đồng nhất ba người phụ nữ riêng biệt thành một, các học giả hiện đại phân biệt họ rõ ràng hơn, nhưng vẫn khẳng định lòng trung thành kiên định và lòng sùng mộ sâu sắc của bà là hình thức mục vụ tông đồ chân chính nhất.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Nhân chứng đầu tiên của ngôi mộ trống.",
+    "prayer_prompt_vi": "Xin ơn can đảm để làm chứng cho sự Phục Sinh."
+  }
+}

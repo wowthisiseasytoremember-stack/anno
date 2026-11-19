@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Giôxaphát, Giám mục, Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Giôxaphát, Giám mục, Tử đạo",
+    "summary_vi": "Thánh Giôxaphát Kuntsevych được tưởng nhớ như một vị tử đạo vì sự hiệp nhất Giáo hội và là vị thánh Đông phương Công giáo đầu tiên được tuyên phong là tử đạo. Ngài đã tận hiến đời mình để hòa giải cộng đoàn giáo phận với Tòa Thánh Rôma, dù gặp nhiều sự chống đối. Chứng tá của ngài về sự hiệp nhất và chân lý tiếp tục truyền cảm hứng cho các nỗ lực đối thoại đại kết.",
+    "body_vi": "Giôxaphát Kuntsevych, sinh ra vào cuối thế kỷ 16 tại vùng đất Ruthenia, đã trở thành một tu sĩ và sau này là Tổng giám mục của Polotsk. Là một vị mục tử nhiệt thành, ngài làm việc không mệt mỏi để cổ vũ sự canh tân phụng vụ và củng cố những mối liên kết hiệp nhất với Giáo hoàng. Những nỗ lực của ngài đã vấp phải sự chống đối dữ dội từ những người phản đối sự hiệp thông giáo hội, dẫn đến những giai đoạn bị ngược đãi và lưu đày lặp đi lặp lại đối với ngài và những người theo ngài.\n\nCuộc đời ngài kết thúc bằng một cái chết tử đạo tàn khốc vào năm 1623 dưới tay những người đối lập, những người coi việc thúc đẩy hiệp nhất là một sự phản bội. Ngài đã bị đâm và dìm xuống sông Tây Dvina, trở thành một biểu tượng mạnh mẽ của sự hy sinh vì lợi ích của sự hiệp thông. Ngày nay, ngài được tôn kính như một bổn mạng của phong trào đại kết và là mẫu gương về đức tin vững chắc giữa những chia rẽ.",
+    "confidence_note_vi": "Kỷ niệm này được xác nhận trong Lịch Phụng vụ chung La Mã xảy ra vào ngày 12 tháng 11."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hiệp nhất thường đòi hỏi lòng can đảm của một vị tử đạo. Hãy để chứng tá của Thánh Giôxaphát truyền cảm hứng cho hành trình tìm kiếm sự hiệp thông và chân lý của bạn.",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng ta tinh thần của Thánh Giôxaphát để tìm kiếm bình an trong chân lý và hiệp nhất trong tình yêu."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Mùa Vọng",
+    "summary_vi": "Thứ Tư này rơi vào mùa Vọng, thời gian chuẩn bị và chờ đợi sự đến của Đức Kitô. Màu phụng vụ là tím, tượng trưng cho sự thống hối và chờ đợi. Là một ngày thường, nó có bậc thấp hơn các lễ trọng hay lễ kính, tập trung các tín hữu vào tiến trình hàng ngày thông thường của năm phụng vụ.",
+    "body_vi": "Thứ Tư trong tuần Mùa Vọng tháng 12 năm 2027 là khoảnh khắc suy tư tĩnh lặng giữa sự mong chờ Lễ Giáng Sinh. Các bài đọc và lời nguyện của ngày này nhấn mạnh sự ăn năn và sẵn sàng của linh hồn để đón nhận Chúa, lấy cảm hứng từ các lời tiên tri trong Cựu Ước và các giáo huấn trong Tân Ước về sự tỉnh thức.\n\nVề mặt phụng vụ, việc thiếu vắng một ngày lễ thánh cụ thể có nghĩa là trọng tâm hoàn toàn nằm ở hành trình Mùa Vọng. Các tín hữu được mời gọi tham dự Thánh lễ với thái độ khiêm nhường và hy vọng, nhìn nhận ý nghĩa lịch sử và tinh thần của mùa này mà không bị gián đoạn bởi các cuộc cử hành thánh sử cụ thể.",
+    "confidence_note_vi": "Thứ bậc phụng vụ và màu sắc được xác định bởi Lịch Rôma Chung chuẩn cho Thứ Tư trong tuần Mùa Vọng, luôn là ngày thường với màu tím."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy dọn đường Chúa",
+    "prayer_prompt_vi": "Xin Chúa ban cho chúng con ân sủng để thức dậy với đôi mắt sáng ngời và tâm hồn sẵn sàng đón Chúa đến."
+  }
+}

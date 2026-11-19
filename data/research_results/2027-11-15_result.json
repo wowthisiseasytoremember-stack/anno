@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-11-15",
+  "date": "2027-11-15",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 31",
+    "title_vi": "Thứ Hai tuần 31 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Thirty-First Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần 31 Mùa Thường Niên",
+    "summary_en": "This Monday falls within the Thirty-First Week in Ordinary Time, a period emphasizing the growth of the Church and the faithful's journey in faith. As a feria, it holds no specific saint memorial that overrides the weekday liturgy in the General Roman Calendar for this date. The liturgical color is green, signifying hope and ordinary time. The focus is on the ordinary growth of the Church and the personal spiritual life of the believer during the year's final months.",
+    "summary_vi": "Thứ Hai này thuộc Tuần 31 Mùa Thường Niên, giai đoạn nhấn mạnh sự tăng trưởng của Hội Thánh và hành trình đức tin của các tín hữu. Vì là ngày thường (feria), không có lễ kính thánh nào thay thế phụng vụ ngày thường trong Lịch Rôma Chung cho ngày này. Màu sắc phụng vụ là xanh lá, biểu trưng cho niềm hy vọng và thời gian thường niên. Trọng tâm là sự phát triển bình thường của Hội Thánh và đời sống tâm linh cá nhân của tín hữu trong những tháng cuối năm.",
+    "body_en": "The Thirty-First Week in Ordinary Time invites the faithful to reflect on the eschatological themes present in the Gospel readings, which often concern the end times and the Kingdom of God. In the absence of a obligatory memorial or feast, the priest celebrates the Mass of the weekday, using the green vestments that characterize Ordinary Time. This period allows for a steady, unadorned progression through the narrative of Christ's life and teachings, emphasizing daily conversion and discipleship.\n\nIn the Vietnamese Catholic tradition, this day is observed with quiet devotion, often involving the recitation of the Rosary or the Liturgy of the Hours, depending on the local community's practices. The faithful are encouraged to meditate on the Gospel of the day, which speaks to the practical aspects of living out one's faith in the world. The green color serves as a constant reminder of spiritual growth and the hope of eternal life, guiding believers as the liturgical year approaches its conclusion.",
+    "body_vi": "Tuần 31 Mùa Thường Niên mời gọi các tín hữu suy niệm về các chủ đề cánh chung trong các bài Tin Mừng, thường liên quan đến những ngày sau hết và Nước Thiên Chúa. Khi không có lễ kính thánh hoặc lễ trọng bắt buộc, linh mục cử hành Thánh lễ ngày thường, sử dụng lễ phục màu xanh đặc trưng cho Mùa Thường Niên. Giai đoạn này cho phép sự tiến triển vững chắc, không trang trí rườm rà qua tường thuật về cuộc đời và giáo huấn của Chúa Kitô, nhấn mạnh vào sự hoán cải và làm môn đệ hàng ngày.\n\nTrong truyền thống Công giáo Việt Nam, ngày này được tuân giữ với lòng đạo đức thầm lặng, thường bao gồm việc lần Chuỗi Mân Côi hoặc Phụng vụ Các Giờ Kinh, tùy thuộc vào thực hành của cộng đoàn địa phương. Các tín hữu được khuyến khích suy niệm Tin Mừng của ngày, nói lên những khía cạnh thực tiễn của việc sống đức tin giữa thế gian. Màu xanh đóng vai trò như một lời nhắc nhở liên tục về sự tăng trưởng tâm linh và hy vọng vào sự sống đời đời, hướng dẫn các tín hữu khi năm phụng vụ gần kết thúc.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith during the ordinary days.",
+    "hero_line_vi": "Hãy lớn lên trong đức tin qua những ngày thường.",
+    "prayer_prompt_en": "Lord, help me to see Your presence in the ordinary moments of my life and to grow steadily in virtue.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhận ra sự hiện diện của Chúa trong những khoảnh khắc bình thường của đời sống và lớn lên vững chắc trong nhân đức."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for November 15, 2027",
+      "url": "https://bible.usccb.org/bible/readings/111527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-02",
+    "hebrew": "15 Cheshvan 5788",
+    "islamic_umm_al_qura": "16 Jumada al-Thani 1449 AH",
+    "coptic": "5 Hathor 1744",
+    "ethiopian": "5 Hidar 2020"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Hai tuần 16 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Hai tuần 16 Mùa Thường Niên",
+    "summary_vi": "Thứ Hai này rơi vào tuần 16 của Mùa Thường Niên trong chu kỳ phụng vụ hiện hành. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho sự tăng trưởng và tiến trình vững chắc của đức tin. Không có lễ nhớ hay lễ kính thánh nhân nào được ưu tiên vào ngày này trong Lịch Phụng vụ Rôma phổ quát.",
+    "body_vi": "Các tín hữu được mời gọi suy niệm về sự tăng trưởng vững chắc của Giáo hội trong giai đoạn Mùa Thường Niên, được đánh dấu bằng màu xanh lá cây. Các thực hành phụng vụ tập trung vào việc đọc Kinh Nhật Tụng hàng ngày và đọc Sách Thánh theo chu kỳ ngày trong tuần. Ngày này nhắc nhở về những nhịp điệu bình thường của đời sống Kitô hữu và sự kiên trì.\n\nTrong bối cảnh Lịch Phụng vụ Rôma phổ quát, ngày thường này không có bậc cao hơn tuần hiện hành của Mùa Thường Niên. Trọng tâm vẫn là tính liên tục của năm phụng vụ và sự hòa nhập đức tin vào sự tồn tại hàng ngày. Các lời cầu nguyện và bài đọc được lấy từ Sách Bài Đọc chuẩn cho các ngày trong tuần Mùa Thường Niên.",
+    "confidence_note_vi": "Đã xác nhận là ngày thường trong Mùa Thường Niên mà không có lễ ưu tiên nào trong Lịch Phụng vụ Rôma phổ quát cho năm và tuần cụ thể này."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Đức tin",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên định trong bước đi đức tin hàng ngày."
+  }
+}

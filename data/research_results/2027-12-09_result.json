@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-12-09",
+  "date": "2027-12-09",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "purple",
+    "title_en": "Advent Weekday",
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the Second Week of Advent",
+    "title_vi": "Thứ Năm Tuần II Mùa Vọng",
+    "summary_en": "This day is a weekday in the Season of Advent, specifically in the second week, dedicated to preparation for the coming of Christ. The liturgical color is purple, signifying penance and expectation. There is no obligatory memorial for a saint on this specific date in the General Roman Calendar, making the Advent weekday the primary focus.",
+    "summary_vi": "Đây là ngày thường trong Mùa Vọng, cụ thể là tuần thứ hai, dành cho việc chuẩn bị đón Chúa Kitô. Màu sắc phụng vụ là màu tím, biểu thị sự sám hối và niềm mong đợi. Không có lễ nhớ bắt buộc cho một vị thánh nào vào ngày này trong Lịch Rôma, nên ngày thường Mùa Vọng là trọng tâm chính.",
+    "body_en": "The Church invites the faithful to deepen their interior conversion during the second week of Advent. The readings and prayers focus on the messianic prophecies and the humility required to welcome the Lord. This period is marked by an attitude of watchful waiting and spiritual renewal.\n\nWhile saints are venerated daily, the character of the Advent feria takes precedence unless a higher-ranking feast occurs. In 2027, December 9 falls as a simple weekday within the Advent season. The liturgical texts provided for this Thursday emphasize patience and the steadfastness of hope.",
+    "body_vi": "Hội Thánh mời gọi các tín hữu đào sâu sự hoán cải nội tâm trong tuần thứ hai của Mùa Vọng. Các bài đọc và lời cầu nguyện tập trung vào các lời tiên tri về Đấng Messia và sự khiêm tốn cần thiết để đón Chúa. Thời gian này được đánh dấu bằng thái độ tỉnh thức chờ đợi và đổi mới tâm linh.\n\nMặc dù các vị thánh được tôn kính hàng ngày, nhưng đặc tính của ngày thường Mùa Vọng được ưu tiên trừ khi có một lễ kính cao hơn xảy ra. Vào năm 2027, ngày 9 tháng 12 rơi vào một ngày thường đơn giản trong Mùa Vọng. Các văn bản phụng vụ dành cho Thứ Năm này nhấn mạnh sự kiên nhẫn và niềm hy vọng vững chắc.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Prepare the way for the Lord",
+    "hero_line_vi": "Hãy dọn đường cho Chúa",
+    "prayer_prompt_en": "Lord, keep us awake in the waiting season",
+    "prayer_prompt_vi": "Lạy Chúa, xin giữ chúng con tỉnh thức trong mùa chờ đợi"
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/120927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Universalis",
+      "url": "https://www.universalis.com/2027/december-9/",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is confirmed as a Thursday of the Second Week of Advent in the Roman Calendar for 2027. No conflicting feast days are listed in the General Roman Calendar for this date.",
+  "confidence_note_vi": "Ngày này được xác nhận là Thứ Năm Tuần II Mùa Vọng trong Lịch Rôma năm 2027. Không có lễ kính xung đột được liệt kê trong Lịch Rôma Chung cho ngày này.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-11-26",
+    "hebrew": "9 Kislev 5788",
+    "islamic_umm_al_qura": "11 Rajab 1449 AH",
+    "coptic": "29 Hathor 1744",
+    "ethiopian": "29 Hidar 2020"
+  }
+}

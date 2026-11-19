@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Piô Năm Dấu (Padre Pio), Linh mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Piô Năm Dấu (Padre Pio), Linh mục",
+    "summary_vi": "Hội Thánh cử hành lễ nhớ Thánh Piô Năm Dấu, còn gọi là Padre Pio. Ngài là một tu sĩ dòng Capuchin người Ý nổi tiếng với sự hướng dẫn thiêng liêng và các dấu thánh trên thân thể. Cuộc đời ngài nhấn mạnh vào lời cầu nguyện, hy sinh và bí tích Hòa Giải.",
+    "body_vi": "Thánh Piô Năm Dấu (1887-1968) đã trở thành biểu tượng của lòng sùng kính sâu sắc trong thế kỷ 20. Ngài nổi tiếng với những giờ ngồi tòa giải tội kéo dài và sự tham dự Thánh lễ cách sốt sắng. Sứ vụ của ngài thu hút những khách hành hương từ khắp nơi trên thế giới đến tìm kiếm lời khuyên.\n\nDi sản của ngài tiếp tục thông qua Bệnh viện 'Giúp đỡ những người đau khổ' và vô số thư từ thiêng liêng. Hội Thánh tưởng nhớ ngài vì đức tin kiên định và khả năng hướng dẫn các linh hồn qua những thách thức của cuộc sống hiện đại.",
+    "confidence_note_vi": "Lễ nhớ Thánh Piô Năm Dấu là mục cố định trong Lịch phụng vụ chung Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Cầu nguyện, hy vọng, và đừng lo lắng.",
+    "prayer_prompt_vi": "Hãy suy niệm về tầm quan trọng của Bí tích Hòa Giải thường xuyên trong ngày này."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 12 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 12 Mùa Thường Niên",
+    "summary_vi": "Ngày này rơi vào Thứ Bảy trong tuần 12 Mùa Thường Niên, thời kỳ tập trung vào sự tăng trưởng vững chắc của các tín hữu. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự sống liên lỉ của Giáo Hội. Không có lễ kính hoặc lễ trọng nào bắt buộc thay thế các bài đọc ngày thường trong Lịch Rôma Chung cho năm cụ thể này.",
+    "body_vi": "Bối cảnh phụng vụ cho ngày 10 tháng 7 năm 2027 được xác định bởi chu kỳ ngày thường trong Mùa Thường Niên, chiếm phần lớn năm phụng vụ. Trọng tâm là sự mặc khải tiến triển của mầu nhiệm Đức Kitô trong đời sống của các tín hữu. Các bài đọc cho Thứ Bảy tuần 12 thường tiếp tục các chủ đề tường thuật hoặc thư tín đã được giới thiệu vào đầu tuần, nuôi dưỡng tinh thần khiêm nhường và phục vụ.\n\nKhi không có ngày lễ kính thánh nào cụ thể ưu tiên, Thánh lễ tuân theo các quy tắc thông thường cho một ngày trong tuần. Các lời cầu nguyện phản ánh lời cầu xin sự kiên trì và ân sủng để sống Tin Mừng trong cuộc sống hàng ngày. Ngày này đóng vai trò là một khoảnh khắc suy tư tĩnh lặng trong nhịp điệu rộng lớn hơn của lịch phụng vụ Giáo Hội, nhấn mạnh sự liên tục của đức tin trong các hoàn cảnh đời thường.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức Tin Vững Vàng Trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ân sủng để phục vụ Chúa cách trung tín trong những khoảnh khắc đời thường của con."
+  }
+}

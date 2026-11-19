@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-03",
+  "date": "2027-09-03",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Gregory the Great, Pope and Doctor",
+    "title_vi": "Thánh Grêgôriô Cả, Giáo hoàng, Tiến sĩ HT"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Gregory the Great, Pope and Doctor",
+    "title_vi": "Thánh Grêgôriô Cả, Giáo hoàng, Tiến sĩ",
+    "summary_en": "St. Gregory the Great was one of the four great Latin Doctors of the Church and served as Pope from 590 to 604 AD. He is celebrated for his extensive writings on scripture, his reforms of liturgical music (Gregorian chant), and his missionary work in sending Augustine of Canterbury to England. His feast day is commemorated on September 3rd, honoring his profound impact on Western liturgy and pastoral care.",
+    "summary_vi": "Thánh Grêgôriô Cả là một trong bốn Tiến sĩ lớn của Giáo hội Latinh và đã phục vụ với tư cách Giáo hoàng từ năm 590 đến 604 SCN. Ngài được mừng kính vì các trước tác phong phú về Kinh Thánh, các cải cách âm phụng vụ (cung Gregorian), và công cuộc truyền giáo khi gửi Augustinô thành Canterbury đến Anh. Lễ kính ngài được cử hành vào ngày 3 tháng 9, tôn vinh tác động sâu sắc của ngài đối với phụng vụ và mục vụ của phương Tây.",
+    "body_en": "Gregory the Great, born into a noble Roman family, chose a life of monastic simplicity before being reluctantly elected Pope. During his pontificate, he bridged the gap between the classical world and the emerging medieval era, emphasizing humility and service. His work 'Regula Pastoralis' (Pastoral Rule) became a handbook for bishops and priests for centuries, outlining the qualities required for spiritual leadership.\n\nHis legacy in liturgy remains palpable today; he is traditionally credited with the organization of the chants that bear his name and the structuring of the Roman liturgy during the Lenten season. As a Doctor of the Church, his commentaries on Job and the Gospels provided a foundation for medieval exegesis, blending allegorical interpretation with practical moral guidance for the faithful.",
+    "body_vi": "Grêgôriô Cả, sinh ra trong một gia đình quý tộc La Mã, đã chọn lối sống giản dị của đan sĩ trước khi được bầu làm Giáo hoàng. Trong thời kỳ giáo hoàng của ngài, ngài đã cầu nối giữa thế giới cổ điển và kỷ nguyên trung cổ mới nổi, nhấn mạnh vào đức khiêm nhường và phục vụ. Tác phẩm 'Quy tắc Mục vụ' (Regula Pastoralis) của ngài đã trở thành sách hướng dẫn cho các giám mục và linh mục trong nhiều thế kỷ, phác thảo các phẩm chất cần thiết cho việc lãnh đạo tinh thần.\n\nDi sản phụng vụ của ngài vẫn còn hiện hữu cho đến ngày nay; ngài được coi là người có công trong việc tổ chức các bài hát mang tên ngài và cấu trúc phụng vụ Rôma trong mùa Chay. Với tư cách là Tiến sĩ Hội Thánh, các bài chú giải của ngài về sách Giob và Tin Mừng đã đặt nền tảng cho việc chú giải thời trung cổ, pha trộn cách giải thích ẩn dụ với sự hướng dẫn luân lý thiết thực cho các tín hữu.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "The servant of the servants of God",
+    "hero_line_vi": "Người tôi tớ của các tôi tớ Thiên Chúa",
+    "prayer_prompt_en": "Grant that we may follow the humility of St. Gregory in our service.",
+    "prayer_prompt_vi": "Xin cho chúng con noi gương khiêm nhường của Thánh Grêgôriô trong việc phục vụ."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/090327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=100",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-21",
+    "hebrew": "1 Elul 5787",
+    "islamic_umm_al_qura": "2 Rabi' al-Thani 1449 AH",
+    "coptic": "28 Mesori 1743",
+    "ethiopian": "28 Nehase 2019"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-07-15",
+  "date": "2027-07-15",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 13",
+    "title_vi": "Thứ Năm tuần 13 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of the 13th Week in Ordinary Time",
+    "title_vi": "Thứ Năm tuần 13 Mùa Thường Niên",
+    "summary_en": "This is a weekday in Ordinary Time with the liturgical color green. The readings generally focus on themes of discipleship and the law. There are no major solemnities or feasts recorded for this specific date.",
+    "summary_vi": "Đây là một ngày thường trong Mùa Thường Niên với màu phụng vụ xanh. Các bài đọc thường tập trung vào các chủ đề về môn đệ và luật pháp. Không có lễ trọng hay lễ kính nào được ghi nhận cho ngày cụ thể này.",
+    "body_en": "The liturgical focus for Thursday of the 13th Week in Ordinary Time centers on the faithful living out their baptismal vows in daily life. The Church invites believers to reflect on the teachings of Jesus and the early church through the prescribed readings.\n\nAs a feria, the day has no specific patron saint attached in the Universal Calendar, allowing the focus to remain on the continuous narrative of salvation history. The green color symbolizes hope and the growth of the Church.",
+    "body_vi": "Trọng tâm phụng vụ cho Thứ Năm tuần 13 Mùa Thường Niên tập trung vào việc các tín hữu sống lời hứa Bí tích Rửa tội trong cuộc sống hàng ngày. Giáo hội mời gọi các tín hữu suy gẫm về những lời dạy của Chúa Giêsu và Hội thánh sơ khai qua các bài đọc được chỉ định.\n\nVì là ngày thường, ngày này không có vị thánh bảo trợ cụ thể nào được gắn kết trong Lịch phụng vụ Phổ quát, cho phép trọng tâm vẫn nằm ở câu chuyện liên tục về lịch sử cứu độ. Màu xanh tượng trưng cho niềm hy vọng và sự tăng trưởng của Hội thánh.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The rank and color are determined by the General Roman Calendar rules for weekdays in Ordinary Time.",
+    "confidence_note_vi": "Hạng và màu được xác định bởi các quy tắc của Lịch La Mã Phổ quát cho các ngày thường trong Mùa Thường Niên."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in faith through daily discipleship.",
+    "hero_line_vi": "Lớn lên trong đức tin qua việc làm môn đệ hàng ngày.",
+    "prayer_prompt_en": "Lord, help me to apply your teachings to my ordinary tasks today.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con áp dụng những lời dạy của Ngài vào các nhiệm vụ thường nhật hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Readings for July 15, 2027",
+      "url": "https://bible.usccb.org/bible/readings/071527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Saints and Readings for July 15",
+      "url": "https://www.newadvent.org/cathen/15432a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "calendars": {
+    "julian": "2027-07-02",
+    "hebrew": "10 Tamuz 5787",
+    "islamic_umm_al_qura": "11 Safar 1449 AH",
+    "coptic": "8 Epip 1743",
+    "ethiopian": "8 Hamle 2019"
+  },
+  "mock_priority": "engine_b_v1"
+}

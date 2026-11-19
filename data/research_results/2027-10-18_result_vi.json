@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Luca, Tác giả Sách Tin Mừng"
+  },
+  "primary": {
+    "title_vi": "Thánh Luca, Tác giả Sách Tin Mừng",
+    "summary_vi": "Giáo Hội mừng lễ Thánh Luca, tác giả Tin Mừng thứ ba và sách Công vụ Tông đồ. Ngài được tôn kính là một thầy thuốc và là bạn đồng hành của Thánh Phaolô, nổi tiếng với những tường thuật chi tiết và nhấn mạnh vào lòng thương xót. Hình ảnh của ngài thường gắn liền với con bò, biểu tượng cho bản chất tư tế của Đức Kitô. Ngày này nêu bật tầm quan trọng của việc loan báo Tin Mừng và việc chăm sóc bác ái cho người nghèo.",
+    "body_vi": "Thánh Luca được truyền thống xác định là một người dân ngoại trở lại đạo Kitô giáo, một thầy thuốc và là cộng sự thân cận của Tông đồ Phaolô. Tin Mừng của ngài được ca ngợi vì sự xuất sắc về văn chương và chiều sâu thần học, đặc biệt là tập trung vào những người bị gạt ra bên lề, phụ nữ và việc cầu nguyện. Sách Công vụ Tông đồ, cũng được cho là do ngài viết, đóng vai trò là cầu nối giữa cuộc đời của Chúa Giêsu và sứ vụ của Giáo Hội sơ khai.\n\nTrong nghệ thuật, Luca thường được mô tả đang viết Tin Mừng dưới sự linh hứng của Chúa Thánh Thần, thường kèm theo hình ảnh con bò. Biểu tượng này lấy từ thị kiến của Ezekiel về bốn con vật sống và liên kết Luca với chức vụ tư tế của Đức Kitô. Là thánh bổn mạng của các nghệ sĩ và thầy thuốc, ngày lễ của ngài nhắc nhở các tín hữu về sự giao thoa giữa đức tin, lý trí và nghệ thuật trong việc phục vụ Chân Lý.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Thầy thuốc của linh hồn và người loan báo lòng thương xót.",
+    "prayer_prompt_vi": "Chúa ơi, xin ban cho con sự khôn ngoan của Thánh Luca để kể lại câu chuyện của Chúa với sự thật và lòng trắc ẩn."
+  }
+}

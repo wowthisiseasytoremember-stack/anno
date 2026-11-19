@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-10-09",
+  "date": "2027-10-09",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 25",
+    "title_vi": "Thứ Bảy tuần 25 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time, Week 25",
+    "title_vi": "Thứ Bảy tuần 25 Mùa Thường Niên",
+    "summary_en": "This Saturday is a weekday in the 25th week of Ordinary Time, celebrated with the liturgical color green. It has no mandatory universal feast or saint memorial in the General Roman Calendar that displaces the weekday office. The focus remains on the steady progression of the Christian life through the readings assigned for this week.",
+    "summary_vi": "Thứ Bảy này là ngày thường trong tuần 25 Mùa Thường Niên, được cử hành với màu xanh lá cây. Không có lễ hoặc ngày kính thánh nào bắt buộc trong Lịch Phụng vụ Roma Phổ quát thay thế bổn phận ngày trong tuần này. Trọng tâm vẫn là sự tiến triển bền vững của đời sống Kitô hữu qua các bài đọc được chỉ định cho tuần này.",
+    "body_en": "In the liturgical structure of the General Roman Calendar, a Feria of Ordinary Time represents the normative rhythm of the Church year outside of specific feast days. On Saturday, October 9, 2027, the Church reflects on the teachings and mysteries of Christ as presented in the Lectionary for the 25th week of Ordinary Time. The readings are designed to foster meditation on the Gospel and the Apostolic teachings, guiding the faithful in their daily walk of faith.\n\nThe liturgical color green symbolizes hope and the steady growth of the Christian community. During these weeks, the focus is on the life of the Church as it continues its mission after the Easter season. This specific date does not coincide with any obligatory solemnity, feast, or mandatory memorial in the universal calendar, allowing for the full expression of the weekday liturgy which emphasizes the ongoing catechesis of the faithful.",
+    "body_vi": "Trong cấu trúc phụng vụ của Lịch Phụng vụ Roma Phổ quát, một ngày thường của Mùa Thường Niên đại diện cho nhịp điệu chuẩn mực của năm phụng vụ bên ngoài các ngày lễ cụ thể. Vào thứ Bảy ngày 9 tháng 10 năm 2027, Giáo Hội suy tư về các giáo huấn và mầu nhiệm của Đức Kitô được trình bày trong Bài đọc Thánh cho tuần 25 Mùa Thường Niên. Các bài đọc được thiết kế để foster sự suy niệm về Tin Mừng và các giáo huấn của các Tông Đồ, hướng dẫn các tín hữu trong hành trình đức tin hàng ngày.\n\nMàu xanh lá cây phụng vụ tượng trưng cho hy vọng và sự tăng trưởng vững chắc của cộng đoàn Kitô hữu. Trong những tuần này, trọng tâm là đời sống của Giáo Hội khi tiếp tục sứ mạng của mình sau mùa Phục Sinh. Ngày cụ thể này không trùng với bất kỳ lễ trọng, lễ kính hay ngày kính bắt buộc nào trong lịch phổ quát, cho phép thể hiện trọn vẹn phụng vụ ngày trong tuần, nhấn mạnh vào việc giáo lý liên tục cho các tín hữu.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking steadily in the faith of Ordinary Time.",
+    "hero_line_vi": "Đi bước vững chắc trong đức tin của Mùa Thường Niên.",
+    "prayer_prompt_en": "Pray for the grace to grow steadily in humility and understanding of God's word today.",
+    "prayer_prompt_vi": "Hãy cầu xin ơn tăng trưởng vững chắc trong sự khiêm nhường và hiểu biết Lời Chúa hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/100927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture - Calendar",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendars/2027.cfm",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-26",
+    "hebrew": "8 Tisrei 5788",
+    "islamic_umm_al_qura": "9 Jumada al-Awwal 1449 AH",
+    "coptic": "28 Thout 1744",
+    "ethiopian": "28 Meskerem 2020"
+  }
+}

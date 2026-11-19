@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 24 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần 24 Mùa Thường Niên",
+    "summary_vi": "Thứ Ba này là ngày thường trong Tuần XXIV Mùa Thường Niên. Không có lễ trọng hay lễ nhớ buộc nào được cử hành vào ngày này trong Lịch Phụng vụ Rôma. Trọng tâm phụng vụ vẫn là sự tăng trưởng thiêng liêng của các tín hữu trong Mùa Thường Niên.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, phụng vụ nhấn mạnh hành trình đức tin kiên trì và vững chắc. Các bài đọc của Tuần XXIV thường mời gọi suy niệm về giáo huấn của Chúa Kitô về sự khiêm nhường, phục vụ và kiên nhẫn.\n\nMàu xanh lá cây của áo lễ tượng trưng cho niềm hy vọng và sự tăng trưởng trong đời sống Kitô hữu. Không bị gián đoạn bởi một ngày lễ thánh cụ thể, trọng tâm vẫn là lời mời gọi phổ quát nên thánh và việc giải thích Kinh Thánh trong đời sống Giáo Hội.",
+    "confidence_note_vi": "Ngày này rơi vào Mùa Thường Niên mà không có lễ buộc nào trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức Tin Kiên Định Trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con khiêm nhường và phục vụ tha nhân với tấm lòng quảng đại."
+  }
+}

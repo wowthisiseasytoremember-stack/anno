@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-09-02",
+  "date": "2027-09-02",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Thursday of Ordinary Time, Week 20",
+    "title_vi": "Thứ Năm tuần 20 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Thursday of Ordinary Time, Week 20",
+    "title_vi": "Thứ Năm tuần 20 Mùa Thường Niên",
+    "summary_en": "This day is observed as a Feria in Ordinary Time within the Latin Rite. It continues the weekly cycle of liturgical prayer and scriptural reading, focusing on the sanctification of daily life through Christ. There are no obligatory memorials or feasts assigned to this specific date in the General Roman Calendar, allowing for local observances or optional memorials as permitted. The liturgical color is green, symbolizing hope and the ongoing growth of the Church.",
+    "summary_vi": "Ngày này được cử hành như một ngày thường tuần trong Mùa Thường Niên theo Nghi lễ Latinh. Nó tiếp tục chu kỳ cầu nguyện phụng vụ và đọc Kinh Thánh hàng tuần, tập trung vào việc thánh hóa đời sống hằng ngày qua Chúa Kitô. Không có lễ nhớ hay lễ trọng nào bắt buộc được gán cho ngày cụ thể này trong Lịch Rôma Chung, cho phép các cử hành địa phương hoặc lễ nhớ tự do theo quy định. Màu sắc phụng vụ là xanh lá cây, tượng trưng cho hy vọng và sự tăng trưởng liên lỉ của Hội Thánh.",
+    "body_en": "In the structure of the liturgical year, Thursdays in Ordinary Time serve as pivotal moments for maintaining the rhythm of faith amidst the secular week. The readings assigned to this day, while varying year by year according to the liturgical cycle, generally reflect on themes of Christian living, repentance, or the teaching of Christ in a way that encourages personal reflection. Without the interruption of a major feast, the faithful are invited to dwell more deeply on the mundane aspects of faith, finding God in the ordinary duties of life.\n\nThe absence of a specific saint's memorial for this date in the universal calendar highlights the primacy of the temporal cycle in these weeks. The liturgy directs the mind toward the present moment, using the green color of Ordinary Time to remind believers of the steady, often hidden work of grace. This time is for the cultivation of the virtues necessary to live out the Gospel in the workplace, home, and community.",
+    "body_vi": "Trong cấu trúc của năm phụng vụ, các ngày Thứ Năm trong Mùa Thường Niên đóng vai trò là những khoảnh khắc then chốt để duy trì nhịp điệu đức tin giữa tuần thế tục. Các bài đọc được chỉ định cho ngày này, tuy thay đổi theo từng năm tùy thuộc vào chu kỳ phụng vụ, thường phản ánh các chủ đề về đời sống Kitô hữu, sự sám hối, hoặc lời dạy của Chúa Kitô theo cách khuyến khích sự suy tư cá nhân. Mà không có sự gián đoạn bởi một lễ trọng nào, các tín hữu được mời gọi suy ngẫm sâu sắc hơn về các khía cạnh đời thường của đức tin, tìm thấy Chúa trong những bổn phận hằng ngày.\n\nViệc thiếu một lễ nhớ thánh cụ thể cho ngày này trong lịch chung nhấn mạnh tính ưu tiên của chu kỳ thời gian trong những tuần này. Phụng vụ hướng tâm trí về khoảnh khắc hiện tại, sử dụng màu xanh lá cây của Mùa Thường Niên để nhắc nhở các tín hữu về công việc ổn định, thường ẩn giấu của ơn sủng. Thời gian này dành cho việc trau dồi những nhân đức cần thiết để sống Tin Mừng nơi công sở, gia đình và cộng đoàn.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in Hope: The Steady Rhythm of Ordinary Time",
+    "hero_line_vi": "Đi trong Hy Vọng: Nhịp Điệu Ổn Định Của Mùa Thường Niên",
+    "prayer_prompt_en": "Lord, grant me the grace to find You in the ordinary tasks of this day, turning routine into a path of holiness.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con ơn sủng để tìm thấy Chúa trong những công việc thường nhật hôm nay, biến thói quen thành con đường nên thánh."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/090227.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture Calendar",
+      "url": "https://catholicculture.org/culture/calendar/day.cfm?date=2027-09-02",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "This date is a confirmed Feria in Ordinary Time according to the General Roman Calendar. No obligatory memorials or feasts are assigned, making the liturgical status certain.",
+  "confidence_note_vi": "Ngày này được xác nhận là một ngày thường tuần trong Mùa Thường Niên theo Lịch Rôma Chung. Không có lễ nhớ hay lễ trọng nào bắt buộc được gán, do đó tình trạng phụng vụ là chắc chắn.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-20",
+    "hebrew": "30 Av 5787",
+    "islamic_umm_al_qura": "1 Rabi' al-Thani 1449 AH",
+    "coptic": "27 Mesori 1743",
+    "ethiopian": "27 Nehase 2019"
+  }
+}

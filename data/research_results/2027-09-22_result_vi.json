@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 23 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư Mùa Thường Niên",
+    "summary_vi": "Ngày 22 tháng 9 năm 2027 rơi vào Thứ Tư trong tuần 23 Thường Niên. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và hy vọng trong đời sống Kitô hữu. Không có lễ trọng hay lễ buộc nào được ghi nhận cho ngày này trong Lịch Phụng vụ Rôma chung, khiến nó trở thành một ngày thường tiêu chuẩn cho sự phát triển tâm linh.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, Giáo hội mời gọi các tín hữu tham gia vào các bài đọc hàng ngày và Phụng vụ Giờ Kinh với sự chú ý đặc biệt đến việc huấn luyện linh hồn đang diễn ra. Sự vắng mặt của một lễ kính thánh cụ thể không làm giảm đi sự thánh thiện của ngày nhưng thay vào đó nhấn mạnh nhịp điệu của việc môn đệ hóa bền vững. Thời kỳ này khuyến khích các tín hữu tích hợp các mầu nhiệm của Đức Kitô vào thói quen hàng ngày, tập trung vào sự tăng trưởng từ từ của đức hạnh.\n\nCác áo lễ màu xanh lá cây phục vụ như một lời nhắc nhở trực quan về sự sống của Giáo hội trong thế giới, bén rễ trong hy vọng Phục Sinh. Các tín hữu được khuyến khích tìm kiếm những khoảnh khắc yên tĩnh để cầu nguyện và suy gẫm, cho phép Chúa Thánh Thần làm việc trong những hoàn cảnh bình thường của cuộc sống. Đây là thời gian để để Lời Chúa thẩm thấu vào những suy nghĩ và hành động, biến điều tầm thường thành những cơ hội ân sủng.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Ân sủng: Mùa Thường Niên, Tuần 23",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con tìm thấy Ngài trong những khoảnh khắc thường ngày của cuộc đời con."
+  }
+}

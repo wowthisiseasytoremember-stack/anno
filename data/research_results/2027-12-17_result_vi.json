@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Ngày trong Mùa Vọng"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần III Mùa Vọng",
+    "summary_vi": "Ngày Thứ Sáu này nằm trong Tuần III Mùa Vọng, thời gian chuẩn bị cho sự quang lâm của Đức Kitô. Thứ hạng phụng vụ là ngày thường, với màu tím biểu trưng cho sự sám hối và trông đợi. Không có lễ nhớ bắt buộc nào về các thánh trong ngày này, giúp tập trung vào hành trình Mùa Vọng.",
+    "body_vi": "Trong thời gian Mùa Vọng này, Giáo hội mời gọi các tín hữu đào sâu thái độ nội tâm hướng về mầu nhiệm Nhập thể. Là ngày thường trong mùa tím, phụng vụ nhấn mạnh sự khiêm nhường và đổi mới tinh thần, rút ra từ truyền thống ngôn sứ đang chờ đợi Đấng Mêsia.\n\nCác bài đọc trong ngày này thường tập trung vào sự mong đợi ơn cứu độ và nhu cầu tỉnh thức. Bằng cách tập trung vào ngày phụng vụ thay vì một vị thánh cụ thể, các tín hữu được nhắc nhở rằng thời gian này chính là không gian thánh thiêng cho việc hoán cải và cầu nguyện trong sự chờ đợi.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Bước đi trong ánh sáng của sự trông đợi.",
+    "prayer_prompt_vi": "Xin chuẩn bị lòng con để đón nhận Ngài."
+  }
+}

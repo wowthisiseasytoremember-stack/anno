@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 22 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu tuần 22 Mùa Thường Niên",
+    "summary_vi": "Thứ Sáu này đánh dấu tuần thứ hai trong thời kỳ Phụng vụ được gọi là Mùa Thường Niên sau lễ Hiện Xuống. Màu phụng vụ là màu xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng không ngừng của các tín hữu trong đời sống Hội Thánh. Không có thánh hay lễ trọng phổ quát nào thay thế việc cử hành ngày thường, nên trọng tâm vẫn là chu kỳ cầu nguyện và Kinh Thánh hàng tuần.",
+    "body_vi": "Bậc phụng vụ của ngày này là ngày thường (feria), chỉ ra một ngày trong tuần không thuộc vào loại cao hơn như lễ kính, lễ nhớ hay lễ trọng. Trong Lịch Rôma Chung, ngày 17 tháng 9 năm 2027 rơi vào tuần thứ hai mươi hai của Mùa Thường Niên. Mặc dù một số lịch địa phương hoặc các dòng tu cụ thể có thể tưởng nhớ những nhân vật đặc biệt, lịch phổ quát chỉ định phụng vụ ngày thường thông thường.\n\nMàu xanh lá cây được gán cho ngày này phản ánh mùa Thường Niên, một thời kỳ dành cho việc suy niệm về giáo huấn của Đức Kitô và sự tăng trưởng của Hội Thánh trong lịch sử. Các tín hữu được mời gọi dấn thân vào các bài đọc hàng ngày, là một phần của chu kỳ công bố Kinh Thánh hai năm, duy trì sự liên tục của năm phụng vụ. Việc không có ngày lễ lớn cho phép sự tiến bộ âm thầm, đều đặn trong hành trình tâm linh của người tín hữu.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong điều bình thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhìn thấy sự hiện diện của Ngài trong những khoảnh khắc bình thường của đời con và tăng trưởng trong đức tin mỗi ngày."
+  }
+}

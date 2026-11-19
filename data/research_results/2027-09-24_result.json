@@ -1,0 +1,57 @@
+{
+  "id": "anno-2027-09-24",
+  "date": "2027-09-24",
+  "weekday": "Friday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Friday of Ordinary Time, Week 23",
+    "title_vi": "Thứ Sáu tuần 23 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Friday of Ordinary Time, Week 23",
+    "title_vi": "Thứ Sáu tuần 23 Mùa Thường Niên",
+    "summary_en": "The Church celebrates the Friday of the 23rd Week in Ordinary Time. The liturgical color is green, symbolizing hope and life. This day is part of the ordinary cycle of faith, inviting believers to grow in holiness through daily devotion.",
+    "summary_vi": "Hội Thánh cử hành Thứ Sáu tuần 23 Mùa Thường Niên. Màu phụng vụ là màu xanh, tượng trưng cho niềm hy vọng và sự sống. Ngày này thuộc chu kỳ thông thường của đức tin, mời gọi các tín hữu tăng trưởng trong sự thánh thiện qua việc đạo đức hằng ngày.",
+    "body_en": "During the Fridays of Ordinary Time, the Church encourages the faithful to embrace a spirit of penance and humility, often reflecting on the Passion of Christ. The liturgical readings for this specific date, if available in the revised calendar, guide the community toward deeper understanding of the Gospel message in everyday life.\n\nThe general intercessions and the daily prayers of the Divine Office serve to sanctify the day's work and rest. As a weekday, the focus remains on the steady, quiet growth of Christian virtue, distinct from the heightened joy of feasts or the solemn penance of major holy days.",
+    "body_vi": "Trong các ngày Thứ Sáu Mùa Thường Niên, Hội Thánh khuyến khích các tín hữu sống tinh thần sám hối và khiêm nhường, thường suy niệm về cuộc Thương Khó của Chúa Kitô. Các bài đọc phụng vụ trong ngày này hướng dẫn cộng đoàn hiểu biết sâu sắc hơn về sứ điệp Tin Mừng trong cuộc sống hằng ngày.\n\nCác lời nguyện tín hữu và kinh nguyện nhật của Phụng vụ Các Giờ Kinh giúp thánh hóa công việc và nghỉ ngơi của ngày. Là một ngày thường, trọng tâm vẫn là sự tăng trưởng vững chắc và âm thầm của nhân đức Kitô giáo, khác biệt với niềm vui cao độ của các ngày lễ hay sự sám hối long trọng của các ngày lễ lớn.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "Date is a standard feria with no universal saint celebration overriding it in the General Roman Calendar.",
+  "confidence_note_vi": "Ngày là một ngày thường tiêu chuẩn, không có ngày kính thánh nào ghi trong Lịch Rôma Chung chiếm ưu tiên.",
+  "app_hooks": {
+    "hero_line_en": "Faithful in the Ordinary",
+    "hero_line_vi": "Tín trung trong những điều thường nhật",
+    "prayer_prompt_en": "Lord, help me find You in my daily tasks.",
+    "prayer_prompt_vi": "Chúa ơi, xin giúp con tìm thấy Chúa trong công việc hằng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for Sep 24, 2027",
+      "url": "https://bible.usccb.org/bible/readings/092427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-11",
+    "hebrew": "22 Elul 5787",
+    "islamic_umm_al_qura": "23 Rabi' al-Thani 1449 AH",
+    "coptic": "13 Thout 1744",
+    "ethiopian": "13 Meskerem 2020"
+  }
+}

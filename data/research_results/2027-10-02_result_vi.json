@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Các Thiên Thần Hộ Thủ"
+  },
+  "primary": {
+    "title_vi": "Lễ Các Thiên Thần Hộ Thủ",
+    "summary_vi": "Lễ kính Các Thiên Thần Hộ Thủ cử hành sứ vụ trung tín của các thần linh trên trời, những đấng canh giữ và hướng dẫn nhân loại. Được Đức Giáo Hoàng Piô IX thiết lập hình thức phổ quát hiện tại, ngày này nhấn mạnh sự chăm sóc thân mật mà Thiên Chúa cung cấp qua các sứ giả thiên giới. Đây là lời nhắc nhở rằng các tín hữu không bao giờ cô đơn trong hành trình tâm linh của mình.",
+    "body_vi": "Việc cử hành Các Thiên Thần Hộ Thủ có lịch sử lâu dài trong Nghi thức Latinh, ban đầu được cử hành địa phương trước khi được mở rộng cho toàn thể Giáo Hội. Cơ sở Kinh Thánh chính thường được rút ra từ Matthew 18:10, nơi Chúa Giêsu nói về các thiên thần luôn nhìn thấy mặt Cha. Lễ này mời gọi các tín hữu suy niệm về sự hiện diện huyền nhiệm nhưng có thật của các thụ tạo thần linh trong đời sống hằng ngày.\n\nNăm 2027, với tư cách là lễ nhớ vào ngày Thứ Bảy, nó đứng độc lập trong trình tự phụng vụ của Mùa Thường Niên. Màu trắng phản ánh sự thanh khiết và vinh quang của bản tính thiên thần. Lòng sùng kính Các Thiên Thần Hộ Thủ được khuyến khích như một phương tiện để nuôi dưỡng sự khiêm nhường và nhận thức về quan phòng của Thiên Chúa, thúc đẩy các Kitô hữu lắng nghe những lời nhắc nhở nhẹ nhàng của lương tâm và giáo huấn thần linh.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Các Thiên Thần Hộ Thủ Đồng Hành Bên Chúng Ta",
+    "prayer_prompt_vi": "Xin lời cầu bầu của Thiên Thần Hộ Thủ cho sự hướng dẫn và bảo vệ."
+  }
+}

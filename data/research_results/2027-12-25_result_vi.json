@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Đại Lễ Chúa Giáng Sinh"
+  },
+  "primary": {
+    "title_vi": "Đại Lễ Chúa Giáng Sinh",
+    "summary_vi": "Hội Thánh cử hành Đại Lễ Chúa Giáng Sinh, kỷ niệm mầu nhiệm Ngôi Lời Nhập Thể. Đây là lễ trọng cổ xưa và quan trọng nhất trong năm phụng vụ. Các bài đọc loan báo việc ứng nghiệm lời tiên tri khi Đấng Cứu Thế bước vào lịch sử.",
+    "body_vi": "Việc cử hành Lễ Giáng Sinh tập trung vào mầu nhiệm Nhập Thể, khi Thiên Chúa vĩnh cửu đảm nhận bản tính loài người trong cung lòng Trinh Nữ Maria. Phụng vụ mời gọi tín hữu chiêm ngắm sự khiêm hạ của Hài Nhi Giêsu trong máng cỏ, qua đó mạc khải chiều sâu tình yêu Thiên Chúa. Trong lễ trọng này, Hội Thánh nhấn mạnh ánh sáng chiếu soi trong tăm tối, mời gọi người tín hữu bước đi trong ánh sáng đức tin và bác ái.\n\nVề mặt phụng vụ, ngày này được đánh dấu bằng việc mặc áo lễ màu trắng và hát Kinh Vinh Danh (Gloria). Các bài đọc Thánh Lễ trải dài từ những loan báo tiên tri của sách Isaia đến các bài thánh thi của Phaolô trong thư Côlôxê, kết thúc bằng Tin Mừng về các mục đồng. Đây là thời điểm cộng đoàn quy tụ, cầu nguyện và chia sẻ niềm vui Tin Mừng với tất cả những người hiện diện, thể hiện sự bình an và hòa giải mà Đức Kitô mang lại.",
+    "confidence_note_vi": "Ngày và bậc lễ được cố định trong Lịch Rôma Tổng Quát và đã được xác minh theo các lịch phụng vụ chính thức."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Ngôi Lời đã trở nên người phàm và cư ngụ giữa chúng ta.",
+    "prayer_prompt_vi": "Lạy Chúa Giêsu, khi Chúa đến thế gian trong khiêm nhường, xin dạy con dọn chỗ cho Chúa trong lòng và chia sẻ ánh sáng của Chúa cho tha nhân."
+  }
+}
