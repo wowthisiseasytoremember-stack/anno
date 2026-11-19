@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **2027 coverage**: all 365 researched days normalize into a Swift-decodable fixture; CI enforces fixture freshness for 2026 and 2027.
+- **Store metadata**: corrected calendar and screen claims to match the shipped target.
+
 ### Fixed
 - **Swift fixture contract**: normalized fixture now emits a Swift-decodable `generated_on`, null-safe `artwork`, and omits partial `place` objects.
 - **Calendar source of truth**: the normalizer refreshes all five Swift calendar fields from the root Engine A, so a driver's private Coptic/Ethiopian tables can no longer leak into the app fixture.

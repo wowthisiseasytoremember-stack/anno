@@ -22,11 +22,10 @@ Anno brings the richness of Catholic sacred history to your fingertips. Every da
 Features:
 
 • **Today in History** — Daily entry featuring the saint of the day, liturgical celebrations, and key historical events.
-• **Multi-Calendar Conversion** — See dates in Julian, Hebrew, Islamic, Coptic, Ethiopian, Byzantine, Armenian, and Syriac calendars.
+• **Multi-Calendar Conversion** — See dates in the Julian, Hebrew, Islamic (Umm al-Qura), Coptic, and Ethiopian calendars.
 • **Source Transparency** — Every entry shows its sources and confidence level (confirmed, traditional, or disputed).
 • **Sacred Map** — Explore locations tied to today's events and plan pilgrimages.
-• **Vietnamese Support** — Full bilingual interface and daily content in Vietnamese.
-• **Bookmarks & Saved** — Save your favorite entries and build your personal devotional library.
+• **Vietnamese Support** — Vietnamese interface and Vietnamese devotional text on the eight major feasts; English on other days.
 
 Anno is Catholic-first and interfaith-aware, presenting each tradition's sacred history with scholarly honesty and spiritual depth.
 
@@ -39,11 +38,10 @@ Anno mang sự phong phú của lịch sử thánh Công Giáo đến đầu ng�
 Tính năng:
 
 • **Hôm nay trong Lịch sử** — Bài viết hàng ngày về thánh trong ngày, lễ phụng vụ và các sự kiện lịch sử quan trọng.
-• **Chuyển đổi Đa Lịch** — Xem ngày tháng theo lịch Julius, Do Thái, Hồi Giáo, Coptic, Ethiopia, Byzantine, Armenia và Syriac.
+• **Chuyển đổi Đa Lịch** — Xem ngày tháng theo lịch Julius, Do Thái, Hồi Giáo (Umm al-Qura), Coptic và Ethiopia.
 • **Minh bạch Nguồn** — Mỗi bài viết hiển thị nguồn tham khảo và mức độ tin cậy (xác nhận, truyền thống hoặc đang tranh luận).
 • **Bản đồ Thánh** — Khám phá các địa điểm liên quan đến sự kiện hôm nay và lên kế hoạch hành hương.
-• **Hỗ trợ tiếng Việt** — Giao diện song ngữ đầy đủ và nội dung hàng ngày bằng tiếng Việt.
-• **Đánh dấu & Lưu** — Lưu các bài viết yêu thích và xây dựng thư viện đạo đức cá nhân.
+• **Hỗ trợ tiếng Việt** — Giao diện tiếng Việt và nội dung suy niệm tiếng Việt vào tám lễ trọng; các ngày khác dùng tiếng Anh.
 
 Anno là ứng dụng Công Giáo với nhận thức liên tôn, trình bày lịch sử thánh của mỗi truyền thống với sự trung thực học thuật và chiều sâu tâm linh.
 
@@ -70,6 +68,6 @@ https://[hosted-url]/privacy
 
 ## Screenshots (Required)
 
-- 6.5" iPhone (EN + VI): Today, Calendar, Map, Saved, Source Sheet, Paywall
-- 5.5" iPhone (EN + VI): Same 6 screens
+- 6.5" iPhone (EN + VI): Today, Calendar, Map, Source Sheet
+- 5.5" iPhone (EN + VI): Same four screens
 - iPad (if supporting): Same views
