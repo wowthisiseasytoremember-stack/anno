@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-09",
+  "date": "2027-09-09",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Optional Memorial",
+    "color": "white",
+    "title_en": "St. Peter Claver, Priest (Universal Optional)",
+    "title_vi": "Thánh Phêrô Claver, Linh mục"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Peter Claver, Priest",
+    "title_vi": "Thánh Phêrô Claver, Linh mục",
+    "summary_en": "St. Peter Claver was a Jesuit missionary who served in Cartagena, Colombia, ministering to enslaved Africans. He is known for his tireless advocacy for the physical and spiritual welfare of slaves, providing them with food, medicine, and catechesis. His feast day is celebrated as an Optional Memorial on September 9.",
+    "summary_vi": "Thánh Phêrô Claver là một nhà truyền giáo dòng Tên phục vụ tại Cartagena, Colombia, chăm sóc những người nô lệ gốc Phi. Ngài nổi tiếng với sự ủng hộ không mệt mỏi cho phúc lợi thể lý và tinh thần của các nô lệ, cung cấp cho họ thức ăn, thuốc men và giáo lý. Lễ nhớ ngài được cử hành như một Lễ nhớ tùy chọn vào ngày 9 tháng 9.",
+    "body_en": "Born in Verdú, Catalonia, in 1580, Peter Claver joined the Society of Jesus and traveled to New Granada to serve in Cartagena de Indias. There, he dedicated his life to ministering to Africans who had been forcibly transported across the Atlantic Ocean to be sold into slavery. His approach combined practical charity with spiritual instruction, often learning several African languages to communicate effectively with those he served.\n\nSt. Peter Claver's legacy is one of radical hospitality and defense of the dignity of the marginalized. He insisted on treating enslaved people with the same respect as free men, challenging the social norms of his time through acts of profound humility and service. The Church recognizes his feast day on September 9 as an Optional Memorial, highlighting his role as patron saint of all missions among Africans.",
+    "body_vi": "Sinh ra tại Verdú, Catalonia, vào năm 1580, Phêrô Claver gia nhập Dòng Tên và đến Tân Granada để phục vụ tại Cartagena de Indias. Tại đây, ngài đã dâng hiến cuộc đời mình để phục vụ những người châu Phi bị đưa cưỡng chế qua Đại Tây Dương để bán làm nô lệ. Phương pháp của ngài kết hợp giữa lòng bác ái thực hành với sự hướng dẫn thiêng liêng, thường xuyên học nhiều ngôn ngữ châu Phi để giao tiếp hiệu quả với những người mà ngài phục vụ.\n\nDi sản của Thánh Phêrô Claver là lòng hiếu khách triệt để và sự bảo vệ phẩm giá của những người bị lãng quên. Ngài kiên quyết đối xử với những người nô lệ với sự tôn trọng giống như những người tự do, thách thức các chuẩn mực xã hội đương thời qua những hành động khiêm tốn và phục vụ sâu sắc. Giáo Hội cử hành lễ nhớ ngài vào ngày 9 tháng 9 như một Lễ nhớ tùy chọn, làm nổi bật vai trò của ngài là bổn mạng của tất cả các sứ vụ giữa những người châu Phi.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Serve with humility, seeing Christ in every soul.",
+    "hero_line_vi": "Phục vụ với lòng khiêm nhường, nhìn thấy Chúa Kitô trong mọi linh hồn.",
+    "prayer_prompt_en": "Lord, help us to see Your presence in the marginalized and serve them with love.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhìn thấy sự hiện diện của Chúa nơi những người bị gạt ra bên lề và phục vụ họ với tình yêu thương."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/090927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent - Peter Claver",
+      "url": "https://www.newadvent.org/cathen/11771a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-27",
+    "hebrew": "7 Elul 5787",
+    "islamic_umm_al_qura": "8 Rabi' al-Thani 1449 AH",
+    "coptic": "4 Pi Kogi Enavot 1743",
+    "ethiopian": "4 Pagumen 2019"
+  }
+}

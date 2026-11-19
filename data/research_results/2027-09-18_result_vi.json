@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 22 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 22 Mùa Thường Niên",
+    "summary_vi": "Ngày 18 tháng 9 năm 2027 được cử hành như một ngày thường trong Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu tượng cho sự tăng trưởng và hy vọng trong đời sống Kitô giáo. Không có lễ thánh bổn mạng bắt buộc cho ngày cụ thể này trong Lịch Rôma Chung, do đó trọng tâm vẫn là các bài đọc hàng tuần. Ngày này là thời gian để suy tư cá nhân trong chu kỳ liên tục của Mùa Thường Niên.",
+    "body_vi": "Trong cấu trúc lịch phụng vụ Công giáo Rôma, các ngày Thứ Bảy trong Mùa Thường Niên được dành riêng để suy niệm về những giáo huấn trong tuần. Các bài đọc trong thời kỳ này nhấn mạnh đến sự tăng trưởng của Nước Thiên Chúa và trách nhiệm luân lý của tín hữu. Vì không có lễ lớn hay lễ nhớ nào ưu tiên hơn, ngày này giữ nguyên tính chất thường ngày, mời gọi các tín hữu hòa nhập các thực hành tâm linh vào cuộc sống hàng ngày.\n\nBộ lễ phục màu xanh lá cây mà các linh mục mặc trong thời kỳ này biểu hiện cho hy vọng và hành trình đức tin liên tục. Các tín hữu Công giáo được khuyến khích suy gẫm những bài học từ những ngày trước đó và chuẩn bị cho việc thờ phượng ngày Chúa nhật bằng cách giữ tinh thần sám hối và bác ái. Ngày Thứ Bảy đặc biệt này rơi vào Tuần 22, một thời gian thường giải quyết các chủ đề về quản lý và sự tỉnh thức trong đời sống Kitô hữu.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong đức tin giữa nhịp điệu bình an của Mùa Thường Niên.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con nhìn thấy Nước Chúa đang lớn lên trong những khoảnh khắc nhỏ bé của hôm nay."
+  }
+}

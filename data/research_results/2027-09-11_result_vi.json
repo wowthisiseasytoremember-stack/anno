@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 21 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy tuần 21 Mùa Thường Niên",
+    "summary_vi": "Thứ Bảy này rơi vào Tuần 21 Mùa Thường Niên, đánh dấu những ngày cuối cùng trước khi chuyển sang mùa thu ở Bắc Bán Cầu. Trọng tâm phụng vụ vẫn là sự tiến triển chậm rãi của Năm Phụng vụ qua Mùa Thường Niên, nhấn mạnh sự tăng trưởng đức tin trong cuộc sống hàng ngày. Không có lễ nhớ buộc hay đại lễ nào thay thế ngày thường, cho phép các bài đọc trong ngày hướng dẫn các tín hữu. Màu xanh lục tượng trưng cho niềm hy vọng và sự tăng trưởng vững chắc của sứ mạng Giáo Hội.",
+    "body_vi": "Vào Thứ Bảy, ngày 11 tháng 9 năm 2027, Giáo Hội Công Giáo Rôma cử hành một ngày thường tiêu chuẩn của Tuần 21 Mùa Thường Niên. Ngày này đóng vai trò như một cây cầu nối giữa các mùa phụng vụ lớn, mời gọi các tín hữu suy gẫm về những giáo huấn của Chúa Kitô qua chu kỳ đọc sách hàng ngày đang diễn ra. Việc không có lễ kính một vị thánh lớn nào vào ngày cụ thể này trong Lịch phụng vụ chung nhấn mạnh tầm quan trọng của sự thánh thiện bình thường của thời gian, nhắc nhở các tín hữu rằng sự thánh thiện được tìm thấy trong sự trung tín thông thường đối với ý Chúa.\n\nMôi trường phụng vụ cho ngày này được đặc trưng bởi sự tỉnh thức yên lặng, khi Giáo Hội chuẩn bị cho các Đại lễ sắp tới của tháng Chín và tháng Mười. Áo lễ màu xanh lục được mặc trong giai đoạn này đóng vai trò như một lời nhắc nhở trực quan về nhân đức hy vọng thần học, kêu gọi các tín hữu hướng tới mùa gặt vĩnh cửu. Mặc dù các lịch địa phương cụ thể có thể có những cách cử hành độc đáo, quy tắc phổ quát cho Nghi lễ Rôma duy trì trạng thái ngày thường trừ khi có một cử hành bậc cao hơn được chỉ định. Nhịp điệu ổn định của Mùa Thường Niên đảm bảo rằng những mầu nhiệm nền tảng của đức tin liên tục được trình bày cho Giáo Hội.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Đức Tin Vững Vàng Trong Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy Ngài trong những khoảnh khắc yên tĩnh của ngày sống và lớn lên trong niềm hy vọng qua sự trung tín hàng ngày của con."
+  }
+}

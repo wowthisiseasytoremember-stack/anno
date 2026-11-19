@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-21",
+  "date": "2027-09-21",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "St. Matthew, Apostle and Evangelist",
+    "title_vi": "Thánh Mátthêu, Tông đồ, Tác giả Sách Tin Mừng"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "St. Matthew, Apostle and Evangelist",
+    "title_vi": "Thánh Mátthêu, Tông đồ, Tác giả Sách Tin Mừng",
+    "summary_en": "The Church celebrates the feast of St. Matthew, the tax collector who became an Apostle and Evangelist. He is traditionally credited with authoring the first Gospel, written primarily for a Jewish audience. His conversion exemplifies Christ's mercy in calling sinners and those on the margins of society.",
+    "summary_vi": "Giáo Hội cử hành lễ Thánh Mátthêu, người thu thuế đã trở thành Tông đồ và Tác giả Sách Tin Mừng. Ngài được truyền thống coi là tác giả của Tin Mừng đầu tiên, được viết chủ yếu cho độc giả Do Thái. Việc hoán cải của ngài minh chứng cho lòng thương xót của Chúa Kitô khi kêu gọi những người tội lỗi và những người bên lề xã hội.",
+    "body_en": "St. Matthew, also known as Levi, was a tax collector in Capernaum, a profession often despised by his fellow Jews due to their association with Roman rule and perceived dishonesty. Jesus called him to discipleship while he was sitting at his tax booth, demonstrating that no one is beyond the reach of God's grace. Matthew immediately left his possessions to follow Jesus, a radical act of detachment and faith.\n\nAs an Evangelist, Matthew compiled the teachings and deeds of Jesus, preserving the Sermon on the Mount and the parables. His Gospel is notable for its emphasis on the fulfillment of Old Testament prophecies in Christ and its presentation of the Church's mission. Today, we honor him as the patron saint of accountants and tax collectors, praying for honesty and integrity in all our dealings.",
+    "body_vi": "Thánh Mátthêu, còn được gọi là Lêvi, là một người thu thuế tại Capharnaum, một nghề nghiệp thường bị đồng bào Do Thái khinh miệt do mối liên hệ với chính quyền Rôma và bị coi là thiếu trung thực. Chúa Giêsu đã kêu gọi ông làm môn đệ khi ông đang ngồi tại bàn thu thuế, cho thấy không ai nằm ngoài tầm với của ân sủng Thiên Chúa. Mátthêu lập tức từ bỏ của cải để theo Chúa Giêsu, một hành động triệt để của sự dứt bỏ và đức tin.\n\nVới tư cách là Tác giả Tin Mừng, Mátthêu đã biên soạn những lời giảng dạy và việc làm của Chúa Giêsu, lưu giữ Bài Giảng trên Núi và các dụ ngôn. Tin Mừng của ngài nổi bật với việc nhấn mạnh vào sự ứng nghiệm các lời tiên tri Cựu Ước trong Chúa Kitô và trình bày sứ mạng của Giáo Hội. Hôm nay, chúng ta tôn vinh ngài như bổn mạng của các kế toán viên và người thu thuế, cầu xin sự trung thực và liêm chính trong mọi giao dịch của chúng ta.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The feast of St. Matthew on September 21 is a fixed date in the General Roman Calendar.",
+    "confidence_note_vi": "Lễ Thánh Mátthêu vào ngày 21 tháng 9 là ngày cố định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Called from the tax booth, Matthew found a treasure far greater than gold: the presence of Christ.",
+    "hero_line_vi": "Được kêu gọi từ bàn thu thuế, Mátthêu đã tìm thấy một kho báu quý giá hơn vàng bạc: sự hiện diện của Chúa Kitô.",
+    "prayer_prompt_en": "Lord, like Matthew, let me respond immediately to your call, leaving behind whatever hinders my journey to You.",
+    "prayer_prompt_vi": "Lạy Chúa, như Mátthêu, xin cho con đáp lại lời kêu gọi của Chúa ngay lập tức, từ bỏ mọi điều cản trở hành trình con đến với Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings for September 21",
+      "url": "https://bible.usccb.org/bible/readings/092127.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Saint Matthew, Apostle and Evangelist - New Advent",
+      "url": "https://www.newadvent.org/cathen/07298a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-08",
+    "hebrew": "19 Elul 5787",
+    "islamic_umm_al_qura": "20 Rabi' al-Thani 1449 AH",
+    "coptic": "10 Thout 1744",
+    "ethiopian": "10 Meskerem 2020"
+  }
+}

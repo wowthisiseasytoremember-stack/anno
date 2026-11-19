@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-09-26",
+  "date": "2027-09-26",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 24",
+    "title_vi": "Chúa Nhật tuần 24 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Feast of the Nativity of the Blessed Virgin Mary",
+    "title_vi": "Lễ Đức Mẹ Maria Sinh Nhật",
+    "summary_en": "The Nativity of the Blessed Virgin Mary is celebrated on September 8, marking the birth of Mary in Nazareth. It is a Feast in the General Roman Calendar and focuses on the role of Mary as the mother of Jesus. The liturgy emphasizes her role in salvation history and the beginning of her life dedicated to God. This day invites reflection on humility, preparation, and the grace of divine election.",
+    "summary_vi": "Lễ Đức Mẹ Maria Sinh Nhật được cử hành vào ngày 8 tháng 9, đánh dấu sự ra đời của Mẹ Maria tại Nazareth. Đây là một Lễ trong Lịch Phụng vụ Rôma, tập trung vào vai trò của Mẹ Maria như là mẹ của Chúa Giêsu. Phụng vụ nhấn mạnh vai trò của Mẹ trong lịch sử cứu độ và sự khởi đầu của cuộc đời Mẹ được hiến dâng cho Thiên Chúa. Ngày này mời gọi suy niệm về sự khiêm nhường, sự chuẩn bị và ân sủng của sự tuyển chọn bởi Thiên Chúa.",
+    "body_en": "The Nativity of the Blessed Virgin Mary is a Feast in the General Roman Calendar, celebrated on September 8. It marks the birth of Mary, who became the mother of Jesus, and is a day of reflection on her role in salvation history.\n\nThe liturgy for this Feast emphasizes humility, divine election, and the beginning of Mary's life dedicated to God. This Feast invites the faithful to contemplate the origins of the Incarnation and the profound impact of Mary's role in the mystery of salvation.",
+    "body_vi": "Lễ Đức Mẹ Maria Sinh Nhật là một Lễ trong Lịch Phụng vụ Rôma, được cử hành vào ngày 8 tháng 9. Ngày lễ này đánh dấu sự ra đời của Mẹ Maria, người đã trở thành mẹ của Chúa Giêsu, và là ngày suy niệm về vai trò của Mẹ trong lịch sử cứu độ.\n\nPhụng vụ của Lễ này nhấn mạnh sự khiêm nhường, sự tuyển chọn của Thiên Chúa, và sự khởi đầu của cuộc đời Mẹ Maria được hiến dâng cho Thiên Chúa. Lễ này mời gọi cộng đoàn suy niệm về nguồn gốc của mầu nhiệm Nhập Thể và tác động sâu sắc của vai trò của Mẹ Maria trong mầu nhiệm cứu độ.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The Nativity of the Blessed Virgin Mary is a fixed Feast in the General Roman Calendar, confirmed by official sources such as the USCCB and the Holy See. Only 1 live citation(s) found; manual source verification required before publishing.",
+    "confidence_note_vi": "Lễ Đức Mẹ Maria Sinh Nhật là một Lễ cố định trong Lịch Phụng vụ Rôma, được xác nhận bởi các nguồn chính thức như Hội đồng Giám mục Hoa Kỳ và Tòa Thánh. Only 1 live citation(s) found; manual source verification required before publishing."
+  },
+  "app_hooks": {
+    "hero_line_en": "Celebrate the birth of the Mother of God and the beginning of her divine mission.",
+    "hero_line_vi": "Hãy cùng mừng lễ sinh nhật của Mẹ Thiên Chúa và khởi đầu sứ mạng thánh thiện của Mẹ.",
+    "prayer_prompt_en": "Pray for humility and a heart open to God's will, as Mary did in her life.",
+    "prayer_prompt_vi": "Hãy cầu nguyện cho sự khiêm nhường và một tấm lòng sẵn sàng mở lòng với thánh ý Thiên Chúa, như Mẹ Maria đã sống."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://www.usccb.org/bible/readings/090820",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "USCCB 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Encyclopedia index",
+      "url": "https://www.newadvent.org/cathen/",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-13",
+    "hebrew": "24 Elul 5787",
+    "islamic_umm_al_qura": "25 Rabi' al-Thani 1449 AH",
+    "coptic": "15 Thout 1744",
+    "ethiopian": "15 Meskerem 2020"
+  }
+}

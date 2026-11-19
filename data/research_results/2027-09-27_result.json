@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-09-27",
+  "date": "2027-09-27",
+  "weekday": "Monday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Monday of Ordinary Time, Week 24",
+    "title_vi": "Thứ Hai tuần 24 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Monday of the Twenty-fourth Week in Ordinary Time",
+    "title_vi": "Thứ Hai tuần 24 Mùa Thường Niên",
+    "summary_en": "On this Monday, the Church continues its journey through the twenty-fourth week of Ordinary Time. The liturgy invites the faithful to reflect on the teachings of Christ with a green vestment symbolizing growth and hope in the Holy Spirit.",
+    "summary_vi": "Vào Thứ Hai này, Giáo Hội tiếp tục hành trình qua tuần thứ hai mươi tư Mùa Thường Niên. Phụng vụ mời gọi các tín hữu suy ngẫm những giáo huấn của Đức Kitô với phẩm phục màu xanh lá cây, biểu tượng cho sự tăng trưởng và hy vọng trong Chúa Thánh Thần.",
+    "body_en": "As a Feria, this day has no specific saint's feast or memorial taking precedence in the General Roman Calendar for 2027. The readings for Monday of Week 24 will focus on the ongoing catechesis and moral teachings found in the Epistles and Gospels, urging the faithful to live out their baptismal promises in daily life.\n\nThe green color of the vestments signifies the ordinary time of the Church, where the faithful are called to grow in holiness through prayer, work, and service. Without a major feast day to overshadow it, the focus remains on the steady progression of spiritual life and the reception of the Word of God.",
+    "body_vi": "Vì là ngày thường (Feria), ngày này không có lễ trọng hay lễ kính của một vị thánh nào chiếm ưu tiên trong Lịch Rôma Tổng quát năm 2027. Các bài đọc của Thứ Hai tuần 24 sẽ tập trung vào giáo lý và những giáo huấn đạo đức được tìm thấy trong các Thư và Phúc Âm, thúc giục các tín hữu sống lời hứa rửa tội trong cuộc sống hàng ngày.\n\nMàu xanh lá cây của phẩm phục tượng trưng cho thời kỳ thường niên của Giáo Hội, nơi các tín hữu được mời gọi tăng trưởng trong sự thánh thiện qua cầu nguyện, lao động và phục vụ. Không có lễ lớn nào che khuất, trọng tâm vẫn là sự tiến triển vững chắc của đời sống thiêng liêng và việc đón nhận Lời Chúa.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Grow in the Spirit during Ordinary Time.",
+    "hero_line_vi": "Hãy tăng trưởng trong Thần Khí trong Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, grant me the perseverance to follow Your will in all my daily actions.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự kiên trì để tuân theo ý Chúa trong mọi hành động hàng ngày của con."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "Confirmed as a standard Feria in Ordinary Time based on the 2027 liturgical calendar structure.",
+  "confidence_note_vi": "Được xác nhận là ngày thường chuẩn trong Mùa Thường Niên dựa trên cấu trúc phụng vụ lịch 2027.",
+  "sources": [
+    {
+      "label": "USCCB Daily Mass Readings",
+      "url": "https://bible.usccb.org/bible/readings/092727.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Calendar 2027",
+      "url": "https://www.catholiccalendar.org/2027-09-27",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-14",
+    "hebrew": "25 Elul 5787",
+    "islamic_umm_al_qura": "26 Rabi' al-Thani 1449 AH",
+    "coptic": "16 Thout 1744",
+    "ethiopian": "16 Meskerem 2020"
+  }
+}

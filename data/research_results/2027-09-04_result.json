@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-04",
+  "date": "2027-09-04",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 20",
+    "title_vi": "Thứ Bảy tuần 20 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Saturday of Ordinary Time",
+    "title_vi": "Thứ Bảy Mùa Thường Niên",
+    "summary_en": "This day is a Feria of the Twenty-First Week in Ordinary Time, focusing on the sanctification of daily life. The liturgical color is green, symbolizing hope and growth in the Christian faith. There are no universal solemnities or feasts on this specific date in the General Roman Calendar.",
+    "summary_vi": "Ngày này là thứ Bảy trong Tuần XXI Mùa Thường Niên, tập trung vào việc thánh hóa đời sống hàng ngày. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin Kitô giáo. Không có lễ trọng hay lễ kính phổ quát nào trong Lịch Rôma Chung vào ngày cụ thể này.",
+    "body_en": "As a Feria in Ordinary Time, the Church invites the faithful to reflect on the steady growth of their spiritual lives. The readings for the Mass focus on the ongoing need for conversion and the power of God's word in everyday circumstances.\n\nThe absence of a major saint's feast allows for a focus on the ordinary rhythm of faith. The liturgy emphasizes that holiness is not found only in extraordinary events but in the faithful fulfillment of daily duties and prayer.",
+    "body_vi": "Với tư cách là thứ Bảy trong Mùa Thường Niên, Giáo Hội mời gọi các tín hữu suy niệm về sự tăng trưởng vững chắc của đời sống thiêng liêng. Các bài đọc trong Thánh Lễ tập trung vào nhu cầu hoán cải liên tục và sức mạnh của Lời Chúa trong những hoàn cảnh hàng ngày.\n\nViệc không có lễ kính thánh nào lớn cho phép tập trung vào nhịp điệu đức tin thông thường. Phụng vụ nhấn mạnh rằng sự thánh thiện không chỉ được tìm thấy trong những biến cố phi thường mà còn trong việc chu toàn trung tín các bổn phận và lời cầu nguyện hàng ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Growth in Faith through Ordinary Days",
+    "hero_line_vi": "Tăng Trưởng Đức Tin Qua Những Ngày Thường Nhật",
+    "prayer_prompt_en": "Lord, help me find holiness in my daily duties and trust in Your steady grace.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự thánh thiện trong các bổn phận hàng ngày và tin tưởng vào ân sủng bền vững của Chúa."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/090427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Calendar",
+      "url": "https://www.newadvent.org/cathen/11278a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-22",
+    "hebrew": "2 Elul 5787",
+    "islamic_umm_al_qura": "3 Rabi' al-Thani 1449 AH",
+    "coptic": "29 Mesori 1743",
+    "ethiopian": "29 Nehase 2019"
+  }
+}

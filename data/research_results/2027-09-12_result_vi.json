@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 22 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật 22 Thường Niên",
+    "summary_vi": "Trọng tâm phụng vụ là Chúa Nhật 22 Mùa Thường Niên. Các bài đọc nhấn mạnh tầm quan trọng của sự khiêm nhường và lắng nghe lời Chúa. Trong Tin Mừng, Chúa Giêsu dạy về việc chiếm chỗ rốt hết trong bữa tiệc để được chủ tiệc nâng lên.",
+    "body_vi": "Trong Bài Đọc 1 từ Sách Huấn Ca, tác giả khuyên hãy hạ mình xuống để được tôn vinh. Chủ đề khiêm nhường là trung tâm của đời sống Kitô hữu, tương phản với tham vọng trần thế và sự cao cả thiêng liêng.\n\nTin Mừng theo Thánh Luca trình bày dụ ngôn về việc chọn chỗ ngồi trong bữa tiệc. Chúa Giêsu dạy rằng ai tự nâng cao mình sẽ bị hạ xuống, còn ai hạ mình xuống sẽ được nâng lên. Ngày này mời gọi các tín hữu suy gẫm về thái độ đối với tha nhân và Thiên Chúa, nuôi dưỡng tinh thần phục vụ và khiêm tốn.",
+    "confidence_note_vi": "Ngày này rơi vào Chúa Nhật, nên được ưu tiên hơn các kính nhớ thánh. Bậc lễ được xác định theo vị trí trong Mùa Thường Niên theo Lịch Rôma Tổng Quát."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Khiêm nhường mở cửa ơn thánh.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy con sống khiêm nhường và phục vụ tha nhân trong yêu thương."
+  }
+}

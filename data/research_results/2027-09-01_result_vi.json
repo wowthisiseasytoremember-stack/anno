@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Tư tuần 20 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Tư tuần 20 Mùa Thường Niên",
+    "summary_vi": "Ngày này đánh dấu một ngày thường trong Mùa Thường Niên, cụ thể là Thứ Tư tuần 20. Màu phụng vụ là màu xanh lá cây, tượng trưng cho sự tăng trưởng và niềm hy vọng trong đời sống Kitô hữu hằng ngày. Các bài đọc và lời cầu nguyện tập trung vào sự kiên trì trong đức tin giữa những ngày bình thường.",
+    "body_vi": "Là một ngày thường trong Mùa Thường Niên, Giáo hội mời gọi các tín hữu suy tư về sự tăng trưởng đều đặn của Nước Thiên Chúa trong cuộc sống hằng ngày. Các vestment màu xanh lá cây nhắc nhở chúng ta về niềm hy vọng nâng đỡ chúng ta qua những thói quen tầm thường, thôi thúc chúng ta tìm thấy Thiên Chúa trong những điều bình thường. Thứ Tư cụ thể này đóng vai trò như một khoảng lặng cho sự đổi mới tâm linh trong nhịp chảy của tuần lễ, nhấn mạnh tầm quan trọng của việc cầu nguyện nhất quán và suy niệm Kinh Thánh.\n\nTrong Lịch Rôma Chung, không có lễ kính thánh nào phổ quát được ưu tiên trong ngày này. Trọng tâm vẫn là các văn bản phụng vụ được gán cho ngày trong tuần, thường nói về các chủ đề như lòng thương xót, công lý hoặc bản chất của việc làm môn đệ. Các tín hữu được khuyến khích tham gia vào Kinh Nhật Tụng và các bài đọc Sách Thánh hằng ngày, để Lời Chúa hình thành hành động và thái độ của họ trong suốt cả ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tìm thấy Thiên Chúa trong điều bình thường",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con thấy sự hiện diện của Ngài trong công việc hằng ngày."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Suy Tôn Thánh Giá"
+  },
+  "primary": {
+    "title_vi": "Lễ Suy Tôn Thánh Giá",
+    "summary_vi": "Lễ Suy Tôn Thánh Giá kính nhớ việc tìm thấy Thánh Giá thật bởi Thánh Nữ Helena và lễ cung hiến Vương cung thánh đường Mộ Thánh. Lễ này tưởng nhớ chiến thắng của Chúa Kitô trên sự chết và ơn cứu độ được ban qua hy tế của Ngài trên thập giá. Các tín hữu tôn kính Thập Giá như dụng cụ cứu chuộc và biểu tượng của sự sống đời đời.",
+    "body_vi": "Vào ngày 14 tháng 9, Hội Thánh mừng Lễ Suy Tôn Thánh Giá, một ngày lễ tôn vinh Thập Giá như dấu chỉ trung tâm của ơn cứu độ Kitô giáo. Về mặt lịch sử, lễ này đánh dấu ngày kỷ niệm cung hiến Vương cung thánh đường Mộ Thánh tại Giêrusalem vào năm 335 sau Công Nguyên, cũng như việc tìm lại Thánh Giá thật. Phụng vụ nhấn mạnh sự nghịch lý của Thập Giá, nơi đau khổ trở thành vinh quang và cái chết dẫn đến sự phục sinh. Đây là lời nhắc nhở rằng qua mầu nhiệm Thập Giá, nhân loại được phục hồi phẩm giá thần linh của mình.\n\nViệc cử hành này cũng mời gọi các tín hữu suy niệm ý nghĩa thần học của Thập Giá như ngai tòa của Chúa Kitô và bàn thờ dâng hy tế. Trong ngữ cảnh năm phụng vụ, lễ này là một ngày lễ lớn xen vào Mùa Thường Niên, làm nổi bật tính trung tâm của Mầu nhiệm Vượt Qua. Màu phụng vụ đỏ tượng trưng cho máu của Chúa Kitô và lửa của Chúa Thánh Thần. Sự sùng kính Thập Giá luôn hiện diện trong truyền thống của Hội Thánh, kết nối các tín hữu với thời kỳ Tông truyền và các vị tử đạo tiên khởi.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hãy chiêm ngắm Thập Giá, niềm hy vọng và vinh quang cứu độ chúng ta.",
+    "prayer_prompt_vi": "Lạy Chúa, chúng con tôn thờ Thánh Giá Chúa. Xin cho chúng con tìm thấy sức mạnh, ơn cứu độ và vinh quang nơi đó. Amen."
+  }
+}

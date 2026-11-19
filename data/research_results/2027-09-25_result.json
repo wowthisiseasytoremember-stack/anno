@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-25",
+  "date": "2027-09-25",
+  "weekday": "Saturday",
+  "liturgical": {
+    "rank": "Feria",
+    "color": "green",
+    "title_en": "Saturday of Ordinary Time, Week 23",
+    "title_vi": "Thứ Bảy tuần 23 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "Feria of Ordinary Time",
+    "title_vi": "Ngày thường Mùa Thường Niên",
+    "summary_en": "This day is a standard feria within the Twenty-Third Week of Ordinary Time. The liturgical color is green, signifying growth and the time of the Church in the world. No universal solemnity or feast takes precedence on this date in the General Roman Calendar.",
+    "summary_vi": "Ngày này là ngày thường trong Tuần 23 Mùa Thường Niên. Màu phụng vụ là màu xanh, biểu tượng cho sự tăng trưởng và thời kỳ Hội Thánh sống giữa trần gian. Không có lễ trọng hay lễ kính nào ưu tiên trong Lịch Phụng Vụ Chung vào ngày này.",
+    "body_en": "As a feria in Ordinary Time, the focus remains on the continuous cycle of the Liturgy of the Hours and the reading of Scripture prescribed for Week 23. The faithful are encouraged to engage with the daily Mass readings, which typically follow the lectionary cycle established by the Church. This period serves as a time for spiritual growth amidst the routine of daily life.\n\nThe absence of a major saint or feast on this specific Saturday allows for the full observance of the weekday liturgy. Local calendars may introduce optional memorials, but the universal church observes this as a day of ordinary sanctification. The prayers and readings reflect themes of perseverance and listening to the Word of God.",
+    "body_vi": "Là ngày thường trong Mùa Thường Niên, trọng tâm vẫn là chu kỳ liên tục của Phụng vụ Các Giờ Kinh và việc đọc Sách Thánh được quy định cho Tuần 23. Các tín hữu được mời gọi suy gẫm các bài đọc Thánh lễ hàng ngày, thường tuân theo chu kỳ sách bài đọc do Hội Thánh thiết lập. Thời kỳ này là cơ hội để tăng trưởng thiêng liêng giữa nhịp sống hàng ngày.\n\nViệc không có vị thánh hay lễ kính lớn nào vào Thứ Bảy này cho phép tuân giữ đầy đủ phụng vụ ngày trong tuần. Lịch địa phương có thể giới thiệu các ngày lễ bổn phận tùy chọn, nhưng Hội Thánh hoàn vũ tuân giữ đây là ngày thánh hóa thường nhật. Các lời cầu nguyện và bài đọc phản ánh các chủ đề về sự kiên tâm và lắng nghe Lời Chúa.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Walking in the light of Ordinary Time.",
+    "hero_line_vi": "Bước đi trong ánh sáng của Mùa Thường Niên.",
+    "prayer_prompt_en": "Lord, help us grow in holiness during our daily lives.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con tăng trưởng trong thánh thiện giữa đời sống hàng ngày."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/092527.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Culture",
+      "url": "https://www.catholicculture.org/culture/liturgicalcalendar/date.cfm?year=2027&month=9&day=25",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-12",
+    "hebrew": "23 Elul 5787",
+    "islamic_umm_al_qura": "24 Rabi' al-Thani 1449 AH",
+    "coptic": "14 Thout 1744",
+    "ethiopian": "14 Meskerem 2020"
+  }
+}

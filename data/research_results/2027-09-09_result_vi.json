@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Phêrô Claver, Linh mục"
+  },
+  "primary": {
+    "title_vi": "Thánh Phêrô Claver, Linh mục",
+    "summary_vi": "Thánh Phêrô Claver là một nhà truyền giáo dòng Tên phục vụ tại Cartagena, Colombia, chăm sóc những người nô lệ gốc Phi. Ngài nổi tiếng với sự ủng hộ không mệt mỏi cho phúc lợi thể lý và tinh thần của các nô lệ, cung cấp cho họ thức ăn, thuốc men và giáo lý. Lễ nhớ ngài được cử hành như một Lễ nhớ tùy chọn vào ngày 9 tháng 9.",
+    "body_vi": "Sinh ra tại Verdú, Catalonia, vào năm 1580, Phêrô Claver gia nhập Dòng Tên và đến Tân Granada để phục vụ tại Cartagena de Indias. Tại đây, ngài đã dâng hiến cuộc đời mình để phục vụ những người châu Phi bị đưa cưỡng chế qua Đại Tây Dương để bán làm nô lệ. Phương pháp của ngài kết hợp giữa lòng bác ái thực hành với sự hướng dẫn thiêng liêng, thường xuyên học nhiều ngôn ngữ châu Phi để giao tiếp hiệu quả với những người mà ngài phục vụ.\n\nDi sản của Thánh Phêrô Claver là lòng hiếu khách triệt để và sự bảo vệ phẩm giá của những người bị lãng quên. Ngài kiên quyết đối xử với những người nô lệ với sự tôn trọng giống như những người tự do, thách thức các chuẩn mực xã hội đương thời qua những hành động khiêm tốn và phục vụ sâu sắc. Giáo Hội cử hành lễ nhớ ngài vào ngày 9 tháng 9 như một Lễ nhớ tùy chọn, làm nổi bật vai trò của ngài là bổn mạng của tất cả các sứ vụ giữa những người châu Phi.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Phục vụ với lòng khiêm nhường, nhìn thấy Chúa Kitô trong mọi linh hồn.",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp chúng con nhìn thấy sự hiện diện của Chúa nơi những người bị gạt ra bên lề và phục vụ họ với tình yêu thương."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Cornêliô và Thánh Síprianô, Tử đạo"
+  },
+  "primary": {
+    "title_vi": "Thánh Cornêliô và Thánh Síprianô, Tử đạo",
+    "summary_vi": "Ngày này kính nhớ Đức Giáo Hoàng Thánh Cornêliô và Thánh Síprianô thành Carthage, hai vị tử đạo thế kỷ IV, những người đã cộng tác để bảo vệ sự hiệp nhất và đức tin của Hội Thánh. Đức Cornêliô bị lưu đày vì từ chối đón nhận những người đã sa ngã, còn Thánh Síprianô bênh vực tính thành sự của phép rửa do những người lạc giáo cử hành. Lễ kính chung của các ngài nhấn mạnh sự cộng tác trong việc chống lại lạc giáo Novatian và duy trì kỷ luật giáo hội.",
+    "body_vi": "Đức Giáo Hoàng Cornêliô đã đối mặt với những thách thức lớn lao trong việc bảo vệ sự chính trực của Hội Thánh sau các cuộc bách hại thời hoàng đế Decius, đặc biệt là về vấn đề đón nhận lại những người đã chối đạo. Những thư từ trao đổi với Thánh Síprianô cho thấy cam kết sâu sắc của ngài đối với lòng thương xót mục vụ được cân bằng với sự kiên định về giáo lý. Sự cộng tác của họ đóng vai trò thiết yếu trong việc thiết lập các chuẩn mực về sám hối, cân bằng giữa sự nghiêm khắc và lòng thương xót.\n\nThánh Síprianô thành Carthage đóng vai trò là cầu nối quan trọng giữa Hội Thánh tại châu Phi và Rôma, cung cấp cái nhìn thần học và hỗ trợ về mặt quản trị. Mặc dù cả hai vị đều chịu tử đạo, di sản của các ngài nằm ở việc cai quản giáo phận và việc cùng nhau bảo vệ đời sống bí tích. Họ cùng nhau làm gương về tầm quan trọng của sự nâng đỡ huynh đệ giữa những mục tử của Hội Thánh trong thời kỳ khủng hoảng.",
+    "confidence_note_vi": "Thánh Cornêliô và Thánh Síprianô là các thánh được xác nhận trong Lịch Rôma Thông Thường với ngày kính nhớ cố định vào 16 tháng 9."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Hiệp nhất và Kỷ luật: Di sản của Thánh Cornêliô và Thánh Síprianô",
+    "prayer_prompt_vi": "Cầu nguyện cho sự hiệp nhất của Hội Thánh và sự khôn ngoan dành cho các vị lãnh đạo hôm nay."
+  }
+}

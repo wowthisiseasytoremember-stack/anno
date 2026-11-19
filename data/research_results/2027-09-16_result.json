@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-16",
+  "date": "2027-09-16",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "red",
+    "title_en": "Sts. Cornelius, Pope, and Cyprian, Bishop, Martyrs",
+    "title_vi": "Thánh Cornêliô và Thánh Síprianô, Tử đạo"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "Sts. Cornelius, Pope, and Cyprian, Bishop, Martyrs",
+    "title_vi": "Thánh Cornêliô và Thánh Síprianô, Tử đạo",
+    "summary_en": "This day commemorates Pope St. Cornelius and St. Cyprian of Carthage, two fourth-century martyrs who worked together for Church unity and the defense of the faith. Cornelius was exiled for refusing to readmit those who had lapsed, while Cyprian defended the validity of baptism administered by heretics.",
+    "summary_vi": "Ngày này kính nhớ Đức Giáo Hoàng Thánh Cornêliô và Thánh Síprianô thành Carthage, hai vị tử đạo thế kỷ IV, những người đã cộng tác để bảo vệ sự hiệp nhất và đức tin của Hội Thánh. Đức Cornêliô bị lưu đày vì từ chối đón nhận những người đã sa ngã, còn Thánh Síprianô bênh vực tính thành sự của phép rửa do những người lạc giáo cử hành. Lễ kính chung của các ngài nhấn mạnh sự cộng tác trong việc chống lại lạc giáo Novatian và duy trì kỷ luật giáo hội.",
+    "body_en": "Pope Cornelius faced significant challenges in maintaining the integrity of the Church after the Decian persecutions, particularly regarding the readmission of those who had denied the faith. His correspondence with Cyprian reveals a deep commitment to pastoral mercy balanced with doctrinal firmness. Their partnership was crucial in establishing norms for penance that balanced rigor and compassion.\n\nSt. Cyprian of Carthage served as a vital bridge between the African and Roman Churches, offering theological insight and administrative support. Although both saints were martyred, their legacy lies in their episcopal governance and their joint defense of the sacramental life. Together, they exemplify the importance of fraternal support among shepherds of the Church in times of crisis.",
+    "body_vi": "Đức Giáo Hoàng Cornêliô đã đối mặt với những thách thức lớn lao trong việc bảo vệ sự chính trực của Hội Thánh sau các cuộc bách hại thời hoàng đế Decius, đặc biệt là về vấn đề đón nhận lại những người đã chối đạo. Những thư từ trao đổi với Thánh Síprianô cho thấy cam kết sâu sắc của ngài đối với lòng thương xót mục vụ được cân bằng với sự kiên định về giáo lý. Sự cộng tác của họ đóng vai trò thiết yếu trong việc thiết lập các chuẩn mực về sám hối, cân bằng giữa sự nghiêm khắc và lòng thương xót.\n\nThánh Síprianô thành Carthage đóng vai trò là cầu nối quan trọng giữa Hội Thánh tại châu Phi và Rôma, cung cấp cái nhìn thần học và hỗ trợ về mặt quản trị. Mặc dù cả hai vị đều chịu tử đạo, di sản của các ngài nằm ở việc cai quản giáo phận và việc cùng nhau bảo vệ đời sống bí tích. Họ cùng nhau làm gương về tầm quan trọng của sự nâng đỡ huynh đệ giữa những mục tử của Hội Thánh trong thời kỳ khủng hoảng.",
+    "confidence": "confirmed",
+    "confidence_note_en": "Sts. Cornelius and Cyprian are confirmed saints in the General Roman Calendar with a fixed memorial date of September 16.",
+    "confidence_note_vi": "Thánh Cornêliô và Thánh Síprianô là các thánh được xác nhận trong Lịch Rôma Thông Thường với ngày kính nhớ cố định vào 16 tháng 9."
+  },
+  "app_hooks": {
+    "hero_line_en": "Unity and Discipline: The Legacy of Cornelius and Cyprian",
+    "hero_line_vi": "Hiệp nhất và Kỷ luật: Di sản của Thánh Cornêliô và Thánh Síprianô",
+    "prayer_prompt_en": "Pray for unity in the Church and wisdom for its leaders today.",
+    "prayer_prompt_vi": "Cầu nguyện cho sự hiệp nhất của Hội Thánh và sự khôn ngoan dành cho các vị lãnh đạo hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/091627.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic Online Saints",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=239",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-03",
+    "hebrew": "14 Elul 5787",
+    "islamic_umm_al_qura": "15 Rabi' al-Thani 1449 AH",
+    "coptic": "5 Thout 1744",
+    "ethiopian": "5 Meskerem 2020"
+  }
+}

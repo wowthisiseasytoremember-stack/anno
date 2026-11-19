@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-23",
+  "date": "2027-09-23",
+  "weekday": "Thursday",
+  "liturgical": {
+    "rank": "Memorial",
+    "color": "white",
+    "title_en": "St. Pius of Pietrelcina (Padre Pio), Priest",
+    "title_vi": "Thánh Piô Năm Dấu (Padre Pio), Linh mục"
+  },
+  "primary": {
+    "type": "saint",
+    "title_en": "St. Pio of Pietrelcina (Padre Pio), Priest",
+    "title_vi": "Thánh Piô Năm Dấu (Padre Pio), Linh mục",
+    "summary_en": "The Church celebrates the memorial of St. Pio of Pietrelcina, known as Padre Pio. He was an Italian Capuchin friar renowned for his spiritual guidance and the stigmata he bore. His life emphasized prayer, sacrifice, and the sacrament of Confession.",
+    "summary_vi": "Hội Thánh cử hành lễ nhớ Thánh Piô Năm Dấu, còn gọi là Padre Pio. Ngài là một tu sĩ dòng Capuchin người Ý nổi tiếng với sự hướng dẫn thiêng liêng và các dấu thánh trên thân thể. Cuộc đời ngài nhấn mạnh vào lời cầu nguyện, hy sinh và bí tích Hòa Giải.",
+    "body_en": "St. Pio of Pietrelcina (1887-1968) became a symbol of deep devotion in the 20th century. He was known for his long hours in the confessional and his intense participation in the Mass. His ministry attracted pilgrims from around the world who sought his counsel.\n\nHis legacy continues through the Foundation of 'Relief for the Suffering' hospital and his numerous spiritual letters. The Church commemorates him for his steadfast faith and his ability to guide souls through the challenges of modern life.",
+    "body_vi": "Thánh Piô Năm Dấu (1887-1968) đã trở thành biểu tượng của lòng sùng kính sâu sắc trong thế kỷ 20. Ngài nổi tiếng với những giờ ngồi tòa giải tội kéo dài và sự tham dự Thánh lễ cách sốt sắng. Sứ vụ của ngài thu hút những khách hành hương từ khắp nơi trên thế giới đến tìm kiếm lời khuyên.\n\nDi sản của ngài tiếp tục thông qua Bệnh viện 'Giúp đỡ những người đau khổ' và vô số thư từ thiêng liêng. Hội Thánh tưởng nhớ ngài vì đức tin kiên định và khả năng hướng dẫn các linh hồn qua những thách thức của cuộc sống hiện đại.",
+    "confidence": "confirmed",
+    "confidence_note_en": "St. Pio's memorial is a fixed entry in the General Roman Calendar.",
+    "confidence_note_vi": "Lễ nhớ Thánh Piô Năm Dấu là mục cố định trong Lịch phụng vụ chung Rôma."
+  },
+  "app_hooks": {
+    "hero_line_en": "Pray, hope, and don't worry.",
+    "hero_line_vi": "Cầu nguyện, hy vọng, và đừng lo lắng.",
+    "prayer_prompt_en": "Reflect on the importance of regular Confession this day.",
+    "prayer_prompt_vi": "Hãy suy niệm về tầm quan trọng của Bí tích Hòa Giải thường xuyên trong ngày này."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/092327.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org Saints",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=2713",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-10",
+    "hebrew": "21 Elul 5787",
+    "islamic_umm_al_qura": "22 Rabi' al-Thani 1449 AH",
+    "coptic": "12 Thout 1744",
+    "ethiopian": "12 Meskerem 2020"
+  }
+}

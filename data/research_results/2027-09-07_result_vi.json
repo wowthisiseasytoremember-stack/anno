@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Ba tuần 21 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Ba tuần XXI Thường Niên",
+    "summary_vi": "Thứ Ba này thuộc tuần XXI Mùa Thường Niên trong lịch phụng vụ. Đây là ngày lễ trong tuần với màu phụng vụ xanh lá, tượng trưng cho niềm hy vọng và sự tăng trưởng. Không có lễ trọng hay lễ buộc nào ưu tiên trong ngày này, nên giờ kinh nhật khóa và bài đọc tuân theo quy định tiêu chuẩn cho ngày trong tuần thứ 21.",
+    "body_vi": "Trọng tâm phụng vụ của Thứ Ba tuần XXI Mùa Thường Niên là sự tăng trưởng vững chắc của các tín hữu trong bước đi hằng ngày với Chúa Kitô. Mùa Thường Niên tượng trưng cho thời gian Giáo Hội mời gọi chúng ta suy niệm về những mầu nhiệm trong đời sống Chúa Kitô và ơn gọi nên thánh của chính mình.\n\nCác bài đọc và lời cầu nguyện cho Thứ Ba cụ thể này dẫn dắt người tín hữu hướng tới sự hoán cải sâu sắc hơn và sự hiểu biết về Tin Mừng. Là ngày lễ thường, nó nhấn mạnh việc thánh hóa đời sống hằng ngày qua việc đọc Kinh Thần Vụ và tham dự Thánh Lễ.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng trong Đức tin giữa Mùa Thường Niên",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tăng trưởng trong sự thánh thiện giữa những bổn phận hằng ngày."
+  }
+}

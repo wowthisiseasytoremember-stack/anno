@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-09-19",
+  "date": "2027-09-19",
+  "weekday": "Sunday",
+  "liturgical": {
+    "rank": "Sunday",
+    "color": "green",
+    "title_en": "Sunday of Ordinary Time, Week 23",
+    "title_vi": "Chúa Nhật tuần 23 Mùa Thường Niên"
+  },
+  "primary": {
+    "type": "liturgical_day",
+    "title_en": "23rd Sunday in Ordinary Time",
+    "title_vi": "Chúa Nhật 23 Mùa Thường Niên",
+    "summary_en": "This Sunday marks the twenty-third week of the liturgical year in Ordinary Time. The readings focus on the importance of humble service and the acceptance of God's will. It serves as a time for reflection on living out faith in daily life.",
+    "summary_vi": "Chúa Nhật này đánh dấu tuần lễ thứ hai mươi ba của năm phụng vụ trong Mùa Thường Niên. Các bài đọc tập trung vào tầm quan trọng của việc phục vụ khiêm nhường và sự chấp nhận ý Chúa. Đây là thời gian suy niệm về việc sống đức tin trong cuộc sống hàng ngày.",
+    "body_en": "The liturgy for the 23rd Sunday in Ordinary Time invites the faithful to contemplate the nature of true discipleship through the lens of humility and service. In the First Reading, the prophet Isaiah speaks of the comfort and peace that come to those who trust in the Lord. This sets a tone of hope and restoration for the congregation.\n\nThe Gospel reading typically emphasizes the paradox of greatness in the Kingdom of Heaven, where the first shall be last and the last shall be first. Jesus teaches his disciples that true authority is found in serving others, challenging the worldly understanding of power. This Sunday, colored green to symbolize the growth of the Church, encourages believers to nurture their spiritual lives through consistent prayer and charity.",
+    "body_vi": "Phụng vụ cho Chúa Nhật thứ 23 Mùa Thường Niên mời gọi các tín hữu suy niệm về bản chất của việc làm môn đệ đích thực qua lăng kính của sự khiêm nhường và phục vụ. Trong Bài đọc thứ nhất, ngôn sứ Isaia nói về sự ủi an và bình an đến với những ai tin cậy vào Chúa. Điều này tạo nên giai điệu của hy vọng và sự phục hồi cho cộng đoàn.\n\nBài Tin Mừng thường nhấn mạnh vào nghịch lý của sự cao cả trong Nước Trời, nơi những người đứng đầu sẽ trở nên cuối cùng và những người cuối cùng sẽ trở nên đầu. Chúa Giêsu dạy các môn đệ rằng quyền lực đích thực được tìm thấy trong việc phục vụ người khác, thách thức cách hiểu của thế gian về quyền lực. Chúa Nhật này, được tô màu xanh lục tượng trưng cho sự tăng trưởng của Giáo Hội, khuyến khích người tin nuôi dưỡng đời sống tâm linh qua lời cầu nguyện nhất quán và lòng bác ái.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "confidence": "confirmed",
+  "confidence_note_en": "The date 2027-09-19 falls within Ordinary Time as per the General Roman Calendar. The liturgical rank and color are standard for a Sunday in this period, and the readings follow the three-year cycle (Year C for 2027, though specific readings depend on the weekday, the Sunday theme is fixed by the week number).",
+  "confidence_note_vi": "Ngày 19-09-2027 rơi vào Mùa Thường Niên theo Lịch Rôma Chung. Hạng phụng vụ và màu sắc là tiêu chuẩn cho một Chúa Nhật trong giai đoạn này, và các bài đọc tuân theo chu kỳ ba năm (Năm C cho năm 2027, mặc dù các bài đọc cụ thể phụ thuộc vào ngày trong tuần, chủ đề của Chúa Nhật được cố định bởi số tuần).",
+  "app_hooks": {
+    "hero_line_en": "Serve in humility, grow in grace.",
+    "hero_line_vi": "Phục vụ trong khiêm nhường, lớn lên trong ân sủng.",
+    "prayer_prompt_en": "Lord, teach us to serve one another with genuine humility and love.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy chúng con phục vụ lẫn nhau với sự khiêm nhường và tình yêu thương chân thật."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for 2027-09-19",
+      "url": "https://bible.usccb.org/bible/readings/091927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Liturgical Calendar",
+      "url": "https://www.newadvent.org/cathen/11222a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-06",
+    "hebrew": "17 Elul 5787",
+    "islamic_umm_al_qura": "18 Rabi' al-Thani 1449 AH",
+    "coptic": "8 Thout 1744",
+    "ethiopian": "8 Meskerem 2020"
+  }
+}

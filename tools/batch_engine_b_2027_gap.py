@@ -577,6 +577,9 @@ def main() -> None:
             # Engine A is the single source of truth for all five calendar strings.
             en["calendars"] = cs
             en = coerce_content(en)
+            quality_issues = content_quality_issues(en)
+            if quality_issues:
+                raise RuntimeError(f"{d_str}: content gate failed at final write: " + ", ".join(quality_issues))
             with open(en_path, "w", encoding="utf-8") as f:
                 json.dump(en, f, ensure_ascii=False, indent=2)
 
@@ -601,6 +604,9 @@ def main() -> None:
             if missing_vi(en):
                 en = repair_vi(en, d_str)
                 en = coerce_content(en)
+                quality_issues = content_quality_issues(en)
+                if quality_issues:
+                    raise RuntimeError(f"{d_str}: content gate failed at final write: " + ", ".join(quality_issues))
                 with open(en_path, "w", encoding="utf-8") as f:
                     json.dump(en, f, ensure_ascii=False, indent=2)
                 vi = {
@@ -640,6 +646,9 @@ def main() -> None:
             if len(en.get("sources", [])) < 2:
                 raise RuntimeError(f"{d_str}: fewer than 2 sources at write time")
             en = coerce_content(en)
+            quality_issues = content_quality_issues(en)
+            if quality_issues:
+                raise RuntimeError(f"{d_str}: content gate failed at final write: " + ", ".join(quality_issues))
             with open(en_path, "w", encoding="utf-8") as f:
                 json.dump(en, f, ensure_ascii=False, indent=2)
 

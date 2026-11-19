@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Grêgôriô Cả, Giáo hoàng, Tiến sĩ HT"
+  },
+  "primary": {
+    "title_vi": "Thánh Grêgôriô Cả, Giáo hoàng, Tiến sĩ",
+    "summary_vi": "Thánh Grêgôriô Cả là một trong bốn Tiến sĩ lớn của Giáo hội Latinh và đã phục vụ với tư cách Giáo hoàng từ năm 590 đến 604 SCN. Ngài được mừng kính vì các trước tác phong phú về Kinh Thánh, các cải cách âm phụng vụ (cung Gregorian), và công cuộc truyền giáo khi gửi Augustinô thành Canterbury đến Anh. Lễ kính ngài được cử hành vào ngày 3 tháng 9, tôn vinh tác động sâu sắc của ngài đối với phụng vụ và mục vụ của phương Tây.",
+    "body_vi": "Grêgôriô Cả, sinh ra trong một gia đình quý tộc La Mã, đã chọn lối sống giản dị của đan sĩ trước khi được bầu làm Giáo hoàng. Trong thời kỳ giáo hoàng của ngài, ngài đã cầu nối giữa thế giới cổ điển và kỷ nguyên trung cổ mới nổi, nhấn mạnh vào đức khiêm nhường và phục vụ. Tác phẩm 'Quy tắc Mục vụ' (Regula Pastoralis) của ngài đã trở thành sách hướng dẫn cho các giám mục và linh mục trong nhiều thế kỷ, phác thảo các phẩm chất cần thiết cho việc lãnh đạo tinh thần.\n\nDi sản phụng vụ của ngài vẫn còn hiện hữu cho đến ngày nay; ngài được coi là người có công trong việc tổ chức các bài hát mang tên ngài và cấu trúc phụng vụ Rôma trong mùa Chay. Với tư cách là Tiến sĩ Hội Thánh, các bài chú giải của ngài về sách Giob và Tin Mừng đã đặt nền tảng cho việc chú giải thời trung cổ, pha trộn cách giải thích ẩn dụ với sự hướng dẫn luân lý thiết thực cho các tín hữu.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Người tôi tớ của các tôi tớ Thiên Chúa",
+    "prayer_prompt_vi": "Xin cho chúng con noi gương khiêm nhường của Thánh Grêgôriô trong việc phục vụ."
+  }
+}

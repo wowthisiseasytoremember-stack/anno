@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Lễ Các Tổng Lãnh Thiên Thần Micae, Gabrie và Raphae"
+  },
+  "primary": {
+    "title_vi": "Các Tổng Lãnh Thiên Thần Micae, Gabriel và Raphael",
+    "summary_vi": "Lễ này tôn kính Ba Tổng Lãnh Thiên Thần, những người được Kinh Thánh nêu đích danh là sứ giả của ý Chúa. Micae được tôn vinh là đấng bảo trợ Giáo Hội và là thủ lãnh đạo binh thiên quốc. Gabriel đã loan báo việc sinh hạ của Gioan Tẩy Giả và Đức Giêsu, còn Raphael đóng vai trò hướng dẫn và chữa lành trong Sách Tobit.",
+    "body_vi": "Lễ cử hành vào ngày 29 tháng 9 đánh dấu Lễ Các Tổng Lãnh Thiên Thần, một truyền thống bắt nguồn từ việc cung hiến Đền Thờ Thánh Micae tại Rôma. Giáo Hội tưởng nhớ Micae, có nghĩa là 'Ai bằng Thiên Chúa?', vì vai trò bảo vệ trật tự thần linh và cầu bầu cho nhân loại. Gabriel được tưởng nhớ vì sự khiêm nhường sâu sắc và sự rõ ràng khi loan báo các mặc khải thần linh về mầu nhiệm Nhập Thể. Raphael được tôn kính vì sự hiện diện như một người bạn đồng hành mang lại sự chữa lành và mặc khải qua sự vâng phục Thiên Chúa.\n\nTrong các bài đọc phụng vụ, các thiên thần này được mô tả là những thần khí thuần khiết, đóng vai trò là khí cụ của quan phòng thần linh. Họ không tìm vinh quang cho mình nhưng dẫn dắt các tín hữu hướng về Đấng Tạo Hóa. Lễ này mời gọi các tín hữu nhận ra thực tại vô hình của trời cao và cầu xin sự che chở, hướng dẫn của các vị chuyển cầu quyền năng này trong đời sống hàng ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Sứ giả của Thiên Chúa trong đạo binh thiên quốc",
+    "prayer_prompt_vi": "Hãy cầu xin sự chuyển cầu của các Tổng Lãnh Thiên Thần khi bạn thực hiện các công việc hôm nay."
+  }
+}

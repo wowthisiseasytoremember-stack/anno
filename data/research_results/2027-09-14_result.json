@@ -1,0 +1,54 @@
+{
+  "id": "anno-2027-09-14",
+  "date": "2027-09-14",
+  "weekday": "Tuesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "red",
+    "title_en": "The Exaltation of the Holy Cross",
+    "title_vi": "Lễ Suy Tôn Thánh Giá"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "The Exaltation of the Holy Cross",
+    "title_vi": "Lễ Suy Tôn Thánh Giá",
+    "summary_en": "The Feast of the Exaltation of the Holy Cross celebrates the discovery of the True Cross by Saint Helena and the dedication of the Church of the Holy Sepulchre. It commemorates the victory of Christ over death and the salvation brought through His sacrifice on the wood of the Cross. The faithful venerate the Cross as the instrument of redemption and the symbol of eternal life.",
+    "summary_vi": "Lễ Suy Tôn Thánh Giá kính nhớ việc tìm thấy Thánh Giá thật bởi Thánh Nữ Helena và lễ cung hiến Vương cung thánh đường Mộ Thánh. Lễ này tưởng nhớ chiến thắng của Chúa Kitô trên sự chết và ơn cứu độ được ban qua hy tế của Ngài trên thập giá. Các tín hữu tôn kính Thập Giá như dụng cụ cứu chuộc và biểu tượng của sự sống đời đời.",
+    "body_en": "On September 14, the Church celebrates the Exaltation of the Holy Cross, a feast that honors the Cross as the central sign of Christian salvation. Historically, this feast marks the anniversary of the dedication of the Basilica of the Holy Sepulchre in Jerusalem in 335 AD, as well as the recovery of the True Cross. The liturgy emphasizes the paradox of the Cross, where suffering becomes glory, and death leads to resurrection. It serves as a reminder that through the mystery of the Cross, humanity is restored to its divine dignity.\n\nThe celebration also invites believers to contemplate the theological significance of the Cross as the throne of Christ and the altar of sacrifice. In the context of the liturgical year, it stands as a major feast that interrupts the Ordinary Time, highlighting the centrality of the Paschal Mystery. The red liturgical color symbolizes the blood of Christ and the fire of the Holy Spirit. Devotion to the Cross has been a constant in the Church's tradition, linking the faithful to the apostolic age and the early martyrs.",
+    "body_vi": "Vào ngày 14 tháng 9, Hội Thánh mừng Lễ Suy Tôn Thánh Giá, một ngày lễ tôn vinh Thập Giá như dấu chỉ trung tâm của ơn cứu độ Kitô giáo. Về mặt lịch sử, lễ này đánh dấu ngày kỷ niệm cung hiến Vương cung thánh đường Mộ Thánh tại Giêrusalem vào năm 335 sau Công Nguyên, cũng như việc tìm lại Thánh Giá thật. Phụng vụ nhấn mạnh sự nghịch lý của Thập Giá, nơi đau khổ trở thành vinh quang và cái chết dẫn đến sự phục sinh. Đây là lời nhắc nhở rằng qua mầu nhiệm Thập Giá, nhân loại được phục hồi phẩm giá thần linh của mình.\n\nViệc cử hành này cũng mời gọi các tín hữu suy niệm ý nghĩa thần học của Thập Giá như ngai tòa của Chúa Kitô và bàn thờ dâng hy tế. Trong ngữ cảnh năm phụng vụ, lễ này là một ngày lễ lớn xen vào Mùa Thường Niên, làm nổi bật tính trung tâm của Mầu nhiệm Vượt Qua. Màu phụng vụ đỏ tượng trưng cho máu của Chúa Kitô và lửa của Chúa Thánh Thần. Sự sùng kính Thập Giá luôn hiện diện trong truyền thống của Hội Thánh, kết nối các tín hữu với thời kỳ Tông truyền và các vị tử đạo tiên khởi.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "Behold the Cross, the hope and glory of our salvation.",
+    "hero_line_vi": "Hãy chiêm ngắm Thập Giá, niềm hy vọng và vinh quang cứu độ chúng ta.",
+    "prayer_prompt_en": "Lord, we adore Your Holy Cross. May we find in it our strength, our salvation, and our glory. Amen.",
+    "prayer_prompt_vi": "Lạy Chúa, chúng con tôn thờ Thánh Giá Chúa. Xin cho chúng con tìm thấy sức mạnh, ơn cứu độ và vinh quang nơi đó. Amen."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings",
+      "url": "https://bible.usccb.org/bible/readings/091427.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent Catholic Encyclopedia",
+      "url": "https://www.newadvent.org/cathen/04514b.htm",
+      "type": "encyclopedia"
+    },
+    {
+      "label": "Catholic Culture - Feasts",
+      "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2027-09-14",
+      "type": "liturgical_calendar"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-01",
+    "hebrew": "12 Elul 5787",
+    "islamic_umm_al_qura": "13 Rabi' al-Thani 1449 AH",
+    "coptic": "3 Thout 1744",
+    "ethiopian": "3 Meskerem 2020"
+  }
+}

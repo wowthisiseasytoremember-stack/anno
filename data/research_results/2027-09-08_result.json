@@ -1,0 +1,49 @@
+{
+  "id": "anno-2027-09-08",
+  "date": "2027-09-08",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "The Nativity of the Blessed Virgin Mary",
+    "title_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "The Nativity of the Blessed Virgin Mary",
+    "title_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria",
+    "summary_en": "The Nativity of the Blessed Virgin Mary is celebrated on September 8, marking the birth of Mary in Nazareth. This feast commemorates the beginning of Mary's life, who was chosen to be the Mother of Jesus. It is a time to reflect on the divine plan of salvation and the importance of Mary's role in Christian faith.",
+    "summary_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria được cử hành vào ngày 8 tháng 9, đánh dấu sự ra đời của Maria tại Nazareth. Lễ này tưởng nhớ sự khởi đầu cuộc sống của Maria, người được chọn để làm Mẹ của Chúa Giêsu. Đây là thời điểm để suy ngẫm về kế hoạch cứu độ của Thiên Chúa và vai trò quan trọng của Maria trong đức tin Kitô giáo.",
+    "body_en": "The Nativity of the Blessed Virgin Mary is one of the oldest Marian feasts, with roots tracing back to the early Church. It celebrates the birth of Mary, who was destined to become the Mother of Jesus. The feast is a reminder of the divine plan that began with Mary's birth, leading to the Incarnation and the salvation of humanity.\n\nIn liturgical practice, this feast is marked by special readings and prayers that highlight Mary's unique role in salvation history. It is a time for Catholics to honor Mary and seek her intercession, emphasizing the importance of humility and obedience in the life of faith.",
+    "body_vi": "Lễ Sinh Nhật Đức Trinh Nữ Maria là một trong những lễ cổ xưa nhất về Đức Maria, có nguồn gốc từ những ngày đầu của Giáo Hội. Lễ này cử hành sự ra đời của Maria, người được định sẵn để trở thành Mẹ của Chúa Giêsu. Lễ này là lời nhắc nhở về kế hoạch của Thiên Chúa bắt đầu từ sự ra đời của Maria, dẫn đến Cuộc Nhập Thể và sự cứu độ của nhân loại.\n\nTrong thực hành phụng vụ, lễ này được đánh dấu bằng các bài đọc và lời cầu nguyện đặc biệt làm nổi bật vai trò độc đáo của Maria trong lịch sử cứu độ. Đây là thời gian để người Công giáo tôn kính Maria và tìm kiếm sự chuyển cầu của Mẹ, nhấn mạnh tầm quan trọng của sự khiêm nhường và vâng phục trong đời sống đức tin.",
+    "confidence": "confirmed",
+    "confidence_note_en": "The feast date is fixed in the General Roman Calendar and widely recognized in Catholic liturgy.",
+    "confidence_note_vi": "Ngày lễ cố định trong Lịch Rôma Chung và được công nhận rộng rãi trong phụng vụ Công giáo."
+  },
+  "app_hooks": {
+    "hero_line_en": "Celebrate the birth of the Blessed Virgin Mary, the Mother of our Lord.",
+    "hero_line_vi": "Cử hành sự ra đời của Đức Trinh Nữ Maria, Mẹ của Chúa chúng ta.",
+    "prayer_prompt_en": "Lord, as we celebrate the Nativity of Mary, help us to embrace humility and obedience in our own lives.",
+    "prayer_prompt_vi": "Lạy Chúa, khi chúng con cử hành Lễ Sinh Nhật của Maria, xin giúp chúng con đón nhận sự khiêm nhường và vâng phục trong cuộc sống của chúng con."
+  },
+  "sources": [
+    {
+      "label": "USCCB Calendar",
+      "url": "https://www.usccb.org/bible/readings/090827.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "New Advent",
+      "url": "https://www.newadvent.org/cathen/01221a.htm",
+      "type": "encyclopedia"
+    }
+  ],
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-08-26",
+    "hebrew": "6 Elul 5787",
+    "islamic_umm_al_qura": "7 Rabi' al-Thani 1449 AH",
+    "coptic": "3 Pi Kogi Enavot 1743",
+    "ethiopian": "3 Pagumen 2019"
+  }
+}

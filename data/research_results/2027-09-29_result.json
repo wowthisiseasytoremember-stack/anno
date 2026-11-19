@@ -1,0 +1,52 @@
+{
+  "id": "anno-2027-09-29",
+  "date": "2027-09-29",
+  "weekday": "Wednesday",
+  "liturgical": {
+    "rank": "Feast",
+    "color": "white",
+    "title_en": "Sts. Michael, Gabriel, and Raphael, Archangels",
+    "title_vi": "Lễ Các Tổng Lãnh Thiên Thần Micae, Gabrie và Raphae"
+  },
+  "primary": {
+    "type": "feast",
+    "title_en": "Saints Michael, Gabriel, and Raphael, Archangels",
+    "title_vi": "Các Tổng Lãnh Thiên Thần Micae, Gabriel và Raphael",
+    "summary_en": "This feast day honors the three Archangels who are explicitly named in Scripture as messengers of God's will. Michael is venerated as the protector of the Church and leader of the heavenly hosts. Gabriel announced the births of John the Baptist and Jesus, while Raphael served as a guide and healer in the Book of Tobit.",
+    "summary_vi": "Lễ này tôn kính Ba Tổng Lãnh Thiên Thần, những người được Kinh Thánh nêu đích danh là sứ giả của ý Chúa. Micae được tôn vinh là đấng bảo trợ Giáo Hội và là thủ lãnh đạo binh thiên quốc. Gabriel đã loan báo việc sinh hạ của Gioan Tẩy Giả và Đức Giêsu, còn Raphael đóng vai trò hướng dẫn và chữa lành trong Sách Tobit.",
+    "body_en": "The celebration of September 29 marks the Feast of the Archangels, a tradition rooted in the dedication of the Church of St. Michael in Rome. The Church commemorates Michael, whose name means 'Who is like God?', for his role in defending the divine order and interceding for humanity. Gabriel is remembered for his profound humility and clarity in delivering the divine announcements of the Incarnation. Raphael is honored for his presence as a companion who brought healing and revelation through obedience to God.\n\nIn the liturgical readings, these angels are depicted as pure spirits who serve as instruments of divine providence. They do not seek their own glory but direct the faithful toward the Creator. The feast invites the faithful to recognize the invisible reality of heaven and to ask for the protection and guidance of these powerful intercessors in daily life.",
+    "body_vi": "Lễ cử hành vào ngày 29 tháng 9 đánh dấu Lễ Các Tổng Lãnh Thiên Thần, một truyền thống bắt nguồn từ việc cung hiến Đền Thờ Thánh Micae tại Rôma. Giáo Hội tưởng nhớ Micae, có nghĩa là 'Ai bằng Thiên Chúa?', vì vai trò bảo vệ trật tự thần linh và cầu bầu cho nhân loại. Gabriel được tưởng nhớ vì sự khiêm nhường sâu sắc và sự rõ ràng khi loan báo các mặc khải thần linh về mầu nhiệm Nhập Thể. Raphael được tôn kính vì sự hiện diện như một người bạn đồng hành mang lại sự chữa lành và mặc khải qua sự vâng phục Thiên Chúa.\n\nTrong các bài đọc phụng vụ, các thiên thần này được mô tả là những thần khí thuần khiết, đóng vai trò là khí cụ của quan phòng thần linh. Họ không tìm vinh quang cho mình nhưng dẫn dắt các tín hữu hướng về Đấng Tạo Hóa. Lễ này mời gọi các tín hữu nhận ra thực tại vô hình của trời cao và cầu xin sự che chở, hướng dẫn của các vị chuyển cầu quyền năng này trong đời sống hàng ngày.",
+    "confidence": "contextual",
+    "confidence_note_en": "This reflection describes the liturgical context rather than asserting a disputed historical claim.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_en": "God's Messengers in the Heavenly Host",
+    "hero_line_vi": "Sứ giả của Thiên Chúa trong đạo binh thiên quốc",
+    "prayer_prompt_en": "Pray for the intercession of the Archangels as you navigate your tasks today.",
+    "prayer_prompt_vi": "Hãy cầu xin sự chuyển cầu của các Tổng Lãnh Thiên Thần khi bạn thực hiện các công việc hôm nay."
+  },
+  "sources": [
+    {
+      "label": "USCCB Daily Readings for Sept 29, 2027",
+      "url": "https://bible.usccb.org/bible/readings/092927.cfm",
+      "type": "liturgical_calendar"
+    },
+    {
+      "label": "Catholic.org: St. Michael the Archangel",
+      "url": "https://www.catholic.org/saints/saint.php?saint_id=108",
+      "type": "encyclopedia"
+    }
+  ],
+  "confidence": "confirmed",
+  "confidence_note_en": "The date is the fixed feast of the Archangels in the General Roman Calendar.",
+  "confidence_note_vi": "Ngày này là lễ cố định Các Tổng Lãnh Thiên Thần trong Lịch Phụng Vụ Rôma Phổ Quát.",
+  "mock_priority": "engine_b_v1",
+  "calendars": {
+    "julian": "2027-09-16",
+    "hebrew": "27 Elul 5787",
+    "islamic_umm_al_qura": "28 Rabi' al-Thani 1449 AH",
+    "coptic": "18 Thout 1744",
+    "ethiopian": "18 Meskerem 2020"
+  }
+}

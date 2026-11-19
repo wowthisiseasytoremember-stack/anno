@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Sáu tuần 21 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Sáu Tuần 21 Mùa Thường Niên",
+    "summary_vi": "Trong ngày Thứ Sáu này, Giáo hội cử hành một ngày thường lệ (feria) trong Mùa Thường Niên. Màu phụng vụ là màu xanh lá cây, biểu tượng cho sự tăng trưởng và hy vọng. Không có lễ buộc hay lễ kính thánh nhân nào ưu tiên, giúp tập trung vào việc nên thánh hàng ngày.",
+    "body_vi": "Các bài đọc trong ngày này được xác định theo chu kỳ hai năm của Sách Lễ Rôma (Năm I, vì 2027 là năm lẻ cho chu kỳ Chúa nhật nhưng chu kỳ ngày thường có logic riêng; cụ thể, trong Phụng vụ Lời Chúa vào Mùa Thường Niên, các ngày thường tuân theo cấu trúc khác, nhưng thường đồng nhất với chu kỳ thời gian hiện tại). Các tín hữu được mời gọi lắng nghe Lời Chúa và đọc Kinh Phụng Vụ với sự chú tâm. Việc không có lễ kính thánh nhân cụ thể không làm giảm bớt tầm quan trọng tâm linh của ngày, vì mọi Kitô hữu đều được kêu gọi nên thánh trong những khoảnh khắc đời thường của cuộc sống.\n\nTrong Kinh Phụng Vụ, các thánh vịnh và bài đọc tương ứng với Thứ Sáu của Tuần 21. Cộng đoàn được khuyến khích duy trì nhịp cầu nguyện, dâng công việc và những đau khổ của mình làm những lễ vật tinh thần. Bối cảnh thời gian này nhấn mạnh sự biến đổi dần dần của người tín hữu trong Chúa Kitô thông qua sự tuân phục nhất quán Tin Mừng trong đời sống hàng ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng trưởng xanh trong vườn nho của Chúa.",
+    "prayer_prompt_vi": "Lạy Chúa, xin ban cho con sự trung tín trong những điều nhỏ bé của ngày hôm nay."
+  }
+}

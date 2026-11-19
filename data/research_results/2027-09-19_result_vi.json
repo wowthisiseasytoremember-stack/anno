@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Chúa Nhật tuần 23 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Chúa Nhật 23 Mùa Thường Niên",
+    "summary_vi": "Chúa Nhật này đánh dấu tuần lễ thứ hai mươi ba của năm phụng vụ trong Mùa Thường Niên. Các bài đọc tập trung vào tầm quan trọng của việc phục vụ khiêm nhường và sự chấp nhận ý Chúa. Đây là thời gian suy niệm về việc sống đức tin trong cuộc sống hàng ngày.",
+    "body_vi": "Phụng vụ cho Chúa Nhật thứ 23 Mùa Thường Niên mời gọi các tín hữu suy niệm về bản chất của việc làm môn đệ đích thực qua lăng kính của sự khiêm nhường và phục vụ. Trong Bài đọc thứ nhất, ngôn sứ Isaia nói về sự ủi an và bình an đến với những ai tin cậy vào Chúa. Điều này tạo nên giai điệu của hy vọng và sự phục hồi cho cộng đoàn.\n\nBài Tin Mừng thường nhấn mạnh vào nghịch lý của sự cao cả trong Nước Trời, nơi những người đứng đầu sẽ trở nên cuối cùng và những người cuối cùng sẽ trở nên đầu. Chúa Giêsu dạy các môn đệ rằng quyền lực đích thực được tìm thấy trong việc phục vụ người khác, thách thức cách hiểu của thế gian về quyền lực. Chúa Nhật này, được tô màu xanh lục tượng trưng cho sự tăng trưởng của Giáo Hội, khuyến khích người tin nuôi dưỡng đời sống tâm linh qua lời cầu nguyện nhất quán và lòng bác ái.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Phục vụ trong khiêm nhường, lớn lên trong ân sủng.",
+    "prayer_prompt_vi": "Lạy Chúa, xin dạy chúng con phục vụ lẫn nhau với sự khiêm nhường và tình yêu thương chân thật."
+  }
+}

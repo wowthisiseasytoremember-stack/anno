@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thánh Mátthêu, Tông đồ, Tác giả Sách Tin Mừng"
+  },
+  "primary": {
+    "title_vi": "Thánh Mátthêu, Tông đồ, Tác giả Sách Tin Mừng",
+    "summary_vi": "Giáo Hội cử hành lễ Thánh Mátthêu, người thu thuế đã trở thành Tông đồ và Tác giả Sách Tin Mừng. Ngài được truyền thống coi là tác giả của Tin Mừng đầu tiên, được viết chủ yếu cho độc giả Do Thái. Việc hoán cải của ngài minh chứng cho lòng thương xót của Chúa Kitô khi kêu gọi những người tội lỗi và những người bên lề xã hội.",
+    "body_vi": "Thánh Mátthêu, còn được gọi là Lêvi, là một người thu thuế tại Capharnaum, một nghề nghiệp thường bị đồng bào Do Thái khinh miệt do mối liên hệ với chính quyền Rôma và bị coi là thiếu trung thực. Chúa Giêsu đã kêu gọi ông làm môn đệ khi ông đang ngồi tại bàn thu thuế, cho thấy không ai nằm ngoài tầm với của ân sủng Thiên Chúa. Mátthêu lập tức từ bỏ của cải để theo Chúa Giêsu, một hành động triệt để của sự dứt bỏ và đức tin.\n\nVới tư cách là Tác giả Tin Mừng, Mátthêu đã biên soạn những lời giảng dạy và việc làm của Chúa Giêsu, lưu giữ Bài Giảng trên Núi và các dụ ngôn. Tin Mừng của ngài nổi bật với việc nhấn mạnh vào sự ứng nghiệm các lời tiên tri Cựu Ước trong Chúa Kitô và trình bày sứ mạng của Giáo Hội. Hôm nay, chúng ta tôn vinh ngài như bổn mạng của các kế toán viên và người thu thuế, cầu xin sự trung thực và liêm chính trong mọi giao dịch của chúng ta.",
+    "confidence_note_vi": "Lễ Thánh Mátthêu vào ngày 21 tháng 9 là ngày cố định trong Lịch Phụng vụ Rôma."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Được kêu gọi từ bàn thu thuế, Mátthêu đã tìm thấy một kho báu quý giá hơn vàng bạc: sự hiện diện của Chúa Kitô.",
+    "prayer_prompt_vi": "Lạy Chúa, như Mátthêu, xin cho con đáp lại lời kêu gọi của Chúa ngay lập tức, từ bỏ mọi điều cản trở hành trình con đến với Chúa."
+  }
+}

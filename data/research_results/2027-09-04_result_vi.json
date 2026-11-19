@@ -1,0 +1,15 @@
+{
+  "liturgical": {
+    "title_vi": "Thứ Bảy tuần 20 Mùa Thường Niên"
+  },
+  "primary": {
+    "title_vi": "Thứ Bảy Mùa Thường Niên",
+    "summary_vi": "Ngày này là thứ Bảy trong Tuần XXI Mùa Thường Niên, tập trung vào việc thánh hóa đời sống hàng ngày. Màu phụng vụ là xanh lá cây, tượng trưng cho niềm hy vọng và sự tăng trưởng trong đức tin Kitô giáo. Không có lễ trọng hay lễ kính phổ quát nào trong Lịch Rôma Chung vào ngày cụ thể này.",
+    "body_vi": "Với tư cách là thứ Bảy trong Mùa Thường Niên, Giáo Hội mời gọi các tín hữu suy niệm về sự tăng trưởng vững chắc của đời sống thiêng liêng. Các bài đọc trong Thánh Lễ tập trung vào nhu cầu hoán cải liên tục và sức mạnh của Lời Chúa trong những hoàn cảnh hàng ngày.\n\nViệc không có lễ kính thánh nào lớn cho phép tập trung vào nhịp điệu đức tin thông thường. Phụng vụ nhấn mạnh rằng sự thánh thiện không chỉ được tìm thấy trong những biến cố phi thường mà còn trong việc chu toàn trung tín các bổn phận và lời cầu nguyện hàng ngày.",
+    "confidence_note_vi": "Bài suy niệm này mô tả bối cảnh phụng vụ thay vì khẳng định một tuyên bố lịch sử còn tranh luận."
+  },
+  "app_hooks": {
+    "hero_line_vi": "Tăng Trưởng Đức Tin Qua Những Ngày Thường Nhật",
+    "prayer_prompt_vi": "Lạy Chúa, xin giúp con tìm thấy sự thánh thiện trong các bổn phận hàng ngày và tin tưởng vào ân sủng bền vững của Chúa."
+  }
+}
